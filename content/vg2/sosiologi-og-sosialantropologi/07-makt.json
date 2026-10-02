@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvordan definerte Max Weber makt?",
       "options": [
-        "Evnen til å tjene penger",
+        "Muligheten til å få andre til å følge regler gjennom formell myndighet",
         "Sjansen til å få gjennomført sin vilje, også mot motstand",
-        "Retten til å stemme",
-        "Å være populær"
+        "Evnen til å påvirke andres valg gjennom personlig popularitet",
+        "Retten til å bestemme over andre fordi man har en offentlig stilling"
       ],
       "correct": 1,
       "explain": "En klassisk definisjon."
@@ -91,9 +91,9 @@
       "text": "Hvilken autoritet bygger på lover og regler?",
       "options": [
         "Legal-rasjonell",
-        "Tradisjonell",
-        "Karismatisk",
-        "Ideologisk"
+        "Demokratisk",
+        "Religiøs",
+        "Patriarkalsk"
       ],
       "correct": 0,
       "explain": "Typisk for moderne demokratier."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er skjult makt ifølge Lukes?",
       "options": [
-        "Makt i en avstemning",
-        "Makt gjennom vold",
+        "Makten til å avgjøre utfallet av en synlig avstemning",
+        "Makten til å håndheve regler gjennom fysisk tvang og trusler",
         "Makten til å bestemme hva som kommer på dagsordenen",
-        "Makt over naturen"
+        "Makten til å kontrollere økonomiske ressurser og fordele dem ulikt"
       ],
       "correct": 2,
       "explain": "Noen saker blir aldri diskutert."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva mente Foucault med disiplinmakt?",
       "options": [
-        "Straff med pisk",
-        "Makt bare hos kongen",
-        "Makt gjennom penger",
+        "Makt som virker gjennom direkte fysisk straff og offentlig avstraffelse",
+        "Makt som utøves gjennom formelle lover og rettslige vedtak",
+        "Makt som følger av ulik tilgang til penger og eiendom",
         "Makt som virker gjennom overvåking og normalisering"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er kulturell kapital hos Bourdieu?",
       "options": [
         "Utdanning, kunnskap, språk og smak",
-        "Penger",
-        "Venner",
-        "Eiendom"
+        "Penger, inntekt, eiendom og andre økonomiske ressurser",
+        "Venner, bekjente, nettverk og personlige forbindelser",
+        "Eiendom, maskiner, aksjer og andre materielle verdier"
       ],
       "correct": 0,
       "explain": "Kan gi fordeler i skole og arbeidsliv."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er karismatisk autoritet?",
       "options": [
-        "Autoritet basert på lover",
+        "Autoritet basert på lederens formelle posisjon og lovfestede myndighet",
         "Autoritet basert på lederens personlige egenskaper",
-        "Autoritet basert på tradisjon",
-        "Autoritet basert på rikdom"
+        "Autoritet basert på langvarige skikker og arvede roller",
+        "Autoritet basert på lederens eierskap til store økonomiske ressurser"
       ],
       "correct": 1,
       "explain": "Evnen til å inspirere."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er ideologisk makt?",
       "options": [
-        "Makt i en synlig konflikt",
-        "Makt over dagsordenen",
+        "Makten til å avgjøre en sak gjennom en åpen avstemning",
+        "Makten til å håndheve regler ved hjelp av politi og militær",
         "Makten til å forme hva folk ønsker og tenker",
-        "Makt gjennom militæret"
+        "Makten til å kontrollere produksjon og fordeling av økonomiske ressurser"
       ],
       "correct": 2,
       "explain": "Lukes' tredje dimensjon."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvordan kan grupper med lite formell makt påvirke samfunnet?",
       "options": [
-        "De kan ikke påvirke",
-        "Bare ved å bli rike",
-        "Bare gjennom kongen",
+        "Gjennom å bli utnevnt til ledende stillinger i staten",
+        "Gjennom å eie bedrifter og finansiere politiske partier",
+        "Gjennom å styre politiet og forvalte offentlige lover",
         "Gjennom demonstrasjoner, streik, boikott og sosiale medier"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva er mediemakt?",
       "options": [
         "Makten til å sette dagsorden og vinkle saker",
-        "Makten til å vedta lover",
-        "Makten til å dømme",
-        "Makten til å kreve skatt"
+        "Makten til å vedta lover og fastsette offentlige regler",
+        "Makten til å avgjøre skyld og idømme straff i retten",
+        "Makten til å fastsette skattesatser og kreve inn offentlige avgifter"
       ],
       "correct": 0,
       "explain": "Også plattformenes algoritmer.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvordan kan makt virke gjennom strukturer?",
       "options": [
-        "Bare gjennom bevisste beslutninger",
-        "Gjennom lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det",
-        "Bare gjennom vold",
-        "Den kan ikke det"
+        "Gjennom personlige beslutninger der enkeltpersoner bevisst gir bestemte grupper fordeler",
+        "Gjennom lover, økonomi og normer som gir noen fordeler uten bevisste enkeltvedtak",
+        "Gjennom fysisk tvang fra myndigheter som håndhever regler med politi",
+        "Gjennom formelle avtaler mellom personer som fordeler ressurser likt i samfunnet"
       ],
       "correct": 1,
       "explain": "Makt er ikke bare aktørers bevisste valg."
@@ -328,9 +328,9 @@
         "text": "Hva er et eksempel på tradisjonell autoritet?",
         "options": [
           "En konge som arver tronen",
-          "En valgt ordfører",
-          "En populær influenser",
-          "En dommer"
+          "En president valgt gjennom nasjonale valg",
+          "En religiøs leder valgt av et kirkemøte",
+          "En statsminister utnevnt etter parlamentsvalg"
         ],
         "correct": 0,
         "explain": "Bygger på skikk og vane."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilket bilde brukte Foucault om disiplinmakt?",
         "options": [
-          "Pyramiden",
-          "Tårnet i Babel",
+          "Fabrikken",
+          "Skolen",
           "Panoptikon",
-          "Labyrinten"
+          "Sykehuset"
         ],
         "correct": 2,
         "explain": "Fangene vet aldri om de blir sett.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

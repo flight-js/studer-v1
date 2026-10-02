@@ -106,9 +106,9 @@
       "id": "q01",
       "text": "Hvorfor forsterker smelting av snø og is oppvarmingen?",
       "options": [
-        "Smeltevann er varmt",
-        "Is lager CO₂",
-        "Isen gir fra seg varme",
+        "Lysere overflate tar opp mer solenergi",
+        "Smeltevann reflekterer mer sollys enn snø",
+        "Mindre is øker havets refleksjon av sollys",
         "Mørkere overflate tar opp mer solenergi"
       ],
       "correct": 3,
@@ -118,10 +118,10 @@
       "id": "q02",
       "text": "Hva skjer ved en divergent plategrense?",
       "options": [
-        "Platene beveger seg fra hverandre og ny skorpe dannes",
-        "Platene kolliderer",
-        "Platene glir forbi hverandre",
-        "En plate dykker ned"
+        "Platene beveger seg fra hverandre, og ny skorpe dannes.",
+        "Platene beveger seg mot hverandre, og eldre skorpe presses ned.",
+        "Platene glir sidelengs forbi hverandre, og skorpa bevares.",
+        "En plate synker under en annen, og eldre skorpe går ned i mantelen."
       ],
       "correct": 0,
       "explain": "For eksempel Den midtatlantiske ryggen."
@@ -131,9 +131,9 @@
       "text": "Hvorfor har granitt store krystaller?",
       "options": [
         "Den størknet langsomt dypt i jorda",
-        "Den størknet raskt på overflaten",
-        "Den er dannet av sedimenter",
-        "Den er omdannet av trykk"
+        "Den størknet raskt nær jordoverflaten",
+        "Den ble dannet da sedimenter ble presset sammen",
+        "Den ble omdannet av trykk og varme"
       ],
       "correct": 0,
       "explain": "Krystallene fikk tid til å vokse."
@@ -154,10 +154,10 @@
       "id": "q05",
       "text": "Hva kjennetegner en morene?",
       "options": [
-        "Sortert og lagdelt sand",
+        "Sortert lag av sand og grus fra smeltevann",
         "Usortert blanding av leire, sand, stein og blokker",
-        "Bare leire",
-        "Organisk materiale"
+        "Finkornet leire avsatt i stille vann",
+        "Torv og planterester avsatt i myr"
       ],
       "correct": 1,
       "explain": "Isen avsetter alt om hverandre."
@@ -167,9 +167,9 @@
       "text": "Hvordan dannes en fjord?",
       "options": [
         "En U-dal gravd ut av is blir fylt av havet",
-        "En elv graver en V-dal",
-        "Vinden blåser bort sand",
-        "Et jordskjelv åpner en sprekk"
+        "En elv graver ut en V-dal som fylles av havet",
+        "En isbre graver ut en V-dal som fylles av havet",
+        "Et jordskjelv lager en sprekk i fjellet som fylles av havet"
       ],
       "correct": 0,
       "explain": "Sognefjorden er et eksempel."
@@ -179,9 +179,9 @@
       "text": "Hva står A for i vannbalanselikningen N = F + A + ΔM?",
       "options": [
         "Avrenning",
-        "Atmosfære",
-        "Akvifer",
-        "Areal"
+        "Avdamping",
+        "Akkumulering",
+        "Avsiving"
       ],
       "correct": 0,
       "explain": "N er nedbør, F fordampning."
@@ -190,10 +190,10 @@
       "id": "q08",
       "text": "Hvorfor får byer oftere overvannsflom?",
       "options": [
-        "Det regner mer i byer",
-        "Tette flater hindrer infiltrasjon",
-        "Byer ligger alltid lavt",
-        "Grunnvannet er høyere"
+        "Høyere grunnvannstand gjør at regnet renner raskere av",
+        "Tette flater hindrer vann i å infiltrere i bakken",
+        "Flere trær gjør at regnvann renner raskere over bakken",
+        "Bygninger øker fordampningen av regnvann før det renner av"
       ],
       "correct": 1,
       "explain": "Regnet renner raskt av."
@@ -202,9 +202,9 @@
       "id": "q09",
       "text": "Hva er virtuelt vann?",
       "options": [
-        "Vann i dataspill",
-        "Grunnvann",
-        "Vann i atmosfæren",
+        "Vannet som finnes naturlig i selve varen før bruk",
+        "Vannet som trengs for å transportere en vare til butikken",
+        "Vannet som renses etter bruk i vareproduksjonen",
         "Vannet som er brukt til å lage en vare"
       ],
       "correct": 3,
@@ -214,10 +214,10 @@
       "id": "q10",
       "text": "Hvor samles olje og gass?",
       "options": [
-        "I takbergarten",
-        "I granitt",
+        "I en tett reservoarbergart under en porøs takbergart",
+        "I porøse bergarter uten et tett lag over",
         "I en porøs reservoarbergart under en tett takbergart",
-        "I morene"
+        "I sprekker i grunnfjellet under løsmassene"
       ],
       "correct": 2,
       "explain": "Fanget i en felle."
@@ -226,10 +226,10 @@
       "id": "q11",
       "text": "Hva er risiko?",
       "options": [
-        "Bare sannsynligheten for en hendelse",
+        "Sannsynlighet + konsekvens",
         "Sannsynlighet × konsekvens",
-        "Antall skred i året",
-        "Hvor stor en naturfare er"
+        "Sannsynlighet − konsekvens",
+        "Sannsynlighet ÷ konsekvens"
       ],
       "correct": 1,
       "explain": "Både hvor ofte og hvor alvorlig."
@@ -239,9 +239,9 @@
       "text": "Hvordan oppstår en tsunami?",
       "options": [
         "Når havbunnen plutselig forskyves eller store mengder vann fortrenges",
-        "Når det blåser mye",
-        "Når tidevannet er høyt",
-        "Når isen smelter"
+        "Når vinden blåser lenge over havet og lager høye bølger",
+        "Når tidevannet stiger ekstra høyt på grunn av fullmåne",
+        "Når isbreer smelter raskt og tilfører havet mye vann"
       ],
       "correct": 0,
       "explain": "Ofte ved jordskjelv i subduksjonssoner."
@@ -383,7 +383,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -405,9 +405,9 @@
         "text": "Hvilket eksempel viser samspill mellom hydrosfæren og geosfæren?",
         "options": [
           "En elv som graver ut en dal",
-          "Vind over havet",
-          "Fotosyntese",
-          "Nordlys"
+          "En vind som sliter på en fjellside",
+          "Røtter som vokser gjennom sprekker i fjell",
+          "Skyer som dannes over et varmt hav"
         ],
         "correct": 0,
         "explain": "Erosjon og avsetning."
@@ -417,10 +417,10 @@
         "type": "flervalg",
         "text": "Hva er litosfæren?",
         "options": [
-          "Den flytende kjernen",
-          "Atmosfærens nederste lag",
+          "Skorpa og nederste mantel, delt i plater",
+          "Skorpa og øverste mantel, smeltet til magma",
           "Skorpa og øverste mantel, delt i plater",
-          "Havbunnens sedimenter"
+          "Skorpa og øverste mantel, flytende som vann"
         ],
         "correct": 2,
         "explain": "Den er stiv."
@@ -444,14 +444,13 @@
         "type": "flervalg",
         "text": "Hvilken metode brukes for å finne kornfordelingen i en prøve?",
         "options": [
-          "Syretest",
+          "Syretesting",
           "Sikting",
-          "Radiometrisk datering",
-          "Kompassmåling"
+          "Kompassmåling",
+          "Hardhetsmåling"
         ],
         "correct": 1,
-        "explain": "Prøven ristes gjennom sikter med ulik maskevidde.",
-        "niva": "eksempel"
+        "explain": "Prøven ristes gjennom sikter med ulik maskevidde."
       },
       {
         "id": "m06",
@@ -465,14 +464,14 @@
         "type": "flervalg",
         "text": "Hva betyr oppredning?",
         "options": [
-          "Å bore etter olje",
+          "Å smelte malmen for å hente ut metallet",
           "Å skille verdifulle mineraler fra resten av malmen",
-          "Å lage kart",
-          "Å deponere avfall"
+          "Å frakte malmen fra gruva til et anlegg",
+          "Å lagre gruveavfall i et deponi etter utvinning"
         ],
         "correct": 1,
         "explain": "Etter knusing.",
-        "niva": "eksempel"
+        "niva": "over-niva"
       },
       {
         "id": "m08",
@@ -555,12 +554,84 @@
           "Knytter sårbarhet eller konsekvens til at en skole ligger utsatt.",
           "Nevner arealplanlegging eller et annet relevant forebyggende tiltak."
         ]
+      },
+      {
+        "text": "Jorda inneholder omtrent 2,5 % ferskvann. I en modell med 4000 liter vann totalt, hvor mange liter skal representere ferskvannet?",
+        "fasit": "2,5 % av 4000 liter er 100 liter. Modellen skal derfor vise 100 liter ferskvann.",
+        "kriterier": [
+          "Regner ut 2,5 % av 4000 liter riktig: 100 liter."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Ved en konvergent plategrense møtes en havbunnsplate og en kontinentalplate. Beskriv hva som skjer med havbunnsplaten, og nevn to geologiske farer eller prosesser som kan oppstå ved denne plategrensen.",
+        "fasit": "Den tunge havbunnsplaten synker ned under kontinentalplaten. Dette kan danne dyphavsgrøfter og føre til kraftige jordskjelv og vulkaner.",
+        "kriterier": [
+          "Forklarer at havbunnsplaten subduseres under kontinentalplaten.",
+          "Nevner to relevante følger, for eksempel dyphavsgrøft, jordskjelv eller vulkaner."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "På verdensbasis går omtrent 70 % av ferskvannet som tas ut, til jordbruk. Hvor mange enheter går til jordbruk dersom det tas ut 600 enheter ferskvann?",
+        "fasit": "70 % av 600 er 420. Det går altså 420 enheter til jordbruk.",
+        "kriterier": [
+          "Regner ut 70 % av 600 riktig: 420 enheter."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Et stort vulkanutbrudd sender svovelpartikler opp i lufta. Forklar hvilke jordsystemer som samspiller, og hvordan partiklene kan påvirke klimaet de neste årene.",
+        "fasit": "Geosfæren og atmosfæren samspiller når utbruddet sender partikler fra vulkanen opp i lufta. Svovelpartiklene reflekterer sollys og kan kjøle ned klimaet i noen år.",
+        "kriterier": [
+          "Knytter vulkanutbruddet i geosfæren til atmosfæren.",
+          "Forklarer at svovelpartikler reflekterer sollys og kan gi midlertidig nedkjøling."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Langt over dagens havnivå finner du en gammel strandlinje med skjell. Hva forteller funnet om havnivået etter siste istid, og hvordan kan landhevingen ha oppstått?",
+        "fasit": "Strandlinjen viser at havet tidligere nådde høyere opp i terrenget enn i dag. Isen presset jordskorpa ned under istida, og etter at isen smeltet, steg landet igjen.",
+        "kriterier": [
+          "Forklarer at strandlinjen viser et tidligere havnivå.",
+          "Knytter landhevingen til at jordskorpa steg etter at isen smeltet og trykket avtok."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et skogsområde blir ryddet for trær. Forklar hvordan dette kan påvirke både vannføringen etter regn og erosjonen i området.",
+        "fasit": "Når skogen fjernes, blir transpirasjonen mindre, og vannet renner raskere av på overflaten. Det kan føre til mer erosjon.",
+        "kriterier": [
+          "Nevner at mindre transpirasjon kan gi raskere avrenning.",
+          "Knytter avskoging til økt erosjon."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En trebit som antas å være omtrent 8000 år gammel, blir funnet begravd i sedimenter. Hvilken radiometrisk metode passer for å datere treet, og daterer metoden treet eller sedimentene direkte?",
+        "fasit": "Karbon-14-datering passer fordi treet er organisk materiale og alderen er under omtrent 50 000 år. Metoden daterer treet direkte, ikke sedimentene rundt det.",
+        "kriterier": [
+          "Velger karbon-14 fordi prøven er organisk og innenfor metodens aldersområde.",
+          "Forklarer at dateringen gjelder treet, ikke sedimentene direkte."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Sjeldne jordartsmetaller kan brukes i magneter til vindturbiner og elbiler. Forklar hvordan utvinning av slike metaller både kan bidra til det grønne skiftet og skape miljøutfordringer, og nevn ett tiltak for mer bærekraftig bruk.",
+        "fasit": "Metallene trengs blant annet til teknologien i vindturbiner og elbiler, men gruvedrift kan gi naturinngrep og gruveavfall. Gjenvinning av metaller kan redusere behovet for nye inngrep og avfall.",
+        "kriterier": [
+          "Knytter sjeldne jordartsmetaller til teknologi i det grønne skiftet.",
+          "Nevner en miljøutfordring ved gruvedrift og et relevant tiltak, for eksempel gjenvinning eller strenge miljøkrav."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

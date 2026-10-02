@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er en identitet?",
       "options": [
-        "En likning med én løsning",
+        "En likhet som er sann for én bestemt verdi av variablene",
         "En likhet som er sann for alle verdier av variablene",
-        "Et uttrykk uten likhetstegn",
-        "En funksjon"
+        "En likhet som er sann for to bestemte verdier av variablene",
+        "En likhet som ikke inneholder noen variabler"
       ],
       "correct": 1,
       "explain": "Kvadratsetningene er eksempler på identiteter."
@@ -129,7 +129,7 @@
         "x = 5, y = 5",
         "x = 3, y = 7",
         "x = 4, y = 6",
-        "x = 10, y = 0"
+        "x = 6, y = 4"
       ],
       "correct": 0,
       "explain": "Addisjon gir 3x = 15, så x = 5 og y = 5."
@@ -151,9 +151,9 @@
       "text": "Hvordan finner du løsningen av et likningssett grafisk?",
       "options": [
         "Nullpunktet til den ene linjen",
-        "Der linjene skjærer y-aksen",
+        "Skjæringspunktet med y-aksen",
         "Skjæringspunktet mellom linjene",
-        "Ved å sammenligne stigningstallene"
+        "Punktet der stigningstallene er like"
       ],
       "correct": 2,
       "explain": "Skjæringspunktet passer i begge likningene."
@@ -176,7 +176,7 @@
       "options": [
         "Addisjonsmetoden",
         "Innsettingsmetoden",
-        "Prøve og feile",
+        "Prøve-og-feile-metoden",
         "Fortegnsskjema"
       ],
       "correct": 0,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvordan kan du kontrollere at en løsning er riktig?",
       "options": [
-        "Gjette",
-        "Sette prøve i den opprinnelige likningen",
-        "Spørre en venn",
-        "Se på grafen til en annen likning"
+        "Regne ut venstre side i den opprinnelige likningen",
+        "Sette løsningen inn i den opprinnelige likningen",
+        "Tegne grafen til den opprinnelige likningen",
+        "Sammenligne koeffisientene på begge sider av likningen"
       ],
       "correct": 1,
       "explain": "Venstre og høyre side skal bli like."
@@ -332,7 +332,7 @@
           "Nullpunkt",
           "Løs",
           "Skjæring",
-          "RegLin"
+          "Faktoriser"
         ],
         "correct": 1,
         "explain": "Løs(likning, x) gir løsningen.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "To likninger gir parallelle linjer. Hvor mange løsninger har likningssettet?",
         "options": [
-          "Én",
-          "To",
-          "Ingen",
-          "Uendelig mange"
+          "Én løsning",
+          "To løsninger",
+          "Ingen løsninger",
+          "Uendelig mange løsninger"
         ],
         "correct": 2,
         "explain": "Parallelle linjer krysser aldri."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

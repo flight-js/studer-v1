@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Når kom Svartedauden til Norge?",
       "options": [
-        "1066",
+        "1348",
         "1349",
-        "1537",
-        "1814"
+        "1350",
+        "1397"
       ],
       "correct": 1,
       "explain": "Kanskje halvparten av befolkningen døde."
@@ -94,9 +94,9 @@
       "text": "Hva forklarer Tegnérs uttrykk «freden, vaksinen og poteten»?",
       "options": [
         "Befolkningsveksten på 1800-tallet",
-        "Svartedauden",
-        "Utvandringen",
-        "Eldrebølgen"
+        "Utvandringen fra Norge på 1800-tallet",
+        "Urbaniseringen i Norge på 1800-tallet",
+        "Industrialiseringen i Norge på 1800-tallet"
       ],
       "correct": 0,
       "explain": "Dødeligheten falt, mens fødselstallet var høyt.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Omtrent hvor mange nordmenn utvandret til Amerika fra 1825 til 1930?",
       "options": [
-        "8 000",
-        "80 000",
+        "600 000",
+        "1 200 000",
         "800 000",
-        "8 millioner"
+        "2 000 000"
       ],
       "correct": 2,
       "explain": "De fleste dro til USA.",
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva var en viktig årsak til utvandringen?",
       "options": [
-        "For mye jord i Norge",
-        "At USA var stengt",
-        "Gode jobber i Norge",
-        "Befolkningspress og mangel på jord og arbeid"
+        "Befolkningspress og mangel på jord og arbeid i USA",
+        "Befolkningspress og mangel på jord og arbeid i Sverige",
+        "Befolkningspress og mangel på jord og arbeid i Danmark",
+        "Befolkningspress og mangel på jord og arbeid i Norge"
       ],
       "correct": 3,
       "explain": "Billig jord i Amerika lokket også."
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "Hvilken konsekvens fikk Svartedauden?",
       "options": [
-        "Mange gårder ble øde og adel og kirke mistet makt",
-        "Befolkningen økte raskt",
-        "Norge ble en stormakt",
-        "Byene vokste"
+        "Mange gårder ble øde, og adel og kirke mistet makt.",
+        "Mange gårder ble tatt i bruk, og adel og kirke fikk makt.",
+        "Folketallet økte raskt, og adel og kirke fikk større makt.",
+        "Byene vokste raskt, og adel og kirke fikk større makt."
       ],
       "correct": 0,
       "explain": "Skatteinntektene falt også."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hvorfor falt fødselstallet på 1900-tallet?",
       "options": [
-        "Fordi folk ble fattigere",
+        "Høyere barnedødelighet, kortere utdanning, færre kvinner i arbeid og mindre prevensjon",
         "Lavere barnedødelighet, utdanning, kvinner i arbeid og prevensjon",
-        "Fordi det ble forbudt å få barn",
-        "Fordi alle flyttet på landet"
+        "Høyere barnedødelighet, mindre utdanning, færre kvinner i arbeid og mindre prevensjon",
+        "Lengre levealder, mindre utdanning, færre kvinner i arbeid og mindre prevensjon"
       ],
       "correct": 1,
       "explain": "Flere faktorer virket sammen."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er eldrebølgen?",
       "options": [
-        "At eldre flytter til utlandet",
-        "En type pensjon",
+        "At andelen unge i befolkningen øker",
+        "At andelen eldre i befolkningen synker",
         "At andelen eldre i befolkningen øker",
-        "At det fødes flere barn"
+        "At antallet fødsler i befolkningen øker"
       ],
       "correct": 2,
       "explain": "Det gir flere pensjonister per arbeidstaker."
@@ -181,9 +181,9 @@
       "text": "Hva er demografi?",
       "options": [
         "Læren om befolkningen",
-        "Læren om demokrati",
-        "Læren om kart",
-        "Læren om økonomi"
+        "Læren om samfunnsstyring",
+        "Læren om jordas landskap",
+        "Læren om produksjon og handel"
       ],
       "correct": 0,
       "explain": "Antall, alder, fødsler, dødsfall og flytting."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Når passerte verdens befolkning åtte milliarder?",
       "options": [
-        "1950",
+        "2018",
         "2022",
-        "2000",
-        "1800"
+        "2020",
+        "2025"
       ],
       "correct": 1,
       "explain": "Rundt 1800 var vi om lag én milliard.",
@@ -321,9 +321,9 @@
         "text": "Hvor bosatte mange norske utvandrere seg?",
         "options": [
           "I Midtvesten i USA",
-          "I Sør-Amerika",
-          "I Australia",
-          "I Afrika"
+          "I det sørlige Argentina",
+          "I det østlige Australia",
+          "I det sørlige Afrika"
         ],
         "correct": 0,
         "explain": "Det oppsto store norsk-amerikanske miljøer der.",
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Fra hvilket år ble koppevaksine påbudt i Norge?",
         "options": [
-          "1349",
+          "1801",
           "1810",
-          "1905",
-          "1960"
+          "1814",
+          "1830"
         ],
         "correct": 1,
         "explain": "Vaksinen bidro til at dødeligheten falt.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er en virkning av eldrebølgen for samfunnet?",
         "options": [
-          "Færre pensjonister",
-          "Mindre behov for omsorg",
+          "Mindre behov for helse- og omsorgstjenester",
+          "Større behov for barnehage- og skoletjenester i samfunnet",
           "Større behov for helse- og omsorgstjenester",
-          "Flere barn i skolen"
+          "Flere arbeidstakere per pensjonist i samfunnet"
         ],
         "correct": 2,
         "explain": "Det blir også færre arbeidstakere per pensjonist."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

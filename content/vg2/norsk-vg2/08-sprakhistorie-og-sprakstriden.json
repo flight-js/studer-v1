@@ -92,7 +92,7 @@
         "Knud Knudsen",
         "Ivar Aasen",
         "Henrik Wergeland",
-        "Snorre Sturlason"
+        "P.A. Munch"
       ],
       "correct": 0,
       "explain": "Linjen hans ble til riksmål og bokmål."
@@ -102,9 +102,9 @@
       "text": "Hva bygde Ivar Aasen landsmålet på?",
       "options": [
         "Dansk skriftspråk",
-        "Embetsmennenes tale",
+        "Embetsmennenes talemål",
         "Dialektene",
-        "Svensk"
+        "Norrøne tekster"
       ],
       "correct": 2,
       "explain": "Han reiste rundt og samlet dialekter."
@@ -114,8 +114,8 @@
       "text": "Hva ble vedtatt 12. mai 1885?",
       "options": [
         "Grunnloven",
-        "Språkloven",
         "Rettskrivningsreformen",
+        "Språkloven",
         "Jamstillingsvedtaket"
       ],
       "correct": 3,
@@ -128,7 +128,7 @@
         "1929",
         "1885",
         "1907",
-        "2002"
+        "1917"
       ],
       "correct": 0,
       "explain": "Før het de riksmål og landsmål."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva var samnorskpolitikken?",
       "options": [
-        "Å innføre svensk",
+        "Å gjøre nynorsk til hovedmål i hele landet",
         "Å føre bokmål og nynorsk sammen til ett skriftspråk",
-        "Å forby dialekter",
-        "Å innføre engelsk i skolen"
+        "Å erstatte bokmål og nynorsk med svensk skriftspråk",
+        "Å gjøre dialekter til felles skriftspråk i skolen"
       ],
       "correct": 1,
       "explain": "Den førte til bitter språkstrid."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva var foreldreaksjonen på 1950-tallet?",
       "options": [
-        "En aksjon for nynorsk",
-        "En aksjon for mer engelsk",
+        "En protest mot nynorsk der foreldre rettet lærebøker",
+        "En protest mot samnorsk der lærere rettet lærebøker",
         "En protest mot samnorsk der foreldre rettet lærebøker",
-        "En aksjon for dialekter"
+        "En kampanje for samnorsk der foreldre rettet lærebøker"
       ],
       "correct": 2,
       "explain": "Riksmålsfolk protesterte mot «tvangsformer».",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva sier språkloven fra 2022 om bokmål og nynorsk?",
       "options": [
-        "At bokmål er viktigst",
-        "At nynorsk skal avskaffes",
-        "At de skal slås sammen",
+        "At bokmål har høyere status",
+        "At nynorsk skal avvikles",
+        "At målformene skal slås sammen",
         "At de er likestilte skriftspråk"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva innebar rettskrivningsreformen i 1907?",
       "options": [
         "Riksmålet ble mer norsk, blant annet med harde konsonanter",
-        "Nynorsk ble forbudt",
-        "Samisk ble offisielt",
-        "Engelsk ble obligatorisk"
+        "Riksmålet ble mer dansk, blant annet med bløte konsonanter",
+        "Landsmålet ble mer norsk, blant annet med harde konsonanter",
+        "Riksmålet tok opp svenske former, blant annet i substantivbøyningen"
       ],
       "correct": 0,
       "explain": "For eksempel gate i stedet for gade."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvor stor andel av elevene har omtrent nynorsk som hovedmål?",
       "options": [
-        "Halvparten",
-        "Rundt en av ti",
-        "Nesten alle",
-        "Ingen"
+        "Rundt to av ti",
+        "Rundt én av ti",
+        "Rundt tre av ti",
+        "Rundt fem av ti"
       ],
       "correct": 1,
       "explain": "De fleste bor på Vestlandet.",
@@ -319,9 +319,9 @@
         "text": "Hvilken hendelse bidro til at det norrøne skriftspråket forsvant?",
         "options": [
           "Svartedauden og unionene",
-          "Reformasjonen alene",
-          "Grunnloven",
-          "Industrialiseringen"
+          "Vikingtida og kristningen",
+          "Grunnloven og parlamentarismen",
+          "Industrialiseringen og urbaniseringen"
         ],
         "correct": 0,
         "explain": "Etter Svartedauden kom unionene med Sverige og Danmark."
@@ -333,8 +333,8 @@
         "options": [
           "Stortinget",
           "Språkrådet",
-          "Universitetene",
-          "Kongen"
+          "Kulturdepartementet",
+          "Norsk språknemnd"
         ],
         "correct": 1,
         "explain": "Språkrådet er statens fagorgan for norsk språk.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er spesielt med språksituasjonen i Norge?",
         "options": [
-          "Alle skriver dialekt",
-          "Norge har bare ett skriftspråk",
+          "Ett likestilt skriftspråk og stor aksept for dialekter",
+          "To likestilte talemålsformer og stor aksept for dialekter",
           "To likestilte skriftformer og stor aksept for dialekter",
-          "Engelsk er offisielt språk"
+          "To likestilte skriftformer og liten aksept for dialekter"
         ],
         "correct": 2,
         "explain": "Det er et resultat av historien."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

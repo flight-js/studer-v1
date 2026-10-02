@@ -97,9 +97,9 @@
       "text": "Hvilken filosofisk idé er knyttet til Camus?",
       "options": [
         "Det absurde",
-        "Opplysning",
-        "Romantikk",
-        "Realisme"
+        "Opplysningstiden",
+        "Romantikken",
+        "Realismen"
       ],
       "correct": 0,
       "explain": "Livet har ingen gitt mening, men vi søker mening likevel.",
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "Hva kjennetegner Préverts dikt?",
       "options": [
-        "Lange, kompliserte ord",
-        "Strenge rim og gammelt språk",
+        "Et høytidelig språk og mytiske personer",
+        "Strenge rim og faste verselinjer",
         "Enkle ord og hverdagslige situasjoner",
-        "Bare om krig"
+        "Historiske personer og politiske taler"
       ],
       "correct": 2,
       "explain": "Mange franske elever lærer dem utenat.",
@@ -122,9 +122,9 @@
       "id": "q04",
       "text": "Hva er «la chute» i en novelle?",
       "options": [
-        "begynnelsen",
-        "fortelleren",
-        "tittelen",
+        "den innledende delen",
+        "den fortellende stemmen",
+        "den sentrale konflikten",
         "den overraskende slutten"
       ],
       "correct": 3,
@@ -135,9 +135,9 @@
       "text": "Når fikk Camus Nobelprisen i litteratur?",
       "options": [
         "1957",
-        "1942",
-        "2022",
-        "1913"
+        "1947",
+        "1952",
+        "1964"
       ],
       "correct": 0,
       "explain": "Annie Ernaux fikk den i 2022.",
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hvilken tid er «L'Étranger» skrevet i, som gir en nøktern tone?",
       "options": [
-        "Futur",
-        "Subjonctif",
+        "Imparfait",
+        "Passé simple",
         "Passé composé",
-        "Conditionnel"
+        "Présent"
       ],
       "correct": 2,
       "explain": "Det er uvanlig for en roman.",
@@ -172,10 +172,10 @@
       "id": "q08",
       "text": "Hva handler «Déjeuner du matin» om?",
       "options": [
-        "En stor fest",
-        "En reise til Paris",
-        "En krig",
-        "En mann som ikke snakker med eller ser på den andre, som gråter"
+        "Et par spiser frokost sammen og snakker om dagens planer ved bordet.",
+        "En mann forteller den andre om en hyggelig reise de snart skal ta.",
+        "To venner møtes til frokost og ler av en morsom historie.",
+        "En mann spiser frokost uten å snakke med eller se på den gråtende personen."
       ],
       "correct": 3,
       "explain": "Det usagte sier mye om ensomhet.",
@@ -186,9 +186,9 @@
       "text": "Hvordan sier du «Teksten handler om ensomhet»?",
       "options": [
         "Le texte parle de la solitude.",
-        "Le texte est solitude.",
-        "La solitude parle le texte.",
-        "Le texte fait la solitude."
+        "Le texte parle la solitude.",
+        "Le texte parle à la solitude.",
+        "La solitude parle du texte."
       ],
       "correct": 0,
       "explain": "parler de = handle om."
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Hva er en god lesestrategi?",
       "options": [
-        "Oversette hvert ord",
-        "Se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen",
-        "Hoppe over første avsnitt",
-        "Bare lese slutten"
+        "Å oversette hvert ord til norsk før du prøver å forstå teksten.",
+        "Å se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen.",
+        "Å lese teksten høyt og fokusere på uttalen framfor innholdet.",
+        "Å slå opp hvert ukjent ord i ordboka før du leser videre."
       ],
       "correct": 1,
       "explain": "la liberté, la solitude, absurde ligner engelsk."
@@ -345,9 +345,9 @@
         "text": "Hvilken novelle er Maupassant kjent for?",
         "options": [
           "La Parure",
-          "L'Étranger",
-          "Le Petit Prince",
-          "Les Misérables"
+          "La Vénus d'Ille",
+          "La Princesse de Clèves",
+          "Le Rouge et le Noir"
         ],
         "correct": 0,
         "explain": "La Parure har en berømt chute.",
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ce texte m'a touché»?",
         "options": [
-          "Jeg har tatt på teksten.",
-          "Denne teksten er kjedelig.",
+          "Jeg tok på teksten.",
+          "Jeg skrev denne teksten.",
           "Denne teksten berørte meg.",
-          "Jeg har skrevet teksten."
+          "Jeg likte ikke denne teksten."
         ],
         "correct": 2,
         "explain": "toucher = røre, berøre."
@@ -451,6 +451,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

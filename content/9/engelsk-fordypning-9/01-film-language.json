@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Which shot shows a character's face and emotions?",
       "options": [
-        "Long shot",
-        "Extreme long shot",
-        "Close-up",
-        "Establishing shot"
+        "A medium shot",
+        "A long shot",
+        "A close-up shot",
+        "An extreme long shot"
       ],
       "correct": 2,
       "explain": "Close-ups bring us near the character's feelings."
@@ -91,8 +91,8 @@
       "options": [
         "It makes the character seem powerful",
         "It makes the character seem weak",
-        "It shows the landscape",
-        "It shows the past"
+        "It makes the character seem smaller",
+        "It makes the character seem less important"
       ],
       "correct": 0,
       "explain": "Looking up at someone makes them seem bigger and stronger."
@@ -101,9 +101,9 @@
       "id": "q03",
       "text": "What is non-diegetic sound?",
       "options": [
-        "Dialogue between characters",
-        "Footsteps in the scene",
-        "A door slamming in the scene",
+        "Sound the characters hear, like dialogue between them",
+        "Sound the characters hear, like footsteps in the scene",
+        "Sound the characters hear, like a door slamming",
         "Sound only the audience hears, like background music"
       ],
       "correct": 3,
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "What do fast cuts usually create?",
       "options": [
-        "Calm",
-        "Speed and tension",
-        "Silence",
-        "A happy ending"
+        "A calmer mood and slower pace",
+        "A faster pace and more tension",
+        "A happier mood and lighter tone",
+        "A quieter mood and slower pace"
       ],
       "correct": 1,
       "explain": "Fast cuts are common in action scenes."
@@ -125,9 +125,9 @@
       "id": "q05",
       "text": "What is a flashback?",
       "options": [
-        "A camera angle",
-        "A type of light",
-        "The ending of a film",
+        "A scene showing events from the future",
+        "A scene showing events in the present",
+        "A scene showing what may happen next",
         "A scene showing events from the past"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "What is the climax of a story?",
       "options": [
-        "The introduction",
-        "The credits",
+        "The opening introduction to the story",
+        "The final resolution of the conflict",
         "The most exciting turning point",
-        "The first scene"
+        "The first challenge faced by the hero"
       ],
       "correct": 2,
       "explain": "The conflict reaches its peak at the climax."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "What is an establishing shot?",
       "options": [
-        "A wide shot that shows where the story takes place",
-        "A close-up of a face",
-        "A shot of the credits",
-        "A sound effect"
+        "A wide shot showing where the story takes place",
+        "A close-up showing who is speaking in the scene",
+        "A medium shot showing what a character is holding",
+        "A wide shot showing what happens at the end"
       ],
       "correct": 0,
       "explain": "It helps the audience understand the setting."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "What is the main purpose of a trailer?",
       "options": [
-        "To tell the whole story",
+        "To explain the film's story from start to finish",
         "To persuade people to watch the film",
-        "To show the credits",
-        "To replace the film"
+        "To review the film for potential viewers",
+        "To show how the film was made"
       ],
       "correct": 1,
       "explain": "A trailer is a form of advertising.",
@@ -175,9 +175,9 @@
       "text": "Which genre often uses dark, shadowy lighting?",
       "options": [
         "Romantic comedy",
-        "Animation for young children",
+        "Musical",
         "Horror",
-        "Musical"
+        "Adventure"
       ],
       "correct": 2,
       "explain": "Darkness creates fear and uncertainty."
@@ -187,9 +187,9 @@
       "text": "What is the hero's journey?",
       "options": [
         "A pattern where the hero leaves home, faces challenges, changes and returns",
-        "A type of camera movement",
-        "A famous film studio",
-        "A film festival"
+        "A pattern where the hero leaves home, faces challenges, stays unchanged and returns",
+        "A pattern where the hero leaves home, faces challenges, changes and does not return",
+        "A pattern where the hero stays home, faces challenges, changes and returns"
       ],
       "correct": 0,
       "explain": "Many adventure and fantasy films follow this pattern.",
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "What is a point-of-view shot?",
         "options": [
-          "A shot from high above",
+          "A shot filmed from high above the character",
           "A shot showing what a character sees",
-          "A shot of the audience",
-          "A shot with no sound"
+          "A shot filmed from behind the character",
+          "A shot filmed from far away from the character"
         ],
         "correct": 1,
         "explain": "It lets us see the world through the character's eyes."
@@ -346,9 +346,9 @@
         "text": "Which of these is diegetic sound?",
         "options": [
           "A character's voice in a conversation",
-          "Background music added later",
-          "A narrator nobody in the film hears",
-          "The theme song over the credits"
+          "Background music added over the scene",
+          "A narrator's voice heard outside the scene",
+          "A theme song played over the end credits"
         ],
         "correct": 0,
         "explain": "The other characters in the scene can hear the voice."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "What does editing mean in film?",
         "options": [
-          "Writing the script",
-          "Choosing the actors",
+          "Writing the dialogue for each scene",
+          "Choosing the camera angles for each shot",
           "Putting the shots together",
-          "Selling tickets"
+          "Recording the sound during filming"
         ],
         "correct": 2,
         "explain": "Editing decides the rhythm of a film."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

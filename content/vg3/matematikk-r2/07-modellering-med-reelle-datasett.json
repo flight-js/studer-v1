@@ -79,7 +79,7 @@
         "Lineær",
         "Trigonometrisk",
         "Eksponentiell",
-        "Potens"
+        "Logistisk"
       ],
       "correct": 1,
       "explain": "Den er periodisk."
@@ -91,7 +91,7 @@
         "Logistisk",
         "Lineær",
         "Eksponentiell",
-        "Trigonometrisk"
+        "Potens"
       ],
       "correct": 0,
       "explain": "K er bæreevnen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en residual?",
       "options": [
-        "En parameter",
-        "En type funksjon",
-        "Avviket mellom målt og beregnet verdi",
-        "Perioden"
+        "En konstant som bestemmer formen på modellens funksjon",
+        "En funksjon som beskriver sammenhengen mellom variablene",
+        "Forskjellen mellom målt verdi og modellens beregnede verdi",
+        "Tidsintervallet før en periodisk modell gjentar seg"
       ],
       "correct": 2,
       "explain": "Bør være små og tilfeldige."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er overtilpasning?",
       "options": [
-        "At modellen er for enkel",
-        "At det er for få data",
-        "At residualene er tilfeldige",
-        "At modellen følger dataene for tett og svinger utenfor dem"
+        "At modellen er for enkel til å beskrive mønsteret i dataene",
+        "At datamengden er for liten til å bestemme modellens parametere",
+        "At residualene ligger tilfeldig rundt null uten tydelig mønster",
+        "At modellen tilpasser seg tilfeldige utslag i dataene og passer dårlig utenfor dem"
       ],
       "correct": 3,
       "explain": "Typisk for polynomer av høy grad."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er ekstrapolasjon?",
       "options": [
-        "Å bruke modellen innenfor dataområdet",
-        "Å bruke modellen utenfor dataområdet",
-        "Å finne residualer",
-        "Å velge modell"
+        "Å bruke modellen innenfor intervallet med observerte data",
+        "Å bruke modellen utenfor området der dataene er samlet",
+        "Å beregne avviket mellom måleverdiene og modellens verdier",
+        "Å velge funksjonstypen som beskriver datasettet best"
       ],
       "correct": 1,
       "explain": "Mer usikkert."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva tyder et tydelig mønster i residualene på?",
       "options": [
-        "Perfekt modell",
-        "For mange data",
-        "At R² er 1",
-        "Feil modelltype"
+        "At residualene viser at modellen treffer alle målepunktene nøyaktig",
+        "At datasettet ikke inneholder noen systematisk variasjon",
+        "At modellen har forklaringsgraden R² lik én",
+        "At modellen ikke fanger den underliggende formen i dataene"
       ],
       "correct": 3,
       "explain": "Modellen fanger ikke formen."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvorfor er ikke høy R² nok alene?",
       "options": [
-        "Fordi modellen også må gi mening ut fra teori",
-        "Fordi R² alltid er 1",
-        "Fordi R² bare gjelder lineære modeller",
-        "Fordi høy R² betyr dårlig modell"
+        "Fordi modellen også må være rimelig ut fra faglig teori",
+        "Fordi R² får verdien én når modellen har flere parametere",
+        "Fordi R² måler bare lineære sammenhenger mellom variabler",
+        "Fordi høy R² viser at modellen passer dårlig til dataene"
       ],
       "correct": 0,
       "explain": "Overtilpasning kan gi høy R²."
@@ -186,8 +186,8 @@
       "options": [
         "Startverdien",
         "Vekstfaktoren",
-        "Perioden",
-        "Bæreevnen"
+        "Eksponenten",
+        "Endringsraten"
       ],
       "correct": 1,
       "explain": "a er startverdien."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva er perioden til f(x) = A sin(c(x − φ)) + d?",
         "options": [
-          "A",
+          "2πc",
           "2π/c",
-          "d",
-          "φ"
+          "π/c",
+          "2π/φ"
         ],
         "correct": 1,
         "explain": "A er amplituden."
@@ -322,9 +322,9 @@
         "text": "Hva minimerer vanlig regresjon?",
         "options": [
           "Summen av de kvadrerte avvikene",
-          "Antall punkter",
-          "Perioden",
-          "Stigningstallet"
+          "Summen av de absolutte avvikene",
+          "Summen av avvikene uten kvadrering",
+          "Størrelsen på det største enkeltavviket"
         ],
         "correct": 0,
         "explain": "Minste kvadraters metode."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvorfor er en ren eksponentiell smittemodell dårlig på lang sikt?",
         "options": [
-          "Fordi den er lineær",
-          "Fordi den er periodisk",
-          "Fordi den til slutt gir flere smittede enn det finnes mennesker",
-          "Fordi den synker"
+          "Fordi den antar at smittetallet gjentar seg med faste mellomrom",
+          "Fordi den beskriver smittetallet som økende med et fast antall per tidsenhet",
+          "Fordi den på lang sikt beregner flere smittede enn befolkningen rommer",
+          "Fordi den forutsetter at smittetallet avtar med en fast prosent over tid"
         ],
         "correct": 2,
         "explain": "En logistisk modell er mer realistisk."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva sier sentralgrensesetningen?",
       "options": [
-        "At alle variabler er normalfordelte",
-        "At summer og gjennomsnitt av mange uavhengige variabler blir tilnærmet normalfordelte",
-        "At gjennomsnittet alltid er 0",
-        "At variansen er 1"
+        "Alle enkeltvariablene blir normalfordelte når antallet variabler øker.",
+        "Summer og gjennomsnitt av mange uavhengige variabler blir tilnærmet normalfordelte.",
+        "Summer og gjennomsnitt blir tilnærmet jevnt fordelte når antallet variabler øker.",
+        "Summer og gjennomsnitt får samme forventning og standardavvik når antallet variabler øker."
       ],
       "correct": 1,
       "explain": "Uansett fordelingen til hver variabel."
@@ -93,8 +93,8 @@
       "options": [
         "σ/√n",
         "σ√n",
-        "nσ",
-        "σ"
+        "σ/n",
+        "√n/σ"
       ],
       "correct": 0,
       "explain": "Gjennomsnittet blir mer presist."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilken form har fordelingen til summen av to terningkast?",
       "options": [
-        "Flat",
-        "Klokkeform",
-        "Trekant med topp ved 7",
-        "Skjev mot høyre"
+        "Flat fordeling fra 2 til 12",
+        "Symmetrisk klokkeform med topp ved 7",
+        "Trekantform med topp ved 7",
+        "Trekantform med topp ved 6"
       ],
       "correct": 2,
       "explain": "Flest kombinasjoner gir 7."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er forventningen til summen av 100 terningkast?",
       "options": [
-        "100",
-        "600",
-        "35",
+        "300",
+        "400",
+        "700",
         "350"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvilken normalfordeling tilnærmer en binomisk fordeling med n og p?",
       "options": [
         "N(np, √(np(1 − p)))",
-        "N(p, n)",
-        "N(0, 1) alltid",
-        "N(n, p)"
+        "N(np, np(1 − p))",
+        "N(p, √(np(1 − p)))",
+        "N(n, √(p(1 − p)))"
       ],
       "correct": 0,
       "explain": "Forventning np og varians np(1 − p)."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvilken forutsetning er nødvendig for sentralgrensesetningen?",
       "options": [
-        "At variablene er normalfordelte",
-        "At variablene er uavhengige",
-        "At n = 2",
-        "At σ = 1"
+        "Variablene må være normalfordelte.",
+        "Variablene må være uavhengige.",
+        "Variablene må ha samme forventning.",
+        "Standardavviket må være lik 1."
       ],
       "correct": 1,
       "explain": "Avhengighet kan gi en annen fordeling."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor bruker vi heltallskorreksjon?",
       "options": [
-        "For å gjøre utregningen raskere",
-        "For å øke standardavviket",
-        "Fordi vi tilnærmer en diskret fordeling med en kontinuerlig",
-        "Fordi n er liten"
+        "Fordi en skjev fordeling tilnærmes med en symmetrisk fordeling.",
+        "Fordi forventningsverdien erstattes med medianen i beregningen.",
+        "Fordi en diskret fordeling tilnærmes med en kontinuerlig fordeling.",
+        "Fordi standardavviket justeres når utvalget er lite."
       ],
       "correct": 2,
       "explain": "Justerer med 0,5."
@@ -178,7 +178,7 @@
         "Omtrent 0,03",
         "Omtrent 0,5",
         "Omtrent 0,16",
-        "Omtrent 0,6"
+        "Omtrent 0,10"
       ],
       "correct": 0,
       "explain": "Eksakt 0,028."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor er ekstreme summer sjeldne?",
       "options": [
-        "Fordi terningene er skjeve",
-        "Fordi nesten alle enkeltutfall må være ekstreme samtidig",
-        "Fordi summen alltid er 350",
-        "Fordi variansen er null"
+        "Fordi terningkastene må være avhengige for å gi et stort samlet avvik.",
+        "Fordi mange enkeltutfall må avvike i samme retning for å gi et stort samlet avvik.",
+        "Fordi hvert enkelt utfall må ligge nær forventningen for å gi et stort samlet avvik.",
+        "Fordi standardavviket til summen minker når antallet ledd øker."
       ],
       "correct": 1,
       "explain": "Avvik jevnes ut."
@@ -305,7 +305,7 @@
           "900 kg",
           "Omtrent 67 kg",
           "5 kg",
-          "Omtrent 13 kg"
+          "13 kg"
         ],
         "correct": 1,
         "explain": "5 · √180."
@@ -316,9 +316,9 @@
         "text": "Hvilken tommelfingerregel brukes ofte for når n er stor nok?",
         "options": [
           "n ≥ 30",
-          "n ≥ 2",
-          "n = 1000 nøyaktig",
-          "n ≤ 10"
+          "n ≥ 10",
+          "n ≥ 100",
+          "n ≤ 30"
         ],
         "correct": 0,
         "explain": "Avhenger av hvor skjev fordelingen er."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hvorfor er den totale bagasjevekten på et fly ganske forutsigbar?",
         "options": [
-          "Fordi alle kofferter veier likt",
-          "Fordi flyet veier kofferter",
-          "Fordi variasjonen i enkeltkofferter jevnes ut i summen",
-          "Fordi σ er null"
+          "Fordi alle kofferter har omtrent samme vekt når de lastes.",
+          "Fordi antallet kofferter gjør hver enkelt vekt mindre variabel.",
+          "Fordi variasjonen mellom enkeltkofferter jevnes ut når vektene summeres.",
+          "Fordi standardavviket til summen minker når flere kofferter legges til."
         ],
         "correct": 2,
         "explain": "Relativ spredning σ√n/(nμ) blir liten."
@@ -415,6 +415,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

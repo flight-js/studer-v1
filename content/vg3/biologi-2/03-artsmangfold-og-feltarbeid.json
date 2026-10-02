@@ -79,9 +79,9 @@
       "text": "Hva er artsrikdom?",
       "options": [
         "Hvor jevnt individene er fordelt",
-        "Antall arter i et område",
+        "Antall ulike arter i et område",
         "Antall individer av én art",
-        "Mengden biomasse"
+        "Samlet biomasse i et område"
       ],
       "correct": 1,
       "explain": "En del av artsmangfoldet."
@@ -91,9 +91,9 @@
       "text": "M = 50 merkede, C = 60 fanget senere og R = 12 merkede i andre fangst. Hva er bestanden?",
       "options": [
         "250",
-        "120",
-        "600",
-        "72"
+        "200",
+        "300",
+        "500"
       ],
       "correct": 0,
       "explain": "N = M · C / R."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvilken metode passer for å se hvordan arter endres fra strand til skog?",
       "options": [
-        "Fallfelle",
-        "Fangst–gjenfangst",
+        "Kvadratprøve",
+        "Punktregistrering",
         "Transekt",
-        "Håvtrekk"
+        "Fangst–gjenfangst"
       ],
       "correct": 2,
       "explain": "En linje gjennom en gradient."
@@ -115,7 +115,7 @@
       "text": "Hva er en fysiologisk tilpasning?",
       "options": [
         "Tykk pels",
-        "Trekk",
+        "Sesongtrekk",
         "Flokkliv",
         "Dvale"
       ],
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvilket område har høyest mangfold – ti like vanlige arter eller ti arter der én dominerer?",
       "options": [
-        "Ti like vanlige arter",
-        "Ti arter der én dominerer",
-        "De er like",
-        "Det kan ikke avgjøres"
+        "Området med ti like vanlige arter",
+        "Området med ti arter, der én dominerer",
+        "Begge områdene har samme mangfold",
+        "Området med flest individer totalt"
       ],
       "correct": 0,
       "explain": "Høyere jevnhet gir høyere mangfold."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en økologisk nisje?",
       "options": [
-        "Et hull i et tre",
-        "En arts rolle og krav i økosystemet",
-        "Et naturreservat",
-        "En type felle"
+        "Artens leveområde og utbredelse i økosystemet",
+        "Artens rolle og miljøkrav i økosystemet",
+        "Artens plassering og antall i næringskjeden",
+        "Artens bestandsstørrelse og alder i økosystemet"
       ],
       "correct": 1,
       "explain": "To arter kan ikke dele samme nisje på lang sikt."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvor kan artsfunn rapporteres i Norge?",
       "options": [
-        "Til Forbrukertilsynet",
-        "Til NAV",
+        "Til Miljødirektoratet via Naturbase",
+        "Til Kartverket via Norgeskart",
         "Til Artsdatabanken via Artsobservasjoner",
-        "Til Skatteetaten"
+        "Til Meteorologisk institutt via Yr"
       ],
       "correct": 2,
       "explain": "Nyttig for forskning og forvaltning.",
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva er en feilkilde i feltarbeid?",
       "options": [
-        "Riktig artsbestemmelse",
-        "Mange prøver",
-        "Godt vær",
-        "Feilbestemte arter og for få prøver"
+        "Korrekt artsbestemming og mange prøver",
+        "Lik innsats på samme tidspunkt",
+        "Standardisert metode og gode notater",
+        "Feilbestemming og for få prøver"
       ],
       "correct": 3,
       "explain": "Også ulik tid på døgnet."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva er en morfologisk tilpasning hos fjellplanter?",
       "options": [
-        "Små og voksaktige blader",
-        "Dvale",
-        "Trekk",
-        "Frostvæske"
+        "Små, voksaktige blader",
+        "Vinterdvale",
+        "Sesongtrekk",
+        "Frostvæske i cellene"
       ],
       "correct": 0,
       "explain": "Reduserer vanntap og kulde."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor er høyt artsmangfold viktig?",
       "options": [
-        "Det gir mer ustabile økosystemer",
-        "Det gir mer robuste økosystemer og økosystemtjenester",
-        "Det har ingen betydning",
-        "Det gir færre arter"
+        "Det svekker økosystemenes robusthet og gir færre økosystemtjenester",
+        "Det styrker økosystemenes robusthet og gir flere økosystemtjenester",
+        "Det gjør økosystemene mer ensartede og mindre robuste",
+        "Det øker konkurransen og reduserer økosystemenes stabilitet"
       ],
       "correct": 1,
       "explain": "Tåler endringer bedre."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva brukes håvtrekk og sparkeprøver til?",
         "options": [
-          "Fugletelling",
+          "Fugler i trekroner og busker",
           "Smådyr i bekker og dammer",
-          "Planter i skog",
-          "Insekter i trær"
+          "Vannplanter langs innsjøbredder",
+          "Insekter på blader og greiner"
         ],
         "correct": 1,
         "explain": "Ferskvannsøkologi.",
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva gjør du med usikre artsfunn i felt?",
         "options": [
-          "Fotograferer og sjekker dem senere",
-          "Gjetter",
-          "Ignorerer dem",
-          "Tar med alle levende dyr hjem"
+          "Fotograferer dem og kontrollerer artsbestemmelsen senere",
+          "Bestemmer dem ut fra førsteinntrykket",
+          "Registrerer dem som en nært beslektet art",
+          "Lar dem stå uten notat eller bilde"
         ],
         "correct": 0,
         "explain": "Gir bedre artsbestemmelse."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er en økosystemtjeneste?",
         "options": [
-          "En type feltutstyr",
-          "En forvaltningsplan",
-          "Pollinering og rent vann",
-          "En app"
+          "Artskartlegging og artsbestemmelse",
+          "Naturreservater og forvaltningsplaner",
+          "Pollinering og vannrensing",
+          "Næringskjeder og leveområder"
         ],
         "correct": 2,
         "explain": "Goder naturen gir oss."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

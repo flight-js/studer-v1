@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva betyr det at f′(x) < 0 på et intervall?",
       "options": [
-        "f er voksende",
-        "f er avtakende",
-        "f har vendepunkt",
-        "f er konstant"
+        "f er voksende på intervallet",
+        "f er avtakende på intervallet",
+        "f er konstant på intervallet",
+        "f har toppunkt inne i intervallet"
       ],
       "correct": 1,
       "explain": "Stigningstallet er negativt."
@@ -89,8 +89,8 @@
       "options": [
         "(−1, 2)",
         "(1, −2)",
-        "(0, 0)",
-        "(−1, −2)"
+        "(−1, −2)",
+        "(0, 0)"
       ],
       "correct": 0,
       "explain": "f′ skifter fra + til − i x = −1."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva kjennetegner et vendepunkt?",
       "options": [
-        "f′ = 0",
-        "f = 0",
+        "f′(x) = 0",
+        "f(x) = 0",
         "f″ skifter fortegn",
-        "f′ skifter fra + til −"
+        "f′ skifter fra positiv til negativ"
       ],
       "correct": 2,
       "explain": "Krumningen endrer seg."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "f′(a) = 0 og f″(a) > 0. Hva har f i x = a?",
       "options": [
-        "Et toppunkt",
-        "Et vendepunkt",
-        "Et terrassepunkt",
-        "Et bunnpunkt"
+        "Et toppunkt i x = a",
+        "Et vendepunkt i x = a",
+        "Et terrassepunkt i x = a",
+        "Et bunnpunkt i x = a"
       ],
       "correct": 3,
       "explain": "Grafen krummer oppover."
@@ -126,7 +126,7 @@
         "Et terrassepunkt",
         "Et toppunkt",
         "Et bunnpunkt",
-        "En asymptote"
+        "Et knekkpunkt"
       ],
       "correct": 0,
       "explain": "f′ = 0, men ingen fortegnsskifte."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvorfor må du sjekke endepunktene på et lukket intervall?",
       "options": [
-        "Fordi f′ alltid er null der",
-        "Fordi den største eller minste verdien kan ligge der",
-        "Fordi funksjonen ikke er definert der",
-        "Det trenger du ikke"
+        "Fordi den deriverte er null i begge endepunktene",
+        "Fordi største- eller minsteverdien kan ligge i endepunktet",
+        "Fordi funksjonen ikke er definert i endepunktene",
+        "Fordi endepunktene ikke er med i intervallet"
       ],
       "correct": 1,
       "explain": "Globale ekstremalverdier kan ligge i endepunktene."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "f(t) er antall besøkende på et nettsted. Hva forteller vendepunktet?",
       "options": [
-        "Når det er flest besøkende",
-        "Når det er færrest besøkende",
-        "Når nettstedet åpner",
+        "Når antallet besøkende er størst eller minst",
+        "Når vekstfarten er lik null",
+        "Når antallet besøkende begynner å øke eller minke",
         "Når antallet øker raskest (eller langsomst)"
       ],
       "correct": 3,
@@ -173,8 +173,8 @@
       "options": [
         "Grafen krummer nedover",
         "Grafen krummer oppover",
-        "f er avtakende",
-        "f er negativ"
+        "Funksjonen er avtakende",
+        "Funksjonen er negativ"
       ],
       "correct": 0,
       "explain": "Stigningstallet minker."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

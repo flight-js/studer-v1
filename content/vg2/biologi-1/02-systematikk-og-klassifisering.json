@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er binomial nomenklatur?",
       "options": [
-        "Et system med tre riker",
-        "Et vitenskapelig navn i to deler",
-        "En metode for DNA-analyse",
-        "En type slektstre"
+        "Et taksonomisk navn for et helt rike",
+        "Et vitenskapelig artsnavn med to ledd",
+        "Et slektstre som viser arters slektskap",
+        "En metode for å dele arter i grupper"
       ],
       "correct": 1,
       "explain": "For eksempel Homo sapiens."
@@ -89,9 +89,9 @@
       "text": "Hva er de tre domenene?",
       "options": [
         "Bakterier, arker og eukaryoter",
-        "Planter, dyr og sopp",
-        "Virus, bakterier og sopp",
-        "Fisk, fugler og pattedyr"
+        "Arker, bakterier og virus",
+        "Planter, dyr og sopper",
+        "Prokaryoter, eukaryoter og virus"
       ],
       "correct": 0,
       "explain": "Inndelingen bygger på genanalyser."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor regnes hest og esel som to arter?",
       "options": [
-        "De har ulik farge",
-        "De lever på ulike kontinenter",
-        "Avkommet (muldyret) er vanligvis sterilt",
-        "De spiser forskjellig mat"
+        "Muldyret er vanligvis fruktbart og får egne avkom",
+        "Hest og esel får vanligvis ikke avkom ved paring",
+        "Muldyret er vanligvis sterilt og formerer seg ikke",
+        "Muldyret har vanligvis samme kromosomtall som hest og esel"
       ],
       "correct": 2,
       "explain": "Biologisk artsbegrep: fruktbart avkom.",
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilken teknologi viste forskjellen på prokaryote og eukaryote celler tydelig?",
       "options": [
-        "Lupen",
-        "Kikkerten",
-        "Røntgen",
+        "Lysmikroskopet",
+        "Fluorescensmikroskopet",
+        "Konfokalmikroskopet",
         "Elektronmikroskopet"
       ],
       "correct": 3,
@@ -129,7 +129,7 @@
         "Dyr",
         "Planter",
         "Bakterier",
-        "Arker"
+        "Protister"
       ],
       "correct": 0,
       "explain": "DNA-analyser viser dette.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva viser et fylogenetisk tre?",
       "options": [
-        "Hvor artene lever",
+        "Geografisk utbredelse",
         "Evolusjonært slektskap",
-        "Næringskjeder",
-        "Hvor store artene er"
+        "Økologiske næringsforhold",
+        "Kroppslig størrelsesforskjell"
       ],
       "correct": 1,
       "explain": "Forgreningspunktene er felles stamformer."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilket par er et eksempel på analoge trekk?",
       "options": [
-        "Menneskearm og hvalluffe",
-        "Hundens og ulvens tenner",
+        "Frembein hos menneske og hval",
+        "Vinger hos fugler og dinosaurer",
         "Vinger hos insekter og flaggermus",
-        "Fuglevinge og dinosaurforbein"
+        "Frembein hos hester og hunder"
       ],
       "correct": 2,
       "explain": "Samme funksjon, uavhengig opphav."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvilket taksonomisk nivå er lavest?",
       "options": [
+        "Orden",
+        "Slekt",
         "Familie",
-        "Rike",
-        "Klasse",
         "Art"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvilket fellestrekk viser at alt liv har felles opphav?",
       "options": [
-        "Den samme genetiske koden",
-        "At alle har cellekjerne",
-        "At alle kan fotosyntese",
-        "At alle har bein"
+        "At alt liv bruker den samme genetiske koden",
+        "At alt liv har cellekjerne",
+        "At alt liv kan utføre fotosyntese",
+        "At alt liv formerer seg kjønnet"
       ],
       "correct": 0,
       "explain": "Også DNA som arvestoff og ATP."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilke dyr er hvalenes nærmeste levende slektninger?",
       "options": [
-        "Haier",
-        "Flodhester",
         "Seler",
-        "Sjøkuer"
+        "Flodhester",
+        "Sjøkuer",
+        "Hester"
       ],
       "correct": 1,
       "explain": "Det viser DNA-analyser.",
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er slektsnavnet i Picea abies?",
         "options": [
-          "abies",
+          "Pinus",
           "Picea",
-          "Pinaceae",
-          "Plantae"
+          "Abies",
+          "Larix"
         ],
         "correct": 1,
         "explain": "Første del er slekten."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva er homologe trekk?",
         "options": [
-          "Trekk med felles evolusjonært opphav",
+          "Trekk som har et felles evolusjonært opphav",
           "Trekk med lik funksjon, men ulikt opphav",
-          "Trekk som bare finnes hos planter",
-          "Ervervede egenskaper"
+          "Trekk som individet utvikler gjennom læring",
+          "Trekk som oppstår uavhengig hos ulike arter"
         ],
         "correct": 0,
         "explain": "For eksempel skjelettet i menneskearm og hvalluffe."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvorfor passer det biologiske artsbegrepet dårlig for bakterier?",
         "options": [
-          "De er for små",
-          "De lever i vann",
+          "De formerer seg gjennom befruktning",
+          "De formerer seg ved hjelp av frø",
           "De formerer seg ukjønnet",
-          "De har ikke DNA"
+          "De formerer seg inne i vertsceller"
         ],
         "correct": 2,
         "explain": "Begrepet bygger på kjønnet formering."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

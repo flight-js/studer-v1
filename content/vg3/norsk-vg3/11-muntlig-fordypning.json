@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er målet med en utforskende samtale?",
       "options": [
-        "Å vinne diskusjonen",
+        "Å forsvare eget standpunkt overfor de andre",
         "Å tenke sammen for å forstå noe bedre",
-        "Å snakke mest",
-        "Å bli ferdig raskt"
+        "Å få fram flest mulig synspunkter i samtalen",
+        "Å komme raskt fram til en felles konklusjon"
       ],
       "correct": 1,
       "explain": "Man bygger videre på hverandre."
@@ -88,9 +88,9 @@
       "text": "Hvilket emne er best avgrenset?",
       "options": [
         "Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?",
-        "Kvinner i litteraturen",
-        "Norsk litteratur",
-        "Litteratur og samfunn"
+        "Hvordan framstilles kvinners frihet i norsk litteratur gjennom tidene?",
+        "Hvordan framstilles kvinner i Et dukkehjem og Amtmandens Døttre?",
+        "Hvordan framstilles frihet i Et dukkehjem og Amtmandens Døttre?"
       ],
       "correct": 0,
       "explain": "Gir en tydelig retning.",
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor er stikkord ofte bedre enn fullt manus?",
       "options": [
-        "De er kortere å skrive",
-        "De er påbudt",
+        "De gjør det lettere å lese opp teksten",
+        "De gir presentasjonen en fast ordlyd fra start",
         "De gjør det lettere å snakke fritt",
-        "De gjør presentasjonen lengre"
+        "De gjør grundig øving på innholdet mindre viktig"
       ],
       "correct": 2,
       "explain": "Bedre kontakt med publikum."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva hører til en god innledning?",
       "options": [
-        "Alle kildene",
-        "Konklusjonen",
-        "En lang biografi",
+        "En detaljert gjennomgang av alle kildene",
+        "En fullstendig oppsummering av konklusjonen",
+        "En grundig analyse av hvert hovedargument",
         "Et blikkfang, emnet og problemstillingen"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvordan bør lysbilder brukes?",
       "options": [
         "Som støtte med få ord og gode bilder",
-        "Med all teksten du skal si",
-        "Uten noen sammenheng",
-        "I stedet for å snakke"
+        "Som manus med hele teksten og poengene dine",
+        "Som dekorasjon uten kobling til innholdet i presentasjonen",
+        "Som erstatning for muntlig forklaring av fagstoffet"
       ],
       "correct": 0,
       "explain": "De skal støtte, ikke erstatte."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva bør du gjøre hvis du er usikker på et spørsmål i samtalen?",
       "options": [
-        "Late som du vet svaret",
-        "Si hva du vet og resonnere deg fram",
-        "Ikke svare",
-        "Bytte tema"
+        "Å gjette på svaret uten å begrunne det",
+        "Å si hva du vet og resonnere deg fram",
+        "Å skifte til et tema du kjenner bedre",
+        "Å gi et sikkert svar uten å vise usikkerhet"
       ],
       "correct": 1,
       "explain": "Resonnering viser forståelse."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er et åpent spørsmål?",
       "options": [
-        "Et spørsmål med ja eller nei",
-        "Et spørsmål uten svar",
+        "Et spørsmål som kan besvares med ja eller nei",
+        "Et spørsmål som antyder hvilket svar spørsmålsstilleren ønsker seg",
         "Et spørsmål som ikke kan besvares med ja eller nei",
-        "Et ledende spørsmål"
+        "Et spørsmål som ber mottakeren velge mellom to svaralternativer"
       ],
       "correct": 2,
       "explain": "For eksempel «Hvordan ser du det?»."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva betyr det å imøtegå et motargument?",
       "options": [
-        "Å ignorere det",
-        "Å le av det",
-        "Å gjenta det",
-        "Å svare saklig på det"
+        "Å avvise argumentet uten å begrunne hvorfor",
+        "Å gjenta argumentet uten å kommentere innholdet",
+        "Å rette et personangrep mot den som fremmet det",
+        "Å svare saklig på argumentet og begrunne svaret"
       ],
       "correct": 3,
       "explain": "Styrker din egen argumentasjon."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er en overgang i en presentasjon?",
       "options": [
-        "En setning som binder sammen delene",
-        "Et lysbilde",
-        "En pause",
-        "Et sitat"
+        "En setning som binder sammen ulike deler av presentasjonen",
+        "Et lysbilde som viser rekkefølgen på presentasjonens hoveddeler",
+        "En pause som markerer skillet mellom to presentasjonsdeler",
+        "Et sitat som innleder et nytt tema i presentasjonen"
       ],
       "correct": 0,
       "explain": "For eksempel «Det neste jeg vil se på, er …»."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan viser du at du forstår et fagbegrep?",
       "options": [
-        "Ved å si det mange ganger",
+        "Ved å gjenta begrepet flere ganger i forklaringen",
         "Ved å bruke det på konkrete eksempler",
-        "Ved å skrive det på lysbildet",
-        "Ved å unngå det"
+        "Ved å skrive begrepet tydelig på lysbildet",
+        "Ved å erstatte begrepet med et enklere ord"
       ],
       "correct": 1,
       "explain": "Anvendelse viser forståelse."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva kan gjøre stemmebruken bedre?",
         "options": [
-          "Snakke fort hele tiden",
+          "Holde samme tempo og tonefall gjennom presentasjonen",
           "Variere tempo og tonefall og bruke pauser",
-          "Snakke lavt",
-          "Lese opp alt"
+          "Snakke med jevnt volum og uten tydelige pauser",
+          "Lese opp teksten i samme stemmeleie gjennom presentasjonen"
         ],
         "correct": 1,
         "explain": "Holder publikum engasjert."
@@ -322,9 +322,9 @@
         "text": "Hva bør du lese grundig når du fordyper deg i et emne?",
         "options": [
           "Primærtekstene",
-          "Bare sammendrag på nett",
-          "Bare lysbildene",
-          "Ingenting"
+          "Sekundærtekstene",
+          "Sammendragene",
+          "Læreboktekstene"
         ],
         "correct": 0,
         "explain": "Grunnlaget for analysen."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva hører til avslutningen av en presentasjon?",
         "options": [
-          "Nye poeng",
-          "En ny problemstilling",
-          "Oppsummering og svar eller refleksjon",
-          "En lang kildeliste opplest"
+          "En samling av nye fagpoenger og en utvidet problemstilling",
+          "En ny problemstilling med mer bakgrunnsinformasjon",
+          "En oppsummering og et svar eller en refleksjon",
+          "En grundig opplesning av kildelista og vedleggene"
         ],
         "correct": 2,
         "explain": "Knytt sammen trådene."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

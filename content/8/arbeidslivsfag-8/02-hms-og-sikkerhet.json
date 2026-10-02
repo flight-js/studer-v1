@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva står HMS for?",
       "options": [
-        "Hygiene, mat og service",
-        "Hjelp, mestring og samarbeid",
+        "Helse, miljø og samarbeid",
+        "Hygiene, miljø og sikkerhet",
         "Helse, miljø og sikkerhet",
-        "Hovedregler, metoder og system"
+        "Helse, mat og sikkerhet"
       ],
       "correct": 2,
       "explain": "HMS-arbeid skal hindre skader og sykdom på jobb."
@@ -92,9 +92,9 @@
       "text": "Hva er det første steget i en risikovurdering?",
       "options": [
         "Å finne ut hva som kan gå galt",
-        "Å kjøpe verneutstyr",
-        "Å starte arbeidet",
-        "Å ringe 113"
+        "Å velge tiltak før farene er undersøkt",
+        "Å vurdere hvor alvorlige skadene kan bli",
+        "Å finne fram verneutstyr til arbeidet"
       ],
       "correct": 0,
       "explain": "Deretter vurderer man sannsynlighet, konsekvens og tiltak."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er et verneombud?",
       "options": [
-        "En lege på arbeidsplassen",
-        "En arbeidstaker som skal ivareta de ansattes interesser i saker om arbeidsmiljø",
-        "Sjefen",
-        "En politibetjent"
+        "En leder som fordeler vakter og følger opp arbeidsoppgaver",
+        "En arbeidstaker som ivaretar de ansattes interesser i arbeidsmiljøsaker",
+        "En helsearbeider som behandler skader og følger opp sykdom",
+        "En tillitsvalgt som forhandler om lønn og arbeidsvilkår"
       ],
       "correct": 1,
       "explain": "Verneombudet velges av de ansatte."
@@ -127,9 +127,9 @@
       "id": "q05",
       "text": "Hvordan bør du løfte noe tungt?",
       "options": [
-        "Med rett rygg og strake bein",
-        "Med bøyd rygg",
-        "Så raskt som mulig",
+        "Med bøyd rygg, strake knær og lasten nær kroppen",
+        "Med rett rygg, strake knær og lasten langt fra kroppen",
+        "Med bøyd rygg, bøyde knær og lasten langt fra kroppen",
         "Med rett rygg, bøyde knær og lasten nær kroppen"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva viser et farepiktogram?",
       "options": [
-        "Prisen på et produkt",
-        "Hvem som har laget produktet",
+        "At et stoff er godkjent, og hvilken type bruk det har",
+        "At et produkt er brannfarlig, og hvor det skal oppbevares",
         "At et stoff kan være farlig, og hvilken type fare",
-        "Hvor produktet skal stå"
+        "At et stoff må brukes, og hvilket verneutstyr som passer"
       ],
       "correct": 2,
       "explain": "Piktogrammene har en rød ramme formet som en rombe."
@@ -152,9 +152,9 @@
       "text": "Hva er en nesten-ulykke?",
       "options": [
         "En hendelse som kunne ført til skade, men ikke gjorde det",
-        "En ulykke med mange skadde",
-        "En øvelse",
-        "En brannalarm"
+        "En hendelse som førte til skade på personer eller utstyr",
+        "En planlagt øvelse der ansatte trener på en nødsituasjon",
+        "En melding om mulig fare før arbeidet har startet"
       ],
       "correct": 0,
       "explain": "Nesten-ulykker skal meldes, slik at man kan hindre ekte ulykker."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvem har hovedansvaret for HMS på en arbeidsplass?",
       "options": [
-        "Kundene",
+        "Verneombudet",
         "Arbeidsgiveren",
-        "Verneombudet alene",
-        "Ingen"
+        "Arbeidstakerne",
+        "Bedriftshelsetjenesten"
       ],
       "correct": 1,
       "explain": "Arbeidstakerne har likevel plikt til å medvirke."
@@ -175,9 +175,9 @@
       "id": "q09",
       "text": "Når bør personlig verneutstyr brukes?",
       "options": [
-        "Aldri",
-        "Bare når sjefen ser på",
-        "Bare på fredager",
+        "Når arbeidsdagen er lang og oppgavene er fysisk krevende",
+        "Når utstyret er nytt og passer til arbeidsplassen",
+        "Når en kollega bruker samme type verneutstyr",
         "Når faren ikke kan fjernes på annen måte"
       ],
       "correct": 3,
@@ -188,9 +188,9 @@
       "text": "Hva bør du gjøre hvis du oppdager noe farlig på arbeidsplassen?",
       "options": [
         "Melde fra om avviket",
-        "Ignorere det",
-        "Fikse det selv uten å si noe",
-        "Vente til noen skader seg"
+        "Fortsette arbeidet en stund til",
+        "Notere faren for egen del",
+        "Varsle en kollega etter arbeidsøkten"
       ],
       "correct": 0,
       "explain": "Når avvik meldes, kan de rettes opp."
@@ -325,9 +325,9 @@
         "text": "Hva er ergonomi?",
         "options": [
           "Å tilpasse arbeidet til kroppen for å unngå belastningsskader",
-          "Økonomi på arbeidsplassen",
-          "Et verktøy",
-          "En type verneutstyr"
+          "Å organisere arbeidet for å få flere oppgaver gjort",
+          "Å velge verneutstyr som beskytter mot skader på jobben",
+          "Å velge verktøy som gjør arbeidsoppgavene mer presise"
         ],
         "correct": 0,
         "explain": "God ergonomi forebygger vondt i rygg, nakke og skuldre."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva står i et sikkerhetsdatablad?",
         "options": [
-          "Lønna til de ansatte",
-          "Arbeidstiden",
+          "Informasjon om hvor produktet skal brukes og hvem som har ansvar for det",
+          "Informasjon om hvordan produktet skal merkes og hvor mye det koster",
           "Informasjon om farene ved et kjemisk produkt og hvordan det skal håndteres",
-          "Menyen i kantina"
+          "Informasjon om hvem som har bestilt produktet og hvor det oppbevares"
         ],
         "correct": 2,
         "explain": "Sikkerhetsdatablad skal finnes for farlige kjemikalier.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

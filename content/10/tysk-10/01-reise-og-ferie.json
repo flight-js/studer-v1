@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva betyr «der Urlaub»?",
       "options": [
-        "Flyplassen",
-        "Ferien",
-        "Kofferten",
-        "Været"
+        "Helg",
+        "Ferie",
+        "Fridag",
+        "Reise"
       ],
       "correct": 1,
       "explain": "«die Ferien» brukes ofte om skoleferien."
@@ -96,9 +96,9 @@
       "id": "q02",
       "text": "Hva er «die Jugendherberge»?",
       "options": [
-        "Et luksushotell",
-        "En campingplass",
-        "En togstasjon",
+        "Et gjestehus",
+        "Et pensjonat",
+        "Et ungdomshotell",
         "Et vandrerhjem"
       ],
       "correct": 3,
@@ -123,7 +123,7 @@
         "Wir fahren in Deutschland.",
         "Wir fahren zu Deutschland.",
         "Wir fahren nach Deutschland.",
-        "Wir fahren an Deutschland."
+        "Wir fahren nach Österreich."
       ],
       "correct": 2,
       "explain": "De fleste land og byer får «nach»."
@@ -132,9 +132,9 @@
       "id": "q05",
       "text": "Hvorfor heter det «in die Schweiz», men «nach Österreich»?",
       "options": [
-        "Fordi Sveits er et fjell",
-        "Fordi Sveits er lengre unna",
-        "Det er tilfeldig",
+        "Fordi «die Schweiz» er flertall",
+        "Fordi «die Schweiz» er en by",
+        "Fordi «Österreich» har artikkel",
         "Fordi «die Schweiz» har artikkel"
       ],
       "correct": 3,
@@ -145,9 +145,9 @@
       "text": "Hva betyr «wandern»?",
       "options": [
         "Å gå på fottur",
-        "Å bade",
-        "Å fly",
-        "Å handle"
+        "Å gå på ski",
+        "Å sykle i fjellet",
+        "Å klatre i fjellet"
       ],
       "correct": 0,
       "explain": "Fotturer er populært i Alpene."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvordan ber du om et dobbeltrom for to netter?",
       "options": [
-        "Ich habe zwei Zimmer.",
-        "Wo ist das Zimmer?",
+        "Ich möchte ein Einzelzimmer für zwei Nächte.",
+        "Ich möchte ein Doppelzimmer für drei Nächte.",
         "Ich möchte ein Doppelzimmer für zwei Nächte.",
-        "Das Zimmer ist doppelt."
+        "Ich möchte ein Doppelzimmer für zwei Personen."
       ],
       "correct": 2,
       "explain": "«die Nacht» – flertall «die Nächte»."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva betyr «Sehenswürdigkeiten besichtigen»?",
       "options": [
-        "Å ligge på stranda",
+        "Å kjøpe små suvenirer",
         "Å se på severdigheter",
-        "Å kjøpe suvenirer",
-        "Å bestille billetter"
+        "Å bestille togbilletter",
+        "Å sole seg på stranden"
       ],
       "correct": 1,
       "explain": "«sehenswürdig» betyr verdt å se."
@@ -181,9 +181,9 @@
       "text": "Hvordan avslutter du et uformelt kort eller en e-post?",
       "options": [
         "Viele Grüße",
-        "Sehr geehrte Damen und Herren",
+        "Guten Morgen",
         "Guten Tag",
-        "Hallo"
+        "Guten Abend"
       ],
       "correct": 0,
       "explain": "«Sehr geehrte …» brukes i formelle brev."
@@ -193,7 +193,7 @@
       "text": "Hva betyr «Die Sonne scheint»?",
       "options": [
         "Det snør",
-        "Det er kaldt",
+        "Det regner",
         "Det blåser",
         "Sola skinner"
       ],
@@ -323,9 +323,9 @@
         "text": "Hva betyr «Ist das Frühstück inklusive?»?",
         "options": [
           "Er frokosten inkludert?",
-          "Når er frokosten?",
-          "Hvor er frokosten?",
-          "Liker du frokost?"
+          "Når serveres frokosten?",
+          "Hvor serveres frokosten?",
+          "Koster frokosten ekstra?"
         ],
         "correct": 0,
         "explain": "Nyttig spørsmål når du bestiller hotell."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er «die Fahrkarte»?",
         "options": [
-          "Kartet",
-          "Billetten",
-          "Passet",
-          "Bilen"
+          "Et kart",
+          "En billett",
+          "Et pass",
+          "En reservasjon"
         ],
         "correct": 1,
         "explain": "«fahren» betyr å kjøre eller reise."
@@ -348,8 +348,8 @@
         "type": "flervalg",
         "text": "Hva betyr «Es ist 25 Grad»?",
         "options": [
-          "Det er 25 minutter",
           "Det er 25 kilometer",
+          "Det er 25 minutter",
           "Det er 25 grader",
           "Det er 25 euro"
         ],
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

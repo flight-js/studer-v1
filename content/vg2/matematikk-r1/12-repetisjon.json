@@ -114,10 +114,10 @@
       "id": "q01",
       "text": "Når eksisterer lim ₓ→ₐ f(x)?",
       "options": [
-        "Alltid",
-        "Når f(a) er definert",
-        "Når venstre og høyre grenseverdi er like",
-        "Når f(a) = 0"
+        "Når funksjonsverdien f(a) er definert",
+        "Når venstregrenseverdien er lik f(a)",
+        "Når venstre- og høyregrenseverdien er like",
+        "Når funksjonsverdien f(a) er lik null"
       ],
       "correct": 2,
       "explain": "De ensidige grenseverdiene må stemme overens."
@@ -126,10 +126,10 @@
       "id": "q02",
       "text": "Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?",
       "options": [
-        "f(a) = 0, f′(a) = 0 og f″(a) = 0",
-        "f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)",
-        "f er et polynom",
-        "f er voksende rundt a"
+        "f(a) er definert, venstre- og høyregrensen finnes, og de er like",
+        "f(a) er definert, lim ₓ→ₐ f(x) finnes, og lim ₓ→ₐ f(x) = f(a)",
+        "f(a) er definert, f′(a) finnes, og f′(a) = 0",
+        "f(a) er definert, f er voksende rundt a, og lim ₓ→ₐ f(x) finnes"
       ],
       "correct": 1,
       "explain": "Alle tre må gjelde."
@@ -138,10 +138,10 @@
       "id": "q03",
       "text": "Hva er den geometriske tolkningen av f′(a)?",
       "options": [
-        "Arealet under grafen",
-        "Funksjonsverdien i a",
-        "Stigningstallet til sekanten",
-        "Stigningstallet til tangenten i (a, f(a))"
+        "Stigningstallet til sekanten ved punktet (a, f(a))",
+        "Funksjonsverdien til grafen i punktet (a, f(a))",
+        "Gjennomsnittlig stigningstall mellom to punkter på grafen",
+        "Stigningstallet til tangenten i punktet (a, f(a))"
       ],
       "correct": 3,
       "explain": "Den momentane vekstfarten."
@@ -151,8 +151,8 @@
       "text": "Hva er den deriverte av (2x + 1)⁵?",
       "options": [
         "5(2x + 1)⁴",
-        "(2x + 1)⁴",
-        "2(2x + 1)⁵",
+        "2(2x + 1)⁴",
+        "10(2x + 1)⁵",
         "10(2x + 1)⁴"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q05",
       "text": "f′(a) = 0 og f″(a) > 0. Hva har f i x = a?",
       "options": [
-        "Et toppunkt",
-        "Et vendepunkt",
-        "Et terrassepunkt",
-        "Et bunnpunkt"
+        "Et toppunkt i x = a",
+        "Et vendepunkt i x = a",
+        "Et terrassepunkt i x = a",
+        "Et bunnpunkt i x = a"
       ],
       "correct": 3,
       "explain": "Grafen krummer oppover."
@@ -176,20 +176,20 @@
       "options": [
         "x = 2",
         "x = −5",
-        "x = 2 eller x = −5",
-        "x = 10"
+        "x = 10",
+        "x = 3"
       ],
       "correct": 0,
-      "explain": "x = −5 er ikke gyldig, fordi logaritmen krever positive tall."
+      "explain": "Logaritmeregelen gir x(x + 3) = 10. Av løsningene er bare x = 2 gyldig, siden logaritmene krever positive argumenter."
     },
     {
       "id": "q07",
       "text": "Hvor er vekstfarten størst i logistisk vekst?",
       "options": [
         "Når N = K/2",
-        "Når N = 0",
-        "Når N = K",
-        "I starten"
+        "Når N = K/3",
+        "Når N = 2K/3",
+        "Når N = K"
       ],
       "correct": 0,
       "explain": "Vendepunktet."
@@ -199,9 +199,9 @@
       "text": "Hvordan henger grafene til f og f⁻¹ sammen?",
       "options": [
         "De er speilbilder om linjen y = x",
-        "De er speilbilder om x-aksen",
-        "De er like",
-        "De er parallelle"
+        "De er speilbilder om linjen y = −x",
+        "De er speilbilder om y-aksen",
+        "De er speilbilder om linjen y = 1"
       ],
       "correct": 0,
       "explain": "(a, b) blir til (b, a)."
@@ -210,10 +210,10 @@
       "id": "q09",
       "text": "Hva forteller et tydelig mønster i residualene?",
       "options": [
-        "At modellen er perfekt",
+        "At modellen passer godt til datasettet",
         "At modelltypen kanskje passer dårlig",
-        "At dataene er feil",
-        "At regresjonen er ugyldig"
+        "At residualene er tilfeldig fordelt rundt null",
+        "At modellen beskriver dataene uten systematiske avvik"
       ],
       "correct": 1,
       "explain": "Tilfeldige residualer tyder på god modelltype."
@@ -222,10 +222,10 @@
       "id": "q10",
       "text": "Hva er [3, 4] · [4, −3]?",
       "options": [
-        "[12, −12]",
-        "25",
+        "12",
+        "−12",
         "0",
-        "24"
+        "25"
       ],
       "correct": 2,
       "explain": "12 − 12 = 0 – vektorene er vinkelrette."
@@ -234,10 +234,10 @@
       "id": "q11",
       "text": "Hvorfor bruker vi ulike parametere når vi finner skjæringspunktet mellom to linjer?",
       "options": [
-        "For at regningen skal bli kortere",
-        "Fordi linjene er parallelle",
-        "Fordi t alltid er tid",
-        "Fordi punktet kan nås ved ulike parameterverdier på de to linjene"
+        "Fordi parameterverdiene må være like på begge linjene.",
+        "Fordi parameterverdiene beskriver koordinatene til skjæringspunktet.",
+        "Fordi skjæringspunktet må ha parameterverdi null på begge linjene.",
+        "Fordi samme punkt kan nås med ulike parameterverdier på hver linje."
       ],
       "correct": 3,
       "explain": "t og s er uavhengige."
@@ -246,10 +246,10 @@
       "id": "q12",
       "text": "Hvordan finner du fartsvektoren når posisjonen er r⃗(t) = [x(t), y(t)]?",
       "options": [
-        "Deriver hver koordinat",
-        "Integrer",
-        "Del på t",
-        "Ta lengden"
+        "Deriver hver koordinat.",
+        "Integrer hver koordinat.",
+        "Del hver koordinat på t.",
+        "Beregn lengden av posisjonsvektoren."
       ],
       "correct": 0,
       "explain": "v⃗(t) = [x′(t), y′(t)]."
@@ -404,7 +404,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -428,7 +428,7 @@
           "0",
           "2",
           "1",
-          "Den finnes ikke"
+          "−2"
         ],
         "correct": 1,
         "explain": "(x − 1)(x + 1)/(x − 1) = x + 1 → 2."
@@ -566,12 +566,88 @@
           "Knytter f(1) = 2 til at f⁻¹(2) = 1.",
           "Bruker regelen for den deriverte av en omvendt funksjon og får 1/4."
         ]
+      },
+      {
+        "text": "Finn grenseverdien \\(\\lim_{x\\to 3}\\frac{x^2-9}{x-3}\\). Forklar hvorfor det er nødvendig å omforme uttrykket før du finner grenseverdien.",
+        "fasit": "Vi faktoriserer telleren: \\(x^2-9=(x-3)(x+3)\\). Når \\(x\\ne 3\\), kan vi forkorte med \\(x-3\\), så grenseverdien blir \\(\\lim_{x\\to3}(x+3)=6\\).",
+        "kriterier": [
+          "Faktoriserer og forkorter \\(x-3\\).",
+          "Finner grenseverdien 6."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En funksjon \\(f\\) er kontinuerlig på intervallet \\([1,4]\\), og \\(f(1)=-2\\) og \\(f(4)=3\\). Forklar hva dette forteller om nullpunkter i intervallet, og hvordan halveringsmetoden kan brukes til å finne et slikt nullpunkt.",
+        "fasit": "Siden funksjonen er kontinuerlig og verdiene i endepunktene har motsatt fortegn, har \\(f\\) minst ett nullpunkt mellom 1 og 4. I halveringsmetoden deler vi intervallet i to og beholder halvdelen der funksjonsverdiene skifter fortegn, til intervallet er tilstrekkelig lite.",
+        "kriterier": [
+          "Bruker kontinuitet og motsatt fortegn til å konkludere med minst ett nullpunkt.",
+          "Forklarer at halveringsmetoden gjentatte ganger beholder halvdelen med fortegnsskifte."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Deriver funksjonen \\(f(x)=e^{3x}+\\frac{1}{x}\\), og forklar hvilke derivasjonsregler du bruker.",
+        "fasit": "Ved kjerneregelen er den deriverte av \\(e^{3x}\\) lik \\(3e^{3x}\\), og potensregelen gir \\((1/x)'=-1/x^2\\). Dermed er \\(f'(x)=3e^{3x}-\\frac{1}{x^2}\\).",
+        "kriterier": [
+          "Bruker kjerneregelen riktig på \\(e^{3x}\\).",
+          "Deriverer \\(1/x\\) til \\(-1/x^2\\) og får riktig samlet uttrykk."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Antall besøkende på et nettsted, målt i tusen, modelleres for \\(0\\le t\\le4\\) ved \\(f(t)=-t^3+6t^2\\), der \\(t\\) er tid i timer. Finn når vekstfarten er størst, og forklar hvordan den andrederiverte støtter svaret.",
+        "fasit": "Vi får \\(f'(t)=-3t^2+12t\\) og \\(f''(t)=-6t+12\\). Den andrederiverte skifter fra positiv til negativ ved \\(t=2\\), så vekstfarten har et maksimum der. Besøkstallet øker altså raskest etter 2 timer.",
+        "kriterier": [
+          "Finner at \\(f''(t)\\) skifter fortegn ved \\(t=2\\).",
+          "Knytter dette til at \\(f'(t)\\), altså vekstfarten, er størst da."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Konsentrasjonen av \\(\\mathrm{H_3O^+}\\) i en løsning er først \\(10^{-4}\\) mol/L og senere \\(10^{-6}\\) mol/L. Finn pH-verdien i begge tilfellene ved å bruke \\(\\mathrm{pH}=-\\lg[\\mathrm{H_3O^+}]\\), og sammenlign konsentrasjonene.",
+        "fasit": "For konsentrasjonene \\(10^{-4}\\) og \\(10^{-6}\\) blir pH henholdsvis 4 og 6. Konsentrasjonen i den siste løsningen er 100 ganger mindre, siden \\(10^{-4}/10^{-6}=10^2\\).",
+        "kriterier": [
+          "Finner pH 4 og 6.",
+          "Forklarer at den siste konsentrasjonen er 100 ganger mindre."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En kraft \\(\\vec F=[2,1]\\) N virker på en gjenstand som forflyttes \\(\\vec s=[3,4]\\) m. Finn arbeidet kraften gjør, og forklar hvorfor svaret er et tall og ikke en vektor.",
+        "fasit": "Arbeidet er skalarproduktet \\(\\vec F\\cdot\\vec s=2\\cdot3+1\\cdot4=10\\) J. Skalarproduktet gir et tall, ikke en vektor.",
+        "kriterier": [
+          "Regner ut skalarproduktet til 10.",
+          "Oppgir joule og sier at skalarproduktet er en skalar."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "To båter beveger seg slik at posisjonene deres etter \\(t\\) timer er \\(\\vec r_A(t)=[t,2t]\\) og \\(\\vec r_B(t)=[6-t,2t]\\), målt i kilometer. Finn tidspunktet og stedet der båtene møtes, og forklar hvorfor koordinatene må være like ved samme tidspunkt.",
+        "fasit": "For at x-koordinatene skal være like, må \\(t=6-t\\), som gir \\(t=3\\). Da er begge posisjonene \\([3,6]\\), så båtene møtes etter 3 timer i punktet \\((3,6)\\). Et møte krever at begge koordinatene stemmer ved samme tid.",
+        "kriterier": [
+          "Finner \\(t=3\\) ved å sette x-koordinatene like.",
+          "Finner møtestedet \\((3,6)\\) og knytter møtet til samme tidspunkt for begge båtene."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Sammenhengen mellom temperatur i celsius \\(C\\) og fahrenheit \\(F\\) er \\(F=1{,}8C+32\\). Finn celsiustemperaturen som svarer til \\(86\\,°\\mathrm F\\), og forklar hvordan du bruker den omvendte sammenhengen.",
+        "fasit": "Vi løser \\(86=1{,}8C+32\\), som gir \\(C=(86-32)/1{,}8=30\\). Den omvendte sammenhengen tar en fahrenheitverdi og finner celsiustemperaturen som ga den.",
+        "kriterier": [
+          "Løser likningen riktig og får \\(30\\,°\\mathrm C\\).",
+          "Forklarer at den omvendte sammenhengen går fra fahrenheit tilbake til celsius."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

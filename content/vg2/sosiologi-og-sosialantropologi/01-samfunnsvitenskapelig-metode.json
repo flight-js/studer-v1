@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er en styrke ved kvantitativ metode?",
       "options": [
-        "Den gir dyp forståelse av enkeltpersoner",
-        "Den kan si noe om mange og om hvor utbredt noe er",
-        "Den krever ingen spørsmål",
-        "Den gir alltid sanne svar"
+        "Den gir grundig innsikt i hvordan hver deltaker opplever fenomenet.",
+        "Den viser hvor utbredt et fenomen er i en stor gruppe.",
+        "Den viser hvordan enkeltpersoner selv forklarer handlingene sine.",
+        "Den gir detaljerte beskrivelser av erfaringene til noen få deltakere."
       ],
       "correct": 1,
       "explain": "Men den forklarer lite om hvorfor."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva er deltakende observasjon?",
       "options": [
-        "At forskeren deltar i livet til dem som studeres",
-        "Et spørreskjema",
-        "En statistikkanalyse",
-        "Et telefonintervju"
+        "At forskeren deltar i hverdagen til dem som studeres.",
+        "At forskeren observerer en gruppe uten å delta i aktivitetene deres.",
+        "At forskeren intervjuer deltakerne med faste spørsmål.",
+        "At forskeren samler inn svar gjennom et spørreskjema."
       ],
       "correct": 0,
       "explain": "Typisk for sosialantropologisk feltarbeid."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvem regnes som grunnleggeren av moderne feltarbeid?",
       "options": [
-        "Karl Marx",
-        "Émile Durkheim",
+        "Franz Boas",
+        "Alfred Radcliffe-Brown",
         "Bronisław Malinowski",
-        "Max Weber"
+        "Ruth Benedict"
       ],
       "correct": 2,
       "explain": "Feltarbeid på Trobriandøyene.",
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er en svakhet ved kvalitativ metode?",
       "options": [
-        "Den gir ingen dybdekunnskap",
-        "Den kan ikke brukes på mennesker",
-        "Den bruker for mange tall",
-        "Få informanter gjør det vanskelig å generalisere"
+        "Få informanter gjør det vanskelig å stille åpne spørsmål.",
+        "Intervjuer gjør det vanskelig å få fram nyanser i svarene.",
+        "Observasjon gjør det vanskelig å undersøke menneskers erfaringer.",
+        "Få informanter gjør det vanskelig å generalisere."
       ],
       "correct": 3,
       "explain": "Til gjengjeld gir den dybde."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva betyr informert samtykke?",
       "options": [
-        "At deltakerne vet hva de deltar i og kan trekke seg",
-        "At forskeren bestemmer alt",
-        "At deltakerne får betalt",
-        "At navnene publiseres"
+        "At deltakerne vet hva de deltar i og kan trekke seg.",
+        "At deltakerne gir tillatelse uten å få informasjon om undersøkelsen.",
+        "At deltakerne får vite hva de deltar i, men ikke kan trekke seg.",
+        "At deltakerne får vite resultatene før de samtykker til å delta."
       ],
       "correct": 0,
       "explain": "Et grunnleggende forskningsetisk krav."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er et emisk perspektiv?",
       "options": [
-        "Forskerens analyse utenfra",
+        "Forskerens tolkning av kulturen utenfra",
         "De involvertes egen forståelse",
-        "Et statistisk perspektiv",
-        "Et historisk perspektiv"
+        "Forskerens statistiske framstilling av deltakernes svar",
+        "En historisk forklaring på hvordan en kultur har utviklet seg"
       ],
       "correct": 1,
       "explain": "Et innenfraperspektiv."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor er et representativt utvalg viktig i en spørreundersøkelse?",
       "options": [
-        "Det gjør undersøkelsen billigere",
-        "Det gjør svarene kortere",
-        "Det gjør det mulig å si noe om hele befolkningen",
-        "Det er ikke viktig"
+        "Det gjør det mulig å undersøke flere spørsmål i samme undersøkelse.",
+        "Det gjør det enklere å få alle deltakerne til å svare.",
+        "Det gjør det mulig å si noe om hele befolkningen.",
+        "Det gjør det mulig å få raske svar fra alle i befolkningen."
       ],
       "correct": 2,
       "explain": "Utvalget må ligne befolkningen."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
-        "Hvor mange ord har teksten?",
-        "Hvilken skrifttype er brukt?",
-        "Hvor lang er kilden?",
+        "Hvilken skrifttype og skriftstørrelse er brukt i teksten?",
+        "Hvor mange avsnitt har teksten, og hvor lange er de?",
+        "Hvor mange ord har teksten, og hvor mange sider fyller den?",
         "Hvem står bak, og hva er formålet?"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvorfor kombinerer mange forskere kvantitative og kvalitative metoder?",
       "options": [
         "For å få både bredde og dybde",
-        "Fordi det er påbudt",
-        "For å slippe analyse",
-        "For å unngå kildekritikk"
+        "For å få flere svar uten å bruke tid på analyse",
+        "For å stille de samme spørsmålene i alle intervjuene",
+        "For å slippe å vurdere kvaliteten på kildene"
       ],
       "correct": 0,
       "explain": "Metodene utfyller hverandre."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er det første steget i en samfunnsfaglig undersøkelse?",
       "options": [
-        "Å skrive konklusjonen",
+        "Å skrive en konklusjon før dataene er analysert",
         "Å formulere en tydelig problemstilling",
-        "Å samle inn data",
-        "Å velge skrifttype"
+        "Å velge metode før temaet er avklart",
+        "Å bestemme hvordan resultatene skal presenteres"
       ],
       "correct": 1,
       "explain": "Problemstillingen styrer resten."
@@ -315,9 +315,9 @@
         "text": "Hvilken metode passer best for å finne ut hvor mange elever som jobber ved siden av skolen?",
         "options": [
           "Deltakende observasjon",
-          "Spørreundersøkelse",
-          "Dybdeintervju med én elev",
-          "Dokumentanalyse av dikt"
+          "En spørreundersøkelse",
+          "Et dybdeintervju",
+          "En dokumentanalyse"
         ],
         "correct": 1,
         "explain": "Kvantitativ metode for utbredelse."
@@ -329,7 +329,7 @@
         "options": [
           "Kvalitative intervjuer",
           "Registerdata",
-          "En enkel telling",
+          "En statistisk opptelling",
           "En opinionsmåling"
         ],
         "correct": 0,
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva innebærer anonymitet i forskning?",
         "options": [
-          "At forskeren er hemmelig",
-          "At ingen får lese resultatene",
-          "At deltakerne ikke skal kunne gjenkjennes",
-          "At det ikke brukes navn på fagene"
+          "At forskerens navn ikke blir oppgitt i rapporten.",
+          "At resultatene ikke blir gjort tilgjengelige for andre.",
+          "At deltakerne ikke skal kunne gjenkjennes.",
+          "At deltakerne ikke får vite hvem som har samlet inn opplysningene."
         ],
         "correct": 2,
         "explain": "Et etisk krav."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

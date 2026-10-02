@@ -124,10 +124,10 @@
       "id": "q01",
       "text": "Hva kjennetegner realismen?",
       "options": [
-        "Hverdagslige personer og samfunnskritikk",
-        "Drømmer og mystikk",
-        "Helter fra sagatiden",
-        "Bare naturskildringer"
+        "Hverdagslige mennesker og kritikk av samfunnet",
+        "Drømmerike skikkelser og uforklarlige hendelser",
+        "Sagnhelter og gamle nasjonale fortellinger",
+        "Naturbilder og følelsesladde landskap"
       ],
       "correct": 0,
       "explain": "Litteraturen skulle skildre virkeligheten."
@@ -136,10 +136,10 @@
       "id": "q02",
       "text": "Hva kjennetegner naturalismens menneskesyn?",
       "options": [
-        "Mennesket har full fri vilje",
+        "Mennesket formes av fri vilje og fornuft",
         "Mennesket styres av arv, miljø og drifter",
-        "Mennesket er alltid godt",
-        "Mennesket styres av Gud"
+        "Mennesket utvikler seg gjennom læring og dannelse",
+        "Mennesket styres av tro og guddommelig vilje"
       ],
       "correct": 1,
       "explain": "Liten fri vilje."
@@ -148,10 +148,10 @@
       "id": "q03",
       "text": "Hva kjennetegner arbeiderlitteraturen?",
       "options": [
-        "Idyllisk bondeliv",
-        "Middelaldermotiver",
-        "Klasseforskjeller og solidaritet",
-        "Drømmer og mystikk"
+        "Naturidyll, gårdsliv og tradisjonelle familieverdier",
+        "Byliv, maskiner og teknologisk utvikling",
+        "Klasseforskjeller og solidaritet blant arbeidere",
+        "Fortid, kongesagaer og middelalderske heltedåder"
       ],
       "correct": 2,
       "explain": "Om og for arbeiderne."
@@ -160,10 +160,10 @@
       "id": "q04",
       "text": "Hva kjennetegner modernismen?",
       "options": [
-        "Faste rim og rytme",
+        "Videreføring av tradisjonelle former og lineære fortellinger",
         "Brudd med tradisjonelle former og fragmentering",
-        "Idealisering av bondelivet",
-        "Nøktern realisme"
+        "Idealiserte skildringer av bygdeliv og nasjonale verdier",
+        "Nøktern framstilling av samfunn og hverdagsliv"
       ],
       "correct": 1,
       "explain": "Også sterke bilder og uklarhet."
@@ -173,9 +173,9 @@
       "text": "Hva er autofiksjon?",
       "options": [
         "Litteratur der grensen mellom eget liv og fiksjon viskes ut",
-        "Science fiction",
-        "Litteratur om biler",
-        "Rene biografier uten fiksjon"
+        "Litteratur der framtidsteknologi og romreiser står sentralt",
+        "Litteratur der en annen person forteller om forfatterens liv",
+        "Litteratur der handlingen bygger på historiske hendelser"
       ],
       "correct": 0,
       "explain": "For eksempel Knausgårds Min kamp.",
@@ -185,10 +185,10 @@
       "id": "q06",
       "text": "Hva er forskjellen på et essay og en fagartikkel?",
       "options": [
-        "Essayet utforsker personlig, fagartikkelen greier ut saklig",
-        "Det er ingen forskjell",
-        "Fagartikkelen er alltid morsom",
-        "Essayet har alltid tabeller"
+        "Essayet utforsker personlig; fagartikkelen greier ut saklig.",
+        "Essayet greier ut saklig; fagartikkelen utforsker personlig.",
+        "Essayet følger en fast metode; fagartikkelen deler skribentens undring.",
+        "Essayet formidler forskningsresultater; fagartikkelen skildrer personlige opplevelser."
       ],
       "correct": 0,
       "explain": "Ulike formål og stemmer."
@@ -197,10 +197,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på analyse og tolkning?",
       "options": [
-        "Det er det samme",
-        "Analyse undersøker oppbygningen, tolkning finner betydningen",
-        "Tolkning handler om rim",
-        "Analyse er alltid muntlig"
+        "Analyse finner betydningen, mens tolkning undersøker oppbygningen.",
+        "Analyse undersøker oppbygningen, mens tolkning finner betydningen.",
+        "Analyse oppsummerer handlingen, mens tolkning beskriver forfatterens liv.",
+        "Analyse og tolkning betegner samme arbeid med teksten."
       ],
       "correct": 1,
       "explain": "Analysen er grunnlaget for tolkningen."
@@ -221,10 +221,10 @@
       "id": "q09",
       "text": "Hva er det viktigste i analysen av en sammensatt tekst?",
       "options": [
-        "Å telle ord",
-        "Samspillet mellom uttrykksformene",
-        "Å beskrive skrifttypen",
-        "Å finne forfatteren"
+        "Å undersøke hvordan teksten er delt inn i avsnitt.",
+        "Å undersøke hvordan uttrykksformene virker sammen.",
+        "Å undersøke hvordan skrifttypen påvirker lesingen.",
+        "Å undersøke hvem som har laget teksten."
       ],
       "correct": 1,
       "explain": "Hvordan de virker sammen."
@@ -233,9 +233,9 @@
       "id": "q10",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å referere",
-        "Å gi én mening uten begrunnelse",
-        "Å liste opp fakta",
+        "Å forklare én side av saken før man konkluderer",
+        "Å gjengi hovedinnholdet i en kilde uten vurdering",
+        "Å presentere fakta om saken uten å veie argumenter",
         "Å se en sak fra flere sider før man konkluderer"
       ],
       "correct": 3,
@@ -245,10 +245,10 @@
       "id": "q11",
       "text": "Hva er målet med en utforskende samtale?",
       "options": [
-        "Å vinne diskusjonen",
+        "Å forsvare eget standpunkt overfor de andre",
         "Å tenke sammen for å forstå noe bedre",
-        "Å snakke mest",
-        "Å bli ferdig raskt"
+        "Å få fram flest mulig synspunkter i samtalen",
+        "Å komme raskt fram til en felles konklusjon"
       ],
       "correct": 1,
       "explain": "Man bygger videre på hverandre."
@@ -257,10 +257,10 @@
       "id": "q12",
       "text": "Hva er regionalisering?",
       "options": [
-        "At bydialekten påvirker omlandet og regionale talemål vokser fram",
-        "At alle dialekter blir helt like",
-        "At nynorsk blir mer brukt",
-        "At engelsk erstatter norsk"
+        "At bydialekter påvirker omlandet, og regionale talemål vokser fram",
+        "At regionale talemål påvirker byene, og lokale talemål vokser fram",
+        "At dialekter påvirker skriftspråket, og regionale skrivemåter vokser fram",
+        "At talemål påvirkes av medier, og et felles norsk talemål vokser fram"
       ],
       "correct": 0,
       "explain": "En form for dialektutjevning."
@@ -428,7 +428,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -449,10 +449,10 @@
         "type": "flervalg",
         "text": "Hva kalles litteratur som tar opp samfunnsproblemer til debatt?",
         "options": [
-          "Heltedikt",
-          "Eventyr",
+          "Heltediktning",
+          "Folkeeventyr",
           "Problemlitteratur",
-          "Nyromantikk"
+          "Naturlyrikk"
         ],
         "correct": 2,
         "explain": "Typisk for det moderne gjennombruddet."
@@ -463,9 +463,9 @@
         "text": "Hvilken slutt er typisk for naturalistiske romaner?",
         "options": [
           "Pessimistisk",
-          "Lykkelig",
-          "Religiøs frelse",
-          "Heroisk seier"
+          "Optimistisk",
+          "Forsonende",
+          "Seierpreget"
         ],
         "correct": 0,
         "explain": "Personene går ofte til grunne."
@@ -483,10 +483,10 @@
         "type": "flervalg",
         "text": "Hvordan brukes naturen ofte i modernistiske tekster?",
         "options": [
-          "Som idyll",
-          "Som bakgrunn uten betydning",
+          "Som realistisk skildring av norsk landbruk",
+          "Som idyllisk bakgrunn for menneskelig handling",
           "Som speil for sjelen eller symbol",
-          "Som reklame"
+          "Som naturfaglig forklaring på menneskets liv"
         ],
         "correct": 2,
         "explain": "For eksempel hos Vesaas."
@@ -517,10 +517,10 @@
         "type": "flervalg",
         "text": "Hva er en årsak til endringer i talespråket?",
         "options": [
-          "Færre reiser",
-          "Mindre kontakt mellom folk",
+          "Færre reiser, mindre kontakt mellom folk og mindre bruk av medier",
+          "Skoleundervisning, rettskrivingsregler og skriftlige grammatikkregler",
           "Urbanisering, innvandring og nye medier",
-          "At dialekter er forbudt"
+          "Klimaendringer, årstider og lokale værforhold"
         ],
         "correct": 2,
         "explain": "Samfunnsendringer gir språkendringer."
@@ -599,12 +599,91 @@
           "Skiller mellom konkret motiv og overordnet tema.",
           "Forklarer at sitatet må kommenteres og knyttes til tolkningen."
         ]
+      },
+      {
+        "text": "En roman skildrer en fattig familie detaljert og viser hvordan arv og miljø former livene deres. En annen roman bygger på forfatterens eget liv, men blander virkelighet og oppdiktning. Forklar hvordan dette viser to ulike måter å framstille mennesket og virkeligheten på.",
+        "fasit": "Den første romanen har et naturalistisk menneskesyn: Menneskene blir i stor grad formet av arv og miljø, og skildringen er objektiv og detaljert. I autofiksjon er det sentralt at forfatterens eget liv blir framstilt i romanform, slik at grensen mellom virkelighet og fiksjon blir uklar.",
+        "kriterier": [
+          "Knytter naturalismen til at arv og miljø former mennesket.",
+          "Forklarer at autofiksjon blander forfatterens eget liv med fiksjon."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Du skal holde en muntlig presentasjon om hvordan en roman framstiller et samfunnsspørsmål. Du vil bruke både romanen og en fagtekst som kilder. Forklar hvordan du kan avgrense presentasjonen og bruke kildene og lysbildene på en faglig ryddig måte.",
+        "fasit": "Jeg kan formulere en avgrenset problemstilling og bruke konkrete eksempler fra romanen, supplert med relevant kontekst fra fagteksten. Jeg bør kontrollere hvem som står bak fagteksten og hvordan den er dokumentert, oppgi kildene og la lysbildene støtte det jeg sier, ikke erstatte framføringen.",
+        "kriterier": [
+          "Foreslår en avgrenset problemstilling og bruk av konkrete teksteksempler.",
+          "Nevner kildekritikk og at kildene skal oppgis.",
+          "Forklarer at lysbildene skal støtte, ikke erstatte, muntlig framføring."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En ungdom med norske foreldre bruker lånord og særegen ordstilling som forbindes med multietnolekt. Forklar hvorfor talemåten ikke bare kan knyttes til etnisitet, og hvordan den kan uttrykke både tilhørighet og møte fordommer.",
+        "fasit": "Multietnolekt brukes av ungdom med ulik bakgrunn, også ungdom med norske foreldre, og kan derfor ikke forklares bare med etnisitet. Talemåten kan markere identitet og fellesskap, men noen talemåter har lavere status og kan møtes med fordommer.",
+        "kriterier": [
+          "Slår fast at multietnolekt brukes av ungdom med ulik bakgrunn.",
+          "Knytter talemåten til identitet eller fellesskap.",
+          "Nevner at talemåter kan møtes med fordommer eller ha ulik status."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Sammenlign hva realismen og den sosialrealistiske litteraturen på 1970-tallet retter oppmerksomheten mot i samfunnet. Nevn også et fellestrekk ved samfunnskritikken deres.",
+        "fasit": "Realismen skildrer ofte hverdagslige personer og miljøer og kritiserer samfunnets normer og institusjoner. Den sosialrealistiske litteraturen på 1970-tallet tok blant annet opp arbeidsliv og klassekamp. Begge retningene bruker litteraturen til å rette oppmerksomhet mot samfunnsproblemer.",
+        "kriterier": [
+          "Knytter realismen til hverdagsliv og kritikk av normer eller institusjoner.",
+          "Knytter 1970-tallets sosialrealisme til arbeidsliv eller klassekamp.",
+          "Får fram at begge retter kritikk mot samfunnsforhold."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En organisasjon deler et innlegg om en aktuell helsesak. Innlegget bruker en personlig fortelling og viser til et statistisk tall, men oppgir ikke hvor tallet kommer fra. Forklar hvilke appellformer som er i bruk, og hvordan en leser kan undersøke hvor troverdig innlegget er.",
+        "fasit": "Den personlige fortellingen appellerer til patos, mens statistikken bruker logos. Leseren bør undersøke hvem som står bak, om kilden til tallet er kompetent og oppdatert, og om opplysningen støttes av andre kilder. Den sterke følelsesappellen gjør ikke i seg selv tallet troverdig.",
+        "kriterier": [
+          "Knytter fortellingen til patos og statistikken til logos.",
+          "Nevner relevante kontroller av kilden, for eksempel avsender, aktualitet eller dokumentasjon.",
+          "Skiller mellom følelsesvirkning og hvor godt påstanden er dokumentert."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "I romanen «Is-slottet» blir is-slottet beskrevet som både vakkert og farlig. Forklar hvordan en leser kan tolke det som et symbol, og hvordan en slik tolkning bør begrunnes.",
+        "fasit": "Som symbol kan is-slottet bety mer enn en fysisk bygning, for eksempel ved å uttrykke noe som både tiltrekker og truer. Tolkningen bør støttes av detaljer eller sitater fra romanen. En slik lesning passer med at Vesaas knytter naturen til menneskets indre.",
+        "kriterier": [
+          "Forklarer at et symbol har betydning utover det konkrete motivet.",
+          "Knytter tolkningen til tekstlige detaljer eller sitater.",
+          "Knytter gjerne natursymbolet til menneskets indre hos Vesaas."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En essayist begynner med en personlig opplevelse av å føle seg utenfor, kobler den til en roman om fremmedfølelse og avslutter med et åpent spørsmål. Forklar hvordan dette passer med essaysjangeren, og hvorfor teksten bør gjøre mer enn å gjenfortelle romanen.",
+        "fasit": "Essayet beveger seg fra en konkret, personlig erfaring til et større tema og lar teksten åpne for videre refleksjon. Den utforskende formen og det åpne spørsmålet passer sjangeren, mens et rent handlingsreferat ikke viser hvilke tanker romanen setter i gang.",
+        "kriterier": [
+          "Knytter bevegelsen fra personlig opplevelse til et større tema til essayets form.",
+          "Nevner utforskende refleksjon eller åpen avslutning.",
+          "Forklarer at essayet skal utvikle tanker, ikke bare gjenfortelle handlingen."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En elev merker at hen veksler mellom norsk og engelsk i samtaler etter å ha brukt mye tid på engelskspråklige strømmetjenester og dataspill. Forklar hva språkbyttet kalles, hvordan mediene kan bidra til det, og hva bekymringen for domenetap betyr.",
+        "fasit": "Å bytte mellom norsk og engelsk i samme samtale kalles kodeveksling. Strømmetjenester og dataspill kan gi mye kontakt med engelsk og påvirke språkbruken. Bekymring for domenetap handler om at norsk kan miste terreng på områder som forskning, næringsliv og data.",
+        "kriterier": [
+          "Identifiserer språkbyttet som kodeveksling.",
+          "Knytter mediebruk til økt kontakt med engelsk.",
+          "Forklarer domenetap som at norsk mister terreng på bestemte samfunnsområder."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

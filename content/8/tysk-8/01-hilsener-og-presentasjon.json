@@ -93,8 +93,8 @@
       "text": "Hvordan sier du «Jeg kommer fra Norge» på tysk?",
       "options": [
         "Ich wohne in Norwegen.",
-        "Ich heiße Norwegen.",
-        "Ich bin Norwegen.",
+        "Ich komme aus Schweden.",
+        "Ich komme nach Norwegen.",
         "Ich komme aus Norwegen."
       ],
       "correct": 3,
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Når bruker du «Sie» i stedet for «du»?",
       "options": [
-        "Til voksne du ikke kjenner, som en lærer eller ekspeditør",
-        "Til venner",
-        "Til søsken",
-        "Til kjæledyr"
+        "Til ukjente voksne, som lærere eller ekspeditører",
+        "Til venner og klassekamerater som du kjenner",
+        "Til søsken og andre familiemedlemmer som du kjenner",
+        "Til barn og ungdommer som du kjenner godt"
       ],
       "correct": 0,
       "explain": "«Sie» er høflighetsformen."
@@ -117,9 +117,9 @@
       "text": "Hvordan uttales «ei» i «drei»?",
       "options": [
         "Som norsk «ei»",
-        "Som langt «i»",
+        "Som norsk «i»",
         "Som norsk «ai»",
-        "Som «åi»"
+        "Som norsk «oi»"
       ],
       "correct": 2,
       "explain": "«drei» uttales omtrent «drai»."
@@ -128,13 +128,13 @@
       "id": "q05",
       "text": "Hvilken hilsen passer best når du sier ha det etter en formell samtale?",
       "options": [
-        "Hallo!",
-        "Tschüs!",
+        "Guten Tag!",
         "Guten Morgen!",
+        "Guten Abend!",
         "Auf Wiedersehen!"
       ],
       "correct": 3,
-      "explain": "«Tschüs» er uformelt, «Auf Wiedersehen» er formelt."
+      "explain": "Uformelle hilsener som «Tschüs» passer dårligere; «Auf Wiedersehen» er formelt."
     },
     {
       "id": "q06",
@@ -143,7 +143,7 @@
         "Verb",
         "Substantiver",
         "Adjektiver",
-        "Tallord"
+        "Pronomen"
       ],
       "correct": 1,
       "explain": "Alle substantiver, som «der Hund» og «die Schule», har stor forbokstav."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva svarer du på «Wie geht's?» hvis det går bra?",
       "options": [
-        "Gut, danke!",
-        "Ich heiße Ola.",
-        "Auf Wiedersehen!",
-        "Ich bin dreizehn."
+        "Mir geht es gut.",
+        "Ich heiße Anna.",
+        "Ich bin dreizehn.",
+        "Ich komme aus Norwegen."
       ],
       "correct": 0,
       "explain": "«Gut, danke!» betyr «Bra, takk!»."
@@ -165,9 +165,9 @@
       "text": "Hvordan uttales «w» i «wo»?",
       "options": [
         "Som engelsk «w»",
-        "Som «f»",
+        "Som norsk «f»",
         "Som norsk «v»",
-        "Den er stum"
+        "Uttales ikke"
       ],
       "correct": 2,
       "explain": "«wo» uttales omtrent «vo»."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva betyr «Entschuldigung»?",
       "options": [
-        "Takk",
-        "Unnskyld",
-        "Vær så god",
-        "Ha det"
+        "Et uttrykk for å si takk",
+        "Et uttrykk for å be om unnskyldning",
+        "Et uttrykk for å si vær så god",
+        "Et uttrykk for å si ha det"
       ],
       "correct": 1,
       "explain": "Ordet brukes når du vil be om unnskyldning eller få noens oppmerksomhet."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er «ß»?",
       "options": [
-        "En omlyd",
-        "En stor S",
-        "Et spørsmålstegn",
-        "En bokstav som uttales som dobbel s"
+        "En bokstav som uttales «z»",
+        "En bokstav med to prikker",
+        "En bokstav som uttales «sj»",
+        "En bokstav som uttales «ss»"
       ],
       "correct": 3,
       "explain": "Bokstaven kalles eszett, som i «Straße»."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich bin dreizehn Jahre alt»?",
         "options": [
-          "Jeg bor i Tyskland",
+          "Jeg er tolv år gammel",
           "Jeg er tretten år gammel",
-          "Jeg heter Dreizehn",
-          "Jeg har tretten søsken"
+          "Jeg er fjorten år gammel",
+          "Jeg er femten år gammel"
         ],
         "correct": 1,
         "explain": "«dreizehn» betyr tretten."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvordan uttales «z» i «zehn»?",
         "options": [
-          "ts",
-          "s",
-          "som engelsk z",
-          "sj"
+          "ts-lyd",
+          "s-lyd",
+          "z-lyd",
+          "sj-lyd"
         ],
         "correct": 0,
         "explain": "«zehn» uttales omtrent «tsen»."
@@ -354,7 +354,7 @@
         "text": "Hvilket ord betyr «takk»?",
         "options": [
           "Bitte",
-          "Ja",
+          "Entschuldigung",
           "Danke",
           "Hallo"
         ],
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

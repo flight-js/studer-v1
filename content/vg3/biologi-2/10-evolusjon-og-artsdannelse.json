@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva betyr evolusjon i populasjonsgenetikk?",
       "options": [
-        "At individer endrer seg i løpet av livet",
+        "At individer tilpasser seg i løpet av livet",
         "At allelfrekvensene endrer seg over generasjoner",
-        "At arter aldri endres",
-        "At alle gener er like"
+        "At alle genvarianter forekommer like ofte",
+        "At genene endres i hvert enkelt individ"
       ],
       "correct": 1,
       "explain": "Genlageret endres."
@@ -92,8 +92,8 @@
       "text": "q² = 0,04. Hva er andelen bærere (Aa)?",
       "options": [
         "32 %",
-        "4 %",
-        "16 %",
+        "20 %",
+        "40 %",
         "64 %"
       ],
       "correct": 0,
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hvilken seleksjon favoriserer gjennomsnittet?",
       "options": [
-        "Retningsbestemt",
-        "Splittende",
-        "Seksuell",
-        "Stabiliserende"
+        "Retningsbestemt seleksjon",
+        "Splittende seleksjon",
+        "Seksuell seleksjon",
+        "Stabiliserende seleksjon"
       ],
       "correct": 3,
       "explain": "For eksempel normal fødselsvekt."
@@ -128,9 +128,9 @@
       "text": "Hva er genetisk drift?",
       "options": [
         "Tilfeldige endringer i allelfrekvenser",
-        "Seleksjon av de sterkeste",
-        "Innvandring",
-        "Mutasjoner"
+        "Arvelige forskjeller som gir ulik reproduksjon",
+        "Flytting av alleler mellom populasjoner",
+        "Oppståelse av nye alleler ved DNA-endringer"
       ],
       "correct": 0,
       "explain": "Særlig viktig i små populasjoner."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er flaskehalseffekten?",
       "options": [
-        "At populasjonen vokser raskt",
+        "At en populasjon vokser raskt etter en økning i fødsler",
         "At en kraftig reduksjon gir tap av genetisk variasjon",
-        "At to arter blir én",
-        "At allelene blandes"
+        "At alleler flyttes mellom populasjoner gjennom innvandring",
+        "At få individer grunnlegger en ny populasjon med et tilfeldig utvalg alleler"
       ],
       "correct": 1,
       "explain": "For eksempel etter jakt eller sykdom."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er allopatrisk artsdannelse?",
       "options": [
-        "Artsdannelse i samme område",
-        "Artsdannelse ved krysning",
+        "Artsdannelse uten geografisk skille i samme område",
+        "Artsdannelse etter at ulike arter får hybridavkom",
         "Artsdannelse etter geografisk isolasjon",
-        "Artsdannelse ved genflyt"
+        "Artsdannelse mens genflyt holder populasjonene sammen"
       ],
       "correct": 2,
       "explain": "Som Darwins finker."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvorfor er muldyret et eksempel på en reproduktiv barriere?",
       "options": [
-        "Fordi det ikke kan leve",
+        "Fordi muldyret ikke kan overleve etter fødselen",
         "Fordi hest og esel ikke kan pare seg",
-        "Fordi det er en ny art",
-        "Fordi det er sterilt"
+        "Fordi muldyret ikke kan utvikle seg i livmoren",
+        "Fordi muldyret ikke kan få fruktbare avkom"
       ],
       "correct": 3,
       "explain": "En barriere etter befruktning.",
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva gjør genflyt med to populasjoner?",
       "options": [
-        "Gjør dem mer like",
-        "Gjør dem mer ulike",
-        "Skaper nye arter",
-        "Stopper evolusjonen"
+        "Gjør allelfrekvensene i de to populasjonene mer like",
+        "Gjør allelfrekvensene i de to populasjonene mer ulike",
+        "Hindrer alleler i å flytte mellom de to populasjonene",
+        "Skaper en geografisk barriere mellom de to populasjonene"
       ],
       "correct": 0,
       "explain": "Alleler flyttes mellom dem."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er et eksempel på evolusjon i vår egen tid?",
       "options": [
-        "Dinosaurenes utdøing",
+        "Tilvenning til antibiotika hos enkeltbakterier",
         "Antibiotikaresistens hos bakterier",
-        "Dannelsen av jorda",
-        "Istiden"
+        "Ervervet immunitet etter vaksinasjon hos mennesker",
+        "Tilvenning til kulde hos enkeltindivider"
       ],
       "correct": 1,
       "explain": "Resistente bakterier overlever og formerer seg."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hva er polyploidi?",
         "options": [
-          "Tap av kromosomer",
-          "At antall kromosomsett økes",
-          "En type mutasjon i ett gen",
-          "Geografisk isolasjon"
+          "At organismen mister ett eller flere kromosomsett",
+          "At organismen får flere hele kromosomsett",
+          "At DNA-sekvensen endres i ett enkelt gen",
+          "At en populasjon deles av en geografisk barriere"
         ],
         "correct": 1,
         "explain": "Vanlig ved artsdannelse hos planter."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hvilken barriere virker før befruktning?",
         "options": [
-          "Ulik paringstid",
-          "Sterile avkom",
-          "Avkom som dør tidlig",
-          "Ingen"
+          "Ulik paringstid mellom populasjonene",
+          "Sterile avkom etter paring mellom populasjonene",
+          "Avkom som dør tidlig etter befruktning",
+          "Svekket fruktbarhet hos avkom i neste generasjon"
         ],
         "correct": 0,
         "explain": "Hindrer at paring skjer."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva kan hardt fiske føre til evolusjonært?",
         "options": [
-          "Større fisk",
-          "Mer variasjon",
+          "At fisk blir kjønnsmodne senere",
+          "At fisk blir kjønnsmodne ved større kroppsstørrelse",
           "At fisk blir kjønnsmodne tidligere",
-          "Ingen endring"
+          "At fisk får færre avkom etter hvert som bestanden minker"
         ],
         "correct": 2,
         "explain": "Store fisk fjernes.",
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

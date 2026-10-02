@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å skrive bare egen mening",
-        "Å se en sak fra flere sider og vurdere argumentene før man konkluderer",
-        "Å gjenfortelle en tekst",
-        "Å skrive et dikt"
+        "Å presentere én side og støtte den med argumenter",
+        "Å undersøke en sak fra flere sider og vurdere argumentene før man konkluderer",
+        "Å forklare hva saken handler om uten å vurdere synspunkter",
+        "Å trekke en konklusjon før man undersøker argumentene"
       ],
       "correct": 1,
       "explain": "Drøfting handler om å veie argumenter for og mot opp mot hverandre."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva hører hjemme i innledningen av en fagartikkel?",
       "options": [
-        "Kildelisten",
-        "Konklusjonen",
+        "En fullstendig oversikt over kildene som er brukt",
+        "En vurdering av resultatene etter gjennomgangen",
         "En presentasjon av emnet og gjerne en problemstilling",
-        "Alle argumentene"
+        "En detaljert gjennomgang av alle argumentene i saken"
       ],
       "correct": 2,
       "explain": "Innledningen forteller leseren hva artikkelen skal handle om."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er det viktigste formålet med et debattinnlegg?",
       "options": [
-        "Å overbevise leseren",
-        "Å underholde",
-        "Å gi en nøytral oversikt",
-        "Å fortelle en oppdiktet historie"
+        "Å overbevise leseren om et standpunkt",
+        "Å forklare et tema uten å ta standpunkt",
+        "Å presentere ulike syn uten å påvirke leseren",
+        "Å utforske et spørsmål og la leseren trekke en konklusjon"
       ],
       "correct": 0,
       "explain": "Debattinnlegget argumenterer for et standpunkt og vil påvirke leseren."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvilket uttrykk passer i en drøftende tekst?",
       "options": [
-        "Det er helt åpenbart at …",
-        "Alle vet at …",
-        "Jeg gidder ikke …",
+        "Dette synet er best … fordi argumentet støtter det …",
+        "Motargumentet er svakt … og bør derfor avvises …",
+        "Jeg har valgt standpunkt … og skal forklare hvorfor …",
         "På den ene siden … på den andre siden …"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva kjennetegner et essay?",
       "options": [
         "Det er en reflekterende og personlig tekst som undrer seg",
-        "Det er alltid en nyhetssak",
-        "Det har alltid en fast konklusjon",
-        "Det består bare av tall"
+        "Det er en nyhetstekst som rapporterer om en aktuell hendelse",
+        "Det er en argumenterende tekst som vil få leseren til å støtte et syn",
+        "Det er en instruksjonstekst som viser trinn for å utføre en oppgave"
       ],
       "correct": 0,
       "explain": "Essayet utforsker et tema fra flere vinkler og kan være personlig.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor bør du tenke på mottakeren når du skriver?",
       "options": [
-        "Fordi mottakeren bestemmer tittelen",
+        "Fordi leseren avgjør hvilken sjanger teksten skal ha",
         "Fordi språk og innhold bør tilpasses den som skal lese",
-        "Fordi mottakeren skal rette teksten",
-        "Det er ikke viktig"
+        "Fordi leseren velger hvilke kilder du skal bruke",
+        "Fordi leseren har ansvar for å rette feil i teksten"
       ],
       "correct": 1,
       "explain": "En tekst til ungdom på nett skrives annerledes enn en fagartikkel til en lærer."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er en problemstilling?",
       "options": [
-        "Et sammendrag",
-        "En overskrift uten spørsmål",
+        "Et tema teksten skal beskrive uten å stille et spørsmål",
+        "En påstand teksten bruker som bevis for standpunktet",
         "Et spørsmål teksten skal undersøke eller svare på",
-        "Et sitat"
+        "En konklusjon teksten bygger videre på i drøftingen"
       ],
       "correct": 2,
       "explain": "Problemstillingen gir teksten retning, for eksempel «Bør mobiler forbys i skolen?»."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva gjør en god konklusjon i en drøftende tekst?",
       "options": [
-        "Introduserer nye argumenter",
-        "Gjentar innledningen ordrett",
-        "Er uten sammenheng med drøftingen",
-        "Bygger på drøftingen og kan være nyansert"
+        "Den presenterer et nytt argument som ikke er drøftet",
+        "Den gjentar innledningen uten å svare på problemstillingen",
+        "Den oppsummerer temaet uten å vise hva drøftingen kom fram til",
+        "Den bygger på drøftingen og kan være nyansert"
       ],
       "correct": 3,
       "explain": "Konklusjonen skal følge logisk av vurderingen av argumentene."
@@ -176,9 +176,9 @@
       "text": "Hvorfor kan det styrke et debattinnlegg å ta med et motargument?",
       "options": [
         "Det viser at du har vurdert saken fra flere sider",
-        "Det gjør innlegget lengre",
-        "Det bytter side for deg",
-        "Det er påbudt"
+        "Det viser at du er enig med motpartens standpunkt",
+        "Det gjør at innlegget virker nøytralt for leseren",
+        "Det gir plass til flere eksempler på ditt eget standpunkt"
       ],
       "correct": 0,
       "explain": "Når du tilbakeviser et motargument, framstår du som grundig og troverdig."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva bør du gjøre i en muntlig debatt?",
       "options": [
-        "Avbryte motparten ofte",
-        "Lytte til motparten og svare saklig",
-        "Snakke så lenge som mulig",
-        "Bare lese opp et manus"
+        "Lytt til motparten og svar med et nytt tema",
+        "Lytt til motparten og svar saklig på det som blir sagt",
+        "Presenter eget syn uten å kommentere motpartens poeng",
+        "Les opp ferdigskrevne argumenter i stedet for å svare på innlegg"
       ],
       "correct": 1,
       "explain": "God debattkultur handler om å lytte, svare på det som faktisk blir sagt, og holde seg til saken."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken tekst skal typisk undre seg og utforske et tema uten fast konklusjon?",
         "options": [
-          "Nyhetsartikkel",
-          "Bruksanvisning",
+          "Fagartikkel",
+          "Debattinnlegg",
           "Essay",
-          "Leserinnlegg"
+          "Nyhetsartikkel"
         ],
         "correct": 2,
         "explain": "Essayet er reflekterende og undrende.",
@@ -329,9 +329,9 @@
         "text": "Hva er belegg?",
         "options": [
           "Fakta, eksempler og kilder som støtter et argument",
-          "Tittelen på teksten",
-          "En type rim",
-          "Avslutningen"
+          "En påstand som teksten prøver å bevise",
+          "En mening som forklarer hvorfor argumentet er viktig",
+          "En motpåstand som viser en annen side av saken"
         ],
         "correct": 0,
         "explain": "Argumenter blir sterkere når de støttes av belegg."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva bør et debattinnlegg ofte avslutte med?",
         "options": [
-          "En ny problemstilling",
-          "En kildeliste over ti sider",
-          "En oppfordring og en gjentakelse av påstanden",
-          "Et dikt"
+          "En ny problemstilling og en presentasjon av temaet",
+          "En kildeliste og en forklaring av kildevalget",
+          "En oppfordring og en gjentakelse av hovedpåstanden",
+          "Et motargument og en ny påstand som ikke er drøftet"
         ],
         "correct": 2,
         "explain": "Avslutningen samler budskapet og ber leseren tenke eller handle."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

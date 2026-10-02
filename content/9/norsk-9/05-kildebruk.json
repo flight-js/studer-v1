@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr kildekritikk?",
       "options": [
-        "Å kritisere forfatteren",
+        "Å kontrollere om kilden bruker korrekt rettskriving",
         "Å vurdere hvor pålitelig en kilde er",
-        "Å bruke så få kilder som mulig",
-        "Å slette kilder man er uenig i"
+        "Å finne tekster som støtter det du mener",
+        "Å finne ut om teksten er lett å forstå"
       ],
       "correct": 1,
       "explain": "Kildekritikk handler om å vurdere hvem som står bak, hvorfor, når og hvor noe er publisert."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvilken kilde er en primærkilde?",
       "options": [
-        "En lærebok om andre verdenskrig",
-        "Et leksikon",
+        "En historiebok skrevet mange år etter krigen",
+        "Et leksikon med artikler om andre verdenskrig",
         "En dagbok skrevet under andre verdenskrig",
-        "En nettside som oppsummerer bøker"
+        "En nettside som oppsummerer krigens viktigste hendelser"
       ],
       "correct": 2,
       "explain": "Dagboken er skrevet av en som opplevde hendelsene, og er derfor en original kilde."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan markerer du et kort sitat i teksten?",
       "options": [
-        "Med kursiv uten henvisning",
+        "Med kursiv og kildehenvisning",
         "Med anførselstegn og kildehenvisning",
-        "Med store bokstaver",
-        "Det trenger ingen markering"
+        "Med anførselstegn uten kildehenvisning",
+        "Med kildehenvisning uten anførselstegn"
       ],
       "correct": 1,
       "explain": "Sitatet settes i anførselstegn, og du viser til hvor det kommer fra."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er en parafrase?",
       "options": [
-        "Et langt sitat",
-        "En kildeliste",
+        "En ordrett gjengivelse av andres tanker med kilde",
+        "En oversettelse av andres tekst til et nytt språk",
         "En gjengivelse av andres tanker med egne ord",
-        "En bildetekst"
+        "En beskrivelse av kildens utseende med egne ord"
       ],
       "correct": 2,
       "explain": "En parafrase formulerer andres innhold med egne ord, men krever fortsatt kildehenvisning."
@@ -126,9 +126,9 @@
       "text": "Hva er plagiat?",
       "options": [
         "Å presentere andres tekst eller ideer som sine egne",
-        "Å bruke mange kilder",
-        "Å sitere riktig",
-        "Å skrive en kildeliste"
+        "Å bruke andres ideer med tydelig kildehenvisning",
+        "Å sitere andres tekst med anførselstegn og kilde",
+        "Å lage en kildeliste over tekstene du har brukt"
       ],
       "correct": 0,
       "explain": "Plagiat er uærlig fordi du tar æren for noe andre har laget."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva bør du ta med når du oppgir en nettside i kildelisten?",
       "options": [
-        "Bare nettadressen",
-        "Bare tittelen",
-        "Bare datoen",
+        "Avsender, tittel, sidetall, nettadresse og dato du leste den",
+        "Avsender, tittel, år, nettadresse og dato siden sist ble endret",
+        "Avsender, tittel, år, nettadresse og dato du fant den i søkemotoren",
         "Avsender, tittel, år, nettadresse og dato du leste den"
       ],
       "correct": 3,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Du finner en påstand på en ukjent blogg. Hva bør du gjøre?",
       "options": [
-        "Bruke den uten videre",
+        "Sjekke om bloggforfatteren har skrevet om temaet før",
         "Sjekke om påstanden stemmer med andre, pålitelige kilder",
-        "Skrive at den er sann",
-        "Kopiere hele bloggen"
+        "Sjekke om påstanden får mange likerklikk på nettet",
+        "Sjekke om påstanden finnes på flere blogger"
       ],
       "correct": 1,
       "explain": "Ukjente avsendere bør kontrolleres mot andre kilder før du bruker opplysningene."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Trenger en parafrase kildehenvisning?",
       "options": [
-        "Nei, fordi du har brukt egne ord",
-        "Bare hvis den er lang",
-        "Bare i nettartikler",
+        "Nei, fordi egne formuleringer gjør innholdet til ditt eget",
+        "Nei, fordi du ikke har kopiert ordlyden fra kilden",
+        "Ja, fordi parafrasen må ha anførselstegn rundt seg",
         "Ja, fordi ideen er hentet fra noen andre"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvorfor bør du være forsiktig med fakta fra KI-verktøy?",
       "options": [
-        "Fordi de alltid er for korte",
+        "Fordi de lager svar ved å kopiere hele nettsider",
         "Fordi de kan finne på fakta og kilder som ikke finnes",
-        "Fordi de bare svarer på engelsk",
-        "Fordi de er ulovlige"
+        "Fordi de søker etter svar i en fast liste med ferdigskrevne svar",
+        "Fordi de ikke kan lage setninger med norsk grammatikk"
       ],
       "correct": 1,
       "explain": "KI-verktøy kan gi svar som høres riktige ut, men er feil. Kontroller opplysningene og oppgi bruken.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Kan du bruke et hvilket som helst bilde fra nettet i en presentasjon?",
       "options": [
-        "Ja, alt på nettet er gratis",
-        "Ja, hvis bildet er pent",
-        "Nei, bilder er beskyttet av opphavsrett med mindre du har lov eller de har åpen lisens",
-        "Ja, hvis du endrer fargene"
+        "Ja, hvis du oppgir navnet på fotografen og nettstedet",
+        "Ja, hvis bildet ikke har vannmerke eller logo",
+        "Nei, med mindre du har tillatelse eller bildet har åpen lisens",
+        "Ja, hvis du laster det ned fra en kjent nettside"
       ],
       "correct": 2,
       "explain": "Bilder er åndsverk. Bruk bilder med åpen lisens eller egne bilder, og oppgi alltid kilden."
@@ -310,9 +310,9 @@
         "text": "Hvilket spørsmål er en del av kildekritikk?",
         "options": [
           "Hvem har laget teksten?",
-          "Hvor lang er teksten?",
-          "Hvilken skrifttype er brukt?",
-          "Hvor mange bilder er det?"
+          "Hvor mange avsnitt har teksten?",
+          "Hvilken skrifttype bruker teksten?",
+          "Hvilken farge har sidens bakgrunn?"
         ],
         "correct": 0,
         "explain": "Avsenderen sier mye om hvor pålitelig og nøytral en kilde er."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hvor står kildelisten vanligvis?",
         "options": [
-          "Først i teksten",
-          "I overskriften",
+          "Først i hoveddelen",
+          "Under overskriften på forsiden",
           "Bakerst i teksten",
-          "Midt i hoveddelen"
+          "Mellom innledningen og hoveddelen"
         ],
         "correct": 2,
         "explain": "Kildelisten samler alle kildene til slutt, slik at leseren kan finne dem."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Når bør du bruke et sitat i stedet for en parafrase?",
         "options": [
-          "Alltid",
+          "Når du vil forklare innholdet med egne ord",
           "Når ordlyden i seg selv er viktig",
-          "Når teksten er lang",
-          "Aldri"
+          "Når du vil forkorte kildens viktigste poeng",
+          "Når du vil skrive om avsnittet med egne ord"
         ],
         "correct": 1,
         "explain": "Sitater passer når nøyaktig formulering betyr noe, for eksempel en berømt uttalelse."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

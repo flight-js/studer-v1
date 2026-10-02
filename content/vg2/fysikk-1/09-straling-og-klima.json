@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva sier Wiens forskyvningslov?",
       "options": [
-        "Varmere legemer stråler ved lengre bølgelengder",
+        "Varmere legemer har strålingstopp ved lengre bølgelengder",
         "Varmere legemer har strålingstopp ved kortere bølgelengder",
-        "Alle legemer stråler likt",
-        "Stråling avhenger ikke av temperatur"
+        "Strålingstoppen flyttes mot lengre bølgelengder når temperaturen øker",
+        "Strålingstoppen bestemmes av legemets størrelse, ikke temperaturen"
       ],
       "correct": 1,
       "explain": "λ_maks · T = konstant."
@@ -105,7 +105,7 @@
         "Ultrafiolett",
         "Synlig lys",
         "Infrarød",
-        "Røntgen"
+        "Røntgenstråling"
       ],
       "correct": 2,
       "explain": "λ_maks ≈ 10 µm."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er albedo?",
       "options": [
-        "Mengden CO₂ i lufta",
-        "Temperaturen ved bakken",
-        "Solas overflatetemperatur",
+        "Andelen innkommende sollys som absorberes",
+        "Mengden infrarød stråling som jorda sender ut",
+        "Andelen infrarød stråling som atmosfæren absorberer",
         "Andelen innkommende sollys som reflekteres"
       ],
       "correct": 3,
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor deler vi på 4 i strålingsbalansen?",
       "options": [
-        "Fordi det er fire årstider",
-        "Fordi jordas overflate er fire ganger så stor som tverrsnittet som fanger sollyset",
-        "Fordi albedoen er 25 %",
-        "Fordi sola har fire lag"
+        "Fordi solinnstrålingen fordeles mellom fire breddegradssoner",
+        "Fordi jordas overflateareal er fire ganger solfangstverrsnittet",
+        "Fordi albedoen gjør at en fjerdedel av sollyset absorberes",
+        "Fordi atmosfæren fordeler sollyset i fire like deler"
       ],
       "correct": 1,
       "explain": "Areal kule 4πr², tverrsnitt πr²."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva gjør drivhusgassene?",
       "options": [
-        "Stopper sollyset",
-        "Reflekterer alt lys",
+        "Absorberer sollys og sender det meste tilbake mot verdensrommet",
+        "Reflekterer infrarød stråling og sender noe tilbake mot bakken",
         "Absorberer infrarød stråling og sender noe tilbake mot bakken",
-        "Lager ozon"
+        "Absorberer infrarød stråling og omdanner den til synlig lys"
       ],
       "correct": 2,
       "explain": "De er nesten gjennomsiktige for sollys."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor kan smeltende is forsterke oppvarmingen?",
       "options": [
-        "Is lager CO₂",
-        "Is er varm",
-        "Vann reflekterer mer enn is",
+        "Albedoen øker, så mer sollys absorberes",
+        "Isen smelter, så mindre infrarød stråling slipper ut",
+        "Isen smelter, så mer varme fra havet reflekteres",
         "Albedoen synker, så mer sollys absorberes"
       ],
       "correct": 3,
@@ -176,8 +176,8 @@
       "options": [
         "Omtrent 1361 W/m²",
         "Omtrent 238 W/m²",
-        "Omtrent 5800 W/m²",
-        "Omtrent 100 W/m²"
+        "Omtrent 340 W/m²",
+        "Omtrent 1000 W/m²"
       ],
       "correct": 0,
       "explain": "Solarkonstanten."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
+        "Vær beskriver langsiktige mønstre, klima beskriver forhold fra én dag",
         "Vær er kortsiktig, klima er gjennomsnitt over minst 30 år",
-        "Klima gjelder bare temperatur",
-        "Vær varer i 30 år"
+        "Vær beskriver daglige forhold, klima beskriver gjennomsnitt over ett år",
+        "Vær og klima beskriver samme forhold over ulike geografiske områder"
       ],
       "correct": 1,
       "explain": "En kald vinter motbeviser ikke global oppvarming."
@@ -315,7 +315,7 @@
         "options": [
           "1,0 µm",
           "10 µm",
-          "100 nm",
+          "100 µm",
           "1,0 mm"
         ],
         "correct": 1,
@@ -327,9 +327,9 @@
         "text": "En påstand blander W og kWh. Hva er feilen?",
         "options": [
           "Effekt og energi blandes",
-          "Masse og vekt blandes",
+          "Masse og tyngde blandes",
           "Temperatur og varme blandes",
-          "Det er ingen feil"
+          "Effekt og kraft blandes"
         ],
         "correct": 0,
         "explain": "Watt er effekt, kWh er energi."
@@ -339,13 +339,13 @@
         "type": "flervalg",
         "text": "Hvilken gass er den viktigste naturlige drivhusgassen?",
         "options": [
-          "Nitrogen",
-          "Oksygen",
+          "Karbondioksid",
+          "Metan",
           "Vanndamp",
-          "Argon"
+          "Ozon"
         ],
         "correct": 2,
-        "explain": "Nitrogen og oksygen absorberer nesten ikke infrarød stråling."
+        "explain": "Vanndamp absorberer infrarød stråling og bidrar mest til den naturlige drivhuseffekten."
       }
     ],
     "skriv": [
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

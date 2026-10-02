@@ -80,20 +80,20 @@
       "options": [
         "Shanghai",
         "Beijing",
-        "Hongkong",
-        "Taipei"
+        "Xi’an",
+        "Guangzhou"
       ],
       "correct": 1,
-      "explain": "Shanghai er den største byen."
+      "explain": "Beijing er Kinas hovedstad; Shanghai er landets største by."
     },
     {
       "id": "q02",
       "text": "Hva får barn ofte i gave til kinesisk nyttår?",
       "options": [
         "Røde konvolutter med penger",
-        "Julestrømper",
-        "Påskeegg",
-        "Blomster"
+        "Gule konvolutter med penger",
+        "Røde konvolutter med godteri",
+        "Røde poser med lykkesymboler"
       ],
       "correct": 0,
       "explain": "红包 hóngbāo."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva spiser man under midthøstfestivalen?",
       "options": [
-        "Dumplings",
-        "Nudler",
+        "Zongzi",
+        "Tangyuan",
         "Månekaker",
-        "Ris med fisk"
+        "Jiaozi"
       ],
       "correct": 2,
       "explain": "月饼 yuèbing."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvor mange dyr har den kinesiske dyrekretsen?",
       "options": [
-        "7",
         "10",
-        "24",
+        "8",
+        "5",
         "12"
       ],
       "correct": 3,
@@ -139,9 +139,9 @@
       "text": "Hva er 书法 shūfǎ?",
       "options": [
         "Kinesisk opera",
-        "Kalligrafi",
-        "Kampsport",
-        "Te-seremoni"
+        "Kinesisk kalligrafi",
+        "Kinesisk kampsport",
+        "Kinesisk teseremoni"
       ],
       "correct": 1,
       "explain": "Kunsten å skrive tegn vakkert med pensel."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvorfor er det uhøflig å stikke spisepinnene loddrett ned i risen?",
       "options": [
-        "Fordi pinnene kan knekke",
-        "Fordi det er slurvete",
+        "Fordi det viser at man er ferdig med å spise",
+        "Fordi det betyr at man ikke vil ha mer ris",
         "Fordi det minner om røkelse ved begravelser",
-        "Fordi det er for høflig"
+        "Fordi det varsler at verten skal servere neste rett"
       ],
       "correct": 2,
       "explain": "Det forbindes med død.",
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Når feires vårfestivalen?",
       "options": [
-        "1. januar",
-        "I juli",
-        "I desember",
+        "Mellom slutten av februar og midten av mars",
+        "Mellom slutten av desember og midten av januar",
+        "Mellom slutten av juni og midten av juli",
         "Mellom slutten av januar og midten av februar"
       ],
       "correct": 3,
@@ -190,8 +190,8 @@
       "options": [
         "God jul!",
         "Godt nytt år!",
-        "Gratulerer med dagen!",
-        "God morgen!"
+        "God morgen!",
+        "Gratulerer med dagen!"
       ],
       "correct": 1,
       "explain": "Xīnnián kuàilè!"
@@ -329,7 +329,7 @@
           "Midthøstfestivalen",
           "Dragebåtfestivalen",
           "Vårfestivalen",
-          "Nasjonaldagen"
+          "Lanternefestivalen"
         ],
         "correct": 1,
         "explain": "Duānwǔjié feires med båtløp."
@@ -340,9 +340,9 @@
         "text": "Hva er 长城?",
         "options": [
           "Den kinesiske mur",
-          "En elv",
-          "Et fjell",
-          "En by"
+          "Den gule elven",
+          "Den forbudte by",
+          "Den store kanalen"
         ],
         "correct": 0,
         "explain": "Chángchéng – «den lange muren»."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva har jul i Norge og vårfestivalen i Kina til felles?",
         "options": [
-          "De feires samme dato",
-          "Begge feires med røde konvolutter",
-          "Begge handler om å samles med familien og spise tradisjonsmat",
-          "Ingenting"
+          "Begge feires på samme dag hvert år.",
+          "Begge har røde konvolutter som fast skikk.",
+          "Begge samler familien rundt tradisjonsmat.",
+          "Begge markerer starten på et nytt år."
         ],
         "correct": 2,
         "explain": "Familie og tradisjonsmat står sentralt i begge."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

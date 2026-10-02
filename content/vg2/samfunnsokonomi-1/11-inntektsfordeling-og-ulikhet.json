@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kan forklare lønnsforskjeller?",
       "options": [
-        "Bare flaks",
+        "Skatt, barnetrygd og bostøtte",
         "Utdanning, bransje og forhandlingsmakt",
-        "Bare alder",
-        "Bare bosted"
+        "Formue, arv og boligpriser",
+        "Pensjon, trygd og kapitalinntekter"
       ],
       "correct": 1,
       "explain": "Også tilbud og etterspørsel etter arbeidskraft."
@@ -90,9 +90,9 @@
       "text": "Hva betyr en Gini-koeffisient på 0?",
       "options": [
         "At alle har like stor inntekt",
-        "At én person har all inntekt",
-        "At ingen har inntekt",
-        "At ulikheten er svært stor"
+        "At én person får nesten all inntekt",
+        "At inntektene varierer mye mellom personene",
+        "At noen har mye høyere inntekt enn andre"
       ],
       "correct": 0,
       "explain": "1 betyr at én har alt."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva viser Lorenzkurven?",
       "options": [
-        "Prisstigningen",
-        "Arbeidsledigheten",
-        "Hvor stor andel av inntekten som går til ulike andeler av befolkningen",
-        "BNP-veksten"
+        "Prisnivået for ulike varer over tid",
+        "Arbeidsledigheten blant ulike grupper i befolkningen",
+        "Inntektsandelen til ulike andeler av befolkningen",
+        "BNP-veksten i ulike deler av landet"
       ],
       "correct": 2,
       "explain": "Jo mer den buer, jo større ulikhet."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er progressiv skatt?",
       "options": [
-        "Alle betaler samme beløp",
-        "Alle betaler samme prosent",
-        "De med lav inntekt betaler mest",
-        "Høyere inntekt gir høyere andel i skatt"
+        "At skattebeløpet er likt for alle inntekter",
+        "At skatteprosenten er lik for alle inntekter",
+        "At skatteandelen synker når inntekten øker",
+        "At skatteandelen øker når inntekten øker"
       ],
       "correct": 3,
       "explain": "Trinnskatten er et eksempel."
@@ -126,9 +126,9 @@
       "text": "Hva er fordelt skjevest i Norge?",
       "options": [
         "Formue",
-        "Inntekt",
-        "Barnetrygd",
-        "Skolegang"
+        "Arbeidsinntekt",
+        "Disponibel inntekt",
+        "Forbruk"
       ],
       "correct": 0,
       "explain": "Arv og boligpriser forsterker forskjellene."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er frontfagsmodellen?",
       "options": [
-        "At staten bestemmer alle lønninger",
+        "At offentlig sektor forhandler først og setter normen",
         "At konkurranseutsatte næringer forhandler først og setter normen",
-        "At alle får samme lønn",
-        "At lederne bestemmer lønnen"
+        "At staten fastsetter lønnsrammen for alle bransjer",
+        "At alle arbeidstakere får samme lønn etter forhandlingene"
       ],
       "correct": 1,
       "explain": "Gir små lønnsforskjeller og god konkurranseevne."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor betyr gratis skole og helse mest for dem med lav inntekt?",
       "options": [
-        "Fordi de bruker dem mindre",
-        "Fordi de er dyrere for dem",
+        "Fordi lavinntektsgrupper bruker tjenestene sjeldnere enn andre grupper",
+        "Fordi lavinntektsgrupper betaler høyere skatt for tjenestene",
         "Fordi tjenestene utgjør en større del av inntekten deres",
-        "Fordi de betaler mer skatt"
+        "Fordi tjenestene koster lavinntektsgrupper mer enn andre"
       ],
       "correct": 2,
       "explain": "Utjevner forskjeller."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er et argument mot mye omfordeling?",
       "options": [
-        "Det gir høyere tillit",
-        "Det gir bedre helse",
-        "Det gir mer sosial mobilitet",
+        "Høye skatter kan gjøre ekstra arbeid mer lønnsomt etter skatt",
+        "Høye skatter kan øke lønnen før skatt for alle arbeidstakere",
+        "Høye skatter kan gjøre investeringer mer lønnsomme etter skatt",
         "Høye skatter kan svekke lysten til å jobbe og investere"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "text": "Hva er en overføring?",
       "options": [
         "Barnetrygd",
-        "Skatt",
-        "Lønn",
+        "Arbeidslønn",
+        "Renteinntekt",
         "Aksjeutbytte"
       ],
       "correct": 0,
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvilken konsekvens kan store forskjeller få?",
       "options": [
-        "Høyere tillit",
+        "Større tillit og sterkere sosial mobilitet",
         "Lavere tillit og svakere sosial mobilitet",
-        "Mindre kriminalitet",
-        "Bedre helse for alle"
+        "Bedre helse og lavere kriminalitet i samfunnet",
+        "Jevnere inntektsfordeling og mindre fattigdom"
       ],
       "correct": 1,
       "explain": "Ifølge mye forskning."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva er allmenngjøring av en tariffavtale?",
         "options": [
-          "At avtalen oppheves",
-          "At den gjelder for alle i en bransje",
-          "At den bare gjelder ledere",
-          "At staten betaler lønnen"
+          "At tariffavtalen gjelder bare medlemmer av fagforeningene",
+          "At tariffavtalens minstekrav gjelder alle i en bransje",
+          "At tariffavtalen oppheves når partene ikke blir enige",
+          "At staten fastsetter lønnen for alle i bransjen"
         ],
         "correct": 1,
         "explain": "Gir en minstelønn i enkelte bransjer.",
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hvordan kan utdanningspolitikk påvirke ulikhet?",
         "options": [
-          "Gi mer sosial mobilitet gjennom like muligheter",
-          "Øke formuesforskjellene",
-          "Senke skattene",
-          "Fjerne overføringer"
+          "Skape mer sosial mobilitet gjennom like muligheter",
+          "Fastsette lik lønn for alle med samme utdanning",
+          "Sikre lik inntekt for alle gjennom gratis skole",
+          "Fjerne inntektsforskjeller ved å gi alle samme utdanning"
         ],
         "correct": 0,
         "explain": "Utdanning åpner dører."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva kan forsterke formuesforskjellene?",
         "options": [
-          "Barnetrygd",
-          "Gratis skole",
+          "Progressiv skatt og bostøtte",
+          "Barnetrygd og sosialhjelp",
           "Arv og stigende boligpriser",
-          "Progressiv skatt"
+          "Gratis skole og helsetjenester"
         ],
         "correct": 2,
         "explain": "De som eier, får verdistigningen."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

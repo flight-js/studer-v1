@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva betyr det at makt blir legitimert?",
       "options": [
-        "At den blir ulovlig",
+        "At den blir håndhevet gjennom lover og straff",
         "At den blir begrunnet slik at den oppleves som rettmessig",
-        "At den blir svakere",
-        "At den forsvinner"
+        "At den blir fordelt mellom flere politiske grupper",
+        "At den blir vunnet gjennom en militær seier"
       ],
       "correct": 1,
       "explain": "Religion har ofte gjort dette."
@@ -96,9 +96,9 @@
       "text": "Hva gjorde Martin Luther i 1517?",
       "options": [
         "Utfordret pavens makt med 95 teser",
-        "Ble pave",
-        "Grunnla opplysningstiden",
-        "Kronet en konge"
+        "Forsvarte pavens makt med 95 teser",
+        "Utfordret keiserens makt med 95 teser",
+        "Utfordret pavens makt med 95 salmer"
       ],
       "correct": 0,
       "explain": "Starten på reformasjonen."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva mente Marx med at religion er «folkets opium»?",
       "options": [
-        "At religion er ulovlig",
-        "At religion er en medisin mot sykdom",
+        "At religion først og fremst forklarer naturfenomener, uten å påvirke synet på urett",
+        "At religion lover et bedre liv etter døden, men ikke lindrer lidelse i nåtiden",
         "At religion kan dempe smerten, men få folk til å godta urettferdighet",
-        "At alle bør bli religiøse"
+        "At religion gjør mennesker mer kritiske til makthavere ved å vise at samfunnet er urettferdig"
       ],
       "correct": 2,
       "explain": "En kritikk av religionens rolle."
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hvorfor ble Galileo Galilei dømt i 1633?",
       "options": [
-        "For tyveri",
-        "For å ha startet en krig",
-        "For å ha kritisert kongen",
+        "For å ha forsvart at sola går rundt jorda",
+        "For å ha hevdet at jorda er flat",
+        "For å ha forsvart at jorda går rundt månen",
         "For å ha forsvart at jorda går rundt sola"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Hvordan har religion vært brukt til å utfordre makt?",
       "options": [
         "Gjennom profeter, Luther og borgerrettsbevegelsen",
-        "Aldri",
-        "Bare gjennom kriger",
-        "Bare av konger"
+        "Gjennom prester, konger og religiøse begrunnelser for styret",
+        "Gjennom klostre, pilegrimer og religiøse høytider",
+        "Gjennom kirkebygging, misjon og støtte til monarker"
       ],
       "correct": 0,
       "explain": "Religion kan både legitimere og utfordre.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva var himmelens mandat i Kina?",
       "options": [
-        "En skatt",
+        "Idéen om at keiseren styrte med folkets godkjenning etter å ha vunnet et valg",
         "Idéen om at keiseren styrte med himmelens godkjenning så lenge han styrte godt",
-        "En religion",
-        "En lov om handel"
+        "Idéen om at keiseren styrte med arverett uavhengig av hvordan han ledet landet",
+        "Idéen om at keiseren fikk makten gjennom valg blant landets embetsmenn"
       ],
       "correct": 1,
       "explain": "Katastrofer kunne tolkes som tap av mandatet.",
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hvordan har filosofi blitt brukt til å legitimere makt?",
       "options": [
-        "Den har aldri gjort det",
-        "Bare i Kina",
+        "Aristoteles forsvarte slaveri, og rasistiske teorier kritiserte kolonialisme",
+        "Aristoteles forsvarte slaveri, og rasistiske teorier motsatte seg kolonialisme",
         "Aristoteles forsvarte slaveri, og rasistiske teorier rettferdiggjorde kolonialisme",
-        "Bare gjennom kunst"
+        "Aristoteles forsvarte slaveri, og rasistiske teorier likestilte koloniserte folk"
       ],
       "correct": 2,
       "explain": "Filosofi kan også forsvare urett.",
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hvem utfordret embetsmennenes makt i Norge rundt 1800 og ble fengslet?",
       "options": [
-        "Henrik Ibsen",
-        "Martin Luther King",
-        "Olav den hellige",
+        "Niels Treschow",
+        "Johan Nordahl Brun",
+        "Jacob Aall",
         "Hans Nielsen Hauge"
       ],
       "correct": 3,
@@ -184,9 +184,9 @@
       "text": "Hva mente Thomas Aquinas om tro og fornuft?",
       "options": [
         "At de ikke kan motsi hverandre",
-        "At bare tro gir kunnskap",
-        "At bare fornuft gir kunnskap",
-        "At begge er meningsløse"
+        "At troen avgjør når fornuften gir et annet svar",
+        "At fornuften avgjør når troen gir et annet svar",
+        "At tro og fornuft gir ulike svar om sannheten"
       ],
       "correct": 0,
       "explain": "Middelalderens syntese.",
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål bør du stille når du vurderer hvordan religion eller filosofi brukes?",
       "options": [
-        "Hvor gammel er ideen?",
+        "Hvor gammel er ideen, og hvor oppstod den?",
         "Hvem bruker ideene, hvordan, og hvem tjener på det?",
-        "Hvor mange tror på den?",
-        "Hvilket språk er den skrevet på?"
+        "Hvor mange tror på ideen, og hvor utbredt er den?",
+        "Hvilket språk ble ideen skrevet på, og hvem oversatte den?"
       ],
       "correct": 1,
       "explain": "De samme ideene kan brukes på ulike måter."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva bygde Martin Luther King borgerrettskampen på?",
         "options": [
-          "Marxisme",
-          "Kristen tro på at alle mennesker er like verdifulle",
-          "Kongens guddommelige rett",
-          "Himmelens mandat"
+          "På marxistisk lære om klassekampen mellom samfunnsklassene",
+          "På kristen tro om menneskers like verdi",
+          "På kongens guddommelige rett til å styre landet",
+          "På himmelens mandat som grunnlag for keiserens styre"
         ],
         "correct": 1,
         "explain": "Religion som utfordring til urett.",
@@ -341,7 +341,7 @@
           "Sokrates",
           "Platon",
           "Aristoteles",
-          "Perikles"
+          "Meletos"
         ],
         "correct": 0,
         "explain": "For sine kritiske spørsmål.",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva har religion i større grad handlet om etter den vitenskapelige revolusjonen?",
         "options": [
-          "Om hvordan planetene beveger seg",
-          "Om fysikkens lover",
+          "Om naturens lover og planetenes bevegelser",
+          "Om stoffers egenskaper og kjemiske reaksjoner",
           "Om mening, verdier og tro",
-          "Om kjemiske reaksjoner"
+          "Om universets oppbygning og himmellegemenes baner"
         ],
         "correct": 2,
         "explain": "Vitenskapen tok over forklaringen av naturen."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

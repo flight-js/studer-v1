@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er sosialisering?",
       "options": [
-        "Å være sosial på fest",
+        "Prosessen der vi lærer skolefag, fakta og regnemetoder",
         "Prosessen der vi lærer normer, verdier og ferdigheter",
-        "Å bruke sosiale medier",
-        "Å bli med i en forening"
+        "Prosessen der vi lærer om lover, rettigheter og politikk",
+        "Prosessen der vi lærer å tjene penger, handle og spare"
       ],
       "correct": 1,
       "explain": "Gjennom sosialisering lærer vi hvordan vi skal fungere sammen med andre."
@@ -90,9 +90,9 @@
       "text": "Hvor skjer primærsosialiseringen først og fremst?",
       "options": [
         "I familien",
-        "På jobben",
-        "På sosiale medier",
-        "I politiske partier"
+        "På skolen",
+        "I vennegruppen",
+        "På fritidsaktiviteter"
       ],
       "correct": 0,
       "explain": "I de første leveårene er familien den viktigste sosialiseringsagenten."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er en norm?",
       "options": [
-        "En skrevet lov",
-        "En straff",
+        "En regel som er skrevet inn i en lov",
+        "En reaksjon man får når man bryter en regel",
         "En uskrevet regel for hvordan man bør oppføre seg",
-        "En type gruppe"
+        "En forventning om hva en gruppe skal mene"
       ],
       "correct": 2,
       "explain": "Normer er forventninger som ofte ikke står skrevet noe sted."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er et eksempel på en positiv sanksjon?",
       "options": [
-        "Et surt blikk",
-        "Å bli utestengt",
-        "Å få en bot",
+        "Å få en advarsel",
+        "Å bli irettesatt",
+        "Å miste et privilegium",
         "Å få ros"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er en primærgruppe?",
       "options": [
-        "Et stort idrettslag",
+        "En stor gruppe med lite personlig kontakt, som et idrettslag",
         "En liten og nær gruppe, som familien",
-        "Et politisk parti",
-        "Alle elevene på skolen"
+        "En formell gruppe som møtes for å nå et felles mål",
+        "En gruppe mennesker som samarbeider uten nære relasjoner"
       ],
       "correct": 1,
       "explain": "Primærgrupper er små og preget av nære relasjoner."
@@ -138,9 +138,9 @@
       "text": "Hvorfor kan bilder på sosiale medier påvirke selvbildet negativt?",
       "options": [
         "Fordi de ofte viser redigerte og urealistiske idealer",
-        "Fordi de er for små",
-        "Fordi de alltid er ekte",
-        "Det gjør de aldri"
+        "Fordi de ofte viser hvor populære andre er blant venner",
+        "Fordi de ofte viser hvor mange venner andre har i virkeligheten",
+        "Fordi de ofte viser hva andre synes om utseendet ditt"
       ],
       "correct": 0,
       "explain": "Når vi sammenligner oss med redigerte bilder, kan vi føle at vi ikke strekker til."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er gruppepress?",
       "options": [
-        "Å være leder i en gruppe",
-        "Et lagspill",
+        "Press til å bestemme over de andre, selv om de protesterer",
+        "Enighet om å gjøre det samme, fordi man selv ønsker det",
         "Press til å gjøre som de andre, selv om man ikke vil",
-        "Å lage en gruppe på nett"
+        "Samarbeid om å løse en oppgave, slik gruppen har avtalt"
       ],
       "correct": 2,
       "explain": "Gruppepress kan få oss til å gjøre ting vi egentlig ikke ønsker."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva kan du gjøre hvis du opplever press eller uønskede hendelser?",
       "options": [
-        "Holde det for deg selv",
-        "Gi etter for å unngå konflikt",
-        "Slette alle kontoer",
+        "Holde det for deg selv og vente til det går over",
+        "Gjøre som de andre for å unngå uenighet",
+        "Avslutte kontakten med alle og slutte på fritidsaktiviteter",
         "Si nei og snakke med noen du stoler på"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva betyr det at identiteten ikke er fast?",
       "options": [
         "At den endrer seg gjennom livet",
-        "At man ikke har noen identitet",
-        "At man bytter navn ofte",
-        "At andre bestemmer den"
+        "At den blir bestemt ved fødselen",
+        "At den ikke påvirkes av erfaringer",
+        "At den er den samme fra barndom til voksen alder"
       ],
       "correct": 0,
       "explain": "Nye erfaringer, venner og interesser gjør at identiteten utvikler seg."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er en sosialiseringsagent?",
       "options": [
-        "En hemmelig agent",
+        "En person som passer på at lover følges, som politi og vektere",
         "Noen som påvirker sosialiseringen vår, som foreldre og venner",
-        "En politiker",
-        "En type lov"
+        "En person som leder en organisasjon, som rektor og trener",
+        "En person som undersøker saker for politiet, som etterforskere"
       ],
       "correct": 1,
       "explain": "Foreldre, lærere, venner, trenere og medier er sosialiseringsagenter."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvilken er en sekundærgruppe?",
         "options": [
-          "Familien",
-          "Bestevennen din",
+          "En familie",
+          "En nær venn",
           "Et idrettslag",
-          "Søsknene dine"
+          "Dine søsken"
         ],
         "correct": 2,
         "explain": "Idrettslaget er en større og mer formell gruppe."
@@ -331,9 +331,9 @@
         "text": "Hva er selvfølelse?",
         "options": [
           "Hvor godt du liker deg selv",
-          "Hvor mange venner du har",
-          "Hvor gammel du er",
-          "Hvor du bor"
+          "Hvor godt du kjenner dine egne egenskaper",
+          "Hvor trygg du føler deg på egne valg",
+          "Hvor fornøyd du er med skoleprestasjonene dine"
         ],
         "correct": 0,
         "explain": "Selvfølelsen handler om verdien du opplever at du har."
@@ -343,9 +343,9 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på en negativ sanksjon?",
         "options": [
-          "Et klapp på skulderen",
-          "En premie",
-          "Et smil",
+          "Å få ros for innsatsen",
+          "Å få et vennlig smil",
+          "Å få en liten premie",
           "Å bli ledd av"
         ],
         "correct": 3,
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

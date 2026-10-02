@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva gir Grunnloven § 112?",
       "options": [
-        "Rett til gratis strøm",
+        "Rett til erstatning når offentlige tiltak skader privat eiendom",
         "Rett til et helsesikrende miljø og en natur der mangfold bevares",
-        "Rett til å bygge hvor man vil",
-        "Rett til å drive oljeleting"
+        "Rett til å få staten til å dekke kostnader ved miljøskader",
+        "Rett til at større naturinngrep godkjennes av domstolene"
       ],
       "correct": 1,
       "explain": "Også for etterslekten."
@@ -92,9 +92,9 @@
       "text": "Hva er føre-var-prinsippet?",
       "options": [
         "At mangel på kunnskap ikke skal utsette tiltak mot alvorlig skade",
-        "At man skal vente til alt er bevist",
-        "At forurenser alltid går fri",
-        "At bare staten kan handle"
+        "At tiltak bør vente til skadeomfanget er dokumentert",
+        "At usikker kunnskap taler mot forebyggende miljøtiltak",
+        "At tiltak først settes inn etter at skaden har oppstått"
       ],
       "correct": 0,
       "explain": "Naturmangfoldloven § 9."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvordan endte klimasøksmålet i Høyesterett i 2020?",
       "options": [
-        "Staten tapte",
-        "Saken ble avvist",
-        "Staten ble frifunnet",
-        "Oljeleting ble forbudt"
+        "Staten ble dømt til erstatning",
+        "Tillatelsene ble kjent ugyldige",
+        "Staten ble frifunnet i retten",
+        "Saken ble avvist av retten"
       ],
       "correct": 2,
       "explain": "Terskelen for å overprøve Stortinget er høy.",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva betyr prinsippet om at miljøforringeren betaler?",
       "options": [
-        "At staten betaler",
-        "At naboene betaler",
-        "At ingen betaler",
+        "At myndighetene dekker kostnadene ved miljøskade",
+        "At naboene dekker kostnadene ved miljøskade",
+        "At kostnadene fordeles likt mellom berørte parter",
         "At tiltakshaveren bærer kostnadene ved miljøskade"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva kom EMD fram til i saken mot Sveits i 2024?",
       "options": [
         "At Sveits hadde krenket EMK artikkel 8 i klimapolitikken",
-        "At klima ikke er et menneskerettsspørsmål",
-        "At Sveits skulle stenge alle fabrikker",
-        "At saken ikke kunne behandles"
+        "At Sveits hadde krenket EMK artikkel 2 i klimapolitikken",
+        "At Sveits hadde krenket EMK artikkel 6 i klimapolitikken",
+        "At Sveits hadde oppfylt EMK artikkel 8 i klimapolitikken"
       ],
       "correct": 0,
       "explain": "Ført av en forening av eldre kvinner.",
@@ -143,8 +143,8 @@
       "options": [
         "Folkeavstemning",
         "Konsekvensutredning",
-        "Kongens godkjenning",
-        "Ingen ting"
+        "Kongelig godkjenning",
+        "Obligatorisk stortingsbehandling"
       ],
       "correct": 1,
       "explain": "Virkningene skal utredes."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvilken lov gir rett til å få informasjon om miljøet?",
       "options": [
-        "Straffeloven",
-        "Arbeidsmiljøloven",
+        "Forurensningsloven",
+        "Naturmangfoldloven",
         "Miljøinformasjonsloven",
-        "Barneloven"
+        "Vannressursloven"
       ],
       "correct": 2,
       "explain": "Også Grunnloven § 112."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvilken konflikt illustrerer Fosen-saken?",
       "options": [
-        "Olje mot fiske",
-        "Skole mot helse",
-        "Skatt mot toll",
+        "Oljeutvinning mot reindrift og natur",
+        "Vindkraft mot jordbruk og kulturminner",
+        "Gruvedrift mot fiske og friluftsliv",
         "Vindkraft mot reindrift og natur"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva er vurdering av samlet belastning?",
       "options": [
         "At summen av påvirkninger på naturen skal vurderes",
-        "At bare det største inngrepet teller",
-        "At kostnadene legges sammen",
-        "At alle må betale likt"
+        "At bare påvirkningen fra det aktuelle tiltaket skal vurderes",
+        "At kostnadene ved flere tiltak skal regnes sammen",
+        "At påvirkninger fra samme tiltak vurderes hver for seg"
       ],
       "correct": 0,
       "explain": "Naturmangfoldloven § 10."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvem etterforsker alvorlig miljøkriminalitet?",
       "options": [
-        "Datatilsynet",
+        "Blant annet Miljødirektoratet",
         "Blant annet Økokrim",
-        "Sivilombudet",
-        "Sametinget"
+        "Blant annet Statsforvalteren",
+        "Blant annet Forbrukerrådet"
       ],
       "correct": 1,
       "explain": "Sammen med politiet.",
@@ -319,7 +319,7 @@
         "text": "Hvilken avtale fra 2022 gjelder naturmangfold?",
         "options": [
           "Parisavtalen",
-          "Naturavtalen fra Montreal",
+          "Kunming–Montreal-avtalen",
           "Kyotoprotokollen",
           "Aarhus-konvensjonen"
         ],
@@ -333,9 +333,9 @@
         "text": "Hvilket spørsmål er sentralt når domstolene behandler miljøsaker?",
         "options": [
           "Hvor langt domstolene bør gå i å overprøve politiske beslutninger",
-          "Hvem som har størst bil",
-          "Hvor mange som bor i området",
-          "Hva været er"
+          "Hvilke miljøtiltak domstolene selv bør vedta",
+          "Hvor stor erstatning domstolene bør fastsette for miljøskade",
+          "Om kommunene bør få siste ord i miljøsaker"
         ],
         "correct": 0,
         "explain": "Maktfordeling."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva forbyr forurensningsloven?",
         "options": [
-          "All industri",
-          "Bruk av bil",
+          "Forurensning med gyldig tillatelse",
+          "Støy innenfor fastsatte grenseverdier",
           "Forurensning uten tillatelse",
-          "Fiske"
+          "Avfall levert til et godkjent mottak"
         ],
         "correct": 2,
         "explain": "Myndighetene kan gi tillatelse med vilkår."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

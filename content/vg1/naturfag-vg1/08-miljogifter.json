@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilke tre egenskaper har de fleste miljøgifter?",
       "options": [
-        "Giftige, lettløselige i vann og raskt nedbrytbare",
+        "Giftige, lett nedbrytbare og hoper seg opp i organismer",
         "Giftige, lite nedbrytbare og hoper seg opp i organismer",
-        "Radioaktive, flyktige og luktfrie",
-        "Ufarlige i små mengder"
+        "Giftige, lite nedbrytbare og skilles raskt ut fra organismer",
+        "Lite giftige, lite nedbrytbare og hoper seg opp i organismer"
       ],
       "correct": 1,
       "explain": "Det er derfor de er så problematiske."
@@ -92,9 +92,9 @@
       "text": "Hva er biomagnifisering?",
       "options": [
         "At konsentrasjonen av miljøgifter øker oppover i næringskjeden",
-        "At en organisme vokser raskt",
-        "At miljøgifter brytes ned",
-        "At en art blir større"
+        "At konsentrasjonen av miljøgifter avtar oppover i næringskjeden",
+        "At miljøgifter hoper seg opp i én organisme over tid",
+        "At miljøgifter blir sterkere når de brytes ned i naturen"
       ],
       "correct": 0,
       "explain": "Toppredatorer får derfor mest."
@@ -104,9 +104,9 @@
       "text": "Hvorfor lagres mange miljøgifter i fettvev?",
       "options": [
         "Fordi de er vannløselige",
-        "Fordi de er radioaktive",
+        "Fordi de samler seg i beinvev",
         "Fordi de er fettløselige",
-        "Fordi de er tunge"
+        "Fordi de løses lett opp i blodet"
       ],
       "correct": 2,
       "explain": "Fettløselige stoffer skilles dårlig ut av kroppen."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvilket dyr får vanligvis høyest konsentrasjon av miljøgifter?",
       "options": [
-        "Plankton",
+        "Ringsel",
+        "Arktisk torsk",
         "Krill",
-        "Små fisk",
         "Isbjørn"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvilken miljøgift gjorde eggeskallene til rovfugler tynne?",
       "options": [
         "DDT",
-        "PFAS",
+        "PCB",
         "Bly",
-        "CO₂"
+        "PFAS"
       ],
       "correct": 0,
       "explain": "DDT ble forbudt i Norge i 1970."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor kalles PFAS «evighetskjemikalier»?",
       "options": [
-        "Fordi de er dyre",
+        "Fordi de brukes i produkter med lang levetid",
         "Fordi de nesten ikke brytes ned",
-        "Fordi de ble oppfunnet for lenge siden",
-        "Fordi de er naturlige"
+        "Fordi de fraktes langt med luft og vann",
+        "Fordi de inneholder tungmetaller"
       ],
       "correct": 1,
       "explain": "De blir værende i naturen i svært lang tid."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor finnes det miljøgifter i Arktis, langt fra industri?",
       "options": [
-        "Fordi de dannes av is",
-        "Fordi isbjørner lager dem",
+        "Fordi de dannes naturlig i det kalde klimaet",
+        "Fordi de lekker fra lokale gruver og fabrikker",
         "Fordi de fraktes med havstrømmer og vind",
-        "Fordi det er gruvedrift overalt"
+        "Fordi de kommer fra vulkanske gasser i Arktis"
       ],
       "correct": 2,
       "explain": "Miljøgifter spres over store avstander.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvordan bør du kvitte deg med gamle batterier?",
       "options": [
-        "I restavfallet",
-        "I naturen",
-        "I vasken",
+        "Kaste dem i restavfallsbeholderen",
+        "Levere dem sammen med plastemballasjen",
+        "Legge dem i glass- og metallavfallet",
         "Levere dem som farlig avfall"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva er bioakkumulering?",
       "options": [
         "At mengden miljøgift i en organisme øker over tid",
-        "At næringskjeden blir lengre",
-        "At miljøgifter brytes ned",
-        "At organismer formerer seg"
+        "At mengden miljøgift i vannet øker over tid",
+        "At miljøgiften brytes ned og forsvinner fra organismen",
+        "At organismen skiller ut miljøgiften raskere enn den tar den opp"
       ],
       "correct": 0,
       "explain": "Organismen tar opp stoffet raskere enn den skiller det ut."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvilken internasjonal avtale regulerer persistente organiske miljøgifter?",
       "options": [
-        "Parisavtalen",
+        "Minamatakonvensjonen",
         "Stockholmkonvensjonen",
-        "Kyotoprotokollen",
-        "Genèvekonvensjonen"
+        "Rotterdamkonvensjonen",
+        "Baselkonvensjonen"
       ],
       "correct": 1,
       "explain": "Stockholmkonvensjonen er fra 2001.",
@@ -329,9 +329,9 @@
         "text": "Hvor kan PFAS finnes?",
         "options": [
           "I vannavstøtende klær og stekepanner med slippbelegg",
-          "Bare i kull",
-          "Bare i radioaktivt avfall",
-          "I rent kildevann"
+          "I ubehandlet ull og stekepanner av støpejern",
+          "I vanlige glassflasker og keramiske kopper",
+          "I fersk frukt og ubehandlet treverk"
         ],
         "correct": 0,
         "explain": "PFAS brukes også i brannskum.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva kan kvikksølv skade?",
         "options": [
-          "Bare planter",
-          "Bare metaller",
+          "Blodtypen",
+          "Øyenfargen",
           "Nervesystemet",
-          "Ingenting"
+          "Fingeravtrykkene"
         ],
         "correct": 2,
         "explain": "Fostre og små barn er særlig sårbare."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvilken næringskjede viser biomagnifisering riktig fra lav til høy konsentrasjon?",
         "options": [
-          "Isbjørn → sel → fisk → plankton",
+          "Krill → plankton → fisk → sel → isbjørn",
           "Plankton → krill → fisk → sel → isbjørn",
-          "Fisk → plankton → isbjørn → sel",
-          "Sel → krill → plankton → fisk"
+          "Plankton → fisk → krill → sel → isbjørn",
+          "Plankton → krill → sel → fisk → isbjørn"
         ],
         "correct": 1,
         "explain": "Konsentrasjonen øker for hvert ledd oppover."
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

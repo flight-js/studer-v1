@@ -78,7 +78,7 @@
         "3",
         "3,5",
         "4",
-        "6"
+        "4,5"
       ],
       "correct": 1,
       "explain": "21/6."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva måler standardavviket?",
       "options": [
-        "Gjennomsnittet",
-        "Den største verdien",
+        "Variansen rundt forventningsverdien",
+        "Avstanden mellom største og minste verdi",
         "Spredningen rundt forventningsverdien",
-        "Sannsynligheten for 0"
+        "Gjennomsnittet av mulige verdier"
       ],
       "correct": 2,
       "explain": "Kvadratroten av variansen."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er Var(3X + 2) hvis Var(X) = 4?",
       "options": [
-        "14",
         "12",
-        "38",
+        "14",
+        "6",
         "36"
       ],
       "correct": 3,
@@ -137,8 +137,8 @@
       "options": [
         "10",
         "2",
-        "0,4",
-        "250"
+        "50",
+        "5"
       ],
       "correct": 1,
       "explain": "σ/√n = 10/5."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Når gjelder Var(X + Y) = Var(X) + Var(Y)?",
       "options": [
-        "Alltid",
-        "Aldri",
+        "Når X og Y har samme varians",
+        "Når X og Y har samme fordeling",
         "Når X og Y er uavhengige",
-        "Når E(X) = E(Y)"
+        "Når X og Y har ulike forventningsverdier"
       ],
       "correct": 2,
       "explain": "Krever uavhengighet."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken av to investeringer med lik forventning er mest risikabel?",
       "options": [
-        "Den med lavest forventning",
-        "Begge er like",
-        "Den med minst standardavvik",
+        "Den med størst forventede avkastning",
+        "Den med størst sannsynlighet for gevinst",
+        "Den med minst spredning rundt forventningen",
         "Den med størst standardavvik"
       ],
       "correct": 3,
@@ -173,8 +173,8 @@
       "options": [
         "1",
         "0",
-        "100",
-        "E(X)"
+        "0,5",
+        "2"
       ],
       "correct": 0,
       "explain": "Ett av utfallene skjer."
@@ -183,9 +183,9 @@
       "id": "q10",
       "text": "Hva er standardavviket til summen av 100 uavhengige variabler med σ = 3?",
       "options": [
-        "300",
+        "10",
         "30",
-        "3",
+        "3000",
         "0,3"
       ],
       "correct": 1,
@@ -306,7 +306,7 @@
         "options": [
           "2",
           "1",
-          "0,5",
+          "0,25",
           "4"
         ],
         "correct": 1,
@@ -319,8 +319,8 @@
         "options": [
           "Kroner",
           "Kroner i andre",
-          "Ingen enhet",
-          "Prosent"
+          "Prosent",
+          "Kroner per måling"
         ],
         "correct": 0,
         "explain": "Variansen har kroner i andre."
@@ -333,7 +333,7 @@
           "24",
           "2",
           "10",
-          "5"
+          "6"
         ],
         "correct": 2,
         "explain": "Forventninger kan alltid legges sammen."
@@ -416,6 +416,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

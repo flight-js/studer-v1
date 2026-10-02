@@ -88,7 +88,7 @@
         "14. juli",
         "21. juni",
         "1. mai",
-        "24. desember"
+        "11. november"
       ],
       "correct": 1,
       "explain": "Den har vært arrangert siden 1982.",
@@ -99,9 +99,9 @@
       "text": "Hva er verlan?",
       "options": [
         "Slang der stavelsene byttes om",
-        "En fransk dialekt fra Sør-Frankrike",
-        "Et formelt språk",
-        "En type rap"
+        "En dialekt fra Sør-Frankrike",
+        "En formell stil i fransk skrift",
+        "En musikksjanger med franske tekster"
       ],
       "correct": 0,
       "explain": "l'envers → verlan."
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "Hva betyr «ouf» på verlan?",
       "options": [
-        "kjedelig",
-        "trøtt",
+        "trøtt, sliten",
+        "rolig, avslappet",
         "gal, sprø",
-        "glad"
+        "sur, irritert"
       ],
       "correct": 2,
       "explain": "fou → ouf.",
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "Hva betyr «un pote»?",
       "options": [
-        "en gryte",
+        "en nabo",
         "en kompis",
-        "en lærer",
-        "en plakat"
+        "en kollega",
+        "en klassekamerat"
       ],
       "correct": 1,
       "explain": "Uformelt ord for venn.",
@@ -173,9 +173,9 @@
       "id": "q08",
       "text": "Hvor står pronomenene y og en?",
       "options": [
-        "Sist i setningen",
-        "Etter verbet",
-        "Først i setningen alltid",
+        "Etter verbet i setningen",
+        "Etter objektet i setningen",
+        "Til slutt i setningen",
         "Foran verbet"
       ],
       "correct": 3,
@@ -186,9 +186,9 @@
       "text": "Hva betyr «Je n'en veux pas»?",
       "options": [
         "Jeg vil ikke ha noe (av det).",
-        "Jeg vil ha mer.",
-        "Jeg vet ikke.",
-        "Jeg drar ikke."
+        "Jeg vil ikke snakke om det.",
+        "Jeg ser ikke noe av det.",
+        "Jeg spiser ikke noe av det."
       ],
       "correct": 0,
       "explain": "en erstatter for eksempel du café."
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Hva er en god strategi for å lære fransk videre?",
       "options": [
-        "Unngå å snakke til du kan alt",
-        "Se serier med fransk teksting og repetere ord jevnlig",
-        "Bare lese grammatikk",
-        "Oversette alt med verktøy uten å sjekke"
+        "Les grammatikkregler uten å bruke fransk aktivt.",
+        "Se serier med fransk teksting, og repeter ord jevnlig.",
+        "Oversett tekster med digitale verktøy uten å kontrollere svarene.",
+        "Pugg gloser rett før prøven uten å repetere dem senere."
       ],
       "correct": 1,
       "explain": "Variert og jevnlig bruk gir best læring."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva betyr «meuf» på verlan?",
         "options": [
-          "mat",
+          "gutt, fyr",
           "jente, dame",
-          "musikk",
-          "mor"
+          "fest, selskap",
+          "politimann, purk"
         ],
         "correct": 1,
         "explain": "femme → meuf.",
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

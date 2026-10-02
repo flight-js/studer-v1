@@ -41,8 +41,7 @@
     },
     {
       "term": "Verneombud",
-      "def": "Arbeidstaker som ivaretar de ansattes interesser i saker om arbeidsmiljø.",
-      "niva": "eksempel"
+      "def": "Arbeidstaker som ivaretar de ansattes interesser i saker om arbeidsmiljø."
     },
     {
       "term": "Risikovurdering",
@@ -70,8 +69,7 @@
     },
     {
       "term": "Konsensus",
-      "def": "At alle blir enige.",
-      "niva": "eksempel"
+      "def": "At alle blir enige."
     },
     {
       "term": "Kompromiss",
@@ -104,8 +102,7 @@
     },
     {
       "term": "Kalkulasjon",
-      "def": "Utregning av hva et produkt koster å lage, og hva prisen bør være.",
-      "niva": "eksempel"
+      "def": "Utregning av hva et produkt koster å lage, og hva prisen bør være."
     }
   ],
   "quiz": [
@@ -113,10 +110,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på en vare og en tjeneste?",
       "options": [
-        "En vare er gratis, en tjeneste koster penger",
+        "En vare er en oppgave man gjør, en tjeneste er en ting man kjøper",
         "En vare er noe fysisk, en tjeneste er noe man gjør for andre",
-        "Det er ingen forskjell",
-        "En tjeneste er alltid mat"
+        "En vare er noe man leier, en tjeneste er noe man eier",
+        "En vare er en avtale om arbeid, en tjeneste er et ferdig produkt"
       ],
       "correct": 1,
       "explain": "En kake er en vare, mens å servere kaka er en tjeneste."
@@ -126,9 +123,9 @@
       "text": "Hvilket spørsmål hører til en arbeidsplan?",
       "options": [
         "Hvem gjør hva, og når?",
-        "Hva er favorittfilmen din?",
-        "Hvor bor oppdragsgiveren?",
-        "Hvor gammel er læreren?"
+        "Hvor mye koster materialene, og hvem betaler?",
+        "Hvilken kvalitet skal varen ha, og hvorfor?",
+        "Hvor skal oppdragsgiveren kjøpe varen?"
       ],
       "correct": 0,
       "explain": "Arbeidsplanen fordeler oppgaver og setter frister."
@@ -137,9 +134,9 @@
       "id": "q03",
       "text": "Hvorfor er planlegging viktig?",
       "options": [
-        "Det gir flere feil",
-        "Det gjør arbeidet dyrere",
-        "Det er bare for lærere",
+        "Det gjør arbeidet mer kostbart og gir flere feil",
+        "Det gjør at oppgavene ikke trenger å fordeles",
+        "Det gjør at frister blir mindre viktige",
         "Det sparer tid og penger og gir færre feil"
       ],
       "correct": 3,
@@ -150,9 +147,9 @@
       "text": "Hva er det første steget i en risikovurdering?",
       "options": [
         "Å finne ut hva som kan gå galt",
-        "Å kjøpe verneutstyr",
-        "Å starte arbeidet",
-        "Å ringe 113"
+        "Å velge tiltak før farene er undersøkt",
+        "Å vurdere hvor alvorlige skadene kan bli",
+        "Å finne fram verneutstyr til arbeidet"
       ],
       "correct": 0,
       "explain": "Deretter vurderer man sannsynlighet, konsekvens og tiltak."
@@ -161,9 +158,9 @@
       "id": "q05",
       "text": "Hvordan bør du løfte noe tungt?",
       "options": [
-        "Med rett rygg og strake bein",
-        "Med bøyd rygg",
-        "Så raskt som mulig",
+        "Med bøyd rygg, strake knær og lasten nær kroppen",
+        "Med rett rygg, strake knær og lasten langt fra kroppen",
+        "Med bøyd rygg, bøyde knær og lasten langt fra kroppen",
         "Med rett rygg, bøyde knær og lasten nær kroppen"
       ],
       "correct": 3,
@@ -173,10 +170,10 @@
       "id": "q06",
       "text": "Hvem har hovedansvaret for HMS på en arbeidsplass?",
       "options": [
-        "Kundene",
+        "Verneombudet",
         "Arbeidsgiveren",
-        "Verneombudet alene",
-        "Ingen"
+        "Arbeidstakerne",
+        "Bedriftshelsetjenesten"
       ],
       "correct": 1,
       "explain": "Arbeidstakerne har likevel plikt til å medvirke."
@@ -185,9 +182,9 @@
       "id": "q07",
       "text": "Hva er en god måte å løse en konflikt i gruppa på?",
       "options": [
-        "Å ignorere den",
-        "Å snakke bak ryggen på hverandre",
-        "Å slutte i gruppa",
+        "Å vente med uenigheten og håpe at problemet løser seg selv",
+        "Å fortelle andre i gruppa om problemet, uten å snakke sammen",
+        "Å la én person bestemme hvem som har skylden for konflikten",
         "Å ta det tidlig, snakke om saken og finne en løsning sammen"
       ],
       "correct": 3,
@@ -198,9 +195,9 @@
       "text": "Hva er egenvurdering?",
       "options": [
         "Å vurdere sitt eget arbeid og sin egen innsats",
-        "Å gi andre karakter",
-        "Å la kunden vurdere",
-        "Å vurdere læreren"
+        "Å vurdere gruppas arbeid og de andres innsats",
+        "Å vurdere lærerens arbeid og klassens samlede innsats",
+        "Å be lederen vurdere ditt eget arbeid og din innsats"
       ],
       "correct": 0,
       "explain": "Egenvurdering hjelper deg å se hva du kan forbedre."
@@ -209,9 +206,9 @@
       "id": "q09",
       "text": "Hva er aktiv lytting?",
       "options": [
-        "Å høre på musikk mens man jobber",
-        "Å snakke mest mulig",
-        "Å avbryte for å vise engasjement",
+        "Å lytte mens man planlegger hva man selv skal svare",
+        "Å vente på tur til å snakke uten å følge med",
+        "Å gi råd før den andre har forklart ferdig",
         "Å lytte oppmerksomt og vise at man forstår"
       ],
       "correct": 3,
@@ -221,9 +218,9 @@
       "id": "q10",
       "text": "Hva betyr kvalitet i et arbeidsoppdrag?",
       "options": [
-        "At produktet er dyrt",
-        "At produktet er stort",
-        "At produktet er laget raskt",
+        "At produktet ser moderne og pent ut",
+        "At produktet blir laget på kort tid",
+        "At produktet bruker dyre materialer",
         "At produktet oppfyller kravene som er avtalt"
       ],
       "correct": 3,
@@ -233,10 +230,10 @@
       "id": "q11",
       "text": "Hvordan bør du håndtere en klage fra en kunde?",
       "options": [
-        "Bli sint",
-        "Ignorere den",
+        "Avbryte kunden og forklare seg",
+        "Be kunden sende klagen skriftlig først",
         "Lytte, beklage og finne en løsning",
-        "Si at kunden tar feil"
+        "Avvise klagen før saken undersøkes"
       ],
       "correct": 2,
       "explain": "God klagehåndtering kan gjøre kunden fornøyd igjen."
@@ -245,14 +242,13 @@
       "id": "q12",
       "text": "Hva hører med i en priskalkulasjon?",
       "options": [
-        "Bare prisen konkurrentene tar",
-        "Bare fortjenesten",
-        "Ingenting",
+        "Materialkostnader, arbeid, rabatt og moms",
+        "Andre kostnader, fortjeneste, salgstall og moms",
+        "Materialkostnader, lønn, kundetall og rabatt",
         "Materialkostnader, andre kostnader, arbeid og fortjeneste"
       ],
       "correct": 3,
-      "explain": "Prisen bør dekke alle kostnadene.",
-      "niva": "eksempel"
+      "explain": "Prisen bør dekke alle kostnadene."
     }
   ],
   "mindmap": {
@@ -361,7 +357,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -382,10 +378,10 @@
         "type": "flervalg",
         "text": "Hva er en bestilling?",
         "options": [
-          "En avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet",
-          "En faktura",
-          "En klage",
-          "En kvittering"
+          "En avklaring av hva som skal lages, antall, frist og kvalitet",
+          "En oversikt over kostnadene kunden skal betale for arbeidet",
+          "En melding om at arbeidet ikke holder avtalt kvalitet",
+          "Et bevis på at kunden har betalt for oppdraget"
         ],
         "correct": 0,
         "explain": "Bestillingen er grunnlaget for hele oppdraget."
@@ -416,10 +412,10 @@
         "type": "flervalg",
         "text": "Hva er et jeg-budskap?",
         "options": [
-          "Å snakke om seg selv hele tiden",
+          "Å si hva den andre gjør feil, uten å beskrive egne følelser",
           "Å si hvordan man selv opplever noe, uten å anklage",
-          "Å bestemme alt selv",
-          "Å skrive dagbok"
+          "Å si hvordan man selv opplever noe, mens man gir den andre skylden",
+          "Å fortelle hva den andre bør gjøre, uten å si hva man selv føler"
         ],
         "correct": 1,
         "explain": "For eksempel: «Jeg blir stresset når fristen er så kort.»",
@@ -513,12 +509,87 @@
           "Nevner vurdering av samarbeid og/eller produktets kvalitet.",
           "Forklarer at vurderingen viser hva som gikk bra og hva som kan forbedres neste gang."
         ]
+      },
+      {
+        "text": "Elevene på en skole ønsker et tilbud de kan bruke i friminuttene, men det er uklart hva de trenger mest. Hvordan kan dere undersøke behovet og bruke svarene til å planlegge et oppdrag som passer tiden og budsjettet?",
+        "fasit": "Vi kan spørre elevene eller lage en enkel spørreundersøkelse for å finne ut hva de ønsker. Når vi har valgt en løsning, kan vi dele arbeidet i oppgaver, lage en tidsplan og et budsjett for materialene.",
+        "kriterier": [
+          "Foreslår å undersøke behovet ved å spørre eller bruke en spørreundersøkelse.",
+          "Knytter svarene til planlegging, for eksempel oppgaver, tid eller budsjett."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Du skal flytte tunge esker med utstyr før et arrangement. Hvordan kan du beskytte kroppen mens du løfter, og hvordan kan dere organisere arbeidet for å gjøre det tryggere?",
+        "fasit": "Jeg bør bøye knærne, holde ryggen rett og ha esken nær kroppen. Vi kan dele på løftingen, variere arbeidsstillingen og ta pauser, slik at belastningen blir mindre.",
+        "kriterier": [
+          "Nevner trygg løfteteknikk: rett rygg, bøyde knær og/eller lasten nær kroppen.",
+          "Foreslår organisering som reduserer belastning, for eksempel å dele på arbeidet eller ta pauser."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "På arbeidsplassen skal dere bruke et rengjøringsmiddel med et farepiktogram på flasken. Hva bør dere finne ut før bruk, og hvem har ansvar for å bidra til at arbeidet foregår trygt?",
+        "fasit": "Vi bør lese sikkerhetsdatabladet for å finne ut hvilke farer stoffet har, og hvordan det skal håndteres og oppbevares. Arbeidsgiveren har hovedansvaret for HMS, mens vi som arbeidstakere må følge rutinene, bruke riktig verneutstyr og si fra om farer.",
+        "kriterier": [
+          "Nevner sikkerhetsdatabladet som kilde til informasjon om fare og trygg håndtering.",
+          "Plasserer hovedansvaret for HMS hos arbeidsgiveren og/eller beskriver arbeidstakerens plikt til å følge rutiner og si fra."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En gruppe skal kjøpe materialer til et produkt, men pengene rekker ikke til alt gruppa først ønsket. Hvordan kan gruppa bruke et møte til å komme fram til en beslutning og følge den opp?",
+        "fasit": "Gruppa kan sette saken på dagsordenen og la alle komme med forslag før den bestemmer hva som er viktigst å kjøpe. Den kan bli enig ved konsensus eller stemme over forslagene, og skrive beslutningen i et referat slik at alle vet hva som skal gjøres.",
+        "kriterier": [
+          "Beskriver at gruppa tar opp saken og lar medlemmene fremme forslag.",
+          "Nevner en beslutningsmåte og/eller referat for å følge opp beslutningen."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Du lager en vare der materialene koster 18 kroner og emballasjen koster 7 kroner. Dere vil legge til 10 kroner i fortjeneste. Hva blir prisen før eventuell merverdiavgift, og hvilke kostnader har du regnet med?",
+        "fasit": "Prisen blir 35 kroner før eventuell merverdiavgift. Jeg har lagt sammen materialkostnaden på 18 kroner, emballasjen på 7 kroner og 10 kroner i fortjeneste.",
+        "kriterier": [
+          "Regner ut riktig pris: 18 + 7 + 10 = 35 kroner.",
+          "Nevner materialer, emballasje og fortjeneste som delene i regnestykket."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "I en praksisplass i helse- og omsorgsarbeid forteller en bruker deg noe privat. En annen elev spør hva brukeren sa. Hvordan bør du svare, og hvorfor?",
+        "fasit": "Jeg bør ikke fortelle den andre eleven hva brukeren sa. I helse- og omsorgsarbeid gjelder taushetsplikt, og det er viktig å behandle brukeren med respekt og følge etiske regler.",
+        "kriterier": [
+          "Sier at private opplysninger ikke skal deles med den andre eleven.",
+          "Knytter svaret til taushetsplikt og/eller respekt og etiske regler."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En gruppe vil få flere til å bestille en tjeneste gruppa tilbyr på skolen. Hva bør en plakat eller et innlegg på skolens nettside fortelle, og hvordan kan gruppa gjøre det enkelt å bestille?",
+        "fasit": "Plakaten eller innlegget bør fortelle hva tjenesten er, hvorfor den er nyttig, hva den koster og hvordan man bestiller. Gruppen bør oppgi tydelig hvor eller hvem kunden kan kontakte for å legge inn en bestilling.",
+        "kriterier": [
+          "Nevner sentral informasjon som hva som tilbys, pris og/eller hvorfor tilbudet er bra.",
+          "Forklarer at det må komme tydelig fram hvordan kunden kan bestille."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "På en arbeidsplass mener flere ansatte at en arbeidsrutine bør endres fordi den påvirker arbeidsmiljøet. Hvilke muligheter har arbeidstakerne til å påvirke saken, og hvem kan følge med på at arbeidsmiljøreglene blir fulgt?",
+        "fasit": "Arbeidstakerne kan medvirke og ta opp saken med verneombudet eller en tillitsvalgt. Verneombudet ivaretar arbeidstakernes interesser i arbeidsmiljøsaker, og Arbeidstilsynet fører tilsyn med at reglene følges.",
+        "kriterier": [
+          "Nevner arbeidstakernes medvirkning og en kanal som verneombud eller tillitsvalgt.",
+          "Beskriver verneombudets rolle og/eller at Arbeidstilsynet fører tilsyn med reglene."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

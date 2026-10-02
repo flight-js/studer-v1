@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva kjennetegner urfolk?",
       "options": [
-        "At de nylig har innvandret",
+        "At de har flyttet til et område etter at dagens statsgrenser ble etablert",
         "At de nedstammer fra dem som bodde i et område før dagens statsgrenser",
-        "At de er flertallet",
-        "At de bare bor i Norge"
+        "At de utgjør den største folkegruppen i området de bor i",
+        "At de har samme språk og kultur som majoritetsbefolkningen i landet"
       ],
       "correct": 1,
       "explain": "Og har bevart egne institusjoner."
@@ -91,9 +91,9 @@
       "text": "Hva er Sápmi?",
       "options": [
         "Det samiske området i Norge, Sverige, Finland og Russland",
-        "Et samisk ord for joik",
-        "En samisk by",
-        "Sametinget"
+        "Et samisk område som ligger bare i Nord-Norge",
+        "Et politisk område som omfatter de samiske kommunene i Norge",
+        "Et geografisk område i Finland og Russland, men ikke i Norge"
       ],
       "correct": 0,
       "explain": "Går på tvers av statsgrenser."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva gir ILO-konvensjon nr. 169 urfolk rett til?",
       "options": [
-        "Å styre hele staten",
-        "Å slippe skatt",
+        "Å få bestemme over alle statlige saker som angår dem",
+        "Å få fritak fra skatt i områdene der de tradisjonelt bor",
         "Å bevare kultur og bli konsultert i saker som angår dem",
-        "Å eie all jord"
+        "Å få eierskap til all jord og alle ressurser i områdene sine"
       ],
       "correct": 2,
       "explain": "Norge ratifiserte den først i 1990."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva kom Høyesterett fram til i Fosen-saken i 2021?",
       "options": [
-        "At vindkraftverkene var lovlige uten problemer",
-        "At reindrift skulle avvikles",
-        "At samene måtte flytte",
+        "At vindkraftverkene var lovlige fordi reindriften kunne fortsette uten endringer",
+        "At vindkraftverkene krenket samenes rett til å bli konsultert, men ikke kulturutøvelsen",
+        "At reindriften måtte avvikles fordi vindkraftverkene hadde fått nødvendige tillatelser",
         "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er duodji?",
       "options": [
         "Samisk håndverk",
-        "Samisk sang",
-        "Et samisk parti",
-        "En reinflokk"
+        "Samisk musikktradisjon",
+        "Samisk politisk organisasjon",
+        "Samisk reindriftsområde"
       ],
       "correct": 0,
       "explain": "En viktig kulturbærer.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvordan kombinerer mange reindriftsutøvere tradisjon og modernitet?",
       "options": [
-        "Ved å slutte med rein",
+        "Ved å bruke traktorer, gjerder og automatisert fôring",
         "Ved å bruke snøscooter, droner og GPS",
-        "Ved å flytte til utlandet",
-        "Ved å slutte å snakke samisk"
+        "Ved å erstatte reindriften med jordbruk og fast bosetting",
+        "Ved å flytte reindriften til byer og bruke digitale tjenester"
       ],
       "correct": 1,
       "explain": "Tradisjon og modernitet er ikke motsetninger.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva slår FNs urfolkserklæring fra 2007 fast?",
       "options": [
-        "At urfolk skal assimileres",
-        "At urfolk ikke har rettigheter",
+        "Retten til politisk deltakelse, men ikke selvbestemmelse",
+        "Retten til språk og kultur, men ikke land og ressurser",
         "Retten til selvbestemmelse, land og ressurser",
-        "At urfolk skal flytte til byer"
+        "Retten til å bli integrert i storsamfunnet uten særskilte rettigheter"
       ],
       "correct": 2,
       "explain": "En viktig internasjonal erklæring."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er en trussel mot urfolks levemåte i dag?",
       "options": [
-        "Revitalisering",
-        "Sametinget",
-        "Tradisjonell kunnskap",
+        "Økt bruk av tradisjonell kunnskap og lokale språk",
+        "Styrket politisk deltakelse og bedre vern av kulturarven",
+        "Revitalisering av språk og større interesse for samisk kultur",
         "Tap av land og klimaendringer"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er kollektive rettigheter?",
       "options": [
         "Rettigheter som tilhører en gruppe",
-        "Rettigheter for én person",
-        "Rettigheter for staten",
-        "Rettigheter for bedrifter"
+        "Rettigheter som tilhører én enkelt person",
+        "Rettigheter som tilhører staten som helhet",
+        "Rettigheter som tilhører private bedrifter"
       ],
       "correct": 0,
       "explain": "Viktig for mange urfolk."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva har revitaliseringen gitt mange unge samer?",
       "options": [
-        "Mindre interesse for kultur",
+        "Større avstand til språk og kultur",
         "Ny stolthet over språk og kultur",
-        "Tap av identitet",
-        "Ingenting"
+        "Sterkere tilknytning til majoritetssamfunnet",
+        "Mindre interesse for samisk identitet"
       ],
       "correct": 1,
       "explain": "Gjenoppliving av språk og kultur."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva er konsultasjon for urfolk?",
         "options": [
-          "En type skatt",
+          "Retten til å fatte vedtak i alle saker som angår dem",
           "Retten til å bli hørt i saker som angår dem",
-          "Et samisk ritual",
-          "En næring"
+          "En prosess der myndighetene informerer dem etter at vedtak er gjort",
+          "En plikt til å godta myndighetenes avgjørelser i saker som angår dem"
         ],
         "correct": 1,
         "explain": "Fastslått i ILO 169."
@@ -331,9 +331,9 @@
         "text": "Hvilket spørsmål er sentralt i drøftingen om urfolk og modernitet?",
         "options": [
           "Hvem skal definere hva som er «ekte» urfolkskultur?",
-          "Hvor mange rein finnes?",
-          "Hvilken farge har kofta?",
-          "Når startet vikingtiden?"
+          "Hvilke moderne hjelpemidler bør brukes i reindriften?",
+          "Hvor bør urfolk bo for å bevare kulturarven?",
+          "Hvilke tradisjoner bør urfolk velge å formidle til unge?"
         ],
         "correct": 0,
         "explain": "Kultur endrer seg over tid."
@@ -349,7 +349,7 @@
           "Samer"
         ],
         "correct": 2,
-        "explain": "Maoriene er urfolk i New Zealand.",
+        "explain": "Aboriginere er urfolk i Australia; maorier er urfolk i New Zealand.",
         "niva": "eksempel"
       }
     ],
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

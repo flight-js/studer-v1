@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva legger strukturperspektivet vekt på?",
       "options": [
-        "At mennesker velger helt fritt",
+        "At menneskers valg skaper samfunnets rammer",
         "At samfunnets rammer former menneskers valg",
-        "At alt er tilfeldig",
-        "At bare følelser styrer oss"
+        "At personlige egenskaper forklarer samfunnsmønstre best",
+        "At samfunnet formes av tilfeldige enkelthendelser"
       ],
       "correct": 1,
       "explain": "Aktørperspektivet vektlegger valg."
@@ -91,9 +91,9 @@
       "text": "Hvem var opptatt av hva som holder samfunnet sammen, og studerte selvmord?",
       "options": [
         "Émile Durkheim",
+        "Max Weber",
         "Karl Marx",
-        "Erving Goffman",
-        "George Herbert Mead"
+        "Talcott Parsons"
       ],
       "correct": 0,
       "explain": "Studien kom i 1897."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva kjennetegner konfliktperspektivet?",
       "options": [
-        "Samfunnet er alltid i balanse",
-        "Alle har felles interesser",
+        "Samfunnet preges av felles interesser og samarbeid",
+        "Samfunnet opprettholdes gjennom enighet og stabilitet",
         "Samfunnet preges av motstridende interesser og maktkamp",
-        "Samfunnet består bare av individer"
+        "Samfunnsendringer skyldes først og fremst felles verdier"
       ],
       "correct": 2,
       "explain": "Marx er en sentral teoretiker."
@@ -116,7 +116,7 @@
       "options": [
         "Max Weber",
         "Karl Marx",
-        "Émile Durkheim",
+        "Harold Garfinkel",
         "Erving Goffman"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er en vanlig kritikk av funksjonalismen?",
       "options": [
         "Den sier lite om konflikt og endring",
-        "Den handler bare om konflikt",
-        "Den ser bare på individer",
-        "Den bruker ikke begreper"
+        "Den forklarer konflikt og endring særlig godt",
+        "Den legger for stor vekt på enkeltmenneskers valg",
+        "Den forklarer samfunnets stabilitet i for liten grad"
       ],
       "correct": 0,
       "explain": "Den vektlegger stabilitet."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er mikronivå?",
       "options": [
-        "Hele samfunnet",
+        "Samfunnets institusjoner og overordnede mønstre",
         "Samhandling mellom enkeltmennesker og små grupper",
-        "Verdensøkonomien",
-        "Staten"
+        "Samspillet mellom land og verdensøkonomien",
+        "Forholdet mellom staten og politiske partier"
       ],
       "correct": 1,
       "explain": "Makronivå er samfunnet som helhet."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva mente Giddens om struktur og aktør?",
       "options": [
-        "Bare struktur betyr noe",
-        "Bare aktører betyr noe",
+        "Strukturene påvirker handlinger uten å endres",
+        "Aktørene handler uten påvirkning fra samfunnsstrukturer",
         "De påvirker hverandre",
-        "De har ingenting med hverandre å gjøre"
+        "Struktur og aktør forklarer ulike samfunnsområder"
       ],
       "correct": 2,
       "explain": "Strukturer begrenser og muliggjør handling.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvordan kan konfliktperspektivet forklare at barn av høyt utdannede gjør det bedre på skolen?",
       "options": [
-        "Lærerne er strengere mot dem",
-        "Alle barn er like",
-        "Skolen er tilfeldig",
+        "Skolen belønner elevenes innsats likt og utjevner forskjeller hjemmefra",
+        "Skolen gir barn av høyt utdannede bedre resultater uavhengig av prestasjoner",
+        "Skolen vurderer elevenes språk likt, uavhengig av sosial bakgrunn",
         "Skolen belønner kulturen og språket høyere klasser har med hjemmefra"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva var Max Weber særlig opptatt av?",
       "options": [
         "Å forstå meningen bak menneskers handlinger",
-        "Bare økonomisk statistikk",
-        "Biologiske forklaringer",
-        "Sport"
+        "Å forklare samfunnsutvikling ut fra økonomiske forhold",
+        "Å undersøke hvordan normer styrer menneskelig atferd",
+        "Å beskrive klasseskiller gjennom eierskap til produksjon"
       ],
       "correct": 0,
       "explain": "Også byråkrati og makt."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvorfor bør en analyse ofte bruke flere teorier?",
       "options": [
-        "Fordi det er påbudt",
+        "Fordi teorier bygger på de samme grunnleggende forklaringene",
         "Fordi hver teori ser noen sider og overser andre",
-        "Fordi teorier er like",
-        "For å gjøre teksten lengre"
+        "Fordi en analyse må følge en bestemt faglig regel",
+        "Fordi flere teorier gir analysen flere eksempler"
       ],
       "correct": 1,
       "explain": "Teorier er som ulike briller."
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv passer best til å analysere hvordan elever presenterer seg selv på sosiale medier?",
         "options": [
-          "Funksjonalisme",
+          "Funksjonalistisk perspektiv",
           "Samhandlingsperspektiv",
-          "Marxistisk klasseanalyse",
-          "Demografi"
+          "Konfliktperspektiv",
+          "Makroperspektiv"
         ],
         "correct": 1,
         "explain": "Goffmans rollebegrep passer godt."
@@ -321,9 +321,9 @@
         "text": "Hva er en kritikk av konfliktperspektivet?",
         "options": [
           "Det kan overse samarbeid og fellesskap",
-          "Det ser bare stabilitet",
-          "Det handler bare om individer",
-          "Det er for positivt"
+          "Det legger større vekt på enighet enn på maktforskjeller",
+          "Det forklarer samfunnsforhold ut fra individuelle valg framfor makt",
+          "Det framstiller samfunnets interesser som felles og harmoniske"
         ],
         "correct": 0,
         "explain": "Mange konflikter løses fredelig."
@@ -334,9 +334,9 @@
         "text": "Hva slags handling er det å studere hardt for å komme inn på medisin?",
         "options": [
           "Tradisjonell",
-          "Følelsesstyrt",
+          "Verdirasjonell",
           "Formålsrasjonell",
-          "Tilfeldig"
+          "Affektuell"
         ],
         "correct": 2,
         "explain": "Rettet mot et mål med velvalgte midler."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

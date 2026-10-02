@@ -77,9 +77,9 @@
       "id": "q01",
       "text": "Løs likningen 3x − 5 = 16.",
       "options": [
-        "x = 3",
+        "x = −7",
         "x = 7",
-        "x = 11/3",
+        "x = 16/3",
         "x = 21"
       ],
       "correct": 1,
@@ -90,8 +90,8 @@
       "text": "Løs likningen x/4 + 2 = 5.",
       "options": [
         "x = 12",
-        "x = 3",
-        "x = 28",
+        "x = 3/4",
+        "x = 20",
         "x = 7"
       ],
       "correct": 0,
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Abonnement A koster 99 kr + 0,50 kr per minutt, B koster 199 kr fast. Ved hvor mange minutter koster de like mye?",
       "options": [
-        "100",
-        "50",
-        "200",
-        "400"
+        "100 minutter",
+        "400 minutter",
+        "200 minutter",
+        "199 minutter"
       ],
       "correct": 2,
       "explain": "99 + 0,5x = 199 gir x = 200."
@@ -114,8 +114,8 @@
       "text": "Løs ulikheten −2x > 6.",
       "options": [
         "x > −3",
-        "x > 3",
         "x < 3",
+        "x > 3",
         "x < −3"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvordan finner du løsningen av et likningssett grafisk?",
       "options": [
-        "Skjæringspunktet mellom linjene",
-        "Der linjene skjærer y-aksen",
-        "Nullpunktet til den ene linjen",
-        "Stigningstallet"
+        "Koordinatene til linjenes skjæringspunkt",
+        "Koordinatene der en linje krysser y-aksen",
+        "x-koordinaten der en linje krysser x-aksen",
+        "Stigningstallet til en av linjene"
       ],
       "correct": 0,
       "explain": "Skjæringspunktet oppfyller begge likningene."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "En klasse kjøper 30 billetter til 100 kr og 150 kr, til sammen 3500 kr. Hvor mange billetter til 150 kr?",
       "options": [
-        "20",
-        "10",
-        "15",
-        "5"
+        "25 billetter",
+        "10 billetter",
+        "12 billetter",
+        "8 billetter"
       ],
       "correct": 1,
       "explain": "Innsetting gir y = 10."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Når er abonnement A (99 + 0,5x) billigere enn B (199 kr)?",
       "options": [
-        "Når x > 200",
+        "Når x ≥ 200",
         "Når x = 200",
         "Når x < 200",
-        "Aldri"
+        "Når x > 200"
       ],
       "correct": 2,
       "explain": "99 + 0,5x < 199 gir x < 200."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hvorfor bør du definere hva x står for?",
       "options": [
-        "Så det er tydelig hva svaret betyr i praksis",
-        "Fordi det gjør likningen lengre",
-        "Fordi x alltid er minutter",
-        "Det er ikke nødvendig"
+        "For å tydeliggjøre hva svaret betyr i situasjonen",
+        "For å vise hvilken regneart som skal brukes i løsningen",
+        "For å bestemme om likningen skal tegnes som en graf",
+        "For å gjøre koeffisientene i likningen lettere å regne med"
       ],
       "correct": 0,
       "explain": "Det gjør argumentasjonen klar."
@@ -307,9 +307,9 @@
         "type": "flervalg",
         "text": "Løs likningen 5x + 10 = 35.",
         "options": [
-          "x = 9",
-          "x = 5",
           "x = 7",
+          "x = 5",
+          "x = 9",
           "x = 25"
         ],
         "correct": 1,
@@ -333,13 +333,13 @@
         "type": "flervalg",
         "text": "Hvilket svar er best formulert?",
         "options": [
-          "200",
-          "x = 200",
+          "Abonnement A koster mindre enn B ved 200 minutter i måneden.",
+          "Abonnementene koster like mye ved 100 minutter i måneden.",
           "Abonnementene koster like mye ved 200 minutter i måneden.",
-          "A"
+          "Abonnement B koster mindre enn A ved 200 minutter i måneden."
         ],
         "correct": 2,
-        "explain": "Et godt svar har ord og enhet."
+        "explain": "Et godt svar oppgir resultatet og hva tallet viser."
       }
     ],
     "skriv": [
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva kjennetegner konsekvensetikk?",
       "options": [
-        "Handlinger er gale i seg selv",
-        "En handling er riktig hvis den gir de beste konsekvensene",
-        "Etikk handler om dyder",
-        "Etikk handler om nærhet"
+        "En handling er riktig når den følger en moralsk plikt",
+        "En handling er riktig når den gir best konsekvenser",
+        "En handling er riktig når den viser gode karaktertrekk",
+        "En handling er riktig når den følger samfunnets regler"
       ],
       "correct": 1,
       "explain": "Utilitarismen er et eksempel."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva sier Kants kategoriske imperativ?",
       "options": [
-        "Handle slik at regelen kunne blitt en allmenn lov",
-        "Skap mest mulig lykke",
-        "Følg den gylne middelvei",
-        "Gjør som flertallet"
+        "Handle slik at regelen kunne gjelde som en allmenn lov",
+        "Handle slik at flest mulig oppnår størst mulig lykke",
+        "Handle slik at du velger en balansert løsning mellom ytterpunktene",
+        "Handle slik at du følger samfunnets lover og regler"
       ],
       "correct": 0,
       "explain": "Pliktetikk."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er dydsetikk opptatt av?",
       "options": [
-        "Konsekvenser alene",
-        "Plikter alene",
-        "Hva slags menneske vi skal være",
-        "Lover"
+        "Hvilke konsekvenser handlingene våre bør få",
+        "Hvilke plikter vi bør følge",
+        "Hva slags menneske vi bør være",
+        "Hvilke lover samfunnet bør vedta"
       ],
       "correct": 2,
       "explain": "Aristoteles."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva mente Løgstrup?",
       "options": [
-        "At lykke er målet",
-        "At plikt er alt",
-        "At vi skal følge middelveien",
-        "At vi holder noe av et annet menneskes liv i våre hender"
+        "At vi bør handle for å skape størst mulig lykke",
+        "At vi bør følge regler uavhengig av situasjonen",
+        "At vi bør utvikle gode karaktertrekk gjennom øvelse",
+        "At vi har noe av den andres liv i våre hender"
       ],
       "correct": 3,
       "explain": "Nærhetsetikk.",
@@ -128,9 +128,9 @@
       "text": "Hva kjennetegner samtykke?",
       "options": [
         "Det er frivillig, informert og kan trekkes tilbake",
-        "Det gjelder for alltid",
-        "Det kan gis av andre på dine vegne",
-        "Det trengs ikke"
+        "Det er frivillig, informert og gjelder også i senere situasjoner",
+        "Det kan gis uten at personen vet hva det gjelder",
+        "Det kan gis under press dersom personen sier ja"
       ],
       "correct": 0,
       "explain": "Grunnleggende i relasjoner."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvordan ville Kant vurdert en hvit løgn?",
       "options": [
-        "Som riktig",
-        "Som gal",
-        "Som uviktig",
-        "Som en dyd"
+        "Som moralsk tillatt",
+        "Som moralsk gal",
+        "Som en moralsk plikt",
+        "Som et uttrykk for dyd"
       ],
       "correct": 1,
       "explain": "Man skal ikke lyve."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva betyr det å ta andres perspektiv?",
       "options": [
-        "Å være enig i alt",
-        "Å overbevise andre",
+        "Å godta andres syn uten å stille kritiske spørsmål",
+        "Å forklare andre hvorfor ditt eget syn er best",
         "Å prøve å forstå hvorfor andre mener det de mener",
-        "Å endre egen mening alltid"
+        "Å endre standpunkt for å unngå uenighet"
       ],
       "correct": 2,
       "explain": "Det krever ikke enighet."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva kjennetegner god meningsbrytning?",
       "options": [
-        "Personangrep",
-        "Å avbryte",
-        "Å anta hva andre mener",
+        "Å lytte, avbryte ofte og svare før den andre er ferdig",
+        "Å argumentere saklig og bruke motpartens personlighet som argument",
+        "Å gjenta eget standpunkt og anta hva motparten mener",
         "Å lytte, argumentere saklig og skille sak og person"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Er det lov å dele nakenbilder av andre uten samtykke?",
       "options": [
         "Nei, det er uetisk og straffbart",
-        "Ja, hvis det er en venn",
-        "Ja, på lukkede grupper",
-        "Ja, hvis bildet er gammelt"
+        "Ja, hvis personen tidligere har samtykket til å ta bildet",
+        "Ja, hvis bildet deles med bare én venn",
+        "Ja, hvis personen ikke blir navngitt i delingen"
       ],
       "correct": 0,
       "explain": "Krenker personvern og integritet.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er den gylne middelvei?",
       "options": [
-        "Å velge det billigste",
-        "En dyd mellom to ytterpunkter",
-        "En regel om sannhet",
-        "En konsekvensberegning"
+        "En moralsk plikt som gjelder i alle situasjoner",
+        "En moralsk dyd som ligger mellom to ytterpunkter",
+        "En moralsk regel for å beregne konsekvenser",
+        "Et mål om størst mulig lykke for flest mulig"
       ],
       "correct": 1,
       "explain": "Mot ligger mellom feighet og dumdristighet."
@@ -327,9 +327,9 @@
         "text": "Hva er et eksempel på psykisk vold i en relasjon?",
         "options": [
           "Kontroll og trusler",
-          "Å gi gaver",
-          "Å lytte",
-          "Å være uenig om film"
+          "Å diskutere uenighet rolig",
+          "Å lytte til partnerens bekymringer",
+          "Å avtale grenser sammen"
         ],
         "correct": 0,
         "explain": "Kan være vanskelig å oppdage.",
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er første steg når du drøfter en etisk problemstilling?",
         "options": [
-          "Å konkludere",
-          "Å velge én teori",
+          "Å velge hvilken løsning som virker best",
+          "Å bruke en etisk teori på saken",
           "Å beskrive situasjonen og hvem som berøres",
-          "Å spørre flertallet"
+          "Å undersøke hva flertallet mener om saken"
         ],
         "correct": 2,
         "explain": "Deretter flere teorier og verdier."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

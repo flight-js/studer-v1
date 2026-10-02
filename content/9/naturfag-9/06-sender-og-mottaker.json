@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva gjør senderen i et teknologisk system?",
       "options": [
-        "Fanger opp signalet",
+        "Gjør signal om til informasjon for mottakeren",
         "Gjør informasjon om til et signal",
-        "Lagrer strøm",
-        "Måler temperatur"
+        "Lagrer informasjon i et digitalt minne",
+        "Måler temperaturen i rommet omkring"
       ],
       "correct": 1,
       "explain": "Senderen omformer informasjon til et signal som kan overføres."
@@ -92,9 +92,9 @@
       "text": "Hva slags signal bruker en vanlig TV-fjernkontroll?",
       "options": [
         "Infrarødt lys",
-        "Lyd",
-        "Røntgenstråler",
-        "Kabel"
+        "Synlig lys",
+        "Ultrafiolett lys",
+        "Radiobølger"
       ],
       "correct": 0,
       "explain": "Fjernkontrollen sender pulser av infrarødt lys som TV-en fanger opp.",
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvilken teknologi bruker radiobølger?",
       "options": [
-        "Optisk fiber",
-        "Fjernkontroll med infrarødt lys",
+        "Optisk fiber og USB",
+        "Infrarød fjernkontroll",
         "Wifi og bluetooth",
-        "Et stetoskop"
+        "Kablet Ethernet-nettverk"
       ],
       "correct": 2,
       "explain": "Wifi, bluetooth, mobilnett og GPS bruker radiobølger."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva er et digitalt signal?",
       "options": [
-        "Et signal som varierer jevnt",
-        "Et lydsignal",
-        "Et signal i en fiber",
-        "Informasjon gjort om til ett-tall og null-tall"
+        "Informasjon vist som en jevn kurve over tid",
+        "Informasjon kodet med varierende lydstyrke",
+        "Informasjon sendt som en jevnt varierende spenning",
+        "Informasjon kodet som 0 og 1"
       ],
       "correct": 3,
       "explain": "Digitale signaler består av binære verdier og er mindre utsatt for støy."
@@ -129,9 +129,9 @@
       "text": "Hva er en sensor?",
       "options": [
         "En komponent som måler noe i omgivelsene",
-        "En høyttaler",
-        "En type batteri",
-        "Et program"
+        "En komponent som lager lyd fra et signal",
+        "En komponent som gir strøm til kretsen",
+        "En komponent som styrer systemet etter et program"
       ],
       "correct": 0,
       "explain": "Sensorer kan måle for eksempel lys, temperatur, avstand og bevegelse."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er en mikrokontroller?",
       "options": [
-        "Et lite mikroskop",
-        "En liten programmerbar datamaskin",
-        "En type lyspære",
-        "En radiostasjon"
+        "En liten sensor som måler temperatur",
+        "En liten datamaskin som kan programmeres",
+        "En liten krets som lagrer elektrisk energi",
+        "En liten sender som forsterker radiosignaler"
       ],
       "correct": 1,
       "explain": "Micro:bit og Arduino er eksempler på mikrokontrollere."
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "Hva sendes gjennom en optisk fiber?",
       "options": [
-        "Strøm",
-        "Vann",
         "Lyd",
+        "Radiobølger",
+        "Elektrisk strøm",
         "Lys"
       ],
       "correct": 3,
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva er en prototype?",
       "options": [
-        "Det ferdige produktet",
+        "En ferdig versjon som selges til kunder",
         "En tidlig versjon som testes og forbedres",
-        "En type sensor",
-        "En reklame"
+        "En sensor som måler endringer i omgivelsene",
+        "En reklame som viser hvordan produktet virker"
       ],
       "correct": 1,
       "explain": "Prototyper gjør det mulig å teste ideer før man lager det endelige produktet."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "I en dørlarm med to micro:biter, hva er senderen?",
       "options": [
-        "Micro:biten som piper",
-        "Døra",
+        "Micro:biten som mottar signalet og får alarmen til å pipe",
+        "Døra som beveger seg og utløser alarmen direkte",
         "Micro:biten som oppdager at døra åpnes og sender signal",
-        "Batteriet"
+        "Batteriet som gir strøm til micro:biten som piper"
       ],
       "correct": 2,
       "explain": "Enheten som registrerer bevegelsen og sender signalet, er senderen."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvorfor er digitale signaler mindre utsatt for støy?",
       "options": [
-        "Fordi de bare har to verdier som er lette å skille fra hverandre",
-        "Fordi de er svakere",
-        "Fordi de går saktere",
-        "Fordi de bruker lyd"
+        "Fordi de har to verdier som er lette å skille fra hverandre",
+        "Fordi de sendes raskere gjennom kanalen enn analoge signaler",
+        "Fordi de bruker mindre energi enn analoge signaler",
+        "Fordi de har høyere frekvens enn analoge signaler"
       ],
       "correct": 0,
       "explain": "Selv med litt støy er det lett å se om signalet er 0 eller 1."
@@ -319,8 +319,8 @@
         "options": [
           "GPS",
           "Ekkolodd",
-          "Wifi",
-          "Optisk fiber"
+          "Radar",
+          "Infrarød sensor"
         ],
         "correct": 1,
         "explain": "Ekkoloddet sender lyd og måler hvor lang tid ekkoet bruker.",
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva kan en lyssensor brukes til?",
         "options": [
-          "Å måle hvor mye lys det er, for eksempel for å skru på gatelys",
-          "Å måle temperatur",
-          "Å lage lyd",
-          "Å veie ting"
+          "Å måle lysnivået, for eksempel for å styre gatelys",
+          "Å måle temperaturen, for eksempel for å styre varmelamper",
+          "Å måle avstanden, for eksempel for å styre en dør",
+          "Å måle lydnivået, for eksempel for å styre høyttalere"
         ],
         "correct": 0,
         "explain": "Lyssensorer brukes blant annet i automatiske lys."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva er kanalen når to mobiler kommuniserer trådløst?",
         "options": [
-          "En kabel",
-          "Glassfiber",
+          "Kabelen og ledningene signalet går gjennom",
+          "Glassfiberen og kjernen lyset går gjennom",
           "Lufta og rommet radiobølgene går gjennom",
-          "Batteriet"
+          "Batteriet og kretsen strømmen går gjennom"
         ],
         "correct": 2,
         "explain": "Radiobølgene går gjennom lufta mellom mobilen og basestasjonen."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

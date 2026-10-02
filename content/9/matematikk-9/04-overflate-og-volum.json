@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er volumet av en eske som er 5 cm lang, 4 cm bred og 3 cm høy?",
       "options": [
-        "12 cm³",
+        "20 cm³",
         "60 cm³",
-        "47 cm³",
-        "94 cm³"
+        "12 cm³",
+        "15 cm³"
       ],
       "correct": 1,
       "explain": "V = l · b · h = 5 · 4 · 3 = 60 cm³."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvor mange liter er 1 m³?",
       "options": [
-        "10 L",
+        "1 L",
         "100 L",
         "1000 L",
-        "10 000 L"
+        "1 000 000 L"
       ],
       "correct": 2,
       "explain": "1 m³ = 1000 dm³, og 1 dm³ = 1 L. Altså er 1 m³ = 1000 L."
@@ -114,7 +114,7 @@
         "120 cm³",
         "360 cm³",
         "180 cm³",
-        "46 cm³"
+        "36 cm³"
       ],
       "correct": 0,
       "explain": "V = G · h / 3 = 36 · 10 / 3 = 120 cm³."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hvor stor del av en sylinders volum har en kjegle med samme grunnflate og høyde?",
       "options": [
-        "Halvparten",
+        "En halvdel",
         "En tredjedel",
-        "To tredjedeler",
-        "Like mye"
+        "To tredeler",
+        "En firedel"
       ],
       "correct": 1,
       "explain": "Kjeglen har volum πr²h/3, som er en tredjedel av sylinderens πr²h."
@@ -150,19 +150,19 @@
         "27 cm²",
         "54 cm²",
         "18 cm²",
-        "36 cm²"
+        "9 cm²"
       ],
       "correct": 1,
-      "explain": "En terning har 6 kvadratiske flater med areal 3 · 3 = 9 cm². 6 · 9 = 54 cm². 27 cm³ er volumet."
+      "explain": "En terning har 6 kvadratiske flater med areal 3 · 3 = 9 cm². 6 · 9 = 54 cm². Volumet er 27 cm³."
     },
     {
       "id": "q08",
       "text": "Du skal male utsiden av en kasse. Hva må du regne ut?",
       "options": [
-        "Volumet",
-        "Omkretsen",
-        "Overflatearealet",
-        "Diagonalen"
+        "Volumet inni kassen",
+        "Omkretsen rundt kassen",
+        "Arealet av utsiden",
+        "Lengden på diagonalen"
       ],
       "correct": 2,
       "explain": "Maling dekker flater, så det er overflatearealet som bestemmer hvor mye maling som trengs."
@@ -171,9 +171,9 @@
       "id": "q09",
       "text": "Hvor mange cm³ er 2,5 L?",
       "options": [
-        "250 cm³",
-        "25 cm³",
+        "250 000 cm³",
         "25 000 cm³",
+        "2,5 cm³",
         "2500 cm³"
       ],
       "correct": 3,
@@ -319,7 +319,7 @@
         "options": [
           "100 L",
           "10 000 L",
-          "1000 L",
+          "50 000 L",
           "100 000 L"
         ],
         "correct": 3,
@@ -332,8 +332,8 @@
         "options": [
           "37,68 cm³",
           "113,04 cm³",
-          "12,56 cm³",
-          "28,26 cm³"
+          "28,26 cm³",
+          "56,52 cm³"
         ],
         "correct": 0,
         "explain": "V = πr²h/3 = 3,14 · 9 · 4 / 3 = 37,68 cm³."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

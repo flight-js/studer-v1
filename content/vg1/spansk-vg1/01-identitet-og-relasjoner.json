@@ -79,8 +79,8 @@
       "options": [
         "soy",
         "estoy",
-        "es",
-        "tengo"
+        "tengo",
+        "hago"
       ],
       "correct": 1,
       "explain": "Tilstand: estar."
@@ -91,8 +91,8 @@
       "options": [
         "es",
         "está",
-        "tiene",
-        "hace"
+        "hace",
+        "son"
       ],
       "correct": 0,
       "explain": "Yrke: ser."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Velg riktig: «Me ___ los gatos.»",
       "options": [
-        "gusta",
-        "gusto",
+        "gustas",
+        "gustamos",
         "gustan",
-        "gustas"
+        "gustáis"
       ],
       "correct": 2,
       "explain": "Los gatos er flertall: gustan."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva betyr «Me llevo bien con mi hermana»?",
       "options": [
-        "Jeg bærer søsteren min.",
-        "Jeg ligner på søsteren min.",
-        "Jeg savner søsteren min.",
+        "Jeg ligner veldig på søsteren min.",
+        "Jeg savner virkelig søsteren min.",
+        "Jeg bor sammen med søsteren min.",
         "Jeg kommer godt overens med søsteren min."
       ],
       "correct": 3,
@@ -127,20 +127,20 @@
       "options": [
         "å kjede seg",
         "å være kjedelig",
-        "å være sint",
-        "å være trøtt"
+        "å være nervøs",
+        "å bli skuffet"
       ],
       "correct": 0,
-      "explain": "ser aburrido = å være kjedelig."
+      "explain": "Estar aburrido betyr å kjede seg; ser aburrido betyr å være kjedelig."
     },
     {
       "id": "q06",
       "text": "Hvordan sier du «Jeg er redd»?",
       "options": [
-        "Soy miedo.",
+        "Estoy triste.",
         "Tengo miedo.",
-        "Estoy miedo.",
-        "Hago miedo."
+        "Tengo vergüenza.",
+        "Estoy enfadado."
       ],
       "correct": 1,
       "explain": "Tener brukes i mange uttrykk om følelser og tilstander."
@@ -149,8 +149,8 @@
       "id": "q07",
       "text": "Velg riktig: «A mi hermano ___ gusta el fútbol.»",
       "options": [
-        "me",
-        "te",
+        "nos",
+        "os",
         "le",
         "les"
       ],
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr «Tu amigo me cae muy bien»?",
       "options": [
-        "Vennen din faller.",
-        "Vennen din ringer meg.",
-        "Vennen din hjelper meg.",
+        "Jeg kjenner vennen din ganske godt.",
+        "Jeg savner vennen din veldig mye.",
+        "Jeg stoler mye på vennen din.",
         "Jeg liker vennen din godt."
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva betyr «enfadarse»?",
       "options": [
         "bli sint",
-        "bli forelsket",
-        "bli trøtt",
-        "bli syk"
+        "bli bekymret",
+        "bli flau",
+        "bli sjalu"
       ],
       "correct": 0,
       "explain": "No te enfades = Ikke bli sint."
@@ -186,7 +186,7 @@
       "text": "Hva betyr «Me preocupa el examen»?",
       "options": [
         "Jeg gleder meg til eksamen.",
-        "Eksamen bekymrer meg.",
+        "Jeg er bekymret for eksamen.",
         "Jeg har bestått eksamen.",
         "Jeg forbereder meg til eksamen."
       ],
@@ -312,9 +312,9 @@
         "type": "flervalg",
         "text": "Hva betyr «Me siento solo»?",
         "options": [
-          "Jeg sitter alene.",
+          "Jeg sitter ofte alene.",
           "Jeg føler meg ensom.",
-          "Jeg er bare meg.",
+          "Jeg er helt alene.",
           "Jeg liker å være alene."
         ],
         "correct": 1,
@@ -326,9 +326,9 @@
         "text": "Hva betyr «generoso»?",
         "options": [
           "raus",
-          "generell",
-          "sint",
-          "sjalu"
+          "sjenert",
+          "sjalu",
+          "egoistisk"
         ],
         "correct": 0,
         "explain": "Hunkjønn: generosa."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Velg riktig: «Nos ___ mucho los idiomas.»",
         "options": [
-          "interesa",
-          "interesamos",
+          "intereso",
+          "interesáis",
           "interesan",
-          "interesas"
+          "interesaba"
         ],
         "correct": 2,
         "explain": "Los idiomas er flertall: interesan."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

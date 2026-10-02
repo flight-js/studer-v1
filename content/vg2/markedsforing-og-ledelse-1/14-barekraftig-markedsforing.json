@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva er bærekraftig utvikling?",
       "options": [
-        "Størst mulig vekst nå",
+        "Å dekke dagens behov ved å prioritere økonomisk vekst framfor miljø og samfunn",
         "Å dekke dagens behov uten å ødelegge for kommende generasjoner",
-        "Bare miljøvern",
-        "Bare økonomisk vekst"
+        "Å dekke dagens behov ved å bruke naturressurser raskere enn de fornyes",
+        "Å sikre økonomisk vekst nå ved å begrense forbruket til dagens befolkning"
       ],
       "correct": 1,
       "explain": "Brundtland-kommisjonen, 1987."
@@ -98,9 +98,9 @@
       "text": "Hvilke tre dimensjoner har bærekraft?",
       "options": [
         "Miljø, sosial og økonomisk",
-        "Pris, produkt og plass",
-        "Lokal, nasjonal og global",
-        "Kort, middels og lang"
+        "Produkt, pris og påvirkning",
+        "Lokalt, nasjonalt og internasjonalt",
+        "Produksjon, distribusjon og forbruk"
       ],
       "correct": 0,
       "explain": "De henger sammen."
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "Hva er grønnvasking?",
       "options": [
-        "Å vaske klær miljøvennlig",
-        "Å resirkulere",
+        "Å vaske klær med vaskemiddel som belaster miljøet mindre",
+        "Å resirkulere produkter for å redusere mengden avfall",
         "Å framstille noe som mer miljøvennlig enn det er",
-        "Å bruke grønne farger"
+        "Å bruke grønn emballasje for å gjøre varen synlig i butikk"
       ],
       "correct": 2,
       "explain": "Kan være ulovlig."
@@ -121,9 +121,9 @@
       "id": "q04",
       "text": "Hva kjennetegner sirkulær økonomi?",
       "options": [
-        "Produsere, bruke og kaste",
-        "Kjøpe mest mulig",
-        "Bare importere",
+        "Utvinning, produksjon og kassering",
+        "Kjøp, kort bruk og kassering",
+        "Bruk, forbrenning og deponering",
         "Reparasjon, gjenbruk og resirkulering"
       ],
       "correct": 3,
@@ -134,9 +134,9 @@
       "text": "Hva handler Fairtrade-merket om?",
       "options": [
         "Rettferdig handel",
-        "Økologisk landbruk",
-        "Lav pris",
-        "Norsk produksjon"
+        "Økologisk matproduksjon",
+        "Miljøvennlig emballasje",
+        "Norsk vareproduksjon"
       ],
       "correct": 0,
       "explain": "Sosial bærekraft.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva krever åpenhetsloven?",
       "options": [
-        "At alle priser er like",
+        "At større virksomheter publiserer alle innkjøpspriser til offentligheten",
         "At større virksomheter vurderer menneskerettigheter i leverandørkjeden",
-        "At all reklame er grønn",
-        "At alle varer er norske"
+        "At større virksomheter bruker norske leverandører i produksjonen",
+        "At større virksomheter miljømerker varer fra leverandørkjeden"
       ],
       "correct": 1,
       "explain": "Og svarer på spørsmål fra forbrukerne."
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hva handler FNs bærekraftsmål nr. 12 om?",
       "options": [
-        "Rent vann",
-        "Utdanning",
+        "Rent vann og gode sanitærforhold",
+        "God utdanning for alle",
         "Ansvarlig forbruk og produksjon",
-        "Fred"
+        "Fred, rettferdighet og velfungerende institusjoner"
       ],
       "correct": 2,
       "explain": "Mest relevant for markedsføring.",
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hvilken påstand er mest troverdig?",
       "options": [
-        "«Grønn og naturlig»",
-        "«Helt miljøvennlig»",
-        "«Bra for kloden»",
+        "«Laget av 70 % resirkulert plast, ifølge en kundekommentar på nett»",
+        "«Laget av miljøvennlige materialer, uten opplysninger om innholdet»",
+        "«Gir 50 % lavere miljøbelastning, ifølge egen reklamekampanje»",
         "«Laget av 70 % resirkulert plast, dokumentert av tredjepart»"
       ],
       "correct": 3,
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hva er en bærekraftig forretningsmodell?",
       "options": [
-        "Utleie av klær",
-        "Kampanjer som oppfordrer til å kjøpe mer",
-        "Engangsprodukter",
-        "Produkter som ikke kan repareres"
+        "Utleie av klær i stedet for salg",
+        "Salg av nye klær ved hver sesongstart",
+        "Kampanjer for hyppige kjøp av klær",
+        "Produksjon av engangsklær uten reparasjonsmulighet"
       ],
       "correct": 0,
       "explain": "En del av sirkulær økonomi.",
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "Når blir bærekraft et konkurransefortrinn?",
       "options": [
-        "Når det bare står i reklamen",
+        "Når det er omtalt i reklamen, men ikke vist i praksis",
         "Når det er troverdig, synlig og lett å velge",
-        "Når prisen er dobbelt så høy",
-        "Aldri"
+        "Når det gir høyere pris uten tydelig kundeverdi",
+        "Når kundene ikke kjenner til virksomhetens tiltak"
       ],
       "correct": 1,
       "explain": "Pris og vaner veier ofte tungt."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva er trippel bunnlinje?",
         "options": [
-          "Tre typer skatt",
+          "Resultat målt i salg, markedsandel og overskudd",
           "Resultat målt i penger, mennesker og miljø",
-          "Tre kvartaler med overskudd",
-          "Tre butikker"
+          "Resultat målt i skatt, lønn og driftskostnader",
+          "Resultat målt i kunder, produkter og butikker"
         ],
         "correct": 1,
         "explain": "Mer enn bare profitt."
@@ -331,9 +331,9 @@
         "text": "Hva er Svanemerket?",
         "options": [
           "Et nordisk miljømerke",
-          "Et merke for luksusvarer",
-          "Et merke for norske varer",
-          "Et merke for billige varer"
+          "Et nordisk opprinnelsesmerke",
+          "Et nordisk merke for økologiske varer",
+          "Et internasjonalt merke for rettferdig handel"
         ],
         "correct": 0,
         "explain": "Hjelper forbrukerne å velge.",
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva viste Rana Plaza-ulykken?",
         "options": [
-          "At fabrikkene i Bangladesh var trygge",
-          "At klær bør være dyrere",
+          "At mange klesmerker hadde full kontroll over fabrikkene sine",
+          "At ulykken skyldtes først og fremst kundenes netthandel",
           "At mange merker visste lite om egne leverandører",
-          "At netthandel er farlig"
+          "At fabrikkene hadde gode rutiner for brannsikkerhet"
         ],
         "correct": 2,
         "explain": "Over 1100 mennesker døde.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

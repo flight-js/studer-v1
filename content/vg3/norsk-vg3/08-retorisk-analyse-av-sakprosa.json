@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva undersøker en retorisk analyse?",
       "options": [
-        "Rim og rytme",
+        "Hvordan teksten bruker rim og rytme til å skape lydvirkning",
         "Hvordan en tekst prøver å overbevise, og om den lykkes",
-        "Bare fakta i teksten",
-        "Forfatterens liv"
+        "Hvordan teksten gjengir sakens fakta, og om de er korrekte",
+        "Hvordan forfatterens liv og erfaringer har påvirket tekstens innhold"
       ],
       "correct": 1,
       "explain": "Brukes på sakprosa."
@@ -88,9 +88,9 @@
       "text": "Hva er etos?",
       "options": [
         "Appell gjennom avsenderens troverdighet",
-        "Appell til følelser",
-        "Appell til fornuften",
-        "Rett timing"
+        "Appell gjennom mottakerens følelser",
+        "Appell gjennom argumentenes logiske oppbygning",
+        "Appell gjennom riktig tidspunkt og situasjon"
       ],
       "correct": 0,
       "explain": "Kompetanse, erfaring og velvilje."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er kairos?",
       "options": [
-        "En argumentasjonsfeil",
-        "Et språklig bilde",
+        "En argumentasjonsfeil som forvrenger motpartens standpunkt",
+        "Et språklig bilde som gir ord overført betydning",
         "Rett tidspunkt og tilpasning til situasjonen",
-        "En sjanger"
+        "En sjanger med bestemte kjennetegn og formål"
       ],
       "correct": 2,
       "explain": "Timing."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er en hjemmel?",
       "options": [
-        "Hovedpåstanden",
-        "Et sitat",
-        "Konklusjonen",
+        "Den sentrale påstanden som argumentene skal støtte",
+        "Et konkret belegg som underbygger en påstand",
+        "Den avsluttende konklusjonen som følger av argumentasjonen",
         "Den uuttalte forutsetningen som knytter belegg og påstand"
       ],
       "correct": 3,
@@ -125,8 +125,8 @@
       "options": [
         "Personangrep",
         "Stråmann",
-        "Falsk dilemma",
-        "Glidebane"
+        "Falskt dilemma",
+        "Glidebaneargument"
       ],
       "correct": 0,
       "explain": "Angriper personen, ikke saken."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva bør vurderingen i en retorisk analyse handle om?",
       "options": [
-        "Om du er enig i saken",
-        "Hvor lang teksten er",
-        "Hvem som betalte avisen",
+        "Om du personlig er enig i tekstens standpunkt",
+        "Om teksten har en passende lengde for leserne",
+        "Om avisen oppgir hvem som finansierte utgivelsen",
         "Om teksten er overbevisende for målgruppen"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er et glidebaneargument?",
       "options": [
         "Å påstå at ett steg uunngåelig fører til katastrofe",
-        "Å angripe personen",
-        "Å gjenta et ord",
-        "Å bruke statistikk"
+        "Å gjengi motpartens syn på en forvrengt måte",
+        "Å gjenta et viktig ord for å framheve et poeng",
+        "Å støtte en påstand med tall fra en undersøkelse"
       ],
       "correct": 0,
       "explain": "En vanlig argumentasjonsfeil."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor kan en tekst bruke vi-form?",
       "options": [
-        "For å virke upersonlig",
+        "For å framstille saken som upersonlig og objektiv",
         "For å skape fellesskap med leseren",
-        "For å skjule avsenderen",
-        "Fordi det er et krav i sakprosa"
+        "For å skjule hvem som står bak teksten",
+        "For å følge et obligatorisk språkkrav i sakprosa"
       ],
       "correct": 1,
       "explain": "Et språklig virkemiddel."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hva er en stråmann?",
         "options": [
-          "Å angripe personen",
+          "Å kritisere motpartens person i stedet for argumentasjonen",
           "Å angripe en forvrengt versjon av motpartens syn",
-          "Å bruke statistikk",
-          "Å gjenta et poeng"
+          "Å støtte påstanden med statistikk fra en undersøkelse",
+          "Å gjenta hovedpåstanden flere ganger for å styrke den"
         ],
         "correct": 1,
         "explain": "En vanlig argumentasjonsfeil."
@@ -330,9 +330,9 @@
         "text": "Hvilket virkemiddel er et tretall?",
         "options": [
           "«Vi trenger mot, vilje og handling»",
-          "«Er det rettferdig?»",
-          "«Han er en løve»",
-          "«Vi»"
+          "«Denne saken er en storm»",
+          "«Vi må handle før det er for sent»",
+          "«Tallene viser framgang i kommunen»"
         ],
         "correct": 0,
         "explain": "Tre ledd gir rytme og tyngde."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva hører til den retoriske situasjonen?",
         "options": [
-          "Rim og rytme",
-          "Antall avsnitt",
+          "Rim, rytme, metaforer og gjentakelser",
+          "Avsnitt, linjer, setninger og overskrifter",
           "Avsender, mottaker, formål og kontekst",
-          "Skrifttypen"
+          "Skrifttype, marger, linjeavstand og sidetall"
         ],
         "correct": 2,
         "explain": "Første steg i analysen."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

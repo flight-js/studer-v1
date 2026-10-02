@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
-        "Vær er tilstanden nå, klima er gjennomsnitt og variasjon over lang tid",
-        "Klima er været i dag",
-        "Vær gjelder bare temperatur"
+        "Vær beskriver gjennomsnitt og variasjon over lang tid, mens klima beskriver tilstanden nå.",
+        "Vær beskriver tilstanden nå, mens klima beskriver gjennomsnitt og variasjon over lang tid.",
+        "Vær beskriver forholdene gjennom én sesong, mens klima beskriver gjennomsnittet gjennom én dag.",
+        "Vær beskriver temperaturen på et sted, mens klima beskriver nedbøren på samme sted."
       ],
       "correct": 1,
       "explain": "Vanligvis 30 år."
@@ -93,8 +93,8 @@
       "options": [
         "Milde og våte vintre",
         "Kalde og tørre vintre",
-        "Ingen vinter",
-        "Vintre med mye sol"
+        "Milde og tørre vintre",
+        "Kalde og våte vintre"
       ],
       "correct": 0,
       "explain": "Mye vestavind."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvor mye har CO₂-konsentrasjonen økt siden førindustriell tid?",
       "options": [
-        "Fra 420 til 280 ppm",
-        "Fra 100 til 150 ppm",
+        "Fra omtrent 420 til over 500 ppm",
+        "Fra omtrent 280 til over 300 ppm",
         "Fra omtrent 280 til over 420 ppm",
-        "Ingen endring"
+        "Fra omtrent 350 til over 420 ppm"
       ],
       "correct": 2,
       "explain": "Hovedsakelig fra fossile brensler."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er IPCC?",
       "options": [
-        "Et oljeselskap",
-        "En værstasjon",
-        "Et miljøparti",
+        "FNs miljøorgan som forhandler fram utslippsmål",
+        "FNs værorganisasjon som lager værvarsler",
+        "Et internasjonalt institutt som måler klimaendringer",
         "FNs klimapanel som vurderer klimaforskningen"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvilket fingeravtrykk tyder på økt drivhuseffekt og ikke økt solaktivitet?",
       "options": [
         "Varmere nedre atmosfære og kaldere stratosfære",
-        "Varmere stratosfære",
-        "Kaldere hav",
-        "Mer is"
+        "Kaldere nedre atmosfære og varmere stratosfære",
+        "Varmere nedre atmosfære og varmere stratosfære",
+        "Kaldere nedre atmosfære og kaldere stratosfære"
       ],
       "correct": 0,
       "explain": "Solen ville varmet begge.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er attribusjonsforskning?",
       "options": [
-        "Forskning på isotoper",
-        "Forskning på hvor mye klimaendringene påvirker enkelte ekstremhendelser",
-        "Forskning på solen",
-        "Forskning på vulkaner"
+        "Forskning på hvordan enkelte ekstremhendelser påvirker klimaet",
+        "Forskning på hvor mye klimaendringer påvirker enkelte ekstremhendelser",
+        "Forskning på hvordan utslipp påvirker værvarslene",
+        "Forskning på å måle klimaendringer ved hjelp av isotoper"
       ],
       "correct": 1,
       "explain": "For eksempel hetebølger.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvordan har aerosoler påvirket oppvarmingen?",
       "options": [
-        "Forsterket den kraftig",
-        "Ikke påvirket den",
-        "Dempet den til en viss grad",
-        "Stoppet den helt"
+        "Aerosoler forsterket oppvarmingen noe",
+        "Aerosoler dempet oppvarmingen kraftig",
+        "Aerosoler dempet oppvarmingen noe",
+        "Aerosoler påvirket oppvarmingen svært lite"
       ],
       "correct": 2,
       "explain": "De reflekterer sollys.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvilke endringer er ventet i Norge?",
       "options": [
-        "Tørrere og kaldere",
-        "Mindre nedbør",
-        "Lengre snøsesong overalt",
+        "Kaldere, tørrere og mindre kraftig nedbør",
+        "Varmere, tørrere og mindre kraftig nedbør",
+        "Kaldere, våtere og sjeldnere kraftig nedbør",
         "Varmere, våtere og mer kraftig nedbør"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Omtrent hvor mye har den globale temperaturen økt siden førindustriell tid?",
       "options": [
         "Rundt 1,4 °C",
-        "5 °C",
-        "0,1 °C",
-        "10 °C"
+        "Rundt 0,4 °C",
+        "Rundt 2,4 °C",
+        "Rundt 4,1 °C"
       ],
       "correct": 0,
       "explain": "Ifølge WMO i 2025. IPCC anslo 1,1 °C for tiåret 2011–2020."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva viser isotopene i atmosfærens CO₂?",
       "options": [
-        "At karbonet kommer fra vulkaner",
+        "At det ekstra karbonet kommer fra vulkanutbrudd",
         "At det ekstra karbonet kommer fra fossilt materiale",
-        "At karbonet kommer fra havet",
-        "Ingenting"
+        "At det ekstra karbonet kommer fra nyere vegetasjon",
+        "At det ekstra karbonet kommer fra havet"
       ],
       "correct": 1,
       "explain": "Et bevis på menneskelig påvirkning.",
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvor kommer mye av metanutslippene fra?",
         "options": [
-          "Solkraft",
+          "Bilkøring, flytrafikk og sementproduksjon",
           "Husdyr, risdyrking og avfall",
-          "Vindkraft",
-          "Skog"
+          "Kunstgjødsel, kjølemedier og sementproduksjon",
+          "Oppvarming av boliger, flytrafikk og plastproduksjon"
         ],
         "correct": 1,
         "explain": "Også olje- og gassproduksjon."
@@ -330,9 +330,9 @@
         "text": "Hva styrer istider og mellomistider over tusener av år?",
         "options": [
           "Variasjoner i jordbanen",
-          "Menneskelige utslipp",
-          "El Niño",
-          "Solflekker alene"
+          "Variasjoner i havstrømmene",
+          "Endringer i solaktiviteten",
+          "El Niño og La Niña"
         ],
         "correct": 0,
         "explain": "Milanković-syklusene."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva sier IPCC om menneskelig påvirkning?",
         "options": [
-          "At den er usannsynlig",
-          "At den er ukjent",
+          "At det er utvetydig at mennesker har avkjølt klimaet",
+          "At menneskelig påvirkning på klimaet ikke kan fastslås med sikkerhet",
           "At det er utvetydig at mennesker har varmet opp klimaet",
-          "At den bare gjelder lokalt"
+          "At menneskelig påvirkning gjelder temperaturen, men ikke havet"
         ],
         "correct": 2,
         "explain": "Atmosfære, hav og land."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

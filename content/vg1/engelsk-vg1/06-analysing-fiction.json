@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "What is indirect characterisation?",
       "options": [
-        "The narrator tells us directly what a character is like",
+        "A character is described directly using clear personality traits",
         "A character is shown through actions, speech and thoughts",
-        "A character with no name",
-        "A minor character"
+        "A character's importance is measured by how often they appear",
+        "A character is labelled by the narrator as brave or selfish"
       ],
       "correct": 1,
       "explain": "The reader has to draw conclusions."
@@ -89,9 +89,9 @@
       "text": "What is dramatic irony?",
       "options": [
         "When the reader knows something the characters do not",
-        "When a story is sad",
-        "When a character tells a joke",
-        "When the story has a happy ending"
+        "When a character says one thing but means the opposite",
+        "When the outcome is different from what was expected",
+        "When a scene creates tension by delaying the outcome"
       ],
       "correct": 0,
       "explain": "Lamb to the Slaughter is a famous example."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "What kind of narrator is used in The Hate U Give?",
       "options": [
+        "A third-person limited narrator",
         "An omniscient narrator",
-        "A second-person narrator",
         "A first-person narrator",
-        "There is no narrator"
+        "A second-person narrator"
       ],
       "correct": 2,
       "explain": "Starr tells the story as I.",
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "What is foreshadowing?",
       "options": [
-        "A description of the setting",
-        "A flashback",
-        "The climax",
+        "A scene that shows an event from the past",
+        "The point of greatest tension in the plot",
+        "Details that introduce the characters and setting",
         "Hints about what will happen later"
       ],
       "correct": 3,
@@ -126,21 +126,21 @@
       "text": "Which of these is a theme?",
       "options": [
         "Prejudice",
-        "A village square",
-        "A lottery ticket",
-        "Chapter three"
+        "The story's setting",
+        "The story's plot",
+        "The story's narrator"
       ],
       "correct": 0,
-      "explain": "A theme is an idea, not a thing or a place."
+      "explain": "A theme is a central idea explored throughout a story."
     },
     {
       "id": "q06",
       "text": "What is a dynamic character?",
       "options": [
-        "A character who moves a lot",
+        "A character with many different personality traits",
         "A character who changes during the story",
-        "A funny character",
-        "A character who never speaks"
+        "A character who opposes the main character",
+        "A character who appears in only one scene"
       ],
       "correct": 1,
       "explain": "A static character does not change."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "What should the introduction to a literary analysis include?",
       "options": [
-        "Only a long summary",
-        "Your favourite quote",
-        "A list of all characters",
+        "A full plot summary, a character list and your favourite quotation",
+        "An author's biography, publication history and a list of awards",
+        "A personal review, a recommendation and a rating of the story",
         "Title, author, a brief summary and your main claim"
       ],
       "correct": 3,
@@ -176,7 +176,7 @@
         "A narrator who cannot be fully trusted",
         "A narrator who knows everything",
         "A narrator who is the author",
-        "A narrator who speaks to the reader"
+        "A narrator who addresses the reader directly"
       ],
       "correct": 0,
       "explain": "The reader must read between the lines."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "What is the main point of a literary analysis?",
       "options": [
-        "To retell the whole story",
+        "To retell the plot and describe the characters in order",
         "To analyse and interpret how the text creates meaning",
-        "To say whether you liked it",
-        "To write about the author's life"
+        "To explain your personal reaction and rate the story",
+        "To give the author's background and describe their other books"
       ],
       "correct": 1,
       "explain": "Use evidence from the text to support your interpretation."
@@ -322,13 +322,13 @@
         "type": "flervalg",
         "text": "What is an internal conflict?",
         "options": [
-          "A fight between two armies",
+          "A struggle between a character and another person",
           "A struggle within a character",
-          "A conflict with nature",
-          "A disagreement between two friends"
+          "A struggle between a character and society",
+          "A struggle between a character and nature"
         ],
         "correct": 1,
-        "explain": "The others are external conflicts."
+        "explain": "An internal conflict takes place within one character."
       },
       {
         "id": "m06",
@@ -336,9 +336,9 @@
         "text": "What might a storm symbolise in a story?",
         "options": [
           "Inner turmoil",
-          "The weather forecast",
-          "A holiday",
-          "The author's name"
+          "The story's setting",
+          "The narrator's viewpoint",
+          "The plot's turning point"
         ],
         "correct": 0,
         "explain": "Symbols stand for ideas beyond themselves."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Which is a sound device often used in poetry?",
         "options": [
-          "Chapter",
-          "Setting",
+          "Metaphor",
+          "Enjambment",
           "Alliteration",
-          "Headline"
+          "Imagery"
         ],
         "correct": 2,
         "explain": "Alliteration repeats the first sound in nearby words."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -87,10 +87,10 @@
       "id": "q01",
       "text": "Hvem skrev «Don Quijote»?",
       "options": [
-        "García Márquez",
+        "Federico García Lorca",
         "Miguel de Cervantes",
-        "Pablo Neruda",
-        "Isabel Allende"
+        "Jorge Luis Borges",
+        "Mario Vargas Llosa"
       ],
       "correct": 1,
       "explain": "Første del kom i 1605.",
@@ -100,10 +100,10 @@
       "id": "q02",
       "text": "Hva viser Picassos «Guernica»?",
       "options": [
-        "Bombingen av en baskisk by under borgerkrigen",
-        "Et landskap i Andalucía",
-        "Et portrett av kongen",
-        "En flamencodanser"
+        "Bombingen av Guernica under den spanske borgerkrigen",
+        "Et bryllup i Guernica under den spanske borgerkrigen",
+        "En demonstrasjon i Guernica under den spanske borgerkrigen",
+        "Et kongelig besøk i Guernica under den spanske borgerkrigen"
       ],
       "correct": 0,
       "explain": "Maleriet er fra 1937.",
@@ -113,10 +113,10 @@
       "id": "q03",
       "text": "Hva er magisk realisme?",
       "options": [
-        "Kunst om magikere",
-        "Fantasy med drager",
+        "Litteratur der framtidig teknologi endrer menneskers liv",
+        "Litteratur der magikere bruker trylleformularer i en fantasiverden",
         "Litteratur der det overnaturlige beskrives som en del av hverdagen",
-        "Realistiske malerier"
+        "Litteratur der hverdagslivet skildres uten overnaturlige hendelser"
       ],
       "correct": 2,
       "explain": "Hundre års ensomhet er et hovedverk.",
@@ -126,9 +126,9 @@
       "id": "q04",
       "text": "Hvor oppsto tangoen?",
       "options": [
-        "Madrid",
-        "Mexico by",
-        "Havanna",
+        "Madrid og Barcelona",
+        "Havanna og Santiago",
+        "Lima og Bogotá",
         "Buenos Aires og Montevideo"
       ],
       "correct": 3,
@@ -140,9 +140,9 @@
       "text": "Hva betyr «Me gustaría visitar México»?",
       "options": [
         "Jeg skulle gjerne besøkt Mexico.",
-        "Jeg besøkte Mexico.",
-        "Jeg liker Mexico.",
-        "Jeg skal besøke Mexico."
+        "Jeg besøkte Mexico forrige sommer.",
+        "Jeg liker å besøke Mexico.",
+        "Jeg skal besøke Mexico neste år."
       ],
       "correct": 0,
       "explain": "Condicional uttrykker ønske."
@@ -153,8 +153,8 @@
       "options": [
         "Salvador Dalí",
         "Frida Kahlo",
-        "Velázquez",
-        "Picasso"
+        "Diego Rivera",
+        "José Clemente Orozco"
       ],
       "correct": 1,
       "explain": "Frida Kahlo var fra Mexico.",
@@ -165,9 +165,9 @@
       "text": "Hva er condicional av «poder» i usted-form?",
       "options": [
         "puede",
-        "pudo",
+        "podía",
         "podría",
-        "poderá"
+        "podrá"
       ],
       "correct": 2,
       "explain": "poder har stammen podr- + -ía."
@@ -191,7 +191,7 @@
       "options": [
         "Kubismen",
         "Impresjonismen",
-        "Surrealismen",
+        "Dadaismen",
         "Romantikken"
       ],
       "correct": 0,
@@ -204,8 +204,8 @@
       "options": [
         "1967",
         "1982",
-        "1605",
-        "2010"
+        "1971",
+        "1990"
       ],
       "correct": 1,
       "explain": "Hundre års ensomhet kom i 1967.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva er condicional av «hacer» i yo-form?",
         "options": [
-          "hacería",
+          "hago",
           "haría",
           "hice",
-          "hago"
+          "haré"
         ],
         "correct": 1,
         "explain": "hacer har stammen har-."
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Esta canción me recuerda a mi abuela»?",
         "options": [
-          "Bestemor liker denne sangen.",
-          "Denne sangen handler om bestemor.",
+          "Jeg husker denne sangen fra besøk hos bestemor.",
+          "Bestemoren min minner meg om denne sangen.",
           "Denne sangen minner meg om bestemoren min.",
-          "Jeg sang denne sangen for bestemor."
+          "Jeg synger denne sangen sammen med bestemoren min."
         ],
         "correct": 2,
         "explain": "recordar a = minne om."
@@ -453,6 +453,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

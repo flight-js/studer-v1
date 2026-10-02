@@ -76,9 +76,9 @@
       "text": "Hvorfor skrev nordmenn dansk i flere hundre år?",
       "options": [
         "Fordi Norge var i union med Danmark",
-        "Fordi norsk ikke fantes",
-        "Fordi dansk var lettere",
-        "Fordi kongen kom fra Sverige"
+        "Fordi Norge var i union med Sverige",
+        "Fordi dansk var Norges vanlige talespråk",
+        "Fordi dansk var skriftspråket i hele Norden"
       ],
       "correct": 0,
       "explain": "Under unionen med Danmark ble dansk det vanlige skriftspråket, mens folk snakket norske dialekter."
@@ -88,9 +88,9 @@
       "text": "Hvem lagde landsmålet?",
       "options": [
         "Knud Knudsen",
-        "Henrik Ibsen",
+        "Henrik Wergeland",
         "Ivar Aasen",
-        "Henrik Wergeland"
+        "P.A. Munch"
       ],
       "correct": 2,
       "explain": "Ivar Aasen bygde landsmålet på dialektene. Det er grunnlaget for nynorsk."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva ville Knud Knudsen?",
       "options": [
-        "Innføre svensk",
-        "Fornorske det danske skriftspråket gradvis",
-        "Lage et nytt språk fra dialektene",
-        "Gå tilbake til norrønt"
+        "Gradvis fornorske det svenske skriftspråket",
+        "Gradvis fornorske det danske skriftspråket",
+        "Bytte ut dansk med norske dialekter",
+        "Slå sammen dansk og svensk til ett skriftspråk"
       ],
       "correct": 1,
       "explain": "Knudsen ville gradvis gjøre dansk mer norsk. Det førte til riksmål og senere bokmål."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva skjedde i 1885?",
       "options": [
-        "Norge fikk grunnlov",
+        "Norge fikk sin første grunnlov",
         "Bokmål fikk navnet sitt",
-        "Samnorsk ble innført",
+        "Samnorsk ble vedtatt som skriftspråk",
         "Landsmålet ble likestilt med det dansk-norske skriftspråket"
       ],
       "correct": 3,
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva var samnorsk?",
       "options": [
-        "Et samisk språk",
-        "Ideen om å slå sammen bokmål og nynorsk til ett språk",
-        "Et nordisk fellesspråk",
-        "En dialekt fra Nord-Norge"
+        "Et mål om å slå sammen norsk og samisk til ett språk",
+        "Et mål om å slå sammen bokmål og nynorsk til ett språk",
+        "Et forslag om å gjøre nynorsk til eneste skriftspråk",
+        "Et navn på et talemål som blander norske dialekter"
       ],
       "correct": 1,
       "explain": "Samnorsk var et mål i språkpolitikken i deler av 1900-tallet, men ble senere oppgitt."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva sier språkloven om bokmål og nynorsk?",
       "options": [
-        "At bokmål er viktigst",
-        "At nynorsk skal fases ut",
-        "At de er likestilte skriftspråk",
-        "At de skal slås sammen"
+        "At bokmål har høyere status enn nynorsk som skriftspråk",
+        "At nynorsk har samme status som norske dialekter",
+        "At bokmål og nynorsk har samme status som skriftspråk",
+        "At bokmål og nynorsk skal bli til ett skriftspråk"
       ],
       "correct": 2,
       "explain": "Språkloven fra 2022 slår fast at bokmål og nynorsk er likestilte skriftspråk."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hvilken status har samisk i Norge?",
       "options": [
-        "Urfolksspråk, likestilt med norsk",
-        "Nasjonalt minoritetsspråk",
-        "Fremmedspråk",
-        "Dialekt"
+        "Urfolksspråk med status likestilt med norsk",
+        "Nasjonalt minoritetsspråk med status likestilt med norsk",
+        "Regionalt språk med status som norsk dialekt",
+        "Innvandrerspråk med status som fremmedspråk"
       ],
       "correct": 0,
       "explain": "Samisk er urfolksspråk og likestilt med norsk."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva bygde Ivar Aasen landsmålet på?",
       "options": [
-        "Dansk skriftspråk",
-        "Norske dialekter, med blikk til norrønt",
-        "Svensk",
-        "Byfolkets talemål"
+        "Dansk skriftspråk, med blikk mot norrønt",
+        "Norske dialekter, med blikk mot norrønt",
+        "Svenske dialekter, med blikk mot dansk",
+        "Byfolks talemål, med blikk mot svensk"
       ],
       "correct": 1,
       "explain": "Aasen studerte dialekter over hele landet og brukte dem som grunnlag."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva var jamstillingsvedtaket?",
         "options": [
-          "Et vedtak om å likestille landsmålet med det dansk-norske skriftspråket",
-          "En lov om samisk",
-          "En reform av bokmål",
-          "Grunnloven av 1814"
+          "Et vedtak som likestilte landsmålet med det dansk-norske skriftspråket",
+          "Et vedtak som likestilte samisk med det norsk-danske skriftspråket",
+          "Et vedtak som ga landsmålet navnet nynorsk",
+          "Et vedtak som gjorde landsmålet til eneste skriftspråk"
         ],
         "correct": 0,
         "explain": "Vedtaket i 1885 ga landsmålet offisiell status."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvor bor det flest nynorskbrukere?",
         "options": [
-          "I Oslo",
-          "I Finnmark",
+          "På Østlandet",
+          "I Trøndelag",
           "På Vestlandet",
-          "I Trøndelag"
+          "I Nord-Norge"
         ],
         "correct": 2,
         "explain": "Nynorsk står sterkest på Vestlandet.",
@@ -345,9 +345,9 @@
         "type": "flervalg",
         "text": "Når trådte språkloven i kraft?",
         "options": [
-          "1885",
-          "1929",
-          "2005",
+          "2021",
+          "2019",
+          "2023",
           "2022"
         ],
         "correct": 3,
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilken språkfamilie tilhører norsk?",
       "options": [
-        "Den finsk-ugriske",
-        "Den semittiske",
-        "Den indoeuropeiske",
-        "Den kinesisk-tibetanske"
+        "Den uralske språkfamilien",
+        "Den afroasiatiske språkfamilien",
+        "Den indoeuropeiske språkfamilien",
+        "Den sino-tibetanske språkfamilien"
       ],
       "correct": 2,
       "explain": "Norsk er et germansk, nordisk språk."
@@ -91,9 +91,9 @@
       "text": "Hvilke språk er samisk i slekt med?",
       "options": [
         "Finsk og estisk",
-        "Norsk og svensk",
-        "Engelsk og tysk",
-        "Russisk og polsk"
+        "Dansk og islandsk",
+        "Fransk og spansk",
+        "Arabisk og hebraisk"
       ],
       "correct": 0,
       "explain": "Samisk er et finsk-ugrisk språk."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er et særtrekk ved bestemt form i norsk?",
       "options": [
-        "Artikkelen står foran substantivet",
-        "Det finnes ingen bestemt form",
-        "Artikkelen skrives med stor bokstav",
-        "Artikkelen henges på som endelse"
+        "Den bestemte artikkelen står foran substantivet som et eget ord.",
+        "Bestemt form markeres ved å endre verbet i setningen.",
+        "Bestemt form markeres med en egen bøying av adjektivet.",
+        "Den bestemte artikkelen legges til substantivet som en endelse."
       ],
       "correct": 3,
       "explain": "Norsk: huset. Engelsk: the house."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hvilken periode ga norsk mange lånord fra lavtysk?",
       "options": [
-        "Vikingtiden",
+        "Norrøn tid",
         "Hansatiden",
-        "Dansketiden",
-        "1900-tallet"
+        "Reformasjonstiden",
+        "Etterkrigstiden"
       ],
       "correct": 1,
       "explain": "Tyske kjøpmenn hadde stor makt i Bergen fra 1300-tallet."
@@ -127,9 +127,9 @@
       "text": "Hvilke ord kan skilles av tonelag i mange dialekter?",
       "options": [
         "bønder og bønner",
-        "hus og huset",
-        "katt og hund",
-        "stor og liten"
+        "tak og sak",
+        "bil og bål",
+        "hest og fest"
       ],
       "correct": 0,
       "explain": "Tonegangen er ulik selv om lydene er nesten like."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en anglisisme?",
       "options": [
-        "Et gammelt norsk ord",
-        "Et dialektord",
+        "Et lånord eller uttrykk fra svensk",
+        "Et lånord eller uttrykk fra samisk",
         "Et lånord eller uttrykk fra engelsk",
-        "Et samisk ord"
+        "Et lånord eller uttrykk fra arabisk"
       ],
       "correct": 2,
       "explain": "«Chille» og «streame» er eksempler."
@@ -150,22 +150,22 @@
       "id": "q07",
       "text": "Hvilket skriftspråk har utviklet seg fra det dansk-norske skriftspråket?",
       "options": [
-        "Nynorsk",
-        "Samisk",
-        "Kvensk",
+        "Dansk",
+        "Islandsk",
+        "Færøysk",
         "Bokmål"
       ],
       "correct": 3,
-      "explain": "Nynorsk bygger på dialektene."
+      "explain": "Bokmål utviklet seg fra det dansk-norske skriftspråket, mens nynorsk bygger på norske dialekter."
     },
     {
       "id": "q08",
       "text": "Hva er særskriving?",
       "options": [
-        "Å skrive sammensatte ord i to ord",
-        "Å skrive på dialekt",
-        "Å skrive med store bokstaver",
-        "Å skrive på sidemål"
+        "Å skrive sammensatte ord hver for seg",
+        "Å sette bindestrek mellom ordleddene",
+        "Å dele ord i stavelser ved linjeskift",
+        "Å bruke stor bokstav i hvert ord"
       ],
       "correct": 0,
       "explain": "Særskriving kan endre betydningen: «røyk fritt» og «røykfritt».",
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva er domenetap?",
       "options": [
-        "At et ord forsvinner fra ordboka",
+        "At et språk får færre talere fordi mange flytter fra området",
         "At et språk mister terreng til et annet språk på et samfunnsområde",
-        "At en dialekt dør ut",
-        "At man glemmer et språk"
+        "At en person glemmer et språk etter å ha lært et nytt",
+        "At et ord går ut av bruk og forsvinner fra dagligtalen"
       ],
       "correct": 1,
       "explain": "Engelsk brukes for eksempel mye i forskning og næringsliv."
@@ -187,7 +187,7 @@
       "id": "q10",
       "text": "Hvilket ordlagingselement kom fra lavtysk?",
       "options": [
-        "-skap i «vennskap»",
+        "-dom i «barndom»",
         "-else i «forståelse»",
         "-ing i «fisking»",
         "-lig i «vennlig»"
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Når var dansketiden?",
         "options": [
-          "800–1066",
+          "793–1066",
           "1380–1814",
-          "1814–1905",
-          "1905–1945"
+          "1905–1940",
+          "1940–1945"
         ],
         "correct": 1,
         "explain": "I denne perioden ble dansk skriftspråket i Norge."
@@ -339,9 +339,9 @@
         "text": "Hvilket ord er et fransk lånord?",
         "options": [
           "sjåfør",
-          "betale",
-          "chille",
-          "skole"
+          "vindu",
+          "kjøkken",
+          "weekend"
         ],
         "correct": 0,
         "explain": "Skrivemåten er fornorsket fra «chauffeur».",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva betyr «wolla» i multietnolekt?",
         "options": [
-          "Hei",
-          "Se",
+          "Kom igjen",
+          "Takk skal du ha",
           "Jeg sverger",
-          "Takk"
+          "Med Guds vilje"
         ],
         "correct": 2,
         "explain": "Ordet brukes for å forsterke at noe er sant.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

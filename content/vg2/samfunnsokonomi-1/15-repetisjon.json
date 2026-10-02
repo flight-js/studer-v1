@@ -99,10 +99,10 @@
       "id": "q01",
       "text": "Hva er alternativkostnad?",
       "options": [
-        "Prisen på en vare",
+        "Prisen man betaler for alternativet man faktisk velger",
         "Verdien av det beste alternativet man velger bort",
-        "Skatten på en vare",
-        "Kostnaden for staten"
+        "Verdien av alle alternativene man vurderer før valget",
+        "Kostnaden ved å gjennomføre alternativet man faktisk velger"
       ],
       "correct": 1,
       "explain": "Alle valg har en alternativkostnad."
@@ -111,10 +111,10 @@
       "id": "q02",
       "text": "Hva er likevektsprisen?",
       "options": [
-        "Den høyeste prisen",
-        "Prisen staten bestemmer",
-        "Den laveste prisen",
-        "Prisen der tilbudt og etterspurt mengde er like"
+        "Prisen der tilbudt mengde er større enn etterspurt mengde.",
+        "Prisen der etterspurt mengde er større enn tilbudt mengde.",
+        "Prisen der samlet omsetning er størst.",
+        "Prisen der tilbudt og etterspurt mengde er like store."
       ],
       "correct": 3,
       "explain": "Der kurvene krysser."
@@ -123,10 +123,10 @@
       "id": "q03",
       "text": "Hva kjennetegner et oligopol?",
       "options": [
-        "Mange små aktører",
-        "Én aktør",
+        "Mange små aktører som følger markedsprisen",
+        "Én stor aktør som styrer markedets tilbud",
         "Få, store aktører som er gjensidig avhengige",
-        "Ingen etableringshindringer"
+        "Få store aktører som tar beslutninger uavhengig av hverandre"
       ],
       "correct": 2,
       "explain": "Som dagligvarehandelen i Norge."
@@ -135,10 +135,10 @@
       "id": "q04",
       "text": "Hva må skje hvis privat konsum øker og alt annet er likt?",
       "options": [
-        "Eksporten må øke",
-        "Offentlig konsum må øke",
+        "Eksporten eller investeringene må øke",
+        "Offentlig konsum eller eksport må øke",
         "Produksjonen eller importen må øke",
-        "Ingenting"
+        "Prisene eller lønningene må øke"
       ],
       "correct": 2,
       "explain": "Tilgang og anvendelse må være like."
@@ -147,10 +147,10 @@
       "id": "q05",
       "text": "Hva sier handlingsregelen?",
       "options": [
-        "At staten skal bruke hele oljefondet",
-        "At oljefondet skal investeres i Norge",
-        "At staten aldri kan bruke av fondet",
-        "At staten over tid skal bruke om lag den forventede realavkastningen"
+        "At staten hvert år skal bruke hele avkastningen fra fondet",
+        "At staten over tid skal bruke hele verdien av fondet",
+        "At staten skal investere fondets avkastning i norske bedrifter",
+        "At staten over tid skal bruke forventet realavkastning fra fondet"
       ],
       "correct": 3,
       "explain": "Rundt 3 prosent av verdien."
@@ -159,10 +159,10 @@
       "id": "q06",
       "text": "Hvorfor bruker vi reelt BNP for å måle vekst?",
       "options": [
-        "Fordi det er justert for prisstigning",
-        "Fordi det er høyere",
-        "Fordi det inkluderer ubetalt arbeid",
-        "Fordi det er i dollar"
+        "Fordi tallet er korrigert for endringer i det generelle prisnivået",
+        "Fordi tallet bygger på priser uten justering over tid",
+        "Fordi tallet inkluderer verdien av ubetalt arbeid",
+        "Fordi tallet omregnes til en felles valuta"
       ],
       "correct": 0,
       "explain": "Nominelt BNP kan øke bare fordi prisene stiger."
@@ -173,8 +173,8 @@
       "options": [
         "Utdanning og omskolering",
         "Lavere rente",
-        "Skattelette",
-        "Økt offentlig forbruk"
+        "Skattelette til bedrifter",
+        "Økte offentlige utgifter"
       ],
       "correct": 0,
       "explain": "De ledige må passe til jobbene."
@@ -183,9 +183,9 @@
       "id": "q08",
       "text": "Lønnen stiger med 5 % og prisene med 3 %. Hva skjer med reallønnen?",
       "options": [
-        "Den faller med 2 %",
-        "Den er uendret",
-        "Den stiger med 8 %",
+        "Den faller med omtrent 2 %",
+        "Den holder seg omtrent uendret",
+        "Den stiger med omtrent 8 %",
         "Den stiger med omtrent 2 %"
       ],
       "correct": 3,
@@ -196,9 +196,9 @@
       "text": "Hva skjer vanligvis når renten settes opp?",
       "options": [
         "Konsumet og investeringene faller",
-        "Konsumet øker",
-        "Kronen svekkes",
-        "Det blir billigere å låne"
+        "Konsumet og investeringene øker",
+        "Lånekostnadene faller og konsumet øker",
+        "Sparingen faller og etterspørselen øker"
       ],
       "correct": 0,
       "explain": "Kontraktiv pengepolitikk."
@@ -207,10 +207,10 @@
       "id": "q10",
       "text": "Hva er en viktig oppgave for finansmarkedene?",
       "options": [
-        "Å fastsette skattene",
-        "Å produsere varer",
+        "Å styre forbruket mot importerte varer",
+        "Å flytte skatteinntekter til offentlige tjenester",
         "Å kanalisere sparing til investeringer",
-        "Å bestemme lønningene"
+        "Å bestemme hvor mye bedrifter skal produsere"
       ],
       "correct": 2,
       "explain": "Sparing blir til lån og investeringer."
@@ -220,9 +220,9 @@
       "text": "Hva betyr en Gini-koeffisient på 0?",
       "options": [
         "At alle har like stor inntekt",
-        "At én person har all inntekt",
-        "At ingen har inntekt",
-        "At ulikheten er svært stor"
+        "At én person får nesten all inntekt",
+        "At inntektene varierer mye mellom personene",
+        "At noen har mye høyere inntekt enn andre"
       ],
       "correct": 0,
       "explain": "1 betyr at én har alt."
@@ -232,9 +232,9 @@
       "text": "Hvordan fungerer et kvotesystem?",
       "options": [
         "Et tak på samlede utslipp med kvoter som kan omsettes",
-        "Et forbud mot all produksjon",
-        "En subsidie til forurensere",
-        "En skatt på inntekt"
+        "Et forbud mot produksjon av varer med høye utslipp",
+        "En støtteordning for bedrifter som kutter utslipp",
+        "En avgift på bedrifters samlede inntekter"
       ],
       "correct": 0,
       "explain": "Norge er med i EUs kvotesystem."
@@ -243,10 +243,10 @@
       "id": "q13",
       "text": "Hvordan kan en svak krone påvirke prisstigningen?",
       "options": [
-        "Den senker den alltid",
-        "Den kan øke den fordi importvarer blir dyrere",
-        "Den har ingen effekt",
-        "Den gir deflasjon"
+        "Den kan falle fordi importvarer blir dyrere",
+        "Den kan øke fordi importvarer blir dyrere",
+        "Den kan øke fordi importvarer blir billigere",
+        "Den kan falle fordi importvarer blir billigere"
       ],
       "correct": 1,
       "explain": "Importert inflasjon."
@@ -255,10 +255,10 @@
       "id": "q14",
       "text": "Hva er et komparativt fortrinn?",
       "options": [
-        "Å produsere alt billigst",
+        "Å ha lavest produksjonskostnad for en vare",
         "Å ha lavest alternativkostnad for en vare",
-        "Å ha mest olje",
-        "Å ha høyest toll"
+        "Å produsere størst mengde av en vare per time",
+        "Å ha høyest produktivitet i produksjonen av en vare"
       ],
       "correct": 1,
       "explain": "Beskrevet av David Ricardo."
@@ -412,7 +412,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -450,9 +450,9 @@
         "text": "Hvorfor skal bare en liten del av oljefondet brukes hvert år?",
         "options": [
           "For at pengene også skal komme framtidige generasjoner til gode",
-          "Fordi fondet er lite",
-          "Fordi loven forbyr all bruk",
-          "Fordi pengene tilhører utlandet"
+          "For at fondet skal dekke dagens offentlige utgifter uten skatter",
+          "For at staten skal betale private banklån med avkastningen",
+          "For at fondet skal investeres i norske bedrifter og banker"
         ],
         "correct": 0,
         "explain": "Handlingsregelen."
@@ -475,10 +475,10 @@
         "type": "flervalg",
         "text": "Hvilken politikk passer i en lavkonjunktur?",
         "options": [
-          "Høyere rente",
+          "Kontraktiv politikk",
           "Ekspansiv politikk",
-          "Kutt i offentlige utgifter",
-          "Høyere skatter"
+          "Stram pengepolitikk",
+          "Stram finanspolitikk"
         ],
         "correct": 1,
         "explain": "Øker etterspørselen."
@@ -488,10 +488,10 @@
         "type": "flervalg",
         "text": "Hvilket virkemiddel setter et tak på samlede utslipp?",
         "options": [
-          "Subsidier",
+          "Miljøavgift",
           "Kvotesystem",
-          "Informasjon",
-          "Merking"
+          "Utslippsstandard",
+          "Miljømerking"
         ],
         "correct": 1,
         "explain": "Kvotene kan kjøpes og selges."
@@ -569,12 +569,90 @@
           "Plasserer kommunens kjøp av tjenester som offentlig konsum i realligningen.",
           "Forklarer at BNP må øke når import og de andre anvendelsene holdes uendret."
         ]
+      },
+      {
+        "text": "Tre store mobiloperatører har det meste av markedet, og det er dyrt for nye selskaper å etablere seg. Hvilken markedsform ligner dette på, og hvorfor kan Konkurransetilsynet være opptatt av hvordan selskapene konkurrerer?",
+        "fasit": "Dette ligner et oligopol, fordi det er få store tilbydere og etableringshindringene er høye. Konkurransetilsynet kan følge med på om selskapene begrenser konkurransen, for eksempel gjennom ulovlig prissamarbeid, eller om et selskap misbruker en dominerende stilling.",
+        "kriterier": [
+          "Kjenner igjen oligopol ut fra få tilbydere og høye etableringshindringer.",
+          "Knytter tilsynets rolle til å hindre konkurransebegrensende samarbeid eller misbruk av markedsmakt."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Andelen eldre i befolkningen øker, og det blir større behov for helse- og omsorgstjenester. Forklar hvordan digitale løsninger kan bidra til å møte dette behovet, og hvorfor investeringer i slike løsninger kan være viktige for framtidig økonomisk vekst.",
+        "fasit": "Digitale løsninger kan gjøre offentlig sektor mer effektiv og bidra til at ansatte får utført flere oppgaver med ressursene som finnes. Investeringer i teknologi kan øke produktiviteten og dermed økonomiens produksjonsevne på sikt, samtidig som de kan lette presset på helse- og omsorgstjenestene.",
+        "kriterier": [
+          "Knytter digitalisering til mer effektiv bruk av arbeidskraft eller andre ressurser i offentlig sektor.",
+          "Forklarer at investeringer og økt produktivitet kan øke produksjonsevnen på sikt."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Konsumprisindeksen stiger fra 100 til 110. Hvor stor er prisstigningen i prosent, og hva betyr den for hvor mye varer og tjenester pengene kan kjøpe?",
+        "fasit": "Prisstigningen er (110 − 100) ÷ 100 · 100 = 10 prosent. Når prisnivået stiger, blir pengene mindre verdt, fordi de kan kjøpe færre varer og tjenester enn før.",
+        "kriterier": [
+          "Regner ut at prisstigningen er 10 prosent.",
+          "Forklarer at pengenes kjøpekraft blir lavere."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Et land innfører toll på importerte klær for å beskytte egne klesprodusenter. Forklar hvordan tollen kan påvirke både de innenlandske produsentene og forbrukerne, og hvorfor tiltaket kan gjøre produksjonen mindre effektiv.",
+        "fasit": "Tollen kan gjøre importerte klær dyrere og dermed beskytte innenlandske produsenter mot utenlandsk konkurranse. Forbrukerne kan få høyere priser og mindre utvalg, og produksjonen kan bli mindre effektiv fordi ressurser ikke nødvendigvis brukes der de gir størst verdi.",
+        "kriterier": [
+          "Forklarer at toll kan beskytte innenlandske produsenter mot konkurranse.",
+          "Nevner høyere priser eller mindre utvalg for forbrukerne.",
+          "Knytter handelshindringen til mindre effektiv ressursbruk."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En arbeidsgiverorganisasjon hevder at arbeidsledigheten har falt den siste måneden. Forklar hvorfor påstanden er positiv, ikke normativ, og hvilken norsk kilde du kan bruke for å undersøke hvor mange som er registrert helt ledige. Hvorfor bør du være oppmerksom på hvem som står bak organisasjonens analyser?",
+        "fasit": "Påstanden er positiv fordi den beskriver noe som kan undersøkes med data. NAV teller personer som er registrert som helt ledige, og kan derfor brukes til å undersøke påstanden. En arbeidsgiverorganisasjon kan ha nyttige analyser, men også egne interesser.",
+        "kriterier": [
+          "Forklarer at en positiv påstand kan testes eller undersøkes.",
+          "Velger NAV som kilde for registrerte helt ledige.",
+          "Nevner at en interesseorganisasjon kan ha egne interesser."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Et land har et BNP på 800 milliarder kroner og import på 200 milliarder. Privat konsum er 300 milliarder, offentlig konsum 250 milliarder og realinvesteringer 150 milliarder. Hvor stor er eksporten? Vis regningen ved å bruke realligningen.",
+        "fasit": "Realligningen er BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport. Eksporten blir 800 + 200 − 300 − 250 − 150 = 300 milliarder kroner.",
+        "kriterier": [
+          "Setter opp eller bruker realligningen riktig.",
+          "Regner ut eksporten til 300 milliarder kroner."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En fabrikk slipper ut klimagasser, men betaler ikke for skadene utslippene påfører andre. Forklar hvorfor markedet da kan produsere for mye av fabrikkens varer, og hvordan et system med omsettelige utslippskvoter kan begrense de samlede utslippene.",
+        "fasit": "Når skadene ved utslippene ikke gjenspeiles i prisen, blir samfunnets kostnader større enn kostnadene produsenten tar hensyn til. Da kan markedet produsere for mye. Med utslippskvoter setter myndighetene et tak på de samlede utslippene, og bedrifter kan omsette kvotene seg imellom.",
+        "kriterier": [
+          "Forklarer at utslippsskadene er en negativ ekstern virkning som ikke inngår i prisen.",
+          "Knytter dette til for høy produksjon eller utslipp sammenlignet med det som er best for samfunnet.",
+          "Forklarer at kvoter setter et tak på samlede utslipp og kan omsettes."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Et land får høyere BNP, men har samtidig store utslipp og betydelige inntektsforskjeller. Forklar hvorfor BNP alene ikke gir et fullstendig bilde av innbyggernes velferd, og nevn ett annet mål som kan utfylle BNP.",
+        "fasit": "BNP viser verdiskaping, men sier ikke hvordan inntektene er fordelt eller hvor store miljøskadene er. FNs indeks for menneskelig utvikling kan utfylle BNP ved å ta med levealder og utdanning i tillegg til inntekt.",
+        "kriterier": [
+          "Nevner minst én svakhet ved BNP, for eksempel at det ikke viser fordeling eller miljøskader.",
+          "Nevner et relevant utfyllende mål, som HDI, som også omfatter levealder og utdanning."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

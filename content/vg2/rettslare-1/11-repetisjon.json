@@ -93,7 +93,8 @@
     },
     {
       "term": "De lege lata",
-      "def": "Det som er gjeldende rett."
+      "def": "Det som er gjeldende rett.",
+      "niva": "over-niva"
     },
     {
       "term": "Juridisk drøfting",
@@ -105,10 +106,10 @@
       "id": "q01",
       "text": "Hvorfor er maktfordeling viktig i en rettsstat?",
       "options": [
-        "For å gjøre staten raskere",
+        "For at regjeringen skal kunne vedta lover uten innblanding fra Stortinget",
         "For at maktene skal kontrollere hverandre og hindre maktmisbruk",
-        "For å gi kongen mer makt",
-        "For å slippe valg"
+        "For at domstolene skal bestemme hvem som skal sitte på Stortinget",
+        "For at regjeringen skal kunne styre uten kontroll fra andre statsmakter"
       ],
       "correct": 1,
       "explain": "Ingen skal ha all makt."
@@ -117,9 +118,9 @@
       "id": "q02",
       "text": "Hva er en preseptorisk regel?",
       "options": [
-        "En regel som gjelder hvis partene ikke har avtalt noe annet",
-        "En regel uten sanksjon",
-        "En moralsk regel",
+        "En regel som kan fravikes ved avtale mellom partene",
+        "En regel som gjelder når partene har inngått skriftlig avtale",
+        "En regel som fastsetter reaksjon ved brudd på loven",
         "En regel som ikke kan avtales bort"
       ],
       "correct": 3,
@@ -129,9 +130,9 @@
       "id": "q03",
       "text": "Hva er subsumsjon?",
       "options": [
-        "Å finne partene",
-        "Å skrive konklusjonen",
-        "Å lese forarbeidene",
+        "Å finne de relevante fakta i saken",
+        "Å tolke lovens ordlyd ut fra formålet",
+        "Å vurdere hvilke rettskilder som veier tyngst",
         "Å anvende rettsregelen på faktum"
       ],
       "correct": 3,
@@ -141,22 +142,22 @@
       "id": "q04",
       "text": "Når skal barnets mening tillegges stor vekt etter barneloven?",
       "options": [
-        "Fra 3 år",
-        "Fra 7 år",
+        "Fra 10 år",
+        "Fra 14 år",
         "Fra 12 år",
-        "Fra 18 år"
+        "Fra 16 år"
       ],
       "correct": 2,
-      "explain": "Barn fra sju år skal alltid få si meningen sin."
+      "explain": "Barn skal få si meningen sin fra sju år, mens meningen skal tillegges stor vekt fra 12 år."
     },
     {
       "id": "q05",
       "text": "Hva er skjevdeling?",
       "options": [
-        "At alt deles likt",
-        "At bare gjeld deles",
+        "At alle verdier deles likt når ekteskapet oppløses",
+        "At gjeld fra før ekteskapet holdes utenfor delingen",
         "At verdier fra før ekteskapet eller arv og gave holdes utenfor delingen",
-        "At særeie deles"
+        "At verdier som er særeie, tas med i delingen"
       ],
       "correct": 2,
       "explain": "Må dokumenteres."
@@ -165,9 +166,9 @@
       "id": "q06",
       "text": "Hva kreves for et gyldig testament?",
       "options": [
-        "At det er muntlig",
-        "At det er publisert",
-        "At det har ett vitne",
+        "At det er skriftlig, underskrevet og har ett vitne over 18 år",
+        "At det er skriftlig, publisert og har to vitner over 18 år",
+        "At det er skriftlig, underskrevet og har to vitner under 18 år",
         "At det er skriftlig, underskrevet og har to vitner over 18 år"
       ],
       "correct": 3,
@@ -177,10 +178,10 @@
       "id": "q07",
       "text": "Hva kreves for at en oppsigelse skal være lovlig?",
       "options": [
-        "At arbeidsgiver ikke liker arbeidstakeren",
-        "At det er dårlig vær",
-        "Ingenting",
-        "At den er saklig begrunnet og skriftlig"
+        "At oppsigelsen er saklig begrunnet og godkjent av Arbeidstilsynet",
+        "At oppsigelsen er skriftlig og varslet til NAV på forhånd",
+        "At oppsigelsen er skriftlig og godkjent av fagforeningen",
+        "At oppsigelsen er saklig begrunnet og skriftlig"
       ],
       "correct": 3,
       "explain": "Ellers kan den kjennes ugyldig."
@@ -189,10 +190,10 @@
       "id": "q08",
       "text": "Hvilke vilkår må være oppfylt for at forskjellsbehandling skal være lovlig?",
       "options": [
-        "Saklig formål, nødvendig og forholdsmessig",
-        "At arbeidsgiver vil det",
-        "At flertallet er enig",
-        "At den er skriftlig"
+        "Saklig formål, nødvendig tiltak og forholdsmessighet",
+        "Saklig formål, skriftlig avtale og myndighetenes godkjenning",
+        "Nødvendig tiltak, flertallets støtte og lik behandling",
+        "Forholdsmessig tiltak, arbeidsgivers ønske og skriftlig begrunnelse"
       ],
       "correct": 0,
       "explain": "Alle tre vilkårene må være oppfylt."
@@ -201,10 +202,10 @@
       "id": "q09",
       "text": "Hvordan blir en avtale til?",
       "options": [
-        "Bare ved signatur",
-        "Ved tilbud og aksept",
-        "Bare ved betaling",
-        "Bare hos advokat"
+        "Når et tilbud blir sendt uten å bli akseptert",
+        "Når et tilbud blir akseptert",
+        "Når partene bare diskuterer mulige avtalevilkår",
+        "Når én part skriver et forslag uten å få svar"
       ],
       "correct": 1,
       "explain": "Muntlige avtaler er også bindende."
@@ -213,7 +214,7 @@
       "id": "q10",
       "text": "Hvor lang er reklamasjonsfristen for en mobiltelefon kjøpt i butikk?",
       "options": [
-        "14 dager",
+        "To år",
         "Seks måneder",
         "Fem år",
         "Ett år"
@@ -225,22 +226,23 @@
       "id": "q11",
       "text": "Hva betyr de lege ferenda?",
       "options": [
-        "Det som er gjeldende rett",
-        "En type dom",
-        "En lov fra middelalderen",
+        "Det som tidligere var gjeldende rett",
+        "Det som skal avgjøres i en konkret sak",
+        "Det som fastslås i en rettskraftig dom",
         "Det som bør være gjeldende rett"
       ],
       "correct": 3,
-      "explain": "De lege lata er gjeldende rett."
+      "explain": "Uttrykket handler om hva retten bør bli, ikke hva den er.",
+      "niva": "over-niva"
     },
     {
       "id": "q12",
       "text": "Hva viser rettshistorien om forholdet mellom rett og samfunn?",
       "options": [
-        "At retten aldri endres",
+        "At retten speiler samfunnets verdier, men ikke påvirker dem",
         "At retten både speiler og former samfunnets verdier",
-        "At retten ikke har med verdier å gjøre",
-        "At bare dommere bestemmer"
+        "At samfunnets verdier former retten, men ikke påvirkes av den",
+        "At retten og samfunnets verdier utvikler seg uavhengig av hverandre"
       ],
       "correct": 1,
       "explain": "Mange rettigheter er resultat av kamp."
@@ -382,7 +384,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -437,10 +439,10 @@
         "type": "flervalg",
         "text": "Hva er et særkullsbarn?",
         "options": [
-          "Et adoptivbarn",
+          "Et barn ektefellen har fra et tidligere forhold",
           "Et barn avdøde har med en annen enn ektefellen",
-          "Et barnebarn",
-          "Et fosterbarn"
+          "Et barn avdøde har sammen med ektefellen",
+          "Et barn avdøde har som fosterbarn"
         ],
         "correct": 1,
         "explain": "Må samtykke til uskifte."
@@ -453,7 +455,7 @@
           "Indirekte forskjellsbehandling",
           "Direkte forskjellsbehandling",
           "Positiv særbehandling",
-          "Lovlig forskjellsbehandling"
+          "Trakassering på grunn av etnisitet"
         ],
         "correct": 1,
         "explain": "Dårligere behandling på grunn av etnisitet."
@@ -523,7 +525,8 @@
         "kriterier": [
           "Definerer begge uttrykkene riktig.",
           "Skiller mellom å beskrive gjeldende rett og å drøfte ønsket rettsutvikling."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -544,12 +547,94 @@
           "Nevner at aksepten må komme i tide og samsvare med tilbudet.",
           "Anvender begge manglene ved Leas svar på situasjonen."
         ]
+      },
+      {
+        "text": "En kommune bestemmer at den skal ta en persons sykkel, men viser ikke til noen lov som gir den adgang til det. Hvilket prinsipp i en rettsstat er særlig relevant, og hvilke rettssikkerhetsgarantier kan personen bruke dersom kommunen fatter et vedtak?",
+        "fasit": "Legalitetsprinsippet krever at inngrep fra myndighetene har grunnlag i lov. Personen kan blant annet klage på vedtaket og be om en begrunnelse. Dette er offentlig rett fordi saken gjelder forholdet mellom en borger og myndighetene.",
+        "kriterier": [
+          "Myndighetenes inngrep må ha hjemmel i lov (legalitetsprinsippet).",
+          "Vedtak kan påklages, og personen har rett til begrunnelse."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En 17-åring bestiller en dyr sykkel til privat bruk fra en nettbutikk. Foreldrene har ikke samtykket, og ti dager etter at sykkelen er mottatt, vil ungdommen gå fra kjøpet. Forklar hvilke regler som kan være relevante både for om avtalen er bindende, og for muligheten til å bruke angrerett.",
+        "fasit": "En person under 18 år kan som hovedregel ikke inngå en bindende avtale om en større verdi uten samtykke fra vergen, med mindre kjøpet for eksempel er betalt med egen arbeidsinntekt. Ved kjøp på internett har en forbruker normalt 14 dagers angrerett fra varen er mottatt. Det må derfor vurderes både om avtalen ble bindende, og om vilkårene for angrerett er oppfylt.",
+        "kriterier": [
+          "Mindreårige kan som hovedregel ikke inngå bindende avtaler om større verdier uten vergens samtykke.",
+          "Ved nettkjøp har forbrukeren normalt 14 dagers angrerett fra mottak av varen.",
+          "Skiller mellom spørsmålet om avtalen er bindende, og angreretten."
+        ],
+        "id": "s10",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En handling er lovlig når den blir utført. Senere vedtar Stortinget en lov som gjør handlingen straffbar, og personen blir tiltalt. Forklar hvilket vern personen har mot å bli dømt, og hvordan maktfordelingen mellom Stortinget og domstolene kan være relevant.",
+        "fasit": "Etter Grunnloven § 96 kan ingen dømmes uten etter lov, og handlingen må ha vært straffbar da den ble utført. Grunnloven § 97 forbyr lover som gis tilbakevirkende kraft til skade for den enkelte. Domstolene kan prøve om loven er i strid med Grunnloven.",
+        "kriterier": [
+          "Handlinger kan ikke straffes etter en lov som først kom etter at handlingen ble utført.",
+          "Grunnloven §§ 96 og 97 beskytter mot dom uten lov og tilbakevirkende lov til skade.",
+          "Domstolene kan prøve om loven er i strid med Grunnloven."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En 16-åring har jobb ved siden av skolen. Arbeidsgiveren gir beskjed om at ungdommen skal jobbe om natten, og viser til sin styringsrett. Forklar hvorfor arbeidsgiveren ikke nødvendigvis kan kreve at beskjeden følges, og nevn en annen regel som skal beskytte unge arbeidstakere.",
+        "fasit": "Arbeidsgiverens styringsrett gir rett til å gi rimelige instrukser, men ungdom kan ikke jobbe om natten. Det finnes også begrensninger på arbeidstiden for unge i skoleperioder, og arbeidsmiljøet skal være trygt og fullt forsvarlig.",
+        "kriterier": [
+          "Styringsretten gjelder bare rimelige instrukser.",
+          "Ungdom kan ikke jobbe om natten.",
+          "Unge har også begrensninger i arbeidstiden i skoleperioder."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En arbeidsgiver sier at en arbeidstaker som bruker rullestol, ikke kan få tilrettelegging på arbeidsplassen. Forklar hvilke plikter arbeidsgiveren kan ha, og hvordan kravet om likhet for loven er relevant.",
+        "fasit": "Funksjonsnedsettelse er et vernet diskrimineringsgrunnlag. Arbeidsgivere skal arbeide aktivt og planmessig mot diskriminering, og det stilles krav om individuell tilrettelegging og universell utforming. Grunnloven sier også at alle er like for loven og at ingen skal utsettes for usaklig eller uforholdsmessig forskjellsbehandling.",
+        "kriterier": [
+          "Funksjonsnedsettelse er et vernet diskrimineringsgrunnlag.",
+          "Arbeidsgivere har plikter knyttet til aktivt likestillingsarbeid og tilrettelegging.",
+          "Likhet for loven forbyr usaklig eller uforholdsmessig forskjellsbehandling."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Nora dør uten testament. Hun har ingen barn eller ektefelle. Foreldrene hennes er døde, men hun har en avdød søster som etterlot seg barn, en levende tante og en levende fetter. Hvem kan arve etter arvelovens arvegangsklasser, og hvorfor?",
+        "fasit": "Søsterens barn kan arve etter Nora fordi de er etterkommere av søsteren hennes og tilhører den andre arvegangsklassen. Denne klassen går foran besteforeldre og deres barn, som omfatter tanten. Fettere og kusiner arver ikke etter loven.",
+        "kriterier": [
+          "Søsterens barn kan arve i andre arvegangsklasse.",
+          "Andre arvegangsklasse går foran tredje klasse, som omfatter tanten.",
+          "Fettere og kusiner arver ikke etter loven."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Homofili var straffbart i Norge fram til 1972, mens seksuell orientering i dag er et vernet grunnlag i diskrimineringsloven. Forklar hva denne endringen viser om forholdet mellom samfunn og rett, og nevn en funksjon rettsregler kan ha i en slik utvikling.",
+        "fasit": "Endringen viser at rettsreglene kan endre seg når samfunnet og verdiene endrer seg, og at det som tidligere var lovlig eller ulovlig, ikke er uforanderlig. Lover kan uttrykke hvilke verdier samfunnet legger vekt på, og bidra til å endre samfunnet ved å verne grupper mot diskriminering.",
+        "kriterier": [
+          "Rettsregler endres over tid og kan speile samfunnets verdier.",
+          "Lover kan uttrykke verdier og bidra til samfunnsendring.",
+          "Seksuell orientering er i dag et vernet grunnlag mot diskriminering."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En kjøper og en selger er uenige om kjøperen reklamerte innen «rimelig tid» etter å ha oppdaget en mangel. Forklar hvordan en jurist kan tolke dette uttrykket og bruke juridisk metode for å vurdere saken.",
+        "fasit": "Juristen starter med ordlyden «rimelig tid». Siden uttrykket er skjønnsmessig, kan juristen også undersøke lovens formål, forarbeider og rettspraksis. Deretter vurderes opplysningene i saken opp mot regelen før juristen konkluderer med om reklamasjonen var i tide.",
+        "kriterier": [
+          "Starter med ordlyden og undersøker andre rettskilder når den er uklar.",
+          "Relevante kilder kan være formål, forarbeider og rettspraksis.",
+          "Anvender regelen på opplysningene i saken og trekker en konklusjon."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

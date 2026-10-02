@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "What is young adult fiction?",
       "options": [
-        "Books only for adults",
+        "Fiction mainly for adult readers, with adult main characters",
         "Fiction mainly for teenage readers, with teenage main characters",
-        "Non-fiction about youth",
-        "Picture books"
+        "Non-fiction mainly for teenage readers, about real young people",
+        "Fiction mainly for young children, with child main characters"
       ],
       "correct": 1,
       "explain": "YA is aimed at readers of about 12–18, though many adults read it too."
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "What is a coming-of-age story?",
       "options": [
-        "A story about old people",
+        "A story where the main character solves a mystery and finds clues",
         "A story where the main character grows up and changes",
-        "A story about time travel",
-        "A story without characters"
+        "A story where the main character travels abroad and searches for treasure",
+        "A story where the main character discovers magic and battles a villain"
       ],
       "correct": 1,
       "explain": "The main character matures through experiences and challenges."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "What is dystopian fiction?",
       "options": [
-        "Stories about a perfect society",
-        "Love stories",
+        "Stories about a peaceful, equal future society",
+        "Stories about frightening creatures in a future society",
         "Stories about a frightening, oppressive future society",
-        "Biographies"
+        "Stories about real, oppressive societies in the past"
       ],
       "correct": 2,
       "explain": "Dystopias show societies with control, fear and injustice, like in The Hunger Games."
@@ -120,9 +120,9 @@
       "text": "Who wrote The Hate U Give?",
       "options": [
         "Angie Thomas",
-        "Suzanne Collins",
-        "J.D. Salinger",
-        "Mark Haddon"
+        "John Green",
+        "R.J. Palacio",
+        "S.E. Hinton"
       ],
       "correct": 0,
       "explain": "Angie Thomas published the novel in 2017.",
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Why is the first-person voice common in YA?",
       "options": [
-        "It is required",
+        "It lets the reader know every character's thoughts",
         "It makes the reader feel close to the narrator",
-        "It makes the book shorter",
-        "It hides the main character"
+        "It makes the reader feel distant from the narrator",
+        "It tells the story from the author's point of view"
       ],
       "correct": 1,
       "explain": "The personal “I” lets readers experience the character's thoughts and feelings directly."
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "What should a book review avoid?",
       "options": [
-        "The title",
-        "The author",
-        "The writer's opinion",
-        "Spoilers that reveal the ending"
+        "The title and author",
+        "A brief plot summary",
+        "The reviewer's opinion",
+        "Spoilers revealing the ending"
       ],
       "correct": 3,
       "explain": "A review should make readers curious, not reveal the big surprises."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Which theme is common in YA literature?",
       "options": [
-        "Retirement",
-        "Tax law",
+        "Career planning and workplace routines",
+        "Tax rules and pension systems",
         "Identity and belonging",
-        "Gardening techniques"
+        "Gardening skills and plant care"
       ],
       "correct": 2,
       "explain": "Questions about who you are and where you belong are central in many YA books."
@@ -169,9 +169,9 @@
       "text": "What is S.E. Hinton known for?",
       "options": [
         "Writing The Outsiders as a teenager",
-        "Writing Harry Potter",
-        "Writing The Hunger Games",
-        "Directing films"
+        "Writing Holes as a teenager",
+        "Writing The Hunger Games as a teenager",
+        "Writing Harry Potter as a teenager"
       ],
       "correct": 0,
       "explain": "Hinton wrote The Outsiders while she was still in high school; it was published in 1967.",
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "Which tense should you use when you write about events in a novel?",
       "options": [
+        "Past tense",
         "Future tense",
-        "Past perfect",
         "Present tense",
-        "Any tense, mixed"
+        "Present perfect tense"
       ],
       "correct": 2,
       "explain": "Literary texts are discussed in the present tense: “The narrator describes…”."
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "What is a personal response?",
       "options": [
-        "A summary of the plot",
+        "A short account of the events that happen in the book",
         "Your own reflection on what the book made you think or feel",
-        "The author's biography",
-        "A list of characters"
+        "A factual description of the author's life and career",
+        "A list of the main characters and their roles in the story"
       ],
       "correct": 1,
       "explain": "A personal response connects the book to your own thoughts and experiences."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Which novel is about a boy with a facial difference who starts school?",
         "options": [
-          "The Outsiders",
+          "Holes",
           "Wonder",
-          "The Hunger Games",
-          "The Catcher in the Rye"
+          "The Giver",
+          "Speak"
         ],
         "correct": 1,
         "explain": "Wonder by R.J. Palacio follows Auggie as he starts school.",
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "What is a spoiler?",
         "options": [
-          "A bad review",
+          "Information that identifies the author and publication date",
           "Information that reveals important plot twists or the ending",
-          "A book cover",
-          "A genre"
+          "Information that describes the book's genre and audience",
+          "Information that summarizes the story without revealing surprises"
         ],
         "correct": 1,
         "explain": "Spoilers ruin the surprise for readers who have not read the book."
@@ -362,10 +362,10 @@
         "type": "flervalg",
         "text": "What should you note while reading a novel?",
         "options": [
-          "Only the page numbers",
-          "Characters, setting, events and striking quotations",
-          "The price of the book",
-          "Nothing, just read"
+          "Chapter numbers, page numbers, and edition details",
+          "Characters, setting, plot events, and memorable quotations",
+          "Book price, cover design, and printing details",
+          "Actors, filming locations, and soundtrack songs"
         ],
         "correct": 1,
         "explain": "Notes make it much easier to write about the novel afterwards."
@@ -451,6 +451,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

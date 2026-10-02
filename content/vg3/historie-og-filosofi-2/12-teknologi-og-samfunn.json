@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er teknologideterminisme?",
       "options": [
-        "At samfunnet bestemmer teknologien",
-        "At teknologien driver samfunnsutviklingen",
-        "At teknologi er farlig",
-        "At teknologi ikke finnes"
+        "Samfunnet styrer teknologiens utvikling",
+        "Teknologien driver samfunnsutviklingen",
+        "Teknologi og samfunn utvikles uavhengig",
+        "Teknologien formes av samfunnets behov"
       ],
       "correct": 1,
       "explain": "Samfunnet må tilpasse seg."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva mener de fleste forskere om forholdet mellom teknologi og samfunn?",
       "options": [
-        "At det er et samspill",
-        "At teknologien alltid styrer",
-        "At samfunnet alltid styrer",
-        "At de ikke påvirker hverandre"
+        "At teknologi og samfunn påvirker hverandre",
+        "At teknologien påvirker samfunnet, men ikke omvendt",
+        "At samfunnet påvirker teknologien, men ikke omvendt",
+        "At teknologi og samfunn utvikles uavhengig av hverandre"
       ],
       "correct": 0,
       "explain": "De former hverandre."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er et eksempel teknologioptimister trekker fram?",
       "options": [
-        "Atomvåpen",
-        "Overvåking",
+        "Engangsplast og elektronisk avfall",
+        "Ansiktsgjenkjenning og datainnsamling",
         "Vaksiner og antibiotika",
-        "Forurensning"
+        "Fossil kraft og industriforurensning"
       ],
       "correct": 2,
       "explain": "Har reddet millioner av liv.",
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er digitalt utenforskap?",
       "options": [
-        "At man bruker for mye nett",
-        "At man jobber hjemme",
-        "At man er ekspert på data",
+        "At noen bruker internett mer enn de ønsker",
+        "At noen arbeider hjemme ved hjelp av digitale tjenester",
+        "At noen har høy kompetanse i digitale verktøy",
         "At noen mangler tilgang til eller ferdigheter i digital teknologi"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hvorfor er ikke all grønn teknologi uten miljøkostnader?",
       "options": [
         "Fordi batterier og elektronikk krever mineraler som utvinnes med miljøkostnader",
-        "Fordi den ikke virker",
-        "Fordi den er gratis",
-        "Fordi den bruker kull"
+        "Fordi solceller trenger strøm fra nettet under vanlig drift",
+        "Fordi vindturbiner krever kull for å produsere elektrisitet",
+        "Fordi elbiler bruker bensin i stedet for batterier"
       ],
       "correct": 0,
       "explain": "Ofte under dårlige arbeidsforhold.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er tilbakeslagseffekten?",
       "options": [
-        "At teknologi blir dårligere",
+        "At effektivisering fører til at ressursbruken går ned",
         "At effektivisering fører til at vi bruker mer",
-        "At prisene stiger",
-        "At utslippene forsvinner"
+        "At teknologien gir lavere utslipp per produsert enhet",
+        "At ny teknologi blir mindre effektiv over tid"
       ],
       "correct": 1,
       "explain": "Miljøgevinsten blir mindre.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hvordan kan teknologi fremme livsutfoldelse?",
       "options": [
-        "Gjennom overvåking",
-        "Gjennom skjermavhengighet",
+        "Gjennom kontroll, datainnsamling og overvåking",
+        "Gjennom skjermbruk, distraksjon og avhengighet",
         "Gjennom medisin, kommunikasjon og hjelpemidler",
-        "Gjennom jobbtap"
+        "Gjennom automatisering, nedbemanning og jobbtap"
       ],
       "correct": 2,
       "explain": "Gir mer frihet og flere muligheter."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvilket spørsmål er viktig når du vurderer en teknologi?",
       "options": [
-        "Hvor ny den er",
-        "Hvor dyr den er",
-        "Hvor mange som liker den",
+        "Hvor mye teknologien kostet å utvikle for produsenten",
+        "Hvor mange teknologibedrifter tilbyr en lignende løsning",
+        "Hvor raskt teknologien kan tas i bruk av virksomheter",
         "Hvem som tjener og hvem som taper"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er sosial forming av teknologi?",
       "options": [
         "At interesser, politikk og økonomi bestemmer hvordan teknologi utvikles og brukes",
-        "At teknologi former alt",
-        "At teknologi er nøytral",
-        "At teknologi er natur"
+        "At teknologiens egenskaper styrer hvordan samfunnet utvikles og organiseres",
+        "At teknologi har samme virkning uansett hvem som bruker den",
+        "At teknologiske løsninger oppstår uavhengig av politikk og økonomi"
       ],
       "correct": 0,
       "explain": "Samme teknologi kan brukes ulikt."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket problem kan KI skape for bærekraft?",
       "options": [
-        "Mindre energibruk",
+        "Lavere energibruk når datasentre blir større",
         "Høy energibruk i store datasentre",
-        "Færre data",
-        "Mindre elektronikk"
+        "Mindre behov for kjøling i store datasentre",
+        "Kortere datalagring i KI-baserte tjenester"
       ],
       "correct": 1,
       "explain": "Også spørsmål om ansvar og jobber.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva gjorde trykkpressen mulig ifølge teknologideterminister?",
         "options": [
-          "Industrialiseringen",
+          "Den industrielle revolusjonen",
           "Reformasjonen",
-          "Vikingtiden",
-          "Internett"
+          "Den neolittiske revolusjonen",
+          "Romerrikets fall"
         ],
         "correct": 1,
         "explain": "Et klassisk eksempel.",
@@ -332,9 +332,9 @@
         "text": "Hva kan begrense livsutfoldelse?",
         "options": [
           "Skjermavhengighet og overvåking",
-          "Bedre medisin",
-          "Tilgang til kunnskap",
-          "Hjelpemidler"
+          "Tilgang til helsehjelp og kunnskap",
+          "Digitale hjelpemidler og kommunikasjon",
+          "Automatisering av tunge arbeidsoppgaver"
         ],
         "correct": 0,
         "explain": "Teknologiens baksider.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva avgjør om KI bidrar til livsutfoldelse og bærekraft?",
         "options": [
-          "Bare hvor rask den er",
-          "Bare prisen",
+          "Hvor raskt KI-systemet kan behandle data",
+          "Hvor mye systemet koster å utvikle og drifte",
           "Hvordan den reguleres og brukes",
-          "Ingenting"
+          "Hvor stort datasett modellen trenes på"
         ],
         "correct": 2,
         "explain": "Menneskelige valg er avgjørende."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

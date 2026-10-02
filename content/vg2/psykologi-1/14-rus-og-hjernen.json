@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilken del av hjernen modnes sist?",
       "options": [
-        "Hjernestammen",
+        "Tinninglappen",
         "Pannelappen",
-        "Lillehjernen",
-        "Bakhodelappen"
+        "Isselappen",
+        "Hjernestammen"
       ],
       "correct": 1,
       "explain": "Viktig for impulskontroll."
@@ -89,9 +89,9 @@
       "text": "Hvilket signalstoff er sentralt i belønningssystemet?",
       "options": [
         "Dopamin",
-        "Melatonin",
-        "Insulin",
-        "Kortisol"
+        "Serotonin",
+        "Noradrenalin",
+        "GABA"
       ],
       "correct": 0,
       "explain": "Rusmidler gir kraftig dopaminøkning."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er toleranse?",
       "options": [
-        "At man tåler kritikk",
-        "At man slutter med rus",
+        "At man får sterkere virkning av samme mengde stoff",
+        "At man får abstinens når virkningen av stoffet avtar",
         "At man trenger mer av stoffet for samme virkning",
-        "At man får abstinens"
+        "At man slutter helt med stoffet etter gjentatt bruk"
       ],
       "correct": 2,
       "explain": "Hjernen tilpasser seg."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hvorfor kan alkohol gi hukommelsestap?",
       "options": [
-        "Fordi alkohol gir mer dopamin",
-        "Fordi lillehjernen lagrer minner",
-        "Fordi alkohol er stimulerende",
-        "Fordi hippocampus påvirkes"
+        "Fordi alkohol påvirker lillehjernen",
+        "Fordi alkohol påvirker synsbarken",
+        "Fordi alkohol påvirker hypofysen",
+        "Fordi alkohol påvirker hippocampus"
       ],
       "correct": 3,
       "explain": "Nye minner lagres dårlig."
@@ -125,9 +125,9 @@
       "text": "Hva øker risikoen for psykose ved cannabisbruk?",
       "options": [
         "Tidlig og hyppig bruk, særlig av sterke produkter",
-        "Å bruke det sjelden som voksen",
-        "Å drikke vann",
-        "Å trene"
+        "Sen og sjelden bruk av svake cannabisprodukter",
+        "Regelmessig trening og god søvn i ungdomstiden",
+        "Trygge relasjoner og god støtte fra voksne"
       ],
       "correct": 0,
       "explain": "Særlig hos sårbare personer.",
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er selvmedisinering?",
       "options": [
-        "Å ta medisiner fra lege",
-        "Å bruke rus for å dempe psykiske plager",
-        "Å trene for å bli glad",
-        "Å sove mye"
+        "Å bruke medisiner etter råd fra lege",
+        "Å bruke rusmidler for å dempe psykiske plager",
+        "Å snakke med andre for å dempe psykiske plager",
+        "Å trene regelmessig for å bedre den psykiske helsen"
       ],
       "correct": 1,
       "explain": "Gjør ofte plagene verre på sikt."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor er ungdom mer sårbare for rusmidler?",
       "options": [
-        "De har større hjerne",
-        "De har mindre dopamin",
-        "Hjernen er fortsatt i utvikling",
-        "De tåler mer"
+        "Fordi ungdom har større hjernevolum enn voksne",
+        "Fordi ungdom bryter ned rusmidler raskere enn voksne",
+        "Fordi hjernen fortsatt er under utvikling",
+        "Fordi ungdom har mindre behov for søvn enn voksne"
       ],
       "correct": 2,
       "explain": "Tidlig debut gir større risiko."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er en beskyttende faktor mot rusproblemer?",
       "options": [
-        "Venner som ruser seg",
-        "Tidlig debut",
-        "Rus i familien",
+        "Lite mestring på skolen og få fritidsaktiviteter",
+        "Vanskelige relasjoner hjemme og svakt sosialt nettverk",
+        "Mye fritid uten voksenstøtte og klare rammer",
         "Gode relasjoner og tydelige grenser"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er avhengighet?",
       "options": [
         "Sterk trang og tap av kontroll over bruken",
-        "Å bruke noe én gang",
-        "At rusen virker svakere",
-        "Å være sosial"
+        "Enkeltstående bruk uten trang eller kontrolltap",
+        "Behov for større mengder for samme virkning",
+        "Ubehag når rusvirkningen avtar"
       ],
       "correct": 0,
       "explain": "Bruken fortsetter selv med negative konsekvenser."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor er «naturlig betyr ufarlig» en myte?",
       "options": [
-        "Fordi naturlige stoffer er ulovlige",
-        "Fordi naturlige stoffer som cannabis kan være skadelige",
-        "Fordi alt naturlig er sunt",
-        "Fordi det ikke finnes naturlige rusmidler"
+        "Fordi naturlige stoffer ikke kan føre til avhengighet",
+        "Fordi naturlige stoffer, som cannabis, også kan skade helsen",
+        "Fordi naturlige stoffer ikke påvirker hjernens funksjon",
+        "Fordi naturlige stoffer har samme virkning hos alle"
       ],
       "correct": 1,
       "explain": "Naturlig betyr ikke trygt."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan alkohol svekke balansen?",
         "options": [
-          "Den påvirker bakhodelappen",
-          "Den påvirker lillehjernen",
           "Den påvirker hypofysen",
-          "Den påvirker øresneglen"
+          "Den påvirker lillehjernen",
+          "Den påvirker hippocampus",
+          "Den påvirker bakhodelappen"
         ],
         "correct": 1,
         "explain": "Lillehjernen styrer balanse og koordinasjon."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva kan skje etter bruk av sentralstimulerende stoffer?",
         "options": [
-          "Nedstemthet og uro",
-          "Bedre søvn",
-          "Varig glede",
-          "Bedre hukommelse"
+          "Det kan føre til nedstemthet og uro",
+          "Det kan føre til økt ro og bedre søvn",
+          "Det kan føre til stabilt godt humør og mer energi",
+          "Det kan føre til bedre hukommelse og konsentrasjon"
         ],
         "correct": 0,
         "explain": "En «nedtur» etter rusen."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hvordan kan informasjon om jevnaldrendes faktiske rusbruk hjelpe?",
         "options": [
-          "Den øker presset",
-          "Den har ingen effekt",
+          "Den kan øke presset fordi mange undervurderer andres bruk",
+          "Den påvirker ikke presset fordi sosiale normer ikke påvirker valg",
           "Den kan dempe presset fordi mange overvurderer andres bruk",
-          "Den gjør rus lovlig"
+          "Den kan gjøre rusbruk mer akseptabel fordi mange tror andre bruker mer"
         ],
         "correct": 2,
         "explain": "Sosiale normer påvirker atferd.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

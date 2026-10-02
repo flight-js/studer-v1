@@ -78,8 +78,8 @@
       "options": [
         "Realismen",
         "Romantikken",
-        "Modernismen",
-        "Naturalismen"
+        "Naturalismen",
+        "Nyromantikken"
       ],
       "correct": 1,
       "explain": "Romantikerne dyrket følelser, fantasi og naturen, og var opptatt av fortiden."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva ville realistene med litteraturen?",
       "options": [
-        "Skildre samfunnet som det var og sette problemer under debatt",
-        "Flykte fra virkeligheten til eventyrverdenen",
-        "Skrive bare om naturen",
-        "Bryte med alle regler for form"
+        "Skildre samfunnet slik det var og sette problemer under debatt",
+        "Utforske menneskets indre liv gjennom drømmer og følelser",
+        "Vise hvordan arv og miljø former menneskets liv",
+        "Bygge norsk identitet gjennom natur, folkekultur og historie"
       ],
       "correct": 0,
       "explain": "Realistene tok opp problemer som kvinners stilling og dobbeltmoral."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva samlet Asbjørnsen og Moe?",
       "options": [
-        "Sagaer",
-        "Skuespill",
-        "Moderne dikt",
+        "Kongesagaer",
+        "Folkeviser",
+        "Skaldedikt",
         "Folkeeventyr"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvilken roman av Knut Hamsun kom i 1890?",
       "options": [
         "Sult",
-        "Et dukkehjem",
-        "Jord og jern",
-        "Heimskringla"
+        "Pan",
+        "Mysterier",
+        "Markens grøde"
       ],
       "correct": 0,
       "explain": "Sult skildrer en sulten forfatters indre liv og regnes som et viktig verk i nyromantikken."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kjennetegner modernismen?",
       "options": [
-        "Faste rim og rytme",
-        "Folkeeventyr",
-        "Brudd med tradisjonelle former, blant annet frie vers",
-        "Kongesagaer"
+        "Videreføring av faste rim og rytmer i bundne vers",
+        "Bruk av folkeeventyr med muntlig fortelling og gjentakelser",
+        "Brudd med vante former, som bruk av frie vers",
+        "Fortelling om konger og helter i norrøne sagaer"
       ],
       "correct": 2,
       "explain": "Modernistene eksperimenterte med formen og skrev om det moderne livet."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Når omtrent var norrøn tid?",
       "options": [
-        "1800–1850",
+        "Ca. 1700–1800",
         "Ca. 800–1350",
-        "1870–1890",
-        "1900–2000"
+        "Ca. 1850–1870",
+        "Ca. 1890–1920"
       ],
       "correct": 1,
       "explain": "Norrøn tid strekker seg omtrent fra vikingtiden til midten av 1300-tallet."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er nasjonalromantikk?",
       "options": [
-        "En retning som dyrket det særegne norske, som bondekultur og natur",
-        "En kjærlighetsroman",
-        "Modernistisk lyrikk",
-        "En type krim"
+        "En retning som løftet fram norsk natur og folkekultur",
+        "En retning som løftet fram individets følelser og fantasi",
+        "En retning som skildret samfunnsproblemer og klasseskiller",
+        "En retning som brøt med tradisjonelle former og versmål"
       ],
       "correct": 0,
       "explain": "Nasjonalromantikken knyttet romantikkens ideer til byggingen av en norsk nasjonal identitet."
@@ -172,8 +172,8 @@
       "id": "q09",
       "text": "Hvilken forfatter forbindes med naturalismen?",
       "options": [
-        "Henrik Wergeland",
-        "Snorre Sturlason",
+        "Henrik Ibsen",
+        "Knut Hamsun",
         "Rolf Jacobsen",
         "Amalie Skram"
       ],
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor er det nyttig å kjenne den historiske konteksten til en tekst?",
       "options": [
-        "Fordi den forklarer hvorfor teksten tar opp de temaene den gjør",
-        "Fordi alle tekster handler om historie",
-        "Fordi den bestemmer hvor lang teksten er",
-        "Den er ikke nyttig"
+        "Fordi den forklarer hvorfor teksten tar opp bestemte temaer",
+        "Fordi den viser hvor mange kapitler teksten inneholder",
+        "Fordi den avgjør hvordan teksten deles inn i avsnitt",
+        "Fordi den forteller hvem som først leste teksten"
       ],
       "correct": 0,
       "explain": "Tiden teksten ble skrevet i, preger temaer, verdier og form."
@@ -326,8 +326,8 @@
         "options": [
           "Realismen",
           "Nyromantikken",
-          "Norrøn tid",
-          "Folkediktningen"
+          "Naturalismen",
+          "Nasjonalromantikken"
         ],
         "correct": 1,
         "explain": "Nyromantikken reagerte mot realismen og var opptatt av menneskets indre liv."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva handler Et dukkehjem om?",
         "options": [
-          "En sulten forfatter",
-          "Norrøne konger",
-          "Nora, som bryter ut av ekteskapet sitt",
-          "En reise til månen"
+          "En sulten forfatter som strever med fattigdom og ensomhet i Kristiania",
+          "En norrøn konge som kjemper om makt og rike i middelalderen",
+          "Nora som forlater mann og barn etter å ha innsett sin rolle i ekteskapet",
+          "En ung mann som reiser gjennom verden og møter troll og fantasifigurer"
         ],
         "correct": 2,
         "explain": "Nora oppdager at hun har levd som en «dukke» og forlater mann og barn."
@@ -440,6 +440,7 @@
     "merknader": [
       "Årstallene for epokene er omtrentlige og varierer mellom læreverk."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

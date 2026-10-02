@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er en matematisk modell?",
       "options": [
-        "En nøyaktig kopi av virkeligheten",
+        "En fullstendig matematisk beskrivelse av virkeligheten",
         "En forenklet matematisk beskrivelse av virkeligheten",
-        "Et dataprogram",
-        "En tabell uten tall"
+        "En grafisk framstilling av målinger fra virkeligheten",
+        "En samling målinger fra virkeligheten uten beregninger"
       ],
       "correct": 1,
       "explain": "Alle modeller er forenklinger."
@@ -94,9 +94,9 @@
       "text": "Hva er gyldighetsområdet til en modell?",
       "options": [
         "Verdiene der modellen gir rimelige svar",
-        "Alle tall",
-        "Bare x = 0",
-        "Området på kartet"
+        "Alle verdiene som kan settes inn i modellen",
+        "Verdiene modellen bruker som startverdier",
+        "Verdiene som gir samme svar i modellen"
       ],
       "correct": 0,
       "explain": "Utenfor gyldighetsområdet kan modellen gi urimelige svar."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "En kommune har 5 000 innbyggere og vokser med 2 % per år. Hvilken modell passer?",
       "options": [
-        "B(x) = 5000 + 2x",
-        "B(x) = 5000 · 0,02ˣ",
+        "B(x) = 5000 + 0,02x",
+        "B(x) = 5000 · 0,98ˣ",
         "B(x) = 5000 · 1,02ˣ",
-        "B(x) = 5000 · 2ˣ"
+        "B(x) = 5000 · 1,2ˣ"
       ],
       "correct": 2,
       "explain": "2 % vekst gir vekstfaktor 1,02."
@@ -117,22 +117,22 @@
       "id": "q04",
       "text": "Hva er regresjon?",
       "options": [
-        "Å tegne en figur",
-        "Å løse en likning",
-        "Å regne prosent",
+        "Å finne gjennomsnittet av verdiene i datasettet",
+        "Å finne en funksjon som går gjennom hvert datapunkt",
+        "Å finne skjæringspunktet mellom to grafer",
         "Å finne funksjonen som passer best til data"
       ],
       "correct": 3,
-      "explain": "GeoGebra har kommandoer som RegLin og RegEksp."
+      "explain": "Regresjon brukes til å finne en funksjon som passer best til datapunktene."
     },
     {
       "id": "q05",
       "text": "En lineær modell beskriver høyden til barn. Hvorfor passer den ikke for en 40-åring?",
       "options": [
         "Voksne slutter å vokse, så modellen gjelder bare for en viss alder",
-        "Fordi 40 er et partall",
-        "Fordi lineære modeller aldri fungerer",
-        "Fordi modellen er eksponentiell"
+        "Voksne vokser saktere, så modellen må ha en større stigning",
+        "Høyden øker med samme prosent, så modellen må være eksponentiell",
+        "Alder kan ikke brukes som variabel når høyden måles"
       ],
       "correct": 0,
       "explain": "Modellen brukes da utenfor gyldighetsområdet."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er et premiss i en modell?",
       "options": [
-        "Svaret",
+        "Et svar modellen gir når data settes inn",
         "En antakelse modellen bygger på",
-        "En graf",
-        "En enhet"
+        "En graf som viser modellens beregnede verdier",
+        "En måleenhet som brukes til å skrive svaret"
       ],
       "correct": 1,
       "explain": "Eksempel: at veksten er 2 % hvert år."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva gjør du etter at du har regnet ut svar med modellen?",
       "options": [
-        "Finner problemet",
-        "Gjør antakelser",
+        "Kontrollerer og retter datamaterialet",
+        "Velger og endrer problemstillingen",
         "Tolker og vurderer svarene",
-        "Samler inn data"
+        "Samler inn og sorterer dataene"
       ],
       "correct": 2,
       "explain": "Du må vurdere om svarene gir mening."
@@ -166,22 +166,22 @@
       "text": "Hvilken GeoGebra-kommando gir lineær regresjon?",
       "options": [
         "RegEksp",
-        "Skjæring",
-        "Nullpunkt",
+        "RegPot",
+        "RegLog",
         "RegLin"
       ],
       "correct": 3,
-      "explain": "RegEksp gir eksponentiell regresjon.",
+      "explain": "RegLin finner en rett linje som passer best til datapunktene.",
       "niva": "eksempel"
     },
     {
       "id": "q09",
       "text": "Data øker med omtrent samme prosent hvert år. Hvilken modell passer best?",
       "options": [
-        "Eksponentiell",
-        "Lineær",
-        "Omvendt proporsjonal",
-        "Konstant"
+        "En eksponentiell modell",
+        "En lineær modell",
+        "En omvendt proporsjonal modell",
+        "En konstant modell"
       ],
       "correct": 0,
       "explain": "Fast prosentvis vekst er eksponentiell."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvorfor bør du vise premissene når du presenterer en modell?",
       "options": [
-        "For å gjøre rapporten lengre",
+        "Så andre kan gjenta beregningene uten å samle data",
         "Så andre kan vurdere hvor gyldig modellen er",
-        "Fordi det ser pent ut",
-        "Det trenger du ikke"
+        "Slik at modellen får en høyere vekstfaktor",
+        "Fordi premissene bestemmer hvilke måleenheter som brukes"
       ],
       "correct": 1,
       "explain": "Premissene avgjør hvilke svar modellen gir."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva betyr tallet 1,02 i B(x) = 5000 · 1,02ˣ?",
         "options": [
-          "Antall innbyggere",
+          "2 % nedgang per år",
           "2 % vekst per år",
-          "2 nye innbyggere per år",
-          "102 innbyggere"
+          "102 % vekst per år",
+          "En økning på 1,02 innbyggere per år"
         ],
         "correct": 1,
         "explain": "1,02 er vekstfaktoren."
@@ -335,9 +335,9 @@
         "text": "Hva er ekstrapolering?",
         "options": [
           "Å bruke modellen utenfor området dataene dekker",
-          "Å samle inn data",
-          "Å tegne en graf",
-          "Å runde av svaret"
+          "Å bruke modellen innenfor området dataene dekker",
+          "Å lage modellen ut fra alle innsamlede data",
+          "Å bruke modellen mellom målepunktene i datasettet"
         ],
         "correct": 0,
         "explain": "Ekstrapolering kan gi urimelige svar."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva skjer med prognosen for 2030 hvis veksten er 1 % i stedet for 2 %?",
         "options": [
-          "Den blir dobbelt så stor",
-          "Den blir uendret",
+          "Den blir høyere",
+          "Den blir omtrent uendret",
           "Den blir lavere",
-          "Den blir negativ"
+          "Den blir lik null"
         ],
         "correct": 2,
         "explain": "Omtrent 5 523 i stedet for 6 095 innbyggere."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

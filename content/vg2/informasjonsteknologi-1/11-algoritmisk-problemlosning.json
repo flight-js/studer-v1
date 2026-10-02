@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er dekomponering?",
       "options": [
-        "Å slette koden",
+        "Å kjøre programmet med ulike inndata",
         "Å dele problemet i mindre delproblemer",
-        "Å fjerne detaljer",
-        "Å teste programmet"
+        "Å finne likheter mellom ulike problemer",
+        "Å fjerne detaljer fra en modell"
       ],
       "correct": 1,
       "explain": "Første del av algoritmisk tenkning."
@@ -91,9 +91,9 @@
       "text": "Hva er abstraksjon?",
       "options": [
         "Å fjerne detaljer som ikke er viktige",
-        "Å skrive lang kode",
-        "Å tegne bilder",
-        "Å bruke mange variabler"
+        "Å legge til detaljer som mangler i modellen",
+        "Å dele problemet opp i mindre deler",
+        "Å finne gjentakelser i flere problemer"
       ],
       "correct": 0,
       "explain": "For eksempel å se bort fra skuddår."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvor mange personer trengs for over 50 % sjanse for felles bursdag?",
       "options": [
-        "183",
-        "50",
+        "22",
+        "24",
         "23",
-        "365"
+        "30"
       ],
       "correct": 2,
       "explain": "Bursdagsparadokset.",
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvorfor tester vi programmet med tilfeller der vi vet svaret?",
       "options": [
-        "For å gjøre det raskere",
-        "For å få flere linjer kode",
-        "For å slippe å skrive kommentarer",
+        "For å måle hvor raskt programmet behandler inndata",
+        "For å kontrollere at programmet viser riktige kommentarer",
+        "For å finne ut om programmet bruker lite minne",
         "For å sjekke at programmet regner riktig"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er et grensetilfelle?",
       "options": [
         "Spesiell inndata, som en tom liste",
-        "Den vanligste inndataen",
-        "En type løkke",
-        "En kommentar"
+        "Vanlig inndata, som en kort tekststreng",
+        "En gjentakelse i koden, som en while-løkke",
+        "En forklaring i koden, som en kommentar"
       ],
       "correct": 0,
       "explain": "Mange feil viser seg der."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvordan kan du kontrollere resultatet i bursdagsproblemet på en annen måte?",
       "options": [
-        "Gjette",
+        "Regne ut gjennomsnittet av bursdager mange ganger",
         "Simulere med tilfeldige bursdager mange ganger",
-        "Spørre en venn",
-        "Slette koden"
+        "Sortere bursdagene etter måned flere ganger",
+        "Sammenligne bursdagene med ukedagene flere ganger"
       ],
       "correct": 1,
       "explain": "Stemmer simuleringen, styrkes tilliten.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilken forenkling gjøres i bursdagsproblemet?",
       "options": [
-        "At alle er født samme år",
-        "At det er 100 dager i året",
-        "At alle dager er like sannsynlige og at skuddår ignoreres",
-        "At bare to personer er med"
+        "At alle personer er født i samme måned, og at skuddår ignoreres",
+        "At bursdager fordeles jevnt på ukedagene, og at skuddår tas med",
+        "At alle dager er like sannsynlige, og at skuddår ignoreres",
+        "At hver måned har like mange dager, og at personer er født samme år"
       ],
       "correct": 2,
       "explain": "En abstraksjon av virkeligheten.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva bør være med når du presenterer resultatet av et programmeringsprosjekt?",
       "options": [
-        "Bare koden",
-        "Bare svaret",
-        "Bare grafer",
+        "Problemstilling, kode, tidsplan, kilder og samarbeid",
+        "Metode, kode, bilder, kilder og arbeidsfordeling",
+        "Resultater, grafer, tidsplan, programnavn og kilder",
         "Problemstilling, metode, resultater, vurdering og svar"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er mønstergjenkjenning?",
       "options": [
         "Å se etter likheter med andre problemer",
-        "Å tegne mønstre",
-        "Å kopiere kode",
-        "Å velge farger"
+        "Å dele problemet opp i mindre delproblemer",
+        "Å gjenbruke en ferdig løsning uten å undersøke problemet",
+        "Å finne og rette feil i programmet gjennom tester"
       ],
       "correct": 0,
       "explain": "Kjente løsninger kan gjenbrukes."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva gjør løkken while sannsynlighet_felles(n) < 0.5?",
       "options": [
-        "Stopper med en gang",
+        "Reduserer n mens sannsynligheten er under 50 %",
         "Øker n til sannsynligheten er minst 50 %",
-        "Regner ut gjennomsnittet",
-        "Sorterer bursdagene"
+        "Øker sannsynligheten med 50 prosent for hver runde",
+        "Stopper når n når 50 personer i gruppen"
       ],
       "correct": 1,
       "explain": "Den finner den minste n.",
@@ -334,9 +334,9 @@
         "text": "Hvilket Python-bibliotek brukes ofte til å lage grafer?",
         "options": [
           "matplotlib",
-          "random",
-          "time",
-          "math"
+          "numpy",
+          "tkinter",
+          "turtle"
         ],
         "correct": 0,
         "explain": "For å presentere resultatene.",
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvorfor bør koden legges ved presentasjonen?",
         "options": [
-          "For at den skal se lang ut",
-          "Fordi det er påbudt",
+          "For at presentasjonen skal vise programmets utseende",
+          "For at programmet skal bruke mindre lagringsplass",
           "For at andre kan etterprøve arbeidet",
-          "For å skjule resultatene"
+          "For at resultatene skal bli enklere å forklare"
         ],
         "correct": 2,
         "explain": "Etterprøvbarhet."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er kriminell lavalder i Norge?",
       "options": [
-        "14 år",
+        "13 år",
         "15 år",
         "16 år",
-        "18 år"
+        "17 år"
       ],
       "correct": 1,
       "explain": "Straffeloven § 20."
@@ -88,9 +88,9 @@
       "text": "Hvilket av disse er et straffbarhetsvilkår?",
       "options": [
         "Skyld",
-        "At offeret har forsikring",
-        "At saken står i avisen",
-        "At gjerningspersonen er over 18"
+        "Motiv",
+        "Anmeldelse",
+        "Straffutmåling"
       ],
       "correct": 0,
       "explain": "Forsett eller uaktsomhet."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er nødverge?",
       "options": [
-        "Å redde et barn fra en brennende bil",
-        "Å hjelpe noen med et lovbrudd",
+        "Å avverge en fare ved å volde større skade enn faren truer med",
+        "Å stanse et lovlig angrep ved å bruke nødvendig makt",
         "Å avverge et ulovlig angrep uten å gå klart ut over det forsvarlige",
-        "Å angre et lovbrudd"
+        "Å avverge et ulovlig angrep ved å bruke mer makt enn situasjonen forsvarer"
       ],
       "correct": 2,
       "explain": "Straffeloven § 18."
@@ -111,13 +111,13 @@
       "id": "q04",
       "text": "Hva er allmennprevensjon?",
       "options": [
-        "At den domfelte ikke gjør nye lovbrudd",
-        "At offeret får erstatning",
-        "At saken henlegges",
-        "At straff avskrekker folk flest fra lovbrudd"
+        "At straffen hindrer den domfelte i å begå nye lovbrudd",
+        "At straffen gir den fornærmede økonomisk erstatning",
+        "At straffen gjenoppretter forholdet mellom gjerningspersonen og fornærmede",
+        "At straff avskrekker folk flest fra å begå lovbrudd"
       ],
       "correct": 3,
-      "explain": "Individualprevensjon gjelder den domfelte."
+      "explain": "Allmennprevensjon retter seg mot folk flest, mens individualprevensjon retter seg mot den domfelte."
     },
     {
       "id": "q05",
@@ -125,8 +125,8 @@
       "options": [
         "Ungdomsstraff",
         "Forvaring",
-        "Rettighetstap",
-        "Betinget fengsel for voksne"
+        "Samfunnsstraff",
+        "Betinget fengsel"
       ],
       "correct": 0,
       "explain": "Gjennomføres i konfliktrådet."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvilket beviskrav gjelder for skyld i straffesaker?",
       "options": [
-        "Mer enn 50 % sannsynlighet",
-        "Utover enhver rimelig tvil",
-        "At vitner har sett det",
-        "At tiltalte tilstår"
+        "Skylden må være mer sannsynlig enn usannsynlig",
+        "Skylden må være bevist utover enhver rimelig tvil",
+        "Skylden må støttes av minst to uavhengige vitner",
+        "Skylden må være bevist ved at tiltalte tilstår"
       ],
       "correct": 1,
       "explain": "Tvil kommer tiltalte til gode."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er forsøk på et lovbrudd?",
       "options": [
-        "Å tenke på et lovbrudd",
-        "Å angre",
+        "Å planlegge lovbruddet uten å sette planen ut i livet",
+        "Å forberede lovbruddet uten å begynne gjennomføringen",
         "Å begynne på gjennomføringen med forsett",
-        "Å fullføre lovbruddet"
+        "Å fullføre lovbruddet uten å ha hatt forsett"
       ],
       "correct": 2,
       "explain": "Straffeloven § 16."
@@ -161,20 +161,20 @@
       "options": [
         "Uaktsomhet",
         "Grov uaktsomhet",
-        "Ingen skyld kreves",
+        "Objektivt ansvar",
         "Forsett"
       ],
       "correct": 3,
-      "explain": "Uaktsomhet straffes bare når loven sier det."
+      "explain": "Hovedregelen er forsett; uaktsomhet må være særskilt fastsatt i loven."
     },
     {
       "id": "q09",
       "text": "Hva er nødrett?",
       "options": [
-        "Å redde verdier fra fare når skaden man volder er langt mindre",
-        "Å forsvare seg mot et angrep",
-        "Å anke en dom",
-        "Å anmelde et lovbrudd"
+        "Å avverge en fare ved å volde langt mindre skade enn den man hindrer",
+        "Å avverge et ulovlig angrep med nødvendig makt",
+        "Å få en dom prøvd på nytt av en høyere domstol",
+        "Å varsle politiet om et mulig lovbrudd"
       ],
       "correct": 0,
       "explain": "Straffeloven § 17."
@@ -185,8 +185,8 @@
       "options": [
         "Planlegging",
         "Tilståelse",
-        "Særlig sårbart offer",
-        "Gjentakelse"
+        "Gjentakelse",
+        "Særlig sårbart offer"
       ],
       "correct": 1,
       "explain": "Straffeloven § 78.",
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva er høyeste straff for en person under 18 år?",
         "options": [
-          "21 år",
+          "12 år",
           "15 år",
-          "10 år",
-          "5 år"
+          "18 år",
+          "21 år"
         ],
         "correct": 1,
         "explain": "Fengsel skal bare brukes når det er særlig påkrevd.",
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er forvaring?",
         "options": [
-          "En bot",
-          "Samfunnsnyttig tjeneste",
-          "En tidsubestemt reaksjon for farlige lovbrytere",
-          "Tap av førerkort"
+          "En økonomisk reaksjon der lovbryteren må betale et fastsatt beløp",
+          "En reaksjon der lovbryteren utfører arbeid til nytte for samfunnet",
+          "En tidsubestemt reaksjon for lovbrytere som vurderes som farlige",
+          "En reaksjon der lovbryteren mister retten til å føre motorvogn"
         ],
         "correct": 2,
         "explain": "Ved høy fare for gjentakelse."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

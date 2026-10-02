@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er et komparativt fortrinn?",
       "options": [
-        "Å produsere alt billigst",
+        "Å ha lavest produksjonskostnad for en vare",
         "Å ha lavest alternativkostnad for en vare",
-        "Å ha mest olje",
-        "Å ha høyest toll"
+        "Å produsere størst mengde av en vare per time",
+        "Å ha høyest produktivitet i produksjonen av en vare"
       ],
       "correct": 1,
       "explain": "Beskrevet av David Ricardo."
@@ -94,9 +94,9 @@
       "text": "Hvorfor kan handel lønne seg selv om ett land er best på alt?",
       "options": [
         "Fordi land har ulike alternativkostnader",
-        "Fordi handel alltid er gratis",
-        "Fordi toll gir inntekter",
-        "Det kan det ikke"
+        "Fordi land har samme alternativkostnader",
+        "Fordi import gjør varer dyrere",
+        "Fordi det beste landet kan produsere mer av alt"
       ],
       "correct": 0,
       "explain": "Begge kan få mer ved å spesialisere seg."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er Norges viktigste eksportvarer?",
       "options": [
-        "Biler og klær",
-        "Kaffe og bananer",
+        "Skip, møbler, klær og papir",
+        "Korn, kaffe, te og sukker",
         "Olje, gass, fisk og metaller",
-        "Elektronikk og maskiner"
+        "Biler, klær, sko og møbler"
       ],
       "correct": 2,
       "explain": "Naturressurser er viktige."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva er toll?",
       "options": [
-        "En subsidie",
-        "En kvote",
-        "En frihandelsavtale",
-        "En skatt på importerte varer"
+        "En støtte til varer som importeres",
+        "En grense for mengden varer som importeres",
+        "En avtale om fri handel mellom land",
+        "En skatt på varer som importeres"
       ],
       "correct": 3,
       "explain": "En handelshindring."
@@ -130,9 +130,9 @@
       "text": "Hva gir EØS-avtalen Norge?",
       "options": [
         "Tilgang til EUs indre marked",
-        "Medlemskap i EU",
-        "Egen valuta i EU",
-        "Fritak fra alle EU-regler"
+        "Medlemskap i EUs politiske institusjoner",
+        "Innføring av euro som norsk valuta",
+        "Fritak fra reglene for EUs indre marked"
       ],
       "correct": 0,
       "explain": "Fri flyt av varer, tjenester, kapital og personer."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er en ulempe med handelshindringer for forbrukerne?",
       "options": [
-        "Lavere priser",
-        "Høyere priser",
-        "Mer utvalg",
-        "Mer konkurranse"
+        "Større vareutvalg for forbrukerne",
+        "Høyere priser for forbrukerne",
+        "Lavere priser på importvarer",
+        "Sterkere konkurranse mellom bedrifter"
       ],
       "correct": 1,
       "explain": "Men de kan beskytte arbeidsplasser."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er stordriftsfordeler?",
       "options": [
-        "Høyere kostnader ved stor produksjon",
-        "Fordeler ved å være liten",
+        "Høyere kostnader per enhet ved stor produksjon",
+        "Høyere samlet produksjon uten endring i kostnader per enhet",
         "Lavere kostnader per enhet ved stor produksjon",
-        "Høyere toll"
+        "Større fortjeneste per enhet ved høyere salgspriser"
       ],
       "correct": 2,
       "explain": "Et verdensmarked gjør stor skala mulig."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva viste pandemien om globale verdikjeder?",
       "options": [
-        "At de er helt trygge",
-        "At handel ikke betyr noe",
-        "At transport er gratis",
+        "At pandemien påvirket transporten, men ikke produksjonen på tvers av land",
+        "At internasjonale leveranser fortsatte som normalt gjennom pandemien",
+        "At transport av komponenter mellom land var lite viktig for produksjonen",
         "At mangel på én komponent kan stanse produksjon verden over"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva gjør WTO?",
       "options": [
         "Lager regler for handel mellom land",
-        "Styrer Norges rente",
-        "Eier oljefondet",
-        "Bestemmer valutakursene"
+        "Setter renten for medlemslandenes sentralbanker",
+        "Gir lån til land med betalingsproblemer",
+        "Bestemmer valutakursen mellom medlemslandenes valutaer"
       ],
       "correct": 0,
       "explain": "Skal redusere handelshindringer."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva er en mulighet ved globalisering?",
       "options": [
-        "Mer utflytting av arbeidsplasser",
+        "Lavere konkurranse mellom bedrifter når markeder åpnes",
         "Raskere spredning av teknologi og mindre fattigdom",
-        "Sårbare verdikjeder",
-        "Mer skatteplanlegging"
+        "Høyere tollinntekter når handelshindringer fjernes",
+        "Lavere produktivitet når teknologi spres mellom land"
       ],
       "correct": 1,
       "explain": "Mange land har fått høyere velstand."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken norsk næring er beskyttet av toll?",
         "options": [
-          "Oljenæringen",
+          "Bilindustrien",
           "Landbruket",
-          "Fiskeoppdrett",
-          "IT"
+          "Elektronikkbransjen",
+          "Oljenæringen"
         ],
         "correct": 1,
         "explain": "For å sikre norsk matproduksjon.",
@@ -329,9 +329,9 @@
         "text": "Hva er proteksjonisme?",
         "options": [
           "Å beskytte egne næringer mot utenlandsk konkurranse",
-          "Å fjerne all toll",
-          "Å øke eksporten",
-          "Å innføre felles valuta"
+          "Å fjerne toll og kvoter på importvarer",
+          "Å fremme salg av egne varer i utlandet",
+          "Å innføre en felles valuta med handelspartnere"
         ],
         "correct": 0,
         "explain": "For eksempel med toll og kvoter."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvorfor vil flere land produsere mer selv i dag?",
         "options": [
-          "For å øke importen",
-          "For å redusere eksporten",
-          "Av hensyn til sikkerhet og selvforsyning",
-          "For å få lavere lønn"
+          "For å få lavere kostnader gjennom internasjonal handel",
+          "For å øke eksporten ved å spesialisere produksjonen",
+          "For å styrke sikkerheten og selvforsyningen",
+          "For å få tilgang til større utenlandske markeder"
         ],
         "correct": 2,
         "explain": "En motstrøm mot globaliseringen."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

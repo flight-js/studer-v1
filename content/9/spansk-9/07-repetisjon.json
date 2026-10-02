@@ -30,8 +30,7 @@
     },
     {
       "term": "el menú del día",
-      "def": "dagens meny til fast pris",
-      "niva": "eksempel"
+      "def": "dagens meny til fast pris"
     },
     {
       "term": "hay",
@@ -107,9 +106,9 @@
       "text": "Hvordan sier du «Jeg er tørst»?",
       "options": [
         "Tengo sed.",
-        "Soy sed.",
         "Tengo hambre.",
-        "Estoy sed."
+        "Tengo frío.",
+        "Tengo sueño."
       ],
       "correct": 0,
       "explain": "På spansk «har» man tørst."
@@ -121,7 +120,7 @@
         "Me gustan las fresas.",
         "Me gusta las fresas.",
         "Me gusto las fresas.",
-        "Yo gustan las fresas."
+        "Me gustan la fresa."
       ],
       "correct": 0,
       "explain": "«las fresas» er flertall, derfor «gustan»."
@@ -132,7 +131,7 @@
       "options": [
         "Han har",
         "Det var",
-        "Han går",
+        "De er",
         "Det er / det finnes"
       ],
       "correct": 3,
@@ -144,8 +143,8 @@
       "options": [
         "Foran verbet",
         "Etter verbet",
-        "Til slutt i setningen",
-        "Det finnes ikke"
+        "På slutten av setningen",
+        "Mellom to verb"
       ],
       "correct": 0,
       "explain": "I vanlige setninger står pronomenet foran verbet."
@@ -154,10 +153,10 @@
       "id": "q05",
       "text": "Hvordan spør du om veien til museet?",
       "options": [
-        "¿Dónde vives?",
-        "¿Cuánto cuesta el museo?",
+        "¿Cómo se va a la plaza?",
+        "¿Cómo se va a la estación?",
         "¿Cómo se va al museo?",
-        "¿Es bonito el museo?"
+        "¿Cómo se va al parque?"
       ],
       "correct": 2,
       "explain": "«¿Cómo se va a …?» brukes når du spør om veien."
@@ -166,10 +165,10 @@
       "id": "q06",
       "text": "Hvorfor heter det «al museo», men «a la plaza»?",
       "options": [
-        "Fordi museet er større",
+        "Fordi «museo» er hunkjønn og a + el blir al",
         "Fordi «museo» er hankjønn og a + el blir al",
-        "Fordi plaza er et torg",
-        "Det er tilfeldig"
+        "Fordi «museo» er hankjønn og a + el blir a el",
+        "Fordi «plaza» er hankjønn og a + el blir al"
       ],
       "correct": 1,
       "explain": "Bare a + el trekkes sammen."
@@ -178,10 +177,10 @@
       "id": "q07",
       "text": "Hvordan spør du hva noe koster?",
       "options": [
-        "¿Dónde está?",
-        "¿Qué es?",
+        "¿Qué talla tiene?",
+        "¿De qué color es?",
         "¿Cuánto cuesta?",
-        "¿Quién es?"
+        "¿Dónde está la caja?"
       ],
       "correct": 2,
       "explain": "«cuánto» betyr hvor mye."
@@ -191,8 +190,8 @@
       "text": "Du vil kjøpe skjørtet (la falda). Hva sier du?",
       "options": [
         "Me lo llevo.",
+        "Me las llevo.",
         "Me los llevo.",
-        "Me le llevo.",
         "Me la llevo."
       ],
       "correct": 3,
@@ -203,12 +202,12 @@
       "text": "Hva er riktig form av «hablar» i indefinido med «yo»?",
       "options": [
         "hablo",
-        "habló",
+        "hablaba",
         "hablé",
-        "hablaba"
+        "hablaste"
       ],
       "correct": 2,
-      "explain": "«hablé» betyr jeg snakket. «habló» betyr han eller hun snakket."
+      "explain": "«hablé» betyr jeg snakket."
     },
     {
       "id": "q10",
@@ -216,7 +215,7 @@
       "options": [
         "ir + infinitiv",
         "estar + gerundium",
-        "ser + adjektiv",
+        "ser + partisipp",
         "haber + partisipp"
       ],
       "correct": 3,
@@ -239,9 +238,9 @@
       "id": "q12",
       "text": "Når får mange spanske barn gavene sine?",
       "options": [
-        "23. desember",
-        "31. desember",
-        "1. januar",
+        "24. desember, fra de tre vise menn",
+        "25. desember, fra de tre vise menn",
+        "1. januar, fra de tre vise menn",
         "6. januar, fra de tre vise menn"
       ],
       "correct": 3,
@@ -365,7 +364,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -387,9 +386,9 @@
         "text": "Hva betyr «De postre, quiero un helado»?",
         "options": [
           "Til dessert vil jeg ha en is",
-          "Til forrett vil jeg ha suppe",
-          "Jeg vil ikke ha is",
-          "Isen er god"
+          "Til forrett vil jeg ha en is",
+          "Til dessert vil jeg ha en kake",
+          "Til dessert vil jeg ha en kaffe"
         ],
         "correct": 0,
         "explain": "«el postre» betyr desserten."
@@ -402,7 +401,7 @@
           "me",
           "se",
           "nos",
-          "os"
+          "te"
         ],
         "correct": 2,
         "explain": "Med «nosotros» er refleksivpronomenet «nos»."
@@ -412,14 +411,13 @@
         "type": "flervalg",
         "text": "Hva betyr «Tome la segunda calle a la izquierda»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den første gata til venstre",
+          "Ta den andre gata til høyre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
-        "explain": "«segunda» betyr andre.",
-        "niva": "over-niva"
+        "explain": "«segunda» betyr andre."
       },
       {
         "id": "m04",
@@ -479,7 +477,8 @@
         "kriterier": [
           "Bruker et passende tidsuttrykk for forrige helg.",
           "Bruker forståelige fortidsformer for å dra og spise."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -518,12 +517,88 @@
           "Bruker et uttrykk som viser at druene spises ved midnatt."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Du spiser på en restaurant med dagens meny. Skriv på spansk hva du bestiller til første rett, hovedrett og dessert.",
+        "fasit": "De primero, sopa. De segundo, pollo. De postre, un helado.",
+        "kriterier": [
+          "Nevner en første rett, en hovedrett og en dessert.",
+          "Bruker uttrykkene «de primero», «de segundo» og «de postre» riktig."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Skriv på spansk når dagens største måltid og kveldsmaten vanligvis spises i Spania, og hva dagens største måltid ofte består av.",
+        "fasit": "En España, la comida suele ser a las dos o las tres. La cena suele ser a las nueve o las diez. La comida tiene primer plato, segundo plato y postre.",
+        "kriterier": [
+          "Oppgir omtrentlige tidspunkt for comida og cena.",
+          "Nevner første rett, hovedrett og dessert som deler av comida."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Du skal hjelpe til hjemme før og etter familiens middag. Skriv på spansk hvilken oppgave du gjør før maten, og hvilken du gjør etterpå. Bruk uttrykk som viser rekkefølge.",
+        "fasit": "Primero pongo la mesa. Después de cenar, friego los platos.",
+        "kriterier": [
+          "Nevner å dekke bordet før maten og ta oppvasken etterpå.",
+          "Bruker passende rekkefølgeuttrykk, for eksempel «primero» og «después»."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Skriv to setninger på spansk: Si at du drar til museet, og fortell hvor postkontoret ligger i forhold til banken. Bruk riktige sammentrekninger av «a» eller «de» og «el».",
+        "fasit": "Voy al museo. Correos está al lado del banco.",
+        "kriterier": [
+          "Bruker «al» i «voy al museo».",
+          "Bruker «del» i «al lado del banco»."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Du forteller om Feria de Abril i Sevilla til en venn. Skriv på spansk hva slags fest det er, og nevn klær folk bruker der.",
+        "fasit": "La Feria de Abril es una fiesta en Sevilla. Hay flamenco, caballos y vestidos de colores.",
+        "kriterier": [
+          "Plasserer Feria de Abril i Sevilla.",
+          "Nevner flamenco, hester eller fargerike kjoler."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på spansk om to ting du har gjort: én avsluttet aktivitet i går og én ting du har gjort denne uken. Bruk riktig fortidsform til hvert tidsuttrykk.",
+        "fasit": "Ayer fui al cine. Esta semana he visitado a mis abuelos.",
+        "kriterier": [
+          "Bruker indefinido om aktiviteten i går.",
+          "Bruker pretérito perfecto om aktiviteten denne uken."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En familie i Mexico feirer Día de Muertos. Skriv på spansk hva de kan sette på et ofrenda-alter, og hvorfor de gjør det.",
+        "fasit": "En el ofrenda ponen fotos, flores naranjas y comida. Lo hacen para recordar y honrar a los muertos.",
+        "kriterier": [
+          "Nevner minst én ting som kan være på et ofrenda, for eksempel bilder, blomster eller mat.",
+          "Forklarer at alteret brukes til å minnes og ære de døde."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på spansk om hva du gjør etter skolen hjemme: Ta med leksene og en oppgave du hjelper til med. Bruk et uttrykk som viser rekkefølge.",
+        "fasit": "Después de clase, hago los deberes. Luego ordeno mi habitación.",
+        "kriterier": [
+          "Nevner at du gjør leksene etter skolen.",
+          "Nevner en passende oppgave hjemme, for eksempel å rydde rommet, og bruker et rekkefølgeuttrykk."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr at etterspørselen er uelastisk?",
       "options": [
-        "At salget faller mye ved prisøkning",
-        "At salget påvirkes lite av prisen",
-        "At det ikke finnes etterspørsel",
-        "At prisen er fast"
+        "At salget påvirkes mye av endringer i prisen",
+        "At salget påvirkes lite av endringer i prisen",
+        "At prisen påvirkes lite av endringer i salget",
+        "At salget påvirkes lite av endringer i kundenes inntekt"
       ],
       "correct": 1,
       "explain": "Typisk for nødvendighetsvarer."
@@ -89,9 +89,9 @@
       "text": "Hva er skumming?",
       "options": [
         "Høy lanseringspris som senkes gradvis",
-        "Lav lanseringspris",
-        "Gratis produkt",
-        "Fast pris for alltid"
+        "Lav lanseringspris som økes gradvis",
+        "Høy lanseringspris som holdes stabil",
+        "Lav lanseringspris som holdes stabil"
       ],
       "correct": 0,
       "explain": "Typisk for ny teknologi."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er dekningsbidraget?",
       "options": [
-        "Faste kostnader",
-        "Overskudd etter skatt",
+        "Pris minus faste kostnader per enhet",
+        "Variable kostnader per enhet minus pris",
         "Pris minus variable kostnader per enhet",
-        "Salgsinntekten"
+        "Pris pluss variable kostnader per enhet"
       ],
       "correct": 2,
       "explain": "Skal dekke de faste kostnadene."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er verdibasert prising?",
       "options": [
-        "Kostnad pluss påslag",
-        "Samme pris som konkurrentene",
-        "Laveste mulige pris",
+        "Pris etter kostnadene virksomheten har",
+        "Pris etter prisene konkurrentene setter",
+        "Pris etter virksomhetens ønskede fortjeneste",
         "Pris etter verdien kunden opplever"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvilken strategi passer for raskt å vinne markedsandel?",
       "options": [
-        "Penetrasjon",
-        "Skumming",
-        "Prestisjepris",
-        "Eksklusiv distribusjon"
+        "Penetrasjonsprising",
+        "Skummingsprising",
+        "Prestisjeprising",
+        "Kostnadsbasert prising"
       ],
       "correct": 0,
       "explain": "Lav lanseringspris."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er dynamisk prising?",
       "options": [
-        "Fast pris",
-        "At prisen endres automatisk etter etterspørsel",
-        "En type rabatt for studenter",
-        "En pakkepris"
+        "At prisen holdes fast når etterspørselen endres",
+        "At prisen endres automatisk etter etterspørselen",
+        "At prisen tilpasses kundens alder ved kjøp",
+        "At prisen settes ut fra produktets kostnader"
       ],
       "correct": 1,
       "explain": "Som flybilletter."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva forbyr konkurranseloven?",
       "options": [
-        "Rabatter",
-        "Høye priser",
+        "Rabattordninger for ulike kundegrupper",
+        "Prissetting ut fra bedriftens egne kostnader",
         "Prissamarbeid mellom konkurrenter",
-        "Tilbud"
+        "Kampanjetilbud fra enkeltbedrifter"
       ],
       "correct": 2,
       "explain": "Sikrer konkurranse.",
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor er prisen spesiell blant konkurransemidlene?",
       "options": [
-        "Den er alltid lav",
-        "Den er hemmelig",
-        "Den bestemmes av staten",
-        "Den er det eneste som gir inntekter"
+        "Den er det eneste konkurransemiddelet som påvirker kundenes valg",
+        "Den er det eneste konkurransemiddelet som krever kundekunnskap",
+        "Den er det eneste konkurransemiddelet som kan endres etter lansering",
+        "Den er det eneste konkurransemiddelet som gir inntekter"
       ],
       "correct": 3,
       "explain": "De andre koster penger."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er et etisk problem ved personaliserte priser?",
       "options": [
-        "De kan oppleves som urettferdige",
-        "De er alltid lavere",
-        "De er ulovlige overalt",
-        "De gir færre kunder"
+        "De kan oppleves som urettferdige for kundene",
+        "De gir samme pris til alle kundene",
+        "De bygger på produktets produksjonskostnader",
+        "De gjør prisene like for ulike kundegrupper"
       ],
       "correct": 0,
       "explain": "Basert på kundedata.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva gir et motstridende signal?",
       "options": [
-        "Høy pris på et eksklusivt produkt",
+        "Høy pris på et produkt som skal oppfattes som eksklusivt",
         "Lav pris på et produkt som skal oppfattes som eksklusivt",
-        "Studentrabatt",
-        "Abonnement"
+        "Lav pris på et produkt som skal oppfattes som rimelig",
+        "Middels pris på et produkt som skal oppfattes som vanlig"
       ],
       "correct": 1,
       "explain": "Pris må passe posisjoneringen."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på prisdifferensiering?",
         "options": [
-          "Samme pris for alle",
+          "Fastpris",
           "Studentrabatt",
-          "Prissamarbeid",
-          "Falsk førpris"
+          "Kostnadsbasert prising",
+          "Konkurrentbasert prising"
         ],
         "correct": 1,
         "explain": "Ulike priser til ulike grupper."
@@ -325,9 +325,9 @@
         "text": "Hva er en lokkepris?",
         "options": [
           "Svært lav pris på enkelte varer for å trekke kunder",
-          "Høy pris for status",
-          "Pris etter kostnad",
-          "Abonnementspris"
+          "Høy pris på enkelte varer for å signalisere høy kvalitet",
+          "Fast pris på alle varer for å gjøre kjøpet enklere",
+          "Rabattert pris på hele sortimentet for å øke salget"
         ],
         "correct": 0,
         "explain": "Kundene kjøper ofte mer.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er første steg i å utvikle en prisstrategi?",
         "options": [
-          "Sette rabatter",
-          "Endre logoen",
+          "Velge rabattnivå ut fra målgruppen",
+          "Beregne produktkostnadene før ønsket prisnivå",
           "Sette prismål ut fra virksomhetens mål",
-          "Velge leverandør"
+          "Sammenligne konkurrentenes priser med egne priser"
         ],
         "correct": 2,
         "explain": "Deretter analyse."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

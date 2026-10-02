@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva gjør du når du skumleser?",
       "options": [
-        "Leser hvert ord nøye",
+        "Leser hvert avsnitt grundig fra første ord til siste",
         "Ser raskt over titler, bilder og uthevet tekst",
-        "Leser teksten høyt",
-        "Skriver av teksten"
+        "Finner betydningen av ukjente ord i en ordbok",
+        "Skriver korte notater om hvert avsnitt du leser"
       ],
       "correct": 1,
       "explain": "Skumlesing gir et raskt overblikk før du leser grundig."
@@ -91,8 +91,8 @@
       "options": [
         "Søkelesing",
         "Nærlesing",
-        "Tankekart",
-        "Høytlesing"
+        "Skumlesing",
+        "Korrekturlesing"
       ],
       "correct": 0,
       "explain": "Når du leter etter en bestemt opplysning, søker du raskt gjennom teksten etter den."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor er det lurt å aktivere forkunnskaper før du leser?",
       "options": [
-        "Fordi du slipper å lese hele teksten",
-        "Fordi det gjør teksten kortere",
-        "Fordi ny kunnskap blir lettere å forstå og huske når den kobles til det du kan",
-        "Fordi læreren krever det"
+        "Fordi du kan gjette tekstens innhold uten å undersøke nye opplysninger nærmere",
+        "Fordi du kan hoppe over ukjente deler når du kjenner temaet fra før",
+        "Fordi du lettere forstår og husker ny kunnskap når den kobles til noe kjent",
+        "Fordi du finner svarene på spørsmålene før du begynner å lese teksten grundig"
       ],
       "correct": 2,
       "explain": "Hjernen husker bedre når ny informasjon kan knyttes til noe den allerede kjenner."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken tekst er sakprosa?",
       "options": [
-        "En novelle",
-        "Et eventyr",
-        "Et dikt",
-        "En fagartikkel om klimaendringer"
+        "En novelle om en familie på ferie",
+        "Et eventyr om en konge og en drage",
+        "Et dikt som beskriver årstidene og naturen",
+        "En fagartikkel som forklarer klimaendringer"
       ],
       "correct": 3,
       "explain": "Sakprosa handler om virkeligheten. Novelle, eventyr og dikt er skjønnlitteratur."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva bør du understreke når du leser en fagtekst?",
       "options": [
-        "Hele setninger",
+        "Alle fagord",
         "Nøkkelord",
-        "Alle ord du kjenner",
-        "Ingenting"
+        "Alle eksempler",
+        "Hele avsnitt"
       ],
       "correct": 1,
       "explain": "Nøkkelord bærer hovedinnholdet. Understreker du alt, blir det ingen hjelp når du skal repetere."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Du har lest en side, men husker ingenting. Hva er et godt tiltak?",
       "options": [
-        "Lese videre raskere",
+        "Lese hvert avsnitt på nytt uten å stoppe opp",
         "Stoppe og oppsummere hvert avsnitt med egne ord",
-        "Hoppe over kapittelet",
-        "Lese siden baklengs"
+        "Markere alle setningene før du går videre",
+        "Hoppe over avsnittene som virker vanskelige"
       ],
       "correct": 1,
       "explain": "Å oppsummere avsnitt for avsnitt tvinger deg til å bearbeide innholdet, og du merker med en gang hva du ikke har forstått."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en ingress?",
       "options": [
-        "Siste avsnitt i en novelle",
-        "En bildetekst",
+        "Avslutningen i en artikkel som gjentar hovedpoengene",
+        "Bildeteksten under et bilde som forklarer motivet",
         "Innledningen i en artikkel som oppsummerer det viktigste",
-        "En fotnote"
+        "Mellomtittelen i en artikkel som deler opp teksten"
       ],
       "correct": 2,
       "explain": "Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken.",
@@ -163,9 +163,9 @@
       "text": "Hvilket spørsmål passer best når du leser skjønnlitteratur?",
       "options": [
         "Hvorfor handler personen slik?",
-        "Hvem finansierte undersøkelsen?",
-        "Hvilket årstall står i tabellen?",
-        "Hva er kilden til tallene?"
+        "Hvilken dato ble teksten publisert?",
+        "Hvor mange personer er nevnt i teksten?",
+        "Hvilke fakta står i tekstens tabell?"
       ],
       "correct": 0,
       "explain": "I skjønnlitteratur er det ofte personenes motiver og tekstens tema som er interessant å tolke."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva er en typisk strategi etter lesingen?",
       "options": [
-        "Skumlese",
-        "Aktivere forkunnskaper",
-        "Se på bildene først",
-        "Lage et tankekart over innholdet"
+        "Se raskt over overskrifter og bilder",
+        "Koble temaet til det du allerede vet",
+        "Finne bestemte opplysninger i teksten",
+        "Lage et tankekart over tekstens innhold"
       ],
       "correct": 3,
       "explain": "Etter lesingen bearbeider du stoffet, for eksempel med tankekart eller sammendrag."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr det å reflektere over egen lesing?",
       "options": [
-        "Å lese teksten en gang til",
+        "Å lese teksten på nytt for å huske flere detaljer",
         "Å tenke over hvilke strategier som fungerer for deg og hvorfor",
-        "Å lese høyt for andre",
-        "Å skrive en bokanmeldelse"
+        "Å lese teksten høyt for å øve på uttalen",
+        "Å skrive en anmeldelse av teksten for andre lesere"
       ],
       "correct": 1,
       "explain": "Refleksjon over egen lesing handler om å bli bevisst hvordan du leser, slik at du kan velge bedre strategier."
@@ -306,9 +306,9 @@
         "type": "flervalg",
         "text": "Hvilken strategi hører hjemme før lesingen?",
         "options": [
-          "Skrive sammendrag",
-          "Lage tankekart over innholdet",
-          "Tolke budskapet",
+          "Skrive ned hovedpoengene fra hvert avsnitt",
+          "Lage et sammendrag av det du har lest",
+          "Tolke hva forfatteren prøver å si",
           "Se over titler og mellomtitler"
         ],
         "correct": 3,
@@ -320,9 +320,9 @@
         "text": "Hva er viktig å vurdere når du leser sakprosa?",
         "options": [
           "Hvem som står bak teksten",
-          "Hvilket rim diktet har",
-          "Hvem hovedpersonen er forelsket i",
-          "Hvilken farge omslaget har"
+          "Hvilke personer teksten omtaler",
+          "Hvilke steder teksten beskriver",
+          "Hvilke tall teksten presenterer"
         ],
         "correct": 0,
         "explain": "I sakprosa må du vurdere avsenderen og om teksten skiller fakta fra meninger."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva kan du gjøre med et ukjent ord?",
         "options": [
-          "Alltid hoppe over det",
+          "Gjette betydningen uten å se på resten av setningen",
           "Slå det opp eller finne betydningen ut fra sammenhengen",
-          "Slutte å lese",
-          "Bytte det ut med et annet ord"
+          "Velge den første betydningen uten å sjekke sammenhengen",
+          "Erstatte det med et ord som ligner i skrivemåte"
         ],
         "correct": 1,
         "explain": "Ofte gir sammenhengen et hint. Er ordet viktig, bør du slå det opp."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

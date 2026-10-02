@@ -79,22 +79,22 @@
       "id": "q01",
       "text": "Hva er spontan kjennskap?",
       "options": [
-        "At kunden kjenner igjen merket fra en liste",
-        "At kunden nevner merket selv",
-        "At kunden kjøper produktet",
-        "At kunden klikker på annonsen"
+        "At kunden kjenner igjen merket når det vises i en liste",
+        "At kunden husker og nevner merket uten hjelp",
+        "At kunden velger merket når kunden skal kjøpe et produkt",
+        "At kunden klikker på en annonse med merket"
       ],
       "correct": 1,
-      "explain": "Hjulpet kjennskap bruker en liste."
+      "explain": "Spontan kjennskap måles uten å gi kunden en liste med merker."
     },
     {
       "id": "q02",
       "text": "Hva er A/B-testing?",
       "options": [
-        "Å sammenligne to versjoner for å se hva som virker best",
-        "En type eksamen",
-        "En prisstrategi",
-        "Et regnskap"
+        "Å sammenligne to versjoner for å se hvilken som gir best resultat",
+        "Å sammenligne to målgrupper for å se hvilken som kjøper mest",
+        "Å sammenligne resultatene før og etter en kampanje for å måle endring",
+        "Å sammenligne kampanjens kostnader med inntektene den skaper"
       ],
       "correct": 0,
       "explain": "Vanlig i digital markedsføring."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva måler konverteringsraten?",
       "options": [
-        "Antall visninger",
-        "Kostnad per klikk",
-        "Andelen som gjennomfører ønsket handling",
-        "Antall ansatte"
+        "Andelen av målgruppen som kjenner igjen merket etter å ha sett det",
+        "Andelen av kundene som klikker på annonsen etter en visning",
+        "Andelen av målgruppen som gjennomfører en ønsket handling",
+        "Andelen av kundene som anbefaler virksomheten til andre"
       ],
       "correct": 2,
       "explain": "For eksempel kjøp."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er en utfordring ved effektmåling?",
       "options": [
-        "At alt er lett å måle",
-        "At kundene aldri kjøper",
-        "At reklame er gratis",
-        "At det er vanskelig å skille effekten av ett tiltak fra andre forhold"
+        "At digitale kampanjer ikke kan måles med konkrete tall",
+        "At salgstall fra ulike perioder ikke kan sammenlignes på en meningsfull måte",
+        "At kundetilfredshet ikke kan undersøkes gjennom spørreundersøkelser etter en kampanje",
+        "At effekten av ett tiltak er vanskelig å skille fra andre påvirkninger"
       ],
       "correct": 3,
       "explain": "Sesong, konkurrenter og vær."
@@ -128,9 +128,9 @@
       "text": "Hva er NPS?",
       "options": [
         "Et mål på hvor sannsynlig det er at kunden anbefaler virksomheten",
-        "Et prisnivå",
-        "En annonseplattform",
-        "En lov"
+        "Et mål på hvor fornøyd kunden er med prisen på produktet",
+        "Et mål på hvor ofte kunden kjøper fra virksomheten på nytt",
+        "Et mål på hvor mange kunder som kjenner virksomhetens merke"
       ],
       "correct": 0,
       "explain": "Net Promoter Score.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvordan måles et kognitivt kommunikasjonsmål?",
       "options": [
-        "Med salgstall",
-        "Med kjennskapsmålinger",
-        "Med lønnsomhet",
-        "Med sykefravær"
+        "Med målinger av kundenes holdninger og preferanser til merket",
+        "Med målinger av kundenes kjennskap til og kunnskap om merket",
+        "Med målinger av kundenes kjøp og gjenkjøp av merket",
+        "Med målinger av kampanjens kostnader og inntekter"
       ],
       "correct": 1,
       "explain": "Kjennskap og kunnskap."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva er en kontrollgruppe i effektmåling?",
       "options": [
-        "En gruppe ledere",
-        "En gruppe som får dobbel kampanje",
-        "En gruppe som ikke får kampanjen",
-        "En gruppe konkurrenter"
+        "En gruppe som eksponeres for kampanjen og brukes til sammenligning",
+        "En gruppe som får en annen kampanjevariant enn hovedgruppen",
+        "En gruppe som ikke eksponeres for kampanjen, brukt som sammenligning",
+        "En gruppe som velges fordi den allerede kjenner merkevaren godt"
       ],
       "correct": 2,
       "explain": "Gir sammenligning."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er typisk for markedsmiksen i modningsfasen?",
       "options": [
-        "Bygge kjennskap fra null",
-        "Begrenset distribusjon",
-        "Avvikling",
-        "Sterk konkurranse og fokus på differensiering og lojalitet"
+        "Rask vekst i etterspørselen med vekt på å gjøre produktet kjent",
+        "Lav konkurranse med vekt på å bygge distribusjon og øke tilgjengeligheten",
+        "Fallende salg med vekt på å avslutte produktet og tømme lageret",
+        "Sterk konkurranse med vekt på å skille seg ut og beholde lojale kunder"
       ],
       "correct": 3,
       "explain": "Forsvare markedsandel."
@@ -177,9 +177,9 @@
       "text": "Hva er ROAS?",
       "options": [
         "Inntekter per krone brukt på annonser",
-        "Antall annonser",
-        "Klikkrate",
-        "Kjennskap"
+        "Antall klikk per krone brukt på annonser",
+        "Kostnad per tusen visninger av annonser",
+        "Andel av annonseklikk som fører til kjøp"
       ],
       "correct": 0,
       "explain": "Return on ad spend.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvorfor kan digitale måltall gi et ufullstendig bilde?",
       "options": [
-        "Fordi de er feil",
-        "Fordi de ofte bare fanger kortsiktige effekter",
-        "Fordi de er for dyre",
-        "Fordi de er hemmelige"
+        "Fordi de ofte viser langsiktig merkevarebygging, men ikke kortsiktige salgseffekter",
+        "Fordi de ofte viser kortsiktige effekter, men ikke langsiktig merkevarebygging",
+        "Fordi de hovedsakelig måler kundetilfredshet framfor kampanjeresultater",
+        "Fordi de viser annonsekostnader, men ikke kundenes reaksjoner på kampanjen"
       ],
       "correct": 1,
       "explain": "Merkebygging virker over tid."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hva er CTR?",
         "options": [
-          "Kostnad per tusen",
-          "Klikkrate – andelen som klikker",
-          "Konverteringsrate",
-          "Kundetilfredshet"
+          "Prisen per tusen visninger av en annonse",
+          "Andelen av visningene som fører til et klikk",
+          "Andelen av klikkene som fører til en ønsket handling",
+          "Andelen av kundene som anbefaler virksomheten videre"
         ],
         "correct": 1,
         "explain": "Click-through rate."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva er typisk for introduksjonsfasen?",
         "options": [
-          "Bygge kjennskap",
-          "Avvikle produktet",
-          "Maks distribusjon overalt",
-          "Forsvare markedsandel mot mange konkurrenter"
+          "Å bygge kjennskap til produktet blant potensielle kunder",
+          "Å øke markedsandelen mens etterspørselen vokser raskt",
+          "Å bevare markedsandelen gjennom lojalitet og differensiering",
+          "Å redusere innsatsen når salget går ned over tid"
         ],
         "correct": 0,
         "explain": "Kunden må vite at produktet finnes."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva handler attribusjon om?",
         "options": [
-          "Pris",
-          "Logo",
-          "Hvilken kanal som får æren for et kjøp",
-          "Rekruttering"
+          "Å vurdere hvilken kanal som hadde lavest kostnad per klikk",
+          "Å vurdere hvilken kanal som nådde flest personer i målgruppen",
+          "Å vurdere hvilken kanal som får æren for et kjøp",
+          "Å vurdere hvilken kanal som ga høyest klikkrate i kampanjen"
         ],
         "correct": 2,
         "explain": "Kunden møter ofte flere kanaler.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en matematisk modell?",
       "options": [
-        "En nøyaktig kopi av virkeligheten",
-        "Et diagram uten tall",
+        "En nøyaktig matematisk gjengivelse av alle forhold i situasjonen",
+        "En grafisk framstilling av målinger fra en virkelig situasjon",
         "En forenklet matematisk beskrivelse av en virkelig situasjon",
-        "En likning uten ukjente"
+        "En samling målinger fra en virkelig situasjon uten beregninger"
       ],
       "correct": 2,
       "explain": "En modell forenkler virkeligheten slik at vi kan regne på den. Den er aldri helt lik virkeligheten."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva betyr det å ekstrapolere?",
       "options": [
-        "Å bruke modellen utenfor området der vi har data",
-        "Å finne den beste modellen",
-        "Å regne mellom to målinger",
-        "Å tegne en graf"
+        "Å bruke modellen utenfor området der dataene er samlet",
+        "Å finne funksjonen som passer best til målingene",
+        "Å beregne verdier mellom målepunktene i datasettet",
+        "Å tegne datapunktene inn i et koordinatsystem"
       ],
       "correct": 0,
       "explain": "Ekstrapolering er å forutsi langt utenfor dataene. Det er risikabelt fordi sammenhengen kan endre seg."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "En lineær modell for høyden til barn fra 2 til 10 år brukes til å beregne høyden ved 40 år. Hva er problemet?",
       "options": [
-        "Ingen, modellen gjelder alltid",
-        "Regnefeil i modellen",
-        "At modellen er eksponentiell",
+        "At modellen egentlig er en eksponentiell funksjon",
+        "At høyden må oppgis i meter per år",
+        "At beregningen bør bruke flere desimaler",
         "At modellen brukes langt utenfor gyldighetsområdet"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvilket steg kommer etter at du har regnet ut et svar med modellen?",
       "options": [
-        "Å slette modellen",
+        "Å samle inn nye data uten grunn",
         "Å tolke og vurdere svaret",
-        "Å velge en ny funksjonstype uten grunn",
-        "Å legge til flere desimaler"
+        "Å velge en funksjonstype på nytt",
+        "Å skrive svaret med flere desimaler"
       ],
       "correct": 1,
       "explain": "Svaret må oversettes til situasjonen og vurderes: Er det rimelig? Passer modellen?"
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er en forutsetning i en modell?",
       "options": [
-        "Svaret modellen gir",
-        "Grafen til modellen",
+        "En verdi modellen beregner fra dataene",
+        "En graf som viser modellens verdier",
         "En antakelse modellen bygger på",
-        "Et datapunkt"
+        "Et datapunkt fra de innsamlede målingene"
       ],
       "correct": 2,
       "explain": "Forutsetninger er antakelsene som gjør at modellen kan brukes, for eksempel at prisen øker like mye hvert år."
@@ -150,9 +150,9 @@
       "text": "Hva gjør regresjon i et digitalt verktøy?",
       "options": [
         "Finner den funksjonen som passer best til datapunktene",
-        "Sletter målinger som ikke passer",
-        "Tegner et stolpediagram",
-        "Regner ut gjennomsnittet"
+        "Fjerner målingene som passer dårligst til funksjonen",
+        "Tegner en graf gjennom alle datapunktene",
+        "Beregner gjennomsnittet av alle målte verdier"
       ],
       "correct": 0,
       "explain": "Regresjon tilpasser en valgt funksjonstype til dataene, slik at vi får et funksjonsuttrykk å regne med.",
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvorfor er ikke den funksjonen som passer best med dataene alltid den beste modellen?",
       "options": [
-        "Fordi digitale verktøy regner feil",
+        "Fordi modellen må treffe hvert datapunkt nøyaktig",
         "Fordi modellen også må gi mening ut fra situasjonen",
-        "Fordi lineære modeller alltid er best",
-        "Fordi data aldri kan brukes"
+        "Fordi regresjon passer best når dataene synker jevnt",
+        "Fordi grafen må gå gjennom hvert datapunkt i regresjon"
       ],
       "correct": 1,
       "explain": "En funksjon kan treffe punktene godt, men gi urimelige svar utenfor dem, for eksempel negative priser."
@@ -174,9 +174,9 @@
       "id": "q09",
       "text": "Hva bør med når du presenterer et modelleringsarbeid?",
       "options": [
-        "Bare svaret",
-        "Bare grafen",
-        "Bare formelen",
+        "Målinger, graf, formel og beregning",
+        "Problem, utregning, svar og konklusjon",
+        "Spørsmål, svar, konklusjon og anbefaling",
         "Data, modell, resultat og begrensninger"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "En modell sier at antall solgte is dobles når temperaturen øker fra 20 °C til 30 °C. Hva er en rimelig forutsetning bak modellen?",
       "options": [
-        "At det selges like mye is hele året",
+        "At prisen påvirker salget mer enn temperaturen",
         "At temperaturen er det som påvirker salget mest",
-        "At is ikke kan selges om vinteren",
-        "At prisen dobles"
+        "At temperaturen ikke har sammenheng med antall solgte is",
+        "At antallet solgte is påvirker temperaturen mer enn været"
       ],
       "correct": 1,
       "explain": "Modellen antar at temperaturen er den viktigste faktoren. Andre ting, som ferie og pris, er forenklet bort."
@@ -309,8 +309,8 @@
         "type": "flervalg",
         "text": "Et abonnement koster 199 kr i måneden. Hvilken modell gir totalprisen etter x måneder?",
         "options": [
-          "P(x) = 199 · 1,01ˣ",
           "P(x) = 199 + x",
+          "P(x) = 199x + 199",
           "P(x) = 199x",
           "P(x) = 199/x"
         ],
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "En modell for en bys befolkning gir et negativt antall innbyggere om 80 år. Hva sier det?",
         "options": [
-          "At byen forsvinner",
+          "At byen blir folketom før det har gått 80 år",
           "At modellen ikke er gyldig så langt fram",
-          "At regnemaskinen er feil",
-          "At modellen er eksponentiell"
+          "At regneverktøyet har vist et negativt tall ved en feil",
+          "At innbyggertallet må oppgis i tusen personer"
         ],
         "correct": 1,
         "explain": "Et negativt antall er urimelig. Det viser at modellen er brukt utenfor gyldighetsområdet."
@@ -336,9 +336,9 @@
         "text": "Hva er en prognose?",
         "options": [
           "En forutsigelse basert på en modell",
-          "En måling fra i fjor",
-          "Et gjennomsnitt",
-          "En regnefeil"
+          "En måling fra et tidligere tidspunkt",
+          "Et gjennomsnitt av tidligere målinger",
+          "En beregning uten bruk av data"
         ],
         "correct": 0,
         "explain": "En prognose er en forutsigelse av framtiden, for eksempel befolkningstall om ti år, laget med en modell."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

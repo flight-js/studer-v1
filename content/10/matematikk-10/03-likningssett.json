@@ -78,8 +78,8 @@
       "options": [
         "x = 6, y = 4",
         "x = 7, y = 3",
-        "x = 3, y = 7",
-        "x = 5, y = 5"
+        "x = 8, y = 2",
+        "x = 3, y = 7"
       ],
       "correct": 1,
       "explain": "Legg sammen likningene: 2x = 14, så x = 7. Da er y = 10 − 7 = 3. Sjekk: 7 − 3 = 4."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er første steg i innsettingsmetoden?",
       "options": [
-        "Tegne grafene",
-        "Legge sammen likningene",
+        "Tegne begge likningene som rette linjer",
+        "Legge sammen de to likningene leddvis",
         "Løse én likning for én av de ukjente",
-        "Gange begge likningene med 2"
+        "Få samme koeffisient for én ukjent"
       ],
       "correct": 2,
       "explain": "I innsettingsmetoden uttrykker du først én ukjent ved hjelp av den andre, for eksempel y = 10 − x."
@@ -103,7 +103,7 @@
         "x = 3, y = 6",
         "x = 6, y = 3",
         "x = 2, y = 7",
-        "x = 4,5, y = 4,5"
+        "x = 4, y = 5"
       ],
       "correct": 0,
       "explain": "Sett y = 2x inn i den andre: x + 2x = 9, så 3x = 9 og x = 3. Da er y = 2 · 3 = 6."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva betyr skjæringspunktet mellom to linjer i et grafisk likningssett?",
       "options": [
-        "At likningssettet ikke har løsning",
-        "Stigningstallet",
-        "Konstantleddet",
-        "Løsningen av likningssettet"
+        "Stigningstallet til begge linjene",
+        "Konstantleddet i begge likningene",
+        "Nullpunktet til begge linjene",
+        "Punktet som oppfyller begge likningene"
       ],
       "correct": 3,
       "explain": "Skjæringspunktet ligger på begge linjene, så koordinatene passer i begge likningene."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva skjer hvis linjene i et likningssett er parallelle?",
       "options": [
-        "Det finnes uendelig mange løsninger",
-        "Det finnes ingen løsning",
-        "x = 0",
-        "Løsningen er origo"
+        "Likningssettet har uendelig mange felles løsninger",
+        "Likningssettet har ingen felles løsning",
+        "Likningssettet har ett felles skjæringspunkt",
+        "Likningssettet har løsningen x = 0"
       ],
       "correct": 1,
       "explain": "Parallelle linjer møtes aldri, så det finnes ingen punkt som ligger på begge."
@@ -138,8 +138,8 @@
       "options": [
         "x = 4, y = 3",
         "x = 3, y = 5",
-        "x = 5, y = 1",
-        "x = 6, y = 5"
+        "x = 5, y = 4",
+        "x = 6, y = 1"
       ],
       "correct": 0,
       "explain": "Legg sammen: 3x = 12, så x = 4. Sett inn: 4 − y = 1 gir y = 3. Sjekk: 2 · 4 + 3 = 11."
@@ -149,8 +149,8 @@
       "text": "300 billetter ble solgt, voksne til 250 kr og barn til 100 kr, totalt 54 000 kr. Hvilket likningssett passer?",
       "options": [
         "v + b = 54 000 og 250v + 100b = 300",
-        "v · b = 300 og v + b = 54 000",
-        "250v + 100b = 300 og v − b = 54 000",
+        "v + b = 300 og 250v + 100b = 300",
+        "v + b = 300 og 250v − 100b = 54 000",
         "v + b = 300 og 250v + 100b = 54 000"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hvorfor trenger vi to likninger for å finne to ukjente?",
       "options": [
         "Fordi én likning med to ukjente har uendelig mange løsninger",
-        "Fordi det er en regel i matematikken uten grunn",
-        "Fordi det gjør regningen raskere",
-        "Fordi to likninger alltid har samme løsning"
+        "Fordi hver ukjent må stå alene i en likning",
+        "Fordi to likninger gjør det enklere å regne",
+        "Fordi koeffisientene i likningene må være like"
       ],
       "correct": 0,
       "explain": "x + y = 10 har løsninger som 1 og 9, 2 og 8 osv. En opplysning til trengs for å peke ut én løsning."
@@ -184,7 +184,7 @@
       "id": "q10",
       "text": "Hvilket tall må du gange den andre likningen med for å fjerne y? 3x + 2y = 12 og x − y = 1",
       "options": [
-        "−2",
+        "1",
         "3",
         "2",
         "−3"
@@ -304,9 +304,9 @@
         "text": "Løs x + 2y = 8 og x − 2y = 0.",
         "options": [
           "x = 4, y = 2",
-          "x = 2, y = 4",
-          "x = 8, y = 0",
-          "x = 0, y = 4"
+          "x = 2, y = 3",
+          "x = 6, y = 1",
+          "x = 8, y = 0"
         ],
         "correct": 0,
         "explain": "Legg sammen: 2x = 8, så x = 4. Da er 4 − 2y = 0, altså y = 2."
@@ -330,7 +330,7 @@
         "text": "Hvilket par av linjer gir ingen løsning?",
         "options": [
           "y = 2x + 1 og y = −x + 4",
-          "y = x og y = −x",
+          "y = x + 1 og y = −x − 1",
           "y = 3x + 1 og y = 3x − 2",
           "y = x + 2 og y = 2x + 2"
         ],
@@ -416,6 +416,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

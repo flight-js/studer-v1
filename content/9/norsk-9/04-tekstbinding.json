@@ -79,7 +79,7 @@
         "derfor",
         "likevel",
         "dessuten",
-        "først"
+        "deretter"
       ],
       "correct": 1,
       "explain": "«Likevel» viser at noe skjer til tross for det som er sagt før. Det er motsetning."
@@ -90,8 +90,8 @@
       "options": [
         "Derfor",
         "Derimot",
-        "For eksempel",
-        "Dessuten"
+        "Dessuten",
+        "Deretter"
       ],
       "correct": 0,
       "explain": "Glatt føre er årsaken, og at bussen kjørte sakte er følgen. «Derfor» uttrykker følge."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en rød tråd i en tekst?",
       "options": [
-        "En tråd i tekstilfaget",
-        "At teksten har rød skrift",
+        "At alle avsnittene handler om nøyaktig samme detalj",
+        "At teksten har en tydelig innledning, hoveddel og avslutning",
         "At leseren kan følge sammenhengen gjennom hele teksten",
-        "At teksten har mange avsnitt"
+        "At hvert avsnitt begynner med et bindeord som viser sammenheng"
       ],
       "correct": 2,
       "explain": "Rød tråd betyr at tankene henger logisk sammen fra start til slutt."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "«Ibsen skrev Et dukkehjem. Dramatikeren ble verdensberømt.» Hvordan er setningene bundet sammen?",
       "options": [
-        "Med et bindeord",
-        "Med tegnsetting",
-        "Med en temasetning",
-        "Med en omskrivning av Ibsen"
+        "Ved å bruke et bindeord mellom setningene",
+        "Ved å gjenta navnet Ibsen i setningene",
+        "Ved å bruke et pronomen om Ibsen",
+        "Ved å omtale Ibsen som dramatikeren"
       ],
       "correct": 3,
       "explain": "«Dramatikeren» viser tilbake til Ibsen. Omskrivninger binder teksten uten å gjenta samme ord."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er galt med «Lise sa til Maria at hun hadde vunnet»?",
       "options": [
-        "Setningen mangler verbal",
+        "Det er uklart hvem «Maria» snakker med",
         "Det er uklart hvem «hun» viser til",
-        "Det skal være komma før «at»",
-        "Ingenting"
+        "Det er nødvendig med komma før «at»",
+        "Det er feil å bruke «at» etter verbet «sa»"
       ],
       "correct": 1,
       "explain": "«Hun» kan vise til både Lise og Maria. Uklare henvisninger bør omskrives."
@@ -137,9 +137,9 @@
       "text": "Hvor står temasetningen vanligvis?",
       "options": [
         "Først i avsnittet",
-        "I overskriften",
-        "Sist i teksten",
-        "I en fotnote"
+        "Midt i avsnittet",
+        "Sist i avsnittet",
+        "Etter avsnittets siste setning"
       ],
       "correct": 0,
       "explain": "Temasetningen står ofte først og forteller leseren hva avsnittet skal handle om."
@@ -148,8 +148,8 @@
       "id": "q07",
       "text": "Hvilket bindeord uttrykker årsak?",
       "options": [
-        "altså",
-        "deretter",
+        "derfor",
+        "dermed",
         "ettersom",
         "derimot"
       ],
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva bør avslutningen av en fagtekst IKKE gjøre?",
       "options": [
-        "Oppsummere",
-        "Konkludere",
-        "Knytte tilbake til innledningen",
+        "Oppsummere tekstens viktigste poeng",
+        "Trekke en konklusjon fra drøftingen",
+        "Knytte avslutningen tilbake til innledningen",
         "Introdusere et helt nytt poeng"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvorfor bør du variere bindeordene?",
       "options": [
-        "For at teksten ikke skal bli ensformig og for å vise presist hvordan tankene henger sammen",
-        "Fordi det er forbudt å bruke «og»",
-        "For å gjøre teksten kortere",
-        "For at leseren skal bli forvirret"
+        "For å unngå ensformighet og vise tankesammenhengen tydelig",
+        "For å få teksten til å høres mer avansert ut",
+        "For å vise hvilken setning som er viktigst i avsnittet",
+        "For å få avsnittene til å bli like lange"
       ],
       "correct": 0,
       "explain": "Mange «og så» gjør teksten monoton. Presise bindeord viser leseren tankegangen."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilket bindeord innleder en oppsummering?",
       "options": [
-        "først",
+        "for eksempel",
         "kort sagt",
-        "fordi",
-        "for eksempel"
+        "derfor",
+        "derimot"
       ],
       "correct": 1,
       "explain": "«Kort sagt» varsler at det kommer en oppsummering av det som er sagt."
@@ -314,9 +314,9 @@
         "text": "Hvilket bindeord passer? «Mange liker sommeren. Jeg, …, foretrekker vinteren.»",
         "options": [
           "derfor",
-          "altså",
+          "dessuten",
           "derimot",
-          "fordi"
+          "deretter"
         ],
         "correct": 2,
         "explain": "Setningen står i motsetning til den forrige, og «derimot» markerer kontrasten."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva gjør du enklest for å avsløre hopp i tankegangen?",
         "options": [
-          "Leser teksten høyt",
-          "Teller ordene",
-          "Bytter skrifttype",
-          "Sletter avsnitt"
+          "Leser teksten høyt for seg selv",
+          "Teller ordene i hvert avsnitt",
+          "Ser etter gjentatte ord i teksten",
+          "Kontrollerer rettskrivingen i teksten"
         ],
         "correct": 0,
         "explain": "Når du leser høyt, hører du lettere hvor overgangene mangler."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva kalles setningene i et avsnitt som utdyper temasetningen?",
         "options": [
-          "Overskrifter",
+          "Temasetninger",
           "Kommentarsetninger",
-          "Leddsetninger",
-          "Ingresser"
+          "Overgangssetninger",
+          "Avslutningssetninger"
         ],
         "correct": 1,
         "explain": "Kommentarsetninger forklarer, begrunner og gir eksempler på det temasetningen sier."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

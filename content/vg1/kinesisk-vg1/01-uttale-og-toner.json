@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er pinyin?",
       "options": [
-        "Kinesiske tegn",
+        "Et system med kinesiske tegn for mandarin",
         "Lydskrift for kinesisk med latinske bokstaver",
-        "En kinesisk dialekt",
-        "En type tone"
+        "En egen dialekt som snakkes i Nord-Kina",
+        "Et tonesystem som viser ordets betydning"
       ],
       "correct": 1,
       "explain": "Pinyin brukes også når man skriver tegn på PC og mobil."
@@ -92,8 +92,8 @@
       "text": "Hvordan beskrives 4. tone?",
       "options": [
         "Kort og fallende",
+        "Stigende og lang",
         "Høy og jevn",
-        "Stigende",
         "Fallende og stigende"
       ],
       "correct": 0,
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva betyr 马 mǎ?",
       "options": [
-        "mor",
-        "hamp",
+        "ris",
+        "hund",
         "hest",
-        "spørrepartikkel"
+        "bok"
       ],
       "correct": 2,
       "explain": "Tonen avgjør betydningen.",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvordan uttales «nǐ hǎo» i praksis?",
       "options": [
-        "nì hào",
-        "nǐ hǎo med to 3. toner",
-        "nī hāo",
+        "nī hǎo",
+        "nǐ háo",
+        "nì hǎo",
         "ní hǎo"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva kalles mandarin på kinesisk?",
       "options": [
         "普通话 Pǔtōnghuà",
-        "汉字 hànzì",
-        "北京 Běijīng",
-        "中秋 Zhōngqiū"
+        "你好 nǐhǎo",
+        "谢谢 xièxie",
+        "中国 Zhōngguó"
       ],
       "correct": 0,
       "explain": "Pǔtōnghuà betyr «fellesspråket»."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvordan uttales «不 shì» (er ikke)?",
       "options": [
-        "bù shì",
-        "bú shì",
         "bǔ shì",
-        "bū shì"
+        "bú shì",
+        "bǔ shí",
+        "bú shí"
       ],
       "correct": 1,
       "explain": "不 blir bú foran en 4. tone."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvordan beskrives 2. tone?",
       "options": [
-        "Høy og jevn",
-        "Kort og fallende",
-        "Stigende, som et spørsmål",
-        "Svak og kort"
+        "Fallende mot en lav tone",
+        "Jevn på et høyt nivå",
+        "Stigende, som når man spør",
+        "Kort med et tydelig fall"
       ],
       "correct": 2,
       "explain": "Eksempel: má."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvordan uttales bokstaven «c» i pinyin?",
       "options": [
-        "k",
-        "s",
-        "sj",
+        "z",
+        "ch",
+        "sh",
         "ts"
       ],
       "correct": 3,
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hvorfor er det viktig å lære ord med riktig tone?",
       "options": [
-        "Fordi feil tone kan gi et helt annet ord",
-        "Fordi tonene bare brukes i sanger",
-        "Fordi tonene er valgfrie",
-        "Det er ikke viktig"
+        "Feil tone kan endre betydningen av et ord.",
+        "Tonene viser hvilken stavelse som får trykk i et ord.",
+        "Tonene markerer om en setning uttrykker spørsmål eller svar.",
+        "Tonene viser om taleren snakker rolig eller sint."
       ],
       "correct": 0,
       "explain": "Mandarin er et tonespråk."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr 谢谢 xièxie?",
       "options": [
-        "unnskyld",
+        "velkommen",
         "takk",
-        "hei",
-        "ha det"
+        "god kveld",
+        "vær så snill"
       ],
       "correct": 1,
       "explain": "Svaret er ofte 不客气 bú kèqi – ingen årsak."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva betyr 妈 mā?",
         "options": [
-          "hest",
+          "ris",
           "mor",
-          "hamp",
-          "skjelle ut"
+          "hund",
+          "bok"
         ],
         "correct": 1,
         "explain": "1. tone: høy og jevn.",
@@ -327,9 +327,9 @@
         "text": "Hva betyr 再见 zàijiàn?",
         "options": [
           "ha det",
-          "god morgen",
-          "takk",
-          "unnskyld"
+          "god kveld",
+          "vær så snill",
+          "velkommen"
         ],
         "correct": 0,
         "explain": "Bokstavelig: «se igjen»."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvilken strategi er nyttig når du øver på toner?",
         "options": [
-          "Å se bort fra tonene",
-          "Å bare lese pinyin stille",
-          "Å ta opp seg selv og sammenligne med en morsmålsbruker",
-          "Å lære tonene til slutt"
+          "Å pugge tonenavn uten å øve på uttalen av stavelsene",
+          "Å skrive pinyin om igjen uten å lytte til tonehøyden",
+          "Å ta opp egen uttale og sammenligne med en morsmålsbruker",
+          "Å lese om tonene uten å sammenligne egen uttale med lyd"
         ],
         "correct": 2,
         "explain": "Lytting og etterligning er viktig."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

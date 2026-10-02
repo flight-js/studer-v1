@@ -78,7 +78,7 @@
         "el",
         "los",
         "la",
-        "un"
+        "las"
       ],
       "correct": 2,
       "explain": "«la casa» betyr huset."
@@ -90,7 +90,7 @@
         "hablo",
         "hablas",
         "habla",
-        "hablan"
+        "hablamos"
       ],
       "correct": 0,
       "explain": "Med «yo» ender verbet på -o."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er flertall av «la ciudad» (byen)?",
       "options": [
-        "las ciudads",
+        "las ciudad",
         "las ciudades",
         "los ciudades",
-        "la ciudades"
+        "las ciudads"
       ],
       "correct": 1,
       "explain": "Ord som slutter på konsonant, får -es."
@@ -135,9 +135,9 @@
       "id": "q06",
       "text": "Hvorfor kan man ofte sløyfe pronomenet på spansk?",
       "options": [
-        "Fordi det er uhøflig",
-        "Fordi pronomen ikke finnes",
-        "Fordi det alltid står til slutt",
+        "Fordi verbet har samme form for alle personer",
+        "Fordi pronomenet viser når handlingen skjer",
+        "Fordi spanske verb ikke bøyes etter personen",
         "Fordi verbendelsen viser hvem som gjør noe"
       ],
       "correct": 3,
@@ -149,8 +149,8 @@
       "options": [
         "No vivo en Madrid.",
         "Vivo no en Madrid.",
-        "Vivo en Madrid no.",
-        "Yo no vive en Madrid."
+        "No vivo a Madrid.",
+        "No vive en Madrid."
       ],
       "correct": 0,
       "explain": "«no» står rett foran verbet."
@@ -335,9 +335,9 @@
         "text": "Hvilken setning er riktig?",
         "options": [
           "Estoy cansado.",
-          "Soy cansado hoy.",
+          "Soy cansado.",
           "Tengo cansado.",
-          "Es cansado yo."
+          "Estoy cansados."
         ],
         "correct": 0,
         "explain": "Å være trøtt er en tilstand, derfor «estar»."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

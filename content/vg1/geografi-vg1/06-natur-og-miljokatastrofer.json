@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva avgjør hvor store konsekvenser en naturfare får?",
       "options": [
-        "Bare hvor sterk faren er",
-        "Både faren og samfunnets sårbarhet",
-        "Bare været",
-        "Bare antall innbyggere"
+        "Faren og samfunnets mediedekning",
+        "Faren og samfunnets sårbarhet",
+        "Været og befolkningens størrelse",
+        "Mediedekningen og antall varsler"
       ],
       "correct": 1,
       "explain": "Risiko = fare × sårbarhet."
@@ -93,9 +93,9 @@
       "text": "Hva er vanligvis årsaken til en tsunami?",
       "options": [
         "Jordskjelv under havbunnen",
-        "Sterk vind",
-        "Tidevann",
-        "Snøsmelting"
+        "Sterk vind over havet",
+        "Månens påvirkning på tidevannet",
+        "Rask smelting av havis"
       ],
       "correct": 0,
       "explain": "Havbunnen flytter seg brått og skyver vannmassene."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er kvikkleire?",
       "options": [
-        "Leire fra vulkaner",
-        "Sand i ørkener",
-        "Marin leire som kan bli flytende når den forstyrres",
-        "Leire brukt i keramikk"
+        "Kvikkleire er marin leire som blir fast når den forstyrres.",
+        "Kvikkleire er leire fra havbunnen som blir flytende når den tørker.",
+        "Kvikkleire er marin leire som kan bli flytende når den forstyrres.",
+        "Kvikkleire er leire fra elveavsetninger som blir flytende når den forstyrres."
       ],
       "correct": 2,
       "explain": "Kvikkleire finnes under den marine grensen fra etter istiden."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvilken av disse er en miljøkatastrofe?",
       "options": [
-        "Et jordskjelv",
-        "En orkan",
-        "Et vulkanutbrudd",
+        "Et stort jordskjelv",
+        "En kraftig orkan",
+        "Et stort vulkanutbrudd",
         "Et stort oljeutslipp"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hvor dannes tropiske sykloner?",
       "options": [
         "Over varmt hav",
-        "Over isbreer",
-        "I ørkener",
-        "I fjellområder"
+        "Over kalde havområder",
+        "Over varme kontinenter",
+        "Over høye fjellområder"
       ],
       "correct": 0,
       "explain": "Varmt havvann gir energi til stormen."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvorfor dør ofte flere i fattige land når et jordskjelv rammer?",
       "options": [
-        "Fordi jordskjelvene alltid er sterkere der",
+        "Fordi jordskjelvene er kraftigere i fattige land",
         "Fordi bygningene er dårligere og beredskapen svakere",
-        "Fordi det bor færre folk der",
-        "Fordi det ikke finnes plategrenser der"
+        "Fordi fattige land ligger lenger fra plategrenser",
+        "Fordi jordskjelvene varer lenger i fattige land"
       ],
       "correct": 1,
       "explain": "Sårbarheten er større."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Når gikk kvikkleireskredet i Gjerdrum?",
       "options": [
-        "2004",
-        "2011",
+        "30. desember 2004",
+        "30. desember 2011",
         "30. desember 2020",
-        "1986"
+        "30. desember 1986"
       ],
       "correct": 2,
       "explain": "11 mennesker omkom.",
@@ -165,7 +165,7 @@
       "id": "q08",
       "text": "Hvor kan du finne varsler om skred og flom i Norge?",
       "options": [
-        "Yr.no alene",
+        "Yr.no",
         "Finn.no",
         "Nav.no",
         "Varsom.no"
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hvorfor har Aralsjøen nesten tørket inn?",
       "options": [
-        "Elvene som renner inn i den, ble brukt til vanning av bomullsåkre",
-        "Et jordskjelv",
-        "En tsunami",
-        "Et vulkanutbrudd"
+        "Elvene som renner inn, ble brukt til å vanne bomullsåkre.",
+        "Elvene som renner inn, ble brukt til å drive fabrikker langs kysten.",
+        "Vannet i sjøen ble brukt til å vanne bomullsåkre.",
+        "Elvene som renner inn, ble ledet ut for å fylle nærliggende innsjøer."
       ],
       "correct": 0,
       "explain": "Det er et eksempel på en menneskeskapt miljøkatastrofe.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvordan kan klimaendringene påvirke naturfarer?",
       "options": [
-        "De gjør alle naturfarer sjeldnere",
-        "De kan gjøre ekstremnedbør, tørke og hetebølger hyppigere og kraftigere",
-        "De påvirker bare jordskjelv",
-        "De har ingen betydning"
+        "De kan gjøre ekstremnedbør, tørke og hetebølger sjeldnere og svakere.",
+        "De kan gjøre ekstremnedbør, tørke og hetebølger hyppigere og kraftigere.",
+        "De kan gjøre jordskjelv, tørke og hetebølger hyppigere og kraftigere.",
+        "De kan gjøre ekstremnedbør, vulkanutbrudd og hetebølger hyppigere og kraftigere."
       ],
       "correct": 1,
       "explain": "Jordskjelv og vulkaner påvirkes ikke av klimaet på samme måte."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hvilket år rammet tsunamien i Indiahavet?",
         "options": [
-          "1986",
+          "2006",
           "2004",
-          "2010",
-          "2023"
+          "2011",
+          "2018"
         ],
         "correct": 1,
         "explain": "Rundt 230 000 mennesker døde.",
@@ -340,9 +340,9 @@
         "text": "Hva er stormflo?",
         "options": [
           "Ekstra høy vannstand på grunn av vind og lavtrykk",
-          "En type snøskred",
-          "Et vulkanutbrudd under vann",
-          "Et jordskjelv"
+          "Ekstra høy vannstand på grunn av kraftig regn og snøsmelting",
+          "Ekstra høye bølger på grunn av vind og lavtrykk",
+          "Ekstra høy vannstand på grunn av jordskjelv under havet"
         ],
         "correct": 0,
         "explain": "Stormflo kan gi store oversvømmelser langs kysten."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak forebygger skader ved kvikkleireskred?",
         "options": [
-          "Å bygge flere hus i utsatte områder",
-          "Å fjerne varslingssystemer",
+          "Å kartlegge flomsoner og ta hensyn til dem i arealplanleggingen",
+          "Å undersøke kvikkleire og bygge boliger nærmest mulig elva",
           "Å kartlegge kvikkleiresoner og ta hensyn til dem i arealplanleggingen",
-          "Å plante trær på stranda"
+          "Å varsle om kvikkleire først etter at grunnen har begynt å bevege seg"
         ],
         "correct": 2,
         "explain": "Kunnskap om grunnforholdene er avgjørende."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

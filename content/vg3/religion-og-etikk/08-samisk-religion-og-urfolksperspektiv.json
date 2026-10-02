@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er urfolksperspektivet på religion i Norge?",
       "options": [
-        "Flertallets syn",
-        "Hvordan samene har opplevd religion",
-        "Hvordan innvandrere ser religion",
-        "Hvordan staten ser religion"
+        "Hvordan majoritetsbefolkningen har opplevd religion og kristendommen",
+        "Hvordan samene har opplevd egen religion og kristendommen",
+        "Hvordan innvandrergrupper har opplevd religion og kristendommen",
+        "Hvordan norske myndigheter har vurdert religion og kristendommen"
       ],
       "correct": 1,
       "explain": "Både egen religion og møtet med kristendommen."
@@ -91,9 +91,9 @@
       "text": "Hva er en sieidi?",
       "options": [
         "Et hellig sted, ofte en stein eller et fjell",
-        "En tromme",
-        "En sang",
-        "En prest"
+        "Et hellig redskap, ofte en tromme brukt av noaiden",
+        "En religiøs handling, ofte en sang framført ved offer",
+        "En religiøs leder, ofte en noaide som utførte ritualer"
       ],
       "correct": 0,
       "explain": "Der man ga offer."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva gjorde noaiden?",
       "options": [
-        "Ledet gudstjenester",
-        "Underviste i skolen",
+        "Ledet kristne gudstjenester i samiske bygder",
+        "Underviste samiske barn på internatskoler",
         "Reiste til åndeverdenen i transe",
-        "Solgte varer"
+        "Handlet med varer på markeder i nord"
       ],
       "correct": 2,
       "explain": "Med hjelp av runebomma."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er joik?",
       "options": [
-        "En tromme",
-        "En gud",
-        "Et hellig sted",
+        "Et blåseinstrument som brukes under religiøse ritualer",
+        "En guddom som beskytter mennesker og dyr",
+        "Et hellig sted der man gir offergaver",
         "En sangform som gjør noe eller noen nærværende"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva skjedde med runebommene under misjonen?",
       "options": [
         "De ble beslaglagt og brent",
-        "De ble satt i kirkene",
-        "De ble solgt",
-        "De ble fredet"
+        "De ble oppbevart i kirkene som kristne gjenstander",
+        "De ble solgt videre til handelsfolk",
+        "De ble levert tilbake til noaider etter misjonen"
       ],
       "correct": 0,
       "explain": "Noaider ble forfulgt."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor fikk læstadianismen stor oppslutning blant samer og kvener?",
       "options": [
-        "Fordi den forbød samisk",
+        "Fordi den avviste samisk og finsk og støttet fornorskingen",
         "Fordi den brukte samisk og finsk og kritiserte utnytting",
-        "Fordi den var statens kirke",
-        "Fordi den var ny teknologi"
+        "Fordi den var statskirkens forkynnelse og fulgte myndighetenes politikk",
+        "Fordi den innførte moderne skoler og nye arbeidsmetoder i nord"
       ],
       "correct": 1,
       "explain": "Den møtte folk på deres språk.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilken rolle hadde kirken i fornorskingspolitikken?",
       "options": [
-        "Den motarbeidet den",
-        "Den hadde ingen rolle",
+        "Den var en motkraft mot fornorskingen",
+        "Den sto utenfor arbeidet med fornorskingen",
         "Den var et redskap for fornorskingen",
-        "Den styrket samisk språk"
+        "Den fremmet samisk språk i norske skoler"
       ],
       "correct": 2,
       "explain": "Kirken har senere beklaget."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er revitalisering?",
       "options": [
-        "Fornorsking",
-        "Misjon",
-        "Sekularisering",
+        "Tilpasning av kultur og religion til majoriteten",
+        "Spredning av kristendom gjennom misjon",
+        "Svekkelse av religion gjennom sekularisering",
         "Gjenoppliving av kultur og religion"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvem var Beaivi i samisk religion?",
       "options": [
         "Sola",
-        "Havet",
         "Månen",
-        "Tordenen"
+        "Vinden",
+        "Tordenguden"
       ],
       "correct": 0,
       "explain": "En viktig guddom.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva kan minoriteter oppleve?",
       "options": [
-        "Bare fordommer",
-        "Både fordommer og sterkt fellesskap",
-        "Bare fellesskap",
-        "Ingen forskjell fra majoriteten"
+        "Både religiøs enhet og felles språk i hele gruppen",
+        "Både negative fordommer og et sterkt fellesskap",
+        "Både økonomisk likhet og felles politiske standpunkter",
+        "Både kulturell enhet og felles livssyn blant medlemmene"
       ],
       "correct": 1,
       "explain": "Minoritetsperspektivet."
@@ -325,9 +325,9 @@
         "text": "Hva beskyttet Máttaráhkká og hennes døtre?",
         "options": [
           "Fødsler og barn",
-          "Reinflokken",
-          "Fisket",
-          "Krigere"
+          "Reinsdyr og beiteområder",
+          "Fiske og fangst",
+          "Krigere og jaktlag"
         ],
         "correct": 0,
         "explain": "Kvinnelige guddommer.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvorfor er samiske hellige steder viktige i dag?",
         "options": [
-          "De er turistmål alene",
-          "De har ingen betydning",
-          "De er sentrale i urfolksrettigheter og konflikter om arealbruk",
-          "De skal flyttes"
+          "De er først og fremst kulturminner uten tilknytning til arealbruk",
+          "De er sentrale i kirkens arbeid med å bevare eldre kirkebygg",
+          "De står sentralt i urfolksrettigheter og arealkonflikter",
+          "De er sentrale i samiske språkkrav og opplæring i skolene"
         ],
         "correct": 2,
         "explain": "For eksempel vindkraft og gruvedrift."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

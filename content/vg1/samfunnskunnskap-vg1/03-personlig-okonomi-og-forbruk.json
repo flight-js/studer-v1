@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er et budsjett?",
       "options": [
-        "En type lån",
+        "En oversikt over lån og renter",
         "En plan for inntekter og utgifter",
-        "En skatt",
-        "En regning"
+        "En liste over betalte regninger",
+        "En oversikt over skatter og avgifter"
       ],
       "correct": 1,
       "explain": "Budsjettet gir oversikt over økonomien."
@@ -91,9 +91,9 @@
       "text": "Hvilken type lån har vanligvis høyest rente?",
       "options": [
         "Forbrukslån",
-        "Boliglån",
-        "Studielån",
-        "Billån med sikkerhet"
+        "Rammelån med pant",
+        "Lån fra Lånekassen",
+        "Billån med pant"
       ],
       "correct": 0,
       "explain": "Forbrukslån har ingen sikkerhet og derfor høy rente."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva kan en betalingsanmerkning føre til?",
       "options": [
-        "Lavere skatt",
-        "Høyere lønn",
-        "At det blir vanskelig å få lån og leie bolig",
-        "Gratis mobilabonnement"
+        "At regninger får lengre betalingsfrist",
+        "At banken setter ned renten på lånet",
+        "At det blir vanskeligere å få lån og leie bolig",
+        "At ubetalt gjeld blir slettet etter kort tid"
       ],
       "correct": 2,
       "explain": "Ubetalt gjeld kan få store konsekvenser."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva krever markedsføringsloven når en influenser får betalt for å vise et produkt?",
       "options": [
-        "At produktet er norsk",
-        "At influenseren har mange følgere",
-        "At produktet er billig",
+        "At influenseren oppgir produktets fulle pris",
+        "At influenseren oppgir hvor produktet er produsert",
+        "At innlegget viser hvor produktet kan kjøpes",
         "At reklamen er tydelig merket"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvor lenge har du vanligvis angrerett ved kjøp på nett?",
       "options": [
         "14 dager",
-        "1 dag",
-        "1 år",
-        "Ingen angrerett"
+        "7 dager",
+        "30 dager",
+        "60 dager"
       ],
       "correct": 0,
       "explain": "Angreretten gjelder de fleste varer kjøpt på nett."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er effektiv rente?",
       "options": [
-        "Renten før skatt",
-        "Renten inkludert alle kostnader og gebyrer",
-        "Renten på sparekonto",
-        "Renten etter ett år"
+        "Renten regnet før kostnader og gebyrer",
+        "Renten regnet med alle kostnader og gebyrer",
+        "Renten som gjelder for penger på sparekonto",
+        "Renten som legges til lånet etter hvert år"
       ],
       "correct": 1,
       "explain": "Bruk effektiv rente når du sammenligner lån."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvordan kan forbruk påvirke samfunnet negativt?",
       "options": [
-        "Det gir flere arbeidsplasser",
-        "Det gir økonomisk vekst",
+        "Det fører til lavere utslipp, mindre avfall og mindre ressursbruk",
+        "Det gir renere natur, mindre forurensning og bedre dyrevelferd",
         "Det gir klimautslipp, avfall og press på naturressurser",
-        "Det gir mer fritid"
+        "Det gir mindre energibruk, færre utslipp og mindre transport"
       ],
       "correct": 2,
       "explain": "Forbruk har både positive og negative sider."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvem kan gi gratis økonomisk rådgivning til folk med gjeldsproblemer?",
       "options": [
-        "Inkassoselskaper",
-        "Forbrukslånsbanker",
-        "Influensere",
+        "Skatteetaten",
+        "Forbrukertilsynet",
+        "Lånekassen",
         "NAV"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er en buffer i privatøkonomien?",
       "options": [
         "Penger satt av til uforutsette utgifter",
-        "Et lån",
-        "En type reklame",
-        "En skatt"
+        "Penger lånt til større innkjøp",
+        "Penger brukt på faste regninger",
+        "Penger spart til planlagte ferier"
       ],
       "correct": 0,
       "explain": "En buffer gjør det lettere å takle en uventet regning."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor kan tilbud som «bare i dag» være problematiske?",
       "options": [
-        "Fordi de alltid er ulovlige",
+        "Fordi de gjør at kunden mister retten til å klage på feil",
         "Fordi de skaper kjøpepress og får oss til å handle raskt uten å tenke",
-        "Fordi varene er dårlige",
-        "Fordi de bare gjelder voksne"
+        "Fordi de gjør at kunden mister angreretten etter nettkjøp",
+        "Fordi de binder kunden til å kjøpe flere varer samtidig"
       ],
       "correct": 1,
       "explain": "Tidspress er en vanlig påvirkningsteknikk."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva er en fast utgift?",
         "options": [
-          "Kinobilletter",
-          "Klær",
+          "Kafébesøk",
+          "Konsertbilletter",
           "Husleie",
-          "Gaver"
+          "Sesongklær"
         ],
         "correct": 2,
         "explain": "Faste utgifter er like hver måned."
@@ -335,9 +335,9 @@
         "text": "Hvem passer på at reglene for markedsføring følges?",
         "options": [
           "Forbrukertilsynet",
-          "Politiet",
-          "Skolen",
-          "Bankene"
+          "Forbrukerrådet",
+          "Datatilsynet",
+          "Medietilsynet"
         ],
         "correct": 0,
         "explain": "Forbrukerrådet hjelper forbrukere med klager.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva betyr det å være en bevisst forbruker?",
         "options": [
-          "Å kjøpe det billigste alltid",
+          "Å velge laveste pris uten å vurdere behov eller kvalitet",
           "Å tenke over behov, kvalitet, pris og konsekvenser før man kjøper",
-          "Å aldri kjøpe noe",
-          "Å kjøpe det influensere anbefaler"
+          "Å følge råd fra reklamer og influensere før man kjøper",
+          "Å velge miljømerkede varer uten å sammenligne pris eller behov"
         ],
         "correct": 1,
         "explain": "Bevisste valg er bra både for økonomien og miljøet."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

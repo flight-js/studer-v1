@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hvilken konvensjon gir rett til arbeid, helse og sosial trygghet?",
       "options": [
-        "SP",
+        "EMK",
         "ØSK",
-        "EMK artikkel 10",
-        "Genèvekonvensjonen"
+        "Barnekonvensjonen",
+        "Flyktningkonvensjonen"
       ],
       "correct": 1,
       "explain": "Økonomiske, sosiale og kulturelle rettigheter."
@@ -94,9 +94,9 @@
       "text": "Hva sier Grunnloven § 104?",
       "options": [
         "At barnets beste skal være et grunnleggende hensyn",
-        "At alle har stemmerett",
-        "At kongen er ukrenkelig",
-        "At skolen er gratis"
+        "At alle borgere har stemmerett fra fylte 18 år",
+        "At kongen ikke kan holdes ansvarlig for sine handlinger",
+        "At opplæringen i offentlige grunnskoler skal være gratis"
       ],
       "correct": 0,
       "explain": "Og at barn har rett til å bli hørt.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva betyr at velferd ses som en rettighet?",
       "options": [
-        "At velferd er veldedighet",
-        "At bare noen får hjelp",
+        "At hjelp gis som veldedighet etter giverens vurdering",
+        "At hjelp gis etter kommunens skjønn uten faste vilkår",
         "At man har krav på hjelp når vilkårene er oppfylt",
-        "At velferd er gratis for alle"
+        "At hjelpen fordeles likt uavhengig av den enkeltes situasjon"
       ],
       "correct": 2,
       "explain": "Ikke avhengig av godvilje."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hvilken institusjon overvåker menneskerettighetene i Norge?",
       "options": [
-        "NAV",
-        "Lånekassen",
-        "Skatteetaten",
+        "Likestillings- og diskrimineringsombudet",
+        "Sivilombudet",
+        "Barneombudet",
         "Norges institusjon for menneskerettigheter"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "På hvilket område har Norge fått kritikk fra EMD?",
       "options": [
         "Barnevern",
-        "Skatt",
-        "Veibygging",
-        "Fiskeri"
+        "Skattefastsetting",
+        "Fiskeriforvaltning",
+        "Veiplanlegging"
       ],
       "correct": 0,
       "explain": "Retten til familieliv.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva krever CRPD?",
       "options": [
-        "At alle skal ha bil",
+        "At personer med funksjonsnedsettelser får økonomisk støtte framfor deltakelse",
         "At mennesker med funksjonsnedsettelser kan delta på like vilkår",
-        "At alle må jobbe",
-        "At skolen er privat"
+        "At personer med funksjonsnedsettelser får egne tjenester uten krav om tilgjengelighet",
+        "At kommunene overtar ansvaret for behandling av funksjonsnedsettelser"
       ],
       "correct": 1,
       "explain": "Har påvirket universell utforming."
@@ -168,9 +168,9 @@
       "id": "q08",
       "text": "Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?",
       "options": [
-        "Fordi rettighetene ikke gjelder",
-        "Fordi politikere kan se bort fra dem",
-        "Fordi alt er bestemt av FN",
+        "Fordi menneskerettighetene først blir bindende etter vedtak i Stortinget",
+        "Fordi FN fastsetter konkrete velferdsbudsjetter for hvert enkelt land",
+        "Fordi rettighetene gjelder individet, mens velferdspolitikk gjelder samfunnet",
         "Fordi rettighetene gir minimumskrav og skal oppfylles gradvis"
       ],
       "correct": 3,
@@ -181,9 +181,9 @@
       "text": "Når kom FNs verdenserklæring om menneskerettighetene?",
       "options": [
         "1948",
-        "1814",
-        "1989",
-        "2014"
+        "1945",
+        "1966",
+        "1989"
       ],
       "correct": 0,
       "explain": "Etter andre verdenskrig."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvem behandler klager om diskriminering?",
       "options": [
-        "Stortinget",
+        "Sivilombudet",
         "Diskrimineringsnemnda",
-        "NAV",
-        "Politiet alene"
+        "Likestillings- og diskrimineringsombudet",
+        "Forbrukertilsynet"
       ],
       "correct": 1,
       "explain": "Etter veiledning fra ombudet.",
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva gjør Barneombudet?",
         "options": [
-          "Dømmer i barnevernssaker",
+          "Avgjør klager på barnevernets vedtak",
           "Fremmer barns interesser",
-          "Driver barnehager",
-          "Utbetaler barnetrygd"
+          "Driver offentlige barnehager",
+          "Behandler søknader om barnetrygd"
         ],
         "correct": 1,
         "explain": "Et talerør for barn.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hvilken lov har blitt påvirket av barnekonvensjonen?",
         "options": [
-          "Veitrafikkloven",
-          "Skatteloven",
+          "Folketrygdloven",
+          "Arbeidsmiljøloven",
           "Barnevernsloven",
-          "Tolloven"
+          "Aksjeloven"
         ],
         "correct": 2,
         "explain": "Også barneloven og opplæringsloven.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

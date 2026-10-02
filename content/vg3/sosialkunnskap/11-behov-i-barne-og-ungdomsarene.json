@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er de tre behovene i selvbestemmelsesteorien?",
       "options": [
-        "Mat, søvn og bolig",
+        "Trygghet, anerkjennelse og selvrealisering",
         "Autonomi, kompetanse og tilhørighet",
-        "Trygghet, penger og status",
-        "Arbeid, skole og fritid"
+        "Mat, trygghet og sosial status",
+        "Tilhørighet, trygghet og anerkjennelse"
       ],
       "correct": 1,
       "explain": "Deci og Ryan."
@@ -91,9 +91,9 @@
       "text": "Hva ligger nederst i Maslows behovspyramide?",
       "options": [
         "Fysiologiske behov",
-        "Selvrealisering",
-        "Anerkjennelse",
-        "Tilhørighet"
+        "Sosiale behov",
+        "Behov for trygghet",
+        "Behov for anerkjennelse"
       ],
       "correct": 0,
       "explain": "Mat, drikke og søvn."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er en vanlig kritikk av Maslows modell?",
       "options": [
-        "At den er for ny",
-        "At den bare gjelder dyr",
+        "At den er for fleksibel",
+        "At den legger for stor vekt på økonomi",
         "At den er for rigid",
-        "At den handler om økonomi"
+        "At den forklarer behov som medfødte drifter alene"
       ],
       "correct": 2,
       "explain": "Behov dekkes ikke alltid i rekkefølge."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvilken velferdsordning griper inn når foreldrene ikke gir forsvarlig omsorg?",
       "options": [
-        "Lånekassen",
-        "NAV pensjon",
-        "Skatteetaten",
+        "Familievernet",
+        "Helsestasjonen",
+        "PPT-tjenesten",
         "Barnevernet"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er livsmestring?",
       "options": [
         "Å kunne håndtere utfordringer og ta gode valg",
-        "Å vinne konkurranser",
-        "Å ha mye penger",
-        "Å aldri ha problemer"
+        "Å kunne unngå uenighet ved å gjøre som andre forventer",
+        "Å kunne holde seg rolig ved å unngå vanskelige situasjoner",
+        "Å kunne lykkes på skolen ved å arbeide målrettet hver dag"
       ],
       "correct": 0,
       "explain": "Tverrfaglig tema i skolen."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva blir viktigere i ungdomstiden?",
       "options": [
-        "Bare foreldre",
+        "Foreldre og lydighet",
         "Jevnaldrende og selvstendighet",
-        "Barnehage",
-        "Søvnbehovet forsvinner"
+        "Lærere og skoleprestasjoner",
+        "Søsken og familieansvar"
       ],
       "correct": 1,
       "explain": "Men ungdom trenger fortsatt trygge voksne."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er autonomi?",
       "options": [
-        "Å være alene",
-        "Å bestemme over andre",
+        "Å klare seg uten hjelp fra familie og venner",
+        "Å bestemme hvordan andre skal handle i ulike situasjoner",
         "Å oppleve at man selv styrer handlingene sine",
-        "Å ha egen bil"
+        "Å få anerkjennelse for egne valg fra menneskene rundt seg"
       ],
       "correct": 2,
       "explain": "Selvbestemmelse."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvorfor klarer mange barn seg godt tross belastninger?",
       "options": [
-        "Fordi belastninger ikke betyr noe",
-        "Fordi de har mye penger",
-        "Fordi de glemmer alt",
+        "Fordi barn raskt venner seg til belastninger og blir mindre påvirket",
+        "Fordi belastninger vanligvis går over før de får følger",
+        "Fordi barn lærer å skjule vansker for de voksne rundt seg",
         "På grunn av beskyttende faktorer som en trygg voksen"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvordan henger velferdsordninger sammen med livsmestring?",
       "options": [
         "De bidrar til at behov dekkes, som gir grunnlag for mestring",
-        "De har ingen sammenheng",
-        "De erstatter all omsorg",
-        "De hindrer mestring"
+        "De erstatter støtte fra familie og venner, slik at unge blir selvstendige",
+        "De fjerner belastningene i hverdagen, slik at mestring ikke lenger blir nødvendig",
+        "De lærer ungdom å løse problemer uten at andre behov må dekkes"
       ],
       "correct": 0,
       "explain": "Trygghet gir overskudd."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er skolehelsetjenesten?",
       "options": [
-        "En skatteordning",
+        "Lærerteam og rådgivningstjeneste i skolen",
         "Helsesykepleier og helsetilbud i skolen",
-        "En type lærer",
-        "En eksamen"
+        "Fastlegekontor og behandlingstilbud for elever",
+        "Psykologtjeneste og spesialundervisning på skolen"
       ],
       "correct": 1,
       "explain": "Lavterskel hjelp.",
@@ -312,7 +312,7 @@
           "Trygghet",
           "Selvrealisering",
           "Tilhørighet",
-          "Mat"
+          "Anerkjennelse"
         ],
         "correct": 1,
         "explain": "Å utvikle sitt potensial."
@@ -323,9 +323,9 @@
         "text": "Hvilken ordning gir tilskudd til fritidsaktiviteter?",
         "options": [
           "Fritidskort",
-          "Studielån",
-          "Pensjon",
-          "Sykepenger"
+          "Bostøtte",
+          "Barnetrygd",
+          "Kontantstøtte"
         ],
         "correct": 0,
         "explain": "Gir alle barn mulighet til å delta.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva kan føre til at barns behov ikke dekkes?",
         "options": [
-          "Gode venner",
-          "Trygg skole",
+          "Støttende lærere, gode venner eller stabile boforhold",
+          "Trygge voksne, faste rutiner eller et godt skolemiljø",
           "Omsorgssvikt, vold eller fattigdom",
-          "Fritidsaktiviteter"
+          "Gode fritidstilbud, sosial støtte eller positive forventninger"
         ],
         "correct": 2,
         "explain": "Risikofaktorer."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

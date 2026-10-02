@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
-        "Vær er hvordan det er nå, klima er gjennomsnittet over lang tid",
-        "Klima er været i morgen",
-        "Vær gjelder hele jorda, klima ett sted"
+        "Vær beskriver forholdene nå, mens klima beskriver været neste uke.",
+        "Vær beskriver forholdene nå, mens klima er gjennomsnittsværet over lang tid.",
+        "Vær er gjennomsnittet over lang tid, mens klima beskriver forholdene nå.",
+        "Vær gjelder et stort område, mens klima gjelder et lite område."
       ],
       "correct": 1,
       "explain": "Klima er gjennomsnittsværet over rundt 30 år."
@@ -91,8 +91,8 @@
       "text": "Hva ville gjennomsnittstemperaturen på jorda vært uten den naturlige drivhuseffekten?",
       "options": [
         "Rundt −18 °C",
-        "Rundt +30 °C",
-        "Rundt 0 °C",
+        "Rundt −5 °C",
+        "Rundt +5 °C",
         "Rundt +15 °C"
       ],
       "correct": 0,
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er hovedårsaken til den forsterkede drivhuseffekten?",
       "options": [
-        "Flere vulkanutbrudd",
-        "At sola har blitt mye sterkere",
-        "Endringer i jordbanen",
+        "Endringer i mengden sollys som når jorda",
+        "Naturlige utslipp fra vulkaner og skogbranner",
+        "Endringer i jordas bane rundt sola",
         "Menneskeskapte utslipp av drivhusgasser"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvorfor forsterker smeltende is oppvarmingen?",
       "options": [
-        "Fordi isen er varm",
-        "Fordi mørkere hav og land tar opp mer sollys enn hvit is",
-        "Fordi isen slipper ut CO₂",
-        "Den forsterker ikke oppvarmingen"
+        "Mindre is gjør at mer sollys reflekteres ut i verdensrommet.",
+        "Mørkt hav og land tar opp mer sollys enn hvit is.",
+        "Hvit is tar opp mer sollys enn mørkt hav og land.",
+        "Mørkt hav og land sender mer sollys tilbake enn hvit is."
       ],
       "correct": 1,
       "explain": "Dette er en tilbakekobling via albedo: mindre is gir mer oppvarming, som gir enda mindre is."
@@ -139,9 +139,9 @@
       "text": "Hva ble landene enige om i Parisavtalen?",
       "options": [
         "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C",
-        "Å stoppe all bilkjøring",
-        "Å øke oljeproduksjonen",
-        "Å flytte til Mars"
+        "Å begrense oppvarmingen til godt under 3 °C, helst 2 °C",
+        "Å begrense oppvarmingen til godt under 1 °C, helst 0,5 °C",
+        "Å holde den globale oppvarmingen på dagens nivå fram til 2050"
       ],
       "correct": 0,
       "explain": "Parisavtalen fra 2015 setter målet for den globale temperaturøkningen.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor stiger havnivået?",
       "options": [
-        "Fordi det regner mer",
-        "Fordi fisk tar mer plass",
-        "Fordi isbreer smelter og varmt havvann utvider seg",
-        "Fordi havbunnen stiger"
+        "Fordi smeltende havis tilfører havet mye ekstra vann.",
+        "Fordi saltet i havet utvider seg når vannet blir varmere.",
+        "Fordi isbreer smelter og varmt havvann utvider seg.",
+        "Fordi havbunnen løftes opp og skyver vannet mot land."
       ],
       "correct": 2,
       "explain": "Både smeltevann fra is på land og termisk utvidelse av havvannet bidrar."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva kan et stort vulkanutbrudd gjøre med klimaet?",
       "options": [
-        "Gjøre det varmere i mange hundre år",
-        "Ingenting",
-        "Stoppe drivhuseffekten",
-        "Kjøle det ned i et par år"
+        "Varme klimaet opp i et par år",
+        "Kjøle klimaet ned i flere tiår",
+        "Varme klimaet opp i flere tiår",
+        "Kjøle klimaet ned i et par år"
       ],
       "correct": 3,
       "explain": "Partikler i atmosfæren reflekterer sollys og gir en kortvarig nedkjøling."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva er FNs klimapanel (IPCC)?",
       "options": [
-        "En organisasjon som sammenstiller klimaforskningen",
-        "Et selskap som selger strøm",
-        "En norsk forskningsstasjon",
-        "En værmelding"
+        "En organisasjon som sammenstiller klimaforskning",
+        "En organisasjon som bestemmer klimapolitikken",
+        "En organisasjon som lager værvarsler",
+        "En organisasjon som utfører klimaforskning"
       ],
       "correct": 0,
       "explain": "IPCC vurderer forskningen og gir rapporter om klimaendringer.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvorfor blir havet surere?",
       "options": [
-        "På grunn av plast",
+        "Fordi plast løses opp i sjøvannet",
         "Fordi havet tar opp CO₂",
-        "På grunn av salt",
-        "Fordi det blir kaldere"
+        "Fordi salt blir omdannet til syre i havet",
+        "Fordi kaldt vann lager mer syre i havet"
       ],
       "correct": 1,
       "explain": "CO₂ løses i sjøvann og danner en svak syre. Det kalles havforsuring."
@@ -321,9 +321,9 @@
         "text": "Hva slags stråling holder drivhusgassene igjen?",
         "options": [
           "Radiobølger",
-          "Varmestråling (infrarød)",
-          "Røntgenstråling",
-          "Lydbølger"
+          "Infrarød varmestråling",
+          "Ultrafiolett stråling",
+          "Synlig lys"
         ],
         "correct": 1,
         "explain": "Jorda sender ut infrarød varmestråling, som drivhusgassene tar opp."
@@ -334,9 +334,9 @@
         "text": "Hvor mye har jordas gjennomsnittstemperatur steget siden førindustriell tid?",
         "options": [
           "Over 1 °C",
-          "Over 10 °C",
-          "0 °C",
-          "Over 5 °C"
+          "Over 2 °C",
+          "Over 5 °C",
+          "Rundt 0 °C"
         ],
         "correct": 0,
         "explain": "Oppvarmingen er allerede over 1 °C, og den fortsetter."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak reduserer utslippene av klimagasser?",
         "options": [
-          "Mer kullkraft",
-          "Hogst av regnskog",
+          "Økt bruk av kullkraft",
+          "Økt bruk av bensinbiler",
           "Overgang til fornybar energi",
-          "Drenering av myr"
+          "Økt hogst av skog"
         ],
         "correct": 2,
         "explain": "Fornybar energi erstatter fossile brensler og gir lavere utslipp."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

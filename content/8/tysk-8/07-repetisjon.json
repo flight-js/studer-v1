@@ -93,7 +93,8 @@
     },
     {
       "term": "die Schweiz – Bern",
-      "def": "Sveits, med hovedstaden Bern og fire offisielle språk"
+      "def": "Sveits, med hovedstaden Bern og fire offisielle språk",
+      "niva": "eksempel"
     },
     {
       "term": "die Alpen",
@@ -106,8 +107,8 @@
       "text": "Hvordan sier du «Jeg kommer fra Norge» på tysk?",
       "options": [
         "Ich wohne in Norwegen.",
-        "Ich heiße Norwegen.",
-        "Ich bin Norwegen.",
+        "Ich komme aus Schweden.",
+        "Ich komme nach Norwegen.",
         "Ich komme aus Norwegen."
       ],
       "correct": 3,
@@ -117,10 +118,10 @@
       "id": "q02",
       "text": "Når bruker du «Sie» i stedet for «du»?",
       "options": [
-        "Til voksne du ikke kjenner, som en lærer eller ekspeditør",
-        "Til venner",
-        "Til søsken",
-        "Til kjæledyr"
+        "Til ukjente voksne, som lærere eller ekspeditører",
+        "Til venner og klassekamerater som du kjenner",
+        "Til søsken og andre familiemedlemmer som du kjenner",
+        "Til barn og ungdommer som du kjenner godt"
       ],
       "correct": 0,
       "explain": "«Sie» er høflighetsformen."
@@ -132,7 +133,7 @@
         "Verb",
         "Substantiver",
         "Adjektiver",
-        "Tallord"
+        "Pronomen"
       ],
       "correct": 1,
       "explain": "Alle substantiver, som «der Hund» og «die Schule», har stor forbokstav."
@@ -141,10 +142,10 @@
       "id": "q04",
       "text": "Hvordan skriver du 21 på tysk?",
       "options": [
-        "zwanzigeins",
-        "zweiundeins",
+        "zweiundzwanzig",
+        "einunddreißig",
         "einundzwanzig",
-        "zwanzig und eins"
+        "zweiunddreißig"
       ],
       "correct": 2,
       "explain": "Enerne kommer først: «en-og-tjue»."
@@ -155,8 +156,8 @@
       "options": [
         "Halv fire (3.30)",
         "Halv tre (2.30)",
-        "Kvart over fire",
-        "Fire timer"
+        "Kvart over tre (3.15)",
+        "Kvart på fire (3.45)"
       ],
       "correct": 0,
       "explain": "Som på norsk betyr «halb vier» en halv time før fire."
@@ -168,7 +169,7 @@
         "Wie alt bist du?",
         "Wie spät ist es?",
         "Wo wohnst du?",
-        "Wie geht's?"
+        "Wann kommst du?"
       ],
       "correct": 1,
       "explain": "Du kan også si «Wie viel Uhr ist es?»."
@@ -180,7 +181,7 @@
         "mein Mutter",
         "meine Mutter",
         "meinen Mutter",
-        "meines Mutter"
+        "meinem Mutter"
       ],
       "correct": 1,
       "explain": "«Mutter» er hunkjønn, derfor «meine»."
@@ -192,7 +193,7 @@
         "Ich habe ein Bruder.",
         "Ich bin einen Bruder.",
         "Ich habe einen Bruder.",
-        "Ich habe eine Bruder."
+        "Ich habe einen Schwester."
       ],
       "correct": 2,
       "explain": "Etter «haben» får hankjønnsord formen «einen»."
@@ -204,7 +205,7 @@
         "Am Wochenende ich spiele Fußball.",
         "Am Wochenende spiele ich Fußball.",
         "Am Wochenende Fußball ich spiele.",
-        "Ich am Wochenende spiele Fußball."
+        "Am Wochenende spiele Fußball ich."
       ],
       "correct": 1,
       "explain": "Verbet skal stå på andre plass."
@@ -213,10 +214,10 @@
       "id": "q10",
       "text": "Hvordan spør du «Hva liker du å gjøre?»",
       "options": [
-        "Was ist das?",
+        "Was spielst du gern?",
         "Was machst du gern?",
-        "Wo wohnst du?",
-        "Wie spät ist es?"
+        "Was lernst du gern?",
+        "Was liest du gern?"
       ],
       "correct": 1,
       "explain": "«machen» betyr å gjøre."
@@ -237,10 +238,10 @@
       "id": "q12",
       "text": "Hvordan lager du et ja/nei-spørsmål på tysk?",
       "options": [
-        "Du legger til «nicht»",
-        "Du setter subjektet først",
-        "Du setter verbet først",
-        "Du endrer artikkelen"
+        "Subjektet står først i setningen.",
+        "Verbet står sist i setningen.",
+        "Verbet står først i setningen.",
+        "Verbet står etter subjektet."
       ],
       "correct": 2,
       "explain": "For eksempel: «Spielst du Fußball?»"
@@ -249,10 +250,10 @@
       "id": "q13",
       "text": "Hva er hovedstaden i Østerrike?",
       "options": [
-        "Berlin",
+        "Salzburg",
         "Wien",
-        "Bern",
-        "München"
+        "Graz",
+        "Innsbruck"
       ],
       "correct": 1,
       "explain": "Bern er hovedstaden i Sveits."
@@ -261,10 +262,10 @@
       "id": "q14",
       "text": "Hvor mange offisielle språk har Sveits?",
       "options": [
-        "Ett",
-        "Fire",
         "To",
-        "Seks"
+        "Fire",
+        "Tre",
+        "Fem"
       ],
       "correct": 1,
       "explain": "Tysk, fransk, italiensk og retoromansk.",
@@ -383,7 +384,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -420,10 +421,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich habe am dritten März Geburtstag»?",
         "options": [
-          "Jeg er tre år gammel",
+          "Jeg har bursdag 3. mai",
           "Jeg har bursdag 3. mars",
-          "Jeg har tre bursdager",
-          "Det er tre dager til mars"
+          "Jeg har bursdag 13. mars",
+          "Jeg har bursdag 2. mars"
         ],
         "correct": 1,
         "explain": "«am dritten März» betyr «den tredje mars»."
@@ -533,12 +534,87 @@
           "Gir et riktig eksempel: betale, begynne eller arbeide."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Du hilser på en voksen du ikke kjenner i en butikk. Skriv på tysk en formell hilsen, spør hva personen heter, og si formelt ha det.",
+        "fasit": "Guten Tag! Wie heißen Sie? Auf Wiedersehen!",
+        "kriterier": [
+          "Bruker høflig hilsen og avskjed.",
+          "Bruker Sie med stor forbokstav når personen tiltales."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Skriv tallene 16, 17 og 34 med tyske bokstaver. Skriv også på norsk hva som er spesielt med skrivemåten til 16 og 17.",
+        "fasit": "Sechzehn, siebzehn und vierunddreißig. 16 og 17 er forkortet på tysk.",
+        "kriterier": [
+          "Skriver tallene sechzehn, siebzehn og vierunddreißig riktig.",
+          "Forklarer at 16 og 17 har forkortede former."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Du har bursdag 3. mars, og bursdagsselskapet begynner klokka 8.45. Skriv dette på tysk.",
+        "fasit": "Ich habe am dritten März Geburtstag. Die Party beginnt um Viertel vor neun.",
+        "kriterier": [
+          "Skriver bursdagsdatoen som am dritten März.",
+          "Skriver at selskapet begynner um Viertel vor neun."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Skriv på tysk hvordan det tyske karaktersystemet er sammenlignet med det norske. Ta med hvilken karakter som er best og hvilken som er dårligst i Tyskland.",
+        "fasit": "In Deutschland ist die Note 1 die beste und die Note 6 die schlechteste. In Norwegen ist es umgekehrt.",
+        "kriterier": [
+          "Sier at 1 er best og 6 er dårligst i Tyskland.",
+          "Sammenligner med Norge ved å si at det er omvendt."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på tysk hvor Wiener Schnitzel kommer fra, og nevn fjellkjeden som går gjennom Østerrike og Sveits.",
+        "fasit": "Das Wiener Schnitzel kommt aus Wien. Die Alpen erstrecken sich durch Österreich und die Schweiz.",
+        "kriterier": [
+          "Sier at Wiener Schnitzel kommer fra Wien.",
+          "Nevner Alpene og både Østerrike og Sveits."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på tysk at du ofte hører på musikk, og at du på søndag leser en bok.",
+        "fasit": "Ich höre oft Musik. Am Sonntag lese ich ein Buch.",
+        "kriterier": [
+          "Bruker oft og uttrykker at du hører på musikk.",
+          "Bruker am Sonntag og setter verbet foran ich i setningen."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Skriv på tysk: «Jeg har ingen bok. Skolen er ikke liten.»",
+        "fasit": "Ich habe kein Buch. Die Schule ist nicht klein.",
+        "kriterier": [
+          "Bruker kein for å nekte substantivet Buch.",
+          "Bruker nicht for å nekte adjektivet klein, og skriver substantiv med stor forbokstav."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Forklar på norsk hvordan bokstavene w, v og z vanligvis uttales på tysk. Gi ett tysk eksempel på hver lyd.",
+        "fasit": "W uttales som norsk v, som i wie. V uttales oftest som f, som i Vater. Z uttales ts, som i zehn.",
+        "kriterier": [
+          "Forklarer uttalen av w som norsk v, v som oftest f, og z som ts.",
+          "Gir et passende tysk eksempel på hver bokstav."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

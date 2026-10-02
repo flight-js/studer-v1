@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er nyreligiøsitet?",
       "options": [
-        "En ny kristen kirke",
-        "Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring",
-        "En type ateisme",
-        "Et politisk parti"
+        "En moderne retning innen kristendommen, med vekt på kirkens tradisjoner",
+        "Tro og praksiser fra ulike tradisjoner, med vekt på egen erfaring",
+        "Et livssyn uten gudstro, med vekt på vitenskapelig kunnskap",
+        "En politisk bevegelse som bruker religiøse symboler for samfunnsendring"
       ],
       "correct": 1,
       "explain": "Nyreligiøsitet kalles også alternativ spiritualitet."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva er et eksempel på alternativ spiritualitet?",
       "options": [
-        "Nattverd",
-        "Fredagsbønn",
-        "Sabbat",
-        "Healing med energier"
+        "Bønn ved et kirkealter",
+        "Dåp av barn i en kirke",
+        "Puja med gaver til hinduistiske guder",
+        "Healing med bruk av energier"
       ],
       "correct": 3,
       "explain": "De andre er praksiser i etablerte religioner.",
@@ -108,9 +108,9 @@
       "text": "Hva er privatreligiøsitet?",
       "options": [
         "At man selv velger og setter sammen det man tror på",
-        "At man ber alene i kirken",
-        "At religion er forbudt",
-        "At staten bestemmer religion"
+        "At man følger religionen familien har valgt for en",
+        "At staten bestemmer hvilken religion hver person skal følge",
+        "At religiøse ledere velger hvilken tro man skal ha"
       ],
       "correct": 0,
       "explain": "Mange henter elementer fra flere tradisjoner."
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hvilken praksis har røtter i buddhismen, men brukes ofte uten religiøst innhold?",
       "options": [
-        "Nattverd",
-        "Faste i ramadan",
+        "Hajj",
+        "Puja",
         "Mindfulness",
-        "Omskjæring"
+        "Sabbatsfeiring"
       ],
       "correct": 2,
       "explain": "Mindfulness brukes blant annet i skoler og helsevesen.",
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Hva er St. Olavsleden?",
       "options": [
-        "En gammel handelsvei til Sverige",
-        "En skiløype",
+        "En kongevei over Filefjell",
+        "En postvei mellom Bergen og Oslo",
         "En pilegrimsled til Nidaros",
-        "En kirke i Oslo"
+        "En jernbane mellom Trondheim og Røros"
       ],
       "correct": 2,
       "explain": "Pilegrimsvandring har fått en ny oppblomstring de siste tiårene.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva er åsatro?",
       "options": [
-        "En buddhistisk retning",
+        "En moderne retning innen islam",
         "Norrøn tro som har fått nye tilhengere",
-        "En type yoga",
-        "En katolsk orden"
+        "En katolsk orden med norske munker",
+        "En hinduistisk tradisjon med yoga og meditasjon"
       ],
       "correct": 1,
       "explain": "Noen åsatrusamfunn er registrerte trossamfunn i Norge.",
@@ -158,9 +158,9 @@
       "id": "q07",
       "text": "Hva er sivilreligion?",
       "options": [
-        "En religion for sivile, ikke soldater",
-        "En ny religiøs bevegelse",
-        "Religion i privatlivet",
+        "Ritualer og symboler som markerer medlemskap i et trossamfunn, som dåp",
+        "Personlige ritualer og symboler som uttrykker tro, som bønn",
+        "Religiøse regler som styrer hvordan et trossamfunn organiseres",
         "Ritualer og symboler som samler et folk, som 17. mai"
       ],
       "correct": 3,
@@ -171,9 +171,9 @@
       "text": "Hvilken av disse er en ny religiøs bevegelse?",
       "options": [
         "Jehovas vitner",
-        "Den katolske kirke",
-        "Sunni-islam",
-        "Ortodoks jødedom"
+        "Den norske kirke",
+        "Baptistkirken",
+        "Den ortodokse kirke"
       ],
       "correct": 0,
       "explain": "Jehovas vitner oppsto i USA på 1870-tallet.",
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hvorfor er det viktig å være kritisk til noen alternative behandlingsformer?",
       "options": [
-        "Fordi all tro er feil",
+        "Fordi utøverne må ha offentlig godkjenning før de tilbyr behandling",
         "Fordi noen hevder å kunne kurere sykdommer uten dokumentasjon",
-        "Fordi de er forbudt",
-        "Fordi de alltid er dyre"
+        "Fordi metodene blir undersøkt av sykehus før de tilbys pasienter",
+        "Fordi behandlingene bygger på religiøse regler fra bestemte trossamfunn"
       ],
       "correct": 1,
       "explain": "Å velge bort vanlig behandling kan være farlig ved alvorlig sykdom."
@@ -195,9 +195,9 @@
       "id": "q10",
       "text": "Hva er et eksempel på folkereligiøsitet?",
       "options": [
-        "Å konfirmere seg",
-        "Å gå i moskeen",
-        "Å lese Koranen",
+        "Å markere lysfest i et hinduistisk tempel",
+        "Å delta i en kristen dåpsseremoni i kirken",
+        "Å følge en muslimsk bønn i moskeen",
         "Å banke i bordet for å unngå uhell"
       ],
       "correct": 3,
@@ -333,9 +333,9 @@
         "text": "Hva er reinkarnasjon?",
         "options": [
           "Troen på at sjelen blir født på nytt",
-          "Troen på engler",
-          "En type healing",
-          "Troen på én Gud"
+          "Troen på at sjelen lever videre etter døden",
+          "Troen på at mennesker blir engler etter døden",
+          "Troen på at sjelen forenes med Gud etter døden"
         ],
         "correct": 0,
         "explain": "Ideen finnes blant annet i hinduisme og buddhisme, og hos mange nyreligiøse.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva er astrologi?",
         "options": [
-          "Vitenskapen om stjerner og planeter",
-          "Troen på at stjernenes og planetenes stilling påvirker livet vårt",
-          "En type meditasjon",
-          "En pilegrimsreise"
+          "En vitenskap om stjernenes og planetenes bevegelser i verdensrommet",
+          "En tro på at stjernenes og planetenes stilling påvirker livet vårt",
+          "En metode for å måle avstander mellom stjerner og planeter",
+          "En lære om hvordan planeter blir dannet rundt nye stjerner"
         ],
         "correct": 1,
         "explain": "Vitenskapen om himmellegemene heter astronomi.",
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hva regulerer lov om alternativ behandling?",
         "options": [
-          "Hvem som kan bli prest",
-          "Hvilke høytider som er fridager",
+          "Hvilke medisiner leger kan skrive ut på resept",
+          "Hvilke legemidler apotek kan selge uten resept",
           "Hva utøvere av alternativ behandling har lov til",
-          "Hvor mange trossamfunn det kan være"
+          "Hvem som kan drive sykehus og helsesentre i Norge"
         ],
         "correct": 2,
         "explain": "Loven skal beskytte pasienter, særlig ved alvorlig sykdom.",
@@ -453,6 +453,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

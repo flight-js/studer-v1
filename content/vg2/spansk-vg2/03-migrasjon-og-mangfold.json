@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er spanglish?",
       "options": [
-        "Spansk i Spania",
+        "En blanding av spansk og portugisisk",
         "En blanding av spansk og engelsk",
-        "Et urfolksspråk",
-        "Engelsk med spansk aksent"
+        "En dialekt av spansk fra Sør-Amerika",
+        "Et urfolksspråk med spanske lånord"
       ],
       "correct": 1,
       "explain": "Voy a parquear el carro."
@@ -89,9 +89,9 @@
       "text": "Gjør om til indirekte tale: «Estoy cansado», dijo → Dijo que …",
       "options": [
         "estaba cansado",
-        "está cansado",
-        "estará cansado",
-        "esté cansado"
+        "estuvo cansado",
+        "estaría cansado",
+        "había estado cansado"
       ],
       "correct": 0,
       "explain": "Presens blir imperfecto."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Gjør om: «Vendré», dijo → Dijo que …",
       "options": [
-        "vendrá",
-        "viene",
+        "vino",
+        "venga",
         "vendría",
-        "venía"
+        "habría venido"
       ],
       "correct": 2,
       "explain": "Futuro blir condicional."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvor dro mange spanjoler for å jobbe på 1960-tallet?",
       "options": [
-        "Til Kina",
-        "Til Australia",
-        "Til Brasil",
+        "Til Norge, Sverige og Danmark",
+        "Til Mexico, Cuba og Colombia",
+        "Til Japan, Kina og India",
         "Til Tyskland, Frankrike og Sveits"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva betyr «echar de menos»?",
       "options": [
         "savne",
-        "kaste ut",
-        "glemme",
-        "hate"
+        "forlate",
+        "angre",
+        "unngå"
       ],
       "correct": 0,
       "explain": "Echo de menos a mi familia."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Gjør om: «Comí», dijo → Dijo que …",
       "options": [
-        "comió",
+        "he comido",
         "había comido",
-        "comería",
-        "come"
+        "habré comido",
+        "habría comido"
       ],
       "correct": 1,
       "explain": "Indefinido blir pluscuamperfecto."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva betyr «ni de aquí, ni de allá»?",
       "options": [
-        "både herfra og derfra",
-        "langt herfra",
+        "enten herfra eller derfra",
+        "herfra og videre dit",
         "verken herfra eller derfra",
-        "her og der"
+        "på vei mellom to steder"
       ],
       "correct": 2,
       "explain": "En følelse mange migranter beskriver."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva skjer med tiden etter «dice que» (presens)?",
       "options": [
-        "Presens blir imperfecto",
-        "Presens blir futuro",
-        "Presens blir subjuntivo",
+        "Tiden endres til imperfecto",
+        "Tiden endres til futuro",
+        "Tiden endres til subjuntivo",
         "Tiden endres ikke"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva betyr «bilingüe»?",
       "options": [
         "tospråklig",
+        "enspråklig",
         "tosidig",
-        "tvilling",
-        "tvilsom"
+        "flerkulturell"
       ],
       "correct": 0,
       "explain": "Mange latinos i USA er tospråklige."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva blir «mañana» i indirekte tale i fortid?",
       "options": [
-        "ayer",
+        "el día anterior",
         "al día siguiente",
-        "hoy",
-        "ese mañana"
+        "ese mismo día",
+        "dos días después"
       ],
       "correct": 1,
       "explain": "Tidsuttrykk endres også."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hva betyr «la frontera»?",
         "options": [
-          "fronten",
+          "frontlinjen",
           "grensen",
-          "flagget",
-          "landet"
+          "grenseovergangen",
+          "kystlinjen"
         ],
         "correct": 1,
         "explain": "La frontera entre México y Estados Unidos."
@@ -323,9 +323,9 @@
         "text": "Hvilke øyer prøver mange båtflyktninger fra Afrika å nå?",
         "options": [
           "Kanariøyene",
-          "Balearene",
-          "Galápagos",
-          "Falklandsøyene"
+          "Azorene",
+          "Madeira",
+          "Kapp Verde-øyene"
         ],
         "correct": 0,
         "explain": "Kanariøyene tilhører Spania.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva betyr «el sentido de pertenencia»?",
         "options": [
-          "sansen for humor",
-          "følelsen av skyld",
+          "identiteten",
+          "medborgerskapet",
           "tilhørigheten",
-          "retningssansen"
+          "opprinnelsen"
         ],
         "correct": 2,
         "explain": "pertenecer = tilhøre."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er typisk for en novelle?",
       "options": [
-        "Mange personer og lang tidsperiode",
-        "Kort tekst, få personer og ofte brå start",
-        "Alltid lykkelig slutt",
-        "Rim og rytme"
+        "Kort tekst, mange personer og lang tidsperiode",
+        "Kort tekst, få personer og gjerne brå start",
+        "Lang tekst, få personer og lang tidsperiode",
+        "Kort tekst, få personer og rimfast språk"
       ],
       "correct": 1,
       "explain": "Novellen er kort, har få personer, foregår over kort tid og starter gjerne midt i handlingen."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva betyr «in medias res»?",
       "options": [
-        "At teksten slutter brått",
-        "At teksten har en moral",
+        "At fortellingen slutter før konflikten blir løst",
+        "At fortellingen gir teksten en tydelig moral",
         "At fortellingen starter midt i handlingen",
-        "At fortelleren er allvitende"
+        "At fortelleren kjenner tankene til alle personene"
       ],
       "correct": 2,
       "explain": "Uttrykket er latin og betyr «midt i tingene». Leseren kastes rett inn i handlingen."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "«Jeg løp så fort jeg kunne.» Hvilken forteller er dette?",
       "options": [
-        "Førstepersonsforteller",
+        "Forteller i første person",
+        "Forteller i tredje person",
         "Allvitende forteller",
-        "Personal tredjepersonsforteller",
-        "Ingen forteller"
+        "Observerende forteller"
       ],
       "correct": 0,
       "explain": "Fortelleren bruker «jeg» og er selv en person i handlingen."
@@ -114,8 +114,8 @@
       "text": "Hva kalles høydepunktet i spenningskurven?",
       "options": [
         "Innledning",
-        "Tilbakeblikk",
-        "Frampek",
+        "Opptrapping",
+        "Avrunding",
         "Klimaks"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Emma deler matpakken sin med en ny elev uten å si noe. Hva slags karakteristikk er dette?",
       "options": [
-        "Direkte",
-        "Indirekte",
-        "Allvitende",
-        "Åpen"
+        "Direkte karakteristikk",
+        "Indirekte karakteristikk",
+        "Miljøskildring",
+        "Dialogskildring"
       ],
       "correct": 1,
       "explain": "Vi forstår at Emma er omtenksom ut fra handlingen hennes, ikke fordi fortelleren sier det rett ut."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er forskjellen på tema og budskap?",
       "options": [
-        "Tema er hva teksten handler om, budskap er hva den vil si om det",
-        "De betyr det samme",
-        "Tema er handlingen, budskap er slutten",
-        "Budskap er tittelen"
+        "Temaet er tekstens emne, mens budskapet er det teksten vil si om det",
+        "Temaet er handlingen, mens budskapet er hvordan teksten slutter",
+        "Temaet er det teksten vil si, mens budskapet er emnet den handler om",
+        "Temaet er tekstens tittel, mens budskapet er personenes viktigste mål"
       ],
       "correct": 0,
       "explain": "Temaet kan være vennskap. Budskapet kan være at ekte vennskap tåler uenighet."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er et frampek?",
       "options": [
-        "Et hopp bakover i tid",
-        "Tekstens siste setning",
+        "Et hopp tilbake til en tidligere hendelse",
+        "En beskrivelse av stedet der handlingen foregår",
         "Et hint om noe som skal skje senere",
-        "En beskrivelse av miljøet"
+        "En oppsummering av hendelsene fram til nå"
       ],
       "correct": 2,
       "explain": "Frampek bygger forventning og spenning ved å antyde hva som kommer."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvorfor har mange noveller åpen slutt?",
       "options": [
-        "Fordi forfatteren gikk tom for ideer",
-        "Fordi noveller må være korte",
-        "Fordi det er en regel",
+        "For å følge en fast regel for novelleformen",
+        "For å fortelle tydelig hvordan konflikten blir løst",
+        "For å avsløre nøyaktig hva som skjer etterpå",
         "For å la leseren tolke og tenke videre selv"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva kan miljøet i en fortelling brukes til?",
       "options": [
-        "Bare å fortelle hvor handlingen foregår",
+        "Å vise hvem som forteller historien i teksten",
         "Å speile stemningen og personenes følelser",
-        "Å erstatte personene",
-        "Å gi fakta om geografi"
+        "Å forklare rekkefølgen på hendelsene i handlingen",
+        "Å gi direkte innblikk i personenes tanker"
       ],
       "correct": 1,
       "explain": "Været, årstiden og stedet kan forsterke stemningen, for eksempel mørke og regn i en trist scene."
@@ -186,9 +186,9 @@
       "text": "Hva kjennetegner en allvitende forteller?",
       "options": [
         "Fortelleren vet hva alle personene tenker og føler",
-        "Fortelleren er hovedpersonen",
-        "Fortelleren vet bare det én person vet",
-        "Fortelleren snakker til leseren som «du»"
+        "Fortelleren er selv en person i handlingen",
+        "Fortelleren kjenner tankene til hovedpersonen, men ikke de andre personene",
+        "Fortelleren henvender seg til leseren med «du»"
       ],
       "correct": 0,
       "explain": "Den allvitende fortelleren står utenfor handlingen og kan se inn i alle personene."
@@ -321,9 +321,9 @@
         "text": "Hva kalles delen av spenningskurven der spenningen øker?",
         "options": [
           "Innledning",
-          "Avslutning",
+          "Klimaks",
           "Opptrapping",
-          "Vendepunkt"
+          "Avslutning"
         ],
         "correct": 2,
         "explain": "I opptrappingen bygges spenningen opp mot klimaks."
@@ -334,9 +334,9 @@
         "text": "Hvilket tema passer til en novelle om en gutt som blir holdt utenfor?",
         "options": [
           "Utenforskap",
-          "Sjanger",
-          "Tredjepersonsforteller",
-          "Klimaks"
+          "Mot",
+          "Sjalusi",
+          "Tillit"
         ],
         "correct": 0,
         "explain": "Temaet er det overordnede emnet teksten handler om, her utenforskap eller ensomhet."
@@ -346,9 +346,9 @@
         "type": "flervalg",
         "text": "Hva er et godt skrivetips for en novelle?",
         "options": [
-          "Forklar alt i detalj på slutten",
-          "Start med en lang presentasjon av alle personene",
-          "Unngå dialog",
+          "Si følelsene tydelig i stedet for å vise dem gjennom handling",
+          "Presenter personene med bakgrunnsinformasjon før konflikten begynner",
+          "Fyll scenene med beskrivelser som ikke driver handlingen videre",
           "Vis følelser gjennom handling i stedet for å si dem rett ut"
         ],
         "correct": 3,
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -85,21 +85,21 @@
       "id": "q01",
       "text": "Når oppstår stress?",
       "options": [
-        "Bare ved store katastrofer",
-        "Når vi opplever at kravene er større enn ressursene",
-        "Bare når vi sover lite",
-        "Bare hos voksne"
+        "Når ressursene oppleves som større enn kravene",
+        "Når kravene oppleves som større enn ressursene",
+        "Når kravene og ressursene oppleves som like store",
+        "Når ressursene oppleves som tilstrekkelige for kravene"
       ],
       "correct": 1,
-      "explain": "Stressorer kan være store eller små."
+      "explain": "Stress oppstår når krav og tilgjengelige ressurser vurderes som ubalanserte."
     },
     {
       "id": "q02",
       "text": "Hvilket hormon gir en rask kamp-eller-flukt-reaksjon?",
       "options": [
         "Adrenalin",
+        "Kortisol",
         "Melatonin",
-        "Oksytocin",
         "Insulin"
       ],
       "correct": 0,
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "Hva er de tre fasene i Selyes modell?",
       "options": [
-        "Sjokk, reaksjon og bearbeiding",
-        "Koding, lagring og gjenhenting",
+        "Belastning, vurdering og mestring",
+        "Trussel, reaksjon og tilpasning",
         "Alarm, motstand og utmattelse",
-        "Id, ego og superego"
+        "Krise, bearbeiding og gjenoppbygging"
       ],
       "correct": 2,
       "explain": "Ressursene tømmes ved langvarig stress."
@@ -121,22 +121,22 @@
       "id": "q04",
       "text": "Hva er en primær vurdering hos Lazarus?",
       "options": [
-        "Om man har ressurser",
-        "Om man skal ringe en venn",
-        "Om man har sovet nok",
+        "Om situasjonen kan håndteres med egne ressurser og støtte",
+        "Om situasjonen gir fordeler eller ulemper på lang sikt",
+        "Om andre vurderer situasjonen som truende eller ufarlig",
         "Om situasjonen er en trussel, en utfordring eller uviktig"
       ],
       "correct": 3,
-      "explain": "Sekundær vurdering handler om ressursene."
+      "explain": "Ressursene vurderes i den sekundære vurderingen."
     },
     {
       "id": "q05",
       "text": "En elev lager en leseplan før eksamen. Hvilken mestringsstrategi er dette?",
       "options": [
-        "Problemfokusert",
-        "Emosjonsfokusert",
-        "Unngåelse",
-        "Fornekting"
+        "Problemfokusert mestring",
+        "Emosjonsfokusert mestring",
+        "Unngående mestring",
+        "Kognitiv omtolking"
       ],
       "correct": 0,
       "explain": "Eleven gjør noe med situasjonen."
@@ -145,22 +145,22 @@
       "id": "q06",
       "text": "Hva sier sårbarhet-stress-modellen?",
       "options": [
-        "At bare stress gir sykdom",
-        "At psykiske lidelser oppstår i samspill mellom sårbarhet og belastning",
-        "At sårbarhet ikke betyr noe",
-        "At alle blir like syke"
+        "At psykiske lidelser kan oppstå når belastningen virker alene",
+        "At psykiske lidelser kan oppstå når sårbarhet og belastning virker sammen",
+        "At psykiske lidelser kan oppstå når sårbarheten virker alene",
+        "At psykiske lidelser utvikles uavhengig av personens sårbarhet"
       ],
       "correct": 1,
-      "explain": "Høy sårbarhet gir lavere terskel."
+      "explain": "Sårbarhet og belastning virker sammen, og høy sårbarhet kan senke terskelen."
     },
     {
       "id": "q07",
       "text": "Hva er resiliens?",
       "options": [
-        "En psykisk lidelse",
-        "Et stresshormon",
+        "En kortvarig kroppslig reaksjon på en belastende situasjon",
+        "En medfødt sårbarhet for psykiske vansker",
         "Evnen til å klare seg bra til tross for belastninger",
-        "En fase i en krise"
+        "En strategi for å fjerne ytre belastninger"
       ],
       "correct": 2,
       "explain": "Kan styrkes."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva er en av de viktigste beskyttende faktorene for barn?",
       "options": [
-        "Mye skjermtid",
-        "Høye karakterer",
-        "Å være alene",
+        "Mye tid alene etter skolen",
+        "Hyppige konflikter hjemme",
+        "Mange skoleprøver gjennom skoleåret",
         "Minst én trygg voksen"
       ],
       "correct": 3,
@@ -182,9 +182,9 @@
       "text": "Hva kan langvarig stress føre til?",
       "options": [
         "Svekket immunforsvar og søvnproblemer",
-        "Bedre hukommelse",
-        "Mer energi over tid",
-        "Sterkere immunforsvar"
+        "Bedre hukommelse og stabilt humør",
+        "Mer energi og bedre søvnkvalitet",
+        "Sterkere immunforsvar og færre infeksjoner"
       ],
       "correct": 0,
       "explain": "Også økt risiko for angst og depresjon."
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hvorfor kan to elever oppleve samme prøve ulikt?",
       "options": [
-        "Fordi prøven er ulik",
-        "Fordi de vurderer situasjonen og ressursene sine ulikt",
-        "Fordi bare den ene har kortisol",
-        "Fordi stress er tilfeldig"
+        "Fordi prøven måler ulike ferdigheter hos hver elev",
+        "Fordi de vurderer situasjonen og egne ressurser ulikt",
+        "Fordi hormonreaksjonen styrer opplevelsen uavhengig av vurderingen",
+        "Fordi tidligere erfaringer ikke påvirker hvordan prøven oppleves"
       ],
       "correct": 1,
       "explain": "Tolkningen avgjør stressreaksjonen."
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hvilken strategi er emosjonsfokusert?",
         "options": [
-          "Lage en leseplan",
+          "Dele leseoppgaven opp i mindre deler",
           "Snakke med en venn om bekymringene",
-          "Be læreren forklare oppgaven",
-          "Dele opp oppgaven"
+          "Lage en plan for å rekke lesingen",
+          "Spørre læreren hva som kreves på prøven"
         ],
         "correct": 1,
         "explain": "Demper følelsene."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvordan kan samfunnet forebygge negative stressreaksjoner hos unge?",
         "options": [
-          "Øke prestasjonspresset",
-          "Fjerne fritidsaktiviteter",
+          "Øke antallet prøver og skjerpe karakterkravene",
+          "Begrense elevmedvirkning og redusere voksentettheten",
           "Redusere prestasjonspress og bygge gode skolemiljøer",
-          "Gi flere prøver"
+          "Prioritere konkurranse og rangering i skolehverdagen"
         ],
         "correct": 2,
         "explain": "Forebygging skjer også på samfunnsnivå."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

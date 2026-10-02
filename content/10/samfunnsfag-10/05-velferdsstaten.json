@@ -77,9 +77,9 @@
       "text": "Hva er en velferdsstat?",
       "options": [
         "Et samfunn der staten tar stort ansvar for innbyggernes trygghet og velferd",
-        "En stat uten skatter",
-        "En stat der alle er rike",
-        "En stat styrt av kongen"
+        "Et samfunn der private bedrifter har hovedansvaret for innbyggernes trygghet og velferd",
+        "Et samfunn der familiene har hovedansvaret for innbyggernes trygghet og velferd",
+        "Et samfunn der lokale organisasjoner har hovedansvaret for innbyggernes trygghet og velferd"
       ],
       "correct": 0,
       "explain": "Staten sørger blant annet for utdanning, helse og økonomisk trygghet."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva betyr det at en velferdsordning er universell?",
       "options": [
-        "At den bare gjelder fattige",
+        "At den gjelder alle med lav inntekt",
         "At den gjelder alle, uansett inntekt",
-        "At den gjelder hele verden",
-        "At den er frivillig"
+        "At den gjelder alle som er i arbeid",
+        "At den gjelder alle land i verden"
       ],
       "correct": 1,
       "explain": "Barnetrygd og gratis skole er eksempler på universelle ordninger."
@@ -103,7 +103,7 @@
         "Kommunen",
         "Staten",
         "Fylkeskommunen",
-        "NAV"
+        "Utdanningsdirektoratet"
       ],
       "correct": 2,
       "explain": "Fylkeskommunen har også ansvar for kollektivtransport og fylkesveier."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er trepartssamarbeidet?",
       "options": [
-        "Samarbeid mellom tre politiske partier",
-        "Samarbeid mellom Norge, Sverige og Danmark",
-        "Samarbeid mellom tre kommuner",
+        "Samarbeid mellom Stortinget, regjeringen og domstolene",
+        "Samarbeid mellom staten, kommunene og fylkeskommunene",
+        "Samarbeid mellom arbeidsgiverne, fagforeningene og politiske partier",
         "Samarbeid mellom staten, arbeidsgiverne og arbeidstakerne"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er eldrebølgen?",
       "options": [
         "At det blir flere eldre per person i arbeid",
-        "At eldre flytter til utlandet",
-        "At pensjonsalderen senkes",
-        "At det blir færre eldre"
+        "At det blir færre eldre per person i arbeid",
+        "At pensjonsalderen øker når det blir flere eldre",
+        "At flere eldre begynner å arbeide når befolkningen eldes"
       ],
       "correct": 0,
       "explain": "Vi lever lenger, og store årskull går av med pensjon."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva sier handlingsregelen?",
       "options": [
-        "At all oljeformuen skal brukes med en gang",
-        "At staten over tid bare skal bruke omtrent den forventede avkastningen av oljefondet",
-        "At oljen skal selges til Sverige",
-        "At skatten skal fjernes"
+        "At staten over tid bruker oljeinntektene før de settes inn i Oljefondet",
+        "At staten over tid bruker omtrent den forventede avkastningen fra Oljefondet",
+        "At staten over tid bruker en fast sum fra Oljefondet hvert år",
+        "At staten over tid bruker inntektene fra oljesalget direkte"
       ],
       "correct": 1,
       "explain": "Slik skal også framtidige generasjoner få glede av oljeinntektene.",
@@ -149,9 +149,9 @@
       "id": "q07",
       "text": "Hvem har ansvaret for fastlege og sykehjem?",
       "options": [
-        "Staten",
         "Fylkeskommunen",
-        "Private bedrifter",
+        "Staten",
+        "NAV",
         "Kommunen"
       ],
       "correct": 3,
@@ -162,9 +162,9 @@
       "text": "Hvordan finansieres velferdsstaten først og fremst?",
       "options": [
         "Gjennom skatter og avgifter",
-        "Gjennom lotteri",
-        "Gjennom lån fra andre land",
-        "Gjennom frivillige gaver"
+        "Gjennom lån fra norske banker",
+        "Gjennom salg av statlige tjenester",
+        "Gjennom innbetalinger til private forsikringer"
       ],
       "correct": 0,
       "explain": "Oljefondet bidrar også, men skatter og avgifter er den viktigste kilden."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er dagpenger?",
       "options": [
-        "Penger du får hver dag på skolen",
-        "Lommepenger fra foreldre",
+        "Økonomisk støtte når du er syk fra jobb",
+        "Økonomisk støtte når du går på skole",
         "Økonomisk støtte når du er arbeidsløs",
-        "Lønn for overtid"
+        "Økonomisk støtte når du går av med pensjon"
       ],
       "correct": 2,
       "explain": "Dagpenger skal gi trygghet mens man søker ny jobb."
@@ -334,8 +334,8 @@
         "options": [
           "Skatteetaten",
           "NAV",
-          "Politiet",
-          "Datatilsynet"
+          "Helsedirektoratet",
+          "Arbeidstilsynet"
         ],
         "correct": 1,
         "explain": "NAV ble opprettet i 2006."
@@ -346,9 +346,9 @@
         "text": "Hva er en egenandel?",
         "options": [
           "Den delen av prisen du selv betaler for en offentlig tjeneste",
-          "En skatt på eiendom",
-          "En del av lønnen",
-          "En type trygd"
+          "Den delen av skatten du selv betaler for en offentlig tjeneste",
+          "Den delen av lønnen du selv betaler for en offentlig tjeneste",
+          "Den delen av prisen staten betaler for en offentlig tjeneste"
         ],
         "correct": 0,
         "explain": "Du betaler for eksempel en egenandel hos fastlegen."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hvorfor gir eldrebølgen utfordringer for velferdsstaten?",
         "options": [
-          "Eldre betaler mer skatt enn andre",
-          "Det blir færre sykehjem",
+          "Utgiftene til pensjon og omsorg øker, mens det blir flere i arbeid per pensjonist",
+          "Utgiftene til pensjon og omsorg synker, mens det blir færre i arbeid per pensjonist",
           "Utgiftene til pensjon og omsorg øker, mens det blir færre i arbeid per pensjonist",
-          "Eldre trenger ikke helsetjenester"
+          "Utgiftene til helse og skole øker, mens det blir færre i arbeid per pensjonist"
         ],
         "correct": 2,
         "explain": "Færre skal betale for velferden til flere."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

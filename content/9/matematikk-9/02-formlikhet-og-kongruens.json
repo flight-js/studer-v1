@@ -96,9 +96,9 @@
       "text": "Hva betyr det at to figurer er kongruente?",
       "options": [
         "De har samme form og samme størrelse",
-        "De har samme form, men ulik størrelse",
-        "De har samme areal, men ulik form",
-        "De har like mange sider"
+        "De har samme størrelse, men forskjellig form",
+        "De har like lange sider, men ulik form",
+        "De har like store vinkler, men ulik størrelse"
       ],
       "correct": 0,
       "explain": "Kongruente figurer er helt like og kan legges oppå hverandre, eventuelt etter speiling."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva er nok for å vite at to trekanter er formlike?",
       "options": [
-        "At én side er lik",
-        "At arealet er likt",
+        "At to sider er parvis like lange",
+        "At én vinkel er parvis like stor",
         "At to vinkler er parvis like store",
-        "At de er rettvinklede"
+        "At omkretsene er like lange"
       ],
       "correct": 2,
       "explain": "Er to vinkler like, blir også den tredje lik fordi summen er 180°. Da har trekantene samme form."
@@ -155,7 +155,7 @@
       "id": "q07",
       "text": "Sidene i et kvadrat dobles. Hva skjer med arealet?",
       "options": [
-        "Det dobles",
+        "Det blir to ganger så stort",
         "Det blir tre ganger så stort",
         "Det blir åtte ganger så stort",
         "Det blir fire ganger så stort"
@@ -170,7 +170,7 @@
       "options": [
         "Rektangel",
         "Trapes",
-        "Parallellogram",
+        "Drage",
         "Rombe"
       ],
       "correct": 3,
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hvilket krav gir IKKE sikker kongruens mellom to trekanter?",
       "options": [
-        "SSS",
-        "SVS",
+        "Tre like sider",
+        "To like sider og vinkelen mellom dem",
         "Tre like vinkler",
-        "VSV"
+        "To like vinkler og siden mellom dem"
       ],
       "correct": 2,
       "explain": "Tre like vinkler gir bare formlikhet. Trekantene kan ha samme form, men være forskjellig store."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

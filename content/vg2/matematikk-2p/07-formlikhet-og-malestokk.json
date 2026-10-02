@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva kjennetegner formlike figurer?",
       "options": [
-        "Like store sider",
+        "Proporsjonale vinkler og like lange sider",
         "Like vinkler og proporsjonale sider",
-        "Samme areal",
-        "Samme omkrets"
+        "Like vinkler og like lange sider",
+        "Ulike vinkler og proporsjonale sider"
       ],
       "correct": 1,
       "explain": "Formen er den samme, størrelsen kan være ulik."
@@ -88,7 +88,7 @@
       "text": "Sidene i en figur dobles. Hvor mange ganger større blir arealet?",
       "options": [
         "4",
-        "2",
+        "3",
         "8",
         "6"
       ],
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "En tegning har målestokk 1 : 50. Hvor lang er en vegg som er 8 cm på tegningen?",
       "options": [
-        "40 cm",
-        "8 m",
-        "50 m",
+        "0,4 m",
+        "40 m",
+        "400 m",
         "4 m"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "En modell er i målestokk 1 : 10. Hvor mye mindre er volumet enn originalen?",
       "options": [
         "1000 ganger",
-        "10 ganger",
         "100 ganger",
-        "30 ganger"
+        "30 ganger",
+        "300 ganger"
       ],
       "correct": 0,
       "explain": "Volum skaleres med k³ = 10³."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "En 12 m lang vegg er 6 cm på tegningen. Hva er målestokken?",
       "options": [
-        "1 : 2",
+        "1 : 100",
         "1 : 200",
-        "1 : 20",
-        "1 : 2000"
+        "1 : 60",
+        "1 : 1200"
       ],
       "correct": 1,
       "explain": "6 : 1200 = 1 : 200."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva brukes 3-4-5-metoden til?",
       "options": [
-        "Å måle høyder",
-        "Å finne arealet",
+        "Å sjekke at sidene er like lange",
+        "Å beregne arealet av en trekant",
         "Å sjekke at et hjørne er rett",
-        "Å finne målestokken"
+        "Å finne målestokken til en tegning"
       ],
       "correct": 2,
       "explain": "3² + 4² = 5²."
@@ -159,7 +159,7 @@
       "id": "q08",
       "text": "Kart 1 : 50 000. Hvor langt er 3 cm på kartet i virkeligheten?",
       "options": [
-        "150 m",
+        "0,15 km",
         "15 km",
         "3 km",
         "1,5 km"
@@ -172,9 +172,9 @@
       "text": "Hva er arealet av en trekant med sidene 6, 8 og 10 (rettvinklet)?",
       "options": [
         "24",
-        "48",
-        "30",
-        "40"
+        "14",
+        "28",
+        "60"
       ],
       "correct": 0,
       "explain": "6 · 8/2 = 24."
@@ -186,7 +186,7 @@
         "6 000 m²",
         "60 000 m²",
         "600 m²",
-        "6 km²"
+        "6 000 000 m²"
       ],
       "correct": 1,
       "explain": "200 m · 300 m = 60 000 m²."
@@ -327,9 +327,9 @@
         "text": "Er en trekant med sidene 5, 12 og 13 rettvinklet?",
         "options": [
           "Ja, fordi 5² + 12² = 13²",
-          "Nei",
-          "Bare hvis den er likesidet",
-          "Det kan ikke avgjøres"
+          "Nei, fordi 5² + 13² ≠ 12²",
+          "Nei, fordi 5 + 12 ≠ 13",
+          "Nei, fordi 5² + 12² = 13"
         ],
         "correct": 0,
         "explain": "25 + 144 = 169 = 13²."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

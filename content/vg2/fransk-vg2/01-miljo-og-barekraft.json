@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva betyr «le développement durable»?",
       "options": [
-        "den globale oppvarmingen",
+        "global oppvarming",
         "bærekraftig utvikling",
         "fornybar energi",
-        "forurensning"
+        "miljøforurensning"
       ],
       "correct": 1,
       "explain": "durable = varig, bærekraftig."
@@ -92,9 +92,9 @@
       "text": "Hvilken energikilde gir mesteparten av strømmen i Frankrike?",
       "options": [
         "Kjernekraft",
-        "Kull",
         "Vannkraft",
-        "Solkraft"
+        "Kullkraft",
+        "Vindkraft"
       ],
       "correct": 0,
       "explain": "Det gir lave CO₂-utslipp, men atomavfall.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva var «la Convention citoyenne pour le climat»?",
       "options": [
-        "Et politisk parti",
+        "Et politisk parti med 150 aktive medlemmer",
         "Et borgerpanel med 150 loddtrukne innbyggere",
-        "En miljøorganisasjon",
-        "En klimalov"
+        "En miljøorganisasjon med 150 frivillige medlemmer",
+        "En klimalov med 150 foreslåtte klimatiltak"
       ],
       "correct": 1,
       "explain": "Panelet foreslo klimatiltak i 2019–2020.",
@@ -179,9 +179,9 @@
       "text": "Hva betyr «les déchets»?",
       "options": [
         "avfallet",
-        "detaljene",
-        "diskusjonene",
-        "drivhusgassene"
+        "utslippene",
+        "ressursene",
+        "emballasjen"
       ],
       "correct": 0,
       "explain": "Il faut recycler les déchets."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvordan lages subjonctif av regelmessige verb?",
       "options": [
-        "Infinitiv + -ai",
+        "nous-stammen + -ons, -ez, -ent, -ons, -ez, -ent",
         "ils-stammen + -e, -es, -e, -ions, -iez, -ent",
-        "nous-stammen + -ais",
-        "Partisipp + être"
+        "ils-stammen + -ais, -ais, -ait, -ions, -iez, -aient",
+        "partisippstammen + -e, -es, -e, -ions, -iez, -ent"
       ],
       "correct": 1,
       "explain": "ils parlent → que je parle."
@@ -332,8 +332,8 @@
         "options": [
           "beskytte planeten",
           "forurense planeten",
-          "reise rundt planeten",
-          "studere planeten"
+          "kartlegge planeten",
+          "observere planeten"
         ],
         "correct": 0,
         "explain": "protéger = beskytte."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva betyr «les gaz à effet de serre»?",
         "options": [
-          "gassen i bilen",
-          "naturgassen",
+          "naturgassene",
+          "giftgassene",
           "drivhusgassene",
-          "luften i drivhuset"
+          "drivstoffene"
         ],
         "correct": 2,
         "explain": "effet de serre = drivhuseffekt."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

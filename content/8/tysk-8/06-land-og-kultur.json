@@ -86,10 +86,10 @@
       "id": "q01",
       "text": "Hva er hovedstaden i Østerrike?",
       "options": [
-        "Berlin",
+        "Salzburg",
         "Wien",
-        "Bern",
-        "München"
+        "Graz",
+        "Innsbruck"
       ],
       "correct": 1,
       "explain": "Bern er hovedstaden i Sveits."
@@ -99,9 +99,9 @@
       "text": "Hvor mange delstater (Bundesländer) har Tyskland?",
       "options": [
         "9",
-        "12",
+        "26",
         "16",
-        "20"
+        "11"
       ],
       "correct": 2,
       "explain": "Bayern er den største delstaten i areal.",
@@ -112,9 +112,9 @@
       "text": "Hvilken by er kjent for Oktoberfest?",
       "options": [
         "München",
-        "Hamburg",
-        "Berlin",
-        "Köln"
+        "Stuttgart",
+        "Köln",
+        "Frankfurt"
       ],
       "correct": 0,
       "explain": "Oktoberfest arrangeres i München hvert år.",
@@ -124,9 +124,9 @@
       "id": "q04",
       "text": "Hva er «Kaffee und Kuchen»?",
       "options": [
-        "En julesang",
-        "En fotballklubb",
-        "En by",
+        "En tradisjon med te og kake om ettermiddagen",
+        "En tradisjon med kaffe og brød om ettermiddagen",
+        "En tradisjon med kaffe og kake om morgenen",
         "En tradisjon med kaffe og kake om ettermiddagen"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q05",
       "text": "Hvilke eventyr samlet brødrene Grimm?",
       "options": [
-        "Askeladden",
-        "Pippi Langstrømpe",
+        "Den lille havfruen og Pannekaka",
+        "Askeladden og De tre bukkene Bruse",
         "Hans og Grete og Rødhette",
-        "Mummitrollet"
+        "Reveenka og Keiserens nye klær"
       ],
       "correct": 2,
       "explain": "Brødrene Grimm samlet folkeeventyr på 1800-tallet.",
@@ -150,10 +150,10 @@
       "id": "q06",
       "text": "Når ble Tyskland gjenforent?",
       "options": [
-        "1945",
+        "1949",
         "1990",
         "1961",
-        "2000"
+        "1991"
       ],
       "correct": 1,
       "explain": "Berlinmuren falt i 1989, og gjenforeningen kom året etter.",
@@ -165,7 +165,7 @@
       "options": [
         "Pyreneene",
         "Karpatene",
-        "Dovrefjell",
+        "Apenninene",
         "Alpene"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q08",
       "text": "Hvilke tyske handelsfolk hadde et viktig kontor på Bryggen i Bergen?",
       "options": [
-        "Hanseatene",
-        "Vikingene",
-        "Romerne",
-        "Normannerne"
+        "Hanseatiske kjøpmenn",
+        "Nederlandske kjøpmenn",
+        "Engelske kjøpmenn",
+        "Danske kjøpmenn"
       ],
       "correct": 0,
       "explain": "Hanseatene handlet blant annet med tørrfisk.",
@@ -189,9 +189,9 @@
       "text": "Hva er en «Weihnachtsmarkt»?",
       "options": [
         "Et påskemarked",
-        "En fotballkamp",
+        "Et høstmarked",
         "Et julemarked",
-        "Et loppemarked"
+        "Et nyttårsmarked"
       ],
       "correct": 2,
       "explain": "«Weihnachten» betyr jul.",
@@ -201,10 +201,10 @@
       "id": "q10",
       "text": "Hvor mange offisielle språk har Sveits?",
       "options": [
-        "Ett",
-        "Fire",
         "To",
-        "Seks"
+        "Fire",
+        "Tre",
+        "Fem"
       ],
       "correct": 1,
       "explain": "Tysk, fransk, italiensk og retoromansk."
@@ -361,9 +361,9 @@
         "text": "Hva er Fasching?",
         "options": [
           "Karneval",
-          "Jul",
-          "Påske",
-          "Nyttår"
+          "Oktoberfest",
+          "Erntedankfest",
+          "Weihnachtsfest"
         ],
         "correct": 0,
         "explain": "Fasching feires særlig i Sør-Tyskland og Østerrike.",
@@ -374,10 +374,10 @@
         "type": "flervalg",
         "text": "Hvilken elv renner forbi Köln?",
         "options": [
-          "Themsen",
-          "Seinen",
+          "Donau",
+          "Elben",
           "Rhinen",
-          "Tiberen"
+          "Main"
         ],
         "correct": 2,
         "explain": "Köln ligger ved Rhinen."
@@ -466,6 +466,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

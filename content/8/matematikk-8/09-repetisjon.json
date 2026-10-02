@@ -80,7 +80,8 @@
     },
     {
       "term": "Løkke",
-      "def": "En del av programmet som gjentas flere ganger."
+      "def": "En del av programmet som gjentas flere ganger.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -89,9 +90,9 @@
       "text": "Forenkle 2³ · 2⁴.",
       "options": [
         "2¹²",
-        "4⁷",
+        "2⁴",
         "2⁷",
-        "2¹"
+        "2³"
       ],
       "correct": 2,
       "explain": "Potensene har samme grunntall, så eksponentene legges sammen: 3 + 4 = 7. Grunntallet endres ikke."
@@ -100,10 +101,10 @@
       "id": "q02",
       "text": "Hvordan skrives 4 700 000 på standardform?",
       "options": [
-        "47 · 10⁵",
+        "4,7 · 10⁵",
         "4,7 · 10⁶",
-        "0,47 · 10⁷",
-        "4,7 · 10⁵"
+        "4,7 · 10⁷",
+        "7,4 · 10⁶"
       ],
       "correct": 1,
       "explain": "På standardform skal tallet foran tierpotensen være mellom 1 og 10. Kommaet flyttes seks plasser: 4 700 000 = 4,7 · 10⁶.",
@@ -114,9 +115,9 @@
       "text": "Hvilken strategi passer best for å regne 99 · 8 i hodet?",
       "options": [
         "100 · 8 − 8",
-        "99 · 10 − 2",
-        "90 · 8 + 99",
-        "9 · 9 · 8 − 1"
+        "100 · 8 − 1",
+        "90 · 8 + 9",
+        "100 · 8 + 8"
       ],
       "correct": 0,
       "explain": "99 er én mindre enn 100. Regn 100 · 8 = 800 og trekk fra én åtter: 800 − 8 = 792."
@@ -162,9 +163,9 @@
       "text": "Hvilken formel passer til følgen 3, 7, 11, 15, …?",
       "options": [
         "4n − 1",
-        "3n + 4",
-        "n + 4",
-        "4n + 3"
+        "4n + 1",
+        "4n − 3",
+        "3n + 1"
       ],
       "correct": 0,
       "explain": "Følgen øker med 4, så formelen har 4n. For n = 1 skal svaret bli 3: 4 · 1 − 1 = 3. Sjekk n = 2: 4 · 2 − 1 = 7."
@@ -174,8 +175,8 @@
       "text": "En taxi koster 60 kr i start og 15 kr per km. Hvilket uttrykk gir prisen for x km?",
       "options": [
         "60x + 15",
+        "15(x + 60)",
         "75x",
-        "15 + 60 + x",
         "15x + 60"
       ],
       "correct": 3,
@@ -210,9 +211,9 @@
       "text": "Et abonnement koster 100 kr per måned pluss 2 kr per minutt. Hvilket uttrykk passer?",
       "options": [
         "y = 100x + 2",
-        "y = 102x",
+        "y = 2(x + 100)",
         "y = 2x + 100",
-        "y = 2 + 100"
+        "y = 102x"
       ],
       "correct": 2,
       "explain": "Minuttprisen ganges med antall minutter (2x), og den faste månedsprisen legges til (100)."
@@ -222,9 +223,9 @@
       "text": "Hvorfor tester vi et program med tall der vi kjenner svaret?",
       "options": [
         "For å se om programmet gir riktig resultat",
-        "For å gjøre programmet raskere",
-        "Fordi datamaskinen krever det",
-        "For å slippe å bruke variabler"
+        "For å se om programmet bruker minst mulig tid",
+        "For å sjekke om alle variablene har navn",
+        "For å bestemme hvor mange ganger løkka kjører"
       ],
       "correct": 0,
       "explain": "Kjenner du svaret på forhånd, kan du sammenligne og oppdage om programmet regner feil."
@@ -340,7 +341,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -384,7 +385,7 @@
           "4/3",
           "1/2",
           "4/6",
-          "1/3"
+          "2/3"
         ],
         "correct": 1,
         "explain": "1/3 = 2/6. Da blir 5/6 − 2/6 = 3/6, som forkortes til 1/2."
@@ -396,8 +397,8 @@
         "options": [
           "5x + 4",
           "5x + 8",
-          "6x + 4",
-          "2x + 11"
+          "6x + 8",
+          "5x + 6"
         ],
         "correct": 1,
         "explain": "Gang ut parentesen: 2x + 8. Legg til 3x: 2x + 3x + 8 = 5x + 8."
@@ -446,13 +447,14 @@
         "type": "flervalg",
         "text": "Hva gjør en if-setning?",
         "options": [
-          "Gjentar kode",
-          "Lagrer en verdi",
-          "Skriver ut tekst",
+          "Lar programmet gjenta kode mens noe er sant",
+          "Lar programmet lagre en verdi i en variabel",
+          "Lar programmet skrive ut tekst på skjermen",
           "Lar programmet velge ut fra om noe er sant"
         ],
         "correct": 3,
-        "explain": "En if-setning sjekker en betingelse og utfører kode bare hvis betingelsen er sann."
+        "explain": "En if-setning sjekker en betingelse og utfører kode bare hvis betingelsen er sann.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -527,12 +529,86 @@
           "Forkorter brøken til 3/4.",
           "Forklarer at felles primtallsfaktorer i teller og nevner kan forkortes bort."
         ]
+      },
+      {
+        "text": "Regn ut 4² − √36. Vis kort hvordan du finner verdien av potensen og kvadratroten før du trekker fra.",
+        "fasit": "4² = 16 og √36 = 6. Derfor er 4² − √36 = 16 − 6 = 10.",
+        "kriterier": [
+          "Finner 4² = 16 og √36 = 6.",
+          "Får svaret 10."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Regn ut 1/4 + 1/6. Forklar hvordan du finner en fellesnevner ved å se på faktorene i nevnerne.",
+        "fasit": "Nevnerne 4 og 6 har minste fellesnevner 12. Da blir 1/4 + 1/6 = 3/12 + 2/12 = 5/12.",
+        "kriterier": [
+          "Finner en fellesnevner, for eksempel 12.",
+          "Regner riktig til 5/12."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Skriv 5 600 000 på standardform, og forklar hva eksponenten i tierpotensen forteller.",
+        "fasit": "5 600 000 = 5,6 · 10⁶. Eksponenten 6 betyr at 5,6 ganges med 10 seks ganger.",
+        "kriterier": [
+          "Skriver tallet som 5,6 · 10⁶.",
+          "Forklarer at standardform bruker et tall mellom 1 og 10 ganget med en tierpotens, eller hva eksponenten viser."
+        ],
+        "id": "s11",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Regn ut (−5)² og −5². Forklar hvorfor svarene blir forskjellige.",
+        "fasit": "(−5)² = 25, mens −5² = −25. I det første uttrykket er minustegnet med i potensen, men i det andre regnes potensen ut før minustegnet brukes.",
+        "kriterier": [
+          "Finner verdiene 25 og −25 i riktig rekkefølge.",
+          "Forklarer betydningen av parentesen eller rekkefølgen mellom potens og minustegn."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Fire like notatbøker og en penn til 20 kr koster til sammen 180 kr. La x være prisen på én notatbok. Sett opp en likning og finn prisen på én notatbok.",
+        "fasit": "Likningen er 4x + 20 = 180. Når vi trekker fra 20 på begge sider og deler på 4, får vi x = 40. Én notatbok koster 40 kr.",
+        "kriterier": [
+          "Setter opp en riktig likning, for eksempel 4x + 20 = 180.",
+          "Løser likningen riktig og finner 40 kr."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En elev har høyst 250 kr å bruke på inngangsbilletter som koster 48 kr hver. Skriv en ulikhet for antall billetter, og finn hvor mange hele billetter eleven maksimalt kan kjøpe.",
+        "fasit": "Hvis x er antall billetter, er ulikheten 48x ≤ 250. Når vi deler på 48, får vi x ≤ 250/48, altså omtrent 5,2. Eleven kan derfor kjøpe maksimalt 5 hele billetter.",
+        "kriterier": [
+          "Setter opp en ulikhet som viser at kostnaden ikke kan være over 250 kr.",
+          "Finner at det maksimale antallet hele billetter er 5."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et kvadrat har sidelengde s. Omkretsen er P = 4s, og arealet er A = s². Sammenlign hvordan omkretsen og arealet endres når sidelengden øker fra 2 til 3.",
+        "fasit": "Omkretsen øker fra 8 til 12, altså med 4. Arealet øker fra 4 til 9, altså med 5. Omkretsen øker med et fast beløp per ekstra sidelengdeenhet, mens arealet ikke øker med et fast beløp.",
+        "kriterier": [
+          "Regner ut riktige omkretser og arealer for sidelengdene 2 og 3.",
+          "Sammenligner endringene og får fram at omkretsen er lineær, mens arealet følger s² og ikke øker med et fast beløp."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Beskriv en algoritme som avgjør om et helt tall er delelig med 3, og bruk den til å undersøke tallet 246.",
+        "fasit": "Algoritmen finner tverrsummen av tallet og sjekker om tverrsummen er delelig med 3. For 246 er tverrsummen 2 + 4 + 6 = 12, som er delelig med 3, så 246 er delelig med 3.",
+        "kriterier": [
+          "Beskriver at algoritmen finner tverrsummen og undersøker om den er delelig med 3.",
+          "Bruker metoden riktig på 246 og konkluderer at tallet er delelig med 3."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva er et grunnleggende kriterium for å være urfolk?",
       "options": [
-        "Å bo på landsbygda",
+        "Fast bosted og statsborgerskap i landet der gruppen bor",
         "Selvidentifikasjon og nedstamming fra folk som bodde der før statsgrensene",
-        "Å snakke engelsk",
-        "Å drive reindrift"
+        "Eget språk og en kultur som skiller seg fra majoritetens",
+        "Tilhørighet til en minoritet og bosetting i et avsidesliggende område"
       ],
       "correct": 1,
       "explain": "Etter ILO-konvensjon 169."
@@ -97,9 +97,9 @@
       "text": "Når ble Sametinget opprettet?",
       "options": [
         "1989",
-        "1814",
-        "1945",
-        "2005"
+        "1987",
+        "1993",
+        "1979"
       ],
       "correct": 0,
       "explain": "Samenes folkevalgte organ."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva var fornorskningspolitikken?",
       "options": [
-        "Å lære turister norsk",
-        "En politikk for flere språk",
+        "En politikk for å gi samer og kvener større selvstyre",
+        "En politikk for å verne samiske og kvenske språk",
         "En politikk for å gjøre samer og kvener «norske»",
-        "En handelsavtale"
+        "En politikk for å flytte samer og kvener til egne områder"
       ],
       "correct": 2,
       "explain": "Samisk ble blant annet forbudt i skolen."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?",
       "options": [
-        "At vindkraft er ulovlig i Norge",
-        "At reindrift må avvikles",
-        "At Sametinget skal legges ned",
-        "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
+        "At vindkraftutbyggingen krenket Sametingets rett til å godkjenne utbygginger",
+        "At vindkraftutbyggingen brøt naturvernreglene for området",
+        "At vindkraftutbyggingen krenket grunneiernes rett til erstatning",
+        "At vindkraftutbyggingen krenket reindriftssamenes rett til kulturutøvelse"
       ],
       "correct": 3,
       "explain": "Etter FNs konvensjon om sivile og politiske rettigheter.",
@@ -134,9 +134,9 @@
       "text": "Hvilket land ratifiserte først ILO-konvensjon 169?",
       "options": [
         "Norge",
+        "Danmark",
         "Sverige",
-        "Australia",
-        "USA"
+        "Finland"
       ],
       "correct": 0,
       "explain": "I 1990.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hvilken erfaring deler mange urfolk?",
       "options": [
-        "At de alltid har hatt full selvbestemmelse",
+        "Utvidelse av egne statsgrenser, kolonisering av andre folk og assimilering",
         "Kolonisering, tap av land og assimileringspolitikk",
-        "At de ikke har egne språk",
-        "At de bare bor i Europa"
+        "Industrialisering, urbanisering og økt tilgang til utdanning",
+        "Frivillig migrasjon, språkbevaring og politisk integrering"
       ],
       "correct": 1,
       "explain": "Også diskriminering."
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hva var Altasaken?",
       "options": [
-        "En fotballkamp",
-        "En handelsavtale",
+        "Forhandlinger om opprettelsen av Sametinget i Kautokeino",
+        "Protester mot gruvedrift i Finnmark",
         "Protester mot utbyggingen av Alta-Kautokeino-vassdraget",
-        "En skolereform"
+        "En konflikt om grensene for reinbeiteområder i Finnmark"
       ],
       "correct": 2,
       "explain": "Et vendepunkt rundt 1980."
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hvorfor er det feil å se urfolkskultur som noe som bare tilhører fortiden?",
       "options": [
-        "Fordi urfolk ikke har tradisjoner",
-        "Fordi alle urfolk bor i storbyer",
-        "Fordi kulturen er forbudt",
+        "Fordi tradisjonene deres har holdt seg uendret gjennom flere hundre år",
+        "Fordi urfolkskultur først ble dokumentert etter at den var i ferd med å forsvinne",
+        "Fordi dagens urfolkskultur hovedsakelig består av uttrykk fra majoritetskulturen",
         "Fordi mange lever moderne liv samtidig som de holder på språk og tradisjoner"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?",
       "options": [
         "En rapport om fornorskningen og uretten den førte til",
-        "En ny grunnlov",
-        "Et forslag om å legge ned Sametinget",
-        "En plan for vindkraft"
+        "En rapport om reindrift og vindkraftutbygging i Finnmark",
+        "En rapport om samisk selvstyre og opprettelsen av Sametinget",
+        "En rapport om grensene for samisk språkforvaltning"
       ],
       "correct": 0,
       "explain": "Om samer, kvener og skogfinner.",
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva sier Grunnloven § 108?",
       "options": [
-        "At samisk er forbudt",
+        "At staten skal gi Sametinget myndighet over norsk lovgivning",
         "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
-        "At alle må snakke samisk",
-        "At samer ikke har stemmerett"
+        "At staten skal sikre samisk opplæring for alle elever i landet",
+        "At staten skal gi samisk samme status som norsk i alle offentlige sammenhenger"
       ],
       "correct": 1,
       "explain": "Tidligere § 110 a, fra 1988.",
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er duodji?",
         "options": [
-          "En samisk sang",
+          "Samisk joik",
           "Samisk håndverk",
-          "Et samisk festmåltid",
-          "En samisk høytid"
+          "Samisk festmåltid",
+          "Samisk høytid"
         ],
         "correct": 1,
         "explain": "Joik er sangformen.",
@@ -342,9 +342,9 @@
         "text": "Hvilken avtale er grunnlaget for maorienes forhold til staten i New Zealand?",
         "options": [
           "Waitangi-traktaten",
-          "Finnmarksloven",
-          "ILO 169",
-          "Versailles-traktaten"
+          "Nisga’a-avtalen",
+          "James Bay-avtalen",
+          "Nunavut-avtalen"
         ],
         "correct": 0,
         "explain": "Fra 1840.",
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvilket argument brukes for særrettigheter for urfolk?",
         "options": [
-          "At urfolk er bedre enn andre",
-          "At særrettigheter er gratis",
+          "At de skal gi urfolk større politisk innflytelse på grunn av befolkningstallet",
+          "At de skal sikre økonomisk støtte uten hensyn til historisk diskriminering",
           "At de skal rette opp tidligere urett og sikre at kulturen kan leve videre",
-          "At majoriteten ikke har kultur"
+          "At de skal bevare urfolkssamfunn uten kontakt med majoritetsbefolkningen"
         ],
         "correct": 2,
         "explain": "I tråd med menneskerettighetene."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

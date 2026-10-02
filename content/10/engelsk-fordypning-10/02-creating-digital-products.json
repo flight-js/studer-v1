@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "What is a digital product?",
       "options": [
-        "A product you buy online",
-        "A computer",
-        "Something you create with digital tools that combines media types",
-        "An app store"
+        "A device used to create and store digital media files",
+        "A physical item designed with software and sold online",
+        "Something made with digital tools that combines different media types",
+        "A single media file created with one digital tool"
       ],
       "correct": 2,
       "explain": "Podcasts, videos and websites are examples."
@@ -92,9 +92,9 @@
       "text": "What should you decide before choosing tools?",
       "options": [
         "Your purpose, audience and message",
-        "The price of the software",
-        "The colour of your laptop",
-        "The length of your name"
+        "Your budget, device and editing software",
+        "Your format, file type and preferred platform",
+        "Your title, colour scheme and background music"
       ],
       "correct": 0,
       "explain": "Purpose and audience decide which format fits best."
@@ -104,8 +104,8 @@
       "text": "Which format is best for presenting facts and numbers visually?",
       "options": [
         "A podcast",
-        "A radio drama",
-        "A novel",
+        "A photo essay",
+        "A short story",
         "An infographic"
       ],
       "correct": 3,
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "What is a storyboard?",
       "options": [
-        "A finished film",
-        "Simple sketches of each scene or page",
-        "A list of sources",
-        "A music track"
+        "A set of finished photos showing each scene or page",
+        "A set of simple sketches showing each scene or page",
+        "A written list of dialogue for each scene or page",
+        "A list of camera equipment for each scene or page"
       ],
       "correct": 1,
       "explain": "Storyboards help you plan before you record."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Why should you add captions to a video?",
       "options": [
-        "To make it accessible to more people",
-        "To make it longer",
-        "Because music is not allowed",
-        "To hide mistakes"
+        "To make the video accessible to more people",
+        "To add background information that is not spoken aloud",
+        "To make the video play at a faster speed",
+        "To identify every person who appears on screen"
       ],
       "correct": 0,
       "explain": "Captions help people who cannot hear the sound or are watching without it."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "How should pictures and text work together?",
       "options": [
-        "They should repeat each other word for word",
-        "Text should always be larger than pictures",
-        "They should say something together and support each other",
-        "Pictures are not needed"
+        "They should repeat exactly the same information",
+        "They should focus on separate topics and avoid connecting",
+        "They should work together and support the same message",
+        "Pictures should decorate the page while text explains everything"
       ],
       "correct": 2,
       "explain": "Each media type should add something."
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "What is a good tip for recording sound?",
       "options": [
-        "Record in a noisy café",
-        "Hold the microphone far away",
-        "Use loud background music",
+        "Record in a busy room with the microphone close",
+        "Record in a quiet room with the microphone far away",
+        "Record in a quiet room with music playing nearby",
         "Record in a quiet room with the microphone close"
       ],
       "correct": 3,
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "What must you get from people who appear in your video?",
       "options": [
-        "Money",
+        "A filming schedule",
         "Consent",
-        "Their passwords",
-        "Nothing"
+        "A copy of the video",
+        "A copyright licence"
       ],
       "correct": 1,
       "explain": "Everyone has the right to decide over pictures and videos of themselves."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "What is a script?",
       "options": [
-        "A computer virus",
-        "A type of font",
+        "A recorded file of what has already been said and shown",
+        "A list of fonts used in a digital product",
         "A written plan of what will be said and shown",
-        "A picture"
+        "A visual plan made from sketches of each scene"
       ],
       "correct": 2,
       "explain": "A script makes recording easier and more structured."
@@ -189,9 +189,9 @@
       "text": "Why should you test your product on someone from the target audience?",
       "options": [
         "To get feedback and improve it before publishing",
-        "To finish faster",
-        "Because it is required by law",
-        "To avoid editing"
+        "To check whether the software works on your computer",
+        "To decide which tools to use before production begins",
+        "To make the finished product without editing it"
       ],
       "correct": 0,
       "explain": "Feedback shows what works and what is unclear."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "What is accessibility?",
         "options": [
-          "Making a product easy for as many people as possible to use",
-          "Making it expensive",
-          "Hiding it",
-          "Making it very long"
+          "Making a product usable for as many people as possible",
+          "Making a product available to as many websites as possible",
+          "Making a product simple to publish on social media",
+          "Making a product easy to find in an online search"
         ],
         "correct": 0,
         "explain": "Good contrast, captions and clear sound improve accessibility."
@@ -349,8 +349,8 @@
         "options": [
           "An infographic",
           "A podcast",
-          "A poster",
-          "A comic"
+          "A photo essay",
+          "A printed brochure"
         ],
         "correct": 1,
         "explain": "Podcasts are built around voices.",
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "What happens in the editing stage?",
         "options": [
-          "You choose your topic",
-          "You write the script",
+          "You choose a topic and define your audience",
+          "You write a script and plan the scenes",
           "You cut away mistakes and adjust the sound",
-          "You find your audience"
+          "You record the footage and capture the sound"
         ],
         "correct": 2,
         "explain": "Editing turns raw recordings into a finished product."
@@ -450,6 +450,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

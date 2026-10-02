@@ -78,8 +78,8 @@
       "options": [
         "1 cm på kartet er 50 m i virkeligheten",
         "1 cm på kartet er 500 m i virkeligheten",
-        "1 cm på kartet er 50 km i virkeligheten",
-        "Kartet viser 50 000 steder"
+        "1 cm på kartet er 5 km i virkeligheten",
+        "1 cm på kartet er 50 km i virkeligheten"
       ],
       "correct": 1,
       "explain": "50 000 cm = 500 m."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva betyr det når høydekurvene ligger tett?",
       "options": [
-        "At terrenget er bratt",
-        "At terrenget er flatt",
-        "At det er vann der",
-        "At det er mye skog"
+        "At terrenget endrer høyde mye på kort avstand",
+        "At terrenget endrer høyde lite på kort avstand",
+        "At terrenget ligger høyt over havet i området",
+        "At terrenget er jevnt og flatt over området"
       ],
       "correct": 0,
       "explain": "Høyden endrer seg mye over kort avstand."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en svakhet ved Mercatorprojeksjonen?",
       "options": [
-        "Den gir feil vinkler",
-        "Den viser ikke hav",
+        "Den forstørrer områder nær ekvator mest",
+        "Den forminsker områder nær polene",
         "Den forstørrer områder nær polene",
-        "Den viser bare Europa"
+        "Den gjør arealene like store over hele kartet"
       ],
       "correct": 2,
       "explain": "Derfor ser Grønland altfor stort ut."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva angir breddegrader?",
       "options": [
-        "Hvor langt øst eller vest et sted ligger",
-        "Høyden over havet",
-        "Tidssonen",
-        "Hvor langt nord eller sør for ekvator et sted ligger"
+        "Et steds plassering øst eller vest for nullmeridianen",
+        "Et steds høyde målt i meter over havet",
+        "Et steds lokale tid sammenlignet med UTC",
+        "Et steds plassering nord eller sør for ekvator"
       ],
       "correct": 3,
       "explain": "Lengdegrader angir øst–vest."
@@ -125,9 +125,9 @@
       "text": "Hva er GIS?",
       "options": [
         "Et digitalt system der ulike datalag legges oppå hverandre",
-        "En type kompass",
-        "Et papirkart",
-        "En satellitt"
+        "Et digitalt system som registrerer posisjon ved hjelp av GPS-signaler",
+        "Et digitalt system som fotograferer jordoverflaten fra satellitter",
+        "Et digitalt system som gir kjøreinstruksjoner mellom to steder"
       ],
       "correct": 0,
       "explain": "GIS brukes for eksempel til å kartlegge skredfare."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva viser et tematisk kart?",
       "options": [
-        "Alt i et område",
-        "Ett bestemt tema, som befolkningstetthet",
-        "Bare veier",
-        "Bare høydekurver"
+        "Et kart som viser mange forhold, som veier, vann og terreng",
+        "Et kart som viser ett bestemt tema, som befolkningstetthet",
+        "Et kart som viser terrengformer med høydekurver og høydepunkter",
+        "Et kart som viser plassering av byer, veier og elver samlet"
       ],
       "correct": 1,
       "explain": "Topografiske kart viser mange forhold samtidig."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilken målestokk er størst?",
       "options": [
-        "1 : 1 000 000",
-        "1 : 100 000",
+        "1 : 10 000",
+        "1 : 50 000",
         "1 : 5 000",
-        "1 : 50 000"
+        "1 : 100 000"
       ],
       "correct": 2,
       "explain": "Stor målestokk betyr lite tall under brøkstreken og mange detaljer."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er det første steget i et feltarbeid?",
       "options": [
-        "Presentere resultatene",
-        "Lage diagrammer",
         "Samle inn data",
+        "Velge måleutstyr",
+        "Lage en resultatpresentasjon",
         "Formulere en problemstilling"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er primærdata?",
       "options": [
         "Informasjon du har samlet inn selv",
-        "Statistikk fra SSB",
-        "Informasjon fra en lærebok",
-        "Data fra et leksikon"
+        "Informasjon du har hentet fra SSB",
+        "Informasjon du har funnet i en lærebok",
+        "Informasjon du har hentet fra et leksikon"
       ],
       "correct": 0,
       "explain": "Feltarbeid gir primærdata."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor bør du være kildekritisk til kart?",
       "options": [
-        "Fordi kart alltid er feil",
-        "Fordi kart er et utvalg, og kartlageren bestemmer hva som vises",
-        "Fordi kart er ulovlige",
-        "Fordi kart bare viser fortiden"
+        "Kart viser naturforhold og menneskelig aktivitet på samme måte",
+        "Kart er et utvalg, og kartlageren bestemmer hva som vises",
+        "Kart bruker samme tegnforklaring uavhengig av hvem som lager dem",
+        "Kart blir oppdatert på samme tidspunkt uavhengig av hvem som lager dem"
       ],
       "correct": 1,
       "explain": "Spør hvem som har laget kartet, når og hvorfor."
@@ -332,9 +332,9 @@
         "text": "Hvorfor bør du gjøre en risikovurdering før feltarbeid?",
         "options": [
           "For å unngå ulykker ute i terrenget",
-          "For å få bedre karakter",
-          "For å finne problemstillingen",
-          "For å lage kart"
+          "For å bestemme hvilken problemstilling som skal undersøkes",
+          "For å planlegge hvordan resultatene skal presenteres",
+          "For å velge målemetode for feltarbeidet"
         ],
         "correct": 0,
         "explain": "Tenk for eksempel på trafikk, vær og bratt terreng."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva kan satellittbilder brukes til?",
         "options": [
-          "Bare til værmeldinger",
+          "Å måle avstanden mellom høydekurvene på et kart",
           "Å se hvordan landskapet endrer seg over tid",
-          "Å måle folks meninger",
-          "Å finne ekvidistansen"
+          "Å samle inn svar om folks meninger i et område",
+          "Å bestemme målestokken på et papirkart"
         ],
         "correct": 1,
         "explain": "For eksempel avskoging, isbreer som smelter og byer som vokser."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

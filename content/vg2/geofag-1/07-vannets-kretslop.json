@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvor mye av vannet på jorda er ferskvann?",
       "options": [
-        "Omtrent 50 %",
+        "Omtrent 0,5 %",
         "Omtrent 2,5 %",
-        "Omtrent 25 %",
-        "Omtrent 97,5 %"
+        "Omtrent 10 %",
+        "Omtrent 30 %"
       ],
       "correct": 1,
       "explain": "Resten er saltvann i havet."
@@ -89,9 +89,9 @@
       "text": "Hvor finnes mesteparten av ferskvannet?",
       "options": [
         "I isbreer og snø",
-        "I elver",
-        "I innsjøer",
-        "I atmosfæren"
+        "I grunnvann og jordfuktighet",
+        "I innsjøer og elver",
+        "I atmosfæren og skyene"
       ],
       "correct": 0,
       "explain": "Nesten 70 % av ferskvannet."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er evapotranspirasjon?",
       "options": [
-        "Nedbør og avrenning",
-        "Vann som siver ned",
+        "Nedbør pluss avrenning fra landjorda",
+        "Infiltrasjon pluss perkolasjon gjennom jorda",
         "Fordampning pluss transpirasjon fra planter",
-        "Kondensasjon i skyer"
+        "Kondensasjon pluss nedbør fra skyer"
       ],
       "correct": 2,
       "explain": "Vannet går tilbake til atmosfæren."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er et nedbørfelt?",
       "options": [
-        "Et område med mye regn",
-        "En innsjø",
-        "Et grunnvannsmagasin",
+        "Området som ligger langs elva og oversvømmes ved flom",
+        "Området der grunnvann lagres mellom vannførende berglag",
+        "Området der vann samles i en innsjø før det renner ut",
         "Området som drenerer til et punkt i en elv"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva står A for i vannbalanselikningen N = F + A + ΔM?",
       "options": [
         "Avrenning",
-        "Atmosfære",
-        "Akvifer",
-        "Areal"
+        "Avdamping",
+        "Akkumulering",
+        "Avsiving"
       ],
       "correct": 0,
       "explain": "N er nedbør, F fordampning."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor får byer oftere overvannsflom?",
       "options": [
-        "Det regner mer i byer",
-        "Tette flater hindrer infiltrasjon",
-        "Byer ligger alltid lavt",
-        "Grunnvannet er høyere"
+        "Høyere grunnvannstand gjør at regnet renner raskere av",
+        "Tette flater hindrer vann i å infiltrere i bakken",
+        "Flere trær gjør at regnvann renner raskere over bakken",
+        "Bygninger øker fordampningen av regnvann før det renner av"
       ],
       "correct": 1,
       "explain": "Regnet renner raskt av."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilket materiale gir en god akvifer?",
       "options": [
-        "Leire",
-        "Massivt granitt uten sprekker",
+        "Finkornet leire",
+        "Massiv granitt uten sprekker",
         "Sand og grus",
-        "Asfalt"
+        "Tett morene med mye leire"
       ],
       "correct": 2,
       "explain": "God porøsitet og permeabilitet."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvordan påvirker klimaendringer vannets kretsløp i Norge?",
       "options": [
-        "Mindre nedbør og flere breer",
-        "Ingen endring",
-        "Mer snø i lavlandet",
+        "Mindre nedbør, svakere regnskyll og voksende breer",
+        "Mer snø i lavlandet, færre regnskyll og større breer",
+        "Uendret nedbør, jevnere regn og stabile breer",
         "Mer nedbør, kraftigere regnskyll og krympende breer"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Omtrent hvor lenge blir et vannmolekyl i atmosfæren?",
       "options": [
         "Omtrent ti dager",
-        "Ett år",
-        "Hundre år",
-        "Tusen år"
+        "Omtrent ett døgn",
+        "Omtrent tre måneder",
+        "Omtrent ett år"
       ],
       "correct": 0,
       "explain": "Grunnvann og is kan lagre vann mye lenger.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er et regnbed?",
       "options": [
-        "En type seng",
-        "En blågrønn løsning der regnvann får infiltrere",
-        "En demning",
-        "En type akvifer"
+        "Et blågrønt tiltak der regnvann lagres i en tett dam",
+        "Et blågrønt tiltak der regnvann infiltrerer i bakken",
+        "Et blågrønt tiltak der regnvann ledes rett til avløp",
+        "Et blågrønt tiltak der regnvann pumpes opp fra grunnen"
       ],
       "correct": 1,
       "explain": "Det demper overvann i byer.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er tredje trinn i tretrinnsstrategien for overvann?",
         "options": [
-          "Infiltrere",
-          "Sikre trygge flomveier for de største mengdene",
-          "Fordampe",
-          "Pumpe ut alt vann"
+          "Infiltrere regnvannet lokalt i grunnen først",
+          "Lede de største vannmengdene trygt i flomveier",
+          "Fordrøye regnvannet i åpne bassenger lokalt",
+          "Lede regnvannet gjennom rør til avløpsnettet"
         ],
         "correct": 1,
         "explain": "Først infiltrere, så fordrøye, så flomveier.",
@@ -333,9 +333,9 @@
         "text": "Hva er et vannskille?",
         "options": [
           "Grensen mellom to nedbørfelt",
-          "En demning",
-          "Et grunnvannsspeil",
-          "En elvemunning"
+          "Høyeste punkt langs et elveløp",
+          "Området der elva møter havet",
+          "Laget der grunnvann møter berggrunn"
         ],
         "correct": 0,
         "explain": "Går langs de høyeste punktene."
@@ -345,7 +345,7 @@
         "type": "flervalg",
         "text": "Hva kalles vann som siver ned til grunnvannet?",
         "options": [
-          "Kondensasjon",
+          "Infiltrasjon",
           "Transpirasjon",
           "Perkolasjon",
           "Avrenning"
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

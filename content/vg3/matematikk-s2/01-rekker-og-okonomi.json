@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er differansen i rekken 7 + 12 + 17 + …?",
       "options": [
-        "7",
+        "4",
         "5",
-        "12",
-        "17"
+        "6",
+        "7"
       ],
       "correct": 1,
       "explain": "12 − 7 = 5."
@@ -88,9 +88,9 @@
       "text": "Hva er 1 + 2 + 3 + … + 100?",
       "options": [
         "5050",
-        "10 000",
         "5000",
-        "10 100"
+        "5005",
+        "5100"
       ],
       "correct": 0,
       "explain": "100 · 101/2."
@@ -100,7 +100,7 @@
       "text": "Hva er kvotienten i en spareserie med 5 % rente?",
       "options": [
         "0,05",
-        "5",
+        "1,5",
         "1,05",
         "0,95"
       ],
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?",
       "options": [
-        "9500 kr",
-        "11 025 kr",
-        "10 000 kr",
+        "Omtrent 9500 kr",
+        "Omtrent 11 025 kr",
+        "Omtrent 10 000 kr",
         "Omtrent 9070 kr"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva er summen av 100 + 50 + 25 + …?",
       "options": [
         "200",
-        "175",
         "150",
-        "Uendelig"
+        "175",
+        "250"
       ],
       "correct": 0,
       "explain": "100/(1 − 0,5)."
@@ -150,7 +150,7 @@
         "0,8",
         "1,8",
         "5",
-        "8"
+        "4"
       ],
       "correct": 2,
       "explain": "1/(1 − 0,8)."
@@ -161,7 +161,7 @@
       "options": [
         "Når k > 1",
         "Når k = 1",
-        "Alltid",
+        "Når k < −1",
         "Når −1 < k < 1"
       ],
       "correct": 3,
@@ -173,19 +173,19 @@
       "options": [
         "Like store terminbeløp",
         "Like store avdrag",
-        "Ingen renter",
-        "Økende terminbeløp"
+        "Like store rentebeløp",
+        "Synkende terminbeløp"
       ],
       "correct": 0,
-      "explain": "Et serielån har like store avdrag."
+      "explain": "I et annuitetslån er terminbeløpet fast, mens renteandelen og avdragsdelen endres."
     },
     {
       "id": "q10",
       "text": "Hva er sluttverdien av 5 innskudd på 1000 kr med 10 % rente, rett etter siste innskudd?",
       "options": [
-        "5000 kr",
+        "Omtrent 5000 kr",
         "Omtrent 6105 kr",
-        "5500 kr",
+        "Omtrent 5500 kr",
         "Omtrent 6716 kr"
       ],
       "correct": 1,
@@ -312,9 +312,9 @@
         "text": "Hva er et godt første steg i en lån- eller spareoppgave?",
         "options": [
           "Tegne en tidslinje",
-          "Regne ut uten renter",
-          "Gjette svaret",
-          "Bruke k = 1"
+          "Regne uten å ta hensyn til renten",
+          "Summere beløpene uten å plassere dem i tid",
+          "Bruke samme verdi for nåtid og framtid"
         ],
         "correct": 0,
         "explain": "Da ser du når beløpene betales."
@@ -411,6 +411,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

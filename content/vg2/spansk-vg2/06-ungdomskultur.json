@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hvor arrangeres San Fermín?",
       "options": [
-        "Valencia",
+        "Zaragoza",
         "Pamplona",
-        "Buñol",
-        "Sevilla"
+        "Granada",
+        "Córdoba"
       ],
       "correct": 1,
       "explain": "Oksene løper gjennom gatene."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva er Día de Muertos?",
       "options": [
-        "En mexicansk tradisjon der de døde minnes",
-        "En skrekkfilm",
-        "En fotballkamp",
-        "En spansk nasjonaldag"
+        "En meksikansk tradisjon der man minnes de døde",
+        "En meksikansk tradisjon der man feirer landets nasjonaldag",
+        "En meksikansk tradisjon der man markerer starten på karnevalet",
+        "En meksikansk tradisjon der man feirer vårens første dag"
       ],
       "correct": 0,
       "explain": "Feires 1.–2. november."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Velg riktig: «Este regalo es ___ ti.»",
       "options": [
-        "por",
-        "a",
+        "con",
+        "en",
         "para",
-        "de"
+        "sobre"
       ],
       "correct": 2,
       "explain": "Mottaker: para."
@@ -119,8 +119,8 @@
       "text": "Velg riktig: «Gracias ___ todo.»",
       "options": [
         "para",
-        "a",
-        "con",
+        "en",
+        "hacia",
         "por"
       ],
       "correct": 3,
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hva betyr «vale» i Spania?",
       "options": [
-        "ok",
-        "farvel",
-        "dal",
-        "verdi"
+        "de acuerdo",
+        "hasta luego",
+        "muchas gracias",
+        "lo siento"
       ],
       "correct": 0,
       "explain": "¿Quedamos a las ocho? – ¡Vale!"
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Velg riktig: «Estudio ___ aprender.»",
       "options": [
-        "por",
+        "a",
         "para",
-        "de",
-        "en"
+        "con",
+        "desde"
       ],
       "correct": 1,
       "explain": "Formål: para."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva er El Clásico?",
       "options": [
-        "En musikkfestival",
-        "En gammel bil",
+        "Kampen mellom Atlético Madrid og Real Madrid",
+        "Kampen mellom Sevilla FC og FC Barcelona",
         "Kampen mellom Real Madrid og FC Barcelona",
-        "En dans"
+        "Kampen mellom Valencia CF og Real Madrid"
       ],
       "correct": 2,
       "explain": "Følges over hele verden.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Velg riktig: «___ la lluvia, no salimos.»",
       "options": [
-        "Para",
-        "Con",
-        "A",
+        "de",
+        "sobre",
+        "hacia",
         "Por"
       ],
       "correct": 3,
@@ -180,22 +180,22 @@
       "text": "Hvilket ord betyr «kult» i Mexico?",
       "options": [
         "chido",
-        "guay",
-        "vale",
-        "tío"
+        "majo",
+        "chaval",
+        "curro"
       ],
       "correct": 0,
-      "explain": "Guay er vanlig i Spania.",
+      "explain": "Chido er et vanlig meksikansk slangord for «kult».",
       "niva": "eksempel"
     },
     {
       "id": "q10",
       "text": "Hva betyr «Los fines de semana quedo con mis amigos»?",
       "options": [
-        "I helgene blir jeg hjemme.",
+        "I helgene snakker jeg med vennene mine.",
         "I helgene møter jeg vennene mine.",
-        "I helgene ringer jeg vennene mine.",
-        "I helgene jobber jeg."
+        "I helgene spiser jeg sammen med vennene mine.",
+        "I ukedagene møter jeg vennene mine."
       ],
       "correct": 1,
       "explain": "quedar con = møte (avtale med)."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Velg riktig: «Paseamos ___ el parque.»",
         "options": [
-          "para",
+          "con",
           "por",
-          "a",
-          "de"
+          "entre",
+          "sobre"
         ],
         "correct": 1,
         "explain": "Gjennom et sted: por."
@@ -336,9 +336,9 @@
         "text": "Velg riktig: «Los deberes son ___ el lunes.»",
         "options": [
           "para",
-          "por",
-          "en",
-          "a"
+          "de",
+          "con",
+          "sobre"
         ],
         "correct": 0,
         "explain": "Frist: para."
@@ -348,13 +348,13 @@
         "type": "flervalg",
         "text": "Hvilken artist kommer fra Puerto Rico?",
         "options": [
-          "Rosalía",
-          "Shakira",
+          "Karol G",
+          "J Balvin",
           "Bad Bunny",
-          "Enrique Iglesias"
+          "Juanes"
         ],
         "correct": 2,
-        "explain": "Rosalía er fra Spania og Shakira fra Colombia.",
+        "explain": "Bad Bunny er kjent for reggaeton og kommer fra Puerto Rico.",
         "niva": "eksempel"
       }
     ],
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

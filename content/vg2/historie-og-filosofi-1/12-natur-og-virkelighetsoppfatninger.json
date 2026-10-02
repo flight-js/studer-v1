@@ -88,10 +88,10 @@
       "id": "q01",
       "text": "Hva er antroposentrisme?",
       "options": [
-        "At alt levende har lik verdi",
-        "At mennesket står i sentrum og naturen har verdi fordi den er nyttig",
-        "At økosystemer har egenverdi",
-        "At dyr er hellige"
+        "At alt levende står i sentrum og har verdi uavhengig av nytte",
+        "At mennesket står i sentrum, og naturen har verdi som nytte for mennesker",
+        "At økosystemer står i sentrum og har verdi uavhengig av mennesker",
+        "At naturen har verdi i seg selv, uavhengig av menneskers behov"
       ],
       "correct": 1,
       "explain": "Et menneskesentrert syn."
@@ -101,9 +101,9 @@
       "text": "Hvordan så Descartes på dyr?",
       "options": [
         "Som maskiner uten bevissthet",
-        "Som hellige vesener",
-        "Som like mye verdt som mennesker",
-        "Som guder"
+        "Som levende vesener med tanker og følelser",
+        "Som dyr med fornuft på nivå med mennesker",
+        "Som vesener som lærer gjennom erfaring og refleksjon"
       ],
       "correct": 0,
       "explain": "Et syn som er sterkt kritisert i dag.",
@@ -113,10 +113,10 @@
       "id": "q03",
       "text": "Hva mente Bentham var det avgjørende spørsmålet om dyr?",
       "options": [
-        "Om de kan tenke",
-        "Om de kan snakke",
-        "Om de kan lide",
-        "Om de er nyttige"
+        "Om de har evne til å tenke og trekke logiske slutninger",
+        "Om de har evne til å kommunisere med mennesker gjennom språk",
+        "Om de har evne til å oppleve smerte og lidelse",
+        "Om de har evne til å være nyttige for mennesker og samfunnet"
       ],
       "correct": 2,
       "explain": "Grunnlag for dyreetikk.",
@@ -126,9 +126,9 @@
       "id": "q04",
       "text": "Hva er dypøkologi?",
       "options": [
-        "Havforskning",
-        "En type jordbruk",
-        "Et økonomisk system",
+        "En økologisk fagretning som undersøker samspillet mellom arter og miljø",
+        "En miljøpolitisk retning som prioriterer menneskers behov framfor naturens verdi",
+        "En filosofi om at naturen får verdi gjennom menneskers erfaringer",
         "Arne Næss' filosofi om at alt liv har egenverdi"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q05",
       "text": "Hva legger daoismen vekt på?",
       "options": [
-        "Å leve i harmoni med naturens vei",
-        "Å beherske naturen",
-        "Å samle rikdom",
-        "Å bygge store byer"
+        "Å leve i harmoni med den naturlige veien som dao beskriver",
+        "Å forme naturen etter menneskers mål gjennom planlegging og kontroll",
+        "Å søke et harmonisk samfunn gjennom rikdom og materiell framgang",
+        "Å følge religiøse regler for å unngå naturens skiftende påvirkning"
       ],
       "correct": 0,
       "explain": "Dao er naturens vei.",
@@ -152,10 +152,10 @@
       "id": "q06",
       "text": "Hva kjennetegner mange urfolks naturforståelse?",
       "options": [
-        "At naturen er fiende",
+        "At mennesket må beskytte seg mot en natur som er grunnleggende fiendtlig",
         "At mennesket er en del av naturen med gjensidige forpliktelser",
-        "At naturen bare er ressurser",
-        "At dyr ikke har verdi"
+        "At naturen først og fremst består av ressurser som mennesker kan bruke",
+        "At mennesker står utenfor naturen og ikke har ansvar for den"
       ],
       "correct": 1,
       "explain": "For eksempel i samisk tradisjon.",
@@ -165,10 +165,10 @@
       "id": "q07",
       "text": "Hva er den store akselerasjonen?",
       "options": [
-        "Industrialiseringen i Storbritannia",
-        "Jordbruksrevolusjonen",
-        "Rask vekst i befolkning, produksjon og utslipp etter 1950",
-        "Den lille istid"
+        "Den raske veksten i fabrikkproduksjon i Storbritannia på 1700-tallet",
+        "Overgangen fra jakt og sanking til fast jordbruk i flere samfunn",
+        "Den raske veksten i befolkning, produksjon og utslipp etter 1950",
+        "En lang periode med lavere temperaturer i Europa fra 1300-tallet"
       ],
       "correct": 2,
       "explain": "Grunnlag for begrepet antropocen.",
@@ -178,10 +178,10 @@
       "id": "q08",
       "text": "Hvordan tolker mange kristne i dag oppdraget om å legge jorda under seg?",
       "options": [
-        "Som rett til å ødelegge naturen",
-        "Som et krav om å bo i byer",
-        "Som et forbud mot jordbruk",
-        "Som et forvalteransvar for skaperverket"
+        "Som en tillatelse til å utnytte naturen for menneskelig nytte",
+        "Som et oppdrag om å gjøre naturen om til dyrket mark",
+        "Som en plikt til å trekke mennesker bort fra naturen",
+        "Som et ansvar for å forvalte og ta vare på skaperverket"
       ],
       "correct": 3,
       "explain": "Å ta vare på naturen.",
@@ -192,9 +192,9 @@
       "text": "Hva er ahimsa?",
       "options": [
         "Ikke-vold",
-        "En hellig elv",
-        "En gud",
-        "En type meditasjon"
+        "Karma",
+        "Moksha",
+        "Dharma"
       ],
       "correct": 0,
       "explain": "Viktig i hinduisme og buddhisme.",
@@ -204,10 +204,10 @@
       "id": "q10",
       "text": "Hvordan kan synet på naturen påvirke politikken?",
       "options": [
-        "Det har ingen betydning",
-        "Det avgjør om naturinngrep vurderes bare ut fra nytte eller også ut fra naturens egenverdi",
-        "Det bestemmer skattesatsen",
-        "Det avgjør valgdagen"
+        "Det avgjør hvilke lover som gjelder for et bestemt naturinngrep",
+        "Det påvirker om naturinngrep vurderes ut fra nytte eller også naturens egenverdi",
+        "Det avgjør hvilke fagpersoner som undersøker følgene av naturinngrep",
+        "Det avgjør hvor mange mennesker som bor nær et planlagt naturinngrep"
       ],
       "correct": 1,
       "explain": "For eksempel ved vassdragsutbygging."
@@ -338,7 +338,7 @@
           "Daoismen",
           "Hinduismen",
           "Konfucianismen",
-          "Stoisismen"
+          "Shintoismen"
         ],
         "correct": 1,
         "explain": "Knyttet til ahimsa.",
@@ -363,10 +363,10 @@
         "type": "flervalg",
         "text": "Hva er biosentrisme?",
         "options": [
-          "At mennesket står i sentrum",
-          "At bare økosystemer har verdi",
+          "At mennesket har verdi i seg selv, men naturen har nytteverdi",
+          "At økosystemer som helhet har verdi i seg selv",
           "At alt levende har verdi i seg selv",
-          "At naturen er en maskin"
+          "At levende organismer har verdi ut fra nytten for mennesker"
         ],
         "correct": 2,
         "explain": "Hvert levende vesen har egenverdi."
@@ -455,6 +455,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

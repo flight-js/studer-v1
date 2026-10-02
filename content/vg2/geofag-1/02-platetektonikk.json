@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilket lag skaper jordas magnetfelt?",
       "options": [
-        "Skorpa",
-        "Den ytre kjernen",
         "Den indre kjernen",
-        "Astenosfæren"
+        "Den ytre kjernen",
+        "Den øvre mantelen",
+        "Den nedre mantelen"
       ],
       "correct": 1,
       "explain": "Flytende jern og nikkel i bevegelse."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva skjer ved en divergent plategrense?",
       "options": [
-        "Platene beveger seg fra hverandre og ny skorpe dannes",
-        "Platene kolliderer",
-        "Platene glir forbi hverandre",
-        "En plate dykker ned"
+        "Platene beveger seg fra hverandre, og ny skorpe dannes.",
+        "Platene beveger seg mot hverandre, og eldre skorpe presses ned.",
+        "Platene glir sidelengs forbi hverandre, og skorpa bevares.",
+        "En plate synker under en annen, og eldre skorpe går ned i mantelen."
       ],
       "correct": 0,
       "explain": "For eksempel Den midtatlantiske ryggen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvordan ble Himalaya dannet?",
       "options": [
-        "Ved en varm flekk",
-        "Ved en divergent grense",
+        "Ved at en havbunnsplate sank under en kontinentalplate",
+        "Ved at platene beveget seg fra hverandre ved en midthavsrygg",
         "Ved at to kontinentalplater kolliderte",
-        "Ved erosjon"
+        "Ved at magma steg opp over en varm flekk"
       ],
       "correct": 2,
       "explain": "Skorpa ble presset opp."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvilket bevis førte til teorien om platetektonikk på 1960-tallet?",
       "options": [
-        "Kystlinjene",
-        "Fossiler av dinosaurer",
-        "Vulkaner på Island",
+        "Kart over jordskjelv langs plategrenser",
+        "Målinger av havdybden ved kystene",
+        "Prøver av sedimenter fra havbunnen",
         "Magnetiske striper på havbunnen"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvor raskt beveger platene seg?",
       "options": [
         "Noen centimeter i året",
+        "Noen desimeter i året",
         "Noen meter i året",
-        "Noen kilometer i året",
-        "De står stille"
+        "Noen kilometer i året"
       ],
       "correct": 0,
       "explain": "Omtrent like raskt som neglene vokser."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kjennetegner en subduksjonssone?",
       "options": [
-        "Ny havbunn dannes",
+        "Riftdaler, normalforkastninger og ny kontinentskorpe",
         "Dyphavsgrøfter, kraftige jordskjelv og vulkaner",
-        "Platene glir forbi hverandre uten jordskjelv",
-        "Ingen geologisk aktivitet"
+        "Midthavsrygger, vulkaner og ny havbunn",
+        "Sidelengs platebevegelse, forkastninger og grunne jordskjelv"
       ],
       "correct": 1,
       "explain": "Som i Andes og Japan."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilken type plategrense er San Andreas-forkastningen?",
       "options": [
-        "Divergent",
-        "Konvergent",
-        "Transform",
-        "Varm flekk"
+        "Divergent grense",
+        "Konvergent grense",
+        "Transformgrense",
+        "Subduksjonssone"
       ],
       "correct": 2,
       "explain": "Platene glir forbi hverandre.",
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvordan ble den kaledonske fjellkjeden dannet?",
       "options": [
-        "Da Atlanterhavet åpnet seg",
-        "Ved en varm flekk under Norge",
-        "Under istida",
-        "Ved en kollisjon mellom Baltika og Laurentia"
+        "Ved åpning av havet mellom Baltika og Laurentia",
+        "Ved vulkanisme fra en varm flekk under Norge",
+        "Ved erosjon under den siste istida",
+        "Ved kollisjon mellom Baltika og Laurentia"
       ],
       "correct": 3,
       "explain": "For rundt 400–430 millioner år siden.",
@@ -175,9 +175,9 @@
       "text": "Hvorfor er den indre kjernen fast, selv om den er svært varm?",
       "options": [
         "På grunn av det enorme trykket",
-        "Fordi den er kald",
-        "Fordi den består av stein",
-        "Fordi den er hul"
+        "På grunn av den lave temperaturen",
+        "På grunn av magnetfeltet rundt jorda",
+        "På grunn av den faste mantelen rundt den"
       ],
       "correct": 0,
       "explain": "Trykket hindrer smelting."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva manglet Wegener i teorien sin?",
       "options": [
-        "Bevis fra fossiler",
-        "En forklaring på hva som flyttet kontinentene",
-        "Kart over kystlinjene",
-        "Kunnskap om Pangea"
+        "Et bevis fra fossiler som viste kontinentaldrift",
+        "En mekanisme som flyttet kontinentene",
+        "Et kart som viste kontinentene samlet i Pangea",
+        "En forklaring på hvordan havbunnen ble dannet"
       ],
       "correct": 1,
       "explain": "Platetektonikken ga forklaringen."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva forklarer vulkanene på Hawaii?",
         "options": [
-          "En subduksjonssone",
+          "En subduksjonssone under havbunnen",
           "En varm flekk i mantelen",
-          "En transform grense",
-          "Kollisjon mellom kontinenter"
+          "En transformgrense i Stillehavet",
+          "En midthavsrygg nær øygruppen"
         ],
         "correct": 1,
         "explain": "Hawaii ligger midt på en plate.",
@@ -329,9 +329,9 @@
         "text": "Når begynte Nord-Atlanteren å åpne seg mellom Norge og Grønland?",
         "options": [
           "For rundt 55 millioner år siden",
-          "For 10 000 år siden",
-          "For 4 milliarder år siden",
-          "For 1 million år siden"
+          "For rundt 25 millioner år siden",
+          "For rundt 100 millioner år siden",
+          "For rundt 200 millioner år siden"
         ],
         "correct": 0,
         "explain": "Grønland og Norge har drevet fra hverandre siden.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva er litosfæren?",
         "options": [
-          "Den flytende kjernen",
-          "Atmosfærens nederste lag",
+          "Skorpa og nederste mantel, delt i plater",
+          "Skorpa og øverste mantel, smeltet til magma",
           "Skorpa og øverste mantel, delt i plater",
-          "Havbunnens sedimenter"
+          "Skorpa og øverste mantel, flytende som vann"
         ],
         "correct": 2,
         "explain": "Den er stiv."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

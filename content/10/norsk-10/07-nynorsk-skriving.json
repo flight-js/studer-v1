@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Kva er bestemt form fleirtal av «bil» på nynorsk?",
       "options": [
-        "bilene",
+        "bilar",
         "bilane",
-        "bilarne",
-        "bila"
+        "bilen",
+        "bilene"
       ],
       "correct": 1,
       "explain": "Hankjønn: ein bil – bilen – bilar – bilane."
@@ -89,8 +89,8 @@
       "options": [
         "boken",
         "boka",
-        "boki",
-        "bokane"
+        "bøker",
+        "bokene"
       ],
       "correct": 1,
       "explain": "Bok er hokjønn: ei bok – boka."
@@ -100,9 +100,9 @@
       "text": "Kva for ein setning har rett passiv på nynorsk?",
       "options": [
         "Huset bygges no.",
-        "Huset byggjest no.",
+        "Huset byggjer no.",
         "Huset blir bygt no.",
-        "Huset bygger no."
+        "Huset blir byggje no."
       ],
       "correct": 2,
       "explain": "På nynorsk bruker vi helst bli-passiv. s-passiv kan berre stå etter modalverb."
@@ -113,8 +113,8 @@
       "options": [
         "kjærleik",
         "kjærlighet",
-        "kjærligheit",
-        "kjærleiken"
+        "kjærleiken",
+        "kjærleikar"
       ],
       "correct": 0,
       "explain": "Kjærleik er den nynorske forma."
@@ -124,8 +124,8 @@
       "text": "Kva er presens av «å snakke» på nynorsk?",
       "options": [
         "snakker",
-        "snakk",
         "snakka",
+        "snakke",
         "snakkar"
       ],
       "correct": 3,
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Kva heiter «noe» på nynorsk?",
       "options": [
-        "noe",
+        "no",
         "nokon",
         "noko",
-        "nåke"
+        "nokre"
       ],
       "correct": 2,
       "explain": "Noko = noe. Nokon = noen."
@@ -149,8 +149,8 @@
       "options": [
         "heime",
         "hjemme",
-        "heima",
-        "hjeime"
+        "heimen",
+        "heimatt"
       ],
       "correct": 0,
       "explain": "Heime er den nynorske forma."
@@ -161,7 +161,7 @@
       "options": [
         "husene",
         "husane",
-        "huse",
+        "huset",
         "husa"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Kva er det beste rådet når du skriv nynorsk?",
       "options": [
-        "Skriv på bokmål og omset etterpå",
+        "Skriv først på bokmål, og omset teksten etterpå",
         "Skriv på nynorsk frå starten og bruk ordbok",
-        "Bruk berre retteprogram og ikkje les over",
-        "Bland bokmål og nynorsk fritt"
+        "Bruk eit retteprogram, men les ikkje gjennom teksten",
+        "Skriv bokmål og nynorsk om kvarandre i teksten"
       ],
       "correct": 1,
       "explain": "Når du tenkjer nynorsk frå starten, unngår du mange bokmålsprega feil."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Kva heiter «frihet» på nynorsk?",
       "options": [
-        "friheit",
-        "fridom",
         "frihet",
-        "friskap"
+        "fridom",
+        "fridomen",
+        "fridomar"
       ],
       "correct": 1,
       "explain": "Fridom er nynorsk for frihet."
@@ -316,8 +316,8 @@
         "options": [
           "forståelse",
           "forståing",
-          "forståelsen",
-          "forstånad"
+          "forståinga",
+          "forståingar"
         ],
         "correct": 1,
         "explain": "Forståing er nynorsk for forståelse."
@@ -328,9 +328,9 @@
         "text": "Kva er preteritum av «å høyre» på nynorsk?",
         "options": [
           "høyrte",
-          "høyra",
+          "høyrer",
           "høyrde",
-          "hørte"
+          "høyrt"
         ],
         "correct": 2,
         "explain": "Høyre er eit svakt e-verb: høyrer – høyrde – har høyrt."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

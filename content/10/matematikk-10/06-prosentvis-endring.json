@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er vekstfaktoren ved en økning på 8 %?",
       "options": [
-        "0,08",
         "1,8",
+        "0,8",
         "1,08",
-        "0,92"
+        "1,008"
       ],
       "correct": 2,
       "explain": "Vekstfaktor ved økning er 1 + 8/100 = 1,08."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "En jakke til 800 kr settes ned 25 %. Hva er den nye prisen?",
       "options": [
-        "775 kr",
+        "640 kr",
         "600 kr",
-        "200 kr",
-        "625 kr"
+        "700 kr",
+        "750 kr"
       ],
       "correct": 1,
       "explain": "Vekstfaktor ved 25 % nedgang er 0,75. 800 · 0,75 = 600 kr."
@@ -101,9 +101,9 @@
       "id": "q03",
       "text": "En billett økte fra 80 kr til 92 kr. Hvor mange prosent økte prisen?",
       "options": [
-        "12 %",
-        "13 %",
-        "87 %",
+        "10 %",
+        "14 %",
+        "18 %",
         "15 %"
       ],
       "correct": 3,
@@ -114,9 +114,9 @@
       "text": "En vare koster 1250 kr med 25 % moms. Hva koster den uten moms?",
       "options": [
         "1000 kr",
-        "937,50 kr",
-        "1225 kr",
-        "1562,50 kr"
+        "1250 kr",
+        "1041,67 kr",
+        "312,50 kr"
       ],
       "correct": 0,
       "explain": "Del på vekstfaktoren: 1250 / 1,25 = 1000 kr. Å trekke fra 25 % av 1250 gir feil svar."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Renten øker fra 4 % til 5 %. Hvor stor er økningen?",
       "options": [
-        "1 %",
+        "1 prosentpoeng, eller 20 %",
         "1 prosentpoeng, eller 25 %",
-        "5 prosentpoeng",
-        "20 %"
+        "5 prosentpoeng, eller 125 %",
+        "4 prosentpoeng, eller 25 %"
       ],
       "correct": 1,
       "explain": "Forskjellen er 1 prosentpoeng. Målt i prosent av den gamle renten er det 1/4 = 25 %."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva blir 10 000 kr med 4 % årlig rente etter 5 år?",
       "options": [
-        "12 000 kr",
-        "10 400 kr",
+        "12 400 kr",
+        "12 040 kr",
         "12 167 kr",
-        "14 000 kr"
+        "12 500 kr"
       ],
       "correct": 2,
       "explain": "10 000 · 1,04⁵ ≈ 12 167 kr. Rentene gir også rente, så det blir mer enn 12 000 kr."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "En pris øker med 20 % og synker så med 20 %. Hvor ender den?",
       "options": [
-        "Tilbake på startprisen",
-        "4 % over startprisen",
-        "40 % under startprisen",
-        "4 % under startprisen"
+        "Ender 20 % under startprisen",
+        "Ender 20 % over startprisen",
+        "Ender 2 % under startprisen",
+        "Ender 4 % under startprisen"
       ],
       "correct": 3,
       "explain": "1,20 · 0,80 = 0,96. Nedgangen tas av en høyere pris, så du ender 4 % under start."
@@ -162,9 +162,9 @@
       "text": "Hvilken funksjon beskriver en by med 50 000 innbyggere som vokser med 2 % i året?",
       "options": [
         "B(x) = 50 000 · 1,02ˣ",
-        "B(x) = 50 000 + 2x",
-        "B(x) = 50 000 · 0,98ˣ",
-        "B(x) = 50 000 · 2ˣ"
+        "B(x) = 50 000 · 1,02 · x",
+        "B(x) = 50 000 · 1,2ˣ",
+        "B(x) = 50 000 · 0,02ˣ"
       ],
       "correct": 0,
       "explain": "Startverdien er 50 000 og vekstfaktoren 1,02. Konstant prosentvis vekst gir en eksponentialfunksjon."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor vokser beløpet med renters rente raskere og raskere?",
       "options": [
-        "Fordi renten øker hvert år",
+        "Fordi renten regnes av det opprinnelige beløpet hvert år",
         "Fordi renten beregnes av et stadig større beløp",
-        "Fordi banken legger til en bonus",
-        "Fordi det er en lineær funksjon"
+        "Fordi rentene legges sammen som et fast beløp hvert år",
+        "Fordi prosentandelen av startbeløpet blir større hvert år"
       ],
       "correct": 1,
       "explain": "Samme prosent av et større beløp gir flere kroner hvert år. Derfor blir økningen i kroner større og større."
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "En sykkel til 4000 kr blir 10 % dyrere. Hva koster den nå?",
         "options": [
-          "4010 kr",
-          "4100 kr",
+          "4040 kr",
+          "4200 kr",
           "4400 kr",
-          "3600 kr"
+          "4800 kr"
         ],
         "correct": 2,
         "explain": "4000 · 1,10 = 4400 kr."
@@ -321,9 +321,9 @@
         "text": "Antall medlemmer gikk fra 250 til 200. Hvor stor var nedgangen i prosent?",
         "options": [
           "20 %",
-          "25 %",
-          "50 %",
-          "80 %"
+          "10 %",
+          "12,5 %",
+          "30 %"
         ],
         "correct": 0,
         "explain": "(200 − 250) / 250 = −50/250 = −0,20, altså en nedgang på 20 %."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvor mange ganger må du gange med 1,05 for å regne ut vekst over 6 år?",
         "options": [
-          "1",
-          "5",
+          "4",
+          "10",
           "6",
-          "7"
+          "12"
         ],
         "correct": 2,
         "explain": "Én gang per år, altså 6 ganger: startverdi · 1,05⁶."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er ∫ 3x² dx?",
       "options": [
-        "6x + C",
-        "x³ + C",
         "3x³ + C",
-        "x² + C"
+        "x³ + C",
+        "x³/3 + C",
+        "3x² + C"
       ],
       "correct": 1,
       "explain": "(x³)′ = 3x²."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er ∫₀² (3x² − 2x) dx?",
       "options": [
+        "6",
         "8",
-        "12",
         "4",
-        "0"
+        "−4"
       ],
       "correct": 2,
       "explain": "[x³ − x²]₀² = 8 − 4."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er ∫ 1/x dx?",
       "options": [
-        "−1/x² + C",
-        "x⁰ + C",
-        "1/x² + C",
+        "−ln|x| + C",
+        "x + C",
+        "1/x + C",
         "ln|x| + C"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er ∫₀¹ eˣ dx?",
       "options": [
         "e − 1",
-        "e",
-        "1",
-        "0"
+        "1 − e",
+        "e² − 1",
+        "e² − e"
       ],
       "correct": 0,
       "explain": "[eˣ]₀¹."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er ∫ e^(2x) dx?",
       "options": [
-        "2e^(2x) + C",
+        "e^(2x)/4 + C",
         "e^(2x)/2 + C",
-        "e^(2x) + C",
-        "e^(x²) + C"
+        "e^x/2 + C",
+        "e^(2x−1) + C"
       ],
       "correct": 1,
       "explain": "Del på k = 2."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva gir ∫ₐᵇ f′(x) dx?",
       "options": [
-        "f′(b) − f′(a)",
-        "Gjennomsnittet av f",
+        "f(a) − f(b)",
+        "f(b) + f(a)",
         "f(b) − f(a)",
-        "0"
+        "f′(b) + f′(a)"
       ],
       "correct": 2,
       "explain": "Total endring."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvorfor legger vi til C i et ubestemt integral?",
       "options": [
-        "For riktig enhet",
-        "Fordi integralet alltid er positivt",
-        "Fordi C står for «konstant sum»",
+        "Fordi konstantleddet angir funksjonsverdien når x er null",
+        "Fordi integranden får samme konstantledd som en antiderivert",
+        "Fordi konstanten sørger for at integralet får riktig fortegn",
         "Fordi det finnes mange antideriverte som skiller seg med en konstant"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er ∫₁ᵉ 1/x dx?",
       "options": [
         "1",
-        "e",
-        "0",
-        "e − 1"
+        "−1",
+        "2",
+        "ln(e + 1)"
       ],
       "correct": 0,
       "explain": "ln e − ln 1."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er ∫₀³ 4x dx?",
       "options": [
-        "12",
+        "6",
         "18",
-        "36",
-        "9"
+        "24",
+        "27"
       ],
       "correct": 1,
       "explain": "[2x²]₀³."
@@ -317,9 +317,9 @@
         "text": "Hva er økningen i kostnad fra 1000 til 2000 enheter når K′(x) = 0,04x + 50?",
         "options": [
           "110 000 kr",
-          "50 000 kr",
-          "180 000 kr",
-          "70 000 kr"
+          "90 000 kr",
+          "130 000 kr",
+          "30 000 kr"
         ],
         "correct": 0,
         "explain": "[0,02x² + 50x]₁₀₀₀²⁰⁰⁰.",
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er ∫ 2ˣ dx?",
         "options": [
-          "2ˣ + C",
-          "x · 2ˣ⁻¹ + C",
+          "2ˣ/2 + C",
+          "2^(x+1)/ln 2 + C",
           "2ˣ/ln 2 + C",
-          "2ˣ · ln 2 + C"
+          "2ˣ·(ln 2)² + C"
         ],
         "correct": 2,
         "explain": "∫ aˣ dx = aˣ/ln a + C."
@@ -418,6 +418,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

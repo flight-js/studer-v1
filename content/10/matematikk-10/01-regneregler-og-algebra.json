@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Forenkle 7 − (x − 3).",
       "options": [
-        "4 − x",
+        "7 − x",
         "10 − x",
-        "4 + x",
-        "10 + x"
+        "x + 4",
+        "x − 4"
       ],
       "correct": 1,
       "explain": "Minus foran parentesen gjør at alle fortegn inni skifter: 7 − x + 3 = 10 − x."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er (x + 2)(x + 5)?",
       "options": [
-        "x² + 10",
-        "x² + 7x + 7",
+        "x² + 5x + 10",
+        "x² + 10x + 10",
         "x² + 7x + 10",
-        "2x + 7"
+        "x² + 7x + 12"
       ],
       "correct": 2,
       "explain": "x · x + x · 5 + 2 · x + 2 · 5 = x² + 5x + 2x + 10 = x² + 7x + 10."
@@ -101,9 +101,9 @@
       "text": "Faktoriser 6x + 9.",
       "options": [
         "3(2x + 3)",
-        "6(x + 9)",
-        "3(2x + 9)",
-        "9(x + 1)"
+        "6(x + 3)",
+        "3(2x + 1)",
+        "2(3x + 3)"
       ],
       "correct": 0,
       "explain": "3 er felles faktor: 6x = 3 · 2x og 9 = 3 · 3. Sjekk ved å gange ut: 3(2x + 3) = 6x + 9."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Forenkle a² · a⁴.",
       "options": [
-        "a⁸",
-        "2a⁶",
+        "a²",
+        "a² + a⁴",
         "a⁶",
-        "a²⁴"
+        "a⁸"
       ],
       "correct": 2,
       "explain": "Samme grunntall: legg sammen eksponentene. 2 + 4 = 6, så svaret er a⁶."
@@ -124,8 +124,8 @@
       "id": "q05",
       "text": "Hva er 2⁻³?",
       "options": [
-        "−8",
-        "−6",
+        "−1/8",
+        "−1",
         "1/6",
         "1/8"
       ],
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Forkort (4x + 8)/4.",
       "options": [
-        "x + 8",
+        "x/4 + 2",
         "x + 2",
-        "4x + 2",
-        "x"
+        "4x + 8",
+        "x + 4"
       ],
       "correct": 1,
       "explain": "Begge leddene i telleren deles på 4: 4x/4 + 8/4 = x + 2."
@@ -150,9 +150,9 @@
       "text": "Hva er −2(3x − 5)?",
       "options": [
         "−6x + 10",
-        "−6x − 10",
-        "−6x − 5",
-        "6x + 10"
+        "6x − 10",
+        "−6x + 5",
+        "6x − 5"
       ],
       "correct": 0,
       "explain": "Gang −2 med hvert ledd: −2 · 3x = −6x og −2 · (−5) = +10."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvordan kan et vilkårlig oddetall skrives algebraisk?",
       "options": [
-        "n + 1",
-        "2n",
-        "n²",
+        "n + 2",
+        "2n + 2",
+        "3n + 1",
         "2n + 1"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvorfor er n + (n + 1) = 2n + 1 et bevis for at summen av to påfølgende tall er oddetall?",
       "options": [
-        "Fordi det gjelder for n = 1",
+        "Fordi uttrykket gjelder for alle positive heltall n",
         "Fordi uttrykket gjelder for alle hele tall n",
-        "Fordi 2n + 1 er større enn n",
-        "Fordi vi har prøvd mange eksempler"
+        "Fordi uttrykket er større enn null",
+        "Fordi uttrykket inneholder tallet 2"
       ],
       "correct": 1,
       "explain": "Argumentet bruker en vilkårlig n, så det gjelder for alle hele tall, ikke bare de vi har testet."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Forenkle 3x² + 2x − x² + 4x.",
       "options": [
-        "8x²",
+        "2x² + 4x",
         "2x² + 6x",
-        "4x² + 6x",
-        "2x² + 2x"
+        "4x² + 2x",
+        "3x² + 6x"
       ],
       "correct": 1,
       "explain": "Slå sammen x²-leddene: 3x² − x² = 2x². Slå sammen x-leddene: 2x + 4x = 6x."
@@ -318,9 +318,9 @@
         "text": "Faktoriser x² − 4x.",
         "options": [
           "x(x − 4)",
-          "4(x − x²)",
-          "x²(1 − 4)",
-          "(x − 2)²"
+          "x(x + 4)",
+          "x²(x − 4)",
+          "x(x − 2)"
         ],
         "correct": 0,
         "explain": "x er felles faktor: x · x − x · 4 = x(x − 4)."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er (2a)³?",
         "options": [
-          "2a³",
-          "6a³",
+          "8a",
+          "4a³",
           "8a³",
-          "6a"
+          "2a⁹"
         ],
         "correct": 2,
         "explain": "Begge faktorene opphøyes: 2³ · a³ = 8a³."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er (x − 1)(x + 4)?",
         "options": [
-          "x² − 4",
+          "x² + 4x − 4",
           "x² + 3x − 4",
-          "x² + 5x − 4",
-          "x² − 3x + 4"
+          "x² + 5x + 4",
+          "x² − 5x − 4"
         ],
         "correct": 1,
         "explain": "x² + 4x − x − 4 = x² + 3x − 4."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

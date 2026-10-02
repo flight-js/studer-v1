@@ -80,9 +80,9 @@
       "text": "Hva er terror?",
       "options": [
         "Vold eller trusler mot sivile for å skape frykt og oppnå politiske mål",
-        "All kriminalitet",
-        "Krig mellom to land",
-        "En demonstrasjon"
+        "Vold eller trusler mot militære mål for å vinne en væpnet konflikt",
+        "Planlagt skade på eiendom for å få oppmerksomhet om en sak",
+        "Offentlig protest mot myndighetene for å få endret en politisk beslutning"
       ],
       "correct": 0,
       "explain": "Terror retter seg mot sivile og skal påvirke mange flere enn dem som rammes."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Når blir radikale meninger til ekstremisme?",
       "options": [
-        "Når man er uenig med regjeringen",
+        "Når man vil endre samfunnet raskt gjennom lovlige politiske tiltak",
         "Når man godtar bruk av vold for å nå målet",
-        "Når man skriver leserinnlegg",
-        "Når man demonstrerer"
+        "Når man kritiserer regjeringen og krever endringer i politikken",
+        "Når man deltar i en demonstrasjon mot en politisk beslutning"
       ],
       "correct": 1,
       "explain": "Radikale meninger er lov i et demokrati, men ikke å bruke vold."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvor mange ble drept i terrorangrepene 22. juli 2011?",
       "options": [
-        "12",
-        "35",
+        "76",
+        "78",
         "77",
-        "3000"
+        "70"
       ],
       "correct": 2,
       "explain": "Åtte ble drept i Regjeringskvartalet og 69 på Utøya."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er radikalisering?",
       "options": [
-        "Å bli medlem av et parti",
-        "Å endre mening etter en debatt",
-        "Å flytte til et annet land",
+        "Prosessen der en person melder seg inn i et politisk parti",
+        "Prosessen der en person endrer mening etter en politisk debatt",
+        "Prosessen der en person flytter fra ett land til et annet",
         "Prosessen der en person gradvis får ekstreme holdninger"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvordan kan internett bidra til radikalisering?",
       "options": [
-        "Algoritmer og ekkokamre kan forsterke ekstreme budskap",
-        "Internett gjør alle mer tolerante",
-        "Internett stopper all propaganda",
-        "Det kan det ikke"
+        "Algoritmer og ekkokamre forsterker ekstreme budskap på nett",
+        "Algoritmer og ekkokamre viser brukerne motargumenter mot ekstreme budskap",
+        "Internett bidrar ved å redusere kontakt mellom brukere og ekstreme grupper",
+        "Internett bidrar ved å begrense tilgangen på politisk informasjon"
       ],
       "correct": 0,
       "explain": "Ekstreme miljøer på nett kan gi fellesskap og normalisere voldelige ideer.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva skjedde 11. september 2001?",
       "options": [
-        "Berlinmuren falt",
+        "Al-Qaida kapret tog og angrep mål i USA",
         "Al-Qaida kapret fly og angrep mål i USA",
-        "Terrorangrepet på Utøya",
-        "Terrorangrepet under Pride i Oslo"
+        "IS kapret fly og angrep mål i USA",
+        "Al-Qaida kapret fly og angrep mål i Storbritannia"
       ],
       "correct": 1,
       "explain": "Angrepene fikk store følger for internasjonal politikk."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilken avveining må samfunnet gjøre etter terrorangrep?",
       "options": [
-        "Mellom sport og kultur",
-        "Mellom skatt og lønn",
-        "Mellom by og land",
-        "Mellom sikkerhet og frihet og personvern"
+        "Mellom strengere straffer, flere fengselsplasser og raskere rettssaker",
+        "Mellom grensekontroll, innvandring og internasjonal handel",
+        "Mellom beredskap, politibemanning og domstolenes kapasitet",
+        "Mellom økt samfunnssikkerhet, personlig frihet og vern av privatlivet"
       ],
       "correct": 3,
       "explain": "Mer overvåking kan gi tryggere samfunn, men også begrense friheten."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er et tiltak for å forebygge ekstremisme?",
       "options": [
-        "Å utestenge dem som er annerledes",
-        "Inkludering og gode fellesskap",
-        "Å spre konspirasjonsteorier",
-        "Å unngå å snakke om vanskelige temaer"
+        "Å forebygge ekstremisme ved å unngå samtaler om politikk",
+        "Å forebygge ekstremisme ved å skape tilhørighet og gode fellesskap",
+        "Å forebygge ekstremisme ved å stenge ute unge med andre meninger",
+        "Å forebygge ekstremisme ved å dele advarsler om bestemte grupper"
       ],
       "correct": 1,
       "explain": "Tilhørighet gjør det mindre fristende å søke fellesskap i ekstreme miljøer."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva bør du gjøre hvis en venn begynner å uttrykke støtte til vold?",
       "options": [
-        "Ignorere det",
-        "Le av det",
+        "Vente noen uker for å se om vennen endrer mening",
+        "Snakke med andre venner, men ikke involvere en voksen",
         "Si ifra og snakke med en voksen du stoler på",
-        "Dele innleggene videre"
+        "Dele vennens innlegg for å få flere til å reagere"
       ],
       "correct": 2,
       "explain": "Tidlig hjelp kan hindre at noen blir radikalisert."
@@ -188,9 +188,9 @@
       "id": "q10",
       "text": "Hvilken etat har et særlig ansvar for å avdekke terrorplaner i Norge?",
       "options": [
-        "NAV",
-        "Datatilsynet",
-        "Skatteetaten",
+        "Kripos",
+        "Økokrim",
+        "Politidirektoratet",
         "PST"
       ],
       "correct": 3,
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva er en konspirasjonsteori?",
         "options": [
-          "En vitenskapelig bevist teori",
+          "En vitenskapelig forklaring på hendelser som er testet og støttet av bevis",
           "En forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis",
-          "En type nyhetsartikkel",
-          "En lov"
+          "En nyhetsartikkel som beskriver hendelser med kilder og dokumenterte opplysninger",
+          "En lov som gir offentlige myndigheter rett til å styre viktige hendelser"
         ],
         "correct": 1,
         "explain": "Konspirasjonsteorier brukes ofte til å skape fiendebilder.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er utenforskap?",
         "options": [
-          "Å føle seg utenfor fellesskapet",
-          "Å bo i utlandet",
-          "Å være på ferie",
-          "Å være medlem i mange klubber"
+          "Å oppleve at man ikke får delta i fellesskapet rundt seg",
+          "Å bo i et annet land enn landet man ble født i",
+          "Å være uten jobb eller skoleplass i en periode",
+          "Å bruke fritiden på egne interesser uten å delta i grupper"
         ],
         "correct": 0,
         "explain": "Utenforskap kan gjøre noen mer sårbare for ekstreme miljøer."
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hvor skjedde terrorangrepet mot to moskeer i 2019, der 51 ble drept?",
         "options": [
-          "Oslo",
-          "Paris",
+          "Pittsburgh",
+          "Colombo",
           "Christchurch",
-          "London"
+          "Halle"
         ],
         "correct": 2,
         "explain": "Angrepet i Christchurch på New Zealand ble utført av en høyreekstremist.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

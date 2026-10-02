@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en push-faktor?",
       "options": [
-        "Høy lønn i et annet land",
+        "Høy lønn og arbeid i utlandet",
         "Fattigdom og krig i hjemlandet",
-        "Familie som har reist før",
-        "Billig jord i Amerika"
+        "Familie og nettverk i mottakerlandet",
+        "Billig jord og arbeid i Amerika"
       ],
       "correct": 1,
       "explain": "Den skyver folk bort."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva var Amerika-brev?",
       "options": [
-        "Offisielle dokumenter",
-        "Reklame fra staten",
+        "Brev fra myndigheter som ga tillatelse til å reise",
+        "Brev fra rederier som oppga priser på overfarten",
         "Brev fra utvandrere som lokket flere til å reise",
-        "Skattebrev"
+        "Brev fra banker som tilbød lån til utvandring"
       ],
       "correct": 2,
       "explain": "En pull-faktor.",
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva skjedde med arbeidsinnvandringen til Norge i 1975?",
       "options": [
-        "Den ble doblet",
-        "Den ble fri for alle",
-        "Den startet",
+        "Det ble innført fri arbeidsinnvandring",
+        "Det ble innført kvoter for arbeidsinnvandring",
+        "Det ble åpnet for arbeidsinnvandring fra EU",
         "Det ble innført innvandringsstopp"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er integrering?",
       "options": [
         "At minoriteten deltar og beholder deler av sin kultur",
-        "At minoriteten gir opp sin kultur helt",
-        "At gruppene lever atskilt",
-        "At alle flytter ut"
+        "At minoriteten gir opp egen kultur og tilpasser seg helt",
+        "At gruppene bor sammen, men holdes adskilt fra hverandre",
+        "At majoriteten gir opp egen kultur og tilpasser seg minoriteten"
       ],
       "correct": 0,
       "explain": "Skiller seg fra assimilering."
@@ -140,8 +140,8 @@
       "options": [
         "Frivillig migrasjon",
         "Tvungen migrasjon",
-        "Arbeidsinnvandring",
-        "Turisme"
+        "Sesongmigrasjon",
+        "Returmigrasjon"
       ],
       "correct": 1,
       "explain": "Millioner ble tvunget.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor kom mange arbeidsinnvandrere fra Polen etter 2004?",
       "options": [
-        "På grunn av innvandringsstoppen",
-        "På grunn av krig i Polen",
-        "Fordi nye land ble med i EU og EØS-reglene ga fri bevegelse",
-        "Fordi Norge ble med i EU"
+        "Fordi Polen ble med i Schengen, som ga rett til å arbeide i Norge",
+        "Fordi Norge ble medlem av EU og åpnet arbeidsmarkedet for polakker",
+        "Fordi Polen ble medlem av EU, og EØS-reglene ga fri bevegelse",
+        "Fordi krig i Polen førte til at mange søkte arbeid i Norge"
       ],
       "correct": 2,
       "explain": "Fri flyt av arbeidskraft.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva tok de norske bosetterne i Amerika som tilhørte andre?",
       "options": [
-        "Fabrikker",
-        "Skip",
-        "Byer",
+        "Jord som tilhørte britiske kolonister",
+        "Jord som tilhørte franske kolonister",
+        "Jord som tilhørte spanske kolonister",
         "Jord som tilhørte urfolk"
       ],
       "correct": 3,
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hva er assimilering?",
       "options": [
-        "At minoriteten skal gi opp egen kultur og tilpasse seg helt",
-        "At minoriteten beholder alt",
-        "At gruppene lever atskilt",
-        "At majoriteten flytter"
+        "At minoriteten gir opp egen kultur og tilpasser seg helt",
+        "At minoriteten deltar i samfunnet og beholder egen kultur",
+        "At minoriteten lever atskilt fra majoriteten i samfunnet",
+        "At majoriteten gir opp egen kultur og tilpasser seg minoriteten"
       ],
       "correct": 0,
       "explain": "Fornorskingspolitikken er et eksempel."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva kan kulturmøter gi?",
       "options": [
-        "Bare konflikt",
-        "Både berikelse og konflikt",
-        "Bare berikelse",
-        "Ingen endring"
+        "Økonomisk vekst og flere arbeidsplasser",
+        "Både kulturell berikelse og sosial konflikt",
+        "Politisk samarbeid og færre grenser",
+        "Felles språk og likere tradisjoner"
       ],
       "correct": 1,
       "explain": "Avhenger av perspektiv og situasjon."
@@ -336,9 +336,9 @@
         "text": "Hva er en pull-faktor?",
         "options": [
           "Jobber og høyere lønn",
-          "Krig",
-          "Fattigdom",
-          "Naturkatastrofer"
+          "Krig og politisk uro",
+          "Fattigdom og arbeidsløshet",
+          "Naturkatastrofer og matmangel"
         ],
         "correct": 0,
         "explain": "Trekker folk til et nytt sted."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva betyr segregering?",
         "options": [
-          "At alle blander seg",
-          "At minoriteten gir opp sin kultur",
-          "At grupper lever atskilt",
-          "At folk utvandrer"
+          "At grupper blander seg i samfunnet",
+          "At minoriteten tilpasser seg majoriteten",
+          "At grupper lever hver for seg",
+          "At mennesker flytter mellom ulike land"
         ],
         "correct": 2,
         "explain": "Motsatsen til integrering."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

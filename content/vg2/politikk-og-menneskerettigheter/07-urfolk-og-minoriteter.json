@@ -79,22 +79,22 @@
       "id": "q01",
       "text": "Hvilken gruppe er urfolk i Norge?",
       "options": [
-        "Kvener",
+        "Polakker",
         "Samer",
-        "Skogfinner",
-        "Romanifolk"
+        "Somaliere",
+        "Dansker"
       ],
       "correct": 1,
-      "explain": "De andre er nasjonale minoriteter."
+      "explain": "Kvener, skogfinner og romanifolk er nasjonale minoriteter."
     },
     {
       "id": "q02",
       "text": "Hva sier SP artikkel 27?",
       "options": [
-        "At minoriteter har rett til egen kultur, religion og språk",
-        "At alle må snakke majoritetsspråket",
-        "At stater kan forby minoritetsspråk",
-        "At bare urfolk har rettigheter"
+        "At personer i minoriteter har rett til egen kultur, religion og språk",
+        "At personer i minoriteter har rett til egne politiske partier og representasjon",
+        "At personer i minoriteter kan kreve undervisning på eget språk i alle skoler",
+        "At personer i minoriteter kan få selvstyre over områdene der de bor"
       ],
       "correct": 0,
       "explain": "Brukt i Fosen-dommen."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er konsultasjonsordningen?",
       "options": [
-        "En valgordning",
-        "En skatteordning",
+        "En ordning for å velge representanter til Sametinget gjennom samiske valg",
+        "En plikt til å informere samiske interesser etter at beslutninger er tatt",
         "En plikt til å konsultere samiske interesser før beslutninger som berører dem",
-        "Et samisk parti"
+        "En plikt til å gi samiske interesser vetorett i beslutninger som berører dem"
       ],
       "correct": 2,
       "explain": "Lovfestet i sameloven."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvor mange representanter har Sametinget?",
       "options": [
-        "169",
-        "19",
-        "100",
+        "31",
+        "49",
+        "55",
         "39"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva slo Høyesterett fast i Fosen-saken?",
       "options": [
-        "At vindturbinene krenket reindriftssamenes rettigheter",
-        "At vindkraft er forbudt",
-        "At Sametinget skal avskaffes",
-        "At reindrift er ulovlig"
+        "At vindkraftutbyggingen krenket reindriftssamenes rettigheter",
+        "At konsesjonene for vindkraftverkene var gyldige",
+        "At utbyggingen krenket grunneiernes eiendomsrett",
+        "At Sametinget hadde myndighet til å stanse utbyggingen"
       ],
       "correct": 0,
       "explain": "I 2021.",
@@ -143,8 +143,8 @@
       "options": [
         "Samer",
         "Kvener",
-        "Polakker",
-        "Svensker"
+        "Ukrainere",
+        "Pakistanere"
       ],
       "correct": 1,
       "explain": "Med lang tilknytning til landet."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er et argument for særrettigheter for urfolk?",
       "options": [
-        "At urfolk er bedre enn andre",
-        "At flertallet skal bestemme alt",
-        "At de retter opp historisk urett og sikrer at små kulturer overlever",
-        "At de gir økonomisk vekst"
+        "De gir minoriteter større innflytelse enn flertallet i politiske saker",
+        "De sikrer at alle grupper får samme politiske representasjon i Stortinget",
+        "De retter opp historisk urett og bidrar til at små kulturer består",
+        "De gjør det enklere å bevare felles regler for alle innbyggere"
       ],
       "correct": 2,
       "explain": "I tråd med menneskerettighetene."
@@ -166,8 +166,8 @@
       "text": "Hvilket land ratifiserte først ILO-konvensjon 169?",
       "options": [
         "Sverige",
-        "Canada",
-        "Brasil",
+        "Danmark",
+        "Finland",
         "Norge"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva handlet rapporten fra Sannhets- og forsoningskommisjonen om?",
       "options": [
         "Fornorskningspolitikken og uretten den påførte samer, kvener og skogfinner",
-        "Oljepolitikken",
-        "EU-medlemskap",
-        "Valgordningen"
+        "Norsk oljeutvinning og konsekvensene den fikk for kystsamfunn",
+        "Norges forhold til EU og virkningene det fikk for arbeidslivet",
+        "Valgordningen i Norge og endringene den førte til i Stortinget"
       ],
       "correct": 0,
       "explain": "Lagt fram i 2023.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilken utfordring har et demokrati når det gjelder minoriteter?",
       "options": [
-        "Å gi minoritetene all makt",
+        "Å sikre at mindretall får større innflytelse enn flertallet i politiske saker",
         "Å sikre at mindretall blir hørt og ikke overkjøres av flertallet",
-        "Å avskaffe valg",
-        "Å forby minoritetsspråk"
+        "Å gi domstolene ansvar for å velge hvilke minoriteter som skal høres",
+        "Å sikre at minoriteter får egne lover ved siden av felles lovverk"
       ],
       "correct": 1,
       "explain": "Flertallsstyre og mindretallsvern."
@@ -333,9 +333,9 @@
         "text": "Hvem eier grunnen i Finnmark etter finnmarksloven?",
         "options": [
           "Finnmarkseiendommen",
-          "Staten alene",
-          "Kongen",
-          "Reindriftsnæringen"
+          "Finnmark fylkeskommune",
+          "Sametinget",
+          "Statskog"
         ],
         "correct": 0,
         "explain": "Styres av Sametinget og fylkeskommunen.",
@@ -346,8 +346,8 @@
         "type": "flervalg",
         "text": "Når ble Sametinget opprettet?",
         "options": [
-          "1814",
-          "1945",
+          "1979",
+          "1987",
           "1989",
           "2005"
         ],
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

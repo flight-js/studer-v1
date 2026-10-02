@@ -89,7 +89,7 @@
       "options": [
         "4x³",
         "x³",
-        "4x⁴",
+        "4x⁵",
         "3x⁴"
       ],
       "correct": 0,
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er momentan vekstfart geometrisk?",
       "options": [
-        "Arealet under grafen",
+        "Funksjonsverdien i punktet på grafen",
         "Stigningstallet til tangenten i punktet",
-        "Nullpunktet",
-        "Stigningstallet til en sekant mellom to fjerne punkter"
+        "Stigningstallet til en sekant gjennom punktet",
+        "Endringen i funksjonsverdi mellom to punkter"
       ],
       "correct": 1,
       "explain": "Tangenten viser hvor bratt grafen er akkurat i punktet."
@@ -138,7 +138,7 @@
         "x = 1",
         "x = 0",
         "x = −1",
-        "x = 3"
+        "x = −3"
       ],
       "correct": 2,
       "explain": "f′ skifter fra positiv til negativ i x = −1."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva forteller f′(x) = 0?",
       "options": [
-        "At funksjonsverdien er null",
+        "At funksjonsverdien er null – mulig nullpunkt",
         "At tangenten er vannrett – mulig topp- eller bunnpunkt",
-        "At funksjonen ikke er definert",
-        "At grafen er en rett linje"
+        "At funksjonen ikke er definert – mulig brudd i grafen",
+        "At grafen er en rett linje – med konstant stigningstall"
       ],
       "correct": 1,
       "explain": "Fortegnet til f′ rundt punktet avgjør om det er topp eller bunn."
@@ -174,7 +174,7 @@
         "Farten i m/s",
         "Strekningen i meter",
         "Tiden i sekunder",
-        "Starthastigheten i meter"
+        "Akselerasjonen i m/s²"
       ],
       "correct": 0,
       "explain": "Farten er vekstfarten til strekningen."
@@ -184,9 +184,9 @@
       "text": "Hva er den deriverte av en konstant?",
       "options": [
         "1",
-        "Konstanten selv",
+        "−1",
         "0",
-        "x"
+        "2"
       ],
       "correct": 2,
       "explain": "En konstant endrer seg ikke."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva er definisjonen av f′(x)?",
         "options": [
-          "f(x + h) − f(x)",
+          "Verdien av (f(x + h) − f(x))/h når h = 1",
           "Grenseverdien av (f(x + h) − f(x))/h når h går mot 0",
-          "(f(b) − f(a))/(b − a) for store tall",
-          "f(x)/x"
+          "Grenseverdien av (f(x + h) + f(x))/h når h går mot 0",
+          "Grenseverdien av (f(x + h) − f(x))/x når h går mot 0"
         ],
         "correct": 1,
         "explain": "Sekanten blir til en tangent når h går mot 0."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er bunnpunktet til f(x) = x³ − 3x?",
         "options": [
-          "(−1, 2)",
-          "(0, 0)",
+          "(−1, −2)",
+          "(1, 2)",
           "(1, −2)",
-          "(3, 18)"
+          "(0, 0)"
         ],
         "correct": 2,
         "explain": "f(1) = 1 − 3 = −2, og f′ skifter fra negativ til positiv i x = 1."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

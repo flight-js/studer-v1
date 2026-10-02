@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva handler uenigheten om kjønn og seksualitet i religioner ofte om?",
       "options": [
-        "Hvilke høytider man feirer",
+        "Når religiøse høytider skal feires",
         "Hvordan hellige tekster skal tolkes",
-        "Hvilket språk man ber på",
-        "Hvor gudshusene ligger"
+        "Hvor religiøse seremonier skal holdes",
+        "Hvilke klær troende bruker i gudshus"
       ],
       "correct": 1,
       "explain": "Samme tekst kan tolkes svært ulikt av ulike troende."
@@ -96,9 +96,9 @@
       "id": "q02",
       "text": "Når fikk Den norske kirke sin første kvinnelige prest?",
       "options": [
-        "1814",
-        "1913",
-        "1993",
+        "1958",
+        "1965",
+        "1978",
         "1961"
       ],
       "correct": 3,
@@ -111,8 +111,8 @@
       "options": [
         "Den katolske kirke",
         "Den norske kirke",
-        "Alle lutherske kirker",
-        "Ingen kirker"
+        "Svenska kyrkan",
+        "Den anglikanske kirke"
       ],
       "correct": 0,
       "explain": "Også den ortodokse kirken har bare mannlige prester.",
@@ -122,10 +122,10 @@
       "id": "q04",
       "text": "Hva vedtok Den norske kirke i 2016?",
       "options": [
-        "At kvinner kan bli prester",
-        "At kirken skal skilles fra staten",
+        "At likekjønnede par kan døpes i kirken",
+        "At kvinner kan bli biskoper i kirken",
         "At likekjønnede par kan vies i kirken",
-        "At prevensjon er forbudt"
+        "At prester kan vie par utenfor kirken"
       ],
       "correct": 2,
       "explain": "Vedtaket ble gjort av Kirkemøtet.",
@@ -136,9 +136,9 @@
       "text": "Hva lærer Den katolske kirke om homofili?",
       "options": [
         "At homofil legning ikke er synd, men at homofilt samliv er det",
-        "At alt er tillatt",
-        "At homofile ikke kan være katolikker",
-        "At homofile par kan vies i kirken"
+        "At homofil legning er synd, men at homofilt samliv ikke er det",
+        "At homofil legning og homofilt samliv begge regnes som synd",
+        "At homofil legning og homofilt samliv begge regnes som tillatt"
       ],
       "correct": 0,
       "explain": "Kirken skiller mellom legning og handling.",
@@ -148,9 +148,9 @@
       "id": "q06",
       "text": "Hva mener livssynshumanister om kjønn?",
       "options": [
-        "At menn skal lede",
-        "At kvinner skal være hjemme",
-        "At kjønn avgjør hvilke yrker man kan ha",
+        "At menn bør ha større innflytelse i samfunnet",
+        "At kvinner bør ha hovedansvaret for hjemmet",
+        "At kjønn bør påvirke valg av utdanning og yrke",
         "At det skal være full likestilling"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q07",
       "text": "Hvor finnes en gammel tradisjon med et tredje kjønn?",
       "options": [
-        "I Den katolske kirke",
+        "I Sør-Europa",
         "I Sør-Asia",
-        "I ortodoks jødedom",
-        "I Skandinavia"
+        "I Øst-Europa",
+        "I Nord-Europa"
       ],
       "correct": 1,
       "explain": "Tradisjonen har også plass i hinduistiske fortellinger.",
@@ -173,8 +173,8 @@
       "id": "q08",
       "text": "Hvordan har ekteskapsloven vært siden 2009?",
       "options": [
-        "Bare for mann og kvinne",
-        "Bare for kristne",
+        "Kjønnsbestemt",
+        "Religionsbestemt",
         "Kjønnsnøytral",
         "Avskaffet"
       ],
@@ -185,9 +185,9 @@
       "id": "q09",
       "text": "Hvilken rett har trossamfunn i Norge?",
       "options": [
-        "Å sette norsk lov til side",
-        "Å straffe medlemmene sine",
-        "Å bestemme hvem som blir statsminister",
+        "Å bestemme hvilke norske lover som skal gjelde, og hvem som kan straffes for lovbrudd",
+        "Å bestemme hvem som kan stemme ved valg, og hvem som kan bli statsminister",
+        "Å bestemme hvem som får norsk statsborgerskap, og hvem som kan eie eiendom",
         "Å bestemme hvem de vil vie, og hvem som kan være religiøse ledere"
       ],
       "correct": 3,
@@ -199,9 +199,9 @@
       "text": "Hvorfor er det viktig å huske mangfoldet innenfor hver religion?",
       "options": [
         "Fordi troende i samme religion kan mene svært ulike ting",
-        "Fordi alle religioner er like",
-        "Fordi religioner aldri endrer seg",
-        "Fordi bare lederne har meninger"
+        "Fordi troende innenfor samme religion deler én felles forståelse",
+        "Fordi religioner har nokså like syn på kjønn og seksualitet",
+        "Fordi religiøse ledere former medlemmers meninger på samme måte"
       ],
       "correct": 0,
       "explain": "Det hindrer at vi generaliserer om alle troende."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva åpnet paven for i 2023?",
         "options": [
-          "At kvinner kan bli prester",
+          "At prester kan vie likekjønnede par",
           "At prester kan velsigne likekjønnede par",
-          "At likekjønnede par kan vies",
-          "At prester kan gifte seg"
+          "At kvinner kan bli katolske prester",
+          "At katolske prester kan inngå ekteskap"
         ],
         "correct": 1,
         "explain": "Velsignelse er ikke det samme som vigsel, og ordningen er omstridt i kirken.",
@@ -357,9 +357,9 @@
         "text": "Hva er samtykke?",
         "options": [
           "Et frivillig og tydelig ja",
-          "En religiøs regel",
-          "En type ekteskap",
-          "Et løfte i kirken"
+          "Et formelt og tydelig ja",
+          "Et høflig og tydelig ja",
+          "Et forventet og tydelig ja"
         ],
         "correct": 0,
         "explain": "Samtykke er grunnleggende for all seksuell kontakt."
@@ -369,10 +369,10 @@
         "type": "flervalg",
         "text": "Hva sier norsk lov om diskriminering på grunn av seksuell orientering?",
         "options": [
-          "At det er lov i alle sammenhenger",
-          "At det er lov for arbeidsgivere",
+          "At det er tillatt",
+          "At det er lovlig",
           "At det er forbudt",
-          "At det bare er forbudt i skolen"
+          "At det er regulert"
         ],
         "correct": 2,
         "explain": "Likestillings- og diskrimineringsloven forbyr slik diskriminering."
@@ -462,6 +462,7 @@
     "merknader": [
       "Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn. Fakta sjekket i september 2026."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

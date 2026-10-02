@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er en sieidi?",
       "options": [
-        "En samisk tromme",
-        "En samisk sang",
+        "En samisk tromme som noaiden brukte under ritualer",
+        "En samisk sangtradisjon knyttet til religiøse seremonier",
         "En hellig stein eller et hellig sted der man ga offergaver",
-        "En samisk prest"
+        "En samisk fortelling om ånder som vernet landskapet"
       ],
       "correct": 2,
       "explain": "Ved sieidien ofret man for å få god fangst eller beskyttelse."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva var en noaidi?",
       "options": [
-        "En reineier",
+        "En erfaren reineier som ledet flytting mellom beiteområder",
         "En religiøs spesialist som kunne reise til åndeverdenen i transe",
-        "En misjonær",
-        "En samisk høvding"
+        "En kristen forkynner som lærte samene om kirkens tro",
+        "En samisk leder som styrte bygder og fordelte beiteområder"
       ],
       "correct": 1,
       "explain": "Noaiden kunne helbrede, hjelpe og hente kunnskap fra åndeverdenen."
@@ -106,9 +106,9 @@
       "text": "Hva betyr det at naturen var besjelet?",
       "options": [
         "At dyr, planter og landskap hadde sjel eller ånd",
-        "At naturen var farlig",
-        "At naturen var skapt av mennesker",
-        "At bare mennesker hadde sjel"
+        "At bare mennesker og landskap hadde sjel eller ånd",
+        "At naturen var skapt av mennesker, men manglet egen ånd",
+        "At ånder fantes i mennesker, men ikke i planter og dyr"
       ],
       "correct": 0,
       "explain": "Derfor måtte mennesket leve i balanse med naturen."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva skjedde med mange runebommer under misjonen?",
       "options": [
-        "De ble brukt i kirkene",
-        "De ble solgt til turister",
-        "De ble gitt til Sametinget",
-        "De ble tatt og brent"
+        "De ble brukt som trommer under gudstjenester",
+        "De ble delt ut til samiske familier",
+        "De ble gjemt bort i kirkens lagerrom",
+        "De ble tatt bort og deretter brent"
       ],
       "correct": 3,
       "explain": "Misjonærene så på runebommene som redskaper for hedensk religion."
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hvilken vekkelsesbevegelse fikk stor oppslutning blant samer på 1800-tallet?",
       "options": [
-        "Pinsebevegelsen",
-        "Haugianismen",
+        "Baptistbevegelsen",
+        "Adventismen",
         "Læstadianismen",
-        "Metodismen"
+        "Herrnhutismen"
       ],
       "correct": 2,
       "explain": "Bevegelsen er oppkalt etter presten Lars Levi Læstadius.",
@@ -143,9 +143,9 @@
       "text": "Hvem ledet misjonen blant samene fra 1716?",
       "options": [
         "Thomas von Westen",
-        "Martin Luther",
-        "Lars Levi Læstadius",
-        "Hans Nielsen Hauge"
+        "Knud Leem",
+        "Jens Kildal",
+        "Niels Stockfleth"
       ],
       "correct": 0,
       "explain": "Han ble kalt «samenes apostel».",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er et vanlig trekk ved mange urfolksreligioner?",
       "options": [
-        "Én hellig bok",
-        "At alle har prester",
-        "Tro på at verden snart går under",
-        "At naturen er hellig og forfedrene viktige"
+        "At hellige skrifter og faste gudshus står sentralt i troen",
+        "At livet etter døden er hovedmålet for religiøse ritualer",
+        "At egne prester leder gudstjenester i religiøse bygninger",
+        "At naturen regnes som hellig, og forfedrene har betydning"
       ],
       "correct": 3,
       "explain": "Urfolksreligioner er ofte tett knyttet til landet folket lever på."
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hva er Drømmetiden?",
       "options": [
-        "En samisk høytid",
+        "En samisk høytid der forfedrene minnes gjennom joik",
         "Aboriginernes fortellinger om hvordan forfedrene skapte landskapet",
-        "En indiansk dans",
-        "En type meditasjon"
+        "En australsk urfolksdans om forfedrene som skapte landskapet",
+        "En samisk lære om noaider som skapte landskapet"
       ],
       "correct": 1,
       "explain": "Fortellingene knytter folket til bestemte steder i landskapet.",
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hvordan ble joiken sett på under kristningen?",
       "options": [
-        "Som en del av gudstjenesten",
-        "Som et skolefag",
-        "Som syndig",
-        "Som nasjonalsang"
+        "Som en kristen salme",
+        "Som en vanlig kirkesang",
+        "Som noe syndig",
+        "Som en samisk skoletradisjon"
       ],
       "correct": 2,
       "explain": "I dag er joiken igjen en viktig del av samisk kultur."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva gir FNs erklæring om urfolks rettigheter urfolk rett til?",
       "options": [
-        "Å praktisere og føre videre sine religiøse tradisjoner",
-        "Å slippe å betale skatt",
-        "Å ha egen hær",
-        "Å bestemme over alle land"
+        "Å praktisere og videreføre egne religiøse tradisjoner",
+        "Å få egne religiøse regler til å gjelde i hele landet",
+        "Å kreve at staten bygger religiøse sentre i hvert område",
+        "Å få religiøse tradisjoner godkjent som landets offisielle tro"
       ],
       "correct": 0,
       "explain": "Erklæringen ble vedtatt i 2007.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva er goavddis?",
         "options": [
-          "En hellig stein",
+          "En samisk kappe som noaiden brukte under ritualer",
           "En runebomme som noaiden brukte",
-          "En samisk kofte",
-          "En reinflokk"
+          "Et samisk smykke som noaiden bar for å beskytte seg",
+          "En samisk beholder for offergaver ved hellige steder"
         ],
         "correct": 1,
         "explain": "Tegningene på trommen viste guder, mennesker og dyr."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvem var Máttaráhkká?",
         "options": [
+          "Solgudinnen",
           "Tordenguden",
-          "Sola",
           "Urmoren",
-          "En misjonær"
+          "Fjellguden"
         ],
         "correct": 2,
         "explain": "Hun og døtrene hennes var knyttet til fødsel og hjem.",
@@ -361,9 +361,9 @@
         "text": "Hva kalles en som formidler mellom mennesker og åndeverdenen i mange urfolksreligioner?",
         "options": [
           "Sjaman",
-          "Rabbiner",
-          "Imam",
-          "Biskop"
+          "Guru",
+          "Munk",
+          "Prest"
         ],
         "correct": 0,
         "explain": "Hos samene ble denne rollen kalt noaidi."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

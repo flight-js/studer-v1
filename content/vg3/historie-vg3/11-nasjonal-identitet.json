@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva mente Benedict Anderson med «forestilte fellesskap»?",
       "options": [
-        "At nasjoner er falske",
-        "At nasjoner bygges gjennom felles forestillinger om tilhørighet",
-        "At nasjoner bare finnes i bøker",
-        "At nasjoner er naturlige"
+        "At nasjoner bygger på felles avstamning og slektskap",
+        "At nasjoner bygger på forestillinger om felles tilhørighet",
+        "At nasjoner bygger på direkte kontakt mellom alle innbyggere",
+        "At nasjoner bygger på felles politiske grenser og lover"
       ],
       "correct": 1,
       "explain": "Nasjoner bygges.",
@@ -95,21 +95,21 @@
       "text": "Hvilken periode framstilte nasjonalromantikerne som en storhetstid?",
       "options": [
         "Sagatiden og middelalderen",
-        "Dansketiden",
-        "Svenskeunionen",
-        "Industrialiseringen"
+        "Dansketiden og eneveldet",
+        "Svenskeunionen og industrialiseringen",
+        "Reformasjonen og opplysningstiden"
       ],
       "correct": 0,
-      "explain": "Dansketiden ble kalt «firehundreårsnatten»."
+      "explain": "Nasjonalromantikerne framhevet sagatiden og middelalderen som norsk storhetstid."
     },
     {
       "id": "q03",
       "text": "Hva ble symboler på det norske under nasjonalromantikken?",
       "options": [
-        "Byen og fabrikken",
-        "Kongen og adelen",
+        "Arbeideren og industrien",
+        "Kongen og embetsstanden",
         "Bonden og naturen",
-        "Kirken og presten"
+        "Byborgeren og handelen"
       ],
       "correct": 2,
       "explain": "For eksempel i Brudeferden i Hardanger."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva gjorde jordsalgsloven fra 1902?",
       "options": [
-        "Ga samene rett til jord",
-        "Fjernet all skatt på jord",
-        "Delte ut jord gratis",
-        "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark"
+        "Ga samiske innbyggere fortrinnsrett ved kjøp av jord i Finnmark",
+        "Fjernet kravet om norsk språk ved kjøp av jord i Finnmark",
+        "Overførte statens jord i Finnmark til kommunalt eie",
+        "Gjorde det vanskelig for personer uten norskkunnskaper å kjøpe jord i Finnmark"
       ],
       "correct": 3,
       "explain": "Et virkemiddel i fornorskingen.",
@@ -132,9 +132,9 @@
       "text": "Hvilken gruppe ble utsatt for tvangssterilisering og at barn ble tatt fra foreldrene?",
       "options": [
         "Romanifolket",
-        "Embetsmennene",
-        "Bøndene i Hardanger",
-        "Handelsstanden"
+        "Samene",
+        "Kvenene",
+        "Skogfinnene"
       ],
       "correct": 0,
       "explain": "Også kalt tatere.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hvordan har forskningen nyansert bildet av okkupasjonstiden?",
       "options": [
-        "Den har vist at alle var i motstandsbevegelsen",
-        "Den har vist at de fleste tilpasset seg og at mange samarbeidet",
-        "Den har vist at okkupasjonen ikke skjedde",
-        "Den har vist at Norge vant krigen alene"
+        "Den har vist at de fleste deltok aktivt i motstandsarbeidet",
+        "Den har vist at de fleste tilpasset seg, og at mange samarbeidet",
+        "Den har vist at de fleste støttet okkupasjonsmakten politisk",
+        "Den har vist at norske myndigheter beholdt kontrollen over landet"
       ],
       "correct": 1,
       "explain": "Også norsk deltakelse i deportasjonen av jøder."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvem laget landsmålet?",
       "options": [
+        "Knud Knudsen",
         "P.A. Munch",
-        "Henrik Wergeland",
         "Ivar Aasen",
-        "Asbjørnsen"
+        "Henrik Wergeland"
       ],
       "correct": 2,
       "explain": "Dagens nynorsk.",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?",
       "options": [
-        "En ny grunnlov",
-        "En oljestrategi",
-        "En rapport om 17. mai",
+        "En rapport om fornorskingen av samer, kvener og svensker",
+        "En rapport om fornorskingen av samer, svensker og skogfinner",
+        "En rapport om fornorskingen av kvener, svensker og skogfinner",
         "En rapport om fornorskingen av samer, kvener og skogfinner"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hva kan være en negativ virkning av en snever nasjonal fortelling?",
       "options": [
         "At den utelukker og undertrykker dem som ikke passer inn",
-        "At den skaper samhold",
-        "At den gir tillit",
-        "At den gir fellesskap"
+        "At den styrker tilhørigheten til dem som allerede passer inn",
+        "At den gir flere grupper en felles forståelse av fortiden",
+        "At den øker tilliten mellom ulike grupper i samfunnet"
       ],
       "correct": 0,
       "explain": "Nasjonsbyggingen hadde en pris."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilken debatt handler om nasjonal identitet i dag?",
         "options": [
-          "Om vikingskip var store",
-          "Om eventyr er sanne",
+          "Om norsk identitet bør vises gjennom bunadstradisjoner eller nasjonaldagens feiring",
+          "Om norsk identitet bør knyttes til bokmål eller nynorsk i skolen",
           "Om «norsk» bør bygge på felles verdier eller felles historie og kultur",
-          "Om 17. mai skal flyttes"
+          "Om norsk identitet bør formes av kongehuset eller folkevalgte institusjoner"
         ],
         "correct": 2,
         "explain": "Norge er et mangfoldig samfunn.",
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

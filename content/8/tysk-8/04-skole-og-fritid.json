@@ -81,9 +81,9 @@
       "id": "q01",
       "text": "Hva betyr «Mein Lieblingsfach ist Kunst»?",
       "options": [
-        "Jeg liker ikke kunst",
-        "Kunst er vanskelig",
-        "Kunstlæreren er snill",
+        "Skolefaget mitt er kunst",
+        "Yndlingsfaget mitt er musikk",
+        "Kunst er yndlingsfaget hennes",
         "Yndlingsfaget mitt er kunst"
       ],
       "correct": 3,
@@ -94,9 +94,9 @@
       "text": "Hvordan sier du «Jeg liker å lese»?",
       "options": [
         "Ich lese gern.",
-        "Ich gern lese.",
-        "Ich lesen gern.",
-        "Gern ich lese."
+        "Ich spiele gern.",
+        "Ich lerne gern.",
+        "Ich singe gern."
       ],
       "correct": 0,
       "explain": "«gern» kommer etter verbet."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva betyr «langweilig»?",
       "options": [
-        "Lang",
-        "Morsom",
+        "Langsom",
+        "Vanskelig",
         "Kjedelig",
-        "Vanskelig"
+        "Slitsom"
       ],
       "correct": 2,
       "explain": "Ordet betyr egentlig at tiden føles lang."
@@ -120,7 +120,7 @@
         "Am Wochenende ich spiele Fußball.",
         "Am Wochenende spiele ich Fußball.",
         "Am Wochenende Fußball ich spiele.",
-        "Ich am Wochenende spiele Fußball."
+        "Am Wochenende spiele Fußball ich."
       ],
       "correct": 1,
       "explain": "Verbet skal stå på andre plass."
@@ -130,9 +130,9 @@
       "text": "Hva er den beste karakteren i tysk skole?",
       "options": [
         "1",
-        "6",
-        "5",
-        "10"
+        "2",
+        "3",
+        "4"
       ],
       "correct": 0,
       "explain": "I Tyskland er 1 best og 6 dårligst.",
@@ -142,9 +142,9 @@
       "id": "q06",
       "text": "Hva betyr «manchmal»?",
       "options": [
-        "Alltid",
-        "Aldri",
-        "Ofte",
+        "Hver dag",
+        "Én gang",
+        "Sjelden",
         "Noen ganger"
       ],
       "correct": 3,
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hvordan spør du «Hva liker du å gjøre?»",
       "options": [
-        "Was ist das?",
+        "Was spielst du gern?",
         "Was machst du gern?",
-        "Wo wohnst du?",
-        "Wie spät ist es?"
+        "Was lernst du gern?",
+        "Was liest du gern?"
       ],
       "correct": 1,
       "explain": "«machen» betyr å gjøre."
@@ -179,8 +179,8 @@
       "text": "Hva betyr «zeichnen»?",
       "options": [
         "Å tegne",
+        "Å male",
         "Å danse",
-        "Å svømme",
         "Å synge"
       ],
       "correct": 0,
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva betyr «Ich finde Mathe schwer»?",
       "options": [
-        "Jeg finner mattebøkene",
-        "Matte er lett",
+        "Jeg synes matte er lett",
+        "Jeg synes tysk er vanskelig",
         "Jeg synes matte er vanskelig",
-        "Jeg liker matte best"
+        "Jeg synes matte er morsomt"
       ],
       "correct": 2,
       "explain": "«Ich finde …» brukes for å si hva du synes."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva betyr «die Lehrerin»?",
         "options": [
-          "Eleven",
+          "Eleven (kvinne)",
           "Læreren (kvinne)",
-          "Rektoren",
-          "Klassen"
+          "Rektoren (kvinne)",
+          "Læreren (mann)"
         ],
         "correct": 1,
         "explain": "Endelsen «-in» viser at det er en kvinne."
@@ -353,7 +353,7 @@
         "text": "Hva betyr «am Wochenende»?",
         "options": [
           "I helgen",
-          "På mandag",
+          "På hverdager",
           "Om kvelden",
           "I ferien"
         ],
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

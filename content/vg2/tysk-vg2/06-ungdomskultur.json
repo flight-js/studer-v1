@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er «ein Verein»?",
       "options": [
-        "En venn",
+        "En årlig idrettskonkurranse",
         "En forening eller et lag",
-        "En skole",
-        "En festival"
+        "Et lokale for fritidsaktiviteter",
+        "Et kurs for ungdom i språk"
       ],
       "correct": 1,
       "explain": "Ich bin Mitglied in einem Sportverein."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er en tandempartner?",
       "options": [
-        "En som vil lære ditt språk mens du lærer hans eller hennes",
-        "En sykkelpartner",
-        "En lærer",
-        "En klassekamerat"
+        "En person som lærer språket ditt mens du lærer hans eller hennes.",
+        "En person som underviser deg i tysk mot betaling.",
+        "En elev som gjør skoleoppgaver sammen med deg i klassen.",
+        "En person som lærer tysk av deg uten å øve sitt språk."
       ],
       "correct": 0,
       "explain": "Dere hjelper hverandre."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er Bundesliga?",
       "options": [
-        "Det tyske parlamentet",
-        "En musikkfestival",
+        "Den øverste ishockeyligaen i Tyskland",
+        "Den nest øverste fotballigaen i Tyskland",
         "Den øverste fotballigaen i Tyskland",
-        "En skoletype"
+        "En cupturnering for fotballag i Tyskland"
       ],
       "correct": 2,
       "explain": "En av verdens sterkeste ligaer.",
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hvorfor bør du bruke oversettelsesverktøy kritisk?",
       "options": [
-        "Fordi de er forbudt",
-        "Fordi de alltid er feil",
-        "Fordi de er dyre",
-        "Fordi de kan gi feil, og du lærer mer ved å sjekke"
+        "Fordi de oversetter uttrykk ordrett, og det er best å bruke resultatet uten endringer.",
+        "Fordi de viser flere forslag, og det er best å velge det første uten å sammenligne.",
+        "Fordi de kan rette grammatikk, og kontroll av resultatet gjør språket vanskeligere.",
+        "Fordi de kan gi feil, og du lærer mer ved å sjekke."
       ],
       "correct": 3,
       "explain": "Sjekk alltid resultatet."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr «in meiner Freizeit»?",
       "options": [
-        "i ferien min",
+        "i skoletiden min",
         "på fritiden min",
-        "i helgen min",
-        "på skolen min"
+        "i arbeidstiden min",
+        "på arbeidsplassen min"
       ],
       "correct": 1,
       "explain": "die Freizeit = fritiden."
@@ -332,9 +332,9 @@
         "text": "Hva betyr «Ich bin Mitglied in einem Sportverein»?",
         "options": [
           "Jeg er medlem i et idrettslag.",
-          "Jeg trener alene.",
-          "Jeg ser på sport.",
-          "Jeg er trener."
+          "Jeg er trener for et idrettslag.",
+          "Jeg ser på en kamp med et idrettslag.",
+          "Jeg besøker et idrettslag under en kamp."
         ],
         "correct": 0,
         "explain": "Mitglied = medlem."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

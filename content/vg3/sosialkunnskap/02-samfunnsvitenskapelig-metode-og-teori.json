@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilken metode passer best for å forstå hvordan ungdom opplever fattigdom?",
       "options": [
-        "Statistikk fra SSB",
+        "Spørreskjema",
         "Intervju",
-        "Spørreskjema med avkrysning",
-        "Registerdata"
+        "Observasjon",
+        "Statistisk analyse"
       ],
       "correct": 1,
       "explain": "Kvalitativ dybdeinnsikt."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva hevder funksjonalismen?",
       "options": [
-        "At institusjonene har funksjoner som holder samfunnet stabilt",
-        "At samfunnet preges av klassekamp",
-        "At samfunnet bare skapes i samtaler",
-        "At individer ikke betyr noe"
+        "At institusjonene har funksjoner som bidrar til samfunnets stabilitet",
+        "At institusjonene først og fremst skaper konflikt mellom samfunnsgrupper",
+        "At samfunnet formes gjennom individers daglige møter og tolkninger",
+        "At samfunnsendring hovedsakelig skyldes enkeltpersoners personlige valg"
       ],
       "correct": 0,
       "explain": "Durkheim."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er kulturell kapital?",
       "options": [
-        "Penger",
-        "Nettverk",
+        "Nettverk, kontakter, medlemskap og sosiale forbindelser",
+        "Penger, inntekt, formue og økonomiske eiendeler",
         "Utdanning, kunnskap, språk og smak",
-        "Eiendom"
+        "Status, anerkjennelse, prestisje og sosial posisjon"
       ],
       "correct": 2,
       "explain": "Bourdieu."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva legger konfliktperspektivet vekt på?",
       "options": [
-        "Harmoni",
-        "Symboler",
-        "Individuelle valg",
+        "Felles normer og sosial stabilitet",
+        "Symboler og daglig samhandling",
+        "Personlige valg og individuelle handlinger",
         "Motsetninger og ulik makt"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er en styrke ved kvantitative metoder?",
       "options": [
-        "Stor dybde",
+        "Mulighet til å beskrive enkelttilfeller grundig og detaljert",
         "Mulighet til å finne mønstre og generalisere",
-        "Nyanserte beskrivelser",
-        "Personlige historier"
+        "Mulighet til å undersøke personlige erfaringer i dybden",
+        "Mulighet til å følge deltakernes livshistorier over tid"
       ],
       "correct": 1,
       "explain": "Hvis utvalget er representativt."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er strukturperspektivet?",
       "options": [
-        "At alt skyldes egne valg",
-        "At samfunnet er et teater",
+        "At samfunnsmønstre først og fremst skyldes enkeltpersoners valg",
+        "At samfunnet forstås gjennom individers daglige samhandling og tolkninger",
         "At rammer som økonomi og klasse former valgene",
-        "At metode er unødvendig"
+        "At samfunnet formes av menneskers personlige mål og interesser"
       ],
       "correct": 2,
       "explain": "Aktørperspektivet vektlegger valg."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er sosial kapital?",
       "options": [
-        "Utdanning",
-        "Smak",
-        "Penger",
+        "Utdanning og fagkunnskap",
+        "Smak og kulturell kunnskap",
+        "Penger og økonomiske ressurser",
         "Nettverk og kontakter"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er en svakhet ved funksjonalismen?",
       "options": [
         "Den sier lite om konflikt og endring",
-        "Den forklarer bare konflikt",
-        "Den ignorerer institusjoner",
-        "Den handler bare om individer"
+        "Den forklarer dårlig hvordan institusjoner bidrar til stabilitet",
+        "Den legger for stor vekt på klassekamp og maktulikhet",
+        "Den bygger hovedsakelig på individers tolkninger av samhandling"
       ],
       "correct": 0,
       "explain": "Forklarer best stabilitet."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor kombinerer mange forskere metoder?",
       "options": [
-        "For å spare tid",
+        "For å samle inn færre opplysninger på kortere tid",
         "For å få både omfang og dybde",
-        "Fordi det er lovpålagt",
-        "For å unngå etikk"
+        "For å oppfylle et lovkrav om flere datakilder",
+        "For å unngå å vurdere kvaliteten på datainnsamlingen"
       ],
       "correct": 1,
       "explain": "Metodene utfyller hverandre."
@@ -320,9 +320,9 @@
         "text": "Hvilken teori kan forklare at barn av høyt utdannede oftere tar høyere utdanning?",
         "options": [
           "Bourdieus kapitalformer",
-          "Goffmans teater",
-          "Maslows pyramide",
-          "Durkheims organisme"
+          "Goffmans rolleteori",
+          "Maslows behovspyramide",
+          "Durkheims funksjonalisme"
         ],
         "correct": 0,
         "explain": "Kulturell kapital."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er første steg i en egen undersøkelse?",
         "options": [
-          "Skrive konklusjonen",
-          "Velge teori",
+          "Samle inn datamateriale",
+          "Velge en teori",
           "Formulere en problemstilling",
-          "Analysere data"
+          "Utarbeide en konklusjon"
         ],
         "correct": 2,
         "explain": "Styrer valg av metode."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

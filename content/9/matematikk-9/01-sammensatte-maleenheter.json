@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "En syklist sykler 36 km på 2 timer. Hva er farten?",
       "options": [
-        "72 km/h",
+        "12 km/h",
         "18 km/h",
-        "34 km/h",
-        "38 km/h"
+        "20 km/h",
+        "36 km/h"
       ],
       "correct": 1,
       "explain": "Fart = strekning / tid = 36 km / 2 h = 18 km/h."
@@ -90,9 +90,9 @@
       "text": "Hva er 20 m/s i km/h?",
       "options": [
         "72 km/h",
-        "5,6 km/h",
-        "200 km/h",
-        "20 km/h"
+        "7,2 km/h",
+        "36 km/h",
+        "200 km/h"
       ],
       "correct": 0,
       "explain": "Fra m/s til km/h ganger vi med 3,6: 20 · 3,6 = 72 km/h."
@@ -101,8 +101,8 @@
       "id": "q03",
       "text": "Hvor langt kjører en bil på 1,5 timer med farten 80 km/h?",
       "options": [
-        "53 km",
-        "81,5 km",
+        "80 km",
+        "121,5 km",
         "120 km",
         "160 km"
       ],
@@ -114,21 +114,21 @@
       "text": "Hva er 45 minutter i timer?",
       "options": [
         "0,45 h",
-        "4,5 h",
-        "0,57 h",
+        "0,5 h",
+        "0,8 h",
         "0,75 h"
       ],
       "correct": 3,
-      "explain": "Del på 60: 45 / 60 = 0,75 h. Å skrive 0,45 h er en vanlig feil."
+      "explain": "Del på 60: 45 / 60 = 0,75 h."
     },
     {
       "id": "q05",
       "text": "En stein har masse 270 g og volum 100 cm³. Hva er tettheten?",
       "options": [
         "2,7 g/cm³",
-        "27 000 g/cm³",
-        "0,37 g/cm³",
-        "170 g/cm³"
+        "0,27 g/cm³",
+        "1,7 g/cm³",
+        "27 g/cm³"
       ],
       "correct": 0,
       "explain": "Tetthet = masse / volum = 270 g / 100 cm³ = 2,7 g/cm³."
@@ -149,9 +149,9 @@
       "id": "q07",
       "text": "Hvor lang tid tar det å gå 6 km med farten 5 km/h?",
       "options": [
-        "30 min",
+        "1 time og 10 minutter",
         "1 time og 12 minutter",
-        "1 time og 2 minutter",
+        "1 time og 15 minutter",
         "1 time og 20 minutter"
       ],
       "correct": 1,
@@ -174,9 +174,9 @@
       "text": "Hvilken enhet passer for befolkningstetthet?",
       "options": [
         "Innbyggere per km²",
+        "Innbyggere per km³",
         "km² per innbygger",
-        "Innbyggere · km",
-        "km/h"
+        "Innbyggere per km"
       ],
       "correct": 0,
       "explain": "Befolkningstetthet sier hvor mange som bor på hver kvadratkilometer: innbyggere per km²."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "En kloss har tetthet 0,6 g/cm³. Hva skjer når den legges i vann?",
       "options": [
-        "Den synker",
-        "Den flyter",
-        "Den løses opp",
-        "Det kan ikke avgjøres"
+        "Klossen synker ned i vannet.",
+        "Klossen flyter oppå vannet.",
+        "Klossen løses gradvis opp i vannet.",
+        "Klossen blir liggende midt i vannet."
       ],
       "correct": 1,
       "explain": "Tettheten er lavere enn vannets, som er omtrent 1 g/cm³. Da flyter klossen.",
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Et tog kjører 240 km på 3 timer. Hva er gjennomsnittsfarten?",
         "options": [
-          "720 km/h",
+          "240 km/h",
           "80 km/h",
           "60 km/h",
-          "243 km/h"
+          "83 km/h"
         ],
         "correct": 1,
         "explain": "240 km / 3 h = 80 km/h."
@@ -342,7 +342,7 @@
         "text": "Hva er massen av 200 cm³ av et stoff med tetthet 2,5 g/cm³?",
         "options": [
           "80 g",
-          "202,5 g",
+          "250 g",
           "500 g",
           "50 g"
         ],
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

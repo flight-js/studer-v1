@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er divergent tenkning?",
       "options": [
-        "Å velge den beste ideen",
-        "Å skape mange ideer uten kritikk",
-        "Å kritisere ideer",
-        "Å lage budsjett"
+        "Å velge én idé etter å ha sammenlignet flere",
+        "Å skape mange ideer uten å vurdere dem",
+        "Å forbedre én idé ved å bygge videre på den",
+        "Å undersøke om en idé kan gjennomføres i praksis"
       ],
       "correct": 1,
       "explain": "Kvantitet teller."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvilken regel gjelder i idémyldring?",
       "options": [
-        "Ingen kritikk",
-        "Bare realistiske ideer",
-        "Lederen bestemmer",
-        "Så få ideer som mulig"
+        "Utsett kritikken til idémyldringen er ferdig",
+        "Velg bare ideer som virker realistiske",
+        "La møtelederen bestemme hvilke ideer gruppen skal bruke",
+        "Stopp idémyldringen når gruppen har funnet én løsning"
       ],
       "correct": 0,
       "explain": "Kritikken venter til senere."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er omvendt idémyldring?",
       "options": [
-        "Å skrive ideer baklengs",
-        "Å kritisere alle ideer",
-        "Å spørre hvordan problemet kan bli verre, og snu svarene",
-        "Å bare bruke gamle ideer"
+        "Å spørre hvorfor problemet oppsto og fjerne årsakene",
+        "Å finne løsninger ved å forbedre eksisterende produkter",
+        "Å spørre hvordan problemet kan forverres og snu svarene til løsninger",
+        "Å undersøke hvordan konkurrentene løser problemet og kopiere dem"
       ],
       "correct": 2,
       "explain": "Gir nye perspektiver.",
@@ -127,9 +127,9 @@
       "text": "Hva er SCAMPER?",
       "options": [
         "En sjekkliste for å endre et eksisterende produkt",
-        "En type budsjett",
-        "En selskapsform",
-        "En markedsundersøkelse"
+        "En metode for å kartlegge kundenes udekkede behov",
+        "En modell for å beregne et produkts forventede lønnsomhet",
+        "En analyse for å sammenligne konkurrentenes tilbud i markedet"
       ],
       "correct": 0,
       "explain": "Erstatte, kombinere, tilpasse og mer."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en fordel med idéskriving?",
       "options": [
-        "Den går raskest",
-        "Også stille deltakere får fram ideene sine",
-        "Den krever ingen deltakere",
-        "Den gir bare én idé"
+        "Den gir deltakerne trening i å presentere forslag muntlig",
+        "Den gir også stille deltakere mulighet til å få fram ideene sine",
+        "Den gjør det enklere å velge en løsning før ideene utvikles",
+        "Den gjør at gruppen kan vurdere hvert forslag mens det skrives"
       ],
       "correct": 1,
       "explain": "Alle skriver."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvilken kilde til forretningsideer er en trend?",
       "options": [
-        "En irritasjon i hverdagen",
-        "En hobby",
-        "En eldre befolkning",
-        "En venn"
+        "En gjentakende irritasjon i hverdagen",
+        "En personlig hobby på fritiden",
+        "En økende andel eldre i befolkningen",
+        "Et råd fra en venn"
       ],
       "correct": 2,
       "explain": "Endringer i samfunnet gir nye behov."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hva må en forretningsidé beskrive?",
       "options": [
-        "Bare navnet",
-        "Bare prisen",
-        "Bare logoen",
-        "Behov, kunder, produkt og hvordan den skiller seg ut"
+        "Virksomhetens navn, logo, slagord, farger og markedsføringskanaler for å nå kundene",
+        "Produktets pris, betalingsmåte, leveringsform, rabattordninger og kundeservice etter kjøpet",
+        "Eiernes navn, selskapsform, organisasjonsnummer, styresammensetning og regnskapsrutiner for virksomheten",
+        "Behovet som dekkes, kundene det retter seg mot, produktet og hva som skiller det fra andre tilbud"
       ],
       "correct": 3,
       "explain": "Grunnlaget for virksomheten."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hvorfor bør du snakke med mulige kunder tidlig?",
       "options": [
-        "Det er billigere å forkaste en idé før man har brukt mye penger",
-        "For å selge med en gang",
-        "Fordi loven krever det",
-        "For å skjule ideen"
+        "Det er billigere å forkaste ideen før store investeringer er gjort",
+        "Det gjør det mulig å markedsføre ideen før andre virksomheter lanserer lignende tilbud",
+        "Det viser nøyaktig hvor mange kunder som kommer til å kjøpe produktet",
+        "Det er et lovkrav før en virksomhet kan registreres"
       ],
       "correct": 0,
       "explain": "Test behovet tidlig."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er konvergent tenkning?",
       "options": [
-        "Å skape mange ideer",
-        "Å vurdere, sortere og velge ideer",
-        "Å tegne tankekart",
-        "Å bruke tilfeldige ord"
+        "Å utvikle mange ulike forslag til en utfordring",
+        "Å vurdere, sortere og velge mellom ideer",
+        "Å koble sammen ideer i et tankekart",
+        "Å hente inn tilfeldige ord for å finne inspirasjon"
       ],
       "correct": 1,
       "explain": "Snevrer inn etter at man har åpnet opp."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hva gjør en vurderingsmatrise?",
         "options": [
-          "Lager nye ideer",
-          "Gir ideer poeng på kriterier for å velge systematisk",
-          "Regner ut skatt",
-          "Registrerer selskapet"
+          "Den utvikler nye ideer ved å kombinere forslag fra gruppen",
+          "Den gir ideer poeng ut fra kriterier, slik at de kan velges systematisk",
+          "Den beregner forventet skatt ut fra virksomhetens overskudd",
+          "Den registrerer virksomheten ved å sende opplysninger til Brønnøysund"
         ],
         "correct": 1,
         "explain": "Gjør valget mindre tilfeldig."
@@ -324,9 +324,9 @@
         "text": "Hvilket kriterium handler om gjennomførbarhet?",
         "options": [
           "Om vi har kompetanse, tid og penger",
-          "Om ideen er morsom",
-          "Om konkurrentene liker den",
-          "Om den er populær i sosiale medier"
+          "Om ideen vekker entusiasme hos gruppen",
+          "Om konkurrentene anerkjenner ideens verdi",
+          "Om målgruppen deler innholdet på sosiale medier"
         ],
         "correct": 0,
         "explain": "Kan vi faktisk gjøre det?"
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva betyr «kombinere» i SCAMPER?",
         "options": [
-          "Å fjerne en del",
-          "Å snu produktet",
+          "Å erstatte en del av produktet med en annen",
+          "Å tilpasse produktet til en ny brukssituasjon",
           "Å sette sammen to produkter eller funksjoner",
-          "Å endre prisen"
+          "Å fjerne en del eller funksjon fra produktet"
         ],
         "correct": 2,
         "explain": "For eksempel en telefon med kamera."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

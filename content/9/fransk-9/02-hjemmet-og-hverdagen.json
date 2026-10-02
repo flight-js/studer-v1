@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva betyr «la chambre»?",
       "options": [
-        "Kjøkkenet",
-        "Stua",
+        "Spisestua",
+        "Gangen",
         "Soverommet",
-        "Badet"
+        "Kontoret"
       ],
       "correct": 2,
       "explain": "Stua heter «le salon»."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva betyr «il y a»?",
       "options": [
-        "Det er / det finnes",
-        "Han har",
-        "Han går",
-        "Det var"
+        "Det finnes",
+        "Han finnes",
+        "Det går",
+        "Det blir"
       ],
       "correct": 0,
       "explain": "«Il y a un lit» betyr «det er en seng»."
@@ -104,9 +104,9 @@
       "id": "q03",
       "text": "Hvordan sier du «Jeg står opp klokka sju»?",
       "options": [
-        "Je lève à sept heures.",
-        "Je suis lève à sept heures.",
-        "Me je lève à sept heures.",
+        "Je me lever à sept heures.",
+        "Je me lèves à sept heures.",
+        "Je nous lève à sept heures.",
         "Je me lève à sept heures."
       ],
       "correct": 3,
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva er riktig form av «aller» med «je»?",
       "options": [
-        "je alle",
+        "je vas",
         "je vais",
-        "je va",
-        "j'aller"
+        "je allez",
+        "je vont"
       ],
       "correct": 1,
       "explain": "«aller» er uregelrett."
@@ -128,9 +128,9 @@
       "id": "q05",
       "text": "Hva betyr «faire mes devoirs»?",
       "options": [
-        "Å lage mat",
-        "Å rydde",
-        "Å gå på skolen",
+        "Å dekke bordet",
+        "Å vaske klær",
+        "Å pusse tennene",
         "Å gjøre leksene mine"
       ],
       "correct": 3,
@@ -141,9 +141,9 @@
       "text": "Hvor står refleksivpronomenet i «je me couche»?",
       "options": [
         "Etter verbet",
-        "Til slutt i setningen",
+        "Etter objektet",
         "Foran verbet",
-        "Det finnes ikke"
+        "Før subjektet"
       ],
       "correct": 2,
       "explain": "På fransk står det foran verbet."
@@ -153,9 +153,9 @@
       "text": "Hva betyr «le salon»?",
       "options": [
         "Stua",
-        "Frisøren",
-        "Kjøkkenet",
-        "Kjelleren"
+        "Spisestua",
+        "Soverommet",
+        "Gangen"
       ],
       "correct": 0,
       "explain": "Ordet brukes om stua i et hjem."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er «le bureau» på et soverom?",
       "options": [
-        "Senga",
+        "Nattbordet",
         "Skrivebordet",
-        "Skapet",
-        "Vinduet"
+        "Kommoden",
+        "Stolen"
       ],
       "correct": 1,
       "explain": "«le bureau» kan også bety kontoret."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hvilket ord betyr «først»?",
       "options": [
-        "ensuite",
-        "enfin",
+        "puis",
+        "plus tard",
         "d'abord",
-        "après"
+        "à la fin"
       ],
       "correct": 2,
       "explain": "«enfin» betyr til slutt."
@@ -188,9 +188,9 @@
       "id": "q10",
       "text": "Hva betyr «faire la vaisselle»?",
       "options": [
-        "Å dekke bordet",
-        "Å handle",
-        "Å vaske klær",
+        "Å vaske gulvet",
+        "Å rydde rommet",
+        "Å lage middag",
         "Å ta oppvasken"
       ],
       "correct": 3,
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ma chambre est petite mais confortable»?",
         "options": [
-          "Rommet mitt er lite, men koselig",
-          "Rommet mitt er stort",
-          "Jeg liker ikke rommet mitt",
-          "Rommet mitt er rotete"
+          "Rommet mitt er lite, men behagelig.",
+          "Rommet mitt er stort, men behagelig.",
+          "Rommet mitt er lite, men ukomfortabelt.",
+          "Rommet mitt er lite og behagelig."
         ],
         "correct": 0,
         "explain": "«mais» betyr men."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva betyr «à côté de»?",
         "options": [
-          "Bak",
+          "Til høyre for",
           "Ved siden av",
-          "Under",
-          "Foran"
+          "Mellom",
+          "Overfor"
         ],
         "correct": 1,
         "explain": "«en face de» betyr overfor."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hvilket ord passer: «nous … levons»?",
         "options": [
-          "me",
-          "se",
+          "on",
+          "ils",
           "nous",
-          "vous"
+          "elles"
         ],
         "correct": 2,
         "explain": "Med «nous» er refleksivpronomenet også «nous»."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

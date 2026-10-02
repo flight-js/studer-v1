@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er et passivt digitalt spor?",
       "options": [
-        "Et bilde du legger ut",
-        "En kommentar du skriver",
+        "Søket du selv skriver inn på en nettside",
+        "Meldingen du selv sender i en gruppechat",
         "Posisjonen din som samles inn uten at du merker det",
-        "Et innlegg du deler"
+        "Profilteksten du selv legger inn på en konto"
       ],
       "correct": 2,
       "explain": "Passive spor samles inn i bakgrunnen mens du bruker nettet."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva er personopplysninger?",
       "options": [
-        "Bare passordet ditt",
+        "Opplysninger som bare gjelder en bedrift",
         "Opplysninger som kan knyttes til deg",
-        "Opplysninger om kjendiser",
-        "Nyheter om deg i avisen"
+        "Opplysninger om vær og temperatur",
+        "Opplysninger om en oppdiktet person"
       ],
       "correct": 1,
       "explain": "Navn, bilder, adresse og IP-adresse er eksempler på personopplysninger."
@@ -105,9 +105,9 @@
       "text": "Hva betyr «retten til å bli glemt»?",
       "options": [
         "At du kan be om å få slettet opplysninger om deg",
-        "At lærere ikke kan huske deg",
-        "At du kan slette andres innlegg",
-        "At internett sletter alt etter ett år"
+        "At du kan be om å få endret opplysninger om deg",
+        "At du kan be om å få kopiert opplysninger om deg",
+        "At du kan be om å få begrenset reklame om deg"
       ],
       "correct": 0,
       "explain": "Retten til sletting er en del av personvernforordningen."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvem passer på personvernet i Norge?",
       "options": [
-        "Politiet",
-        "Stortinget",
-        "Forbrukerrådet",
+        "Forbrukertilsynet",
+        "Medietilsynet",
+        "Nasjonal kommunikasjonsmyndighet",
         "Datatilsynet"
       ],
       "correct": 3,
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hva bør du gjøre før du deler et bilde der en venn er hovedmotivet?",
       "options": [
-        "Redigere bildet",
+        "Spørre fotografen om tillatelse",
         "Spørre om lov",
-        "Ingenting",
-        "Legge på et filter"
+        "Redigere bort navnet",
+        "Se gjennom bildets innhold"
       ],
       "correct": 1,
       "explain": "Hovedregelen er at den som er avbildet, må samtykke."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva gir opphavsretten?",
       "options": [
-        "Rett til å bruke alle bilder på nett",
-        "Rett til å slette andres innlegg",
+        "Skaperen rett til å bestemme hvem som omtaler verket",
+        "Skaperen rett til å bestemme hvilke meninger andre har om verket",
         "Skaperen rett til å bestemme over bruken av verket",
-        "Staten rett til å sensurere"
+        "Skaperen rett til å bestemme hvordan andre kritiserer verket"
       ],
       "correct": 2,
       "explain": "Du trenger tillatelse for å bruke andres bilder, musikk og tekster."
@@ -154,9 +154,9 @@
       "text": "Hvorfor samler selskaper inn data om deg?",
       "options": [
         "For å lage en profil og vise målrettet reklame",
-        "For å hjelpe skolen",
-        "Fordi loven krever det",
-        "For å slette dem senere"
+        "For å lage en profil og vise reklame tilfeldig",
+        "For å lage en profil og vise de samme annonsene til alle",
+        "For å lage en profil og tilpasse skolens lekser"
       ],
       "correct": 0,
       "explain": "Data om deg er verdifulle fordi de gjør reklamen mer treffsikker."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvordan kan algoritmer påvirke samfunnsdebatten?",
       "options": [
-        "De gjør alle innlegg like lange",
-        "De fjerner alt politisk innhold",
-        "De viser bare nyheter fra staten",
+        "De kan gjøre at debatten blir mer balansert for brukerne",
+        "De kan vurdere om en mening er sann før den deles",
+        "De kan prioritere innlegg etter hvor nøytrale de virker",
         "De kan fremheve innhold som vekker sterke følelser"
       ],
       "correct": 3,
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hva kan være en følge av hets i kommentarfelt?",
       "options": [
-        "At flere deltar i debatten",
+        "At diskusjonen handler mer om fakta",
         "At noen trekker seg fra debatten",
-        "At debatten blir mer saklig",
-        "Ingen følger"
+        "At kritikk blir tatt mer på alvor",
+        "At flere blir enige om saken"
       ],
       "correct": 1,
       "explain": "Hets kan gjøre at viktige stemmer forsvinner fra samfunnsdebatten."
@@ -190,9 +190,9 @@
       "text": "Hva er en Creative Commons-lisens?",
       "options": [
         "En lisens som lar skapere gi andre lov til å bruke verket",
-        "Et forbud mot deling",
-        "Et førerkort for droner",
-        "En type passord"
+        "En lisens som gir skapere rett til å hindre andre i å dele verket",
+        "En lisens som lar skapere bestemme hvem som får se verket",
+        "En lisens som krever betaling før andre kan bruke verket"
       ],
       "correct": 0,
       "explain": "Lisensen sier hva andre har lov til, for eksempel å dele med navn på skaperen.",
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er et ekkokammer?",
         "options": [
-          "Et rom med god akustikk",
+          "Et nettmiljø der man mest møter meninger som utfordrer ens egne",
           "Et nettmiljø der man mest møter meninger som ligner ens egne",
-          "En type søkemotor",
-          "Et lydopptak"
+          "Et nettmiljø der man mest møter nyheter fra ulike kilder",
+          "Et nettmiljø der man mest møter innlegg fra personer man kjenner"
         ],
         "correct": 1,
         "explain": "I ekkokamre blir egne meninger forsterket i stedet for utfordret."
@@ -341,9 +341,9 @@
         "text": "Hva er GDPR?",
         "options": [
           "Personvernforordningen, som også gjelder i Norge",
-          "En norsk avis",
-          "En sosial medieplattform",
-          "Et bildeprogram"
+          "En norsk personvernregel som ikke gjelder i EØS",
+          "En EU-forordning som ikke gjelder i Norge",
+          "En europeisk regel om opphavsrett på nettet"
         ],
         "correct": 0,
         "explain": "GDPR gir alle i EU og EØS de samme grunnleggende personvernrettighetene.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hvilken ytring er straffbar?",
         "options": [
-          "Kritikk av regjeringen",
-          "En sterk mening om skolemat",
+          "En kritisk ytring om en politiker på grunn av arbeidet",
+          "En sterk ytring om skolemat på grunn av smaken",
           "En hatefull ytring mot noen på grunn av hudfarge",
-          "En negativ anmeldelse av en film"
+          "En negativ ytring om en film på grunn av handlingen"
         ],
         "correct": 2,
         "explain": "Straffeloven forbyr hatefulle ytringer mot grupper og enkeltpersoner."
@@ -446,6 +446,7 @@
     "merknader": [
       "Lov om aldersgrense for sosiale medier (fra 1. januar det året man fyller 16) var foreslått, men ikke vedtatt per september 2026. Oppdater temaet når Stortinget har behandlet loven."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilken språkfamilie tilhører de samiske språkene?",
       "options": [
-        "Germansk",
-        "Finsk-ugrisk",
         "Romansk",
-        "Slavisk"
+        "Finsk-ugrisk",
+        "Slavisk",
+        "Keltisk"
       ],
       "correct": 1,
       "explain": "Samisk er i slekt med finsk og estisk.",
@@ -93,9 +93,9 @@
       "text": "Hvilket er det største samiske språket?",
       "options": [
         "Nordsamisk",
-        "Sørsamisk",
-        "Lulesamisk",
-        "Pitesamisk"
+        "Umesamisk",
+        "Inarisamisk",
+        "Skoltesamisk"
       ],
       "correct": 0,
       "explain": "Nordsamisk brukes særlig i Finnmark og Nord-Troms."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva var målet med fornorskingspolitikken?",
       "options": [
-        "Å styrke samisk språk",
-        "Å lære nordmenn samisk",
+        "At samer og kvener skulle få bruke egne språk i skolen",
+        "At samer og kvener skulle få beholde egne språk og kultur",
         "At samer og kvener skulle bli norske i språk og kultur",
-        "Å opprette Sametinget"
+        "At samer og kvener skulle få styre egne lokalsamfunn"
       ],
       "correct": 2,
       "explain": "Politikken varte fra midten av 1800-tallet til langt ut på 1900-tallet."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva bestemte Wexelsen-plakaten fra 1898?",
       "options": [
-        "At alle skulle lære samisk",
-        "At Sametinget skulle opprettes",
-        "At samer skulle få egne skoler",
+        "At undervisningen skulle være på samisk",
+        "At undervisningen skulle være på kvensk",
+        "At undervisningen skulle være på svensk",
         "At undervisningen skulle være på norsk"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hvilken sak satte samiske rettigheter på dagsordenen rundt 1980?",
       "options": [
         "Alta-saken",
-        "Unionsoppløsningen",
-        "EU-avstemningen",
-        "Oljefunnet"
+        "Fosen-saken",
+        "Kautokeino-opprøret",
+        "Tana-konflikten"
       ],
       "correct": 0,
       "explain": "Protestene var mot en demning i Altaelva."
@@ -141,9 +141,9 @@
       "id": "q06",
       "text": "Når ble Sametinget åpnet?",
       "options": [
-        "1905",
-        "1945",
-        "2005",
+        "1987",
+        "1988",
+        "1990",
         "1989"
       ],
       "correct": 3,
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva sier Grunnloven § 108?",
       "options": [
-        "At norsk er eneste offisielle språk",
+        "At staten skal legge til rette for kvensk språk, kultur og samfunnsliv",
         "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
-        "At samer ikke har egne rettigheter",
-        "At alle må lære nynorsk"
+        "At staten skal legge til rette for samisk språk og kultur i Sverige",
+        "At staten skal gi samene rett til egen stat og selvstendig styre"
       ],
       "correct": 1,
       "explain": "Paragrafen ble vedtatt i 1988."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva er en konsekvens av fornorskingen?",
       "options": [
-        "At flere lærte samisk",
-        "At samisk ble offisielt språk i hele Norge",
+        "At samisk ble videreført i flere familier",
+        "At flere familier begynte å bruke samisk hjemme",
         "At samisk gikk tapt i mange familier",
-        "At samer fikk mer land"
+        "At samisk fikk sterkere stilling i norske skoler"
       ],
       "correct": 2,
       "explain": "Mange sluttet å snakke samisk med barna sine."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hvilken dato er samenes nasjonaldag?",
       "options": [
-        "17. mai",
+        "9. august",
         "6. februar",
-        "1. mai",
-        "24. oktober"
+        "15. august",
+        "21. februar"
       ],
       "correct": 1,
       "explain": "Dagen minner om det første samiske landsmøtet i Trondheim i 1917.",
@@ -191,9 +191,9 @@
       "text": "Hva er revitalisering av et språk?",
       "options": [
         "Arbeid for å gi et truet språk nytt liv",
-        "Å forby et språk",
-        "Å oversette et språk",
-        "Å lage en ny dialekt"
+        "Arbeid for å gjøre et språk enklere å lære",
+        "Arbeid for å lage et nytt språk fra grunnen av",
+        "Arbeid for å oversette tekster mellom to språk"
       ],
       "correct": 0,
       "explain": "Barnehager, skoler og medier er viktige verktøy."
@@ -332,9 +332,9 @@
         "text": "Hva er Sápmi?",
         "options": [
           "Samenes område i Norge, Sverige, Finland og Russland",
-          "En samisk by",
-          "Sametingets bygning",
-          "En samisk høytid"
+          "Samenes parlament i Norge, Sverige, Finland og Russland",
+          "Samenes felles språk i Norge, Sverige, Finland og Russland",
+          "Samenes nasjonaldag i Norge, Sverige, Finland og Russland"
         ],
         "correct": 0,
         "explain": "Sápmi strekker seg over fire land."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvilket år la Sannhets- og forsoningskommisjonen fram rapporten sin?",
         "options": [
-          "1989",
-          "2005",
+          "2017",
+          "2019",
           "2023",
-          "1917"
+          "2021"
         ],
         "correct": 2,
         "explain": "Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner.",
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hvor brukes sørsamisk?",
         "options": [
-          "Bare i Finnmark",
-          "Fra Saltfjellet og sørover",
-          "Bare i Russland",
-          "Bare i Oslo"
+          "I området rundt Inari i Finland",
+          "I området fra Saltfjellet og sørover",
+          "I området rundt Kiruna i Sverige",
+          "I området rundt Kautokeino i Norge"
         ],
         "correct": 1,
         "explain": "Sørsamisk brukes i et stort område, men har få brukere."
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

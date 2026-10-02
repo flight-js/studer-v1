@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er sosial ulikhet?",
       "options": [
-        "At alle har like mye",
+        "At mennesker har ulike egenskaper, som høyde, hårfarge og alder",
         "At grupper har ulik tilgang til goder som inntekt, helse og utdanning",
-        "At noen er høyere enn andre",
-        "At folk har ulike hobbyer"
+        "At grupper har ulike meninger om politikk, religion og kultur",
+        "At personer velger ulike fritidsinteresser, klær og matvarer i hverdagen"
       ],
       "correct": 1,
       "explain": "Ulikhet handler om fordelingen av goder."
@@ -90,8 +90,8 @@
       "options": [
         "Formue",
         "Inntekt",
-        "Skolegang",
-        "Stemmerett"
+        "Utdanningsnivå",
+        "Helse"
       ],
       "correct": 0,
       "explain": "Formue er mye skjevere fordelt enn inntekt."
@@ -100,21 +100,21 @@
       "id": "q03",
       "text": "Hva viser en Gini-koeffisient på 0?",
       "options": [
-        "At én person har alt",
-        "At det er stor ulikhet",
-        "At alle har like mye",
-        "At ingen har noe"
+        "At én person har alle inntektene",
+        "At inntektene er svært ulike mellom personer",
+        "At alle har like store inntekter",
+        "At inntektene er fordelt etter hvor mye folk trenger"
       ],
       "correct": 2,
-      "explain": "1 betyr at én har alt."
+      "explain": "En Gini-koeffisient på 0 betyr lik fordeling, mens 1 betyr maksimal ulikhet."
     },
     {
       "id": "q04",
       "text": "Hva er sosial mobilitet?",
       "options": [
-        "At folk flytter mye",
-        "At folk bruker mobil",
-        "At samfunnet endrer seg",
+        "At mennesker flytter mellom ulike steder i landet",
+        "At mennesker skifter jobb innenfor samme bransje",
+        "At samfunnet endrer seg fra år til år",
         "Muligheten til å bevege seg mellom sosiale lag"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvordan kan ulikhet føre til utenforskap for barn?",
       "options": [
-        "Barn i familier med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter",
-        "Ulikhet påvirker ikke barn",
-        "Barn med dårlig råd får flere venner",
-        "Alle barn har like muligheter uansett"
+        "Barn med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter",
+        "Barns deltakelse i fritidsaktiviteter påvirkes ikke av familiens økonomi",
+        "Barn med dårlig råd får lettere råd til kostbare fritidsaktiviteter",
+        "Barn med dårlig råd har enklere tilgang til organiserte fritidsaktiviteter"
       ],
       "correct": 0,
       "explain": "Det kan gi ensomhet og utenforskap."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er helseulikhet?",
       "options": [
-        "At alle har lik helse",
+        "At personer med lav utdanning og inntekt lever lenger og har bedre helse",
         "At personer med høy utdanning og inntekt lever lenger og har bedre helse",
-        "At leger tjener mye",
-        "At sykehus er ulikt fordelt"
+        "At personer med høy utdanning og inntekt har kortere levealder og dårligere helse",
+        "At helseforskjeller ikke henger sammen med utdanning eller inntekt"
       ],
       "correct": 1,
       "explain": "Helse henger sammen med sosial bakgrunn."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilket argument brukes for mer omfordeling?",
       "options": [
-        "Ulikhet belønner innsats",
-        "Lavere skatt gir mer vekst",
+        "Store forskjeller kan styrke tilliten og fellesskapet",
+        "Omfordeling kan svekke motivasjonen til å arbeide",
         "Store forskjeller kan svekke tilliten og fellesskapet",
-        "Ulikhet er alltid rettferdig"
+        "Omfordeling kan gjøre det vanskeligere å finansiere velferdstjenester"
       ],
       "correct": 2,
       "explain": "Andre mener noe ulikhet er rimelig."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er en ond sirkel i forbindelse med utenforskap?",
       "options": [
-        "En type sport",
-        "En skatteordning",
-        "Et velferdstiltak",
+        "Når dårlig økonomi, helse og utenforskap utvikler seg uavhengig av hverandre",
+        "Når økonomiske problemer løses gjennom støtte fra velferdstjenestene",
+        "Når en person bytter mellom ulike velferdsordninger",
         "Når dårlig økonomi, helse og utenforskap forsterker hverandre"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er medianinntekt?",
       "options": [
-        "Inntekten i midten når alle er sortert",
-        "Gjennomsnittsinntekten",
-        "Den høyeste inntekten",
-        "Minstelønnen"
+        "Inntekten som ligger i midten når inntektene sorteres",
+        "Gjennomsnittet av inntektene til alle i gruppen",
+        "Den høyeste inntekten i en sortert gruppe",
+        "Den laveste lønnen en arbeidsgiver kan betale"
       ],
       "correct": 0,
       "explain": "Medianen påvirkes lite av noen få svært høye inntekter."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilket tiltak kan redusere frafall og utenforskap?",
       "options": [
-        "Høyere skolepenger",
+        "Høyere skolepenger og mindre økonomisk støtte til elever",
         "Oppfølging og tilpasset opplæring i skolen",
-        "Færre skoler",
-        "Kortere skoletid"
+        "Færre lærere og mindre individuell oppfølging i skolen",
+        "Kortere skoletid og færre fag på videregående"
       ],
       "correct": 1,
       "explain": "Å fullføre videregående gir bedre muligheter i arbeidslivet."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken av disse er formue?",
         "options": [
-          "Månedslønn",
-          "Barnetrygd",
-          "En bolig man eier",
-          "Studielån"
+          "Månedslønn som en person får fra arbeid",
+          "Barnetrygd som en familie får hver måned",
+          "En bolig som en person selv eier",
+          "Studielån som en student må betale tilbake"
         ],
         "correct": 2,
         "explain": "Formue er verdier man eier."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er sosial arv?",
         "options": [
-          "At økonomi, nettverk og holdninger går i arv",
-          "Arv etter en rik slektning",
-          "Et velferdstiltak",
-          "En skatt"
+          "At økonomi, nettverk og holdninger videreføres mellom generasjoner",
+          "At en person arver penger eller eiendom fra familien",
+          "At staten gir økonomisk støtte til familier med lav inntekt",
+          "At staten krever inn skatt fra familier med høy inntekt"
         ],
         "correct": 0,
         "explain": "Sosial arv kan begrense sosial mobilitet."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på geografisk ulikhet i Norge?",
         "options": [
-          "Forskjeller mellom kvinner og menn",
-          "Forskjeller mellom bydeler i Oslo",
-          "Forskjeller i skostørrelse",
-          "Forskjeller i årstider"
+          "Forskjeller i lønn mellom kvinner og menn i Norge",
+          "Forskjeller i levekår mellom bydeler i Oslo",
+          "Forskjeller i utdanning mellom ulike aldersgrupper i Norge",
+          "Forskjeller i fritidsvaner mellom ulike yrkesgrupper i Norge"
         ],
         "correct": 1,
         "explain": "Levekår varierer mellom bydeler og regioner.",
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

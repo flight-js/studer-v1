@@ -77,9 +77,9 @@
       "id": "q01",
       "text": "Hva betyr kvalitet i et arbeidsoppdrag?",
       "options": [
-        "At produktet er dyrt",
-        "At produktet er stort",
-        "At produktet er laget raskt",
+        "At produktet ser moderne og pent ut",
+        "At produktet blir laget på kort tid",
+        "At produktet bruker dyre materialer",
         "At produktet oppfyller kravene som er avtalt"
       ],
       "correct": 3,
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Når bør kvalitetskontroll gjøres?",
       "options": [
-        "Bare når alt er ferdig",
+        "Ved oppstart av arbeidet",
         "Underveis og til slutt",
-        "Aldri",
-        "Bare hvis kunden klager"
+        "Når kunden får produktet",
+        "Etter en melding om feil"
       ],
       "correct": 1,
       "explain": "Feil som oppdages tidlig, er lettere å rette."
@@ -102,9 +102,9 @@
       "text": "Hva bør mat merkes med?",
       "options": [
         "Innhold og allergener",
-        "Navnet på kokken",
-        "Været",
-        "Hvor mange som har smakt"
+        "Smak og farge",
+        "Pris og serveringssted",
+        "Kokkens navn og arbeidstid"
       ],
       "correct": 0,
       "explain": "Merking av allergener kan forhindre alvorlige reaksjoner.",
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hvordan bør du håndtere en klage fra en kunde?",
       "options": [
-        "Bli sint",
-        "Ignorere den",
+        "Avbryte kunden og forklare seg",
+        "Be kunden sende klagen skriftlig først",
         "Lytte, beklage og finne en løsning",
-        "Si at kunden tar feil"
+        "Avvise klagen før saken undersøkes"
       ],
       "correct": 2,
       "explain": "God klagehåndtering kan gjøre kunden fornøyd igjen."
@@ -127,9 +127,9 @@
       "text": "Hva er fortjeneste?",
       "options": [
         "Det som blir igjen når kostnadene er trukket fra",
-        "Prisen på materialene",
-        "Lønnen til de ansatte",
-        "Momsen"
+        "Det kunden betaler for oppdraget",
+        "Det bedriften bruker på materialer",
+        "Det som betales i lønn for arbeidet"
       ],
       "correct": 0,
       "explain": "Fortjenesten kan brukes til å utvikle bedriften."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en sjekkliste?",
       "options": [
-        "En regning",
-        "En handleliste",
+        "En liste over varer som skal kjøpes",
+        "En liste over kunder som skal kontaktes",
         "En liste over punkter som skal kontrolleres",
-        "En kundeliste"
+        "En liste over oppgaver som skal fordeles"
       ],
       "correct": 2,
       "explain": "Sjekklisten gjør kontrollen systematisk."
@@ -150,9 +150,9 @@
       "id": "q07",
       "text": "Hva hører med i en priskalkulasjon?",
       "options": [
-        "Bare prisen konkurrentene tar",
-        "Bare fortjenesten",
-        "Ingenting",
+        "Materialkostnader, arbeid, rabatt og moms",
+        "Andre kostnader, fortjeneste, salgstall og moms",
+        "Materialkostnader, lønn, kundetall og rabatt",
         "Materialkostnader, andre kostnader, arbeid og fortjeneste"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hva er god kundeservice?",
       "options": [
-        "Å snakke mest mulig selv",
+        "Å hilse, snakke raskt og foreslå dyre varer",
         "Å hilse, lytte og være høflig og ærlig",
-        "Å ignorere spørsmål",
-        "Å selge så dyrt som mulig"
+        "Å svare kort, styre samtalen og avslutte raskt",
+        "Å lytte, anbefale varer og unngå vanskelige spørsmål"
       ],
       "correct": 1,
       "explain": "Fornøyde kunder kommer gjerne tilbake."
@@ -175,9 +175,9 @@
       "text": "Hva er reklamasjon?",
       "options": [
         "Å klage på en vare med feil eller mangel",
-        "Reklame for et produkt",
-        "En type kvittering",
-        "Et tilbud"
+        "Å spørre om reklame for en vare eller tjeneste",
+        "Å få bytte en vare uten kvittering",
+        "Å gi beskjed om at en vare er for dyr"
       ],
       "correct": 0,
       "explain": "Forbrukere har rett til å reklamere på varer med feil."
@@ -186,9 +186,9 @@
       "id": "q10",
       "text": "Hva bør en god plakat for et produkt fortelle?",
       "options": [
-        "Hvem som laget den",
-        "Hvor mye materialene kostet",
-        "Hvor lang tid det tok",
+        "Hvem som laget den, hvor den skal henge og når den trykkes",
+        "Hva bedriften heter, hvor den holder til og hvem som jobber der",
+        "Hvilke materialer som brukes, hvem som laget produktet og når",
         "Hva man tilbyr, hva det koster og hvordan man bestiller"
       ],
       "correct": 3,
@@ -323,9 +323,9 @@
         "text": "Hva er materialkostnader?",
         "options": [
           "Det materialene koster",
-          "Lønnen",
-          "Fortjenesten",
-          "Momsen"
+          "Det lønna koster",
+          "Det transporten koster",
+          "Det bedriften tjener"
         ],
         "correct": 0,
         "explain": "Materialkostnadene er ofte den største utgiften i små oppdrag."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er holdbarhet?",
         "options": [
-          "Hvor pent noe er",
+          "Hvor pent noe ser ut etter bruk",
           "Hvor lenge noe tåler bruk",
-          "Hvor dyrt noe er",
-          "Hvor raskt noe lages"
+          "Hvor lang tid noe tar å lage",
+          "Hvor dyrt det er å reparere"
         ],
         "correct": 1,
         "explain": "God holdbarhet er også bra for miljøet."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er moms?",
         "options": [
-          "En type rabatt",
-          "En del av lønna",
+          "En rabatt på varer og tjenester som kunden får",
+          "En del av lønnen som går til staten",
           "En avgift på varer og tjenester som går til staten",
-          "En gave til kunden"
+          "Et gebyr på varer og tjenester som går til butikken"
         ],
         "correct": 2,
         "explain": "Moms står for merverdiavgift.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

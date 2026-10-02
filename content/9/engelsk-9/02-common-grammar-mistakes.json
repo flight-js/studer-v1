@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Choose the correct word: “There … two cars outside.”",
       "options": [
-        "is",
-        "be",
+        "was",
+        "has",
         "are",
-        "am"
+        "be"
       ],
       "correct": 2,
       "explain": "The verb agrees with “two cars”, which is plural: there are."
@@ -109,7 +109,7 @@
         "much",
         "many",
         "few",
-        "a lot"
+        "several"
       ],
       "correct": 0,
       "explain": "Money is uncountable, so we use “much”."
@@ -119,8 +119,8 @@
       "text": "Which sentence is correct?",
       "options": [
         "Can you give me an advice?",
+        "Can you give me two advice?",
         "Can you give me some advices?",
-        "Can you give me a advice?",
         "Can you give me some advice?"
       ],
       "correct": 3,
@@ -133,7 +133,7 @@
         "There",
         "It",
         "This",
-        "Here"
+        "That"
       ],
       "correct": 1,
       "explain": "We use “it” about the weather: It is raining."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "What does “eventually” mean?",
       "options": [
-        "eventuelt",
-        "vanligvis",
+        "ved behov",
+        "til vanlig",
         "til slutt",
-        "straks"
+        "på forhånd"
       ],
       "correct": 2,
       "explain": "“Eventually” means “til slutt”. “Eventuelt” is “possibly” or “if necessary”.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Which sentence is correct?",
       "options": [
-        "She is doctor.",
+        "She is an doctor.",
         "She is a doctor.",
-        "She is the doctor for job.",
-        "She doctor is."
+        "She are a doctor.",
+        "She is a doctors."
       ],
       "correct": 1,
       "explain": "English uses a/an before jobs: She is a doctor."
@@ -193,9 +193,9 @@
       "text": "Choose the correct sentence.",
       "options": [
         "Everybody are here.",
-        "Everybody were here now.",
+        "Everybody were here.",
         "Everybody is here.",
-        "Everybody be here."
+        "Everybody have arrived."
       ],
       "correct": 2,
       "explain": "“Everybody” is grammatically singular: Everybody is here."
@@ -327,8 +327,8 @@
         "options": [
           "fabrikk",
           "stoff",
-          "fabel",
-          "fasade"
+          "fiber",
+          "mønster"
         ],
         "correct": 1,
         "explain": "“Fabric” is cloth or material. A factory is “fabrikk”.",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Which sentence uses “good” and “well” correctly?",
         "options": [
-          "She sings good.",
-          "She is a well singer.",
-          "She sings goodly.",
-          "She sings well."
+          "She sings very good.",
+          "She sing very well.",
+          "She singing very well.",
+          "She sings very well."
         ],
         "correct": 3,
         "explain": "“Well” is the adverb that describes how she sings."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

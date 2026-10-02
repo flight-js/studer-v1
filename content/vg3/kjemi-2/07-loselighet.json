@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er en mettet løsning?",
       "options": [
-        "En løsning uten løst stoff",
-        "En løsning der ikke mer stoff kan løses",
-        "En sur løsning",
-        "En varm løsning"
+        "En løsning der mer stoff kan løses ved samme temperatur.",
+        "En løsning der mer stoff ikke kan løses ved den temperaturen.",
+        "En løsning der alt tilsatt stoff er løst i løsemiddelet.",
+        "En løsning der mengden løst stoff er lik mengden løsemiddel."
       ],
       "correct": 1,
       "explain": "Likevekt mellom fast stoff og løst stoff."
@@ -95,8 +95,8 @@
       "options": [
         "[Ag⁺] · [Cl⁻]",
         "[Ag⁺] + [Cl⁻]",
-        "[AgCl]",
-        "[Ag⁺] / [Cl⁻]"
+        "[Ag⁺]² · [Cl⁻]",
+        "[Ag⁺] · [Cl⁻]²"
       ],
       "correct": 0,
       "explain": "Det faste stoffet tas ikke med."
@@ -106,9 +106,9 @@
       "text": "Ksp for AgCl er 1,8 · 10⁻¹⁰. Hva er løseligheten?",
       "options": [
         "1,8 · 10⁻¹⁰ mol/L",
-        "3,6 · 10⁻¹⁰ mol/L",
+        "1,8 · 10⁻⁵ mol/L",
         "Omtrent 1,3 · 10⁻⁵ mol/L",
-        "0,18 mol/L"
+        "9,0 · 10⁻⁶ mol/L"
       ],
       "correct": 2,
       "explain": "s = √Ksp."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva skjer når Q > Ksp?",
       "options": [
-        "Alt løses",
-        "Løsningen er umettet",
-        "Ingenting",
-        "Det felles ut fast stoff"
+        "Fast stoff løses opp og danner flere ioner.",
+        "Løsningen kan løse mer fast stoff uten utfelling.",
+        "Løsningen er i likevekt mellom fast stoff og ioner.",
+        "Fast stoff felles ut fra løsningen."
       ],
       "correct": 3,
       "explain": "Løsningen er overmettet."
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hvorfor løses AgCl dårligere i en løsning med NaCl?",
       "options": [
-        "På grunn av fellesioneffekten",
-        "Fordi NaCl er en katalysator",
-        "Fordi temperaturen øker",
-        "Det løses bedre"
+        "AgCl løses dårligere på grunn av fellesioneffekten.",
+        "AgCl løses dårligere fordi NaCl virker som katalysator.",
+        "AgCl løses dårligere fordi NaCl øker temperaturen i løsningen.",
+        "AgCl løses dårligere fordi natriumionene fjerner sølvionene fra løsningen."
       ],
       "correct": 0,
       "explain": "Cl⁻ forskyver likevekten mot fast stoff."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er Ksp for et salt av typen AB₂ uttrykt ved s?",
       "options": [
-        "s²",
+        "s³",
         "4s³",
-        "2s²",
-        "s³"
+        "2s³",
+        "4s²"
       ],
       "correct": 1,
       "explain": "s · (2s)²."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvorfor gir fluor sterkere tenner?",
       "options": [
-        "Fluor gjør emaljen mykere",
-        "Fluor fjerner kalsium",
-        "Fluorapatitt er mindre løselig og tåler syre bedre",
-        "Fluor øker syren i munnen"
+        "Fluorapatitt er mer løselig og tåler syre dårligere.",
+        "Fluor gjør emaljen mykere og mindre motstandsdyktig mot syre.",
+        "Fluorapatitt er mindre løselig og tåler syre bedre.",
+        "Fluorid øker kalsiumtapet fra emaljen og svekker tennene."
       ],
       "correct": 2,
       "explain": "Hydroksidioner byttes ut med fluorid.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva dannes ofte nyrestein av?",
       "options": [
-        "Natriumklorid",
-        "Glukose",
-        "Vann",
+        "Natriumklorid eller natriumfosfat",
+        "Magnesiumklorid eller magnesiumsulfat",
+        "Kaliumoksalat eller kaliumfosfat",
         "Kalsiumoksalat eller kalsiumfosfat"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva skjer med løseligheten til gasser når temperaturen øker?",
       "options": [
-        "Den synker",
-        "Den øker",
-        "Den er uendret",
-        "Den blir uendelig"
+        "Løseligheten til gassen synker når temperaturen øker.",
+        "Løseligheten til gassen øker når temperaturen øker.",
+        "Løseligheten til gassen forblir omtrent konstant når temperaturen øker.",
+        "Løseligheten til gassen bestemmes ikke av temperaturen."
       ],
       "correct": 0,
       "explain": "Motsatt av de fleste faste stoffer.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvorfor kan bariumsulfat brukes som kontrastmiddel?",
       "options": [
-        "Fordi det er lettløselig og tas opp i kroppen",
-        "Fordi det er tungt løselig og ikke tas opp i kroppen",
-        "Fordi det er radioaktivt",
-        "Fordi det er en gass"
+        "Fordi det løses godt i vann og derfor ikke blir værende i tarmen.",
+        "Fordi det er tungt løselig og ikke tas opp i kroppen.",
+        "Fordi det er radioaktivt og kan ses tydelig på røntgenbilder.",
+        "Fordi det danner gass i tarmen og gjør organene synlige."
       ],
       "correct": 1,
       "explain": "Bariumioner er giftige hvis de tas opp.",
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva gir hardt vann?",
         "options": [
-          "Mye natrium",
+          "Mye natrium og kalium",
           "Mye kalsium og magnesium",
-          "Mye klor",
-          "Mye oksygen"
+          "Mye klorid og nitrat",
+          "Mye oksygen og nitrogen"
         ],
         "correct": 1,
         "explain": "Kan gi kalk i rør.",
@@ -330,9 +330,9 @@
         "text": "Hvilket prinsipp forklarer fellesioneffekten?",
         "options": [
           "Le Châteliers prinsipp",
-          "Faradays lov",
           "Hess' lov",
-          "Avogadros lov"
+          "Avogadros lov",
+          "Boyles lov"
         ],
         "correct": 0,
         "explain": "Likevekten forskyves."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva kan skje ved for rask oppstigning etter dykking?",
         "options": [
-          "Hypotermi",
-          "Nyrestein",
+          "Nitrogenforgiftning",
+          "Oksygenforgiftning",
           "Trykkfallsyke",
-          "Hull i tennene"
+          "Karbonmonoksidforgiftning"
         ],
         "correct": 2,
         "explain": "Nitrogen som er løst i blodet, danner bobler.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

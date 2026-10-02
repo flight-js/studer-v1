@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva betyr «l'environnement»?",
       "options": [
-        "Verden",
-        "Byen",
+        "Samfunnet",
+        "Landskapet",
         "Miljøet",
-        "Været"
+        "Klimaet"
       ],
       "correct": 2,
       "explain": "Verden heter «le monde»."
@@ -95,9 +95,9 @@
       "text": "Hva betyr «trier les déchets»?",
       "options": [
         "Å sortere avfallet",
-        "Å kaste søppel i naturen",
-        "Å brenne søppel",
-        "Å kjøpe mindre"
+        "Å redusere avfallet",
+        "Å samle inn avfallet",
+        "Å resirkulere avfallet"
       ],
       "correct": 0,
       "explain": "«trier» betyr å sortere."
@@ -107,8 +107,8 @@
       "text": "Hvilken klimaavtale fra 2015 har navnet sitt fra Frankrikes hovedstad?",
       "options": [
         "Kyotoprotokollen",
-        "Montrealprotokollen",
-        "Oslo-avtalen",
+        "Glasgowpakten",
+        "Københavneravtalen",
         "Parisavtalen"
       ],
       "correct": 3,
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva betyr «le réchauffement climatique»?",
       "options": [
-        "Været i dag",
+        "Den lokale oppvarmingen",
         "Den globale oppvarmingen",
-        "Et varmeapparat",
-        "Sommeren"
+        "Den globale nedkjølingen",
+        "Den globale luftforurensningen"
       ],
       "correct": 1,
       "explain": "«chaud» betyr varm."
@@ -132,8 +132,8 @@
       "text": "Hva er «une éolienne»?",
       "options": [
         "Et solcellepanel",
-        "En elbil",
         "Et vannkraftverk",
+        "Et biogassanlegg",
         "En vindmølle"
       ],
       "correct": 3,
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva betyr «On devrait moins prendre la voiture»?",
       "options": [
-        "Man må kjøre mer bil",
-        "Man kjører bil hver dag",
+        "Man burde ta bilen oftere",
+        "Man burde kjøpe en mindre bil",
         "Man burde kjøre mindre bil",
-        "Bilen er ødelagt"
+        "Man burde bruke mindre bensin"
       ],
       "correct": 2,
       "explain": "«on devrait» betyr man burde."
@@ -156,9 +156,9 @@
       "text": "Hva er «la laïcité»?",
       "options": [
         "Skillet mellom religion og stat i Frankrike",
-        "En fransk høytid",
-        "En type skole",
-        "Et politisk parti"
+        "Skillet mellom president og parlament i Frankrike",
+        "Skillet mellom regioner og kommuner i Frankrike",
+        "Skillet mellom regjering og domstoler i Frankrike"
       ],
       "correct": 0,
       "explain": "Prinsippet ble slått fast i en lov fra 1905."
@@ -169,8 +169,8 @@
       "options": [
         "Vindkraft",
         "Atomkraft",
-        "Kull",
-        "Vannkraft"
+        "Solkraft",
+        "Gasskraft"
       ],
       "correct": 1,
       "explain": "Norge får derimot mesteparten av strømmen fra vannkraft."
@@ -180,8 +180,8 @@
       "text": "Hvordan sier du at du er mot noe?",
       "options": [
         "Je suis pour …",
-        "J'ai faim de …",
-        "Je vais à …",
+        "Je suis avec …",
+        "Je suis près de …",
         "Je suis contre …"
       ],
       "correct": 3,
@@ -193,8 +193,8 @@
       "options": [
         "Kollektivtransport",
         "Privatbil",
-        "Fly",
-        "Sykkel"
+        "Flytransport",
+        "Godstransport"
       ],
       "correct": 0,
       "explain": "«en commun» betyr felles."
@@ -327,9 +327,9 @@
         "text": "Hva betyr «économiser l'eau»?",
         "options": [
           "Å spare vann",
-          "Å selge vann",
-          "Å drikke vann",
-          "Å rense vann"
+          "Å måle vannforbruket",
+          "Å filtrere vannet",
+          "Å transportere vannet"
         ],
         "correct": 0,
         "explain": "«économiser» betyr å spare."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva er «l'Assemblée nationale»?",
         "options": [
-          "Frankrikes nasjonaldag",
+          "Frankrikes senat",
           "Frankrikes nasjonalforsamling",
-          "En region",
-          "En avis"
+          "Frankrikes regjering",
+          "Frankrikes konstitusjonsråd"
         ],
         "correct": 1,
         "explain": "Den tilsvarer Stortinget i Norge.",
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Il est important de protéger la planète»?",
         "options": [
-          "Planeten er stor",
-          "Jeg liker planeten",
+          "Det er viktig å undersøke planeten",
+          "Det er viktig å forurense planeten",
           "Det er viktig å beskytte planeten",
-          "Planeten er i fare i dag"
+          "Det er viktig å besøke planeten"
         ],
         "correct": 2,
         "explain": "«protéger» betyr å beskytte."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

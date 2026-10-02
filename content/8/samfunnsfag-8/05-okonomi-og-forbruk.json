@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er nettolønn?",
       "options": [
-        "Lønn før skatt",
+        "Utbetalt lønn før skattetrekket er gjort",
         "Lønn etter at skatten er trukket",
-        "Lønn for overtid",
-        "Lønn fra nettbutikker"
+        "Lønn før tillegg for overtid er lagt til",
+        "Lønn før feriepenger er lagt til"
       ],
       "correct": 1,
       "explain": "Nettolønnen er det som faktisk kommer inn på kontoen."
@@ -88,9 +88,9 @@
       "text": "Hva er et budsjett?",
       "options": [
         "En oversikt over forventede inntekter og utgifter",
-        "Et lån i banken",
-        "En type skatt",
-        "En kvittering"
+        "En oversikt over beløp du allerede har brukt",
+        "En avtale om et lån fra banken",
+        "En oversikt over skatten som trekkes fra lønn"
       ],
       "correct": 0,
       "explain": "Budsjettet hjelper deg å planlegge hva du har råd til."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilken er en fast utgift?",
       "options": [
-        "Kinobillett",
-        "Godteri",
-        "Husleie",
-        "Ny jakke"
+        "En kinobillett til en forestilling",
+        "En pose godteri fra butikken",
+        "Husleie hver måned",
+        "En ny jakke fra klesbutikken"
       ],
       "correct": 2,
       "explain": "Husleie betales jevnlig og er omtrent like stor hver måned."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvorfor bør man være forsiktig med forbrukslån?",
       "options": [
-        "Fordi de er rentefrie",
-        "Fordi de bare gis til barn",
-        "Fordi de må betales tilbake samme dag",
+        "Fordi de ofte har lavere rente enn boliglån",
+        "Fordi renten vanligvis ikke påvirker hvor mye du betaler",
+        "Fordi renten vanligvis legges til skatten du betaler",
         "Fordi de ofte har høy rente"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hvor lenge har du som hovedregel angrerett når du handler på nett?",
       "options": [
-        "3 dager",
-        "7 dager",
+        "10 dager",
+        "21 dager",
         "14 dager",
-        "30 dager"
+        "28 dager"
       ],
       "correct": 2,
       "explain": "Angrefristen er 14 dager fra du mottok varen."
@@ -136,9 +136,9 @@
       "text": "Hva er forskjellen på levestandard og livskvalitet?",
       "options": [
         "Levestandard gjelder materielle forhold, livskvalitet gjelder hvordan vi har det",
-        "Det er det samme",
-        "Livskvalitet måles bare i penger",
-        "Levestandard handler om vennskap"
+        "Levestandard gjelder hvordan vi har det, livskvalitet gjelder materielle forhold",
+        "Levestandard gjelder materielle forhold, livskvalitet gjelder hvor mye vi tjener",
+        "Levestandard gjelder venner og familie, livskvalitet gjelder materielle forhold"
       ],
       "correct": 0,
       "explain": "Man kan ha høy levestandard og likevel lav livskvalitet, og omvendt."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva må reklame på sosiale medier være?",
       "options": [
-        "Morsom",
+        "Tydelig merket som et samarbeid",
         "Tydelig merket som reklame",
-        "Gratis",
-        "Skrevet på engelsk"
+        "Tydelig merket som en anbefaling",
+        "Tydelig merket med butikkens navn"
       ],
       "correct": 1,
       "explain": "Skjult reklame er ulovlig fordi den lurer forbrukerne.",
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva går skattepengene blant annet til?",
       "options": [
-        "Private feriereiser",
-        "Lønn til influensere",
-        "Reklame for butikker",
+        "Personlige feriereiser, private biler og merkeklær",
+        "Reklame for butikker, nettbutikker og merkevarer",
+        "Mobiltelefoner, spillkonsoller og private klær",
         "Skoler, sykehus og veier"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er en buffer i personlig økonomi?",
       "options": [
         "Sparepenger til uforutsette utgifter",
-        "En type kredittkort",
-        "Et lån",
-        "En skatt"
+        "Penger du låner til planlagte kjøp",
+        "En konto for å betale faste regninger",
+        "En sum du betaler i skatt hvert år"
       ],
       "correct": 0,
       "explain": "Med en buffer slipper du å låne hvis noe uventet skjer."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva kan du gjøre som 15-åring uten samtykke fra foresatte?",
       "options": [
-        "Ta opp et forbrukslån",
-        "Kjøpe bil på avbetaling",
+        "Ta opp et forbrukslån i banken",
+        "Kjøpe en bil på avbetaling",
         "Bruke penger du har tjent selv",
-        "Inngå en boliglånsavtale"
+        "Inngå en avtale om boliglån"
       ],
       "correct": 2,
       "explain": "Umyndige kan råde over penger de har tjent ved eget arbeid.",
@@ -322,9 +322,9 @@
         "text": "Hva er reklamasjon?",
         "options": [
           "Å klage på en vare med feil eller mangel",
-          "Å returnere en vare du angrer på",
-          "Å lage reklame",
-          "Å betale med kort"
+          "Å angre på et kjøp uten at varen har feil",
+          "Å be butikken bytte en vare uten at den har feil",
+          "Å lage en annonse for å selge en brukt vare"
         ],
         "correct": 0,
         "explain": "Reklamasjonsfristen er to år, eller fem år for ting som skal vare lenge."
@@ -334,9 +334,9 @@
         "type": "flervalg",
         "text": "Hva kan skje hvis du ikke betaler en regning?",
         "options": [
-          "Regningen forsvinner",
-          "Du får penger tilbake",
-          "Beløpet blir mindre",
+          "Regningen kan bli lavere når betalingsfristen har gått ut",
+          "Saken kan bli slettet automatisk etter betalingsfristen",
+          "Butikken kan trekke beløpet direkte fra lønnen din",
           "Saken kan gå til inkasso med ekstra gebyrer"
         ],
         "correct": 3,
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på bærekraftig forbruk?",
         "options": [
-          "Å kjøpe nye klær hver uke",
+          "Å kaste brukbare ting og kjøpe nye",
           "Å reparere og kjøpe brukt",
-          "Å kaste ting som har gått i stykker",
-          "Å handle mest mulig på salg"
+          "Å kjøpe klær som er laget for kort bruk",
+          "Å velge engangsprodukter framfor ting som kan brukes igjen"
         ],
         "correct": 1,
         "explain": "Å bruke ting lenger sparer både penger og ressurser.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

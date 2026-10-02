@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er et dualistisk menneskesyn?",
       "options": [
-        "At mennesket bare er kropp",
+        "At mennesket består av kropp og fornuft",
         "At mennesket består av sjel og kropp",
-        "At mennesket er ondt",
-        "At mennesket er et dyr"
+        "At mennesket består av sjel og samfunn",
+        "At mennesket består av kropp og instinkter"
       ],
       "correct": 1,
       "explain": "Typisk for Platon."
@@ -89,9 +89,9 @@
       "text": "Hvordan så Aristoteles på mennesket?",
       "options": [
         "Som et fornuftig og sosialt vesen",
-        "Som bare en sjel",
-        "Som egoistisk",
-        "Som uten fornuft"
+        "Som et fornuftig, men asosialt vesen",
+        "Som et religiøst og lydig vesen",
+        "Som et følsomt, men ufornuftig vesen"
       ],
       "correct": 0,
       "explain": "Et «politisk dyr»."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva mente Kant om hvordan mennesker skal behandles?",
       "options": [
-        "Som middel for andre",
-        "Som dyr",
-        "Som mål i seg selv, aldri bare som middel",
-        "Som eiendom"
+        "Som et middel for samfunnets mål, ikke som mål i seg selv",
+        "Som et mål når det gagner fellesskapet, ellers som middel",
+        "Som et mål i seg selv, ikke kun som middel",
+        "Som et middel for andres mål, ikke som mål i seg selv"
       ],
       "correct": 2,
       "explain": "Fordi mennesket har autonomi."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva mente Hobbes om mennesket i naturtilstanden?",
       "options": [
-        "At det er godt",
-        "At det er fritt og lykkelig",
-        "At det er fredelig",
-        "At det er egoistisk, og at vi trenger en sterk stat"
+        "At mennesket er fredelig, og at vi trenger en svak stat",
+        "At mennesket er samarbeidsvillig, og at vi trenger en begrenset stat",
+        "At mennesket er omsorgsfullt, og at vi trenger en stat med liten makt",
+        "At mennesket er egoistisk, og at vi trenger en sterk stat"
       ],
       "correct": 3,
       "explain": "Livet ville vært «brutalt og kort»."
@@ -125,9 +125,9 @@
       "text": "Hva mente Rousseau?",
       "options": [
         "At mennesket er godt av natur, men ødelegges av samfunnet",
-        "At mennesket er ondt",
-        "At mennesket ikke har fornuft",
-        "At staten må være sterk"
+        "At mennesket er ondt av natur, men forbedres av samfunnet",
+        "At mennesket er egoistisk av natur, men styres av en sterk stat",
+        "At mennesket er fornuftig av natur, men formes lite av samfunnet"
       ],
       "correct": 0,
       "explain": "En motsats til Hobbes."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva betyr ubuntu?",
       "options": [
-        "Jeg er meg selv",
+        "Jeg er fordi jeg tenker",
         "Jeg er fordi vi er",
-        "Jeg tenker, altså er jeg",
-        "Gud er død"
+        "Jeg er fordi jeg står alene",
+        "Jeg er fordi Gud skapte meg"
       ],
       "correct": 1,
       "explain": "Mennesket blir menneske gjennom andre.",
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvordan ser buddhismen på selvet?",
       "options": [
-        "Som en udødelig sjel",
-        "Som skapt av Gud",
+        "Som en evig sjel som styrer kroppens prosesser",
+        "Som en fast kjerne som forblir den samme gjennom livet",
         "Som en strøm av forgjengelige prosesser uten fast selv",
-        "Som kroppen alene"
+        "Som en kropp med en varig personlig identitet"
       ],
       "correct": 2,
       "explain": "Anatta.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva har feministisk filosofi kritisert?",
       "options": [
-        "At kvinner har for mye makt",
-        "At filosofien er for kort",
-        "At menn ikke skriver filosofi",
+        "At «mennesket» i filosofien ofte har vært tenkt som en kvinne",
+        "At kvinner i filosofien ofte har blitt framstilt som idealet for fornuft",
+        "At menn i filosofien ofte har blitt framstilt som idealet for omsorg",
         "At «mennesket» i filosofien ofte har vært tenkt som en mann"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er det naturalistiske menneskesynet?",
       "options": [
         "At mennesket er en del av naturen og utviklet gjennom evolusjon",
-        "At mennesket står utenfor naturen",
-        "At mennesket er skapt uforanderlig",
-        "At mennesket bare er sjel"
+        "At mennesket står utenfor naturen, men utviklet seg gjennom evolusjon",
+        "At mennesket er en del av naturen, men skapt uforanderlig",
+        "At mennesket er en del av naturen, men har en udødelig sjel"
       ],
       "correct": 0,
       "explain": "Knyttet til Darwin."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvordan forstår konfutsianismen mennesket?",
       "options": [
-        "Som et isolert individ",
+        "Som et selvstendig individ definert gjennom egne valg og ønsker",
         "Som et relasjonelt vesen definert gjennom roller og plikter",
-        "Som en maskin",
-        "Som et dyr uten fornuft"
+        "Som et religiøst vesen definert gjennom tro og bønn",
+        "Som et økonomisk vesen definert gjennom arbeid og eiendom"
       ],
       "correct": 1,
       "explain": "Familie og samfunn er sentrale.",
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva mente Marx formet mennesket?",
         "options": [
-          "Guds vilje",
+          "De religiøse og åndelige forestillingene",
           "De materielle og økonomiske forholdene",
-          "Stjernene",
-          "Idéverdenen"
+          "De politiske og juridiske institusjonene",
+          "De medfødte og biologiske egenskapene"
         ],
         "correct": 1,
         "explain": "Under kapitalismen blir arbeideren fremmedgjort."
@@ -327,9 +327,9 @@
         "text": "Hvilket menneskesyn legger mest vekt på individets frihet?",
         "options": [
           "Individorientert",
-          "Relasjonelt",
-          "Konfutsiansk",
-          "Ubuntu"
+          "Fellesskapsorientert",
+          "Pliktorientert",
+          "Tradisjonsorientert"
         ],
         "correct": 0,
         "explain": "Andre vektlegger fellesskapet."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva er autonomi hos Kant?",
         "options": [
-          "Å følge andres regler",
-          "Å være alene",
+          "Evnen til å følge moralske lover andre har fastsatt",
+          "Evnen til å velge handlinger ut fra egne ønsker",
           "Evnen til å gi seg selv moralske lover",
-          "Å ha makt over andre"
+          "Evnen til å bestemme regler for andre mennesker"
         ],
         "correct": 2,
         "explain": "Grunnlaget for menneskeverdet hos Kant."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

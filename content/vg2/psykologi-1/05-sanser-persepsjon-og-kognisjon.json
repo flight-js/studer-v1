@@ -90,10 +90,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på sansning og persepsjon?",
       "options": [
-        "Det er det samme",
-        "Sansning fanger opp stimuli, persepsjon tolker dem",
-        "Persepsjon skjer i øyet",
-        "Sansning er bare syn"
+        "Sansning tolker stimuli, mens persepsjon fanger dem opp.",
+        "Sansning fanger opp stimuli, mens persepsjon tolker dem.",
+        "Sansning lagrer stimuli, mens persepsjon henter dem fram.",
+        "Sansning vurderer stimuli, mens persepsjon registrerer dem."
       ],
       "correct": 1,
       "explain": "Persepsjonen er det vi opplever."
@@ -104,20 +104,20 @@
       "options": [
         "Tappene",
         "Stavene",
-        "Trommehinnen",
-        "Øresneglen"
+        "Bipolarcellene",
+        "Synsnervene"
       ],
       "correct": 0,
-      "explain": "Stavene gir mørkesyn."
+      "explain": "Tappene registrerer farger, mens stavene er mest følsomme i svakt lys."
     },
     {
       "id": "q03",
       "text": "Du leser lett et ord med feilstaving. Hvilken prosess er dette?",
       "options": [
+        "Bottom-up-bearbeiding",
         "Sensorisk adaptasjon",
-        "Bottom-up",
         "Top-down",
-        "Uoppmerksomhetsblindhet"
+        "Endringsblindhet"
       ],
       "correct": 2,
       "explain": "Forventninger fyller inn."
@@ -126,9 +126,9 @@
       "id": "q04",
       "text": "Hva sier gestaltlovene?",
       "options": [
-        "At vi ser løse deler",
-        "At synet er perfekt",
-        "At bare farger betyr noe",
+        "At vi oppfatter enkeltdeler hver for seg før vi ser helheten.",
+        "At vi grupperer ting etter ulikhet og avstand, ikke etter likhet og nærhet.",
+        "At vi forstår helheter ved å undersøke hver del bevisst først.",
         "At vi ser helheter og grupperer det som er nært og likt"
       ],
       "correct": 3,
@@ -139,9 +139,9 @@
       "text": "Mange overså en gorilla mens de talte pasninger. Hva kalles dette?",
       "options": [
         "Uoppmerksomhetsblindhet",
+        "Endringsblindhet",
         "Sensorisk adaptasjon",
-        "Forankring",
-        "Top-down"
+        "Forankring"
       ],
       "correct": 0,
       "explain": "Oppmerksomheten var et annet sted."
@@ -150,10 +150,10 @@
       "id": "q06",
       "text": "Hva kjennetegner system 1 ifølge Kahneman?",
       "options": [
-        "Langsom og bevisst",
+        "Langsom, bevisst og analytisk",
         "Rask, automatisk og intuitiv",
-        "Bare brukt i matematikk",
-        "Uten feil"
+        "Rask, bevisst og kontrollert",
+        "Langsom, automatisk og intuitiv"
       ],
       "correct": 1,
       "explain": "System 2 er langsom og bevisst."
@@ -162,10 +162,10 @@
       "id": "q07",
       "text": "Hva er bekreftelsesfellen?",
       "options": [
-        "Å bekrefte avtaler",
-        "Å huske for mye",
+        "Å stole mest på det første tallet man hører",
+        "Å forklare andres handlinger med situasjonen framfor personligheten",
         "Å lete etter informasjon som bekrefter det man tror",
-        "Å overse navnet sitt"
+        "Å huske informasjon som nylig ble gjentatt"
       ],
       "correct": 2,
       "explain": "En vanlig kognitiv skjevhet."
@@ -174,8 +174,8 @@
       "id": "q08",
       "text": "Noen tror flyulykker er vanlige fordi de ofte er i nyhetene. Hvilken skjevhet er dette?",
       "options": [
-        "Forankring",
-        "Selvtjenende skjevhet",
+        "Forankringsheuristikken",
+        "Bekreftelsesfellen",
         "Fundamental attribusjonsfeil",
         "Tilgjengelighetsheuristikken"
       ],
@@ -187,9 +187,9 @@
       "text": "Hva er et skjema i kognitiv psykologi?",
       "options": [
         "En mental mal for hvordan ting pleier å være",
-        "Et spørreskjema",
-        "En del av øyet",
-        "En timeplan"
+        "En oversikt over spørsmål som brukes til å samle inn svar",
+        "En plan for rekkefølgen av aktiviteter gjennom dagen",
+        "En mental prosess som lagrer sanseinntrykk uten å tolke dem"
       ],
       "correct": 0,
       "explain": "Hjelper oss å tolke nye situasjoner."
@@ -198,10 +198,10 @@
       "id": "q10",
       "text": "Hva er den fundamentale attribusjonsfeilen?",
       "options": [
-        "Å forklare egne feil med uflaks",
+        "Å overvurdere situasjonen og undervurdere personlighet hos andre",
         "Å overvurdere personlighet og undervurdere situasjonen hos andre",
-        "Å glemme navn",
-        "Å se synsbedrag"
+        "Å forklare egne feil med ytre forhold og egne suksesser med evner",
+        "Å forklare andres feil med situasjonen og deres suksess med personlighet"
       ],
       "correct": 1,
       "explain": "Vi tror for lett at andres atferd skyldes hvem de er.",
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva er cocktailselskap-effekten?",
         "options": [
-          "At vi blir trøtte på fest",
+          "At vi venner oss til gjentatte bakgrunnslyder mens en samtale pågår",
           "At vi reagerer på navnet vårt selv om vi ikke følger med",
-          "At vi husker alt fra en fest",
-          "At vi hører dårligere i støy"
+          "At vi husker samtaler bedre når de foregår i et kjent rom",
+          "At vi oppfatter tale tydeligere når flere snakker samtidig"
         ],
         "correct": 1,
         "explain": "Viser at vi bearbeider noe av det vi ikke fokuserer på.",
@@ -344,9 +344,9 @@
         "text": "Hva er selvtjenende skjevhet?",
         "options": [
           "Å ta æren for suksess og skylde på ytre forhold ved feil",
-          "Å hjelpe andre",
-          "Å tenke langsomt",
-          "Å stole på eksperter"
+          "Å ta æren for andres suksess og skylde egne feil på andre",
+          "Å forklare suksess med flaks og feil med egne evner",
+          "Å ta ansvar for egne feil og gi andre æren for egen suksess"
         ],
         "correct": 0,
         "explain": "Beskytter selvbildet.",
@@ -357,10 +357,10 @@
         "type": "flervalg",
         "text": "Hva er forankring?",
         "options": [
-          "At vi husker det siste vi hørte",
-          "At vi stoler på venner",
+          "At det siste tallet vi hører påvirker vurderingen mest",
+          "At en kjent persons mening påvirker vurderingen av et tall",
           "At det første tallet vi hører påvirker vurderingen",
-          "At vi ser dybde"
+          "At vi vurderer et tall ut fra hvor lett lignende tall er å huske"
         ],
         "correct": 2,
         "explain": "Brukes ofte i prisforhandlinger.",
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

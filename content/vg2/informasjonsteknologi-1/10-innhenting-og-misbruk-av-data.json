@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er profilering?",
       "options": [
-        "Å lage en profil på sosiale medier",
-        "At algoritmer lager en profil av en person ut fra data",
-        "Å velge profilbilde",
-        "Å slette data"
+        "En bruker lager en profil på et sosialt medium med personopplysninger",
+        "Algoritmer lager en profil av en person ut fra data",
+        "En nettside velger et profilbilde ut fra personens søkehistorikk",
+        "Et selskap sletter personopplysninger etter at de er samlet inn"
       ],
       "correct": 1,
       "explain": "Brukes blant annet til målrettet reklame."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva handlet Cambridge Analytica-saken om?",
       "options": [
-        "Data fra millioner av Facebook-brukere brukt til politisk målretting uten deres viten",
-        "En ny app for studenter",
-        "Et virus i en bank",
-        "En konkurranse i programmering"
+        "Data fra millioner av Facebook-brukere ble brukt til politisk målretting uten at de visste det",
+        "Data fra millioner av Twitter-brukere ble brukt til politisk målretting uten at de visste det",
+        "Data fra millioner av Facebook-brukere ble brukt til kommersiell reklame med brukernes samtykke",
+        "Data fra millioner av Facebook-brukere ble brukt til teknisk testing av nettsider etter at de samtykket"
       ],
       "correct": 0,
       "explain": "Avslørt i 2018.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva er forskjellen på anonymiserte og pseudonymiserte data?",
       "options": [
-        "Det er det samme",
-        "Pseudonymiserte data er slettet",
-        "Anonymiserte data kan ikke knyttes til en person, pseudonymiserte kan kobles tilbake",
-        "Anonymiserte data inneholder navn"
+        "Anonymiserte data kan kobles tilbake; pseudonymiserte data kan ikke knyttes til personer",
+        "Begge datatypene kan kobles tilbake til personer ved hjelp av en kode",
+        "Anonymiserte data kan ikke knyttes til personer; pseudonymiserte data kan kobles tilbake",
+        "Begge datatypene kan ikke knyttes til personer etter at navnene er fjernet"
       ],
       "correct": 2,
       "explain": "Pseudonymisering bytter navn med kode.",
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hvordan kan algoritmer føre til diskriminering?",
       "options": [
-        "De er alltid rettferdige",
-        "De bruker ikke data",
-        "De velger tilfeldig",
+        "De kan forsterke skjevheter fordi algoritmene velger svar helt tilfeldig",
+        "De kan forsterke skjevheter fordi algoritmene ikke bruker data om mennesker",
+        "De kan forsterke skjevheter fordi dataene slettes før algoritmen behandler dem",
         "De kan forsterke skjevheter i dataene de er trent på"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Hva er en nedkjølingseffekt?",
       "options": [
         "At folk ytrer seg mindre fritt fordi de føler seg overvåket",
-        "At datamaskiner blir kalde",
-        "At salget går ned",
-        "At data slettes"
+        "At folk ytrer seg mindre fritt fordi innleggene deres blir automatisk slettet",
+        "At folk ytrer seg mer fritt fordi de føler seg overvåket",
+        "At folk deler færre meninger fordi internettforbindelsen deres er treg"
       ],
       "correct": 0,
       "explain": "Et demokratisk problem.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hvilket er et eksempel på nyttig bruk av store datamengder?",
       "options": [
-        "Identitetstyveri",
+        "Politisk påvirkning basert på velgerprofiler",
         "Helseforskning basert på helseregistre",
-        "Manipulasjon av velgere",
-        "Salg av passord"
+        "Identitetstyveri ved bruk av personopplysninger",
+        "Salg av passord samlet inn fra brukere"
       ],
       "correct": 1,
       "explain": "Gir ny kunnskap om sykdommer.",
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hvorfor kan «anonyme» data noen ganger knyttes til personer igjen?",
       "options": [
-        "Fordi de er krypterte",
-        "Fordi de er slettet",
+        "Fordi kryptering gjør at flere opplysninger kombinert kan peke ut én person",
+        "Fordi sletting av navn gjør at flere opplysninger kombinert kan peke ut én person",
         "Fordi flere opplysninger kombinert kan peke ut én person",
-        "Det kan aldri skje"
+        "Fordi en personkode alltid beholdes når dataene anonymiseres"
       ],
       "correct": 2,
       "explain": "For eksempel postnummer, fødselsdato og kjønn.",
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hva gjør en datamegler?",
       "options": [
-        "Reparerer datamaskiner",
-        "Selger programvare",
-        "Lager nettsider",
+        "Kjøper, samler og selger programvare til privatpersoner",
+        "Reparerer, oppgraderer og selger datamaskiner til bedrifter",
+        "Samler, sorterer og selger bilder til ulike nettsider",
         "Kjøper, samler og selger opplysninger om personer"
       ],
       "correct": 3,
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hva kan du gjøre som bruker for å begrense datainnsamlingen?",
       "options": [
-        "Avslå unødvendige informasjonskapsler og sjekke app-tillatelser",
-        "Dele mer på sosiale medier",
-        "Bruke samme passord overalt",
-        "Godta alt raskt"
+        "Avslå unødvendige informasjonskapsler og sjekke apptillatelser",
+        "Godta informasjonskapsler og gi apper flere tillatelser",
+        "Dele mer informasjon på sosiale medier og fylle ut profiler",
+        "Bruke samme passord på apper og la personverninnstillingene stå urørt"
       ],
       "correct": 0,
       "explain": "Tenk før du deler."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva bør du vurdere når du drøfter om skolen skal forutsi hvem som kan stryke?",
       "options": [
-        "Bare hvor billig det er",
+        "Skjermdesign, fargevalg, serverplassering og programvaremerke",
         "Nytte, risiko, tilgang og mindre inngripende alternativer",
-        "Bare hva teknologien kan",
-        "Bare hva lærerne mener"
+        "Lagringsplass, skjermstørrelse, nettverkshastighet og datamaskinmerke",
+        "Utviklingstid, tastaturtype, kontorplassering og skjermoppløsning"
       ],
       "correct": 1,
       "explain": "Flere perspektiver må veies."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hvilken type data er puls fra en smartklokke?",
         "options": [
-          "Data du oppgir selv",
+          "Brukeroppgitte data",
           "Sensordata",
-          "Teknisk informasjon om nettleseren",
-          "Offentlige data"
+          "Nettleserdata",
+          "Offentlige registerdata"
         ],
         "correct": 1,
         "explain": "Registreres automatisk av en sensor."
@@ -343,9 +343,9 @@
         "text": "Hva bør en utvikler gjøre for å hindre misbruk av data?",
         "options": [
           "Samle inn minst mulig og sikre dataene",
-          "Selge dataene",
-          "Lagre alt for sikkerhets skyld",
-          "Skjule hva som samles inn"
+          "Samle inn mest mulig og dele dataene med samarbeidspartnere",
+          "Lagre dataene lenge og gi tilgang til flere ansatte",
+          "Skjule formålet med innsamlingen og bruke dataene videre"
         ],
         "correct": 0,
         "explain": "Dataminimering og sikkerhet."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hva er en sporingspiksel?",
         "options": [
-          "En type skjerm",
-          "En pikselfeil",
+          "Et synlig element som registrerer at du har åpnet en side eller e-post",
+          "Et usynlig element som lagrer innholdet på en side eller i en e-post",
           "Et usynlig element som registrerer at du har åpnet en side eller e-post",
-          "En lagringsenhet"
+          "Et usynlig element som registrerer tastetrykk mens du skriver på en side"
         ],
         "correct": 2,
         "explain": "Brukes til sporing og statistikk.",
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

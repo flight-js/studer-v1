@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva måler en CTD-sonde?",
       "options": [
-        "Vindfart",
+        "Saltholdighet, temperatur og bølgehøyde",
         "Saltholdighet, temperatur og dybde",
-        "Snødybde",
-        "Lufttrykk"
+        "Vanntemperatur, bølgehøyde og siktedyp",
+        "Saltholdighet, bølgehøyde og siktedyp"
       ],
       "correct": 1,
       "explain": "Brukes i havet."
@@ -90,9 +90,9 @@
       "text": "Hva viser en secchiskive?",
       "options": [
         "Siktedypet i vannet",
-        "Saltholdigheten",
-        "Strømfarten",
-        "Temperaturen"
+        "Mengden plankton i vannet",
+        "Saltholdigheten i vannet",
+        "Temperaturen i vannet"
       ],
       "correct": 0,
       "explain": "Sier noe om plankton og partikler."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor bør temperaturen i lufta måles i skygge?",
       "options": [
-        "For å spare batteri",
-        "Fordi det er mer behagelig",
+        "Fordi skyggen beskytter måleren mot nedbør",
+        "Fordi skyggen gjør lufta mindre fuktig",
         "Fordi direkte sol gir for høye verdier",
-        "Fordi det er lovpålagt"
+        "Fordi sollyset gjør måleren vanskelig å avlese"
       ],
       "correct": 2,
       "explain": "En vanlig feilkilde."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva kan en snøprofil avsløre?",
       "options": [
-        "Havtemperatur",
-        "Vindretning",
-        "Lufttrykk",
-        "Svake lag som kan gi snøskredfare"
+        "Snølag som viser saltholdigheten i havet",
+        "Snølag som viser temperaturen i fjorden",
+        "Snølag som viser lufttrykket over breen",
+        "Svake snølag som kan øke skredfaren"
       ],
       "correct": 3,
       "explain": "Lagene undersøkes."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva måler et anemometer?",
       "options": [
-        "Vindfart",
-        "Luftfuktighet",
-        "Nedbør",
-        "Lufttrykk"
+        "Vindens fart",
+        "Vindens retning",
+        "Luftens fuktighet",
+        "Nedbørens mengde"
       ],
       "correct": 0,
       "explain": "Vindretning måles med vindfløy."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er en feilkilde?",
       "options": [
-        "Et resultat",
-        "Forhold som kan gi feil i målingene",
-        "En hypotese",
-        "En graf"
+        "Et resultat som oppsummerer flere målinger",
+        "Forhold som kan gi feil i målinger",
+        "En hypotese som forklarer et måleresultat",
+        "En graf som viser utvikling i målinger"
       ],
       "correct": 1,
       "explain": "Må drøftes i rapporten."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvordan kan du øke påliteligheten i feltarbeidet?",
       "options": [
-        "Gjøre færre målinger",
-        "Unngå å kalibrere",
+        "Gjøre færre målinger og bruke bare egne observasjoner",
+        "Bytte målemetode underveis uten å notere endringene",
         "Gjenta målinger og sammenligne med offisielle data",
-        "Bare måle én gang"
+        "Måle én gang og sammenligne med egne forventninger"
       ],
       "correct": 2,
       "explain": "For eksempel fra Meteorologisk institutt."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva viser lagdeling i en fjord?",
       "options": [
-        "At alt vannet er likt",
-        "At vannet er ferskest i dypet",
-        "At dypvannet er varmest alltid",
+        "Tungt overflatevann over lett, salt dypvann",
+        "Lett salt overflatevann over tungt ferskvann",
+        "Lett overflatevann over tungt, ferskt dypvann",
         "Lett overflatevann over tungt, salt dypvann"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva bør en feltrapport inneholde?",
       "options": [
         "Problemstilling, metode, resultater, drøfting og konklusjon",
-        "Bare en tabell",
-        "Bare bilder",
-        "Bare en konklusjon"
+        "Forside, innholdsfortegnelse, bilder, vedlegg og kildeliste",
+        "Problemstilling, hypotese, utstyr, bilder og kilder",
+        "Metode, måleresultater, kart, tabeller og vedlegg"
       ],
       "correct": 0,
       "explain": "En fast struktur."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er en byvarmeøy?",
       "options": [
-        "En øy med mye sol",
-        "At byer er varmere enn omgivelsene",
-        "En isbre",
-        "En varm havstrøm"
+        "At byområder har lavere temperatur enn omgivelsene",
+        "At byområder har høyere temperatur enn omgivelsene",
+        "At byområder har høyere luftfuktighet enn omgivelsene",
+        "At byområder har sterkere vind enn omgivelsene"
       ],
       "correct": 1,
       "explain": "Kan undersøkes med temperaturmålinger.",
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvordan kan du måle breens bevegelse?",
         "options": [
-          "Med secchiskive",
-          "Med staker eller GPS",
-          "Med barometer",
-          "Med hygrometer"
+          "Med målinger av snødybde og bretykkelse",
+          "Med staker eller GPS-posisjoner",
+          "Med målinger av smelting og bretemperatur",
+          "Med målinger av breareal og snødekke"
         ],
         "correct": 1,
         "explain": "Posisjonen måles over tid.",
@@ -325,9 +325,9 @@
         "text": "Hva kan vannprøver analyseres for?",
         "options": [
           "Oksygen, næringssalter og pH",
-          "Vindfart",
-          "Lufttrykk",
-          "Snødybde"
+          "Vindfart, lufttrykk og skydekke",
+          "Snødybde, vindretning og lufttrykk",
+          "Skyhøyde, luftfuktighet og vindretning"
         ],
         "correct": 0,
         "explain": "Sier noe om vannkvaliteten.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva gjør du i drøftingsdelen av en rapport?",
         "options": [
-          "Lister opp utstyret",
-          "Skriver problemstillingen",
-          "Kobler resultater til teori og vurderer feilkilder",
-          "Viser bare tabeller"
+          "Lister opp utstyret og beskriver hvordan det ble brukt",
+          "Gjengir problemstillingen og forklarer hvorfor temaet er viktig",
+          "Kobler resultatene til teori og vurderer feilkilder",
+          "Presenterer resultatene i tabeller uten å tolke dem"
         ],
         "correct": 2,
         "explain": "Stemmer hypotesen?"
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

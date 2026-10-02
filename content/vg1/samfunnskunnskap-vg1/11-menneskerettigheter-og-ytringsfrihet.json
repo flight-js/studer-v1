@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Når ble Verdenserklæringen om menneskerettigheter vedtatt?",
       "options": [
-        "1814",
-        "1948",
         "1989",
-        "2014"
+        "1948",
+        "1950",
+        "1966"
       ],
       "correct": 1,
       "explain": "Den ble vedtatt etter andre verdenskrig."
@@ -94,21 +94,21 @@
       "text": "Hvilken paragraf i Grunnloven verner ytringsfriheten?",
       "options": [
         "§ 100",
-        "§ 185",
-        "§ 108",
-        "§ 1"
+        "§ 98",
+        "§ 102",
+        "§ 108"
       ],
       "correct": 0,
-      "explain": "Straffeloven § 185 forbyr grove hatefulle ytringer."
+      "explain": "Grunnloven § 100 verner ytringsfriheten, mens straffeloven § 185 rammer grove hatefulle ytringer."
     },
     {
       "id": "q03",
       "text": "Hva er strukturell rasisme?",
       "options": [
-        "Rasisme i bygninger",
-        "En enkelt persons fordommer",
+        "Når enkeltpersoner har fordommer mot mennesker fra andre grupper",
+        "Når rasistiske handlinger skjer mellom enkeltpersoner i hverdagen",
         "Når regler og praksis gir dårligere muligheter for noen grupper",
-        "Rasisme i historiebøker"
+        "Når historiebøker beskriver rasisme fra tidligere tider"
       ],
       "correct": 2,
       "explain": "Det kan skje uten at noen har ment det slik."
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hvor avgjøres saker om brudd på EMK?",
       "options": [
-        "I Den europeiske menneskerettsdomstolen i Strasbourg",
-        "I FNs sikkerhetsråd",
-        "I Stortinget",
-        "I Høyesterett i USA"
+        "Den europeiske menneskerettsdomstolen i Strasbourg",
+        "Den europeiske unionens domstol i Luxembourg",
+        "FNs menneskerettighetsråd i Genève",
+        "Den internasjonale domstolen i Haag"
       ],
       "correct": 0,
       "explain": "Norge har blitt dømt der, blant annet i barnevernssaker.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Er det lov å si ting som er ubehagelige eller provoserende i Norge?",
       "options": [
-        "Nei, aldri",
-        "Ja, ytringsfriheten gjelder også slike ytringer, men ikke trusler og grove hatytringer",
-        "Bare for politikere",
-        "Bare på papir"
+        "Nei, norsk lov forbyr ubehagelige eller provoserende ytringer også når de ikke truer eller hetser noen.",
+        "Ja, også ubehagelige og provoserende ytringer er vernet, men trusler og grove hatytringer er ikke det.",
+        "Ja, norsk lov regner ubehagelige og provoserende meninger som ulovlige selv uten trusler eller hets.",
+        "Ja, ytringsfriheten verner ubehagelige meninger, og grove hatytringer regnes også som lovlige ytringer."
       ],
       "correct": 1,
       "explain": "Ytringsfriheten har grenser, men de er snevre."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva er et eksempel på diskriminering i arbeidslivet?",
       "options": [
-        "At alle får samme lønn",
-        "At man må ha utdanning til en jobb",
+        "At søkere med relevant erfaring oftere blir invitert til intervju",
+        "At arbeidsgiver vurderer søkere ut fra utdanningen som jobben krever",
         "At søkere med utenlandsk navn blir kalt inn til færre intervjuer",
-        "At det er intervjuer"
+        "At alle søkere får de samme spørsmålene under jobbintervjuet"
       ],
       "correct": 2,
       "explain": "Forskning har vist slik diskriminering."
@@ -166,13 +166,13 @@
       "id": "q08",
       "text": "Hvilket argument brukes for strengere grenser mot hatefulle ytringer?",
       "options": [
-        "Alle ytringer er like viktige",
-        "Motargumenter er alltid nok",
-        "Straff er alltid feil",
-        "Hets kan skremme folk fra å delta i debatten"
+        "Ytringsfriheten bør veie tyngre enn hensynet til dem som rammes av hets",
+        "De som blir utsatt for hets, kan svare med motargumenter i debatten",
+        "Straff for hatefulle ytringer kan gjøre politiske diskusjoner mindre åpne",
+        "Hets kan skremme enkelte fra å delta aktivt i den offentlige debatten"
       ],
       "correct": 3,
-      "explain": "Andre mener hat bør møtes med motargumenter."
+      "explain": "Noen mener hatefulle ytringer bør møtes med motargumenter, mens andre peker på at hets kan skremme folk fra debatten."
     },
     {
       "id": "q09",
@@ -181,7 +181,7 @@
         "1989",
         "1948",
         "1950",
-        "2014"
+        "1966"
       ],
       "correct": 0,
       "explain": "Den gir barn egne rettigheter.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket tiltak kan motvirke diskriminering ved ansettelser?",
       "options": [
-        "Å kreve bilde i søknaden",
-        "Anonymiserte jobbsøknader",
-        "Å spørre om religion",
-        "Å bare ansette bekjente"
+        "Fotografier ved søknad om jobb",
+        "Anonymiserte søknader i ansettelsesprosessen",
+        "Religionsspørsmål i jobbintervjuet",
+        "Rekruttering via private bekjentskaper"
       ],
       "correct": 1,
       "explain": "Da vurderes søkeren ut fra kompetanse.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva kan være en årsak til rasisme?",
         "options": [
-          "Kunnskap om andre kulturer",
+          "Kunnskap om andre kulturer som motvirker fordommer",
           "Fordommer og «vi og dem»-tenkning",
-          "Møter mellom mennesker",
-          "Lover mot diskriminering"
+          "Møter mellom mennesker som bygger forståelse",
+          "Lover som beskytter grupper mot diskriminering"
         ],
         "correct": 1,
         "explain": "De andre alternativene motvirker rasisme."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hvorfor er ytringsfriheten viktig i et demokrati?",
         "options": [
-          "Fordi den gir rett til å true andre",
-          "Fordi den gjør alle enige",
+          "Fordi den gir folk rett til å true andre uten følger",
+          "Fordi den bidrar til at innbyggerne blir enige om politiske saker",
           "Fordi den gjør det mulig å kritisere makthavere og diskutere fritt",
-          "Fordi den forbyr kritikk"
+          "Fordi den hindrer folk i å kritisere myndighetenes beslutninger"
         ],
         "correct": 2,
         "explain": "Ytringsfriheten er en grunnpilar i demokratiet."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

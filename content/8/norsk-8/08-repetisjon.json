@@ -122,10 +122,10 @@
       "id": "q01",
       "text": "Hvorfor er det lurt å aktivere forkunnskaper før du leser?",
       "options": [
-        "Fordi du slipper å lese hele teksten",
-        "Fordi det gjør teksten kortere",
-        "Fordi ny kunnskap blir lettere å forstå og huske når den kobles til det du kan",
-        "Fordi læreren krever det"
+        "Fordi du kan gjette tekstens innhold uten å undersøke nye opplysninger nærmere",
+        "Fordi du kan hoppe over ukjente deler når du kjenner temaet fra før",
+        "Fordi du lettere forstår og husker ny kunnskap når den kobles til noe kjent",
+        "Fordi du finner svarene på spørsmålene før du begynner å lese teksten grundig"
       ],
       "correct": 2,
       "explain": "Hjernen husker bedre når ny informasjon kan knyttes til noe den allerede kjenner."
@@ -134,10 +134,10 @@
       "id": "q02",
       "text": "Du har lest en side, men husker ingenting. Hva er et godt tiltak?",
       "options": [
-        "Lese videre raskere",
+        "Lese hvert avsnitt på nytt uten å stoppe opp",
         "Stoppe og oppsummere hvert avsnitt med egne ord",
-        "Hoppe over kapittelet",
-        "Lese siden baklengs"
+        "Markere alle setningene før du går videre",
+        "Hoppe over avsnittene som virker vanskelige"
       ],
       "correct": 1,
       "explain": "Å oppsummere avsnitt for avsnitt tvinger deg til å bearbeide innholdet, og du merker med en gang hva du ikke har forstått."
@@ -146,10 +146,10 @@
       "id": "q03",
       "text": "Hva betyr «in medias res»?",
       "options": [
-        "At teksten slutter brått",
-        "At teksten har en moral",
+        "At fortellingen slutter før konflikten blir løst",
+        "At fortellingen gir teksten en tydelig moral",
         "At fortellingen starter midt i handlingen",
-        "At fortelleren er allvitende"
+        "At fortelleren kjenner tankene til alle personene"
       ],
       "correct": 2,
       "explain": "Uttrykket er latin og betyr «midt i tingene». Leseren kastes rett inn i handlingen."
@@ -158,10 +158,10 @@
       "id": "q04",
       "text": "Hva er forskjellen på tema og budskap?",
       "options": [
-        "Tema er hva teksten handler om, budskap er hva den vil si om det",
-        "De betyr det samme",
-        "Tema er handlingen, budskap er slutten",
-        "Budskap er tittelen"
+        "Temaet er tekstens emne, mens budskapet er det teksten vil si om det",
+        "Temaet er handlingen, mens budskapet er hvordan teksten slutter",
+        "Temaet er det teksten vil si, mens budskapet er emnet den handler om",
+        "Temaet er tekstens tittel, mens budskapet er personenes viktigste mål"
       ],
       "correct": 0,
       "explain": "Temaet kan være vennskap. Budskapet kan være at ekte vennskap tåler uenighet."
@@ -171,9 +171,9 @@
       "text": "Hvordan er en nyhetsartikkel bygd opp?",
       "options": [
         "Det viktigste kommer først",
-        "Det viktigste kommer til slutt",
-        "Den starter alltid med et sitat",
-        "Den har spenningskurve med klimaks"
+        "Bakgrunnen kommer først",
+        "Journalistens mening kommer først",
+        "Detaljene kommer før hovedsaken"
       ],
       "correct": 0,
       "explain": "Nyhetstrekanten gjør at leseren får hovedsaken med én gang, og kan lese videre for detaljer."
@@ -182,9 +182,9 @@
       "id": "q06",
       "text": "Hvilket utsagn er en mening og ikke et faktum?",
       "options": [
-        "Oslo er hovedstaden i Norge",
+        "Oslo er Norges hovedstad",
         "Skoledagen bør starte klokka ni",
-        "Vann koker ved 100 °C ved normalt lufttrykk",
+        "Vann koker ved 100 °C",
         "Norge har over fem millioner innbyggere"
       ],
       "correct": 1,
@@ -196,7 +196,7 @@
       "options": [
         "kaster",
         "kastet",
-        "har kastet",
+        "kaste",
         "kast"
       ],
       "correct": 1,
@@ -207,9 +207,9 @@
       "text": "Hvilket ord er en subjunksjon?",
       "options": [
         "fordi",
-        "og",
+        "men",
         "på",
-        "fort"
+        "ganske"
       ],
       "correct": 0,
       "explain": "«Fordi» innleder en leddsetning: … fordi det regnet. «Og» er konjunksjon."
@@ -218,13 +218,13 @@
       "id": "q09",
       "text": "Hvilken setning er riktig?",
       "options": [
-        "Jeg liker og svømme.",
-        "Jeg liker å svømme.",
-        "Jeg liker og å svømme.",
-        "Jeg liker svømme."
+        "Jeg snakket med de i går.",
+        "Jeg snakket med vi i går.",
+        "Jeg snakket med dem i går.",
+        "Jeg snakket med deres i går."
       ],
-      "correct": 1,
-      "explain": "«Svømme» er et verb i infinitiv, og da skal det stå «å» foran."
+      "correct": 2,
+      "explain": "Etter preposisjonen «med» skal det være objektsformen «dem». Test: med oss, ikke med vi."
     },
     {
       "id": "q10",
@@ -233,7 +233,7 @@
         "Etter «Når»",
         "Etter «hjem»",
         "Etter «vi»",
-        "Det skal ikke være komma"
+        "Etter «skal»"
       ],
       "correct": 1,
       "explain": "Leddsetningen «Når vi kommer hjem» står først, og da skal det være komma etter den."
@@ -242,9 +242,9 @@
       "id": "q11",
       "text": "Bildet viser et øsende regnvær, mens teksten sier «Perfekt dag for piknik!». Hvordan spiller bilde og tekst sammen?",
       "options": [
-        "De forsterker hverandre",
-        "De utfyller hverandre",
-        "De er like",
+        "De gjentar hverandre og gjør budskapet tydeligere",
+        "De utfyller hverandre og gir mer informasjon",
+        "De støtter samme stemning og budskap",
         "De står i kontrast og skaper ironi"
       ],
       "correct": 3,
@@ -255,8 +255,8 @@
       "text": "Hva er et godt råd når du lager en lysbildepresentasjon?",
       "options": [
         "Skriv hele manuset på lysbildene",
-        "Bruk så mange skrifttyper som mulig",
-        "Unngå bilder",
+        "Fyll lysbildene med lange tekstblokker",
+        "La lysbildene erstatte forklaringen din",
         "Bruk lite tekst og bilder som støtter det du sier"
       ],
       "correct": 3,
@@ -269,7 +269,7 @@
         "gutene",
         "gutar",
         "gutane",
-        "gutter"
+        "guten"
       ],
       "correct": 2,
       "explain": "Hankjønn: ein gut – guten – gutar – gutane."
@@ -428,7 +428,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -452,9 +452,9 @@
         "text": "Hva er viktig å vurdere når du leser sakprosa?",
         "options": [
           "Hvem som står bak teksten",
-          "Hvilket rim diktet har",
-          "Hvem hovedpersonen er forelsket i",
-          "Hvilken farge omslaget har"
+          "Hvilke personer teksten omtaler",
+          "Hvilke steder teksten beskriver",
+          "Hvilke tall teksten presenterer"
         ],
         "correct": 0,
         "explain": "I sakprosa må du vurdere avsenderen og om teksten skiller fakta fra meninger."
@@ -567,12 +567,86 @@
           "Skiller riktig mellom sakprosa og skjønnlitteratur.",
           "Nevner en riktig forskjell i oppbygning."
         ]
+      },
+      {
+        "text": "Du skal finne åpningstidene til skolebiblioteket på en nettside med mange avsnitt, bilder og mellomtitler. Hvordan kan du bruke nettsidens oppsett og søkelesing for å finne opplysningene raskt?",
+        "fasit": "Jeg kan se etter en mellomtittel som handler om biblioteket eller åpningstider, og søkelese etter bestemte klokkeslett eller ukedager. Mellomtitler og plasseringen av informasjonen hjelper meg å finne fram på nettsiden.",
+        "kriterier": [
+          "Nevner søkelesing for å finne bestemte opplysninger.",
+          "Knytter nettsidens mellomtitler eller oppsett til det å finne fram."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "I en novelle forteller jeg-personen: «Mina la den eneste tørre votten i sekken min. Så gikk hun ut i snøen uten sine egne.» Hva kan handlingen fortelle om Mina, og hva får leseren ikke vite direkte fordi fortelleren bruker jeg-synsvinkel?",
+        "fasit": "Handlingen kan tyde på at Mina er omsorgsfull, fordi hun gir bort den tørre votten. Siden jeg-fortelleren forteller, får vi vite hva denne personen ser og tenker, men ikke direkte hva Mina selv tenker.",
+        "kriterier": [
+          "Tolker handlingen som et tegn på en egenskap hos Mina.",
+          "Forklarer at jeg-synsvinkelen begrenser leseren til fortellerens perspektiv."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En reportasje om en brann starter med en beskrivelse av en familie som løper ut av huset. Forklar hvordan reportasjen kan bruke en slik scene og likevel være sakprosa. Nevn også én ting leseren kan undersøke for å vurdere om opplysningene er til å stole på.",
+        "fasit": "Reportasjen kan bruke en scene for å ta leseren med til hendelsen, men den handler fortsatt om virkeligheten og skal gi pålitelige opplysninger. Leseren kan undersøke hvem som står bak teksten, og skille mellom opplysninger som kan sjekkes og personlige meninger.",
+        "kriterier": [
+          "Forklarer at reportasjen handler om virkeligheten selv om den bruker fortellergrep.",
+          "Nevner å vurdere hvem som står bak, eller å skille fakta fra meninger."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En reklame viser en person på en fjelltopp ved siden av teksten «Du blir ustoppelig» og en logo for en sportsdrikk. Forklar hvordan bilde og tekst kan påvirke følelsene til leseren, og hvorfor slagordet ikke nødvendigvis er et faktum.",
+        "fasit": "Bildet av personen på toppen og slagordet kan gi en følelse av styrke og mestring. Det er patos fordi reklamen prøver å påvirke følelsene, og «Du blir ustoppelig» er et slagord, ikke en opplysning som nødvendigvis kan bevises.",
+        "kriterier": [
+          "Forklarer hvordan bilde og tekst kan skape en følelse eller bruke patos.",
+          "Skiller slagordet fra et faktum som kan sjekkes."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Se på ordet «kastet» i disse setningene: «Kastet var langt.» og «Hun kastet ballen.» Hvilken ordklasse tilhører ordet i hver setning, og hva i setningene hjelper deg å avgjøre det?",
+        "fasit": "I «Kastet var langt» er «kastet» et substantiv, fordi det er noe som var langt. I «Hun kastet ballen» er «kastet» et verb, fordi det forteller hva hun gjorde.",
+        "kriterier": [
+          "Identifiserer «kastet» som substantiv i den første setningen.",
+          "Identifiserer «kastet» som verb i den andre og knytter det til handlingen."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Skriv setningen riktig: «På mandag besøkte vi ungdoms skole i bergen.» Forklar kort hvilke rettskrivingsregler du brukte.",
+        "fasit": "På mandag besøkte vi ungdomsskole i Bergen. «Ungdomsskole» er et sammensatt ord og skal skrives i ett ord. «Bergen» er et egennavn og skal ha stor forbokstav.",
+        "kriterier": [
+          "Skriver «ungdomsskole» i ett ord.",
+          "Skriver «Bergen» med stor forbokstav."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Skriv substantivene «ein gut», «ei jente» og «eit hus» i bestemt form flertall på nynorsk.",
+        "fasit": "Gutane, jentene og husa.",
+        "kriterier": [
+          "Skriver hankjønnsformen «gutane».",
+          "Skriver hokjønnsformen «jentene».",
+          "Skriver inkjekjønnsformen «husa»."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "På nynorsk bøyes det sterke verbet slik: «å skrive – skriv – skreiv – har skrive». Forklar hva som skjer med verbet i de ulike formene, og hvilken form som viser fortid.",
+        "fasit": "«Å skrive» er infinitiv, «skriv» er presens, «skreiv» er preteritum, og «har skrive» er presens perfektum. Vokalen skifter i fortidsformen «skreiv».",
+        "kriterier": [
+          "Kjenner igjen «skreiv» som preteritum og «skriv» som presens.",
+          "Viser at verbet bøyes i ulike tider og at vokalen skifter i fortidsformen."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

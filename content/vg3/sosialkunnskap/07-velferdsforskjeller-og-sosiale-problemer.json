@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er den sosiale gradienten i helse?",
       "options": [
-        "At bare de fattigste har dårlig helse",
+        "At helsen i gjennomsnitt blir dårligere for hvert trinn opp på inntekts- og utdanningsstigen",
         "At helsen i gjennomsnitt blir bedre for hvert trinn opp på inntekts- og utdanningsstigen",
-        "At alle har like god helse",
-        "At rike har dårligst helse"
+        "At helsen i gjennomsnitt er omtrent lik på alle trinn på inntekts- og utdanningsstigen",
+        "At helsen i gjennomsnitt blir bedre først på det øverste trinnet på inntekts- og utdanningsstigen"
       ],
       "correct": 1,
       "explain": "Gjelder hele befolkningen."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva betyr at sammenhengen mellom fattigdom og helse går begge veier?",
       "options": [
-        "At fattigdom kan gi dårlig helse, og dårlig helse kan gi fattigdom",
-        "At det ikke er noen sammenheng",
-        "At helse bare påvirker inntekt",
-        "At inntekt bare påvirker helse"
+        "At fattigdom kan gi dårlig helse, og dårlig helse kan føre til fattigdom",
+        "At fattigdom kan gi dårlig helse, men dårlig helse påvirker ikke økonomien",
+        "At dårlig helse kan føre til fattigdom, men fattigdom påvirker ikke helsen",
+        "At fattigdom og helse henger sammen fordi begge påvirkes av hverandre på samme måte"
       ],
       "correct": 0,
       "explain": "Toveis sammenheng."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva har skjedd med andelen barn i vedvarende lavinntekt i Norge de siste tiårene?",
       "options": [
-        "Den har falt kraftig",
-        "Den er uendret",
+        "Den har gått ned",
+        "Den har ligget omtrent stabilt",
         "Den har økt",
-        "Den er null"
+        "Den har variert uten samlet økning"
       ],
       "correct": 2,
       "explain": "Et viktig politisk tema."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva er segregering?",
       "options": [
-        "Integrering",
-        "En skatt",
-        "En velferdsordning",
-        "At grupper bor og lever atskilt"
+        "At grupper med ulik bakgrunn bor blandet og deltar sammen",
+        "At grupper med ulik bakgrunn får samme tilgang til tjenester",
+        "At grupper med ulik bakgrunn tilpasser seg felles normer",
+        "At grupper bor og lever atskilt fra hverandre"
       ],
       "correct": 3,
       "explain": "En mulig konsekvens av store forskjeller."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hva er proporsjonal universalisme?",
       "options": [
-        "Tiltak for alle, men mer innsats der behovet er størst",
-        "Tiltak bare for de rikeste",
-        "Ingen tiltak",
-        "Like tiltak for alle uten forskjell"
+        "Tiltak for alle, med mer innsats der behovet er størst",
+        "Tiltak for alle, med like mye innsats uansett behov",
+        "Tiltak bare for grupper med størst behov, uten tilbud til resten",
+        "Tiltak for alle, med mest innsats der inntekten er høyest"
       ],
       "correct": 0,
       "explain": "Rettet mot hele gradienten.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvilken konsekvens kan lavinntekt ha for barn?",
       "options": [
-        "Flere fritidsaktiviteter",
-        "At de ikke kan delta i aktiviteter som andre barn",
-        "Bedre skoleresultater",
-        "Mer plass hjemme"
+        "At de får bedre tilgang til organiserte aktiviteter enn andre barn",
+        "At de får færre muligheter til å delta i aktiviteter enn andre barn",
+        "At de får flere muligheter til å reise på ferie enn andre barn",
+        "At de får bedre tilgang til kostbart fritidsutstyr enn andre barn"
       ],
       "correct": 1,
       "explain": "Kan gi skam og utenforskap."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er en områdesatsing?",
       "options": [
-        "En skatteordning",
-        "En idrettskonkurranse",
+        "Samlet innsats i bydeler med høy gjennomsnittsinntekt",
+        "Et enkeltstående tiltak for å bedre én tjeneste i en bydel",
         "Samlet innsats i utsatte bydeler",
-        "En type lån"
+        "En landsdekkende ordning med økonomisk støtte til kommuner"
       ],
       "correct": 2,
       "explain": "Bedre skoler, møteplasser og tjenester.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvorfor må vi skille mellom sammenheng og årsak?",
       "options": [
-        "Fordi statistikk alltid er feil",
-        "Fordi det er lovpålagt",
-        "Fordi sammenhenger aldri finnes",
+        "Fordi sammenheng og årsak betyr det samme i statistikk",
+        "Fordi årsakssammenhenger ikke kan undersøkes med statistikk",
+        "Fordi en sammenheng viser at forholdene påvirker hverandre direkte",
         "Fordi en tredje faktor kan påvirke begge forholdene"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvilken samfunnskonsekvens har store velferdsforskjeller?",
       "options": [
         "Høyere utgifter til helse, trygd og rettsvesen",
-        "Mer tillit",
-        "Lavere utgifter",
-        "Flere i arbeid"
+        "Lavere utgifter til helse, trygd og rettsvesen",
+        "Høyere inntekter fra arbeid, skatt og næringsliv",
+        "Lavere behov for helse-, trygde- og rettstjenester"
       ],
       "correct": 0,
       "explain": "Og tapt arbeidskraft."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvilke faktorer bidrar til kriminalitet i utsatte områder?",
       "options": [
-        "Bare gener",
+        "Høy inntekt, fullført skole, arbeidstilknytning og sterke nettverk",
         "Fattigdom, frafall, utenforskap og svake nettverk",
-        "Bare været",
-        "Høy inntekt"
+        "Gode fritidstilbud, høy skoletrivsel, arbeid og sterke nettverk",
+        "God økonomi, gode karakterer, trygge hjem og stabile familieforhold"
       ],
       "correct": 1,
       "explain": "Sammensatte årsaker."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak når hele befolkningen?",
         "options": [
-          "Områdesatsing",
-          "Folkehelsetiltak som fysisk aktivitet i skolen",
-          "Sosialhjelp",
-          "Fengselsstraff"
+          "En områdesatsing i en utsatt bydel",
+          "Et folkehelsetiltak som fysisk aktivitet i skolen",
+          "Økonomisk sosialhjelp til personer med lav inntekt",
+          "Oppfølging av ungdom med høyt skolefravær"
         ],
         "correct": 1,
         "explain": "Universelle tiltak."
@@ -326,9 +326,9 @@
         "text": "Hvilken gruppe er overrepresentert blant barn i lavinntektsfamilier?",
         "options": [
           "Barn med foreldre med innvandrerbakgrunn eller utenfor arbeidslivet",
-          "Barn av ledere",
-          "Barn i spredtbygde strøk alene",
-          "Ingen gruppe"
+          "Barn med foreldre med høy utdanning og stabil tilknytning til arbeidslivet",
+          "Barn med foreldre med høy inntekt og stabil tilknytning til arbeidslivet",
+          "Barn i spredtbygde strøk med foreldre i fast arbeid"
         ],
         "correct": 0,
         "explain": "Arbeidstilknytning er avgjørende.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva kan være en tredje faktor bak sammenhengen mellom inntekt og helse?",
         "options": [
-          "Hårfarge",
-          "Stjernetegn",
+          "Skattesats",
+          "Tilgang til helsetjenester",
           "Utdanning",
-          "Høyde"
+          "Tilgang til fritidstilbud"
         ],
         "correct": 2,
         "explain": "Påvirker både inntekt og helse."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

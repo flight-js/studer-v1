@@ -76,9 +76,9 @@
       "text": "Hva består sentralnervesystemet av?",
       "options": [
         "Hjernen og ryggmargen",
-        "Alle nervene i armene",
-        "Hjertet og lungene",
-        "Kjertlene"
+        "Hjernen og nervene i resten av kroppen",
+        "Hjertet og blodårene",
+        "Lungene og luftrøret"
       ],
       "correct": 0,
       "explain": "Sentralnervesystemet er hjernen og ryggmargen. Resten av nervene er det perifere nervesystemet."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva skjer i en synapse?",
       "options": [
-        "Blodet renses",
-        "Signalstoffer overfører beskjeden fra én nervecelle til den neste",
-        "Det lages hormoner",
-        "Muskler trekker seg sammen"
+        "Nervecellene berører hverandre, og den elektriske impulsen går direkte videre",
+        "Signalstoffer fører beskjeden fra én nervecelle til den neste",
+        "Signalstoffer fraktes med blodet fra én nervecelle til den neste",
+        "En nervecelle lager et hormon som går videre til neste celle"
       ],
       "correct": 1,
       "explain": "Den elektriske impulsen gjør at signalstoffer skilles ut og fester seg til neste celle."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvorfor trekker du hånda raskt bort fra en varm kokeplate?",
       "options": [
-        "Fordi hjernen tenker seg om",
-        "Fordi hormoner virker raskt",
-        "På grunn av en refleks via ryggmargen",
-        "Fordi huden er kald"
+        "På grunn av en beslutning i hjernen",
+        "På grunn av adrenalin fra binyrene",
+        "På grunn av en ryggmargsrefleks",
+        "På grunn av et hormonsignal fra huden"
       ],
       "correct": 2,
       "explain": "Refleksen går via ryggmargen, som sender signal direkte til musklene."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvordan fraktes hormoner rundt i kroppen?",
       "options": [
-        "Gjennom nervene",
-        "Gjennom luftveiene",
-        "Gjennom lymfen alene",
+        "Med nervene",
+        "Med luftveiene",
+        "Med lymfen",
         "Med blodet"
       ],
       "correct": 3,
@@ -136,9 +136,9 @@
       "text": "Hva gjør adrenalin?",
       "options": [
         "Gjør kroppen klar til kamp eller flukt",
-        "Senker pulsen",
-        "Får oss til å sove",
-        "Styrer fordøyelsen"
+        "Gjør kroppen klar til hvile og søvn",
+        "Gjør kroppen klar til fordøyelse av mat",
+        "Gjør kroppen klar til å senke pulsen"
       ],
       "correct": 0,
       "explain": "Adrenalin øker puls og pust og gir musklene mer energi ved fare."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvilken påstand stemmer om hormonsystemet sammenlignet med nervesystemet?",
       "options": [
-        "Hormoner virker raskere",
-        "Hormoner går bare til ett bestemt sted",
+        "Hormoner virker raskere, men ofte kortere",
+        "Hormoner virker langsommere, men fraktes gjennom nervene",
         "Hormoner virker langsommere, men ofte lenger",
-        "Hormoner er elektriske signaler"
+        "Hormoner virker raskere og er elektriske signaler"
       ],
       "correct": 2,
       "explain": "Hormoner sprer seg med blodet og kan ha virkning i timer, måneder eller år."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvorfor reagerer bare noen celler på et bestemt hormon?",
       "options": [
-        "Fordi bare de har riktige reseptorer",
-        "Fordi hormonet ikke når de andre",
-        "Fordi de andre cellene er døde",
-        "Fordi hormonet er for stort"
+        "Fordi de har riktige reseptorer",
+        "Fordi hormonet fraktes med blodet bare til disse cellene",
+        "Fordi disse cellene lager hormonet selv",
+        "Fordi disse cellene har større overflate enn andre celler"
       ],
       "correct": 0,
       "explain": "Hormonet passer som en nøkkel i en lås, og bare celler med riktig reseptor reagerer."
@@ -185,8 +185,8 @@
       "options": [
         "Insulin og glukagon",
         "Østrogen og testosteron",
-        "Adrenalin og dopamin",
-        "Serotonin og melatonin"
+        "Adrenalin og kortisol",
+        "Melatonin og veksthormon"
       ],
       "correct": 1,
       "explain": "Kjønnshormonene østrogen og testosteron gir kroppsendringene i puberteten."
@@ -331,9 +331,9 @@
         "type": "flervalg",
         "text": "Hva registrerer sansecellene i huden?",
         "options": [
-          "Lys",
-          "Lyd",
-          "Smak",
+          "Lys, farger og bevegelse",
+          "Lyd, tonehøyde og volum",
+          "Smak, lukt og aroma",
           "Trykk, temperatur og smerte"
         ],
         "correct": 3,
@@ -346,8 +346,8 @@
         "options": [
           "Den stopper",
           "Den øker kraftig",
-          "Den blir til adrenalin",
-          "Ingenting"
+          "Den holder seg uendret",
+          "Den går over til å lage glukagon"
         ],
         "correct": 0,
         "explain": "Dette er tilbakekobling: Lavt blodsukker stopper utskillingen av insulin."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

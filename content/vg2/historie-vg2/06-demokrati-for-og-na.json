@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva betyr ordet demokrati?",
       "options": [
-        "Kongestyre",
+        "Adelsstyre",
         "Folkestyre",
-        "Prestestyre",
-        "Rikmannsstyre"
+        "Militærstyre",
+        "Embetsmannsstyre"
       ],
       "correct": 1,
       "explain": "dēmos = folk, kratos = makt."
@@ -91,21 +91,21 @@
       "text": "Hvem kunne delta i folkeforsamlingen i Athen?",
       "options": [
         "Frie menn med athenske foreldre",
-        "Alle innbyggere",
-        "Kvinner og menn",
-        "Slaver og metøker"
+        "Athenske menn med én athensk forelder",
+        "Frie kvinner med athenske foreldre",
+        "Frie menn med greske foreldre utenfra"
       ],
       "correct": 0,
-      "explain": "Kvinner, slaver og metøker var utestengt."
+      "explain": "Bare frie menn med athenske foreldre hadde borgerrett og kunne delta."
     },
     {
       "id": "q03",
       "text": "Hvordan ble de fleste verv fordelt i Athen?",
       "options": [
+        "Ved avstemning",
         "Ved arv",
-        "Ved kjøp",
         "Ved loddtrekning",
-        "Ved kongens utnevnelse"
+        "Ved utnevnelse"
       ],
       "correct": 2,
       "explain": "Loddtrekning ga alle borgere lik sjanse."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva var ostrakisme?",
       "options": [
-        "En type skatt",
-        "En gudstjeneste",
-        "Et valg av hærfører",
-        "Avstemning om å forvise noen i ti år"
+        "En avstemning om å velge en hærfører for ett år",
+        "En avstemning om å innføre en ny skatt for borgerne",
+        "En avstemning om å utnevne nye rådsmedlemmer hvert år",
+        "En avstemning om å forvise en borger i ti år"
       ],
       "correct": 3,
       "explain": "Navnet ble skrevet på potteskår."
@@ -127,9 +127,9 @@
       "text": "Hva kjennetegner representativt demokrati?",
       "options": [
         "Innbyggerne velger representanter som styrer på deres vegne",
-        "Alle stemmer over alle saker",
-        "Verv fordeles ved loddtrekning",
-        "Kongen bestemmer"
+        "Innbyggerne stemmer direkte over de fleste politiske sakene",
+        "Innbyggerne trekker representanter som styrer på deres vegne",
+        "Innbyggerne velger dommere som avgjør politiske saker på deres vegne"
       ],
       "correct": 0,
       "explain": "Norge har representativt demokrati."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Når fikk kvinner i Norge allmenn stemmerett?",
       "options": [
-        "1898",
+        "1907",
         "1913",
-        "1814",
-        "1945"
+        "1910",
+        "1898"
       ],
       "correct": 1,
       "explain": "Menn fikk allmenn stemmerett i 1898."
@@ -150,22 +150,22 @@
       "id": "q07",
       "text": "Hvilken reformator innførte demokrati i Athen i 508/507 f.Kr.?",
       "options": [
+        "Solon",
         "Perikles",
-        "Sokrates",
         "Kleisthenes",
-        "Aristoteles"
+        "Ephialtes"
       ],
       "correct": 2,
-      "explain": "Perikles var ledende på 400-tallet f.Kr."
+      "explain": "Kleisthenes gjennomførte reformene som la grunnlaget for demokratiet i Athen."
     },
     {
       "id": "q08",
       "text": "Hvilket innslag av direkte demokrati finnes i Norge?",
       "options": [
-        "Loddtrekning av stortingsrepresentanter",
-        "Ostrakisme",
-        "Folkeforsamling hver uke",
-        "Folkeavstemninger, som om EU i 1972 og 1994"
+        "Borgerpaneler som vedtar lover på vegne av velgerne",
+        "Loddtrekning av innbyggere som avgjør nasjonale saker",
+        "Folkeforsamlinger som møtes jevnlig for å vedta lover",
+        "Folkeavstemninger om EU, som i 1972 og 1994"
       ],
       "correct": 3,
       "explain": "Folkeavstemninger er sjeldne i Norge.",
@@ -176,9 +176,9 @@
       "text": "Hvem utførte mye av arbeidet i Athen, slik at borgerne kunne delta i politikken?",
       "options": [
         "Slaver",
-        "Kvinner alene",
-        "Maskiner",
-        "Soldater fra Sparta"
+        "Kjøpmenn",
+        "Hoplitter",
+        "Rådsmedlemmer"
       ],
       "correct": 0,
       "explain": "Demokratiet bygde på slavearbeid."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er en viktig forskjell mellom Athens demokrati og vårt?",
       "options": [
-        "Athen hadde flere med rettigheter",
+        "Omtrent like mange har rettigheter i dag, men deltar mer indirekte",
         "Langt flere har rettigheter i dag, men deltar mer indirekte",
-        "Vi har ingen valg",
-        "Athen hadde allmenn stemmerett"
+        "Langt flere har rettigheter i dag, men deltar mer direkte",
+        "Færre har rettigheter i dag, men deltar mer indirekte"
       ],
       "correct": 1,
       "explain": "I Athen deltok de få direkte og ofte."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvor mange medlemmer hadde rådet (boulé) i Athen?",
         "options": [
-          "50",
+          "400",
           "500",
-          "5000",
-          "169"
+          "600",
+          "300"
         ],
         "correct": 1,
         "explain": "De ble valgt ved loddtrekning."
@@ -331,9 +331,9 @@
         "text": "Hva skrev borgerne på ved ostrakisme?",
         "options": [
           "Potteskår",
-          "Papyrus",
-          "Steintavler",
-          "Pergament"
+          "Voksplater",
+          "Papyrusruller",
+          "Pergamentark"
         ],
         "correct": 0,
         "explain": "Ordet kommer fra gresk ostrakon – potteskår."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er et borgerpanel?",
         "options": [
-          "Et politisk parti",
-          "En domstol",
+          "Valgte politikere som gir råd i politiske saker",
+          "Utnevnte dommere som avgjør tvister i politiske saker",
           "Loddtrukne innbyggere som gir råd i politiske saker",
-          "En del av Stortinget"
+          "Partimedlemmer som lager valgprogram for politiske saker"
         ],
         "correct": 2,
         "explain": "Idéen minner om loddtrekningen i Athen.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

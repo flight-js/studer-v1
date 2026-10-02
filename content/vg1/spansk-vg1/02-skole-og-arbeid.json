@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er ESO?",
       "options": [
-        "Universitetet",
-        "Obligatorisk ungdomsskole i Spania",
-        "Barneskolen",
-        "Yrkesskolen"
+        "Obligatorisk barneskole for 6–12-åringer i Spania",
+        "Obligatorisk ungdomsskole for 12–16-åringer i Spania",
+        "Frivillig videregående skole for 16–18-åringer i Spania",
+        "Obligatorisk førskole for 3–6-åringer i Spania"
       ],
       "correct": 1,
       "explain": "ESO er for elever fra 12 til 16 år."
@@ -90,9 +90,9 @@
       "text": "Hva er futuro av «tener» i jeg-form?",
       "options": [
         "tendré",
-        "teneré",
-        "tengo",
-        "tuve"
+        "tendrás",
+        "tendrá",
+        "tendremos"
       ],
       "correct": 0,
       "explain": "tener har stammen tendr-."
@@ -102,9 +102,9 @@
       "text": "Hvordan sier du «Jeg skal studere medisin» med ir a?",
       "options": [
         "Voy estudiar medicina.",
-        "Voy de estudiar medicina.",
+        "Voy a estudio medicina.",
         "Voy a estudiar medicina.",
-        "Iré a estudio medicina."
+        "Voy de estudiar medicina."
       ],
       "correct": 2,
       "explain": "ir a + infinitiv."
@@ -126,9 +126,9 @@
       "text": "Hva betyr «el sueldo»?",
       "options": [
         "lønnen",
-        "sola",
-        "bakken",
-        "søknaden"
+        "skatten",
+        "stipendet",
+        "arbeidstiden"
       ],
       "correct": 0,
       "explain": "Også «el salario»."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er futuro av «hacer» i jeg-form?",
       "options": [
-        "haceré",
+        "harás",
         "haré",
-        "hice",
-        "hago"
+        "hará",
+        "haremos"
       ],
       "correct": 1,
       "explain": "hacer har stammen har-."
@@ -149,8 +149,8 @@
       "id": "q07",
       "text": "Hvilket tegn står etter hilsenen i et formelt spansk brev?",
       "options": [
+        "Semikolon",
         "Komma",
-        "Utropstegn",
         "Kolon",
         "Punktum"
       ],
@@ -163,7 +163,7 @@
       "text": "Hvordan sier du «Moren min er sykepleier»?",
       "options": [
         "Mi madre está enfermera.",
-        "Mi madre es una la enfermera.",
+        "Mi madre es enfermero.",
         "Mi madre tiene enfermera.",
         "Mi madre es enfermera."
       ],
@@ -175,9 +175,9 @@
       "text": "Hvilken karakter er bestått i spanske skoler?",
       "options": [
         "5 av 10",
-        "2 av 6",
-        "D",
-        "50 av 100"
+        "4 av 10",
+        "3 av 10",
+        "4,5 av 10"
       ],
       "correct": 0,
       "explain": "Skalaen går fra 0 til 10.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva betyr «la entrevista de trabajo»?",
       "options": [
-        "arbeidsdagen",
+        "jobbsøknaden",
         "jobbintervjuet",
-        "arbeidskontrakten",
-        "arbeidsplassen"
+        "arbeidsavtalen",
+        "stillingsannonsen"
       ],
       "correct": 1,
       "explain": "Man blir invitert etter søknaden."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er futuro av «poder» i vi-form?",
         "options": [
-          "poderemos",
+          "podréis",
           "podremos",
-          "podemos",
-          "pudimos"
+          "podrá",
+          "podrán"
         ],
         "correct": 1,
         "explain": "poder har stammen podr-."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "What effect does a low camera angle usually have?",
       "options": [
-        "The character seems weak",
+        "The character seems weak or vulnerable",
         "The character seems powerful or threatening",
-        "The scene feels neutral",
-        "The scene becomes funny"
+        "The character seems equal to the viewer",
+        "The character seems distant from the viewer"
       ],
       "correct": 1,
       "explain": "The audience looks up at the character."
@@ -92,9 +92,9 @@
       "text": "What is diegetic sound?",
       "options": [
         "Sound that exists in the story world",
-        "Background music added for the audience",
-        "A narrator's voice-over",
-        "Silence"
+        "Sound added during editing for the audience",
+        "A narrator's voice outside the story world",
+        "Music heard by viewers but not by characters"
       ],
       "correct": 0,
       "explain": "Dialogue and footsteps are diegetic."
@@ -104,8 +104,8 @@
       "text": "Which shot is best for showing a character's emotions?",
       "options": [
         "Establishing shot",
-        "Long shot",
-        "Close-up",
+        "Medium shot",
+        "Close-up shot",
         "Tracking shot"
       ],
       "correct": 2,
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "What is cross-cutting?",
       "options": [
-        "Cutting out a scene",
-        "A shot from above",
-        "A song in a film",
+        "Switching between two scenes happening one after another",
+        "Cutting from a wide shot to a closer shot",
+        "Showing events in reverse order within one scene",
         "Switching between two scenes happening at the same time"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "What is mise-en-scène?",
       "options": [
         "Everything placed in front of the camera",
-        "The film's soundtrack",
-        "The editing",
-        "The script"
+        "Everything heard during the film",
+        "Everything arranged during the editing process",
+        "Everything written in the film's script"
       ],
       "correct": 0,
       "explain": "Setting, props, costumes and actors' positions.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Which song became an anthem for Black Lives Matter protests?",
       "options": [
-        "“Blowin' in the Wind”",
+        "“Imagine” by John Lennon",
         "“Alright” by Kendrick Lamar",
-        "“Yesterday”",
-        "“Imagine”"
+        "“Changes” by Tupac Shakur",
+        "“Yesterday” by The Beatles"
       ],
       "correct": 1,
       "explain": "“Alright” was released in 2015.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "What is player agency?",
       "options": [
-        "A company that sells games",
-        "The game's soundtrack",
+        "The player's skill at controlling the character",
+        "The player's progress through the game's levels",
         "The player's ability to make choices in a game",
-        "The age limit of a game"
+        "The player's control over the game's sound"
       ],
       "correct": 2,
       "explain": "Choices with consequences make the player active."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "What does low-key lighting create?",
       "options": [
-        "A bright, happy mood",
-        "A neutral mood",
-        "No particular effect",
+        "High-key lighting, cheerfulness and openness",
+        "Flat lighting, calmness and clarity",
+        "Warm lighting, comfort and romance",
         "Shadows, mystery and tension"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "What is a montage?",
       "options": [
         "Many short shots edited together to compress time",
-        "A long single shot",
-        "A type of camera angle",
-        "A film poster"
+        "One continuous shot filmed without any cuts",
+        "A sequence filmed from a single camera angle",
+        "A scene shown in real time without cuts"
       ],
       "correct": 0,
       "explain": "Training scenes are often shown as montages."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Which three aspects should you consider when analysing a cultural expression?",
       "options": [
-        "Price, length and age limit",
+        "Genre, setting and audience",
         "Form, content and effect",
-        "Title, actors and director",
-        "Genre, year and country"
+        "Title, cast and release year",
+        "Camera, editing and soundtrack"
       ],
       "correct": 1,
       "explain": "Analysis connects how it is made with what it means."
@@ -325,9 +325,9 @@
         "text": "What is a tracking shot?",
         "options": [
           "A shot where the camera follows the action",
-          "A shot of a map",
-          "A still photograph",
-          "A shot from above"
+          "A shot where the camera stays completely still",
+          "A shot where the camera tilts up or down",
+          "A shot where the camera zooms in on the action"
         ],
         "correct": 0,
         "explain": "The camera moves together with the characters."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "What is world-building in a game?",
         "options": [
-          "Building a real house",
+          "Selecting a difficulty level for players",
           "Creating a detailed fictional world",
-          "Making the game longer",
-          "Choosing a difficulty level"
+          "Writing dialogue for the game's characters",
+          "Designing controls for the game's main character"
         ],
         "correct": 1,
         "explain": "A rich world makes the story more immersive.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

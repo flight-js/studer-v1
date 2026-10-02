@@ -99,10 +99,10 @@
       "id": "q01",
       "text": "Hva betyr det å bruke en kilde som levning?",
       "options": [
-        "Å se hva kilden viser om tiden den ble til i",
-        "Å se hva kilden forteller",
-        "Å kaste kilden",
-        "Å kopiere kilden"
+        "Å undersøke hva kilden viser om tiden den ble til i",
+        "Å undersøke hva kilden sier om hendelsene den beskriver",
+        "Å vurdere om kilden er ekte og pålitelig",
+        "Å undersøke hvem som skrev kilden og hvem den var rettet mot"
       ],
       "correct": 0,
       "explain": "En gammel reklame kan vise kjønnsroller og idealer."
@@ -111,10 +111,10 @@
       "id": "q02",
       "text": "Hvorfor kan to historikere komme til ulike konklusjoner?",
       "options": [
-        "Fordi historie bygger på kilder og tolkninger",
-        "Fordi en av dem alltid lyver",
-        "Fordi fortiden endrer seg",
-        "Fordi de har ulike lærebøker"
+        "Fordi de tolker kilder og bevis ulikt",
+        "Fordi historiske kilder gir samme svar til alle som leser dem",
+        "Fordi historikere kan endre hendelsene de undersøker",
+        "Fordi historikernes alder bestemmer hvilke konklusjoner de kommer til"
       ],
       "correct": 0,
       "explain": "Historie er fortellinger om fortiden."
@@ -123,9 +123,9 @@
       "id": "q03",
       "text": "Hvorfor sier man at minnekultur handler om makt?",
       "options": [
-        "Fordi bare politikere kan besøke museer",
-        "Fordi det koster penger",
-        "Fordi kongen bestemmer",
+        "Fordi minnekultur først og fremst handler om hvem som eier museene",
+        "Fordi minnekultur gir enkelte grupper rett til å eie historiske steder",
+        "Fordi minnekultur bestemmer hvem som får stemme ved valg",
         "Fordi noen avgjør hvem som huskes og hvem som glemmes"
       ],
       "correct": 3,
@@ -135,10 +135,10 @@
       "id": "q04",
       "text": "Hva var en konsekvens av overgangen til jordbruk?",
       "options": [
-        "Folk ble mer nomadiske",
-        "Befolkningen sank",
-        "Folk ble bofaste, og det oppsto byer og stater",
-        "Handel forsvant"
+        "Folk fortsatte å flytte etter jakt og ville planter",
+        "Befolkningen sank fordi mattilgangen ble mindre",
+        "Folk ble bofaste, og byer og stater vokste fram",
+        "Handelen ble mindre fordi folk produserte alt selv"
       ],
       "correct": 2,
       "explain": "Overskudd ga grunnlag for handel og arbeidsdeling."
@@ -147,10 +147,10 @@
       "id": "q05",
       "text": "Hva er en bakside ved den grønne revolusjon?",
       "options": [
-        "Mindre mat",
-        "Forurensning og tap av biologisk mangfold",
-        "Færre mennesker",
-        "Mindre handel"
+        "Økt matmangel blant bønder og lavere avlinger",
+        "Forurensning fra innsatsmidler og tap av biologisk mangfold",
+        "Færre dyrkede sorter og mindre bruk av gjødsel",
+        "Redusert mathandel og færre områder med matproduksjon"
       ],
       "correct": 1,
       "explain": "Den økte også presset på vann og jord.",
@@ -160,10 +160,10 @@
       "id": "q06",
       "text": "Hva var en viktig årsak til utvandringen?",
       "options": [
-        "For mye jord i Norge",
-        "At USA var stengt",
-        "Gode jobber i Norge",
-        "Befolkningspress og mangel på jord og arbeid"
+        "Befolkningspress og mangel på jord og arbeid i USA",
+        "Befolkningspress og mangel på jord og arbeid i Sverige",
+        "Befolkningspress og mangel på jord og arbeid i Danmark",
+        "Befolkningspress og mangel på jord og arbeid i Norge"
       ],
       "correct": 3,
       "explain": "Billig jord i Amerika lokket også."
@@ -172,10 +172,10 @@
       "id": "q07",
       "text": "Hva er eldrebølgen?",
       "options": [
-        "At eldre flytter til utlandet",
-        "En type pensjon",
+        "At andelen unge i befolkningen øker",
+        "At andelen eldre i befolkningen synker",
         "At andelen eldre i befolkningen øker",
-        "At det fødes flere barn"
+        "At antallet fødsler i befolkningen øker"
       ],
       "correct": 2,
       "explain": "Det gir flere pensjonister per arbeidstaker."
@@ -184,10 +184,10 @@
       "id": "q08",
       "text": "Hva ble fraktet fra Afrika til Amerika i trekanthandelen?",
       "options": [
-        "Sukker",
-        "Våpen",
+        "Våpen og tekstiler",
+        "Gull og elfenbein",
         "Slavegjorte mennesker",
-        "Bomull"
+        "Kaffe og kakao"
       ],
       "correct": 2,
       "explain": "Rundt 12 millioner mennesker.",
@@ -197,10 +197,10 @@
       "id": "q09",
       "text": "Hva kjennetegner planøkonomi?",
       "options": [
-        "Privat eierskap og konkurranse",
+        "Private bedrifter eier produksjonen og bestemmer hva som produseres",
         "Staten eier produksjonen og bestemmer hva som produseres",
-        "Ingen stat",
-        "Frihandel"
+        "Staten eier bedriftene, men markedet bestemmer produksjonen",
+        "Forbrukerne eier produksjonen og bestemmer hva som produseres"
       ],
       "correct": 1,
       "explain": "Sovjetunionen er det mest kjente eksempelet."
@@ -209,10 +209,10 @@
       "id": "q10",
       "text": "Hva er en viktig forskjell mellom Athens demokrati og vårt?",
       "options": [
-        "Athen hadde flere med rettigheter",
+        "Omtrent like mange har rettigheter i dag, men deltar mer indirekte",
         "Langt flere har rettigheter i dag, men deltar mer indirekte",
-        "Vi har ingen valg",
-        "Athen hadde allmenn stemmerett"
+        "Langt flere har rettigheter i dag, men deltar mer direkte",
+        "Færre har rettigheter i dag, men deltar mer indirekte"
       ],
       "correct": 1,
       "explain": "I Athen deltok de få direkte og ofte."
@@ -222,9 +222,9 @@
       "text": "Hvilket spørsmål er nyttig når du vurderer et kulturmøte?",
       "options": [
         "Hvem hadde makt, og hvem tjente og tapte?",
-        "Hvilket år var kaldest?",
-        "Hvor mange skip var med?",
-        "Hva het kongen?"
+        "Hvor lang tid tok reisen, og hvilken rute fulgte de?",
+        "Hvilke varer ble fraktet, og hvor mye kostet de?",
+        "Hvilke redskaper brukte de, og hvordan laget de dem?"
       ],
       "correct": 0,
       "explain": "Kulturmøter har ofte ujevn maktfordeling."
@@ -233,10 +233,10 @@
       "id": "q12",
       "text": "Hvordan endret opplysningstidens ideer grunnlaget for legitim makt?",
       "options": [
-        "Makten skulle komme fra kirken",
+        "Legitimiteten flyttet seg fra folket og lovene til kirken",
         "Legitimiteten flyttet seg fra Gud og arv til folket",
-        "Kongen fikk mer makt",
-        "Adelen fikk all makt"
+        "Legitimiteten flyttet seg fra folket til kongen og adelen",
+        "Legitimiteten flyttet seg fra tradisjon og kirke til kongens embetsverk"
       ],
       "correct": 1,
       "explain": "Det preget Grunnloven i 1814."
@@ -245,10 +245,10 @@
       "id": "q13",
       "text": "Hva skjedde med kirken i Danmark-Norge etter reformasjonen i 1537?",
       "options": [
-        "Den ble uavhengig av staten",
-        "Paven fikk mer makt",
-        "Kongen overtok kirkens eiendom og ble dens overhode",
-        "Kirken ble avskaffet"
+        "Paven overtok kirkens eiendom og ble kirkens overhode",
+        "Biskopene overtok kirkens eiendom og ble kirkens overhoder",
+        "Kongen overtok kirkens eiendom og ble kirkens overhode",
+        "Kongen lot kirken beholde eiendommene og sitt selvstyre"
       ],
       "correct": 2,
       "explain": "Kirken ble en statskirke."
@@ -377,7 +377,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -420,10 +420,10 @@
         "type": "flervalg",
         "text": "Hva er en virkning av eldrebølgen for samfunnet?",
         "options": [
-          "Færre pensjonister",
-          "Mindre behov for omsorg",
+          "Mindre behov for helse- og omsorgstjenester",
+          "Større behov for barnehage- og skoletjenester i samfunnet",
           "Større behov for helse- og omsorgstjenester",
-          "Flere barn i skolen"
+          "Flere arbeidstakere per pensjonist i samfunnet"
         ],
         "correct": 2,
         "explain": "Det blir også færre arbeidstakere per pensjonist."
@@ -485,8 +485,7 @@
         "kriterier": [
           "Nevner at boktrykk gjorde bøker billigere eller ideer raskere å spre.",
           "Bruker reformasjonen som eksempel."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s05",
@@ -504,8 +503,7 @@
         "kriterier": [
           "Forklarer at minnekultur handler om hvem som huskes og hvem som glemmes.",
           "Nevner minst én gruppe som ofte har vært lite synlig."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s07",
@@ -525,12 +523,88 @@
           "Nevner at kongene brukte kristningen til å samle riket eller styrke kongemakten.",
           "Forklarer at kirken kunne være en selvstendig maktfaktor, og at kongen overtok kirken etter reformasjonen."
         ]
+      },
+      {
+        "text": "En reklameplakat fra 1950 viser et produkt og en kvinne som bruker det hjemme. Forklar hvordan plakaten kan brukes både som beretning og som levning, og nevn ett spørsmål en historiker bør stille for å vurdere kilden.",
+        "fasit": "Som beretning forteller plakaten om produktet og hvordan det ble reklamert for. Som levning kan den vise kjønnsroller og idealer i 1950-årene. Historikeren bør for eksempel undersøke hvem som laget plakaten, og hvem den var ment for.",
+        "kriterier": [
+          "Skiller mellom hva kilden forteller (beretning), og hva den viser om tiden (levning).",
+          "Nevner et relevant kildekritisk spørsmål, for eksempel om avsender, formål eller mottaker."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Svartedauden kom til Norge i 1349. Forklar hvordan pestepidemien påvirket både bosetting og maktforhold i Norge.",
+        "fasit": "En tredjedel til halvparten av befolkningen døde, og mange gårder ble stående øde. Skatteinntektene falt, og både adelen og kirken mistet makt og inntekter. Norge ble svekket og havnet etter hvert i union med andre land.",
+        "kriterier": [
+          "Knytter befolkningsnedgangen til ødegårder og/eller lavere skatteinntekter.",
+          "Forklarer at adelens og kirkens makt eller inntekter ble svekket; kan også nevne at Norge senere kom i union."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Forklar sammenhengen mellom forbedringer i jordbruket på 1700- og 1800-tallet, flytting til byene og framveksten av industrisamfunnet. Nevn også en følge av økt bruk av kull eller olje.",
+        "fasit": "Nye redskaper, vekselbruk og gjødsel økte avlingene, og etter hvert trengtes færre arbeidere i jordbruket. Mange flyttet derfor til byene for å arbeide i industrien. Kull og senere olje drev industrisamfunnet, men førte også til store klimautslipp.",
+        "kriterier": [
+          "Knytter større avlinger og færre arbeidere i jordbruket til flytting til byene og industriarbeid.",
+          "Nevner at kull eller olje var grunnlag for industrien, og en miljøfølge som klimautslipp."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Sammenlign merkantilisme og kapitalisme når det gjelder statens rolle og hvordan handel og økonomi skulle skape rikdom.",
+        "fasit": "I merkantilismen forsøkte staten å øke rikdommen ved å eksportere mer enn den importerte, og den ga privilegier til handelskompanier. I kapitalismen står privat eierskap, konkurranse og profitt sentralt, og Adam Smith argumenterte for frihandel og markedsøkonomi. Kapitalismen ga grunnlag for industrialisering, men også store forskjeller.",
+        "kriterier": [
+          "Beskriver merkantilismen som en politikk der staten styrte handel og søkte overskudd i eksporten, gjerne med kolonier og privilegier.",
+          "Beskriver kapitalismen med privat eierskap, konkurranse og profitt, eventuelt frihandel eller ulikhet som følge."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Hvordan har internett og smarttelefoner påvirket kulturmøter i vår tid? Forklar én mulighet og én utfordring som følger av dette.",
+        "fasit": "Internett og smarttelefoner gjør at mennesker møter andre kulturer gjennom blant annet strømmetjenester, spill og sosiale medier. Det kan skape nysgjerrighet og forståelse, men kan også bidra til stereotypier og polarisering. Teknologien gir dessuten utfordringer som falske nyheter og overvåking.",
+        "kriterier": [
+          "Forklarer at digital kommunikasjon gjør kulturmøter raskere, hyppigere eller mer tilgjengelige.",
+          "Nevner en mulighet, som forståelse eller nysgjerrighet, og en utfordring, som stereotypier, polarisering, falske nyheter eller overvåking."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Forklar hvordan ideene til Locke, Montesquieu og Rousseau kan knyttes til maktutøvelse i et moderne demokrati.",
+        "fasit": "Locke mente at mennesker har naturlige rettigheter, og at makten bygger på en samfunnskontrakt. Rousseau mente at makten tilhører folket, mens Montesquieu argumenterte for å dele makten mellom lovgivende, utøvende og dømmende myndigheter. Disse ideene henger sammen med folkestyre, rettigheter og maktfordeling i moderne demokratier.",
+        "kriterier": [
+          "Knytter Locke til naturlige rettigheter og/eller samfunnskontrakt, og Rousseau til folkesuverenitet.",
+          "Knytter Montesquieu til maktfordeling mellom lovgivende, utøvende og dømmende makt."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Beskriv hvordan retten til religionsfrihet i Norge endret seg fra Grunnloven i 1814 til 1964, og forklar hva endringen viser om religionens plass i staten.",
+        "fasit": "Grunnloven i 1814 gjorde den evangelisk-lutherske religionen til statens religion og utestengte blant andre jøder. Dissenterloven i 1845 ga andre kristne trossamfunn rett til å drive virksomhet, og jødeparagrafen ble opphevet i 1851. Religionsfrihet kom inn i Grunnloven i 1964, noe som viser at staten gradvis åpnet for større religiøst mangfold og frihet.",
+        "kriterier": [
+          "Nevner minst én begrensning fra 1814 og en senere utvidelse av religionsfriheten, som Dissenterloven eller opphevelsen av jødeparagrafen.",
+          "Nevner at religionsfrihet ble tatt inn i Grunnloven i 1964, og knytter utviklingen til større frihet eller religiøst mangfold."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En historiker bruker begrepene «middelalder» og «tidlig nytid» når hen skriver om Kinas historie. Forklar hvorfor denne periodiseringen kan være misvisende, og nevn en annen begrensning ved å dele fortiden inn i perioder.",
+        "fasit": "«Middelalder» og «tidlig nytid» er perioder som bygger på europeisk historie, og Kina kan ha hatt en annen utvikling. Dessuten er overganger mellom perioder glidende, så mennesker opplevde ikke at en ny periode begynte på én bestemt dag. Periodisering er derfor et verktøy for oversikt, ikke en fasit.",
+        "kriterier": [
+          "Forklarer at europeiske periodebegreper kan være eurosentriske eller passe dårlig på Kinas historie.",
+          "Nevner at overganger er glidende, eller at periodisering er et verktøy og ikke en fasit."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

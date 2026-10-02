@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er et innenfraperspektiv?",
       "options": [
-        "Hvordan forskere beskriver en religion",
-        "Hvordan nyheter framstiller religion",
+        "Hvordan religionsforskere undersøker en religions historie",
+        "Hvordan religiøse ledere forklarer religionens lære",
         "Hvordan de troende selv forstår sin religion",
-        "Hvordan staten ser på religion"
+        "Hvordan samfunnet regulerer religiøs praksis"
       ],
       "correct": 2,
       "explain": "Innenfraperspektivet viser hva religionen betyr for de troende."
@@ -94,9 +94,9 @@
       "text": "Hvorfor kan nyheter gi et skjevt bilde av religion?",
       "options": [
         "Fordi de ofte handler om konflikter og det uvanlige",
-        "Fordi journalister ikke kan lese",
-        "Fordi de alltid er positive",
-        "Fordi de bare handler om høytider"
+        "Fordi de ofte forteller mest om religiøse regler",
+        "Fordi de vanligvis beskriver troendes vanlige hverdagsliv",
+        "Fordi de legger mest vekt på religionenes hellige tekster"
       ],
       "correct": 0,
       "explain": "Vanlig hverdagsliv blir sjelden nyheter."
@@ -105,9 +105,9 @@
       "id": "q03",
       "text": "Hvorfor bør man være forsiktig med å si «muslimer mener» eller «kristne mener»?",
       "options": [
-        "Fordi det er forbudt",
-        "Fordi religioner ikke har meninger",
-        "Fordi alle mener det samme",
+        "Fordi religiøse ledere tolker læren på samme måte",
+        "Fordi hellige tekster gir tydelige svar på alle spørsmål",
+        "Fordi religiøse regler er like i ulike land",
         "Fordi det er stort mangfold innenfor hver religion"
       ],
       "correct": 3,
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva kalte Karl Marx religion?",
       "options": [
-        "«Livets lys»",
+        "«Samfunnets lim»",
         "«Folkets opium»",
-        "«Menneskets mål»",
-        "«Fornuftens fiende»"
+        "«Menneskets håp»",
+        "«Fornuftens vei»"
       ],
       "correct": 1,
       "explain": "Marx mente religion fikk folk til å godta urettferdighet.",
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hva er en overgangsrite?",
       "options": [
-        "En pilegrimsreise",
-        "En type bønn",
-        "Et ritual som markerer en ny fase i livet, som konfirmasjon",
-        "En høytid om våren"
+        "Et ritual som feirer en religiøs høytid, som påske",
+        "En religiøs reise til et hellig sted, som Mekka",
+        "Et ritual som markerer en ny livsfase, som konfirmasjon",
+        "En fast bønn som troende ber til bestemte tider"
       ],
       "correct": 2,
       "explain": "Dåp, konfirmasjon, bryllup og gravferd er eksempler."
@@ -142,9 +142,9 @@
       "id": "q06",
       "text": "Hva er forskjellen på ortodoksi og ortopraksi?",
       "options": [
-        "Det er det samme",
-        "Ortodoksi gjelder bare kristne",
-        "Ortopraksi er en kirke",
+        "Ortodoksi handler om ritualer, ortopraksi om hellige tekster",
+        "Ortodoksi er personlig tro, ortopraksi er religiøs tilhørighet",
+        "Ortodoksi gjelder gudstjeneste, ortopraksi gjelder religiøs lov",
         "Ortodoksi er rett lære, ortopraksi er rett praksis"
       ],
       "correct": 3,
@@ -156,9 +156,9 @@
       "text": "Hvem beskrev religioner ut fra sju dimensjoner?",
       "options": [
         "Ninian Smart",
-        "Karl Marx",
-        "Martin Luther",
-        "Ludwig Feuerbach"
+        "Émile Durkheim",
+        "Max Weber",
+        "Mircea Eliade"
       ],
       "correct": 0,
       "explain": "Dimensjonene brukes ofte til å sammenligne religioner.",
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
-        "Hvor mange sider har kilden?",
+        "Hvor mange sider og kapitler har boka?",
         "Hvem er avsenderen, og hva er formålet?",
-        "Hvilken farge har forsiden?",
-        "Hvor mye koster boka?"
+        "Hvilken skrifttype og skriftstørrelse bruker teksten?",
+        "Hvor mye kostet boka da den ble utgitt?"
       ],
       "correct": 1,
       "explain": "Avsender og formål påvirker hvilket bilde kilden gir."
@@ -180,9 +180,9 @@
       "id": "q09",
       "text": "Hva er viktig å skille mellom i religionskritikk?",
       "options": [
-        "Bøker og filmer",
-        "Religion og kultur",
-        "Store og små religioner",
+        "Forskjell på en religion og en religiøs retning",
+        "Forskjell på religiøse regler og religiøse høytider",
+        "Forskjell på personlig tro og felles ritualer",
         "Kritikk av ideer og hets av mennesker"
       ],
       "correct": 3,
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva sier en hellig tekst mest om?",
       "options": [
-        "Hva en religion lærer",
-        "Hvordan alle troende faktisk lever i dag",
-        "Hvor mange medlemmer religionen har",
-        "Hva journalister mener"
+        "Hva en religion lærer om tro og praksis",
+        "Hvordan alle troende lever i dagens samfunn",
+        "Hvor mange mennesker følger religionen i dag",
+        "Hva nyhetsmediene forteller om religionens tilhengere"
       ],
       "correct": 0,
       "explain": "For å vite hvordan troende lever, trenger man andre kilder."
@@ -336,8 +336,8 @@
         "options": [
           "Økonomi",
           "Ritualer",
-          "Sport",
-          "Geografi"
+          "Geografi",
+          "Demografi"
         ],
         "correct": 1,
         "explain": "Ritualer er for eksempel bønn, gudstjeneste og høytider.",
@@ -349,9 +349,9 @@
         "text": "Hva er polyteisme?",
         "options": [
           "Tro på mange guder",
-          "Tro på én Gud",
-          "Ingen tro",
-          "Tro på at man ikke kan vite"
+          "Tro på én gud",
+          "Tro på at guder ikke finnes",
+          "Tro på at naturen er guddommelig"
         ],
         "correct": 0,
         "explain": "Norrøn religion og mange former for hinduisme er polyteistiske."
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "Hva mente Feuerbach om gudene?",
         "options": [
-          "At de bor i naturen",
-          "At de er farlige",
+          "At de er virkelige vesener utenfor mennesket",
+          "At de er symboler for naturens krefter",
           "At de er menneskenes egne idealer",
-          "At de styrer historien"
+          "At de er fortellinger om hvordan verden ble til"
         ],
         "correct": 2,
         "explain": "Han mente mennesker projiserer sine beste egenskaper over på gudene.",
@@ -452,6 +452,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

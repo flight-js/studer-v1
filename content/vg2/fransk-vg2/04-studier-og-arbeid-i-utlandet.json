@@ -90,9 +90,9 @@
       "text": "Hvordan dannes conditionnel passé?",
       "options": [
         "avoir/être i conditionnel + partisipp",
-        "avoir/être i imparfait + partisipp",
-        "infinitiv + -ais",
-        "que + subjonctif"
+        "avoir/être i presens + partisipp",
+        "avoir/être i futur + partisipp",
+        "avoir/être i imparfait + infinitiv"
       ],
       "correct": 0,
       "explain": "J'aurais aimé, je serais venu."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva betyr «J'aurais aimé étudier à Paris»?",
       "options": [
-        "Jeg studerer i Paris.",
-        "Jeg skal studere i Paris.",
-        "Jeg studerte i Paris.",
+        "Jeg vil gjerne studere i Paris.",
+        "Jeg studerte gjerne i Paris.",
+        "Jeg hadde studert i Paris.",
         "Jeg skulle gjerne ha studert i Paris."
       ],
       "correct": 3,
@@ -127,8 +127,8 @@
       "options": [
         "Québec",
         "Texas",
-        "Mexico",
-        "Brasil"
+        "Florida",
+        "California"
       ],
       "correct": 0,
       "explain": "Québec er en provins i Canada."
@@ -139,11 +139,11 @@
       "options": [
         "Mine svake sider er …",
         "Mine sterke sider er …",
-        "Mine venner er …",
-        "Mine poeng er …"
+        "Mine karakterer er …",
+        "Mine personlige mål er …"
       ],
       "correct": 1,
-      "explain": "points faibles = svake sider."
+      "explain": "«Points forts» betyr sterke sider, mens «points faibles» betyr svake sider."
     },
     {
       "id": "q07",
@@ -152,7 +152,7 @@
         "avoir/être i presens + partisipp",
         "avoir/être i futur + partisipp",
         "avoir/être i imparfait + partisipp",
-        "infinitiv + -ait"
+        "avoir/être i conditionnel + partisipp"
       ],
       "correct": 2,
       "explain": "J'avais déjà réservé."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr «Parlez-moi de vous»?",
       "options": [
-        "Hvem er du?",
-        "Snakk med meg!",
-        "Hvor bor du?",
+        "Fortell meg om arbeidet ditt.",
+        "Fortell meg om studiene dine.",
+        "Fortell meg hvor du bor.",
         "Fortell om deg selv."
       ],
       "correct": 3,
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva betyr «découvrir une nouvelle culture»?",
         "options": [
-          "glemme en kultur",
+          "studere en ny kultur",
           "oppdage en ny kultur",
-          "dekke over en kultur",
-          "beskrive en kultur"
+          "beskrive en ny kultur",
+          "bevare en ny kultur"
         ],
         "correct": 1,
         "explain": "découvrir = oppdage."
@@ -329,9 +329,9 @@
         "text": "Hva betyr «J'avais déjà réservé l'hôtel»?",
         "options": [
           "Jeg hadde allerede reservert hotellet.",
-          "Jeg reserverer hotellet.",
-          "Jeg skal reservere hotellet.",
-          "Jeg ville ha reservert hotellet."
+          "Jeg har allerede reservert hotellet.",
+          "Jeg skal allerede reservere hotellet.",
+          "Jeg ville allerede ha reservert hotellet."
         ],
         "correct": 0,
         "explain": "Plus-que-parfait."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva betyr «la lettre de motivation»?",
         "options": [
-          "et kjærlighetsbrev",
-          "en attest",
+          "anbefalingsbrevet",
+          "arbeidsattesten",
           "søknadsbrevet",
-          "et nyhetsbrev"
+          "karakterutskriften"
         ],
         "correct": 2,
         "explain": "Det legges ved CV-en."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

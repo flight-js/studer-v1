@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er lim ₓ→₃ (x² − 9)/(x − 3)?",
       "options": [
-        "0",
+        "9",
         "6",
-        "3",
-        "Den finnes ikke"
+        "−6",
+        "12"
       ],
       "correct": 1,
       "explain": "Forkort til x + 3."
@@ -90,9 +90,9 @@
       "text": "Hva nærmer enhetskostnaden E(x) = 500/x + 20 seg når x → ∞?",
       "options": [
         "20",
-        "0",
-        "500",
-        "520"
+        "25",
+        "480",
+        "−20"
       ],
       "correct": 0,
       "explain": "500/x → 0."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "f(x) = 2x + 1 for x < 3 og ax − 2 for x ≥ 3. Hvilken a gjør f kontinuerlig?",
       "options": [
-        "a = 1",
-        "a = 2",
+        "a = 7/3",
+        "a = 5/3",
         "a = 3",
-        "a = 7"
+        "a = 9"
       ],
       "correct": 2,
       "explain": "7 = 3a − 2."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Når finnes lim ₓ→ₐ f(x)?",
       "options": [
-        "Alltid",
-        "Bare når f(a) = 0",
-        "Bare for polynomer",
+        "Når f(a) er lik null",
+        "Når f er definert i a",
+        "Når f er voksende på begge sider av a",
         "Når venstre og høyre grense er like"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvorfor er parkering til 30 kr per påbegynt time en diskontinuerlig funksjon?",
       "options": [
         "Prisen hopper når en ny time begynner",
-        "Prisen er konstant",
-        "Prisen synker over tid",
-        "Den er et polynom"
+        "Prisen er den samme gjennom hver time",
+        "Prisen øker jevnt mens timene går",
+        "Prisen endres når parkeringen avsluttes"
       ],
       "correct": 0,
       "explain": "Grafen har sprang."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "En vare koster 100 kr/stk under 50 stk og 80 kr/stk fra 50 stk. Hva koster 50 stk?",
       "options": [
-        "5000 kr",
+        "4980 kr",
         "4000 kr",
-        "4900 kr",
-        "4080 kr"
+        "4500 kr",
+        "1000 kr"
       ],
       "correct": 1,
       "explain": "50 · 80 kr."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva kjennetegner en kontinuerlig funksjon intuitivt?",
       "options": [
-        "Den er alltid voksende",
-        "Den er et polynom",
+        "Grafen går opp når x-verdien øker",
+        "Grafen skjærer y-aksen i ett punkt",
         "Grafen kan tegnes uten å løfte blyanten",
-        "Den har asymptoter"
+        "Grafen nærmer seg en vannrett asymptote"
       ],
       "correct": 2,
       "explain": "Ingen sprang eller hull."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er den vannrette asymptoten til E(x) = 500/x + 20?",
       "options": [
-        "x = 0",
-        "y = 500",
-        "y = 0",
+        "y = 520",
+        "y = −20",
+        "x = 20",
         "y = 20"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er lim ₓ→₂ (3x + 1)?",
       "options": [
         "7",
-        "6",
-        "5",
-        "Den finnes ikke"
+        "3",
+        "9",
+        "4"
       ],
       "correct": 0,
       "explain": "Innsetting."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvilken funksjonstype er kontinuerlig overalt?",
       "options": [
-        "Trinnfunksjoner",
+        "Logaritmefunksjoner",
         "Polynomfunksjoner",
-        "Rasjonale funksjoner",
-        "Delt definerte funksjoner"
+        "Rotfunksjoner",
+        "Trinnvise funksjoner"
       ],
       "correct": 1,
       "explain": "For eksempel x² + 3x − 1."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hva er lim ₓ→∞ (4x + 3)/(2x − 1)?",
         "options": [
-          "−3",
+          "1/2",
           "2",
-          "4",
-          "∞"
+          "−2",
+          "7/2"
         ],
         "correct": 1,
         "explain": "Del med x: 4/2."
@@ -323,9 +323,9 @@
         "text": "Hva koster 49 stk når prisen er 100 kr/stk under 50 stk?",
         "options": [
           "4900 kr",
-          "3920 kr",
-          "4000 kr",
-          "5000 kr"
+          "4800 kr",
+          "490 kr",
+          "4950 kr"
         ],
         "correct": 0,
         "explain": "49 · 100 kr."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
         "options": [
-          "0",
-          "1",
+          "3",
+          "−2",
           "2",
-          "Den finnes ikke"
+          "1/2"
         ],
         "correct": 2,
         "explain": "Forkort til x + 1."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

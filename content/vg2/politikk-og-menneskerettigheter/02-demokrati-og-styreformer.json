@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva kjennetegner parlamentarisme?",
       "options": [
-        "Presidenten kan ikke felles",
+        "Regjeringen velges direkte av velgerne",
         "Regjeringen må ha nasjonalforsamlingens tillit",
-        "Kongen har all makt",
-        "Det finnes ingen valg"
+        "Presidenten må ha nasjonalforsamlingens tillit",
+        "Regjeringen må ha domstolenes tillit"
       ],
       "correct": 1,
       "explain": "Som i Norge."
@@ -91,9 +91,9 @@
       "text": "Hva er et totalitært regime?",
       "options": [
         "Et regime som prøver å kontrollere alle deler av samfunnet",
-        "Et demokrati med mange partier",
-        "Et land uten regjering",
-        "Et konstitusjonelt monarki"
+        "Et regime der staten ikke blander seg inn i samfunnslivet",
+        "Et regime der militæret har den øverste politiske makten",
+        "Et regime der makten deles mellom en valgt regjering og en monark"
       ],
       "correct": 0,
       "explain": "For eksempel Sovjetunionen under Stalin."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvilket land har presidentstyre?",
       "options": [
-        "Norge",
-        "Storbritannia",
+        "Italia",
+        "Canada",
         "USA",
-        "Tyskland"
+        "Japan"
       ],
       "correct": 2,
       "explain": "Med checks and balances.",
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er deliberativt demokrati?",
       "options": [
-        "Styre ved loddtrekning",
-        "Styre av eksperter",
-        "Styre av én leder",
+        "Demokrati som vektlegger at eksperter begrunner politiske beslutninger",
+        "Demokrati som vektlegger at velgerne stemmer direkte over saker",
+        "Demokrati som vektlegger at folkevalgte tar beslutninger uten debatt",
         "Demokrati som vektlegger offentlig samtale og gode argumenter"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva innebærer medborgerskap?",
       "options": [
-        "Både rettigheter og plikter i et politisk fellesskap",
-        "Bare rettigheter",
-        "Bare plikter",
-        "Bare stemmerett"
+        "Rettigheter og plikter i et politisk fellesskap",
+        "Rettigheter og plikter knyttet til medlemskap i et politisk parti",
+        "En juridisk status som gir tilgang til offentlige tjenester",
+        "En mulighet til å påvirke politikk gjennom valg og debatt"
       ],
       "correct": 0,
       "explain": "Og deltakelse i fellesskapet."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva har Freedom House og V-Dem registrert de siste årene?",
       "options": [
-        "At alle land er blitt demokratier",
-        "En demokratisk tilbakegang i mange land",
-        "At diktaturer er avskaffet",
-        "At valg er forbudt"
+        "At demokratiske rettigheter er blitt utvidet i mange land",
+        "At demokratiet har gått tilbake i mange land",
+        "At autoritære regimer er blitt færre i mange land",
+        "At demokratiene har blitt mer stabile i mange land"
       ],
       "correct": 1,
       "explain": "Demokratiet er under press.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilket land bruker direkte demokrati gjennom folkeavstemninger mye?",
       "options": [
-        "Kina",
-        "Russland",
+        "Tyskland",
+        "Japan",
         "Sveits",
-        "Saudi-Arabia"
+        "India"
       ],
       "correct": 2,
       "explain": "Folket stemmer over mange saker.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er et hybrid regime?",
       "options": [
-        "Et fullt demokrati",
-        "Et totalitært regime",
-        "Et monarki",
+        "Et regime med frie valg og sterke rettigheter for opposisjonen",
+        "Et regime der militæret styrer uten politisk konkurranse",
+        "Et regime der monarken deler den politiske makten med parlamentet",
         "Et regime med noen demokratiske trekk, men som ikke er fullt fritt"
       ],
       "correct": 3,
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hvilken utfordring møter mange demokratier i dag?",
       "options": [
-        "Polarisering og desinformasjon",
-        "For mye tillit",
-        "For mange frie valg",
-        "For lite ytringsfrihet i Norge"
+        "Økende polarisering og spredning av desinformasjon i samfunnet",
+        "Fallende politisk deltakelse og færre politiske partier",
+        "Økende politisk tillit og større enighet mellom velgergrupper",
+        "Sterkere samarbeid mellom partier og større politisk enighet"
       ],
       "correct": 0,
       "explain": "Også svekket tillit."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvilken rolle har kongen i et konstitusjonelt monarki?",
       "options": [
-        "All makt",
-        "Symbolsk rolle som statsoverhode",
-        "Leder regjeringen",
-        "Leder Stortinget"
+        "En utøvende rolle som regjeringssjef",
+        "En symbolsk rolle som statsoverhode",
+        "En lovgivende rolle som leder av parlamentet",
+        "En dømmende rolle som øverste dommer"
       ],
       "correct": 1,
       "explain": "Som i Norge."
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hvilket land har semipresidentstyre?",
         "options": [
-          "USA",
+          "Tyskland",
           "Frankrike",
-          "Norge",
-          "Kina"
+          "Japan",
+          "Canada"
         ],
         "correct": 1,
         "explain": "President og statsminister.",
@@ -335,9 +335,9 @@
         "text": "Når kom en stor demokratibølge etter at kommunismen falt?",
         "options": [
           "Rundt 1990",
-          "Rundt 1850",
-          "Rundt 1920",
-          "Rundt 2020"
+          "Rundt 1960",
+          "Rundt 1975",
+          "Rundt 2010"
         ],
         "correct": 0,
         "explain": "Mange land i Øst-Europa ble demokratier.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er en plikt som medborger?",
         "options": [
-          "Å stemme på et bestemt parti",
-          "Å være medlem av et parti",
+          "Å møte til politisk debatt i kommunen",
+          "Å stille som kandidat ved valg",
           "Å følge lover og betale skatt",
-          "Å delta i demonstrasjoner"
+          "Å delta i frivillig organisasjonsarbeid"
         ],
         "correct": 2,
         "explain": "Rettigheter følges av plikter."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

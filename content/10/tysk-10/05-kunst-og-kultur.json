@@ -87,10 +87,10 @@
       "id": "q01",
       "text": "Hvilken melodi av Beethoven er EUs hymne?",
       "options": [
-        "Für Elise",
+        "An die ferne Geliebte",
         "Ode an die Freude",
-        "Stille Nacht",
-        "Die Zauberflöte"
+        "Die Geschöpfe des Prometheus",
+        "Die Ruinen von Athen"
       ],
       "correct": 1,
       "explain": "Melodien kommer fra hans niende symfoni.",
@@ -114,9 +114,9 @@
       "text": "Hvilken tysk gruppe regnes som pionerer innen elektronisk musikk?",
       "options": [
         "Kraftwerk",
-        "ABBA",
-        "a-ha",
-        "The Beatles"
+        "Scorpions",
+        "Rammstein",
+        "Die Toten Hosen"
       ],
       "correct": 0,
       "explain": "Kraftwerk har påvirket mye av dagens popmusikk.",
@@ -126,8 +126,8 @@
       "id": "q04",
       "text": "Hvem skrev «Den uendelige historien» («Die unendliche Geschichte»)?",
       "options": [
-        "Goethe",
-        "Kafka",
+        "Hermann Hesse",
+        "Bertolt Brecht",
         "Michael Ende",
         "Thomas Mann"
       ],
@@ -139,9 +139,9 @@
       "id": "q05",
       "text": "Hva var Bauhaus?",
       "options": [
-        "Et slott",
-        "En byggevarekjede",
-        "Et rockeband",
+        "En skole for musikk, dans og teater fra 1919",
+        "Et museum for arkitektur, kunst og design fra 1919",
+        "En fabrikk for møbler, glass og keramikk fra 1919",
         "En skole for arkitektur, kunst og design fra 1919"
       ],
       "correct": 3,
@@ -152,10 +152,10 @@
       "id": "q06",
       "text": "Hvilket slott i Bayern har inspirert eventyrslott i film?",
       "options": [
-        "Versailles",
+        "Linderhof",
         "Neuschwanstein",
-        "Akershus",
-        "Buckingham Palace"
+        "Herrenchiemsee",
+        "Hohenschwangau"
       ],
       "correct": 1,
       "explain": "Slottet ble bygd på 1800-tallet for kong Ludwig II.",
@@ -166,9 +166,9 @@
       "text": "Hvordan sier du «Jeg liker det» om en sang eller en bok?",
       "options": [
         "Das gefällt mir.",
-        "Das mag mich.",
-        "Ich gefalle das.",
-        "Das liebt mich."
+        "Das gefällt ich.",
+        "Ich gefällt das.",
+        "Das gefallen mir."
       ],
       "correct": 0,
       "explain": "«gefallen» betyr egentlig å falle i smak."
@@ -178,9 +178,9 @@
       "text": "Hvilken østerriksk kunstner malte «Kysset»?",
       "options": [
         "Albrecht Dürer",
-        "Edvard Munch",
+        "Egon Schiele",
         "Gustav Klimt",
-        "Pablo Picasso"
+        "Oskar Kokoschka"
       ],
       "correct": 2,
       "explain": "Maleriet henger i Wien.",
@@ -191,8 +191,8 @@
       "text": "Hva betyr «Das Buch handelt von einem Jungen»?",
       "options": [
         "Boka er skrevet av en gutt",
-        "Boka ble solgt av en gutt",
-        "Gutten leser boka",
+        "Boka er fortalt av en gutt",
+        "Boka er lest av en gutt",
         "Boka handler om en gutt"
       ],
       "correct": 3,
@@ -203,9 +203,9 @@
       "text": "Hvilken tysk film vant fire Oscar-priser i 2023?",
       "options": [
         "Im Westen nichts Neues",
-        "Lola rennt",
-        "Good Bye, Lenin!",
-        "Das Boot"
+        "Das Leben der Anderen",
+        "Der Himmel über Berlin",
+        "Die fetten Jahre sind vorbei"
       ],
       "correct": 0,
       "explain": "Filmen handler om første verdenskrig.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva er «Faust»?",
         "options": [
-          "En film",
+          "Et kjent skuespill av Schiller",
           "Et kjent skuespill av Goethe",
-          "En sang",
-          "Et slott"
+          "En kjent opera av Mozart",
+          "En kjent roman av Kafka"
         ],
         "correct": 1,
         "explain": "Faust inngår en pakt med djevelen.",
@@ -464,6 +464,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

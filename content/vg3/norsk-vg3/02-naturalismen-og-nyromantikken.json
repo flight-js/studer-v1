@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva kjennetegner naturalismens menneskesyn?",
       "options": [
-        "Mennesket har full fri vilje",
+        "Mennesket formes av fri vilje og fornuft",
         "Mennesket styres av arv, miljø og drifter",
-        "Mennesket er alltid godt",
-        "Mennesket styres av Gud"
+        "Mennesket utvikler seg gjennom læring og dannelse",
+        "Mennesket styres av tro og guddommelig vilje"
       ],
       "correct": 1,
       "explain": "Liten fri vilje."
@@ -95,7 +95,7 @@
         "Amalie Skram",
         "Knut Hamsun",
         "Arne Garborg",
-        "Sigbjørn Obstfelder"
+        "Jonas Lie"
       ],
       "correct": 0,
       "explain": "Hun skrev blant annet Constance Ring."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva skjedde med Hans Jægers Fra Kristiania-Bohêmen?",
       "options": [
-        "Den vant Nobelprisen",
-        "Den ble pensum i skolen",
+        "Den ble prisbelønt",
+        "Den ble filmatisert",
         "Den ble beslaglagt",
-        "Den ble aldri utgitt"
+        "Den ble skolepensum"
       ],
       "correct": 2,
       "explain": "Jæger ble dømt til fengsel.",
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva ville nyromantikerne utforske?",
       "options": [
-        "Samfunnets institusjoner",
-        "Økonomi og politikk",
-        "Sagatidens helter",
+        "Samfunnets ytre forhold og institusjoner",
+        "Økonomiske motsetninger og politisk makt",
+        "Norrøne sagn og historiske helter",
         "Sjelelivet og det ubevisste"
       ],
       "correct": 3,
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvilken stemning uttrykker Obstfelders «Jeg ser» og Munchs Skrik?",
       "options": [
-        "Glede og fellesskap",
+        "Glede og sterk fellesskapsfølelse",
         "Angst og fremmedfølelse",
-        "Nasjonal stolthet",
-        "Religiøs trygghet"
+        "Nasjonal stolthet og samhold",
+        "Religiøs trygghet og håp"
       ],
       "correct": 1,
       "explain": "Begge fra 1893.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva handler Haugtussa om?",
       "options": [
-        "Et ulykkelig ekteskap",
-        "En sulten forfatter",
+        "Et ektepar som lever i et ulykkelig ekteskap",
+        "En kunstner som kjemper mot sult og nød",
         "Veslemøy, som ser inn i en overnaturlig verden",
-        "En slekt i forfall"
+        "En familie som rammes av arv og fattigdom"
       ],
       "correct": 2,
       "explain": "Skrevet på nynorsk."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva kjennetegner stilen i nyromantikken?",
       "options": [
-        "Objektiv og detaljert",
-        "Statistisk og faglig",
-        "Tørr og saklig",
+        "Nøktern og realistisk",
+        "Detaljert og samfunnskritisk",
+        "Historisk og nasjonalromantisk",
         "Stemningsfull og symbolsk"
       ],
       "correct": 3,
@@ -180,8 +180,8 @@
       "options": [
         "Émile Zola",
         "Georg Brandes",
-        "Henrik Wergeland",
-        "Charles Dickens"
+        "Gustave Flaubert",
+        "Honoré de Balzac"
       ],
       "correct": 0,
       "explain": "Fransk naturalist."
@@ -193,7 +193,7 @@
         "1903",
         "1920",
         "1928",
-        "2023"
+        "1908"
       ],
       "correct": 1,
       "explain": "Undset fikk den i 1928.",
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva krevde Kristiania-bohemen?",
         "options": [
-          "Strengere moral",
+          "Streng seksualmoral og respekt for borgerlige normer",
           "Fri kjærlighet og opprør mot borgerlig moral",
-          "Mer religion",
-          "Nasjonal romantikk"
+          "Større innflytelse for kirken og kristen moral",
+          "Sterkere nasjonalfølelse og respekt for tradisjonell kunst"
         ],
         "correct": 1,
         "explain": "Hans Jæger var lederen."
@@ -329,9 +329,9 @@
         "text": "Hvilken slutt er typisk for naturalistiske romaner?",
         "options": [
           "Pessimistisk",
-          "Lykkelig",
-          "Religiøs frelse",
-          "Heroisk seier"
+          "Optimistisk",
+          "Forsonende",
+          "Seierpreget"
         ],
         "correct": 0,
         "explain": "Personene går ofte til grunne."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvordan skildres hovedpersonen i Sult?",
         "options": [
-          "Objektivt utenfra",
-          "Som en helt",
+          "Utenfra med nøkterne ytre beskrivelser",
+          "Som helt med tydelige og stabile egenskaper",
           "Innenfra med skiftende stemninger",
-          "Gjennom brev"
+          "Gjennom brev med faste dateringer"
         ],
         "correct": 2,
         "explain": "Hamsun skildret sjelelivet."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

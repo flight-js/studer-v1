@@ -78,9 +78,9 @@
       "id": "q01",
       "text": "Hva forteller f′(x) i en modell?",
       "options": [
-        "Samlet mengde",
+        "Gjennomsnittlig vekstfart",
         "Momentan vekstfart",
-        "Gjennomsnittsverdi",
+        "Samlet endring",
         "Startverdi"
       ],
       "correct": 1,
@@ -91,9 +91,9 @@
       "text": "Når er veksten størst i en logistisk modell?",
       "options": [
         "Når bestanden er K/2",
-        "Ved start",
-        "Når bestanden er K",
-        "Aldri"
+        "Når bestanden er nær null",
+        "Når bestanden er lik K",
+        "Når bestanden er lik 2K"
       ],
       "correct": 0,
       "explain": "I vendepunktet.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva gir integralet av vannføring i m³/s over tid i sekunder?",
       "options": [
-        "Farten",
-        "Vannstanden",
+        "Totalt volum i m³/s",
+        "Gjennomsnittlig vannføring i m³/s",
         "Totalt volum i m³",
-        "Gjennomsnittlig vannføring"
+        "Endring i vannføring i m³/s"
       ],
       "correct": 2,
       "explain": "m³/s · s = m³."
@@ -116,7 +116,7 @@
       "text": "Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?",
       "options": [
         "(f(a) + f(b))/2",
-        "f′(b) − f′(a)",
+        "(1/(b − a)) · ∫ₐᵇ f′(x) dx",
         "∫ₐᵇ f(x) dx",
         "(1/(b − a)) · ∫ₐᵇ f(x) dx"
       ],
@@ -142,7 +142,7 @@
         "Andregradslikning",
         "Differensiallikning",
         "Eksponentiallikning",
-        "Vektorlikning"
+        "Funksjonslikning"
       ],
       "correct": 1,
       "explain": "Beskriver vekstfart."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er et vendepunkt?",
       "options": [
-        "Der f = 0",
-        "Der f′ = 0 alltid",
+        "Der f(x) er null",
+        "Der f′(x) er null",
         "Der f″ skifter fortegn",
-        "Der grafen slutter"
+        "Der grafen får et toppunkt"
       ],
       "correct": 2,
       "explain": "Vekstfarten har topp- eller bunnpunkt."
@@ -165,7 +165,7 @@
       "options": [
         "Effekt i kW",
         "Tid i timer",
-        "Gjennomsnittseffekt",
+        "Gjennomsnittseffekt i kW",
         "Energi i kWh"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvordan kan du kontrollere en løsning av en differensiallikning?",
       "options": [
         "Deriver den og sett inn i likningen",
-        "Integrer to ganger",
-        "Tegn en tabell",
-        "Du kan ikke kontrollere den"
+        "Sett startverdien inn og sammenlikn med løsningen",
+        "Integrer løsningen og sett resultatet inn i likningen",
+        "Sammenlikn løsningen med startverdien i modellen"
       ],
       "correct": 0,
       "explain": "Venstre og høyre side skal bli like."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva tyder en beregnet befolkning større enn bæreevnen i en logistisk modell på?",
       "options": [
-        "Rask vekst",
-        "Feil i utregningen eller modellen",
-        "At modellen er perfekt",
-        "Vendepunkt"
+        "Det tyder på at bestanden fortsatt vokser raskt",
+        "Det tyder på feil i utregningen eller modellen",
+        "Det tyder på at bæreevnen er nådd",
+        "Det tyder på et vendepunkt i bestanden"
       ],
       "correct": 1,
       "explain": "Vurder alltid rimeligheten.",
@@ -341,9 +341,9 @@
         "text": "Hva finner du med f(a) + ∫ₐᵇ f′(x) dx?",
         "options": [
           "f′(b)",
-          "Gjennomsnittet",
+          "f(a)",
           "f(b)",
-          "Arealet under f"
+          "f(b) − f(a)"
         ],
         "correct": 2,
         "explain": "Startverdi pluss total endring."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

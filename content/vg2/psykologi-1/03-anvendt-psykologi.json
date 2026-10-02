@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva er anvendt psykologi?",
       "options": [
-        "Psykologi om dyr",
+        "Studier av psykologiske teorier uten å løse praktiske problemer",
         "Bruk av psykologisk kunnskap til å løse praktiske problemer",
-        "Psykologi bare for leger",
-        "Historisk psykologi"
+        "Bruk av medisinsk kunnskap til å løse praktiske problemer",
+        "Studier av menneskers atferd uten å bruke psykologisk kunnskap"
       ],
       "correct": 1,
       "explain": "I motsetning til grunnforskning."
@@ -97,9 +97,9 @@
       "text": "Hva er forskjellen på en psykolog og en psykiater?",
       "options": [
         "En psykiater er lege og kan skrive ut medisiner",
-        "Det er det samme",
-        "En psykolog kan skrive ut medisiner",
-        "En psykiater jobber bare i skolen"
+        "En psykolog er lege og kan skrive ut medisiner",
+        "En psykiater er psykolog og kan skrive ut medisiner",
+        "En psykiater er lege og skriver ut medisiner etter psykologens godkjenning"
       ],
       "correct": 0,
       "explain": "Begge kan behandle psykiske lidelser."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva gjør kognitiv atferdsterapi?",
       "options": [
-        "Tolker drømmer",
-        "Gir medisiner",
+        "Hjelper personen å tolke ubevisste konflikter og drømmer",
+        "Hjelper personen å få medisiner for å endre tankemønstre",
         "Hjelper personen å endre tankemønstre og atferd",
-        "Opererer i hjernen"
+        "Hjelper personen å forstå barndommen uten å endre atferd"
       ],
       "correct": 2,
       "explain": "En mye brukt behandlingsform."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva gjør PP-tjenesten?",
       "options": [
-        "Rekrutterer ledere",
-        "Avhører vitner",
-        "Trener idrettsutøvere",
-        "Utreder elever som trenger spesialundervisning"
+        "PP-tjenesten vurderer søkere til høyere utdanning for opptak",
+        "PP-tjenesten gir familier juridisk hjelp ved konflikter om skolegang",
+        "PP-tjenesten behandler elever med psykiske lidelser gjennom samtaleterapi",
+        "PP-tjenesten utreder elever som trenger spesialundervisning i skolen"
       ],
       "correct": 3,
       "explain": "Pedagogisk-psykologisk tjeneste.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hvorfor er rettspsykologi viktig ved vitneutsagn?",
       "options": [
-        "Vitner lyver alltid",
+        "Vitneutsagn blir pålitelige når flere vitner snakker sammen",
         "Hukommelsen kan påvirkes av ledende spørsmål",
-        "Vitner husker alt perfekt",
-        "Retten bruker ikke vitner"
+        "Vitners hukommelse lagrer hendelser som et nøyaktig opptak",
+        "Hukommelsen påvirkes først når vitnet møter i retten"
       ],
       "correct": 1,
       "explain": "Minner kan endres."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er et eksempel på psykologi i markedsføring?",
       "options": [
-        "Å gi ærlige produktopplysninger",
-        "Å selge varer billig",
+        "Å skrive «vi har stort lager» for å skape knapphet",
+        "Å skrive «samme pris hele året» for å skape tidsbegrensning",
         "Å skrive «bare tre igjen!» for å skape knapphet",
-        "Å ha åpent om søndagen"
+        "Å skrive «mange størrelser på lager» for å skape knapphet"
       ],
       "correct": 2,
       "explain": "Knapphet øker lysten til å kjøpe.",
@@ -183,9 +183,9 @@
       "text": "Kan hvem som helst kalle seg psykolog i Norge?",
       "options": [
         "Nei, tittelen er beskyttet",
-        "Ja",
-        "Ja, hvis de har tatt et nettkurs",
-        "Bare hvis de jobber i skolen"
+        "Ja, tittelen er åpen for alle",
+        "Ja, et kort kurs gir rett til tittelen",
+        "Ja, relevant erfaring gir rett til tittelen"
       ],
       "correct": 0,
       "explain": "Krever autorisasjon.",
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hvilket etisk spørsmål er viktig i anvendt psykologi?",
       "options": [
-        "Om kunnskapen er gammel",
+        "Om kunnskapen er presentert med faglige illustrasjoner",
         "Om kunnskapen brukes i personens egen interesse",
-        "Om psykologen er ung",
-        "Om metoden er dyr"
+        "Om kunnskapen ble utviklet ved et bestemt universitet",
+        "Om metoden har fått mange positive omtaler"
       ],
       "correct": 1,
       "explain": "Psykologi kan brukes både til å hjelpe og manipulere."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva er visualisering i idrettspsykologi?",
         "options": [
-          "Å se på video av motstanderen",
+          "Å øve på bevegelser fysisk før konkurransen",
           "Å se for seg en prestasjon i detalj",
-          "Å bruke briller",
-          "Å tegne treningsplaner"
+          "Å se video av en tidligere prestasjon i detalj",
+          "Å planlegge taktikken sammen med treneren før konkurransen"
         ],
         "correct": 1,
         "explain": "En form for mental trening.",
@@ -340,9 +340,9 @@
         "text": "Hvor avhøres barn som kan ha vært utsatt for vold?",
         "options": [
           "I Statens barnehus",
-          "På skolen",
-          "Hos Arbeidstilsynet",
-          "I Stortinget"
+          "I barneverntjenesten",
+          "På familievernkontoret",
+          "Ved konfliktrådet"
         ],
         "correct": 0,
         "explain": "Avhøret tilpasses barnet.",
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner grunnforskning?",
         "options": [
-          "Den løser alltid et praktisk problem",
-          "Den gjøres bare i skolen",
+          "Den bruker kjent kunnskap til å løse praktiske problemer",
+          "Den undersøker en bestemt metode for å forbedre praksis",
           "Den søker ny kunnskap uten et bestemt praktisk mål",
-          "Den bruker ikke data"
+          "Den samler data for å forbedre en bestemt arbeidsmetode"
         ],
         "correct": 2,
         "explain": "Anvendt forskning bygger videre på den."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

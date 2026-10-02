@@ -80,7 +80,7 @@
         "Passé composé",
         "Imparfait",
         "Futur simple",
-        "Presens"
+        "Plus-que-parfait"
       ],
       "correct": 1,
       "explain": "Imparfait beskriver hvordan det var."
@@ -127,8 +127,8 @@
       "options": [
         "pleuvait – suis sorti",
         "a plu – sortais",
-        "pleut – sors",
-        "pleuvra – sortirai"
+        "pleut – suis sorti",
+        "pleuvait – sortirai"
       ],
       "correct": 0,
       "explain": "Bakgrunn i imparfait, hendelse i passé composé."
@@ -139,8 +139,8 @@
       "options": [
         "prendu",
         "pris",
-        "prené",
-        "prit"
+        "prit",
+        "prend"
       ],
       "correct": 1,
       "explain": "J'ai pris le train."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er imparfait av «être» i jeg-form?",
       "options": [
-        "je suivais",
-        "j'étaient",
+        "je suis",
+        "j'ai été",
         "j'étais",
-        "je serai"
+        "je serais"
       ],
       "correct": 2,
       "explain": "être er det eneste unntaket fra nous-regelen."
@@ -163,7 +163,7 @@
       "options": [
         "til slutt",
         "først",
-        "etterpå",
+        "senere",
         "plutselig"
       ],
       "correct": 3,
@@ -313,9 +313,9 @@
         "text": "Hva betyr «Quand j'étais petit, j'allais chez ma grand-mère»?",
         "options": [
           "Da jeg var liten, pleide jeg å dra til bestemor.",
-          "Jeg skal dra til bestemor.",
-          "Jeg dro til bestemor i går.",
-          "Bestemor var liten."
+          "Da jeg er liten, pleier jeg å dra til bestemor.",
+          "Da jeg var liten, dro jeg én gang til bestemor.",
+          "Da jeg var liten, pleide jeg å dra til morfar."
         ],
         "correct": 0,
         "explain": "Imparfait uttrykker vaner."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva er partisipp av «avoir»?",
         "options": [
-          "avé",
-          "avu",
+          "été",
+          "avait",
           "eu",
-          "été"
+          "avoir"
         ],
         "correct": 2,
         "explain": "J'ai eu de la chance."
@@ -340,8 +340,8 @@
         "options": [
           "l'été prochain",
           "l'été dernier",
-          "cet été",
-          "en été"
+          "l'hiver dernier",
+          "au printemps dernier"
         ],
         "correct": 1,
         "explain": "dernier = forrige."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

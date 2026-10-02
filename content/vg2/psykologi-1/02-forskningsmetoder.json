@@ -88,7 +88,7 @@
       "options": [
         "Korrelasjonsstudie",
         "Eksperiment",
-        "Spørreskjema",
+        "Spørreundersøkelse",
         "Kasusstudie"
       ],
       "correct": 1,
@@ -100,44 +100,44 @@
       "options": [
         "Det som måles",
         "Det forskeren endrer",
-        "Kontrollgruppen",
-        "Hypotesen"
+        "Gruppen som ikke får behandling",
+        "Antakelsen som testes"
       ],
       "correct": 0,
-      "explain": "Den uavhengige variabelen er det som endres."
+      "explain": "Den avhengige variabelen er resultatet som måles; forskeren endrer den uavhengige variabelen."
     },
     {
       "id": "q03",
       "text": "En studie finner at elever med mye skjermtid sover mindre. Hva kan vi konkludere?",
       "options": [
-        "Skjermtid gir alltid dårlig søvn",
-        "Dårlig søvn gir skjermtid",
+        "Mer skjermtid fører til mindre søvn hos elevene",
+        "Lite søvn fører til mer skjermtid hos elevene",
         "Det er en sammenheng, men ikke nødvendigvis årsak",
-        "Studien er ugyldig"
+        "Skjermtid påvirker søvnlengden direkte hos elevene"
       ],
       "correct": 2,
-      "explain": "Korrelasjon er ikke kausalitet."
+      "explain": "En sammenheng viser at variablene varierer sammen, men ikke hvilken som påvirker den andre."
     },
     {
       "id": "q04",
       "text": "Hva betyr reliabilitet?",
       "options": [
-        "At studien er etisk",
-        "At man måler det man vil",
-        "At funnene gjelder alle",
-        "At målingen er pålitelig og gir samme resultat ved gjentakelse"
+        "At studien følger etiske regler for deltakerne",
+        "At målingen undersøker det begrepet den skal måle",
+        "At resultatene kan overføres til andre grupper",
+        "At målingen gir stabile resultater ved gjentakelse"
       ],
       "correct": 3,
-      "explain": "Validitet er å måle det man vil måle."
+      "explain": "Reliabilitet handler om stabile målinger; validitet handler om å måle det man vil undersøke."
     },
     {
       "id": "q05",
       "text": "Hva er sosial ønskverdighet?",
       "options": [
-        "At folk svarer det som virker akseptert",
-        "At forskeren ønsker et bestemt resultat",
-        "At deltakerne får betalt",
-        "At studien er populær"
+        "At folk svarer slik de tror er sosialt akseptert",
+        "At forskeren velger svar som passer egne forventninger",
+        "At deltakerne svarer tilfeldig fordi spørsmålene er uklare",
+        "At deltakerne gir korte svar for å bli fort ferdige"
       ],
       "correct": 0,
       "explain": "En svakhet ved spørreskjema og intervju."
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva kjennetegner en dobbeltblind studie?",
       "options": [
-        "Deltakerne ser ikke",
-        "Verken deltakere eller forskere vet hvem som er i hvilken gruppe",
-        "Studien gjøres to ganger",
-        "Det er to forskere"
+        "Deltakerne vet ikke gruppen sin, men forskerne kjenner fordelingen",
+        "Deltakere og forskere vet ikke hvem som er i hver gruppe",
+        "Forskerne kjenner ikke gruppene, men deltakerne vet hvor de er",
+        "Deltakere og forskere kjenner gruppetilhørigheten gjennom hele studien"
       ],
       "correct": 1,
       "explain": "Hindrer forventningseffekter.",
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hva er informert samtykke?",
       "options": [
-        "At forskeren informerer pressen",
-        "At deltakerne får betalt",
-        "At deltakerne vet hva de er med på og sier ja frivillig",
-        "At studien er godkjent av staten"
+        "Deltakerne får informasjon om studien etter at datainnsamlingen er ferdig",
+        "Forskerne velger deltakere tilfeldig etter å ha forklart studiens formål",
+        "Deltakerne får vite hva studien innebærer og sier frivillig ja til å delta",
+        "Institusjonen godkjenner studien før deltakerne får informasjon om den"
       ],
       "correct": 2,
       "explain": "Et grunnprinsipp i forskningsetikken."
@@ -171,10 +171,10 @@
       "id": "q08",
       "text": "Hva er en kasusstudie?",
       "options": [
-        "En studie av tusenvis av personer",
-        "Et eksperiment med kontrollgruppe",
-        "En spørreundersøkelse",
-        "En grundig studie av én person eller gruppe"
+        "En spørreundersøkelse der mange svarer på like spørsmål",
+        "Et eksperiment der forskeren endrer én variabel og måler en annen",
+        "En korrelasjonsstudie som måler sammenhengen mellom to variabler",
+        "En grundig undersøkelse av én person eller én gruppe"
       ],
       "correct": 3,
       "explain": "Ofte ved sjeldne tilstander."
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hvorfor er det et problem at mange studier bruker vestlige studenter?",
       "options": [
-        "Resultatene er ikke nødvendigvis generaliserbare",
-        "Studentene lyver",
-        "Det er ulovlig",
-        "Studentene er for smarte"
+        "Resultatene kan ikke uten videre overføres til alle befolkningsgrupper",
+        "Resultatene er mindre pålitelige fordi studentene kjenner forskerne",
+        "Resultatene påvirkes av at studentene svarer anonymt på spørsmålene",
+        "Resultatene blir skjeve fordi studentene får betaling for å delta"
       ],
       "correct": 0,
       "explain": "Utvalget er ikke representativt for alle mennesker."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hvorfor ville Milgrams lydighetseksperiment blitt kritisert i dag?",
       "options": [
-        "Det hadde for få deltakere",
-        "Det utsatte deltakerne for sterkt stress",
-        "Det brukte dyr",
-        "Det var for kort"
+        "Forskerne utsatte deltakerne for ekte elektriske støt under forsøket",
+        "Det utsatte deltakerne for sterkt psykisk stress",
+        "Forskerne undersøkte barns lydighet i en vanlig skoleklasse",
+        "Forskerne målte deltakernes lydighet med et spørreskjema"
       ],
       "correct": 1,
       "explain": "Forskningsetikken krever at deltakerne ikke skades.",
@@ -323,7 +323,7 @@
         "type": "flervalg",
         "text": "Hvilken metode egner seg best for å forstå en persons opplevelse i dybden?",
         "options": [
-          "Et stort spørreskjema",
+          "Et strukturert spørreskjema",
           "Et kvalitativt intervju",
           "En korrelasjonsstudie",
           "En statistisk registerstudie"
@@ -337,9 +337,9 @@
         "text": "Hvilke studier brukes for å undersøke arv og miljø?",
         "options": [
           "Tvillingstudier",
-          "Markedsundersøkelser",
-          "Meningsmålinger",
-          "Feltarbeid i geologi"
+          "Korrelasjonsstudier",
+          "Kasusstudier",
+          "Spørreundersøkelser"
         ],
         "correct": 0,
         "explain": "Eneggede tvillinger har samme gener.",
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hvilken kilde er mest pålitelig for psykologisk kunnskap?",
         "options": [
-          "En personlighetstest på sosiale medier",
-          "En reklame for et kurs",
+          "Et anonymt innlegg på et psykologiforum",
+          "En reklameartikkel om et selvhjelpskurs",
           "En fagfellevurdert forskningsartikkel",
-          "Et anonymt forum"
+          "Et innlegg om psykologi på sosiale medier"
         ],
         "correct": 2,
         "explain": "Andre forskere har vurdert den."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

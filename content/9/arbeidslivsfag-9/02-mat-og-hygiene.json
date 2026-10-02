@@ -82,9 +82,9 @@
       "text": "Hvorfor bør man bruke egne skjærefjøler til rått kjøtt og grønnsaker?",
       "options": [
         "For å unngå at bakterier overføres",
-        "Fordi det ser pent ut",
-        "For å spare tid",
-        "Fordi kjøtt er tyngre"
+        "For å hindre at maten mister smak under kutting",
+        "For å gjøre fjøla trygg å bruke uten vask",
+        "For å holde kniven skarpere når du kutter grønnsaker"
       ],
       "correct": 0,
       "explain": "Dette forebygger krysskontaminering."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hvilken temperatur skal et kjøleskap holde?",
       "options": [
-        "10 °C eller lavere",
-        "0 °C",
+        "8 °C eller lavere",
+        "–18 °C eller lavere",
         "4 °C eller lavere",
-        "–18 °C"
+        "10 °C eller lavere"
       ],
       "correct": 2,
       "explain": "Lav temperatur bremser veksten av bakterier."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hvorfor brukes blått plaster på kjøkkenet?",
       "options": [
-        "Det er billigst",
+        "Det holder bedre fast når hendene blir våte",
         "Det er lett å se hvis det faller i maten",
-        "Det gror raskere",
-        "Det er påbudt i alle yrker"
+        "Det beskytter såret bedre mot varme fra maten",
+        "Det viser at den ansatte har vasket hendene"
       ],
       "correct": 1,
       "explain": "Få matvarer er blå, så plasteret skiller seg ut.",
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva betyr «best før»?",
       "options": [
-        "Maten må kastes etter datoen",
-        "Maten er giftig etter datoen",
-        "Maten må fryses",
-        "Maten er ofte god også etter datoen"
+        "Maten må kastes når datoen har passert",
+        "Maten må fryses før datoen har passert",
+        "Maten skal spises samme dag som datoen står",
+        "Maten kan fortsatt være god etter datoen"
       ],
       "correct": 3,
       "explain": "Bruk sansene: se, lukt og smak."
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Ved hvilke temperaturer formerer bakterier seg raskest?",
       "options": [
-        "Under –18 °C",
+        "Omtrent –18 til 0 °C",
         "Omtrent 10–60 °C",
-        "Over 100 °C",
-        "Bare ved 0 °C"
+        "Omtrent 60–100 °C",
+        "Omtrent 0–5 °C"
       ],
       "correct": 1,
       "explain": "Derfor skal kald mat holdes kald og varm mat varm."
@@ -143,9 +143,9 @@
       "text": "Hva er et eksempel på et allergen?",
       "options": [
         "Nøtter",
-        "Vann",
-        "Salt",
-        "Sukker"
+        "Laktose",
+        "Glukose",
+        "Stivelse"
       ],
       "correct": 0,
       "explain": "Også melk, egg, gluten, fisk og skalldyr er vanlige allergener."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "En oppskrift er for 4 personer. Hvordan lager du mat til 20?",
       "options": [
-        "Deler mengdene på 5",
-        "Legger til 16 gram av alt",
+        "Deler mengdene med 5",
+        "Ganger mengdene med 4",
         "Ganger mengdene med 5",
-        "Bruker samme mengder"
+        "Ganger mengdene med 20"
       ],
       "correct": 2,
       "explain": "20 delt på 4 er 5."
@@ -168,8 +168,8 @@
       "options": [
         "Arbeidstilsynet",
         "Mattilsynet",
-        "Politiet",
-        "Kommunen"
+        "Helsedirektoratet",
+        "Miljødirektoratet"
       ],
       "correct": 1,
       "explain": "Mattilsynet kontrollerer blant annet restauranter og butikker.",
@@ -179,9 +179,9 @@
       "id": "q09",
       "text": "Hva er matsvinn?",
       "options": [
-        "Mat som selges",
-        "Mat som fryses",
-        "Mat som lages",
+        "Mat som selges billig",
+        "Mat som fryses ned",
+        "Mat som tilberedes fersk",
         "Spiselig mat som kastes"
       ],
       "correct": 3,
@@ -192,9 +192,9 @@
       "text": "Når bør du ikke lage mat for andre?",
       "options": [
         "Når du har omgangssyke",
-        "Når du er sulten",
-        "Når det er fredag",
-        "Når du har hårnett"
+        "Når du er litt sulten",
+        "Når du har vasket hendene",
+        "Når du bruker rent arbeidstøy"
       ],
       "correct": 0,
       "explain": "Omgangssyke smitter lett via mat."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva betyr «siste forbruksdag»?",
         "options": [
-          "Maten er ofte god lenge etter datoen",
-          "Maten bør ikke spises etter datoen",
-          "Maten må fryses før datoen",
-          "Maten er på salg"
+          "Maten kan spises etter datoen hvis den lukter godt",
+          "Maten bør ikke spises når datoen er passert",
+          "Maten kan fryses etter datoen for senere bruk",
+          "Maten kan spises etter datoen hvis den er kokt"
         ],
         "correct": 1,
         "explain": "Denne merkingen brukes på ferskvarer som kjøtt og fisk."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvorfor fører mange kjøkken temperaturlogg?",
         "options": [
-          "For å kontrollere at kjøleskap og frysere holder riktig temperatur",
-          "For å vite hvor varmt det er ute",
-          "For å holde styr på lønna",
-          "For å telle kunder"
+          "For å kontrollere temperaturen i kjøleskap og frysere",
+          "For å kontrollere hvor lenge maten har stått ute",
+          "For å kontrollere om maten er ferdig tilberedt",
+          "For å kontrollere hvor mye mat som er lagret"
         ],
         "correct": 0,
         "explain": "Loggen viser at mattryggheten blir fulgt opp.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hvilket yrke utdannes gjennom restaurant- og matfag?",
         "options": [
-          "Elektriker",
-          "Frisør",
+          "Bilmekaniker",
+          "Helsefagarbeider",
           "Baker",
-          "Tømrer"
+          "Rørlegger"
         ],
         "correct": 2,
         "explain": "Også kokker, servitører og slaktere utdannes her.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

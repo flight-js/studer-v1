@@ -99,7 +99,8 @@
     },
     {
       "term": "2 + 2-modellen",
-      "def": "To år i skole og to år som lærling i bedrift."
+      "def": "To år i skole og to år som lærling i bedrift.",
+      "niva": "eksempel"
     },
     {
       "term": "Lærling",
@@ -124,10 +125,10 @@
       "id": "q01",
       "text": "Hva kjennetegner et prosjekt?",
       "options": [
-        "Det varer for alltid",
+        "Det har et uklart mål, en start og en slutt",
         "Det har et tydelig mål, en start og en slutt",
-        "Det har ingen budsjett",
-        "Det gjøres alltid alene"
+        "Det har et tydelig mål, men arbeidet gjentas som en fast rutine",
+        "Det har et tydelig mål, men mangler en avgrenset slutt"
       ],
       "correct": 1,
       "explain": "Prosjekter er avgrensede oppgaver."
@@ -136,10 +137,10 @@
       "id": "q02",
       "text": "Hva er forskjellen på budsjett og regnskap?",
       "options": [
-        "Det er det samme",
-        "Regnskapet lages før prosjektet",
-        "Budsjettet viser hva som faktisk ble brukt",
-        "Budsjettet er en plan, regnskapet viser hva som faktisk skjedde"
+        "Regnskapet er planen, mens budsjettet viser de faktiske inntektene og utgiftene",
+        "Budsjettet viser planlagte utgifter, mens regnskapet viser planlagte inntekter",
+        "Budsjettet viser faktiske utgifter, mens regnskapet viser planlagte utgifter",
+        "Budsjettet er planen, mens regnskapet viser de faktiske inntektene og utgiftene"
       ],
       "correct": 3,
       "explain": "Ved å sammenligne dem ser man om prosjektet holdt seg innenfor rammene."
@@ -148,10 +149,10 @@
       "id": "q03",
       "text": "Hva gjør man på et statusmøte?",
       "options": [
-        "Feirer at prosjektet er ferdig",
-        "Velger ny prosjektleder",
+        "Går gjennom hvilke oppgaver som skal startes, fordeler arbeidet og lager tidsplanen",
+        "Kontrollerer sluttresultatet, evaluerer arbeidet og skriver sluttrapporten",
         "Går gjennom hva som er gjort, hva som gjenstår og om det er problemer",
-        "Deler ut lønn"
+        "Fordeler nye arbeidsoppgaver, bestiller materialer og lager prosjektbudsjettet"
       ],
       "correct": 2,
       "explain": "Statusmøter gjør det mulig å justere planen i tide.",
@@ -161,10 +162,10 @@
       "id": "q04",
       "text": "Hva skal en arbeidsavtale inneholde?",
       "options": [
-        "Bare navnet ditt",
+        "Arbeidsklær, lunsjpause, transport og personalrabatt",
         "Arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid",
-        "Karakterene dine",
-        "Hobbyene dine"
+        "Skolefag, karakterer, fritidsinteresser og favorittfag",
+        "Treningsvaner, kosthold, reiseplaner og hobbyer"
       ],
       "correct": 1,
       "explain": "Alle arbeidstakere har rett til skriftlig arbeidsavtale."
@@ -174,9 +175,9 @@
       "text": "Hva er svart arbeid?",
       "options": [
         "Arbeid der lønnen ikke oppgis til skattemyndighetene",
-        "Arbeid om natta",
-        "Arbeid med farlige stoffer",
-        "Arbeid i helgene"
+        "Arbeid der arbeidstiden ikke registreres hos arbeidsgiveren",
+        "Arbeid der lønnen utbetales uten skriftlig arbeidsavtale",
+        "Arbeid der skatten betales direkte til arbeidsgiveren"
       ],
       "correct": 0,
       "explain": "Svart arbeid er ulovlig og gir ingen rettigheter."
@@ -186,9 +187,9 @@
       "text": "Hva er en plikt du har som arbeidstaker?",
       "options": [
         "Å møte presis og følge instrukser",
-        "Å bestemme lønna selv",
-        "Å ta fri når du vil",
-        "Å jobbe gratis"
+        "Å bestemme lønna selv uten avtale",
+        "Å velge arbeidstid uten å avtale med sjefen",
+        "Å utføre oppgaver uten å følge sikkerhetsregler"
       ],
       "correct": 0,
       "explain": "Du skal også gi beskjed ved sykdom."
@@ -197,10 +198,10 @@
       "id": "q07",
       "text": "Hvem samarbeider i trepartssamarbeidet?",
       "options": [
-        "Elever, lærere og foreldre",
-        "Kommunen, fylket og staten",
+        "Arbeidstilsynet, NAV og skatteetaten",
+        "Arbeidstakere, kommuner og domstoler",
         "Arbeidstakere, arbeidsgivere og staten",
-        "Tre bedrifter"
+        "Bedriftseiere, kunder og leverandører"
       ],
       "correct": 2,
       "explain": "Trepartssamarbeidet er kjernen i den norske modellen.",
@@ -211,9 +212,9 @@
       "text": "Hvilke tre spørsmål svarer en forretningsidé på?",
       "options": [
         "Hva, til hvem og hvordan skiller vi oss ut?",
-        "Hvor, når og hvorfor?",
-        "Hvem, hva og hvor mye?",
-        "Når, hvordan og hvor lenge?"
+        "Hvor, når og hvorfor starter vi bedriften?",
+        "Hvem lager regnskapet, hva koster det og når betaler vi?",
+        "Hvor kjøper vi utstyr, hvem ansetter vi og når åpner vi?"
       ],
       "correct": 0,
       "explain": "Forretningsideen er grunnlaget for bedriften.",
@@ -223,10 +224,10 @@
       "id": "q09",
       "text": "Hva står de fire P-ene for?",
       "options": [
-        "Penger, planer, personer og profitt",
+        "Produkt, pris, produksjon og personale",
         "Produkt, pris, plass og påvirkning",
-        "Pakking, porto, post og papir",
-        "Plan, prosess, produkt og presentasjon"
+        "Produkt, plass, påvirkning og planlegging",
+        "Pris, plass, profil og personale"
       ],
       "correct": 1,
       "explain": "De fire P-ene kalles markedsføringsmiksen.",
@@ -236,8 +237,8 @@
       "id": "q10",
       "text": "Inntektene er 8000 kr og kostnadene 5500 kr. Hva er resultatet?",
       "options": [
-        "13 500 kr",
-        "5500 kr",
+        "13 500 kr i overskudd",
+        "5500 kr i overskudd",
         "2500 kr i overskudd",
         "2500 kr i underskudd"
       ],
@@ -248,10 +249,10 @@
       "id": "q11",
       "text": "Hvorfor bør man gjøre en markedsundersøkelse?",
       "options": [
-        "For å finne ut om noen vil kjøpe produktet og hva de vil betale",
-        "For å slippe å lage produktet",
-        "Fordi det er påbudt ved lov",
-        "For å finne en daglig leder"
+        "For å undersøke om kunder vil kjøpe produktet og til hvilken pris",
+        "For å beregne hvor mye skatt bedriften skal betale",
+        "For å finne ut hvem som skal ha lederansvar i bedriften",
+        "For å kontrollere hvor mange varer bedriften har på lager"
       ],
       "correct": 0,
       "explain": "Da reduserer man risikoen for å lage noe ingen vil ha."
@@ -261,21 +262,22 @@
       "text": "Hva er 2 + 2-modellen?",
       "options": [
         "To år i skole og to år som lærling",
-        "To år på ungdomsskolen og to år på videregående",
-        "To fag og to prøver",
-        "To lærere og to elever"
+        "Ett år i skole og tre år som lærling",
+        "Tre år i skole og ett år som lærling",
+        "To år på ungdomsskolen og to år i lære"
       ],
       "correct": 0,
-      "explain": "De fleste yrkesfag følger denne modellen."
+      "explain": "De fleste yrkesfag følger denne modellen.",
+      "niva": "eksempel"
     },
     {
       "id": "q13",
       "text": "Hva er påbygging?",
       "options": [
         "Et år som gir generell studiekompetanse etter yrkesfag",
-        "Å bygge et hus",
-        "En lærlingplass",
-        "En del av ungdomsskolen"
+        "Et år som gir fagbrev etter yrkesfaglig skole",
+        "Et år som gir spesialisering på fagskole etter fagbrev",
+        "Et år med læretid som gir studiekompetanse etter yrkesfag"
       ],
       "correct": 0,
       "explain": "Påbygging gjør det mulig å søke høyere utdanning.",
@@ -285,14 +287,13 @@
       "id": "q14",
       "text": "Hvorfor er livslang læring viktig for fagarbeidere?",
       "options": [
-        "Fordi yrkene ikke endrer seg",
+        "Fordi ny teknologi og det grønne skiftet gjelder mest nye yrker",
         "Fordi ny teknologi og det grønne skiftet endrer mange yrker",
-        "Fordi det er påbudt å gå på skole hele livet",
-        "Det er ikke viktig"
+        "Fordi nye krav i arbeidslivet gjør fagbrev mindre nyttige",
+        "Fordi videreutdanning mest handler om å bytte til et annet yrke"
       ],
       "correct": 1,
-      "explain": "Fagarbeidere må stadig lære nye metoder og verktøy.",
-      "niva": "eksempel"
+      "explain": "Fagarbeidere må stadig lære nye metoder og verktøy."
     }
   ],
   "mindmap": {
@@ -401,7 +402,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -431,14 +432,13 @@
         "type": "flervalg",
         "text": "Hvem har ansvar for å fordele ressursene i et prosjekt?",
         "options": [
-          "Kunden",
+          "Oppdragsgiveren",
           "Prosjektlederen",
-          "Leverandøren",
-          "Ingen"
+          "Prosjektmedarbeideren",
+          "Leverandøren"
         ],
         "correct": 1,
-        "explain": "Prosjektlederen holder oversikten.",
-        "niva": "eksempel"
+        "explain": "Prosjektlederen holder oversikten."
       },
       {
         "id": "m03",
@@ -544,13 +544,99 @@
         "kriterier": [
           "Forklarer fordelingen mellom skole og læretid.",
           "Kobler bestått prøve til fagbrev eller svennebrev."
-        ]
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "text": "En elevbedrift skal lage 40 stoffposer til en salgsdag om fire uker. Stoffet må kjøpes før posene kan sys, mens plakater kan lages samtidig med sømmen. Forklar hvordan et Gantt-diagram, milepæler og statusmøter kan hjelpe bedriften med å holde oversikt og håndtere forsinkelser.",
+        "fasit": "I et Gantt-diagram kan innkjøp og søm vises i riktig rekkefølge, mens plakatene kan lages samtidig med sømmen. Milepæler viser viktige delmål, og på statusmøter kan teamet oppdage forsinkelser og justere planen.",
+        "kriterier": [
+          "Viser riktig rekkefølge og samtidighet i Gantt-diagrammet.",
+          "Forklarer at milepæler markerer delmål.",
+          "Forklarer at statusmøter avdekker problemer og kan føre til justering av planen."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En butikk tilbyr en ungdom lønn kontant uten å oppgi den til skattemyndighetene. Forklar hva slags arbeid dette er, og nevn to følger det kan få for ungdommen.",
+        "fasit": "Dette er svart arbeid fordi lønnen ikke blir oppgitt til skattemyndighetene. Ungdommen kan miste rettigheter som sykepenger, feriepenger, pensjonsopptjening og forsikring ved ulykker.",
+        "kriterier": [
+          "Forklarer at svart arbeid ikke blir oppgitt til skattemyndighetene.",
+          "Nevner to rettigheter som kan gå tapt, for eksempel sykepenger, feriepenger, pensjonsopptjening eller ulykkesforsikring."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En elevbedrift får en stor bestilling, men teamet mangler oversikt over hvem som skal kjøpe materialer, følge med på pengene og passe på framdriften. Forklar hvordan prosjektlederen og aktuelle roller i elevbedriften kan bidra til å få arbeidet gjort innen fristen og budsjettet.",
+        "fasit": "Prosjektlederen kan fordele personer, tid og materialer og følge med på framdriften. Produksjonsansvarlig kan ordne materialer og produksjon, mens økonomiansvarlig følger budsjettet. Daglig leder holder oversikt, og tydelig kommunikasjon gjør det lettere å oppdage problemer tidlig.",
+        "kriterier": [
+          "Forklarer prosjektlederens ansvar for å fordele ressurser og følge opp framdriften.",
+          "Knytter relevante roller, som produksjonsansvarlig og økonomiansvarlig, til oppgavene deres.",
+          "Viser at oversikt og kommunikasjon kan bidra til å holde frist og budsjett."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sara er 16 år og vurderer restaurant- og matfag, men vil først finne ut om hun trives med praktisk arbeid på et kjøkken. Forklar hvordan hun kan undersøke yrket, og hva arbeidsgiveren må ta hensyn til hvis hun får en jobb på et kjøkken.",
+        "fasit": "Sara kan prøve hospitering og snakke med personer som jobber i yrket. Hvis hun får jobb, skal arbeidsgiveren gi opplæring og sørge for et trygt arbeid. Som ungdom skal hun ikke utføre farlig arbeid eller håndtere farlige maskiner og stoffer uten opplæring og tilsyn.",
+        "kriterier": [
+          "Nevner hospitering eller samtale med personer i yrket som en måte å undersøke det på.",
+          "Forklarer at arbeidsgiveren skal gi opplæring og sørge for trygghet.",
+          "Nevner begrensningen på farlig arbeid eller farlige maskiner og stoffer for unge."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En arbeidstaker tjente 2500 kroner året før ferien. Feriepengene skal være minst 10,2 prosent av lønnen. Regn ut det minste beløpet arbeidstakeren har tjent opp i feriepenger, og forklar når feriepenger tjenes opp.",
+        "fasit": "10,2 prosent av 2500 kroner er 255 kroner. Feriepengene tjenes opp året før de blir utbetalt.",
+        "kriterier": [
+          "Regner ut 255 kroner.",
+          "Forklarer at feriepenger tjenes opp året før."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En arbeidstaker har 125 kroner i timelønn og arbeider to timer overtid. Overtidstillegget skal være minst 40 prosent. Regn ut den minste lønnen for de to overtidstimene, inkludert tillegget.",
+        "fasit": "40 prosent av 125 kroner er 50 kroner, så overtidslønnen blir minst 175 kroner per time. For to timer blir det 350 kroner.",
+        "kriterier": [
+          "Regner ut minst 175 kroner per overtidstime.",
+          "Regner ut minst 350 kroner for de to timene."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Et skoleprosjekt er ferdig, og en elevbedrift avslutter virksomheten ved slutten av skoleåret. Sammenlign hva som skjer i avslutningen av prosjektet med hva elevbedriften gjør når den avvikles.",
+        "fasit": "Prosjektet leveres, evalueres og avsluttes med en sluttrapport om mål, resultat, økonomi og erfaringer. Elevbedriften selger resten av varelageret, betaler tilbake andelene og skriver en årsrapport. Den kan også dele ut en del av overskuddet eller gi noe til et veldedig formål.",
+        "kriterier": [
+          "Nevner levering, evaluering eller sluttrapport for prosjektet.",
+          "Nevner minst to av elevbedriftens avviklingsoppgaver: selge varelager, betale tilbake andeler, fordele overskudd eller skrive årsrapport.",
+          "Viser forskjellen mellom prosjektets sluttrapport og elevbedriftens avvikling."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Arbeidstakere og arbeidsgivere forhandler om lønn og arbeidsvilkår, men blir ikke enige. Forklar hvem som samarbeider i den norske modellen, hva organisasjonene deres gjør, og hva som kan skje hvis partene ikke blir enige.",
+        "fasit": "I den norske modellen samarbeider arbeidstakere, arbeidsgivere og staten. Fagforeninger forhandler for arbeidstakerne, og arbeidsgiverorganisasjoner forhandler for arbeidsgiverne. Hvis partene ikke blir enige, kan det bli streik.",
+        "kriterier": [
+          "Nevner arbeidstakere, arbeidsgivere og staten som partene i trepartssamarbeidet.",
+          "Forklarer at fagforeninger og arbeidsgiverorganisasjoner forhandler om lønn og arbeidsvilkår.",
+          "Nevner at uenighet kan føre til streik."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,8 +79,8 @@
       "options": [
         "Indefinido",
         "Imperfecto",
-        "Futuro",
-        "Presens"
+        "Presens",
+        "Futuro"
       ],
       "correct": 1,
       "explain": "Iba a la playa todos los veranos."
@@ -90,9 +90,9 @@
       "text": "Hva er indefinido av «tener» i jeg-form?",
       "options": [
         "tuve",
-        "tení",
         "tenía",
-        "tengo"
+        "tengo",
+        "tendré"
       ],
       "correct": 0,
       "explain": "tener er uregelmessig: tuve."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Velg riktig kombinasjon: «___ sol cuando ___ a llover.»",
       "options": [
-        "Hizo – empezaba",
-        "Hace – empieza",
+        "Hizo – empezó",
+        "Hacía – empezaba",
         "Hacía – empezó",
-        "Hará – empezará"
+        "Hace – empieza"
       ],
       "correct": 2,
       "explain": "Bakgrunn i imperfecto, hendelse i indefinido."
@@ -114,8 +114,8 @@
       "text": "Hva er imperfecto av «ir» i jeg-form?",
       "options": [
         "fui",
-        "iré",
         "voy",
+        "iré",
         "iba"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva kan «fui» bety?",
       "options": [
         "jeg var eller jeg dro",
-        "jeg hadde",
-        "jeg gjorde",
-        "jeg kom"
+        "jeg hadde eller jeg eide",
+        "jeg gjorde eller jeg laget",
+        "jeg kom eller jeg ankom"
       ],
       "correct": 0,
       "explain": "ser og ir har samme former i indefinido."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er indefinido av «hacer» i han-form?",
       "options": [
-        "hació",
-        "hizo",
         "hice",
-        "hacía"
+        "hizo",
+        "hacía",
+        "hace"
       ],
       "correct": 1,
       "explain": "hacer: hice, hiciste, hizo."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva uttrykker «había salido»?",
       "options": [
-        "Noe som skjer nå",
-        "En vane i fortiden",
+        "Noe som skjedde etter noe annet i fortiden",
+        "En vane som gjentok seg flere ganger i fortiden",
         "Noe som skjedde før noe annet i fortiden",
-        "Noe i framtiden"
+        "Noe som skjer samtidig med en annen hendelse nå"
       ],
       "correct": 2,
       "explain": "Pluskvamperfektum."
@@ -163,7 +163,7 @@
       "options": [
         "til slutt",
         "først",
-        "etterpå",
+        "senere",
         "plutselig"
       ],
       "correct": 3,
@@ -187,7 +187,7 @@
       "options": [
         "om to år",
         "for to år siden",
-        "i to år",
+        "i løpet av to år",
         "hvert annet år"
       ],
       "correct": 1,
@@ -310,9 +310,9 @@
         "text": "Hva betyr «Cuando era pequeño, jugaba al fútbol»?",
         "options": [
           "Da jeg var liten, spilte jeg fotball.",
-          "Jeg spilte fotball i går.",
-          "Jeg skal spille fotball.",
-          "Jeg har aldri spilt fotball."
+          "Da jeg var liten, spiller jeg fotball.",
+          "Da jeg var liten, skal jeg spille fotball.",
+          "Da jeg var liten, spilte du fotball."
         ],
         "correct": 0,
         "explain": "Imperfecto om vaner."
@@ -336,9 +336,9 @@
         "text": "Hvordan sier du «i fjor sommer»?",
         "options": [
           "el verano próximo",
-          "este verano",
+          "el verano actual",
           "el verano pasado",
-          "en verano"
+          "en el verano"
         ],
         "correct": 2,
         "explain": "pasado = forrige."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

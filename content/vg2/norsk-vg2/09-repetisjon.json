@@ -98,9 +98,9 @@
       "text": "Hvordan skildres personene vanligvis i islendingesagaene?",
       "options": [
         "Indirekte, gjennom handlinger og replikker",
-        "Med lange beskrivelser av følelser",
-        "Gjennom indre monolog",
-        "Gjennom fortellerens kommentarer"
+        "Direkte, gjennom fortellerens vurderinger og forklaringer",
+        "Utførlig, gjennom personenes indre tanker og følelser",
+        "Symbolsk, gjennom drømmer og varsler om framtiden"
       ],
       "correct": 0,
       "explain": "Stilen er saklig og kortfattet."
@@ -109,10 +109,10 @@
       "id": "q02",
       "text": "Hvorfor var ære og hevn så viktig i sagasamfunnet?",
       "options": [
-        "Fordi kongen krevde det",
-        "Fordi det ikke fantes stat og politi, og ætta måtte beskytte seg selv",
-        "Fordi kirken bestemte det",
-        "Fordi det var en sport"
+        "Fordi kongen krevde at ættene selv hevnet fornærmelser",
+        "Fordi ætta selv måtte beskytte seg uten stat og politi",
+        "Fordi kirken krevde at slekten forsvarte sin ære",
+        "Fordi hevn var en måte å vinne status ved hoffet"
       ],
       "correct": 1,
       "explain": "En fornærmelse mot én var en fornærmelse mot hele ætta."
@@ -121,10 +121,10 @@
       "id": "q03",
       "text": "Hva satte opplysningstiden i sentrum?",
       "options": [
-        "Følelser og natur",
-        "Kirken og kongen",
-        "Fornuften",
-        "Fortiden"
+        "Følelser og personlig erfaring",
+        "Kirkelig autoritet og tradisjon",
+        "Fornuft og kritisk tenkning",
+        "Fortidens skikker og idealer"
       ],
       "correct": 2,
       "explain": "Kunnskap og kritisk tenkning skulle forbedre samfunnet."
@@ -134,9 +134,9 @@
       "text": "Hva kjennetegner barokken?",
       "options": [
         "Kontraster og en pyntet, ordrik stil",
-        "Saklig og kort stil",
-        "Fornuft og vitenskap",
-        "Enkle naturdikt"
+        "Saklighet og en kort, nøktern stil",
+        "Fornuft og vitenskap i en klar stil",
+        "Naturskildringer og et enkelt språk"
       ],
       "correct": 0,
       "explain": "Forgjengelighet var et sentralt tema."
@@ -146,9 +146,9 @@
       "text": "Hvordan ble naturen ofte framstilt i romantikken?",
       "options": [
         "Som besjelet og et uttrykk for noe guddommelig",
-        "Som farlig og fiendtlig",
-        "Som en ressurs for industri",
-        "Som uinteressant"
+        "Som en mekanisk bakgrunn uten åndelig betydning",
+        "Som en kilde til råvarer for industrialisering",
+        "Som et landskap uten forbindelse til mennesket"
       ],
       "correct": 0,
       "explain": "I naturen kunne mennesket oppleve helheten."
@@ -157,10 +157,10 @@
       "id": "q06",
       "text": "Hvem er det retoriske publikummet?",
       "options": [
-        "Alle som leser teksten",
-        "Bare journalister",
+        "De som leser teksten, men ikke kan påvirke saken",
+        "De som skrev innlegget og valgte argumentene",
         "De som kan påvirkes og har mulighet til å handle",
-        "Talerens familie"
+        "De som omtales i saken, uten mulighet til å handle"
       ],
       "correct": 2,
       "explain": "Publikum må kunne gjøre noe med problemet."
@@ -169,10 +169,10 @@
       "id": "q07",
       "text": "Hva er kairos?",
       "options": [
-        "Det passende",
-        "En type argument",
+        "Det passende svaret",
+        "Talerens troverdighet",
         "Det rette øyeblikket",
-        "Talerens troverdighet"
+        "Publikums følelser"
       ],
       "correct": 2,
       "explain": "Timing er avgjørende for gjennomslag."
@@ -181,9 +181,9 @@
       "id": "q08",
       "text": "Hva bør du gjøre etter et sitat?",
       "options": [
-        "Gå videre til neste sitat",
-        "Avslutte avsnittet",
-        "Oversette det",
+        "Gå videre til neste avsnitt",
+        "Gjengi sitatet med egne ord",
+        "Sette inn et nytt sitat",
         "Kommentere hva sitatet viser"
       ],
       "correct": 3,
@@ -193,10 +193,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på å gjøre rede for og å drøfte?",
       "options": [
-        "Det er det samme",
-        "Å drøfte er å gjenfortelle",
-        "Å gjøre rede for er å forklare, å drøfte er å tolke og vurdere fra flere sider",
-        "Å gjøre rede for er å gi sin mening"
+        "Å gjøre rede for og å drøfte betyr å presentere tekstens innhold",
+        "Å drøfte betyr å gjenfortelle, mens redegjørelse uttrykker egen mening",
+        "Å gjøre rede for forklarer, mens å drøfte tolker og vurderer flere sider",
+        "Å gjøre rede for vurderer flere syn, mens å drøfte forklarer fakta"
       ],
       "correct": 2,
       "explain": "En god fagartikkel gjør begge deler."
@@ -205,10 +205,10 @@
       "id": "q10",
       "text": "Hvordan kan du styrke etos i en presentasjon?",
       "options": [
-        "Ved å snakke fort",
-        "Ved å lese fra manus",
-        "Ved å unngå fagbegreper",
-        "Ved å være godt forberedt og bruke fagbegreper riktig"
+        "Ved å bruke mange fagbegreper uten å forklare dem",
+        "Ved å sitere kilder uten å knytte dem til temaet",
+        "Ved å snakke sikkert uten å vise fagkunnskap",
+        "Ved å være forberedt og bruke fagbegreper riktig"
       ],
       "correct": 3,
       "explain": "Troverdighet bygger på kunnskap og trygghet."
@@ -217,10 +217,10 @@
       "id": "q11",
       "text": "Hvorfor er dansk ofte vanskeligere å forstå muntlig enn skriftlig for nordmenn?",
       "options": [
-        "Fordi danskene snakker fort alltid",
-        "Fordi dansk har svak konsonantuttale, stød og «svelgede» stavelser",
-        "Fordi dansk har et annet alfabet",
-        "Fordi dansk har toner som kinesisk"
+        "Fordi dansk har norsk tonelag, tydelige konsonanter og klare stavelser.",
+        "Fordi dansk har svake konsonanter, stød og bortfall av stavelser.",
+        "Fordi dansk har rulle-r, tydelige konsonanter og klare stavelser.",
+        "Fordi dansk har flere kasus, tydelige bøyningsformer og lange endelser."
       ],
       "correct": 1,
       "explain": "Skriftlig ligner dansk mye på bokmål.",
@@ -231,9 +231,9 @@
       "text": "Hva bygde Ivar Aasen landsmålet på?",
       "options": [
         "Dansk skriftspråk",
-        "Embetsmennenes tale",
+        "Embetsmennenes talemål",
         "Dialektene",
-        "Svensk"
+        "Norrøne tekster"
       ],
       "correct": 2,
       "explain": "Han reiste rundt og samlet dialekter."
@@ -242,9 +242,9 @@
       "id": "q13",
       "text": "Hva sier språkloven fra 2022 om bokmål og nynorsk?",
       "options": [
-        "At bokmål er viktigst",
-        "At nynorsk skal avskaffes",
-        "At de skal slås sammen",
+        "At bokmål har høyere status",
+        "At nynorsk skal avvikles",
+        "At målformene skal slås sammen",
         "At de er likestilte skriftspråk"
       ],
       "correct": 3,
@@ -370,7 +370,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -406,10 +406,10 @@
         "type": "flervalg",
         "text": "Hva ville Welhaven at diktningen skulle være?",
         "options": [
-          "Uregjerlig og vill",
+          "Personlig, følelsesladet og formeksperimenterende",
           "Harmonisk, klar og formfullendt",
-          "Skrevet på dialekt",
-          "Politisk"
+          "Folkelig, dialektpreget og politisk engasjert",
+          "Nøktern, realistisk og samfunnskritisk"
         ],
         "correct": 1,
         "explain": "Han kritiserte Wergelands stil."
@@ -427,9 +427,9 @@
         "text": "Hva er et belegg i en litterær tolkning?",
         "options": [
           "Et sitat eller eksempel som støtter tolkningen",
-          "En kilde på nett",
-          "En overskrift",
-          "En konklusjon"
+          "En forklaring på hva teksten handler om",
+          "En påstand om tekstens tema uten teksthenvisning",
+          "En kildeopplysning som viser hvem som skrev teksten"
         ],
         "correct": 0,
         "explain": "Belegg gjør tolkningen troverdig."
@@ -457,8 +457,7 @@
         "kriterier": [
           "Nevner sagaenes saklige, kortfattede stil eller korte replikker.",
           "Forklarer likheten med moderne krimlitteratur eller minimalistisk prosa."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s02",
@@ -523,12 +522,88 @@
           "Knytter nasjonalromantikken til ønsket om å vise fram en egen norsk kultur.",
           "Forklarer at utviklingen av skriftspråk var del av nasjonsbyggingen, med Knudsen- og/eller Aasen-linjen."
         ]
+      },
+      {
+        "text": "Peder Claussøn Friis oversatte Snorres kongesagaer til dansk på 1600-tallet, og Heimskringla fikk senere betydning for norsk nasjonal identitet. Forklar hvordan oversettelsen kunne bidra til at sagaene fikk betydning for en senere norsk nasjonsbygging.",
+        "fasit": "Oversettelsen gjorde kongesagaene tilgjengelige for flere lesere. Senere kunne sagaene brukes som fortellinger om Norges historie og en felles fortid, noe som styrket nasjonal identitet.",
+        "kriterier": [
+          "Oversettelsen gjorde sagaene kjent for flere.",
+          "Sagaene kunne bidra med en felles norsk historie og styrke nasjonal identitet."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign hvordan naturen og livet framstilles i barokken og romantikken.",
+        "fasit": "I barokken kunne naturen skildres livfullt og detaljert, mens tekstene også la vekt på at livet er forgjengelig og religionen står sterkt. I romantikken ble naturen ofte framstilt som besjelet og guddommelig, og som et sted der mennesket kunne oppleve det evige.",
+        "kriterier": [
+          "Barokken forbindes med religiøsitet og livets forgjengelighet.",
+          "Romantikken framstiller gjerne naturen som besjelet og knyttet til det guddommelige eller evige."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Etter en nasjonal tragedie skal statsministeren holde tale til befolkningen. Forklar hvordan kairos og decorum kan påvirke når talen holdes, og hvordan den bør utformes.",
+        "fasit": "Kairos betyr at talen bør komme på et tidspunkt da befolkningen trenger trøst og samhold. Decorum innebærer at språk og tone må passe til krisen og statsministerens rolle, for eksempel ved at talen er verdig og samlende.",
+        "kriterier": [
+          "Kairos handler om å holde talen på riktig tidspunkt i situasjonen.",
+          "Decorum handler om at språk og tone passer til situasjonen og avsenderens rolle."
+        ],
+        "id": "s11",
+        "niva": "over-niva"
+      },
+      {
+        "text": "I komedien «Erasmus Montanus» møter Rasmus Berg både uvitenhet og mennesker som reagerer på lærdommen hans. Forklar hvordan stykket bruker komikk til å kritisere to ulike holdninger til kunnskap.",
+        "fasit": "Stykket kritiserer uvitenhet, men også lærdom som brukes overlegent for å vise at man er bedre enn andre. Dette passer med opplysningstidens vekt på kunnskap og kritisk tenkning, samtidig som Holberg gjør narr av menneskelige svakheter.",
+        "kriterier": [
+          "Stykket kritiserer både uvitenhet og overlegen eller arrogant lærdom.",
+          "Holberg bruker komikk eller satire for å opplyse og kritisere menneskelige svakheter."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "I en islendingesaga fører en fornærmelse til konflikt mellom slekter, og drømmer varsler om det som skal skje. Forklar hvordan kunnskap om sagasamfunnets forhold kan hjelpe en leser med å forstå både hevnen og varslene.",
+        "fasit": "Når ætta måtte beskytte seg selv i et samfunn uten stat og politi, kunne en fornærmelse bli oppfattet som en sak for hele slekta og føre til hevn. Skjebnetroen gjør at drømmer og varsler kan forstås som frampek om hendelser som allerede virker knyttet til en skjebne.",
+        "kriterier": [
+          "Ættas ansvar for beskyttelse i et samfunn uten stat og politi bidrar til å forklare hevn.",
+          "Drømmer og varsler uttrykker skjebnetro og fungerer som frampek."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En elev kan stoffet til en presentasjon, men leser alt fra lysbildene og ser sjelden på publikum. Forklar hvordan memoria og actio kan gjøre framføringen bedre.",
+        "fasit": "Memoria handler om å øve så godt at eleven kan snakke fritt ut fra stikkord i stedet for å lese alt. Actio handler om framføringen, blant annet stemmebruk, tempo, kroppsspråk og blikkontakt.",
+        "kriterier": [
+          "Memoria innebærer å huske stoffet og kunne snakke fritt ut fra stikkord.",
+          "Actio gjelder framføringen, for eksempel stemme, kroppsspråk og blikkontakt."
+        ],
+        "id": "s14",
+        "niva": "over-niva"
+      },
+      {
+        "text": "I dansketiden brukte folk norske dialekter i tale, mens dansk ble brukt som skriftspråk. Forklar hvordan denne historien henger sammen med at Norge i dag har både bokmål og nynorsk som offisielle skriftspråk.",
+        "fasit": "Etter unionen med Danmark ble dansk skriftspråket, mens norske dialekter fortsatte å leve i talemålet. Etter 1814 vokste det derfor fram både en fornorsking av dansk, som ble bokmål, og et skriftspråk bygd på dialekter, som ble nynorsk. De to skriftspråkene er likestilt i dag.",
+        "kriterier": [
+          "Dansk ble skriftspråk i unionstiden, mens norske dialekter levde videre i tale.",
+          "Bokmål utviklet seg fra fornorsking av dansk, mens nynorsk ble bygd på dialekter; begge er likestilte skriftspråk."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En nordmann forstår ofte dansk tekst bedre enn dansk tale. Forklar hvorfor, og bruk én forskjell mellom dansk og norsk som eksempel.",
+        "fasit": "Dansk tale kan være vanskeligere å forstå fordi uttalen har svake konsonanter, stød og stavelser som ofte svelges. I skrift kan forskjeller være lettere å kjenne igjen, selv om dansk for eksempel ofte skriver b, d og g der norsk har p, t og k, som i «bog» og «bok».",
+        "kriterier": [
+          "Dansk uttale har blant annet svake konsonanter, stød eller stavelser som svelges.",
+          "Nevner en relevant skriftforskjell, for eksempel «bog» og «bok»."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

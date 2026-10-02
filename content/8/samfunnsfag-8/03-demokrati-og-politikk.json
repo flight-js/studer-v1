@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr demokrati?",
       "options": [
-        "Styre av de rike",
+        "Kongestyre",
         "Folkestyre",
-        "Styre av kongen",
-        "Styre av militæret"
+        "Militærstyre",
+        "Partistyre"
       ],
       "correct": 1,
       "explain": "Ordet kommer fra gresk og betyr at folket styrer."
@@ -101,9 +101,9 @@
       "text": "Hvorfor er makten delt i tre?",
       "options": [
         "For å hindre at noen får for mye makt",
-        "For å spare penger",
-        "Fordi det var enklest i 1814",
-        "For at kongen skal bestemme mest"
+        "For å gjøre det enklere å gjennomføre valg",
+        "For å gi kommunene mer ansvar enn staten",
+        "For å la regjeringen kontrollere Stortingets arbeid"
       ],
       "correct": 0,
       "explain": "Statsmaktene kontrollerer hverandre, slik at makten ikke samles på én hånd."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva betyr parlamentarisme?",
       "options": [
-        "At kongen velger regjeringen fritt",
-        "At det er valg hvert år",
+        "At kongen velger regjeringen uten å rådføre seg med Stortinget",
+        "At regjeringen må godkjennes av domstolene før den styrer",
         "At regjeringen må ha tillit fra Stortinget",
-        "At domstolene lager lover"
+        "At Stortinget velges på nytt hvert år"
       ],
       "correct": 2,
       "explain": "Mister regjeringen tilliten fra et flertall på Stortinget, må den gå av."
@@ -124,8 +124,8 @@
       "id": "q05",
       "text": "Hvor ofte er det stortingsvalg?",
       "options": [
-        "Hvert år",
-        "Hvert andre år",
+        "Hvert tredje år",
+        "Hvert femte år",
         "Hvert fjerde år",
         "Hvert sjette år"
       ],
@@ -137,9 +137,9 @@
       "text": "Hva er et representativt demokrati?",
       "options": [
         "Folket velger representanter som tar beslutninger",
-        "Folket stemmer over alle saker",
-        "Én person bestemmer alt",
-        "Bare representanter har stemmerett"
+        "Folket stemmer direkte over politiske saker",
+        "Kongen velger representanter som tar beslutninger",
+        "Folket velger dommere som tar politiske beslutninger"
       ],
       "correct": 0,
       "explain": "Norge er et representativt demokrati der vi velger politikere til Stortinget og kommunestyrene."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "Hvorfor kalles mediene den fjerde statsmakt?",
       "options": [
-        "Fordi de vedtar lover",
-        "Fordi de dømmer i rettssaker",
-        "Fordi de eies av staten",
+        "Fordi de foreslår lover og leder regjeringen",
+        "Fordi de avgjør rettssaker og tolker lovene",
+        "Fordi de gjennomfører vedtak og styrer departementene",
         "Fordi de setter dagsorden og kontrollerer makthaverne"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva gjør en interesseorganisasjon?",
       "options": [
-        "Dømmer i saker",
+        "Prøver å avgjøre rettssaker som gjelder medlemmene",
         "Prøver å påvirke politikken i saker medlemmene er opptatt av",
-        "Leder regjeringen",
-        "Teller stemmer ved valg"
+        "Prøver å lede regjeringen på vegne av medlemmene",
+        "Prøver å organisere opptelling av stemmer ved valg"
       ],
       "correct": 1,
       "explain": "Fagforeninger og miljøorganisasjoner er eksempler på interesseorganisasjoner."
@@ -175,7 +175,7 @@
         "Kongen",
         "Statsministeren",
         "Stortingspresidenten",
-        "Lederen av Høyesterett"
+        "Utenriksministeren"
       ],
       "correct": 0,
       "explain": "Kongen er statsoverhode, men den politiske makten ligger hos Stortinget og regjeringen."
@@ -184,9 +184,9 @@
       "id": "q10",
       "text": "Hvordan kan en 14-åring påvirke politikken?",
       "options": [
-        "Ved å stemme ved stortingsvalget",
-        "Ved å bli statsråd",
-        "Det er ikke mulig",
+        "Ved å stemme ved stortingsvalg",
+        "Ved å bli valgt inn på Stortinget",
+        "Ved å stemme ved kommunevalg",
         "Gjennom elevråd, ungdomsråd og organisasjoner"
       ],
       "correct": 3,
@@ -344,9 +344,9 @@
         "text": "Hva skjer hvis et flertall på Stortinget vedtar mistillit mot regjeringen?",
         "options": [
           "Regjeringen må gå av",
-          "Kongen må abdisere",
-          "Stortinget oppløses",
-          "Ingenting"
+          "Stortinget må oppløses",
+          "Kongen må gå av",
+          "Regjeringen må skrive ut nyvalg"
         ],
         "correct": 0,
         "explain": "Dette følger av parlamentarismen."
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hva er en folkeavstemning?",
         "options": [
-          "Et møte i Stortinget",
+          "At representantene stemmer i Stortinget over en sak",
           "At folket stemmer direkte over en enkeltsak",
-          "En meningsmåling",
-          "Et partimøte"
+          "At velgerne svarer på spørsmål i en meningsmåling",
+          "At partimedlemmene stemmer over et forslag på et partimøte"
         ],
         "correct": 1,
         "explain": "Norge har for eksempel hatt folkeavstemninger om EU-medlemskap i 1972 og 1994."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

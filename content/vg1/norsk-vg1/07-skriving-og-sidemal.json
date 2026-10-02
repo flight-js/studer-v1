@@ -78,9 +78,9 @@
       "text": "Hva heter «ikke» på nynorsk?",
       "options": [
         "ikkje",
-        "ikkj",
-        "inte",
-        "ikki"
+        "ikke",
+        "ikkji",
+        "ikkie"
       ],
       "correct": 0,
       "explain": "Tilsvarende blir «noe» til «noko»."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er revisjon?",
       "options": [
-        "Å rette skrivefeil",
-        "Å skrive første utkast",
-        "Å bearbeide teksten ut fra tilbakemeldinger og kriterier",
-        "Å lese andres tekster"
+        "Å rette skrivefeil uten å vurdere tekstens innhold",
+        "Å skrive et førsteutkast uten å bruke tilbakemeldinger",
+        "Å bearbeide teksten etter tilbakemeldinger og kriterier",
+        "Å lese en tekst uten å vurdere eller endre den"
       ],
       "correct": 2,
       "explain": "Revisjon handler om innhold og struktur, ikke bare feil."
@@ -113,7 +113,7 @@
       "id": "q04",
       "text": "Hva er ubestemt flertall av «ein gut» på nynorsk?",
       "options": [
-        "guter",
+        "gutarne",
         "gutene",
         "gutane",
         "gutar"
@@ -125,13 +125,13 @@
       "id": "q05",
       "text": "Hva heter «hvordan» på nynorsk?",
       "options": [
-        "kvifor",
+        "kor",
         "korleis",
-        "kven",
+        "kvar",
         "kva"
       ],
       "correct": 1,
-      "explain": "Kvifor = hvorfor, kven = hvem, kva = hva."
+      "explain": "«Kor» betyr hvor, «kvar» betyr hvor eller hvilken, og «kva» betyr hva."
     },
     {
       "id": "q06",
@@ -140,7 +140,7 @@
         "kasta",
         "kastet",
         "kastar",
-        "kastte"
+        "kaste"
       ],
       "correct": 0,
       "explain": "Presens er «kastar»."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva gjør du i førskrivingsfasen?",
       "options": [
-        "Retter skrivefeil",
-        "Leverer teksten",
-        "Finner ideer og lager disposisjon",
-        "Får karakter"
+        "Retter skrivefeil og forbedrer formuleringer",
+        "Skriver et utkast og organiserer avsnittene",
+        "Samler ideer og lager en disposisjon",
+        "Leverer teksten og leser lærerens vurdering"
       ],
       "correct": 2,
       "explain": "God forberedelse gjør skrivingen lettere."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvor står eiendomsordet vanligvis på nynorsk?",
       "options": [
-        "Foran substantivet",
-        "Det brukes ikke",
-        "Først i setningen",
+        "Etter verbet i setningen",
+        "Mellom subjektet og verbet",
+        "Mellom substantivet og artikkelen",
         "Etter substantivet"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er et godt revisjonstips?",
       "options": [
-        "Å lese teksten høyt",
-        "Å aldri endre noe",
-        "Å bare telle ord",
-        "Å skrive teksten på nytt uten å lese den"
+        "Å lese teksten høyt for å vurdere flyt og sammenheng",
+        "Å rette stavefeil uten å vurdere innhold og sammenheng",
+        "Å endre enkelte ord uten å lese hele teksten",
+        "Å telle avsnitt for å avgjøre om teksten er god"
       ],
       "correct": 0,
       "explain": "Da oppdager du tunge setninger og hull i resonnementet."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva heter «hun» på nynorsk?",
       "options": [
-        "hon",
+        "han",
         "ho",
-        "hun",
-        "hu"
+        "henne",
+        "dei"
       ],
       "correct": 1,
       "explain": "«Jeg» blir «eg» og «de» blir «dei»."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva er bestemt entall av «ei jente» på nynorsk?",
         "options": [
-          "jenten",
-          "jentene",
+          "jente",
+          "jentar",
           "jenta",
-          "jentar"
+          "jentene"
         ],
         "correct": 2,
         "explain": "Ei jente – jenta – jenter – jentene."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvor skal kommaene stå i «Oslo hovedstaden i Norge har mange museer»?",
         "options": [
-          "Rundt «hovedstaden i Norge»",
-          "Bare etter «Oslo»",
-          "Bare før «har»",
-          "Det skal ikke være komma"
+          "Før og etter «hovedstaden i Norge»",
+          "Før «Oslo» og etter «har»",
+          "Etter «Oslo» og før «hovedstaden»",
+          "Før «har» og etter «museer»"
         ],
         "correct": 0,
         "explain": "Innskudd skal ha komma på begge sider."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er en multimodal tekst?",
         "options": [
-          "En tekst på flere språk",
+          "En tekst som gjengir innhold på flere språk og dialekter",
           "En tekst som kombinerer skrift, bilde, lyd eller film",
-          "En svært lang tekst",
-          "En tekst med mange avsnitt"
+          "En tekst som forteller én historie gjennom flere kapitler og avsnitt",
+          "En tekst som forklarer et tema med fakta, eksempler og fagord"
         ],
         "correct": 1,
         "explain": "Nettsider, reklame og tegneserier er eksempler."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

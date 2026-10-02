@@ -81,10 +81,10 @@
         "9",
         "16",
         "26",
-        "50"
+        "17"
       ],
       "correct": 1,
-      "explain": "Østerrike har 9 og Sveits 26 kantoner."
+      "explain": "Tyskland har 16 delstater. Østerrike har 9 delstater, mens Sveits har 26 kantoner."
     },
     {
       "id": "q02",
@@ -93,7 +93,7 @@
         "Sveits",
         "Tyskland",
         "Østerrike",
-        "Liechtenstein"
+        "Italia"
       ],
       "correct": 0,
       "explain": "Innbyggerne stemmer ofte over enkeltsaker."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er «die Energiewende»?",
       "options": [
-        "En fotballklubb",
-        "En type strømregning",
-        "Tysklands omlegging til fornybar energi",
-        "En tysk bilprodusent"
+        "Tysklands utbygging av nye kjernekraftverk",
+        "Tysklands omlegging fra fornybar energi til kull",
+        "Tysklands omlegging av energiforsyningen til fornybar energi",
+        "Tysklands plan om å øke oljeutvinningen"
       ],
       "correct": 2,
       "explain": "De siste kjernekraftverkene ble stengt i 2023."
@@ -115,8 +115,8 @@
       "text": "Velg riktig ordstilling:",
       "options": [
         "Meiner Meinung nach das ist wichtig.",
-        "Meiner Meinung nach wichtig ist das.",
         "Meiner Meinung nach das wichtig ist.",
+        "Meiner Meinung nach wichtig das ist.",
         "Meiner Meinung nach ist das wichtig."
       ],
       "correct": 3,
@@ -138,22 +138,22 @@
       "id": "q06",
       "text": "Hva heter den tyske nasjonalforsamlingen?",
       "options": [
-        "der Reichstag",
+        "der Bundesrat",
         "der Bundestag",
-        "das Parlament",
-        "der Landtag"
+        "der Landtag",
+        "das Abgeordnetenhaus"
       ],
       "correct": 1,
-      "explain": "Bundestag holder til i Reichstag-bygningen i Berlin."
+      "explain": "Bundestag er den tyske nasjonalforsamlingen på føderalt nivå og holder til i Reichstagsbygningen i Berlin."
     },
     {
       "id": "q07",
       "text": "Hva var gjestearbeidere (Gastarbeiter)?",
       "options": [
-        "Turister",
-        "Studenter",
-        "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen",
-        "Diplomater"
+        "Flyktninger til Vest-Tyskland etter krigen",
+        "Studenter til Vest-Tyskland etter krigen",
+        "Arbeidsinnvandrere til Vest-Tyskland etter krigen",
+        "Diplomater til Vest-Tyskland etter krigen"
       ],
       "correct": 2,
       "explain": "Mange kom fra Tyrkia, Italia og Hellas.",
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvor står verbet i en tysk relativsetning?",
       "options": [
-        "Først",
-        "På andre plass",
-        "Etter subjektet",
-        "Sist"
+        "På begynnelsen av relativsetningen",
+        "På andre plass i relativsetningen",
+        "Rett etter relativpronomenet",
+        "På slutten av relativsetningen"
       ],
       "correct": 3,
       "explain": "die Stadt, die ich besucht habe."
@@ -176,9 +176,9 @@
       "text": "Hva betyr «einerseits … andererseits»?",
       "options": [
         "på den ene siden … på den andre siden",
-        "først … så",
-        "ikke bare … men også",
-        "enten … eller"
+        "først kommer dette … og deretter det andre",
+        "ikke bare dette … men også det andre",
+        "enten den ene muligheten … eller den andre"
       ],
       "correct": 0,
       "explain": "Nyttig for å drøfte fordeler og ulemper."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilke fire nasjonalspråk har Sveits?",
       "options": [
-        "Tysk, engelsk, fransk og spansk",
+        "Tysk, fransk, italiensk og engelsk",
         "Tysk, fransk, italiensk og retoromansk",
-        "Tysk, nederlandsk, fransk og italiensk",
-        "Bare tysk"
+        "Tysk, fransk, nederlandsk og retoromansk",
+        "Tysk, italiensk, spansk og retoromansk"
       ],
       "correct": 1,
       "explain": "Tysk er det mest brukte."
@@ -318,11 +318,11 @@
         "options": [
           "Jeg er for.",
           "Jeg er mot.",
-          "Jeg er usikker.",
-          "Jeg er enig."
+          "Jeg er enig.",
+          "Jeg er usikker."
         ],
         "correct": 1,
-        "explain": "dafür = for, dagegen = mot."
+        "explain": "«Dagegen» betyr at man er imot noe."
       },
       {
         "id": "m06",
@@ -330,9 +330,9 @@
         "text": "Hva betyr «Migrationshintergrund»?",
         "options": [
           "innvandrerbakgrunn",
-          "grenseområde",
-          "flyktningleir",
-          "statsborgerskap"
+          "flyktningstatus",
+          "statsborgerskap",
+          "oppholdstillatelse"
         ],
         "correct": 0,
         "explain": "Brukes om personer som selv eller med foreldre har innvandret."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

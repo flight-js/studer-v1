@@ -75,7 +75,7 @@
       "id": "q01",
       "text": "Hva er stigningstallet i en v-t-graf?",
       "options": [
-        "Farten",
+        "Gjennomsnittsfarten",
         "Akselerasjonen",
         "Forflytningen",
         "Tiden"
@@ -89,11 +89,11 @@
       "options": [
         "Forflytningen",
         "Akselerasjonen",
-        "Farten",
+        "Gjennomsnittsfarten",
         "Massen"
       ],
       "correct": 0,
-      "explain": "Fart ganger tid gir strekning."
+      "explain": "Det fortegnede arealet under grafen gir forflytningen."
     },
     {
       "id": "q03",
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvor langt har bilen kjørt etter 5,0 s med a = 2,0 m/s² fra ro?",
       "options": [
+        "5,0 m",
         "10 m",
         "50 m",
-        "12,5 m",
         "25 m"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hvor stor er tyngdeakselerasjonen ved jordoverflaten?",
       "options": [
         "Omtrent 9,81 m/s²",
-        "Omtrent 1 m/s²",
-        "Omtrent 98 m/s²",
-        "Omtrent 3,0 · 10⁸ m/s²"
+        "Omtrent 4,9 m/s²",
+        "Omtrent 19,6 m/s²",
+        "Omtrent 98,1 m/s²"
       ],
       "correct": 0,
       "explain": "Rettet nedover."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er farten og akselerasjonen på toppen av et loddrett kast?",
       "options": [
-        "Begge er null",
+        "Farten er null, akselerasjonen er null",
         "Farten er null, akselerasjonen er −g",
-        "Farten er størst, akselerasjonen null",
-        "Begge er størst"
+        "Farten er størst, akselerasjonen er null",
+        "Farten er størst, akselerasjonen er −g"
       ],
       "correct": 1,
       "explain": "Tyngdekraften virker hele tiden."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "En stein slippes fra 20 m. Omtrent hvor lang tid bruker den til bakken (uten luftmotstand)?",
       "options": [
-        "1,0 s",
-        "4,1 s",
-        "0,5 s",
+        "1,4 s",
+        "2,9 s",
+        "4,0 s",
         "2,0 s"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er forutsetningen for å bruke bevegelseslikningene?",
       "options": [
         "Konstant akselerasjon",
-        "Konstant posisjon",
-        "Ingen tyngdekraft",
-        "At farten er null"
+        "Akselerasjon som øker med tiden",
+        "Akselerasjon som avtar med tiden",
+        "Akselerasjon som skifter retning"
       ],
       "correct": 0,
       "explain": "Ellers må man bruke andre metoder."
@@ -185,7 +185,7 @@
       "options": [
         "Akselerasjonen",
         "Farten",
-        "Tiden",
+        "Forflytningen",
         "Kraften"
       ],
       "correct": 1,
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

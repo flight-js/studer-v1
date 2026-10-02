@@ -114,9 +114,9 @@
       "text": "Hvorfor bruker vi replikater?",
       "options": [
         "Fordi levende organismer varierer",
-        "For å spare tid",
-        "For å slippe kontrollgruppe",
-        "For å bevise hypotesen"
+        "Fordi forsøket ellers mangler en kontrollgruppe",
+        "Fordi hypotesen ellers ikke kan testes",
+        "Fordi færre målinger gir raskere forsøk"
       ],
       "correct": 0,
       "explain": "Flere gjentak gir mer pålitelige resultater."
@@ -125,10 +125,10 @@
       "id": "q02",
       "text": "Hva viser et fylogenetisk tre?",
       "options": [
-        "Hvor artene lever",
+        "Geografisk utbredelse",
         "Evolusjonært slektskap",
-        "Næringskjeder",
-        "Hvor store artene er"
+        "Økologiske næringsforhold",
+        "Kroppslig størrelsesforskjell"
       ],
       "correct": 1,
       "explain": "Forgreningspunktene er felles stamformer."
@@ -137,10 +137,10 @@
       "id": "q03",
       "text": "Hvorfor har store organismer store indre overflater?",
       "options": [
-        "For å bli tyngre",
-        "For å se større ut",
-        "Fordi volumet vokser raskere enn overflaten",
-        "Fordi de har færre celler"
+        "Fordi overflaten vokser raskere enn volumet hos store organismer.",
+        "Fordi store organismer har kortere avstand mellom cellene og omgivelsene.",
+        "Fordi volumet vokser raskere enn overflaten hos store organismer.",
+        "Fordi store organismer har færre celler som trenger stoffutveksling."
       ],
       "correct": 2,
       "explain": "Stoffutvekslingen må skje gjennom overflater."
@@ -150,9 +150,9 @@
       "text": "Hva kjennetegner negativ tilbakekobling?",
       "options": [
         "Responsen motvirker avviket",
-        "Responsen forsterker endringen",
-        "Det skjer ingen respons",
-        "Settpunktet endres hele tiden"
+        "Responsen forsterker avviket",
+        "Responsen følger avviket videre",
+        "Responsen endrer settpunktet"
       ],
       "correct": 0,
       "explain": "Som en termostat."
@@ -161,10 +161,10 @@
       "id": "q05",
       "text": "Hva kjennetegner aktiv transport?",
       "options": [
-        "Den skjer fra høy til lav konsentrasjon uten energi",
-        "Den gjelder bare vann",
+        "Den skjer med konsentrasjonsforskjellen og krever ATP",
+        "Den skjer mot konsentrasjonsforskjellen uten å kreve ATP",
         "Den skjer mot konsentrasjonsforskjellen og krever ATP",
-        "Den skjer bare i planter"
+        "Den flytter vann mot konsentrasjonsforskjellen og krever ATP"
       ],
       "correct": 2,
       "explain": "For eksempel natrium-kalium-pumpen."
@@ -174,9 +174,9 @@
       "text": "Hva er resultatet av meiose?",
       "options": [
         "Fire haploide kjønnsceller",
-        "To like kroppsceller",
-        "Én diploid celle",
-        "Åtte celler"
+        "To haploide kjønnsceller",
+        "Fire diploide kroppsceller",
+        "To genetisk like celler"
       ],
       "correct": 0,
       "explain": "Kromosomtallet halveres."
@@ -186,9 +186,9 @@
       "text": "Hvorfor blir du ofte ikke syk andre gang du møter samme patogen?",
       "options": [
         "Hukommelsescellene gir en rask og kraftig respons",
-        "Patogenet er svakere",
-        "Huden er tykkere",
-        "Du har feber"
+        "Det medfødte immunforsvaret reagerer raskere ved neste møte",
+        "Patogenet har endret seg slik at det gir mildere sykdom",
+        "Kroppen har brukt feber til å fjerne patogenet tidligere"
       ],
       "correct": 0,
       "explain": "Sekundærresponsen."
@@ -198,9 +198,9 @@
       "text": "Hva er flokkimmunitet?",
       "options": [
         "At nok personer er immune til at smitten får vanskelig for å spre seg",
-        "At alle er syke samtidig",
-        "At dyr er vaksinert",
-        "At én person er immun"
+        "At de fleste har fått vaksine, uansett om smitten fortsatt sprer seg",
+        "At smitte sprer seg raskere når mange i befolkningen er immune",
+        "At én vaksinert person hindrer smitte i hele befolkningen"
       ],
       "correct": 0,
       "explain": "Den beskytter også dem som ikke kan vaksineres."
@@ -209,9 +209,9 @@
       "id": "q09",
       "text": "Hvorfor fører mye bruk av antibiotika til mer resistens?",
       "options": [
-        "Antibiotika lager nye bakterier",
-        "Antibiotika gjør bakteriene større",
-        "Antibiotika skader immunforsvaret",
+        "Antibiotika får bakteriene til å utvikle resistens mens de formerer seg",
+        "Antibiotika dreper de resistente bakteriene, slik at følsomme bakterier formerer seg",
+        "Antibiotika gjør bakteriene mindre, så de tåler medisinen bedre",
         "De følsomme bakteriene dør, og de resistente overlever og formerer seg"
       ],
       "correct": 3,
@@ -221,10 +221,10 @@
       "id": "q10",
       "text": "Hva er forskjellen på energi og stoffer i et økosystem?",
       "options": [
-        "Energien strømmer gjennom, mens stoffene går i kretsløp",
-        "Begge går i kretsløp",
-        "Energien går i kretsløp, stoffene forsvinner",
-        "Det er ingen forskjell"
+        "Energi strømmer gjennom økosystemet, mens stoffer går i kretsløp",
+        "Energi går i kretsløp i økosystemet, mens stoffer strømmer videre",
+        "Energi og stoffer sirkulerer begge mellom organismene og omgivelsene",
+        "Energi og stoffer strømmer gjennom økosystemet uten å bli resirkulert"
       ],
       "correct": 0,
       "explain": "Energien tapes som varme."
@@ -233,10 +233,10 @@
       "id": "q11",
       "text": "Hvorfor forsterker klimaendringer og arealbruk hverandre?",
       "options": [
-        "De gjør det ikke",
-        "Arealbruk gir alltid kaldere klima",
-        "Klimaendringer stopper nedbygging",
-        "Arter som må flytte, kommer ikke langt i et oppstykket landskap"
+        "Arter som må flytte, finner lett nye leveområder mellom oppdelte naturområder",
+        "Arealbruk gjør at arter kan tilpasse seg klimaendringer uten å flytte",
+        "Klimaendringer reduserer behovet for sammenhengende leveområder for arter",
+        "Arter som må flytte, hindres av et oppstykket landskap"
       ],
       "correct": 3,
       "explain": "Grønne korridorer kan hjelpe."
@@ -391,7 +391,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -412,9 +412,9 @@
         "text": "Hva er en kontrollert variabel?",
         "options": [
           "Noe som holdes likt i alle forsøkene",
-          "Det du måler",
-          "Det du endrer",
-          "Resultatet"
+          "Noe som måles i hvert av forsøkene",
+          "Noe som endres mellom forsøkene",
+          "Noe som beskriver resultatet av forsøket"
         ],
         "correct": 0,
         "explain": "Ellers kan den påvirke resultatet."
@@ -424,10 +424,10 @@
         "type": "flervalg",
         "text": "Hva er homologe trekk?",
         "options": [
-          "Trekk med felles evolusjonært opphav",
+          "Trekk som har et felles evolusjonært opphav",
           "Trekk med lik funksjon, men ulikt opphav",
-          "Trekk som bare finnes hos planter",
-          "Ervervede egenskaper"
+          "Trekk som individet utvikler gjennom læring",
+          "Trekk som oppstår uavhengig hos ulike arter"
         ],
         "correct": 0,
         "explain": "For eksempel skjelettet i menneskearm og hvalluffe."
@@ -468,10 +468,10 @@
         "type": "flervalg",
         "text": "Hvorfor er det få topprovdyr i et økosystem?",
         "options": [
-          "De formerer seg ikke",
+          "Det er lite oksygen tilgjengelig på de øverste trofiske nivåene",
           "Det er lite energi igjen på de øverste trofiske nivåene",
-          "De spiser hverandre",
-          "De trenger ikke mat"
+          "Det finnes få egnede leveområder for arter på øverste nivå",
+          "Det er lite lys tilgjengelig for artene på øverste nivå"
         ],
         "correct": 1,
         "explain": "Bare omtrent 10 % går videre per nivå."
@@ -481,8 +481,7 @@
         "type": "sant-usant",
         "text": "Tidligere vår kan gi mangel på mat når fugleungene trenger den.",
         "correct": true,
-        "explain": "Insektene kan klekkes før ungene.",
-        "niva": "eksempel"
+        "explain": "Insektene kan klekkes før ungene."
       }
     ],
     "skriv": [
@@ -558,12 +557,86 @@
           "Forklarer seleksjon: følsomme bakterier dør, mens resistente overlever og formerer seg.",
           "Forklarer at vaksiner kan forebygge infeksjoner og dermed redusere antibiotikabruk."
         ]
+      },
+      {
+        "text": "Langs en linje gjennom en eng viser en transektundersøkelse at både jordfuktighet og antall av en planteart endrer seg. Hva kan undersøkelsen vise om disse forholdene, og hvorfor kan den ikke alene fastslå at jordfuktigheten forårsaker endringen i planteantall?",
+        "fasit": "Undersøkelsen kan vise at jordfuktighet og planteantall varierer sammen langs transektet. Den viser ikke alene at fuktigheten er årsaken, fordi andre forhold, som lys eller konkurranse, også kan påvirke hvor planten vokser.",
+        "kriterier": [
+          "Nevner at transektet viser variasjon eller en sammenheng mellom forholdene.",
+          "Forklarer at sammenheng ikke beviser årsak, for eksempel fordi andre faktorer kan påvirke planteantallet."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En person med influensa ønsker antibiotika og vurderer samtidig å vaksinere seg før neste influensasesong. Forklar hvorfor antibiotika ikke virker mot influensavirus, og hvordan en vaksine kan bidra til raskere immunforsvar ved et senere møte med viruset.",
+        "fasit": "Influensavirus er ikke celler og mangler strukturene antibiotika angriper, så antibiotika virker ikke mot influensa. En vaksine får immunforsvaret til å danne hukommelsesceller, som bidrar til en raskere og kraftigere respons ved et senere møte med viruset.",
+        "kriterier": [
+          "Forklarer at virus mangler bakterienes mål for antibiotika, eller at antibiotika ikke virker mot virus.",
+          "Nevner at vaksinen danner hukommelsesceller som gir en raskere sekundærrespons."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Varmere vår gjør at insekter klekkes tidligere, mens fuglene i et område fortsatt får unger på omtrent samme tid som før. Forklar hvordan dette kan påvirke fuglene, og hvorfor oppstykkede leveområder kan gjøre det vanskeligere for arter å møte klimaendringer.",
+        "fasit": "Hvis insektene klekkes før fuglene får unger, kan det være mindre mat tilgjengelig når fugleungene trenger den. Oppstykkede leveområder gjør det vanskeligere for arter å flytte seg til nye områder når klimaet endres.",
+        "kriterier": [
+          "Knytter endret tidspunkt for insekter til mindre mat når fugleungene trenger den.",
+          "Forklarer at fragmenterte leveområder hindrer eller vanskeliggjør arters forflytning."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En celle i bukspyttkjertelen lager et vannløselig proteinhormon som skal fraktes med blodet og påvirke bestemte målceller. Beskriv hvordan proteinet bearbeides og sendes ut av cellen, og hvordan det kan utløse en respons i en målcelle.",
+        "fasit": "Ribosomer på ru ER lager proteinet, og Golgiapparatet bearbeider og pakker det i vesikler som sender det ut av cellen. Hormonet binder seg til en passende reseptor i membranen på målcellen og setter i gang en signalkjede som gir en respons.",
+        "kriterier": [
+          "Nevner ru ER/ribosomer og Golgiapparatet eller vesikler i produksjon og utsending av proteinet.",
+          "Forklarer at hormonet binder seg til en passende membranreseptor og utløser en respons."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En bakterie deler seg hvert 20. minutt. Hvis du starter med én bakterie og den deler seg regelmessig uten at noen dør, hvor mange bakterier er det etter én time? Vis kort hvordan du regner det ut.",
+        "fasit": "Det går tre delingsperioder på én time. Antallet dobles hver gang: 1 → 2 → 4 → 8, så det er 8 bakterier etter én time.",
+        "kriterier": [
+          "Regner ut at det skjer tre delinger og at antallet dobles for hver deling.",
+          "Oppgir 8 bakterier."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En menneskecelle med 46 kromosomer gjennomgår meiose. Hvor mange kromosomer får hver av de fire cellene som dannes, og hvor mange kromosomer er det til sammen i alle fire cellene?",
+        "fasit": "Hver celle får 23 kromosomer, altså halvparten av kromosomtallet i utgangscellen. Til sammen blir det 4 × 23 = 92 kromosomer.",
+        "kriterier": [
+          "Oppgir 23 kromosomer i hver celle.",
+          "Regner ut at de fire cellene har 92 kromosomer til sammen."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et område består av 500 km² land og hav. Naturavtalen har som mål å bevare 30 % av land- og havområdene. Hvor mange km² tilsvarer 30 % av området? Nevn også ett tiltak som kan bidra til å bevare natur.",
+        "fasit": "30 % av 500 km² er 0,30 × 500 = 150 km². Vern av områder, restaurering av ødelagt natur eller bedre arealplanlegging kan bidra til å bevare natur.",
+        "kriterier": [
+          "Regner ut at 30 % av 500 km² er 150 km².",
+          "Nevner et relevant tiltak, som vern, restaurering eller bedre arealplanlegging."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En encellet organisme mangler cellekjerne. Forklar hvilken hovedtype celle den har, og hvordan DNA-sammenligninger kan gi mer informasjon om slektskapet mellom denne organismen og andre organismer enn det at cellene mangler cellekjerne alene.",
+        "fasit": "Organismen har en prokaryot celle. DNA-sammenligninger kan vise slektskap som ikke kommer fram av celleoppbygningen alene, og har vist at prokaryotene omfatter de to domenene bakterier og arker.",
+        "kriterier": [
+          "Identifiserer cellen som prokaryot.",
+          "Forklarer at DNA-sammenligning kan avdekke slektskap og skille mellom grupper som ikke kan skilles bare ut fra fravær av cellekjerne."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

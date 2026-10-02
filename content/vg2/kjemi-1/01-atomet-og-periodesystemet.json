@@ -111,32 +111,32 @@
       "options": [
         "Antall nøytroner",
         "Antall protoner",
-        "Antall elektroner i ytterskallet",
-        "Massetallet"
+        "Antall elektroner",
+        "Atomets massetall"
       ],
       "correct": 1,
-      "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet. Antall nøytroner kan variere (isotoper), og antall elektroner endres når det dannes ioner."
+      "explain": "Atomnummeret er lik antall protoner i kjernen, og dette tallet bestemmer hvilket grunnstoff atomet er."
     },
     {
       "id": "q02",
       "text": "Et atom har 17 protoner, 18 nøytroner og 17 elektroner. Hva er massetallet?",
       "options": [
-        "17",
-        "18",
-        "34",
+        "36",
+        "16",
+        "19",
         "35"
       ],
       "correct": 3,
-      "explain": "Massetallet er protoner pluss nøytroner: 17 + 18 = 35. Atomet er klor-35."
+      "explain": "Massetallet er summen av protoner og nøytroner i atomkjernen."
     },
     {
       "id": "q03",
       "text": "Hva er karbon-12 og karbon-14 et eksempel på?",
       "options": [
         "Isotoper",
-        "Ioner",
         "Allotrope former",
-        "Ulike grunnstoffer"
+        "Ulike grunnstoffer",
+        "Kjemiske forbindelser"
       ],
       "correct": 0,
       "explain": "Begge har 6 protoner, men karbon-14 har 8 nøytroner og karbon-12 har 6. Samme grunnstoff med ulikt antall nøytroner kalles isotoper."
@@ -145,10 +145,10 @@
       "id": "q04",
       "text": "Hvor mange elektroner kan skall nummer 3 (M-skallet) romme?",
       "options": [
-        "8",
+        "6",
         "18",
-        "2",
-        "32"
+        "12",
+        "16"
       ],
       "correct": 1,
       "explain": "Et skall kan romme høyst 2n² elektroner. For n = 3 gir det 2 · 3² = 18."
@@ -158,21 +158,21 @@
       "text": "Hvilken elektronkonfigurasjon har magnesium (Z = 12)?",
       "options": [
         "1s² 2s² 2p⁶ 3s¹",
-        "1s² 2s² 2p⁸",
-        "1s² 2s² 2p⁶ 3p²",
+        "1s² 2s² 2p⁶ 3s² 3p¹",
+        "1s² 2s² 2p⁶ 3s² 3p²",
         "1s² 2s² 2p⁶ 3s²"
       ],
       "correct": 3,
-      "explain": "Tolv elektroner fordeles 2 i 1s, 2 i 2s, 6 i 2p og 2 i 3s. En p-undergruppe kan ikke ha mer enn 6 elektroner, og 3s fylles før 3p."
+      "explain": "Et nøytralt magnesiumatom har 12 elektroner, som fyller orbitalene i rekkefølgen 1s, 2s, 2p og 3s."
     },
     {
       "id": "q06",
       "text": "Hvorfor har grunnstoffene i samme gruppe lignende kjemiske egenskaper?",
       "options": [
-        "De har samme atommasse",
-        "De har like mange skall",
+        "De har samme antall elektronskall",
+        "De har like mange protoner",
         "De har like mange valenselektroner",
-        "De har like mange nøytroner"
+        "De har samme antall nøytroner"
       ],
       "correct": 2,
       "explain": "Valenselektronene avgjør hvordan et atom reagerer, og grunnstoffene i samme gruppe har like mange av dem."
@@ -181,10 +181,10 @@
       "id": "q07",
       "text": "Hvordan endrer atomradius seg bortover en periode fra venstre mot høyre?",
       "options": [
-        "Den minker",
-        "Den øker",
-        "Den er konstant",
-        "Den øker først og minker så"
+        "Radiusen minker",
+        "Radiusen øker",
+        "Radiusen er konstant",
+        "Radiusen varierer"
       ],
       "correct": 0,
       "explain": "Bortover en periode øker den effektive kjerneladningen mens antall skall er det samme. Elektronene trekkes tettere inn, og atomet blir mindre."
@@ -194,8 +194,8 @@
       "text": "Hvilket grunnstoff har høyest elektronegativitet?",
       "options": [
         "Oksygen",
-        "Klor",
-        "Helium",
+        "Nitrogen",
+        "Svovel",
         "Fluor"
       ],
       "correct": 3,
@@ -205,10 +205,10 @@
       "id": "q09",
       "text": "Hvorfor har kalium lavere ioniseringsenergi enn natrium?",
       "options": [
-        "Kalium har færre protoner",
+        "Valenselektronet i kalium er nærmere kjernen og sterkere tiltrukket",
         "Valenselektronet i kalium er lenger fra kjernen og mer skjermet",
-        "Kalium har flere valenselektroner",
-        "Natrium er et edelgassatom"
+        "Kalium har færre protoner, så kjernen trekker svakere i valenselektronet",
+        "Kalium har færre elektronskall, så valenselektronet er mindre skjermet"
       ],
       "correct": 1,
       "explain": "Kalium har ett skall mer enn natrium. Valenselektronet er lenger unna kjernen og skjermes av flere indre elektroner, så det er lettere å fjerne."
@@ -217,10 +217,10 @@
       "id": "q10",
       "text": "Hvilket ion danner kalsium (gruppe 2) oftest?",
       "options": [
-        "Ca⁺",
-        "Ca²⁻",
+        "Ca⁻",
+        "Ca³⁺",
         "Ca²⁺",
-        "Ca³⁺"
+        "Ca⁴⁺"
       ],
       "correct": 2,
       "explain": "Kalsium har to valenselektroner. Ved å gi fra seg begge får det edelgasskonfigurasjon og blir Ca²⁺."
@@ -230,9 +230,9 @@
       "text": "Hva viste Rutherfords gullfolieforsøk?",
       "options": [
         "At atomet har en liten, tett og positivt ladd kjerne",
-        "At elektronene går i faste baner",
-        "At atomer er udelelige",
-        "At elektronet finnes"
+        "At atomet har en liten, tett og negativt ladd kjerne",
+        "At atomet har en stor, tett og positivt ladd kjerne",
+        "At atomet har en liten, diffus og positivt ladd kjerne"
       ],
       "correct": 0,
       "explain": "De fleste alfapartiklene gikk rett gjennom folien, men noen få ble kastet kraftig tilbake. Det viste at nesten all massen og den positive ladningen er samlet i en liten kjerne."
@@ -241,10 +241,10 @@
       "id": "q12",
       "text": "Et natriumatom blir til Na⁺. Hva skjer med størrelsen?",
       "options": [
-        "Den øker",
-        "Den er uendret",
-        "Den dobles",
-        "Den minker"
+        "Størrelsen blir større",
+        "Størrelsen blir uendret",
+        "Størrelsen øker kraftig",
+        "Størrelsen blir mindre"
       ],
       "correct": 3,
       "explain": "Natrium mister hele det ytterste skallet sitt når det gir fra seg ett elektron. De resterende elektronene trekkes dessuten sterkere inn, så Na⁺ er mye mindre enn Na."
@@ -439,10 +439,10 @@
         "type": "flervalg",
         "text": "Hvor mange valenselektroner har et atom i gruppe 16, for eksempel oksygen?",
         "options": [
-          "2",
-          "4",
+          "5",
+          "7",
           "6",
-          "8"
+          "3"
         ],
         "correct": 2,
         "explain": "For hovedgruppene 13–18 er antall valenselektroner gruppenummeret minus 10. Gruppe 16 gir seks valenselektroner."
@@ -452,13 +452,13 @@
         "type": "flervalg",
         "text": "Hvilket av disse er et halogen?",
         "options": [
-          "Natrium",
+          "Litium",
           "Brom",
-          "Argon",
-          "Kalsium"
+          "Neon",
+          "Magnesium"
         ],
         "correct": 1,
-        "explain": "Brom står i gruppe 17 sammen med fluor, klor og jod. Natrium er et alkalimetall, argon en edelgass og kalsium et jordalkalimetall."
+        "explain": "Brom står i gruppe 17 i periodesystemet, som er halogengruppen."
       },
       {
         "id": "m05",
@@ -472,13 +472,13 @@
         "type": "flervalg",
         "text": "Hvilken orbital fylles rett etter 3p?",
         "options": [
-          "3d",
-          "4p",
+          "5s",
+          "4f",
           "4s",
-          "4d"
+          "5p"
         ],
         "correct": 2,
-        "explain": "4s har litt lavere energi enn 3d og fylles derfor først. Rekkefølgen er 3s, 3p, 4s, 3d, 4p."
+        "explain": "Etter orbitalene i tredje hovedskall fylles 4s før orbitalene med høyere energi."
       },
       {
         "id": "m07",
@@ -492,10 +492,10 @@
         "type": "flervalg",
         "text": "Hvem innførte ideen om at elektronene har faste energinivåer?",
         "options": [
-          "Dalton",
+          "Rutherford",
           "Thomson",
           "Bohr",
-          "Mendelejev"
+          "Chadwick"
         ],
         "correct": 2,
         "explain": "Bohr foreslo i 1913 at elektronene bare kan ha bestemte energier. Modellen forklarer linjespektrene til hydrogen."
@@ -579,6 +579,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -55,7 +55,8 @@
     },
     {
       "term": "el ciberacoso",
-      "def": "mobbing på nett"
+      "def": "mobbing på nett",
+      "niva": "eksempel"
     },
     {
       "term": "falsos amigos",
@@ -91,10 +92,10 @@
       "id": "q01",
       "text": "Hvordan ber du om et dobbeltrom for to netter?",
       "options": [
-        "Tengo dos habitaciones.",
-        "¿Dónde está la habitación?",
+        "Quisiera reservar una habitación individual para dos noches.",
+        "Quisiera reservar una habitación doble para tres noches.",
         "Quisiera reservar una habitación doble para dos noches.",
-        "La habitación es doble."
+        "Quisiera reservar dos habitaciones dobles para dos noches."
       ],
       "correct": 2,
       "explain": "«Quisiera» er en høflig måte å si «jeg vil gjerne» på."
@@ -116,9 +117,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "Me duele la cabeza.",
-        "Soy cabeza.",
-        "Mi cabeza está enferma.",
-        "Tengo la cabeza mal."
+        "Me duele el estómago.",
+        "Me duele la garganta.",
+        "Me duelen los ojos."
       ],
       "correct": 0,
       "explain": "«doler» brukes som «gustar»."
@@ -127,10 +128,10 @@
       "id": "q04",
       "text": "Hvordan sier du «Føttene mine gjør vondt»?",
       "options": [
-        "Me duele los pies.",
+        "Me duele el pie izquierdo.",
         "Me duelen los pies.",
-        "Me dolen los pies.",
-        "Duelo los pies."
+        "Me duelen las manos.",
+        "Me duele la espalda."
       ],
       "correct": 1,
       "explain": "«los pies» er flertall, derfor «duelen»."
@@ -139,10 +140,10 @@
       "id": "q05",
       "text": "Hvordan sier du «Jeg må gå til legen»?",
       "options": [
-        "Quiero ir al médico.",
-        "Voy al médico ayer.",
+        "Quiero ir al médico hoy.",
+        "Tengo que ir a la farmacia.",
         "Tengo que ir al médico.",
-        "Soy médico."
+        "Tengo que llamar al médico."
       ],
       "correct": 2,
       "explain": "«tener que» + infinitiv betyr å måtte."
@@ -151,9 +152,9 @@
       "id": "q06",
       "text": "Hvordan lager du nær framtid med «ir»?",
       "options": [
-        "haber + partisipp",
         "estar + gerundium",
-        "ser + infinitiv",
+        "haber + partisipp",
+        "tener que + infinitiv",
         "ir a + infinitiv"
       ],
       "correct": 3,
@@ -163,10 +164,10 @@
       "id": "q07",
       "text": "Hva er futurum av «tener» med «yo»?",
       "options": [
-        "teneré",
-        "tenderé",
+        "tendría",
+        "tendrá",
         "tendré",
-        "tengo"
+        "tenía"
       ],
       "correct": 2,
       "explain": "«tener» har stammen tendr- i futurum."
@@ -175,9 +176,9 @@
       "id": "q08",
       "text": "Hva betyr «Si saco buenas notas, iré a la universidad»?",
       "options": [
-        "Jeg har gode karakterer på universitetet",
-        "Jeg gikk på universitetet",
-        "Universitetet er bra",
+        "Hvis jeg får dårlige karakterer, skal jeg gå på universitetet",
+        "Hvis jeg fikk gode karakterer, skal jeg gå på universitetet",
+        "Hvis jeg får gode karakterer, skal jeg gå på videregående skole",
         "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
       ],
       "correct": 3,
@@ -187,10 +188,10 @@
       "id": "q09",
       "text": "Hva betyr «Por un lado … por otro lado …»?",
       "options": [
-        "Først … til slutt …",
+        "Først kommer ett poeng … og etterpå et annet …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både det ene … og dessuten det andre …",
+        "Enten velger man det ene … eller det andre …"
       ],
       "correct": 1,
       "explain": "Nyttig når du drøfter fordeler og ulemper."
@@ -199,21 +200,22 @@
       "id": "q10",
       "text": "Hva er «el ciberacoso»?",
       "options": [
-        "Et dataspill",
-        "En nettbutikk",
-        "Et virus",
+        "Trakassering i skolegården",
+        "Uønsket reklame på nett",
+        "Svindel med personopplysninger",
         "Mobbing på nett"
       ],
       "correct": 3,
-      "explain": "«el acoso» betyr trakassering."
+      "explain": "«el acoso» betyr trakassering.",
+      "niva": "eksempel"
     },
     {
       "id": "q11",
       "text": "Hva betyr «El libro trata de una familia»?",
       "options": [
-        "Familien leser boka",
-        "Boka er skrevet av en familie",
-        "Familien kjøper boka",
+        "En familie leser en bok",
+        "En familie skriver en bok",
+        "En familie kjøper en bok",
         "Boka handler om en familie"
       ],
       "correct": 3,
@@ -223,10 +225,10 @@
       "id": "q12",
       "text": "Hva er «la deforestación» i Amazonas?",
       "options": [
-        "Planting av trær",
-        "En ny nasjonalpark",
-        "Et turistområde",
-        "Avskoging, at regnskogen hogges ned"
+        "At nye trær plantes i regnskogen",
+        "At regnskogen vernes mot hogst",
+        "At regnskogen brukes til turisme",
+        "At regnskogen hogges ned"
       ],
       "correct": 3,
       "explain": "Avskoging truer både dyreliv, urfolk og klimaet."
@@ -235,10 +237,10 @@
       "id": "q13",
       "text": "Hva betyr «Deberíamos usar más el transporte público»?",
       "options": [
-        "Vi bruker aldri kollektivtransport",
-        "Kollektivtransport er dyrt",
+        "Vi burde bruke privatbil mer",
+        "Vi burde bruke kollektivtransport mindre",
         "Vi burde bruke kollektivtransport mer",
-        "Vi må kjøre bil"
+        "Vi burde betale mer for kollektivtransport"
       ],
       "correct": 2,
       "explain": "«deberíamos» betyr vi burde."
@@ -348,7 +350,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -370,10 +372,10 @@
         "type": "flervalg",
         "text": "Hva betyr «El verano que viene voy a ir a Perú»?",
         "options": [
-          "I fjor sommer dro jeg til Peru",
-          "Jeg bor i Peru om sommeren",
+          "Neste vinter skal jeg reise til Peru",
+          "Neste sommer skal jeg reise til Chile",
           "Neste sommer skal jeg reise til Peru",
-          "Peru er fint om sommeren"
+          "Forrige sommer reiste jeg til Peru"
         ],
         "correct": 2,
         "explain": "«que viene» betyr som kommer, altså neste."
@@ -391,9 +393,9 @@
         "text": "Hva er futurum av «poder» med «yo»?",
         "options": [
           "podré",
-          "poderé",
-          "puedo",
-          "pudo"
+          "podría",
+          "podrá",
+          "puedo"
         ],
         "correct": 0,
         "explain": "«poder» har stammen podr- i futurum."
@@ -411,9 +413,9 @@
         "text": "Hva betyr «Me parece emocionante»?",
         "options": [
           "Jeg synes det er spennende",
-          "Det er kjedelig",
-          "Jeg er lei meg",
-          "Det er dyrt"
+          "Jeg synes det er kjedelig",
+          "Jeg synes det er trist",
+          "Jeg synes det er dyrt"
         ],
         "correct": 0,
         "explain": "«emocionante» betyr spennende."
@@ -425,8 +427,8 @@
         "options": [
           "Å spare vann",
           "Å selge vann",
-          "Å drikke vann",
-          "Å rense vann"
+          "Å rense vann",
+          "Å spare strøm"
         ],
         "correct": 0,
         "explain": "«ahorrar» betyr å spare."
@@ -511,12 +513,90 @@
           "Nevner en profesjon etter «ser» uten artikkel.",
           "Begrunner yrkesønsket med «porque»."
         ]
+      },
+      {
+        "text": "Estás en un hotel y quieres una habitación doble para dos noches. Escribe una petición cortés en español y pregunta si el desayuno está incluido.",
+        "fasit": "Quisiera reservar una habitación doble para dos noches. ¿El desayuno está incluido?",
+        "kriterier": [
+          "Pide cortésmente una habitación doble para dos noches.",
+          "Pregunta si el desayuno está incluido."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En una ciudad española hay contaminación. Escribe en español dos medidas de transporte que la ciudad está desarrollando para responder a este problema.",
+        "fasit": "La ciudad está desarrollando el transporte público y construyendo carriles para bicicletas. Estas medidas pueden ayudar a reducir la contaminación.",
+        "kriterier": [
+          "Menciona el transporte público y los carriles para bicicletas.",
+          "Relaciona estas medidas con el problema de la contaminación."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Explica en español qué alimentos incluye la dieta mediterránea y menciona otro hábito de vida saludable.",
+        "fasit": "La dieta mediterránea incluye aceite de oliva, verduras, pescado y fruta. También es saludable hacer deporte y dormir bien.",
+        "kriterier": [
+          "Nombra alimentos propios de la dieta mediterránea, como aceite de oliva, verduras, pescado o fruta.",
+          "Menciona un hábito saludable, como hacer deporte o dormir bien."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Después de la ESO, algunos estudiantes quieren ir a la universidad y otros prefieren una formación profesional. Explica en español qué opción prepara para la universidad y qué opción es formación profesional.",
+        "fasit": "Después de la ESO, algunos estudiantes elegirán el Bachillerato, que prepara para la universidad. Otros elegirán la Formación Profesional, que es una formación profesional.",
+        "kriterier": [
+          "Indica que el Bachillerato prepara para la universidad.",
+          "Indica que la Formación Profesional es una opción de formación profesional."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Compara en español dos artistas españoles: menciona qué estilo se asocia con Picasso y Dalí, y describe una obra o imagen conocida de cada uno.",
+        "fasit": "Pablo Picasso fue uno de los creadores del cubismo, y su cuadro *Guernica* muestra los horrores del bombardeo de la ciudad. Salvador Dalí es conocido por sus obras surrealistas, como el cuadro de los relojes derretidos.",
+        "kriterier": [
+          "Relaciona a Picasso con el cubismo y *Guernica* con el bombardeo de la ciudad.",
+          "Relaciona a Dalí con el surrealismo y menciona los relojes derretidos."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Quieres aprender español con recursos digitales. Escribe en español una manera de usar un recurso en línea y explica qué debes hacer cuando una traducción automática te da un resultado.",
+        "fasit": "Puedo ver programas en español en la página de RTVE para practicar. Si uso una traducción automática, debo revisar el resultado con cuidado porque puede tener errores.",
+        "kriterier": [
+          "Menciona un recurso digital para practicar español, como RTVE o Instituto Cervantes.",
+          "Explica que hay que revisar críticamente las traducciones automáticas porque pueden equivocarse."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Compara en español un problema ambiental de España con uno de la selva amazónica. Explica qué amenaza la deforestación en la Amazonía.",
+        "fasit": "En España, el cambio climático causa problemas como la sequía y los incendios forestales. En la Amazonía, la deforestación amenaza a los animales, a los pueblos indígenas y al clima.",
+        "kriterier": [
+          "Menciona un problema relacionado con el cambio climático en España, como sequía o incendios forestales.",
+          "Explica que la deforestación amenaza el clima, los animales o los pueblos indígenas en la Amazonía."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Explica en español cómo cambió el sistema político de España después de la dictadura de Franco. Incluye el año de la nueva Constitución y describe qué tipo de monarquía es España hoy.",
+        "fasit": "Después de la muerte de Franco, España se convirtió en una democracia. En 1978 tuvo una nueva Constitución y hoy es una monarquía constitucional.",
+        "kriterier": [
+          "Indica que después de la dictadura España se convirtió en una democracia.",
+          "Menciona la Constitución de 1978 y que España es hoy una monarquía constitucional."
+        ],
+        "id": "s16",
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

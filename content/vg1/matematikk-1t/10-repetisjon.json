@@ -85,7 +85,7 @@
     {
       "term": "Enhetssirkelen",
       "def": "Sirkel med radius 1 og sentrum i origo.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     },
     {
       "term": "Arealsetningen",
@@ -140,7 +140,7 @@
         "x = 5, y = 5",
         "x = 3, y = 7",
         "x = 4, y = 6",
-        "x = 10, y = 0"
+        "x = 6, y = 4"
       ],
       "correct": 0,
       "explain": "Addisjon gir 3x = 15, så x = 5 og y = 5."
@@ -152,7 +152,7 @@
         "x = 2 eller x = 3",
         "x = −2 eller x = −3",
         "x = 1 eller x = 6",
-        "x = 5 eller x = 6"
+        "x = −1 eller x = −6"
       ],
       "correct": 0,
       "explain": "abc-formelen gir (5 ± 1)/2."
@@ -162,8 +162,8 @@
       "text": "Når går polynomdivisjonen P(x) : (x − a) opp?",
       "options": [
         "Når P(0) = a",
-        "Når a = 0",
-        "Alltid",
+        "Når P(a) = 1",
+        "Når P(−a) = 0",
         "Når P(a) = 0"
       ],
       "correct": 3,
@@ -175,8 +175,8 @@
       "options": [
         "x = 3",
         "x = −3",
-        "y = 2",
-        "x = −1/2"
+        "x = −1/2",
+        "x = 1"
       ],
       "correct": 0,
       "explain": "Nevneren er null for x = 3."
@@ -187,7 +187,7 @@
       "options": [
         "4x³",
         "x³",
-        "4x⁴",
+        "4x⁵",
         "3x⁴"
       ],
       "correct": 0,
@@ -199,8 +199,8 @@
       "options": [
         "30° og 150°",
         "30° og 60°",
-        "Bare 30°",
-        "60° og 120°"
+        "60° og 120°",
+        "150° og 180°"
       ],
       "correct": 0,
       "explain": "sin(180° − v) = sin v."
@@ -212,7 +212,7 @@
         "Sinussetningen",
         "Cosinussetningen",
         "Arealsetningen",
-        "Ingen av dem"
+        "Vinkelsumsetningen"
       ],
       "correct": 1,
       "explain": "cos A = (b² + c² − a²)/(2bc)."
@@ -221,10 +221,10 @@
       "id": "q09",
       "text": "Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?",
       "options": [
-        "Fordi eksempler alltid er feil",
+        "Fordi et bevis må forklare mønsteret med symboler",
         "Fordi det kan finnes et tilfelle vi ikke har testet",
-        "Fordi det tar for lang tid",
-        "Det er nok"
+        "Fordi de testede tallene må stå i stigende rekkefølge",
+        "Fordi eksemplene må inneholde null for å vise påstanden"
       ],
       "correct": 1,
       "explain": "Et bevis må gjelde alle tilfeller."
@@ -233,10 +233,10 @@
       "id": "q10",
       "text": "Hva gjør en while-løkke i Python?",
       "options": [
-        "Kjører koden én gang",
-        "Lager en funksjon",
+        "Kontrollerer en betingelse og kjører koden én gang",
+        "Velger hvilken funksjon som skal kjøres i programmet",
         "Gjentar koden så lenge en betingelse er sann",
-        "Skriver ut tekst"
+        "Gjentar koden et bestemt antall ganger uavhengig av betingelser"
       ],
       "correct": 2,
       "explain": "Den passer når vi ikke vet hvor mange ganger koden skal kjøres.",
@@ -246,9 +246,9 @@
       "id": "q11",
       "text": "Hvordan bør du velge modelltype?",
       "options": [
-        "Alltid lineær",
-        "Den med flest ledd",
-        "Tilfeldig",
+        "Ut fra hvilken modell som gir størst R²-verdi i datasettet",
+        "Ut fra hvilken modell som passer best til de to første datapunktene",
+        "Ut fra hvilken modell som gir enklest beregninger for eleven",
         "Ut fra formen på dataene og kunnskap om situasjonen"
       ],
       "correct": 3,
@@ -259,9 +259,9 @@
       "text": "Hva betyr det å drøfte en modell?",
       "options": [
         "Å vurdere premisser, gyldighet, styrker og svakheter",
-        "Å tegne grafen",
-        "Å regne ut ett svar",
-        "Å skrive formelen på nytt"
+        "Å sette inn tall i modellen og finne et svar",
+        "Å beskrive grafens form uten å vurdere bruken",
+        "Å sammenligne modellens svar med ett målepunkt"
       ],
       "correct": 0,
       "explain": "Drøftingen viser hvor mye vi kan stole på modellen."
@@ -414,7 +414,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -448,9 +448,9 @@
         "type": "flervalg",
         "text": "Faktoriser x² − 5x + 6.",
         "options": [
-          "(x + 2)(x + 3)",
-          "(x − 1)(x − 6)",
-          "(x + 1)(x − 6)",
+          "(x + 2)(x − 3)",
+          "(x − 2)(x + 3)",
+          "(x − 1)(x − 5)",
           "(x − 2)(x − 3)"
         ],
         "correct": 3,
@@ -476,7 +476,7 @@
         "options": [
           "x = 2",
           "x = 1",
-          "y = 1",
+          "x = −1",
           "x = 3"
         ],
         "correct": 1,
@@ -502,8 +502,8 @@
         "options": [
           "2",
           "8",
-          "4√3",
-          "6,9"
+          "4",
+          "4,6"
         ],
         "correct": 1,
         "explain": "4 / cos 60° = 4 / 0,5 = 8."
@@ -516,7 +516,7 @@
           "Cosinussetningen",
           "Arealsetningen",
           "Sinussetningen",
-          "Pytagoras"
+          "Pytagoras' setning"
         ],
         "correct": 2,
         "explain": "Den tredje vinkelen finner du med vinkelsummen."
@@ -609,12 +609,85 @@
           "Forklarer at intervallet halveres gjentatte ganger for å nærme seg nullpunktet."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Løs likningssettet x + y = 7 og x − y = 1 ved å legge sammen likningene. Forklar hva løsningen betyr dersom likningene også vises som to rette linjer i et koordinatsystem.",
+        "fasit": "Når vi legger sammen likningene, får vi 2x = 8, altså x = 4. Da er y = 3, og linjene skjærer hverandre i punktet (4, 3).",
+        "kriterier": [
+          "Finner x = 4 og y = 3.",
+          "Forklarer at løsningen er skjæringspunktet (4, 3)."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Undersøk hvor mange reelle løsninger likningen x² + 2x + 5 = 0 har ved å bruke diskriminanten. Hva betyr svaret for grafen til f(x) = x² + 2x + 5?",
+        "fasit": "Diskriminanten er D = 2² − 4 · 1 · 5 = −16, så likningen har ingen reelle løsninger. Grafen til f krysser derfor ikke x-aksen.",
+        "kriterier": [
+          "Regner ut D = −16 og konkluderer med ingen reelle løsninger.",
+          "Knytter dette til at grafen ikke har nullpunkter eller ikke krysser x-aksen."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "For funksjonen f(x) = (3x + 6)/(x − 1), oppgi definisjonsmengden og de vertikale og horisontale asymptotene. Begrunn kort svarene.",
+        "fasit": "Funksjonen er definert for alle x unntatt x = 1, der nevneren blir null. Den vertikale asymptoten er x = 1, og den horisontale asymptoten er y = 3, forholdet mellom koeffisientene foran x i teller og nevner.",
+        "kriterier": [
+          "Oppgir at x = 1 er utelatt fra definisjonsmengden, og at x = 1 er vertikal asymptote.",
+          "Oppgir den horisontale asymptoten y = 3 og viser til forholdet mellom koeffisientene foran x."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Et trekantområde har to sider på 8 m og 10 m, og vinkelen mellom sidene er 30°. Finn arealet og forklar hvilken sammenheng mellom sinus og høyde som gjør at arealsetningen kan brukes.",
+        "fasit": "Arealet er ½ · 8 · 10 · sin 30° = 20 m². Høyden til grunnlinjen på 8 m er 10 · sin 30°, så arealet blir halvparten av grunnlinje ganger høyde.",
+        "kriterier": [
+          "Finner arealet 20 m² ved å bruke arealsetningen.",
+          "Forklarer at høyden er den ene siden multiplisert med sinus til vinkelen mellom sidene."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "For f(x) = x³ − 3x² er f′(x) = 3x(x − 2). Bruk fortegnet til den deriverte til å beskrive hvor f er voksende og hvor den er avtagende.",
+        "fasit": "f′ er positiv når x < 0 og når x > 2, og negativ når 0 < x < 2. Derfor er f voksende for x < 0 og x > 2, og avtagende mellom 0 og 2.",
+        "kriterier": [
+          "Angir riktig fortegn for f′ på intervallene bestemt av 0 og 2.",
+          "Konkluderer med at f er voksende for x < 0 og x > 2, og avtagende for 0 < x < 2."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En elev skriver «x² = 16 ⇒ x = 4». Vis med et eksempel hvorfor påstanden ikke stemmer, og oppgi alle løsningene av x² = 16.",
+        "fasit": "x = −4 er et moteksempel, siden (−4)² = 16, men −4 er ikke 4. Løsningene er x = 4 og x = −4.",
+        "kriterier": [
+          "Gir −4 som moteksempel og viser at det oppfyller x² = 16.",
+          "Oppgir begge løsningene x = 4 og x = −4."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Antall brukere av en tjeneste øker med omtrent 12 % hvert år. En andregradsmodell for dataene gir etter hvert negative brukertall. Hvilken modelltype kan passe bedre til den jevne prosentvise veksten, og hva bør man vurdere før man bruker modellen til å forutsi framtidige brukertall?",
+        "fasit": "En eksponentialmodell kan passe bedre fordi veksten er omtrent den samme prosentandelen hvert år. Før vi bruker den til prognoser, bør vi vurdere om modellen fortsatt passer situasjonen; negative brukertall fra en modell er for eksempel ikke realistiske.",
+        "kriterier": [
+          "Velger en eksponentialmodell og knytter valget til jevn prosentvis vekst.",
+          "Nevner at modellens gyldighetsområde eller forutsetninger må vurderes, og at negative brukertall ikke er realistiske."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En program skal finne det minste positive heltallet n som gjør at 4n + 1 > 20. Beskriv hvordan en løkke kan starte, oppdatere n og stoppe, og oppgi tallet programmet skal skrive ut.",
+        "fasit": "Programmet kan starte med n = 1 og øke n med 1 så lenge 4n + 1 ikke er større enn 20. Når betingelsen blir oppfylt, skriver programmet ut n = 5.",
+        "kriterier": [
+          "Beskriver at n starter på et positivt heltall og økes trinnvis mens betingelsen ikke er oppfylt.",
+          "Oppgir at programmet stopper og skriver ut n = 5."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

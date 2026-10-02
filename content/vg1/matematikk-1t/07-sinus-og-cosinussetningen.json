@@ -78,9 +78,9 @@
       "text": "Hva sier arealsetningen?",
       "options": [
         "T = ½ · a · b · sin C",
-        "T = a · b · cos C",
-        "T = ½ · a · b",
-        "T = a² + b² − 2ab · cos C"
+        "T = a · b · sin C",
+        "T = ½ · a · b · cos C",
+        "T = ½ · a · b · sin A"
       ],
       "correct": 0,
       "explain": "Vinkelen C ligger mellom sidene a og b."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva sier sinussetningen?",
       "options": [
-        "a² = b² + c² − 2bc · cos A",
+        "sin A / b = sin B / a = sin C / c",
         "sin A / a = sin B / b = sin C / c",
-        "T = ½ · b · c · sin A",
-        "a/b = cos A / cos B"
+        "sin A / a = cos B / b = sin C / c",
+        "sin A / a = sin B / c = sin C / b"
       ],
       "correct": 1,
       "explain": "Forholdet mellom sinus til en vinkel og motstående side er likt for alle tre."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva sier cosinussetningen?",
       "options": [
-        "sin A / a = sin B / b",
-        "a = b · sin A",
-        "a² = b² + c²",
+        "a² = b² + c² + 2bc · cos A",
+        "a² = b² + c² − 2bc · sin A",
+        "a² = b² − c² − 2bc · cos A",
         "a² = b² + c² − 2bc · cos A"
       ],
       "correct": 3,
@@ -127,7 +127,7 @@
       "options": [
         "6,2",
         "8,6",
-        "39",
+        "7,0",
         "4,1"
       ],
       "correct": 0,
@@ -140,7 +140,7 @@
         "Sinussetningen",
         "Cosinussetningen",
         "Arealsetningen",
-        "Ingen av dem"
+        "Vinkelsumsetningen"
       ],
       "correct": 1,
       "explain": "cos A = (b² + c² − a²)/(2bc)."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvordan kan sinussetningen bevises?",
       "options": [
-        "Med Pytagoras alene",
-        "Ved å måle mange trekanter",
-        "Med polynomdivisjon",
+        "Ved å bruke Pytagoras' setning på trekantens sider",
+        "Ved å bruke vinkelsummen i trekanten alene",
+        "Ved å sette sidene inn i cosinussetningen",
         "Ved å uttrykke arealet av trekanten på to måter"
       ],
       "correct": 3,
@@ -176,7 +176,7 @@
         "Pytagoras' setning",
         "Sinussetningen",
         "Arealsetningen",
-        "Den blir ugyldig"
+        "Vinkelsumsetningen"
       ],
       "correct": 0,
       "explain": "cos 90° = 0, så a² = b² + c²."
@@ -329,7 +329,7 @@
           "Cosinussetningen",
           "Arealsetningen",
           "Sinussetningen",
-          "Pytagoras"
+          "Pytagoras' setning"
         ],
         "correct": 2,
         "explain": "Den tredje vinkelen finner du med vinkelsummen."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

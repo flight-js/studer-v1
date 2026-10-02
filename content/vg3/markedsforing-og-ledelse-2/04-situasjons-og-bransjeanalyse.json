@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvilken strategi kombinerer styrker og muligheter?",
       "options": [
-        "Defensiv",
-        "Offensiv",
-        "Avvikling",
-        "Forsvar"
+        "Defensiv strategi",
+        "Offensiv strategi",
+        "Tilpasningsstrategi",
+        "Overlevelsesstrategi"
       ],
       "correct": 1,
       "explain": "Bruk styrkene aktivt."
@@ -88,9 +88,9 @@
       "text": "Hva er en substitutt?",
       "options": [
         "Et produkt som dekker samme behov på en annen måte",
-        "En direkte konkurrent",
-        "En leverandør",
-        "En kunde"
+        "Et produkt som dekker et annet behov på samme måte",
+        "Et produkt som brukes sammen med et annet for å dekke behovet",
+        "Et produkt som produseres av samme virksomhet som hovedproduktet"
       ],
       "correct": 0,
       "explain": "For eksempel strømmetjeneste mot kino."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva kjennetegner et oligopol?",
       "options": [
-        "Én tilbyder",
-        "Mange små tilbydere",
-        "Få store aktører",
-        "Ingen konkurranse"
+        "Et marked der én tilbyder kontrollerer det meste",
+        "Et marked med mange små tilbydere som konkurrerer",
+        "Et marked der noen få store aktører dominerer",
+        "Et marked der mange store tilbydere deler kundene"
       ],
       "correct": 2,
       "explain": "Som dagligvarekjeder."
@@ -124,9 +124,9 @@
       "text": "Hva er en melkeku i BCG-matrisen?",
       "options": [
         "Lav vekst og høy markedsandel",
-        "Høy vekst og lav andel",
-        "Lav vekst og lav andel",
-        "Høy vekst og høy andel"
+        "Høy vekst og lav markedsandel",
+        "Lav vekst og lav markedsandel",
+        "Høy vekst og høy markedsandel"
       ],
       "correct": 0,
       "explain": "Gir overskudd."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva advarte Porter mot?",
       "options": [
-        "Differensiering",
-        "Å bli «stuck in the middle»",
-        "Kostnadsledelse",
-        "Fokus"
+        "Å satse tydelig på kostnadsledelse i hele markedet",
+        "Å stå fast mellom kostnadsledelse og differensiering",
+        "Å tilby unike egenskaper til en bred kundegruppe",
+        "Å rette tilbudet mot en tydelig kundegruppe"
       ],
       "correct": 1,
       "explain": "Verken billigst eller best."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva gjør høye etableringsbarrierer?",
       "options": [
-        "Øker konkurransen",
-        "Senker prisene",
-        "Beskytter bransjen mot nye aktører",
-        "Gir flere substitutter"
+        "Det gjør det enklere for nye aktører å etablere seg",
+        "Det gjør det vanskeligere for kundene å bytte leverandør",
+        "Det gjør det vanskeligere for nye aktører å etablere seg",
+        "Det gjør det vanskeligere for etablerte aktører å skille seg ut"
       ],
       "correct": 2,
       "explain": "Gir høyere lønnsomhet for de etablerte."
@@ -159,8 +159,8 @@
       "id": "q08",
       "text": "Hva er markedsutvikling i Ansoffs matrise?",
       "options": [
-        "Nye produkter i eksisterende marked",
-        "Mer salg av eksisterende produkter",
+        "Nye produkter i eksisterende markeder",
+        "Eksisterende produkter i eksisterende markeder",
         "Nye produkter i nye markeder",
         "Eksisterende produkter i nye markeder"
       ],
@@ -172,9 +172,9 @@
       "text": "Hva er differensiering?",
       "options": [
         "Unike egenskaper kunden vil betale mer for",
-        "Lavest pris",
-        "Å selge i alle land",
-        "Å kutte kostnader"
+        "Et tilbud med lavere pris enn konkurrentenes",
+        "Et produkt som selges i flest mulig land",
+        "En måte å redusere produksjonskostnadene på"
       ],
       "correct": 0,
       "explain": "En av Porters generiske strategier."
@@ -185,8 +185,8 @@
       "options": [
         "Den øker",
         "Den synker",
-        "Den er uendret",
-        "Den dobles"
+        "Den er stabil",
+        "Den svinger mindre"
       ],
       "correct": 1,
       "explain": "Mer press på marginene."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hvilken kraft handler om at kjedene presser leverandørene?",
         "options": [
-          "Substitutter",
-          "Nye aktører",
+          "Trussel fra substitutter",
+          "Trussel fra nye aktører",
           "Kundenes forhandlingsmakt",
-          "Rivalisering"
+          "Rivalisering mellom konkurrenter"
         ],
         "correct": 2,
         "explain": "Kjedene er leverandørenes kunder."
@@ -414,6 +414,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Når oppstår en psykisk krise?",
       "options": [
-        "Når man er litt lei seg",
+        "Når en person møter en belastning som mestringsmåtene håndterer",
         "Når tidligere erfaringer og mestringsmåter ikke strekker til",
-        "Bare ved dødsfall",
-        "Bare hos voksne"
+        "Når en person kjenner uro etter en vanlig utfordring",
+        "Når tidligere erfaringer gjør det lettere å mestre situasjonen"
       ],
       "correct": 1,
       "explain": "Situasjonen oppleves overveldende."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er et eksempel på en utviklingskrise?",
       "options": [
-        "Å flytte hjemmefra",
-        "En bilulykke",
-        "Et dødsfall",
-        "En naturkatastrofe"
+        "Å flytte fra foreldrenes hjem",
+        "Å bli utsatt for en bilulykke",
+        "Å miste en nær person brått",
+        "Å oppleve en stor naturkatastrofe"
       ],
       "correct": 0,
       "explain": "Knyttet til livsoverganger."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva kjennetegner sjokkfasen?",
       "options": [
-        "Personen ser framover",
-        "Hendelsen er en del av livshistorien",
-        "Uvirkelighet eller kaos",
-        "Posttraumatisk vekst"
+        "En tydelig plan for tiden framover",
+        "En forståelse av hendelsen som del av livshistorien",
+        "En opplevelse av uvirkelighet eller kaos",
+        "En følelse av personlig vekst etter krisen"
       ],
       "correct": 2,
       "explain": "Kan vare fra et øyeblikk til noen døgn."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er en av de viktigste beskyttende faktorene i en krise?",
       "options": [
-        "Sosial støtte",
-        "Å være alene",
-        "Å unngå å snakke om det",
-        "Mye skjermtid"
+        "Støtte fra familie, venner og andre nærpersoner",
+        "Avstand fra familie, venner og andre nærpersoner",
+        "Følelsesmessig tilbakeholdenhet overfor familie og venner",
+        "Unngåelse av kontakt med familie og venner"
       ],
       "correct": 0,
       "explain": "Familie og venner som er til stede."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er posttraumatisk vekst?",
       "options": [
-        "At man blir fysisk sterkere",
-        "At krisen gir nye verdier, nærere relasjoner og styrke",
-        "En psykisk lidelse",
-        "En fase hos Cullberg"
+        "At en krise fører til langvarige symptomer på posttraumatisk stress",
+        "At en krise fører til nye verdier, nærere relasjoner og personlig styrke",
+        "At en krise fører til større fysisk styrke og bedre helse",
+        "At tidligere verdier og relasjoner består uendret etter en krise"
       ],
       "correct": 1,
       "explain": "Et mulig positivt utfall."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilket symptom hører til PTSD?",
       "options": [
-        "Økt appetitt",
-        "Bedre hukommelse",
-        "Gjenopplevelse av hendelsen",
-        "Mer energi"
+        "Bedre hukommelse for vanlige hendelser i hverdagen",
+        "Økt interesse for sosiale aktiviteter etter hendelsen",
+        "Påtrengende gjenopplevelse av den traumatiske hendelsen",
+        "Sterkere konsentrasjon om vanlige oppgaver i hverdagen"
       ],
       "correct": 2,
       "explain": "Sammen med unngåelse og økt vakthet."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er det vanligste utfallet av en krise?",
       "options": [
-        "PTSD",
-        "Rusproblemer",
-        "Varig depresjon",
+        "At personen utvikler langvarige symptomer på posttraumatisk stress",
+        "At personen får vedvarende problemer med rusmidler",
+        "At personen utvikler en langvarig depresjon",
         "At personen etter hvert fungerer godt igjen"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva handler psykologisk førstehjelp om?",
       "options": [
         "Trygghet, ro, kontakt, mestring og håp",
-        "Å gi medisiner",
-        "Å stille diagnoser",
-        "Å analysere drømmer"
+        "Utredning, diagnose, terapi, medisinering og symptomkontroll",
+        "Kartlegging, tolkning, råd, problemløsning og symptomvurdering",
+        "Behandling, journalføring, diagnose, medisinering og oppfølging"
       ],
       "correct": 0,
       "explain": "Å lytte og være til stede.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilket nummer ringer du ved akutt fare for liv og helse?",
       "options": [
-        "112",
+        "116 117",
         "113",
-        "110",
-        "1881"
+        "02800",
+        "116 111"
       ],
       "correct": 1,
       "explain": "Medisinsk nødtelefon.",
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva betyr unngåelse ved PTSD?",
         "options": [
-          "Å snakke mye om hendelsen",
-          "Å unngå alt som minner om hendelsen",
-          "Å sove mye",
-          "Å søke spenning"
+          "Å oppsøke situasjoner og påminnelser knyttet til hendelsen",
+          "Å unngå situasjoner og påminnelser knyttet til hendelsen",
+          "Å gjenoppleve hendelsen gjennom påtrengende minner og drømmer",
+          "Å være ekstra på vakt i situasjoner som minner om hendelsen"
         ],
         "correct": 1,
         "explain": "Et av hovedsymptomene."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva betyr ofte mest når du skal støtte noen i krise?",
         "options": [
-          "Å lytte og være til stede",
-          "Å gi mange råd",
-          "Å si at det går over",
-          "Å bytte tema"
+          "Å lytte oppmerksomt og være til stede for personen",
+          "Å foreslå løsninger før personen har fortalt hele historien",
+          "Å forsikre personen om at situasjonen snart blir bedre",
+          "Å hjelpe personen med å rette oppmerksomheten mot noe annet"
         ],
         "correct": 0,
         "explain": "Nærvær er viktigere enn de rette ordene."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilken forsvarsmekanisme er vanlig i reaksjonsfasen?",
         "options": [
-          "Mestringsforventning",
-          "Chunking",
+          "Sosial støtte",
+          "Mestringstro",
           "Fornekting",
-          "Assimilasjon"
+          "Sorgarbeid"
         ],
         "correct": 2,
         "explain": "Kan dempe smerten en stund.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

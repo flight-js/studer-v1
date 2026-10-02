@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er den viktigste forskjellen på virus og bakterier?",
       "options": [
-        "Virus er større",
-        "Virus er ikke celler og formerer seg bare i vertsceller",
-        "Bakterier har ikke arvestoff",
-        "Virus kan behandles med antibiotika"
+        "Virus er celler og formerer seg ved vanlig celledeling",
+        "Virus er ikke celler og formerer seg inne i vertsceller",
+        "Bakterier er ikke celler og formerer seg inne i vertsceller",
+        "Virus har cellekjerne og formerer seg ved celledeling"
       ],
       "correct": 1,
       "explain": "Bakterier er selvstendige celler."
@@ -89,9 +89,9 @@
       "text": "Hva lager plasmacellene?",
       "options": [
         "Antistoffer",
-        "Toksiner",
-        "Virus",
-        "Hormoner"
+        "Antigener",
+        "Viruspartikler",
+        "Enzymer"
       ],
       "correct": 0,
       "explain": "De utvikles fra B-celler."
@@ -101,7 +101,7 @@
       "text": "Hvilken celle dreper infiserte kroppsceller?",
       "options": [
         "B-cellen",
-        "Den røde blodcellen",
+        "T-hjelpecellen",
         "Den drepende T-cellen",
         "Plasmacellen"
       ],
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er en vektor i smittesammenheng?",
       "options": [
-        "En type antistoff",
-        "Et virus",
-        "En hvit blodcelle",
+        "Et antistoff som binder seg til et patogen",
+        "Et virus som formerer seg i en vertscelle",
+        "En hvit blodcelle som angriper bakterier",
         "Et dyr som overfører smitte"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvorfor blir du ofte ikke syk andre gang du møter samme patogen?",
       "options": [
         "Hukommelsescellene gir en rask og kraftig respons",
-        "Patogenet er svakere",
-        "Huden er tykkere",
-        "Du har feber"
+        "Det medfødte immunforsvaret reagerer raskere ved neste møte",
+        "Patogenet har endret seg slik at det gir mildere sykdom",
+        "Kroppen har brukt feber til å fjerne patogenet tidligere"
       ],
       "correct": 0,
       "explain": "Sekundærresponsen."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilke celler angriper HIV?",
       "options": [
-        "Røde blodceller",
+        "B-celler",
         "T-hjelpeceller",
-        "Nerveceller",
-        "Hudceller"
+        "T-dreperceller",
+        "Plasmaceller"
       ],
       "correct": 1,
       "explain": "Hele immunforsvaret svekkes.",
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva hører til førstelinjeforsvaret?",
       "options": [
-        "Antistoffer",
-        "T-celler",
+        "Antistoffer og hukommelsesceller",
+        "B-celler og plasmaceller",
         "Hud og slimhinner",
-        "Hukommelsesceller"
+        "T-hjelpeceller og drepende T-celler"
       ],
       "correct": 2,
       "explain": "Det hindrer patogener i å komme inn."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er et antigen?",
       "options": [
-        "Et legemiddel",
-        "En hvit blodcelle",
-        "Et hormon",
+        "Et molekyl som patogenet bruker til å formere seg",
+        "Et molekyl som frakter oksygen i blodet",
+        "Et signalstoff som styrer kroppens vekst",
         "Et molekyl som immunforsvaret gjenkjenner"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er en zoonose?",
       "options": [
         "En sykdom som smitter mellom dyr og mennesker",
-        "En sykdom bare hos planter",
-        "En arvelig sykdom",
-        "En sykdom uten symptomer"
+        "En sykdom som smitter mellom planter og mennesker",
+        "En sykdom som går i arv fra foreldre til barn",
+        "En sykdom som skyldes mangel på vitaminer"
       ],
       "correct": 0,
       "explain": "Mange nye sykdommer har kommet fra dyr.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva gjør fagocyttene?",
       "options": [
-        "Lager antistoffer",
-        "Spiser inntrengere",
-        "Frakter oksygen",
-        "Lager hormoner"
+        "De lager antistoffer som binder seg til inntrengere",
+        "De tar opp og bryter ned inntrengere",
+        "De frakter oksygen til kroppens ulike vev",
+        "De lager hormoner som styrer kroppens funksjoner"
       ],
       "correct": 1,
       "explain": "De er del av det medfødte forsvaret."
@@ -332,9 +332,9 @@
         "text": "Hva er tegn på betennelse?",
         "options": [
           "Rødhet, varme og hevelse",
-          "Blekhet og kulde",
-          "Kløe alene",
-          "Ingen symptomer"
+          "Rødhet, kulde og hevelse",
+          "Blekhet, varme og hevelse",
+          "Rødhet, varme og nummenhet"
         ],
         "correct": 0,
         "explain": "Blodårene utvider seg."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvordan smitter norovirus ofte?",
         "options": [
-          "Med flått",
-          "Gjennom blodoverføring",
+          "Via flåttbitt, myggstikk og dyrekontakt",
+          "Via blodoverføring, nålestikk og sårkontakt",
           "Via mat, vann og kontakt",
-          "Gjennom sollys"
+          "Via dråper fra hoste, nysing og tale"
         ],
         "correct": 2,
         "explain": "God håndhygiene er viktig.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

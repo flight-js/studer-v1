@@ -79,13 +79,13 @@
       "id": "q01",
       "text": "Hva er HTML?",
       "options": [
-        "Et programmeringsspråk for spill",
+        "Et programmeringsspråk for å styre sidens funksjoner",
         "Et markeringsspråk som beskriver innhold og struktur",
-        "Et stilspråk for farger",
-        "En database"
+        "Et stilarksspråk for å bestemme sidens utseende",
+        "Et dataformat for å lagre nettsidens innhold"
       ],
       "correct": 1,
-      "explain": "CSS tar seg av utseendet."
+      "explain": "HTML beskriver strukturen; CSS styrer utseendet."
     },
     {
       "id": "q02",
@@ -94,7 +94,7 @@
         "alt",
         "src",
         "href",
-        "class"
+        "title"
       ],
       "correct": 0,
       "explain": "Viktig for skjermlesere."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva treffer selektoren .viktig i CSS?",
       "options": [
-        "Elementet med id viktig",
-        "Alle p-elementer",
+        "Elementet med id=\"viktig\"",
+        "Alle elementer med taggen <viktig>",
         "Alle elementer med class=\"viktig\"",
-        "Bare det første elementet"
+        "Første element med class=\"viktig\""
       ],
       "correct": 2,
       "explain": "Punktum betyr klasse."
@@ -116,12 +116,12 @@
       "text": "Hva er padding i boksmodellen?",
       "options": [
         "Luft utenfor kanten",
-        "Kanten rundt elementet",
-        "Innholdet",
+        "Linjen som tegnes rundt innholdet",
+        "Selve innholdet i boksen",
         "Luft innenfor kanten"
       ],
       "correct": 3,
-      "explain": "Margin er luft utenfor kanten."
+      "explain": "Padding ligger mellom innholdet og kanten; margin ligger utenfor kanten."
     },
     {
       "id": "q05",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva brukes media queries til?",
       "options": [
-        "Hente data fra databaser",
+        "Laste inn innhold fra eksterne databaser",
         "Tilpasse stilen til ulike skjermstørrelser",
-        "Legge inn video",
-        "Lage lenker"
+        "Legge inn videofiler i nettsidens innhold",
+        "Koble sammen nettsidens ulike lenker"
       ],
       "correct": 1,
       "explain": "Responsiv design."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor bør du bruke semantiske elementer som nav og main?",
       "options": [
-        "De gir penere farger",
-        "De gjør siden raskere",
+        "De bestemmer hvilke farger delene får, og angir skrifttypene",
+        "De styrer hvor raskt delene lastes, og viser bilder for nettleseren",
         "De forteller hva delene er, og hjelper skjermlesere og søkemotorer",
-        "De er påbudt i CSS"
+        "De bestemmer plasseringen av delene, og erstatter CSS-reglene"
       ],
       "correct": 2,
       "explain": "Struktur med mening."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva gjør display: flex?",
       "options": [
-        "Skjuler elementet",
-        "Gjør teksten fet",
-        "Legger inn et bilde",
+        "Fjerner barneelementet fra visningen og dokumentflyten",
+        "Gjør teksten i barneelementet fet og større",
+        "Viser et bilde som bakgrunn i barneelementet",
         "Plasserer barneelementene på rad eller i kolonne"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvor hører koblingen til CSS-filen hjemme?",
       "options": [
-        "I head",
-        "I body",
-        "I footer",
-        "I en tabell"
+        "I head-elementet",
+        "I body-elementet",
+        "I footer-elementet",
+        "I table-elementet"
       ],
       "correct": 0,
       "explain": "Med link rel=\"stylesheet\"."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvor mange h1-overskrifter bør en side vanligvis ha?",
       "options": [
-        "Ingen",
+        "To",
         "Én",
-        "Minst fem",
-        "Like mange som avsnitt"
+        "Tre",
+        "Fire"
       ],
       "correct": 1,
       "explain": "Et riktig hierarki gjør siden lettere å forstå."
@@ -336,7 +336,7 @@
           "thead"
         ],
         "correct": 0,
-        "explain": "td er vanlige celler."
+        "explain": "th brukes til overskriftsceller, mens td brukes til vanlige celler."
       },
       {
         "id": "m07",
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

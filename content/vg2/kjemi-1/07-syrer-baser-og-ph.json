@@ -108,19 +108,19 @@
         "En protonmottaker",
         "En protongiver",
         "En elektrongiver",
-        "Et stoff som inneholder OH⁻"
+        "Et OH⁻-holdig stoff"
       ],
       "correct": 1,
-      "explain": "En Brønsted-syre gir fra seg et proton (H⁺) til en base. Basen er protonmottakeren."
+      "explain": "En Brønsted-syre gir fra seg et proton (H⁺) til en base."
     },
     {
       "id": "q02",
       "text": "Hva er pH i 0,010 mol/L saltsyre?",
       "options": [
         "1",
-        "12",
+        "3",
         "2",
-        "0,010"
+        "12"
       ],
       "correct": 2,
       "explain": "Saltsyre er en sterk syre, så [H₃O⁺] = 0,010 mol/L. pH = −log(0,010) = 2."
@@ -130,9 +130,9 @@
       "text": "Hva er den korresponderende basen til ammoniumionet, NH₄⁺?",
       "options": [
         "NH₃",
-        "NH₄OH",
         "NH₂⁻",
-        "H₃O⁺"
+        "NH₄Cl",
+        "N₂H₄"
       ],
       "correct": 0,
       "explain": "Når NH₄⁺ gir fra seg et proton, blir det igjen NH₃. De to utgjør et korresponderende syre-base-par."
@@ -141,8 +141,8 @@
       "id": "q04",
       "text": "Løsning A har pH 3 og løsning B har pH 5. Hvor mange ganger større er [H₃O⁺] i A enn i B?",
       "options": [
+        "10",
         "2",
-        "15",
         "20",
         "100"
       ],
@@ -165,10 +165,10 @@
       "id": "q06",
       "text": "Hvorfor har 0,10 mol/L eddiksyre høyere pH enn 0,10 mol/L saltsyre?",
       "options": [
-        "Eddiksyre er en svak syre som bare protolyseres delvis",
-        "Eddiksyre er egentlig en base",
-        "Eddiksyre har større molar masse",
-        "Saltsyre inneholder mindre vann"
+        "Eddiksyre er en svak syre og protolyseres delvis.",
+        "Eddiksyre er en sterk syre og protolyseres fullstendig i vann.",
+        "Eddiksyre har lavere formell konsentrasjon enn saltsyre.",
+        "Saltsyre protolyseres delvis, mens eddiksyre protolyseres fullstendig."
       ],
       "correct": 0,
       "explain": "Bare en liten del av eddiksyremolekylene gir fra seg protonet, så [H₃O⁺] blir mye lavere enn i saltsyre med samme konsentrasjon. Lavere [H₃O⁺] gir høyere pH."
@@ -177,10 +177,10 @@
       "id": "q07",
       "text": "Hvilket av disse stoffene er en amfolytt?",
       "options": [
-        "HCl",
-        "NaOH",
+        "HNO₃",
+        "KOH",
         "H₂O",
-        "Cl⁻"
+        "NH₃"
       ],
       "correct": 2,
       "explain": "Vann kan gi fra seg et proton og bli OH⁻, eller ta opp et proton og bli H₃O⁺. Det virker altså både som syre og som base."
@@ -189,13 +189,13 @@
       "id": "q08",
       "text": "Hva er [H₃O⁺] i en løsning med pH 4?",
       "options": [
-        "4 mol/L",
+        "1,0 · 10⁻³ mol/L",
         "1,0 · 10⁻⁴ mol/L",
         "1,0 · 10⁻¹⁰ mol/L",
-        "0,4 mol/L"
+        "4,0 · 10⁻⁴ mol/L"
       ],
       "correct": 1,
-      "explain": "[H₃O⁺] = 10 opphøyd i −pH, altså 10⁻⁴ mol/L. 1,0 · 10⁻¹⁰ mol/L er [OH⁻] i den samme løsningen."
+      "explain": "[H₃O⁺] = 10 opphøyd i −pH, altså 10⁻⁴ mol/L."
     },
     {
       "id": "q09",
@@ -203,11 +203,11 @@
       "options": [
         "1,0 · 10⁻¹⁴",
         "1,0 · 10⁻⁷",
-        "7",
-        "14"
+        "1,0 · 10¹⁴",
+        "1,0 · 10⁻²⁸"
       ],
       "correct": 0,
-      "explain": "Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴ ved 25 °C. I rent vann er hver av konsentrasjonene 1,0 · 10⁻⁷ mol/L."
+      "explain": "Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴ ved 25 °C."
     },
     {
       "id": "q10",
@@ -215,11 +215,11 @@
       "options": [
         "Den er basisk",
         "Den er nøytral",
-        "Den inneholder et metall",
+        "Den er svakt basisk",
         "Den er sur"
       ],
       "correct": 3,
-      "explain": "Bromtymolblått er gult i sur løsning, grønt rundt nøytral og blått i basisk løsning.",
+      "explain": "Bromtymolblått skifter farge etter pH; gult viser at pH er under indikatorens omslagsområde.",
       "niva": "eksempel"
     },
     {
@@ -229,19 +229,19 @@
         "Eddiksyre",
         "Salpetersyre",
         "Karbonsyre",
-        "Flussyre (HF)"
+        "Fosforsyre"
       ],
       "correct": 1,
-      "explain": "Salpetersyre, HNO₃, protolyseres fullstendig i vann. Eddiksyre, karbonsyre og flussyre er svake syrer."
+      "explain": "Salpetersyre, HNO₃, protolyseres fullstendig i vann og regnes derfor som en sterk syre."
     },
     {
       "id": "q12",
       "text": "Hvilken gass dannes når saltsyre reagerer med magnesium?",
       "options": [
-        "Oksygen",
         "Karbondioksid",
+        "Ammoniakk",
         "Hydrogen",
-        "Klor"
+        "Vanndamp"
       ],
       "correct": 2,
       "explain": "Mg + 2HCl → MgCl₂ + H₂. Magnesium er et uedelt metall som reduserer H⁺ til hydrogengass."
@@ -397,9 +397,9 @@
         "text": "Hvilken likning viser protolysen av hydrogenklorid i vann?",
         "options": [
           "HCl + H₂O → H₃O⁺ + Cl⁻",
-          "HCl + H₂O → HClO + H₂",
-          "HCl + H₂O → OH⁻ + H₂Cl⁺",
-          "HCl → H + Cl"
+          "HCl + H₂O → H₂Cl⁺ + OH⁻",
+          "HCl + H₂O → H₃O⁺ + Cl",
+          "HCl + H₂O → H₂O + HCl"
         ],
         "correct": 0,
         "explain": "HCl gir et proton til vannmolekylet. Da dannes oksoniumionet H₃O⁺ og kloridionet Cl⁻."
@@ -417,9 +417,9 @@
         "text": "Hva er den korresponderende syren til hydroksidionet, OH⁻?",
         "options": [
           "O²⁻",
-          "H₃O⁺",
+          "H₂O₂",
           "H₂O",
-          "H₂O₂"
+          "NH₃"
         ],
         "correct": 2,
         "explain": "Når OH⁻ tar opp et proton, blir det H₂O. Vann er altså den korresponderende syren til OH⁻."
@@ -437,9 +437,9 @@
         "text": "Hva er pH i en løsning der [H₃O⁺] = 1,0 · 10⁻⁹ mol/L?",
         "options": [
           "9",
-          "5",
-          "−9",
-          "14"
+          "8",
+          "10",
+          "7"
         ],
         "correct": 0,
         "explain": "pH = −log(1,0 · 10⁻⁹) = 9. Løsningen er basisk."
@@ -449,9 +449,9 @@
         "type": "flervalg",
         "text": "Hvilken indikator er fargeløs i sur løsning og rosa i basisk?",
         "options": [
-          "Bromtymolblått",
-          "Lakmus",
-          "Metyloransje",
+          "Metylrødt",
+          "Fenolrødt",
+          "Universalindikator",
           "Fenolftalein"
         ],
         "correct": 3,
@@ -547,6 +547,7 @@
     "merknader": [
       "Syrekonstanten Ka er bare nevnt kvalitativt. pH-beregning for svake syrer og buffere hører vanligvis til Kjemi 2 – sjekk at avgrensningen stemmer med læreboka."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

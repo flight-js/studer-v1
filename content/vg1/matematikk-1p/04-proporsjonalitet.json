@@ -79,8 +79,8 @@
       "options": [
         "Produktet x · y er konstant",
         "Forholdet y/x er konstant",
-        "Grafen er en hyperbel",
-        "Den ene øker når den andre minker"
+        "Differansen y − x er konstant",
+        "Summen x + y er konstant"
       ],
       "correct": 1,
       "explain": "y = kx, og grafen er en rett linje gjennom origo."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Et kart har målestokk 1 : 50 000. Hvor langt er 4 cm på kartet i virkeligheten?",
       "options": [
-        "200 m",
+        "0,2 km",
         "2 km",
         "20 km",
-        "50 km"
+        "200 km"
       ],
       "correct": 1,
       "explain": "4 · 50 000 cm = 200 000 cm = 2 km."
@@ -139,8 +139,8 @@
       "options": [
         "y = 24/x",
         "y = 24x",
-        "y = x + 24",
-        "y = x²"
+        "y = x/24",
+        "y = 24 − x"
       ],
       "correct": 0,
       "explain": "Produktet x · y er alltid 24."
@@ -163,8 +163,8 @@
       "options": [
         "Proporsjonal",
         "Omvendt proporsjonal",
-        "Lineær med konstantledd",
-        "Ingen sammenheng"
+        "Lineær sammenheng",
+        "Konstant sammenheng"
       ],
       "correct": 1,
       "explain": "x · y = 12 for alle parene."
@@ -176,7 +176,7 @@
         "1,5 timer",
         "2 timer",
         "1,2 timer",
-        "40 minutter"
+        "0,67 timer"
       ],
       "correct": 0,
       "explain": "120/80 = 1,5."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er proporsjonalitetskonstanten i y = 2,5x?",
       "options": [
-        "x",
-        "y",
+        "2",
+        "5",
         "2,5",
-        "0"
+        "0,4"
       ],
       "correct": 2,
       "explain": "k er tallet x ganges med."
@@ -309,7 +309,7 @@
         "type": "flervalg",
         "text": "Et kart har målestokk 1 : 25 000. Hvor langt er 6 cm på kartet i virkeligheten?",
         "options": [
-          "150 m",
+          "0,15 km",
           "1,5 km",
           "15 km",
           "2,5 km"
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "5 liter bensin koster 110 kr. Hva er literprisen?",
         "options": [
-          "22 kr",
-          "55 kr",
-          "105 kr",
-          "550 kr"
+          "22 kr per liter",
+          "55 kr per liter",
+          "110 kr per liter",
+          "5,5 kr per liter"
         ],
         "correct": 0,
         "explain": "110/5 = 22."
@@ -336,9 +336,9 @@
         "text": "En pizza deles likt. Jo flere som deler, jo mindre får hver. Hva slags sammenheng er dette?",
         "options": [
           "Proporsjonal",
-          "Ingen sammenheng",
+          "Lineær med konstantledd",
           "Omvendt proporsjonal",
-          "Eksponentiell"
+          "Konstant sammenheng"
         ],
         "correct": 2,
         "explain": "Antall personer · størrelse per person er konstant."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -82,7 +82,7 @@
         "0,3125",
         "0,375",
         "0,5",
-        "1/3"
+        "0,333..."
       ],
       "correct": 1,
       "explain": "0,5 · (0 + 0,25 + 0,5)."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Når trenger vi numerisk integrasjon?",
       "options": [
-        "Når vi ikke finner en antiderivert eller bare har måledata",
-        "Aldri",
-        "Bare ved lineære funksjoner",
-        "Bare ved polynomer"
+        "Når vi ikke finner en antiderivert, eller bare har måledata",
+        "Når vi kjenner en enkel antiderivert og funksjonen er gitt med en formel",
+        "Når funksjonen er lineær og verdien i ett punkt er kjent",
+        "Når funksjonen er et polynom med kjent antiderivert"
       ],
       "correct": 0,
       "explain": "For eksempel e^(−x²)."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvor hentes høyden i midtpunktmetoden?",
       "options": [
-        "I venstre endepunkt",
-        "I høyre endepunkt",
+        "I venstre endepunkt av delintervallet",
+        "I høyre endepunkt av delintervallet",
         "I midtpunktet av delintervallet",
-        "I toppunktet"
+        "I kvartpunktet av delintervallet"
       ],
       "correct": 2,
       "explain": "Derav navnet."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva krever Simpsons metode?",
       "options": [
-        "At f er lineær",
         "At n er et oddetall",
-        "At a = 0",
+        "At f er et polynom av grad 2",
+        "At intervallet er symmetrisk om x = 0",
         "At n er et partall"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva skjer omtrent med feilen i trapesmetoden når n dobles?",
       "options": [
-        "Den blir en firedel",
-        "Den halveres",
-        "Den dobles",
-        "Den endres ikke"
+        "Den blir omtrent en firedel så stor",
+        "Den blir omtrent halvparten så stor",
+        "Den blir omtrent dobbelt så stor",
+        "Den blir omtrent like stor"
       ],
       "correct": 0,
       "explain": "Feilen er omtrent proporsjonal med 1/n².",
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hvilken metode er vanligvis mest nøyaktig for glatte funksjoner med samme n?",
       "options": [
-        "Venstresum",
+        "Venstresummemetoden",
         "Simpsons metode",
-        "Høyresum",
+        "Høyresummemetoden",
         "Trapesmetoden"
       ],
       "correct": 1,
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvordan kan du teste en ny algoritme?",
       "options": [
-        "Ved å bruke færre delintervaller",
-        "Ved å fjerne løkken",
-        "Ved å prøve den på et integral med kjent eksakt svar",
-        "Ved å gjette"
+        "Ved å kjøre programmet én gang uten å sjekke svaret",
+        "Ved å teste den på et integral med ukjent eksakt verdi",
+        "Ved å teste den på et integral med kjent eksakt verdi",
+        "Ved å sammenligne svaret med et tilfeldig valgt tall"
       ],
       "correct": 2,
       "explain": "Sammenlign med fasiten."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvilken vekt har endepunktene i trapesformelen?",
       "options": [
-        "4",
-        "2",
+        "1/4",
         "1",
+        "2",
         "1/2"
       ],
       "correct": 3,
@@ -190,8 +190,8 @@
       "options": [
         "For liten",
         "For stor",
-        "Alltid eksakt",
-        "Umulig å bruke"
+        "Eksakt",
+        "Udefinert"
       ],
       "correct": 1,
       "explain": "Linjestykkene ligger over grafen."
@@ -316,8 +316,8 @@
         "options": [
           "0,25",
           "0,5",
-          "2",
-          "4"
+          "1",
+          "2"
         ],
         "correct": 1,
         "explain": "(3 − 1)/4."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er et tegn på at et numerisk svar er nøyaktig?",
         "options": [
-          "Det er et helt tall",
-          "Det er negativt",
+          "Det endrer seg mye når n dobles",
+          "Det blir et helt tall når n dobles",
           "Det endrer seg lite når n dobles",
-          "Det er større enn 1"
+          "Det får flere desimaler når n dobles"
         ],
         "correct": 2,
         "explain": "Svaret har stabilisert seg."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

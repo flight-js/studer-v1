@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvem styrer pengepolitikken i Norge?",
       "options": [
-        "Stortinget",
-        "Norges Bank",
         "Finansdepartementet",
-        "NAV"
+        "Norges Bank",
+        "Regjeringen",
+        "Stortinget"
       ],
       "correct": 1,
       "explain": "Gjennom styringsrenten."
@@ -89,9 +89,9 @@
       "text": "Hva skjer vanligvis når renten settes opp?",
       "options": [
         "Konsumet og investeringene faller",
-        "Konsumet øker",
-        "Kronen svekkes",
-        "Det blir billigere å låne"
+        "Konsumet og investeringene øker",
+        "Lånekostnadene faller og konsumet øker",
+        "Sparingen faller og etterspørselen øker"
       ],
       "correct": 0,
       "explain": "Kontraktiv pengepolitikk."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er ekspansiv finanspolitikk?",
       "options": [
-        "Høyere skatter",
-        "Kutt i offentlige utgifter",
+        "Lavere offentlige utgifter eller høyere skatter",
+        "Lavere overføringer eller høyere offentlige inntekter",
         "Økte offentlige utgifter eller lavere skatter",
-        "Høyere rente"
+        "Lavere offentlige utgifter eller lavere overføringer"
       ],
       "correct": 2,
       "explain": "Øker etterspørselen."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hvilken politikk passer i en høykonjunktur med høy prisstigning?",
       "options": [
-        "Lavere rente",
-        "Økte offentlige utgifter",
-        "Skattelette",
-        "Kontraktiv politikk, som høyere rente"
+        "Ekspansiv pengepolitikk, med lavere rente",
+        "Ekspansiv finanspolitikk, med økte utgifter",
+        "Ekspansiv finanspolitikk, med lavere skatter",
+        "Kontraktiv pengepolitikk, med høyere rente"
       ],
       "correct": 3,
       "explain": "Demper etterspørselen."
@@ -125,9 +125,9 @@
       "text": "Hva er en automatisk stabilisator?",
       "options": [
         "Dagpenger som øker i en lavkonjunktur",
-        "En renteendring",
-        "Et vedtak i Stortinget",
-        "En ny skatt"
+        "Skatteinntekter som øker i en lavkonjunktur",
+        "Offentlige utgifter som øker etter et vedtak",
+        "Styringsrenten som senkes etter et vedtak"
       ],
       "correct": 0,
       "explain": "Virker uten nye vedtak."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvem vedtar statsbudsjettet?",
       "options": [
-        "Norges Bank",
+        "Regjeringen",
         "Stortinget",
-        "SSB",
-        "Kommunene"
+        "Finansdepartementet",
+        "Statsministeren"
       ],
       "correct": 1,
       "explain": "Etter forslag fra regjeringen."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor blir kronen ofte sterkere når renten settes opp?",
       "options": [
-        "Fordi eksporten faller",
-        "Fordi prisene stiger",
-        "Fordi det blir mer attraktivt å plassere penger i kroner",
-        "Fordi staten kjøper kroner"
+        "Fordi plasseringer i kroner gir lavere avkastning",
+        "Fordi høyere rente øker tilbudet av kroner",
+        "Fordi plasseringer i kroner gir høyere avkastning",
+        "Fordi norske banker senker innskuddsrentene"
       ],
       "correct": 2,
       "explain": "Høyere avkastning på kroner."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er tidsetterslep?",
       "options": [
-        "At renten endres hver dag",
-        "At budsjettet kommer sent",
-        "At statistikk er feil",
+        "At tiltak blir satt inn før problemene oppstår",
+        "At tiltak får virkning før de vedtas",
+        "At tiltak må vente på en ny budsjettperiode",
         "At tiltak virker først etter en tid"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva gjorde Norges Bank under pandemien i 2020?",
       "options": [
         "Satte renten ned til null",
-        "Satte renten kraftig opp",
-        "Avskaffet renten",
-        "Stengte bankene"
+        "Satte renten opp til to prosent",
+        "Satte renten ned til én prosent",
+        "Holdt renten på halvannen prosent"
       ],
       "correct": 0,
       "explain": "For å holde etterspørselen oppe.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvem rammes særlig av høy rente?",
       "options": [
-        "Personer uten gjeld",
+        "Personer uten gjeld eller renteutgifter",
         "Unge med store boliglån",
-        "Personer med store sparepenger",
-        "Staten"
+        "Personer med store sparepenger og ingen lån",
+        "Husholdninger med lave lån og høy inntekt"
       ],
       "correct": 1,
       "explain": "En fordelingsvirkning."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilken politikk passer i en lavkonjunktur?",
         "options": [
-          "Høyere rente",
+          "Kontraktiv politikk",
           "Ekspansiv politikk",
-          "Kutt i offentlige utgifter",
-          "Høyere skatter"
+          "Stram pengepolitikk",
+          "Stram finanspolitikk"
         ],
         "correct": 1,
         "explain": "Øker etterspørselen."
@@ -326,9 +326,9 @@
         "text": "Hva sier handlingsregelen om dårlige tider?",
         "options": [
           "Staten kan bruke mer oljepenger",
-          "Staten må kutte kraftig",
-          "Staten kan ikke bruke oljepenger",
-          "Staten må heve skattene"
+          "Staten skal bruke mindre oljepenger i dårlige tider",
+          "Staten må følge samme oljepengebruk hvert år",
+          "Staten kan øke bruken av oljepenger i gode tider"
         ],
         "correct": 0,
         "explain": "Og mindre i gode tider."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er målet med stabiliseringspolitikk?",
         "options": [
-          "Høy prisstigning",
-          "Høy arbeidsledighet",
+          "Høy og stabil prisstigning og høy sysselsetting",
+          "Lav og stabil prisstigning og høy arbeidsledighet",
           "Lav og stabil prisstigning og høy sysselsetting",
-          "Store konjunktursvingninger"
+          "Høy og varierende prisstigning og høy sysselsetting"
         ],
         "correct": 2,
         "explain": "Dempe svingningene."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

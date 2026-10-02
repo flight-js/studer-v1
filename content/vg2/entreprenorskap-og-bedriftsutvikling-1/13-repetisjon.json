@@ -116,10 +116,10 @@
       "id": "q01",
       "text": "Hva er entreprenørskap?",
       "options": [
-        "Å jobbe i offentlig sektor",
+        "Å organisere og drifte en virksomhet som allerede er etablert",
         "Å oppdage eller skape en mulighet og gjøre den om til verdi",
-        "Å kjøpe aksjer",
-        "Å lede et stort selskap"
+        "Å investere egne penger i en virksomhet for å få avkastning",
+        "Å utføre faste arbeidsoppgaver etter instrukser fra ledelsen"
       ],
       "correct": 1,
       "explain": "Ofte ved å starte en ny virksomhet."
@@ -128,10 +128,10 @@
       "id": "q02",
       "text": "Hva må en forretningsidé beskrive?",
       "options": [
-        "Bare navnet",
-        "Bare prisen",
-        "Bare logoen",
-        "Behov, kunder, produkt og hvordan den skiller seg ut"
+        "Virksomhetens navn, logo, slagord, farger og markedsføringskanaler for å nå kundene",
+        "Produktets pris, betalingsmåte, leveringsform, rabattordninger og kundeservice etter kjøpet",
+        "Eiernes navn, selskapsform, organisasjonsnummer, styresammensetning og regnskapsrutiner for virksomheten",
+        "Behovet som dekkes, kundene det retter seg mot, produktet og hva som skiller det fra andre tilbud"
       ],
       "correct": 3,
       "explain": "Grunnlaget for virksomheten."
@@ -140,10 +140,10 @@
       "id": "q03",
       "text": "Når blir en oppfinnelse en innovasjon?",
       "options": [
-        "Når den blir patentert",
-        "Når den blir tatt i bruk og skaper verdi",
-        "Når den blir tegnet",
-        "Aldri"
+        "Når den får juridisk beskyttelse og enerett",
+        "Når den tas i bruk og skaper verdi",
+        "Når den blir presentert for mulige kunder",
+        "Når den blir produsert, men ikke tatt i bruk"
       ],
       "correct": 1,
       "explain": "Innovasjon krever bruk."
@@ -152,10 +152,10 @@
       "id": "q04",
       "text": "Hva beskriver en forretningsmodell?",
       "options": [
-        "Bare logoen",
+        "Hvordan virksomheten markedsfører tilbudet og fastsetter salgsprisene",
         "Hvordan en virksomhet skaper, leverer og tar betalt for verdi",
-        "Bare regnskapet",
-        "Bare de ansatte"
+        "Hvordan virksomheten organiserer ansatte og fordeler arbeidsoppgaver",
+        "Hvordan virksomheten fører regnskap og rapporterer økonomiske resultater"
       ],
       "correct": 1,
       "explain": "Kunder, tilbud, inntekter og kostnader."
@@ -164,10 +164,10 @@
       "id": "q05",
       "text": "Hva er åpen innovasjon?",
       "options": [
-        "At alle ideer holdes hemmelige",
-        "At kontoret er åpent",
+        "Å utvikle produkter internt uten å involvere eksterne aktører",
+        "Å samle inn ideer internt og holde dem i virksomheten",
         "Å hente ideer utenfra og dele egne",
-        "Å bare jobbe alene"
+        "Å la eksterne aktører styre utviklingen uten egne bidrag"
       ],
       "correct": 2,
       "explain": "Kunder, leverandører og forskere bidrar.",
@@ -178,9 +178,9 @@
       "text": "Hva er validering?",
       "options": [
         "Å teste om antakelsene holder før man satser stort",
-        "Å registrere selskapet",
-        "Å lage logo",
-        "Å betale skatt"
+        "Å teste om produktet fungerer teknisk før produksjon",
+        "Å fastsette målgruppen ut fra alder og bosted",
+        "Å måle hvor lønnsomt selskapet blir etter oppstart"
       ],
       "correct": 0,
       "explain": "Reduserer risikoen."
@@ -203,9 +203,9 @@
       "text": "Hvilken kommunikasjon er ofte mest troverdig?",
       "options": [
         "Anbefalinger fra fornøyde kunder",
-        "Egne annonser",
-        "Plakater",
-        "Pressemeldinger"
+        "Betalte produktomtaler fra profiler med mange følgere",
+        "Egne annonser med utvalgte kundesitater",
+        "Pressemeldinger sendt til lokale medier"
       ],
       "correct": 0,
       "explain": "Jungeltelegrafen."
@@ -214,10 +214,10 @@
       "id": "q09",
       "text": "Hva betyr begrenset ansvar i et AS?",
       "options": [
-        "At styret har alt ansvar",
-        "At selskapet ikke betaler skatt",
-        "At eierne som hovedregel bare kan tape det de har skutt inn",
-        "At ingen har ansvar"
+        "At styret som hovedregel dekker selskapets gjeld privat",
+        "At eierne hefter sammen for selskapets samlede gjeld",
+        "At eierne som hovedregel risikerer det de har skutt inn",
+        "At selskapet er fritatt for skatt og offentlige avgifter"
       ],
       "correct": 2,
       "explain": "Selskapet er et eget rettssubjekt."
@@ -227,9 +227,9 @@
       "text": "Hvilken fase i Tuckmans modell kjennetegnes av uenigheter?",
       "options": [
         "Etablering",
-        "Utførelse",
+        "Normering",
         "Konflikt",
-        "Avslutning"
+        "Utførelse"
       ],
       "correct": 2,
       "explain": "Normalt og kan gjøre teamet sterkere.",
@@ -239,10 +239,10 @@
       "id": "q11",
       "text": "Hva viser likviditetsbudsjettet?",
       "options": [
-        "Bare overskuddet",
-        "Bare eiendelene",
+        "Inntekter og kostnader måned for måned",
+        "Eiendeler og gjeld ved årets slutt",
         "Innbetalinger og utbetalinger måned for måned",
-        "Antall ansatte"
+        "Lønninger og stillinger gjennom året"
       ],
       "correct": 2,
       "explain": "Om man har nok penger på konto."
@@ -251,9 +251,9 @@
       "id": "q12",
       "text": "Hva gjelder alltid i balansen?",
       "options": [
-        "Gjeld = inntekter",
-        "Egenkapital = kostnader",
-        "Resultat = eiendeler",
+        "Eiendeler = egenkapital − gjeld",
+        "Eiendeler = inntekter + kostnader",
+        "Egenkapital = eiendeler + gjeld",
         "Eiendeler = egenkapital + gjeld"
       ],
       "correct": 3,
@@ -410,7 +410,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -469,8 +469,8 @@
         "options": [
           "Aksjeselskap",
           "Enkeltpersonforetak",
-          "Ingen selskapsform",
-          "ANS med solidarisk ansvar"
+          "Ansvarlig selskap (ANS)",
+          "Selskap med delt ansvar (DA)"
         ],
         "correct": 0,
         "explain": "Begrenset ansvar og mulighet for investorer."
@@ -495,8 +495,8 @@
         "options": [
           "20 %",
           "18 %",
-          "2 %",
-          "45 %"
+          "16 %",
+          "2 %"
         ],
         "correct": 0,
         "explain": "(90 000 + 10 000) ÷ 500 000 · 100."
@@ -574,12 +574,93 @@
           "Regner ut likviditetsgrad 1 til 2.",
           "Sammenligner riktig med tommelfingerregelen om at tallet bør være over 2."
         ]
+      },
+      {
+        "text": "En gründer har lite penger og vet ikke sikkert om kundene vil kjøpe produktet. Hen vurderer enten å lage en detaljert plan med et bestemt salgsmål eller å starte med ressursene og kontaktene hen allerede har, teste i små steg og begrense risikoen til det hen har råd til å tape. Forklar hvilken tilnærming det siste alternativet beskriver, og hvorfor den kan passe i situasjonen.",
+        "fasit": "Det siste alternativet beskriver effektuering. Den kan passe når usikkerheten er stor, fordi gründeren tar utgangspunkt i ressursene hen har, tester seg fram og begrenser risikoen.",
+        "kriterier": [
+          "Kjenner igjen effektuering som å starte med tilgjengelige ressurser og teste i små steg.",
+          "Knytter tilnærmingen til stor usikkerhet og/eller risiko gründeren har råd til å tape."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Et nytt team er uenige om arbeidsmåter og roller, og diskusjonene har begynt å bli personlige. Forklar hvilken utviklingsfase teamet kan være i, og hvordan lederen kan bidra til at uenigheten blir håndtert på en måte som styrker samarbeidet.",
+        "fasit": "Teamet kan være i konfliktfasen, som er en normal del av utviklingen. Lederen bør tydeliggjøre roller og forventninger, legge til rette for trygg og klar kommunikasjon og hjelpe teamet med å rette uenigheten mot saken i stedet for personene.",
+        "kriterier": [
+          "Kjenner igjen konfliktfasen og at uenigheter er normale i denne fasen.",
+          "Foreslår tiltak som tydelige roller, god kommunikasjon eller psykologisk trygghet.",
+          "Skiller mellom nyttig uenighet om saken og skadelige personlige konflikter."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "I et område bor det 800 personer som kan være aktuelle kunder for en ny tjeneste. En fjerdedel har behovet tjenesten retter seg mot, og virksomheten tror den realistisk kan nå halvparten av disse. Hvor mange mulige kunder bør virksomheten anslå at den kan nå? Vis regnestykket.",
+        "fasit": "En fjerdedel av 800 er 200, og halvparten av 200 er 100. Virksomheten bør derfor anslå at den kan nå 100 mulige kunder.",
+        "kriterier": [
+          "Regner ut at en fjerdedel av 800 er 200.",
+          "Regner ut at halvparten av 200 er 100 og oppgir 100 mulige kunder."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En virksomhet viser overskudd i resultatbudsjettet, men har likevel for lite penger på konto når regninger forfaller. Kundene betaler sent, og virksomheten har kjøpt inn mye varelager. Forklar hvilket budsjett virksomheten bør bruke for å følge med på situasjonen, og hvorfor overskudd ikke garanterer at den har penger tilgjengelig.",
+        "fasit": "Virksomheten bør bruke et likviditetsbudsjett, som viser innbetalinger og utbetalinger over tid. Overskudd betyr ikke at pengene er kommet inn på konto; sene kundeinnbetalinger og penger bundet i varelager kan føre til pengemangel.",
+        "kriterier": [
+          "Peker på likviditetsbudsjettet og at det viser inn- og utbetalinger over tid.",
+          "Forklarer at overskudd ikke nødvendigvis betyr at virksomheten har penger tilgjengelig.",
+          "Knytter pengemangelen til sene innbetalinger og/eller penger bundet i varelager."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En virksomhet kjøper en maskin for 90 000 kroner. Maskinen skal brukes i tre år, og kostnaden fordeles likt over levetiden. Hvor stor blir avskrivningen per år, og hva betyr avskrivning i regnskapet?",
+        "fasit": "Avskrivningen blir 90 000 ÷ 3 = 30 000 kroner per år. Avskrivning fordeler kostnaden for maskinen over årene den brukes.",
+        "kriterier": [
+          "Regner ut 90 000 ÷ 3 = 30 000 kroner per år.",
+          "Forklarer at avskrivning fordeler kostnaden over maskinens levetid."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En digital tjeneste er gratis for brukerne, og virksomheten får inntekter fra annonsører. Tjenesten samler også inn persondata. Forklar hvordan denne forretningsmodellen gir inntekter, og hvilken bærekraftsdimensjon virksomheten bør vurdere når den vurderer konsekvensene av datainnsamlingen.",
+        "fasit": "Dette er en annonsefinansiert modell: Brukerne får tjenesten gratis, mens annonsørene betaler. Virksomheten bør vurdere den sosiale bærekraftsdimensjonen, blant annet konsekvensene for kundene av at persondata samles inn.",
+        "kriterier": [
+          "Forklarer at annonsørene betaler for en tjeneste som er gratis for brukerne.",
+          "Knytter konsekvenser av persondatainnsamling til sosial bærekraft og/eller kundenes interesser."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En virksomhet har utviklet en teknisk løsning som ikke er vist offentlig, og lager samtidig en logo og et dataprogram. Forklar hvilken beskyttelse som kan passe for den tekniske løsningen, logoen og dataprogrammet. Nevn også ett vilkår for å få patent på den tekniske løsningen.",
+        "fasit": "Patent kan beskytte den tekniske løsningen, varemerke kan beskytte logoen, og opphavsrett gjelder automatisk for dataprogrammet. For å få patent må løsningen blant annet være ny og ha oppfinnelseshøyde.",
+        "kriterier": [
+          "Knytter patent til den tekniske løsningen og nevner at den må være ny og ha oppfinnelseshøyde.",
+          "Knytter varemerke til logoen.",
+          "Kjenner igjen at opphavsrett gjelder automatisk for dataprogrammet."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En virksomhet selger et produkt til kunder i én by og vil begynne å selge det samme produktet i en ny by. Identifiser vekststrategien i Ansoffs vekstmatrise, og sammenlign risikoen med å selge det eksisterende produktet mer til kundene i den første byen.",
+        "fasit": "Å selge det eksisterende produktet i en ny by er markedsutvikling. Det innebærer større risiko enn markedspenetrasjon, som er å selge mer av det eksisterende produktet i det eksisterende markedet.",
+        "kriterier": [
+          "Identifiserer markedsutvikling som eksisterende produkt i et nytt marked.",
+          "Identifiserer salg mer til dagens kunder i dagens marked som markedspenetrasjon.",
+          "Sier at markedsutvikling har større risiko enn markedspenetrasjon."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

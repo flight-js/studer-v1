@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvilket signalstoff er sentralt i hjernens belønningssystem?",
       "options": [
-        "Insulin",
+        "Kortisol",
         "Dopamin",
-        "Adrenalin",
-        "Østrogen"
+        "Melatonin",
+        "Tyroksin"
       ],
       "correct": 1,
       "explain": "Mange rusmidler øker utskillingen av dopamin, som gir følelse av velvære."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva betyr toleranse?",
       "options": [
-        "At man tåler alt",
-        "At man ikke blir påvirket",
+        "At man trenger mindre av stoffet for å få samme effekt",
+        "At samme mengde av stoffet gir sterkere effekt over tid",
         "At man trenger mer av stoffet for å få samme effekt",
-        "At man slutter lett"
+        "At man kan bruke stoffet uten å få bivirkninger"
       ],
       "correct": 2,
       "explain": "Kroppen venner seg til stoffet, og effekten blir svakere."
@@ -100,9 +100,9 @@
       "text": "Hvorfor er unge ekstra sårbare for rusmidler?",
       "options": [
         "Fordi hjernen fortsatt utvikler seg",
-        "Fordi de veier mindre enn voksne",
-        "Fordi de har mindre blod",
-        "De er ikke mer sårbare"
+        "Fordi hjernen er ferdig utviklet ved puberteten",
+        "Fordi leveren bryter ned rusmidler raskere",
+        "Fordi kroppen tåler rusmidler bedre"
       ],
       "correct": 0,
       "explain": "Hjernen utvikles til rundt 25 års alder, og rusmidler kan påvirke utviklingen."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva virker antibiotika mot?",
       "options": [
-        "Virus",
-        "Sopp og virus",
-        "Alle sykdommer",
+        "Sopp",
+        "Parasitter",
+        "Prioner",
         "Bakterier"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva er en miljøgift?",
       "options": [
         "Et giftig stoff som brytes langsomt ned og hoper seg opp i organismer",
-        "Alt som lukter vondt",
-        "Et vanlig næringsstoff",
-        "Et legemiddel"
+        "Et giftig stoff som brytes raskt ned og hoper seg opp i organismer",
+        "Et ufarlig stoff som brytes langsomt ned og hoper seg opp i organismer",
+        "Et giftig stoff som brytes langsomt ned og ikke hoper seg opp i organismer"
       ],
       "correct": 0,
       "explain": "Eksempler er kvikksølv, PCB og PFAS."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er biomagnifisering?",
       "options": [
-        "At miljøgifter forsvinner i naturen",
-        "At dyr blir større",
+        "At miljøgifter hoper seg opp nedover i næringskjeden",
+        "At miljøgifter hoper seg opp i ett dyr over tid",
         "At miljøgifter hoper seg opp oppover i næringskjeden",
-        "At planter vokser raskere"
+        "At miljøgifter brytes raskere ned oppover i næringskjeden"
       ],
       "correct": 2,
       "explain": "Rovdyr på toppen av næringskjeden får derfor de høyeste konsentrasjonene."
@@ -147,9 +147,9 @@
       "id": "q07",
       "text": "Hvilke dyr får typisk høyest konsentrasjon av miljøgifter?",
       "options": [
-        "Planteplankton",
-        "Små krepsdyr",
-        "Gress",
+        "Planteetere nederst i næringskjeden, som reinsdyr",
+        "Små rovdyr nederst i næringskjeden, som småfisk",
+        "Planter nederst i næringskjeden, som gress",
         "Rovdyr på toppen av næringskjeden, som isbjørn"
       ],
       "correct": 3,
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva gjør EPO som dopingmiddel?",
       "options": [
-        "Gir større muskler",
+        "Øker produksjonen av hvite blodceller",
         "Øker produksjonen av røde blodceller",
-        "Senker pulsen",
-        "Gjør deg søvnig"
+        "Øker produksjonen av blodplater",
+        "Øker produksjonen av muskelceller"
       ],
       "correct": 1,
       "explain": "Flere røde blodceller gir bedre oksygentransport, men tykkere blod og økt risiko for blodpropp.",
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvordan virker alkohol på sentralnervesystemet?",
       "options": [
-        "Det demper det",
-        "Det stimulerer det kraftig",
-        "Det har ingen virkning",
-        "Det reparerer nerveceller"
+        "Det demper sentralnervesystemet",
+        "Det stimulerer sentralnervesystemet",
+        "Det reparerer sentralnervesystemet",
+        "Det øker aktiviteten i sentralnervesystemet"
       ],
       "correct": 0,
       "explain": "Alkohol demper signaloverføringen og svekker dømmekraft og reaksjonsevne."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er abstinenser?",
       "options": [
-        "En type vitamin",
-        "Et dopingmiddel",
+        "Ubehagelige symptomer når man begynner med et stoff kroppen ikke kjenner",
+        "Ubehagelige symptomer når man bruker et stoff man er avhengig av",
         "Ubehagelige symptomer når man slutter med et stoff man er avhengig av",
-        "En bivirkning av antibiotika"
+        "Tegn på at kroppen har vent seg til et stoff man fortsatt bruker"
       ],
       "correct": 2,
       "explain": "Abstinenser er et tegn på at kroppen har vent seg til stoffet."
@@ -305,10 +305,10 @@
         "type": "flervalg",
         "text": "Hvilket stoff ligner testosteron og brukes som doping?",
         "options": [
-          "EPO",
-          "Insulin",
+          "Veksthormon",
+          "Kortison",
           "Anabole steroider",
-          "Koffein"
+          "Kreatin"
         ],
         "correct": 2,
         "explain": "Anabole steroider øker muskelmassen, men gir mange alvorlige bivirkninger."
@@ -319,9 +319,9 @@
         "text": "Hvorfor gir Mattilsynet kostråd om store rovfisk?",
         "options": [
           "Fordi de kan inneholde mye miljøgifter",
-          "Fordi de er dyre",
-          "Fordi de smaker dårlig",
-          "Fordi de er fredet"
+          "Fordi de står nederst i næringskjeden",
+          "Fordi miljøgiftene brytes raskt ned i kroppen",
+          "Fordi de får miljøgifter direkte fra planter"
         ],
         "correct": 0,
         "explain": "Store rovfisk står høyt i næringskjeden og kan ha opphopning av for eksempel kvikksølv.",
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på et tungmetall som er en miljøgift?",
         "options": [
-          "Kalsium",
+          "Magnesium",
           "Kvikksølv",
-          "Oksygen",
-          "Natrium"
+          "Kalium",
+          "Nitrogen"
         ],
         "correct": 1,
         "explain": "Kvikksølv er giftig og hoper seg opp i næringskjeden.",
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

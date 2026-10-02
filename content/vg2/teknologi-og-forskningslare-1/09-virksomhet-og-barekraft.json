@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er de tre dimensjonene av bærekraft?",
       "options": [
-        "Teknologi, økonomi og politikk",
-        "Miljø, sosial og økonomi",
-        "Energi, vann og luft",
-        "Lokal, nasjonal og global"
+        "Teknologisk, økonomisk og politisk bærekraft",
+        "Miljømessig, sosial og økonomisk bærekraft",
+        "Sosial, politisk og kulturell bærekraft",
+        "Lokal, nasjonal og global bærekraft"
       ],
       "correct": 1,
       "explain": "Alle tre må ivaretas."
@@ -93,9 +93,9 @@
       "text": "Hva er en livsløpsanalyse?",
       "options": [
         "En kartlegging av miljøbelastningen fra råvare til avfall",
-        "En økonomisk rapport",
-        "En personalanalyse",
-        "En markedsundersøkelse"
+        "En beregning av produksjonskostnadene fra råvare til ferdig produkt",
+        "En vurdering av produktkvaliteten fra produksjon til salg",
+        "En kartlegging av arbeidsforholdene gjennom produksjonsprosessen"
       ],
       "correct": 0,
       "explain": "LCA."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er sirkulær økonomi?",
       "options": [
-        "At penger sirkulerer raskt",
-        "At produkter kastes etter bruk",
+        "At produkter produseres lokalt for å redusere transport mellom bedrifter",
+        "At materialer sorteres etter bruk og sendes til forbrenning",
         "At ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning",
-        "At alt produseres lokalt"
+        "At produkter brukes én gang før de erstattes med nye"
       ],
       "correct": 2,
       "explain": "Motsatt av bruk-og-kast."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er en rebound-effekt?",
       "options": [
-        "At et produkt spretter",
-        "At en bedrift går konkurs",
-        "At utslippene går ned",
+        "At bedre teknologi reduserer ressursbruken uten å påvirke forbruket",
+        "At en virksomhet bruker mer energi fordi produksjonen blir mindre effektiv",
+        "At lavere energibruk per enhet reduserer totalforbruket i samme forhold",
         "At effektivisering gjør noe billigere, slik at vi bruker mer av det"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva pålegger åpenhetsloven større virksomheter?",
       "options": [
         "Å kartlegge risiko for brudd på menneskerettigheter hos leverandører",
-        "Å publisere alle lønninger",
-        "Å bruke bare norske leverandører",
-        "Å slutte med automatisering"
+        "Å rapportere virksomhetens klimagassutslipp til offentlige myndigheter hvert år",
+        "Å sikre at alle varer kjøpes fra norske leverandører",
+        "Å offentliggjøre lønn og arbeidstid for samtlige ansatte"
       ],
       "correct": 0,
       "explain": "Aktsomhetsvurderinger.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvorfor bør du være kildekritisk til en bedrifts egen bærekraftsrapport?",
       "options": [
-        "Fordi den alltid er feil",
-        "Fordi den gjerne viser de positive sidene",
-        "Fordi den er for kort",
-        "Det trenger du ikke"
+        "Fordi rapporten bygger på undersøkelser utført av konkurrentene",
+        "Fordi virksomheten selv presenterer og vektlegger sine positive resultater",
+        "Fordi virksomheten ikke har ansvar for innholdet i sin egen rapport",
+        "Fordi rapporten hovedsakelig vurderer andre bedrifters bærekraftsarbeid"
       ],
       "correct": 1,
       "explain": "Sammenlign med andre kilder."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvordan kan sensorer og dataanalyse gjøre produksjonen mer bærekraftig?",
       "options": [
-        "Ved å øke svinnet",
-        "Ved å bruke mer energi",
+        "Ved å måle produksjonshastigheten uten å registrere energibruk og svinn",
+        "Ved å planlegge produksjonen ut fra salgsmål og reklamekampanjer",
         "Ved å overvåke produksjonen, forutsi vedlikehold og spare energi",
-        "De har ingen betydning"
+        "Ved å kontrollere produktenes utseende etter at produksjonen er ferdig"
       ],
       "correct": 2,
       "explain": "Digitalisering gir bedre ressursutnyttelse."
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hva hører til den sosiale dimensjonen av bærekraft?",
       "options": [
-        "Klimagassutslipp",
-        "Lønnsomhet",
-        "Arealbruk",
-        "Arbeidsforhold og menneskerettigheter"
+        "Klimagassutslipp og samlet energibruk",
+        "Lønnsomhet og økonomisk verdiskaping",
+        "Råvarebruk og arealforbruk i produksjonen",
+        "Arbeidsforhold og respekt for menneskerettigheter"
       ],
       "correct": 3,
       "explain": "Også helse og likestilling."
@@ -179,9 +179,9 @@
       "text": "Hvor mange av FNs bærekraftsmål finnes det?",
       "options": [
         "17",
-        "10",
-        "3",
-        "50"
+        "16",
+        "18",
+        "15"
       ],
       "correct": 0,
       "explain": "Vedtatt i 2015.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er Miljøfyrtårn?",
       "options": [
-        "Et fyrtårn på kysten",
+        "En norsk sertifisering for energieffektive bygg",
         "En norsk miljøsertifisering for virksomheter",
-        "En type solcelle",
-        "Et FN-organ"
+        "En internasjonal miljømerking for enkeltprodukter",
+        "Et offentlig tilsyn for virksomheters utslipp"
       ],
       "correct": 1,
       "explain": "Viser systematisk miljøarbeid.",
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak hører til sirkulær økonomi?",
         "options": [
-          "Bruk og kast",
+          "Design for rask utskifting av hele produktet",
           "Design for reparasjon og gjenbruk",
-          "Kortere levetid",
-          "Mer emballasje"
+          "Design for engangsbruk med lavere produksjonskostnad",
+          "Salg av produkter med kortere forventet levetid"
         ],
         "correct": 1,
         "explain": "Ressursene holdes i kretsløpet."
@@ -339,8 +339,8 @@
         "text": "Hva betyr FoU?",
         "options": [
           "Forskning og utvikling",
-          "Fordeling og utbytte",
-          "Forsikring og utlån",
+          "Forskning og utdanning",
+          "Forvaltning og utvikling",
           "Forbruk og utslipp"
         ],
         "correct": 0,
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel med automatisering i produksjon?",
         "options": [
-          "Flere ulykker",
-          "Mer svinn",
+          "Lavere effektivitet og mer varierende kvalitet",
+          "Større svinn og mer varierende kvalitet",
           "Høyere effektivitet og jevnere kvalitet",
-          "Ingen fordeler"
+          "Høyere vedlikeholdsbehov og lavere produksjonstakt"
         ],
         "correct": 2,
         "explain": "Men den kan også endre arbeidsplassene."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

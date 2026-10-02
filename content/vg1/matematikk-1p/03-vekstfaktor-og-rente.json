@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er vekstfaktoren for en økning på 8 %?",
       "options": [
-        "0,08",
-        "1,8",
+        "0,80",
+        "1,80",
         "1,08",
-        "0,92"
+        "0,98"
       ],
       "correct": 2,
       "explain": "1 + 8/100 = 1,08."
@@ -90,9 +90,9 @@
       "text": "Hva er vekstfaktoren for en nedgang på 15 %?",
       "options": [
         "0,85",
-        "1,15",
-        "0,15",
-        "−0,15"
+        "0,75",
+        "1,05",
+        "0,95"
       ],
       "correct": 0,
       "explain": "1 − 15/100 = 0,85."
@@ -101,9 +101,9 @@
       "id": "q03",
       "text": "Du setter inn 10 000 kr med 4 % rente i 5 år. Hvilket uttrykk gir beløpet?",
       "options": [
-        "10 000 · 1,4⁵",
-        "10 000 · 0,04 · 5",
-        "10 000 + 1,04⁵",
+        "10 000 · 1,04 · 5",
+        "10 000 · 1,05⁴",
+        "10 000 · 0,96⁵",
         "10 000 · 1,04⁵"
       ],
       "correct": 3,
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?",
       "options": [
-        "562,50 kr",
+        "625 kr",
         "600 kr",
-        "725 kr",
-        "937,50 kr"
+        "900 kr",
+        "675 kr"
       ],
       "correct": 1,
       "explain": "750 / 1,25 = 600."
@@ -126,9 +126,9 @@
       "text": "En pris øker med 10 % og synker deretter med 10 %. Hva er den samlede endringen?",
       "options": [
         "Ingen endring",
-        "1 % økning",
+        "10 % økning",
         "1 % nedgang",
-        "20 % nedgang"
+        "2 % nedgang"
       ],
       "correct": 2,
       "explain": "1,10 · 0,90 = 0,99."
@@ -138,9 +138,9 @@
       "text": "En bil til 300 000 kr taper 15 % av verdien hvert år. Hvilket uttrykk gir verdien etter 3 år?",
       "options": [
         "300 000 · 0,85³",
-        "300 000 · 0,15³",
-        "300 000 − 3 · 15",
-        "300 000 · 1,15³"
+        "300 000 · 0,15 · 3",
+        "300 000 · 0,85 · 3",
+        "300 000 · 0,95³"
       ],
       "correct": 0,
       "explain": "Vekstfaktoren ved 15 % nedgang er 0,85."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er renters rente?",
       "options": [
-        "At banken tar dobbel rente",
-        "At rentene legges til beløpet og også gir rente senere",
-        "At renten er fast",
-        "At man betaler rente to ganger i året"
+        "Rentene trekkes fra beløpet før ny rente beregnes.",
+        "Rentene legges til beløpet og gir selv rente senere.",
+        "Renten beregnes hvert år av det opprinnelige beløpet.",
+        "Rentene legges til lånet, men gir ikke selv rente."
       ],
       "correct": 1,
       "explain": "Derfor vokser sparepenger raskere og raskere."
@@ -161,8 +161,8 @@
       "id": "q08",
       "text": "Du låner 200 000 kr med 5 % rente. Hvor mye er renten det første året?",
       "options": [
-        "1 000 kr",
-        "100 000 kr",
+        "2 000 kr",
+        "5 000 kr",
         "20 000 kr",
         "10 000 kr"
       ],
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvorfor er forbrukslån ofte dyre?",
       "options": [
-        "De har svært høy rente",
-        "De har lav rente",
-        "De er gratis de første årene",
-        "De må betales tilbake på én dag"
+        "Fordi renten er svært høy.",
+        "Fordi renten er svært lav.",
+        "Fordi renten beregnes av avdragene.",
+        "Fordi renten følger sparekontoens rente."
       ],
       "correct": 0,
       "explain": "Høy rente gjør at gjelden kan vokse raskt.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilke premisser påvirker mest hvor mye sparepenger vokser over lang tid?",
       "options": [
-        "Bankens navn",
-        "Fargen på bankkortet",
+        "Bankappen og tidspunktet saldoen sjekkes",
+        "Kontonavnet og ukedagen man logger inn",
         "Renten og antall år",
-        "Hvilken ukedag man setter inn"
+        "Kontonummeret og tidspunktet innskuddet vises"
       ],
       "correct": 2,
       "explain": "5 % i stedet for 2 % rente gir mer enn dobbelt så mye etter 30 år."
@@ -314,9 +314,9 @@
         "text": "Et beløp økte fra 5 000 kr til 5 600 kr. Hva er vekstfaktoren?",
         "options": [
           "1,12",
-          "0,12",
-          "1,6",
-          "1,012"
+          "1,06",
+          "0,89",
+          "1,16"
         ],
         "correct": 0,
         "explain": "5 600 / 5 000 = 1,12."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva er effektiv rente?",
         "options": [
-          "Renten før skatt",
+          "Renten før gebyrer og andre kostnader",
           "Renten inkludert gebyrer og andre kostnader",
-          "Renten på sparekonto",
-          "Renten etter ett år"
+          "Renten etter at skatten er trukket fra",
+          "Renten som gjelder ved forsinket betaling"
         ],
         "correct": 1,
         "explain": "Effektiv rente gjør det lettere å sammenligne lån."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner et annuitetslån?",
         "options": [
-          "Lånet har ingen rente",
-          "Avdraget er likt hver gang",
-          "Terminbeløpet er likt hver gang",
-          "Lånet betales tilbake på én gang"
+          "Avdraget er like stort hver gang.",
+          "Rentebeløpet er like stort hver gang.",
+          "Terminbeløpet er like stort hver gang.",
+          "Terminbeløpet blir større hver gang."
         ],
         "correct": 2,
         "explain": "De fleste boliglån er annuitetslån."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

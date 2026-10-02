@@ -113,10 +113,10 @@
       "id": "q02",
       "text": "Hvordan bestiller du høflig en te?",
       "options": [
-        "Ich will Tee!",
+        "Ich möchte ein Tee, bitte.",
         "Ich möchte einen Tee, bitte.",
-        "Tee jetzt!",
-        "Du Tee?"
+        "Ich möchte eine Tee, bitte.",
+        "Ich möchte einer Tee, bitte."
       ],
       "correct": 1,
       "explain": "«Ich möchte …, bitte» er høflig."
@@ -125,10 +125,10 @@
       "id": "q03",
       "text": "Hva skjer med forstavelsen i et delbart verb som «fernsehen»?",
       "options": [
-        "Den forsvinner",
-        "Den står først",
+        "Den blir stående foran det bøyde verbet",
+        "Den plasseres rett etter det bøyde verbet",
         "Den flyttes til slutten av setningen",
-        "Den dobles"
+        "Den blir stående midt i setningen"
       ],
       "correct": 2,
       "explain": "«Ich sehe am Abend fern.»"
@@ -138,9 +138,9 @@
       "text": "Hvordan sier du «Jeg dusjer»?",
       "options": [
         "Ich dusche mich.",
-        "Ich bin duschen.",
         "Ich dusche dich.",
-        "Mich dusche ich nicht."
+        "Ich dusche ihn.",
+        "Ich dusche mir."
       ],
       "correct": 0,
       "explain": "«sich duschen» er et refleksivt verb."
@@ -149,10 +149,10 @@
       "id": "q05",
       "text": "Hvordan spør du hvordan du kommer til museet?",
       "options": [
-        "Wo wohnst du?",
-        "Was kostet das Museum?",
+        "Wie heißt das Museum?",
+        "Wie teuer ist das Museum?",
         "Wie komme ich zum Museum?",
-        "Ist das Museum schön?"
+        "Was gibt es im Museum?"
       ],
       "correct": 2,
       "explain": "«Wie komme ich zum …?» brukes når du spør om veien."
@@ -161,10 +161,10 @@
       "id": "q06",
       "text": "Hvorfor heter det «zur Post», men «zum Bahnhof»?",
       "options": [
-        "Fordi Post er et sted",
+        "Fordi «Post» er hankjønn og «Bahnhof» intetkjønn",
         "Fordi «Post» er hunkjønn og «Bahnhof» hankjønn",
-        "Fordi Bahnhof er større",
-        "Det er tilfeldig"
+        "Fordi «Post» er intetkjønn og «Bahnhof» hunkjønn",
+        "Fordi «Post» er hankjønn og «Bahnhof» hunkjønn"
       ],
       "correct": 1,
       "explain": "zu + der blir zur, og zu + dem blir zum."
@@ -175,8 +175,8 @@
       "options": [
         "Kan jeg kjøpe dette?",
         "Kan jeg prøve dette på?",
-        "Kan jeg levere dette tilbake?",
-        "Kan jeg få rabatt?"
+        "Kan jeg bytte dette?",
+        "Kan jeg betale for dette?"
       ],
       "correct": 1,
       "explain": "«anprobieren» betyr å prøve på."
@@ -209,8 +209,8 @@
       "id": "q10",
       "text": "Hvilken setning er riktig?",
       "options": [
-        "Ich habe gespielt gestern Fußball.",
-        "Ich gestern habe Fußball gespielt.",
+        "Ich bin gestern Fußball gespielt.",
+        "Ich habe gestern Fußball spielen.",
         "Gestern ich habe Fußball gespielt.",
         "Ich habe gestern Fußball gespielt."
       ],
@@ -221,9 +221,9 @@
       "id": "q11",
       "text": "Hva skjer på Nikolaustag 6. desember?",
       "options": [
-        "Man tenner julelysene",
-        "Man pynter treet",
-        "Man spiser påskeegg",
+        "Barn får små gaver i sokkene de har hengt opp",
+        "Familier tenner fire lys på adventskransen",
+        "Barn leter etter påskeegg i hagen",
         "Barn får godteri i skoene de har satt fram"
       ],
       "correct": 3,
@@ -235,9 +235,9 @@
       "text": "Hva betyr «Guten Rutsch!»?",
       "options": [
         "Godt nytt år! (sagt før nyttår)",
-        "God tur!",
-        "God jul!",
-        "Lykke til på skiene!"
+        "God tur! (sagt før en reise)",
+        "God jul! (sagt før jul)",
+        "God ferie! (sagt før ferien)"
       ],
       "correct": 0,
       "explain": "Man ønsker hverandre en god «skli» inn i det nye året.",
@@ -356,7 +356,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -391,10 +391,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Nehmen Sie die zweite Straße links»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den første gata til venstre",
+          "Ta den andre gata til høyre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
         "explain": "«zweite» betyr andre."
@@ -419,9 +419,9 @@
         "text": "Hva er «der Adventskranz»?",
         "options": [
           "En krans med fire lys",
-          "En julekake",
-          "En julesang",
-          "En kalender"
+          "En kalender med fire luker",
+          "En kake som spises før jul",
+          "En sang som synges før jul"
         ],
         "correct": 0,
         "explain": "Man tenner ett nytt lys hver adventssøndag.",
@@ -502,12 +502,89 @@
           "Bruker perfektum med partisipp til slutt i setningene."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Du forteller en tysk venn hva du liker til frokost. Si at du gjerne spiser rundstykker med ost og drikker melk.",
+        "fasit": "Zum Frühstück esse ich gern Brötchen mit Käse und trinke gern Milch.",
+        "kriterier": [
+          "Nevner rundstykker med ost til frokost.",
+          "Sier at du gjerne drikker melk."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar på tysk hvordan tradisjonell lunsj og kveldsmat ofte er forskjellige i Tyskland.",
+        "fasit": "Traditionell war das Mittagessen die warme Hauptmahlzeit des Tages. Viele Familien essen am Abend Brot mit Belag.",
+        "kriterier": [
+          "Sier at lunsjen tradisjonelt var dagens varme hovedmåltid.",
+          "Sier at mange familier spiser brød med pålegg om kvelden."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Du forteller en venn om ettermiddagen din. Si på tysk at du tar bussen til skolen, og at du gjør lekser etter skolen.",
+        "fasit": "Ich fahre mit dem Bus zur Schule. Nach der Schule mache ich Hausaufgaben.",
+        "kriterier": [
+          "Bruker *mit dem Bus* og sier at du drar til skolen.",
+          "Sier at du gjør lekser etter skolen."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Sammenlign Sankt Martin og Fasching på tysk. Fortell hva barn gjør på Sankt Martin, og hva som skjer under Fasching.",
+        "fasit": "An Sankt Martin gehen Kinder mit Laternen und singen Lieder. Bei Fasching gibt es Kostüme, Musik und Umzüge.",
+        "kriterier": [
+          "Nevner lykter og sanger på Sankt Martin.",
+          "Nevner kostymer, musikk eller opptog under Fasching."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på tysk at du i går gikk på kino i byen, og at det var kjempegøy. Bruk fortidsform.",
+        "fasit": "Gestern bin ich ins Kino gegangen. Es war toll!",
+        "kriterier": [
+          "Bruker perfektum med *bin ... gegangen* om kinoturen.",
+          "Bruker *war* for å si at det var kjempegøy."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Du ser etter en genser og vil gjerne kjøpe brukte klær. Fortell på tysk at du ser etter en genser, og forklar fordelene med brukte klær.",
+        "fasit": "Ich suche einen Pullover. Gebrauchte Kleidung ist billiger und besser für die Umwelt.",
+        "kriterier": [
+          "Sier at du ser etter en genser, med korrekt *einen Pullover*.",
+          "Sier at brukte klær er billigere og bedre for miljøet."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på tysk hva du gjør etter skolen og hvordan du hjelper til hjemme: Du gjør lekser først, rydder rommet etterpå og støvsuger.",
+        "fasit": "Zuerst mache ich Hausaufgaben. Danach räume ich mein Zimmer auf und sauge Staub.",
+        "kriterier": [
+          "Bruker ord for rekkefølge og sier at du gjør lekser først.",
+          "Sier at du rydder rommet og støvsuger."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Fortell en norsk venn på tysk hva nyttårsaften heter i Tyskland, hvordan den feires, og hva man sier før og etter midnatt.",
+        "fasit": "Der Silvesterabend heißt Silvester und wird mit Feuerwerk und Festen gefeiert. Vor Mitternacht sagt man „Guten Rutsch!“. Nach Mitternacht sagt man „Frohes neues Jahr!“.",
+        "kriterier": [
+          "Kaller nyttårsaften *Silvester* og nevner fyrverkeri eller fest.",
+          "Sier *Guten Rutsch!* før midnatt og *Frohes neues Jahr!* etter midnatt."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

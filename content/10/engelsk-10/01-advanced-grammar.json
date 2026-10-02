@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Which sentence is passive?",
       "options": [
-        "The dog bit the man.",
+        "The man was biting the dog.",
         "The man was bitten by the dog.",
-        "The man bit the sandwich.",
-        "The dog is biting."
+        "The dog had bitten the man.",
+        "The man bit the dog."
       ],
       "correct": 1,
       "explain": "The passive uses be + past participle (was bitten), and the focus is on the man."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Make the sentence passive: “Someone stole my bike.”",
       "options": [
-        "My bike stole.",
-        "My bike has stealing.",
+        "My bike was steal.",
+        "My bike has stolen.",
         "My bike was stolen.",
-        "My bike is steal."
+        "My bike stole someone."
       ],
       "correct": 2,
       "explain": "was + past participle (stolen). We leave out “by someone” because it adds nothing."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Complete: “If she … harder, she would have passed the test.”",
       "options": [
-        "studied",
-        "had studied",
         "would study",
-        "studies"
+        "had studied",
+        "has studied",
+        "was studying"
       ],
       "correct": 1,
       "explain": "The third conditional uses had + past participle in the if-clause."
@@ -138,9 +138,9 @@
       "text": "Change to reported speech: She said, “I am tired.”",
       "options": [
         "She said she was tired.",
-        "She said I am tired.",
-        "She said she is tiring.",
-        "She says she were tired."
+        "She said I was tired.",
+        "She said she is tired.",
+        "She said she had been tired."
       ],
       "correct": 0,
       "explain": "The pronoun changes (I → she) and the verb moves back (am → was)."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "How do you report the question “Do you like football?”",
       "options": [
-        "He asked do I like football.",
-        "He asked did I like football?",
-        "He asked that I like football.",
+        "He asked if did I like football.",
+        "He asked did I like football.",
+        "He asked whether did I like football.",
         "He asked if I liked football."
       ],
       "correct": 3,
@@ -174,7 +174,7 @@
       "text": "Which zero conditional sentence is correct?",
       "options": [
         "If you heat ice, it melts.",
-        "If you heated ice, it would melt yesterday.",
+        "If you heated ice, it would melt.",
         "If you will heat ice, it melts.",
         "If you heat ice, it would melt."
       ],
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "When is the passive especially useful?",
       "options": [
-        "When you want to be informal",
+        "When the action is happening right now",
         "When the doer is unknown or unimportant",
-        "When you tell a joke",
-        "When you write dialogue"
+        "When the sentence describes a regular habit",
+        "When the writer wants to show the doer first"
       ],
       "correct": 1,
       "explain": "“The window was broken” works well when we do not know or care who broke it."
@@ -323,9 +323,9 @@
         "text": "Make passive: “They build new houses every year.”",
         "options": [
           "New houses build every year.",
-          "New houses were building every year.",
+          "New houses were built every year.",
           "New houses are built every year.",
-          "New houses have build every year."
+          "New houses are building every year."
         ],
         "correct": 2,
         "explain": "Present passive: are + built."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

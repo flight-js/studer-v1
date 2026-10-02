@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er formelen for bølgefart?",
       "options": [
-        "v = λ / f",
+        "v = λ / f²",
         "v = λ · f",
-        "v = f / λ",
-        "v = λ + f"
+        "v = λ² · f",
+        "v = λ − f"
       ],
       "correct": 1,
       "explain": "Bølgefart = bølgelengde · frekvens."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva slags bølge er lyd?",
       "options": [
-        "Longitudinal",
-        "Transversal",
-        "Elektromagnetisk",
-        "Stående"
+        "Longitudinalbølge",
+        "Tverrbølge",
+        "Elektromagnetisk bølge",
+        "Overflatebølge"
       ],
       "correct": 0,
       "explain": "Luften presses sammen og tynnes ut langs bevegelsesretningen."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor ser et sugerør knekt ut i et glass vann?",
       "options": [
-        "Refleksjon",
-        "Interferens",
+        "Diffraksjon",
+        "Totalrefleksjon",
         "Brytning",
-        "Dopplereffekt"
+        "Absorpsjon"
       ],
       "correct": 2,
       "explain": "Lyset skifter retning når det går fra vann til luft."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvorfor høres sirenen til en ambulanse lysere ut når den nærmer seg?",
       "options": [
-        "Resonans",
+        "Interferens",
         "Diffraksjon",
-        "Refleksjon",
+        "Ekko",
         "Dopplereffekt"
       ],
       "correct": 3,
@@ -127,8 +127,8 @@
       "options": [
         "1000 Hz",
         "100 Hz",
-        "115,6 Hz",
-        "10 Hz"
+        "340 Hz",
+        "10 000 Hz"
       ],
       "correct": 0,
       "explain": "f = v / λ = 340 / 0,34 = 1000 Hz."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr modulasjon i trådløs kommunikasjon?",
       "options": [
-        "Å forsterke signalet",
+        "Å forsterke radiosignalet før det sendes ut",
         "Å legge informasjon på en bærebølge",
-        "Å slå av senderen",
-        "Å lagre data"
+        "Å kode informasjonen i datapakker før sending",
+        "Å omforme informasjonen til lyd før sending"
       ],
       "correct": 1,
       "explain": "AM og FM er eksempler på modulasjon."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilket fenomen bruker støydempende hodetelefoner?",
       "options": [
-        "Brytning",
-        "Dopplereffekt",
+        "Resonans",
+        "Diffraksjon",
         "Interferens",
-        "Refleksjon"
+        "Absorpsjon"
       ],
       "correct": 2,
       "explain": "De lager en motsatt lydbølge som slukker støyen."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor er digitale signaler mindre utsatt for støy enn analoge?",
       "options": [
-        "De bruker mer strøm",
-        "De er raskere",
-        "De sendes med lyd",
-        "Informasjonen er kodet som enere og nuller som er lette å skille fra hverandre"
+        "Analoge signaler bruker sterkere strøm, som gjør dem mindre påvirket av støy.",
+        "Digitale signaler har høyere frekvens, som gjør dem lettere å skille fra støy.",
+        "Digitale signaler har større bølgelengde, som gjør dem lettere å skille fra støy.",
+        "Digitale data kodes som 0 og 1, som er lette å skille fra støy."
       ],
       "correct": 3,
       "explain": "Små forstyrrelser endrer ikke om en bit er 0 eller 1."
@@ -174,9 +174,9 @@
       "text": "Hvorfor kan vi høre lyd rundt et hjørne?",
       "options": [
         "Diffraksjon",
-        "Brytning",
-        "Dopplereffekt",
-        "Resonans"
+        "Refleksjon",
+        "Interferens",
+        "Absorpsjon"
       ],
       "correct": 0,
       "explain": "Lydbølger bøyer seg rundt hindringer."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva slags bølger brukes i Wi-Fi og mobilnett?",
       "options": [
-        "Lydbølger",
+        "Infrarød stråling",
         "Radiobølger",
-        "Røntgenstråling",
-        "Vannbølger"
+        "Ultrafiolett stråling",
+        "Røntgenstråling"
       ],
       "correct": 1,
       "explain": "Radiobølger er elektromagnetiske bølger med lang bølgelengde."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva måles frekvens i?",
         "options": [
-          "Meter",
+          "Sekunder",
           "Hertz",
-          "Watt",
-          "Sekunder"
+          "Meter",
+          "Desibel"
         ],
         "correct": 1,
         "explain": "1 Hz er én svingning per sekund."
@@ -335,9 +335,9 @@
         "text": "Hva er et ekko et eksempel på?",
         "options": [
           "Refleksjon",
-          "Brytning",
-          "Interferens",
-          "Modulasjon"
+          "Diffraksjon",
+          "Resonans",
+          "Absorpsjon"
         ],
         "correct": 0,
         "explain": "Lyden kastes tilbake fra en flate."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvordan finner en GPS-mottaker posisjonen sin?",
         "options": [
-          "Ved å måle temperaturen",
-          "Ved å bruke kameraet",
+          "Ved å beregne ut fra signalstyrken fra nærmeste satellitt",
+          "Ved å beregne ut fra retningen mot nærmeste satellitt",
           "Ved å beregne ut fra signaler fra flere satellitter",
-          "Ved å spørre nærmeste basestasjon om adressen"
+          "Ved å beregne ut fra signaler fra nærmeste mobilmast"
         ],
         "correct": 2,
         "explain": "Tidsforskjellene mellom signalene gir avstanden til hver satellitt.",
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

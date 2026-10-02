@@ -82,9 +82,9 @@
       "id": "q01",
       "text": "Hva er en overgang?",
       "options": [
-        "Et fotgjengerfelt",
-        "En eksamen",
-        "En ferie",
+        "Når man bytter aktivitet i løpet av en vanlig dag",
+        "Når man lærer en ny ferdighet i en kjent situasjon",
+        "Når man møter nye personer i en kjent hverdag",
         "Når man går fra én fase i livet til en annen"
       ],
       "correct": 3,
@@ -95,9 +95,9 @@
       "text": "Hva er en mestringsstrategi?",
       "options": [
         "En måte å håndtere utfordringer og stress på",
-        "En plan for å vinne en kamp",
-        "En type prøve",
-        "En regel på skolen"
+        "En måte å vise kunnskap på en prøve",
+        "En plan for å velge fag på videregående",
+        "En regel for å løse oppgaver i et fag"
       ],
       "correct": 0,
       "explain": "For eksempel å planlegge og be om hjelp."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hvem på skolen kan hjelpe deg med å gjøre omvalg?",
       "options": [
-        "Vaktmesteren",
+        "Helsesykepleieren",
         "Rådgiveren",
-        "Kantinepersonalet",
-        "Ingen"
+        "Miljøarbeideren",
+        "Bibliotekaren"
       ],
       "correct": 1,
       "explain": "Rådgiveren kjenner mulighetene og reglene."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva kan skje med mye udokumentert fravær i videregående?",
       "options": [
-        "Du får bedre karakter",
-        "Ingenting",
+        "Du kan få nedsatt karakter i faget",
+        "Du kan bli flyttet til et annet fag",
         "Du kan miste karakteren i faget",
-        "Du får ekstra ferie"
+        "Du kan måtte betale for å ta faget"
       ],
       "correct": 2,
       "explain": "I videregående gjelder en fraværsgrense.",
@@ -131,9 +131,9 @@
       "id": "q05",
       "text": "Hvilket av disse er en god mestringsstrategi?",
       "options": [
-        "Å sove lite",
-        "Å holde alt for seg selv",
-        "Å utsette alt til siste liten",
+        "Å prøve å gjøre alle oppgavene på én gang",
+        "Å vente med å starte til du føler deg klar",
+        "Å unngå å snakke med andre om det som er vanskelig",
         "Å dele store oppgaver opp i mindre biter"
       ],
       "correct": 3,
@@ -144,9 +144,9 @@
       "text": "Hva er robusthet?",
       "options": [
         "Evnen til å komme seg gjennom motgang",
-        "Å være sterk i armene",
-        "Å aldri være lei seg",
-        "Å ha mange venner"
+        "Evnen til å holde ut fysisk krevende arbeid",
+        "Evnen til å unngå feil i skolearbeidet",
+        "Evnen til å få gode resultater uten støtte"
       ],
       "correct": 0,
       "explain": "Robusthet kan trenes."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva kan helsesykepleieren hjelpe med?",
       "options": [
-        "Å velge fag",
+        "Valg av fag, skole og utdanning",
         "Helse, stress og følelser",
-        "Å søke jobb",
-        "Matteoppgaver"
+        "Jobbsøking, CV og jobbintervju",
+        "Karakterer, prøver og lekser"
       ],
       "correct": 1,
       "explain": "Helsesykepleieren har taushetsplikt."
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hva er det første steget fra idé til handling etter at du har en idé?",
       "options": [
-        "Å evaluere",
-        "Å gi opp",
+        "Å lage en detaljert plan før du har bestemt målet",
+        "Å spørre andre om de liker ideen din",
         "Å gjøre ideen om til et tydelig mål",
-        "Å vente"
+        "Å begynne uten å bestemme hva du vil oppnå"
       ],
       "correct": 2,
       "explain": "Deretter lager du en plan og tar det første steget.",
@@ -180,9 +180,9 @@
       "id": "q09",
       "text": "Hva er ung.no?",
       "options": [
-        "En sosial medieplattform",
-        "En videregående skole",
-        "Et spill",
+        "Et privat nettsted der unge kan finne informasjon og spørre anonymt",
+        "Et offentlig nettsted der unge kan søke på videregående skole",
+        "Et offentlig nettsted der unge kan chatte med lærere om lekser",
         "Et offentlig nettsted der unge kan finne informasjon og spørre anonymt"
       ],
       "correct": 3,
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hvorfor kan et omvalg være lurt?",
       "options": [
-        "Fordi det alltid gjør utdanningen kortere",
+        "Fordi et omvalg automatisk gir bedre karakterer i fagene",
         "Fordi det kan være bedre enn å fortsette med noe som ikke passer",
-        "Fordi det er påbudt",
-        "Det er aldri lurt"
+        "Fordi et omvalg gir fritak fra fag du synes er vanskelige",
+        "Fordi et omvalg gjør at du slipper å fullføre videregående"
       ],
       "correct": 1,
       "explain": "Et omvalg kan gjøre utdanningen lengre, men gi bedre trivsel og resultat."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er PP-tjenesten?",
         "options": [
-          "Politiets patrulje",
+          "Pedagogisk-psykologisk tjeneste som hjelper med å finne læreplass",
           "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker",
-          "En fritidsklubb",
-          "En fagforening"
+          "Pedagogisk-psykologisk tjeneste som behandler fysiske skader",
+          "Pedagogisk-psykologisk tjeneste som organiserer fritidstilbud for ungdom"
         ],
         "correct": 1,
         "explain": "PP-tjenesten kan gi råd om tilrettelegging.",
@@ -346,9 +346,9 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på å omsette en idé til handling?",
         "options": [
-          "Å tenke på en sommerjobb uten å søke",
-          "Å drømme om framtiden",
-          "Å klage på skolen",
+          "Å ønske seg sommerjobb uten å undersøke mulighetene",
+          "Å vente på at en sommerjobb skal dukke opp av seg selv",
+          "Å snakke om sommerjobb uten å kontakte aktuelle arbeidsplasser",
           "Å søke sommerjobb etter å ha laget en plan"
         ],
         "correct": 3,
@@ -360,9 +360,9 @@
         "text": "Hva er frivillig arbeid?",
         "options": [
           "Ubetalt innsats for andre",
-          "En deltidsjobb",
-          "Lekser",
-          "Obligatorisk arbeid"
+          "Betalt innsats for en organisasjon",
+          "Obligatorisk innsats som del av skolearbeid",
+          "Ubetalt praksis som del av en utdanning"
         ],
         "correct": 0,
         "explain": "Frivillig arbeid gir erfaring og nettverk.",
@@ -451,6 +451,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

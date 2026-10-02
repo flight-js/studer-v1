@@ -76,9 +76,9 @@
       "id": "q01",
       "text": "Hvor bor de fleste hinduer?",
       "options": [
-        "Kina",
-        "Indonesia",
-        "Sri Lanka",
+        "Indonesia og Malaysia",
+        "Sri Lanka og Thailand",
+        "Kina og Japan",
         "India og Nepal"
       ],
       "correct": 3,
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er samsara?",
       "options": [
-        "Frigjøring fra gjenfødelse",
+        "En lære om plikter i ulike livsfaser",
         "Kretsløpet av fødsel, død og gjenfødelse",
-        "En hellig elv",
-        "En type tempel"
+        "Et ritual der gudebilder får offergaver",
+        "En hellig elv som renser sjelen"
       ],
       "correct": 1,
       "explain": "Målet er å bli fri fra samsara."
@@ -101,9 +101,9 @@
       "text": "Hva betyr karma?",
       "options": [
         "At alle handlinger får følger",
-        "Den guddommelige kraften i alt",
-        "Plikten til å be",
-        "En høytid"
+        "At bønnene avgjør hvilken gud man møter",
+        "At pliktene bestemmer hvilken kaste man tilhører",
+        "At sjelen blir ett med Brahman etter døden"
       ],
       "correct": 0,
       "explain": "Gode og dårlige handlinger påvirker hvordan man blir født på nytt."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er moksha?",
       "options": [
-        "Et tempel",
-        "En gudinne",
+        "Kretsløpet av gjenfødelser",
+        "Plikten til å følge dharma",
         "Frigjøring fra samsara",
-        "En type yoga"
+        "Tilbedelse av gudebilder"
       ],
       "correct": 2,
       "explain": "Moksha er det endelige målet i hinduismen."
@@ -136,9 +136,9 @@
       "id": "q06",
       "text": "Hva er puja?",
       "options": [
-        "En hellig bok",
-        "En kaste",
-        "En pilegrimsby",
+        "Pilegrimsvandring til et hellig sted",
+        "Studium av hellige tekster hjemme",
+        "Faste for å vise hengivenhet til gudene",
         "Tilbedelse med offergaver til gudebilder"
       ],
       "correct": 3,
@@ -149,9 +149,9 @@
       "text": "Hva er Bhagavadgita?",
       "options": [
         "En del av eposet Mahabharata",
-        "Den eldste vedaen",
-        "En lysfest",
-        "Et tempel i Varanasi"
+        "En del av eposet Ramayana",
+        "En av de fire vedaene",
+        "En samling hymner fra Rigveda"
       ],
       "correct": 0,
       "explain": "Teksten er en samtale mellom guden Krishna og krigeren Arjuna."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er divali?",
       "options": [
-        "Fargefesten om våren",
-        "En faste",
-        "Lysfesten",
-        "En pilegrimsreise"
+        "En hinduisk fest med farger og vann",
+        "En hinduisk fest med faste og bønn",
+        "En hinduisk fest med lys og lamper",
+        "En hinduisk fest med pilegrimsferd og bønner"
       ],
       "correct": 2,
       "explain": "Under divali tennes lys og lamper som symbol på at det gode seirer."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva sier Indias grunnlov om kastediskriminering?",
       "options": [
-        "At den er påbudt",
-        "At den bare gjelder i byene",
-        "At den er en del av religionen",
-        "At den er forbudt"
+        "Grunnloven tillater diskriminering på grunn av kaste i samfunnet",
+        "Grunnloven begrenser diskriminering på grunn av kaste til byområder",
+        "Grunnloven knytter diskriminering på grunn av kaste til religiøse regler",
+        "Grunnloven forbyr diskriminering på grunn av kaste"
       ],
       "correct": 3,
       "explain": "Grunnloven fra 1950 forbyr diskriminering på grunn av kaste.",
@@ -186,9 +186,9 @@
       "text": "Hva er atman?",
       "options": [
         "Menneskets sjel eller innerste selv",
-        "En gud med elefanthode",
-        "En hellig ku",
-        "Et epos"
+        "Den guddommelige kraften i hele verden",
+        "Menneskets plikt og rette levesett",
+        "Kretsløpet av fødsel, død og gjenfødelse"
       ],
       "correct": 0,
       "explain": "Mange hinduer mener at atman i bunn og grunn er ett med Brahman."
@@ -347,7 +347,7 @@
           "Delhi",
           "Mumbai",
           "Varanasi",
-          "Kolkata"
+          "Chennai"
         ],
         "correct": 2,
         "explain": "Mange ønsker å bli kremert i Varanasi og få asken strødd i Ganges.",
@@ -359,9 +359,9 @@
         "text": "Hva er dharma?",
         "options": [
           "Plikten og den rette måten å leve på",
-          "En hellig elv",
-          "En type meditasjon",
-          "En gudinne"
+          "Kretsløpet av fødsel, død og gjenfødelse for sjelen",
+          "Læren om at handlinger får følger etter døden",
+          "Hengivenhet til en gud gjennom bønn og sang"
         ],
         "correct": 0,
         "explain": "Dharma kan være ulik for ulike mennesker og livsfaser."
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

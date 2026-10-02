@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva skiller kvanteobjekter fra klassiske objekter?",
       "options": [
-        "De har alltid bestemt posisjon og fart",
+        "De har kontinuerlig energi og oppfører seg både som bølger og partikler",
         "De har kvantisert energi og oppfører seg både som bølger og partikler",
-        "De er alltid store",
-        "De følger bare Newtons lover"
+        "De har kvantisert energi, men følger klassiske partikkelbaner",
+        "De har bestemt posisjon og bevegelsesmengde og følger klassiske baner"
       ],
       "correct": 1,
       "explain": "Og beskrives med sannsynligheter."
@@ -91,9 +91,9 @@
       "text": "Hva er energien til et foton?",
       "options": [
         "E = hf",
-        "E = mc",
-        "E = ½mv²",
-        "E = mgh"
+        "E = h/f",
+        "E = hf/c",
+        "E = hc/f"
       ],
       "correct": 0,
       "explain": "h er Plancks konstant."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva skjer når lysstyrken økes i den fotoelektriske effekten?",
       "options": [
-        "Elektronene blir raskere",
-        "Ingen elektroner slås løs",
+        "Færre, men raskere elektroner slås løs",
+        "Flere og raskere elektroner slås løs",
         "Flere, men ikke raskere elektroner slås løs",
-        "Frekvensen øker"
+        "Samme antall, men raskere elektroner slås løs"
       ],
       "correct": 2,
       "explain": "Flere fotoner, men samme energi per foton."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva viser dobbeltspalteforsøket med elektroner?",
       "options": [
-        "At elektroner bare er partikler",
-        "At elektroner er uten masse",
-        "At elektroner ikke finnes",
+        "At elektroner følger klassiske baner gjennom spaltene",
+        "At elektroner passerer spaltene uten å danne interferens",
+        "At elektroner mister energi når de passerer spaltene",
         "At elektroner har bølgeegenskaper"
       ],
       "correct": 3,
@@ -128,8 +128,8 @@
       "options": [
         "λ = h / p",
         "λ = p / h",
-        "λ = c · f",
-        "λ = mv"
+        "λ = h · v",
+        "λ = c · p"
       ],
       "correct": 0,
       "explain": "Gjelder alle partikler."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva sier Heisenbergs uskarphetsrelasjon?",
       "options": [
-        "At måleutstyret er dårlig",
+        "At posisjon og bevegelsesmengde kan bestemmes nøyaktig samtidig",
         "At posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig",
-        "At energi er bevart",
-        "At lys er en partikkel"
+        "At måleutstyret alene begrenser nøyaktigheten til posisjon og bevegelsesmengde",
+        "At usikkerheten i posisjon og bevegelsesmengde skyldes målingens varighet"
       ],
       "correct": 1,
       "explain": "En grunnleggende egenskap ved naturen."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er tunnellering?",
       "options": [
-        "Å grave tunneler",
-        "Å stoppe partikler",
+        "At partikler kan passere barrierer fordi de får tilført nok energi",
+        "At partikler kan gå rundt barrierer ved å følge en bøyd bane",
         "At partikler kan passere barrierer de klassisk ikke kan komme over",
-        "At lys bøyes"
+        "At partikler kan passere barrierer ved å miste energi underveis"
       ],
       "correct": 2,
       "explain": "Skjer i fusjonen i sola."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor sender atomer ut lys med bestemte farger?",
       "options": [
-        "Fordi de er varme",
-        "Fordi de er store",
-        "Fordi de roterer",
+        "Fordi elektronene beveger seg mellom kontinuerlige energinivåer",
+        "Fordi atomkjernene skifter energinivå og sender ut lys",
+        "Fordi energien i lyset bestemmes av atomets temperatur",
         "Fordi elektronene hopper mellom kvantiserte energinivåer"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva gir Einsteins forklaring av den fotoelektriske effekten?",
       "options": [
         "E_k = hf − W",
-        "E = mc²",
-        "F = ma",
-        "λ = h / p"
+        "E_k = hf + W",
+        "E_k = hf",
+        "E_k = W − hf"
       ],
       "correct": 0,
       "explain": "Hvert foton gir energien til ett elektron."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva ble belønnet med Nobelprisen i fysikk i 2022?",
       "options": [
-        "Higgs-partikkelen",
+        "Målinger av kvanteprikker",
         "Forsøk med sammenfiltrede fotoner",
-        "Gravitasjonsbølger",
-        "Laseren"
+        "Utvikling av kvantekryptografi",
+        "Målinger av nøytrinooscillasjoner"
       ],
       "correct": 1,
       "explain": "Grunnlag for kvanteteknologi.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er fotonenergien til rødt lys med bølgelengde 650 nm omtrent?",
         "options": [
-          "19 eV",
+          "0,31 eV",
           "1,9 eV",
-          "0,19 eV",
-          "190 eV"
+          "3,1 eV",
+          "0,95 eV"
         ],
         "correct": 1,
         "explain": "E = hc/λ ≈ 3,1 · 10⁻¹⁹ J."
@@ -325,9 +325,9 @@
         "text": "Hvorfor kan elektroner brukes i mikroskoper?",
         "options": [
           "Fordi bølgelengden deres er svært kort",
-          "Fordi de er synlige",
-          "Fordi de er tunge",
-          "Fordi de er positive"
+          "Fordi elektronenes masse er svært stor",
+          "Fordi elektronenes bølgelengde er svært lang",
+          "Fordi de kan fokuseres med glasslinser"
         ],
         "correct": 0,
         "explain": "Omtrent som avstanden mellom atomer."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva kan en kvantebit gjøre som en vanlig bit ikke kan?",
         "options": [
-          "Lagre mer strøm",
-          "Være varmere",
+          "Være sammenfiltret med en vanlig bit",
+          "Være kopiert til flere identiske kvantebiter",
           "Være i superposisjon av 0 og 1",
-          "Være større"
+          "Være upåvirket av måling av tilstanden"
         ],
         "correct": 2,
         "explain": "Grunnlaget for kvantedatamaskiner.",
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

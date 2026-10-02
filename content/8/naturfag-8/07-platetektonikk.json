@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilket lag i jorda er flytende?",
       "options": [
-        "Jordskorpa",
-        "Den ytre kjernen",
         "Den indre kjernen",
-        "Litosfæren"
+        "Den ytre kjernen",
+        "Den nedre mantelen",
+        "Den faste jordskorpa"
       ],
       "correct": 1,
       "explain": "Den ytre kjernen er flytende jern og nikkel. Den indre kjernen er fast."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvem foreslo teorien om kontinentaldrift i 1912?",
       "options": [
-        "Charles Darwin",
-        "Isaac Newton",
+        "Harry Hess",
+        "Arthur Holmes",
         "Alfred Wegener",
-        "Dmitrij Mendelejev"
+        "James Hutton"
       ],
       "correct": 2,
       "explain": "Alfred Wegener mente at kontinentene en gang hadde vært samlet i Pangea."
@@ -102,9 +102,9 @@
       "text": "Hva skjer ved en divergerende plategrense?",
       "options": [
         "Platene beveger seg fra hverandre",
-        "Platene kolliderer",
-        "Platene glir forbi hverandre",
-        "Platene står stille"
+        "Platene beveger seg mot hverandre",
+        "Platene glir sidelengs forbi hverandre",
+        "En plate synker under den andre"
       ],
       "correct": 0,
       "explain": "Magma strømmer opp og danner ny havbunn, som ved Midtatlanterhavsryggen."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvordan ble Himalaya dannet?",
       "options": [
-        "Av et vulkanutbrudd",
+        "Ved at to havplater kolliderte",
         "Ved at platene gled fra hverandre",
-        "Av isbreer",
+        "Ved at isbreer gravde ut fjellene",
         "Ved at to kontinentalplater kolliderte"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvor fort beveger platene seg?",
       "options": [
-        "Flere meter i sekundet",
+        "Noen få centimeter i måneden",
         "Noen få centimeter i året",
-        "Flere kilometer i året",
-        "De beveger seg ikke"
+        "Omtrent én meter i året",
+        "Omtrent én kilometer i året"
       ],
       "correct": 1,
       "explain": "Bevegelsen er omtrent like rask som negler vokser."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvilken observasjon støtter platetektonikken?",
       "options": [
-        "At havet er salt",
-        "At fjell er høye",
+        "At jordskjelv skjer mest midt på tektoniske plater",
+        "At vulkaner ligger jevnt fordelt over jordoverflaten",
         "At samme fossiler finnes på kontinenter langt fra hverandre",
-        "At det er kaldt på Nordpolen"
+        "At havbunnen er eldst langs midthavsryggene"
       ],
       "correct": 2,
       "explain": "Like fossiler og bergarter tyder på at kontinentene en gang lå sammen."
@@ -151,9 +151,9 @@
       "text": "Hvor finnes de fleste jordskjelv og vulkaner?",
       "options": [
         "Langs plategrensene",
-        "Midt på platene",
-        "Bare i Norge",
-        "Bare i havet"
+        "Midt på kontinentene",
+        "Midt på havbunnene",
+        "Langs elvedalene"
       ],
       "correct": 0,
       "explain": "Det er ved plategrensene at platene støter mot, skiller seg fra eller glir forbi hverandre."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvorfor har Norge få kraftige jordskjelv?",
       "options": [
-        "Fordi landet er kaldt",
-        "Fordi det ikke finnes plater under Norge",
-        "Fordi fjellene stopper dem",
-        "Fordi Norge ligger midt på en plate, langt fra grensene"
+        "Fordi Norge ligger nær en plategrense",
+        "Fordi berggrunnen i Norge er svært tykk",
+        "Fordi fjellene i Norge demper jordskjelv",
+        "Fordi Norge ligger langt fra plategrensene"
       ],
       "correct": 3,
       "explain": "Norge ligger inne på den eurasiske platen, der det er lite bevegelse."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva driver platebevegelsene?",
       "options": [
-        "Tidevannet",
+        "Tidevannskrefter fra månen",
         "Konveksjonsstrømmer i mantelen",
-        "Vinden",
-        "Månens bevegelse"
+        "Vindstrømmer i atmosfæren",
+        "Magnetfeltet i kjernen"
       ],
       "correct": 1,
       "explain": "Varm stein stiger og kaldere synker i mantelen, og dette drar med seg platene."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvor på havbunnen er berggrunnen yngst?",
       "options": [
-        "Nær kontinentene",
+        "Nær kontinentenes kyster",
         "Nær midthavsryggene",
-        "På de dypeste stedene",
-        "Overalt like gammel"
+        "Ved dyphavsgropene",
+        "Under kontinentenes fjellkjeder"
       ],
       "correct": 1,
       "explain": "Ny havbunn dannes ved ryggene og skyves utover, så den eldste ligger lengst unna."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva kalles det når en plate skyves ned under en annen?",
         "options": [
-          "Erosjon",
+          "Havbunnsspredning",
           "Subduksjon",
-          "Konveksjon",
-          "Forvitring"
+          "Kontinentaldrift",
+          "Mantelkonveksjon"
         ],
         "correct": 1,
         "explain": "Subduksjon skjer ved konvergerende grenser og gir dyphavsgroper og vulkaner."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva het superkontinentet der alle kontinentene var samlet?",
         "options": [
-          "Atlantis",
-          "Eurasia",
+          "Gondwana",
+          "Laurasia",
           "Pangea",
-          "Gondwana-Norge"
+          "Rodinia"
         ],
         "correct": 2,
         "explain": "Pangea betyr «hele jorda»."
@@ -357,9 +357,9 @@
         "text": "Hvilken moderne teknologi viser at platene beveger seg i dag?",
         "options": [
           "GPS-målinger",
-          "Termometre",
-          "Mikroskoper",
-          "Barometre"
+          "Seismografmålinger",
+          "Radarhøydemålinger",
+          "Magnetfeltmålinger"
         ],
         "correct": 0,
         "explain": "Presise GPS-målinger viser at punkter på ulike plater flytter seg i forhold til hverandre.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

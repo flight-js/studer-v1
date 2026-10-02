@@ -76,9 +76,9 @@
       "id": "q01",
       "text": "Hva er lg 1000?",
       "options": [
-        "100",
+        "1000",
         "3",
-        "30",
+        "100",
         "10"
       ],
       "correct": 1,
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Løs 5ˣ = 20.",
       "options": [
-        "x = 4",
-        "x = 0,25",
+        "x ≈ 4",
+        "x ≈ 1,30",
         "x ≈ 1,86",
-        "x ≈ 2,5"
+        "x ≈ 0,54"
       ],
       "correct": 2,
       "explain": "x = lg 20 / lg 5."
@@ -126,11 +126,11 @@
       "options": [
         "x = 2",
         "x = −5",
-        "x = 2 eller x = −5",
-        "x = 10"
+        "x = 10",
+        "x = 3"
       ],
       "correct": 0,
-      "explain": "x = −5 er ikke gyldig, fordi logaritmen krever positive tall."
+      "explain": "Logaritmeregelen gir x(x + 3) = 10. Av løsningene er bare x = 2 gyldig, siden logaritmene krever positive argumenter."
     },
     {
       "id": "q06",
@@ -148,8 +148,8 @@
       "id": "q07",
       "text": "Hva er 8^(1/3)?",
       "options": [
+        "4",
         "8/3",
-        "24",
         "2",
         "512"
       ],
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Løs e²ˣ − 3eˣ + 2 = 0.",
       "options": [
-        "x = 1 eller x = 2",
-        "x = 0",
-        "x = ln 3",
+        "x = −ln 2 eller x = ln 3",
+        "x = ln 3 eller x = ln 4",
+        "x = 1 eller x = 3",
         "x = 0 eller x = ln 2"
       ],
       "correct": 3,
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

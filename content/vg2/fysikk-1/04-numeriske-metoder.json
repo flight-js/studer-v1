@@ -78,8 +78,8 @@
       "options": [
         "Når akselerasjonen er konstant",
         "Når akselerasjonen ikke er konstant",
-        "Når legemet er i ro",
-        "Aldri"
+        "Når farten er konstant",
+        "Når posisjonen endrer seg jevnt"
       ],
       "correct": 1,
       "explain": "Bevegelseslikningene forutsetter konstant akselerasjon."
@@ -89,9 +89,9 @@
       "text": "Hvordan oppdateres farten i Eulers metode?",
       "options": [
         "v_ny = v + a · Δt",
-        "v_ny = a / Δt",
-        "v_ny = s · Δt",
-        "v_ny = v − s"
+        "v_ny = v + a / Δt",
+        "v_ny = a · Δt",
+        "v_ny = v + s · Δt"
       ],
       "correct": 0,
       "explain": "Endringen i fart er a · Δt."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er terminalfart?",
       "options": [
-        "Den største akselerasjonen",
-        "Farten i starten",
+        "Økende fart når luftmotstand og tyngde er like store",
+        "Konstant fart når luftmotstanden er større enn tyngden",
         "Konstant fart når luftmotstand og tyngde er like store",
-        "Farten uten luftmotstand"
+        "Konstant akselerasjon når luftmotstand og tyngde er like store"
       ],
       "correct": 2,
       "explain": "Da er ΣF = 0."
@@ -113,8 +113,8 @@
       "text": "Hva er kraftsummen på et fallende legeme med luftmotstand kv² (positiv retning ned)?",
       "options": [
         "mg + kv²",
-        "kv²",
-        "mg",
+        "mg − kv",
+        "kv² − mg",
         "mg − kv²"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva skjer med akselerasjonen til en fallskjermhopper før utløsning?",
       "options": [
         "Den avtar mot null",
-        "Den øker",
-        "Den er konstant lik g",
-        "Den blir negativ med en gang"
+        "Den øker mot g",
+        "Den holder seg lik g",
+        "Den blir negativ før terminalfarten nås"
       ],
       "correct": 0,
       "explain": "Luftmotstanden øker med farten."
@@ -138,7 +138,7 @@
       "options": [
         "Omtrent 18 m/s",
         "Omtrent 56 m/s",
-        "Omtrent 320 m/s",
+        "Omtrent 14 m/s",
         "Omtrent 9,8 m/s"
       ],
       "correct": 1,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva skjer hvis tidssteget er for stort?",
       "options": [
-        "Programmet går raskere og blir mer nøyaktig",
-        "Ingenting",
-        "Resultatet kan få tydelige feil",
-        "Farten blir alltid null"
+        "Resultatet blir mer nøyaktig",
+        "Programmet beregner flere tidssteg",
+        "Resultatet blir mindre nøyaktig",
+        "Farten blir lik null ved hvert tidssteg"
       ],
       "correct": 2,
       "explain": "Tilnærmingen om konstant a blir dårligere."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvordan kan du teste om programmet ditt er riktig?",
       "options": [
-        "Bruke større tidssteg",
-        "Fjerne løkken",
-        "Endre massen",
+        "Sette k > 0 og sammenligne med bevegelseslikningene",
+        "Sette k = 0 og sammenligne med terminalfarten",
+        "Sette k = 0 og sammenligne med luftmotstandskraften",
         "Sette k = 0 og sammenligne med bevegelseslikningene"
       ],
       "correct": 3,
@@ -173,7 +173,7 @@
       "text": "Hvordan oppdateres posisjonen i Eulers metode?",
       "options": [
         "s_ny = s + v · Δt",
-        "s_ny = v / Δt",
+        "s_ny = s + v / Δt",
         "s_ny = a · s",
         "s_ny = s − a"
       ],
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan finner du akselerasjonen i hvert tidssteg?",
       "options": [
-        "a = v · t",
+        "a = m / ΣF",
         "a = ΣF / m",
-        "a = m · g alltid",
-        "a = s / t"
+        "a = ΣF · m",
+        "a = ΣF / v"
       ],
       "correct": 1,
       "explain": "Newtons 2. lov."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hvor stor er akselerasjonen i starten av et fall fra ro med luftmotstand?",
         "options": [
-          "Null",
-          "Omtrent g",
-          "2g",
-          "Negativ"
+          "Omtrent 0 m/s²",
+          "Omtrent 9,8 m/s²",
+          "Omtrent 19,6 m/s²",
+          "Omtrent −9,8 m/s²"
         ],
         "correct": 1,
         "explain": "Farten og dermed luftmotstanden er null i starten."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva skjer med terminalfarten hvis k blir større, for eksempel når fallskjermen åpnes?",
         "options": [
-          "Den blir mindre",
-          "Den blir større",
-          "Den er uendret",
-          "Den blir lik g"
+          "Den blir mindre når k blir større",
+          "Den blir større når k blir større",
+          "Den holder seg lik når k blir større",
+          "Den blir lik g når k blir større"
         ],
         "correct": 0,
         "explain": "v_t = √(mg/k)."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva gjør linjen «t = t + dt» i programmet?",
         "options": [
-          "Beregner farten",
-          "Beregner kraften",
+          "Oppdaterer farten med ett tidssteg",
+          "Beregner kraften for neste tidssteg",
           "Øker tiden med ett tidssteg",
-          "Stopper programmet"
+          "Avslutter løkken ved neste tidssteg"
         ],
         "correct": 2,
         "explain": "Løkken går til t når sluttiden."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

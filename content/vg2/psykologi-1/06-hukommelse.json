@@ -88,10 +88,10 @@
       "id": "q01",
       "text": "Hvilke tre prosesser består hukommelsen av?",
       "options": [
-        "Syn, hørsel og lukt",
+        "Sansing, oppmerksomhet og læring",
         "Koding, lagring og gjenhenting",
-        "Læring, glemsel og søvn",
-        "Id, ego og superego"
+        "Repetisjon, glemsel og søvn",
+        "Gjenkjenning, læring og konsentrasjon"
       ],
       "correct": 1,
       "explain": "Svikt i én gir glemsel."
@@ -100,10 +100,10 @@
       "id": "q02",
       "text": "Hvor mange enheter kan korttidsminnet omtrent holde?",
       "options": [
-        "Rundt sju",
-        "Rundt 100",
-        "Ubegrenset",
-        "Bare én"
+        "Rundt sju enheter",
+        "Rundt 20 enheter",
+        "Rundt 50 enheter",
+        "Rundt 100 enheter"
       ],
       "correct": 0,
       "explain": "Pluss eller minus to."
@@ -112,10 +112,10 @@
       "id": "q03",
       "text": "Hva er chunking?",
       "options": [
-        "Å glemme",
-        "Å repetere",
+        "Å gjenta informasjon flere ganger",
+        "Å hente informasjon fra langtidsminnet",
         "Å gruppere informasjon i klumper",
-        "Å sove"
+        "Å koble informasjon til tidligere kunnskap"
       ],
       "correct": 2,
       "explain": "For eksempel et telefonnummer i tre deler."
@@ -124,10 +124,10 @@
       "id": "q04",
       "text": "Hvilken type minne er det å huske bursdagen din i fjor?",
       "options": [
-        "Semantisk",
-        "Prosedural",
-        "Sensorisk",
-        "Episodisk"
+        "Semantisk minne",
+        "Proseduralminne",
+        "Arbeidsminne",
+        "Episodisk minne"
       ],
       "correct": 3,
       "explain": "Et personlig minne om en hendelse."
@@ -136,10 +136,10 @@
       "id": "q05",
       "text": "Hvilken type minne bruker du når du sykler?",
       "options": [
-        "Prosedural (implisitt)",
-        "Episodisk",
-        "Semantisk",
-        "Sensorisk"
+        "Proseduralminne",
+        "Episodisk minne",
+        "Semantisk minne",
+        "Sensorisk minne"
       ],
       "correct": 0,
       "explain": "Vi husker ferdigheten uten å tenke over den."
@@ -148,10 +148,10 @@
       "id": "q06",
       "text": "Hva viste Ebbinghaus med glemselskurven?",
       "options": [
-        "At vi aldri glemmer",
-        "At vi glemmer mye raskt og deretter langsommere",
-        "At søvn gir glemsel",
-        "At barn husker best"
+        "Glemselen går langsomst først, deretter øker den.",
+        "Glemselen går raskest først, deretter avtar den.",
+        "Glemselen holder seg jevn over tid.",
+        "Glemselen øker etter hver repetisjon."
       ],
       "correct": 1,
       "explain": "Derfor er repetisjon viktig."
@@ -161,9 +161,9 @@
       "text": "Du har lært spansk og sliter nå med å huske fransk du lærte tidligere. Hva er dette?",
       "options": [
         "Proaktiv interferens",
-        "Forfall",
+        "Minnesporforfall",
         "Retroaktiv interferens",
-        "Chunking"
+        "Gjenkjenningssvikt"
       ],
       "correct": 2,
       "explain": "Ny læring hindrer gammel."
@@ -172,10 +172,10 @@
       "id": "q08",
       "text": "Hva viste Elizabeth Loftus?",
       "options": [
-        "At hippocampus lagrer minner",
-        "At korttidsminnet holder sju enheter",
-        "At søvn styrker minner",
-        "At ledende spørsmål kan endre minner"
+        "Ledende spørsmål styrker lagringen av minner i hippocampus.",
+        "Ledende spørsmål forbedrer gjenhenting av detaljer fra hendelsen.",
+        "Ledende spørsmål gjør minnene mer nøyaktige over tid.",
+        "Ledende spørsmål påvirker hvordan vitner husker hendelser."
       ],
       "correct": 3,
       "explain": "Hukommelsen rekonstruerer.",
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Hva gjør søvn for hukommelsen?",
       "options": [
-        "Sletter minner",
-        "Konsoliderer og styrker minnene",
-        "Ingenting",
-        "Lager falske minner"
+        "Bryter ned og svekker minner etter læring",
+        "Konsoliderer og styrker minner etter læring",
+        "Flytter minner fra langtidsminnet til korttidsminnet",
+        "Skaper nye minner uten at noe er blitt lært"
       ],
       "correct": 1,
       "explain": "Derfor er søvn viktig før prøver."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hvilken lesestrategi gir best hukommelse?",
         "options": [
-          "Lese samme side mange ganger rett før prøven",
+          "Lese samme tekst flere ganger rett før prøven",
           "Teste seg selv og spre repetisjonen over tid",
-          "Lese med musikk på høyt volum",
-          "Streke under alt"
+          "Streke under viktige setninger gjennom hele teksten",
+          "Lese teksten høyt flere ganger på én kveld"
         ],
         "correct": 1,
         "explain": "Testing og spredt repetisjon."
@@ -340,8 +340,8 @@
         "options": [
           "Fakta og kunnskap",
           "Personlige hendelser",
-          "Ferdigheter",
-          "Sanseinntrykk"
+          "Innlærte bevegelsesferdigheter",
+          "Kortvarige sanseinntrykk"
         ],
         "correct": 0,
         "explain": "For eksempel at Oslo er hovedstaden."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva betyr det at et navn «ligger på tunga»?",
         "options": [
-          "Forfall",
-          "Proaktiv interferens",
+          "Lagringssvikt",
+          "Gjenkjenningssvikt",
           "Gjenhentingssvikt",
-          "Sensorisk adaptasjon"
+          "Proaktiv interferens"
         ],
         "correct": 2,
         "explain": "Minnet er lagret, men vanskelig å hente fram."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er input i Eastons systemmodell?",
       "options": [
-        "Lover og budsjetter",
+        "Beslutninger og tiltak fra myndighetene",
         "Krav og støtte fra samfunnet",
-        "Domstolenes avgjørelser",
-        "Skatteinntekter"
+        "Politiske resultater og virkninger i samfunnet",
+        "Gjennomføring av vedtak i offentlig forvaltning"
       ],
       "correct": 1,
       "explain": "Output er beslutningene."
@@ -91,9 +91,9 @@
       "text": "Hva mener realister om internasjonal politikk?",
       "options": [
         "At stater søker makt og sikkerhet i et system uten verdensregjering",
-        "At alle stater samarbeider",
-        "At ideer er viktigst",
-        "At FN styrer verden"
+        "At institusjoner og handel fremmer samarbeid mellom stater",
+        "At normer og identiteter former statenes internasjonale handlinger",
+        "At folkeretten håndheves av en sentral myndighet over statene"
       ],
       "correct": 0,
       "explain": "Maktbalanse sikrer fred."
@@ -105,7 +105,7 @@
         "Sentrum–periferi",
         "By–land",
         "Arbeid–kapital",
-        "Religion"
+        "Kirke–stat"
       ],
       "correct": 2,
       "explain": "Arbeidere mot arbeidsgivere."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva legger liberalismen vekt på i internasjonal politikk?",
       "options": [
-        "Militær makt alene",
-        "Egeninteresse og konflikt",
-        "At stater aldri kan samarbeide",
+        "Maktbalanse, militær styrke, nasjonal sikkerhet og avskrekking",
+        "Identiteter, normer, språk og historiske fortellinger",
+        "Geografi, naturressurser, befolkning og militær kapasitet",
         "Samarbeid, handel, demokrati og institusjoner"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er et godt spørsmål når du vurderer politisk informasjon?",
       "options": [
         "Hvem er avsenderen, og hva er formålet?",
-        "Hvor mange bilder har saken?",
-        "Hvor lang er teksten?",
-        "Er det skrevet på nynorsk?"
+        "Hvor mange har delt saken, og hvor raskt sprer den seg?",
+        "Er teksten lett å lese, og har den tydelige overskrifter?",
+        "Støtter teksten egne meninger, og bruker den sikre formuleringer?"
       ],
       "correct": 0,
       "explain": "Interesser farger informasjonen."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva legger konstruktivismen vekt på?",
       "options": [
-        "Bare militær makt",
-        "Bare økonomi",
+        "Maktbalanse, militær kapasitet og nasjonal sikkerhet",
+        "Handel, økonomisk avhengighet og internasjonale institusjoner",
         "Ideer, identiteter og normer",
-        "Bare geografi"
+        "Geografi, naturressurser og befolkningsstørrelse"
       ],
       "correct": 2,
       "explain": "Hvordan stater oppfatter hverandre.",
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er tilbakekobling i Eastons modell?",
       "options": [
-        "At lover oppheves",
-        "At velgere stemmer",
-        "At regjeringen går av",
+        "At nye krav og støtte fra samfunnet påvirker politiske beslutninger",
+        "At myndighetene omsetter krav til lover og politiske vedtak",
+        "At politiske vedtak blir gjennomført av offentlige etater",
         "At beslutningene påvirker samfunnet og gir nye krav og ny støtte"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvilken nyere konfliktlinje har kommet til i norsk politikk?",
       "options": [
         "Miljø–vekst",
-        "Konge–adel",
-        "Pave–keiser",
-        "Katolikk–protestant"
+        "Sentrum–periferi",
+        "Arbeid–kapital",
+        "By–land"
       ],
       "correct": 0,
       "explain": "Også innvandring og verdier.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvilken kilde er vanligvis mest pålitelig for norsk statistikk?",
       "options": [
-        "Et partiprogram",
+        "Norges forskningsråd",
         "Statistisk sentralbyrå",
-        "En kommentar i sosiale medier",
-        "En reklame"
+        "Norsk utenrikspolitisk institutt",
+        "Arbeids- og velferdsdirektoratet"
       ],
       "correct": 1,
       "explain": "Offisiell statistikk.",
@@ -328,9 +328,9 @@
         "text": "Hva er en maktressurs?",
         "options": [
           "Stemmer, penger eller medieoppmerksomhet",
-          "Et partiprogram uten støtte",
-          "En tom stol",
-          "En ferie"
+          "Partiprogram, politiske mål eller valgløfter",
+          "Politiske krav, offentlige vedtak eller lovforslag",
+          "Ideer, normer eller identiteter"
         ],
         "correct": 0,
         "explain": "Ressurser som gir påvirkning."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilken del av det politiske systemet står for omformingen i Eastons modell?",
         "options": [
-          "Velgerne",
-          "Mediene",
+          "Velgere, partimedlemmer og lokale aktivister",
+          "Medier, redaksjoner og nyhetsbyråer",
           "Storting, regjering og forvaltning",
-          "Interesseorganisasjonene"
+          "Interesseorganisasjoner, fagforeninger og lobbyister"
         ],
         "correct": 2,
         "explain": "Der krav blir til beslutninger."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

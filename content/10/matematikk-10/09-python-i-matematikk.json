@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilke verdier får i i for i in range(1, 5)?",
       "options": [
-        "1, 2, 3, 4, 5",
         "0, 1, 2, 3, 4",
+        "1, 2, 3, 4, 5",
         "1, 2, 3, 4",
-        "1 og 5"
+        "1, 2, 3"
       ],
       "correct": 2,
       "explain": "range(1, 5) starter på 1 og stopper før 5, altså 1, 2, 3, 4."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er forskjellen på = og == i Python?",
       "options": [
-        "Ingen forskjell",
-        "== gir verdi, = sammenligner",
-        "= brukes bare i løkker",
-        "= gir en variabel verdi, == sjekker om to verdier er like"
+        "= sjekker om verdier er like; == lagrer en verdi i en variabel",
+        "= sammenligner to verdier; == gir en variabel en ny verdi",
+        "= sjekker om to verdier er like; == lagrer en verdi i en variabel",
+        "= lagrer en verdi i en variabel; == sjekker om to verdier er like"
       ],
       "correct": 3,
       "explain": "x = 5 lagrer 5 i x. x == 5 spør om x er lik 5 og gir True eller False."
@@ -126,8 +126,8 @@
       "options": [
         "3",
         "2",
-        "3,4",
-        "85"
+        "12",
+        "5"
       ],
       "correct": 1,
       "explain": "% gir resten: 17 = 3 · 5 + 2, så resten er 2."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Et program ganger 1000 med 1,05 til beløpet er minst 2000, og teller årene. Hva finner det?",
       "options": [
-        "Rentene første år",
-        "Beløpet etter ett år",
+        "Hvor stort beløpet blir etter ett år",
+        "Hvor mange kroner rentene gir første år",
         "Hvor mange år det tar å doble beløpet",
-        "Den nominelle renten"
+        "Hvilken prosentvis rente brukes hvert år"
       ],
       "correct": 2,
       "explain": "while-løkka gjentar så lenge beløpet er under 2000 og teller antall år, så den finner doblingstiden."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva gjør def f(x): return 3*x − 1?",
       "options": [
-        "Lager en funksjon som gir 3x − 1 for en x",
-        "Skriver ut 3x − 1",
-        "Løser likningen 3x − 1 = 0",
-        "Lager en løkke"
+        "Lager en funksjon som regner ut 3x − 1 for x",
+        "Skriver ut verdien av 3x − 1 for x",
+        "Løser likningen 3x − 1 = 0 for x",
+        "Gjentar beregningen av 3x − 1 i en løkke"
       ],
       "correct": 0,
       "explain": "def lager en funksjon. f(2) vil for eksempel gi 3 · 2 − 1 = 5."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvorfor gir 1,05 en feil i Python-kode der du mener tallet én komma null fem?",
       "options": [
-        "Python kan ikke regne med desimaltall",
-        "Python bruker punktum som desimaltegn, så det skal stå 1.05",
-        "Tallet er for lite",
-        "Det må stå i anførselstegn"
+        "Python bruker komma som desimaltegn, så tallet skrives 1,05",
+        "Python bruker punktum som desimaltegn, så tallet skrives 1.05",
+        "Python tolker punktum som tusenskilletegn, så tallet skrives 1,05",
+        "Python regner med desimaltall når de står i anførselstegn"
       ],
       "correct": 1,
       "explain": "Python bruker punktum som desimaltegn. Et komma betyr noe annet i Python og gir ikke tallet 1,05."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Et program viser at summen av de n første oddetallene er n² for n = 1 til 1000. Hva kan vi konkludere?",
       "options": [
-        "At det er bevist for alle n",
-        "At det er feil",
-        "At det gjelder bare for n ≤ 1000",
-        "At mønsteret er sannsynlig, men må forklares for å være bevist"
+        "At formelen er bevist for alle positive heltall",
+        "At mønsteret er feil, siden programmet bare tester noen verdier",
+        "At regelen gjelder for n fra 1 til 1000, men ikke videre",
+        "At mønsteret virker sannsynlig, men må bevises for alle n"
       ],
       "correct": 3,
       "explain": "Programmet gir sterk støtte, men et bevis krever et argument som gjelder for alle n, for eksempel med algebra eller en figur."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er en sporingstabell?",
       "options": [
-        "En tabell over variablenes verdier mens du går gjennom koden",
-        "En feilmelding",
-        "En liste over alle Python-kommandoer",
-        "En verditabell for en funksjon"
+        "En tabell som viser variablenes verdier mens koden kjøres",
+        "En melding som viser at Python fant en feil",
+        "En oversikt over kommandoene som finnes i Python",
+        "En tabell med funksjonsverdier for ulike inputverdier"
       ],
       "correct": 0,
       "explain": "I en sporingstabell noterer du verdiene linje for linje. Det gjør det lettere å forstå og forklare hva koden gjør."
@@ -332,8 +332,8 @@
         "options": [
           "n / 7 == 0",
           "n % 7 == 0",
-          "n // 7 == 1",
-          "n == 7"
+          "n // 7 == 0",
+          "n % 7 == 1"
         ],
         "correct": 1,
         "explain": "n er delelig med 7 når resten ved deling på 7 er 0."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

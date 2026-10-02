@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva var det viktigste sikkerhetsnettet før velferdsstaten?",
       "options": [
-        "Folketrygden",
+        "Folketrygden, barnetrygden og alderstrygden",
         "Familien, arbeidsgiveren og fattigvesenet",
-        "NAV",
-        "Barnetrygden"
+        "NAV, sykepengene og arbeidsledighetstrygden",
+        "Pensjonskassene, barnetrygden og folketrygden"
       ],
       "correct": 1,
       "explain": "Hjelpen var ofte nedverdigende."
@@ -94,9 +94,9 @@
       "text": "Hvilken trygd kom i 1894?",
       "options": [
         "Ulykkestrygd for fabrikkarbeidere",
-        "Folketrygden",
-        "Barnetrygden",
-        "Alderstrygden"
+        "Syketrygd for fabrikkarbeidere",
+        "Alderspensjon for fabrikkarbeidere",
+        "Arbeidsledighetstrygd for industriarbeidere"
       ],
       "correct": 0,
       "explain": "Den første sosialforsikringen.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva var kriseforliket i 1935?",
       "options": [
-        "En fredsavtale",
-        "En avtale mellom LO og NHO",
+        "En avtale mellom Høyre og Bondepartiet",
+        "En avtale mellom Arbeiderpartiet og Høyre",
         "En avtale mellom Arbeiderpartiet og Bondepartiet",
-        "En handelsavtale med Sverige"
+        "En avtale mellom LO og Bondepartiet"
       ],
       "correct": 2,
       "explain": "Arbeiderpartiet dannet deretter regjering."
@@ -131,9 +131,9 @@
       "text": "Hva betyr at ytelsene er universelle?",
       "options": [
         "At de gjelder alle",
-        "At de bare gjelder de fattigste",
-        "At de gjelder hele verden",
-        "At de er private"
+        "At de gjelder lavinntektsgrupper",
+        "At de gjelder yrkesaktive personer",
+        "At de gis etter behovsprøving"
       ],
       "correct": 0,
       "explain": "Kjennetegn ved den norske modellen."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvordan bidro barnehageutbyggingen til endring?",
       "options": [
-        "Færre kvinner tok lønnsarbeid",
-        "Flere kvinner kunne ta lønnsarbeid",
-        "Skolen ble kortere",
-        "Pensjonene ble lavere"
+        "Barnehageutbyggingen gjorde at færre kvinner kunne ta lønnsarbeid",
+        "Barnehageutbyggingen gjorde at flere kvinner kunne ta lønnsarbeid",
+        "Barnehageutbyggingen gjorde at flere barn kunne begynne tidligere på skolen",
+        "Barnehageutbyggingen gjorde at flere menn kunne ta lønnsarbeid"
       ],
       "correct": 1,
       "explain": "Viktig for likestillingen."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvem ledet Arbeiderpartiet under gjenreisningen?",
       "options": [
-        "Gro Harlem Brundtland",
-        "Christian Michelsen",
+        "Oscar Torp",
+        "Trygve Bratteli",
         "Einar Gerhardsen",
-        "Marcus Thrane"
+        "Haakon Lie"
       ],
       "correct": 2,
       "explain": "Statsminister i mange år etter krigen.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva er en utfordring for velferdsstaten i framtiden?",
       "options": [
-        "For mange unge",
-        "For lave skatter alltid",
-        "For mange barnehager",
+        "Flere yrkesaktive og høyere oljeinntekter",
+        "Flere barnehager og høyere sysselsetting",
+        "Lavere levealder og færre pensjonister",
         "Eldrebølgen og lavere oljeinntekter"
       ],
       "correct": 3,
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hva la Hovedavtalen i 1935 grunnlaget for?",
       "options": [
-        "Samarbeid i arbeidslivet",
-        "Folketrygden",
-        "Barnetrygden",
-        "Niårig skole"
+        "Samarbeid mellom partene i arbeidslivet",
+        "Samarbeid mellom kommuner og staten",
+        "Utbygging av offentlige trygdeordninger",
+        "Innføring av niårig grunnskole"
       ],
       "correct": 0,
       "explain": "Mellom LO og arbeidsgiverne.",
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hvordan har velferdsstaten påvirket sosial mobilitet?",
       "options": [
-        "Den har redusert den",
-        "Flere har fått utdanning uavhengig av foreldrenes økonomi",
-        "Den har ingen betydning",
-        "Bare de rike har fått utdanning"
+        "Velferdsstaten har gjort utdanning mer avhengig av foreldrenes økonomi",
+        "Velferdsstaten har gjort utdanning mindre avhengig av foreldrenes økonomi",
+        "Velferdsstaten har økt utdanningen først og fremst for velstående familier",
+        "Velferdsstaten har hatt liten betydning for barns tilgang til utdanning"
       ],
       "correct": 1,
       "explain": "For eksempel gjennom Lånekassen."
@@ -333,9 +333,9 @@
         "text": "Hva er en kritikk mot velferdsstaten?",
         "options": [
           "Byråkrati og mindre valgfrihet",
-          "For lite trygghet",
-          "For lave skatter",
-          "For få skoler"
+          "Større trygghet og bedre offentlige tjenester",
+          "Lavere skatter og enklere søknadsordninger",
+          "Flere rettigheter og større valgfrihet"
         ],
         "correct": 0,
         "explain": "Også høye kostnader.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva har gjort det mulig å bygge ut velferden etter 1970-tallet?",
         "options": [
-          "Bare krigsskadeserstatning",
-          "Bare lån fra utlandet",
+          "Skatteøkninger og utenlandske lån",
+          "Økt fiskeeksport og krigserstatninger",
           "Økonomisk vekst og oljeinntekter",
-          "Salg av kolonier"
+          "Privatisering av tjenester og lavere lønninger"
         ],
         "correct": 2,
         "explain": "Sammen med politiske kompromisser."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

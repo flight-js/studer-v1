@@ -112,10 +112,10 @@
       "id": "q01",
       "text": "Hva er samsara?",
       "options": [
-        "Frigjøring fra gjenfødelse",
+        "En lære om plikter i ulike livsfaser",
         "Kretsløpet av fødsel, død og gjenfødelse",
-        "En hellig elv",
-        "En type tempel"
+        "Et ritual der gudebilder får offergaver",
+        "En hellig elv som renser sjelen"
       ],
       "correct": 1,
       "explain": "Målet er å bli fri fra samsara."
@@ -124,10 +124,10 @@
       "id": "q02",
       "text": "Hva er moksha?",
       "options": [
-        "Et tempel",
-        "En gudinne",
+        "Kretsløpet av gjenfødelser",
+        "Plikten til å følge dharma",
         "Frigjøring fra samsara",
-        "En type yoga"
+        "Tilbedelse av gudebilder"
       ],
       "correct": 2,
       "explain": "Moksha er det endelige målet i hinduismen."
@@ -136,9 +136,9 @@
       "id": "q03",
       "text": "Hva sier den første edle sannheten?",
       "options": [
-        "At alle skal bli munker",
-        "At lidelsen kan opphøre",
-        "At veien er den åttedelte vei",
+        "At livet er preget av begjær",
+        "At livet er preget av gjenfødelse",
+        "At livet er preget av karma",
         "At livet er preget av lidelse"
       ],
       "correct": 3,
@@ -149,9 +149,9 @@
       "text": "Hva er nirvana?",
       "options": [
         "Tilstanden der lidelsen og gjenfødelsen opphører",
-        "En hellig by",
-        "Et kloster",
-        "En gud"
+        "Et hellig sted der buddhister samles for bønn",
+        "Et kloster der munker mediterer og studerer læren",
+        "En gud som beskytter buddhister mot lidelse"
       ],
       "correct": 0,
       "explain": "Nirvana er målet for buddhister."
@@ -160,9 +160,9 @@
       "id": "q05",
       "text": "Hvilken endring førte kristningen med seg i Norge?",
       "options": [
-        "Norrøn religion ble statsreligion",
-        "Runer ble den eneste skriften",
-        "Tingene ble avskaffet",
+        "Islamske lover, moskeer og arabisk skrift",
+        "Jødiske lover, synagoger og hebraisk skrift",
+        "Romerske guder, templer og latinsk skrift",
         "Nye lover, kirker og skriftkultur"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q06",
       "text": "Hva er nyreligiøsitet?",
       "options": [
-        "En ny kristen kirke",
-        "Tro og praksiser som blander elementer fra ulike tradisjoner og vektlegger egen erfaring",
-        "En type ateisme",
-        "Et politisk parti"
+        "En moderne retning innen kristendommen, med vekt på kirkens tradisjoner",
+        "Tro og praksiser fra ulike tradisjoner, med vekt på egen erfaring",
+        "Et livssyn uten gudstro, med vekt på vitenskapelig kunnskap",
+        "En politisk bevegelse som bruker religiøse symboler for samfunnsendring"
       ],
       "correct": 1,
       "explain": "Nyreligiøsitet kalles også alternativ spiritualitet."
@@ -184,10 +184,10 @@
       "id": "q07",
       "text": "Hvorfor er det viktig å være kritisk til noen alternative behandlingsformer?",
       "options": [
-        "Fordi all tro er feil",
+        "Fordi utøverne må ha offentlig godkjenning før de tilbyr behandling",
         "Fordi noen hevder å kunne kurere sykdommer uten dokumentasjon",
-        "Fordi de er forbudt",
-        "Fordi de alltid er dyre"
+        "Fordi metodene blir undersøkt av sykehus før de tilbys pasienter",
+        "Fordi behandlingene bygger på religiøse regler fra bestemte trossamfunn"
       ],
       "correct": 1,
       "explain": "Å velge bort vanlig behandling kan være farlig ved alvorlig sykdom."
@@ -196,9 +196,9 @@
       "id": "q08",
       "text": "Hvorfor bruker reklame ofte engler og glorier?",
       "options": [
-        "Fordi det er påbudt",
-        "Fordi alle kunder er religiøse",
-        "For å gjøre produktet dyrere",
+        "For å få produktet til å virke gammeldags og tradisjonelt",
+        "For å vise at produktet er beregnet på kirker",
+        "For å knytte produktet til makt og økonomisk framgang",
         "For å gi produktet et preg av noe rent og godt"
       ],
       "correct": 3,
@@ -208,10 +208,10 @@
       "id": "q09",
       "text": "Hvilket spørsmål er nyttig når du analyserer religion i en film?",
       "options": [
-        "Hvor lang er filmen?",
-        "Hvor mye kostet billetten?",
+        "Hvordan påvirker musikken filmens handling?",
+        "Hvilke klær bruker hovedpersonen i filmen?",
         "Hvordan framstilles de troende?",
-        "Hvem er vennene til skuespillerne?"
+        "Hvor mange minutter varer filmen?"
       ],
       "correct": 2,
       "explain": "Framstillingen kan påvirke hvordan seerne ser på en religion."
@@ -220,10 +220,10 @@
       "id": "q10",
       "text": "Hva er et fellestrekk ved mange religiøse og livssynsbaserte tradisjoner?",
       "options": [
-        "At de har samme gud",
-        "At de har samme matregler",
-        "At de har samme høytider",
-        "At de har en variant av den gylne regel"
+        "At mange religiøse tradisjoner følger de samme matreglene.",
+        "At mange religiøse tradisjoner feirer de samme høytidene.",
+        "At mange religiøse tradisjoner tror på den samme guden.",
+        "At mange religiøse tradisjoner har en variant av den gylne regel."
       ],
       "correct": 3,
       "explain": "Varianter av regelen finnes hos Jesus, Hillel, Konfutse og mange andre."
@@ -232,10 +232,10 @@
       "id": "q11",
       "text": "Hvordan kan begrunnelsen for etikk være forskjellig i ulike tradisjoner?",
       "options": [
-        "Den er alltid den samme",
-        "Alle viser til karma",
-        "Alle viser til fornuft",
-        "Noen viser til Guds bud, andre til karma eller fornuft"
+        "Noen viser til høytider, andre til matregler eller klær.",
+        "Noen viser til bønn, andre til faste eller ritualer.",
+        "Noen viser til hellige steder, andre til klær eller matregler.",
+        "Noen viser til Guds bud, andre til karma eller fornuft."
       ],
       "correct": 3,
       "explain": "Tradisjoner kan komme fram til like regler av ulike grunner."
@@ -365,7 +365,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -386,9 +386,9 @@
         "text": "Hva er dharma?",
         "options": [
           "Plikten og den rette måten å leve på",
-          "En hellig elv",
-          "En type meditasjon",
-          "En gudinne"
+          "Kretsløpet av fødsel, død og gjenfødelse for sjelen",
+          "Læren om at handlinger får følger etter døden",
+          "Hengivenhet til en gud gjennom bønn og sang"
         ],
         "correct": 0,
         "explain": "Dharma kan være ulik for ulike mennesker og livsfaser."
@@ -399,9 +399,9 @@
         "text": "Hvilken av disse hører til den åttedelte vei?",
         "options": [
           "Rett tale",
-          "Rett rikdom",
-          "Rett makt",
-          "Rett hevn"
+          "Rett bønn",
+          "Rett faste",
+          "Rett offer"
         ],
         "correct": 0,
         "explain": "Rett tale betyr å unngå løgn, baksnakking og sårende ord."
@@ -510,12 +510,90 @@
           "Knytter Martin Luther King til Jesu kjærlighetsbud, Gandhis metoder eller kampen mot rasisme."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign synet på menneskets innerste selv i hinduismen og buddhismen. Hva mener mange hinduer om atman og Brahman, og hva lærer buddhismen om et fast «jeg»?",
+        "fasit": "Mange hinduer mener at atman, menneskets innerste selv, i bunn og grunn er det samme som Brahman, den guddommelige kraften. Buddhismen lærer at det ikke finnes et fast og uforanderlig «jeg».",
+        "kriterier": [
+          "Beskriver hinduismens syn på atman og Brahman.",
+          "Beskriver buddhismens lære om ikke-selv."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Beskriv to ulike veier en hindu kan følge for å arbeide mot frigjøring. Forklar hva som kjennetegner hver av dem.",
+        "fasit": "En hindu kan følge kunnskapens vei gjennom studier og meditasjon, eller handlingens vei ved å gjøre pliktene sine uten egoistiske motiver. En tredje mulighet er hengivelsens vei, med kjærlighet til og tilbedelse av en gud.",
+        "kriterier": [
+          "Nevner to av de tre veiene: kunnskap, handling eller hengivelse.",
+          "Forklarer hva de valgte veiene innebærer."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar hva kastesystemet har betydd for dalittene, og hvordan situasjonen deres er omtalt i indisk lov og i synet til mange hinduer.",
+        "fasit": "I det tradisjonelle kastesystemet sto dalittene utenfor systemet og ble utsatt for grov diskriminering. Indias grunnlov forbyr kastediskriminering, men den forekommer fortsatt. Mange hinduer mener at kastesystemet ikke hører hjemme i religionen.",
+        "kriterier": [
+          "Forklarer at dalittene ble utsatt for diskriminering eller sto utenfor kastesystemet.",
+          "Nevner grunnlovens forbud og at diskriminering fortsatt forekommer, eller at mange hinduer avviser systemet."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Hvordan påvirket de fire møtene Siddhartha Gautamas livsvalg, og hva lærte han da han fant middelveien?",
+        "fasit": "Møtene med en gammel mann, en syk mann, et lik og en asket viste Siddhartha at mennesker blir gamle, syke og dør. Han forlot palasset for å finne en vei ut av lidelsen, og innså at verken luksus eller selvpining var veien; han fant middelveien.",
+        "kriterier": [
+          "Knytter møtene til innsikten om alderdom, sykdom og død.",
+          "Forklarer at han forlot palasset og fant middelveien mellom luksus og selvpining."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Fortell hvordan islam spredte seg etter Muhammads død, og nevn én måte muslimske lærde bidro til kunnskap i islams gullalder.",
+        "fasit": "Etter Muhammads død spredte islam seg raskt, og på 700-tallet strakte det muslimske riket seg fra Spania til India. I gullalderen var Bagdad et sentrum for vitenskap, og muslimske lærde utviklet blant annet algebra eller tok vare på tekster av greske filosofer.",
+        "kriterier": [
+          "Beskriver den raske spredningen eller rikets utstrekning fra Spania til India.",
+          "Nevner en kunnskapsinnsats, for eksempel algebra, tallsystemet vi bruker i dag eller bevaring av greske filosofitekster."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar hvordan reformasjonen endret forholdet mellom kongen og kirken i Danmark-Norge, og hvordan Den norske kirkes forhold til staten senere ble endret.",
+        "fasit": "Da reformasjonen ble innført i Danmark-Norge i 1537, ble kongen kirkens overhode, og kirkens eiendommer gikk til kongen. I 2017 ble Den norske kirke skilt fra staten og ble et selvstendig trossamfunn.",
+        "kriterier": [
+          "Nevner at kongen ble kirkens overhode og at kirkens eiendommer gikk til kongen ved reformasjonen.",
+          "Nevner at Den norske kirke ble skilt fra staten i 2017 og ble selvstendig."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign hva Muhammad og Buddha la vekt på i møte med andre mennesker. Ta med ett eksempel fra hver tradisjon.",
+        "fasit": "Muhammad la vekt på rettferdighet, barmhjertighet og omsorg for fattige, blant annet gjennom zakat, plikten til å gi til fattige. Buddha lærte medfølelse og ikkevold; de fem forskriftene sier blant annet at man ikke skal drepe.",
+        "kriterier": [
+          "Beskriver Muhammads vekt på omsorg eller rettferdighet, gjerne med zakat som eksempel.",
+          "Beskriver Buddhas vekt på medfølelse eller ikkevold, gjerne med en av de fem forskriftene."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Yoga, meditasjon og mindfulness praktiseres i dag både med og uten religiøst innhold. Forklar hvilke religioner disse praksisene har røtter i, og hvordan bruken kan være forskjellig i dag.",
+        "fasit": "Yoga har røtter i hinduismen, mens meditasjon og mindfulness har røtter i buddhistisk praksis. I dag kan folk praktisere yoga, meditasjon eller mindfulness uten religiøst innhold, mens andre bruker dem som del av en religiøs eller åndelig praksis.",
+        "kriterier": [
+          "Knytter yoga til hinduismen og meditasjon eller mindfulness til buddhismen.",
+          "Forklarer at praksisene i dag kan brukes både med og uten religiøst innhold."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

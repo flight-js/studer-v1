@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en personopplysning?",
       "options": [
-        "Bare fødselsnummer",
+        "En opplysning som direkte viser personens fulle navn",
         "Enhver opplysning som kan knyttes til en identifiserbar person",
-        "Bare hemmelige opplysninger",
-        "Bare opplysninger på papir"
+        "En opplysning om en person som personen selv holder hemmelig",
+        "En opplysning som finnes i et offentlig register om en person"
       ],
       "correct": 1,
       "explain": "Også bilde og IP-adresse."
@@ -89,9 +89,9 @@
       "text": "Hvilken aldersgrense gjelder for å samtykke selv til nettjenester i Norge?",
       "options": [
         "13 år",
+        "14 år",
         "16 år",
-        "18 år",
-        "10 år"
+        "18 år"
       ],
       "correct": 0,
       "explain": "Etter personopplysningsloven.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva betyr dataminimering?",
       "options": [
-        "At data slettes etter en dag",
-        "At data krypteres",
+        "At man sletter opplysningene når formålet er oppnådd",
+        "At man krypterer opplysningene før de lagres",
         "At man bare samler inn det som er nødvendig",
-        "At data lagres i skyen"
+        "At man anonymiserer opplysningene før de brukes"
       ],
       "correct": 2,
       "explain": "Et grunnleggende prinsipp."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilket krav stilles til et gyldig samtykke?",
       "options": [
-        "At det er muntlig",
-        "At det gjelder for alltid",
-        "At det gis av foreldre",
+        "At det er frivillig, generelt, informert og utvetydig",
+        "At det er frivillig, spesifikt, anonymt og utvetydig",
+        "At det er frivillig, spesifikt, informert og skriftlig",
         "At det er frivillig, spesifikt, informert og utvetydig"
       ],
       "correct": 3,
@@ -126,8 +126,8 @@
       "text": "Hvem fører tilsyn med personvernreglene i Norge?",
       "options": [
         "Datatilsynet",
-        "Politiet",
         "Forbrukertilsynet",
+        "Personvernnemnda",
         "Sivilombudet"
       ],
       "correct": 0,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva sier åndsverkloven § 104?",
       "options": [
-        "At alle bilder er fritt tilgjengelige",
-        "At bilder av personer som hovedregel krever samtykke før offentliggjøring",
-        "At bare journalister kan ta bilder",
-        "At bilder må slettes etter ett år"
+        "At fotografering av personer som hovedregel krever samtykke",
+        "At offentliggjøring av bilder av personer som hovedregel krever samtykke",
+        "At offentliggjøring av personbilder som hovedregel krever skriftlig samtykke",
+        "At offentliggjøring av personbilder som hovedregel krever samtykke fra nettstedet"
       ],
       "correct": 1,
       "explain": "Med unntak for blant annet aktualitet."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er identitetskrenkelse?",
       "options": [
-        "Å glemme passordet",
-        "Å endre navn",
+        "Å bruke et oppdiktet navn for å skjule hvem man er på nett",
+        "Å dele andres personopplysninger uten å ha tillatelse til det",
         "Å bruke andres identitet for å skade eller oppnå noe",
-        "Å lage egen profil"
+        "Å skaffe seg adgang til andres kontoer ved å gjette passord"
       ],
       "correct": 2,
       "explain": "Straffeloven § 202."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvilken rettighet gir deg mulighet til å få slettet opplysninger?",
       "options": [
-        "Innsyn",
-        "Dataportabilitet",
-        "Protest",
+        "Retten til innsyn",
+        "Retten til dataportabilitet",
+        "Retten til å protestere",
         "Retten til å bli glemt"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvilke opplysninger har et sterkere vern?",
       "options": [
-        "Særlige kategorier som helse og religion",
-        "Navn og adresse",
-        "Favorittfarge",
-        "Skostørrelse"
+        "Særlige kategorier som helseopplysninger og religiøs overbevisning",
+        "Vanlige kontaktopplysninger som navn og bostedsadresse",
+        "Praktiske opplysninger som alder og skostørrelse",
+        "Opplysninger om utdanning og arbeidserfaring"
       ],
       "correct": 0,
       "explain": "Kan være svært sensitive."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er datainnbrudd?",
       "options": [
-        "Å kjøpe en ny datamaskin",
+        "Å sende falske innloggingslenker for å lure fram passord",
         "Å skaffe seg uberettiget adgang til andres kontoer eller datasystemer",
-        "Å laste ned apper",
-        "Å dele lenker"
+        "Å dele passordet til egen konto med en annen bruker",
+        "Å slette filer på egen datamaskin uten å ta sikkerhetskopi"
       ],
       "correct": 1,
       "explain": "Straffeloven § 204."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvilket av disse er et behandlingsgrunnlag?",
         "options": [
-          "Nysgjerrighet",
+          "Dataminimering",
           "Samtykke",
-          "At opplysningene er gratis",
-          "At alle andre gjør det"
+          "Åpenhet",
+          "Formålsbegrensning"
         ],
         "correct": 1,
         "explain": "Også avtale, rettslig forpliktelse og berettiget interesse."
@@ -324,9 +324,9 @@
         "text": "Hvilke hensyn veies ofte mot personvern?",
         "options": [
           "Ytringsfrihet, sikkerhet og kommersielle interesser",
-          "Vær og vind",
-          "Idrett og kultur",
-          "Mat og drikke"
+          "Dataminimering, formålsbegrensning og begrenset lagringstid",
+          "Samtykke, innsynsrett og rett til dataportabilitet",
+          "Kryptering, anonymisering og kontroll med brukertilgang"
         ],
         "correct": 0,
         "explain": "Krever forholdsmessighetsvurdering."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva er dataportabilitet?",
         "options": [
-          "At data lagres på minnepinne",
-          "At data slettes",
+          "Retten til å få se hvilke opplysninger tjenesten har lagret",
+          "Retten til å få slettet opplysningene fra tjenesten",
           "Retten til å få med seg opplysningene til en annen tjeneste",
-          "At data selges"
+          "Retten til å protestere mot at tjenesten bruker opplysningene"
         ],
         "correct": 2,
         "explain": "En av de registrertes rettigheter."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

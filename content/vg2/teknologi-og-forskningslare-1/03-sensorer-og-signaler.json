@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på et analogt og et digitalt signal?",
       "options": [
-        "Analoge er alltid raskere",
-        "Et analogt kan ha alle verdier i et område, et digitalt har bestemte verdier",
-        "Digitale signaler finnes bare i datamaskiner",
-        "Det er ingen forskjell"
+        "Et analogt signal har bestemte verdier, mens et digitalt signal kan ha alle verdier i et område.",
+        "Et analogt signal kan ha alle verdier i et område, mens et digitalt signal har bestemte verdier.",
+        "Et analogt signal kan ha alle verdier i et område, mens et digitalt signal endrer seg jevnt mellom verdiene.",
+        "Et analogt signal har bestemte trinn mellom verdier, mens et digitalt signal varierer kontinuerlig i området."
       ],
       "correct": 1,
       "explain": "For eksempel 0–5 V mot HØY/LAV."
@@ -95,9 +95,9 @@
       "text": "Hvilket tallområde gir en 10-biters AD-omformer?",
       "options": [
         "0–1023",
-        "0–255",
-        "0–100",
-        "0–5"
+        "0–511",
+        "0–1024",
+        "0–2047"
       ],
       "correct": 0,
       "explain": "2¹⁰ = 1024 verdier.",
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hvorfor deler vi på 2 når vi regner avstand med ultralydsensor?",
       "options": [
-        "Fordi lydfarten er halvert",
-        "Fordi sensoren har to deler",
-        "Fordi det er to målinger",
-        "Fordi lyden går fram og tilbake"
+        "Fordi lydfarten i lufta må deles på to før avstanden regnes ut.",
+        "Fordi sensoren sender to pulser som hver måler en del av avstanden.",
+        "Fordi ekkosignalet måles to ganger før sensoren beregner avstanden.",
+        "Fordi målt tid omfatter lyden både på vei til målet og tilbake."
       ],
       "correct": 3,
       "explain": "Tiden gjelder begge veier.",
@@ -133,10 +133,10 @@
       "id": "q05",
       "text": "Hva skjer med resistansen i en LDR når det blir lysere?",
       "options": [
-        "Den blir lavere",
-        "Den blir høyere",
-        "Den er uendret",
-        "Den blir null"
+        "Resistansen i LDR-en blir lavere.",
+        "Resistansen i LDR-en blir høyere.",
+        "Resistansen i LDR-en forblir omtrent uendret.",
+        "Resistansen i LDR-en blir lavere når det blir mørkere."
       ],
       "correct": 0,
       "explain": "Brukes i lysmålere og nattlys.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva er kalibrering?",
       "options": [
-        "Å male sensoren",
-        "Å sammenligne med en kjent referanse og justere",
-        "Å bytte batteri",
-        "Å skrive programmet"
+        "Å sammenligne målingen med en annen sensor og beregne et gjennomsnitt.",
+        "Å sammenligne målingen med en kjent referanse og justere sensoren.",
+        "Å nullstille sensoren før hver måling for å fjerne tidligere verdier.",
+        "Å endre programmet slik at måleverdiene vises i riktig måleenhet."
       ],
       "correct": 1,
       "explain": "For eksempel i isvann og kokende vann."
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Ekkotiden er 2,0 ms og lydfarten 343 m/s. Hva er avstanden?",
       "options": [
-        "0,69 m",
-        "3,4 m",
+        "Omtrent 0,69 m",
+        "Omtrent 0,17 m",
         "Omtrent 0,34 m",
-        "686 m"
+        "Omtrent 3,4 m"
       ],
       "correct": 2,
       "explain": "0,002 · 343 / 2.",
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hvilken sensor brukes til å utløse kollisjonsputer i bil?",
       "options": [
-        "Lyssensor",
-        "Fuktighetssensor",
-        "GPS",
+        "Gyroskop",
+        "Lysføler",
+        "Temperaturføler",
         "Akselerometer"
       ],
       "correct": 3,
@@ -185,9 +185,9 @@
       "text": "Hvilken spenning svarer til verdien 512 på en 10-biters AD-omformer med 5 V?",
       "options": [
         "Omtrent 2,5 V",
-        "5 V",
-        "0,5 V",
-        "512 V"
+        "Omtrent 5,0 V",
+        "Omtrent 0,5 V",
+        "Omtrent 2,0 V"
       ],
       "correct": 0,
       "explain": "512 · 5,0 / 1023.",
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Hva er oppløsningen til en sensor?",
       "options": [
-        "Hvor stor sensoren er",
-        "Den minste endringen som kan registreres",
-        "Hvor mye strøm den bruker",
-        "Hvor lenge den varer"
+        "Den største verdien av en størrelse som sensoren kan måle.",
+        "Den minste endringen i en størrelse som sensoren kan registrere.",
+        "Hvor nøyaktig sensoren måler sammenlignet med en referanse.",
+        "Tiden sensoren bruker på å sende ut en måleverdi."
       ],
       "correct": 1,
       "explain": "Flere bit gir finere oppløsning."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva er oppløsningen til en 10-biters AD-omformer på 5 V?",
         "options": [
-          "0,5 V",
+          "Omtrent 0,5 mV",
           "Omtrent 4,9 mV",
-          "1 V",
-          "10 mV"
+          "Omtrent 1,0 mV",
+          "Omtrent 10 mV"
         ],
         "correct": 1,
         "explain": "5 V / 1023.",
@@ -339,9 +339,9 @@
         "text": "Hvilken sensor passer best til en ryggesensor på en bil?",
         "options": [
           "Ultralydsensor",
-          "Lyssensor",
           "Temperatursensor",
-          "Fuktighetssensor"
+          "Fuktighetssensor",
+          "Lysføler"
         ],
         "correct": 0,
         "explain": "Den måler avstand.",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hvordan kobles en LDR vanligvis til en analog inngang?",
         "options": [
-          "Direkte til 230 V",
-          "I serie med en motor",
-          "I en spenningsdeler med en fast motstand",
-          "Uten ledninger"
+          "Koblet direkte mellom analoginngangen og jord.",
+          "Koblet i serie med en diode mellom spenningskilden og analoginngangen.",
+          "Koblet i en spenningsdeler med en fast motstand.",
+          "Koblet direkte mellom analoginngangen og forsyningens pluss."
         ],
         "correct": 2,
         "explain": "Spenningen endrer seg med lyset.",
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

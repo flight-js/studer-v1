@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva var den utløsende årsaken til første verdenskrig?",
       "options": [
-        "Angrepet på Polen",
+        "Tysklands angrep på Polen i 1939",
         "Drapet på Franz Ferdinand i Sarajevo",
-        "Børskrakket i 1929",
-        "Den russiske revolusjonen"
+        "Børskrakket i USA høsten 1929",
+        "Den russiske revolusjonen i oktober 1917"
       ],
       "correct": 1,
       "explain": "Alliansene spredte konflikten."
@@ -93,9 +93,9 @@
       "text": "Hva påla Versaillestraktaten Tyskland?",
       "options": [
         "Skyld, krigserstatninger og tap av land",
-        "Å bli med i Folkeforbundet med en gang",
-        "Å få flere kolonier",
-        "Å bygge opp hæren"
+        "Nøytralitet, økonomisk støtte og økt handel",
+        "Medlemskap, nye kolonier og større hær",
+        "Demokrati, politisk selvstyre og nye grenser"
       ],
       "correct": 0,
       "explain": "Mange tyskere opplevde det som en ydmykelse."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva var ettergivenhetspolitikken?",
       "options": [
-        "At Tyskland ga etter",
-        "At USA gikk inn i krigen",
-        "At Storbritannia og Frankrike ga etter for Hitlers krav",
-        "At Sovjet angrep Tyskland"
+        "At Storbritannia og Frankrike avviste Hitlers krav for å unngå krig",
+        "At Tyskland godtok krav fra Storbritannia og Frankrike for å unngå krig",
+        "At Storbritannia og Frankrike godtok Hitlers krav for å unngå krig",
+        "At Storbritannia og Frankrike godtok Sovjetunionens krav for å unngå krig"
       ],
       "correct": 2,
       "explain": "For eksempel Sudetenland i 1938."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvordan startet andre verdenskrig?",
       "options": [
-        "Japan angrep USA",
-        "Italia angrep Etiopia",
-        "Sovjet angrep Finland",
+        "Japan angrep USA ved Pearl Harbor",
+        "Italia angrep Hellas fra Albania",
+        "Sovjetunionen angrep Finland vinteren 1939",
         "Tyskland angrep Polen"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvilket tiltak etter 1945 knyttet Frankrike og Tyskland sammen?",
       "options": [
-        "Europeisk samarbeid som Kull- og stålunionen",
-        "Versaillestraktaten",
-        "Ettergivenhetspolitikken",
-        "Den kalde krigen"
+        "Europeisk samarbeid gjennom Kull- og stålunionen",
+        "Gjenreisning av Europa gjennom Marshallplanen",
+        "Deling av Tyskland i allierte okkupasjonssoner",
+        "Blokade av Vest-Berlin og en alliert luftbro"
       ],
       "correct": 0,
       "explain": "Grunnlaget for EU.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er en stedfortrederkrig?",
       "options": [
-        "En krig mellom to stormakter direkte",
+        "En krig der stormakter kjemper mot hverandre med egne styrker",
         "En krig der stormakter støtter hver sin side uten å kjempe direkte",
-        "En borgerkrig uten utenlandsk innblanding",
-        "En krig i verdensrommet"
+        "En borgerkrig der utenlandske land ikke støtter noen av sidene",
+        "En konflikt der stormakter konkurrerer økonomisk uten væpnet kamp"
       ],
       "correct": 1,
       "explain": "For eksempel Korea og Vietnam."
@@ -154,9 +154,9 @@
       "text": "Hva la Sannhets- og forsoningskommisjonen i Norge fram i 2023?",
       "options": [
         "En rapport om andre verdenskrig",
-        "En ny grunnlov",
+        "En rapport om norsk motstandskamp",
         "En rapport om fornorskingspolitikken",
-        "En fredsavtale"
+        "En rapport om okkupasjonstiden"
       ],
       "correct": 2,
       "explain": "Om samer, kvener og skogfinner.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvorfor mener mange at Versaillesfreden bidro til ny krig?",
       "options": [
-        "Fordi den var for mild mot alle",
-        "Fordi Tyskland vant",
-        "Fordi den ga Tyskland kolonier",
+        "Fordi den ble opplevd som rettferdig og svekket støtten til nazismen",
+        "Fordi den styrket Tysklands økonomi og hindret nazismens framvekst",
+        "Fordi den ga Tyskland nye kolonier og økte støtten til nazismen",
         "Fordi den ble opplevd som urettferdig og ga grobunn for nazismen"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva var Nürnbergprosessen?",
       "options": [
         "Rettssakene mot nazistiske krigsforbrytere",
-        "En fredsavtale",
-        "En militær operasjon",
-        "Et møte i FN"
+        "Potsdamkonferansen mellom de allierte etter krigen",
+        "Operasjon Overlord under invasjonen av Normandie",
+        "FN-konferansen om Europas grenser etter krigen"
       ],
       "correct": 0,
       "explain": "Ledere ble stilt til ansvar."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva betyr at fred er mer enn fravær av krig?",
       "options": [
-        "At fred er umulig",
+        "At varig fred betyr at kamphandlingene stanser gjennom en våpenhvile",
         "At varig fred ofte krever forsoning og tillit",
-        "At krig alltid kommer tilbake",
-        "At fred bare gjelder stater"
+        "At varig fred betyr at stater unngår diplomatiske forbindelser",
+        "At varig fred bygger på militær kontroll framfor forsoning og tillit"
       ],
       "correct": 1,
       "explain": "Forsoning er en del av freden."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilken avtale endte krigene på Balkan i 1995?",
         "options": [
-          "Versaillestraktaten",
-          "Dayton-avtalen",
           "Oslo-avtalene",
-          "München-avtalen"
+          "Dayton-avtalen",
+          "München-avtalen",
+          "Versaillestraktaten"
         ],
         "correct": 1,
         "explain": "Etter krigen i Bosnia.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

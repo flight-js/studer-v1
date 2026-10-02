@@ -86,8 +86,7 @@
     },
     {
       "term": "Samtykke",
-      "def": "At noen har sagt ja, for eksempel til at et bilde av dem kan deles.",
-      "niva": "eksempel"
+      "def": "At noen har sagt ja, for eksempel til at et bilde av dem kan deles."
     },
     {
       "term": "Drøfte",
@@ -111,10 +110,10 @@
       "id": "q01",
       "text": "Hva ville realistene med litteraturen?",
       "options": [
-        "Skildre samfunnet som det var og sette problemer under debatt",
-        "Flykte fra virkeligheten til eventyrverdenen",
-        "Skrive bare om naturen",
-        "Bryte med alle regler for form"
+        "Skildre samfunnet slik det var og sette problemer under debatt",
+        "Utforske menneskets indre liv gjennom drømmer og følelser",
+        "Vise hvordan arv og miljø former menneskets liv",
+        "Bygge norsk identitet gjennom natur, folkekultur og historie"
       ],
       "correct": 0,
       "explain": "Realistene tok opp problemer som kvinners stilling og dobbeltmoral."
@@ -123,10 +122,10 @@
       "id": "q02",
       "text": "Hva kjennetegner modernismen?",
       "options": [
-        "Faste rim og rytme",
-        "Folkeeventyr",
-        "Brudd med tradisjonelle former, blant annet frie vers",
-        "Kongesagaer"
+        "Videreføring av faste rim og rytmer i bundne vers",
+        "Bruk av folkeeventyr med muntlig fortelling og gjentakelser",
+        "Brudd med vante former, som bruk av frie vers",
+        "Fortelling om konger og helter i norrøne sagaer"
       ],
       "correct": 2,
       "explain": "Modernistene eksperimenterte med formen og skrev om det moderne livet."
@@ -135,10 +134,10 @@
       "id": "q03",
       "text": "Hva er det viktigste å unngå i en romananalyse?",
       "options": [
-        "Å bruke sitater",
-        "Å tolke temaet",
+        "Å bruke korte sitater som belegg for tolkningen",
+        "Å forklare hvordan temaet kommer fram i teksten",
         "Å gjenfortelle hele handlingen i detalj",
-        "Å nevne forfatteren"
+        "Å knytte personskildringen til konkrete tekststeder"
       ],
       "correct": 2,
       "explain": "En analyse skal tolke og forklare, ikke gjenfortelle. Handlingen oppsummeres kort."
@@ -147,10 +146,10 @@
       "id": "q04",
       "text": "Hvorfor bruker man sitater i en analyse?",
       "options": [
-        "For å gjøre teksten lengre",
+        "Som oppsummering av handlingen",
         "Som belegg for tolkningen",
-        "Fordi man ikke har egne ord",
-        "For å gjenfortelle handlingen"
+        "Som pynt i en faglig tekst",
+        "Som erstatning for egne forklaringer"
       ],
       "correct": 1,
       "explain": "Sitater viser at tolkningen din bygger på teksten og ikke bare på synsing."
@@ -159,10 +158,10 @@
       "id": "q05",
       "text": "Hva sier språkloven om bokmål og nynorsk?",
       "options": [
-        "At bokmål er viktigst",
-        "At nynorsk skal fases ut",
-        "At de er likestilte skriftspråk",
-        "At de skal slås sammen"
+        "At bokmål har høyere status enn nynorsk som skriftspråk",
+        "At nynorsk har samme status som norske dialekter",
+        "At bokmål og nynorsk har samme status som skriftspråk",
+        "At bokmål og nynorsk skal bli til ett skriftspråk"
       ],
       "correct": 2,
       "explain": "Språkloven fra 2022 slår fast at bokmål og nynorsk er likestilte skriftspråk.",
@@ -172,10 +171,10 @@
       "id": "q06",
       "text": "Hva bygde Ivar Aasen landsmålet på?",
       "options": [
-        "Dansk skriftspråk",
-        "Norske dialekter, med blikk til norrønt",
-        "Svensk",
-        "Byfolkets talemål"
+        "Dansk skriftspråk, med blikk mot norrønt",
+        "Norske dialekter, med blikk mot norrønt",
+        "Svenske dialekter, med blikk mot dansk",
+        "Byfolks talemål, med blikk mot svensk"
       ],
       "correct": 1,
       "explain": "Aasen studerte dialekter over hele landet og brukte dem som grunnlag."
@@ -184,10 +183,10 @@
       "id": "q07",
       "text": "Hva er en multietnolekt?",
       "options": [
-        "En dialekt fra én bygd",
-        "Et offisielt språk",
-        "En type skriftspråk",
-        "En språkvariant som oppstår der unge med ulike språkbakgrunner vokser opp sammen"
+        "En språkvariant som oppstår når folk i én bygd bruker samme dialekt",
+        "En språkvariant som brukes i offentlige dokumenter og av myndigheter",
+        "En språkvariant som brukes i bøker og andre skrevne tekster",
+        "En språkvariant som oppstår når unge med ulik språkbakgrunn vokser opp sammen"
       ],
       "correct": 3,
       "explain": "Multietnolekter blander trekk fra flere språk og er vanlige i flerspråklige bymiljøer."
@@ -196,10 +195,10 @@
       "id": "q08",
       "text": "Hva sier språkforskere om at noen dialekter er «finere» enn andre?",
       "options": [
-        "At det stemmer",
+        "At enkelte dialekter har mer korrekt grammatikk enn andre",
         "At slike vurderinger handler om holdninger og status, ikke om språket selv",
-        "At bydialekter alltid er finest",
-        "At bare skriftspråk er fint"
+        "At dialekter fra større byer regnes som mer korrekte",
+        "At skriftspråk er mer språklig utviklet enn talemål"
       ],
       "correct": 1,
       "explain": "Forskere beskriver språket slik det brukes. Rangering av dialekter bygger på fordommer."
@@ -209,9 +208,9 @@
       "text": "Hva gjør algoritmer i sosiale medier?",
       "options": [
         "Velger ut hva du får se basert på tidligere aktivitet",
-        "Retter skrivefeil",
-        "Oversetter innlegg",
-        "Sletter alle reklamer"
+        "Retter skrivefeil i innlegg før de blir publisert",
+        "Oversetter innlegg til språket i telefonens innstillinger",
+        "Fjerner annonser fra innholdet i nyhetsstrømmen"
       ],
       "correct": 0,
       "explain": "Algoritmene prioriterer innhold de tror du vil like og reagere på."
@@ -220,23 +219,22 @@
       "id": "q10",
       "text": "Hva bør du gjøre før du deler et bilde av en venn?",
       "options": [
-        "Spørre om samtykke",
-        "Redigere bildet",
-        "Legge til en emoji",
-        "Ingenting"
+        "Spørre vennen om lov først",
+        "Spørre en følger om lov først",
+        "Dele bildet etter å ha redigert det",
+        "Legge bildet ut i en lukket gruppe"
       ],
       "correct": 0,
-      "explain": "Andre har rett til å bestemme over bilder av seg selv. Spør alltid først.",
-      "niva": "eksempel"
+      "explain": "Andre har rett til å bestemme over bilder av seg selv. Spør alltid først."
     },
     {
       "id": "q11",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å skrive bare egen mening",
-        "Å se en sak fra flere sider og vurdere argumentene før man konkluderer",
-        "Å gjenfortelle en tekst",
-        "Å skrive et dikt"
+        "Å presentere én side og støtte den med argumenter",
+        "Å undersøke en sak fra flere sider og vurdere argumentene før man konkluderer",
+        "Å forklare hva saken handler om uten å vurdere synspunkter",
+        "Å trekke en konklusjon før man undersøker argumentene"
       ],
       "correct": 1,
       "explain": "Drøfting handler om å veie argumenter for og mot opp mot hverandre."
@@ -246,9 +244,9 @@
       "text": "Hvorfor kan det styrke et debattinnlegg å ta med et motargument?",
       "options": [
         "Det viser at du har vurdert saken fra flere sider",
-        "Det gjør innlegget lengre",
-        "Det bytter side for deg",
-        "Det er påbudt"
+        "Det viser at du er enig med motpartens standpunkt",
+        "Det gjør at innlegget virker nøytralt for leseren",
+        "Det gir plass til flere eksempler på ditt eget standpunkt"
       ],
       "correct": 0,
       "explain": "Når du tilbakeviser et motargument, framstår du som grundig og troverdig."
@@ -257,10 +255,10 @@
       "id": "q13",
       "text": "Kva er bestemt form fleirtal av «bil» på nynorsk?",
       "options": [
-        "bilene",
+        "bilar",
         "bilane",
-        "bilarne",
-        "bila"
+        "bilen",
+        "bilene"
       ],
       "correct": 1,
       "explain": "Hankjønn: ein bil – bilen – bilar – bilane."
@@ -270,9 +268,9 @@
       "text": "Kva for ein setning har rett passiv på nynorsk?",
       "options": [
         "Huset bygges no.",
-        "Huset byggjest no.",
+        "Huset byggjer no.",
         "Huset blir bygt no.",
-        "Huset bygger no."
+        "Huset blir byggje no."
       ],
       "correct": 2,
       "explain": "På nynorsk bruker vi helst bli-passiv. s-passiv kan berre stå etter modalverb."
@@ -403,7 +401,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -440,10 +438,10 @@
         "type": "flervalg",
         "text": "Hva var jamstillingsvedtaket?",
         "options": [
-          "Et vedtak om å likestille landsmålet med det dansk-norske skriftspråket",
-          "En lov om samisk",
-          "En reform av bokmål",
-          "Grunnloven av 1814"
+          "Et vedtak som likestilte landsmålet med det dansk-norske skriftspråket",
+          "Et vedtak som likestilte samisk med det norsk-danske skriftspråket",
+          "Et vedtak som ga landsmålet navnet nynorsk",
+          "Et vedtak som gjorde landsmålet til eneste skriftspråk"
         ],
         "correct": 0,
         "explain": "Vedtaket i 1885 ga landsmålet offisiell status."
@@ -453,10 +451,10 @@
         "type": "flervalg",
         "text": "Hva er et typisk trekk ved multietnolekt?",
         "options": [
-          "Bare gamle norske ord",
+          "Ord fra eldre norske dialekter og tradisjonell bøying",
           "Ord fra flere språk og av og til en annen ordstilling",
-          "Skarre-r",
-          "Nynorsk skriftform"
+          "Uttale fra én norsk dialekt og vanlig norsk ordstilling",
+          "Skriftformer fra nynorsk og en egen bøying"
         ],
         "correct": 1,
         "explain": "Multietnolekter blander trekk fra ulike språk, som «wolla», og kan ha annen ordstilling."
@@ -475,9 +473,9 @@
         "text": "Hva er belegg?",
         "options": [
           "Fakta, eksempler og kilder som støtter et argument",
-          "Tittelen på teksten",
-          "En type rim",
-          "Avslutningen"
+          "En påstand som teksten prøver å bevise",
+          "En mening som forklarer hvorfor argumentet er viktig",
+          "En motpåstand som viser en annen side av saken"
         ],
         "correct": 0,
         "explain": "Argumenter blir sterkere når de støttes av belegg."
@@ -556,12 +554,90 @@
           "Knytter realismen til samfunnsskildring og debatt.",
           "Forklarer hvordan epokekunnskap støtter tolkning eller kontekstualisering."
         ]
+      },
+      {
+        "text": "Forklar forskjellen på hvordan sagaer fra norrøn tid og eventyr fra folkediktningen ble overlevert. Ta også med hvordan Asbjørnsen og Moe bidro til å bevare folkediktningen.",
+        "fasit": "Sagaer ble skrevet ned, mens folkediktningen ble fortalt og sunget muntlig gjennom generasjoner. På 1800-tallet samlet Asbjørnsen og Moe eventyr og ga dem ut, slik at de ble bevart skriftlig.",
+        "kriterier": [
+          "Sagaene ble skrevet ned, mens folkediktningen ble overlevert muntlig.",
+          "Asbjørnsen og Moe samlet og ga ut eventyr på 1800-tallet."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En roman fra 1890 skildrer tankene og følelsene til en sulten forfatter i Kristiania. Forklar hvordan dette passer med nyromantikken, og hvordan indre monolog kan gi leseren innblikk i personen.",
+        "fasit": "Nyromantikken var opptatt av sjeleliv, tanker og følelser, slik romanen Sult er et eksempel på. Indre monolog gjengir tankene direkte og lar leseren komme tett på personen.",
+        "kriterier": [
+          "Nyromantikken vendte blikket innover mot sjelelivet.",
+          "Indre monolog gjengir tanker direkte og gir innblikk i personen."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Sammenlign realismen og modernismen når det gjelder hva litteraturen var opptatt av, og hvordan den kunne være skrevet.",
+        "fasit": "Realistene ville skildre samfunnet slik det faktisk var og sette problemer under debatt. Modernistene brøt med tradisjonelle former, og mange skrev dikt på frie vers og skildret blant annet byliv og fremmedgjøring.",
+        "kriterier": [
+          "Realismen skildret samfunnet og tok opp samfunnsproblemer.",
+          "Modernismen brøt med tradisjonelle former, for eksempel med frie vers.",
+          "Modernistisk litteratur kunne skildre byliv eller fremmedgjøring."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Etter 1814 ønsket mange at Norge skulle ha et eget skriftspråk. Forklar hvordan løsningene til Ivar Aasen og Knud Knudsen var ulike, og hvordan de henger sammen med bokmål og nynorsk i dag.",
+        "fasit": "Ivar Aasen bygde landsmålet på norske dialekter og med blikk til norrønt, mens Knud Knudsen ville fornorske dansk gradvis. Landsmålet er grunnlaget for nynorsk, og riksmålet er grunnlaget for bokmål. I dag er bokmål og nynorsk likestilte skriftspråk.",
+        "kriterier": [
+          "Aasen bygde landsmålet på dialektene; Knudsen ville fornorske dansk gradvis.",
+          "Landsmål førte til nynorsk, og riksmål førte til bokmål.",
+          "Bokmål og nynorsk er likestilte skriftspråk i dag."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En ungdomsgruppe bruker ord fra flere språk og uttrykk som «wolla» og «sjofe». Forklar hva slags språkvariant dette kan være, og hvorfor slike språkvarianter ikke bør rangeres som bedre eller dårligere enn andre dialekter.",
+        "fasit": "Dette kan være en multietnolekt, som oppstår når unge med ulike språkbakgrunner vokser opp sammen. Språkvarianter bør ikke rangeres som bedre eller dårligere, fordi slike vurderinger ofte handler om fordommer og status, ikke om språket i seg selv.",
+        "kriterier": [
+          "Multietnolekt kan oppstå blant unge med ulike språkbakgrunner.",
+          "Vurderinger av språkvarianter kan uttrykke fordommer og status, ikke språklig kvalitet."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En elev får ofte opp innlegg i sosiale medier som ligner på det eleven tidligere har likt. Forklar hvordan dette kan skape et ekkokammer, og nevn en måte eleven kan bidra til en saklig debatt på nett.",
+        "fasit": "Algoritmer velger ofte innlegg ut fra hva brukeren har likt eller klikket på, slik at eleven kan møte mest meninger som ligner sine egne. Det kan skape et ekkokammer. Eleven kan bidra til en saklig debatt ved å lytte til andre og svare på argumentene deres uten å gå til personangrep.",
+        "kriterier": [
+          "Algoritmer basert på brukerens aktivitet kan føre til at like meninger gjentas.",
+          "Et ekkokammer gjør at man mest møter meninger som ligner ens egne.",
+          "Saklig debatt innebærer blant annet å lytte og svare på saken."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En skoleavis skal publisere en tekst som forklarer hvordan ungdom bruker sosiale medier. Beskriv to trekk som passer med en fagartikkel, og forklar én viktig forskjell mellom fagartikkelen og et debattinnlegg.",
+        "fasit": "En fagartikkel kan ha en innledning som presenterer emnet og en hoveddel med avsnitt og mellomtitler. Språket bør være saklig, og kilder bør oppgis. Et debattinnlegg skal først og fremst overbevise med en tydelig påstand og argumenter.",
+        "kriterier": [
+          "Fagartikkelen forklarer et emne og har en strukturert oppbygning.",
+          "Fagartikkelen bruker saklig språk og oppgir kilder.",
+          "Et debattinnlegg har som formål å overbevise gjennom påstand og argumenter."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Skriv setningen på nynorsk: «Jeg spør noen om de har lest bøkene hjemme.»",
+        "fasit": "Eg spør nokon om dei har lese bøkene heime.",
+        "kriterier": [
+          "Bruk nynorske former som «eg», «nokon», «dei» og «heime».",
+          "Bruk «lese» etter «har», og «bøkene» i bestemt fleirtal."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,34 +75,34 @@
       "id": "q01",
       "text": "Hva er fenotype?",
       "options": [
-        "Hvilke alleler et individ har",
+        "Alleler hos individet",
         "Egenskapene som vises",
-        "Et kromosom",
-        "En mutasjon"
+        "Arvestoffet i cellen",
+        "En genmutasjon"
       ],
       "correct": 1,
-      "explain": "Genotypen er allelene."
+      "explain": "Fenotype er egenskapene som kommer til uttrykk, mens genotype beskriver allelene."
     },
     {
       "id": "q02",
       "text": "Hva blir fenotypeforholdet ved krysningen Aa × Aa?",
       "options": [
         "3 dominante : 1 recessiv",
-        "1 : 1",
-        "1 : 2 : 1 i fenotype",
-        "Alle dominante"
+        "1 dominant : 1 recessiv",
+        "1 dominant : 2 recessive",
+        "2 dominante : 1 recessiv"
       ],
       "correct": 0,
-      "explain": "Genotypeforholdet er 1 : 2 : 1."
+      "explain": "Genotypeforholdet er 1 : 2 : 1, men heterozygote individer viser den dominante fenotypen."
     },
     {
       "id": "q03",
       "text": "Når vises et recessivt trekk?",
       "options": [
-        "Alltid",
-        "Hos heterozygote",
-        "Bare hos homozygote individer",
-        "Aldri"
+        "To dominante alleler hos et individ",
+        "Ulike alleler hos et heterozygot individ",
+        "To recessive alleler hos et individ",
+        "Et dominant allel hos et individ"
       ],
       "correct": 2,
       "explain": "aa."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hvorfor er blødersykdom vanligere hos menn?",
       "options": [
-        "Fordi menn har to X-kromosomer",
-        "Fordi genet er dominant",
-        "Fordi det er miljøbestemt",
-        "Fordi menn har bare én X, og genet er recessivt og X-bundet"
+        "Fordi menn har to X, og genet er recessivt og X-bundet",
+        "Fordi menn har én X, og genet er dominant og X-bundet",
+        "Fordi menn har én X, og genet er recessivt og Y-bundet",
+        "Fordi menn har én X, og genet er recessivt og X-bundet"
       ],
       "correct": 3,
       "explain": "Kjønnsbundet arv.",
@@ -125,9 +125,9 @@
       "text": "Hva er kodominans?",
       "options": [
         "Begge allelene uttrykkes fullt",
-        "Det ene allelet skjuler det andre",
-        "En mellomform",
-        "Ingen alleler uttrykkes"
+        "Ett allel skjuler det andre",
+        "Allelene gir en mellomform",
+        "Ingen alleler kommer til uttrykk"
       ],
       "correct": 0,
       "explain": "Som blodtype AB."
@@ -136,22 +136,22 @@
       "id": "q06",
       "text": "Hva er den eneste kilden til nye alleler?",
       "options": [
-        "Overkrysning",
+        "Rekombinasjon",
         "Mutasjoner",
-        "Befruktning",
-        "Miljøet"
+        "Genflyt",
+        "Befruktning"
       ],
       "correct": 1,
-      "explain": "Meiose gir nye kombinasjoner, ikke nye alleler."
+      "explain": "Mutasjoner endrer DNA slik at nye allelvarianter oppstår."
     },
     {
       "id": "q07",
       "text": "Hvorfor kan eneggede tvillinger ha ulik høyde?",
       "options": [
-        "Fordi de har ulike gener",
-        "Fordi de har ulike kromosomer",
-        "Fordi miljøet også påvirker fenotypen",
-        "Det kan de ikke"
+        "Ulikt antall gener hos plantene",
+        "Ulike gener for høyde og blomsterfarge",
+        "Ulik tilgang på lys, vann og næring",
+        "Ulikt kromosomtall i hver plantecelle"
       ],
       "correct": 2,
       "explain": "Kosthold og livsstil spiller inn."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er polygen arv?",
       "options": [
-        "Ett gen påvirker mange egenskaper",
-        "Arv på X-kromosomet",
-        "Arv fra én forelder",
+        "Ett gen påvirker mange ulike egenskaper",
+        "Et gen på X-kromosomet påvirker egenskapen",
+        "En egenskap arves fra én forelder alene",
         "Mange gener påvirker samme egenskap"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvordan kan et recessivt trekk oppføre seg i en stamtavle?",
       "options": [
-        "Det kan hoppe over generasjoner",
-        "Det vises i alle generasjoner alltid",
-        "Det vises bare hos kvinner",
-        "Det forsvinner for alltid"
+        "Et recessivt trekk kan hoppe over generasjoner",
+        "Et recessivt trekk vises hos heterozygote individer",
+        "Et recessivt trekk skyldes et dominant allel",
+        "Et recessivt trekk arves fra én forelder alene"
       ],
       "correct": 0,
       "explain": "Friske bærere kan få barn med trekket."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva sier Mendels spaltningslov?",
       "options": [
-        "Alle gener arves samlet",
+        "Hver kjønnscelle får begge allelene i et par",
         "Hver kjønnscelle får ett av de to allelene",
-        "Miljøet bestemmer arven",
-        "Alleler blandes"
+        "Hver kjønnscelle får alle gener fra én forelder",
+        "De to allelene blandes i hver kjønnscelle"
       ],
       "correct": 1,
       "explain": "Allelene skilles ved dannelsen av kjønnsceller."
@@ -314,7 +314,7 @@
           "Røde blomster",
           "Rosa blomster",
           "Hvite blomster",
-          "Røde og hvite flekker"
+          "Fiolette blomster"
         ],
         "correct": 1,
         "explain": "En mellomform.",
@@ -326,9 +326,9 @@
         "text": "Hvilken genotype er heterozygot?",
         "options": [
           "Aa",
-          "AA",
-          "aa",
-          "AAa"
+          "BB",
+          "cc",
+          "DD"
         ],
         "correct": 0,
         "explain": "To ulike alleler."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva kan gi fenotypisk variasjon hos planter med like gener?",
         "options": [
-          "Bare mutasjoner",
-          "Ingenting",
+          "Ulikt antall gener hos plantene",
+          "Ulike gener for høyde og blomsterfarge",
           "Ulik tilgang på lys, vann og næring",
-          "Bare meiose"
+          "Ulikt kromosomtall i hver plantecelle"
         ],
         "correct": 2,
         "explain": "Miljøet påvirker fenotypen."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

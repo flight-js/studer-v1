@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Which four nations make up the UK?",
       "options": [
-        "England, Scotland, Wales and Ireland",
+        "England, Scotland, Wales and the Republic of Ireland",
         "England, Scotland, Wales and Northern Ireland",
-        "England, Wales, Ireland and Iceland",
-        "England, Scotland, Ireland and Norway"
+        "England, Scotland, Wales and the Isle of Man",
+        "England, Wales, Northern Ireland and the Republic of Ireland"
       ],
       "correct": 1,
       "explain": "The UK consists of England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate country."
@@ -93,9 +93,9 @@
       "text": "What is the capital of Scotland?",
       "options": [
         "Glasgow",
-        "Cardiff",
+        "Aberdeen",
         "Edinburgh",
-        "Belfast"
+        "Dundee"
       ],
       "correct": 2,
       "explain": "Edinburgh is the capital of Scotland. Glasgow is the largest city."
@@ -104,9 +104,9 @@
       "id": "q03",
       "text": "What is the difference between Great Britain and the UK?",
       "options": [
-        "They are exactly the same",
-        "Great Britain is bigger than the UK",
-        "The UK is only England",
+        "Great Britain also includes Northern Ireland",
+        "The UK also includes the Isle of Man",
+        "Great Britain also includes the Republic of Ireland",
         "The UK also includes Northern Ireland"
       ],
       "correct": 3,
@@ -118,8 +118,8 @@
       "options": [
         "The House of Commons",
         "The House of Lords",
-        "The Senate",
-        "Downing Street"
+        "The Scottish Parliament",
+        "The Welsh Parliament"
       ],
       "correct": 0,
       "explain": "Members of the House of Commons are elected by the people."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "What does “Brexit” refer to?",
       "options": [
-        "A British sport",
+        "The UK joining the European Union",
         "The UK leaving the European Union",
-        "A new British coin",
-        "The British royal family"
+        "The UK leaving the Commonwealth",
+        "The UK leaving the Council of Europe"
       ],
       "correct": 1,
       "explain": "Brexit is short for “Britain exit”, the UK leaving the EU after the 2016 referendum.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Which language is spoken by many people in Wales?",
       "options": [
-        "Gaelic",
-        "Cornish",
+        "Irish",
+        "Scottish Gaelic",
         "Welsh",
-        "Scots"
+        "Cornish"
       ],
       "correct": 2,
       "explain": "Welsh is a Celtic language with official status in Wales."
@@ -154,9 +154,9 @@
       "text": "What type of government does the UK have?",
       "options": [
         "A constitutional monarchy",
-        "A dictatorship",
-        "A republic with a president",
-        "An absolute monarchy"
+        "A parliamentary republic",
+        "An absolute monarchy",
+        "A presidential republic"
       ],
       "correct": 0,
       "explain": "The King is head of state, but Parliament and the government hold the political power."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Who becomes Prime Minister in the UK?",
       "options": [
-        "The King's oldest child",
-        "The mayor of London",
-        "The oldest member of Parliament",
+        "Usually the leader of the largest party in the House of Lords",
+        "Usually the leader of the largest party in the Scottish Parliament",
+        "Usually the person chosen by voters in a national election",
         "Usually the leader of the largest party in the House of Commons"
       ],
       "correct": 3,
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Which famous playwright was British?",
       "options": [
-        "Henrik Ibsen",
+        "Arthur Miller",
         "William Shakespeare",
-        "Mark Twain",
-        "Astrid Lindgren"
+        "Henrik Ibsen",
+        "Molière"
       ],
       "correct": 1,
       "explain": "William Shakespeare is one of the most famous writers in the English language.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Why is the UK a multicultural society?",
       "options": [
-        "Because everyone has the same background",
-        "Because only English is spoken",
+        "Because people with roots in many countries visit as tourists",
+        "Because most people share one cultural background",
         "Because people with roots in many countries live there",
-        "Because of the weather"
+        "Because people with roots in one country form most of society"
       ],
       "correct": 2,
       "explain": "Immigration from former colonies and other countries has made the UK very diverse."
@@ -336,7 +336,7 @@
           "1973",
           "2016",
           "2020",
-          "2008"
+          "2019"
         ],
         "correct": 2,
         "explain": "The referendum was in 2016, but the UK formally left the EU in 2020.",
@@ -348,9 +348,9 @@
         "text": "What does the Union Jack combine?",
         "options": [
           "The crosses of England, Scotland and Ireland",
-          "The colours of the EU",
-          "Symbols of London",
-          "The flags of all Commonwealth countries"
+          "The crosses of England, Scotland and Wales",
+          "The crosses of England, Wales and Ireland",
+          "The crosses of Scotland, Wales and Ireland"
         ],
         "correct": 0,
         "explain": "The flag combines the crosses of St George, St Andrew and St Patrick."
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "What is the BBC?",
         "options": [
-          "A football club",
+          "The UK's public television regulator",
           "The UK's public broadcaster",
-          "A political party",
-          "A bank"
+          "The UK's national postal service",
+          "The UK's national newspaper publisher"
         ],
         "correct": 1,
         "explain": "The British Broadcasting Corporation is a well-known public broadcaster.",
@@ -451,6 +451,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

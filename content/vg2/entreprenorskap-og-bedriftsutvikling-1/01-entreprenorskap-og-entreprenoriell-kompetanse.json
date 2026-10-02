@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er entreprenørskap?",
       "options": [
-        "Å jobbe i offentlig sektor",
+        "Å organisere og drifte en virksomhet som allerede er etablert",
         "Å oppdage eller skape en mulighet og gjøre den om til verdi",
-        "Å kjøpe aksjer",
-        "Å lede et stort selskap"
+        "Å investere egne penger i en virksomhet for å få avkastning",
+        "Å utføre faste arbeidsoppgaver etter instrukser fra ledelsen"
       ],
       "correct": 1,
       "explain": "Ofte ved å starte en ny virksomhet."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva er intraprenørskap?",
       "options": [
-        "Entreprenørskap inne i en eksisterende virksomhet",
-        "Entreprenørskap i utlandet",
-        "Å starte mange selskaper",
-        "Å investere i andres selskaper"
+        "Entreprenørskap som skjer innenfor en virksomhet som allerede finnes",
+        "Entreprenørskap som skjer mellom flere selvstendige virksomheter",
+        "Entreprenørskap som skjer etter at en virksomhet er lagt ned",
+        "Entreprenørskap som skjer gjennom investeringer i andre virksomheter"
       ],
       "correct": 0,
       "explain": "Ansatte utvikler nye løsninger."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva kjennetegner sosialt entreprenørskap?",
       "options": [
-        "Bare mest mulig profitt",
-        "Bare kunst og kultur",
+        "Å prioritere eiernes økonomiske avkastning",
+        "Å utvikle produkter for et nytt marked",
         "Å løse et samfunnsproblem",
-        "Å selge til andre bedrifter"
+        "Å effektivisere driften i en etablert bedrift"
       ],
       "correct": 2,
       "explain": "For eksempel utenforskap eller matsvinn."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva hører til entreprenøriell kompetanse?",
       "options": [
-        "Å unngå all risiko",
-        "Å vente på andre",
-        "Å gi opp raskt",
+        "Planlegging, forsiktighet og behov for sikkerhet",
+        "Lydighet, rutinebehov og lav endringsvilje",
+        "Selvstendighet, konkurranse og kortsiktig tenkning",
         "Kreativitet, initiativ og utholdenhet"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er effektuering?",
       "options": [
         "Å starte med egne ressurser og teste seg fram i små steg",
-        "Å lage en detaljert plan før man gjør noe",
-        "Å låne mest mulig penger",
-        "Å kopiere konkurrentene"
+        "Å kartlegge markedet grundig før man velger en bestemt løsning",
+        "Å planlegge virksomheten ut fra forventet framtidig avkastning",
+        "Å bruke en fast forretningsplan og følge den trinn for trinn"
       ],
       "correct": 0,
       "explain": "Vanlig blant erfarne gründere.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvorfor er entreprenørskap viktig for samfunnet?",
       "options": [
-        "Det gir færre arbeidsplasser",
+        "Det flytter arbeidsplasser mellom eksisterende virksomheter",
         "Det skaper arbeidsplasser, konkurranse og innovasjon",
-        "Det reduserer konkurransen",
-        "Det er bare viktig for gründeren"
+        "Det begrenser konkurranse og utvikling i næringslivet",
+        "Det øker samfunnets avhengighet av etablerte næringer"
       ],
       "correct": 1,
       "explain": "Nye næringer trengs på sikt."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvor finner du informasjon om registrerte selskaper og regnskap?",
       "options": [
-        "Hos NRK",
-        "I sosiale medier",
+        "Hos Skatteetaten",
+        "Hos Altinn",
         "Hos Brønnøysundregistrene",
-        "Hos Arbeidstilsynet"
+        "Hos Finanstilsynet"
       ],
       "correct": 2,
       "explain": "Offentlige registre.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor bør du være kritisk til suksesshistorier i sosiale medier?",
       "options": [
-        "De er alltid løgn",
-        "De er for korte",
-        "De er ulovlige",
+        "De gir som regel et balansert bilde av gründeres erfaringer",
+        "De bygger vanligvis på data fra mange ulike bedrifter",
+        "De viser gjerne både vellykkede og mislykkede etableringer",
         "De viser sjelden alle som ikke lyktes"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva betyr prinsippet om akseptabelt tap?",
       "options": [
-        "Å bare ta risiko man har råd til å tape",
-        "Å tape så mye som mulig",
-        "Å aldri tape",
-        "Å låne penger for å dekke tap"
+        "Å begrense risikoen til det man har råd til å tape",
+        "Å ta risiko ut fra forventet gevinst og markedsvekst",
+        "Å redusere risiko ved å sikre finansiering på forhånd",
+        "Å dekke mulige tap med lån fra eksterne investorer"
       ],
       "correct": 0,
       "explain": "En del av effektuering.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Er entreprenøriell kompetanse bare nyttig for gründere?",
       "options": [
-        "Ja, bare for gründere",
+        "Ja, den er først og fremst nyttig ved oppstart av bedrifter",
         "Nei, den er nyttig i alle yrker og virksomheter",
-        "Bare for ledere",
-        "Bare for kunstnere"
+        "Ja, den er særlig nyttig for personer som leder virksomheter",
+        "Ja, den er særlig nyttig i yrker innen kunst og kultur"
       ],
       "correct": 1,
       "explain": "Virksomheter må fornye seg."
@@ -318,8 +318,8 @@
         "options": [
           "Skatteetaten",
           "Innovasjon Norge",
-          "Politiet",
-          "Datatilsynet"
+          "NAV",
+          "Enova"
         ],
         "correct": 1,
         "explain": "En statlig virkemiddelaktør.",
@@ -331,9 +331,9 @@
         "text": "Hva er et eksempel på intraprenørskap?",
         "options": [
           "En ansatt utvikler et nytt produkt i bedriften",
-          "En student starter egen bedrift",
-          "En pensjonist kjøper aksjer",
-          "En kommune bygger en skole"
+          "En student utvikler et produkt i sin egen bedrift",
+          "En ansatt kjøper et nytt produkt fra en annen bedrift",
+          "En gründer starter et nytt selskap i en annen bransje"
         ],
         "correct": 0,
         "explain": "Entreprenørskap inne i en virksomhet."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvorfor trenger Norge nye næringer på sikt?",
         "options": [
-          "For å øke oljeinntektene",
-          "For å få færre arbeidsplasser",
+          "For å øke verdiskapingen fra olje og gass",
+          "For å sikre at eksporten av olje og gass fortsetter",
           "For å erstatte inntektene fra olje og gass",
-          "For å redusere eksporten"
+          "For å redusere behovet for omstilling i norsk økonomi"
         ],
         "correct": 2,
         "explain": "Omstilling av økonomien.",
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

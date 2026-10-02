@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva er 70 på fransk?",
       "options": [
-        "septante-dix",
+        "soixante-neuf",
         "soixante-dix",
-        "sept-dix",
-        "soixante-sept"
+        "soixante-sept",
+        "soixante-douze"
       ],
       "correct": 1,
       "explain": "70 er «60 + 10». I Belgia og Sveits sier mange «septante»."
@@ -96,9 +96,9 @@
       "id": "q02",
       "text": "Hva betyr «quatre-vingts»?",
       "options": [
-        "24",
-        "40",
-        "84",
+        "82",
+        "90",
+        "20",
         "80"
       ],
       "correct": 3,
@@ -110,8 +110,8 @@
       "options": [
         "Halv ni (8.30)",
         "Halv åtte (7.30)",
-        "Kvart over åtte",
-        "Åtte minutter"
+        "Kvart over åtte (8.15)",
+        "Kvart på ni (8.45)"
       ],
       "correct": 0,
       "explain": "Franskmenn sier «åtte og en halv»."
@@ -121,9 +121,9 @@
       "text": "Hvordan skrives ukedager og måneder på fransk?",
       "options": [
         "Med stor forbokstav",
-        "Alltid i flertall",
+        "Med aksenttegn",
         "Med liten forbokstav",
-        "Med aksent"
+        "Med flertallsending"
       ],
       "correct": 2,
       "explain": "Som på norsk skrives de med liten forbokstav."
@@ -133,9 +133,9 @@
       "text": "Hvordan spør du hva klokka er?",
       "options": [
         "Quelle heure est-il ?",
-        "Tu as quel âge ?",
-        "Ça va ?",
-        "Comment tu t'appelles ?"
+        "Quel jour sommes-nous ?",
+        "Quelle date sommes-nous ?",
+        "Quel âge as-tu ?"
       ],
       "correct": 0,
       "explain": "«heure» betyr time eller klokkeslett."
@@ -159,7 +159,7 @@
         "le un mai",
         "le première mai",
         "le premier mai",
-        "le mai un"
+        "le mai premier"
       ],
       "correct": 2,
       "explain": "Bare den første i måneden får ordenstallet «premier»."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva betyr «neuf heures moins le quart»?",
       "options": [
-        "Kvart over ni",
+        "Kvart over åtte",
         "Kvart på ni",
-        "Halv ni",
-        "Ni kvarter"
+        "Halv ti",
+        "Kvart på åtte"
       ],
       "correct": 1,
       "explain": "«moins» betyr minus."
@@ -182,7 +182,7 @@
       "options": [
         "6",
         "60",
-        "7",
+        "17",
         "16"
       ],
       "correct": 3,
@@ -193,9 +193,9 @@
       "text": "Hvordan sier du «om sommeren»?",
       "options": [
         "en été",
-        "au été",
-        "à l'été",
-        "dans été"
+        "au printemps",
+        "en hiver",
+        "en automne"
       ],
       "correct": 0,
       "explain": "Bare våren får «au»: «au printemps»."
@@ -346,9 +346,9 @@
         "text": "Hva heter august på fransk?",
         "options": [
           "août",
-          "auguste",
-          "aoûte",
-          "agosto"
+          "juillet",
+          "septembre",
+          "octobre"
         ],
         "correct": 0,
         "explain": "«août» uttales omtrent «u» eller «ut»."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

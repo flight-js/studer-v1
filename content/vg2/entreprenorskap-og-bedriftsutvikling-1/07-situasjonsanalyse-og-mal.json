@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva hører til den interne analysen i oppstartsfasen?",
       "options": [
-        "Renten",
+        "Bedriftens kunder og leverandører",
         "Teamets kompetanse og kapital",
-        "Nye lover",
-        "Konkurrentenes priser"
+        "Konkurrentenes produkter og priser",
+        "Markedets lover og rentenivå"
       ],
       "correct": 1,
       "explain": "Forhold virksomheten selv rår over."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva betyr sterke konkurransekrefter?",
       "options": [
-        "At det er lett å tjene penger",
-        "At det ikke finnes konkurrenter",
-        "At det er vanskeligere å tjene penger i bransjen",
-        "At prisene alltid er høye"
+        "At bedriftene får større mulighet til å øke prisene",
+        "At kundene får mindre innflytelse på prisene i bransjen",
+        "At det blir vanskeligere å tjene penger i bransjen",
+        "At det blir enklere for nye bedrifter å etablere seg i bransjen"
       ],
       "correct": 2,
       "explain": "Konkurransen presser marginene."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Å selge mer av dagens produkt til dagens kunder er",
       "options": [
-        "markedspenetrasjon",
-        "diversifisering",
-        "markedsutvikling",
-        "produktutvikling"
+        "Markedspenetrasjon",
+        "Diversifisering",
+        "Markedsutvikling",
+        "Produktutvikling"
       ],
       "correct": 0,
       "explain": "Den tryggeste veien til vekst."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er en milepæl?",
       "options": [
-        "Et budsjett",
-        "En konkurrent",
-        "Et viktig steg på veien, som første kunde",
-        "En type lån"
+        "En oversikt over forventede inntekter og kostnader",
+        "En aktør som tilbyr lignende produkter",
+        "Et viktig steg på veien, for eksempel første kunde",
+        "En avtale om å låne penger fra en bank"
       ],
       "correct": 2,
       "explain": "Nyttig for å følge framdriften."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hvorfor bør mål i oppstartsfasen justeres underveis?",
       "options": [
-        "Fordi mål ikke betyr noe",
-        "Fordi loven krever det",
-        "Fordi konkurrentene bestemmer",
-        "Fordi man lærer mer om markedet, og mange er for optimistiske"
+        "Fordi mål bør holdes uendret, slik at virksomheten følger den opprinnelige planen",
+        "Fordi lovverket krever at nye virksomheter reviderer målene hvert kvartal",
+        "Fordi konkurrentene fastsetter hvilke mål virksomheten bør arbeide mot",
+        "Fordi man lærer mer om markedet, og mange oppstartsplaner er for optimistiske"
       ],
       "correct": 3,
       "explain": "Salget tar ofte lengre tid enn planlagt."
@@ -172,9 +172,9 @@
       "text": "Hvilket mål er SMART?",
       "options": [
         "Selge 60 vesker innen jul",
-        "Bli kjent",
-        "Selge mye",
-        "Få fornøyde kunder"
+        "Selge mange vesker innen jul",
+        "Selge 60 vesker",
+        "Øke salget av vesker innen jul"
       ],
       "correct": 0,
       "explain": "Spesifikt, målbart og tidsbestemt."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er kundenes forhandlingsmakt?",
       "options": [
-        "Hvor mange ansatte kundene har",
-        "Hvor mye kundene kan presse prisen eller kreve",
-        "Hvor gamle kundene er",
-        "Hvor kundene bor"
+        "Hvor mange produkter kundene kjøper fra virksomheten",
+        "Hvor mye kundene kan presse prisen eller stille krav",
+        "Hvor ofte kundene handler hos virksomheten",
+        "Hvor mange konkurrenter kundene kan velge mellom"
       ],
       "correct": 1,
       "explain": "Stor når kundene er få og store."
@@ -318,9 +318,9 @@
         "text": "Hva er et økonomisk mål i oppstartsfasen?",
         "options": [
           "Å nå nullpunktet innen ett år",
-          "Å få en fin logo",
-          "Å ha et godt teammøte",
-          "Å velge farge på butikken"
+          "Å øke kjennskapen til merkevaren innen ett år",
+          "Å etablere et stabilt samarbeid i teamet",
+          "Å utvikle en brukervennlig nettbutikk innen ett år"
         ],
         "correct": 0,
         "explain": "Inntektene skal dekke kostnadene."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er et erstatningsprodukt for en kino?",
         "options": [
-          "En annen kino",
-          "En popcornleverandør",
+          "En konkurrerende kino",
+          "En leverandør av popcorn",
           "En strømmetjeneste",
-          "En billettautomat"
+          "En automat for kinobilletter"
         ],
         "correct": 2,
         "explain": "Dekker samme behov på en annen måte."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

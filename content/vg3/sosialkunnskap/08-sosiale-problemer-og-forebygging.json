@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva betyr et konstruktivistisk syn på sosiale problemer?",
       "options": [
-        "At problemer bare kan måles",
+        "At problemer kan fastslås ut fra målbare forhold alene",
         "At noe blir et problem når det defineres som det",
-        "At problemer ikke finnes",
-        "At bare staten definerer problemer"
+        "At problemer først og fremst skyldes personlige valg og egenskaper",
+        "At problemer defineres av eksperter uavhengig av samfunnets syn"
       ],
       "correct": 1,
       "explain": "For eksempel røyking."
@@ -92,9 +92,9 @@
       "text": "Hva er primærforebygging?",
       "options": [
         "Å hindre at problemer oppstår",
-        "Rusbehandling",
-        "Soning",
-        "Å fange opp tidlig"
+        "Å behandle problemer etter at de har oppstått",
+        "Å oppdage problemer tidlig og sette inn hjelp",
+        "Å hindre at problemer forverres eller gjentar seg"
       ],
       "correct": 0,
       "explain": "Universelle tiltak."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilket tiltak er sekundærforebygging?",
       "options": [
-        "Rusundervisning for alle",
-        "Aldersgrenser",
+        "Rusundervisning som tilbys alle ungdommer",
+        "Oppfølging av ungdom etter behandling eller soning",
         "Utekontakter som oppsøker ungdom",
-        "Tilbakeføring etter soning"
+        "Aldersgrenser for kjøp av alkohol"
       ],
       "correct": 2,
       "explain": "Fanger opp tidlig.",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er tertiærforebygging?",
       "options": [
-        "Tiltak for alle elever",
-        "Aldersgrenser",
-        "Kampanjer",
+        "Å hindre at problemer oppstår i befolkningen",
+        "Å oppdage tegn på problemer tidlig og sette inn hjelp",
+        "Å gi informasjon om risiko til alle ungdommer",
         "Å hindre at problemet forverres eller gjentar seg"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva er SLT-modellen?",
       "options": [
         "Samordning av lokale kriminalitetsforebyggende tiltak",
-        "En skole",
-        "En type straff",
-        "En diagnose"
+        "En kommunal ordning for behandling av unge lovbrytere",
+        "En nasjonal plan for strengere straffer ved lovbrudd",
+        "Et tilbud om oppfølging av ungdom etter soning"
       ],
       "correct": 0,
       "explain": "Brukes i mange kommuner.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvilken beskyttende faktor er viktig for ungdom?",
       "options": [
-        "Rusmiljø",
+        "Et miljø med høyt ruspress",
         "En trygg voksen",
-        "Mobbing",
-        "Fattigdom"
+        "Gjentatt mobbing fra jevnaldrende",
+        "Vedvarende økonomiske vansker i familien"
       ],
       "correct": 1,
       "explain": "Også venner og mestring."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvilket spørsmål er viktig når man vurderer et tiltak?",
       "options": [
-        "Om det er populært",
-        "Om det er nytt",
+        "Om tiltaket får positiv omtale i lokale medier",
+        "Om tiltaket er nyere enn andre tilbud i kommunen",
         "Om det virker ifølge forskning eller evaluering",
-        "Om det er dyrt"
+        "Om tiltaket er populært blant ansatte og frivillige"
       ],
       "correct": 2,
       "explain": "Også kostnad og bivirkninger."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvorfor kan forebygging være lønnsomt?",
       "options": [
-        "Fordi det er gratis",
-        "Fordi det ikke trengs ansatte",
-        "Fordi problemer forsvinner av seg selv",
+        "Fordi forebygging kan finansieres uten kostnader for kommunen",
+        "Fordi forebyggende tiltak vanligvis ikke krever ansatte eller andre ressurser",
+        "Fordi problemer løser seg når de får tid til å utvikle seg",
         "Fordi tidlig innsats ofte koster mindre enn behandling og fengsel"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva tyder forskning på om skremselspropaganda om rus?",
       "options": [
         "At den virker dårlig",
-        "At den er det beste tiltaket",
-        "At den alltid virker",
-        "At den er ulovlig"
+        "At den virker bedre enn tiltak som styrker mestring",
+        "At den forebygger rusbruk effektivt hos de fleste ungdommer",
+        "At den gir mer varig effekt enn tidlig oppfølging"
       ],
       "correct": 0,
       "explain": "Tiltak som styrker mestring virker ofte bedre.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvilken bivirkning kan et tiltak rettet mot en bestemt gruppe ha?",
       "options": [
-        "Bedre helse",
-        "Stigmatisering",
-        "Lavere kostnader",
-        "Mer tillit"
+        "Økt mestring i målgruppen",
+        "Stigmatisering av målgruppen",
+        "Bedre tilgang til hjelpetilbud",
+        "Større tillit til hjelpeapparatet"
       ],
       "correct": 1,
       "explain": "Gruppen kan bli stemplet."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilket eksempel viser at noe kan bli definert som et problem over tid?",
         "options": [
-          "Tyngdekraften",
+          "Blodtrykk",
           "Røyking",
-          "Solnedgang",
-          "Regn"
+          "Arvelighet",
+          "Fordøyelse"
         ],
         "correct": 1,
         "explain": "Fra akseptert til folkehelseproblem.",
@@ -329,9 +329,9 @@
         "text": "Hvilket tiltak er tertiærforebygging?",
         "options": [
           "Tilbakeføring etter soning",
-          "Gratis fritidstilbud",
-          "Mobbeprogram",
-          "Aldersgrenser"
+          "Fritidstilbud for ungdom i nærmiljøet",
+          "Mobbeprogram i grunnskolen",
+          "Aldersgrenser for kjøp av alkohol"
         ],
         "correct": 0,
         "explain": "Hindrer tilbakefall.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva er et etisk dilemma ved forebygging?",
         "options": [
-          "At det er for billig",
-          "At det er for populært",
+          "Hvor mye et forebyggende tiltak koster kommunen",
+          "Hvor raskt tiltaket kan settes i gang lokalt",
           "Hvor langt det offentlige kan gripe inn i folks liv",
-          "At ingen trenger hjelp"
+          "Hvor mange ansatte som skal delta i tiltaket"
         ],
         "correct": 2,
         "explain": "Hensyn til privatliv."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

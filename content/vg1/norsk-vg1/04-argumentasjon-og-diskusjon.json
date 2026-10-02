@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er belegg i Toulmins modell?",
       "options": [
-        "Det man vil overbevise om",
-        "Grunnen eller støtten for påstanden",
-        "Et motargument",
-        "Konklusjonen"
+        "Synspunktet man prøver å få fram",
+        "Grunnen som støtter en påstand",
+        "Innvendingen mot en annens synspunkt",
+        "Avslutningen som følger av argumentasjonen"
       ],
       "correct": 1,
       "explain": "Belegget skal støtte påstanden."
@@ -93,7 +93,7 @@
         "Stråmann",
         "Glidebane",
         "Personangrep",
-        "Saklig argumentasjon"
+        "Falskt dilemma"
       ],
       "correct": 0,
       "explain": "Motparten tillegges et synspunkt de ikke har."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å bare gi sin egen mening",
-        "Å gjenfortelle en tekst",
-        "Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon",
-        "Å diskutere høylytt"
+        "Å presentere egen mening uten å vurdere motargumenter",
+        "Å gjengi hovedinnholdet i en tekst med egne ord",
+        "Å vurdere flere sider og begrunne en konklusjon",
+        "Å utveksle synspunkter uten å begrunne dem"
       ],
       "correct": 2,
       "explain": "Drøfting krever argumenter både for og mot."
@@ -114,8 +114,8 @@
       "id": "q04",
       "text": "Hvem beskrev de fem hersketeknikkene?",
       "options": [
-        "Aristoteles",
-        "Stephen Toulmin",
+        "Camilla Collett",
+        "Gro Harlem Brundtland",
         "Henrik Ibsen",
         "Berit Ås"
       ],
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er en styrkemarkør?",
       "options": [
-        "Ord som viser hvor sikker påstanden er",
-        "Et sterkt argument",
-        "En overskrift",
-        "En hersketeknikk"
+        "Ord som viser hvor sikker en påstand er",
+        "Ord som viser hvor sterkt et argument virker",
+        "Ord som binder sammen påstand og begrunnelse",
+        "Ord som uttrykker talerens følelser om saken"
       ],
       "correct": 0,
       "explain": "«Trolig», «alltid» og «kanskje» er styrkemarkører.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "«Hvis vi tillater mobil i friminuttene, vil ingen lære noe lenger.» Hva slags argument er dette?",
       "options": [
-        "Stråmann",
+        "Stråmannsargument",
         "Glidebaneargument",
-        "Etos",
-        "Belegg"
+        "Generalisering",
+        "Falskt dilemma"
       ],
       "correct": 1,
       "explain": "Ett steg påstås å føre til en katastrofe."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva er et godt råd for å delta i en diskusjon?",
       "options": [
-        "Avbryte for å vise engasjement",
-        "Aldri endre mening",
+        "Avbryte for å få fram egne poenger før motparten er ferdig",
+        "Holde fast ved første mening selv når nye grunner kommer fram",
         "Lytte aktivt og svare på det som faktisk blir sagt",
-        "Angripe motparten personlig"
+        "Kommentere motpartens personlighet i stedet for argumentene"
       ],
       "correct": 2,
       "explain": "Saklig diskusjon krever at man lytter."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er et falskt dilemma?",
       "options": [
-        "Et vanskelig valg",
-        "Et motargument",
-        "En styrkemarkør",
-        "Å late som om det bare finnes to alternativer"
+        "Å måtte velge mellom to vanskelige, men reelle muligheter",
+        "Å svare på en påstand med en innvending",
+        "Å bruke ord som viser graden av sikkerhet",
+        "Å framstille saken som om bare to valg finnes"
       ],
       "correct": 3,
       "explain": "Eksempel: «Enten er du med oss, eller så er du mot oss.»"
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva er hjemmelen i et argument?",
       "options": [
-        "Den underforståtte sammenhengen mellom belegg og påstand",
-        "Stedet argumentet kommer fra",
-        "Konklusjonen",
-        "Et sitat"
+        "Den underforståtte regelen som knytter belegg til påstand",
+        "Kilden som viser hvor argumentets opplysninger kommer fra",
+        "Påstanden som argumentasjonen skal føre fram til",
+        "Et ordrett utsagn hentet fra en annen tekst"
       ],
       "correct": 0,
       "explain": "Hjemmelen er ofte ikke sagt direkte."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvordan bør du bruke presentasjonsverktøy i en muntlig presentasjon?",
       "options": [
-        "Som manus du leser fra",
+        "Som et ferdig manus du leser høyt fra skjermen",
         "Som støtte, mens du snakker fritt ut fra stikkord",
-        "Ikke i det hele tatt",
-        "Med så mye tekst som mulig"
+        "Som illustrasjoner uten å knytte dem til det du sier",
+        "Som teksttunge lysbilder som inneholder hele framføringen"
       ],
       "correct": 1,
       "explain": "Publikum skal lytte til deg, ikke lese lysbildene."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er en generalisering?",
         "options": [
-          "En bred konklusjon trukket fra få eksempler",
-          "En god kilde",
-          "En saklig påstand",
-          "En type disposisjon"
+          "En bred konklusjon trukket fra et lite antall eksempler",
+          "En kilde som gir relevant og etterprøvbar informasjon",
+          "En påstand som bygger på tydelige grunner og fakta",
+          "En plan som viser rekkefølgen på delene i en tekst"
         ],
         "correct": 0,
         "explain": "Eksempel: «Jeg kjenner to som …, så alle …»"
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er gjendrivelse i Toulmins modell?",
         "options": [
-          "Påstanden",
-          "Belegget",
-          "Konklusjonen",
-          "Forbehold eller motargumenter"
+          "Grunnlaget som støtter selve påstanden",
+          "Regelen som knytter belegg til påstand",
+          "Påstanden som argumentet prøver å begrunne",
+          "Forbehold eller motargumenter mot påstanden"
         ],
         "correct": 3,
         "explain": "Gjendrivelse gjør argumentasjonen mer nyansert.",
@@ -357,10 +357,10 @@
         "type": "flervalg",
         "text": "Hva betyr det å greie ut om et tema?",
         "options": [
-          "Å gi sin mening",
-          "Å argumentere for én side",
-          "Å forklare temaet grundig og ryddig",
-          "Å stille spørsmål"
+          "Å vurdere temaet og forsvare én bestemt mening",
+          "Å presentere egne synspunkter uten å forklare temaet",
+          "Å forklare temaet grundig og på en ryddig måte",
+          "Å stille spørsmål for å få fram andres meninger"
         ],
         "correct": 2,
         "explain": "Utgreiing er forklarende, ikke argumenterende."
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

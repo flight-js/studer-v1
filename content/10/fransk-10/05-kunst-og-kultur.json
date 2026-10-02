@@ -87,10 +87,10 @@
       "id": "q01",
       "text": "Hvem sang «La vie en rose»?",
       "options": [
-        "Céline Dion",
+        "Jacques Brel",
         "Édith Piaf",
-        "Stromae",
-        "Christine and the Queens"
+        "Claude François",
+        "Serge Gainsbourg"
       ],
       "correct": 1,
       "explain": "Piaf regnes som Frankrikes mest kjente sanger.",
@@ -100,10 +100,10 @@
       "id": "q02",
       "text": "Hvilken bok av Antoine de Saint-Exupéry er en av verdens mest oversatte?",
       "options": [
-        "Les Misérables",
+        "Les Trois Mousquetaires",
         "Notre-Dame de Paris",
-        "Jorden rundt på 80 dager",
-        "Le Petit Prince (Den lille prinsen)"
+        "Cinq semaines en ballon",
+        "Le Petit Prince"
       ],
       "correct": 3,
       "explain": "Boka er oversatt til flere hundre språk.",
@@ -126,10 +126,10 @@
       "id": "q04",
       "text": "Hvilken kunstretning har fått navnet sitt fra et maleri av Claude Monet?",
       "options": [
-        "Kubismen",
-        "Surrealismen",
+        "Fauvismen",
+        "Dadaismen",
         "Impresjonismen",
-        "Ekspresjonismen"
+        "Naturalismen"
       ],
       "correct": 2,
       "explain": "Maleriet heter «Impression, soleil levant».",
@@ -139,8 +139,8 @@
       "id": "q05",
       "text": "Hvem skrev «Les Misérables»?",
       "options": [
-        "Molière",
-        "Jules Verne",
+        "Émile Zola",
+        "Alexandre Dumas",
         "Albert Camus",
         "Victor Hugo"
       ],
@@ -152,10 +152,10 @@
       "id": "q06",
       "text": "Hva kalles den fransk-belgiske tegneserietradisjonen?",
       "options": [
-        "le manga",
+        "le dessin animé",
         "la bande dessinée",
-        "le roman",
-        "le comic"
+        "la peinture classique",
+        "le théâtre musical"
       ],
       "correct": 1,
       "explain": "Den kalles ofte «BD» (bédé)."
@@ -165,9 +165,9 @@
       "text": "Hvem viste film for et betalende publikum for første gang, i Paris i 1895?",
       "options": [
         "Brødrene Lumière",
-        "Brødrene Grimm",
-        "Daft Punk",
-        "Victor Hugo"
+        "Georges Méliès",
+        "Thomas Edison",
+        "Alice Guy"
       ],
       "correct": 0,
       "explain": "Visningen regnes som kinoens fødsel.",
@@ -177,10 +177,10 @@
       "id": "q08",
       "text": "Hvilken skulptur laget Auguste Rodin?",
       "options": [
-        "Venus fra Milo",
-        "David",
-        "Le Penseur (Tenkeren)",
-        "Den lille havfrue"
+        "La Vénus de Milo",
+        "Le David de Michel-Ange",
+        "Le Penseur de Rodin",
+        "La Pietà de Michel-Ange"
       ],
       "correct": 2,
       "explain": "Tenkeren er en av verdens mest kjente skulpturer.",
@@ -190,9 +190,9 @@
       "id": "q09",
       "text": "Hva betyr «Ça me plaît»?",
       "options": [
-        "Det er dyrt",
-        "Det gjør vondt",
-        "Jeg forstår ikke",
+        "Jeg kjøper det",
+        "Jeg forstår det",
+        "Jeg trenger det",
         "Jeg liker det"
       ],
       "correct": 3,
@@ -348,7 +348,7 @@
         "options": [
           "Victor Hugo",
           "Jules Verne",
-          "Molière",
+          "Émile Zola",
           "Albert Camus"
         ],
         "correct": 1,
@@ -361,9 +361,9 @@
         "text": "Hva betyr «Le livre parle d'une fille»?",
         "options": [
           "Boka handler om en jente",
-          "En jente leser boka",
-          "Boka er skrevet av en jente",
-          "Jenta snakker"
+          "Une fille lit le livre",
+          "Une fille écrit un livre",
+          "Une fille parle du livre"
         ],
         "correct": 0,
         "explain": "«parler de» betyr å handle om."
@@ -376,7 +376,7 @@
           "Musée d'Orsay",
           "Centre Pompidou",
           "Le Louvre",
-          "Versailles"
+          "Château de Versailles"
         ],
         "correct": 2,
         "explain": "Louvre er verdens mest besøkte kunstmuseum.",
@@ -469,6 +469,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -88,9 +88,9 @@
       "text": "Hvordan arbeidet Sokrates?",
       "options": [
         "Han stilte spørsmål for å få folk til å tenke selv",
-        "Han skrev mange bøker",
-        "Han var konge i Athen",
-        "Han bygde templer"
+        "Han holdt taler for å lære folk ferdige svar",
+        "Han skrev dialoger for å forklare sine egne tanker",
+        "Han underviste unge athenere ved å lese fra bøker"
       ],
       "correct": 0,
       "explain": "Det vi vet om Sokrates, kommer i stor grad fra eleven Platon.",
@@ -100,10 +100,10 @@
       "id": "q02",
       "text": "Hva sier Mills skadeprinsipp?",
       "options": [
-        "At man alltid skal si sannheten",
-        "At dyr har samme verdi som mennesker",
-        "At lykke er fravær av smerte",
-        "At staten bare bør begrense friheten for å hindre skade på andre"
+        "Staten bør begrense friheten for å beskytte folk mot egne valg",
+        "Staten bør begrense friheten for å sikre likhet mellom innbyggerne",
+        "Staten bør beskytte friheten selv når andre blir skadet",
+        "Staten bør begrense friheten når det trengs for å hindre skade på andre"
       ],
       "correct": 3,
       "explain": "Prinsippet brukes ofte i debatter om forbud og frihet.",
@@ -113,10 +113,10 @@
       "id": "q03",
       "text": "Hva mente Hannah Arendt med ondskapens banalitet?",
       "options": [
-        "At onde mennesker er sjeldne",
-        "At ondskap alltid er lett å oppdage",
-        "At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv",
-        "At ondskap er morsomt"
+        "At ondskap oppstår når mennesker bevisst ønsker å skade andre",
+        "At store forbrytelser vanligvis utføres av mennesker med psykiske lidelser",
+        "At vanlige mennesker kan utføre store forbrytelser når de slutter å tenke selv",
+        "At ondskap blir ufarlig når den utføres av vanlige mennesker"
       ],
       "correct": 2,
       "explain": "Arendt mente Eichmann ikke var et monster, men en byråkrat som fulgte ordre.",
@@ -126,10 +126,10 @@
       "id": "q04",
       "text": "Hva er den etiske fordring hos Løgstrup?",
       "options": [
-        "At man alltid må følge loven",
-        "At vi alltid har noe av et annet menneskes liv i våre hender",
-        "At man skal søke egen lykke",
-        "At dyr er viktigere enn mennesker"
+        "At vi har ansvar for å følge felles lover i møte med andre",
+        "At vi i møtet med andre har noe av livet deres i våre hender",
+        "At vi bør hjelpe andre for å få et bedre liv selv",
+        "At vi har ansvar for å beskytte naturen når vi møter andre"
       ],
       "correct": 1,
       "explain": "Møtet med et annet menneske gir oss ansvar.",
@@ -139,9 +139,9 @@
       "id": "q05",
       "text": "Hva mente Epikur at lykke er?",
       "options": [
-        "Rikdom og makt",
-        "Å vinne diskusjoner",
-        "Å leve i kloster",
+        "Et liv med rikdom og makt",
+        "Glede gjennom sterke sanseopplevelser",
+        "Et liv med ære og berømmelse",
         "Fravær av smerte og uro"
       ],
       "correct": 3,
@@ -154,8 +154,8 @@
       "options": [
         "Peter Singer",
         "Immanuel Kant",
-        "Platon",
-        "Sokrates"
+        "Aristoteles",
+        "René Descartes"
       ],
       "correct": 0,
       "explain": "Singer er en av de mest kjente dyreetikerne.",
@@ -165,10 +165,10 @@
       "id": "q07",
       "text": "Hva betyr det å drøfte et spørsmål?",
       "options": [
-        "Å gi et kort svar",
-        "Å gjenta det læreren sier",
+        "Å presentere argumenter fra én side og støtte en konklusjon",
+        "Å beskrive spørsmålet grundig uten å vurdere mulige svar",
         "Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon",
-        "Å bare si sin egen mening"
+        "Å samle fakta om temaet og gjenta dem i en konklusjon"
       ],
       "correct": 2,
       "explain": "Drøfting krever at man tar motargumenter på alvor."
@@ -177,10 +177,10 @@
       "id": "q08",
       "text": "Hvilken etisk utfordring knyttes til kunstig intelligens?",
       "options": [
-        "At den ikke kan regne",
+        "At KI ikke kan brukes til å vurdere søknader",
         "Hvem som har ansvaret når den gjør feil",
-        "At den er for treg",
-        "At den bare virker på engelsk"
+        "At KI ikke kan lære av eksempler den får",
+        "At KI må kobles til internett for å fungere"
       ],
       "correct": 1,
       "explain": "Ansvar er vanskelig å plassere når en maskin tar avgjørelser."
@@ -189,10 +189,10 @@
       "id": "q09",
       "text": "Hvordan kan Kants ideer brukes i debatten om KI?",
       "options": [
-        "Til å si at KI alltid er god",
-        "Til å si at KI skal bestemme alt",
-        "Til å si at menneskeverd ikke betyr noe",
-        "Til å kreve at mennesker aldri bare behandles som data"
+        "Til å kreve at KI får samme rettigheter som mennesker",
+        "Til å vurdere KI etter hvor mye lykke den skaper",
+        "Til å la KI avgjøre hvilke mennesker som har størst verdi",
+        "Til å kreve at mennesker ikke behandles bare som data"
       ],
       "correct": 3,
       "explain": "Kants tanke om menneskeverd kan brukes som et krav til teknologien.",
@@ -202,10 +202,10 @@
       "id": "q10",
       "text": "Hva mente Aristoteles er målet med livet?",
       "options": [
-        "Rikdom",
-        "Makt",
+        "Et liv med rikdom og høy sosial status",
+        "Makt og innflytelse over andre mennesker",
         "Lykke i betydningen et godt og meningsfullt liv",
-        "Å klare seg uten andre"
+        "Uavhengighet fra fellesskap og nære relasjoner"
       ],
       "correct": 2,
       "explain": "Aristoteles mente vi når lykke ved å utvikle gode dyder.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvem var elev av Sokrates?",
         "options": [
-          "Kant",
+          "Immanuel Kant",
           "Platon",
-          "Mill",
-          "Singer"
+          "Aristoteles",
+          "Epikur"
         ],
         "correct": 1,
         "explain": "Platon skrev ned mange samtaler med Sokrates.",
@@ -358,9 +358,9 @@
         "text": "Hvilket argument kan brukes for å spise mindre kjøtt?",
         "options": [
           "At det reduserer dyrs lidelse og klimagassutslipp",
-          "At kjøtt er dyrt",
-          "At dyr ikke kan føle smerte",
-          "At det er påbudt"
+          "At kjøttproduksjon gir lavere utslipp enn grønnsaksdyrking",
+          "At dyr ikke opplever smerte under moderne oppdrett",
+          "At kjøttproduksjon ikke påvirker klima eller dyrevelferd"
         ],
         "correct": 0,
         "explain": "Både dyreetikk og klimahensyn trekkes inn i debatten."
@@ -370,10 +370,10 @@
         "type": "flervalg",
         "text": "Hvilken tanke kan brukes for å argumentere for at vi har ansvar for framtidige generasjoner?",
         "options": [
-          "At bare de som lever nå, teller",
-          "At klimaet ikke påvirker mennesker",
+          "At etiske valg primært gjelder mennesker som lever nå",
+          "At klimaendringer ikke påvirker livsvilkårene til mennesker",
           "At følgene for alle som berøres, må tas med",
-          "At framtiden ikke kan påvirkes"
+          "At framtidige generasjoner ikke kan bli berørt av dagens valg"
         ],
         "correct": 2,
         "explain": "Konsekvensetikken tar hensyn til alle som påvirkes av en handling."
@@ -464,6 +464,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

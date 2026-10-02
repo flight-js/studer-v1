@@ -92,9 +92,9 @@
       "id": "q01",
       "text": "Hva betyr korrelasjon er ikke kausalitet?",
       "options": [
-        "At statistikk alltid er feil",
-        "At to ting aldri henger sammen",
-        "At årsaken alltid er kjent",
+        "At en sammenheng viser at den ene tingen påvirker den andre",
+        "At en sammenheng viser at begge tingene har samme årsak",
+        "At en sammenheng oppstår fordi to ting påvirker hverandre gjensidig",
         "At en sammenheng ikke viser at den ene tingen forårsaker den andre"
       ],
       "correct": 3,
@@ -104,10 +104,10 @@
       "id": "q02",
       "text": "Hvilken type undersøkelse kan gi sterkest holdepunkt for årsak og virkning?",
       "options": [
-        "Intervju",
+        "Intervju med åpne spørsmål",
         "Eksperiment med kontrollgruppe",
-        "Observasjon",
-        "Spørreskjema"
+        "Observasjon uten kontrollgruppe",
+        "Spørreskjema med tilfeldig utvalg"
       ],
       "correct": 1,
       "explain": "Man endrer én faktor og sammenligner."
@@ -116,10 +116,10 @@
       "id": "q03",
       "text": "Hvorfor er en helhetlig forklaring ofte best?",
       "options": [
-        "Fordi den er kortest",
+        "Fordi den gjør komplekse fenomener enklere å måle",
         "Fordi fenomener som angst har årsaker på flere nivåer",
-        "Fordi den bare bruker ett perspektiv",
-        "Fordi den ikke kan testes"
+        "Fordi den bygger på ett perspektiv om gangen",
+        "Fordi den erstatter forskning med personlige erfaringer"
       ],
       "correct": 1,
       "explain": "Biologisk, psykologisk og sosialt."
@@ -128,10 +128,10 @@
       "id": "q04",
       "text": "Hva er gruppetenkning?",
       "options": [
-        "At grupper tenker raskere",
-        "At alle i gruppen er smarte",
+        "At gruppen velger mer ekstreme standpunkter etter diskusjon",
+        "At medlemmene lærer gruppens normer gjennom observasjon",
         "At jakten på enighet hindrer kritisk tenkning",
-        "At grupper aldri er enige"
+        "At gruppen vurderer flere alternativer grundigere enn enkeltpersoner"
       ],
       "correct": 2,
       "explain": "Beskrevet av Janis."
@@ -140,10 +140,10 @@
       "id": "q05",
       "text": "Hva er den onde sirkelen ved ensomhet?",
       "options": [
-        "At man får flere venner",
-        "At ensomhet alltid går over",
-        "At man blir mer sosial",
-        "At man blir mer årvåken for avvisning og trekker seg tilbake"
+        "At man blir mindre oppmerksom på avvisning og tar mer kontakt med andre.",
+        "At man forventer støtte fra andre og derfor søker seg til flere fellesskap.",
+        "At man tolker avvisning som ufarlig og føler seg tryggere i sosiale situasjoner.",
+        "At man blir mer årvåken for avvisning og trekker seg tilbake."
       ],
       "correct": 3,
       "explain": "Ensomheten forsterkes."
@@ -154,8 +154,8 @@
       "options": [
         "Autoritativ",
         "Autoritær",
-        "Forsømmende",
-        "Ettergivende"
+        "Ettergivende",
+        "Forsømmende"
       ],
       "correct": 0,
       "explain": "Varme og tydelige grenser.",
@@ -165,10 +165,10 @@
       "id": "q07",
       "text": "Hva er aktiv lytting?",
       "options": [
-        "Full oppmerksomhet, åpne spørsmål og gjentakelse med egne ord",
-        "Å høre på musikk",
-        "Å avbryte ofte",
-        "Å tenke på eget svar"
+        "Å følge med, stille åpne spørsmål og gjengi med egne ord",
+        "Å lytte for å finne feil og forberede motargumenter",
+        "Å gi råd før man har forstått den andres synspunkt",
+        "Å avbryte for å vise at man kjenner temaet"
       ],
       "correct": 0,
       "explain": "Viser at man forstår."
@@ -177,9 +177,9 @@
       "id": "q08",
       "text": "Hva betyr at sosial støtte virker som en buffer?",
       "options": [
-        "At den gir mer stress",
-        "At den erstatter behandling",
-        "At den bare gjelder barn",
+        "At den øker virkningen av stress",
+        "At den fjerner selve kilden til stress",
+        "At den erstatter personens egne mestringsstrategier",
         "At den demper virkningen av stress"
       ],
       "correct": 3,
@@ -190,9 +190,9 @@
       "text": "Hva er avinstitusjonalisering?",
       "options": [
         "Overgang fra store institusjoner til hjelp nær hjemmet",
-        "Bygging av flere asyler",
-        "Innføring av tvang",
-        "Nedleggelse av all behandling"
+        "Overgang fra små behandlingstilbud til store asyler",
+        "Utbygging av sykehusbehandling og færre kommunale tjenester",
+        "Omlegging fra kommunal hjelp til behandling på institusjon"
       ],
       "correct": 0,
       "explain": "Følge av kritikk på 1960- og 70-tallet.",
@@ -202,10 +202,10 @@
       "id": "q10",
       "text": "Hva sier to-kontinua-modellen?",
       "options": [
-        "At alle med diagnose har det dårlig",
-        "At psykisk helse bare er fravær av sykdom",
+        "At psykisk helse og lidelse er motsatte ender av én dimensjon",
+        "At psykisk helse avgjøres av om man har en diagnose",
         "At psykisk helse og psykisk lidelse er to separate dimensjoner",
-        "At diagnoser er unødvendige"
+        "At en psykisk lidelse utelukker god psykisk helse"
       ],
       "correct": 2,
       "explain": "Corey Keyes.",
@@ -215,10 +215,10 @@
       "id": "q11",
       "text": "Hva betyr modellen for behandling?",
       "options": [
-        "At bare medisiner virker",
+        "At tiltak bør rette seg mot én årsak til plagene",
         "At tiltak bør rette seg mot flere nivåer",
-        "At samtaleterapi er unødvendig",
-        "At sosiale forhold er uviktige"
+        "At behandling bør bygge på diagnosen framfor livssituasjonen",
+        "At tiltak bør vurderes uavhengig av sosiale forhold"
       ],
       "correct": 1,
       "explain": "Helhetlig tilnærming.",
@@ -229,9 +229,9 @@
       "text": "Hva er evidensbasert praksis?",
       "options": [
         "Å kombinere forskning, klinisk erfaring og pasientens ønsker",
-        "Å bare følge egen erfaring",
-        "Å bare bruke medisiner",
-        "Å gjøre som pasienten sier"
+        "Å kombinere forskning, klinisk erfaring og terapeutens ønsker",
+        "Å kombinere forskning, medisinsk behandling og pasientens ønsker",
+        "Å kombinere klinisk erfaring, behandlingsregler og pasientens ønsker"
       ],
       "correct": 0,
       "explain": "Tre kunnskapskilder."
@@ -367,7 +367,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -396,10 +396,10 @@
         "type": "flervalg",
         "text": "Hva hører hjemme i drøftingen?",
         "options": [
-          "Bare tabeller",
-          "Bare problemstillingen",
+          "Metodevalg, beskrivelse av utvalg og datainnsamling",
+          "Problemstilling, formål og planlagt framgangsmåte",
           "Tolking, sammenligning med teori og feilkilder",
-          "Kun takk til deltakerne"
+          "Resultater, tabeller og rådata uten tolkning"
         ],
         "correct": 2,
         "explain": "Også alternative forklaringer."
@@ -512,12 +512,84 @@
           "Forklarer evidensbasert praksis som en kombinasjon av forskning, klinisk erfaring og pasientens ønsker og verdier.",
           "Nevner pasientens medvirkning i mål eller behandling."
         ]
+      },
+      {
+        "text": "Et firma selger et kosttilskudd og hevder i sosiale medier at angst bare skyldes en ubalanse i hjernen, og at produktet deres kurerer angst. De viser til én personlig historie og én fagfellevurdert studie med 18 deltakere. Forklar hvorfor det er grunn til å være kritisk til påstanden, og hva slags forskning som kan gi et sikrere kunnskapsgrunnlag.",
+        "fasit": "Firmaet har en kommersiell interesse, og én personlig historie kan ikke vise hva som gjelder for de fleste. En fagfellevurdering er en kvalitetskontroll, men en liten studie er ikke noen garanti for at påstanden stemmer. Det er bedre å undersøke flere studier, for eksempel en oversiktsartikkel eller metaanalyse, og være kritisk til en forklaring som reduserer angst til én biologisk faktor.",
+        "kriterier": [
+          "Får fram at kommersielt formål, enkelthistorie og lite utvalg gir grunn til forsiktighet; fagfellevurdering er ingen garanti.",
+          "Peker på behov for et bredere forskningsgrunnlag og/eller at forklaringen er reduksjonistisk."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En skole vil undersøke om en kort gåtur før en konsentrasjonsoppgave påvirker elevenes resultater. Beskriv et eksperiment som kan undersøke dette, og forklar hva som er den uavhengige og den avhengige variabelen.",
+        "fasit": "Elevene kan fordeles tilfeldig i to grupper: Én gruppe går en kort tur, mens kontrollgruppen sitter rolig før begge gruppene tar samme konsentrasjonsoppgave. Den uavhengige variabelen er om elevene går tur eller ikke, og den avhengige variabelen er resultatet på oppgaven. Like forhold for gruppene gjør sammenligningen mer pålitelig.",
+        "kriterier": [
+          "Beskriver en gruppe som går tur og en kontrollgruppe, og sammenligner resultatene etterpå.",
+          "Identifiserer gåtur som uavhengig variabel og konsentrasjonsresultat som avhengig variabel."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Et elevråd skal velge mellom flere forslag, men går raskt inn for det første forslaget. Medlemmene unngår kritiske spørsmål fordi de vil bevare enigheten, og en elev som er uenig, blir møtt med press. Forklar hva dette kan være et eksempel på, og hvordan det kan føre til en dårlig beslutning.",
+        "fasit": "Dette kan være gruppetenkning: Gruppen blir så opptatt av enighet at kritiske spørsmål og alternative forslag blir undertrykt. Press mot avvikeren og medlemmenes selvsensur kan gjøre at gruppen overser svakheter ved forslaget og dermed tar en dårligere beslutning.",
+        "kriterier": [
+          "Kjenner igjen gruppetenkning og forklarer at enighet blir viktigere enn kritisk vurdering.",
+          "Knytter press mot avvikere eller selvsensur til at alternativer og svakheter overses."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Et barn ser en voksen dele leker og spørre andre barn om tur. Senere gjør barnet det samme i lek, men trenger hjelp av den voksne når det blir frustrert. Forklar hvordan observasjonslæring og støtte til følelsesregulering kan bidra til barnets sosiale kompetanse.",
+        "fasit": "Gjennom modellæring kan barnet observere den voksne og etterligne hvordan man deler og samarbeider. Når den voksne hjelper barnet med sterke følelser, får barnet støtte til å roe seg og kan gradvis lære å regulere følelsene selv. Dette kan gjøre det lettere å samarbeide og ta hensyn til andre i lek.",
+        "kriterier": [
+          "Forklarer at barnet kan lære sosial atferd ved å observere og etterligne en modell.",
+          "Forklarer at støtte fra den voksne hjelper barnet med emosjonsregulering og sosial samhandling."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "To elever er først uenige om hvordan en oppgave skal fordeles. Etter hvert kaller den ene den andre lat, trekker inn gamle uenigheter og begynner å snakke med andre elever om konflikten i stedet for å snakke med den andre. Forklar hvordan konflikten har utviklet seg, og hvorfor den kan bli vanskeligere å løse.",
+        "fasit": "Konflikten har gått fra en uenighet om saken til å bli mer personlig, og problemet har blitt utvidet med gamle uenigheter. Når elevene snakker om hverandre i stedet for med hverandre, blir det vanskeligere å avklare saken. Jo lenger konflikten trappes opp, desto vanskeligere kan den være å løse.",
+        "kriterier": [
+          "Beskriver overgangen fra saklig uenighet til personifisering og/eller at problemet utvides.",
+          "Forklarer at mindre direkte samtale og opptrapping gjør konflikten vanskeligere å løse."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Homofili ble tidligere regnet som en diagnose, men ble fjernet fra det norske diagnosesystemet i 1977. Forklar hva denne endringen viser om sosial eller normativ normalitet, og hvorfor den ikke betyr at alle diagnoser bare er vilkårlige.",
+        "fasit": "Endringen viser at oppfatninger om hva som regnes som avvikende, kan påvirkes av samfunnets verdier og endre seg over tid. Samtidig bygger diagnoser også på kriterier og skal beskrive tilstander som kan gi betydelige plager eller funksjonsvansker. Eksempelet viser derfor at normalitet påvirkes av samfunnet, ikke at alle diagnoser er vilkårlige.",
+        "kriterier": [
+          "Forklarer at normer og syn på normalitet kan endres med tid og samfunnsverdier.",
+          "Får fram at diagnoser også bygger på kriterier, og at dette ikke gjør alle diagnoser vilkårlige."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En elev har en arvelig sårbarhet for psykiske vansker. I en periode opplever eleven både konflikter på skolen og lite søvn, men har også en nær venn som gir støtte. Bruk sårbarhet-stress-modellen og den biopsykososiale modellen til å forklare hvordan disse forholdene kan virke sammen.",
+        "fasit": "Den arvelige sårbarheten er en biologisk risikofaktor, mens skolekonfliktene er en sosial belastning og lite søvn en biologisk belastning. Hvis den samlede stressbelastningen blir større enn det eleven tåler, kan risikoen for vansker øke. Støtte fra en nær venn kan være en beskyttende sosial faktor som bidrar til større motstandskraft.",
+        "kriterier": [
+          "Knytter sårbarhet og belastninger fra flere nivåer til økt risiko når stresset blir for stort.",
+          "Forklarer at støtten fra vennen kan virke beskyttende."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En nyhetsartikkel hevder at en faktor gir «fire ganger så stor risiko». I studien gjaldt det 2 av 1000 personer uten faktoren og 8 av 1000 med faktoren. Forklar forskjellen mellom den relative og den absolutte risikoen, og hva en statistisk signifikant forskjell ikke forteller oss.",
+        "fasit": "Risikoen er fire ganger så stor relativt sett, men den absolutte økningen er 6 av 1000 personer. At forskjellen er statistisk signifikant, forteller ikke i seg selv hvor viktig eller stor betydning effekten har i praksis.",
+        "kriterier": [
+          "Forklarer at risikoen firedobles relativt, fra 2 til 8 av 1000.",
+          "Regner ut absolutt økning til 6 av 1000 og/eller påpeker at statistisk signifikans ikke viser praktisk betydning."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

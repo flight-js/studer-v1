@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er en algoritme?",
       "options": [
-        "Et dataprogram som bare kan skrives i Python",
+        "En tabell med mulige svar på et problem",
         "En nøyaktig trinnvis oppskrift for å løse et problem",
-        "En type graf",
-        "Et matematisk bevis"
+        "En tegning av hvordan deler i en datamaskin henger sammen",
+        "En samling data som et program bruker når det regner"
       ],
       "correct": 1,
       "explain": "En algoritme er en steg-for-steg-oppskrift. Den kan skrives på papir, som flytskjema eller som et program."
@@ -95,7 +95,7 @@
       "options": [
         "Variabel",
         "Betingelse",
-        "print",
+        "Funksjon",
         "Løkke"
       ],
       "correct": 3,
@@ -108,7 +108,7 @@
         "3",
         "4",
         "4,6",
-        "18"
+        "5"
       ],
       "correct": 0,
       "explain": "% gir resten ved divisjon. 23 = 4 · 5 + 3, så resten er 3.",
@@ -144,9 +144,9 @@
       "text": "Hvorfor tester vi et program med tall der vi kjenner svaret?",
       "options": [
         "For å se om programmet gir riktig resultat",
-        "For å gjøre programmet raskere",
-        "Fordi datamaskinen krever det",
-        "For å slippe å bruke variabler"
+        "For å se om programmet bruker minst mulig tid",
+        "For å sjekke om alle variablene har navn",
+        "For å bestemme hvor mange ganger løkka kjører"
       ],
       "correct": 0,
       "explain": "Kjenner du svaret på forhånd, kan du sammenligne og oppdage om programmet regner feil."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva kalles en løkke som aldri stopper?",
       "options": [
-        "En for-løkke",
+        "En telleløkke",
         "En evig løkke",
-        "En betingelse",
-        "En sekvens"
+        "En betinget løkke",
+        "En nøstet løkke"
       ],
       "correct": 1,
       "explain": "Hvis betingelsen i en while-løkke aldri blir usann, fortsetter løkka i det uendelige."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva gjør linjen sum = sum + n inne i en løkke?",
       "options": [
-        "Setter sum lik n",
-        "Sjekker om sum er lik n",
-        "Skriver ut summen",
+        "Erstatter verdien i sum med n",
+        "Sammenligner verdien i sum med n",
+        "Viser verdien av sum på skjermen",
         "Legger n til den verdien sum allerede har"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hvilken metode er ofte nyttig når du feilsøker?",
       "options": [
-        "Slette hele programmet",
+        "Skrive om hele programmet før du leter etter feilen",
         "Skrive ut verdien av variablene underveis",
-        "Bytte programmeringsspråk",
-        "Kjøre programmet raskere"
+        "Gjette hvilken linje som feiler uten å undersøke verdiene",
+        "Legge til flere kommandoer uten å teste endringene"
       ],
       "correct": 1,
       "explain": "Ved å skrive ut mellomverdier ser du hvor programmet begynner å oppføre seg annerledes enn du venter."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva betyr det at en algoritme er forbedret?",
       "options": [
-        "Den har fått flere linjer",
-        "Den bruker flere variabler",
-        "Den gir samme riktige svar, men er for eksempel raskere eller gjelder flere tilfeller",
-        "Den gir et annet svar enn før"
+        "Den løser problemet ved å bruke flere linjer og variabler",
+        "Den gir et annet svar enn algoritmen gjorde før",
+        "Den løser problemet riktig og blir for eksempel raskere eller mer generell",
+        "Den bruker færre kommandoer, selv om svaret blir feil"
       ],
       "correct": 2,
       "explain": "En forbedret algoritme løser fortsatt problemet riktig, men mer effektivt, oversiktlig eller generelt."
@@ -342,7 +342,7 @@
           "n²",
           "2n + 1",
           "n(n + 1)/2",
-          "n + 100"
+          "n(n − 1)/2"
         ],
         "correct": 2,
         "explain": "n(n + 1)/2 gir for eksempel 4 · 5 / 2 = 10 for n = 4, og 1 + 2 + 3 + 4 = 10.",
@@ -353,9 +353,9 @@
         "type": "flervalg",
         "text": "Hva gjør en if-setning?",
         "options": [
-          "Gjentar kode",
-          "Lagrer en verdi",
-          "Skriver ut tekst",
+          "Lar programmet gjenta kode mens noe er sant",
+          "Lar programmet lagre en verdi i en variabel",
+          "Lar programmet skrive ut tekst på skjermen",
           "Lar programmet velge ut fra om noe er sant"
         ],
         "correct": 3,
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

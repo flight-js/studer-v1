@@ -108,8 +108,8 @@
       "options": [
         "1 cm på kartet er 50 m i virkeligheten",
         "1 cm på kartet er 500 m i virkeligheten",
-        "1 cm på kartet er 50 km i virkeligheten",
-        "Kartet viser 50 000 steder"
+        "1 cm på kartet er 5 km i virkeligheten",
+        "1 cm på kartet er 50 km i virkeligheten"
       ],
       "correct": 1,
       "explain": "50 000 cm = 500 m."
@@ -118,10 +118,10 @@
       "id": "q02",
       "text": "Hva er en svakhet ved Mercatorprojeksjonen?",
       "options": [
-        "Den gir feil vinkler",
-        "Den viser ikke hav",
+        "Den forstørrer områder nær ekvator mest",
+        "Den forminsker områder nær polene",
         "Den forstørrer områder nær polene",
-        "Den viser bare Europa"
+        "Den gjør arealene like store over hele kartet"
       ],
       "correct": 2,
       "explain": "Derfor ser Grønland altfor stort ut.",
@@ -131,22 +131,22 @@
       "id": "q03",
       "text": "Hva former en U-dal?",
       "options": [
-        "En elv",
-        "Vinden",
-        "En isbre",
-        "Havet"
+        "Elv",
+        "Vind",
+        "Isbre",
+        "Havbølger"
       ],
       "correct": 2,
-      "explain": "Elver former V-daler."
+      "explain": "Isbreer graver brede daler med U-form."
     },
     {
       "id": "q04",
       "text": "Hva er forskjellen på forvitring og erosjon?",
       "options": [
-        "Forvitring bryter ned berget der det står, erosjon flytter materialet",
-        "Det er det samme",
-        "Erosjon skjer bare i ørkener",
-        "Forvitring skjer bare under vann"
+        "Forvitring bryter ned berg på stedet; erosjon frakter bort materialet",
+        "Forvitring frakter bort berg; erosjon bryter det ned på stedet",
+        "Forvitring bygger opp berg på stedet; erosjon frakter materialet bort",
+        "Forvitring frakter berg til havet; erosjon lager nytt berg"
       ],
       "correct": 0,
       "explain": "Begge er ytre krefter."
@@ -155,10 +155,10 @@
       "id": "q05",
       "text": "Hvorfor kan vindkraftverk skape konflikt med reindrift?",
       "options": [
-        "Fordi reinen spiser vindmøllene",
-        "Fordi reindrift gir mye støy",
+        "Fordi de gjør at reinen endrer kosthold fra lav til gress",
+        "Fordi de gjør at reinen ikke lenger trenger store beiteområder",
         "Fordi de kan forstyrre reinen og stykke opp beiteområdene",
-        "Fordi reindrift bruker mye strøm"
+        "Fordi de fører til at reinen flytter fra fjellet til skogen"
       ],
       "correct": 2,
       "explain": "Reinen trenger store, sammenhengende områder."
@@ -167,10 +167,10 @@
       "id": "q06",
       "text": "Hva er et godt første steg når du drøfter en arealkonflikt?",
       "options": [
-        "Å velge side med en gang",
+        "Å bestemme hvilken arealbruk som bør prioriteres før man samler informasjon",
         "Å finne ut hvem aktørene er og hvilke interesser de har",
-        "Å lese bare én kilde",
-        "Å se bort fra lovene"
+        "Å vurdere bare de økonomiske fordelene ved hvert forslag",
+        "Å legge fram en konklusjon før man har undersøkt ulike interesser"
       ],
       "correct": 1,
       "explain": "Deretter vurderer du argumenter, lover og konsekvenser."
@@ -179,10 +179,10 @@
       "id": "q07",
       "text": "Hvorfor kalles fisk en betinget fornybar ressurs?",
       "options": [
-        "Fordi den bare fornyes hvis den forvaltes godt",
-        "Fordi den aldri tar slutt",
-        "Fordi den ikke kan fornyes",
-        "Fordi den er en mineral"
+        "Fordi fiskebestanden fornyes bare ved god forvaltning",
+        "Fordi fiskebestander vokser uavhengig av hvor mye som fiskes",
+        "Fordi fisk formerer seg raskere enn den blir fisket",
+        "Fordi fisk dannes over svært lang geologisk tid"
       ],
       "correct": 0,
       "explain": "Overfiske kan få en bestand til å bryte sammen."
@@ -191,10 +191,10 @@
       "id": "q08",
       "text": "Hva er det økologiske fotavtrykket?",
       "options": [
-        "Et fotspor i naturen",
-        "Antall skritt man går per dag",
+        "Området som er vernet for å bevare natur og dyrearter",
+        "Arealet som trengs for å bygge boliger, veier og infrastruktur",
         "Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp",
-        "Størrelsen på et land"
+        "Mengden energi som brukes til å dekke forbruk og behandle avfall"
       ],
       "correct": 2,
       "explain": "Rike land har ofte store fotavtrykk."
@@ -203,10 +203,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
-        "Vær er forholdene nå, klima er gjennomsnittet over lang tid",
-        "Klima gjelder bare sommeren",
-        "Vær gjelder hele verden"
+        "Vær beskriver gjennomsnittet over lang tid, klima beskriver forholdene nå.",
+        "Vær beskriver forholdene nå, klima er gjennomsnittet over lang tid.",
+        "Vær gjelder et lite område, klima gjelder et stort område.",
+        "Vær beskriver én dags gjennomsnitt, klima beskriver én årstid."
       ],
       "correct": 1,
       "explain": "Klima regnes vanligvis som gjennomsnittet over 30 år."
@@ -215,9 +215,9 @@
       "id": "q10",
       "text": "Hva er klimatilpasning?",
       "options": [
-        "Å kutte utslipp",
-        "Å flytte til et varmere land",
-        "Å benekte klimaendringene",
+        "Tiltak som forbereder samfunnet på å redusere klimagassutslipp",
+        "Tiltak som måler hvor mye klimagasser samfunnet slipper ut",
+        "Tiltak som beskriver hvordan klimaet har endret seg over tid",
         "Tiltak som gjør samfunnet bedre rustet til klimaendringene"
       ],
       "correct": 3,
@@ -227,10 +227,10 @@
       "id": "q11",
       "text": "Hva avgjør hvor store konsekvenser en naturfare får?",
       "options": [
-        "Bare hvor sterk faren er",
-        "Både faren og samfunnets sårbarhet",
-        "Bare været",
-        "Bare antall innbyggere"
+        "Faren og samfunnets mediedekning",
+        "Faren og samfunnets sårbarhet",
+        "Været og befolkningens størrelse",
+        "Mediedekningen og antall varsler"
       ],
       "correct": 1,
       "explain": "Risiko = fare × sårbarhet."
@@ -239,10 +239,10 @@
       "id": "q12",
       "text": "Hva er kvikkleire?",
       "options": [
-        "Leire fra vulkaner",
-        "Sand i ørkener",
-        "Marin leire som kan bli flytende når den forstyrres",
-        "Leire brukt i keramikk"
+        "Kvikkleire er marin leire som blir fast når den forstyrres.",
+        "Kvikkleire er leire fra havbunnen som blir flytende når den tørker.",
+        "Kvikkleire er marin leire som kan bli flytende når den forstyrres.",
+        "Kvikkleire er leire fra elveavsetninger som blir flytende når den forstyrres."
       ],
       "correct": 2,
       "explain": "Kvikkleire finnes under den marine grensen fra etter istiden."
@@ -252,9 +252,9 @@
       "text": "Hva skjer i fase 2 av den demografiske overgangsmodellen?",
       "options": [
         "Dødsraten faller mens fødselsraten er høy, og befolkningen vokser raskt",
-        "Både fødsels- og dødsrate er lave",
-        "Befolkningen synker",
-        "Fødselsraten faller"
+        "Fødselsraten faller mens dødsraten er høy, og befolkningen vokser sakte",
+        "Både fødselsraten og dødsraten faller, og befolkningen vokser sakte",
+        "Fødselsraten er lav mens dødsraten er høy, og befolkningen synker"
       ],
       "correct": 0,
       "explain": "Bedre mat, rent vann og medisin senker dødsraten."
@@ -263,10 +263,10 @@
       "id": "q14",
       "text": "Hvorfor kan gjennomsnittstall for et land gi et misvisende bilde av levekårene?",
       "options": [
-        "Fordi tallene alltid er feil",
+        "Fordi gjennomsnittet viser den vanligste levekårssituasjonen i landet",
         "Fordi de kan skjule store forskjeller innad i landet",
-        "Fordi de bare gjelder byene",
-        "Fordi de bare gjelder menn"
+        "Fordi gjennomsnittet viser verdien til den midterste personen i landet",
+        "Fordi gjennomsnittet måler endringer fra ett år til det neste"
       ],
       "correct": 1,
       "explain": "Det kan være store forskjeller mellom grupper og regioner."
@@ -397,7 +397,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -428,9 +428,9 @@
         "text": "Hva er subduksjon?",
         "options": [
           "At en havplate går ned under en annen plate",
-          "At to plater glir sidelengs",
-          "At en isbre smelter",
-          "At en elv lager et delta"
+          "At en kontinentalplate går ned under en havplate",
+          "At to plater glir sidelengs forbi hverandre",
+          "At to plater beveger seg fra hverandre"
         ],
         "correct": 0,
         "explain": "Subduksjon gir dyphavsgroper og vulkaner."
@@ -455,12 +455,12 @@
         "text": "Hvilket tiltak er klimatilpasning?",
         "options": [
           "Å unngå å bygge i flom- og skredutsatte områder",
-          "Å kjøre elbil",
-          "Å spise mindre kjøtt",
-          "Å fly mindre"
+          "Å velge elbil framfor bensinbil til daglig transport",
+          "Å redusere kjøttforbruket for å kutte utslipp fra mat",
+          "Å velge tog framfor fly på lengre reiser"
         ],
         "correct": 0,
-        "explain": "De andre er utslippskutt."
+        "explain": "Elbil, mindre kjøttforbruk og færre flyreiser kutter utslipp, mens arealplanlegging er klimatilpasning."
       },
       {
         "id": "m06",
@@ -543,12 +543,85 @@
           "Identifiserer tørke som push-faktor og arbeid eller utdanning som pull-faktor.",
           "Nevner en mulig utfordring ved rask urbanisering, som slumområder og dårlige boforhold."
         ]
+      },
+      {
+        "text": "En kommune vurderer å bygge boliger på et område med marin leire. Hvordan kan kommunen bruke GIS med flere datalag og feltarbeid til å vurdere området, og hva bør den være kildekritisk til?",
+        "fasit": "Kommunen kan legge kartlag for skredfare, bebyggelse og veier oppå hverandre i GIS for å se hvilke hensyn som gjelder på stedet. Feltarbeid kan gi egne observasjoner og data. Kommunen bør undersøke hvem som har laget kartene, når de ble laget, og hva de viser eller utelater.",
+        "kriterier": [
+          "Forklarer hvordan flere GIS-datalag kan brukes til å vurdere området, for eksempel skredfare og bebyggelse.",
+          "Nevner feltarbeid eller kildekritikk av kartkildene."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "På et verdenskart ser Grønland omtrent like stort ut som Afrika, selv om Afrika i virkeligheten er rundt fjorten ganger større. Forklar hvorfor dette kan skje, og hva en annen type kartprojeksjon kan vise riktigere.",
+        "fasit": "Mercatorprojeksjonen forstørrer områder nær polene, slik at Grønland ser større ut enn det er sammenlignet med Afrika. Andre projeksjoner kan vise arealene riktigere, men fordreier gjerne formene.",
+        "kriterier": [
+          "Forklarer at Mercatorprojeksjonen forstørrer områder nær polene.",
+          "Forklarer at projeksjoner som viser riktigere arealer, kan fordreie former."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Et område i Norge har morenerygger og gamle marine leiravsetninger. Forklar hvordan istid og landheving kan ha skapt disse avsetningene, og nevn én ressurs og én mulig fare knyttet til dem.",
+        "fasit": "Isbreer la igjen morener av stein, grus og sand. Da isen smeltet, hevet landet seg, slik at gammel havbunn med marin leire ble liggende over havet. Morener kan gi jordbruksjord eller grus, mens kvikkleire i marine avsetninger kan føre til skred.",
+        "kriterier": [
+          "Knytter morener til materiale som breene la igjen, og marin leire til gammel havbunn etter landheving.",
+          "Nevner en ressurs og en mulig fare, for eksempel jordbruksjord eller grus og kvikkleireskred."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Når havisen i Arktis krymper, blir nye skipsruter og ressursutvinning mer aktuelle. Forklar hvorfor dette kan gi økonomiske muligheter, men også føre til miljømessige utfordringer.",
+        "fasit": "Nye skipsruter og utvinning av olje, gass eller andre ressurser kan gi inntekter og arbeidsplasser. Samtidig er naturen i nord sårbar for inngrep og oljesøl, og utslipp fra olje og gass bidrar til global oppvarming.",
+        "kriterier": [
+          "Nevner økonomiske muligheter som nye skipsruter, ressursutvinning, inntekter eller arbeidsplasser.",
+          "Nevner miljøutfordringer som sårbar natur, oljesøl eller utslipp som bidrar til oppvarming."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En mobil kan inneholde mineraler som er utvunnet i ett land og bearbeidet eller satt sammen i andre land. Forklar hvordan forbruk av mobilen kan påvirke mennesker og natur langt unna, og hvorfor ansvaret for bærekraft ikke bare ligger hos forbrukeren.",
+        "fasit": "Globale verdikjeder gjør at mobilforbruk kan bidra til naturinngrep eller dårlige forhold der mineralene utvinnes og produktene lages. Forbrukere kan velge å kjøpe brukt eller bruke mobilen lenge, men politiske beslutninger og næringslivets valg er også viktige for mer bærekraftig ressursbruk.",
+        "kriterier": [
+          "Knytter global verdikjede og forbruk til mulige konsekvenser for mennesker eller natur andre steder.",
+          "Nevner både forbrukervalg og ansvar hos myndigheter eller næringsliv."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et land har en befolkningspyramide med smal bunn og stor andel eldre. Hva tyder dette på om fødselstallene og befolkningsutviklingen, og nevn én utfordring samfunnet kan møte.",
+        "fasit": "En smal bunn viser at landet har få barn og lav fødselsrate, mens den store andelen eldre tyder på en aldrende befolkning. Det kan bli færre i arbeid per pensjonist og større behov for helse- og omsorgstjenester.",
+        "kriterier": [
+          "Tolk­er pyramiden som tegn på få barn/lav fødselsrate og en aldrende befolkning.",
+          "Nevner en utfordring, for eksempel færre i arbeid per pensjonist eller økt behov for omsorgstjenester."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Elever skal undersøke hvor trafikken er størst rundt skolen om morgenen. Beskriv hvordan de kan samle inn systematiske primærdata, hvordan de kan presentere funnene, og én mulig feilkilde.",
+        "fasit": "Elevene kan telle kjøretøy på flere avtalte steder til samme tid og notere sted og tidspunkt. De kan presentere resultatene i en tabell, et diagram eller på et kart. En feilkilde er at tellingen bare skjer på én dag eller påvirkes av vær og trafikkforhold.",
+        "kriterier": [
+          "Beskriver systematisk innsamling av egne data, med registrering av sted og/eller tid.",
+          "Nevner en måte å presentere dataene på og én relevant feilkilde."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Fattige land som har sluppet ut lite klimagasser, rammes ofte hardt av klimaendringer. Forklar hvorfor dette er et spørsmål om klimarettferdighet, og nevn én mulig konsekvens for en lavtliggende øystat.",
+        "fasit": "Dette er et spørsmål om klimarettferdighet fordi land som har bidratt lite til utslippene, likevel kan rammes hardt. Havnivåstigning truer lavtliggende øystater som Maldivene og Tuvalu, og kan føre til tap av landområder og levekår.",
+        "kriterier": [
+          "Forklarer skjevheten mellom små utslipp og store konsekvenser.",
+          "Nevner en relevant konsekvens, for eksempel at havnivåstigning truer landområder eller levekår på lavtliggende øyer."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

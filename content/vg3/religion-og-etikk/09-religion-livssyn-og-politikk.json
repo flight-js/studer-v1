@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva innebærer religionsfrihet?",
       "options": [
-        "At alle må tilhøre en religion",
+        "Rett til å praktisere religion privat, men ikke offentlig",
         "Rett til å tro eller ikke tro og praktisere sin religion",
-        "At staten bestemmer tro",
-        "At religion er forbudt"
+        "Rett til å velge religion, men ikke skifte tro",
+        "Rett til å tro, men plikt til å følge religiøse regler"
       ],
       "correct": 1,
       "explain": "En menneskerettighet."
@@ -94,9 +94,9 @@
       "text": "Hva kjennetegner laïcité i Frankrike?",
       "options": [
         "Streng sekularisme med religiøse symboler forbudt i offentlige skoler",
-        "Katolsk statsreligion",
-        "Full religiøs frihet i alle offentlige yrker",
-        "Islamsk lov"
+        "En ordning der katolsk kristendom har status som statsreligion",
+        "En ordning der elever får bære religiøse symboler i offentlige skoler",
+        "En ordning der religiøse regler inngår i offentlige skolers undervisning"
       ],
       "correct": 0,
       "explain": "Ulik den norske modellen.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hvordan er forholdet mellom stat og kirke i Norge i dag?",
       "options": [
-        "Streng statsreligion",
-        "Fullt skille som i Frankrike",
+        "Et fullt skille der kirken ikke har en særstilling i norsk lovverk",
+        "En statsordning der staten styrer kirkens daglige religiøse virksomhet direkte",
         "En mellomform der kirken er egen organisasjon, men har en særstilling",
-        "Religion er forbudt"
+        "En ordning der Den norske kirke mottar støtte, men andre samfunn ikke"
       ],
       "correct": 2,
       "explain": "Alle tros- og livssynssamfunn får støtte."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva er et argument for at statens representanter ikke bør bære religiøse plagg?",
       "options": [
-        "Religionsfrihet",
-        "Inkludering",
-        "Mangfold",
-        "At de bør framstå nøytrale"
+        "At religiøse plagg bør vise respekt for trosfriheten",
+        "At synlige plagg bør speile samfunnets religiøse mangfold",
+        "At slike plagg kan styrke tilliten til offentlige ansatte",
+        "At statens representanter bør framstå som nøytrale"
       ],
       "correct": 3,
       "explain": "Tilhengere viser til religionsfrihet."
@@ -131,9 +131,9 @@
       "text": "Hvordan skal KRLE-faget være?",
       "options": [
         "Objektivt, kritisk og pluralistisk",
-        "Forkynnende",
-        "Bare om kristendom",
-        "Bare om ateisme"
+        "Forkynnende, kristent og ensidig",
+        "Objektivt, kritisk og ensidig kristent",
+        "Valgfritt, trosbasert og menighetsstyrt"
       ],
       "correct": 0,
       "explain": "Krav i opplæringsloven."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva mener forskere ofte om religion som årsak til konflikt?",
       "options": [
-        "At religion er eneste årsak",
+        "At religion vanligvis er hovedårsaken, mens politikk spiller mindre rolle",
         "At religion sjelden er eneste årsak, men kan forsterke konflikter",
-        "At religion aldri har betydning",
-        "At religion alltid gir fred"
+        "At religion påvirker konflikter mest gjennom ulik tro mellom grupper",
+        "At religion kan forklare konflikter uten at maktforhold spiller inn"
       ],
       "correct": 1,
       "explain": "Land, makt og nasjonalisme spiller også inn."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvilket parti bygger politikken på kristne verdier?",
       "options": [
-        "Høyre",
-        "Senterpartiet",
+        "Venstre",
+        "Arbeiderpartiet",
         "Kristelig Folkeparti",
-        "Rødt"
+        "Fremskrittspartiet"
       ],
       "correct": 2,
       "explain": "Også andre partier henter argumenter fra livssyn.",
@@ -181,9 +181,9 @@
       "text": "Hva har skjedd i India de siste årene?",
       "options": [
         "Hindunasjonalismen har fått større politisk makt",
-        "India har blitt et islamsk land",
-        "India har innført laïcité",
-        "Religion er blitt forbudt"
+        "Hindunasjonalismen har mistet politisk innflytelse de siste årene",
+        "Indias sekulære partier har fått større makt over regjeringen",
+        "Religiøse minoriteter har fått større innflytelse på nasjonal politikk"
       ],
       "correct": 0,
       "explain": "Mange muslimer opplever diskriminering.",
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hva er en verdikonflikt?",
       "options": [
-        "En konflikt om penger",
+        "Når mennesker er uenige om fakta i en sak",
         "Når gode verdier står mot hverandre",
-        "En krig mellom religioner",
-        "En konflikt i en familie"
+        "Når grupper konkurrerer om samme økonomiske gevinst",
+        "Når en person bryter en regel i fellesskapet"
       ],
       "correct": 1,
       "explain": "For eksempel religionsfrihet mot nøytralitet."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "I hvilket land har kvinners klesdrakt utløst store protester mot religiøse ledere?",
         "options": [
-          "Norge",
+          "Afghanistan",
           "Iran",
-          "Frankrike",
-          "USA"
+          "Pakistan",
+          "Saudi-Arabia"
         ],
         "correct": 1,
         "explain": "Religiøse ledere styrer landet.",
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hvilken rettighet brukes som argument for å tillate hijab i politiet?",
         "options": [
-          "Religionsfrihet",
-          "Eiendomsrett",
-          "Stemmerett",
-          "Arverett"
+          "Retten til religionsfrihet",
+          "Rett til utdanning",
+          "Rett til helsehjelp",
+          "Rett til sosial trygghet"
         ],
         "correct": 0,
         "explain": "Og inkludering."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva betyr at KRLE skal være pluralistisk?",
         "options": [
-          "At bare én religion undervises",
-          "At faget skal forkynne",
+          "At undervisningen vektlegger én religion",
+          "At alle religioner framstilles som like sanne",
           "At mange ulike syn får plass",
-          "At faget er valgfritt"
+          "At faget unngår å omtale ikke-religiøse livssyn"
         ],
         "correct": 2,
         "explain": "Objektivt, kritisk og pluralistisk."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

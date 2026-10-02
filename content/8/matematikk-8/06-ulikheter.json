@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr x ≥ 3?",
       "options": [
-        "x er mindre enn 3",
+        "x er mindre enn eller lik 3",
         "x er større enn eller lik 3",
-        "x er lik 3",
-        "x er større enn 3, men ikke lik 3"
+        "x er større enn 3",
+        "x er lik 3 eller mindre enn 3"
       ],
       "correct": 1,
       "explain": "Tegnet ≥ betyr større enn eller lik. 3 er altså med i løsningen."
@@ -91,7 +91,7 @@
         "x > 14",
         "x < 4",
         "x > 4",
-        "x = 4"
+        "x ≥ 4"
       ],
       "correct": 2,
       "explain": "Trekk fra 5 på begge sider: x > 4. Tegnet endres ikke når du trekker fra et tall."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Når må du snu ulikhetstegnet?",
       "options": [
-        "Når du legger til et negativt tall",
-        "Når du deler på et positivt tall",
-        "Når du trekker fra et tall",
+        "Når du legger til eller trekker fra et negativt tall",
+        "Når du ganger eller deler med et positivt tall",
+        "Når du legger til eller trekker fra et tall",
         "Når du ganger eller deler med et negativt tall"
       ],
       "correct": 3,
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

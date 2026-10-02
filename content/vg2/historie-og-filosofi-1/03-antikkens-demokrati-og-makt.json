@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvem kunne delta i det athenske demokratiet?",
       "options": [
-        "Alle innbyggere",
+        "Frie, voksne menn fra andre greske bystater",
         "Frie, voksne menn med athenske foreldre",
-        "Bare adelen",
-        "Kvinner og menn"
+        "Athenske kvinner og frie, voksne menn",
+        "Frie, voksne menn med athensk mor, uavhengig av far"
       ],
       "correct": 1,
       "explain": "Kvinner, slaver og metøker var utelukket."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor var Platon kritisk til demokratiet?",
       "options": [
-        "Fordi det var for strengt",
-        "Fordi det var for lite",
-        "Blant annet fordi folkeforsamlingen dømte Sokrates til døden",
-        "Fordi det var romersk"
+        "Fordi folkeforsamlingen frikjente Sokrates etter rettssaken",
+        "Fordi demokratiet lot kvinner stemme i folkeforsamlingen",
+        "Fordi folkeforsamlingen dømte Sokrates til døden",
+        "Fordi demokratiet ga Spartas konger makt over Athen"
       ],
       "correct": 2,
       "explain": "Han ville ha filosofkonger."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva skilte en god og en dårlig styreform ifølge Aristoteles?",
       "options": [
-        "Antall ledere",
-        "Hvor rik staten var",
-        "Om lederne var menn",
-        "Om styret var for alles beste eller for egen vinning"
+        "Om styret ble valgt av borgerne eller arvet fra konger",
+        "Om staten hadde mange innbyggere eller et lite territorium",
+        "Om lederne kom fra adelen eller fra vanlige borgere",
+        "Om styret tjente alles beste eller ledernes egen vinning"
       ],
       "correct": 3,
       "explain": "Han mente en blanding var mest stabil."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva var et direkte demokrati i Athen?",
       "options": [
-        "Valgte representanter bestemte",
-        "Borgerne bestemte selv uten representanter",
-        "Kongen bestemte",
-        "Presteskapet bestemte"
+        "Valgte representanter tok avgjørelsene på vegne av borgerne",
+        "Borgerne tok selv avgjørelsene uten valgte representanter",
+        "En konge tok avgjørelsene på vegne av borgerne",
+        "Prester tok avgjørelsene på vegne av borgerne"
       ],
       "correct": 1,
       "explain": "Folkeforsamlingen."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvordan skulle den romerske republikken hindre maktmisbruk?",
       "options": [
-        "Ved å ha én konge",
-        "Ved å avskaffe senatet",
-        "Ved to konsuler valgt for ett år og maktfordeling",
-        "Ved å forby valg"
+        "Ved å la senatet utnevne én leder med lang embetstid",
+        "Ved å samle lovgivende og utøvende makt hos én konsul",
+        "Ved to konsuler med ett års embetstid og delt makt",
+        "Ved å arve embetene i mektige romerske familier"
       ],
       "correct": 2,
       "explain": "Tidsbegrensning og deling av makt."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva betydde frihet først og fremst for grekerne?",
       "options": [
-        "Individuelle rettigheter mot staten",
-        "Ytringsfrihet på nett",
-        "Fri handel",
+        "Å eie jord og kunne delta i handel",
+        "Å slippe militærtjeneste og offentlige plikter",
+        "Å kunne reise fritt mellom greske bystater",
         "Å delta i styringen og ikke være slave"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hvordan skiller moderne demokrati seg fra det athenske?",
       "options": [
         "Det er representativt og bygger på allmenn stemmerett",
-        "Det er direkte",
-        "Det utelukker kvinner",
-        "Det bruker loddtrekning til alt"
+        "Det er direkte og lar borgerne avgjøre nasjonale saker selv",
+        "Det gir stemmerett til menn, men ikke til kvinner",
+        "Det velger representanter ved loddtrekning framfor valg"
       ],
       "correct": 0,
       "explain": "Og på menneskerettigheter."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Når fikk alle frie innbyggere i Romerriket borgerrett?",
       "options": [
-        "509 f.Kr.",
+        "117 e.Kr.",
         "212 e.Kr.",
-        "27 f.Kr.",
-        "1215"
+        "380 e.Kr.",
+        "476 e.Kr."
       ],
       "correct": 1,
       "explain": "En viktig utvidelse av borgerretten.",
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hvordan ble mange embeter fordelt i Athen?",
         "options": [
-          "Ved arv",
+          "Ved valg blant borgerne",
           "Ved loddtrekning",
-          "Ved kjøp",
-          "Av kongen"
+          "Ved arv i borgernes familier",
+          "Ved utnevnelse av en konge"
         ],
         "correct": 1,
         "explain": "For å gi alle borgere samme sjanse."
@@ -323,7 +323,7 @@
           "Sparta",
           "Athen",
           "Korint",
-          "Roma"
+          "Theben"
         ],
         "correct": 0,
         "explain": "Kjent for sitt krigerske samfunn."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Når ble Sokrates dømt til døden?",
         "options": [
-          "508 f.Kr.",
-          "27 f.Kr.",
+          "431 f.Kr.",
+          "404 f.Kr.",
           "399 f.Kr.",
-          "212 e.Kr."
+          "508 f.Kr."
         ],
         "correct": 2,
         "explain": "Av en folkedomstol i Athen.",
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

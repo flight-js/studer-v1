@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "What makes video games different from books and films?",
       "options": [
-        "They have no stories",
-        "Interactivity – the player takes part and influences what happens",
-        "They have no sound",
-        "They are always short"
+        "The player watches events unfold without affecting them.",
+        "The player takes part and can influence what happens.",
+        "The game tells its story through written words and descriptions.",
+        "The game presents events without letting the player take part."
       ],
       "correct": 1,
       "explain": "The player is not just watching, but acting."
@@ -92,9 +92,9 @@
       "id": "q02",
       "text": "What is a branching narrative?",
       "options": [
-        "A story about trees",
-        "A game without a story",
-        "A cutscene",
+        "A story where the player's choices change the scene order, but not the ending",
+        "A story where the player's skill determines which ending they see",
+        "A story where the player's choices change the characters, but not the ending",
         "A story where the player's choices lead to different endings"
       ],
       "correct": 3,
@@ -105,9 +105,9 @@
       "text": "What is an NPC?",
       "options": [
         "A non-player character controlled by the game",
-        "A new player",
-        "A type of weapon",
-        "A game genre"
+        "A player character controlled by another person",
+        "A non-playable object used during a game",
+        "A network player competing in an online game"
       ],
       "correct": 0,
       "explain": "Shopkeepers and enemies are often NPCs."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "What is world-building?",
       "options": [
-        "Building houses in a game",
-        "Playing online with friends",
+        "Creating a believable character with a personal history, rules and goals",
+        "Creating a game's plot through its events, conflicts and endings",
         "Creating a believable setting with its own history, rules and culture",
-        "Designing the menu"
+        "Creating a game's visual style through its colours, shapes and effects"
       ],
       "correct": 2,
       "explain": "A rich world makes the story more believable."
@@ -128,9 +128,9 @@
       "id": "q05",
       "text": "What is a cutscene?",
       "options": [
-        "A mistake in the game",
-        "A level",
-        "A type of weapon",
+        "A short gameplay section that teaches the player new controls",
+        "A short menu screen that lets the player change game settings",
+        "A short challenge sequence that tests the player's skills",
         "A short film sequence that tells the story"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Why are loot boxes debated?",
       "options": [
-        "They are too cheap",
+        "They have been compared to subscriptions because players pay each month",
         "They have been compared to gambling",
-        "They make games shorter",
-        "They improve graphics"
+        "They have been compared to advertisements because they show new items",
+        "They have been compared to skill tests because rewards depend on practice"
       ],
       "correct": 1,
       "explain": "Players pay for random rewards without knowing what they will get.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "What are game mechanics?",
       "options": [
-        "The people who repair consoles",
-        "The story of a game",
-        "The systems that make the game work, like points, levels and health",
-        "The music"
+        "They are the story elements that shape play, such as characters and dialogue",
+        "They are the visual elements that shape play, such as colours and textures",
+        "They are the systems that shape play, such as points, levels and health",
+        "They are the sound elements that shape play, such as music and effects"
       ],
       "correct": 2,
       "explain": "Mechanics decide how the player interacts with the game."
@@ -166,9 +166,9 @@
       "text": "What purpose does an educational game have?",
       "options": [
         "To teach",
-        "To sell weapons",
-        "To replace school",
-        "To make players angry"
+        "To entertain",
+        "To advertise",
+        "To compete"
       ],
       "correct": 0,
       "explain": "Educational games are used in many schools."
@@ -177,9 +177,9 @@
       "id": "q09",
       "text": "What does GG mean in gaming?",
       "options": [
-        "Get going",
-        "Great graphics",
-        "Game glitch",
+        "Game guide",
+        "Gaming group",
+        "Get gear",
         "Good game"
       ],
       "correct": 3,
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "What is e-sports?",
       "options": [
-        "Sports on TV",
+        "Watching professional sports competitions on television",
         "Competitive gaming, often with big tournaments",
-        "Exercise games",
-        "Electronic sports equipment"
+        "Playing fitness games with motion controls",
+        "Using electronic equipment for outdoor sports"
       ],
       "correct": 1,
       "explain": "The best e-sports players are professionals.",
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "What is gameplay?",
         "options": [
-          "The rules and actions the player can take",
-          "The game's price",
-          "The box cover",
-          "The credits"
+          "The rules and actions available to the player",
+          "The story and dialogue presented to the player",
+          "The graphics and sounds presented to the player",
+          "The characters and setting presented to the player"
         ],
         "correct": 0,
         "explain": "Gameplay is what you actually do in the game."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Which genre lets the player develop a character in a story world?",
         "options": [
-          "Puzzle",
-          "Sports",
+          "First-person shooter (FPS)",
+          "Real-time strategy game",
           "Role-playing game (RPG)",
-          "Racing"
+          "Action-adventure game"
         ],
         "correct": 2,
         "explain": "In RPGs, characters grow stronger through the story.",
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "What does representation in games mean?",
         "options": [
-          "How the game is sold",
+          "How a game is marketed to different groups",
           "How different groups are shown",
-          "How fast the game runs",
-          "How many levels there are"
+          "How different groups communicate while playing",
+          "How different groups are organised into teams"
         ],
         "correct": 1,
         "explain": "Representation affects how players see different groups."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

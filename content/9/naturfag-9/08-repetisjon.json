@@ -81,8 +81,7 @@
     },
     {
       "term": "Albedo",
-      "def": "Hvor mye sollys en flate reflekterer. Snø og is har høy albedo.",
-      "niva": "eksempel"
+      "def": "Hvor mye sollys en flate reflekterer. Snø og is har høy albedo."
     },
     {
       "term": "Signal",
@@ -94,7 +93,8 @@
     },
     {
       "term": "Utviklingsprosess",
-      "def": "Behov → plan → prototype → test → forbedring."
+      "def": "Behov → plan → prototype → test → forbedring.",
+      "niva": "eksempel"
     },
     {
       "term": "Simulering",
@@ -115,9 +115,9 @@
       "id": "q01",
       "text": "Hva er naturlig utvalg?",
       "options": [
-        "At mennesker velger ut dyr",
-        "At alle individer overlever",
-        "At de sterkeste alltid vinner slåsskamper",
+        "At miljøet gir individer egenskaper de trenger for å overleve",
+        "At individer med ervervede egenskaper får flere avkom",
+        "At individer med størst kropp får flest avkom",
         "At individer med gunstige egenskaper overlever og får flere avkom"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "id": "q02",
       "text": "Hvordan kan en ny art oppstå?",
       "options": [
-        "Ved at et individ bestemmer seg",
-        "Over én natt",
-        "Ved at dyr lærer nye triks",
+        "Ved at én organisme får en mutasjon og blir en ny art",
+        "Ved at dyr lærer nye egenskaper og gir dem videre til avkom",
+        "Ved at en gruppe endrer seg når miljøet skifter på kort tid",
         "Ved at grupper blir skilt og utvikler seg hver for seg over lang tid"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q03",
       "text": "Hvilke tre nivåer omfatter biologisk mangfold?",
       "options": [
-        "Planter, dyr og sopp",
+        "Planter, dyr og mikroorganismer",
         "Arter, genetisk variasjon og økosystemer",
-        "Land, luft og vann",
-        "Fjell, skog og hav"
+        "Produsenter, forbrukere og nedbrytere",
+        "Individer, bestander og næringskjeder"
       ],
       "correct": 1,
       "explain": "Biologisk mangfold handler om artsmangfold, genetisk mangfold og mangfold av økosystemer."
@@ -151,10 +151,10 @@
       "id": "q04",
       "text": "Hva regnes som den største trusselen mot naturmangfoldet i Norge?",
       "options": [
-        "Vulkanutbrudd",
-        "Meteorer",
+        "Klimaendringer",
+        "Forurensning",
         "Arealendringer",
-        "For mye regn"
+        "Fremmede arter"
       ],
       "correct": 2,
       "explain": "Nedbygging av natur til veier, hytter og industri fjerner leveområder for mange arter."
@@ -163,10 +163,10 @@
       "id": "q05",
       "text": "Hva sier loven om energibevaring?",
       "options": [
-        "Energi kan skapes av ingenting",
+        "Energi kan bli skapt når en generator lager strøm",
         "Energi kan ikke skapes eller forsvinne, bare omdannes",
-        "Energi forsvinner når vi bruker den",
-        "Energi finnes bare i strøm"
+        "Energi blir borte når den sprer seg som varme",
+        "Energi kan oppstå når et batteri lades opp"
       ],
       "correct": 1,
       "explain": "Den totale mengden energi er konstant. Den bare skifter form."
@@ -177,7 +177,7 @@
       "options": [
         "80 %",
         "5 %",
-        "100 %",
+        "50 %",
         "20 %"
       ],
       "correct": 3,
@@ -187,9 +187,9 @@
       "id": "q07",
       "text": "Hvilken gass slippes ut når fossile brensler brennes, og forsterker drivhuseffekten?",
       "options": [
-        "Oksygen",
-        "Nitrogen",
-        "Helium",
+        "Karbonmonoksid",
+        "Svoveldioksid",
+        "Nitrogendioksid",
         "Karbondioksid"
       ],
       "correct": 3,
@@ -200,9 +200,9 @@
       "text": "Hva betyr energieffektivisering?",
       "options": [
         "Å få samme nytte med mindre energi",
-        "Å bruke mer energi",
-        "Å bygge flere kraftverk",
-        "Å skru av alt strøm"
+        "Å få mer nytte ved å bruke mer energi",
+        "Å produsere mer strøm ved å bygge flere kraftverk",
+        "Å bruke mindre strøm ved å slutte med en aktivitet"
       ],
       "correct": 0,
       "explain": "Eksempler er etterisolering, LED-lys og varmepumper."
@@ -211,10 +211,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
-        "Vær er hvordan det er nå, klima er gjennomsnittet over lang tid",
-        "Klima er været i morgen",
-        "Vær gjelder hele jorda, klima ett sted"
+        "Vær beskriver forholdene nå, mens klima beskriver været neste uke.",
+        "Vær beskriver forholdene nå, mens klima er gjennomsnittsværet over lang tid.",
+        "Vær er gjennomsnittet over lang tid, mens klima beskriver forholdene nå.",
+        "Vær gjelder et stort område, mens klima gjelder et lite område."
       ],
       "correct": 1,
       "explain": "Klima er gjennomsnittsværet over rundt 30 år."
@@ -223,9 +223,9 @@
       "id": "q10",
       "text": "Hva er hovedårsaken til den forsterkede drivhuseffekten?",
       "options": [
-        "Flere vulkanutbrudd",
-        "At sola har blitt mye sterkere",
-        "Endringer i jordbanen",
+        "Endringer i mengden sollys som når jorda",
+        "Naturlige utslipp fra vulkaner og skogbranner",
+        "Endringer i jordas bane rundt sola",
         "Menneskeskapte utslipp av drivhusgasser"
       ],
       "correct": 3,
@@ -235,10 +235,10 @@
       "id": "q11",
       "text": "Hva gjør senderen i et teknologisk system?",
       "options": [
-        "Fanger opp signalet",
+        "Gjør signal om til informasjon for mottakeren",
         "Gjør informasjon om til et signal",
-        "Lagrer strøm",
-        "Måler temperatur"
+        "Lagrer informasjon i et digitalt minne",
+        "Måler temperaturen i rommet omkring"
       ],
       "correct": 1,
       "explain": "Senderen omformer informasjon til et signal som kan overføres."
@@ -247,10 +247,10 @@
       "id": "q12",
       "text": "Hva er et digitalt signal?",
       "options": [
-        "Et signal som varierer jevnt",
-        "Et lydsignal",
-        "Et signal i en fiber",
-        "Informasjon gjort om til ett-tall og null-tall"
+        "Informasjon vist som en jevn kurve over tid",
+        "Informasjon kodet med varierende lydstyrke",
+        "Informasjon sendt som en jevnt varierende spenning",
+        "Informasjon kodet som 0 og 1"
       ],
       "correct": 3,
       "explain": "Digitale signaler består av binære verdier og er mindre utsatt for støy.",
@@ -261,9 +261,9 @@
       "text": "Hva er en simulering?",
       "options": [
         "Et program som etterligner en prosess etter bestemte regler",
-        "Et vanlig forsøk på lab",
-        "En type sensor",
-        "Et regneark uten data"
+        "Et forsøk som undersøker en prosess under bestemte forhold",
+        "En måler som registrerer en prosess med faste mellomrom",
+        "Et diagram som viser målinger fra en prosess over tid"
       ],
       "correct": 0,
       "explain": "Simuleringer lar oss utforske prosesser som er vanskelige å undersøke direkte."
@@ -272,9 +272,9 @@
       "id": "q14",
       "text": "Hvorfor må vi sammenligne en simulering med virkelige data?",
       "options": [
-        "Fordi datamaskiner alltid regner feil",
-        "Fordi det er gøy",
-        "For å gjøre programmet raskere",
+        "Fordi simuleringen bruker tilfeldige tall i alle beregninger",
+        "Fordi virkelige data er enklere å samle inn enn å beregne",
+        "Fordi sammenligningen får programmet til å regne raskere",
         "Fordi simuleringen bygger på forenklinger som kan være feil"
       ],
       "correct": 3,
@@ -410,7 +410,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -434,9 +434,9 @@
         "text": "Hva gir variasjonen som naturlig utvalg virker på?",
         "options": [
           "Mutasjoner og blanding av gener ved kjønnet formering",
-          "At dyr trener",
-          "Klimaet alene",
-          "Mat"
+          "Trening og endringer i kroppen gjennom livet",
+          "Klimaendringer og tilgang på mat i miljøet",
+          "Miljøforhold og naturlig utvalg i en populasjon"
         ],
         "correct": 0,
         "explain": "Nye genvarianter og nye kombinasjoner gir forskjeller mellom individer."
@@ -446,10 +446,10 @@
         "type": "flervalg",
         "text": "Hva betyr bærekraftig bruk av naturen?",
         "options": [
-          "Å bruke opp ressursene raskt",
-          "Å aldri bruke naturen",
+          "Å dekke dagens behov ved å bruke opp ressursene raskt",
+          "Å dekke dagens behov uten å planlegge for framtidige behov",
           "Å dekke dagens behov uten å ødelegge for framtidige generasjoner",
-          "Å bare bygge i naturen"
+          "Å dekke dagens behov ved å prioritere utbygging av naturen"
         ],
         "correct": 2,
         "explain": "Bærekraft handler om å tenke langsiktig."
@@ -472,10 +472,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er energieffektivisering?",
         "options": [
-          "Å bygge et nytt kullkraftverk",
+          "Å bytte til glødepærer",
           "Å etterisolere et hus",
-          "Å kjøre mer bil",
-          "Å bruke glødepærer"
+          "Å kjøre oftere med bil",
+          "Å bygge et kullkraftverk"
         ],
         "correct": 1,
         "explain": "Bedre isolasjon gir samme varme med mindre energi."
@@ -486,9 +486,9 @@
         "text": "Hva slags stråling holder drivhusgassene igjen?",
         "options": [
           "Radiobølger",
-          "Varmestråling (infrarød)",
-          "Røntgenstråling",
-          "Lydbølger"
+          "Infrarød varmestråling",
+          "Ultrafiolett stråling",
+          "Synlig lys"
         ],
         "correct": 1,
         "explain": "Jorda sender ut infrarød varmestråling, som drivhusgassene tar opp."
@@ -536,8 +536,7 @@
         "kriterier": [
           "Nevner CO₂-utslipp fra fossile brensler og kobler dem til drivhuseffekten.",
           "Nevner en lokal miljøvirkning fra en fornybar energikilde."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s05",
@@ -565,7 +564,8 @@
           "Forklarer at sensoren måler, og at mikrokontrolleren leser eller behandler verdien.",
           "Nevner en betingelse som styrer vifta.",
           "Nevner at sensoren kan kontrolleres mot et kjent måleinstrument."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -575,12 +575,89 @@
           "Forklarer at en modell er en forenkling og brukes i simulering.",
           "Forklarer hvorfor resultater bør vurderes mot virkelige data."
         ]
+      },
+      {
+        "text": "En motor får tilført 200 J energi, og 150 J blir til nyttig bevegelsesenergi. Hva er motorens virkningsgrad? Vis kort hvordan du regner.",
+        "fasit": "Virkningsgraden er nyttig energi delt på tilført energi: 150 J / 200 J = 0,75. Det tilsvarer 75 %.",
+        "kriterier": [
+          "Deler nyttig energi på tilført energi.",
+          "Oppgir virkningsgraden som 75 % eller 0,75."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Gjør om 2 kWh til joule. Vis kort hvordan du regner.",
+        "fasit": "Én kWh er 3,6 millioner joule. Derfor er 2 kWh = 2 · 3,6 millioner J = 7,2 millioner J.",
+        "kriterier": [
+          "Bruker at 1 kWh = 3,6 millioner J.",
+          "Oppgir 7,2 millioner joule, eller 7 200 000 J."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "I et vannkraftverk faller vann fra et magasin og driver en generator. Strømmen brukes senere til å få en lampe til å lyse. Forklar hvilke energiformer som er med, og hvorfor energi ikke forsvinner selv om noe av den blir mindre nyttig.",
+        "fasit": "Vannet har stillingsenergi, som blir til bevegelsesenergi når det faller, og deretter elektrisk energi i generatoren. I lampen blir strømmen blant annet til lys og varme. Energien er bevart, men noe spres som varme med lavere energikvalitet.",
+        "kriterier": [
+          "Beskriver energiovergangen fra stillingsenergi via bevegelsesenergi til elektrisk energi.",
+          "Nevner at energi omdannes til lys og varme, og at energi bevares selv om noe blir mindre nyttig."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Det planlegges en vindpark i et område som brukes til reinbeite. Forklar hvordan vindparken både kan bidra til å redusere klimaendringer og påvirke naturen og menneskene som bruker området.",
+        "fasit": "Vindkraft er fornybar og kan erstatte energi fra fossile brensler, som slipper ut CO₂. Samtidig kan vindparken beslaglegge naturområder og forstyrre reinbeite og fugler. En bærekraftig beslutning må veie energibehov og utslippskutt mot hensynet til naturen og dem som bruker området.",
+        "kriterier": [
+          "Knytter vindkraft til fornybar energi og mulige kutt i CO₂-utslipp.",
+          "Nevner minst én lokal natur- eller brukerinteresse, som arealbruk eller reinbeite.",
+          "Viser at fordeler og ulemper må veies mot hverandre."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Et våtmarksområde bygges ned for å gi plass til boliger. Forklar hvordan dette kan påvirke både naturens mangfold og mennesker som bor i området.",
+        "fasit": "Når våtmark bygges ned, kan leveområder for arter forsvinne og mangfoldet av økosystemer bli mindre. Myrer lagrer karbon og kan dempe flom, så nedbygging kan også svekke disse økosystemtjenestene for mennesker.",
+        "kriterier": [
+          "Forklarer at nedbygging kan fjerne leveområder og redusere biologisk mangfold.",
+          "Nevner at myrer lagrer karbon eller demper flom, og knytter dette til nytte for mennesker."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Du sender en talemelding fra en mobiltelefon til en trådløs høyttaler. Forklar hvordan informasjonen går fra sender til mottaker, og hvilken rolle energi har i overføringen.",
+        "fasit": "Mobilen gjør informasjonen i talemeldingen om til et radiosignal som sendes gjennom en kanal til høyttaleren. Høyttaleren mottar signalet og gjør informasjonen om til lyd. Elektrisk energi driver senderen, og informasjonen overføres som elektromagnetiske radiobølger.",
+        "kriterier": [
+          "Beskriver sender, kanal og mottaker i riktig rekkefølge.",
+          "Nevner radiobølger som signal og forklarer at mottakeren gjør signalet om til lyd.",
+          "Knytter elektrisk energi til driften av senderen eller signaloverføringen."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En gruppe undersøker om snøforhold påvirker tilgangen på reinbeite. De bruker automatiske målinger over tid og snakker med samiske reindriftsutøvere. Forklar hvordan disse kunnskapskildene kan utfylle hverandre og bidra til bærekraftig bruk av området.",
+        "fasit": "Automatiske målinger kan vise hvordan forholdene endrer seg over tid, mens reindriftsutøvernes tradisjonelle kunnskap kan gi forståelse av snø, beite og reinens atferd. Sammen kan kunnskapskildene gi et bedre grunnlag for å forstå endringer og forvalte beitet slik at naturen og ressursene også ivaretas for framtiden.",
+        "kriterier": [
+          "Forklarer hva målinger over tid kan bidra med.",
+          "Forklarer hva tradisjonell samisk kunnskap kan bidra med.",
+          "Knytter kombinasjonen til bærekraftig forvaltning av beite eller naturressurser."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Menneskets arm, flaggermusens vinge og hvalens luffe har en lik grunnleggende benstruktur, selv om de brukes på ulike måter. Nært beslektede arter har også mer likt DNA. Forklar hva disse observasjonene kan fortelle om artenes utvikling.",
+        "fasit": "Den like grunnleggende benstrukturen tyder på at organene har utviklet seg fra en felles struktur hos forfedre. At nært beslektede arter har mer likt DNA, støtter også at de har felles forfedre. Forskjellene i organenes funksjon kan ha utviklet seg over tid.",
+        "kriterier": [
+          "Knytter lik benstruktur til homologe organer og mulig felles opphav.",
+          "Forklarer at likt DNA hos nært beslektede arter støtter felles forfedre."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

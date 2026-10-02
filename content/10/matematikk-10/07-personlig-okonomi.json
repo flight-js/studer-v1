@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på budsjett og regnskap?",
       "options": [
-        "Budsjett er en plan, regnskap viser hva som faktisk skjedde",
-        "De betyr det samme",
-        "Regnskap er en plan, budsjett viser det som skjedde",
-        "Budsjett gjelder bare bedrifter"
+        "Budsjett er en plan, mens regnskapet viser de faktiske tallene.",
+        "Budsjett viser faktiske tall, mens regnskapet viser planlagte tall.",
+        "Budsjett viser planlagte inntekter, mens regnskapet viser planlagte utgifter.",
+        "Budsjett viser forventede utgifter, mens regnskapet viser forventede inntekter."
       ],
       "correct": 0,
       "explain": "Budsjettet lages på forhånd. Regnskapet føres underveis og viser de faktiske tallene."
@@ -89,7 +89,7 @@
       "text": "En vare kjøpes inn for 400 kr og selges for 600 kr. Hvor mange prosent av innkjøpsprisen er fortjenesten?",
       "options": [
         "33 %",
-        "20 %",
+        "40 %",
         "150 %",
         "50 %"
       ],
@@ -103,7 +103,7 @@
         "6500 kr",
         "5150 kr",
         "6720 kr",
-        "8000 kr"
+        "7500 kr"
       ],
       "correct": 2,
       "explain": "5000 · 1,03¹⁰ ≈ 6720 kr. Med renters rente blir det mer enn 5000 + 10 · 150 = 6500 kr."
@@ -114,8 +114,8 @@
       "options": [
         "Like store terminbeløp",
         "Like store avdrag",
-        "Ingen renter",
-        "Renten stiger hvert år"
+        "Synkende avdrag",
+        "Stigende terminbeløp"
       ],
       "correct": 1,
       "explain": "I et serielån er avdragene like. Renten synker etter hvert, så terminbeløpet blir mindre."
@@ -126,8 +126,8 @@
       "options": [
         "Like store terminbeløp",
         "Like store avdrag",
-        "At hele lånet betales til slutt",
-        "At det ikke har gebyrer"
+        "Synkende terminbeløp",
+        "Stigende avdrag"
       ],
       "correct": 0,
       "explain": "Terminbeløpet er likt hele tiden. Fordelingen mellom renter og avdrag endrer seg."
@@ -137,9 +137,9 @@
       "text": "Hvilken rente bør du bruke når du sammenligner to lån?",
       "options": [
         "Nominell rente",
-        "Den laveste renten i reklamen",
+        "Styringsrente",
         "Effektiv rente",
-        "Styringsrenten"
+        "Flytende rente"
       ],
       "correct": 2,
       "explain": "Effektiv rente tar med gebyrer og andre kostnader og viser hva lånet egentlig koster."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er et terminbeløp?",
       "options": [
-        "Bare rentene",
+        "Beløpet du betaler i renter",
         "Summen av avdrag og renter",
-        "Hele lånebeløpet",
-        "Gebyret for å ta opp lånet"
+        "Hele lånebeløpet før nedbetaling",
+        "Avdraget uten rentekostnad"
       ],
       "correct": 1,
       "explain": "Terminbeløpet er det du betaler hver termin, altså avdrag pluss renter."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvorfor lønner det seg ofte å begynne å spare tidlig?",
       "options": [
-        "Fordi renten er høyere for unge",
-        "Fordi banken gir bonus til unge",
-        "Fordi renters rente får lengre tid til å virke",
-        "Fordi det ikke er skatt på sparing"
+        "Fordi renten på sparekontoen øker automatisk med antall år.",
+        "Fordi renter først legges til når hele spareperioden er over.",
+        "Fordi renters rente får lengre tid til å virke.",
+        "Fordi banken gir et ekstra beløp når du sparer i mange år."
       ],
       "correct": 2,
       "explain": "Jo flere år pengene står, desto flere ganger ganges de med vekstfaktoren, og veksten blir større."
@@ -187,7 +187,7 @@
         "Renter",
         "Avdrag",
         "Gebyrer",
-        "Like mye til begge"
+        "Forsikring"
       ],
       "correct": 0,
       "explain": "Restlånet er størst i starten, så rentene er høye. Etter hvert går en større del til avdrag."
@@ -349,9 +349,9 @@
         "text": "Hva er avdrag?",
         "options": [
           "Nedbetalingen av selve lånet",
-          "Prisen for å låne",
-          "Et gebyr",
-          "Renten på sparepenger"
+          "Kostnaden for å låne penger",
+          "Et gebyr for å betale terminene",
+          "Renten du får på sparepengene"
         ],
         "correct": 0,
         "explain": "Avdraget er den delen som reduserer restlånet. Rentene er prisen for å låne."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

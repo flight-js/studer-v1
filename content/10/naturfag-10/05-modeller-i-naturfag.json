@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er en modell i naturfag?",
       "options": [
-        "En eksakt kopi av virkeligheten",
+        "En nøyaktig kopi av naturen med alle detaljer med",
         "En forenklet framstilling som hjelper oss å forklare og forutsi",
-        "En person som viser klær",
-        "Et forsøk på lab"
+        "Et forsøk der naturfenomener undersøkes under kontrollerte forhold",
+        "En observasjon som registrerer et fenomen uten å forklare det"
       ],
       "correct": 1,
       "explain": "Modeller forenkler for å gjøre noe forståelig og for å kunne forutsi."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hvilken er en matematisk modell?",
       "options": [
-        "En globus",
-        "En tegning av en celle",
+        "Formelen s = v + t",
+        "Formelen s = t ÷ v",
         "Formelen s = v · t",
-        "En kulemodell av vann"
+        "Formelen s = v ÷ t"
       ],
       "correct": 2,
       "explain": "Matematiske modeller beskriver sammenhenger med formler."
@@ -106,9 +106,9 @@
       "text": "Hva er en begrensning ved en globus?",
       "options": [
         "Den viser ikke høyden på fjellene",
-        "Den viser ikke kontinentene",
-        "Den er ikke rund",
-        "Den viser ikke havene"
+        "Den viser ikke plasseringen av kontinentene",
+        "Den viser ikke hvor havene ligger",
+        "Den viser ikke jordas kuleform"
       ],
       "correct": 0,
       "explain": "Globusen forenkler bort blant annet høydeforskjeller."
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hvorfor endres modeller over tid?",
       "options": [
-        "Fordi forskere liker å forandre ting",
+        "Fordi forskere ønsker å bruke nyere navn på modellene",
         "Fordi nye observasjoner ikke passer med den gamle modellen",
-        "Fordi gamle modeller blir slitt",
-        "De endres aldri"
+        "Fordi modeller mister nøyaktighet når de blir gamle",
+        "Fordi nyere modeller ser mer realistiske ut på bilder"
       ],
       "correct": 1,
       "explain": "Når en modell ikke kan forklare nye observasjoner, må den forbedres eller erstattes."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva slags modell er en værmelding basert på?",
       "options": [
-        "En fysisk modell",
-        "En tegning",
+        "En fysisk modell av atmosfæren i et laboratorium",
+        "En tegnet modell som viser skyene over et område",
         "En datamodell som simulerer atmosfæren",
-        "En begrepsmodell uten tall"
+        "En begrepsmodell som forklarer været med ord"
       ],
       "correct": 2,
       "explain": "Meteorologer bruker store datamodeller som regner på atmosfæren."
@@ -156,8 +156,8 @@
       "options": [
         "Niels Bohr",
         "John Dalton",
-        "Isaac Newton",
-        "Charles Darwin"
+        "J.J. Thomson",
+        "Ernest Rutherford"
       ],
       "correct": 0,
       "explain": "Bohrs modell fra 1913 forklarte blant annet lysspektre fra atomer.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva bør du alltid spørre om når du bruker en modell?",
       "options": [
-        "Hvem har laget den?",
-        "Hvor mye koster den?",
-        "Hvor stor er den?",
+        "Hvem laget modellen, og når ble den laget?",
+        "Hvilke materialer ble brukt, og hvor ble den laget?",
+        "Hvor stor er modellen, og hvor mye veier den?",
         "Hva viser den godt, og hva viser den ikke?"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva beskriver partikkelmodellen?",
       "options": [
-        "Hvordan stoffer består av partikler som oppfører seg ulikt i faste stoffer, væsker og gasser",
-        "Hvordan planeter går rundt sola",
-        "Hvordan celler deler seg",
-        "Hvordan vær oppstår"
+        "Hvordan stoffer består av partikler og hvordan de oppfører seg i ulike tilstander",
+        "Hvordan planeter beveger seg rundt sola og påvirker hverandres baner",
+        "Hvordan celler vokser, deler seg og bygger opp levende organismer",
+        "Hvordan vær dannes når luftmasser beveger seg og temperaturen endres"
       ],
       "correct": 0,
       "explain": "Partikkelmodellen forklarer blant annet smelting, fordamping og trykk."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva så Thomson for seg etter at han oppdaget elektronet?",
       "options": [
-        "Atomet som en udelelig kule",
-        "Atomet som en positiv masse med elektroner i, som rosiner i en kake",
-        "Elektroner i skall",
-        "En tett kjerne med tomrom rundt"
+        "Atomet som en udelelig, massiv kule uten mindre bestanddeler",
+        "Atomet som positiv masse med elektroner inni, som rosiner i en kake",
+        "Atomet med elektroner i bestemte skall rundt en kjerne",
+        "Atomet med en liten, tett kjerne og elektroner langt utenfor"
       ],
       "correct": 1,
       "explain": "Thomsons modell kalles ofte rosinbollemodellen.",
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hvilken modell er en fysisk modell?",
         "options": [
-          "s = v · t",
+          "En formel som beskriver avstand, fart og tid",
           "En kulemodell av et molekyl",
-          "En begrepsdefinisjon",
-          "Et regneark"
+          "En skriftlig forklaring av hva et molekyl er",
+          "Et diagram som viser sammenhengen mellom fart og tid"
         ],
         "correct": 1,
         "explain": "Fysiske modeller kan tas og føles på."
@@ -336,9 +336,9 @@
         "text": "Hva er en begrensning ved en tegning av et atom med elektroner i sirkelbaner?",
         "options": [
           "Elektronene beveger seg ikke egentlig i slike baner",
-          "Den viser ikke kjernen",
-          "Den er for stor",
-          "Den har ingen begrensninger"
+          "Elektronene beveger seg egentlig i faste, elliptiske baner rundt kjernen",
+          "Elektronene ligger egentlig stille i skall rundt kjernen",
+          "Elektronene beveger seg egentlig inne i kjernen sammen med protonene"
         ],
         "correct": 0,
         "explain": "Modellen er nyttig, men dagens kvantemekaniske modell viser at elektronene ikke har faste baner.",
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

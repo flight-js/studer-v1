@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?",
       "options": [
-        "Fordi banefarten øker",
+        "Fordi banefarten øker gjennom svingen",
         "Fordi retningen på farten endres hele tiden",
-        "Fordi det ikke virker krefter",
-        "Det har ikke akselerasjon"
+        "Fordi retningen på farten er konstant",
+        "Fordi farten peker inn mot sentrum"
       ],
       "correct": 1,
       "explain": "Akselerasjonen peker mot sentrum."
@@ -89,9 +89,9 @@
       "text": "Hva er sentripetalakselerasjonen?",
       "options": [
         "a = v² / r",
-        "a = v · r",
-        "a = r / v",
-        "a = 2πr"
+        "a = v² · r",
+        "a = v / r",
+        "a = 2πr / T"
       ],
       "correct": 0,
       "explain": "Rettet mot sentrum."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva gir sentripetalkraften for en satellitt i bane?",
       "options": [
-        "Friksjon",
-        "Normalkraft",
-        "Snordrag",
-        "Gravitasjonen"
+        "Normalkraften",
+        "Friksjonskraften",
+        "Luftmotstanden",
+        "Gravitasjonskraften"
       ],
       "correct": 3,
       "explain": "Jorda trekker satellitten mot sentrum."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor kjenner du deg tyngre i bunnen av en loop?",
       "options": [
-        "Fordi tyngden øker",
-        "Fordi normalkraften er større enn mg",
-        "Fordi farten er null",
-        "Fordi du er lettere"
+        "Fordi tyngdekraften øker når du nærmer deg bunnen",
+        "Fordi normalkraften er større enn tyngden",
+        "Fordi normalkraften er mindre enn tyngden",
+        "Fordi sentripetalakselerasjonen peker nedover"
       ],
       "correct": 1,
       "explain": "N − mg = mv²/r."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er sentrifugalkraften?",
       "options": [
-        "En ekte kraft utover",
-        "En type friksjon",
-        "Ingen ekte kraft, men en følge av treghet",
-        "Gravitasjonen"
+        "En ekte kraft utover som skyldes treghet",
+        "En friksjonskraft utover som skyldes kontakt",
+        "En tilsynelatende kraft utover som skyldes treghet",
+        "En kraft mot sentrum som skyldes gravitasjon"
       ],
       "correct": 2,
       "explain": "Kroppen vil fortsette rett fram."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor trengs mindre friksjon i en dosert sving?",
       "options": [
-        "Fordi farten er lavere",
-        "Fordi bilen er lettere",
-        "Fordi vegen er glatt",
+        "Fordi tyngdekraften trekker bilen inn i svingen",
+        "Fordi bilens masse blir mindre på skrå vei",
+        "Fordi banefarten blir mindre når veien heller",
         "Fordi normalkraften har en komponent mot sentrum"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva skjer hvis friksjonen er for liten når en bil svinger?",
       "options": [
         "Bilen fortsetter rett fram, ut av svingen",
-        "Bilen svinger krappere",
-        "Bilen stopper",
-        "Ingenting"
+        "Bilen dreier mer inn mot sentrum av svingen",
+        "Bilen stanser før svingen er ferdig",
+        "Bilen følger sirkelbanen med samme radius"
       ],
       "correct": 0,
       "explain": "Det mangler kraft mot sentrum."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan regnes banefarten ut fra periode og radius?",
       "options": [
-        "v = r / T",
+        "v = πr / T",
         "v = 2πr / T",
-        "v = T / r",
-        "v = πr²"
+        "v = 2πT / r",
+        "v = 2πr · T"
       ],
       "correct": 1,
       "explain": "Omkrets delt på tid."
@@ -303,10 +303,10 @@
         "type": "flervalg",
         "text": "Hvilke krefter virker mot sentrum i toppen av en loop?",
         "options": [
-          "Bare normalkraften",
-          "Tyngden og normalkraften",
-          "Bare friksjonen",
-          "Ingen"
+          "Tyngdekraften og friksjonskraften",
+          "Tyngdekraften og normalkraften",
+          "Normalkraften og luftmotstanden",
+          "Tyngdekraften og luftmotstanden"
         ],
         "correct": 1,
         "explain": "Begge peker nedover."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvilken retning har sentripetalakselerasjonen?",
         "options": [
-          "Mot sentrum",
-          "Utover",
-          "Langs banen",
-          "Oppover"
+          "Mot sirkelens sentrum",
+          "Ut fra sentrum",
+          "Langs fartsvektoren",
+          "Vinkelrett på radiusen"
         ],
         "correct": 0,
         "explain": "Inn mot sirkelens sentrum."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva gir sentripetalkraften når en ball svinges i en snor?",
         "options": [
-          "Tyngden",
-          "Friksjonen",
+          "Luftmotstanden",
+          "Friksjonskraften",
           "Snordraget",
-          "Luftmotstanden"
+          "Normalkraften"
         ],
         "correct": 2,
         "explain": "Snoren trekker ballen inn."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

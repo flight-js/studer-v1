@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr «der Datenschutz»?",
       "options": [
-        "databasen",
+        "datasikkerheten",
         "personvernet",
-        "datamaskinen",
-        "dataspillet"
+        "opphavsretten",
+        "brukervilkårene"
       ],
       "correct": 1,
       "explain": "Tysklands personvernforordning heter DSGVO."
@@ -90,9 +90,9 @@
       "text": "Hvordan sier du «Jeg bruker mobilen for å chatte med venner»?",
       "options": [
         "Ich benutze das Handy, um mit Freunden zu chatten.",
-        "Ich benutze das Handy, für mit Freunden chatten.",
-        "Ich benutze das Handy, dass ich chatte.",
-        "Ich benutze das Handy zu um chatten."
+        "Ich benutze das Handy, um mit Freunden chatten.",
+        "Ich benutze das Handy, um für Freunde zu chatten.",
+        "Ich benutze das Handy, um mit Freunden zu telefonieren."
       ],
       "correct": 0,
       "explain": "um … zu = for å."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvor står «zu» i «anrufen»?",
       "options": [
-        "zu anrufen",
-        "anrufen zu",
+        "zuanrufen",
+        "anrufen-zu",
         "anzurufen",
-        "zuanrufen"
+        "an-zurufen"
       ],
       "correct": 2,
       "explain": "Ved trennbare verb står zu mellom prefiks og verb."
@@ -114,7 +114,7 @@
       "text": "Hva betyr «ohne … zu»?",
       "options": [
         "for å",
-        "i stedet for å",
+        "ved å",
         "etter å",
         "uten å"
       ],
@@ -126,9 +126,9 @@
       "text": "Hva er en god lyttestrategi?",
       "options": [
         "Lytte etter nøkkelord og hovedinnhold",
-        "Stoppe ved hvert ukjent ord",
-        "Aldri bruke teksting",
-        "Bare lytte én gang"
+        "Oversette ukjente ord mens lydsporet går",
+        "Følge tekstingen uten å høre på lyden",
+        "Skrive ned enkeltdetaljer uten sammenheng"
       ],
       "correct": 0,
       "explain": "Hovedinnholdet er viktigst."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr «Ich habe keine Lust, heute zu lernen»?",
       "options": [
-        "Jeg har lært i dag.",
+        "Jeg har ikke tid til å lese i dag.",
         "Jeg har ikke lyst til å lese i dag.",
-        "Jeg har lyst til å lese i dag.",
-        "Jeg må lese i dag."
+        "Jeg har ikke lov til å lese i dag.",
+        "Jeg har lyst til å lese senere i dag."
       ],
       "correct": 1,
       "explain": "Lust haben = ha lyst."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva betyr «süchtig»?",
       "options": [
-        "syk",
-        "sulten",
+        "tilkoblet",
+        "opptatt",
         "avhengig",
-        "sint"
+        "interessert"
       ],
       "correct": 2,
       "explain": "Handysüchtig = mobilavhengig."
@@ -163,7 +163,7 @@
       "options": [
         "for å lære",
         "uten å lære",
-        "etter å ha lært",
+        "etter at man har lært",
         "i stedet for å lære"
       ],
       "correct": 3,
@@ -175,8 +175,8 @@
       "options": [
         "ulempen",
         "fordelen",
-        "natten",
-        "nyheten"
+        "nyheten",
+        "funksjonen"
       ],
       "correct": 0,
       "explain": "der Vorteil = fordelen."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvordan innleder du en presentasjon om sosiale medier?",
       "options": [
-        "Abschließend soziale Medien.",
+        "In meiner Präsentation geht es soziale Medien.",
         "In meiner Präsentation geht es um soziale Medien.",
-        "Ich bin soziale Medien.",
-        "Soziale Medien geht es."
+        "In meiner Präsentation sind es um soziale Medien.",
+        "In meine Präsentation geht es um soziale Medien."
       ],
       "correct": 1,
       "explain": "es geht um = det handler om."
@@ -314,9 +314,9 @@
         "text": "Hva betyr «Es ist wichtig, kritisch zu sein»?",
         "options": [
           "Det er viktig å være kritisk.",
-          "Det er kritisk å være viktig.",
-          "Han er kritisk og viktig.",
-          "Det var viktig å være kritisk."
+          "Det var viktig å være kritisk.",
+          "Det er vanskelig å være kritisk.",
+          "Det er viktig å virke kritisk."
         ],
         "correct": 0,
         "explain": "zu + infinitiv etter Es ist wichtig."
@@ -328,8 +328,8 @@
         "options": [
           "Er teilt Nachrichten, um sie zu lesen.",
           "Er teilt Nachrichten, ohne sie zu lesen.",
-          "Er teilt Nachrichten, statt sie lesen.",
-          "Er teilt ohne Nachrichten lesen."
+          "Er liest Nachrichten, ohne sie zu teilen.",
+          "Er teilt Nachrichten, bevor er sie liest."
         ],
         "correct": 1,
         "explain": "ohne … zu."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva betyr «die Falschmeldung»?",
         "options": [
-          "feilmeldingen på PC",
+          "den forsinkede meldingen",
           "den falske nyheten",
-          "telefonsamtalen",
-          "kommentaren"
+          "den tekniske feilmeldingen",
+          "den personlige meldingen"
         ],
         "correct": 1,
         "explain": "Også kalt Fake News."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

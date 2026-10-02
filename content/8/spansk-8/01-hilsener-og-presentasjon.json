@@ -82,7 +82,7 @@
       "options": [
         "Hvor bor du?",
         "Hvor gammel er du?",
-        "Hvordan går det?",
+        "Hvordan har du det?",
         "Hva heter du?"
       ],
       "correct": 3,
@@ -95,7 +95,7 @@
         "Soy trece años.",
         "Tengo trece años.",
         "Estoy trece años.",
-        "Me llamo trece."
+        "Tengo trece meses."
       ],
       "correct": 1,
       "explain": "På spansk bruker man «tener» (å ha) om alder."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Når sier du «¡Buenas noches!»?",
       "options": [
-        "Om morgenen",
-        "Midt på dagen",
+        "Tidlig om morgenen",
+        "Rundt middagstid",
         "Om kvelden og natta",
-        "Aldri"
+        "Sent på ettermiddagen"
       ],
       "correct": 2,
       "explain": "Hilsenen betyr både god kveld og god natt."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva er spesielt med spørsmål og utrop på spansk?",
       "options": [
-        "De har et opp-ned-tegn i begynnelsen: ¿ og ¡",
-        "De skrives med store bokstaver",
-        "De har ingen tegn",
-        "De slutter alltid med punktum"
+        "Et opp-ned-tegn står først: ¿ eller ¡",
+        "Et vanlig tegn står først: ? eller !",
+        "Et opp-ned-tegn står sist: ¿ eller ¡",
+        "Et aksenttegn står over første bokstav."
       ],
       "correct": 0,
       "explain": "Tegnet viser at et spørsmål eller utrop begynner."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvordan uttales «ñ» i «España»?",
       "options": [
-        "Som n",
-        "Som nj",
-        "Som ng",
-        "Den er stum"
+        "Som norsk n alene",
+        "Som n og j sammen",
+        "Som ng-lyden i «sang»",
+        "Som en myk j-lyd alene"
       ],
       "correct": 1,
       "explain": "«España» uttales omtrent «espanja»."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Når bruker du «usted»?",
       "options": [
-        "Til venner",
-        "Til søsken",
-        "Til kjæledyr",
-        "Til voksne du ikke kjenner, for å være høflig"
+        "Til venner du kjenner godt, når dere snakker uformelt.",
+        "Til søsken du kjenner godt, når dere snakker uformelt.",
+        "Til klassekamerater du kjenner godt, når dere snakker uformelt.",
+        "Til voksne du ikke kjenner, når du vil være høflig."
       ],
       "correct": 3,
       "explain": "«usted» er høflighetsformen."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvordan uttales «h» i «hola»?",
       "options": [
-        "Den er stum",
-        "Som norsk h",
-        "Som k",
-        "Som j"
+        "Den uttales ikke; h-en er stum.",
+        "Den uttales som norsk h-lyd.",
+        "Den uttales som en k-lyd.",
+        "Den uttales som en j-lyd."
       ],
       "correct": 0,
       "explain": "«hola» uttales omtrent «ola»."
@@ -165,9 +165,9 @@
       "text": "Hva betyr «Soy de Noruega»?",
       "options": [
         "Jeg bor i Norge",
-        "Jeg liker Norge",
+        "Jeg reiser til Norge",
         "Jeg er fra Norge",
-        "Norge er fint"
+        "Jeg kommer til Norge"
       ],
       "correct": 2,
       "explain": "«ser de» brukes om hvor man kommer fra."
@@ -177,8 +177,8 @@
       "text": "Hva svarer du når noen sier «Gracias»?",
       "options": [
         "Por favor",
-        "Hola",
-        "Adiós",
+        "Lo siento",
+        "Hasta luego",
         "De nada"
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvordan uttales «j» i «jamón»?",
       "options": [
-        "Som norsk j",
+        "Som en norsk j-lyd foran i munnen",
         "Som en hard h-lyd bak i halsen",
-        "Som sj",
-        "Den er stum"
+        "Som sj-lyden i det norske ordet «sjø»",
+        "Som en tydelig k-lyd langt bak i halsen"
       ],
       "correct": 1,
       "explain": "Lyden ligner den tyske ch-lyden i «Bach»."
@@ -333,8 +333,8 @@
         "options": [
           "Hva heter du?",
           "Hvordan går det?",
-          "Hvor er du?",
-          "Hva er det?"
+          "Hvor gammel er du?",
+          "Hvor bor du?"
         ],
         "correct": 1,
         "explain": "Du kan svare «Muy bien, gracias»."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Encantado» eller «Encantada»?",
         "options": [
-          "Unnskyld",
-          "Ha det",
+          "Unnskyld for det som skjedde",
+          "Takk for hjelpen du ga meg",
           "Hyggelig å treffe deg",
-          "Takk for maten"
+          "Jeg må gå nå, ha det"
         ],
         "correct": 2,
         "explain": "Gutter sier «encantado», jenter sier «encantada»."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

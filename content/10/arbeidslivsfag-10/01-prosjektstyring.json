@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner et prosjekt?",
       "options": [
-        "Det varer for alltid",
+        "Det har et uklart mål, en start og en slutt",
         "Det har et tydelig mål, en start og en slutt",
-        "Det har ingen budsjett",
-        "Det gjøres alltid alene"
+        "Det har et tydelig mål, men arbeidet gjentas som en fast rutine",
+        "Det har et tydelig mål, men mangler en avgrenset slutt"
       ],
       "correct": 1,
       "explain": "Prosjekter er avgrensede oppgaver."
@@ -90,9 +90,9 @@
       "text": "Hva står T-en i SMART for?",
       "options": [
         "Teknisk",
-        "Trygt",
+        "Tilpasset",
         "Tidsbestemt",
-        "Tydelig"
+        "Tilstrekkelig"
       ],
       "correct": 2,
       "explain": "Et godt mål har en frist."
@@ -102,9 +102,9 @@
       "text": "Hva viser et Gantt-diagram?",
       "options": [
         "Oppgavene som stolper langs en tidslinje",
-        "Hvor mye penger prosjektet tjente",
-        "Hvem som er sjef",
-        "En tegning av produktet"
+        "Kostnadene som stolper langs en tidslinje",
+        "Ansvarlige personer som stolper langs en tidslinje",
+        "Produktets deler som stolper langs en tidslinje"
       ],
       "correct": 0,
       "explain": "Gantt-diagrammet gir oversikt over tidsplanen."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er forskjellen på budsjett og regnskap?",
       "options": [
-        "Det er det samme",
-        "Regnskapet lages før prosjektet",
-        "Budsjettet viser hva som faktisk ble brukt",
-        "Budsjettet er en plan, regnskapet viser hva som faktisk skjedde"
+        "Regnskapet er planen, mens budsjettet viser de faktiske inntektene og utgiftene",
+        "Budsjettet viser planlagte utgifter, mens regnskapet viser planlagte inntekter",
+        "Budsjettet viser faktiske utgifter, mens regnskapet viser planlagte utgifter",
+        "Budsjettet er planen, mens regnskapet viser de faktiske inntektene og utgiftene"
       ],
       "correct": 3,
       "explain": "Ved å sammenligne dem ser man om prosjektet holdt seg innenfor rammene."
@@ -126,9 +126,9 @@
       "text": "Hva er en milepæl?",
       "options": [
         "Et viktig delmål i prosjektet",
-        "En stein ved veien",
-        "Prosjektets budsjett",
-        "En type verktøy"
+        "En detaljert plan for oppgavene",
+        "En oversikt over prosjektets kostnader",
+        "En beskrivelse av prosjektets deltakere"
       ],
       "correct": 0,
       "explain": "Milepæler gjør det lett å se om prosjektet er i rute."
@@ -139,8 +139,8 @@
       "options": [
         "Avslutningsfasen",
         "Planleggingsfasen",
-        "Etter leveringen",
-        "Den lages aldri"
+        "Gjennomføringsfasen",
+        "Evalueringsfasen"
       ],
       "correct": 1,
       "explain": "Risikoen må vurderes før arbeidet starter."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva gjør man på et statusmøte?",
       "options": [
-        "Feirer at prosjektet er ferdig",
-        "Velger ny prosjektleder",
+        "Går gjennom hvilke oppgaver som skal startes, fordeler arbeidet og lager tidsplanen",
+        "Kontrollerer sluttresultatet, evaluerer arbeidet og skriver sluttrapporten",
         "Går gjennom hva som er gjort, hva som gjenstår og om det er problemer",
-        "Deler ut lønn"
+        "Fordeler nye arbeidsoppgaver, bestiller materialer og lager prosjektbudsjettet"
       ],
       "correct": 2,
       "explain": "Statusmøter gjør det mulig å justere planen i tide."
@@ -162,9 +162,9 @@
       "text": "Hva bør en sluttrapport inneholde?",
       "options": [
         "Mål, gjennomføring, resultat, økonomi og erfaringer",
-        "Bare bilder",
-        "Bare navnene på deltakerne",
-        "Bare budsjettet"
+        "Mål, gjennomføring, resultat, markedsføring og erfaringer",
+        "Mål, gjennomføring, resultat, økonomi og værforhold",
+        "Mål, gjennomføring, resultat, arbeidsfordeling og erfaringer"
       ],
       "correct": 0,
       "explain": "Erfaringene gjør neste prosjekt bedre."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Prosjektet ligger an til å bli forsinket. Hva er et godt tiltak?",
       "options": [
-        "Late som ingenting",
-        "Justere planen og eventuelt avtale ny frist med oppdragsgiveren",
-        "Slutte i prosjektet",
-        "Skylde på andre"
+        "Beholde planen uendret og informere oppdragsgiveren først etter fristen",
+        "Justere planen og eventuelt avtale en ny frist med oppdragsgiveren",
+        "Fjerne viktige oppgaver fra planen uten å avklare det med oppdragsgiveren",
+        "Legge inn ekstra arbeid uten å undersøke ressursene eller avtale en ny frist"
       ],
       "correct": 1,
       "explain": "Tidlig beskjed og justering gir bedre resultat."
@@ -185,9 +185,9 @@
       "id": "q10",
       "text": "Hvilket av disse er et SMART mål?",
       "options": [
-        "Vi skal lage noe fint",
-        "Vi skal jobbe mye",
-        "Vi skal gjøre vårt beste",
+        "Vi skal lage mange fuglekasser og levere dem til barnehagen innen 1. mai",
+        "Vi skal lage ti fuglekasser og levere dem til barnehagen når det passer",
+        "Vi skal lage ti ting og levere dem til barnehagen innen 1. mai",
         "Vi skal lage ti fuglekasser og levere dem til barnehagen innen 1. mai"
       ],
       "correct": 3,
@@ -322,9 +322,9 @@
         "type": "flervalg",
         "text": "Hva står M-en i SMART for?",
         "options": [
-          "Morsomt",
-          "Moderne",
-          "Mulig",
+          "Motiverende",
+          "Meningsfullt",
+          "Målrettet",
           "Målbart"
         ],
         "correct": 3,
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvem har ansvar for å fordele ressursene i et prosjekt?",
         "options": [
-          "Kunden",
+          "Oppdragsgiveren",
           "Prosjektlederen",
-          "Leverandøren",
-          "Ingen"
+          "Prosjektmedarbeideren",
+          "Leverandøren"
         ],
         "correct": 1,
         "explain": "Prosjektlederen holder oversikten."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva skjer i avslutningsfasen?",
         "options": [
-          "Man finner en idé",
-          "Man lager budsjett",
-          "Man leverer, evaluerer og skriver sluttrapport",
-          "Man kjøper materialer"
+          "Man velger prosjektidé, avklarer målet og fordeler de første oppgavene",
+          "Man lager budsjett, setter tidsplan og fordeler ressursene",
+          "Man leverer resultatet, evaluerer arbeidet og skriver en sluttrapport",
+          "Man bestiller materialer, fordeler arbeidsoppgaver og starter gjennomføringen"
         ],
         "correct": 2,
         "explain": "Avslutningen er like viktig som starten."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

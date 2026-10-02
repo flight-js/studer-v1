@@ -77,9 +77,9 @@
       "text": "Why should you narrow your topic?",
       "options": [
         "To make it clearer and easier to cover well",
-        "To make the presentation longer",
-        "To avoid using sources",
-        "Because wide topics are not allowed"
+        "To include more different ideas in the same presentation",
+        "To avoid explaining the topic in much detail",
+        "To make it easier to fill the speaking time"
       ],
       "correct": 0,
       "explain": "A specific topic lets you go deeper in a short time."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "What is a good way to start a presentation?",
       "options": [
-        "Reading your slides word for word",
-        "Saying “I don't know much about this”",
+        "Reading every slide aloud before explaining the topic",
+        "Listing your sources before introducing the main idea",
         "Asking a question or sharing a surprising fact",
-        "Showing the last slide first"
+        "Explaining all your main points before naming the topic"
       ],
       "correct": 2,
       "explain": "A hook makes the audience curious."
@@ -102,8 +102,8 @@
       "options": [
         "One",
         "Two to four",
-        "Ten or more",
-        "As many as possible"
+        "Five to seven",
+        "Eight to ten"
       ],
       "correct": 1,
       "explain": "A few well-explained points are easier to remember."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "What should good slides have?",
       "options": [
-        "Long paragraphs",
-        "Tiny text",
-        "No pictures",
+        "Many words and small, readable text",
+        "Few words and small, hard-to-read text",
+        "Long paragraphs in large, readable text",
         "Few words and large, readable text"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "What are cue cards?",
       "options": [
-        "Tickets to a show",
+        "Slides with key words shown on a screen",
         "Small cards with key words to help you remember",
-        "Slides with pictures",
-        "A type of handout"
+        "A printed sheet with the full presentation text",
+        "A list of sources handed to the audience"
       ],
       "correct": 1,
       "explain": "Cue cards help you speak freely instead of reading."
@@ -136,9 +136,9 @@
       "id": "q06",
       "text": "Which of these is a linking word?",
       "options": [
-        "Football",
-        "Slides",
         "Audience",
+        "Outline",
+        "Subject",
         "However"
       ],
       "correct": 3,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "What should the conclusion do?",
       "options": [
-        "Sum up the main points and end with something memorable",
-        "Introduce a completely new topic",
-        "Apologise for the presentation",
-        "Only list your sources"
+        "Sum up the main points and end with a memorable thought",
+        "Introduce a new main point and explain it in detail",
+        "Repeat the opening word for word and add no final message",
+        "Read out the full list of sources without summarising"
       ],
       "correct": 0,
       "explain": "A strong ending helps the audience remember your message."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Why is eye contact important?",
       "options": [
-        "It makes you speak faster",
-        "It is required by law",
+        "It helps you remember every sentence",
+        "It helps you control the order of your slides",
         "It helps you connect with the audience",
-        "It makes the presentation shorter"
+        "It helps you keep your place in your notes"
       ],
       "correct": 2,
       "explain": "Looking at people makes them feel included."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "What is the purpose of a persuasive presentation?",
       "options": [
-        "To tell a funny story",
-        "To list facts only",
-        "To describe a picture",
-        "To convince the audience of something"
+        "To explain a topic without trying to change opinions",
+        "To entertain the audience with a personal story",
+        "To describe an object using clear details",
+        "To convince the audience to accept a viewpoint"
       ],
       "correct": 3,
       "explain": "Persuasive presentations use arguments to change opinions."
@@ -185,9 +185,9 @@
       "text": "What should you think about when you consider your audience?",
       "options": [
         "What they already know and what will interest them",
-        "What they are wearing",
-        "How tall they are",
-        "Nothing at all"
+        "What the speaker already knows and what interests them",
+        "What the speaker wants to explain and what they enjoy",
+        "What the speaker has practised and what they plan to say"
       ],
       "correct": 0,
       "explain": "Adapting to your audience makes your presentation more engaging."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Which linking words introduce the conclusion?",
         "options": [
-          "First",
-          "For example",
+          "For instance",
+          "In addition",
           "To sum up",
-          "Another reason"
+          "On the other hand"
         ],
         "correct": 2,
         "explain": "“To sum up” signals that you are ending."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "What does good pace mean?",
         "options": [
-          "Not too fast, with pauses after important points",
-          "As fast as possible",
-          "Very quietly",
-          "Without stopping at all"
+          "A steady speed, with pauses after important points",
+          "A very fast speed, with pauses after important points",
+          "A steady speed, with no pauses after important points",
+          "A very slow speed, with pauses after every sentence"
         ],
         "correct": 0,
         "explain": "Pauses give the audience time to think."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "What is a hook?",
         "options": [
-          "The last slide",
+          "A closing remark that sums up the main points",
           "An opening that catches the audience's attention",
-          "A type of cue card",
-          "A question at the end"
+          "A small card with key words for the speaker",
+          "A transition that connects two main points"
         ],
         "correct": 1,
         "explain": "A good hook can be a question, a fact or a short story."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

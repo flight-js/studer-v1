@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "Hva er Toraen?",
       "options": [
-        "En bønn",
-        "En høytid",
-        "En synagoge",
+        "De ti budene",
+        "Profetenes bøker",
+        "Bønnene i synagogen",
         "De fem Mosebøkene"
       ],
       "correct": 3,
@@ -101,9 +101,9 @@
       "text": "Når er sabbaten?",
       "options": [
         "Fra fredag kveld til lørdag kveld",
-        "Hele søndagen",
-        "Fra fredag morgen til fredag kveld",
-        "Fra lørdag kveld til søndag kveld"
+        "Fra lørdag kveld til søndag kveld",
+        "Fra fredag morgen til lørdag morgen",
+        "Fra lørdag morgen til søndag morgen"
       ],
       "correct": 0,
       "explain": "I jødisk tradisjon begynner døgnet ved solnedgang."
@@ -113,7 +113,7 @@
       "text": "Hva minnes jødene under pesach?",
       "options": [
         "Ødeleggelsen av tempelet",
-        "Opprettelsen av Israel",
+        "Mottakelsen av Toraen",
         "Utgangen fra Egypt",
         "Skapelsen av verden"
       ],
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er Talmud?",
       "options": [
-        "Den første Mosebok",
-        "En lysestake",
-        "Det jødiske nyttåret",
-        "En samling tolkninger og diskusjoner av loven"
+        "Samling av fortellinger om patriarkene",
+        "Samling av bønner til gudstjenester",
+        "Samling av profetier om framtiden",
+        "Samling av tolkninger og diskusjoner om loven"
       ],
       "correct": 3,
       "explain": "Talmud viser hvordan loven kan forstås og brukes i hverdagen."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva betyr det at mat er kosher?",
       "options": [
-        "At den er økologisk",
-        "At den følger de jødiske matreglene",
-        "At den er laget i Israel",
-        "At den er vegetarisk"
+        "At maten følger islamske matregler",
+        "At maten følger jødiske matregler",
+        "At maten er dyrket uten sprøytemidler",
+        "At maten er laget i Israel"
       ],
       "correct": 1,
       "explain": "Reglene gjelder blant annet hvilke dyr man kan spise, og at kjøtt og melk holdes adskilt."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er diasporaen?",
       "options": [
-        "En jødisk høytid",
-        "Den jødiske kalenderen",
+        "At jødene dro ut fra Egypt med Moses",
+        "At jødene mottok Toraen på Sinai",
         "At jødene har levd spredt over hele verden",
-        "Et jødisk skrift"
+        "At jødene bygde tempelet i Jerusalem"
       ],
       "correct": 2,
       "explain": "Etter år 70 bodde de fleste jøder utenfor Israel."
@@ -163,7 +163,7 @@
         "«Hør, Israel! Herren er vår Gud, Herren er én»",
         "«Fader vår, du som er i himmelen»",
         "«Det finnes ingen gud utenom Gud»",
-        "«Herren er min hyrde»"
+        "«Herren er min hyrde, jeg mangler ingenting»"
       ],
       "correct": 0,
       "explain": "Bønnen uttrykker troen på én Gud."
@@ -174,8 +174,8 @@
       "options": [
         "Ortodoks jødedom",
         "Reformjødedom",
-        "Hasidisme",
-        "Alle retninger"
+        "Hasidisk jødedom",
+        "Sekulær jødedom"
       ],
       "correct": 1,
       "explain": "Ortodokse jøder mener at loven ikke skal endres."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er jom kippur?",
       "options": [
-        "Den jødiske lysfesten",
-        "Det jødiske nyttåret",
+        "Lysfesten, en viktig vinterhøytid",
+        "Nyttårsdagen, starten på året",
         "Forsoningsdagen, årets helligste dag",
-        "Minnedagen for Holocaust"
+        "Holocaustdagen, en minnedag"
       ],
       "correct": 2,
       "explain": "På jom kippur faster man og ber om tilgivelse."
@@ -354,9 +354,9 @@
         "text": "Hva skjedde med tempelet i Jerusalem i år 70?",
         "options": [
           "Det ble ødelagt av romerne",
-          "Det ble bygd",
-          "Det ble flyttet til Roma",
-          "Det ble solgt"
+          "Det ble ødelagt av babylonerne",
+          "Det ble bygd av romerne",
+          "Det ble ødelagt av grekerne"
         ],
         "correct": 0,
         "explain": "Klagemuren i Jerusalem er en rest av tempelområdet."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

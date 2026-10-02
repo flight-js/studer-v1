@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en modell i markedsføring?",
       "options": [
-        "En person i reklame",
+        "En detaljert kopi av virkeligheten",
         "En forenklet framstilling av virkeligheten",
-        "En lov",
-        "Et produkt"
+        "En forklaring på hvordan virkeligheten bør være",
+        "En samling fakta om en bestemt virksomhet"
       ],
       "correct": 1,
       "explain": "Gir et rammeverk for å tenke."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvilken modell brukes til å analysere konkurransen i en bransje?",
       "options": [
-        "Porters fem krefter",
-        "AIDA",
-        "4P",
-        "STP"
+        "Porters modell for fem konkurransekrefter",
+        "AIDA-modellen for reklamekommunikasjon",
+        "4P-modellen for markedsføringens virkemidler",
+        "STP-modellen for segmentering og posisjonering"
       ],
       "correct": 0,
       "explain": "Michael Porter."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er en svakhet ved mange modeller?",
       "options": [
-        "De gir struktur",
-        "De gir felles språk",
-        "De er forenklinger som ikke alltid passer virkeligheten",
-        "De er gratis"
+        "At de gir en fast struktur for markedsføringsanalysen",
+        "At de gir et felles språk for å diskutere markedsføringsvalg",
+        "At de forenkler virkeligheten og derfor ikke alltid passer til den",
+        "At de synliggjør sentrale forhold som påvirker en virksomhet"
       ],
       "correct": 2,
       "explain": "Særlig i raske, digitale markeder."
@@ -113,7 +113,7 @@
       "id": "q04",
       "text": "Hva står STP for?",
       "options": [
-        "Salg, tid og pris",
+        "Salg, tilbud og pris",
         "Strategi, taktikk og plan",
         "Styrker, trusler og posisjon",
         "Segmentering, målgruppevalg og posisjonering"
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er primærdata?",
       "options": [
-        "Data man samler inn selv",
-        "Statistikk fra SSB",
-        "Årsrapporter",
-        "Fagbøker"
+        "Data som man samler inn selv",
+        "Data hentet fra offentlig statistikk",
+        "Data hentet fra virksomheters årsrapporter",
+        "Data hentet fra tidligere markedsundersøkelser"
       ],
       "correct": 0,
       "explain": "For eksempel en spørreundersøkelse."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor bør du være kritisk til årsrapporter?",
       "options": [
-        "Fordi de er ulovlige",
+        "Fordi de hovedsakelig bygger på offentlig statistikk",
         "Fordi de er skrevet for å gi et godt inntrykk",
-        "Fordi de alltid er feil",
-        "Fordi de er for korte"
+        "Fordi de er laget for å sammenligne ulike bransjer",
+        "Fordi de bygger på uavhengige vurderinger fra analytikere"
       ],
       "correct": 1,
       "explain": "Skill mellom fakta og markedsføring.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvilken modell hjelper med valg av vekststrategi?",
       "options": [
-        "PESTEL",
-        "AIDA",
-        "Ansoffs matrise",
-        "SWOT"
+        "PESTEL-modellen for analyse av makroomgivelsene",
+        "AIDA-modellen for analyse av reklamekommunikasjon",
+        "Ansoffs matrise for vekststrategier",
+        "SWOT-modellen for analyse av interne og eksterne forhold"
       ],
       "correct": 2,
       "explain": "Produkt og marked."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva kjennetegner en god faglig drøfting?",
       "options": [
-        "At man gjengir alle teorier",
-        "At man bare gir egen mening",
-        "At man unngår konklusjon",
+        "At man beskriver relevante teorier grundig uten å knytte dem til situasjonen",
+        "At man sammenligner mulige tiltak uten å begrunne hvilken anbefaling som passer best",
+        "At man bruker egne erfaringer som hovedgrunnlag og viser til teori etterpå",
         "At man anvender relevante teorier på situasjonen og begrunner anbefalingen"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva brukes BCG-matrisen til?",
       "options": [
         "Prioritering av produkter i en portefølje",
-        "Lederstil",
-        "Kommunikasjonsmål",
-        "Prissetting"
+        "Vurdering av konkurransekrefter i en bransje",
+        "Planlegging av produkters prisnivå i et marked",
+        "Valg av kommunikasjonskanaler for ulike målgrupper"
       ],
       "correct": 0,
       "explain": "Markedsvekst og markedsandel."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilke tre P-er kommer i tillegg i 7P-modellen?",
       "options": [
-        "Plan, profitt og press",
+        "Planlegging, posisjonering og produktutvikling",
         "Personale, prosesser og fysiske omgivelser",
-        "Pris, plass og produkt",
-        "Partner, politikk og PR"
+        "Pris, plassering og produktutforming",
+        "Partnere, påvirkning og personlig salg"
       ],
       "correct": 1,
       "explain": "Viktig for tjenester."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hvilken kilde gir dagsaktuelle eksempler?",
         "options": [
-          "Fagbøker fra 1990",
+          "Eldre fagbøker og historiske rapporter",
           "Nyheter og fagmedier",
-          "Ordbøker",
-          "Leksikon fra 1950"
+          "Ordbøker og generelle oppslagsverk",
+          "Leksikon og eldre offentlige utredninger"
         ],
         "correct": 1,
         "explain": "Aktualitet er viktig."
@@ -322,9 +322,9 @@
         "text": "Hva er en dagsaktuell problemstilling i markedsføring?",
         "options": [
           "Hvordan kunstig intelligens endrer markedsføringen",
-          "Hvordan trykkpressen ble oppfunnet",
-          "Hvordan man lager brød",
-          "Hvordan været blir"
+          "Hvordan masseproduksjon påvirket markedsføringen på 1900-tallet",
+          "Hvordan reklame ble brukt i antikkens handel",
+          "Hvordan butikkvinduer ble utviklet før radioens tid"
         ],
         "correct": 0,
         "explain": "Også grønnvasking og kjedemakt."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva står D-en i AIDA for?",
         "options": [
-          "Distribusjon",
-          "Data",
+          "Distribution – distribusjon",
+          "Decision – beslutning",
           "Desire – ønske",
-          "Design"
+          "Design – utforming"
         ],
         "correct": 2,
         "explain": "Attention, interest, desire, action.",
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva betyr «la espalda»?",
       "options": [
-        "Hodet",
-        "Magen",
+        "Nakken",
+        "Skulderen",
         "Ryggen",
-        "Beinet"
+        "Brystet"
       ],
       "correct": 2,
       "explain": "Magen heter «el estómago»."
@@ -98,9 +98,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "Me duele la cabeza.",
-        "Soy cabeza.",
-        "Mi cabeza está enferma.",
-        "Tengo la cabeza mal."
+        "Me duele el estómago.",
+        "Me duele la garganta.",
+        "Me duelen los ojos."
       ],
       "correct": 0,
       "explain": "«doler» brukes som «gustar»."
@@ -110,7 +110,7 @@
       "text": "Hva sier du til noen som er syke?",
       "options": [
         "¡Buen provecho!",
-        "¡Salud!",
+        "¡Feliz cumpleaños!",
         "¡Buenas noches!",
         "¡Que te mejores!"
       ],
@@ -121,10 +121,10 @@
       "id": "q04",
       "text": "Hvordan sier du «Føttene mine gjør vondt»?",
       "options": [
-        "Me duele los pies.",
+        "Me duele el pie izquierdo.",
         "Me duelen los pies.",
-        "Me dolen los pies.",
-        "Duelo los pies."
+        "Me duelen las manos.",
+        "Me duele la espalda."
       ],
       "correct": 1,
       "explain": "«los pies» er flertall, derfor «duelen»."
@@ -133,22 +133,22 @@
       "id": "q05",
       "text": "Hva betyr «Estoy resfriado»?",
       "options": [
-        "Jeg fryser",
-        "Jeg er sulten",
-        "Jeg er trøtt",
+        "Jeg er allergisk",
+        "Jeg er svimmel",
+        "Jeg er hes",
         "Jeg er forkjølet"
       ],
       "correct": 3,
-      "explain": "Jeg fryser heter «Tengo frío»."
+      "explain": "«resfriado» betyr forkjølet, mens «Tengo frío» betyr «Jeg fryser»."
     },
     {
       "id": "q06",
       "text": "Hvordan sier du «Jeg må gå til legen»?",
       "options": [
-        "Quiero ir al médico.",
-        "Voy al médico ayer.",
+        "Quiero ir al médico hoy.",
+        "Tengo que ir a la farmacia.",
         "Tengo que ir al médico.",
-        "Soy médico."
+        "Tengo que llamar al médico."
       ],
       "correct": 2,
       "explain": "«tener que» + infinitiv betyr å måtte."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er «la receta» hos legen?",
       "options": [
-        "Resepten på medisin",
-        "En kake",
-        "Regningen",
-        "Timen"
+        "En resept på medisin",
+        "En henvisning til spesialist",
+        "En beskjed om prøvesvar",
+        "En avtale om kontrolltime"
       ],
       "correct": 0,
       "explain": "Ordet kan også bety matoppskrift."
@@ -182,9 +182,9 @@
       "id": "q09",
       "text": "Hva betyr «Hay que beber mucha agua»?",
       "options": [
-        "Man må ikke drikke vann",
-        "Vannet er kaldt",
-        "Jeg drikker mye vann",
+        "Man må drikke lite vann",
+        "Man må drikke mye melk",
+        "Man må spise mye frukt",
         "Man må drikke mye vann"
       ],
       "correct": 3,
@@ -195,9 +195,9 @@
       "text": "Hva kjennetegner middelhavskosten, «la dieta mediterránea»?",
       "options": [
         "Olivenolje, grønnsaker, fisk og frukt",
-        "Mye hurtigmat",
-        "Bare kjøtt",
-        "Mye sukker"
+        "Smør, rødt kjøtt, fløte og pølser",
+        "Kaker, kjeks, brus og godteri",
+        "Burgere, pommes frites, pølser og brus"
       ],
       "correct": 0,
       "explain": "Kostholdet regnes som svært sunt."
@@ -332,9 +332,9 @@
         "text": "Hva betyr «¿Desde cuándo tiene fiebre?»?",
         "options": [
           "Hvor lenge har De hatt feber?",
-          "Har De feber?",
-          "Hvorfor har De feber?",
-          "Hvor høy feber har De?"
+          "Hvor høy er temperaturen Deres nå?",
+          "Hvorfor tror De at De har feber?",
+          "Når på dagen begynte feberen Deres?"
         ],
         "correct": 0,
         "explain": "«desde» betyr siden."
@@ -346,8 +346,8 @@
         "options": [
           "Sykepleieren",
           "Legen",
-          "Apoteket",
-          "Medisinen"
+          "Tannlegen",
+          "Apotekeren"
         ],
         "correct": 1,
         "explain": "Medisinen heter «el medicamento»."
@@ -357,10 +357,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Estoy estresada»?",
         "options": [
-          "Jeg er glad",
+          "Jeg er avslappet",
           "Jeg er sint",
           "Jeg er stresset",
-          "Jeg er syk"
+          "Jeg er forkjølet"
         ],
         "correct": 2,
         "explain": "Hunkjønnsformen slutter på -a."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

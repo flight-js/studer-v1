@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva skjedde på Stiklestad i 1030?",
       "options": [
-        "Reformasjonen startet",
+        "Olav Tryggvason falt i slaget",
         "Olav Haraldsson falt i slaget",
-        "Nidarosdomen ble ferdig",
-        "Norge ble kristnet på én dag"
+        "Olav Haraldsson ble kronet til konge",
+        "Nidaros ble Norges erkebispesete"
       ],
       "correct": 1,
       "explain": "Han ble senere dyrket som Olav den hellige."
@@ -93,9 +93,9 @@
       "text": "Hva kritiserte Martin Luther i 1517?",
       "options": [
         "Kirkens handel med avlat",
-        "Kongens skatter",
-        "Vitenskapen",
-        "Islam"
+        "Kirkens innkreving av tiende",
+        "Pavens utnevnelse av biskoper",
+        "Kirkens bruk av latin"
       ],
       "correct": 0,
       "explain": "Protesten førte til reformasjonen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva skjedde med kirken i Danmark-Norge etter reformasjonen i 1537?",
       "options": [
-        "Den ble uavhengig av staten",
-        "Paven fikk mer makt",
-        "Kongen overtok kirkens eiendom og ble dens overhode",
-        "Kirken ble avskaffet"
+        "Paven overtok kirkens eiendom og ble kirkens overhode",
+        "Biskopene overtok kirkens eiendom og ble kirkens overhoder",
+        "Kongen overtok kirkens eiendom og ble kirkens overhode",
+        "Kongen lot kirken beholde eiendommene og sitt selvstyre"
       ],
       "correct": 2,
       "explain": "Kirken ble en statskirke."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvor i Norge var hekseprosessene særlig omfattende?",
       "options": [
-        "Oslo",
-        "Bergen",
-        "Trøndelag",
+        "Rogaland",
+        "Østlandet",
+        "Nordland",
         "Finnmark"
       ],
       "correct": 3,
@@ -130,8 +130,8 @@
       "text": "Når ble jødeparagrafen opphevet?",
       "options": [
         "1851",
-        "1814",
-        "1964",
+        "1845",
+        "1905",
         "2012"
       ],
       "correct": 0,
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er sekularisering?",
       "options": [
-        "At religionen får mer makt",
+        "At religionen får større betydning i samfunnet",
         "At religionen får mindre betydning i samfunnet",
-        "At kirken blir statskirke",
-        "At man bygger flere kirker"
+        "At kirken får større innflytelse i politikken",
+        "At religiøse tradisjoner får større plass i skolen"
       ],
       "correct": 1,
       "explain": "Færre går i kirken i Norge i dag."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva slo Grunnloven fra 1814 fast om religion?",
       "options": [
-        "Full religionsfrihet",
-        "At staten ikke skulle ha religion",
+        "At den katolske religionen var statens religion",
+        "At staten skulle være uten en offisiell religion",
         "At den evangelisk-lutherske religionen var statens religion",
-        "At alle religioner var likestilte"
+        "At alle religioner skulle ha samme status i staten"
       ],
       "correct": 2,
       "explain": "Jøder, jesuitter og munkeordener ble utestengt.",
@@ -167,13 +167,13 @@
       "id": "q08",
       "text": "Hvordan har religion blitt brukt til å skape skiller mellom «oss» og «de andre»?",
       "options": [
-        "Gjennom felles bønn",
-        "Gjennom veldedighet",
-        "Gjennom fredsarbeid",
+        "Gjennom religionsdialog, felles høytider og samarbeid mellom trosretninger",
+        "Gjennom felles ritualer, religiøst samhold og støtte til utsatte grupper",
+        "Gjennom toleranse, religionsfrihet og like rettigheter for trosgrupper",
         "Gjennom korstog, antisemittisme og rettferdiggjøring av undertrykkelse"
       ],
       "correct": 3,
-      "explain": "Religion har også inspirert fellesskap og fredsarbeid.",
+      "explain": "Religiøse ideer og institusjoner har også blitt brukt til å begrunne makt og forskjellsbehandling.",
       "niva": "eksempel"
     },
     {
@@ -195,8 +195,8 @@
       "options": [
         "Martin Luther",
         "Martin Luther King Jr.",
-        "Paven",
-        "Olav den hellige"
+        "Desmond Tutu",
+        "John Wesley"
       ],
       "correct": 1,
       "explain": "Han var baptistprest.",
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Når begynte korstogene?",
         "options": [
-          "1030",
+          "1071",
           "1096",
-          "1517",
-          "1618"
+          "1187",
+          "1270"
         ],
         "correct": 1,
         "explain": "Korstogene var rettet mot muslimer i Midtøsten.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva ga dissenterloven fra 1845?",
         "options": [
-          "Andre kristne trossamfunn rett til å drive virksomhet",
-          "Jøder adgang til riket",
-          "Full religionsfrihet",
-          "Paven makt i Norge"
+          "Andre kristne trossamfunn fikk rett til å drive virksomhet",
+          "Jødiske trossamfunn fikk rett til å drive virksomhet",
+          "Muslimske trossamfunn fikk rett til å drive virksomhet",
+          "Andre kristne trossamfunn fikk rett til å utnevne biskoper"
         ],
         "correct": 0,
         "explain": "Det var et første steg mot religionsfrihet.",
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Når fikk Nidaros eget erkebispesete?",
         "options": [
-          "800-årene",
-          "1030",
+          "1020-årene",
+          "1070-årene",
           "1150-årene",
-          "1537"
+          "1200-årene"
         ],
         "correct": 2,
         "explain": "Nidaros ble sentrum for kirken i Norge.",
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

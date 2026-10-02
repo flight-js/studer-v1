@@ -111,10 +111,10 @@
       "id": "q01",
       "text": "What does register mean?",
       "options": [
-        "The list of students in a class",
+        "How polite your message sounds",
         "How formal or informal your language is",
-        "A type of email",
-        "The subject line"
+        "How quickly you answer an online message",
+        "How clearly you explain the main idea"
       ],
       "correct": 1,
       "explain": "You choose your register depending on who you are talking to."
@@ -124,9 +124,9 @@
       "text": "What is netiquette?",
       "options": [
         "Good manners online",
-        "A type of computer virus",
-        "A social media app",
-        "A formal letter"
+        "A computer program",
+        "Online privacy settings",
+        "An email writing style"
       ],
       "correct": 0,
       "explain": "The word combines “net” and “etiquette”."
@@ -135,10 +135,10 @@
       "id": "q03",
       "text": "Why can jokes easily be misunderstood online?",
       "options": [
-        "Because the internet is slow",
-        "Because nobody reads them",
+        "Because online messages are usually sent in another language",
+        "Because websites change jokes into formal language",
         "Because tone of voice and body language are missing",
-        "Because jokes are not allowed"
+        "Because jokes are usually shared through email"
       ],
       "correct": 2,
       "explain": "Without non-verbal cues, irony can be taken seriously."
@@ -148,9 +148,9 @@
       "text": "Why should you narrow your topic?",
       "options": [
         "To make it clearer and easier to cover well",
-        "To make the presentation longer",
-        "To avoid using sources",
-        "Because wide topics are not allowed"
+        "To include more different ideas in the same presentation",
+        "To avoid explaining the topic in much detail",
+        "To make it easier to fill the speaking time"
       ],
       "correct": 0,
       "explain": "A specific topic lets you go deeper in a short time."
@@ -159,10 +159,10 @@
       "id": "q05",
       "text": "What should the conclusion do?",
       "options": [
-        "Sum up the main points and end with something memorable",
-        "Introduce a completely new topic",
-        "Apologise for the presentation",
-        "Only list your sources"
+        "Sum up the main points and end with a memorable thought",
+        "Introduce a new main point and explain it in detail",
+        "Repeat the opening word for word and add no final message",
+        "Read out the full list of sources without summarising"
       ],
       "correct": 0,
       "explain": "A strong ending helps the audience remember your message."
@@ -171,10 +171,10 @@
       "id": "q06",
       "text": "Why is eye contact important?",
       "options": [
-        "It makes you speak faster",
-        "It is required by law",
+        "It helps you remember every sentence",
+        "It helps you control the order of your slides",
         "It helps you connect with the audience",
-        "It makes the presentation shorter"
+        "It helps you keep your place in your notes"
       ],
       "correct": 2,
       "explain": "Looking at people makes them feel included."
@@ -183,10 +183,10 @@
       "id": "q07",
       "text": "What is the chorus of a song?",
       "options": [
-        "The first line",
-        "The instrumental part",
+        "The verse that develops the story with new details each time",
+        "The bridge that links two different sections of the song",
         "The part that repeats the main message and is often the catchiest",
-        "The last word"
+        "The introduction that sets the mood before the lyrics begin"
       ],
       "correct": 2,
       "explain": "The chorus is usually what people remember and sing along to."
@@ -195,10 +195,10 @@
       "id": "q08",
       "text": "What is a metaphor?",
       "options": [
-        "A comparison with like or as",
-        "A song genre",
+        "Comparing two things using like or as",
+        "Repeating similar sounds at line endings",
         "Saying something is something else",
-        "A long verse"
+        "Giving human actions to animals or objects"
       ],
       "correct": 2,
       "explain": "“You are my sunshine” describes a person as the sun."
@@ -208,9 +208,9 @@
       "text": "What is the first step when analysing a song?",
       "options": [
         "Listen several times and read the lyrics",
-        "Write your opinion",
-        "Look up the singer's age",
-        "Count the words"
+        "Choose the song's genre before reading the lyrics",
+        "Search for the meaning of unfamiliar words first",
+        "Write a conclusion before hearing the whole song"
       ],
       "correct": 0,
       "explain": "You need to know the song well before you can analyse it."
@@ -219,10 +219,10 @@
       "id": "q10",
       "text": "What is the difference between revising and editing?",
       "options": [
-        "Revising means bigger changes to content and structure, editing means checking details",
-        "They mean the same",
-        "Editing is done before writing",
-        "Revising is only about spelling"
+        "Revising changes content and structure; editing checks details",
+        "Revising checks spelling; editing changes content and structure",
+        "Revising fixes punctuation; editing changes the paragraph order",
+        "Revising changes font and colour; editing checks the ideas"
       ],
       "correct": 0,
       "explain": "Revise first, then edit the details."
@@ -231,10 +231,10 @@
       "id": "q11",
       "text": "What is a topic sentence?",
       "options": [
-        "The title of a text",
+        "A sentence that adds a supporting detail to the main idea",
         "A sentence that presents the main idea of a paragraph",
-        "The last sentence of a text",
-        "A quotation"
+        "A sentence that sums up the paragraph's main points",
+        "A sentence that gives a quotation from another writer"
       ],
       "correct": 1,
       "explain": "It is often the first sentence of the paragraph."
@@ -243,10 +243,10 @@
       "id": "q12",
       "text": "Why is reading your text aloud useful?",
       "options": [
-        "It helps you discover mistakes",
-        "It makes the text longer",
-        "It replaces feedback",
-        "It is required by the teacher"
+        "It helps you notice mistakes in your text",
+        "It helps you add new ideas to your text",
+        "It helps you check the length of your text",
+        "It helps you replace comments from a reader"
       ],
       "correct": 0,
       "explain": "You often hear mistakes that you do not see."
@@ -255,10 +255,10 @@
       "id": "q13",
       "text": "What is a digital footprint?",
       "options": [
-        "A shoe print in the snow",
+        "The details stored in your account",
         "The traces you leave online",
-        "A type of password",
-        "A computer virus"
+        "The messages sent to your inbox",
+        "The settings saved on your device"
       ],
       "correct": 1,
       "explain": "Posts, likes and searches all become part of your footprint."
@@ -268,9 +268,9 @@
       "text": "What should you do before posting a picture of a friend?",
       "options": [
         "Ask for their consent",
-        "Add a filter",
-        "Tag everyone",
-        "Nothing"
+        "Check whether the photo looks flattering",
+        "Tag them after you post it",
+        "Choose a filter that suits the picture"
       ],
       "correct": 0,
       "explain": "Everyone has the right to decide over pictures of themselves."
@@ -279,10 +279,10 @@
       "id": "q15",
       "text": "What is plagiarism?",
       "options": [
-        "Using a spell checker",
-        "Using someone else's words or ideas without saying where they come from",
-        "Writing a long text",
-        "Quoting with a source"
+        "Using a spell checker to fix your writing",
+        "Using others' words or ideas without naming the source",
+        "Writing a long text in your own words",
+        "Quoting someone and naming the source"
       ],
       "correct": 1,
       "explain": "Plagiarism is a form of cheating."
@@ -407,7 +407,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -438,10 +438,10 @@
         "type": "flervalg",
         "text": "What is a hook?",
         "options": [
-          "The last slide",
+          "A closing remark that sums up the main points",
           "An opening that catches the audience's attention",
-          "A type of cue card",
-          "A question at the end"
+          "A small card with key words for the speaker",
+          "A transition that connects two main points"
         ],
         "correct": 1,
         "explain": "A good hook can be a question, a fact or a short story."
@@ -540,12 +540,86 @@
           "Explains that sources must be acknowledged and other people’s words or ideas must not be presented as one’s own.",
           "Mentions crediting the source and including source-list information."
         ]
+      },
+      {
+        "text": "In an online school project, a partner from another country replies, “That idea is interesting.” Explain why you might not know exactly what they mean, and write a polite question that could clarify their opinion.",
+        "fasit": "It may be unclear because people communicate more directly or indirectly, and online messages do not include tone of voice or facial expressions. I could ask, “Could you tell me what you think works well about the idea?”",
+        "kriterier": [
+          "Forklarer at kommunikasjonsstil eller manglende kroppsspråk og tone kan gjøre budskapet uklart.",
+          "Foreslår et høflig spørsmål som ber om en avklaring."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "You are making a short podcast about a protest song about climate change. Explain how repetition in the song could emphasise its message, and describe one way to plan or practise the podcast.",
+        "fasit": "A repeated chorus could make the song’s message about climate change memorable and emphasise its importance. I would plan the podcast’s main points and practise speaking clearly before recording.",
+        "kriterier": [
+          "Knytter repetisjon, for eksempel et refreng, til en tydeligere eller mer minneverdig beskjed.",
+          "Nevner en relevant måte å planlegge eller øve på podcasten."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "A student’s draft has ideas in a confusing order and several grammar mistakes. Explain what the student should do when revising and when editing, and which should come first.",
+        "fasit": "The student should revise first by improving the order and structure of the ideas. Then they should edit by correcting grammar mistakes.",
+        "kriterier": [
+          "Beskriver revisjon som arbeid med innhold eller struktur.",
+          "Beskriver redigering som retting av språkdetaljer og setter revisjon først."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "You need to tell a classmate something urgent. Compare sending an email with making a video call, including how quickly you might get a reply and how non-verbal cues differ.",
+        "fasit": "An email is asynchronous, so my classmate may reply later. A video call is synchronous and lets us hear tone of voice and see facial expressions, which can help us understand each other.",
+        "kriterier": [
+          "Forklarer forskjellen på asynkron e-post og synkron videosamtale.",
+          "Nevner at videosamtaler gir flere nonverbale signaler enn e-post."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "You are designing a school poster and want to include a photograph and a line from a song written by someone else. Explain how you can use these works while respecting copyright.",
+        "fasit": "I should use a photograph with a suitable Creative Commons licence or from a free image library, and follow its terms. I can quote a short part of the song and credit its creator and source.",
+        "kriterier": [
+          "Nevner bruk av lisensiert eller fritt tilgjengelig bilde, og at lisensvilkårene må følges.",
+          "Nevner at et kort sitat skal krediteres."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "A new app asks to use your location, and you post a photo of yourself on it. Explain which action creates active data and which may create passive data, and give one way to protect your privacy.",
+        "fasit": "Posting the photo creates active data because I share it myself. The app collecting my location can create passive data. I can check the app’s privacy settings or limit location sharing.",
+        "kriterier": [
+          "Skiller mellom et aktivt spor brukeren selv deler og passive data som samles inn, som posisjon.",
+          "Nevner et relevant tiltak for å beskytte personvernet."
+        ],
+        "id": "s14",
+        "niva": "over-niva"
+      },
+      {
+        "text": "A joke in an online game chat upsets another player, even though you meant it playfully. Explain why the joke may have been misunderstood and how you could respond using good netiquette.",
+        "fasit": "The player could misunderstand the joke because online messages lack tone of voice and facial expressions. I could apologise politely and explain what I meant without blaming the other person.",
+        "kriterier": [
+          "Forklarer at mangel på tonefall eller kroppsspråk kan føre til misforståelser.",
+          "Foreslår en høflig og respektfull respons, for eksempel å beklage."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Compare music in a protest song with music in an advert. Explain what each is intended to do and how repetition could help either one achieve its purpose.",
+        "fasit": "A protest song can express a message about an issue, while music in an advert can help make a product memorable. Repeating a line or tune can make either message easier to remember.",
+        "kriterier": [
+          "Skiller mellom protestmusikkens budskap og reklamemusikkens mål om å gjøre et produkt minneverdig.",
+          "Forklarer at repetisjon kan gjøre budskapet lettere å huske."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

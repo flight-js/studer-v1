@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er næringsgrunnlaget til et sted?",
       "options": [
-        "Antall innbyggere",
+        "De offentlige tjenestene og tilbudene stedet har",
         "De næringene og arbeidsplassene stedet lever av",
-        "Skatteinntektene",
-        "Stedets historie"
+        "De varene og tjenestene innbyggerne kjøper mest",
+        "De viktigste bygningene og transportårene i området"
       ],
       "correct": 1,
       "explain": "Det avhenger av ressurser, beliggenhet og kompetanse."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvorfor er et lokalsamfunn med ensidig næringsliv sårbart?",
       "options": [
-        "Fordi mange kan miste jobben samtidig hvis den store bedriften legger ned",
-        "Fordi det har for mange arbeidsplasser",
-        "Fordi skattene blir for lave",
-        "Det er ikke sårbart"
+        "Mange kan miste jobben samtidig hvis hovedbedriften legger ned",
+        "Fordi arbeidsplassene fordeles på flere næringer og arbeidsgivere",
+        "Fordi ansatte kan bytte mellom mange lokale bransjer",
+        "Fordi flere bedrifter gir kommunen mer stabile skatteinntekter"
       ],
       "correct": 0,
       "explain": "Et variert næringsliv gir større robusthet."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er innovasjon?",
       "options": [
-        "Å gjøre ting som før",
-        "Å kopiere andre",
+        "Produkter, tjenester eller arbeidsmåter som brukes uendret",
+        "Ideer til produkter og tjenester som ikke settes ut i praksis",
         "Nye eller forbedrede produkter, tjenester eller arbeidsmåter som tas i bruk",
-        "Å legge ned bedrifter"
+        "Bedrifter som flytter produksjonen til et annet sted"
       ],
       "correct": 2,
       "explain": "Innovasjon skjer både i privat og offentlig sektor."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er en klynge i næringslivet?",
       "options": [
-        "En gruppe konkurrenter som ikke samarbeider",
-        "Et kjøpesenter",
-        "En fagforening",
+        "Bedrifter i samme region som konkurrerer uten kontakt",
+        "Virksomheter og butikker samlet under ett tak",
+        "Arbeidstakere fra flere bedrifter organisert i en forening",
         "Bedrifter, forskning og utdanning som samarbeider i samme region"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvilke oppgaver er mest utsatt for automatisering?",
       "options": [
-        "Rutineoppgaver",
-        "Omsorg for eldre",
-        "Kreative oppgaver",
-        "Ledelse"
+        "Gjentakende rutineoppgaver",
+        "Personlig omsorgsarbeid",
+        "Kreativ idéutvikling",
+        "Håndtering av uforutsette situasjoner"
       ],
       "correct": 0,
       "explain": "Roboter og programmer egner seg for gjentakende oppgaver."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilken næring er et eksempel på det grønne skiftet?",
       "options": [
-        "Kullgruver",
+        "Kullgruvedrift",
         "Havvind",
-        "Oljeboring",
-        "Engangsplast"
+        "Oljeleting",
+        "Engangsplastproduksjon"
       ],
       "correct": 1,
       "explain": "Hydrogen, batterier og karbonfangst er andre eksempler.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er en ulempe med plattformarbeid?",
       "options": [
-        "Det gir alltid fast ansettelse",
-        "Det gir høy pensjon",
-        "Det gir ofte svakere rettigheter",
-        "Det krever ingen app"
+        "Plattformarbeidere har ofte garantert fast arbeidstid hos arbeidsgiver",
+        "Plattformarbeidere har ofte høyere pensjon enn andre arbeidstakere",
+        "Plattformarbeidere har ofte færre rettigheter enn fast ansatte",
+        "Plattformarbeidere har ofte lønn under sykdom fra plattformen"
       ],
       "correct": 2,
       "explain": "Mange er ikke ansatt og har færre rettigheter.",
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvorfor blir livslang læring viktigere?",
       "options": [
-        "Fordi arbeidslivet aldri endrer seg",
-        "Fordi skolen blir kortere",
-        "Fordi alle skal bli lærere",
-        "Fordi teknologi endrer jobbene og kravene til kompetanse øker"
+        "Arbeidslivet endrer seg sakte, og kompetansekravene holder seg stabile",
+        "Skoleløpet blir kortere, så arbeidstakere trenger mindre opplæring",
+        "Flere velger læreryrket, så behovet for etterutdanning øker",
+        "Teknologi endrer jobber, og kravene til kompetanse øker"
       ],
       "correct": 3,
       "explain": "Mange må lære nye ting gjennom hele karrieren."
@@ -176,9 +176,9 @@
       "text": "Hvilket sted vokste fram rundt vannkraft og metallindustri?",
       "options": [
         "Mo i Rana",
-        "Geilo",
-        "Tromsø sentrum",
-        "Lofoten"
+        "Røros",
+        "Kongsberg",
+        "Stavanger"
       ],
       "correct": 0,
       "explain": "Også Årdal og Sunndalsøra er slike industristeder.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er produktivitet?",
       "options": [
-        "Antall ansatte",
+        "Hvor mange ansatte en bedrift har per arbeidsskift",
         "Hvor mye som produseres per arbeidstime",
-        "Lønnsnivået",
-        "Antall bedrifter"
+        "Hvor høy lønn arbeidstakerne får per måned",
+        "Hvor mange bedrifter som finnes i en kommune"
       ],
       "correct": 1,
       "explain": "Teknologi kan øke produktiviteten."
@@ -323,9 +323,9 @@
         "text": "Hvilken by har vokst med petroleumsnæringen?",
         "options": [
           "Stavanger",
-          "Røros",
-          "Kautokeino",
-          "Lillehammer"
+          "Trondheim",
+          "Bodø",
+          "Hamar"
         ],
         "correct": 0,
         "explain": "Stavanger kalles ofte oljehovedstaden.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva gjør en gründer?",
         "options": [
-          "Leder en fagforening",
-          "Starter en ny bedrift",
-          "Jobber i staten",
-          "Underviser på universitet"
+          "Leder en etablert bedrift",
+          "Starter opp en ny bedrift",
+          "Representerer ansatte i en fagforening",
+          "Jobber som rådgiver i kommunen"
         ],
         "correct": 1,
         "explain": "Gründere er viktige for innovasjon."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er relevant å drøfte om automatisering?",
         "options": [
-          "Hvilken farge robotene har",
-          "Hvor mange roboter som finnes i Japan",
+          "Hvor mange innbyggere bor i kommunen nå",
+          "Hvilke varer kjøpes mest i lokale butikker",
           "Hvem vinner og hvem taper på automatisering",
-          "Om roboter kan sove"
+          "Hvilket år åpnet den eldste fabrikken i området"
         ],
         "correct": 2,
         "explain": "Automatisering har ulike konsekvenser for ulike grupper."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

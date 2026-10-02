@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilket land har flest spansktalende?",
       "options": [
-        "Spania",
+        "Colombia",
         "Mexico",
         "Argentina",
-        "USA"
+        "Spania"
       ],
       "correct": 1,
       "explain": "Mexico har over 100 millioner innbyggere."
@@ -90,9 +90,9 @@
       "text": "Hvilket språk snakkes i Baskerland?",
       "options": [
         "Euskera",
-        "Catalán",
-        "Gallego",
-        "Portugisisk"
+        "katalansk",
+        "galisisk",
+        "portugisisk"
       ],
       "correct": 0,
       "explain": "Baskisk er ikke i slekt med noe annet kjent språk."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvor mange autonome regioner har Spania?",
       "options": [
-        "5",
-        "10",
+        "15",
+        "16",
         "17",
-        "50"
+        "18"
       ],
       "correct": 2,
       "explain": "Regionene har stor grad av selvstyre."
@@ -128,7 +128,7 @@
         "es",
         "sea",
         "está",
-        "ser"
+        "son"
       ],
       "correct": 0,
       "explain": "creo que + indikativ."
@@ -140,7 +140,7 @@
         "Andalucía",
         "Catalonia",
         "Madrid",
-        "Kanariøyene"
+        "Galicia"
       ],
       "correct": 1,
       "explain": "Mange katalanere ønsker uavhengighet, andre ikke.",
@@ -164,7 +164,7 @@
       "options": [
         "likheten",
         "uavhengigheten",
-        "ulykken",
+        "fattigdommen",
         "ulikheten"
       ],
       "correct": 3,
@@ -176,8 +176,8 @@
       "options": [
         "tengas",
         "tienes",
-        "tenes",
-        "tendrás"
+        "tendrás",
+        "tenías"
       ],
       "correct": 0,
       "explain": "yo tengo → teng- + -as."
@@ -186,13 +186,13 @@
       "id": "q10",
       "text": "Hva betyr «Estoy a favor»?",
       "options": [
-        "Jeg er mot.",
-        "Jeg er for.",
-        "Jeg er takknemlig.",
-        "Jeg er favoritt."
+        "Jeg er imot det.",
+        "Jeg er for det.",
+        "Jeg er enig i det.",
+        "Jeg er interessert i det."
       ],
       "correct": 1,
-      "explain": "a favor = for, en contra = mot."
+      "explain": "«A favor» betyr at man støtter et forslag eller en sak."
     }
   ],
   "mindmap": {
@@ -324,7 +324,7 @@
           "soy",
           "sea",
           "sería",
-          "fuera"
+          "fui"
         ],
         "correct": 1,
         "explain": "ser er uregelmessig: sea."
@@ -335,9 +335,9 @@
         "text": "Hvilket urfolk er knyttet til Andesfjellene?",
         "options": [
           "Quechua",
-          "Samer",
-          "Maori",
-          "Inuitter"
+          "Maya",
+          "Guarani",
+          "Taíno"
         ],
         "correct": 0,
         "explain": "Quechua er også et levende språk.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva betyr «sin embargo»?",
         "options": [
-          "dessuten",
           "derfor",
+          "dessuten",
           "likevel",
-          "først"
+          "deretter"
         ],
         "correct": 2,
         "explain": "Brukes for å vise motsetning."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

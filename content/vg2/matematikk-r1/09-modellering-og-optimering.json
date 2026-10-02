@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva forteller et tydelig mønster i residualene?",
       "options": [
-        "At modellen er perfekt",
+        "At modellen passer godt til datasettet",
         "At modelltypen kanskje passer dårlig",
-        "At dataene er feil",
-        "At regresjonen er ugyldig"
+        "At residualene er tilfeldig fordelt rundt null",
+        "At modellen beskriver dataene uten systematiske avvik"
       ],
       "correct": 1,
       "explain": "Tilfeldige residualer tyder på god modelltype."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hvilken modelltype passer til data som vokser mot en øvre grense?",
       "options": [
-        "Logistisk",
-        "Lineær",
-        "Eksponentiell",
-        "Andregrads polynom med positiv x²-koeffisient"
+        "Logistisk modell",
+        "Lineær modell",
+        "Eksponentiell modell",
+        "Andregradsmodell"
       ],
       "correct": 0,
       "explain": "Den har en bæreevne.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er største volum for en eske laget av en 30 cm × 30 cm plate?",
       "options": [
-        "1000 cm³",
-        "4500 cm³",
+        "1500 cm³",
+        "1800 cm³",
         "2000 cm³",
-        "900 cm³"
+        "2500 cm³"
       ],
       "correct": 2,
       "explain": "V(5) = 5 · 20².",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er største areal for en innhegning med 100 m gjerde mot en vegg?",
       "options": [
-        "625 m²",
+        "1000 m²",
+        "1500 m²",
         "2500 m²",
-        "5000 m²",
         "1250 m²"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hvorfor kan et polynom av høy grad være en dårlig modell?",
       "options": [
         "Det kan oppføre seg urimelig utenfor dataområdet",
-        "Det passer aldri dataene",
         "Det kan ikke deriveres",
-        "Det er alltid lineært"
+        "Det kan ikke beskrive krumme data",
+        "Det kan ikke brukes til å finne toppunkter"
       ],
       "correct": 0,
       "explain": "Det kan svinge kraftig."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er det første steget i et optimeringsproblem?",
       "options": [
-        "Derivere",
-        "Skrive størrelsen som skal optimeres, som en funksjon av én variabel",
-        "Tegne grafen",
-        "Sette x = 0"
+        "Derivere funksjonen for størrelsen som skal optimeres",
+        "Uttrykke størrelsen som en funksjon av én variabel",
+        "Tegne grafen til uttrykket som skal optimeres",
+        "Finne nullpunktene til funksjonen som skal optimeres"
       ],
       "correct": 1,
       "explain": "Deretter kan du derivere."
@@ -154,9 +154,9 @@
       "text": "N(t) er antall fisk etter t år. Hva er enheten til N′(t)?",
       "options": [
         "Fisk",
-        "År",
+        "År per fisk",
         "Fisk per år",
-        "År per fisk"
+        "Fisk ganger år"
       ],
       "correct": 2,
       "explain": "y-enhet per x-enhet."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvorfor må du sjekke endepunktene i et optimeringsproblem?",
       "options": [
-        "Fordi f′ alltid er null der",
-        "Fordi modellen ikke gjelder der",
-        "Fordi de alltid gir minst verdi",
+        "Fordi den deriverte er null ved endepunktene",
+        "Fordi funksjonen skifter fortegn ved endepunktene",
+        "Fordi endepunktene viser modellens største vekstfart",
         "Fordi største eller minste verdi kan ligge der"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvilken kilde er god for norske befolkningsdata?",
       "options": [
         "Statistisk sentralbyrå",
-        "En tilfeldig blogg",
-        "Et reklameinnslag",
-        "En gammel lærebok uten kildehenvisning"
+        "Meteorologisk institutt",
+        "Kartverket",
+        "Norsk institutt for naturforskning"
       ],
       "correct": 0,
       "explain": "Offisiell statistikk.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva viser et vendepunkt i en modell av en populasjon?",
       "options": [
-        "Når populasjonen er størst",
+        "Når populasjonen når sin øvre grense",
         "Når populasjonen vokser raskest",
-        "Når populasjonen er null",
-        "Når modellen slutter å gjelde"
+        "Når populasjonen har størst verdi",
+        "Når vekstfarten til populasjonen blir null"
       ],
       "correct": 1,
       "explain": "Vekstfarten har et maksimum."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "En bedrift har fortjenesten P(x) = −2x² + 80x − 300. Hvilken x gir størst fortjeneste?",
         "options": [
-          "x = 40",
+          "x = 10",
           "x = 20",
-          "x = 80",
-          "x = 15"
+          "x = 40",
+          "x = 80"
         ],
         "correct": 1,
         "explain": "P′(x) = −4x + 80 = 0."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvilken modell passer for data som øker med omtrent 3 % per år?",
         "options": [
-          "Eksponentiell",
-          "Lineær",
-          "Logistisk",
-          "Konstant"
+          "Eksponentiell modell",
+          "Lineær modell",
+          "Logistisk modell",
+          "Potensmodell"
         ],
         "correct": 0,
         "explain": "Fast prosentvis vekst."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva er V′(x) for V(x) = x(30 − 2x)²?",
         "options": [
-          "(30 − 2x)²",
-          "−4x(30 − 2x)",
+          "(30 − 2x)(30 − 2x)",
+          "(30 − 2x)(30 − 4x)",
           "(30 − 2x)(30 − 6x)",
-          "30 − 6x"
+          "(30 − 2x)(30 + 2x)"
         ],
         "correct": 2,
         "explain": "Produkt- og kjerneregelen, deretter faktorisering."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

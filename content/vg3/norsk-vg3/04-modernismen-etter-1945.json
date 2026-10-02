@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva kjennetegner modernismen?",
       "options": [
-        "Faste rim og rytme",
+        "Videreføring av tradisjonelle former og lineære fortellinger",
         "Brudd med tradisjonelle former og fragmentering",
-        "Idealisering av bondelivet",
-        "Nøktern realisme"
+        "Idealiserte skildringer av bygdeliv og nasjonale verdier",
+        "Nøktern framstilling av samfunn og hverdagsliv"
       ],
       "correct": 1,
       "explain": "Også sterke bilder og uklarhet."
@@ -96,9 +96,9 @@
       "text": "Hva handlet tungetaledebatten om?",
       "options": [
         "Om modernistisk lyrikk var uforståelig",
-        "Om nynorsk eller bokmål",
-        "Om religion i skolen",
-        "Om kvinners stemmerett"
+        "Om lyrikken skulle følge faste rim og rytmer",
+        "Om diktene burde ta opp politiske konflikter",
+        "Om modernismen skulle bruke nynorsk eller bokmål"
       ],
       "correct": 0,
       "explain": "André Bjerke startet debatten i 1953."
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hva kritiserer Bjørneboes Jonas?",
       "options": [
-        "Krigen",
-        "Kirken",
-        "Industrien",
+        "En kirke som avviser mennesker som tviler på troen",
+        "En industri som utnytter arbeidere som krever bedre vilkår",
+        "En stat som straffer ungdommer som protesterer mot krig",
         "En skole som knuser barn som ikke passer inn"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Hva er typisk for 1970-tallets litteratur?",
       "options": [
         "Sterk politisering og sosialrealisme",
-        "Nyromantikk",
-        "Sagamotiver",
-        "Barokk stil"
+        "Nyromantikk og idealisert naturskildring",
+        "Historiske sagaer og norrøne heltemotiver",
+        "Barokk formspråk og religiøs symbolbruk"
       ],
       "correct": 0,
       "explain": "Også kvinnelitteratur."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva gjør Gerd Brantenberg i Egalias døtre?",
       "options": [
-        "Skildrer middelalderen",
-        "Snur kjønnsrollene",
-        "Beskriver en fabrikk",
-        "Skriver om naturen"
+        "Bytter om på klasseskillene i samfunnet",
+        "Bytter om på de vante kjønnsrollene",
+        "Flytter handlingen til middelalderens Norge",
+        "Lar religiøse ledere styre hele samfunnet"
       ],
       "correct": 1,
       "explain": "En satire over kjønnsroller.",
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvilket symbol står sentralt i Is-slottet?",
       "options": [
-        "Et fyrtårn",
-        "En fugl",
+        "Et fyrtårn på en øde og steinete kyst",
+        "Et speil som viser et ukjent ansikt",
         "Et islagt fossefall formet som et slott",
-        "En bil"
+        "En bru av stein over en stri elv"
       ],
       "correct": 2,
       "explain": "Vakkert og farlig på samme tid.",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva forventes av leseren i en modernistisk tekst?",
       "options": [
-        "At hen godtar én riktig tolkning",
-        "At hen leser raskt",
-        "At hen bare ser på handlingen",
+        "At hen finner én skjult fasit bak tekstens bilder",
+        "At hen følger handlingen og overser tekstens symboler",
+        "At hen får alle bildene forklart av fortelleren",
         "At hen leser aktivt og godtar flere tolkninger"
       ],
       "correct": 3,
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hva kjennetegner Olav H. Hauges dikt?",
       "options": [
-        "Lange episke fortellinger",
+        "Lange episke fortellinger med mange personer",
         "Korte, konsentrerte dikt med naturbilder",
-        "Sonetter med fast rim",
-        "Politiske kampdikt"
+        "Regelmessige sonetter med fast rim og rytme",
+        "Politiske kampsanger med tydelige slagord"
       ],
       "correct": 1,
       "explain": "For eksempel «Det er den draumen»."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvordan brukes naturen ofte i modernistiske tekster?",
         "options": [
-          "Som idyll",
-          "Som bakgrunn uten betydning",
+          "Som realistisk skildring av norsk landbruk",
+          "Som idyllisk bakgrunn for menneskelig handling",
           "Som speil for sjelen eller symbol",
-          "Som reklame"
+          "Som naturfaglig forklaring på menneskets liv"
         ],
         "correct": 2,
         "explain": "For eksempel hos Vesaas."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

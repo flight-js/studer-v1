@@ -77,9 +77,9 @@
       "text": "Hvem måler prisstigningen i Norge?",
       "options": [
         "Norges Bank",
-        "SSB",
-        "NAV",
-        "Finansdepartementet"
+        "Statistisk sentralbyrå (SSB)",
+        "Finansdepartementet",
+        "Skatteetaten"
       ],
       "correct": 1,
       "explain": "Med konsumprisindeksen."
@@ -91,7 +91,7 @@
         "5 %",
         "6 %",
         "4,8 %",
-        "26 %"
+        "0,5 %"
       ],
       "correct": 0,
       "explain": "(126 − 120) ÷ 120 · 100."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er KPI-JAE?",
       "options": [
-        "KPI for strøm",
-        "KPI for mat",
+        "KPI justert for renteendringer og uten energivarer",
+        "KPI justert for avgiftsendringer og uten matvarer",
         "KPI justert for avgiftsendringer og uten energivarer",
-        "KPI for utlandet"
+        "KPI justert for lønnsendringer og uten energivarer"
       ],
       "correct": 2,
       "explain": "Viser den underliggende prisveksten.",
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Lønnen stiger med 5 % og prisene med 3 %. Hva skjer med reallønnen?",
       "options": [
-        "Den faller med 2 %",
-        "Den er uendret",
-        "Den stiger med 8 %",
+        "Den faller med omtrent 2 %",
+        "Den holder seg omtrent uendret",
+        "Den stiger med omtrent 8 %",
         "Den stiger med omtrent 2 %"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er Norges Banks inflasjonsmål?",
       "options": [
         "Om lag 2 % over tid",
-        "0 %",
-        "5 %",
-        "10 %"
+        "Om lag 1 % over tid",
+        "Om lag 3 % over tid",
+        "Om lag 4 % over tid"
       ],
       "correct": 0,
       "explain": "Lav og stabil prisstigning."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Kronen blir svakere. Hvilken type prisstigning kan det gi?",
       "options": [
-        "Deflasjon",
+        "Importert deflasjon",
         "Importert inflasjon",
-        "Ingen endring",
-        "Lønnskutt"
+        "Innenlandsk inflasjon",
+        "Innenlandsk deflasjon"
       ],
       "correct": 1,
       "explain": "Importvarer blir dyrere."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvem taper mest på høy prisstigning?",
       "options": [
-        "De med mye gjeld",
-        "Bedrifter med høye priser",
-        "De med faste inntekter og sparepenger",
-        "Staten"
+        "De med lån til fast rente og faste avdrag",
+        "De med lønn som følger prisutviklingen tett",
+        "De med faste inntekter og mye penger stående på konto",
+        "De som eier varer med priser som følger prisnivået"
       ],
       "correct": 2,
       "explain": "Kjøpekraften svekkes."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvorfor kan deflasjon være skadelig?",
       "options": [
-        "Prisene stiger for mye",
-        "Renten blir for høy",
-        "Lønningene øker for mye",
+        "Folk fremskynder kjøp, og etterspørselen øker",
+        "Lån blir mindre verdt, og gjeldsbyrden faller",
+        "Lønningene stiger, og husholdningenes kjøpekraft øker",
         "Folk utsetter kjøp, og etterspørselen faller"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er en lønns- og prisspiral?",
       "options": [
-        "Høyere priser gir høyere lønn, som gir høyere priser",
-        "At lønn og priser faller",
-        "En type skatt",
-        "At renten stiger"
+        "Høyere priser gir høyere lønn, som presser prisene videre opp",
+        "Høyere priser gir lavere lønn, som presser prisene videre ned",
+        "Høyere lønn gir lavere priser, som presser lønningene videre ned",
+        "Høyere renter gir høyere lønn, som presser prisene videre opp"
       ],
       "correct": 0,
       "explain": "Forventninger forsterker prisveksten."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor får bolig og mat større vekt i KPI enn sko?",
       "options": [
-        "Fordi de er viktigere for staten",
-        "Fordi husholdningene bruker mer av budsjettet på dem",
-        "Fordi de er billigere",
-        "Fordi de importeres"
+        "Fordi husholdningene kjøper dem oftere enn sko",
+        "Fordi husholdningene bruker en større del av budsjettet på dem",
+        "Fordi prisene på dem har steget mer enn prisene på sko",
+        "Fordi staten bestemmer at nødvendige varer skal telle mer"
       ],
       "correct": 1,
       "explain": "Vektene følger forbruket."
@@ -318,7 +318,7 @@
           "1250 kr",
           "800 kr",
           "1000 kr",
-          "875 kr"
+          "750 kr"
         ],
         "correct": 1,
         "explain": "1000 · 100 ÷ 125."
@@ -329,9 +329,9 @@
         "text": "Hva kan skape etterspørselspress?",
         "options": [
           "Samlet etterspørsel større enn det økonomien kan produsere",
-          "Høy arbeidsledighet",
-          "Fallende priser",
-          "Lav etterspørsel"
+          "Samlet etterspørsel mindre enn det økonomien kan produsere",
+          "Samlet produksjon større enn samlet etterspørsel",
+          "Fallende produksjon samtidig med lavere etterspørsel"
         ],
         "correct": 0,
         "explain": "Bedriftene kan heve prisene."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvorfor er lav og stabil prisstigning ønskelig?",
         "options": [
-          "Den gir høyere renter",
-          "Den gjør alle rikere",
+          "Den gir høyere renter på sparekontoer",
+          "Den sørger for lavere priser på varer",
           "Den gjør det lettere å planlegge",
-          "Den fjerner arbeidsledighet"
+          "Den fjerner svingningene i økonomien"
         ],
         "correct": 2,
         "explain": "Mindre usikkerhet."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

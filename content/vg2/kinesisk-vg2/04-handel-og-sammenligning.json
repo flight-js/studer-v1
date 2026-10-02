@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på 买 og 卖?",
       "options": [
-        "Det er det samme ordet",
-        "买 mǎi er kjøpe, 卖 mài er selge",
-        "买 er selge, 卖 er kjøpe",
-        "买 er billig, 卖 er dyr"
+        "买 mǎi betyr «selge», 卖 mài betyr «kjøpe».",
+        "买 mǎi betyr «kjøpe», 卖 mài betyr «selge».",
+        "买 mǎi betyr «betale», 卖 mài betyr «prute».",
+        "买 mǎi betyr «prute», 卖 mài betyr «betale»."
       ],
       "correct": 1,
       "explain": "Tonen og tegnet skiller dem."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvordan sier du «Denne er dyrere enn den»?",
       "options": [
-        "这件很贵比那件。",
-        "这件贵那件。",
+        "这件比那件便宜。",
+        "这件跟那件一样贵。",
         "这件比那件贵。",
-        "那件比这件贵。"
+        "这件没有那件贵。"
       ],
       "correct": 2,
       "explain": "A 比 B + adjektiv."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvordan spør du om det kan bli billigere?",
       "options": [
-        "太贵了！",
-        "多少钱？",
-        "我可以试试吗？",
+        "这个多少钱呢？",
+        "我可以试穿吗？",
+        "这件能退货吗？",
         "可以便宜一点吗？"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvordan betaler de fleste i Kina i dag?",
       "options": [
         "Med mobilen",
-        "Med sjekk",
-        "Bare med kontanter",
-        "Med gull"
+        "Med kontanter",
+        "Med bankkort",
+        "Med kredittkort"
       ],
       "correct": 0,
       "explain": "WeChat Pay og Alipay."
@@ -168,16 +168,16 @@
         "blå"
       ],
       "correct": 3,
-      "explain": "红色 = rød."
+      "explain": "蓝色 betyr blå, mens 红色 betyr rød."
     },
     {
       "id": "q09",
       "text": "Hva betyr 这件跟那件一样贵?",
       "options": [
         "Denne er like dyr som den.",
-        "Denne er dyrere.",
-        "Denne er billigere.",
-        "Denne og den er forskjellige."
+        "Denne er dyrere enn den.",
+        "Denne er billigere enn den.",
+        "Denne koster mindre enn den."
       ],
       "correct": 0,
       "explain": "A 跟 B 一样 + adjektiv."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor bruker man ikke 很 i en 比-setning?",
       "options": [
-        "Fordi 很 betyr billig",
+        "Fordi 很 betyr «billig».",
         "Fordi 比 allerede uttrykker sammenligningen",
-        "Fordi 很 bare brukes om personer",
-        "Det gjør man alltid"
+        "Fordi 很 brukes bare i spørsmål.",
+        "Fordi adjektivet står før 比."
       ],
       "correct": 1,
       "explain": "这件比那件贵 – uten 很."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Jeg er høyere enn broren min»?",
         "options": [
-          "我很高比我哥哥。",
+          "我比我哥哥矮。",
           "我比我哥哥高。",
-          "我哥哥比我高。",
-          "我高我哥哥。"
+          "我跟我哥哥一样高。",
+          "我没有我哥哥高。"
         ],
         "correct": 1,
         "explain": "A 比 B + adjektiv."
@@ -332,8 +332,8 @@
         "options": [
           "Kan jeg prøve den?",
           "Kan jeg kjøpe den?",
-          "Er den billig?",
-          "Har dere andre farger?"
+          "Kan jeg betale nå?",
+          "Kan jeg se en annen?"
         ],
         "correct": 0,
         "explain": "试试 = prøve."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er 支付宝?",
         "options": [
-          "En butikk",
-          "En type klær",
+          "Taobao – en nettbutikk",
+          "UnionPay – et bankkort",
           "Alipay – en betalingsapp",
-          "En bank i Norge"
+          "Renminbi – kinesisk valuta"
         ],
         "correct": 2,
         "explain": "Zhīfùbǎo.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

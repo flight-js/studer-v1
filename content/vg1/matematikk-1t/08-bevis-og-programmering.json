@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?",
       "options": [
-        "Fordi eksempler alltid er feil",
+        "Fordi et bevis må forklare mønsteret med symboler",
         "Fordi det kan finnes et tilfelle vi ikke har testet",
-        "Fordi det tar for lang tid",
-        "Det er nok"
+        "Fordi de testede tallene må stå i stigende rekkefølge",
+        "Fordi eksemplene må inneholde null for å vise påstanden"
       ],
       "correct": 1,
       "explain": "Et bevis må gjelde alle tilfeller."
@@ -91,9 +91,9 @@
       "text": "Hva er et moteksempel?",
       "options": [
         "Ett eksempel som viser at en påstand er usann",
-        "Et eksempel som støtter påstanden",
-        "Et bevis",
-        "En definisjon"
+        "Et eksempel som viser at en påstand gjelder i ett tilfelle",
+        "Et eksempel som bekrefter at en påstand gjelder for alle tilfeller",
+        "Et eksempel som viser hvordan en påstand kan skrives med symboler"
       ],
       "correct": 0,
       "explain": "Ett moteksempel er nok til å motbevise en generell påstand."
@@ -103,7 +103,7 @@
       "text": "Hvordan kan et partall skrives generelt?",
       "options": [
         "2m + 1",
-        "m²",
+        "2m - 1",
         "2m",
         "m + 2"
       ],
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hvorfor er summen av tre påfølgende hele tall delelig med 3?",
       "options": [
-        "Fordi tallene alltid er odde",
-        "Fordi det stemmer for 1, 2, 3",
-        "Fordi summen alltid er 6",
-        "Fordi n + (n + 1) + (n + 2) = 3(n + 1)"
+        "n + (n + 1) + (n + 2) = 3n + 2",
+        "n + (n + 1) + (n + 2) = 3n",
+        "n + (n + 1) + (n + 2) = 3(n + 2)",
+        "n + (n + 1) + (n + 2) = 3(n + 1)"
       ],
       "correct": 3,
       "explain": "Summen har 3 som faktor."
@@ -127,9 +127,9 @@
       "text": "Hva er et moteksempel til påstanden «alle primtall er odde»?",
       "options": [
         "2",
-        "3",
-        "9",
-        "15"
+        "4",
+        "6",
+        "9"
       ],
       "correct": 0,
       "explain": "2 er et primtall og et partall."
@@ -144,16 +144,16 @@
         "x² = 9 ⇔ x = 3"
       ],
       "correct": 1,
-      "explain": "De andre mangler løsninger eller er feil den ene veien."
+      "explain": "En ekvivalens betyr at begge påstandene har de samme løsningene."
     },
     {
       "id": "q07",
       "text": "Hva gjør en while-løkke i Python?",
       "options": [
-        "Kjører koden én gang",
-        "Lager en funksjon",
+        "Kontrollerer en betingelse og kjører koden én gang",
+        "Velger hvilken funksjon som skal kjøres i programmet",
         "Gjentar koden så lenge en betingelse er sann",
-        "Skriver ut tekst"
+        "Gjentar koden et bestemt antall ganger uavhengig av betingelser"
       ],
       "correct": 2,
       "explain": "Den passer når vi ikke vet hvor mange ganger koden skal kjøres."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er en algoritme?",
       "options": [
-        "Et dataprogram",
-        "Et bevis",
-        "En type likning",
+        "Et dataprogram som utfører en bestemt oppgave",
+        "En matematisk forklaring som viser at en påstand stemmer",
+        "En beregning som finner ukjente verdier i en likning",
         "En trinnvis oppskrift som løser et problem"
       ],
       "correct": 3,
@@ -175,22 +175,22 @@
       "text": "Hvor mange år tar det før 10 000 kr blir minst 20 000 kr med 5 % årlig rente?",
       "options": [
         "15 år",
-        "20 år",
-        "10 år",
-        "14 år"
+        "14 år",
+        "16 år",
+        "20 år"
       ],
       "correct": 0,
-      "explain": "1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08.",
+      "explain": "Etter 14 år er beløpet under 20 000 kr, mens det etter 15 år er over 20 000 kr.",
       "niva": "eksempel"
     },
     {
       "id": "q10",
       "text": "Hva forutsetter halveringsmetoden?",
       "options": [
-        "At funksjonen er lineær",
+        "At f(a) og f(b) har samme fortegn",
         "At f(a) og f(b) har ulike fortegn",
-        "At nullpunktet er et helt tall",
-        "At intervallet er lengre enn 10"
+        "At f(a) og f(b) har ulike verdier",
+        "At f(a) og f(b) begge er lik null"
       ],
       "correct": 1,
       "explain": "Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig.",
@@ -321,7 +321,7 @@
           "1, 2, 3, 4",
           "1, 2, 3",
           "0, 1, 2, 3",
-          "1 og 4"
+          "2, 3, 4"
         ],
         "correct": 1,
         "explain": "Det siste tallet i range er ikke med."
@@ -332,9 +332,9 @@
         "text": "Hva betyr dekomponering?",
         "options": [
           "Å dele et problem i mindre deler",
-          "Å slette kode",
-          "Å gjette et svar",
-          "Å tegne en graf"
+          "Å sette sammen mindre deler til én løsning",
+          "Å fjerne gjentatte linjer fra et program",
+          "Å oversette en oppgave til Python-kode"
         ],
         "correct": 0,
         "explain": "Mindre deler er lettere å løse hver for seg."
@@ -345,9 +345,9 @@
         "text": "For hvilken n gir n² + n + 41 ikke et primtall?",
         "options": [
           "n = 1",
-          "n = 10",
+          "n = 2",
           "n = 40",
-          "n = 5"
+          "n = 3"
         ],
         "correct": 2,
         "explain": "40² + 40 + 41 = 1681 = 41².",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

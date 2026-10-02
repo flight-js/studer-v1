@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er sakprosa?",
       "options": [
-        "Oppdiktede fortellinger",
+        "Tekster som forteller oppdiktede historier",
         "Tekster som handler om virkeligheten",
-        "Bare tekster fra aviser",
-        "Dikt uten rim"
+        "Tekster som beskriver en fantasiverden",
+        "Tekster som formidler følelser gjennom rim"
       ],
       "correct": 1,
       "explain": "Sakprosa handler om virkelige forhold og kan være alt fra lærebøker til debattinnlegg."
@@ -89,9 +89,9 @@
       "text": "Hvordan er en nyhetsartikkel bygd opp?",
       "options": [
         "Det viktigste kommer først",
-        "Det viktigste kommer til slutt",
-        "Den starter alltid med et sitat",
-        "Den har spenningskurve med klimaks"
+        "Bakgrunnen kommer først",
+        "Journalistens mening kommer først",
+        "Detaljene kommer før hovedsaken"
       ],
       "correct": 0,
       "explain": "Nyhetstrekanten gjør at leseren får hovedsaken med én gang, og kan lese videre for detaljer."
@@ -100,9 +100,9 @@
       "id": "q03",
       "text": "Hvilken sjanger er humoristisk og personlig og handler ofte om noe hverdagslig?",
       "options": [
-        "Rapport",
-        "Nyhetsartikkel",
-        "Instruksjon",
+        "Kronikk",
+        "Reportasje",
+        "Fagartikkel",
         "Kåseri"
       ],
       "correct": 3,
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er en temasetning?",
       "options": [
-        "Siste setning i teksten",
-        "Overskriften",
+        "En setning som forklarer et fagord i avsnittet",
+        "En setning som viser til en kilde brukt i avsnittet",
         "En setning som sier hva avsnittet handler om",
-        "Et sitat fra en kilde"
+        "En setning som gir et eksempel på avsnittets tema"
       ],
       "correct": 2,
       "explain": "Temasetningen står ofte først i avsnittet og gir leseren avsnittets hovedtanke."
@@ -124,9 +124,9 @@
       "id": "q05",
       "text": "Hvilket utsagn er en mening og ikke et faktum?",
       "options": [
-        "Oslo er hovedstaden i Norge",
+        "Oslo er Norges hovedstad",
         "Skoledagen bør starte klokka ni",
-        "Vann koker ved 100 °C ved normalt lufttrykk",
+        "Vann koker ved 100 °C",
         "Norge har over fem millioner innbyggere"
       ],
       "correct": 1,
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilke spørsmål svarer ingressen i en nyhetsartikkel ofte på?",
       "options": [
-        "Hv-spørsmålene: hva, hvem, hvor, når, hvorfor, hvordan",
-        "Hvordan artikkelen slutter",
-        "Hva journalisten mener",
-        "Hvilke kilder som er brukt"
+        "Ingressen gir: hva, hvem, hvor, når, hvorfor og hvordan",
+        "Ingressen gir: journalistens mening, leserens vurdering og artikkelens konklusjon",
+        "Ingressen gir: alle kildene, hele bakgrunnen og journalistens arbeidsmåte",
+        "Ingressen gir: artikkelens avslutning, sjanger og språkvalg"
       ],
       "correct": 0,
       "explain": "Ingressen gir en rask oppsummering av de viktigste opplysningene."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva kjennetegner en reportasje?",
       "options": [
-        "Den er alltid kortest mulig",
-        "Den består bare av tall",
-        "Den tar leseren med til stedet med beskrivelser og intervjuer",
-        "Den er oppdiktet"
+        "Den forteller om en oppdiktet hendelse med fiktive personer",
+        "Den oppsummerer nyheten kort uten å skildre miljøet",
+        "Den skildrer stedet med beskrivelser og intervjuer",
+        "Den forklarer et tema med fagord og en tydelig definisjon"
       ],
       "correct": 2,
       "explain": "Reportasjen er levende sakprosa som lar leseren oppleve et sted eller en hendelse."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva bør du tenke på først når du skal skrive en informerende tekst?",
       "options": [
-        "Hvor mange sider teksten skal være",
-        "Hvilke ord som rimer",
-        "Hvordan du kan skjule kildene",
+        "Hvor lang teksten skal være og hvor mange avsnitt den trenger",
+        "Hvilke bilder teksten skal ha og hvor de skal plasseres",
+        "Hvilken skrifttype teksten skal bruke og fargen på overskriften",
         "Hvem mottakeren er og hva de trenger å vite"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "options": [
         "Én",
         "To",
-        "Så mange som mulig",
-        "Ingen"
+        "Tre",
+        "Fire"
       ],
       "correct": 0,
       "explain": "Ett avsnitt, én hovedtanke. Det gjør teksten oversiktlig."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilken sjanger argumenterer for en mening?",
       "options": [
-        "Fagtekst",
+        "Nyhetsartikkel",
         "Debattinnlegg",
-        "Bruksanvisning",
-        "Leksikonartikkel"
+        "Reportasje",
+        "Bruksanvisning"
       ],
       "correct": 1,
       "explain": "Debattinnlegget skal overbevise leseren om et standpunkt."
@@ -317,9 +317,9 @@
         "text": "Hvilken tekst er en instruksjon?",
         "options": [
           "En bruksanvisning til en kaffemaskin",
-          "Et dikt om høsten",
-          "Et leserbrev om bompenger",
-          "En novelle"
+          "En artikkel om kaffemaskinens historie",
+          "Et leserbrev om prisen på kaffe",
+          "En reportasje fra en kaffefabrikk"
         ],
         "correct": 0,
         "explain": "En instruksjon forklarer steg for steg hvordan man gjør noe."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva bør en god avslutning i en fagtekst gjøre?",
         "options": [
-          "Introdusere et nytt emne",
-          "Oppsummere hovedpoengene",
-          "Gjenta innledningen ord for ord",
-          "Stille leseren et vanskelig spørsmål uten svar"
+          "Å introdusere et nytt tema helt på slutten",
+          "Å oppsummere tekstens viktigste poenger til slutt",
+          "Å gjenta innledningen med nøyaktig samme ord",
+          "Å stille et nytt spørsmål uten å svare"
         ],
         "correct": 1,
         "explain": "Avslutningen samler trådene og minner leseren om det viktigste."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hvorfor bør fagord forklares i en fagtekst?",
         "options": [
-          "For å gjøre teksten lengre",
-          "Fordi det er en regel i rettskrivingen",
+          "For at teksten skal få flere avsnitt",
+          "For at alle setningene skal bli kortere",
           "For at leseren skal forstå innholdet",
-          "For å unngå avsnitt"
+          "For at overskriften skal passe til teksten"
         ],
         "correct": 2,
         "explain": "Fagord er nødvendige for presisjon, men leseren må forstå dem for å få utbytte av teksten."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

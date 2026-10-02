@@ -78,22 +78,22 @@
       "id": "q01",
       "text": "Hva betyr 菜单 càidān?",
       "options": [
-        "servitør",
+        "spisepinner",
         "meny",
-        "regning",
-        "restaurant"
+        "hovedrett",
+        "drikkevare"
       ],
       "correct": 1,
-      "explain": "饭馆 er restaurant."
+      "explain": "菜单 càidān betyr «meny»."
     },
     {
       "id": "q02",
       "text": "Hvordan ber du om regningen?",
       "options": [
         "服务员，买单！",
-        "服务员，点菜！",
-        "服务员，好吃！",
-        "服务员，再见！"
+        "服务员，来杯茶！",
+        "服务员，打包！",
+        "服务员，拿菜单！"
       ],
       "correct": 0,
       "explain": "买单 mǎidān = betale regningen."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvilket ord for «eller» brukes i spørsmål?",
       "options": [
-        "或者 huòzhě",
-        "和 hé",
+        "但是 dànshì",
+        "因为 yīnwèi",
         "还是 háishi",
-        "也 yě"
+        "所以 suǒyǐ"
       ],
       "correct": 2,
       "explain": "你要茶还是咖啡？"
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva betyr 太好吃了！?",
       "options": [
-        "Det er for dyrt!",
-        "Jeg er mett!",
-        "Det er for sterkt!",
-        "Det er kjempegodt!"
+        "Det smaker veldig salt!",
+        "Det smaker ganske bittert!",
+        "Det smaker svært surt!",
+        "Det smaker kjempegodt!"
       ],
       "correct": 3,
       "explain": "太……了 forsterker."
@@ -127,9 +127,9 @@
       "text": "Hva betyr 不要太辣?",
       "options": [
         "Ikke for sterk.",
-        "Veldig sterk.",
-        "Ikke søt.",
-        "Uten salt."
+        "Ikke for søt.",
+        "Ikke for salt.",
+        "Ikke for sur."
       ],
       "correct": 0,
       "explain": "辣 là = sterk."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvilken region er kjent for sterkt krydret mat?",
       "options": [
-        "Beijing",
+        "Guangdong",
         "Sichuan",
-        "Shanghai",
-        "Hongkong"
+        "Yunnan",
+        "Xinjiang"
       ],
       "correct": 1,
       "explain": "Sichuanpepper og chili.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er dim sum?",
       "options": [
-        "En type te",
-        "En suppe",
-        "Små retter til te fra kantonesisk kjøkken",
-        "Peking-and"
+        "En nudelsuppe fra Sichuan som serveres varm",
+        "En søt bakst fra Beijing som spises til frokost",
+        "Små kantonesiske retter som serveres til te",
+        "En grønn te fra Shanghai som drikkes etter maten"
       ],
       "correct": 2,
       "explain": "点心 diǎnxin.",
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er forskjellen på 想 og 要?",
       "options": [
-        "Det er ingen forskjell",
-        "想 betyr spise, 要 betyr drikke",
-        "要 betyr ønske, 想 betyr ta",
-        "想 er å ønske, 要 er mer bestemt «vil ha»"
+        "想 uttrykker et bestemt ønske; 要 uttrykker et mer forsiktig ønske.",
+        "想 brukes om mat; 要 brukes om drikke.",
+        "想 viser hva man tenker; 要 viser hva man velger å bestille.",
+        "想 uttrykker et ønske; 要 betyr et mer bestemt «vil ha»."
       ],
       "correct": 3,
       "explain": "要 brukes også når man bestiller."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hvordan spiser man ofte på kinesisk restaurant?",
       "options": [
-        "Rettene settes midt på bordet og deles",
-        "Hver person får sin egen rett",
-        "Man spiser stående",
-        "Man bestiller bare én rett"
+        "Flere retter settes midt på bordet og deles av gjestene.",
+        "Hver gjest får sin egen porsjon på en egen tallerken.",
+        "Rettene serveres én etter én, og hver gjest velger én rett.",
+        "Gjestene bestiller hver sin meny og spiser ved egen plass."
       ],
       "correct": 0,
       "explain": "Deling er vanlig.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva betyr 好喝?",
       "options": [
-        "godt (om mat)",
-        "godt (om drikke)",
-        "varmt",
-        "billig"
+        "Friskt (om drikke)",
+        "Godt (om drikke)",
+        "Søtt (om drikke)",
+        "Varmt (om drikke)"
       ],
       "correct": 1,
       "explain": "喝 hē = drikke."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvordan spør du «Vil du ha te eller kaffe?»",
         "options": [
-          "你要茶或者咖啡？",
+          "你要茶还是水？",
           "你要茶还是咖啡？",
-          "你茶咖啡吗？",
-          "你要茶和咖啡吗？"
+          "你要茶还是牛奶？",
+          "你要咖啡还是果汁？"
         ],
         "correct": 1,
         "explain": "还是 i spørsmål."
@@ -331,9 +331,9 @@
         "text": "Hva betyr 你想吃什么？",
         "options": [
           "Hva vil du spise?",
-          "Hva spiste du?",
-          "Liker du mat?",
-          "Er du sulten?"
+          "Hva vil du drikke?",
+          "Hva liker du å spise?",
+          "Hva spiste du i går?"
         ],
         "correct": 0,
         "explain": "想 = ha lyst til."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er 北京烤鸭?",
         "options": [
-          "Nudelsuppe",
-          "Dumplings",
+          "Vårruller",
+          "Kung pao-kylling",
           "Peking-and",
-          "Dim sum"
+          "Chow mein"
         ],
         "correct": 2,
         "explain": "En berømt rett fra Beijing.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

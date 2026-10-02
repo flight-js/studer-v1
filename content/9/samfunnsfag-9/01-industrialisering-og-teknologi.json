@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvor startet den industrielle revolusjonen?",
       "options": [
-        "Norge",
+        "Belgia",
         "Frankrike",
         "Storbritannia",
-        "USA"
+        "Tyskland"
       ],
       "correct": 2,
       "explain": "Storbritannia hadde kull, jern, kapital og arbeidskraft."
@@ -92,9 +92,9 @@
       "text": "Hvilken oppfinnelse var sentral i den første industrielle revolusjonen?",
       "options": [
         "Dampmaskinen",
-        "Datamaskinen",
-        "Telefonen",
-        "Flyet"
+        "Elektromotoren",
+        "Forbrenningsmotoren",
+        "Glødelampen"
       ],
       "correct": 0,
       "explain": "Dampmaskinen kunne drive fabrikker, tog og skip."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvorfor flyttet mange fra landsbygda til byene under industrialiseringen?",
       "options": [
-        "Fordi byene var renere",
+        "For å få arbeid på gårdene",
         "For å få arbeid i fabrikkene",
-        "Fordi jordbruk ble forbudt",
-        "Fordi boligene var gratis"
+        "For å dyrke mer jord rundt byene",
+        "For å finne større områder til husdyr"
       ],
       "correct": 1,
       "explain": "Fabrikkene trengte mange arbeidere."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvordan var arbeidsforholdene i de tidlige fabrikkene?",
       "options": [
-        "Korte dager og høy lønn",
-        "Barn fikk ikke jobbe",
-        "Trygge maskiner og ferie",
+        "Korte dager, lav lønn og farlige maskiner",
+        "Lange dager, høy lønn og farlige maskiner",
+        "Lange dager, lav lønn og trygge maskiner",
         "Lange dager, lav lønn og farlige maskiner"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva ga Norge et stort industrielt løft rundt 1900?",
       "options": [
         "Vannkraft og elektrisitet",
-        "Store kullgruver på Østlandet",
-        "Oljefunn",
-        "Datamaskiner"
+        "Kullgruver på Østlandet",
+        "Olje og naturgass",
+        "Datamaskiner og elektronikk"
       ],
       "correct": 0,
       "explain": "Fossefallene ga billig strøm til kraftkrevende industri."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Når åpnet den første jernbanen i Norge?",
       "options": [
-        "1814",
-        "1905",
+        "1836",
+        "1862",
         "1854",
-        "1945"
+        "1905"
       ],
       "correct": 2,
       "explain": "Hovedbanen gikk mellom Christiania og Eidsvoll.",
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "Hva er en negativ konsekvens for naturen av industrialiseringen?",
       "options": [
-        "Mer skog",
-        "Renere luft",
-        "Færre utslipp",
+        "Renere luft og færre klimagassutslipp",
+        "Mindre forurensning og lavere klimagassutslipp",
+        "Renere vann og færre klimagassutslipp",
         "Forurensning og økte klimagassutslipp"
       ],
       "correct": 3,
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva betyr automatisering?",
       "options": [
-        "At folk jobber mer for hånd",
+        "At mennesker styrer maskiner og datamaskiner manuelt",
         "At maskiner og datamaskiner gjør arbeid som mennesker gjorde før",
-        "At alle får egen bil",
-        "At fabrikker stenges"
+        "At fabrikker bruker flere arbeidere til å lage varer",
+        "At maskiner og datamaskiner erstattes av manuelt arbeid"
       ],
       "correct": 1,
       "explain": "Automatisering kan gjøre produksjonen billigere, men fjerne jobber."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hvem var luddittene?",
       "options": [
-        "Oppfinnere av dampmaskinen",
-        "Fabrikkeiere",
+        "Oppfinnere som laget maskiner for fabrikkene",
+        "Fabrikkeiere som ansatte arbeidere ved fabrikkene",
         "Arbeidere som knuste maskiner i protest",
-        "Norske politikere"
+        "Politikere som laget regler for fabrikkarbeiderne"
       ],
       "correct": 2,
       "explain": "De var redde for at maskinene skulle ta arbeidet deres.",
@@ -190,9 +190,9 @@
       "text": "Hvilket er et eksempel på den digitale revolusjonen?",
       "options": [
         "Internett og smarttelefoner",
-        "Spinnemaskinen",
-        "Dampskipet",
-        "Hestevogna"
+        "Telegrafen og dampmaskinen",
+        "Spinnemaskinen og dampskipet",
+        "Radioen og skrivemaskinen"
       ],
       "correct": 0,
       "explain": "Digital teknologi har endret kommunikasjon, arbeid og fritid."
@@ -329,9 +329,9 @@
         "type": "flervalg",
         "text": "Hva brukte dampmaskinene som brensel?",
         "options": [
-          "Olje",
+          "Bensin",
           "Kull",
-          "Gass",
+          "Diesel",
           "Uran"
         ],
         "correct": 1,
@@ -343,9 +343,9 @@
         "text": "Hva er en mulig konsekvens av kunstig intelligens i arbeidslivet?",
         "options": [
           "At noen yrker forsvinner og nye oppstår",
-          "At all teknologi stopper",
-          "At ingen trenger utdanning",
-          "At internett forsvinner"
+          "At noen yrker forsvinner og teknologien slutter å utvikles",
+          "At kunstig intelligens fjerner behovet for datamaskiner",
+          "At kunstig intelligens gjør internett overflødig på arbeidsplassen"
         ],
         "correct": 0,
         "explain": "Som tidligere teknologi endrer KI hvilke oppgaver mennesker gjør.",
@@ -356,9 +356,9 @@
         "type": "flervalg",
         "text": "Hva kjennetegnet den andre industrielle revolusjonen rundt 1900?",
         "options": [
-          "Dampmaskin og tekstil",
-          "Internett og mobil",
-          "Hestekraft og vindmøller",
+          "Dampkraft, tekstilmaskiner og fabrikker",
+          "Datamaskiner, internett og mobiltelefoner",
+          "Hestekraft, vindmøller og håndverk",
           "Elektrisitet, olje og samlebånd"
         ],
         "correct": 3,
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

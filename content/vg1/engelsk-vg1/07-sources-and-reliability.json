@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "What is framing?",
       "options": [
-        "Putting a picture in a frame",
-        "The way a story is presented, which influences how readers understand it",
-        "A type of reference",
-        "A fact-checking website"
+        "The order in which events appear within a story",
+        "The way a story is presented, shaping how readers understand it",
+        "The evidence a writer uses to support a story’s claims",
+        "The audience a writer chooses for a particular story"
       ],
       "correct": 1,
       "explain": "Word choice, images and who gets to speak are part of framing."
@@ -94,9 +94,9 @@
       "text": "Which statement is a fact?",
       "options": [
         "The UK held a referendum on EU membership in 2016.",
-        "Brexit was a mistake.",
-        "The EU is the best organisation in the world.",
-        "Everyone should vote."
+        "Leaving the EU was the best choice for the UK.",
+        "The referendum was an unfair way to make a decision.",
+        "The UK ought to rejoin the EU in the future."
       ],
       "correct": 0,
       "explain": "It can be checked."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "What does the A for Authority in CRAAP ask?",
       "options": [
-        "Is it up to date?",
-        "Is it relevant?",
-        "Who is the author or publisher, and what are their qualifications?",
-        "Is it funny?"
+        "Is the information current, and when was it published?",
+        "Does the source relate to your research topic?",
+        "Who wrote or published it, and what are their qualifications?",
+        "What is the source trying to achieve?"
       ],
       "correct": 2,
       "explain": "Authority is about who stands behind the information.",
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "What is disinformation?",
       "options": [
-        "Information that is outdated",
-        "An opinion in a newspaper",
-        "A paraphrase",
-        "False information spread on purpose"
+        "Incorrect information shared because of a misunderstanding",
+        "An outdated claim repeated from an older source",
+        "An opinion expressed in a news article",
+        "False or misleading information deliberately spread to deceive"
       ],
       "correct": 3,
       "explain": "Misinformation is spread by mistake.",
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "What is lateral reading?",
       "options": [
-        "Checking what other sources say about a website or claim",
-        "Reading from left to right",
-        "Reading only the headline",
-        "Reading a text twice"
+        "Checking what independent sources say about a website or claim",
+        "Reading a source carefully from beginning to end",
+        "Checking a website by studying only its own pages",
+        "Comparing two articles by reading them side by side"
       ],
       "correct": 0,
       "explain": "Professional fact-checkers use this method.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Which is a primary source?",
       "options": [
-        "A textbook chapter about the civil rights movement",
-        "A recording of Martin Luther King's “I Have a Dream” speech",
-        "A review of a documentary",
-        "An encyclopedia article"
+        "A textbook chapter explaining the civil rights movement",
+        "A recording of Martin Luther King’s “I Have a Dream” speech",
+        "A review describing a documentary about the speech",
+        "An encyclopedia entry about King’s life and speeches"
       ],
       "correct": 1,
       "explain": "The speech is a first-hand source."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Does a paraphrase need a reference?",
       "options": [
-        "No, because you use your own words",
-        "Only if it is long",
+        "No, because paraphrasing changes the original wording",
+        "Only when the paraphrase includes exact words from the source",
         "Yes, because the idea comes from someone else",
-        "Only in MLA style"
+        "Yes, but only when the source is a book"
       ],
       "correct": 2,
       "explain": "Ideas must be credited, not only exact words."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "What is plagiarism?",
       "options": [
-        "Using many sources",
-        "Quoting correctly",
-        "Writing a reference list",
-        "Presenting other people's words or ideas as your own"
+        "Using several sources to support a research argument",
+        "Quoting a source with quotation marks and a reference",
+        "Listing sources used in a reference list",
+        "Presenting other people’s words or ideas as your own"
       ],
       "correct": 3,
       "explain": "Plagiarism is cheating."
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Why might one newspaper call a protest a riot and another a demonstration?",
       "options": [
-        "Because of different perspectives or bias",
-        "Because one is always wrong",
-        "Because of spelling rules",
-        "Because riot is shorter"
+        "Because the writers have different perspectives or biases",
+        "Because the words follow different spelling conventions",
+        "Because the words have different grammatical forms",
+        "Because one newspaper uses shorter words to save space"
       ],
       "correct": 0,
       "explain": "Word choice reveals perspective."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "What does good, purposeful use of sources involve?",
       "options": [
-        "Using as many quotations as possible",
-        "Choosing relevant, reliable sources and commenting on them to support your argument",
-        "Copying whole paragraphs",
-        "Only using one source"
+        "Choosing sources mainly because they agree with your argument",
+        "Choosing relevant, reliable sources and explaining how they support your argument",
+        "Using quotations from several sources without explaining their relevance",
+        "Summarising each source without linking it to your argument"
       ],
       "correct": 1,
       "explain": "Sources should support your own thinking."
@@ -324,9 +324,9 @@
         "text": "What does the P for Purpose in CRAAP ask?",
         "options": [
           "Is the source meant to inform, persuade, entertain or sell?",
-          "Is it published on paper?",
-          "Is it popular?",
-          "Is it a primary source?"
+          "Is the source current, and when was it published?",
+          "Who wrote or published the source, and are they qualified?",
+          "Does the source provide evidence for its main claims?"
         ],
         "correct": 0,
         "explain": "The purpose affects how you should read it.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "What does an MLA in-text reference look like?",
         "options": [
-          "(Smith, 2023, p. 12)",
-          "[Smith 2023]",
+          "(Smith, 12)",
+          "(Smith p. 12)",
           "(Smith 12)",
-          "Smith said it"
+          "[Smith 12]"
         ],
         "correct": 2,
         "explain": "MLA uses the author's name and page number.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "What is a summary?",
         "options": [
-          "The exact words of a source",
+          "A source’s exact wording copied into another text",
           "A brief version of the main points",
-          "A list of sources",
-          "An opinion about a source"
+          "A list of books and articles used in research",
+          "A writer’s judgement about a source’s quality"
         ],
         "correct": 1,
         "explain": "Summaries also need references."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

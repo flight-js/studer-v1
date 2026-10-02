@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva betyr menneskeverd?",
       "options": [
-        "At noen mennesker er mer verdt enn andre",
+        "At menneskers verdi varierer med evnene deres",
         "At alle mennesker har ukrenkelig og lik verdi",
-        "At verdien avhenger av nytte",
-        "At bare friske har verdi"
+        "At menneskeverd måles ut fra samfunnsbidrag",
+        "At menneskeverd følger av helse og funksjonsevne"
       ],
       "correct": 1,
       "explain": "Grunnlaget for menneskerettighetene."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva er et antroposentrisk natursyn?",
       "options": [
-        "Mennesket i sentrum – naturen har verdi fordi vi trenger den",
-        "Alt levende har egenverdi",
-        "Økosystemer har egenverdi",
-        "Naturen har ingen verdi"
+        "Mennesket står i sentrum; naturen har verdi fordi den dekker menneskelige behov",
+        "Alle levende organismer har verdi uavhengig av nytte for mennesker",
+        "Økosystemer har verdi uavhengig av menneskers behov og bruk",
+        "Naturen har verdi først når mennesker tar den i bruk"
       ],
       "correct": 0,
       "explain": "Motsatsen er bio- og økosentrisk."
@@ -109,7 +109,7 @@
         "Peter Singer",
         "Immanuel Kant",
         "Arne Næss",
-        "K.E. Løgstrup"
+        "Hans Jonas"
       ],
       "correct": 2,
       "explain": "Norsk filosof.",
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva er artsdiskriminering?",
       "options": [
-        "Diskriminering av minoriteter",
-        "Å frede arter",
-        "Å dyrke planter",
-        "Å behandle dyr dårligere bare fordi de ikke er mennesker"
+        "Å behandle menneskegrupper dårligere på grunn av bakgrunn",
+        "Å prioritere truede arter framfor vanlige arter i naturforvaltning",
+        "Å bruke dyr i forskning når det gagner mennesker",
+        "Å behandle dyr dårligere fordi de tilhører en annen art enn mennesker"
       ],
       "correct": 3,
       "explain": "Peter Singers begrep.",
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Hvilken bekymring knyttes til fosterdiagnostikk?",
       "options": [
-        "At det kan føre til sortering av mennesker",
-        "At det er for billig",
-        "At ingen bruker det",
-        "At det gir for lite informasjon"
+        "At fosterdiagnostikk kan føre til sortering av mennesker",
+        "At fosterdiagnostikk kan gjøre arvelige sykdommer vanligere",
+        "At fosterdiagnostikk kan behandle sykdommer før barnet blir født",
+        "At fosterdiagnostikk kan gi foreldre et sikkert svar om framtidig helse"
       ],
       "correct": 0,
       "explain": "Veies mot kvinners selvbestemmelse."
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva er CRISPR?",
       "options": [
-        "Et våpen",
-        "En teknologi for genredigering",
-        "En type KI",
-        "En klimaavtale"
+        "En teknologi som gjør det mulig å kartlegge gener",
+        "En teknologi som gjør det mulig å redigere gener",
+        "En teknologi som gjør det mulig å klone organismer",
+        "En teknologi som gjør det mulig å lage kunstig intelligens"
       ],
       "correct": 1,
       "explain": "Kan kanskje kurere arvelige sykdommer.",
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hvilket etisk spørsmål reiser autonome våpen?",
       "options": [
-        "Om de er dyre",
-        "Om de er raske",
+        "Om maskiner kan oppdage mål på en slagmark",
+        "Om våpensystemer kan fungere uten nettforbindelse",
         "Om maskiner skal kunne ta beslutninger om liv og død",
-        "Om de er lovlige å selge"
+        "Om maskiner kan beregne avstanden til et mål"
       ],
       "correct": 2,
       "explain": "Ansvar og menneskeverd.",
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hva sier føre var-prinsippet?",
       "options": [
-        "At vi alltid skal ta risiko",
-        "At teknologi alltid er trygg",
-        "At vi skal vente på bevis før vi handler",
+        "At vi bør kreve full sikkerhet før ny teknologi tas i bruk",
+        "At vi bør vektlegge forventet nytte framfor usikre skadevirkninger",
+        "At vi bør vente med tiltak til konsekvensene er fullt dokumentert",
         "At vi bør være forsiktige når konsekvensene er usikre og alvorlige"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hva er et økosentrisk natursyn?",
       "options": [
         "Økosystemer og hele naturen har egenverdi",
-        "Mennesket i sentrum",
-        "Bare dyr har verdi",
-        "Naturen er en ressurs"
+        "Mennesket har egenverdi, mens naturen har verdi som ressurs for oss",
+        "Dyr har egenverdi, mens planter og økosystemer har nytteverdi",
+        "Naturen har verdi gjennom ressursene den gir mennesker"
       ],
       "correct": 0,
       "explain": "Det bredeste perspektivet."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hvilken konflikt kan vindkraft skape?",
       "options": [
-        "Med klimamål",
+        "Med målet om å redusere klimagassutslipp",
         "Med natur og urfolksrettigheter",
-        "Med fornybar energi",
-        "Ingen konflikt"
+        "Med utbygging av andre fornybare energikilder",
+        "Med tilgang til strøm fra vannkraft"
       ],
       "correct": 1,
       "explain": "Grønn teknologi har også etiske sider.",
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva mente Peter Singer ga dyr moralsk betydning?",
         "options": [
-          "Intelligens",
+          "Evnen til å tenke abstrakt",
           "Evnen til å lide",
-          "Nytte for mennesker",
-          "Størrelse"
+          "Evnen til å kommunisere med mennesker",
+          "Evnen til å bidra til menneskers velferd"
         ],
         "correct": 1,
         "explain": "Utilitaristisk begrunnelse.",
@@ -334,9 +334,9 @@
         "text": "Hvilket spørsmål reiser roboter i omsorg?",
         "options": [
           "Om de kan erstatte menneskelig kontakt",
-          "Om de er vakre",
-          "Om de er norske",
-          "Om de er små"
+          "Om de kan utføre faste rutineoppgaver",
+          "Om de kan forstå norske dialekter",
+          "Om kommunene har råd til å kjøpe dem"
         ],
         "correct": 0,
         "explain": "Menneskeverd i omsorg.",
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvordan begrunner Kant menneskeverdet?",
         "options": [
-          "Med nytte",
-          "Med styrke",
+          "Med menneskets nytte for samfunnet",
+          "Med evnen til å føle glede og smerte",
           "Med menneskets fornuft og autonomi",
-          "Med rikdom"
+          "Med menneskets plass i naturens økosystem"
         ],
         "correct": 2,
         "explain": "Mennesket er mål i seg selv.",
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

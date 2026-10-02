@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er 72 km/h i m/s?",
       "options": [
-        "7,2 m/s",
+        "18 m/s",
         "20 m/s",
-        "259,2 m/s",
-        "72 m/s"
+        "24 m/s",
+        "36 m/s"
       ],
       "correct": 1,
       "explain": "72 / 3,6 = 20."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvordan regner du ut tetthet?",
       "options": [
-        "Volum / masse",
+        "Volum / tid",
         "Masse · volum",
         "Masse / volum",
-        "Masse − volum"
+        "Volum + masse"
       ],
       "correct": 2,
       "explain": "Tetthet forteller hvor mye masse det er per volumenhet."
@@ -101,9 +101,9 @@
       "text": "En bil kjører 150 km på 2 timer. Hva er gjennomsnittsfarten?",
       "options": [
         "75 km/h",
-        "300 km/h",
-        "152 km/h",
-        "50 km/h"
+        "150 km/h",
+        "148 km/h",
+        "100 km/h"
       ],
       "correct": 0,
       "explain": "150/2 = 75."
@@ -113,21 +113,21 @@
       "text": "Hvilket tilbud er billigst per liter?",
       "options": [
         "0,5 L for 12 kr",
-        "2 L for 44 kr",
-        "1 L for 21 kr",
+        "2 L for 46 kr",
+        "1 L for 22 kr",
         "1,5 L for 30 kr"
       ],
       "correct": 3,
-      "explain": "Literprisene er 24, 22, 21 og 20 kr."
+      "explain": "Literprisene er 20, 24, 23 og 22 kr per liter. Lavest er 20 kr per liter."
     },
     {
       "id": "q05",
       "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?",
       "options": [
         "6 kWh",
-        "6000 kWh",
-        "0,6 kWh",
-        "667 kWh"
+        "0,67 kWh",
+        "2 kWh",
+        "60 kWh"
       ],
       "correct": 0,
       "explain": "2 kW · 3 h = 6 kWh."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Strømprisen er 1,20 kr/kWh. Hva koster 6 kWh?",
       "options": [
-        "5 kr",
+        "0,72 kr",
         "7,20 kr",
-        "72 kr",
-        "0,20 kr"
+        "12,20 kr",
+        "6,00 kr"
       ],
       "correct": 1,
       "explain": "6 · 1,20 = 7,20."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvor lang tid tar 45 km med 90 km/h?",
       "options": [
-        "2 timer",
-        "45 minutter",
+        "15 minutter",
+        "60 minutter",
         "30 minutter",
-        "1,5 timer"
+        "90 minutter"
       ],
       "correct": 2,
       "explain": "45/90 = 0,5 timer."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er 1 m/s i km/h?",
       "options": [
-        "1 km/h",
-        "60 km/h",
-        "1000 km/h",
+        "0,36 km/h",
+        "36 km/h",
+        "1,6 km/h",
         "3,6 km/h"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "En kommune har 12 000 innbyggere og et areal på 400 km². Hva er befolkningstettheten?",
       "options": [
         "30 innbyggere per km²",
-        "3 innbyggere per km²",
-        "300 innbyggere per km²",
-        "4,8 millioner per km²"
+        "12 innbyggere per km²",
+        "40 innbyggere per km²",
+        "120 innbyggere per km²"
       ],
       "correct": 0,
       "explain": "12 000/400 = 30."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "En bil bruker 0,6 L/mil. Hvor mye drivstoff bruker den på 250 km?",
       "options": [
-        "150 liter",
+        "30 liter",
         "15 liter",
-        "1,5 liter",
-        "25 liter"
+        "2,5 liter",
+        "250 liter"
       ],
       "correct": 1,
       "explain": "250 km = 25 mil, og 0,6 · 25 = 15."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "En kloss har masse 200 g og volum 25 cm³. Hva er tettheten?",
         "options": [
-          "0,125 g/cm³",
+          "4 g/cm³",
           "8 g/cm³",
-          "5000 g/cm³",
-          "225 g/cm³"
+          "25 g/cm³",
+          "0,8 g/cm³"
         ],
         "correct": 1,
         "explain": "200/25 = 8."
@@ -326,9 +326,9 @@
         "text": "Timelønnen er 180 kr. Hva tjener du på 7,5 timer?",
         "options": [
           "1 350 kr",
-          "187,50 kr",
-          "1 800 kr",
-          "24 kr"
+          "1 260 kr",
+          "1 440 kr",
+          "900 kr"
         ],
         "correct": 0,
         "explain": "180 · 7,5 = 1 350."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken enhet passer best for drivstofforbruk i Norge?",
         "options": [
-          "kr/kg",
-          "km/h",
+          "liter per time",
+          "kroner per liter",
           "liter per mil",
-          "g/cm³"
+          "kilometer per time"
         ],
         "correct": 2,
         "explain": "Liter per mil er vanlig i norske bilannonser."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

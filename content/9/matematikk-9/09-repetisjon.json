@@ -25,8 +25,7 @@
     },
     {
       "term": "Tetthet",
-      "def": "Masse delt på volum, ofte i g/cm³.",
-      "niva": "eksempel"
+      "def": "Masse delt på volum, ofte i g/cm³."
     },
     {
       "term": "Enhetspris",
@@ -106,10 +105,10 @@
       "id": "q01",
       "text": "En syklist sykler 36 km på 2 timer. Hva er farten?",
       "options": [
-        "72 km/h",
+        "12 km/h",
         "18 km/h",
-        "34 km/h",
-        "38 km/h"
+        "20 km/h",
+        "36 km/h"
       ],
       "correct": 1,
       "explain": "Fart = strekning / tid = 36 km / 2 h = 18 km/h."
@@ -119,9 +118,9 @@
       "text": "Hva er 20 m/s i km/h?",
       "options": [
         "72 km/h",
-        "5,6 km/h",
-        "200 km/h",
-        "20 km/h"
+        "7,2 km/h",
+        "36 km/h",
+        "200 km/h"
       ],
       "correct": 0,
       "explain": "Fra m/s til km/h ganger vi med 3,6: 20 · 3,6 = 72 km/h."
@@ -130,10 +129,10 @@
       "id": "q03",
       "text": "Hva er nok for å vite at to trekanter er formlike?",
       "options": [
-        "At én side er lik",
-        "At arealet er likt",
+        "At to sider er parvis like lange",
+        "At én vinkel er parvis like stor",
         "At to vinkler er parvis like store",
-        "At de er rettvinklede"
+        "At omkretsene er like lange"
       ],
       "correct": 2,
       "explain": "Er to vinkler like, blir også den tredje lik fordi summen er 180°. Da har trekantene samme form."
@@ -169,7 +168,7 @@
         "120 cm³",
         "360 cm³",
         "180 cm³",
-        "46 cm³"
+        "36 cm³"
       ],
       "correct": 0,
       "explain": "V = G · h / 3 = 36 · 10 / 3 = 120 cm³."
@@ -180,8 +179,8 @@
       "options": [
         "Gjennomsnittet",
         "Medianen",
-        "Variasjonsbredden",
-        "Summen"
+        "Typetallet",
+        "Kvartilbredden"
       ],
       "correct": 1,
       "explain": "Gjennomsnittet (76 000 kr) trekkes opp av én ekstremverdi. Medianen (40 000 kr) viser hva de fleste tjener."
@@ -191,9 +190,9 @@
       "text": "Y-aksen i et diagram starter på 95. Hva kan det føre til?",
       "options": [
         "At små forskjeller ser store ut",
-        "At diagrammet blir mer nøyaktig",
-        "At dataene endres",
-        "At gjennomsnittet blir feil"
+        "At små forskjeller ser mindre ut",
+        "At målingene blir mer nøyaktige",
+        "At gjennomsnittet ser høyere ut"
       ],
       "correct": 0,
       "explain": "Når aksen er kuttet, blir forskjellene mellom stolpene overdrevet visuelt, selv om tallene er riktige."
@@ -202,10 +201,10 @@
       "id": "q09",
       "text": "Hvorfor er en nettavstemning der alle kan stemme, lite pålitelig?",
       "options": [
-        "Fordi den har for mange svar",
+        "Fordi svarene ikke kan telles automatisk",
         "Fordi utvalget ikke er representativt",
-        "Fordi nettet regner feil",
-        "Fordi den bare gir prosent"
+        "Fordi prosentene ikke viser noen fordeling",
+        "Fordi avstemningen ikke oppgir gjennomsnittet"
       ],
       "correct": 1,
       "explain": "De som velger å svare, er ofte de som er mest engasjert i saken. Da ligner ikke utvalget befolkningen."
@@ -215,7 +214,7 @@
       "text": "Hva er sannsynligheten for summen 7 med to terninger?",
       "options": [
         "1/36",
-        "7/36",
+        "5/36",
         "1/12",
         "1/6"
       ],
@@ -227,9 +226,9 @@
       "text": "Hvorfor gjør vi mange forsøk i en simulering?",
       "options": [
         "For at relativ frekvens skal komme nær sannsynligheten",
-        "For at programmet skal gå saktere",
-        "Fordi Python krever det",
-        "For å få et eksakt svar"
+        "For at programmet skal gi et raskere resultat",
+        "Fordi Python trenger et bestemt antall forsøk",
+        "For å få et helt nøyaktig svar fra forsøket"
       ],
       "correct": 0,
       "explain": "Etter de store talls lov blir den relative frekvensen mer stabil og nærmere sannsynligheten jo flere forsøk vi gjør."
@@ -238,10 +237,10 @@
       "id": "q12",
       "text": "En simulering av summen 7 med to terninger gir 0,25. Den teoretiske sannsynligheten er 1/6. Hva bør du gjøre?",
       "options": [
-        "Stole på simuleringen",
-        "Sjekke programmet for feil",
-        "Senke antall forsøk",
-        "Endre den teoretiske verdien"
+        "Stol på simuleringens resultat",
+        "Sjekk programmet for feil",
+        "Reduser antall forsøk i simuleringen",
+        "Endre den teoretiske sannsynligheten"
       ],
       "correct": 1,
       "explain": "0,25 er langt unna 1/6 ≈ 0,167. Med mange forsøk tyder et så stort avvik på en feil i programmet."
@@ -373,7 +372,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -394,10 +393,10 @@
         "type": "flervalg",
         "text": "Et tog kjører 240 km på 3 timer. Hva er gjennomsnittsfarten?",
         "options": [
-          "720 km/h",
+          "240 km/h",
           "80 km/h",
           "60 km/h",
-          "243 km/h"
+          "83 km/h"
         ],
         "correct": 1,
         "explain": "240 km / 3 h = 80 km/h."
@@ -435,7 +434,7 @@
         "options": [
           "100 L",
           "10 000 L",
-          "1000 L",
+          "50 000 L",
           "100 000 L"
         ],
         "correct": 3,
@@ -453,9 +452,9 @@
         "type": "flervalg",
         "text": "Hva er et representativt utvalg?",
         "options": [
-          "Et utvalg der alle har samme mening",
+          "Et utvalg med personer fra samme klasse",
           "Et utvalg som ligner populasjonen",
-          "Et utvalg med bare eksperter",
+          "Et utvalg som består av eksperter",
           "Et utvalg som velger seg selv"
         ],
         "correct": 1,
@@ -557,12 +556,85 @@
           "Sammenligner relativ frekvens med teoretisk sannsynlighet 1/6."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "En pakke på 400 g koster 34 kr, og en pakke på 600 g koster 48 kr. Hvilken pakke er billigst per kilo? Vis hvordan du sammenligner enhetsprisene.",
+        "fasit": "Den første pakken koster 85 kr/kg, siden 34 kr delt på 0,4 kg er 85 kr/kg. Den andre koster 80 kr/kg, så pakken på 600 g er billigst per kilo.",
+        "kriterier": [
+          "Regner ut enhetsprisene riktig: 85 kr/kg og 80 kr/kg.",
+          "Konkluderer med at pakken på 600 g er billigst per kilo."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "To trekanter har sidelengdene 3 cm, 4 cm og 5 cm og 6 cm, 8 cm og 10 cm. Forklar om trekantene er kongruente eller formlike, og om de er rettvinklede.",
+        "fasit": "Trekantene er formlike fordi samsvarende sider har forholdet 1 : 2, men de er ikke kongruente fordi sidene ikke er like lange. Begge er rettvinklede, siden 3² + 4² = 5² og 6² + 8² = 10².",
+        "kriterier": [
+          "Forklarer at sidene er proporsjonale, men at trekantene ikke er kongruente.",
+          "Bruker Pytagoras' setning til å begrunne at trekantene er rettvinklede."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En syklist sykler 900 meter på 3 minutter. Hva er farten i meter per sekund og kilometer per time?",
+        "fasit": "Tre minutter er 180 sekunder, så farten er 900 m / 180 s = 5 m/s. I kilometer per time blir det 5 · 3,6 = 18 km/h.",
+        "kriterier": [
+          "Finner farten 5 m/s ved å dele strekningen på tiden i sekunder.",
+          "Gjør om til 18 km/h ved å gange med 3,6."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En gjenstand har masse 240 g og volum 80 cm³. Finn tettheten, og forklar om gjenstanden flyter i vann.",
+        "fasit": "Tettheten er 240 g / 80 cm³ = 3 g/cm³. Siden dette er større enn vannets tetthet på omtrent 1 g/cm³, synker gjenstanden.",
+        "kriterier": [
+          "Regner ut tettheten 3 g/cm³.",
+          "Sammenligner med vann og konkluderer med at gjenstanden synker."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En figur forstørres slik at alle sidene blir fire ganger så lange. Hvordan endres arealet? Forklar sammenhengen mellom forstørrelsesfaktoren for lengder og areal.",
+        "fasit": "Arealet blir 16 ganger så stort. Det skyldes at begge dimensjonene i arealet blir ganget med 4, og 4 · 4 = 16.",
+        "kriterier": [
+          "Svarer at arealet blir 16 ganger så stort.",
+          "Forklarer at arealfaktoren er kvadratet av forstørrelsesfaktoren for lengder."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En åpen nettavstemning med 200 deltakere viser at 65 % støtter et forslag om en ny skatepark. Kan kommunen bruke resultatet til å fastslå hvor stor andel av alle innbyggerne som støtter forslaget? Forklar, og foreslå en bedre måte å undersøke saken på.",
+        "fasit": "Nei, deltakerne i en åpen nettavstemning er ikke nødvendigvis representative for alle innbyggerne, fordi de som bryr seg mest, kan være mer tilbøyelige til å svare. Kommunen kan heller spørre et tilfeldig og tilstrekkelig stort utvalg av innbyggerne.",
+        "kriterier": [
+          "Forklarer at et åpent nettutvalg kan være skjevt og ikke representativt.",
+          "Foreslår et tilfeldig og tilstrekkelig stort utvalg av innbyggerne."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "I en simulering av myntkast ble det kron i 61 av 100 kast og i 5034 av 10 000 kast. Finn den relative frekvensen for kron i begge simuleringene, og forklar hvilket resultat som ligger nærmest sannsynligheten for kron på en rettferdig mynt.",
+        "fasit": "Den relative frekvensen er 61 % i den første simuleringen og 50,34 % i den andre. Resultatet fra 10 000 kast ligger nærmest 50 %, som er sannsynligheten for kron på en rettferdig mynt. Flere forsøk gir vanligvis en mer stabil relativ frekvens.",
+        "kriterier": [
+          "Finner relative frekvenser på 61 % og 50,34 %.",
+          "Velger simuleringen med 10 000 kast og knytter den til sannsynligheten 50 % og mange forsøk."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En sylinder har radius 3 cm og høyde 10 cm. Hvis sideflaten klippes opp og brettes ut til et rektangel, hvilke mål får rektangelet, og hva er sylinderens totale overflateareal?",
+        "fasit": "Rektangelets lengde er sirkelens omkrets, 2π · 3 = 6π cm, og bredden er 10 cm. Den totale overflaten er de to sirklene pluss sideflaten: 2π · 3² + 6π · 10 = 78π cm².",
+        "kriterier": [
+          "Oppgir rektangelets mål som 6π cm og 10 cm.",
+          "Regner ut total overflate som 78π cm² ved å ta med de to sirklene og sideflaten."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

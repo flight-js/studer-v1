@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva skiller rettsregler fra andre normer?",
       "options": [
-        "At de er moralske",
-        "At de er vedtatt eller anerkjent av staten og kan håndheves med tvang",
-        "At de er skrevet ned",
-        "At alle er enige i dem"
+        "De bygger på samfunnets moral og håndheves gjennom sosial misbilligelse",
+        "De er fastsatt eller anerkjent av staten og kan håndheves med tvang",
+        "De er skrevet ned av offentlige organer og gjelder dermed som normer",
+        "De får gyldighet når flertallet i samfunnet er enige om innholdet"
       ],
       "correct": 1,
       "explain": "Sanksjoner som bot eller fengsel."
@@ -90,9 +90,9 @@
       "text": "Hva er allmennprevensjon?",
       "options": [
         "At straff skal avskrekke andre fra lovbrudd",
-        "At den straffede skal behandles",
-        "At alle skal få lik straff",
-        "At straff skal være mild"
+        "At straffen skal hindre den dømte i å begå nye lovbrudd",
+        "At straff skal sikre lik reaksjon for like lovbrudd",
+        "At straff skal gi den fornærmede økonomisk oppreisning"
       ],
       "correct": 0,
       "explain": "Individualprevensjon gjelder den straffede."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er en preseptorisk regel?",
       "options": [
-        "En regel som gjelder hvis partene ikke har avtalt noe annet",
-        "En regel uten sanksjon",
-        "En moralsk regel",
+        "En regel som kan fravikes ved avtale mellom partene",
+        "En regel som gjelder når partene har inngått skriftlig avtale",
+        "En regel som fastsetter reaksjon ved brudd på loven",
         "En regel som ikke kan avtales bort"
       ],
       "correct": 3,
@@ -126,7 +126,7 @@
       "text": "Hvem tar ut tiltale i en straffesak?",
       "options": [
         "Påtalemyndigheten",
-        "Fornærmede selv",
+        "Fornærmede",
         "Forliksrådet",
         "Stortinget"
       ],
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor er mange forbrukerregler preseptoriske?",
       "options": [
-        "For å beskytte næringsdrivende",
+        "For å verne næringsdrivende mot krav fra forbrukere",
         "For å verne forbrukeren som svakere part",
-        "For å gjøre handel dyrere",
-        "For å forenkle lovene"
+        "For å sikre at avtaler blir enklere å forstå",
+        "For å gi begge parter like sterke rettigheter"
       ],
       "correct": 1,
       "explain": "Rettighetene kan ikke avtales bort."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en funksjon ved rettsregler?",
       "options": [
-        "Å skape kaos",
-        "Å gjøre livet uforutsigbart",
-        "Å løse konflikter fredelig",
-        "Å fjerne domstolene"
+        "Å avgjøre konflikter gjennom privat hevn mellom partene",
+        "Å gjøre politiske uenigheter til spørsmål for domstolene",
+        "Å bidra til at konflikter løses fredelig gjennom rettssystemet",
+        "Å fastsette hva den enkelte bør mene i moralske spørsmål"
       ],
       "correct": 2,
       "explain": "I stedet for vold og selvtekt."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er en sivil sak?",
       "options": [
-        "En sak der staten tiltaler noen",
-        "En sak om trafikk",
-        "En sak i Stortinget",
+        "En sak der påtalemyndigheten fører straffesak mot en person",
+        "En sak der Stortinget behandler forslag til nye lover",
+        "En sak der politiet etterforsker et mulig lovbrudd",
         "En sak der private parter står mot hverandre"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvilket er et eksempel på at lover kan endre samfunnet?",
       "options": [
         "Forbudet mot fysisk avstraffelse av barn",
-        "Trafikkreglene",
-        "Reglene om bursdager",
-        "Reglene om mat"
+        "Reglene for kommunale budsjetters oppsett",
+        "Fristen for å levere skattemelding",
+        "Krav til arkivering av offentlige dokumenter"
       ],
       "correct": 0,
       "explain": "Lover kan uttrykke og endre verdier.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er en deklaratorisk regel?",
       "options": [
-        "En ufravikelig regel",
+        "En regel som gjelder selv om partene har avtalt noe annet",
         "En regel som gjelder hvis partene ikke har avtalt noe annet",
-        "En grunnlovsregel",
-        "En straffebestemmelse"
+        "En regel som bare gjelder når partene inngår en skriftlig avtale",
+        "En regel som fastsetter straff når partene bryter avtalen"
       ],
       "correct": 1,
       "explain": "Fravikelig."
@@ -325,9 +325,9 @@
         "text": "Hva er individualprevensjon?",
         "options": [
           "At straffen skal hindre at den straffede gjør nye lovbrudd",
-          "At alle skal avskrekkes",
-          "At straffen skal være lik for alle",
-          "At fornærmede får erstatning"
+          "At straffen skal avskrekke andre fra å begå lovbrudd",
+          "At straffen skal sikre erstatning til den fornærmede",
+          "At straffen skal gi samfunnet oppreisning for lovbruddet"
         ],
         "correct": 0,
         "explain": "Rettet mot den enkelte."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

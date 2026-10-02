@@ -90,7 +90,7 @@
         "Når k > 1",
         "Når k = 1",
         "Når |k| < 1",
-        "Alltid"
+        "Når k < −1"
       ],
       "correct": 2,
       "explain": "Da går kⁿ mot 0."
@@ -99,10 +99,10 @@
       "id": "q02",
       "text": "Hva må en rekursiv funksjon ha for å stoppe?",
       "options": [
-        "En while-løkke",
-        "En liste",
+        "En løkke",
+        "En startverdi",
         "Et grunntilfelle",
-        "En print-kommando"
+        "En utskriftskommando"
       ],
       "correct": 2,
       "explain": "Ellers kaller den seg selv i det uendelige."
@@ -111,10 +111,10 @@
       "id": "q03",
       "text": "Hvordan defineres det bestemte integralet?",
       "options": [
-        "Som grenseverdien av Riemann-summer når n → ∞",
-        "Som den deriverte",
-        "Som en venstresum med n = 4",
-        "Som f(b) · b"
+        "Grenseverdien av Riemann-summene når n går mot uendelig",
+        "Summen av rektangelarealene for en fast verdi av n",
+        "Grenseverdien av Riemann-summene når n går mot null",
+        "Grenseverdien av funksjonsverdiene når n går mot uendelig"
       ],
       "correct": 0,
       "explain": "Rektanglene blir uendelig smale."
@@ -135,9 +135,9 @@
       "id": "q05",
       "text": "Når passer substitusjon?",
       "options": [
-        "Alltid ved brøker",
-        "Bare ved polynomer",
-        "Ved produkter av to polynomer",
+        "Når integranden inneholder en funksjon og dens andrederiverte",
+        "Når integranden er et produkt av to polynomer",
+        "Når integranden inneholder en funksjon og dens inverse",
         "Når integranden inneholder en kjerne og kjernens deriverte"
       ],
       "correct": 3,
@@ -147,9 +147,9 @@
       "id": "q06",
       "text": "Hva krever Simpsons metode?",
       "options": [
-        "At f er lineær",
         "At n er et oddetall",
-        "At a = 0",
+        "At f er et polynom av grad 2",
+        "At intervallet er symmetrisk om x = 0",
         "At n er et partall"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q07",
       "text": "Hva tyder et tydelig mønster i residualene på?",
       "options": [
-        "Perfekt modell",
-        "For mange data",
-        "At R² er 1",
-        "Feil modelltype"
+        "At residualene viser at modellen treffer alle målepunktene nøyaktig",
+        "At datasettet ikke inneholder noen systematisk variasjon",
+        "At modellen har forklaringsgraden R² lik én",
+        "At modellen ikke fanger den underliggende formen i dataene"
       ],
       "correct": 3,
       "explain": "Modellen fanger ikke formen."
@@ -173,7 +173,7 @@
       "text": "Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?",
       "options": [
         "(f(a) + f(b))/2",
-        "f′(b) − f′(a)",
+        "(1/(b − a)) · ∫ₐᵇ f′(x) dx",
         "∫ₐᵇ f(x) dx",
         "(1/(b − a)) · ∫ₐᵇ f(x) dx"
       ],
@@ -186,7 +186,7 @@
       "options": [
         "π · ∫ₐᵇ ((f(x))² − (g(x))²) dx",
         "π · ∫ₐᵇ (f(x) − g(x))² dx",
-        "∫ₐᵇ (f(x) − g(x)) dx",
+        "π · ∫ₐᵇ (f(x) − g(x)) dx",
         "π · ∫ₐᵇ f(x)g(x) dx"
       ],
       "correct": 0,
@@ -198,8 +198,8 @@
       "options": [
         "s = |r(b) − r(a)|",
         "s = ∫ₐᵇ |v(t)| dt",
-        "s = x(b) − x(a)",
-        "s = ∫ₐᵇ r(t) dt"
+        "s = ∫ₐᵇ |a(t)| dt",
+        "s = ∫ₐᵇ |r(t)| dt"
       ],
       "correct": 1,
       "explain": "Integralet av banefarten."
@@ -208,10 +208,10 @@
       "id": "q11",
       "text": "Hva betyr u · v = 0?",
       "options": [
-        "At vektorene står vinkelrett på hverandre",
-        "At vektorene er parallelle",
-        "At vektorene er like",
-        "At en av dem er lengre"
+        "At vinkelen mellom vektorene er 90°",
+        "At vinkelen mellom vektorene er 0°",
+        "At vinkelen mellom vektorene er 45°",
+        "At vinkelen mellom vektorene er 180°"
       ],
       "correct": 0,
       "explain": "cos 90° = 0."
@@ -220,10 +220,10 @@
       "id": "q12",
       "text": "Hvordan finner du skjæringspunktet mellom en linje og et plan?",
       "options": [
-        "Ta vektorproduktet",
+        "Sett retningsvektoren inn i planlikningen og løs for t",
         "Sett parameterframstillingen inn i planlikningen og løs for t",
-        "Finn avstanden",
-        "Legg sammen likningene"
+        "Sett parameterframstillingen inn i kulelikningen og løs for t",
+        "Sett normalvektoren inn i planlikningen og løs for t"
       ],
       "correct": 1,
       "explain": "t gir punktet."
@@ -233,9 +233,9 @@
       "text": "Hva er perioden til f(x) = 3 sin(2x) + 1?",
       "options": [
         "π",
-        "2π",
-        "3",
-        "π/2"
+        "4π",
+        "π/2",
+        "π/4"
       ],
       "correct": 0,
       "explain": "2π/2."
@@ -247,7 +247,7 @@
         "π/6 og 5π/6",
         "π/3 og 2π/3",
         "π/6 og 7π/6",
-        "π/6"
+        "π/3 og 5π/3"
       ],
       "correct": 0,
       "explain": "sin(π − x) = sin x."
@@ -256,10 +256,10 @@
       "id": "q15",
       "text": "Hva gjør du i induksjonstrinnet?",
       "options": [
-        "Viser P(1)",
-        "Sjekker mange tall",
+        "Viser P(1) og antar P(k + 1)",
+        "Antar P(k + 1) og viser P(k)",
         "Antar P(k) og viser P(k + 1)",
-        "Antar P(k + 1) og viser P(k)"
+        "Sjekker P(k) for flere verdier"
       ],
       "correct": 2,
       "explain": "Som dominobrikker."
@@ -406,7 +406,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -430,10 +430,10 @@
         "type": "flervalg",
         "text": "For hvilke x konvergerer 1 + x + x² + …?",
         "options": [
-          "x > 1",
+          "−1 < x ≤ 1",
           "−1 < x < 1",
-          "Alle x",
-          "x < −1"
+          "−2 < x < 2",
+          "x ≤ −1 eller x ≥ 1"
         ],
         "correct": 1,
         "explain": "Kvotienten er x."
@@ -548,12 +548,84 @@
           "Oppgir begge løsningene π/6 og 5π/6.",
           "Oppgir ingen løsninger utenfor intervallet."
         ]
+      },
+      {
+        "text": "En restgjeld er modellert ved B₀ = 200 000 og Bₙ = 1,05Bₙ₋₁ − 20 000, der n er antall år. Et program skal først beregne restgjelden etter nøyaktig fem år, og deretter skal et annet program fortsette til lånet er nedbetalt. Forklar hvilken type løkke som passer til hvert program, og hva som oppdateres for hvert år.",
+        "fasit": "En for-løkke passer når programmet skal kjøre nøyaktig fem ganger. En while-løkke passer når det skal fortsette så lenge B > 0. I begge løkkene oppdateres B med formelen 1,05B − 20 000 for hvert år.",
+        "kriterier": [
+          "For-løkke for et fast antall steg og while-løkke for et vilkår.",
+          "Restgjelden oppdateres med rekursjonsformelen hvert år."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Et legeme beveger seg slik at posisjonsvektoren er r(t) = [3t, 4t], der koordinatene måles i meter og t i sekunder. Finn fartsvektoren, banefarten og strekningen legemet tilbakelegger fra t = 0 til t = 2.",
+        "fasit": "Fartsvektoren er r′(t) = [3, 4] m/s, så banefarten er √(3² + 4²) = 5 m/s. Strekningen er ∫₀² 5 dt = 10 m.",
+        "kriterier": [
+          "Fartsvektoren [3, 4] m/s og banefarten 5 m/s.",
+          "Strekningen fra 0 til 2 sekunder er 10 m."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "For å tilnærme et bestemt integral kan en bruke midtpunktmetoden, trapesmetoden eller Simpsons metode. Forklar hvordan trapesmetoden og Simpsons metode tilnærmer grafen, og nevn én betingelse eller egenskap ved Simpsons metode.",
+        "fasit": "Trapesmetoden erstatter grafen mellom målepunktene med rette linjer og summerer arealene av trapeser. Simpsons metode bruker parabelbuer, krever et partall antall delintervaller og er eksakt for polynomer av grad 3 eller lavere.",
+        "kriterier": [
+          "Trapesmetoden bruker rette linjer og trapeser.",
+          "Simpsons metode bruker parabelbuer og har en riktig oppgitt betingelse eller egenskap."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En bestand beskrives av den logistiske modellen P(t) = K/(1 + ae^(−bt)), der K, a og b er positive konstanter. Forklar hva K og den deriverte P′(t) forteller om bestanden, og hvorfor modellens prognoser utenfor tidsrommet med måledata bør vurderes kritisk.",
+        "fasit": "K er bestandens bæreevne, altså den øvre grensen veksten bremses mot, og P′(t) er den momentane vekstfarten. Prognoser utenfor måledataområdet er ekstrapolasjoner og er mer usikre fordi modellen er en forenkling av virkeligheten.",
+        "kriterier": [
+          "K tolkes som bæreevnen, og P′ som momentan vekstfart.",
+          "Ekstrapolering utenfor dataområdet er usikker fordi modellen er forenklet."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Regn ut det ubestemte integralet ∫ 3x²e^(x³) dx ved substitusjon, og vis hvilket variabelskifte som gjør integralet enklere.",
+        "fasit": "Sett u = x³, slik at du = 3x² dx. Da blir integralet ∫eᵘ du = eᵘ + C = e^(x³) + C.",
+        "kriterier": [
+          "Bruker u = x³ og du = 3x² dx.",
+          "Får e^(x³) + C."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Tre vektorer u = [1, 2, 0], v = [0, 1, 2] og w = [2, 0, 1] spenner ut et parallellepiped. Finn volumet ved hjelp av vektorprodukt og skalarprodukt.",
+        "fasit": "u × v = [4, −2, 1], og (u × v) · w = 8 + 0 + 1 = 9. Volumet er absoluttverdien av skalartrippelproduktet, altså 9.",
+        "kriterier": [
+          "Finner u × v = [4, −2, 1] eller riktig skalartrippelprodukt 9.",
+          "Volumet er absoluttverdien av skalartrippelproduktet: 9."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Skriv funksjonen g(x) = 2 sin x + 2 cos x som én sinusfunksjon. Oppgi deretter største verdi, minste verdi og periode.",
+        "fasit": "g(x) = 2√2 sin(x + π/4). Amplituden er 2√2, så største verdi er 2√2, minste verdi er −2√2, og perioden er 2π.",
+        "kriterier": [
+          "Skriver funksjonen som 2√2 sin(x + π/4) eller en ekvivalent form.",
+          "Oppgir maksimum 2√2, minimum −2√2 og periode 2π."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Bevis ved induksjon at 1 + 3 + 5 + … + (2n − 1) = n² for alle naturlige tall n. Ta med både basissteget og induksjonstrinnet.",
+        "fasit": "For n = 1 er summen 1 = 1². Anta at summen av de k første oddetallene er k²; da blir summen av de k + 1 første k² + (2k + 1) = (k + 1)². Dermed gjelder påstanden for alle naturlige tall ved induksjon.",
+        "kriterier": [
+          "Viser at påstanden stemmer for n = 1.",
+          "Bruker induksjonsantakelsen for k og viser at summen for k + 1 blir (k + 1)²."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

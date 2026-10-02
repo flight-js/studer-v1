@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hvorfor gir mangfold i team ofte mer innovasjon?",
       "options": [
-        "Fordi alle er enige",
+        "Fordi lik bakgrunn gir raskere enighet",
         "Fordi ulike perspektiver gir flere ideer",
-        "Fordi det går raskere",
-        "Fordi det er billigere"
+        "Fordi færre synspunkter gir grundigere idéutvikling",
+        "Fordi lik kunnskap gir flere nye løsninger"
       ],
       "correct": 1,
       "explain": "Ulik kunnskap møtes."
@@ -94,9 +94,9 @@
       "text": "Hva er psykologisk trygghet?",
       "options": [
         "At det er trygt å si ifra, spørre og ta feil",
-        "At kontoret er trygt",
-        "At man har forsikring",
-        "At lederen bestemmer alt"
+        "At ansatte slipper å ta ansvar for egne feil",
+        "At alle forslag blir vedtatt uten kritikk",
+        "At man unngår uenighet for å bevare god stemning"
       ],
       "correct": 0,
       "explain": "Viktig for at ideer kommer fram.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva er åpen innovasjon?",
       "options": [
-        "At alle ideer holdes hemmelige",
-        "At kontoret er åpent",
+        "Å utvikle produkter internt uten å involvere eksterne aktører",
+        "Å samle inn ideer internt og holde dem i virksomheten",
         "Å hente ideer utenfra og dele egne",
-        "Å bare jobbe alene"
+        "Å la eksterne aktører styre utviklingen uten egne bidrag"
       ],
       "correct": 2,
       "explain": "Kunder, leverandører og forskere bidrar."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hva er en klynge?",
       "options": [
-        "Et selskap med mange avdelinger",
-        "En type lån",
-        "En gruppe venner",
+        "Virksomheter i ulike bransjer som deler samme eier",
+        "En gruppe virksomheter i samme område med felles eierskap",
+        "En sammenslutning av bedrifter som samarbeider digitalt på tvers av områder",
         "Virksomheter i samme bransje og område som samarbeider og konkurrerer"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hva gjør en inkubator?",
       "options": [
         "Hjelper nye virksomheter med kontorplass, veiledning og nettverk",
-        "Gir banklån",
-        "Kontrollerer regnskap",
-        "Registrerer patenter"
+        "Gir nye virksomheter lån med fast rente og nedbetaling",
+        "Kontrollerer nye virksomheters regnskap og rapportering til myndighetene",
+        "Registrerer nye virksomheters patenter og håndhever rettighetene"
       ],
       "correct": 0,
       "explain": "Et gründermiljø."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvorfor gir svake bånd ofte ny informasjon?",
       "options": [
-        "Fordi de kjenner deg godt",
+        "Fordi de har tettere kontakt med deg enn nære venner",
         "Fordi de beveger seg i andre miljøer enn deg",
-        "Fordi de alltid er eksperter",
-        "Fordi de er familie"
+        "Fordi de deler de vanlige miljøene og kontaktene dine",
+        "Fordi de ofte har samme bakgrunn og erfaring som deg"
       ],
       "correct": 1,
       "explain": "Nær familie vet ofte det samme som deg.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er brukermedvirkning?",
       "options": [
-        "At brukerne betaler mer",
-        "At brukerne ikke blir spurt",
+        "At brukerne vurderer produktet først etter lansering",
+        "At brukerne finansierer utviklingen gjennom forhåndsbetaling",
         "At brukerne er med i utviklingen fra starten",
-        "At brukerne eier virksomheten"
+        "At brukerne får eierskap til virksomheten under utviklingen"
       ],
       "correct": 2,
       "explain": "Øker sjansen for at produktet dekker reelle behov."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva kan det offentlige bidra med i innovasjon?",
       "options": [
-        "Bare skatt",
-        "Ingenting",
-        "Bare forbud",
+        "Vareproduksjon, prissetting og kundeservice for private bedrifter",
+        "Reklame, produktdesign og salg på vegne av private bedrifter",
+        "Lønnsutbetaling, daglig drift og vareproduksjon i bedriften",
         "Finansiering, regler og innkjøp av nye løsninger"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Når kan konflikter i et team være nyttige?",
       "options": [
         "Når de handler om saken",
-        "Når de blir personlige",
-        "Når ingen snakker sammen",
-        "Aldri"
+        "Når uenigheten handler om personlige egenskaper",
+        "Når teamet unngår å diskutere ulike synspunkter",
+        "Når frustrasjon styrer beslutningene i teamet"
       ],
       "correct": 0,
       "explain": "Saklig uenighet kan gi bedre løsninger."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva kan gjøre samarbeid lettere?",
       "options": [
-        "Hemmelige planer",
+        "Uklare avtaler og ensidig kontroll",
         "Tydelige avtaler og gjensidig tillit",
-        "At én person gjør alt",
-        "Ingen kommunikasjon"
+        "Uformelle løfter og konkurranse mellom partene",
+        "Uavklarte roller og tilbakeholdt informasjon"
       ],
       "correct": 1,
       "explain": "Hindrer konflikter om eierskap og arbeidsfordeling."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hva er en akselerator?",
         "options": [
-          "En bil",
+          "Et lån til oppstartsbedrifter med fast tilbakebetalingstid",
           "Et intensivt program for rask vekst",
-          "Et lån",
-          "Et patent"
+          "Et kontorfellesskap for gründere i etableringsfasen",
+          "Et patent som beskytter en ny forretningsidé"
         ],
         "correct": 1,
         "explain": "For virksomheter som vil vokse raskt.",
@@ -331,9 +331,9 @@
         "text": "Hva kan et nettverk gi en gründer?",
         "options": [
           "Kunnskap, kunder og finansiering",
-          "Bare problemer",
-          "Bare skatt",
-          "Ingenting"
+          "Kontorplass, utstyr og administrativ støtte",
+          "Skattekrav, gebyrer og offentlige pålegg",
+          "Eierskap, produksjonslokaler og ferdige produkter"
         ],
         "correct": 0,
         "explain": "Også samarbeidspartnere."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er en mentor?",
         "options": [
-          "En investor som eier alt",
-          "En konkurrent",
+          "En investor som kjøper en stor eierandel",
+          "En kunde som tester produktet før lansering",
           "En erfaren person som gir råd",
-          "En kunde"
+          "En konkurrent som deler markedet med gründeren"
         ],
         "correct": 2,
         "explain": "Deler erfaring med gründere."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

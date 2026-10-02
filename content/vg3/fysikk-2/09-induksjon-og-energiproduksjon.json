@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva gjør en generator?",
       "options": [
-        "Gjør elektrisk energi om til varme",
+        "Gjør elektrisk energi om til mekanisk energi",
         "Gjør mekanisk energi om til elektrisk energi",
-        "Lagrer strøm",
-        "Gjør lys om til strøm"
+        "Gjør kjemisk energi om til elektrisk energi",
+        "Gjør elektrisk energi om til varmeenergi"
       ],
       "correct": 1,
       "explain": "Ved hjelp av induksjon."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvorfor overføres strøm med svært høy spenning?",
       "options": [
-        "Fordi det er tryggere",
-        "Fordi det gir mer strøm",
-        "Fordi ledningene blir kortere",
+        "Fordi høy spenning gjør overføringen tryggere",
+        "Fordi høy spenning øker strømmen til forbrukerne",
+        "Fordi høy spenning reduserer motstanden i ledningene",
         "Fordi lav strøm gir mye mindre varmetap"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvorfor virker transformatorer bare med vekselstrøm?",
       "options": [
-        "Fordi det må være en endring i fluksen",
-        "Fordi likestrøm er farlig",
-        "Fordi jernkjernen smelter",
-        "Fordi spolene er for små"
+        "Fordi vekselstrøm gir en varierende magnetisk fluks i kjernen",
+        "Fordi likestrøm ikke kan gå gjennom en spole",
+        "Fordi likestrøm får jernkjernen til å miste magnetismen",
+        "Fordi likestrøm har for lav spenning til sekundærspolen"
       ],
       "correct": 0,
       "explain": "Induksjon krever endring."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvordan varmes kjelen på en induksjonstopp?",
       "options": [
-        "Platen blir glovarm",
+        "En elektrisk motstand i kjelen gir varme",
         "Induserte virvelstrømmer i kjelen gir varme",
-        "Kjelen varmes av lys",
-        "Med gass"
+        "Mikrobølger fra platen varmer vannet i kjelen",
+        "En varm plate overfører varme til kjelen"
       ],
       "correct": 1,
       "explain": "Kjelen må være av magnetisk metall."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva er regenerativ bremsing?",
       "options": [
-        "Bremsing med friksjon",
-        "Bremsing med fallskjerm",
+        "At elbilens motor bruker friksjon til å bremse bilen",
+        "At bilens friksjonsbremser omdanner bevegelse til varme",
         "At elbilens motor fungerer som generator og lader batteriet",
-        "At bilen bremser av seg selv"
+        "At bilens generator lader batteriet ved hjelp av drivstoff"
       ],
       "correct": 2,
       "explain": "Bevegelsesenergi blir til elektrisk energi.",
@@ -167,7 +167,7 @@
       "options": [
         "60 Hz",
         "100 Hz",
-        "1 Hz",
+        "25 Hz",
         "50 Hz"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvorfor er vannkraft særlig verdifull?",
       "options": [
         "Den er fornybar og kan reguleres",
-        "Den varierer med vinden",
-        "Den krever kull",
-        "Den gir ingen naturinngrep"
+        "Den er fornybar og produksjonen følger vindstyrken",
+        "Den er fornybar og produksjonen styres av sollyset",
+        "Den er fornybar og magasinene påvirker ikke produksjonen"
       ],
       "correct": 0,
       "explain": "Vann kan spares i magasiner."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er en ulempe også ved fornybar energi?",
       "options": [
-        "Den gir mye CO₂",
+        "Store CO₂-utslipp fra driften av vindkraftverk",
         "Naturinngrep ved vassdrag og vindkraftverk",
-        "Den tar aldri slutt",
-        "Den krever ingen generatorer"
+        "Behov for kull til drift av vannkraftverk",
+        "Stort drivstofforbruk ved solkraftverk i drift"
       ],
       "correct": 1,
       "explain": "Bærekraft har flere sider."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hvordan fungerer trådløs lading?",
         "options": [
-          "Med lys",
+          "En spole i laderen overfører varme til en spole i telefonen",
           "En spole i laderen induserer strøm i en spole i telefonen",
-          "Med varme",
-          "Med batteribytte"
+          "En spole i telefonen sender lys til en spole i laderen",
+          "Et batteri i laderen sender strøm gjennom en ledning til telefonen"
         ],
         "correct": 1,
         "explain": "Induksjon mellom to spoler.",
@@ -328,7 +328,7 @@
           "Damp",
           "Vind",
           "Fallende vann",
-          "Lys"
+          "Kjølevann"
         ],
         "correct": 0,
         "explain": "Vann kokes med kull, gass eller kjernekraft.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva skjer med varmetapet hvis strømmen i en ledning halveres?",
         "options": [
-          "Det halveres",
-          "Det dobles",
+          "Det blir halvparten",
+          "Det blir dobbelt så stort",
           "Det blir en firedel",
-          "Det er uendret"
+          "Det forblir uendret"
         ],
         "correct": 2,
         "explain": "P_tap er proporsjonal med I²."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

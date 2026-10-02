@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hvorfor må en ny virksomhet prioritere konkurransemidlene nøye?",
       "options": [
-        "Fordi den har mye penger",
-        "Fordi den har små ressurser og er ukjent",
-        "Fordi loven krever det",
-        "Fordi den ikke har konkurrenter"
+        "Fordi alle konkurransemidlene har samme kostnad og effekt",
+        "Fordi virksomheten har små ressurser og er ukjent",
+        "Fordi kundene velger virksomheten uavhengig av markedsføringen",
+        "Fordi virksomheten har store ressurser og er godt kjent"
       ],
       "correct": 1,
       "explain": "Pengene må gi mest mulig effekt."
@@ -96,9 +96,9 @@
       "text": "Hvorfor setter mange gründere prisen for lavt?",
       "options": [
         "De glemmer egen arbeidstid og skjulte kostnader",
-        "De vil ha få kunder",
-        "De har for høye kostnader",
-        "Loven krever lav pris"
+        "De tror leverandørene dekker virksomhetens driftskostnader",
+        "De regner med at oppstartskostnader ikke påvirker prisen",
+        "De tror kundene foretrekker lav pris framfor produktkvalitet"
       ],
       "correct": 0,
       "explain": "Prisen må dekke alle kostnader over tid."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva bør du sjekke før du velger navn på virksomheten?",
       "options": [
-        "At navnet er langt",
-        "At navnet er på engelsk",
-        "At det ikke er tatt som varemerke, og at domenenavnet er ledig",
-        "At navnet ligner konkurrentens"
+        "At navnet er ledig som foretaksnavn, og domenenavnet er opptatt",
+        "At navnet er beskyttet som varemerke av en konkurrent, og domenet er ledig",
+        "At navnet ikke er tatt som varemerke, og domenenavnet er ledig",
+        "At navnet er ledig som varemerke, og domenenavnet er registrert av andre"
       ],
       "correct": 2,
       "explain": "Unngå konflikter senere.",
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva er geriljamarkedsføring?",
       "options": [
-        "Dyr TV-reklame",
-        "Reklame i aviser",
-        "Salg via grossister",
-        "Kreative, overraskende og billige aktiviteter"
+        "Kostbare, planlagte og bredt synlige reklamekampanjer",
+        "Tradisjonelle, betalte annonser i etablerte massemedier",
+        "Salgsarbeid gjennom grossister og andre mellomledd",
+        "Kreative, overraskende og billige markedsaktiviteter"
       ],
       "correct": 3,
       "explain": "Passer når budsjettet er lite.",
@@ -134,9 +134,9 @@
       "text": "Hvilken kommunikasjon er ofte mest troverdig?",
       "options": [
         "Anbefalinger fra fornøyde kunder",
-        "Egne annonser",
-        "Plakater",
-        "Pressemeldinger"
+        "Betalte produktomtaler fra profiler med mange følgere",
+        "Egne annonser med utvalgte kundesitater",
+        "Pressemeldinger sendt til lokale medier"
       ],
       "correct": 0,
       "explain": "Jungeltelegrafen."
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Når passer skumming for en ny virksomhet?",
       "options": [
-        "Når produktet er likt alle andre",
+        "Når produktet er velkjent og kundene sammenligner priser nøye",
         "Når produktet er unikt og kundene vil betale for å være først",
-        "Når man vil ha flest mulig kunder raskt",
-        "Aldri"
+        "Når virksomheten vil sette en lav pris og nå mange kunder raskt",
+        "Når produktet er enkelt å kopiere og kundene er prissensitive"
       ],
       "correct": 1,
       "explain": "Høy startpris."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er en fordel med pop-up-butikker?",
       "options": [
-        "De er permanente",
-        "De krever store investeringer",
+        "De gir virksomheten et fast utsalgssted over lang tid",
+        "De krever store investeringer i egne butikklokaler",
         "De er billige måter å møte kunder på",
-        "De har ingen kunder"
+        "De sikrer stabil omsetning gjennom hele året"
       ],
       "correct": 2,
       "explain": "Midlertidige.",
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hva hører til fasen etter lansering?",
       "options": [
-        "Å velge navn",
-        "Å finne en idé",
-        "Å registrere selskapet",
+        "Å teste produktideen og velge målgruppe",
+        "Å utforme navn og registrere virksomheten",
+        "Å utvikle en prototype og finne leverandører",
         "Å samle tilbakemeldinger og måle salget"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hvordan kan en liten virksomhet konkurrere med store kjeder?",
       "options": [
         "Med nærhet og personlig service",
-        "Med de laveste prisene alltid",
-        "Med mest reklame",
-        "Med flest butikker"
+        "Ved å tilby større sortiment og flere utsalgssteder",
+        "Ved å matche kjedenes innkjøpsvolum og kostnadsfordeler",
+        "Ved å bruke et større reklamebudsjett og bredere dekning"
       ],
       "correct": 0,
       "explain": "Fleksibilitet er en styrke."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva må et samarbeid med en påvirker merkes som?",
       "options": [
-        "Nyheter",
+        "Nyhet",
         "Reklame",
-        "Privat innlegg",
-        "Ingenting"
+        "Omtale",
+        "Produktplassering"
       ],
       "correct": 1,
       "explain": "Skjult reklame er forbudt.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er en ulempe ved å selge gjennom eksisterende butikker?",
         "options": [
-          "Man når ingen kunder",
+          "Virksomheten får ikke tilgang til butikkens kunder",
           "Butikken tar en andel av prisen",
-          "Det er ulovlig",
-          "Det krever patent"
+          "Virksomheten må drive butikkens lokaler selv",
+          "Virksomheten må kjøpe patent for å få hylleplass"
         ],
         "correct": 1,
         "explain": "Men det gir rask tilgang til kunder."
@@ -332,9 +332,9 @@
         "text": "Hva hører til fasen før lansering?",
         "options": [
           "Teste produktet og bygge følgere",
-          "Måle salget",
-          "Samle tilbakemeldinger fra kjøpere",
-          "Avslutte virksomheten"
+          "Måle salget og justere markedsføringen",
+          "Samle erfaringer fra betalende kunder",
+          "Lansere produktet og følge opp bestillinger"
         ],
         "correct": 0,
         "explain": "Forbered markedet."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvorfor er gründeren ofte en god selger?",
         "options": [
-          "Fordi hen har mest penger",
-          "Fordi hen er eldst",
+          "Fordi hen har fått grundig opplæring i salg før oppstart",
+          "Fordi hen kjenner alle kundene i målgruppen personlig",
           "Fordi hen brenner for produktet",
-          "Fordi hen har lært det på skolen"
+          "Fordi hen har større reklamebudsjett enn konkurrentene"
         ],
         "correct": 2,
         "explain": "Engasjement smitter."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hvordan sier du 31 på spansk?",
       "options": [
-        "treintauno",
-        "treinta uno",
+        "treinta y dos",
+        "treinta y tres",
         "treinta y uno",
-        "uno y treinta"
+        "treinta y cuatro"
       ],
       "correct": 2,
       "explain": "Fra 31 skrives tallene med «y» (og)."
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "Hva betyr «Son las ocho y media»?",
       "options": [
-        "Klokka er halv ni (8.30)",
+        "Klokka er halv ni",
         "Klokka er halv åtte",
         "Klokka er kvart over åtte",
-        "Klokka er åtte"
+        "Klokka er kvart på ni"
       ],
       "correct": 0,
       "explain": "Spansk sier «åtte og en halv»."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hvordan spør du hva klokka er?",
       "options": [
-        "¿Cuántos años tienes?",
+        "¿Qué día es?",
         "¿Qué hora es?",
-        "¿Dónde vives?",
-        "¿Qué tal?"
+        "¿Qué fecha es?",
+        "¿Cuándo es?"
       ],
       "correct": 1,
       "explain": "«hora» betyr time eller klokkeslett."
@@ -132,9 +132,9 @@
       "id": "q05",
       "text": "Hvorfor heter det «Es la una», men «Son las dos»?",
       "options": [
-        "Fordi det er morgen",
-        "Fordi det er natt",
-        "Fordi to er et partall",
+        "Fordi «la» brukes om morgenen og «las» om kvelden",
+        "Fordi «es» brukes om hele timer og «son» om halve timer",
+        "Fordi «la» brukes før to og «las» etter to",
         "Fordi ett er entall og de andre er flertall"
       ],
       "correct": 3,
@@ -145,9 +145,9 @@
       "text": "Hva betyr «las nueve menos cuarto»?",
       "options": [
         "Kvart over ni",
-        "Halv ni",
+        "Kvart på åtte",
         "Kvart på ni",
-        "Ni kvarter"
+        "Ti på ni"
       ],
       "correct": 2,
       "explain": "«menos» betyr minus."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvordan skrives ukedager og måneder på spansk?",
       "options": [
-        "Med liten forbokstav",
-        "Med stor forbokstav",
-        "Alltid med aksent",
-        "Alltid i flertall"
+        "Med liten forbokstav på ukedager og måneder",
+        "Med stor forbokstav på ukedager og måneder",
+        "Med stor forbokstav på ukedager og årstider",
+        "Med stor forbokstav på måneder og årstider"
       ],
       "correct": 0,
       "explain": "Som på norsk skrives de med liten forbokstav."
@@ -168,9 +168,9 @@
       "id": "q08",
       "text": "Hva er 100 på spansk?",
       "options": [
-        "ciento",
+        "ciento uno",
         "cien",
-        "cento",
+        "doscientos",
         "mil"
       ],
       "correct": 1,
@@ -181,9 +181,9 @@
       "text": "Når er det sommer i Argentina og Chile?",
       "options": [
         "I juni og juli",
-        "Hele året",
+        "I mars og april",
         "I desember og januar",
-        "Aldri"
+        "I september og oktober"
       ],
       "correct": 2,
       "explain": "Landene ligger på den sørlige halvkule.",
@@ -193,9 +193,9 @@
       "id": "q10",
       "text": "Hvordan sier du «klokka åtte» når du forteller når noe skjer?",
       "options": [
-        "en las ocho",
-        "son ocho",
-        "de las ocho",
+        "a la ocho",
+        "a las nueve",
+        "son las ocho",
         "a las ocho"
       ],
       "correct": 3,
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Mi cumpleaños es el tres de marzo»?",
         "options": [
-          "Jeg er tre år",
+          "Bursdagen min er 3. mai",
           "Bursdagen min er 3. mars",
-          "Det er tre dager til mars",
-          "Mars er yndlingsmåneden min"
+          "Bursdagen min er 13. mars",
+          "Bursdagen din er 3. mars"
         ],
         "correct": 1,
         "explain": "«cumpleaños» betyr bursdag."
@@ -356,9 +356,9 @@
         "text": "Hva betyr «Son las ocho y cuarto»?",
         "options": [
           "Kvart på åtte",
-          "Halv åtte",
+          "Kvart over ni",
           "Kvart over åtte",
-          "Åtte minutter over"
+          "Halv ni"
         ],
         "correct": 2,
         "explain": "«y cuarto» betyr og et kvarter."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

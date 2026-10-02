@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva kjennetegner moderne tenkning?",
       "options": [
-        "Tradisjon over fornuft",
+        "Tradisjon, autoritet, fellesskap og religiøs tro",
         "Fornuft, vitenskap, individ og fremskrittstro",
-        "Religion som grunnlag for all kunnskap",
-        "Avvisning av vitenskap"
+        "Følelser, natur, fantasi og fortidstro",
+        "Åpenbaring, kirkelig autoritet, ritualer og frelse"
       ],
       "correct": 1,
       "explain": "Også sekularisering og rasjonalisering."
@@ -95,9 +95,9 @@
       "text": "Hva mente Weber med verdens avfortryllelse?",
       "options": [
         "At verden forklares rasjonelt og det magiske trer tilbake",
-        "At verden blir mer magisk",
-        "At religion vokser",
-        "At fornuften forsvinner"
+        "At verden forklares religiøst og naturkreftene får en vilje",
+        "At verden styres av magiske krefter og ritualer får større betydning",
+        "At verden blir mindre forståelig og vitenskapelige forklaringer mister betydning"
       ],
       "correct": 0,
       "explain": "En følge av moderniseringen.",
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva kritiserte Frankfurterskolen?",
       "options": [
-        "For lite fornuft",
-        "Romantikken",
+        "At samfunnet mangler vitenskapelig tenkning og rasjonell planlegging",
+        "At romantiske følelser får for stor plass i politikken",
         "At fornuften kan bli et redskap for kontroll og undertrykkelse",
-        "Religion"
+        "At religion blir brukt som redskap for politisk kontroll"
       ],
       "correct": 2,
       "explain": "I Opplysningens dialektikk."
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hva mente Lyotard om de store fortellingene?",
       "options": [
-        "At de er sanne",
-        "At de er nye",
-        "At de bør læres i skolen",
+        "At de fortsatt gir sikker kunnskap om historien",
+        "At de er blitt erstattet av én ny, allmenngyldig fortelling",
+        "At de bør samles i én felles teori om samfunnet",
         "At det har oppstått mistillit til dem"
       ],
       "correct": 3,
@@ -133,9 +133,9 @@
       "text": "Hva kalte Habermas moderniteten?",
       "options": [
         "Et uferdig prosjekt",
-        "En katastrofe",
-        "Et avsluttet kapittel",
-        "En myte"
+        "Et fullført prosjekt",
+        "En avsluttet epoke",
+        "En fastlagt samfunnsmodell"
       ],
       "correct": 0,
       "explain": "Fornuften må brukes bedre.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva løftet romantikken fram som reaksjon på moderniteten?",
       "options": [
-        "Byråkrati og effektivitet",
+        "Fornuft, orden og vitenskap",
         "Følelser, natur og fantasi",
-        "Statistikk",
-        "Maskiner"
+        "Produksjon, effektivitet og økonomisk vekst",
+        "Regler, plikt og samfunnsdisiplin"
       ],
       "correct": 1,
       "explain": "Mot en kald og mekanisk fornuft."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er økologisk kritikk av moderniteten?",
       "options": [
-        "At den brukte for lite teknologi",
-        "At den var for religiøs",
+        "At den betraktet naturen som hellig og utenfor menneskets påvirkning",
+        "At den mente teknologi kunne løse miljøproblemene uten politiske endringer",
         "At den så naturen som en ressurs mennesket kan beherske",
-        "At den var for romantisk"
+        "At den satte naturens egenverdi foran økonomisk vekst og menneskelige behov"
       ],
       "correct": 2,
       "explain": "Bidro til klimakrise og tap av natur."
@@ -183,9 +183,9 @@
       "text": "Hva er en mørk side ved moderniteten?",
       "options": [
         "Kolonialisme og industrialisert krig",
-        "Lengre liv",
-        "Menneskerettigheter",
-        "Medisin"
+        "Lengre levealder og bedre medisinsk behandling",
+        "Demokratisering og utbredte menneskerettigheter",
+        "Utdanning for flere og økt politisk deltakelse"
       ],
       "correct": 0,
       "explain": "Også miljøødeleggelse og fremmedgjøring."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva er flytende modernitet?",
       "options": [
-        "En tid med faste roller",
+        "En tid der identitet, arbeid og relasjoner følger faste mønstre",
         "En tid der identitet, arbeid og relasjoner er mindre faste",
-        "En teori om vann",
-        "Middelalderen"
+        "En samfunnsform der klasse, familie og yrke bestemmer identiteten",
+        "En periode der teknologi og industri skaper stabile livsløp"
       ],
       "correct": 1,
       "explain": "Zygmunt Baumans begrep.",
@@ -323,8 +323,8 @@
         "options": [
           "Descartes",
           "Newton",
-          "Weber",
-          "Lyotard"
+          "Galileo",
+          "Copernicus"
         ],
         "correct": 1,
         "explain": "Viktig for den vitenskapelige revolusjonen.",
@@ -336,9 +336,9 @@
         "text": "Hva er rasjonalisering?",
         "options": [
           "At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi",
-          "At religion vokser",
-          "At følelser styrer",
-          "At naturen fredes"
+          "At samfunnet organiseres gjennom religiøse ritualer, tradisjon og lokale fellesskap",
+          "At samfunnet styres av følelser, personlige bånd og spontane valg",
+          "At samfunnet verner naturen gjennom lover, parker og begrenset produksjon"
         ],
         "correct": 0,
         "explain": "Et kjennetegn ved moderniteten."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva hevder religiøs kritikk av moderniteten?",
         "options": [
-          "At den er for religiøs",
-          "At den har for lite teknologi",
+          "At den har styrket religionens plass og gitt samfunnet felles verdier",
+          "At den har svekket teknologiens rolle i hverdagslivet",
           "At den har skapt et tomrom av mening og verdier",
-          "At den er for gammel"
+          "At den har bevart gamle tradisjoner og gitt livet stabil mening"
         ],
         "correct": 2,
         "explain": "Sekulariseringen har en pris.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

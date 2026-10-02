@@ -86,9 +86,9 @@
       "id": "q01",
       "text": "Hva er en Kristusfigur i en film?",
       "options": [
-        "En skuespiller som spiller Jesus",
-        "En prest i en film",
-        "En figur som alltid er ond",
+        "En person som følger Jesus og forteller om kristendommen",
+        "En person som leder en menighet og holder gudstjenester",
+        "En person som motarbeider helten og skaper problemer",
         "En person som ofrer seg for andre og kommer tilbake"
       ],
       "correct": 3,
@@ -100,9 +100,9 @@
       "text": "Hvilken figur i Narnia regnes som en tydelig Kristusfigur?",
       "options": [
         "Løven Aslan",
-        "Den hvite heksa",
+        "Heksa Jadis",
         "Faunen Tumnus",
-        "Peter"
+        "Prinsen Caspian"
       ],
       "correct": 0,
       "explain": "Aslan ofrer livet for Edmund og står opp igjen.",
@@ -125,10 +125,10 @@
       "id": "q04",
       "text": "Hvor vokste gospel og spirituals fram?",
       "options": [
-        "Blant munker i Europa",
+        "Blant hvite protestanter i Storbritannia",
         "Blant svarte kristne i USA",
-        "I norske bedehus",
-        "I India"
+        "Blant katolske munker i Vest-Europa",
+        "Blant hinduistiske grupper i Sør-Asia"
       ],
       "correct": 1,
       "explain": "Musikken har påvirket soul, rock og pop.",
@@ -139,9 +139,9 @@
       "text": "Hvilken religiøs idé bruker The Matrix blant annet?",
       "options": [
         "At verden vi ser, er en illusjon",
-        "At man skal faste i ramadan",
-        "At sabbaten er hellig",
-        "At kua er hellig"
+        "At sjelen blir gjenfødt etter hvert liv",
+        "At mennesker må følge en religiøs lov",
+        "At døden gir adgang til et paradis"
       ],
       "correct": 0,
       "explain": "Ideen finnes blant annet i hinduisme og buddhisme.",
@@ -151,9 +151,9 @@
       "id": "q06",
       "text": "Hvorfor bruker reklame ofte engler og glorier?",
       "options": [
-        "Fordi det er påbudt",
-        "Fordi alle kunder er religiøse",
-        "For å gjøre produktet dyrere",
+        "For å få produktet til å virke gammeldags og tradisjonelt",
+        "For å vise at produktet er beregnet på kirker",
+        "For å knytte produktet til makt og økonomisk framgang",
         "For å gi produktet et preg av noe rent og godt"
       ],
       "correct": 3,
@@ -163,10 +163,10 @@
       "id": "q07",
       "text": "Hvilke spørsmål reiste Muhammed-tegningene i 2005?",
       "options": [
-        "Spørsmål om skatt og avgifter",
+        "Spørsmål om pressens ansvar for å kontrollere politiske ledere",
         "Spørsmål om ytringsfrihet og respekt for andres tro",
-        "Spørsmål om klimaendringer",
-        "Spørsmål om skolemat"
+        "Spørsmål om religiøse symboler i offentlige skoler",
+        "Spørsmål om innvandring og krav til statsborgerskap"
       ],
       "correct": 1,
       "explain": "Saken skapte debatt og protester i mange land.",
@@ -176,10 +176,10 @@
       "id": "q08",
       "text": "Hva var blasfemiparagrafen?",
       "options": [
-        "En regel om julefeiring",
-        "En lov om kirkebygg",
+        "En bestemmelse som forbød å kritisere myndighetene",
+        "En bestemmelse som regulerte religiøse møter i offentlige rom",
         "En bestemmelse som forbød å håne religion",
-        "En lov om religionsfrihet"
+        "En bestemmelse som ga særskilt vern til kirkebygg"
       ],
       "correct": 2,
       "explain": "Bestemmelsen er fjernet fra straffeloven.",
@@ -190,9 +190,9 @@
       "text": "Hvorfor fikk serien Skam ros for karakteren Sana?",
       "options": [
         "Fordi hun viste en ung muslim på en nyansert måte",
-        "Fordi hun var skurken",
-        "Fordi hun var prest",
-        "Fordi hun ikke hadde noen religion"
+        "Fordi hun viste en ung kristen på en nyansert måte",
+        "Fordi hun ble framstilt som en streng religiøs leder",
+        "Fordi hun ble framstilt som lite opptatt av tro"
       ],
       "correct": 0,
       "explain": "Mange mente serien motvirket stereotypier om muslimer.",
@@ -202,10 +202,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål er nyttig når du analyserer religion i en film?",
       "options": [
-        "Hvor lang er filmen?",
-        "Hvor mye kostet billetten?",
+        "Hvordan påvirker musikken filmens handling?",
+        "Hvilke klær bruker hovedpersonen i filmen?",
         "Hvordan framstilles de troende?",
-        "Hvem er vennene til skuespillerne?"
+        "Hvor mange minutter varer filmen?"
       ],
       "correct": 2,
       "explain": "Framstillingen kan påvirke hvordan seerne ser på en religion."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilke religiøse tradisjoner minner Kraften og jediene i Star Wars om?",
         "options": [
-          "Islam",
-          "Jødedom",
+          "Hinduisme og kristendom",
+          "Islam og jødedom",
           "Buddhisme og daoisme",
-          "Norrøn religion"
+          "Norrøn religion og kristendom"
         ],
         "correct": 2,
         "explain": "Jediene mediterer og søker balanse, omtrent som munker.",
@@ -353,9 +353,9 @@
         "text": "Hva er satire?",
         "options": [
           "Humor og kritikk som gjør narr av noe",
-          "En type bønn",
-          "En hellig tekst",
-          "En religiøs høytid"
+          "Humor og ros som løfter fram noe",
+          "Alvor og kritikk som forklarer noe",
+          "Humor og fortelling som beskriver noe"
         ],
         "correct": 0,
         "explain": "Satire er en gammel form for samfunnskritikk."
@@ -365,10 +365,10 @@
         "type": "flervalg",
         "text": "Hvilken film fra 1979 vakte sterke reaksjoner for måten den behandlet religion på?",
         "options": [
-          "Star Wars",
+          "Apocalypse Now",
           "Life of Brian",
-          "Løvenes konge",
-          "Titanic"
+          "Alien",
+          "Kramer vs. Kramer"
         ],
         "correct": 1,
         "explain": "Filmen ble en tid forbudt i flere land, blant annet i Norge.",
@@ -458,6 +458,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

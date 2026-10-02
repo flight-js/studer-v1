@@ -112,7 +112,7 @@
     {
       "term": "Strukturell rasisme",
       "def": "Når regler og praksis gir dårligere muligheter for noen grupper.",
-      "niva": "eksempel"
+      "niva": "over-niva"
     },
     {
       "term": "Bakenforliggende årsaker",
@@ -120,7 +120,8 @@
     },
     {
       "term": "Mekling",
-      "def": "At en nøytral tredjepart hjelper partene å finne en løsning."
+      "def": "At en nøytral tredjepart hjelper partene å finne en løsning.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,9 +130,9 @@
       "text": "Hva betyr det at et utvalg er representativt?",
       "options": [
         "At det ligner gruppen man vil si noe om",
-        "At det er stort",
-        "At det bare består av eksperter",
-        "At alle er enige"
+        "At utvalget er stort nok til å gi sikre resultater",
+        "At deltakerne har særlig kunnskap om temaet",
+        "At deltakerne gir like svar på undersøkelsens spørsmål"
       ],
       "correct": 0,
       "explain": "Et skjevt utvalg gir misvisende resultater."
@@ -140,10 +141,10 @@
       "id": "q02",
       "text": "Hva er forskjellen på selvtillit og selvfølelse?",
       "options": [
-        "Det er det samme",
-        "Selvfølelse handler om prestasjoner",
-        "Selvtillit handler om utseende",
-        "Selvtillit handler om hva du får til, selvfølelse om hvordan du verdsetter deg selv"
+        "Selvtillit gjelder egen verdi; selvfølelse gjelder hva du får til",
+        "Selvtillit gjelder hvordan andre ser deg; selvfølelse gjelder hvor flink du er",
+        "Selvtillit gjelder hvor populær du er; selvfølelse gjelder hvordan du ser ut",
+        "Selvtillit gjelder hva du får til; selvfølelse gjelder egen verdi"
       ],
       "correct": 3,
       "explain": "God selvfølelse er ikke avhengig av prestasjoner."
@@ -152,10 +153,10 @@
       "id": "q03",
       "text": "Hva er effektiv rente?",
       "options": [
-        "Renten før skatt",
-        "Renten inkludert alle kostnader og gebyrer",
-        "Renten på sparekonto",
-        "Renten etter ett år"
+        "Renten regnet før kostnader og gebyrer",
+        "Renten regnet med alle kostnader og gebyrer",
+        "Renten som gjelder for penger på sparekonto",
+        "Renten som legges til lånet etter hvert år"
       ],
       "correct": 1,
       "explain": "Bruk effektiv rente når du sammenligner lån."
@@ -165,20 +166,20 @@
       "text": "Hva kjennetegner et gyldig samtykke?",
       "options": [
         "Det er frivillig og tydelig, og kan trekkes tilbake",
-        "Det gjelder for alltid",
-        "Stillhet er nok",
-        "Det kan gis av noen som sover"
+        "Det er frivillig, men gjelder også etter at man ombestemmer seg",
+        "Det kan vises gjennom passivitet uten et tydelig ja",
+        "Det kan gis på forhånd for situasjoner som skjer senere"
       ],
       "correct": 0,
-      "explain": "Stillhet er ikke et ja."
+      "explain": "Samtykke må være frivillig og tydelig, og det kan trekkes tilbake."
     },
     {
       "id": "q05",
       "text": "Hvilken rettighet gir GDPR deg?",
       "options": [
-        "Rett til å se andres data",
-        "Rett til gratis internett",
-        "Rett til å slette andres innlegg",
+        "Rett til å se hvilke opplysninger en virksomhet har om andre",
+        "Rett til å bestemme hvordan andre virksomheter bruker data",
+        "Rett til å få vite hvem som besøker nettsidene du bruker",
         "Rett til innsyn i hvilke opplysninger en virksomhet har om deg"
       ],
       "correct": 3,
@@ -189,10 +190,10 @@
       "id": "q06",
       "text": "Hvordan kan ulikhet føre til utenforskap for barn?",
       "options": [
-        "Barn i familier med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter",
-        "Ulikhet påvirker ikke barn",
-        "Barn med dårlig råd får flere venner",
-        "Alle barn har like muligheter uansett"
+        "Barn med dårlig råd kan få vanskeligere for å delta i fritidsaktiviteter",
+        "Barns deltakelse i fritidsaktiviteter påvirkes ikke av familiens økonomi",
+        "Barn med dårlig råd får lettere råd til kostbare fritidsaktiviteter",
+        "Barn med dårlig råd har enklere tilgang til organiserte fritidsaktiviteter"
       ],
       "correct": 0,
       "explain": "Det kan gi ensomhet og utenforskap."
@@ -201,10 +202,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på integrering og assimilering?",
       "options": [
-        "Det er det samme",
-        "Assimilering betyr å beholde sin kultur",
-        "Ved integrering deltar minoriteten i samfunnet og kan beholde sin kultur, ved assimilering må den gi den opp",
-        "Integrering betyr å leve atskilt"
+        "Integrering krever at minoriteten gir opp kulturen, mens assimilering gir rom for å bevare den.",
+        "Integrering og assimilering betyr begge at minoriteten deltar uten å endre egen kultur.",
+        "Integrering gir deltakelse og rom for egen kultur; assimilering innebærer å gi den opp.",
+        "Integrering betyr å leve atskilt, mens assimilering betyr å delta i fellesskapet."
       ],
       "correct": 2,
       "explain": "Fornorskingspolitikken var en assimileringspolitikk."
@@ -213,10 +214,10 @@
       "id": "q08",
       "text": "Hvorfor er høy sysselsetting viktig for den nordiske modellen?",
       "options": [
-        "Fordi den gir færre skatteinntekter",
-        "Fordi den gjør velferden unødvendig",
+        "Fordi velferden finansieres av at færre jobber og betaler skatt",
+        "Fordi høy sysselsetting gjør at staten trenger mindre skatteinntekter",
         "Fordi velferden finansieres av at mange jobber og betaler skatt",
-        "Den er ikke viktig"
+        "Fordi høy sysselsetting erstatter behovet for offentlige velferdstjenester"
       ],
       "correct": 2,
       "explain": "Velferdsstaten er avhengig av skatteinntekter."
@@ -225,10 +226,10 @@
       "id": "q09",
       "text": "Hvorfor er et lokalsamfunn med ensidig næringsliv sårbart?",
       "options": [
-        "Fordi mange kan miste jobben samtidig hvis den store bedriften legger ned",
-        "Fordi det har for mange arbeidsplasser",
-        "Fordi skattene blir for lave",
-        "Det er ikke sårbart"
+        "Mange kan miste jobben samtidig hvis hovedbedriften legger ned",
+        "Fordi arbeidsplassene fordeles på flere næringer og arbeidsgivere",
+        "Fordi ansatte kan bytte mellom mange lokale bransjer",
+        "Fordi flere bedrifter gir kommunen mer stabile skatteinntekter"
       ],
       "correct": 0,
       "explain": "Et variert næringsliv gir større robusthet."
@@ -237,10 +238,10 @@
       "id": "q10",
       "text": "Hva betyr parlamentarisme?",
       "options": [
-        "At kongen bestemmer",
+        "At regjeringen må ha kongens støtte",
         "At regjeringen må ha Stortingets tillit",
-        "At presidenten velges direkte",
-        "At domstolene lager lover"
+        "At Stortinget må ha regjeringens støtte",
+        "At regjeringen må ha Høyesteretts støtte"
       ],
       "correct": 1,
       "explain": "Parlamentarismen ble innført i Norge i 1884."
@@ -249,10 +250,10 @@
       "id": "q11",
       "text": "Hva er et eksempel på diskriminering i arbeidslivet?",
       "options": [
-        "At alle får samme lønn",
-        "At man må ha utdanning til en jobb",
+        "At søkere med relevant erfaring oftere blir invitert til intervju",
+        "At arbeidsgiver vurderer søkere ut fra utdanningen som jobben krever",
         "At søkere med utenlandsk navn blir kalt inn til færre intervjuer",
-        "At det er intervjuer"
+        "At alle søkere får de samme spørsmålene under jobbintervjuet"
       ],
       "correct": 2,
       "explain": "Forskning har vist slik diskriminering."
@@ -261,10 +262,10 @@
       "id": "q12",
       "text": "Hva er forskjellen på bakenforliggende og utløsende årsaker?",
       "options": [
-        "Bakenforliggende årsaker er dype, langvarige forhold, mens utløsende årsaker er hendelsen som starter konflikten",
-        "Det er det samme",
-        "Utløsende årsaker er alltid historiske",
-        "Bakenforliggende årsaker er alltid tilfeldige"
+        "Bakenforliggende årsaker er langvarige forhold; utløsende årsaker er hendelsen som starter konflikten.",
+        "Bakenforliggende årsaker er hendelsen som starter konflikten; utløsende årsaker er langvarige forhold.",
+        "Bakenforliggende årsaker er følger av konflikten; utløsende årsaker er de langvarige forholdene.",
+        "Bakenforliggende årsaker oppstår etter konflikten; utløsende årsaker utvikler seg over lang tid."
       ],
       "correct": 0,
       "explain": "Begge er viktige i en analyse."
@@ -432,7 +433,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -453,10 +454,10 @@
         "type": "flervalg",
         "text": "Hvilken metode passer best for å forstå hvordan unge opplever utenforskap?",
         "options": [
-          "Dybdeintervjuer",
-          "Registerdata om inntekt",
-          "Folketelling",
-          "Valgstatistikk"
+          "Dybdeintervjuer med åpne spørsmål",
+          "Spørreundersøkelse med faste svaralternativer",
+          "Analyse av registerdata om inntekt",
+          "Sammenligning av valgstatistikk over tid"
         ],
         "correct": 0,
         "explain": "Kvalitative metoder gir innsikt i opplevelser."
@@ -487,10 +488,10 @@
         "type": "flervalg",
         "text": "Hvorfor er ytringsfriheten viktig i et demokrati?",
         "options": [
-          "Fordi den gir rett til å true andre",
-          "Fordi den gjør alle enige",
+          "Fordi den gir folk rett til å true andre uten følger",
+          "Fordi den bidrar til at innbyggerne blir enige om politiske saker",
           "Fordi den gjør det mulig å kritisere makthavere og diskutere fritt",
-          "Fordi den forbyr kritikk"
+          "Fordi den hindrer folk i å kritisere myndighetenes beslutninger"
         ],
         "correct": 2,
         "explain": "Ytringsfriheten er en grunnpilar i demokratiet."
@@ -576,12 +577,85 @@
           "Viser at konsekvenser kan ramme grupper ulikt.",
           "Nevner en mulig konflikthåndtering, som dialog eller mekling."
         ]
+      },
+      {
+        "text": "En nettartikkel hevder at «de fleste unge har stor forbruksgjeld», men oppgir ikke hvor tallene kommer fra. Artikkelen er laget av en bedrift som tilbyr lån. Hvordan bør du undersøke påstanden før du stoler på den?",
+        "fasit": "Jeg bør undersøke hvem som står bak artikkelen og om bedriften kan ha interesse av å framstille gjeld på en bestemt måte. Jeg bør også finne ut hvor tallene kommer fra, om de er oppdaterte, og sammenligne med flere uavhengige kilder, for eksempel SSB.",
+        "kriterier": [
+          "Vurderer avsenderens formål eller mulige interesser.",
+          "Etterspør dokumentasjon og sjekker aktualitet eller sammenligner med andre kilder."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En influenser reklamerer for klær med tilbudet «kjøp nå, betal senere». Forklar to ting en ungdom bør være oppmerksom på før kjøpet.",
+        "fasit": "Reklamen skal være tydelig merket, også når influenseren får betalt eller klærne gratis. Ungdommen bør vurdere om kjøpet passer inn i budsjettet og undersøke kostnadene ved betalingsløsningen, siden utsatt betaling kan bidra til gjeldsproblemer.",
+        "kriterier": [
+          "Nevner at betalt eller sponset reklame skal merkes tydelig.",
+          "Knytter kjøpet til budsjett, kostnader eller risiko for gjeld."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En ungdom ser mange redigerte treningsbilder på sosiale medier, og appen begynner å vise stadig flere slike bilder. Forklar hvordan digitale spor og algoritmer kan påvirke ungdommens selvfølelse.",
+        "fasit": "Appen kan bruke spor om hva ungdommen ser på og liker til å anbefale mer av det samme. Når ungdommen ofte sammenligner seg med redigerte bilder, kan det føre til kroppspress og svekket selvfølelse, selv om bildene ikke viser hverdagslige virkeligheter.",
+        "kriterier": [
+          "Forklarer at digitale spor kan brukes til å tilpasse anbefalinger eller innhold.",
+          "Knytter gjentatt eksponering eller sammenligning med redigerte bilder til kroppspress eller selvfølelse."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En skole vil at samiske elever skal delta i skolehverdagen, men også kunne bruke samisk språk og uttrykke samisk kultur. Forklar hvorfor dette er integrering, og hvordan det skiller seg fra assimilering.",
+        "fasit": "Dette er integrering fordi elevene kan delta i skolen og samfunnet samtidig som de beholder språk og kultur. Assimilering ville innebære at de måtte gi opp kulturuttrykk og bli lik majoriteten, slik fornorskingspolitikken forsøkte.",
+        "kriterier": [
+          "Forklarer at integrering kombinerer deltakelse med mulighet til å beholde egen kultur.",
+          "Skiller assimilering fra integrering ved at assimilering krever at minoriteten blir lik majoriteten."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "To jobbsøkere har like gode kvalifikasjoner, men søkeren med utenlandsk navn blir sjeldnere innkalt til intervju. Forklar hvorfor dette kan være diskriminering, og nevn ett tiltak som kan redusere problemet.",
+        "fasit": "Hvis søkeren behandles dårligere på grunn av antatt etnisk bakgrunn, kan det være diskriminering. Anonymiserte jobbsøknader kan gjøre det vanskeligere å la fordommer om navn påvirke hvem som blir innkalt.",
+        "kriterier": [
+          "Knytter forskjellsbehandlingen til etnisitet eller fordommer.",
+          "Nevner et relevant tiltak, for eksempel anonymiserte jobbsøknader."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Regjeringen foreslår en ny lov, men et flertall på Stortinget sier at de ikke lenger har tillit til regjeringen. Forklar hvordan parlamentarismen påvirker regjeringens makt i denne situasjonen.",
+        "fasit": "I Norge må regjeringen ha Stortingets tillit for å styre. Hvis den mister tilliten, kan den ikke fortsette som før, og dette begrenser regjeringens makt fordi Stortinget kan holde den ansvarlig.",
+        "kriterier": [
+          "Forklarer at regjeringen må ha Stortingets tillit.",
+          "Viser at Stortinget dermed kan begrense eller holde regjeringen ansvarlig."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et land får høyere BNP fordi det produserer og selger flere varer, men produksjonen gir også mer forurensning og innbyggerne får mindre fritid. Forklar hvorfor høyere BNP ikke nødvendigvis betyr bedre livskvalitet.",
+        "fasit": "BNP måler verdien av varer og tjenester som produseres, men viser ikke alene hvordan folk har det. Det sier blant annet lite om fritid og miljøødeleggelser, som begge kan påvirke livskvaliteten negativt.",
+        "kriterier": [
+          "Skiller mellom økonomisk vekst eller BNP og livskvalitet.",
+          "Nevner at BNP ikke viser viktige forhold som fritid eller miljøskader."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En bedrift innfører kunstig intelligens som overtar noen rutineoppgaver. Forklar hvordan endringen kan påvirke arbeidstakerne, og hvorfor livslang læring kan bli viktig.",
+        "fasit": "Noen arbeidsoppgaver eller jobber kan forsvinne, samtidig som teknologien kan gi høyere produktivitet og skape nye jobber. Kravene til kompetanse kan endre seg, så arbeidstakere kan trenge livslang læring for å tilegne seg ferdigheter som trengs i nye oppgaver.",
+        "kriterier": [
+          "Nevner at teknologi kan fjerne oppgaver eller jobber, og eventuelt skape nye eller øke produktiviteten.",
+          "Knytter endrede kompetansekrav til behovet for livslang læring."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

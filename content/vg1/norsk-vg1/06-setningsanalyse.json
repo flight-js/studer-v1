@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er subjektet i setningen «I går leste Ali en bok»?",
       "options": [
-        "I går",
+        "går",
         "Ali",
-        "leste",
-        "en bok"
+        "bok",
+        "I"
       ],
       "correct": 1,
       "explain": "Hvem leste? Ali."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er direkte objekt i «Ali leste en bok»?",
       "options": [
-        "Ali",
-        "leste",
+        "Ali selv",
+        "en elev",
         "en bok",
-        "Det finnes ikke noe objekt"
+        "en tekst"
       ],
       "correct": 2,
       "explain": "Hva leste Ali? En bok."
@@ -102,21 +102,21 @@
       "text": "Hvilket ord er en subjunksjon?",
       "options": [
         "fordi",
-        "og",
-        "men",
-        "eller"
+        "dessuten",
+        "følgelig",
+        "deretter"
       ],
       "correct": 0,
-      "explain": "Subjunksjoner innleder leddsetninger. De andre er konjunksjoner."
+      "explain": "Subjunksjoner innleder leddsetninger. Konnektiver som «dessuten», «følgelig» og «deretter» gjør ikke det."
     },
     {
       "id": "q04",
       "text": "Hva sier V2-regelen?",
       "options": [
-        "At det skal være to verb i hver setning",
-        "At subjektet alltid står først",
-        "At setninger har to ledd",
-        "At verbalet står på andre plass i helsetninger"
+        "Subjektet står på andre plass i helsetningen",
+        "Verbalet står på andre plass i leddsetningen",
+        "Verbalet står på tredje plass i helsetningen",
+        "Verbalet står på andre plass i helsetningen"
       ],
       "correct": 3,
       "explain": "Derfor heter det «I går leste Ali», ikke «I går Ali leste»."
@@ -126,9 +126,9 @@
       "text": "Hva er en leddsetning?",
       "options": [
         "En setning som fungerer som et ledd i en annen setning",
-        "En setning uten verb",
-        "En setning med to subjekter",
-        "Den første setningen i en tekst"
+        "En setning som fungerer som et ord i en annen setning",
+        "En setning som står som helsetning ved siden av en annen",
+        "En setning som fungerer som overskrift i en annen setning"
       ],
       "correct": 0,
       "explain": "Leddsetninger kan ikke stå alene."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er predikativet i «Filmen var spennende»?",
       "options": [
-        "Filmen",
-        "var",
+        "interessant",
+        "underholdende",
         "spennende",
-        "Det finnes ikke noe predikativ"
+        "skummel"
       ],
       "correct": 2,
       "explain": "«Spennende» sier noe om subjektet etter verbet «var»."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvor skal kommaet stå i «Når det regner blir vi inne»?",
       "options": [
-        "Etter «Når»",
+        "Etter «det»",
         "Etter «regner»",
-        "Etter «blir»",
-        "Det skal ikke være komma"
+        "Før «Når»",
+        "Etter «inne»"
       ],
       "correct": 1,
       "explain": "Det skal være komma etter en leddsetning som står først."
@@ -161,13 +161,13 @@
       "id": "q08",
       "text": "Hvilket ord er et konnektiv som viser motsetning?",
       "options": [
-        "derfor",
-        "dessuten",
+        "følgelig",
         "deretter",
+        "dessuten",
         "likevel"
       ],
       "correct": 3,
-      "explain": "«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid.",
+      "explain": "«Likevel» viser motsetning. «Følgelig» viser følge, «deretter» tid og «dessuten» tillegg.",
       "niva": "over-niva"
     },
     {
@@ -175,9 +175,9 @@
       "text": "Hvilken setning har riktig plassering av «ikke»?",
       "options": [
         "… fordi hun ikke kom",
-        "… fordi hun kom ikke",
-        "… fordi ikke hun kom",
-        "… ikke fordi hun kom"
+        "… fordi ikke kom hun",
+        "… fordi kom hun ikke",
+        "… fordi hun kom ikke"
       ],
       "correct": 0,
       "explain": "I leddsetninger står setningsadverbialet foran verbalet."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er en relativsetning?",
       "options": [
-        "En setning om familien",
+        "En leddsetning som uttrykker en årsak",
         "En leddsetning som beskriver et substantiv",
-        "En helsetning",
-        "En setning med konjunksjon"
+        "En leddsetning som uttrykker et tidspunkt",
+        "En helsetning som beskriver et substantiv"
       ],
       "correct": 1,
       "explain": "Eksempel: «boka som jeg leste».",
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hva er indirekte objekt i «Hun ga broren en gave»?",
         "options": [
-          "Hun",
+          "sønnen",
           "broren",
-          "en gave",
-          "ga"
+          "vennen",
+          "naboen"
         ],
         "correct": 1,
         "explain": "Broren er mottakeren."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva er inversjon?",
         "options": [
-          "At setningen står i fortid",
-          "At setningen mangler verb",
+          "At subjekt og objekt bytter plass",
+          "At verbal og objekt bytter plass",
           "At subjekt og verbal bytter plass",
-          "At man skriver baklengs"
+          "At subjekt og verbal beholder vanlig plass"
         ],
         "correct": 2,
         "explain": "Eksempel: «I dag skinner sola»."
@@ -347,9 +347,9 @@
         "text": "Hvilket ord er et setningsadverbial?",
         "options": [
           "aldri",
-          "bok",
-          "skrev",
-          "vakker"
+          "hage",
+          "spiste",
+          "grønn"
         ],
         "correct": 0,
         "explain": "Setningsadverbialer sier noe om hele setningen."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

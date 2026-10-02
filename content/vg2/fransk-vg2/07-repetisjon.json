@@ -19,8 +19,7 @@
   "flashcards": [
     {
       "term": "le développement durable",
-      "def": "bærekraftig utvikling",
-      "niva": "eksempel"
+      "def": "bærekraftig utvikling"
     },
     {
       "term": "le nucléaire",
@@ -60,13 +59,11 @@
     },
     {
       "term": "l'identité",
-      "def": "identiteten",
-      "niva": "eksempel"
+      "def": "identiteten"
     },
     {
       "term": "la discrimination",
-      "def": "diskrimineringen",
-      "niva": "eksempel"
+      "def": "diskrimineringen"
     },
     {
       "term": "Il a dit qu'il était fatigué.",
@@ -74,8 +71,7 @@
     },
     {
       "term": "une famille d'accueil",
-      "def": "en vertsfamilie",
-      "niva": "eksempel"
+      "def": "en vertsfamilie"
     },
     {
       "term": "la lettre de motivation",
@@ -96,8 +92,7 @@
     },
     {
       "term": "la chute",
-      "def": "den overraskende slutten i en novelle",
-      "niva": "eksempel"
+      "def": "den overraskende slutten i en novelle"
     },
     {
       "term": "le personnage principal",
@@ -126,14 +121,13 @@
       "id": "q01",
       "text": "Hva betyr «le développement durable»?",
       "options": [
-        "den globale oppvarmingen",
+        "global oppvarming",
         "bærekraftig utvikling",
         "fornybar energi",
-        "forurensning"
+        "miljøforurensning"
       ],
       "correct": 1,
-      "explain": "durable = varig, bærekraftig.",
-      "niva": "eksempel"
+      "explain": "durable = varig, bærekraftig."
     },
     {
       "id": "q02",
@@ -151,10 +145,10 @@
       "id": "q03",
       "text": "Hvordan lages subjonctif av regelmessige verb?",
       "options": [
-        "Infinitiv + -ai",
+        "nous-stammen + -ons, -ez, -ent, -ons, -ez, -ent",
         "ils-stammen + -e, -es, -e, -ions, -iez, -ent",
-        "nous-stammen + -ais",
-        "Partisipp + être"
+        "ils-stammen + -ais, -ais, -ait, -ions, -iez, -aient",
+        "partisippstammen + -e, -es, -e, -ions, -iez, -ent"
       ],
       "correct": 1,
       "explain": "ils parlent → que je parle."
@@ -164,9 +158,9 @@
       "text": "Hvordan dannes gérondif?",
       "options": [
         "en + participe présent",
-        "avoir + partisipp",
-        "être + infinitiv",
-        "que + subjonctif"
+        "avoir + participe passé",
+        "être + participe passé",
+        "pour + infinitif"
       ],
       "correct": 0,
       "explain": "en écoutant, en faisant."
@@ -175,10 +169,10 @@
       "id": "q05",
       "text": "Hva er en god strategi når du lytter til franske nyheter?",
       "options": [
-        "Forstå hvert ord",
-        "Lese transkripsjonen først alltid",
-        "Aldri bruke teksting",
-        "Lytte etter nøkkelord og tall"
+        "Prøve å forstå hvert eneste ord i nyhetene",
+        "Oversette setningene til norsk mens du lytter",
+        "Fokusere på grammatikk i stedet for innholdet",
+        "Lytte etter nøkkelord og tall i nyhetene"
       ],
       "correct": 3,
       "explain": "Hovedinnholdet er viktigst."
@@ -199,10 +193,10 @@
       "id": "q07",
       "text": "Hva skjer med tiden etter «il dit que» (presens)?",
       "options": [
-        "Presens blir imparfait",
-        "Presens blir futur",
+        "Tiden blir imparfait",
+        "Tiden blir futur",
         "Tiden endres ikke",
-        "Presens blir subjonctif"
+        "Tiden blir subjonctif"
       ],
       "correct": 2,
       "explain": "Bare når innledningen står i fortid, endres tiden."
@@ -212,9 +206,9 @@
       "text": "Hvordan dannes conditionnel passé?",
       "options": [
         "avoir/être i conditionnel + partisipp",
-        "avoir/être i imparfait + partisipp",
-        "infinitiv + -ais",
-        "que + subjonctif"
+        "avoir/être i presens + partisipp",
+        "avoir/être i futur + partisipp",
+        "avoir/être i imparfait + infinitiv"
       ],
       "correct": 0,
       "explain": "J'aurais aimé, je serais venu."
@@ -226,7 +220,7 @@
         "avoir/être i presens + partisipp",
         "avoir/être i futur + partisipp",
         "avoir/être i imparfait + partisipp",
-        "infinitiv + -ait"
+        "avoir/être i conditionnel + partisipp"
       ],
       "correct": 2,
       "explain": "J'avais déjà réservé."
@@ -235,23 +229,22 @@
       "id": "q10",
       "text": "Hva er «la chute» i en novelle?",
       "options": [
-        "begynnelsen",
-        "fortelleren",
-        "tittelen",
+        "den innledende delen",
+        "den fortellende stemmen",
+        "den sentrale konflikten",
         "den overraskende slutten"
       ],
       "correct": 3,
-      "explain": "Maupassant er kjent for gode «chutes».",
-      "niva": "eksempel"
+      "explain": "Maupassant er kjent for gode «chutes»."
     },
     {
       "id": "q11",
       "text": "Hva er en god lesestrategi?",
       "options": [
-        "Oversette hvert ord",
-        "Se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen",
-        "Hoppe over første avsnitt",
-        "Bare lese slutten"
+        "Å oversette hvert ord til norsk før du prøver å forstå teksten.",
+        "Å se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen.",
+        "Å lese teksten høyt og fokusere på uttalen framfor innholdet.",
+        "Å slå opp hvert ukjent ord i ordboka før du leser videre."
       ],
       "correct": 1,
       "explain": "la liberté, la solitude, absurde ligner engelsk."
@@ -284,9 +277,9 @@
       "id": "q14",
       "text": "Hvor står pronomenene y og en?",
       "options": [
-        "Sist i setningen",
-        "Etter verbet",
-        "Først i setningen alltid",
+        "Etter verbet i setningen",
+        "Etter objektet i setningen",
+        "Til slutt i setningen",
         "Foran verbet"
       ],
       "correct": 3,
@@ -421,7 +414,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -479,8 +472,7 @@
           "en rask slutt"
         ],
         "correct": 1,
-        "explain": "Leseren må tolke selv.",
-        "niva": "eksempel"
+        "explain": "Leseren må tolke selv."
       },
       {
         "id": "m06",
@@ -498,8 +490,7 @@
         "kriterier": [
           "Bruker subjonctif riktig etter «Il faut que»: «recyclions».",
           "Uttrykker at informasjon kan deles på sosiale medier."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s02",
@@ -508,8 +499,7 @@
         "kriterier": [
           "Bruker «Il est important que» med subjonctif.",
           "Bruker riktig subjonctif av être: «soyons»."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s03",
@@ -555,8 +545,7 @@
         "kriterier": [
           "Bruker minst to relevante analyseord, for eksempel «le personnage principal», «l'intrigue» eller «le ton».",
           "Får fram at novellen har få personer eller en overraskende slutt."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s08",
@@ -566,12 +555,91 @@
           "Bruker «y» til å erstatte «à Paris».",
           "Bruker «en» til å erstatte «des frères» og beholder mengden «deux»."
         ]
+      },
+      {
+        "text": "Compare en français la production d’électricité en Norvège et en France. Indique la source d’énergie principale de chaque pays et explique un débat lié à l’énergie nucléaire.",
+        "fasit": "La Norvège produit surtout son électricité avec l’énergie hydraulique, tandis que la France utilise surtout l’énergie nucléaire. Le nucléaire produit peu de CO₂, mais il y a des débats sur les déchets radioactifs et la sécurité.",
+        "kriterier": [
+          "Associe l’énergie hydraulique à la Norvège et le nucléaire à la France.",
+          "Mentionne les faibles émissions de CO₂ ou les débats sur les déchets radioactifs et la sécurité."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Une élève dit : « Je veux faire un échange en Belgique. J’apprendrai le français. » Rapporte ses paroles après « Elle a dit que… ».",
+        "fasit": "Elle a dit qu’elle voulait faire un échange en Belgique et qu’elle apprendrait le français.",
+        "kriterier": [
+          "Endre « je » til « elle » og presens « veux » til imparfait « voulait ».",
+          "Endre futur « apprendrai » til conditionnel « apprendrait »."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Tu poses ta candidature pour un poste de jeune fille ou jeune homme au pair dans une famille française. Écris une courte lettre formelle où tu dis que tu as de l’expérience comme baby-sitter, que tu parles norvégien, anglais et français et que tu souhaites améliorer ton français.",
+        "fasit": "Madame, Monsieur, je pose ma candidature pour le poste au pair. J’ai de l’expérience comme baby-sitter et je parle norvégien, anglais et français. Je souhaite améliorer mon français. Cordialement,",
+        "kriterier": [
+          "Bruker en passende formell hilsen eller avslutning.",
+          "Får med erfaring som barnevakt, språkene og ønsket om å forbedre fransken."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Explique en français le lien entre l’histoire coloniale et l’immigration en France. Ajoute l’exemple d’un joueur de football français ayant des origines immigrées.",
+        "fasit": "Une partie de l’immigration en France est liée à l’histoire coloniale : beaucoup de personnes viennent de pays où le français est encore une langue importante. Zinedine Zidane a des parents algériens, et Kylian Mbappé a des racines au Cameroun et en Algérie.",
+        "kriterier": [
+          "Knytter deler av innvandringen til kolonihistorien og land der fransk fortsatt er viktig.",
+          "Gir et korrekt eksempel på en fotballspiller og bakgrunnen hans."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Compare en français un élément de style ou de thème dans L’Étranger d’Albert Camus et dans le poème « Déjeuner du matin » de Jacques Prévert.",
+        "fasit": "Dans L’Étranger, Camus utilise des phrases courtes et un ton neutre, lié à l’absurde. Dans « Déjeuner du matin », Prévert utilise des répétitions et décrit une situation quotidienne qui évoque la solitude et la fin de l’amour.",
+        "kriterier": [
+          "Nevner et relevant stiltrekk eller tema ved hvert verk.",
+          "Gir en forståelig sammenligning som stemmer med beskrivelsene av verkene."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "La Fête de la Musique a lieu en France chaque année. Explique quand elle a commencé et ce qui se passe pendant cette fête. Explique aussi en français comment le mot « verlan » est formé.",
+        "fasit": "La Fête de la Musique a lieu le 21 juin depuis 1982. Des musiciens amateurs et professionnels jouent gratuitement dans les rues. Le mot « verlan » vient de « l’envers », dont les syllabes sont inversées.",
+        "kriterier": [
+          "Oppgir 21. juni og 1982, og beskriver gratis musikk i gatene.",
+          "Forklarer at « verlan » kommer av « l’envers » med ombyttede stavelser."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En France, une loi sur les téléphones portables a été adoptée en 2018. Décris où elle interdit les téléphones et présente un problème lié à la vie numérique des jeunes.",
+        "fasit": "Depuis 2018, les téléphones sont interdits dans les écoles primaires et les collèges en France, y compris pendant les pauses. Un problème de la vie numérique est que beaucoup de jeunes passent trop de temps devant l’écran. Il y a aussi beaucoup de fausses informations.",
+        "kriterier": [
+          "Nevner barneskolen og collège, og at forbudet også gjelder i friminuttene.",
+          "Nevner et relevant digitalt problem, for eksempel for mye skjermtid eller falske nyheter."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Tu as raté un séjour linguistique en France parce que tu n’avais pas réservé à temps. Écris une phrase avec « si » pour dire ce qui se serait passé si tu avais réservé plus tôt.",
+        "fasit": "Si j’avais réservé plus tôt, j’aurais pu participer au séjour linguistique en France.",
+        "kriterier": [
+          "Bruker plus-que-parfait etter « si », for eksempel « j’avais réservé ».",
+          "Bruker conditionnel passé for resultatet, for eksempel « j’aurais pu participer »."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er a₄ når a₁ = 2 og aₙ = 3 · aₙ₋₁?",
       "options": [
-        "18",
+        "6",
         "54",
-        "24",
-        "162"
+        "36",
+        "108"
       ],
       "correct": 1,
       "explain": "2, 6, 18, 54."
@@ -91,9 +91,9 @@
       "text": "Hva er det neste tallet i Fibonacci-følgen 1, 1, 2, 3, 5, 8, …?",
       "options": [
         "13",
-        "11",
-        "16",
-        "10"
+        "12",
+        "14",
+        "15"
       ],
       "correct": 0,
       "explain": "5 + 8."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva må en rekursiv funksjon ha for å stoppe?",
       "options": [
-        "En while-løkke",
-        "En liste",
+        "En løkke",
+        "En startverdi",
         "Et grunntilfelle",
-        "En print-kommando"
+        "En utskriftskommando"
       ],
       "correct": 2,
       "explain": "Ellers kaller den seg selv i det uendelige."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Når passer en while-løkke best?",
       "options": [
-        "Når du vet nøyaktig antall steg",
-        "Aldri",
-        "Bare for lister",
+        "Når antall repetisjoner er bestemt før løkken starter",
+        "Når du skal utføre én kommando uten gjentakelse",
+        "Når du skal definere en følge med en eksplisitt formel",
         "Når du skal fortsette til et vilkår er oppfylt"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva blir B₁ når B₀ = 200 000 og Bₙ = 1,05 · Bₙ₋₁ − 20 000?",
       "options": [
         "190 000",
-        "210 000",
-        "180 000",
-        "200 000"
+        "230 000",
+        "189 000",
+        "190 500"
       ],
       "correct": 0,
       "explain": "210 000 − 20 000."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvilken verdi nærmer forholdet Fₙ₊₁/Fₙ i Fibonacci-følgen seg?",
       "options": [
-        "2",
+        "Kvadratroten av 2, omtrent 1,414",
         "Det gylne snitt, omtrent 1,618",
-        "π",
-        "1"
+        "Tallet π, omtrent 3,142",
+        "Tallet e, omtrent 2,718"
       ],
       "correct": 1,
       "explain": "(1 + √5)/2.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva returnerer fakultet(4) i den rekursive funksjonen?",
       "options": [
-        "4",
-        "10",
+        "12",
+        "8",
         "24",
-        "16"
+        "64"
       ],
       "correct": 2,
       "explain": "4 · 3 · 2 · 1.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvorfor er en rekursiv Fibonacci-funksjon som kaller seg selv to ganger, treg?",
       "options": [
-        "Fordi Python er tregt",
-        "Fordi tallene er små",
-        "Fordi den mangler grunntilfelle",
+        "Fordi den går gjennom følgen én gang fra første ledd til siste",
+        "Fordi den lagrer alle delresultatene før den returnerer",
+        "Fordi den bruker to grunntilfeller i stedet for en løkke",
         "Fordi de samme leddene regnes ut om og om igjen"
       ],
       "correct": 3,
@@ -179,8 +179,8 @@
       "options": [
         "Den bremses",
         "Den øker",
-        "Den blir negativ alltid",
-        "Den er konstant"
+        "Den holder samme fart",
+        "Den blir negativ"
       ],
       "correct": 0,
       "explain": "Faktoren (1 − Pₙ/K) går mot 0."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er en eksplisitt formel for følgen gitt ved a₁ = 3 og aₙ = aₙ₋₁ + 4?",
       "options": [
-        "aₙ = 3n + 4",
+        "aₙ = 4n",
         "aₙ = 4n − 1",
-        "aₙ = 4n + 3",
-        "aₙ = 3 · 4ⁿ"
+        "aₙ = 4n + 1",
+        "aₙ = 3n"
       ],
       "correct": 1,
       "explain": "3 + (n − 1) · 4."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva er en rekursiv funksjon?",
         "options": [
-          "En funksjon uten parametre",
+          "En funksjon som kaller en annen funksjon",
           "En funksjon som kaller seg selv",
-          "En funksjon med løkke",
-          "En funksjon som tegner grafer"
+          "En funksjon som gjentas ved hjelp av en løkke",
+          "En funksjon som returnerer en liste med tall"
         ],
         "correct": 1,
         "explain": "Må ha et grunntilfelle."
@@ -331,9 +331,9 @@
         "text": "Hva er F₈ i Fibonacci-følgen?",
         "options": [
           "21",
-          "13",
+          "8",
           "34",
-          "18"
+          "55"
         ],
         "correct": 0,
         "explain": "1, 1, 2, 3, 5, 8, 13, 21."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

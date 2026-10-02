@@ -114,9 +114,9 @@
       "text": "Når er et argument holdbart?",
       "options": [
         "Når det er gyldig og premissene er sanne",
-        "Når det er gyldig",
-        "Når konklusjonen er sann",
-        "Når det bruker eksempler"
+        "Når det er gyldig, selv om ett premiss er usant",
+        "Når konklusjonen er sann og premissene virker troverdige",
+        "Når premissene er sanne og eksemplene passer til saken"
       ],
       "correct": 0,
       "explain": "Begge kravene må oppfylles."
@@ -125,9 +125,9 @@
       "id": "q02",
       "text": "Hvorfor kan ulike historikere lage ulike fortellinger av de samme kildene?",
       "options": [
-        "Fordi kildene endrer seg",
-        "Fordi noen historikere lyver",
-        "Fordi fortiden forandrer seg",
+        "Fordi kildene endrer innhold når ulike historikere leser dem",
+        "Fordi historikere må velge en fortelling før de undersøker kildene",
+        "Fordi fortiden blir annerledes når nye kilder blir funnet",
         "Fordi fortellingen er en tolkning, og de stiller ulike spørsmål"
       ],
       "correct": 3,
@@ -138,9 +138,9 @@
       "text": "Hvordan skiller moderne demokrati seg fra det athenske?",
       "options": [
         "Det er representativt og bygger på allmenn stemmerett",
-        "Det er direkte",
-        "Det utelukker kvinner",
-        "Det bruker loddtrekning til alt"
+        "Det er direkte og lar borgerne avgjøre nasjonale saker selv",
+        "Det gir stemmerett til menn, men ikke til kvinner",
+        "Det velger representanter ved loddtrekning framfor valg"
       ],
       "correct": 0,
       "explain": "Og på menneskerettigheter."
@@ -150,9 +150,9 @@
       "text": "Hvilken endring i maktstrukturene skjedde fra middelalder til enevelde?",
       "options": [
         "Makten gikk fra å være spredt til å bli samlet i staten",
-        "Makten ble spredt på flere",
-        "Kirken fikk all makt",
-        "Bøndene fikk makten"
+        "Makten gikk fra å være samlet til å bli spredt mellom lokale herrer",
+        "Makten gikk fra å være spredt mellom lokale herrer til å bli samlet i kirken",
+        "Makten gikk fra å være samlet i staten til å bli delt mellom kirken og adelen"
       ],
       "correct": 0,
       "explain": "Byråkrati, skatter og stående hærer."
@@ -161,10 +161,10 @@
       "id": "q05",
       "text": "Hvorfor kan man si at opplysningstidens idealer var begrenset i praksis?",
       "options": [
-        "Fordi de gjaldt alle",
-        "Fordi ingen trodde på dem",
+        "Fordi idealene først ble formulert etter at demokratiet var innført",
+        "Fordi opplysningstenkerne ønsket å bevare eneveldet",
         "Fordi kvinner, slaver og mange andre ble holdt utenfor",
-        "Fordi de bare gjaldt i Asia"
+        "Fordi rettighetene i praksis først ble gitt til innbyggerne i koloniene"
       ],
       "correct": 2,
       "explain": "Universelle i ord, men ikke i praksis."
@@ -173,10 +173,10 @@
       "id": "q06",
       "text": "Hvordan skilte Aristoteles seg fra Platon?",
       "options": [
-        "Han mente formen finnes i tingene, og la vekt på observasjon",
-        "Han trodde mer på idéverdenen",
-        "Han var ikke interessert i kunnskap",
-        "Han skrev ingenting"
+        "Han mente at formen finnes i tingene og la vekt på observasjon",
+        "Han mente at formene finnes i en egen idéverden og la vekt på tenkning",
+        "Han mente at kunnskap kommer fra medfødte ideer og avviste observasjon som kilde",
+        "Han mente at formene finnes i tingene, men avviste observasjon som vei til kunnskap"
       ],
       "correct": 0,
       "explain": "Mer empirisk."
@@ -185,9 +185,9 @@
       "id": "q07",
       "text": "Hva er induksjonsproblemet?",
       "options": [
-        "At vi ikke kan regne",
-        "At sansene alltid lyver",
-        "At fornuften er upålitelig",
+        "At sanseerfaringene våre ikke viser verden slik den faktisk er",
+        "At gyldige slutninger må bygge på flere observerte enkelttilfeller",
+        "At logikk ikke kan brukes til å avgjøre om en påstand er sann",
         "At tidligere erfaring ikke beviser hva som skjer i framtiden"
       ],
       "correct": 3,
@@ -197,10 +197,10 @@
       "id": "q08",
       "text": "Hva sier menneskeverdsformuleringen av det kategoriske imperativ?",
       "options": [
-        "Behandle aldri mennesker bare som et middel, men også som et mål",
-        "Gjør det som gir mest lykke",
-        "Følg flertallet",
-        "Lyv når det lønner seg"
+        "Behandle aldri mennesker bare som et middel, men også som et mål.",
+        "Velg handlingen som gir størst mulig lykke for flest mulig.",
+        "Følg reglene som flertallet i samfunnet har godtatt.",
+        "Behandle mennesker som midler når det fører til et godt resultat."
       ],
       "correct": 0,
       "explain": "Kants pliktetikk."
@@ -209,10 +209,10 @@
       "id": "q09",
       "text": "Hvilket spørsmål bør du stille når du vurderer hvordan religion eller filosofi brukes?",
       "options": [
-        "Hvor gammel er ideen?",
+        "Hvor gammel er ideen, og hvor oppstod den?",
         "Hvem bruker ideene, hvordan, og hvem tjener på det?",
-        "Hvor mange tror på den?",
-        "Hvilket språk er den skrevet på?"
+        "Hvor mange tror på ideen, og hvor utbredt er den?",
+        "Hvilket språk ble ideen skrevet på, og hvem oversatte den?"
       ],
       "correct": 1,
       "explain": "De samme ideene kan brukes på ulike måter."
@@ -221,10 +221,10 @@
       "id": "q10",
       "text": "Hva kjennetegner god historiefortelling?",
       "options": [
-        "At den er helt nøytral",
+        "At den framstiller ett perspektiv som nøytralt og ikke viser hvordan kildene støtter det",
         "At den er åpen om perspektivet, bygger på kilder og tar hensyn til flere stemmer",
-        "At den bare har én stemme",
-        "At den unngår kilder"
+        "At den bygger på én stemme og bruker kilder som bekrefter framstillingen",
+        "At den unngår kilder og beskriver hendelser uten å begrunne framstillingen"
       ],
       "correct": 1,
       "explain": "Noen fortellinger er bedre begrunnet enn andre."
@@ -233,9 +233,9 @@
       "id": "q11",
       "text": "Hva var nytt i den vitenskapelige revolusjonen?",
       "options": [
-        "Troen på at jorda er sentrum",
-        "At kirken bestemte alt",
-        "At naturen var uforståelig",
+        "Kirkens autoritet og klassiske tekster som grunnlag for kunnskap",
+        "Religiøs åpenbaring og tradisjon som grunnlag for naturkunnskap",
+        "Filosofisk spekulasjon uten observasjoner som grunnlag for kunnskap",
         "Observasjon, eksperiment og matematikk som grunnlag for kunnskap"
       ],
       "correct": 3,
@@ -245,10 +245,10 @@
       "id": "q12",
       "text": "Hvordan kan synet på naturen påvirke politikken?",
       "options": [
-        "Det har ingen betydning",
-        "Det avgjør om naturinngrep vurderes bare ut fra nytte eller også ut fra naturens egenverdi",
-        "Det bestemmer skattesatsen",
-        "Det avgjør valgdagen"
+        "Det avgjør hvilke lover som gjelder for et bestemt naturinngrep",
+        "Det påvirker om naturinngrep vurderes ut fra nytte eller også naturens egenverdi",
+        "Det avgjør hvilke fagpersoner som undersøker følgene av naturinngrep",
+        "Det avgjør hvor mange mennesker som bor nær et planlagt naturinngrep"
       ],
       "correct": 1,
       "explain": "For eksempel ved vassdragsutbygging."
@@ -408,7 +408,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -450,13 +450,14 @@
         "type": "flervalg",
         "text": "Hvem mente at folket har rett til opprør hvis staten bryter kontrakten?",
         "options": [
-          "Hobbes",
+          "Rousseau",
           "Locke",
-          "Ludvig 14.",
-          "Platon"
+          "Montesquieu",
+          "Voltaire"
         ],
         "correct": 1,
-        "explain": "Staten skal beskytte rettighetene."
+        "explain": "Staten skal beskytte rettighetene.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -554,12 +555,92 @@
           "1 poeng: Forklarer begge natursynene og knytter dem til ulike vurderinger av et naturinngrep.",
           "½ poeng: Forklarer riktig ett av natursynene eller nevner at synet på naturens verdi påvirker vurderingen av inngrep."
         ]
+      },
+      {
+        "text": "En elev hevder at en gammel tekst beviser at en hendelse skjedde akkurat slik den står beskrevet. Hvordan kan en sokratisk samtale og kildekritikk brukes til å undersøke påstanden?",
+        "fasit": "I en sokratisk samtale kan man be eleven avklare hva «beviser» betyr, begrunne påstanden og teste den med spørsmål og eksempler. Kildekritikk undersøker hvem som laget teksten, når og hvorfor, og om andre uavhengige kilder støtter den. Teksten må tolkes, ikke behandles som et nøytralt vindu til fortiden.",
+        "kriterier": [
+          "Sokratisk samtale bruker spørsmål til å avklare og teste påstander og begrunnelser.",
+          "Kildekritikk vurderer blant annet opphav, tidspunkt, formål/tendens og støtte fra andre kilder."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Mange innlegg på nettet gjentar den samme påstanden om hva som vil skje i framtiden. Forklar hvorfor gjentakelsen ikke i seg selv beviser at påstanden er sann, og hvordan kunnskap om kilder kan hjelpe deg å vurdere den.",
+        "fasit": "Hume påpekte at selv gjentatte erfaringer ikke beviser at det samme vil skje i framtiden; slutningen er induktiv og bare sannsynlig. Mange innlegg kan dessuten bygge på samme kilde og er da ikke uavhengig bekreftelse. Det er viktig å undersøke hvor påstanden kommer fra og om den støttes av gode, uavhengige kilder.",
+        "kriterier": [
+          "Induktive slutninger bygger på gjentatte tilfeller, men gir ikke sikker kunnskap om framtiden.",
+          "Gjentatte innlegg er ikke nødvendigvis uavhengige kilder; opphav og kildegrunnlag bør undersøkes."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En kommune vurderer digitale overvåkingsverktøy for å gjøre innbyggerne tryggere. Forklar hvordan Hobbes, Locke og Montesquieu kunne bidratt med ulike hensyn i diskusjonen.",
+        "fasit": "Hobbes kunne lagt vekt på at en sterk statsmakt trengs for å skape trygghet. Locke ville minnet om at staten også skal beskytte individets frihet og rettigheter. Montesquieu ville pekt på at makten bør deles og kontrolleres, slik at staten ikke får ubegrenset makt.",
+        "kriterier": [
+          "Hobbes begrunner en sterk stat med behovet for trygghet og fred.",
+          "Locke vektlegger naturlige rettigheter, blant annet frihet, som staten skal beskytte.",
+          "Montesquieu vektlegger maktfordeling og kontroll av statsmakten."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En person sier at handlingene våre er bestemt av tidligere årsaker, og at ingen derfor kan holdes ansvarlige. Forklar hvordan kompatibilisme kan svare på dette, og hvordan stoisk filosofi skiller mellom ulike sider ved situasjonen.",
+        "fasit": "Kompatibilisme hevder at fri vilje kan forenes med determinisme: Vi kan være frie når vi handler ut fra egne ønsker uten ytre tvang. Stoikerne skiller mellom det vi kan kontrollere, som egne handlinger og holdninger, og det vi ikke kan kontrollere, som ytre hendelser. De to perspektivene belyser ansvar og hvordan vi bør møte situasjonen på ulike måter.",
+        "kriterier": [
+          "Kompatibilisme forener determinisme med frihet når handlinger følger egne ønsker uten ytre tvang.",
+          "Stoisisme skiller mellom det vi kan og ikke kan kontrollere."
+        ],
+        "id": "s12",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En historiker undersøker den industrielle revolusjonen. Hvordan kan en marxistisk og en strukturell historiker legge vekt på ulike forhold når de forklarer endringene?",
+        "fasit": "En marxistisk historiker vil undersøke hvordan økonomi, produksjonsforhold og klassekamp drev fram endringene. En strukturell historiker vil legge større vekt på langsomme forhold som geografi, klima, økonomi og mentalitet. De kan derfor stille ulike spørsmål og framheve ulike sider ved den samme utviklingen.",
+        "kriterier": [
+          "Marxistisk historiesyn framhever økonomi, produksjonsforhold og klassekamp.",
+          "Strukturelt historiesyn framhever langsomme endringer, som geografi, klima, økonomi og mentalitet."
+        ],
+        "id": "s13",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Arkeologer finner redskaper og DNA-spor fra en periode der det også finnes en skriftlig fortelling som ble skrevet ned flere hundre år senere. Hva kan de ulike kildene bidra med, og hvilke begrensninger bør historikeren ta hensyn til?",
+        "fasit": "Redskapene og DNA-sporene er materielle og naturvitenskapelige kilder som kan gi kunnskap om blant annet teknologi og slektskap. Den skriftlige fortellingen kan si noe om hva som ble fortalt om fortiden, men avstanden i tid gjør at den må vurderes kritisk. Historikeren bør sammenholde kildene og huske at ingen enkeltkilde gir en fullstendig, nøytral framstilling.",
+        "kriterier": [
+          "Materielle og naturvitenskapelige spor kan gi kunnskap om fortidige forhold, som redskaper og slektskap.",
+          "En fortelling skrevet lenge etter hendelsene har tidsavstand og må vurderes kritisk.",
+          "Kilder bør sammenholdes; fortiden blir tolket ut fra bevarte spor."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Forklar hvordan boktrykkerkunsten kunne svekke kirkens kontroll over kunnskap og samtidig bidra til at nye religiøse og vitenskapelige ideer spredte seg.",
+        "fasit": "Boktrykkerkunsten gjorde bøker billigere og gjorde det mulig å spre skrifter raskere til flere. Reformasjonen kunne dermed spres gjennom trykte tekster, og kunnskap ble mindre avhengig av kirken og klostrene. Trykte skrifter gjorde det også lettere å dele og kontrollere vitenskapelige ideer.",
+        "kriterier": [
+          "Trykking gjorde bøker billigere og spredning av tekster raskere og bredere.",
+          "Trykte tekster bidro til reformasjonens spredning og gjorde kunnskap mindre avhengig av kirken.",
+          "Vitenskapelige ideer kunne deles og kontrolleres av flere."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En gruppe skal lage regler for hvem som får delta i politiske valg, men vet ikke selv hvilken plass de vil få i samfunnet. Forklar hvordan Rawls’ uvitenhetens slør kan påvirke reglene, og knytt det til hvem som historisk har blitt holdt utenfor demokratiet.",
+        "fasit": "Bak uvitenhetens slør vet ikke deltakerne hvilken posisjon de selv vil få, og Rawls mente at de derfor ville velge rettferdige regler. De kunne være opptatt av at reglene også beskytter dem som ellers risikerer å bli holdt utenfor. Historisk har blant andre kvinner og slaver manglet politiske rettigheter, og demokratiets historie har vært en kamp for å utvide hvem som regnes med.",
+        "kriterier": [
+          "Uvitenhetens slør innebærer at man velger regler uten å vite hvilken posisjon man selv får.",
+          "Rawls’ tanke er at dette kan føre til valg av rettferdige regler.",
+          "Kvinner og slaver er eksempler på grupper som historisk ble holdt utenfor politiske rettigheter."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

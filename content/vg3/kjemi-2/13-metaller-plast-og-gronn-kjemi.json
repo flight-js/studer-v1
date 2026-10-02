@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvordan lages aluminium?",
       "options": [
-        "I en masovn med karbon",
+        "Ved reduksjon av aluminiumoksid med karbon i masovn",
         "Ved elektrolyse av aluminiumoksid løst i kryolitt",
-        "Ved destillasjon",
-        "Ved fotosyntese"
+        "Ved elektrolyse av aluminiumklorid løst i vann",
+        "Ved destillasjon av aluminium fra smeltet bauksitt"
       ],
       "correct": 1,
       "explain": "Krever mye elektrisk energi."
@@ -90,9 +90,9 @@
       "text": "Hvor mye energi krever gjenvinning av aluminium sammenlignet med ny produksjon?",
       "options": [
         "Omtrent 5 %",
-        "Omtrent 50 %",
-        "Omtrent 100 %",
-        "Omtrent 200 %"
+        "Omtrent 10 %",
+        "Omtrent 20 %",
+        "Omtrent 50 %"
       ],
       "correct": 0,
       "explain": "Stor energigevinst."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor gir jernproduksjon i masovn store CO₂-utslipp?",
       "options": [
-        "Fordi jern inneholder CO₂",
-        "Fordi det brukes elektrolyse",
-        "Fordi jernoksid reduseres med karbon",
-        "Fordi det brukes hydrogen"
+        "Fordi jernoksid spaltes til jern og oksygengass",
+        "Fordi hydrogen reduserer jernoksid og danner vanndamp",
+        "Fordi karbon reduserer jernoksid og danner CO₂",
+        "Fordi jernmalm inneholder karbondioksid som frigjøres ved smelting"
       ],
       "correct": 2,
       "explain": "Karbonet blir til CO₂."
@@ -114,8 +114,8 @@
       "text": "Hva er polyeten et eksempel på?",
       "options": [
         "Kondensasjonspolymer",
-        "Metall",
-        "Bioplast alltid",
+        "Polyamid",
+        "Elastomer",
         "Addisjonspolymer"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er mikroplast?",
       "options": [
-        "Små plastbiter som havner i næringskjeden",
-        "Plast laget av mais",
-        "Svært sterk plast",
-        "Plast til elektronikk"
+        "Små plastbiter som kan havne i næringskjeden",
+        "Små plastmolekyler som løses opp helt i vannmiljøet",
+        "Små plastbiter som fungerer som monomerer når ny plast dannes",
+        "Små plastbiter som brytes helt ned til ufarlige molekyler"
       ],
       "correct": 0,
       "explain": "Oppstår når plast brytes ned."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva skjer med kvaliteten ved mekanisk gjenvinning av plast?",
       "options": [
-        "Den blir bedre",
-        "Den blir dårligere for hver runde",
-        "Den er uendret",
-        "Plasten blir til metall"
+        "Kvaliteten blir gradvis bedre ved gjentatt mekanisk gjenvinning",
+        "Kvaliteten blir gradvis dårligere ved gjentatt mekanisk gjenvinning",
+        "Kvaliteten holder seg omtrent den samme gjennom gjentatt mekanisk gjenvinning",
+        "Kvaliteten går tilbake til sitt opprinnelige nivå ved gjentatt mekanisk gjenvinning"
       ],
       "correct": 1,
       "explain": "Kjemisk gjenvinning kan gi monomerer igjen."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Er bioplast alltid nedbrytbar i havet?",
       "options": [
-        "Ja, alltid",
-        "Ja, på få dager",
-        "Nei, ofte bare under industrielle forhold",
-        "Nei, den er metall"
+        "Ja, bioplast brytes ned i havet fordi råstoffet kommer fra planter.",
+        "Ja, bioplast brytes ned i havet ved vanlig sollys og sjøvann.",
+        "Nei, ikke all bioplast brytes ned i havet; mange typer krever industrielle forhold.",
+        "Nei, bioplast brytes ikke ned biologisk fordi den inneholder karbon."
       ],
       "correct": 2,
       "explain": "Ikke en enkel løsning."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva er et prinsipp i grønn kjemi?",
       "options": [
-        "Rydde opp avfall etterpå",
-        "Bruke mest mulig løsemiddel",
-        "Høy temperatur og trykk",
-        "Forebygge avfall"
+        "Rense avfall først etter at det er produsert",
+        "Bruke mer løsemiddel for å øke reaksjonshastigheten",
+        "Velge fossile råstoffer framfor fornybare råstoffer",
+        "Forebygge at avfall dannes i prosessen"
       ],
       "correct": 3,
       "explain": "Også atomøkonomi og fornybare råstoffer."
@@ -175,8 +175,8 @@
       "options": [
         "Kondensasjonspolymer",
         "Addisjonspolymer",
-        "Metall",
-        "Enzym"
+        "Polyeten",
+        "Polyamid"
       ],
       "correct": 0,
       "explain": "Vann spaltes av når den dannes."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva må du vurdere når du sammenligner plastpose og papirpose?",
       "options": [
-        "Bare fargen",
-        "Hele livsløpet fra råvare til avfall",
-        "Bare prisen",
-        "Bare vekten"
+        "Sammenligne utslippene fra produksjonen av hver pose",
+        "Vurdere hele livsløpet fra råvareuttak til avfall",
+        "Vurdere hvor mange ganger hver pose kan brukes",
+        "Sammenligne råstoffene posene er laget av"
       ],
       "correct": 1,
       "explain": "Livsløpsvurdering."
@@ -315,8 +315,8 @@
         "options": [
           "Metan",
           "Vann",
-          "Oksygen",
-          "Nitrogen"
+          "Karbonmonoksid",
+          "Karbondioksid"
         ],
         "correct": 1,
         "explain": "En grønnere prosess.",
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva gir pantesystemer for flasker?",
         "options": [
-          "Høy innsamling",
-          "Mer mikroplast",
-          "Mer deponi",
-          "Lavere kvalitet"
+          "Høy innsamlingsgrad",
+          "Lav innsamlingsgrad",
+          "Høyere forbrenningsgrad",
+          "Større plastforbruk"
         ],
         "correct": 0,
         "explain": "Flaskene kan gjenvinnes.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva betyr sirkulær økonomi?",
         "options": [
-          "Bruk og kast",
-          "Mer forbrenning",
+          "Produsere, forbruke og kaste",
+          "Utvinne, produsere og forbrenne",
           "Redusere, gjenbruke og gjenvinne",
-          "Mer deponi"
+          "Samle inn, sortere og deponere"
         ],
         "correct": 2,
         "explain": "Ressursene holdes i bruk."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

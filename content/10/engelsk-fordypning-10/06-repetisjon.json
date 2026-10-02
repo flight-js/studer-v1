@@ -50,13 +50,11 @@
     },
     {
       "term": "Storyboard",
-      "def": "Simple sketches of each scene or page.",
-      "niva": "eksempel"
+      "def": "Simple sketches of each scene or page."
     },
     {
       "term": "Accessibility",
-      "def": "Making a product easy for as many people as possible to use.",
-      "niva": "eksempel"
+      "def": "Making a product easy for as many people as possible to use."
     },
     {
       "term": "Medium",
@@ -98,7 +96,8 @@
     },
     {
       "term": "Curate",
-      "def": "To choose carefully what to show."
+      "def": "To choose carefully what to show.",
+      "niva": "eksempel"
     },
     {
       "term": "Sponsored content",
@@ -116,10 +115,10 @@
       "id": "q01",
       "text": "What makes video games different from books and films?",
       "options": [
-        "They have no stories",
-        "Interactivity – the player takes part and influences what happens",
-        "They have no sound",
-        "They are always short"
+        "The player watches events unfold without affecting them.",
+        "The player takes part and can influence what happens.",
+        "The game tells its story through written words and descriptions.",
+        "The game presents events without letting the player take part."
       ],
       "correct": 1,
       "explain": "The player is not just watching, but acting."
@@ -128,9 +127,9 @@
       "id": "q02",
       "text": "What is a branching narrative?",
       "options": [
-        "A story about trees",
-        "A game without a story",
-        "A cutscene",
+        "A story where the player's choices change the scene order, but not the ending",
+        "A story where the player's skill determines which ending they see",
+        "A story where the player's choices change the characters, but not the ending",
         "A story where the player's choices lead to different endings"
       ],
       "correct": 3,
@@ -141,10 +140,10 @@
       "id": "q03",
       "text": "What are game mechanics?",
       "options": [
-        "The people who repair consoles",
-        "The story of a game",
-        "The systems that make the game work, like points, levels and health",
-        "The music"
+        "They are the story elements that shape play, such as characters and dialogue",
+        "They are the visual elements that shape play, such as colours and textures",
+        "They are the systems that shape play, such as points, levels and health",
+        "They are the sound elements that shape play, such as music and effects"
       ],
       "correct": 2,
       "explain": "Mechanics decide how the player interacts with the game."
@@ -154,9 +153,9 @@
       "text": "What should you decide before choosing tools?",
       "options": [
         "Your purpose, audience and message",
-        "The price of the software",
-        "The colour of your laptop",
-        "The length of your name"
+        "Your budget, device and editing software",
+        "Your format, file type and preferred platform",
+        "Your title, colour scheme and background music"
       ],
       "correct": 0,
       "explain": "Purpose and audience decide which format fits best."
@@ -165,23 +164,22 @@
       "id": "q05",
       "text": "What is a storyboard?",
       "options": [
-        "A finished film",
-        "Simple sketches of each scene or page",
-        "A list of sources",
-        "A music track"
+        "A set of finished photos showing each scene or page",
+        "A set of simple sketches showing each scene or page",
+        "A written list of dialogue for each scene or page",
+        "A list of camera equipment for each scene or page"
       ],
       "correct": 1,
-      "explain": "Storyboards help you plan before you record.",
-      "niva": "eksempel"
+      "explain": "Storyboards help you plan before you record."
     },
     {
       "id": "q06",
       "text": "What must you get from people who appear in your video?",
       "options": [
-        "Money",
+        "A filming schedule",
         "Consent",
-        "Their passwords",
-        "Nothing"
+        "A copy of the video",
+        "A copyright licence"
       ],
       "correct": 1,
       "explain": "Everyone has the right to decide over pictures and videos of themselves."
@@ -190,9 +188,9 @@
       "id": "q07",
       "text": "What is the inverted pyramid in news writing?",
       "options": [
-        "A type of headline",
-        "A picture layout",
-        "A way to end an article",
+        "Putting background information before key facts",
+        "Saving the key information for the ending",
+        "Organising details in order of publication",
         "Putting the most important information first"
       ],
       "correct": 3,
@@ -203,10 +201,10 @@
       "id": "q08",
       "text": "Which of these is an imperative?",
       "options": [
-        "The shoes are new.",
-        "Buy now!",
+        "The product looks new.",
+        "Buy the product now!",
         "Do you like it?",
-        "It was amazing."
+        "It was really amazing."
       ],
       "correct": 1,
       "explain": "Imperatives tell the reader to do something."
@@ -215,9 +213,9 @@
       "id": "q09",
       "text": "Which features are typical of formal writing?",
       "options": [
-        "Slang and emojis",
-        "Abbreviations like idk",
-        "Short posts for engagement",
+        "Short fragments, casual vocabulary and frequent slang",
+        "Abbreviations, emojis and informal expressions",
+        "Long sentences, vague vocabulary and internet slang",
         "Complete sentences, precise vocabulary and no slang"
       ],
       "correct": 3,
@@ -242,7 +240,7 @@
         "Pathos",
         "Ethos",
         "Logos",
-        "Hyperbole"
+        "Bandwagon"
       ],
       "correct": 1,
       "explain": "The sender's expertise makes the message credible."
@@ -252,9 +250,9 @@
       "text": "What is propaganda?",
       "options": [
         "One-sided information spread to control what people think",
-        "A balanced news report",
-        "A school essay",
-        "A scientific study"
+        "A report presenting opposing views to help readers compare them",
+        "A school essay explaining one topic using classroom research",
+        "A scientific study testing a claim through controlled experiments"
       ],
       "correct": 0,
       "explain": "Propaganda hides other perspectives.",
@@ -264,10 +262,10 @@
       "id": "q13",
       "text": "Why can edited images affect self-esteem?",
       "options": [
-        "Because comparing yourself with unrealistic ideals can make you feel you are not good enough",
-        "Because they are always ugly",
-        "Because they are illegal",
-        "Because they are too small"
+        "Comparing yourself with unrealistic ideals can make you feel inadequate",
+        "Edited images show what most people naturally look like",
+        "Editing makes every image easier to understand",
+        "Comparing images tells you how popular a person is"
       ],
       "correct": 0,
       "explain": "Edited pictures show a reality that does not exist."
@@ -276,9 +274,9 @@
       "id": "q14",
       "text": "What decides what appears in your feed?",
       "options": [
-        "Your teacher",
-        "The government",
-        "Chance only",
+        "Algorithms based on what your friends have posted",
+        "A schedule set by the people who made the app",
+        "A random selection of posts from popular accounts",
         "Algorithms based on what you have clicked on"
       ],
       "correct": 3,
@@ -289,10 +287,10 @@
       "id": "q15",
       "text": "What is a filter bubble?",
       "options": [
-        "A soap bubble",
-        "When you mostly see content that matches what you already like and think",
-        "A photo filter",
-        "A privacy setting"
+        "Seeing mostly content chosen by people you follow",
+        "Seeing mostly content that matches your existing interests and views",
+        "Seeing mostly images changed with a photo effect",
+        "Seeing mostly content hidden by a privacy setting"
       ],
       "correct": 1,
       "explain": "Filter bubbles can limit the perspectives you meet.",
@@ -418,7 +416,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -449,10 +447,10 @@
         "type": "flervalg",
         "text": "What is gameplay?",
         "options": [
-          "The rules and actions the player can take",
-          "The game's price",
-          "The box cover",
-          "The credits"
+          "The rules and actions available to the player",
+          "The story and dialogue presented to the player",
+          "The graphics and sounds presented to the player",
+          "The characters and setting presented to the player"
         ],
         "correct": 0,
         "explain": "Gameplay is what you actually do in the game."
@@ -462,24 +460,23 @@
         "type": "flervalg",
         "text": "What is accessibility?",
         "options": [
-          "Making a product easy for as many people as possible to use",
-          "Making it expensive",
-          "Hiding it",
-          "Making it very long"
+          "Making a product usable for as many people as possible",
+          "Making a product available to as many websites as possible",
+          "Making a product simple to publish on social media",
+          "Making a product easy to find in an online search"
         ],
         "correct": 0,
-        "explain": "Good contrast, captions and clear sound improve accessibility.",
-        "niva": "eksempel"
+        "explain": "Good contrast, captions and clear sound improve accessibility."
       },
       {
         "id": "m04",
         "type": "flervalg",
         "text": "Which word describes how formal or informal language is?",
         "options": [
-          "Headline",
+          "Genre",
           "Register",
-          "Slogan",
-          "Hashtag"
+          "Medium",
+          "Purpose"
         ],
         "correct": 1,
         "explain": "We choose register based on the situation."
@@ -509,8 +506,7 @@
         "kriterier": [
           "Names relevant planning choices, such as purpose, audience, message, script or storyboard.",
           "Gives an accessibility measure such as adding captions."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s03",
@@ -568,12 +564,85 @@
           "Explains that algorithms use previous activity and can create a filter bubble."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "A video game scene needs to signal danger, while a podcast tells a story about the same event. Explain how sound can work in the game and how spoken language can engage podcast listeners.",
+        "fasit": "In a game, sound and music can create atmosphere and signal danger. A podcast can use a conversational tone or questions to the audience to engage listeners.",
+        "kriterier": [
+          "Explains that game sound or music can create atmosphere or signal danger.",
+          "Identifies a spoken-language feature that can engage podcast listeners."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Players from different countries use English to chat in an online game, including terms such as “NPC”, “lag” and “respawn”. Explain one benefit of this shared language and one problem game rules may help address.",
+        "fasit": "Using English in games can help young people learn the language and communicate with players around the world. Rules and reporting tools can help address toxic language in chat.",
+        "kriterier": [
+          "Mentions language learning or communication between players from different countries.",
+          "Identifies toxic language and a way games can address it, such as rules or reporting."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "A school group is creating an infographic to persuade pupils to reduce sugary drinks. Explain how the group can combine words and pictures effectively and use evidence responsibly.",
+        "fasit": "The pictures and text should support each other rather than repeat the same information. The group can use facts or statistics as logos, but should give them context so they do not mislead the audience.",
+        "kriterier": [
+          "Explains that pictures and text should support each other, not simply repeat one another.",
+          "Recommends using factual evidence or statistics responsibly, with context."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "A podcast and a formal report present the same information. Compare the language each might use and explain how it fits the medium.",
+        "fasit": "A podcast may use a conversational tone, questions and fillers such as “um”. A formal report uses complete sentences, precise vocabulary and a neutral tone.",
+        "kriterier": [
+          "Identifies a spoken or conversational feature suitable for a podcast.",
+          "Identifies formal features such as complete sentences, precise vocabulary or a neutral tone."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "An influencer is paid to recommend a product in a video. Explain what the influencer should make clear to viewers and why the payment matters when they assess the message.",
+        "fasit": "The influencer should clearly mark the post as advertising. Since they are paid to promote the product, viewers should recognise that the post has a marketing purpose.",
+        "kriterier": [
+          "States that paid or sponsored content should be clearly marked as advertising.",
+          "Connects the payment to the post’s purpose of promoting or selling the product."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "You are writing a website for readers in Britain and the United States. Explain how to choose between British and American English and give two examples of differences.",
+        "fasit": "I would choose one variety and use it consistently. For example, British English uses “colour” and “lorry”, while American English uses “color” and “truck”.",
+        "kriterier": [
+          "Says to choose one variety of English and use it consistently.",
+          "Gives two accurate British/American spelling or vocabulary differences."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "You are making a digital story about a personal experience using narration, pictures and music. Explain why this format suits the story and how the music should relate to the narration.",
+        "fasit": "A digital story suits a personal experience because it can combine narration, pictures and music. The music should match the mood and should not drown out the narration.",
+        "kriterier": [
+          "Explains that a digital story combines narration, pictures and music.",
+          "Says that music should match the mood and remain quiet enough for the narration to be heard."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "A driving school uses a video game simulator to train learners. Explain how this illustrates a purpose of games beyond entertainment, and name two elements an analyst could examine in the game.",
+        "fasit": "Some games are made to train people, and a simulator is an example of this purpose. An analyst could examine its gameplay and mechanics, or its perspective and sound.",
+        "kriterier": [
+          "Identifies training as a purpose of games beyond entertainment.",
+          "Names two relevant elements to analyse, such as gameplay, mechanics, perspective or sound."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

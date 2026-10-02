@@ -61,8 +61,7 @@
     },
     {
       "term": "Demografisk overgang",
-      "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg.",
-      "niva": "eksempel"
+      "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg."
     },
     {
       "term": "Befolkningspyramide",
@@ -70,8 +69,7 @@
     },
     {
       "term": "HDI",
-      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt.",
-      "niva": "eksempel"
+      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt."
     },
     {
       "term": "Skyvefaktor",
@@ -100,9 +98,9 @@
       "text": "Hva er en kvantitativ metode?",
       "options": [
         "En metode som gir tall som kan telles",
-        "Et dybdeintervju",
-        "En observasjon uten notater",
-        "Å lese en roman"
+        "En metode som samler inn personlige fortellinger",
+        "En metode som tolker innholdet i skriftlige kilder",
+        "En metode som undersøker folks handlinger direkte"
       ],
       "correct": 0,
       "explain": "Spørreundersøkelser med faste alternativer gir tall som kan sammenlignes."
@@ -111,10 +109,10 @@
       "id": "q02",
       "text": "Hva er en fordel med å kombinere kvantitative og kvalitative metoder?",
       "options": [
-        "Det tar kortere tid",
-        "Man får både oversikt og forklaring",
-        "Man trenger ingen problemstilling",
-        "Man slipper å vurdere kildene"
+        "Man får raskere svar fra deltakerne",
+        "Man får både en oversikt og en forklaring",
+        "Man trenger færre spørsmål i undersøkelsen",
+        "Man får samme type svar fra begge metodene"
       ],
       "correct": 1,
       "explain": "Tall viser hvor vanlig noe er, mens intervjuer forklarer hvorfor."
@@ -123,10 +121,10 @@
       "id": "q03",
       "text": "Hva er sosialisering?",
       "options": [
-        "Å være sosial på fest",
+        "Prosessen der vi lærer skolefag, fakta og regnemetoder",
         "Prosessen der vi lærer normer, verdier og ferdigheter",
-        "Å bruke sosiale medier",
-        "Å bli med i en forening"
+        "Prosessen der vi lærer om lover, rettigheter og politikk",
+        "Prosessen der vi lærer å tjene penger, handle og spare"
       ],
       "correct": 1,
       "explain": "Gjennom sosialisering lærer vi hvordan vi skal fungere sammen med andre."
@@ -135,10 +133,10 @@
       "id": "q04",
       "text": "Hva er gruppepress?",
       "options": [
-        "Å være leder i en gruppe",
-        "Et lagspill",
+        "Press til å bestemme over de andre, selv om de protesterer",
+        "Enighet om å gjøre det samme, fordi man selv ønsker det",
         "Press til å gjøre som de andre, selv om man ikke vil",
-        "Å lage en gruppe på nett"
+        "Samarbeid om å løse en oppgave, slik gruppen har avtalt"
       ],
       "correct": 2,
       "explain": "Gruppepress kan få oss til å gjøre ting vi egentlig ikke ønsker."
@@ -148,9 +146,9 @@
       "text": "Hvorfor er makten delt i tre?",
       "options": [
         "For å hindre at noen får for mye makt",
-        "For å spare penger",
-        "Fordi det var enklest i 1814",
-        "For at kongen skal bestemme mest"
+        "For å gjøre det enklere å gjennomføre valg",
+        "For å gi kommunene mer ansvar enn staten",
+        "For å la regjeringen kontrollere Stortingets arbeid"
       ],
       "correct": 0,
       "explain": "Statsmaktene kontrollerer hverandre, slik at makten ikke samles på én hånd."
@@ -159,10 +157,10 @@
       "id": "q06",
       "text": "Hva betyr parlamentarisme?",
       "options": [
-        "At kongen velger regjeringen fritt",
-        "At det er valg hvert år",
+        "At kongen velger regjeringen uten å rådføre seg med Stortinget",
+        "At regjeringen må godkjennes av domstolene før den styrer",
         "At regjeringen må ha tillit fra Stortinget",
-        "At domstolene lager lover"
+        "At Stortinget velges på nytt hvert år"
       ],
       "correct": 2,
       "explain": "Mister regjeringen tilliten fra et flertall på Stortinget, må den gå av."
@@ -171,10 +169,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på en norm og en lov?",
       "options": [
-        "Normer er uskrevne, lover er vedtatt av Stortinget",
-        "Det er ingen forskjell",
-        "Normer gjelder bare voksne",
-        "Lover er uskrevne"
+        "Normer er uskrevne, lover vedtas av Stortinget",
+        "Normer vedtas av Stortinget, lover er uskrevne",
+        "Normer er uskrevne, lover vedtas av domstolene",
+        "Normer vedtas av kommunen, lover er uskrevne"
       ],
       "correct": 0,
       "explain": "Bare lovbrudd kan straffes av staten."
@@ -183,10 +181,10 @@
       "id": "q08",
       "text": "Hvilket prinsipp hører til en rettsstat?",
       "options": [
-        "Politiet kan straffe uten rettssak",
+        "Politiet kan fastsette straffen før saken behandles i retten",
         "Man er uskyldig til det motsatte er bevist",
-        "Regjeringen dømmer i straffesaker",
-        "Lover gjelder bare for noen"
+        "En tiltalt må bevise at vedkommende er uskyldig",
+        "Regjeringen avgjør om en person er skyldig i lovbrudd"
       ],
       "correct": 1,
       "explain": "Det er påtalemyndigheten som må bevise skyld, ikke den tiltalte som må bevise uskyld."
@@ -196,9 +194,9 @@
       "text": "Hva er et budsjett?",
       "options": [
         "En oversikt over forventede inntekter og utgifter",
-        "Et lån i banken",
-        "En type skatt",
-        "En kvittering"
+        "En oversikt over beløp du allerede har brukt",
+        "En avtale om et lån fra banken",
+        "En oversikt over skatten som trekkes fra lønn"
       ],
       "correct": 0,
       "explain": "Budsjettet hjelper deg å planlegge hva du har råd til."
@@ -208,9 +206,9 @@
       "text": "Hva er forskjellen på levestandard og livskvalitet?",
       "options": [
         "Levestandard gjelder materielle forhold, livskvalitet gjelder hvordan vi har det",
-        "Det er det samme",
-        "Livskvalitet måles bare i penger",
-        "Levestandard handler om vennskap"
+        "Levestandard gjelder hvordan vi har det, livskvalitet gjelder materielle forhold",
+        "Levestandard gjelder materielle forhold, livskvalitet gjelder hvor mye vi tjener",
+        "Levestandard gjelder venner og familie, livskvalitet gjelder materielle forhold"
       ],
       "correct": 0,
       "explain": "Man kan ha høy levestandard og likevel lav livskvalitet, og omvendt."
@@ -219,10 +217,10 @@
       "id": "q11",
       "text": "Hva skjer i fase 2 i den demografiske overgangen?",
       "options": [
-        "Både fødselsraten og dødsraten er høye",
+        "Fødselsraten og dødsraten er høye",
         "Dødsraten synker, og befolkningen vokser raskt",
-        "Fødselsraten synker kraftig",
-        "Befolkningen går ned"
+        "Fødselsraten synker, og folketallet vokser sakte",
+        "Dødsraten stiger, og folketallet synker"
       ],
       "correct": 1,
       "explain": "Bedre mat, rent vann og medisin gjør at færre dør, mens det fortsatt fødes mange.",
@@ -232,23 +230,22 @@
       "id": "q12",
       "text": "Hva måler HDI?",
       "options": [
-        "Bare inntekt",
+        "Fødselsrate, dødsrate og folketall",
         "Levealder, utdanning og inntekt",
-        "Antall byer i et land",
-        "Hvor mange som stemmer ved valg"
+        "Sysselsetting, arbeidsledighet og boligpriser",
+        "Naturressurser, eksport og statsgjeld"
       ],
       "correct": 1,
-      "explain": "HDI gir et bredere bilde av utvikling enn inntekt alene.",
-      "niva": "eksempel"
+      "explain": "HDI gir et bredere bilde av utvikling enn inntekt alene."
     },
     {
       "id": "q13",
       "text": "Hva betyr «retten til å bli glemt»?",
       "options": [
         "At du kan be om å få slettet opplysninger om deg",
-        "At lærere ikke kan huske deg",
-        "At du kan slette andres innlegg",
-        "At internett sletter alt etter ett år"
+        "At du kan be om å få endret opplysninger om deg",
+        "At du kan be om å få kopiert opplysninger om deg",
+        "At du kan be om å få begrenset reklame om deg"
       ],
       "correct": 0,
       "explain": "Retten til sletting er en del av personvernforordningen."
@@ -257,10 +254,10 @@
       "id": "q14",
       "text": "Hva bør du gjøre før du deler et bilde der en venn er hovedmotivet?",
       "options": [
-        "Redigere bildet",
+        "Spørre fotografen om tillatelse",
         "Spørre om lov",
-        "Ingenting",
-        "Legge på et filter"
+        "Redigere bort navnet",
+        "Se gjennom bildets innhold"
       ],
       "correct": 1,
       "explain": "Hovedregelen er at den som er avbildet, må samtykke."
@@ -269,9 +266,9 @@
       "id": "q15",
       "text": "Hvordan kan algoritmer påvirke samfunnsdebatten?",
       "options": [
-        "De gjør alle innlegg like lange",
-        "De fjerner alt politisk innhold",
-        "De viser bare nyheter fra staten",
+        "De kan gjøre at debatten blir mer balansert for brukerne",
+        "De kan vurdere om en mening er sann før den deles",
+        "De kan prioritere innlegg etter hvor nøytrale de virker",
         "De kan fremheve innhold som vekker sterke følelser"
       ],
       "correct": 3,
@@ -391,7 +388,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -430,9 +427,9 @@
         "text": "Hva skjer hvis et flertall på Stortinget vedtar mistillit mot regjeringen?",
         "options": [
           "Regjeringen må gå av",
-          "Kongen må abdisere",
-          "Stortinget oppløses",
-          "Ingenting"
+          "Stortinget må oppløses",
+          "Kongen må gå av",
+          "Regjeringen må skrive ut nyvalg"
         ],
         "correct": 0,
         "explain": "Dette følger av parlamentarismen."
@@ -450,9 +447,9 @@
         "type": "flervalg",
         "text": "Hva kan skje hvis du ikke betaler en regning?",
         "options": [
-          "Regningen forsvinner",
-          "Du får penger tilbake",
-          "Beløpet blir mindre",
+          "Regningen kan bli lavere når betalingsfristen har gått ut",
+          "Saken kan bli slettet automatisk etter betalingsfristen",
+          "Butikken kan trekke beløpet direkte fra lønnen din",
           "Saken kan gå til inkasso med ekstra gebyrer"
         ],
         "correct": 3,
@@ -532,12 +529,86 @@
           "Nevner relevante kildevurderingsspørsmål, for eksempel hvem som har laget kilden, hvorfor eller om den stemmer med andre kilder.",
           "Forklarer at ulike kilder kan gi ulike perspektiver og motvirke et ensidig bilde."
         ]
+      },
+      {
+        "text": "En skole spør bare elevrådet én gang om hvor trygge elevene føler seg på skolen. Forklar hvordan dette kan svekke undersøkelsens gyldighet og pålitelighet.",
+        "fasit": "Elevrådet er et lite utvalg og trenger ikke å representere alle elevene, så resultatene måler kanskje ikke tryggheten på hele skolen godt. Hvis undersøkelsen gjentas, kan resultatene bli annerledes, noe som svekker påliteligheten.",
+        "kriterier": [
+          "Forklarer at et lite eller skjevt utvalg kan svekke gyldigheten.",
+          "Forklarer at pålitelighet handler om hvor like resultatene blir ved gjentakelse."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "I et land blir rent vann og medisiner vanligere, og færre mennesker dør, mens fødselsraten fortsatt er høy. Forklar hvilken fase i den demografiske overgangen landet er i, og hva som skjer med befolkningen.",
+        "fasit": "Landet er i fase 2 i den demografiske overgangen. Dødsraten synker, mens fødselsraten fortsatt er høy, og derfor vokser befolkningen raskt.",
+        "kriterier": [
+          "Plasserer landet i fase 2.",
+          "Knytter lavere dødsrate og fortsatt høy fødselsrate til rask befolkningsvekst."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En nettbutikk viser deg reklame for en jakke etter at du har sett på lignende klær på nettet. Forklar hvordan digitale spor kan føre til slik reklame, og hvordan et budsjett kan hjelpe deg før du kjøper jakken.",
+        "fasit": "Søkene og nettsidene du besøker, kan være passive digitale spor som brukes til å lage en profil av deg og vise målrettet reklame. Et budsjett gir oversikt over inntekter og utgifter, slik at du kan vurdere om du har råd til jakken.",
+        "kriterier": [
+          "Forklarer at passive digitale spor kan brukes til å lage en profil og målrette reklame.",
+          "Forklarer at et budsjett hjelper med å vurdere om kjøpet passer med økonomien."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Stortinget vedtar en lov, regjeringen setter den ut i livet, og en domstol behandler en sak om loven. Forklar hvilken makt hver av disse tre institusjonene har, og hvordan maktfordelingen beskytter innbyggerne.",
+        "fasit": "Stortinget har den lovgivende makten, regjeringen den utøvende makten og domstolene den dømmende makten. Maktfordelingen hindrer at én del av staten får for mye makt, og domstolene avgjør saker etter lovene.",
+        "kriterier": [
+          "Plasserer Stortinget, regjeringen og domstolene på riktig maktområde.",
+          "Forklarer at maktfordeling skal hindre at noen får for mye makt, eller at domstolene avgjør saker etter lovene."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En voksen ser på lønnsslippen sin og lurer på hvorfor beløpet hun får utbetalt, er lavere enn lønnen før skatt. Forklar forskjellen på bruttolønn og nettolønn, og hvorfor skatt betales.",
+        "fasit": "Bruttolønn er lønnen før skatt, mens nettolønn er beløpet som blir utbetalt etter at skatten er trukket fra. Skatten finansierer blant annet skoler, sykehus, veier og velferdsordninger.",
+        "kriterier": [
+          "Skiller riktig mellom bruttolønn og nettolønn.",
+          "Nevner at skatt finansierer offentlige tjenester eller velferdsordninger."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Historikere finner få skriftlige kilder om hvordan fattige mennesker levde i en bestemt periode. Forklar hvordan dette påvirker det vi vet om fortiden, og hvordan andre typer kilder kan bidra til et bredere bilde.",
+        "fasit": "Når fattige mennesker har etterlatt få skriftlige kilder, blir historien deres mindre kjent, og det vi vet om fortiden, kan bli skjevt. Kilder som bilder, gjenstander eller intervjuer kan gi flere opplysninger og perspektiver.",
+        "kriterier": [
+          "Forklarer at mangel på kilder gjør enkelte gruppers historie mindre kjent eller gir et skjevt bilde.",
+          "Nevner en annen type kilde som kan gi flere opplysninger eller perspektiver."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En ungdom følger influensere som viser fram redigerte bilder og en bestemt livsstil. Forklar hvordan influensere kan påvirke ungdommens sosialisering og selvbilde.",
+        "fasit": "Influensere kan være sosialiseringsagenter som påvirker hvilke idealer og verdier ungdommen møter. Redigerte og urealistiske framstillinger kan påvirke hvordan ungdommen ser på seg selv, altså selvbildet.",
+        "kriterier": [
+          "Forklarer at influensere kan påvirke normer, verdier eller idealer som sosialiseringsagenter.",
+          "Knytter urealistiske framstillinger til påvirkning på selvbildet."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "I et kommentarfelt trekker flere seg fra debatten etter å ha mottatt trusler og hatefulle ytringer. Forklar hvorfor ytringsfriheten ikke gir rett til å true andre, og hvordan slike ytringer kan påvirke den digitale samfunnsdebatten.",
+        "fasit": "Ytringsfriheten har grenser, og trusler og hatefulle ytringer er straffbare, også på nett. Hets og hatprat kan få folk til å trekke seg fra debatten, slik at færre deltar.",
+        "kriterier": [
+          "Forklarer at trusler og hatefulle ytringer er straffbare og ikke beskyttes av ytringsfriheten.",
+          "Forklarer at hets eller hatprat kan føre til at folk trekker seg fra debatten."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

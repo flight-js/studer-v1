@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "f(x) = x + 1 for x < 2 og x² for x ≥ 2. Er f kontinuerlig i x = 2?",
       "options": [
-        "Ja, fordi f(2) er definert",
-        "Nei, venstre grense er 3 og høyre grense er 4",
-        "Ja, fordi begge deler er polynomer",
-        "Nei, fordi f(2) ikke er definert"
+        "Ja, grensene fra venstre og høyre er like: 3 og 3.",
+        "Nei, grensene fra venstre og høyre er ulike: 3 og 4.",
+        "Ja, grensene fra venstre og høyre er like: 4 og 4.",
+        "Nei, grensene fra venstre og høyre finnes ikke i x = 2."
       ],
       "correct": 1,
       "explain": "Grafen har et sprang."
@@ -103,7 +103,7 @@
       "text": "Hvilken funksjon er kontinuerlig, men ikke deriverbar i x = 0?",
       "options": [
         "f(x) = x²",
-        "f(x) = 1/x",
+        "f(x) = x³",
         "f(x) = |x|",
         "f(x) = eˣ"
       ],
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva sier skjæringssetningen?",
       "options": [
-        "Alle funksjoner har nullpunkter",
-        "En deriverbar funksjon er kontinuerlig",
-        "Grenseverdier er alltid definert",
+        "En funksjon med fortegnsskifte på [a, b] har et nullpunkt der",
+        "En kontinuerlig funksjon på [a, b] har et nullpunkt der",
+        "En kontinuerlig funksjon med fortegnsskifte på [a, b] har et toppunkt der",
         "En kontinuerlig funksjon med fortegnsskifte på [a, b] har et nullpunkt der"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvilket av disse er et eksempel på en diskontinuerlig funksjon i hverdagen?",
       "options": [
         "Parkeringsavgift per påbegynt time",
-        "Temperaturen gjennom et døgn",
-        "Høyden til en voksende plante",
-        "Posisjonen til en bil"
+        "Temperatur målt gjennom et døgn",
+        "Høyde på en plante som vokser",
+        "Posisjon til en bil i bevegelse"
       ],
       "correct": 0,
       "explain": "Prisen hopper ved hver ny time.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?",
       "options": [
-        "f(a) = 0, f′(a) = 0 og f″(a) = 0",
-        "f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)",
-        "f er et polynom",
-        "f er voksende rundt a"
+        "f(a) er definert, venstre- og høyregrensen finnes, og de er like",
+        "f(a) er definert, lim ₓ→ₐ f(x) finnes, og lim ₓ→ₐ f(x) = f(a)",
+        "f(a) er definert, f′(a) finnes, og f′(a) = 0",
+        "f(a) er definert, f er voksende rundt a, og lim ₓ→ₐ f(x) finnes"
       ],
       "correct": 1,
       "explain": "Alle tre må gjelde."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "f(x) = x³ + x − 1. Hva kan du slutte av at f(0) = −1 og f(1) = 1?",
       "options": [
-        "At f har et toppunkt",
-        "At f ikke har nullpunkter",
+        "At f har et toppunkt mellom 0 og 1",
+        "At f har et nullpunkt ved x = 0,5",
         "At f har et nullpunkt mellom 0 og 1",
-        "At f(0,5) = 0"
+        "At f har to nullpunkter mellom 0 og 1"
       ],
       "correct": 2,
       "explain": "f er kontinuerlig og skifter fortegn."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Er f(x) = 1/x kontinuerlig i definisjonsmengden sin?",
       "options": [
-        "Nei, den er aldri kontinuerlig",
-        "Bare for x > 0",
-        "Nei, den har sprang overalt",
-        "Ja, men den er ikke definert i x = 0"
+        "Nei, f er diskontinuerlig for x < 0 fordi funksjonsverdiene der er negative.",
+        "Ja, f er kontinuerlig i x = 0 fordi grenseverdiene fra begge sider er like.",
+        "Nei, f er diskontinuerlig for x > 0 fordi funksjonsverdiene der er positive.",
+        "Ja, f er kontinuerlig for alle x i definisjonsmengden sin, som ikke inneholder 0."
       ],
       "correct": 3,
       "explain": "Bruddet ligger utenfor definisjonsmengden."
@@ -177,8 +177,8 @@
       "options": [
         "Deriverbar i a ⇒ kontinuerlig i a",
         "Kontinuerlig i a ⇒ deriverbar i a",
-        "Kontinuerlig ⇒ voksende",
-        "Diskontinuerlig ⇒ deriverbar"
+        "Kontinuerlig i a ⇒ voksende i a",
+        "Diskontinuerlig i a ⇒ deriverbar i a"
       ],
       "correct": 0,
       "explain": "Det motsatte gjelder ikke."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvor må du sjekke kontinuiteten til en delt definert funksjon?",
       "options": [
-        "Bare i x = 0",
+        "Ved nullpunktene til funksjonen",
         "I skjøtene mellom delene",
-        "Der funksjonen er størst",
-        "Ingen steder"
+        "I midten av hvert intervall",
+        "Ved topp- og bunnpunktene"
       ],
       "correct": 1,
       "explain": "Hver del er ofte kontinuerlig for seg."
@@ -329,9 +329,9 @@
         "text": "Hvilken funksjon er diskontinuerlig i x = 0?",
         "options": [
           "f(x) = 1 for x < 0 og f(x) = 2 for x ≥ 0",
-          "f(x) = x²",
-          "f(x) = |x|",
-          "f(x) = eˣ"
+          "f(x) = 1 for x < 0 og f(x) = 1 for x ≥ 0",
+          "f(x) = x for x < 0 og f(x) = −x for x ≥ 0",
+          "f(x) = x² for x < 0 og f(x) = −x² for x ≥ 0"
         ],
         "correct": 0,
         "explain": "Grafen hopper fra 1 til 2."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvorfor er kontinuitet viktig for skjæringssetningen?",
         "options": [
-          "Fordi alle funksjoner er kontinuerlige",
-          "Fordi den bare gjelder polynomer",
+          "Fordi kontinuitet sikrer at funksjonen er deriverbar på [a, b]",
+          "Fordi kontinuitet krever at funksjonsverdiene i a og b har ulikt fortegn",
           "Fordi en funksjon med sprang kan skifte fortegn uten å ha nullpunkt",
-          "Fordi den krever deriverbarhet"
+          "Fordi kontinuitet betyr at funksjonen har et nullpunkt mellom a og b"
         ],
         "correct": 2,
         "explain": "Grafen kan «hoppe over» x-aksen."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

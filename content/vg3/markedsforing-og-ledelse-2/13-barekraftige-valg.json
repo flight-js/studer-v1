@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er de tre dimensjonene i trippel bunnlinje?",
       "options": [
-        "Pris, produkt og plass",
+        "Miljø, mennesker og teknologi",
         "Miljø, sosiale forhold og økonomi",
-        "Styrker, svakheter og trusler",
-        "Stat, fylke og kommune"
+        "Styrker, svakheter, muligheter og trusler",
+        "Stat, fylke, kommune og næringsliv"
       ],
       "correct": 1,
       "explain": "Planet, people og profit."
@@ -94,9 +94,9 @@
       "text": "Hva kjennetegner sirkulær økonomi?",
       "options": [
         "Ressurser holdes i bruk så lenge som mulig",
-        "Utvinne, bruke og kaste",
-        "Bare resirkulering av papir",
-        "Ingen produksjon"
+        "Produkter brukes én gang før materialene sorteres",
+        "Materialer gjenvinnes først etter at produktet kasseres",
+        "Virksomheter erstatter brukte råvarer med nye materialer"
       ],
       "correct": 0,
       "explain": "Gjenbruk, reparasjon og gjenvinning."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er en livsløpsvurdering?",
       "options": [
-        "En vurdering av ansatte",
-        "En markedsundersøkelse",
+        "Kartlegging av kundetilfredshet gjennom hele produktets salgsperiode",
+        "Vurdering av produktets lønnsomhet gjennom hele salgsperioden",
         "Kartlegging av miljøbelastning gjennom hele produktets liv",
-        "En prisstrategi"
+        "Undersøkelse av ansattes arbeidsmiljø gjennom hele produksjonen"
       ],
       "correct": 2,
       "explain": "Fra råvare til avfall."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er grønnvasking?",
       "options": [
-        "Miljøsertifisering",
-        "Ærlig miljøkommunikasjon",
-        "Resirkulering",
+        "Å markedsføre produkter med gyldig miljøsertifisering fra en godkjent ordning",
+        "Å forklare produktets miljøpåvirkning med tydelig og dokumentert informasjon",
+        "Å redusere produktets miljøbelastning ved å endre materialer og produksjon",
         "Å gi inntrykk av å være mer miljøvennlig enn man er"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva må miljøpåstander i markedsføring kunne?",
       "options": [
         "Dokumenteres",
-        "Være vage",
-        "Bruke grønn farge",
-        "Være på engelsk"
+        "Sertifiseres",
+        "Godkjennes",
+        "Sammenlignes"
       ],
       "correct": 0,
       "explain": "Forbrukertilsynets veiledning."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er et bærekraftig produkttiltak?",
       "options": [
-        "Mer emballasje",
+        "Mer emballasje og hyppig utskifting",
         "Lang levetid og reparerbarhet",
-        "Planlagt foreldelse",
-        "Kortere garanti"
+        "Kort levetid og vanskelig reparasjon",
+        "Begrenset garanti og få reservedeler"
       ],
       "correct": 1,
       "explain": "Design for lang levetid."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er holdning–handling-gapet?",
       "options": [
-        "At ansatte ikke møter",
-        "At lederen ikke lytter",
-        "At kunder sier de vil kjøpe bærekraftig, men ofte velger billigst",
-        "At priser er høye"
+        "At kundene mangler informasjon om miljømerkingen på produktene",
+        "At virksomheten ikke klarer å tilby bærekraftige varer til lav pris",
+        "At kunder sier de vil kjøpe bærekraftig, men velger det billigste",
+        "At bærekraftige produkter har høyere pris enn tilsvarende produkter"
       ],
       "correct": 2,
       "explain": "Et dilemma for virksomheter.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvilket merke handler om rettferdig handel?",
       "options": [
-        "ISO 14001",
-        "Miljøfyrtårn",
         "Svanemerket",
+        "EU Ecolabel",
+        "Miljøfyrtårn",
         "Fairtrade"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hvorfor er lønnsomhet en del av bærekraft?",
       "options": [
         "Fordi en virksomhet som ikke er lønnsom, ikke overlever",
-        "Fordi bare penger teller",
-        "Fordi miljø ikke betyr noe",
-        "Det er det ikke"
+        "Fordi høy omsetning viser at virksomheten tar miljøansvar",
+        "Fordi økonomisk vekst gir gode arbeidsforhold i virksomheten",
+        "Fordi lave kostnader betyr at virksomheten behandler ansatte godt"
       ],
       "correct": 0,
       "explain": "Økonomisk dimensjon."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er et dilemma ved bærekraftige valg?",
       "options": [
-        "At alt er gratis",
-        "At bærekraftige løsninger kan være dyrere på kort sikt",
-        "At kundene alltid betaler mer",
-        "At det ikke finnes valg"
+        "At bærekraftige produkter gir lavere kvalitet enn konkurrentenes",
+        "At bærekraftige løsninger koster mer på kort sikt",
+        "At kundene forventer lavere priser på miljøvennlige produkter",
+        "At miljøtiltak gjør virksomheten mindre attraktiv for ansatte"
       ],
       "correct": 1,
       "explain": "Kostnad mot miljø."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak gjør distribusjonen mer bærekraftig?",
         "options": [
-          "Mer flyfrakt",
+          "Lengre transport og høyere drivstofforbruk",
           "Utslippsfri transport og effektiv logistikk",
-          "Mer emballasje",
-          "Lengre transport"
+          "Mer emballasje og større lagerbeholdning",
+          "Flyfrakt og hyppige leveranser"
         ],
         "correct": 1,
         "explain": "Også kortreiste varer."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva er Miljøfyrtårn?",
         "options": [
-          "En norsk miljøledelsessertifisering",
-          "Et fyrtårn",
-          "En lov",
-          "En type reklame"
+          "En norsk sertifisering for virksomheters miljøarbeid",
+          "En norsk miljømerking for enkeltprodukter",
+          "En internasjonal standard for virksomheters kvalitetssystem",
+          "En offentlig støtteordning for miljøvennlige investeringer"
         ],
         "correct": 0,
         "explain": "Dokumenterer miljøinnsats.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål hører med når du vurderer et bærekraftig valg?",
         "options": [
-          "Er logoen grønn?",
-          "Er det populært på nett?",
+          "Er logoen grønn og lett synlig?",
+          "Er tiltaket populært blant kundene?",
           "Er effekten dokumentert og målbar?",
-          "Er det billigst?"
+          "Er innkjøpsprisen lavest på markedet?"
         ],
         "correct": 2,
         "explain": "Også lønnsomhet på lang sikt."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

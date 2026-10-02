@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er 180° i radianer?",
       "options": [
-        "π/2",
+        "π/3",
         "π",
-        "2π",
-        "180"
+        "3π/2",
+        "π/6"
       ],
       "correct": 1,
       "explain": "En halv sirkel."
@@ -92,9 +92,9 @@
       "text": "Hva er perioden til f(x) = 3 sin(2x) + 1?",
       "options": [
         "π",
-        "2π",
-        "3",
-        "π/2"
+        "4π",
+        "π/2",
+        "π/4"
       ],
       "correct": 0,
       "explain": "2π/2."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er amplituden til f(x) = 3 sin(2x) + 1?",
       "options": [
-        "1",
-        "2",
+        "−3",
+        "6",
         "3",
-        "4"
+        "3/2"
       ],
       "correct": 2,
       "explain": "|A| = 3."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er største verdi til f(x) = 3 sin(2x) + 1?",
       "options": [
-        "3",
-        "1",
-        "2",
+        "−2",
+        "−4",
+        "7",
         "4"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er (sin x)′?",
       "options": [
         "cos x",
-        "−cos x",
-        "sin x",
-        "−sin x"
+        "π cos x",
+        "(π/180) cos x",
+        "x cos x"
       ],
       "correct": 0,
       "explain": "Gjelder med x i radianer."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er den deriverte av cos(3x)?",
       "options": [
-        "3 sin(3x)",
+        "3 cos(3x)",
         "−3 sin(3x)",
-        "−sin(3x)",
-        "sin(3x)/3"
+        "−3 sin x",
+        "cos(3x)"
       ],
       "correct": 1,
       "explain": "Kjerneregelen."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er buelengden når r = 2 og θ = π/3?",
       "options": [
-        "π/6",
-        "π/3",
+        "2π/9",
+        "4π/3",
         "2π/3",
-        "2π"
+        "3π"
       ],
       "correct": 2,
       "explain": "s = rθ."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er sin(π/6)?",
       "options": [
-        "√3/2",
-        "√2/2",
-        "1",
+        "0",
+        "−½",
+        "√3/3",
         "½"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvorfor bruker vi radianer når vi deriverer?",
       "options": [
-        "Fordi lim sin x / x = 1 bare gjelder i radianer",
-        "Fordi grader er ulovlig",
-        "Fordi π er lettere å skrive",
-        "Det er tilfeldig"
+        "Fordi grenseverdien sin x/x = 1 gjelder når x er i radianer.",
+        "Fordi grenseverdien sin x/x = 1 gjelder når x er i grader.",
+        "Fordi grenseverdien cos x/x = 1 gjelder når x er i radianer.",
+        "Fordi grenseverdien sin x/x = 0 gjelder når x er i radianer."
       ],
       "correct": 0,
       "explain": "Ellers får vi faktoren π/180."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er 60° i radianer?",
       "options": [
-        "π/6",
+        "π/2",
         "π/3",
-        "π/4",
-        "2π/3"
+        "5π/6",
+        "2π/5"
       ],
       "correct": 1,
       "explain": "60/180 · π."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva er likevektslinjen til f(x) = 2 cos x − 3?",
         "options": [
-          "y = 2",
+          "y = 0",
           "y = −3",
-          "y = 3",
-          "y = −1"
+          "y = −2",
+          "y = 5"
         ],
         "correct": 1,
         "explain": "y = d."
@@ -322,9 +322,9 @@
         "text": "Hva er sektorarealet når r = 3 og θ = 2?",
         "options": [
           "9",
-          "6",
-          "18",
-          "3"
+          "9/2",
+          "9π",
+          "18π"
         ],
         "correct": 0,
         "explain": "½ · 9 · 2."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva er cos(π/3)?",
         "options": [
-          "√3/2",
-          "0",
+          "−½",
+          "√3/3",
           "½",
-          "1"
+          "√2/2"
         ],
         "correct": 2,
         "explain": "Eksakt verdi."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

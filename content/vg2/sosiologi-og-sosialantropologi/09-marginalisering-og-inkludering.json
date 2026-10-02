@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er marginalisering?",
       "options": [
-        "At noen blir rike",
-        "En prosess der personer skyves ut i utkanten og får mindre tilgang til goder",
-        "At noen flytter",
-        "En type sykdom"
+        "En prosess der personer får bedre tilgang til arbeid, utdanning og innflytelse",
+        "En prosess der personer får mindre tilgang til samfunnets goder",
+        "En prosess der personer flytter mellom ulike steder i samfunnet",
+        "En prosess der personer tilpasser seg normer og blir inkludert i fellesskapet"
       ],
       "correct": 1,
       "explain": "Tilgang til arbeid, utdanning og innflytelse."
@@ -93,9 +93,9 @@
       "text": "Hva står NEET for?",
       "options": [
         "Unge som verken er i arbeid, utdanning eller opplæring",
-        "En type utdanning",
-        "Et NAV-tiltak",
-        "En diagnose"
+        "Unge som er i arbeid, men ikke i utdanning eller opplæring",
+        "Unge som er i utdanning, men ikke i arbeid eller opplæring",
+        "Unge som er i opplæring, men ikke i arbeid eller utdanning"
       ],
       "correct": 0,
       "explain": "En utsatt gruppe.",
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva har forskning vist om søkere med utenlandskklingende navn?",
       "options": [
-        "De får flere intervjuer",
-        "Det er ingen forskjell",
-        "De blir i gjennomsnitt kalt inn til færre intervjuer",
-        "De søker ikke jobb"
+        "De blir i gjennomsnitt kalt inn til like mange jobbintervjuer som andre søkere",
+        "De blir i gjennomsnitt kalt inn til flere jobbintervjuer enn andre søkere",
+        "De blir i gjennomsnitt kalt inn til færre jobbintervjuer enn andre søkere",
+        "De får i gjennomsnitt oftere tilbud om jobb etter intervju enn andre søkere"
       ],
       "correct": 2,
       "explain": "Selv med like kvalifikasjoner.",
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva er en ond sirkel i sammenheng med utenforskap?",
       "options": [
-        "En sosial aktivitet",
-        "En type tiltak",
-        "Et vennskap",
-        "At årsaker forsterker hverandre"
+        "At én enkelt årsak fører direkte til utenforskap",
+        "At utfordringer oppstår samtidig uten å påvirke hverandre",
+        "At et tiltak gradvis fjerner årsakene til utenforskap",
+        "At årsaker til utenforskap forsterker hverandre"
       ],
       "correct": 3,
       "explain": "For eksempel helse, frafall og lav inntekt."
@@ -131,9 +131,9 @@
       "text": "Hva er Individuell jobbstøtte (IPS)?",
       "options": [
         "Hjelp til ordinært arbeid med tett oppfølging for personer med psykiske lidelser",
-        "En type sosialhjelp",
-        "En skole",
-        "En skatteordning"
+        "Hjelp til tilrettelagt aktivitet med tett oppfølging for personer med psykiske lidelser",
+        "Hjelp til ordinært arbeid med tett oppfølging for personer med fysiske funksjonsnedsettelser",
+        "Hjelp til ordinært arbeid med kort oppfølging for personer med psykiske lidelser"
       ],
       "correct": 0,
       "explain": "Arbeid som del av behandlingen.",
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hvilken er en årsak til utenforskap på samfunnsnivå?",
       "options": [
-        "Personlige interesser",
+        "Lav motivasjon hos en enkelt person i jobbsøking",
         "Høye krav til kompetanse i arbeidsmarkedet",
-        "Hobbyer",
-        "Høyde"
+        "Lite støtte fra familien til skolegang og utdanning",
+        "Konflikter mellom venner om valg av fritidsaktiviteter"
       ],
       "correct": 1,
       "explain": "Færre jobber uten utdanning."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hvorfor er frafall fra videregående en risiko?",
       "options": [
-        "Det gir høyere lønn",
-        "Det har ingen betydning",
+        "Det reduserer risikoen for å stå utenfor arbeidslivet",
+        "Det øker muligheten for å få fast arbeid uten utdanning",
         "Det øker risikoen for å stå utenfor arbeidslivet",
-        "Det gir flere venner"
+        "Det påvirker først og fremst muligheten til å få nye venner"
       ],
       "correct": 2,
       "explain": "Utdanning er viktig for arbeid."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva er en konsekvens av utenforskap for samfunnet?",
       "options": [
-        "Mer arbeidskraft",
-        "Lavere velferdsutgifter",
-        "Høyere tillit",
+        "Økt arbeidskraft og reduserte velferdsutgifter",
+        "Større skatteinntekter og flere personer i arbeid",
+        "Sterkere sosial tillit og økt samfunnsdeltakelse",
         "Tapt arbeidskraft og økte velferdsutgifter"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er stigma?",
       "options": [
         "Negative fordommer knyttet til en egenskap eller gruppe",
-        "En medisin",
-        "En type skatt",
-        "En utdanning"
+        "Positive forventninger knyttet til en egenskap eller gruppe",
+        "Ulik behandling knyttet til en egenskap eller gruppe",
+        "Formelle rettigheter knyttet til en egenskap eller gruppe"
       ],
       "correct": 0,
       "explain": "For eksempel mot psykisk sykdom."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er et strukturelt tiltak mot diskriminering?",
       "options": [
-        "Å be den diskriminerte endre navn",
+        "Individuell veiledning og personlige samtaler",
         "Lovverk og anonyme søknader",
-        "Å ignorere problemet",
-        "Individuell trening"
+        "Kontroll av enkeltpersoners holdninger og handlinger",
+        "Trening i jobbsøking for utsatte søkere"
       ],
       "correct": 1,
       "explain": "Endrer rammene, ikke bare individet.",
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak retter seg mot strukturene?",
         "options": [
-          "Samtale med én elev",
-          "Lover mot diskriminering",
-          "Personlig trening",
-          "Et motivasjonskurs"
+          "Individuell veiledning som støtter personer som møter diskriminering",
+          "Felles lover som forbyr diskriminering i samfunnet",
+          "Samtaler med enkeltpersoner som møter diskriminering på skolen",
+          "Motivasjonskurs som styrker personer som søker arbeid"
         ],
         "correct": 1,
         "explain": "Endrer samfunnets rammer."
@@ -338,8 +338,8 @@
         "options": [
           "NAV",
           "Skatteetaten",
-          "Politiet",
-          "Datatilsynet"
+          "Arbeidstilsynet",
+          "Utdanningsdirektoratet"
         ],
         "correct": 0,
         "explain": "Arbeids- og velferdsforvaltningen.",
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva bør du vurdere når du drøfter tiltak mot utenforskap?",
         "options": [
-          "Bare prisen",
-          "Bare hvem som foreslo tiltaket",
+          "Om tiltakene vurderes ut fra hvem som foreslo dem og medieomtale",
+          "Om tiltakene er enkle å gjennomføre og blir synlige på kort tid",
           "Om tiltakene når dem som trenger dem og gir varig endring",
-          "Bare hvor raskt de virker"
+          "Om tiltakene bruker samme løsning for alle og følger én fast modell"
         ],
         "correct": 2,
         "explain": "Og om de retter seg mot individ eller struktur."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

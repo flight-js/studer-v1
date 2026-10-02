@@ -38,8 +38,7 @@
     },
     {
       "term": "das duale System",
-      "def": "yrkesutdanning i bedrift og på Berufsschule",
-      "niva": "eksempel"
+      "def": "yrkesutdanning i bedrift og på Berufsschule"
     },
     {
       "term": "ich konnte / ich musste",
@@ -68,8 +67,7 @@
     },
     {
       "term": "die Schweiz",
-      "def": "Sveits – 26 kantoner, fire nasjonalspråk",
-      "niva": "eksempel"
+      "def": "Sveits – 26 kantoner, fire nasjonalspråk"
     },
     {
       "term": "die Energiewende",
@@ -128,10 +126,10 @@
       "id": "q01",
       "text": "Hva er riktig refleksivt pronomen? «Wir freuen ___ auf das Wochenende.»",
       "options": [
-        "sich",
+        "mich",
         "uns",
         "euch",
-        "mich"
+        "sich"
       ],
       "correct": 1,
       "explain": "Wir → uns."
@@ -140,13 +138,13 @@
       "id": "q02",
       "text": "Hva betyr «sich freuen auf»?",
       "options": [
-        "glede seg til noe som kommer",
-        "glede seg over noe som har skjedd",
-        "bli sint",
-        "føle seg trøtt"
+        "å glede seg til noe som kommer",
+        "å være glad for noe som har skjedd",
+        "å bekymre seg for noe som kommer",
+        "å være fornøyd med det man allerede har"
       ],
       "correct": 0,
-      "explain": "sich freuen über brukes om noe som har skjedd."
+      "explain": "sich freuen auf brukes om noe man ser fram til."
     },
     {
       "id": "q03",
@@ -166,8 +164,8 @@
       "options": [
         "Universitetet",
         "Grundschule",
-        "Førerkort",
-        "Militæret"
+        "Berufsschule",
+        "Volkshochschule"
       ],
       "correct": 0,
       "explain": "Abitur tas vanligvis på Gymnasium."
@@ -188,14 +186,13 @@
       "id": "q06",
       "text": "Hva kjennetegner «das duale System»?",
       "options": [
-        "To skoler samtidig",
-        "To språk i undervisningen",
-        "Skole bare om kvelden",
-        "Utdanning både i bedrift og på yrkesskole"
+        "Utdanning bare i bedrift",
+        "Utdanning bare på yrkesskole",
+        "Utdanning på to yrkesskoler",
+        "Utdanning i bedrift og på yrkesskole"
       ],
       "correct": 3,
-      "explain": "Lærlingene kalles Azubis.",
-      "niva": "eksempel"
+      "explain": "Lærlingene kalles Azubis."
     },
     {
       "id": "q07",
@@ -225,10 +222,10 @@
       "id": "q09",
       "text": "Hva uttrykker plusquamperfektum?",
       "options": [
-        "Noe i framtiden",
-        "Noe som skjer nå",
+        "Noe som skjedde etter noe annet i fortiden",
+        "Noe som skjedde samtidig med noe annet i fortiden",
         "Noe som skjedde før noe annet i fortiden",
-        "En vane"
+        "Noe som skjer regelmessig på samme tidspunkt i fortiden"
       ],
       "correct": 2,
       "explain": "Der Zug war schon abgefahren.",
@@ -241,7 +238,7 @@
         "Sveits",
         "Tyskland",
         "Østerrike",
-        "Liechtenstein"
+        "Italia"
       ],
       "correct": 0,
       "explain": "Innbyggerne stemmer ofte over enkeltsaker.",
@@ -263,10 +260,10 @@
       "id": "q12",
       "text": "Hvor står verbet i en tysk relativsetning?",
       "options": [
-        "Først",
-        "På andre plass",
-        "Etter subjektet",
-        "Sist"
+        "På begynnelsen av relativsetningen",
+        "På andre plass i relativsetningen",
+        "Rett etter relativpronomenet",
+        "På slutten av relativsetningen"
       ],
       "correct": 3,
       "explain": "die Stadt, die ich besucht habe."
@@ -276,24 +273,24 @@
       "text": "Når ble Tyskland gjenforent?",
       "options": [
         "3. oktober 1990",
-        "9. november 1989",
-        "8. mai 1945",
-        "1. januar 2000"
+        "23. mai 1949",
+        "7. oktober 1949",
+        "9. november 1989"
       ],
       "correct": 0,
-      "explain": "Muren falt allerede 9. november 1989."
+      "explain": "Gjenforeningen trådte formelt i kraft 3. oktober 1990."
     },
     {
       "id": "q14",
       "text": "Hvordan dannes passiv på tysk?",
       "options": [
         "werden + partisipp",
-        "haben + infinitiv",
-        "sein + infinitiv",
-        "würde + infinitiv"
+        "sein + partisipp",
+        "haben + partisipp",
+        "werden + infinitiv"
       ],
       "correct": 0,
-      "explain": "I fortid: wurde + partisipp.",
+      "explain": "I fortid brukes «wurde» + partisipp.",
       "niva": "over-niva"
     },
     {
@@ -437,7 +434,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -498,10 +495,10 @@
           "Deutschland wurde 1990 wiedervereinigt.",
           "Deutschland hat 1990 wiedervereinigt.",
           "Deutschland wird 1990 wiedervereinigt.",
-          "Deutschland war 1990 wiedervereinigen."
+          "Deutschland wurde 1990 wiedervereinigen."
         ],
         "correct": 0,
-        "explain": "Passiv i fortid: wurde + partisipp.",
+        "explain": "Passiv i fortid dannes med «wurde» + partisipp.",
         "niva": "over-niva"
       }
     ],
@@ -581,12 +578,94 @@
           "Uttrykker et ønske med würde gern og identifiserer filmen som en komedie om en ung mann i Øst-Berlin."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign Tyskland og Østerrike på tysk. Ta med hvor mange delstater hvert land har, og nevn hovedstedene.",
+        "fasit": "Deutschland hat 16 Bundesländer und die Hauptstadt Berlin. Österreich hat neun Bundesländer und die Hauptstadt Wien.",
+        "kriterier": [
+          "Oppgir 16 delstater i Tyskland og ni i Østerrike.",
+          "Oppgir Berlin og Wien som hovedsteder."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar på tysk hvordan Sveits skiller seg ut når det gjelder språk og demokrati. Ta også med om landet er medlem av EU.",
+        "fasit": "Die Schweiz hat vier Nationalsprachen: Deutsch, Französisch, Italienisch und Rätoromanisch. Sie ist für direkte Demokratie mit Volksabstimmungen bekannt und ist kein Mitglied der EU.",
+        "kriterier": [
+          "Nevner de fire nasjonalspråkene eller at Sveits har fire nasjonalspråk.",
+          "Nevner folkeavstemninger som del av direkte demokrati og at Sveits ikke er medlem av EU."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Beskriv på tysk to miljøtiltak i Tyskland, og forklar hvordan ett av dem henger sammen med landets energiomstilling.",
+        "fasit": "Die Energiewende bedeutet den Wechsel von Kernkraft und Kohle zu erneuerbarer Energie. Außerdem sind Mülltrennung und Pfand auf Flaschen im Alltag wichtig.",
+        "kriterier": [
+          "Forklarer at Energiewende er en overgang fra kjernekraft og kull til fornybar energi.",
+          "Nevner kildesortering eller pant på flasker som et viktig tiltak i hverdagen."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar på tysk hvordan økonomiske problemer i Weimarrepublikken bidro til at ekstreme partier fikk grobunn. Ta med én krise og at nazistene kom til makten i 1933.",
+        "fasit": "Die Weimarer Republik hatte 1923 eine Hyperinflation und nach dem Börsencrash von 1929 eine Wirtschaftskrise. Arbeitslosigkeit und Unzufriedenheit gaben extremen Parteien Auftrieb. 1933 kamen Hitler und die Nationalsozialisten an die Macht.",
+        "kriterier": [
+          "Nevner hyperinflasjonen i 1923 eller den økonomiske krisen etter børskrakket i 1929.",
+          "Knytter arbeidsløshet eller misnøye til framveksten av ekstreme partier.",
+          "Nevner at Hitler og nazistene kom til makten i 1933."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på tysk om Bauhaus. Ta med når og hvor kunst- og designskolen ble grunnlagt, beskriv et trekk ved stilen og si noe om påvirkningen den har hatt.",
+        "fasit": "Das Bauhaus wurde 1919 in Weimar gegründet. Der Stil hat einfache Formen und funktionale Möbel. Er hat Architektur und Design auf der ganzen Welt beeinflusst.",
+        "kriterier": [
+          "Oppgir at Bauhaus ble grunnlagt i Weimar i 1919.",
+          "Nevner enkle former eller funksjonelle møbler som stiltrekk.",
+          "Nevner at Bauhaus har påvirket arkitektur eller design verden over."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign på tysk Brødrene Grimms eventyrsamling med Franz Kafkas Die Verwandlung. Ta med ett kjennetegn ved hvert verk.",
+        "fasit": "Die Brüder Grimm veröffentlichten 1812 ihre Sammlung Kinder- und Hausmärchen mit Volksmärchen wie Hänsel und Gretel. In Kafkas Die Verwandlung wacht Gregor Samsa eines Morgens als großes Insekt auf.",
+        "kriterier": [
+          "Nevner at Grimms samling med folkeeventyr ble utgitt i 1812, gjerne med et eksempel.",
+          "Nevner at Gregor Samsa våkner forvandlet til et stort insekt i Kafkas Die Verwandlung."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på tysk at du og en venn kranglet, men at alt er bra igjen nå. Si også at du gleder deg til ferien.",
+        "fasit": "Wir haben uns gestritten, aber jetzt ist alles wieder gut. Ich freue mich auf die Ferien.",
+        "kriterier": [
+          "Formidler at dere kranglet, men at alt er bra igjen.",
+          "Bruker et passende refleksivt uttrykk, for eksempel „uns gestritten“.",
+          "Bruker „sich freuen auf“ om noe som kommer."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Forklar på tysk hvorfor yrkesutdanningen i Tyskland kalles et dualt system. Bruk ordene Azubi og Berufsschule.",
+        "fasit": "Das duale Ausbildungssystem heißt so, weil die Azubis in einem Betrieb und in einer Berufsschule lernen. Sie sind also an zwei Lernorten.",
+        "kriterier": [
+          "Nevner at lærlingene lærer både i en bedrift og på en Berufsschule.",
+          "Forklarer at systemet er dualt fordi det har to læringssteder."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

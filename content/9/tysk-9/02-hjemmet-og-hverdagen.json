@@ -79,7 +79,7 @@
         "Huset",
         "Leiligheten",
         "Rommet",
-        "Hagen"
+        "Kjelleren"
       ],
       "correct": 1,
       "explain": "«wohnen» betyr å bo."
@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "Hvor lager man mat?",
       "options": [
+        "im Wohnzimmer",
         "im Schlafzimmer",
         "im Badezimmer",
-        "im Keller",
         "in der Küche"
       ],
       "correct": 3,
@@ -101,9 +101,9 @@
       "text": "Hvordan sier du «Jeg står opp klokka sju»?",
       "options": [
         "Ich stehe um sieben Uhr auf.",
-        "Ich aufstehe um sieben Uhr.",
-        "Ich stehe auf um sieben Uhr auf.",
-        "Um sieben Uhr ich stehe auf."
+        "Ich stehe sieben Uhr um auf.",
+        "Ich stehe um sieben auf Uhr.",
+        "Ich um sieben Uhr stehe auf."
       ],
       "correct": 0,
       "explain": "Forstavelsen «auf» flyttes til slutten."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva skjer med forstavelsen i et delbart verb som «fernsehen»?",
       "options": [
-        "Den forsvinner",
-        "Den står først",
+        "Den blir stående foran det bøyde verbet",
+        "Den plasseres rett etter det bøyde verbet",
         "Den flyttes til slutten av setningen",
-        "Den dobles"
+        "Den blir stående midt i setningen"
       ],
       "correct": 2,
       "explain": "«Ich sehe am Abend fern.»"
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva betyr «gemütlich»?",
       "options": [
-        "Kaldt",
-        "Rotete",
+        "Ryddig",
+        "Romslig",
         "Koselig",
-        "Stort"
+        "Lyst"
       ],
       "correct": 2,
       "explain": "Ordet brukes mye om hjem og kafeer."
@@ -137,9 +137,9 @@
       "text": "Hvordan sier du «Jeg dusjer»?",
       "options": [
         "Ich dusche mich.",
-        "Ich bin duschen.",
         "Ich dusche dich.",
-        "Mich dusche ich nicht."
+        "Ich dusche ihn.",
+        "Ich dusche mir."
       ],
       "correct": 0,
       "explain": "«sich duschen» er et refleksivt verb."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "Hva betyr «Ich räume mein Zimmer auf»?",
       "options": [
-        "Jeg maler rommet mitt",
+        "Jeg vasker rommet mitt",
         "Jeg forlater rommet mitt",
-        "Jeg liker rommet mitt",
+        "Jeg pynter rommet mitt",
         "Jeg rydder rommet mitt"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er «der Schreibtisch»?",
       "options": [
-        "Senga",
+        "Spisebordet",
         "Skrivebordet",
-        "Skapet",
-        "Stolen"
+        "Nattbordet",
+        "Skapet"
       ],
       "correct": 1,
       "explain": "«schreiben» betyr å skrive."
@@ -184,9 +184,9 @@
       "id": "q10",
       "text": "Hva betyr «Ich sehe am Abend fern»?",
       "options": [
-        "Jeg ser langt om kvelden",
-        "Jeg går ut om kvelden",
-        "Jeg leser om kvelden",
+        "Jeg hører på musikk om kvelden",
+        "Jeg leser en bok om kvelden",
+        "Jeg lager mat om kvelden",
         "Jeg ser på TV om kvelden"
       ],
       "correct": 3,
@@ -321,9 +321,9 @@
         "text": "Hva betyr «Hausaufgaben machen»?",
         "options": [
           "Å gjøre lekser",
-          "Å vaske huset",
-          "Å lage mat",
-          "Å bygge hus"
+          "Å rydde rommet",
+          "Å vaske klær",
+          "Å lage middag"
         ],
         "correct": 0,
         "explain": "«Hausaufgaben» betyr hjemmelekser."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvilket rom sover du i?",
         "options": [
-          "die Küche",
-          "das Schlafzimmer",
           "das Wohnzimmer",
-          "der Garten"
+          "das Schlafzimmer",
+          "die Küche",
+          "das Badezimmer"
         ],
         "correct": 1,
         "explain": "«schlafen» betyr å sove."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva betyr «danach»?",
         "options": [
-          "Før",
-          "Aldri",
+          "Først",
+          "Tidligere",
           "Etterpå",
-          "I dag"
+          "Samtidig"
         ],
         "correct": 2,
         "explain": "Ordet brukes når du forteller hva som skjer etterpå."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

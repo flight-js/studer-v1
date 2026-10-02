@@ -128,8 +128,8 @@
       "options": [
         "7,3 · 10⁻⁴",
         "7,3 · 10⁴",
-        "73 · 10⁻⁵",
-        "7,3 · 10⁻³"
+        "7,3 · 10⁻³",
+        "7,3 · 10⁻⁵"
       ],
       "correct": 0,
       "explain": "Kommaet flyttes 4 plasser til høyre, så eksponenten blir −4."
@@ -139,8 +139,8 @@
       "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?",
       "options": [
         "5 prosentpoeng",
+        "0,05 prosentpoeng",
         "25 prosentpoeng",
-        "20 prosentpoeng",
         "45 prosentpoeng"
       ],
       "correct": 0,
@@ -151,8 +151,8 @@
       "text": "En vare koster 500 kr med 25 % moms. Hva koster den uten moms?",
       "options": [
         "375 kr",
-        "475 kr",
         "125 kr",
+        "625 kr",
         "400 kr"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q04",
       "text": "Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?",
       "options": [
-        "562,50 kr",
+        "625 kr",
         "600 kr",
-        "725 kr",
-        "937,50 kr"
+        "900 kr",
+        "675 kr"
       ],
       "correct": 1,
       "explain": "750 / 1,25 = 600."
@@ -174,10 +174,10 @@
       "id": "q05",
       "text": "Hva er renters rente?",
       "options": [
-        "At banken tar dobbel rente",
-        "At rentene legges til beløpet og også gir rente senere",
-        "At renten er fast",
-        "At man betaler rente to ganger i året"
+        "Rentene trekkes fra beløpet før ny rente beregnes.",
+        "Rentene legges til beløpet og gir selv rente senere.",
+        "Renten beregnes hvert år av det opprinnelige beløpet.",
+        "Rentene legges til lånet, men gir ikke selv rente."
       ],
       "correct": 1,
       "explain": "Derfor vokser sparepenger raskere og raskere."
@@ -198,10 +198,10 @@
       "id": "q07",
       "text": "Hva er 72 km/h i m/s?",
       "options": [
-        "7,2 m/s",
+        "18 m/s",
         "20 m/s",
-        "259,2 m/s",
-        "72 m/s"
+        "24 m/s",
+        "36 m/s"
       ],
       "correct": 1,
       "explain": "72 / 3,6 = 20."
@@ -211,9 +211,9 @@
       "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?",
       "options": [
         "6 kWh",
-        "6000 kWh",
-        "0,6 kWh",
-        "667 kWh"
+        "0,67 kWh",
+        "2 kWh",
+        "60 kWh"
       ],
       "correct": 0,
       "explain": "2 kW · 3 h = 6 kWh."
@@ -223,9 +223,9 @@
       "text": "Billetter koster 150 kr stykket pluss 50 kr i gebyr per bestilling. Hvilken formel gir prisen K for n billetter?",
       "options": [
         "K = 150n + 50",
-        "K = 200n",
         "K = 50n + 150",
-        "K = 150 + 50 + n"
+        "K = 150(n + 50)",
+        "K = 150n + 50n"
       ],
       "correct": 0,
       "explain": "150 per billett og et fast gebyr på 50."
@@ -235,9 +235,9 @@
       "text": "Hva er forskjellen på lineær og eksponentiell vekst?",
       "options": [
         "Lineær vekst øker med et fast tall, eksponentiell med en fast prosent",
-        "Det er ingen forskjell",
-        "Lineær vekst går alltid raskest",
-        "Eksponentiell vekst øker med et fast tall"
+        "Lineær vekst øker med en fast prosent, eksponentiell med et fast tall",
+        "Begge veksttypene øker med et fast tall per enhet",
+        "Begge veksttypene øker med en fast prosent per enhet"
       ],
       "correct": 0,
       "explain": "Eksponentiell vekst blir etter hvert mye raskere."
@@ -247,9 +247,9 @@
       "text": "Hva er gyldighetsområdet til en modell?",
       "options": [
         "Verdiene der modellen gir rimelige svar",
-        "Alle tall",
-        "Bare x = 0",
-        "Området på kartet"
+        "Alle verdiene som kan settes inn i modellen",
+        "Verdiene modellen bruker som startverdier",
+        "Verdiene som gir samme svar i modellen"
       ],
       "correct": 0,
       "explain": "Utenfor gyldighetsområdet kan modellen gi urimelige svar."
@@ -258,22 +258,22 @@
       "id": "q12",
       "text": "Hva er regresjon?",
       "options": [
-        "Å tegne en figur",
-        "Å løse en likning",
-        "Å regne prosent",
+        "Å finne gjennomsnittet av verdiene i datasettet",
+        "Å finne en funksjon som går gjennom hvert datapunkt",
+        "Å finne skjæringspunktet mellom to grafer",
         "Å finne funksjonen som passer best til data"
       ],
       "correct": 3,
-      "explain": "GeoGebra har kommandoer som RegLin og RegEksp."
+      "explain": "Regresjon brukes til å finne en funksjon som passer best til datapunktene."
     },
     {
       "id": "q13",
       "text": "Data øker med omtrent samme prosent hvert år. Hvilken modell passer best?",
       "options": [
-        "Eksponentiell",
-        "Lineær",
-        "Omvendt proporsjonal",
-        "Konstant"
+        "En eksponentiell modell",
+        "En lineær modell",
+        "En omvendt proporsjonal modell",
+        "En konstant modell"
       ],
       "correct": 0,
       "explain": "Fast prosentvis vekst er eksponentiell."
@@ -425,7 +425,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -461,10 +461,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner et annuitetslån?",
         "options": [
-          "Lånet har ingen rente",
-          "Avdraget er likt hver gang",
-          "Terminbeløpet er likt hver gang",
-          "Lånet betales tilbake på én gang"
+          "Avdraget er like stort hver gang.",
+          "Rentebeløpet er like stort hver gang.",
+          "Terminbeløpet er like stort hver gang.",
+          "Terminbeløpet blir større hver gang."
         ],
         "correct": 2,
         "explain": "De fleste boliglån er annuitetslån."
@@ -481,10 +481,10 @@
         "type": "flervalg",
         "text": "En kloss har masse 200 g og volum 25 cm³. Hva er tettheten?",
         "options": [
-          "0,125 g/cm³",
+          "4 g/cm³",
           "8 g/cm³",
-          "5000 g/cm³",
-          "225 g/cm³"
+          "25 g/cm³",
+          "0,8 g/cm³"
         ],
         "correct": 1,
         "explain": "200/25 = 8."
@@ -495,9 +495,9 @@
         "text": "Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?",
         "options": [
           "229 kr",
-          "259 kr",
-          "199,50 kr",
-          "30 kr"
+          "239 kr",
+          "249 kr",
+          "269 kr"
         ],
         "correct": 0,
         "explain": "199 + 0,50 · 60 = 199 + 30 = 229."
@@ -589,12 +589,85 @@
           "Forklarer at 1,02 svarer til 2 % vekst per år.",
           "Nevner at premisser eller gyldighetsområde påvirker hvor pålitelig prognosen er."
         ]
+      },
+      {
+        "text": "Skriv 3⁻² som en brøk og som et desimaltall. Forklar hva den negative eksponenten betyr.",
+        "fasit": "3⁻² = 1/3² = 1/9. En negativ eksponent gir den omvendte brøken, ikke et negativt tall.",
+        "kriterier": [
+          "Skriver 3⁻² som 1/9.",
+          "Forklarer at negativ eksponent gir en omvendt brøk, ikke et negativt tall."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En blanding på 800 g inneholder salt tilsvarende 5 ‰ av blandingen. Hvor mange gram salt er det, og hvor mange prosent tilsvarer 5 ‰?",
+        "fasit": "5 ‰ er 5/1000 = 0,005, som tilsvarer 0,5 %. Saltmengden er 0,005 · 800 g = 4 g.",
+        "kriterier": [
+          "Regner ut at saltmengden er 4 g.",
+          "Regner om 5 ‰ til 0,5 %."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Et virus er omtrent 0,000004 m langt. Skriv lengden på standardform, og oppgi den i mikrometer (µm).",
+        "fasit": "Lengden er 4 · 10⁻⁶ m. Siden mikro betyr 10⁻⁶, er dette 4 µm.",
+        "kriterier": [
+          "Skriver lengden som 4 · 10⁻⁶ m.",
+          "Oppgir lengden som 4 µm og bruker at mikro betyr 10⁻⁶."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En tabell viser at når x er 2, 4 og 8, er y henholdsvis 18, 9 og 4,5. Er x og y proporsjonale eller omvendt proporsjonale? Begrunn svaret med en beregning.",
+        "fasit": "Størrelsene er omvendt proporsjonale, fordi produktet x · y er 36 for alle de tre parene. De er ikke proporsjonale, siden forholdet y/x ikke er konstant.",
+        "kriterier": [
+          "Identifiserer sammenhengen som omvendt proporsjonal.",
+          "Viser at produktet x · y er 36 for alle parene."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En butikk selger 2 kg ris for 54 kr og 1,5 kg ris for 42 kr. Finn kiloprisen for hver pakke, og vurder hvilken pakke som er billigst per kilo.",
+        "fasit": "Den første pakken koster 54/2 = 27 kr/kg. Den andre koster 42/1,5 = 28 kr/kg, så pakken på 2 kg er billigst per kilo.",
+        "kriterier": [
+          "Finner kiloprisene 27 kr/kg og 28 kr/kg.",
+          "Konkluderer med at pakken på 2 kg er billigst per kilo."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "To modeller beskriver verdifallet til en mobiltelefon. Modell A sier at verdien synker med 500 kr hvert år, mens modell B sier at den synker med 20 % av verdien hvert år. Hvilken modell er lineær, og hvilken er eksponentiell? Forklar forskjellen på endringene.",
+        "fasit": "Modell A er lineær fordi verdien synker med et fast beløp hvert år. Modell B er eksponentiell fordi den synker med en fast prosent hvert år, altså med vekstfaktor 0,8.",
+        "kriterier": [
+          "Knytter modell A til lineær endring med et fast beløp.",
+          "Knytter modell B til eksponentiell endring med fast prosent og vekstfaktor 0,8."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Forklar forskjellen på et serielån og et annuitetslån. Hvorfor er effektiv rente nyttig når du skal sammenligne lån?",
+        "fasit": "I et serielån er avdraget likt hver gang, og terminbeløpet synker etter hvert. I et annuitetslån er terminbeløpet likt hver gang. Effektiv rente inkluderer gebyrer og andre kostnader og gjør det lettere å sammenligne lån.",
+        "kriterier": [
+          "Forklarer at serielån har like avdrag og synkende terminbeløp, mens annuitetslån har like terminbeløp.",
+          "Forklarer at effektiv rente inkluderer gebyrer og andre kostnader."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En bil kjører 90 km med en gjennomsnittsfart på 60 km/h. Bilen bruker 0,5 L/mil. Hvor lang tid tar turen, og hvor mye drivstoff bruker bilen?",
+        "fasit": "Turen tar 90/60 = 1,5 timer. 90 km er 9 mil, så bilen bruker 9 · 0,5 = 4,5 liter drivstoff.",
+        "kriterier": [
+          "Finner reisetiden 1,5 timer.",
+          "Gjør om 90 km til 9 mil og finner drivstofforbruket 4,5 L."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

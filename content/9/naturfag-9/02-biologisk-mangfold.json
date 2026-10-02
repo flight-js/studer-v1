@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilke tre nivåer omfatter biologisk mangfold?",
       "options": [
-        "Planter, dyr og sopp",
+        "Planter, dyr og mikroorganismer",
         "Arter, genetisk variasjon og økosystemer",
-        "Land, luft og vann",
-        "Fjell, skog og hav"
+        "Produsenter, forbrukere og nedbrytere",
+        "Individer, bestander og næringskjeder"
       ],
       "correct": 1,
       "explain": "Biologisk mangfold handler om artsmangfold, genetisk mangfold og mangfold av økosystemer."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva regnes som den største trusselen mot naturmangfoldet i Norge?",
       "options": [
-        "Vulkanutbrudd",
-        "Meteorer",
+        "Klimaendringer",
+        "Forurensning",
         "Arealendringer",
-        "For mye regn"
+        "Fremmede arter"
       ],
       "correct": 2,
       "explain": "Nedbygging av natur til veier, hytter og industri fjerner leveområder for mange arter."
@@ -104,9 +104,9 @@
       "text": "Hva er en økosystemtjeneste?",
       "options": [
         "Et gode naturen gir oss, som pollinering",
-        "En offentlig etat",
-        "En type skog",
-        "En turistbedrift"
+        "Et tiltak mennesker gjør for naturen, som planting av trær",
+        "En tjeneste kommunen tilbyr folk, som søppelhenting i skogen",
+        "Et gode mennesker lager selv, som kunstgjødsel til åkre"
       ],
       "correct": 0,
       "explain": "Pollinering, rent vann og karbonlagring er eksempler på tjenester naturen gir."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er Rødlista?",
       "options": [
-        "En liste over giftige planter",
-        "En liste over fremmede arter",
-        "En liste over nasjonalparker",
-        "En oversikt over arter som står i fare for å dø ut"
+        "En oversikt over planter som kan skade mennesker",
+        "En oversikt over fremmede arter som påvirker naturen",
+        "En oversikt over områder som er vernet mot utbygging",
+        "En oversikt over arter som kan dø ut"
       ],
       "correct": 3,
       "explain": "I Norge lager Artsdatabanken Rødlista.",
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvorfor er genetisk mangfold viktig?",
       "options": [
-        "Det gjør artene større",
-        "Det gjør at arten bedre kan tilpasse seg endringer",
-        "Det gir flere fargerike dyr",
-        "Det har ingen betydning"
+        "Det øker artens størrelse når miljøet endres",
+        "Det øker artens evne til å tilpasse seg endringer",
+        "Det gir arten flere individer i hver generasjon",
+        "Det reduserer artens behov for mat ved miljøendringer"
       ],
       "correct": 1,
       "explain": "Med stor variasjon er det større sjanse for at noen individer tåler nye forhold."
@@ -141,9 +141,9 @@
       "text": "Hvilket er et dilemma knyttet til vindkraft?",
       "options": [
         "Den gir fornybar energi, men kan ta store naturområder",
-        "Den forurenser med CO₂",
-        "Den virker bare om natta",
-        "Den er ulovlig"
+        "Den gir fossil energi, men kan ta store naturområder",
+        "Den gir fornybar energi, men slipper ut mye røyk",
+        "Den gir fornybar energi, men krever store mengder kull"
       ],
       "correct": 0,
       "explain": "Fornybar energi og naturvern er begge gode hensyn som kan stå mot hverandre.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvilket prinsipp står sentralt i tradisjonell samisk naturbruk?",
       "options": [
-        "Å ta mest mulig så raskt som mulig",
-        "Å bare bruke maskiner",
+        "Å høste naturressurser før andre rekker å bruke dem",
+        "Å prioritere økonomisk gevinst framfor naturens tålegrenser",
         "Å ikke ta mer enn naturen tåler",
-        "Å unngå naturen"
+        "Å bruke mest mulig av ressursene i nærmiljøet"
       ],
       "correct": 2,
       "explain": "Ressursene skal være der også for kommende generasjoner."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hvordan kan samisk tradisjonell kunnskap bidra i dag?",
       "options": [
-        "Den erstatter all forskning",
-        "Den er ikke relevant",
-        "Den gjelder bare fortiden",
-        "Den kan utfylle forskning om for eksempel klima- og beiteendringer"
+        "Den kan erstatte forskning om klima- og beiteendringer",
+        "Den kan forklare klimaendringer uten målinger og forskning",
+        "Den kan forutsi været flere år fram i tid",
+        "Den kan supplere forskning om klima- og beiteendringer"
       ],
       "correct": 3,
       "explain": "Erfaringsbasert kunnskap om snø, beite og vær gir verdifull informasjon om endringer i naturen."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hva betyr overbeskatning?",
       "options": [
-        "For høye skatter",
+        "Å betale skatt av inntekter fra salg av naturressurser",
         "Å høste mer av en ressurs enn den tåler",
-        "Å verne for mye natur",
-        "Å plante for mange trær"
+        "Å høste en ressurs etter at bestanden har vokst seg større",
+        "Å verne en ressurs ved å stanse høsting i et område"
       ],
       "correct": 1,
       "explain": "Overfiske er et eksempel: bestanden rekker ikke å fornye seg."
@@ -190,9 +190,9 @@
       "text": "Hvorfor er myrer viktige?",
       "options": [
         "De lagrer mye karbon og demper flom",
-        "De er gode byggetomter",
-        "De har ingen arter",
-        "De gir mye olje"
+        "De lagrer lite karbon og demper flom",
+        "De lagrer mye karbon og øker faren for flom",
+        "De lagrer lite vann og demper flom"
       ],
       "correct": 0,
       "explain": "Myrer er viktige karbonlagre og holder på vann. Når de dreneres, slippes karbon ut.",
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva er et tiltak for bærekraftig forvaltning av fisk?",
         "options": [
-          "Fiskekvoter",
-          "Mer fiske",
-          "Dumping av avfall",
-          "Å tørke ut elver"
+          "Å fastsette fiskekvoter for å begrense fangsten",
+          "Å fiske mest mulig før bestanden minker",
+          "Å fange småfisk før den formerer seg",
+          "Å fiske uten hensyn til bestandens størrelse"
         ],
         "correct": 0,
         "explain": "Kvoter begrenser fangsten slik at bestandene kan fornye seg.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken organisasjon lager Rødlista i Norge?",
         "options": [
-          "NRK",
+          "Miljødirektoratet",
           "Artsdatabanken",
-          "Stortinget",
-          "Statens vegvesen"
+          "Norsk institutt for naturforskning",
+          "Naturvernforbundet"
         ],
         "correct": 1,
         "explain": "Artsdatabanken vurderer risikoen for at arter dør ut.",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva betyr bærekraftig bruk av naturen?",
         "options": [
-          "Å bruke opp ressursene raskt",
-          "Å aldri bruke naturen",
+          "Å dekke dagens behov ved å bruke opp ressursene raskt",
+          "Å dekke dagens behov uten å planlegge for framtidige behov",
           "Å dekke dagens behov uten å ødelegge for framtidige generasjoner",
-          "Å bare bygge i naturen"
+          "Å dekke dagens behov ved å prioritere utbygging av naturen"
         ],
         "correct": 2,
         "explain": "Bærekraft handler om å tenke langsiktig."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

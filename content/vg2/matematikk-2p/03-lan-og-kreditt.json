@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er terminbeløpet på et lån?",
       "options": [
-        "Bare rentene",
-        "Renter + avdrag",
-        "Bare avdraget",
-        "Hele lånet"
+        "Renter og gebyrer",
+        "Renter og avdrag",
+        "Avdrag og gebyrer",
+        "Hele lånebeløpet"
       ],
       "correct": 1,
       "explain": "Terminbeløpet betales hver periode."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva kjennetegner et serielån?",
       "options": [
-        "Likt avdrag hver gang, og terminbeløpet synker",
-        "Likt terminbeløp hver gang",
-        "Ingen renter",
-        "Betales på én gang"
+        "Avdragene er like store, og terminbeløpet blir mindre over tid.",
+        "Terminbeløpene er like store, og avdragene blir større over tid.",
+        "Avdragene blir mindre, mens terminbeløpet holder seg likt over tid.",
+        "Lånet betales med like store terminbeløp og fast rente gjennom perioden."
       ],
       "correct": 0,
       "explain": "Rentene blir mindre etter hvert."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken lånetype gir mest renter totalt, gitt samme rente og løpetid?",
       "options": [
-        "Serielån",
-        "De gir like mye",
-        "Det avhenger av banken",
-        "Annuitetslån"
+        "Et serielån gir mest renter totalt.",
+        "De to lånetypene gir like mye renter totalt.",
+        "Rentenivået alene avgjør hvor mye renter lånet gir totalt.",
+        "Et annuitetslån gir mest renter totalt."
       ],
       "correct": 3,
       "explain": "Restgjelden synker saktere i starten."
@@ -127,8 +127,8 @@
       "options": [
         "Effektiv rente",
         "Nominell rente",
-        "Den laveste renten i reklamen",
-        "Styringsrenten"
+        "Styringsrente",
+        "Månedsrente før gebyrer"
       ],
       "correct": 0,
       "explain": "Effektiv rente tar med gebyrer."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva skjer hvis du ikke betaler hele kredittkortregningen innen fristen?",
       "options": [
-        "Ingenting",
-        "Det påløper høy rente",
-        "Gjelden forsvinner",
-        "Du får rabatt"
+        "Restbeløpet utsettes automatisk til neste regning uten renter.",
+        "Det påløper høy rente på beløpet som står igjen.",
+        "Renten på beløpet som står igjen, blir satt ned.",
+        "Beløpet blir gjort om til et rentefritt avdrag."
       ],
       "correct": 1,
       "explain": "Kredittkort har svært høy rente."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er et forbrukslån?",
       "options": [
-        "Et boliglån",
-        "Et studielån",
+        "Et lån med bolig som sikkerhet og lav rente",
+        "Et lån til utdanning med støtte fra Lånekassen",
         "Et lån uten sikkerhet med høy rente",
-        "Et lån fra familien"
+        "Et privat lån mellom familiemedlemmer uten renter"
       ],
       "correct": 2,
       "explain": "Forbruksgjeld kan vokse raskt."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvilket spørsmål bør du stille før du tar opp lån?",
       "options": [
-        "Hvor fin er reklamen?",
-        "Hva har vennene mine?",
-        "Hvor rask er søknaden?",
+        "Kan jeg vurdere lånet ut fra reklamerenten alene?",
+        "Er lånet best hvis månedsbeløpet er lavest?",
+        "Kan jeg regne med at dagens rente varer hele lånetiden?",
         "Tåler budsjettet mitt at renten stiger?"
       ],
       "correct": 3,
@@ -173,13 +173,13 @@
       "id": "q09",
       "text": "Hvilken regnearkfunksjon regner ut terminbeløpet på et annuitetslån?",
       "options": [
+        "BETALING",
         "AVDRAG",
-        "SUMMER",
-        "GJENNOMSNITT",
-        "MEDIAN"
+        "RENTE",
+        "NÅVERDI"
       ],
       "correct": 0,
-      "explain": "AVDRAG tar rente, antall terminer og lånebeløp.",
+      "explain": "BETALING bruker rente, antall terminer og lånebeløp til å beregne terminbeløpet.",
       "niva": "over-niva"
     },
     {
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er effektiv rente?",
         "options": [
-          "Renten før gebyrer",
-          "Renten inkludert gebyrer – den faktiske kostnaden",
-          "Renten på sparekonto",
-          "Den laveste renten"
+          "Renten før gebyrer, slik den oppgis i avtalen",
+          "Rente og gebyrer samlet i lånets faktiske kostnad",
+          "Renten som banken betaler på en sparekonto",
+          "Den laveste renten som vises i en annonse"
         ],
         "correct": 1,
         "explain": "Bruk den til å sammenligne lån."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvilken gjeld regnes ofte som mest fornuftig?",
         "options": [
-          "Kredittkortgjeld",
-          "Forbrukslån til ferie",
+          "Kredittkortgjeld og forbrukslån med høy rente",
+          "Forbrukslån og delbetaling med høye gebyrer",
           "Boliglån og studielån med lav rente",
-          "Kjøp nå, betal senere"
+          "Billån og kredittkortgjeld med kort nedbetalingstid"
         ],
         "correct": 2,
         "explain": "De har lav rente og gir varige verdier."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

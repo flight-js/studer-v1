@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er absolutt fattigdom?",
       "options": [
-        "Å ha mindre enn naboen",
-        "Å mangle nok til grunnleggende behov som mat, vann og bolig",
-        "Å ikke ha bil",
-        "Å ha lav lønn i Norge"
+        "Å ha mindre penger enn de fleste i landet man bor i",
+        "Å mangle mat, vann og bolig til grunnleggende behov",
+        "Å ikke kunne kjøpe klær av merket man ønsker seg",
+        "Å være uten fast jobb, selv om man har mat og bolig"
       ],
       "correct": 1,
       "explain": "Relativ fattigdom handler derimot om å ha mye mindre enn andre."
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hva er relativ fattigdom?",
       "options": [
-        "Å ikke ha mat i det hele tatt",
-        "Fattigdom som bare finnes i Afrika",
+        "Å mangle mat, vann og bolig til grunnleggende behov",
+        "Å ha mindre inntekt enn folk i fattige land",
         "Å ha mye mindre enn de fleste andre i samfunnet man bor i",
-        "Å ha gjeld"
+        "Å ha gjeld som er større enn sparepengene man har"
       ],
       "correct": 2,
       "explain": "Relativ fattigdom finnes også i rike land som Norge."
@@ -108,9 +108,9 @@
       "text": "Hva vil Peter Singer vise med eksempelet om barnet som drukner?",
       "options": [
         "At vi har plikt til å hjelpe mennesker i nød, også langt borte",
-        "At man ikke bør bade",
-        "At sko er viktige",
-        "At man bare skal hjelpe familien"
+        "At vi har størst plikt til å hjelpe mennesker som bor nær oss",
+        "At vi har plikt til å hjelpe mennesker i nød dersom de bor i nærheten",
+        "At vi har plikt til å hjelpe barn i nød, men ikke voksne"
       ],
       "correct": 0,
       "explain": "Singer mener avstand ikke fjerner plikten til å hjelpe.",
@@ -120,9 +120,9 @@
       "id": "q04",
       "text": "Hva skjedde ved Rana Plaza i 2013?",
       "options": [
-        "En stor fotballturnering",
-        "En fredsavtale ble inngått",
-        "En klimakonferanse",
+        "En tekstilfabrikk i Bangladesh tok fyr, og over 100 arbeidere døde",
+        "En fabrikkbygning i India raste sammen, og over 1100 arbeidere døde",
+        "En fabrikkbygning i Bangladesh raste sammen, og over 100 arbeidere døde",
         "En fabrikkbygning i Bangladesh raste sammen, og over 1100 arbeidere døde"
       ],
       "correct": 3,
@@ -133,10 +133,10 @@
       "id": "q05",
       "text": "Hvordan kan oljefondet reagere hvis et selskap bryter menneskerettighetene grovt?",
       "options": [
-        "Det kan kjøpe flere aksjer",
-        "Det kan utelukke selskapet",
-        "Det kan straffe selskapet i retten",
-        "Det har ingen regler"
+        "Det kan kjøpe flere aksjer i selskapet",
+        "Det kan velge å ikke investere i selskapet",
+        "Det kan kreve erstatning fra selskapet i retten",
+        "Det kan gi selskapet et lån til forbedringer"
       ],
       "correct": 1,
       "explain": "Fondet har etiske retningslinjer for hvilke selskaper det investerer i.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva er klimarettferdighet?",
       "options": [
-        "Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig",
-        "At alle land skal ha samme temperatur",
-        "En domstol for klima",
-        "En type fornybar energi"
+        "Hvordan byrdene ved klimaendringer og utslippskutt fordeles rettferdig",
+        "Hvordan alle land kan få samme temperatur gjennom klimatiltak",
+        "Hvordan kostnadene ved klimatiltak fordeles likt mellom alle land",
+        "Hvordan land kan bruke fornybar energi for å hindre klimaendringer"
       ],
       "correct": 0,
       "explain": "De som har sluppet ut minst, rammes ofte hardest."
@@ -158,9 +158,9 @@
       "id": "q07",
       "text": "Hva skal merkeordningen Fairtrade sikre?",
       "options": [
-        "Billigere varer",
-        "Raskere levering",
-        "Mer reklame",
+        "Lavere priser på varer for forbrukerne",
+        "Raskere transport av varer til butikkene",
+        "Større salg av varer fra små produsenter",
         "Bedre lønn og arbeidsforhold for produsentene"
       ],
       "correct": 3,
@@ -184,10 +184,10 @@
       "id": "q09",
       "text": "Hvorfor kan utvikling i fattige land være et etisk dilemma knyttet til bærekraft?",
       "options": [
-        "Fordi fattige land ikke vil utvikle seg",
+        "Fordi utvikling basert på sol- og vindkraft gir store utslipp",
         "Fordi utvikling basert på kull og olje gir store utslipp",
-        "Fordi utvikling alltid er dårlig",
-        "Det er ikke noe dilemma"
+        "Fordi fattige land har stått for like store utslipp som rike land",
+        "Fordi klimaendringer først og fremst rammer land med høye utslipp"
       ],
       "correct": 1,
       "explain": "Retten til utvikling og hensynet til klimaet trekker i hver sin retning."
@@ -196,9 +196,9 @@
       "id": "q10",
       "text": "Hva kan du gjøre for en mer rettferdig verden?",
       "options": [
-        "Kaste mer",
-        "Kjøpe så mye som mulig",
-        "Unngå å lære om saken",
+        "Velge varer ut fra laveste pris og kjøpe flere av dem",
+        "Unngå å undersøke arbeidsforholdene bak varene du kjøper",
+        "Kaste brukbare varer og erstatte dem med nye produkter",
         "Sette deg inn i hvordan varene lages og kjøpe mindre"
       ],
       "correct": 3,
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvor lever de fleste ekstremt fattige?",
         "options": [
-          "Europa",
-          "Nord-Amerika",
+          "Øst-Asia",
+          "Latin-Amerika",
           "Afrika sør for Sahara",
-          "Australia"
+          "Nord-Afrika"
         ],
         "correct": 2,
         "explain": "Krig, klimaendringer og svake institusjoner gjør fattigdommen vanskelig å bekjempe der.",
@@ -352,9 +352,9 @@
         "text": "Hvilket metall til batterier utvinnes noen steder under farlige forhold?",
         "options": [
           "Kobolt",
-          "Gull",
-          "Sølv",
-          "Jern"
+          "Tinn",
+          "Platina",
+          "Aluminium"
         ],
         "correct": 0,
         "explain": "Kobolt brukes i batterier til mobiltelefoner og elbiler.",
@@ -365,10 +365,10 @@
         "type": "flervalg",
         "text": "Hva sier Jesus om det man gjør mot «en av disse mine minste»?",
         "options": [
-          "At det ikke betyr noe",
+          "At man får belønning for å følge religiøse regler",
           "At man gjør det mot ham",
-          "At man bør unngå dem",
-          "At det bare gjelder prester"
+          "At man viser tro ved å delta i gudstjenester",
+          "At man hjelper fattige for å få ros av andre"
         ],
         "correct": 1,
         "explain": "Ordene brukes ofte som begrunnelse for kristent hjelpearbeid.",
@@ -456,6 +456,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

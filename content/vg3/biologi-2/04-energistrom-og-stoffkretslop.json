@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på energi og stoffer i et økosystem?",
       "options": [
-        "Begge går i kretsløp",
+        "Energi går i kretsløp, stoffer strømmer gjennom",
         "Energi strømmer gjennom, stoffer går i kretsløp",
-        "Stoffer forsvinner, energi gjenbrukes",
-        "Det er ingen forskjell"
+        "Energi lagres i kretsløp, stoffer strømmer gjennom",
+        "Energi og stoffer strømmer begge gjennom"
       ],
       "correct": 1,
       "explain": "Energien ender som varme."
@@ -88,9 +88,9 @@
       "text": "Omtrent hvor mye energi går videre til neste trofiske nivå?",
       "options": [
         "10 %",
-        "50 %",
-        "90 %",
-        "100 %"
+        "5 %",
+        "20 %",
+        "50 %"
       ],
       "correct": 0,
       "explain": "Resten brukes eller tapes som varme."
@@ -100,7 +100,7 @@
       "text": "Produsentene har 10 000 kJ. Omtrent hvor mye når sekundærkonsumentene?",
       "options": [
         "1000 kJ",
-        "5000 kJ",
+        "200 kJ",
         "100 kJ",
         "10 kJ"
       ],
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er nettoproduksjon?",
       "options": [
-        "All energi produsentene binder",
-        "Energien konsumentene bruker",
-        "Varmetapet",
-        "Energien som er igjen etter produsentenes egen celleånding"
+        "Energi bundet før produsentenes celleånding",
+        "Energi brukt i konsumentenes celleånding",
+        "Energi frigitt som varme ved celleånding",
+        "Energi igjen etter produsentenes celleånding"
       ],
       "correct": 3,
       "explain": "Tilgjengelig for konsumentene."
@@ -124,9 +124,9 @@
       "text": "Hvilke organismer kan fiksere nitrogen fra lufta?",
       "options": [
         "Noen bakterier, blant annet i rotknoller",
-        "Alle planter",
-        "Rovdyr",
-        "Sopp alene"
+        "Planter alene, blant annet i rotknoller",
+        "Sopper alene, blant annet i jorda",
+        "Dyr alene, blant annet i tarmen"
       ],
       "correct": 0,
       "explain": "For eksempel hos erter og kløver."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva skjer ved denitrifikasjon?",
       "options": [
-        "N₂ blir til ammonium",
-        "Nitrat blir til N₂",
-        "Ammonium blir til nitrat",
-        "Nitrogen lagres i fjell"
+        "N₂ blir omdannet til ammonium",
+        "Nitrat blir omdannet til N₂",
+        "Ammonium blir omdannet til nitritt",
+        "Nitritt blir omdannet til nitrat"
       ],
       "correct": 1,
       "explain": "I oksygenfattige miljøer."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er spesielt med fosforkretsløpet?",
       "options": [
-        "Det går raskt gjennom lufta",
-        "Det har mest gass",
+        "Det har en tydelig gassfase",
+        "Det sirkulerer hovedsakelig gjennom lufta",
         "Det har ingen gassfase",
-        "Det finnes ikke"
+        "Det går raskt gjennom atmosfæren"
       ],
       "correct": 2,
       "explain": "Fosfor frigjøres sakte fra berggrunnen."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvorfor har næringskjeder sjelden mer enn 4–5 ledd?",
       "options": [
-        "Fordi det er for få arter",
-        "Fordi rovdyr ikke spiser hverandre",
-        "Fordi plantene er for store",
+        "Fordi næringsstoffene forsvinner mellom nivåene",
+        "Fordi energien blir laget på hvert nivå",
+        "Fordi artene blir større for hvert nivå",
         "Fordi det blir for lite energi igjen"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvilken prosess tar opp CO₂ i karbonkretsløpet?",
       "options": [
-        "Fotosyntesen",
+        "Fotosyntese",
         "Celleånding",
-        "Forbrenning",
-        "Nedbrytning"
+        "Gjæring",
+        "Metanproduksjon"
       ],
       "correct": 0,
       "explain": "Karbonet bindes i organisk stoff."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor er det mer energieffektivt for mennesker å spise planter enn kjøtt?",
       "options": [
-        "Planter har mer protein",
+        "Fordi planter ikke bruker energi til celleånding",
         "Man unngår energitapet ved et ekstra trofisk nivå",
-        "Kjøtt har ingen energi",
-        "Planter vokser raskere"
+        "Fordi energien øker gjennom trofiske nivåer",
+        "Fordi kjøtt gir energi uten tap fra plantene"
       ],
       "correct": 1,
       "explain": "10 %-regelen."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvor er nettoproduksjonen høy?",
         "options": [
-          "I ørken",
+          "I tundra og ørken",
           "I regnskog og korallrev",
-          "I dyphavet",
-          "På isbreer"
+          "I dyphav og isbreer",
+          "I saltsletter og polare områder"
         ],
         "correct": 1,
         "explain": "Mye lys, varme og næring.",
@@ -325,9 +325,9 @@
         "text": "Hva gjør nitrifiserende bakterier?",
         "options": [
           "Gjør ammonium om til nitrat",
-          "Gjør nitrat om til N₂",
-          "Fikserer N₂",
-          "Bryter ned fosfor"
+          "Gjør nitrat om til ammonium",
+          "Gjør N₂ om til ammonium",
+          "Gjør organisk nitrogen om til ammonium"
         ],
         "correct": 0,
         "explain": "Nitrat tas opp av plantene."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilken prosess bidrar planter med i vannets kretsløp?",
         "options": [
-          "Nitrogenfiksering",
-          "Fotosyntese av vann",
+          "Kondensasjon",
+          "Nedbør",
           "Transpirasjon",
-          "Denitrifikasjon"
+          "Avrenning"
         ],
         "correct": 2,
         "explain": "Vann fordamper fra bladene.",
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

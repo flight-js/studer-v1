@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Why is it smart to learn words in context?",
       "options": [
-        "Because it is faster to write",
+        "Because word lists show spelling but not how words work in sentences",
         "Because words are easier to remember and use correctly in a sentence",
-        "Because lists are forbidden",
-        "Because context words are shorter"
+        "Because translating each word first makes its use clear in sentences",
+        "Because copying a word several times makes its meaning clear in sentences"
       ],
       "correct": 1,
       "explain": "In a sentence you see how the word is used, which helps you remember it and use it correctly."
@@ -94,9 +94,9 @@
       "text": "What does “spaced repetition” mean?",
       "options": [
         "Repeating words with longer and longer gaps",
-        "Repeating a word 100 times in a row",
-        "Writing words with spaces between the letters",
-        "Learning only new words"
+        "Repeating words after shorter and shorter gaps",
+        "Repeating each word several times in one study session",
+        "Repeating words in the same order each time"
       ],
       "correct": 0,
       "explain": "Repeating words just before you forget them helps them stay in your long-term memory.",
@@ -107,9 +107,9 @@
       "text": "Which word is a synonym of “enormous”?",
       "options": [
         "tiny",
-        "quick",
+        "narrow",
         "huge",
-        "empty"
+        "quiet"
       ],
       "correct": 2,
       "explain": "“Huge” and “enormous” both mean very big. “Tiny” is an antonym."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "What does the idiom “piece of cake” mean?",
       "options": [
-        "A dessert",
-        "A small part of something",
-        "A birthday",
+        "Something very expensive",
+        "Something very complicated",
+        "Something very surprising",
         "Something very easy"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Which is a natural collocation?",
       "options": [
         "make a mistake",
-        "do a mistake",
         "take a mistake",
-        "create a mistake"
+        "say a mistake",
+        "have a mistake"
       ],
       "correct": 0,
       "explain": "In English we “make” a mistake. Collocations must often be learned as fixed phrases."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "What is a risk with translation tools?",
       "options": [
-        "They are always correct",
-        "They can translate word by word and choose the wrong meaning",
-        "They only work in Norwegian",
-        "They make texts shorter"
+        "They translate full sentences by keeping the same word order in English",
+        "They can miss context and choose a meaning that does not fit",
+        "They can explain which grammar rule caused each translation choice",
+        "They translate sentences by checking each word's dictionary meaning separately"
       ],
       "correct": 1,
       "explain": "Translation tools can miss the context. Always check if the result sounds natural."
@@ -155,9 +155,9 @@
       "id": "q07",
       "text": "Which word could replace “said” to show that someone was angry?",
       "options": [
-        "whispered",
-        "mumbled",
-        "asked",
+        "answered",
+        "explained",
+        "promised",
         "shouted"
       ],
       "correct": 3,
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "What does “It's raining cats and dogs” mean?",
       "options": [
-        "Animals are falling from the sky",
+        "It is raining lightly",
         "It is raining heavily",
-        "It is a nice day",
-        "It has stopped raining"
+        "It is raining for a while",
+        "It is raining in one place"
       ],
       "correct": 1,
       "explain": "This idiom means that it is raining very hard.",
@@ -180,8 +180,8 @@
       "id": "q09",
       "text": "What is an antonym of “ancient”?",
       "options": [
-        "old",
         "historic",
+        "traditional",
         "modern",
         "large"
       ],
@@ -193,9 +193,9 @@
       "text": "Which mistake will a spell checker often NOT find?",
       "options": [
         "“their” used instead of “there”",
-        "“becuase” instead of “because”",
-        "“teh” instead of “the”",
-        "“freind” instead of “friend”"
+        "“recieve” instead of “receive”",
+        "“definately” instead of “definitely”",
+        "“wich” instead of “which”"
       ],
       "correct": 0,
       "explain": "“Their” is a real word, so the spell checker does not react, even when it is used wrongly."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "What does “break a leg” usually mean?",
         "options": [
-          "Be careful",
-          "Good luck",
-          "Go home",
-          "Hurry up"
+          "A warning to be careful",
+          "A wish for good luck",
+          "A request to hurry up",
+          "A suggestion to go home"
         ],
         "correct": 1,
         "explain": "“Break a leg” is said to wish someone good luck, especially before a performance.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Which word is more precise than “good” in “The film was good”?",
         "options": [
-          "thing",
           "fine",
+          "okay",
           "brilliant",
-          "ok"
+          "nice"
         ],
         "correct": 2,
         "explain": "“Brilliant” gives a clearer picture of how good the film was."
@@ -356,9 +356,9 @@
         "text": "What should you do first when you meet an unknown word?",
         "options": [
           "Try to guess its meaning from the context",
-          "Stop reading",
-          "Skip the whole paragraph",
-          "Translate the whole text"
+          "Try to guess its meaning from the word's spelling",
+          "Look up its meaning before reading the surrounding sentence",
+          "Translate the word before checking the sentence around it"
         ],
         "correct": 0,
         "explain": "The context often gives you a clue. Look the word up if it is important."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

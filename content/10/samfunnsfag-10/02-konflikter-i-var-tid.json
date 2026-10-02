@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er den vanligste typen væpnet konflikt i dag?",
       "options": [
-        "Kriger mellom stormakter",
-        "Borgerkriger inne i ett land",
-        "Kriger om kolonier",
-        "Verdenskriger"
+        "Kriger mellom to eller flere stater",
+        "Borgerkriger innenfor ett land",
+        "Konflikter mellom stater om grenser",
+        "Kriger mellom stormakter om innflytelse"
       ],
       "correct": 1,
       "explain": "Mange borgerkriger får likevel innblanding fra andre land."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hvilket spørsmål hører til en konfliktanalyse?",
       "options": [
-        "Hvem er partene, og hva vil de oppnå?",
-        "Hvilken farge har flaggene?",
-        "Hvor mange innbyggere har hovedstaden?",
-        "Hva heter nasjonalsangen?"
+        "Hvem er partene, og hva ønsker de å oppnå?",
+        "Hvem laget flaggene, og når ble de tatt i bruk?",
+        "Hvem skrev nasjonalsangene, og når ble de framført?",
+        "Hvor mange innbyggere bor i hovedstedene, og hvor store er de?"
       ],
       "correct": 0,
       "explain": "Aktører og interesser er sentrale for å forstå en konflikt."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvordan kan kolonitiden være en årsak til konflikter i dag?",
       "options": [
-        "Kolonimaktene bygde for mange skoler",
-        "Koloniene fikk for mye makt",
+        "Kolonimaktene lot folkegruppene selv bestemme landegrensene",
+        "Kolonimaktene fulgte lokale ledere da de trakk grensene",
         "Kolonimaktene trakk grenser uten hensyn til folkegruppene",
-        "Kolonitiden har ingen betydning"
+        "Kolonimaktene opprettet egne stater for hver folkegruppe"
       ],
       "correct": 2,
       "explain": "Grupper som ble delt eller tvunget sammen, har ofte havnet i konflikt.",
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hva er mekling?",
       "options": [
-        "At en nøytral tredjepart hjelper partene å finne en løsning",
-        "At én part vinner krigen",
-        "At FN sender soldater",
-        "At et land innfører sanksjoner"
+        "At en nøytral tredjepart hjelper partene med å finne en løsning",
+        "At en nøytral domstol avgjør hvem som har rett i saken",
+        "At partene forhandler direkte uten hjelp fra andre land",
+        "At en tredjepart sender soldater for å skille partene"
       ],
       "correct": 0,
       "explain": "Norge har ofte hatt rollen som mekler."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva var Oslo-avtalen fra 1993?",
       "options": [
-        "En handelsavtale mellom Norge og EU",
-        "En avtale mellom Israel og PLO som skulle føre til fred",
-        "En avtale om NATO-medlemskap",
-        "En klimaavtale"
+        "En fredsavtale mellom Israel og Egypt om grensespørsmål",
+        "En avtale mellom Israel og PLO om en fredsprosess",
+        "En fredsavtale mellom Israel og Jordan om grensespørsmål",
+        "En avtale mellom Israel og Syria om palestinsk selvstyre"
       ],
       "correct": 1,
       "explain": "Avtalen ga palestinerne begrenset selvstyre, men den endelige fredsavtalen kom aldri.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvorfor er det ofte vanskelig for FNs sikkerhetsråd å gripe inn?",
       "options": [
-        "Fordi FN ikke har penger",
-        "Fordi Sikkerhetsrådet bare møtes hvert tiende år",
-        "Fordi Norge har vetorett",
-        "Fordi de fem faste medlemmene har vetorett"
+        "Fordi alle medlemslandene i FN har vetorett i rådet",
+        "Fordi de ti valgte medlemmene kan legge ned veto",
+        "Fordi generalsekretæren kan stanse vedtak med veto",
+        "Fordi de fem faste medlemmene kan legge ned veto"
       ],
       "correct": 3,
       "explain": "USA, Russland, Kina, Storbritannia og Frankrike kan hver for seg stoppe et vedtak."
@@ -167,9 +167,9 @@
       "text": "Hvordan kan en krig i ett land påvirke resten av verden?",
       "options": [
         "Den kan gi høyere mat- og energipriser og flere flyktninger",
-        "Den påvirker aldri andre land",
-        "Den gjør alt billigere",
-        "Den gir mindre spenning mellom stormakter"
+        "Den kan gi høyere mat- og energipriser og færre flyktninger",
+        "Den kan gi lavere mat- og energipriser og flere flyktninger",
+        "Den kan gi lavere mat- og energipriser og færre flyktninger"
       ],
       "correct": 0,
       "explain": "Krigen i Ukraina ga for eksempel høyere priser på korn og energi i mange land."
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hva er en utløsende årsak?",
       "options": [
-        "Den dypeste grunnen til en konflikt",
-        "Konsekvensen av en krig",
+        "Den langsiktige grunnen som ligger bak en konflikt",
+        "Følgen som oppstår etter at konflikten har startet",
         "Hendelsen som setter i gang en konflikt",
-        "En fredsavtale"
+        "Avtalen partene inngår for å avslutte konflikten"
       ],
       "correct": 2,
       "explain": "Utløsende årsaker virker sammen med langsiktige årsaker."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvordan kan klimaendringer bidra til konflikter?",
       "options": [
-        "Ved å gi mer regn overalt",
+        "Ved å gjøre kampen om vann og dyrkbar jord mindre",
         "Ved å forsterke kampen om vann og dyrkbar jord",
-        "Ved å stoppe all krig",
-        "Klima har ingen betydning"
+        "Ved å fordele vann og dyrkbar jord likt mellom grupper",
+        "Ved å gjøre konflikter om språk og religion vanligere"
       ],
       "correct": 1,
       "explain": "Tørke og knapphet kan skape spenninger mellom grupper."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hvem har vetorett i FNs sikkerhetsråd?",
         "options": [
-          "Alle FNs medlemsland",
-          "Bare USA",
+          "De ti valgte medlemmene",
+          "Alle medlemslandene i FN",
           "De fem faste medlemmene",
-          "Generalsekretæren"
+          "FNs generalsekretær og ledelse"
         ],
         "correct": 2,
         "explain": "USA, Russland, Kina, Storbritannia og Frankrike."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva betyr å annektere et område?",
         "options": [
-          "Å innlemme et område i sin egen stat, ofte med makt",
-          "Å gi et område selvstendighet",
-          "Å handle med et område",
-          "Å sende nødhjelp til et område"
+          "Å innlemme et område i egen stat, ofte med makt",
+          "Å gjøre et område selvstendig og uavhengig av staten",
+          "Å inngå en handelsavtale med et område i en annen stat",
+          "Å sende nødhjelp til innbyggerne i et område under krig"
         ],
         "correct": 0,
         "explain": "Annektering med makt er i strid med folkeretten.",
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvilken konflikt startet med at regimet slo ned på fredelige protester i 2011?",
         "options": [
-          "Koreakrigen",
-          "Borgerkrigen i Syria",
           "Krigen i Ukraina",
-          "Vietnamkrigen"
+          "Borgerkrigen i Syria",
+          "Krigen i Irak",
+          "Krigen i Afghanistan"
         ],
         "correct": 1,
         "explain": "Protestene var en del av den arabiske våren.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

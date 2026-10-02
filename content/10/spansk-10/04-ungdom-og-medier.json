@@ -83,9 +83,9 @@
       "text": "Hva heter mobiltelefonen i Spania?",
       "options": [
         "el ordenador",
-        "la computadora",
+        "la tableta",
         "el móvil",
-        "la tele"
+        "el fijo"
       ],
       "correct": 2,
       "explain": "I Latin-Amerika sier man ofte «el celular»."
@@ -95,9 +95,9 @@
       "text": "Hva betyr «compartir» på sosiale medier?",
       "options": [
         "Å dele",
-        "Å slette",
-        "Å like",
-        "Å kommentere"
+        "Å følge",
+        "Å blokkere",
+        "Å rapportere"
       ],
       "correct": 0,
       "explain": "«compartir» betyr også å dele noe med noen."
@@ -106,9 +106,9 @@
       "id": "q03",
       "text": "Hvordan innleder du en mening på spansk?",
       "options": [
-        "Buenos días, …",
-        "Un abrazo, …",
-        "Había una vez …",
+        "En primer lugar, …",
+        "Según el texto, …",
+        "Por ejemplo, …",
         "En mi opinión, …"
       ],
       "correct": 3,
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva betyr «Por un lado … por otro lado …»?",
       "options": [
-        "Først … til slutt …",
+        "Først kommer ett poeng … og etterpå et annet …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både det ene … og dessuten det andre …",
+        "Enten velger man det ene … eller det andre …"
       ],
       "correct": 1,
       "explain": "Nyttig når du drøfter fordeler og ulemper."
@@ -131,9 +131,9 @@
       "text": "Hva betyr «guay» i Spania og «chévere» i deler av Latin-Amerika?",
       "options": [
         "Kult, bra",
-        "Kjedelig",
-        "Farlig",
-        "Dyrt"
+        "Trist, kjedelig",
+        "Dyrt, kostbart",
+        "Farlig, risikabelt"
       ],
       "correct": 0,
       "explain": "Slang varierer mellom landene.",
@@ -143,9 +143,9 @@
       "id": "q06",
       "text": "Hva er «el ciberacoso»?",
       "options": [
-        "Et dataspill",
-        "En nettbutikk",
-        "Et virus",
+        "Trakassering i skolegården",
+        "Uønsket reklame på nett",
+        "Svindel med personopplysninger",
         "Mobbing på nett"
       ],
       "correct": 3,
@@ -156,9 +156,9 @@
       "text": "Hva betyr «embarazada», et eksempel på en falsk venn?",
       "options": [
         "Flau",
-        "Barnslig",
+        "Forvirret",
         "Gravid",
-        "Brydd"
+        "Opprørt"
       ],
       "correct": 2,
       "explain": "Flau heter «avergonzado» eller «avergonzada».",
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva betyr «descargar»?",
       "options": [
-        "Å lade mobilen",
+        "Å laste opp",
         "Å laste ned",
-        "Å ringe",
-        "Å skrive"
+        "Å logge inn",
+        "Å koble til"
       ],
       "correct": 1,
       "explain": "Å lade mobilen heter «cargar el móvil»."
@@ -181,9 +181,9 @@
       "text": "Hvilken institusjon arbeider for å fremme spansk språk og kultur i verden?",
       "options": [
         "Instituto Cervantes",
-        "Real Madrid",
-        "El Corte Inglés",
-        "Zara"
+        "Teatro Real",
+        "Museo del Prado",
+        "Banco de España"
       ],
       "correct": 0,
       "explain": "Instituttet er oppkalt etter forfatteren Miguel de Cervantes.",
@@ -194,9 +194,9 @@
       "text": "Hva heter datamaskinen i Spania?",
       "options": [
         "el móvil",
-        "la computadora",
+        "la tableta",
         "el ordenador",
-        "el celular"
+        "el televisor"
       ],
       "correct": 2,
       "explain": "I Latin-Amerika heter den «la computadora».",
@@ -332,8 +332,8 @@
         "options": [
           "Fordelen",
           "Ulempen",
-          "Meldingen",
-          "Mobilen"
+          "Risikoen",
+          "Utfordringen"
         ],
         "correct": 1,
         "explain": "Fordelen heter «la ventaja»."
@@ -344,9 +344,9 @@
         "text": "Hva betyr «Paso dos horas al día con el móvil»?",
         "options": [
           "Jeg bruker to timer om dagen på mobilen",
-          "Jeg har to mobiler",
-          "Mobilen koster to euro",
-          "Jeg ringer to ganger om dagen"
+          "Jeg bruker én time om dagen på mobilen etter skolen",
+          "Jeg bruker to timer i uka på mobilen etter skolen",
+          "Jeg bruker to timer i måneden på mobilen etter skolen"
         ],
         "correct": 0,
         "explain": "«pasar tiempo» betyr å bruke tid."
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hva betyr «la privacidad»?",
         "options": [
-          "Livet i byen",
-          "Et privat selskap",
+          "Identiteten, personligheten",
+          "Sikkerheten, tryggheten",
           "Personvernet, privatlivet",
-          "En privat skole"
+          "Friheten, selvstendigheten"
         ],
         "correct": 2,
         "explain": "Personvern handler om å beskytte privatlivet."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

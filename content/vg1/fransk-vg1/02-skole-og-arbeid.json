@@ -80,7 +80,7 @@
         "la seconde",
         "la terminale",
         "la première",
-        "le collège"
+        "la troisième"
       ],
       "correct": 1,
       "explain": "Etter terminale tar elevene bac."
@@ -90,9 +90,9 @@
       "text": "Hva er futur simple av «je suis»?",
       "options": [
         "je serai",
-        "je sera",
-        "j'étais",
-        "je suisrai"
+        "je serais",
+        "je suis",
+        "j'étais"
       ],
       "correct": 0,
       "explain": "être har stammen ser-."
@@ -101,8 +101,8 @@
       "id": "q03",
       "text": "Hvordan lages futur proche?",
       "options": [
-        "avoir + partisipp",
-        "être + infinitiv",
+        "avoir + participe passé",
+        "être + participe passé",
         "aller + infinitiv",
         "venir de + infinitiv"
       ],
@@ -113,13 +113,13 @@
       "id": "q04",
       "text": "Velg riktig: «Si j'ai le temps, je ___ au cinéma.»",
       "options": [
-        "vais",
-        "irais",
-        "allais",
+        "iras",
+        "ira",
+        "irons",
         "irai"
       ],
       "correct": 3,
-      "explain": "si + presens → futur simple."
+      "explain": "Si + presens → futur simple."
     },
     {
       "id": "q05",
@@ -127,8 +127,8 @@
       "options": [
         "en praksisplass",
         "en scene",
-        "et stadion",
-        "en eksamen"
+        "et jobbintervju",
+        "en jobbsøknad"
       ],
       "correct": 0,
       "explain": "Mange elever tar un stage i en bedrift."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva er futur simple av «nous faisons»?",
       "options": [
-        "nous faisrons",
+        "nous ferions",
         "nous ferons",
-        "nous fairons",
+        "nous faisons",
         "nous faisions"
       ],
       "correct": 1,
@@ -150,9 +150,9 @@
       "text": "Hvilken karakterskala brukes i franske skoler?",
       "options": [
         "1–6",
-        "A–F",
+        "0–100",
         "0–20",
-        "0–100"
+        "1–10"
       ],
       "correct": 2,
       "explain": "10 av 20 er bestått.",
@@ -162,13 +162,13 @@
       "id": "q08",
       "text": "Hvordan sier du «Hun er advokat»?",
       "options": [
-        "Elle est une avocate.",
-        "Elle est la avocate.",
         "Elle a avocate.",
+        "Elles est avocate.",
+        "Elle sont avocate.",
         "Elle est avocate."
       ],
       "correct": 3,
-      "explain": "Ingen artikkel foran yrket etter être.",
+      "explain": "Yrkesbetegnelsen står uten artikkel etter être i denne setningen.",
       "niva": "eksempel"
     },
     {
@@ -181,16 +181,16 @@
         "Salut"
       ],
       "correct": 0,
-      "explain": "Bisous og À plus er uformelle."
+      "explain": "Cordialement passer i en formell e-post; Bisous, À plus og Salut er uformelle."
     },
     {
       "id": "q10",
       "text": "Hva er futur simple av «j'ai»?",
       "options": [
-        "j'avoirai",
+        "j'aurais",
         "j'aurai",
         "j'avais",
-        "j'airai"
+        "j'ai"
       ],
       "correct": 1,
       "explain": "avoir har stammen aur-."
@@ -310,8 +310,8 @@
         "text": "Hva er futur simple av «je peux»?",
         "options": [
           "je pourrai",
-          "je peuxrai",
-          "je pouvrai",
+          "je pourrais",
+          "je peux",
           "je pouvais"
         ],
         "correct": 0,
@@ -335,13 +335,13 @@
         "type": "flervalg",
         "text": "Hva betyr «Je vais partir demain»?",
         "options": [
-          "Jeg dro i går.",
-          "Jeg drar ofte.",
+          "Jeg reiste hjem i går.",
+          "Jeg drar ofte etter skolen.",
           "Jeg skal dra i morgen.",
-          "Jeg ville dratt i morgen."
+          "Jeg ville dra dagen etter."
         ],
         "correct": 2,
-        "explain": "Futur proche."
+        "explain": "Futur proche viser en planlagt handling i framtiden."
       }
     ],
     "skriv": [
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

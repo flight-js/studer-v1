@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en konflikt?",
       "options": [
-        "En uenighet uten betydning",
+        "Når parter løser et problem gjennom felles samarbeid",
         "Når parter har uforenlige mål eller interesser",
-        "En diskusjon mellom venner",
-        "En type krig"
+        "Når parter diskuterer sammen uten uenighet om mål",
+        "Når én part får bestemme uten motstand fra andre"
       ],
       "correct": 1,
       "explain": "Konflikter kan være alt fra lokale til globale."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er forskjellen på bakenforliggende og utløsende årsaker?",
       "options": [
-        "Bakenforliggende årsaker er dype, langvarige forhold, mens utløsende årsaker er hendelsen som starter konflikten",
-        "Det er det samme",
-        "Utløsende årsaker er alltid historiske",
-        "Bakenforliggende årsaker er alltid tilfeldige"
+        "Bakenforliggende årsaker er langvarige forhold; utløsende årsaker er hendelsen som starter konflikten.",
+        "Bakenforliggende årsaker er hendelsen som starter konflikten; utløsende årsaker er langvarige forhold.",
+        "Bakenforliggende årsaker er følger av konflikten; utløsende årsaker er de langvarige forholdene.",
+        "Bakenforliggende årsaker oppstår etter konflikten; utløsende årsaker utvikler seg over lang tid."
       ],
       "correct": 0,
       "explain": "Begge er viktige i en analyse."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvem rammes ofte hardest i kriger?",
       "options": [
-        "Generalene",
-        "Politikerne",
+        "Soldater, offiserer, generaler og forsvarsministre",
+        "Statsledere, diplomater, parlamentarikere og forhandlere",
         "Sivile, barn, kvinner og minoriteter",
-        "Våpenprodusentene"
+        "Journalister, hjelpearbeidere, observatører og fredsmeglere"
       ],
       "correct": 2,
       "explain": "Konflikter har ulike konsekvenser for ulike grupper."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er mekling?",
       "options": [
-        "Å velge side i en konflikt",
-        "Å straffe en part",
-        "Å avslutte en konflikt med vold",
-        "At en nøytral tredjepart hjelper partene å finne en løsning"
+        "En nøytral tredjepart bestemmer hvilken part som skal få medhold.",
+        "En nøytral tredjepart pålegger partene en avtale uten forhandling.",
+        "En nøytral tredjepart undersøker hvem som startet konflikten.",
+        "En nøytral tredjepart hjelper partene med å finne en løsning."
       ],
       "correct": 3,
       "explain": "Norge har vært tilrettelegger i flere fredsprosesser."
@@ -126,9 +126,9 @@
       "text": "Når startet Russland fullskala invasjon av Ukraina?",
       "options": [
         "24. februar 2022",
-        "1. september 1939",
-        "11. september 2001",
-        "9. april 1940"
+        "20. februar 2022",
+        "1. mars 2022",
+        "24. februar 2023"
       ],
       "correct": 0,
       "explain": "Krigen har hatt store globale konsekvenser.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva betyr at en konflikt eskalerer?",
       "options": [
-        "At den løses",
+        "At den blir mindre alvorlig",
         "At den blir mer alvorlig",
-        "At den blir glemt",
-        "At partene blir enige"
+        "At konflikten blir satt på pause",
+        "At partene blir enige om en løsning"
       ],
       "correct": 1,
       "explain": "Deeskalering betyr at den blir mindre alvorlig."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvorfor er kildekritikk særlig viktig i konflikter?",
       "options": [
-        "Fordi det finnes få kilder",
-        "Fordi alle kilder er nøytrale",
-        "Fordi partene sprer sin versjon, og propaganda og desinformasjon er vanlig",
-        "Fordi mediene ikke dekker konflikter"
+        "Fordi partene deler samme versjon, og kildene derfor er nøytrale.",
+        "Fordi nyhetsmedier bruker få kilder når de dekker konflikter.",
+        "Fordi partene sprer egne versjoner, og propaganda og desinformasjon forekommer.",
+        "Fordi motstridende kilder viser at opplysninger ikke kan kontrolleres."
       ],
       "correct": 2,
       "explain": "Bruk flere kilder fra ulike sider."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er et eksempel på en lokal konflikt?",
       "options": [
-        "Krigen i Ukraina",
-        "Klimaforhandlinger i FN",
-        "Handelskrig mellom USA og Kina",
+        "En nasjonal strid om fordeling av skatteinntekter",
+        "En internasjonal konflikt om landegrenser mellom stater",
+        "En global uenighet om utslipp i klimaforhandlinger",
         "Nedleggelse av en skole i en kommune"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva er sanksjoner?",
       "options": [
         "Straffetiltak som handelsrestriksjoner mot en stat",
-        "Belønninger",
-        "Fredsavtaler",
-        "Valg"
+        "Belønninger som gir en stat bedre handelsvilkår",
+        "Avtaler mellom stater som stanser væpnet konflikt",
+        "Regler for hvordan stater gjennomfører nasjonale valg"
       ],
       "correct": 0,
       "explain": "Sanksjoner skal presse en stat til å endre politikk.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor er klimaendringene en vanskelig global utfordring å løse?",
       "options": [
-        "Fordi ingen land slipper ut klimagasser",
+        "Fordi alle land har samme interesser og ansvar",
         "Fordi landene har ulike interesser og ansvar",
-        "Fordi alle land rammes likt",
-        "Fordi det ikke finnes løsninger"
+        "Fordi klimagassutslippene kommer fra ett enkelt land",
+        "Fordi landene er enige om hvilke tiltak som virker"
       ],
       "correct": 1,
       "explain": "Rike, fattige og oljeproduserende land har ulike interesser.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er en tredjepart i en konflikt?",
         "options": [
-          "Den som vinner",
+          "En part i konflikten som leder forhandlingene",
           "En aktør utenfor konflikten som påvirker den",
-          "Den svakeste parten",
-          "Et politisk parti"
+          "En utenforstående observatør som ikke påvirker konflikten",
+          "En gruppe innenfor konflikten som representerer begge parter"
         ],
         "correct": 1,
         "explain": "FN og andre stater er eksempler."
@@ -332,9 +332,9 @@
         "text": "Hva er et kompromiss?",
         "options": [
           "En løsning der begge parter gir litt",
-          "At én part vinner alt",
-          "At konflikten fortsetter",
-          "En type sanksjon"
+          "En løsning der én part får gjennomslag for alle krav",
+          "En pause der begge parter utsetter videre forhandlinger",
+          "Et tiltak der én part begrenser den andres handel"
         ],
         "correct": 0,
         "explain": "Kompromisser er vanlige i politikken."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvilken konflikttype er en strid om vannrettigheter?",
         "options": [
-          "Identitetskonflikt",
           "Verdikonflikt",
+          "Identitetskonflikt",
           "Ressurskonflikt",
-          "Ingen konflikt"
+          "Territorialkonflikt"
         ],
         "correct": 2,
         "explain": "Vann er en knapp ressurs mange steder."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

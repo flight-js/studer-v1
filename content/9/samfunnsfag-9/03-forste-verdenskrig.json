@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Når varte første verdenskrig?",
       "options": [
-        "1905–1910",
+        "1914–1917",
         "1914–1918",
-        "1939–1945",
-        "1918–1922"
+        "1915–1918",
+        "1914–1919"
       ],
       "correct": 1,
       "explain": "Krigen startet sommeren 1914 og endte med våpenhvilen i november 1918."
@@ -89,9 +89,9 @@
       "text": "Hva var den utløsende årsaken til krigen?",
       "options": [
         "Skuddene i Sarajevo i 1914",
-        "Den russiske revolusjonen",
-        "Versaillestraktaten",
-        "Angrepet på Pearl Harbor"
+        "Den russiske revolusjonen i 1917",
+        "Invasjonen av Belgia i 1914",
+        "Versaillestraktaten i 1919"
       ],
       "correct": 0,
       "explain": "Drapet på Franz Ferdinand satte i gang en kjedereaksjon."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvilke land var ententemaktene ved krigens start?",
       "options": [
-        "Tyskland og Østerrike-Ungarn",
-        "USA, Japan og Kina",
+        "Tyskland, Østerrike-Ungarn og Italia",
+        "USA, Japan og Italia",
         "Storbritannia, Frankrike og Russland",
-        "Norge, Sverige og Danmark"
+        "Serbia, Bulgaria og Romania"
       ],
       "correct": 2,
       "explain": "Ententemaktene sto mot sentralmaktene."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva kjennetegnet krigen på vestfronten?",
       "options": [
-        "Raske angrep med fly",
-        "Krig til sjøs",
-        "Kamper i jungelen",
+        "Sjøslag med store tap for kontroll over havområder",
+        "Luftkamper med store tap for kontroll over luftrommet",
+        "Raske angrep med store framrykkinger over lange avstander",
         "Skyttergravskrig med store tap for små landområder"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva var imperialisme?",
       "options": [
         "Kappløp mellom stormaktene om kolonier og innflytelse",
-        "Kjærlighet til eget land",
-        "Oppbygging av hærer",
-        "Samarbeid mellom land"
+        "Sterk stolthet og lojalitet overfor egen nasjon",
+        "Oppbygging av store hærer og lagring av flere våpen",
+        "Samarbeid mellom land for å løse konflikter fredelig"
       ],
       "correct": 0,
       "explain": "Rivaliseringen om kolonier skapte spenninger mellom stormaktene."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor ble krigen raskt en storkrig mellom mange land?",
       "options": [
-        "Fordi alle ønsket krig",
+        "Fordi Serbia startet krigen ved å angripe Østerrike-Ungarn",
         "Fordi alliansene dro stormaktene inn i konflikten",
-        "Fordi Norge angrep Tyskland",
-        "Fordi USA startet krigen"
+        "Fordi Russland angrep Tyskland etter attentatet i Sarajevo",
+        "Fordi USA gikk inn i krigen på britisk side i 1914"
       ],
       "correct": 1,
       "explain": "Landene hadde lovet å hjelpe hverandre, og konflikten spredte seg på få dager."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "Hvilket land fikk skylden for krigen i Versaillestraktaten?",
       "options": [
-        "Russland",
-        "Frankrike",
-        "Serbia",
+        "Østerrike-Ungarn",
+        "Storbritannia",
+        "Italia",
         "Tyskland"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvordan ble Norge rammet, selv om landet var nøytralt?",
       "options": [
-        "Norge ble okkupert",
+        "Norske havner ble okkupert av tyske soldater",
         "Mange norske handelsskip ble senket",
-        "Norske soldater kjempet i Frankrike",
-        "Kristiania ble bombet"
+        "Norske soldater kjempet ved fronten i Frankrike",
+        "Norske byer ble bombet av tyske fly"
       ],
       "correct": 1,
       "explain": "Om lag 2000 norske sjøfolk omkom."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvilken organisasjon ble opprettet etter krigen for å sikre fred?",
       "options": [
-        "FN",
-        "NATO",
+        "Verdens helseorganisasjon",
+        "Europarådet",
         "Folkeforbundet",
-        "EU"
+        "NATO"
       ],
       "correct": 2,
       "explain": "Folkeforbundet klarte likevel ikke å hindre en ny verdenskrig."
@@ -184,9 +184,9 @@
       "id": "q10",
       "text": "Hvilket spørsmål er et eksempel på å reflektere over om krigen kunne vært hindret?",
       "options": [
-        "Hvor mange soldater deltok?",
-        "Hvem vant slaget ved Verdun?",
-        "Hva het den østerrikske tronfølgeren?",
+        "Hvor mange soldater deltok i krigen?",
+        "Når ble våpenhvilen undertegnet?",
+        "Hvor mange år varte kampene på vestfronten?",
         "Hva om alliansene hadde vært mindre bindende?"
       ],
       "correct": 3,
@@ -326,8 +326,8 @@
         "options": [
           "Atombomben",
           "Giftgass",
-          "Kanonen",
-          "Armbrøsten"
+          "Kanon",
+          "Gevær"
         ],
         "correct": 1,
         "explain": "Giftgass skadet og drepte mange soldater i skyttergravene."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva betyr nasjonalisme?",
         "options": [
-          "Sterk stolthet over og lojalitet til egen nasjon",
-          "Kappløp om kolonier",
-          "Å ha store hærer",
-          "Samarbeid mellom land"
+          "Sterk stolthet og lojalitet overfor egen nasjon",
+          "Konkurranse mellom stormakter om kolonier og innflytelse",
+          "Oppbygging av store hærer og lagring av flere våpen",
+          "Samarbeid mellom land for å løse konflikter fredelig"
         ],
         "correct": 0,
         "explain": "Nasjonalisme skapte spenninger, særlig på Balkan."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hvilken stat ble opprettet etter første verdenskrig?",
         "options": [
-          "Tyskland",
-          "Frankrike",
+          "Romania",
+          "Bulgaria",
           "Polen",
-          "Storbritannia"
+          "Serbia"
         ],
         "correct": 2,
         "explain": "Polen ble igjen en selvstendig stat i 1918.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?",
       "options": [
-        "4/6",
+        "Omtrent 0,667",
         "Omtrent 0,518",
         "Omtrent 0,482",
-        "1/6"
+        "Omtrent 0,999"
       ],
       "correct": 1,
       "explain": "1 − (5/6)⁴."
@@ -91,8 +91,8 @@
       "options": [
         "P(ikke A) = 1 − P(A)",
         "P(A og B) = P(A) · P(B)",
-        "P(A) = gunstige/mulige",
-        "P(A) + P(B) = 1"
+        "P(A eller B) = P(A) + P(B)",
+        "P(ikke A) = P(A)"
       ],
       "correct": 0,
       "explain": "Nyttig for «minst én»-oppgaver."
@@ -102,9 +102,9 @@
       "text": "Hva er forventningsverdien for ett terningkast?",
       "options": [
         "3",
-        "6",
+        "4",
         "3,5",
-        "1/6"
+        "6"
       ],
       "correct": 2,
       "explain": "(1 + 2 + … + 6)/6."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Du betaler 10 kr og vinner 50 kr ved sekser. Hva er forventet netto gevinst?",
       "options": [
-        "40 kr",
-        "8,33 kr",
-        "0 kr",
+        "Omtrent 8,33 kr",
+        "Omtrent 6,67 kr",
+        "−10 kr",
         "Omtrent −1,67 kr"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva sier store talls lov?",
       "options": [
-        "Relativ frekvens nærmer seg sannsynligheten ved mange forsøk",
-        "Store tall er mer sannsynlige",
-        "Etter mange tap kommer en gevinst",
-        "Simulering gir alltid eksakt svar"
+        "Den relative frekvensen nærmer seg sannsynligheten når antall forsøk øker.",
+        "Sannsynligheten for et utfall øker når antall forsøk øker.",
+        "Etter mange tap øker sannsynligheten for gevinst i neste forsøk.",
+        "Simuleringen gir et nøyaktig svar når antall forsøk er stort."
       ],
       "correct": 0,
       "explain": "Med få forsøk kan avviket være stort."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Når gjelder P(A og B) = P(A) · P(B)?",
       "options": [
-        "Alltid",
+        "Når A og B er gjensidig utelukkende",
         "Når A og B er uavhengige",
-        "Når A og B utelukker hverandre",
-        "Når P(A) = P(B)"
+        "Når A og B har samme sannsynlighet",
+        "Når A og B er avhengige"
       ],
       "correct": 1,
       "explain": "Den ene påvirker ikke den andre."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en stokastisk variabel?",
       "options": [
-        "En konstant",
-        "En tilfeldig hendelse",
+        "En regel som gir en sannsynlighet til hvert utfall",
+        "En hendelse som består av flere mulige utfall",
         "En funksjon som gir et tall til hvert utfall",
-        "En type terning"
+        "Et tall som viser sannsynligheten for en hendelse"
       ],
       "correct": 2,
       "explain": "For eksempel summen av to terninger."
@@ -161,8 +161,8 @@
       "id": "q08",
       "text": "Du har fått fem kast på rad uten sekser. Hva er sannsynligheten for sekser i neste kast?",
       "options": [
-        "Større enn 1/6",
-        "Mindre enn 1/6",
+        "1/5",
+        "1/36",
         "5/6",
         "1/6"
       ],
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvilken regnearkfunksjon gir et tilfeldig terningkast?",
       "options": [
-        "SUMMER(1; 6)",
+        "TILFELDIG()",
         "TILFELDIGMELLOM(1; 6)",
-        "GJENNOMSNITT(1; 6)",
-        "ANTALL(1; 6)"
+        "TILFELDIGMELLOM(0; 6)",
+        "TILFELDIGMELLOM(1; 5)"
       ],
       "correct": 1,
       "explain": "Brukes til simulering.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

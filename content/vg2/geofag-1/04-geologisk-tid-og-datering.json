@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva sier superposisjonsprinsippet?",
       "options": [
-        "De øverste lagene er eldst",
-        "De nederste lagene er eldst i en uforstyrret lagrekke",
-        "Alle lag er like gamle",
-        "Lag avsettes skrått"
+        "De øverste lagene er eldst i en uforstyrret lagrekke.",
+        "De nederste lagene er eldst i en uforstyrret lagrekke.",
+        "Alle lagene er like gamle i en uforstyrret lagrekke.",
+        "Lagene ble avsatt samtidig i en uforstyrret lagrekke."
       ],
       "correct": 1,
       "explain": "Nye lag legges oppå de gamle."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken metode brukes på organisk materiale opp til rundt 50 000 år?",
       "options": [
-        "Uran–bly",
-        "Kalium–argon",
-        "Superposisjon",
-        "Karbon-14"
+        "Uran–bly-datering",
+        "Kalium–argon-datering",
+        "Dendrokronologi",
+        "Karbon-14-datering"
       ],
       "correct": 3,
       "explain": "Halveringstiden er rundt 5730 år."
@@ -126,9 +126,9 @@
       "text": "Hva er et ledefossil?",
       "options": [
         "Et fossil av en kortlivet, utbredt art som brukes til å korrelere lag",
-        "Det eldste fossilet som finnes",
-        "Et fossil av en dinosaur",
-        "Et fossil som leder vann"
+        "Et fossil av en langlivet, utbredt art som brukes til å korrelere lag",
+        "Et fossil av en kortlivet, lokalt utbredt art som brukes til å korrelere lag",
+        "Et fossil av en kortlivet, utbredt art som brukes til å bestemme lagets absolutte alder"
       ],
       "correct": 0,
       "explain": "Det gjør det mulig å sammenligne lag på ulike steder."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor fungerer radiometrisk datering best på magmatiske bergarter?",
       "options": [
-        "De inneholder fossiler",
-        "«Klokka» starter når magmaen størkner",
-        "De er alltid yngst",
-        "De har ikke isotoper"
+        "Isotopklokka starter når magmaen dannes.",
+        "Isotopklokka starter når magmaen størkner.",
+        "Isotopklokka starter når bergarten forvitrer.",
+        "Isotopklokka starter når sedimentene avsettes."
       ],
       "correct": 1,
       "explain": "Sedimentære bergarter dateres ofte indirekte."
@@ -155,15 +155,15 @@
         "Rundt 13,8 milliarder år"
       ],
       "correct": 2,
-      "explain": "13,8 milliarder år er universets alder."
+      "explain": "Jorda ble dannet for rundt 4,6 milliarder år siden."
     },
     {
       "id": "q08",
       "text": "Hva er en diskordans?",
       "options": [
-        "Et fossil",
-        "En type radioaktiv isotop",
-        "En vulkansk gang",
+        "Et skifte i lagrekka som viser en endring i avsetningsmiljøet",
+        "En grense i lagrekka som viser at magma trengte inn mellom lagene",
+        "Et brudd i bergarten som viser at en forkastning har flyttet lagene",
         "Et brudd i lagrekka som viser et hull i historien"
       ],
       "correct": 3,
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er varv?",
       "options": [
-        "Radioaktive isotoper",
+        "Månedlige lag i innsjøsedimenter",
         "Årlige lag i innsjøsedimenter",
-        "Fossiler",
-        "Vulkanske ganger"
+        "Årlige lag i havsedimenter",
+        "Årlige lag i elveavsetninger"
       ],
       "correct": 1,
       "explain": "De kan telles som årringer.",
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva markerer slutten av kritt for 66 millioner år siden?",
         "options": [
-          "Jordas dannelse",
+          "En masseutryddelse der de første dinosaurene oppsto",
           "En masseutryddelse der et meteorittnedslag bidro",
-          "Den første istida",
-          "Menneskets opprinnelse"
+          "En masseutryddelse der de første pattedyrene oppsto",
+          "En masseutryddelse der de første menneskene oppsto"
         ],
         "correct": 1,
         "explain": "Dinosaurene, unntatt fuglene, døde ut.",
@@ -328,9 +328,9 @@
         "text": "Hvilket mineral brukes ofte ved uran–bly-datering?",
         "options": [
           "Zirkon",
-          "Kalkspat",
-          "Glimmer",
-          "Gips"
+          "Kvarts",
+          "Gips",
+          "Halitt"
         ],
         "correct": 0,
         "explain": "Zirkon er svært motstandsdyktig.",
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

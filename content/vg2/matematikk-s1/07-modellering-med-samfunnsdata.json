@@ -81,7 +81,7 @@
         "Lineær",
         "Eksponentiell",
         "Andregrads",
-        "Konstant"
+        "Logistisk"
       ],
       "correct": 1,
       "explain": "Fast vekstfaktor."
@@ -91,8 +91,8 @@
       "text": "S(t) = −0,5t² + 12t + 40. Hva er S′(5)?",
       "options": [
         "7",
+        "9,5",
         "12",
-        "−5",
         "87,5"
       ],
       "correct": 0,
@@ -103,9 +103,9 @@
       "text": "Når er salget størst ifølge modellen S(t) = −0,5t² + 12t + 40, der t er år etter 2015?",
       "options": [
         "2020",
-        "2025",
+        "2026",
         "2027",
-        "2035"
+        "2039"
       ],
       "correct": 2,
       "explain": "S′(t) = 0 gir t = 12."
@@ -115,9 +115,9 @@
       "text": "Hva betyr et høyt R²?",
       "options": [
         "At modellen er bevist riktig",
-        "At dataene er feil",
-        "At modellen alltid gir gode prognoser",
-        "At modellen følger dataene godt"
+        "At datapunktene er målt feil",
+        "At modellen gir sikre prognoser",
+        "At modellen følger datapunktene godt"
       ],
       "correct": 3,
       "explain": "Men det sier ikke noe sikkert om framtiden."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvorfor kan et andregradspolynom være en dårlig modell for salg langt fram i tid?",
       "options": [
-        "Det vil til slutt gi negativt salg",
-        "Det kan ikke deriveres",
-        "Det har ingen toppunkt",
-        "Det vokser alltid"
+        "Modellen kan etter hvert gi et negativt salg.",
+        "Modellen kan ikke beskrive en topp i salget.",
+        "Modellen kan ikke deriveres når t blir stor.",
+        "Modellen gir samme vekst gjennom hele perioden."
       ],
       "correct": 0,
       "explain": "Urimelig svar ved ekstrapolering."
@@ -140,8 +140,8 @@
       "options": [
         "Lineær",
         "Logistisk",
-        "Konstant",
-        "Tredjegrads med negativ ledende koeffisient"
+        "Eksponentiell",
+        "Andregradsmodell"
       ],
       "correct": 1,
       "explain": "Andelen kan ikke bli over 100 %.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på faste og løpende priser?",
       "options": [
-        "Det er det samme",
-        "Faste priser er alltid høyere",
-        "Faste priser er justert for prisstigning",
-        "Løpende priser er justert for prisstigning"
+        "Løpende priser viser beløp korrigert for prisstigning.",
+        "Faste priser viser beløp uten korreksjon for prisstigning.",
+        "Faste priser viser beløp korrigert for prisstigning.",
+        "Løpende priser viser beløp omregnet til et basisår."
       ],
       "correct": 2,
       "explain": "Viktig ved sammenligning over tid."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvordan bør S′(5) = 7 tolkes når S er salg i tusen enheter?",
       "options": [
-        "Salget er 7 enheter",
-        "Salget er 7000",
-        "Salget var størst i år 5",
-        "Salget økte med omtrent 7000 enheter per år ved t = 5"
+        "Salget var omtrent 7 tusen enheter ved t = 5.",
+        "Salget økte med omtrent 7 enheter per år ved t = 5.",
+        "Salget økte med omtrent 7000 enheter fram til t = 5.",
+        "Salget økte med omtrent 7000 enheter per år ved t = 5."
       ],
       "correct": 3,
       "explain": "Husk enhet og sammenheng."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva er et godt første steg før du velger modelltype?",
       "options": [
-        "Plotte dataene og se på formen",
-        "Velge den mest avanserte modellen",
-        "Slette avvikende punkter",
-        "Regne ut den deriverte"
+        "Plott dataene og undersøk formen.",
+        "Tilpass en avansert modell først.",
+        "Slett avvikende punkter først.",
+        "Beregn R² før modellvalg."
       ],
       "correct": 0,
       "explain": "Formen gir hint om modelltypen."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilken kilde er best for norsk befolkningsstatistikk?",
       "options": [
-        "Sosiale medier",
+        "Norges Bank",
         "Statistisk sentralbyrå",
-        "En reklamebrosjyre",
-        "Et debattinnlegg"
+        "Kartverket",
+        "Meteorologisk institutt"
       ],
       "correct": 1,
       "explain": "Offisiell statistikk.",
@@ -318,7 +318,7 @@
         "type": "flervalg",
         "text": "Hva er S(12) når S(t) = −0,5t² + 12t + 40?",
         "options": [
-          "100",
+          "72",
           "112",
           "184",
           "40"
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvorfor lar vi ofte t = 0 svare til et startår?",
         "options": [
-          "Det gjør tallene i modellen enklere",
-          "Det er påbudt",
-          "Det gir alltid høyere R²",
-          "Det fjerner feil i dataene"
+          "Det gjør tallene i modellen enklere å håndtere.",
+          "Det sikrer at modellen får en høyere R²-verdi.",
+          "Det fjerner målefeil fra tallene i datasettet.",
+          "Det gjør at modellen ikke trenger en konstant."
         ],
         "correct": 0,
         "explain": "Store årstall gir uhåndterlige koeffisienter."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva bør være med i en presentasjon av modellarbeidet?",
         "options": [
-          "Bare modellen",
-          "Bare grafen",
-          "Grafer, modell, tolkning, drøfting og kilder",
-          "Bare konklusjonen"
+          "Den bør vise modellen og konklusjonen, mens drøfting og kilder kan utelates.",
+          "Den bør vise grafen og modellen, mens tolkning og kilder kan utelates.",
+          "Den bør vise grafer, modell, tolkning, drøfting og kilder.",
+          "Den bør vise konklusjonen og beregningene, mens graf og drøfting kan utelates."
         ],
         "correct": 2,
         "explain": "Hele prosessen skal komme fram."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

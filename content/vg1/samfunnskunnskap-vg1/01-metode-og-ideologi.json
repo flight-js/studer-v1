@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner kvalitative metoder?",
       "options": [
-        "De gir mange tall om mange personer",
+        "De gir oversikt over svar fra mange personer",
         "De gir dybdeinnsikt om få personer",
-        "De bruker bare statistikk",
-        "De er alltid mer korrekte"
+        "De undersøker temaer ved å telle svar i spørreskjemaer",
+        "De måler holdninger med statistiske tall fra store utvalg"
       ],
       "correct": 1,
       "explain": "Intervjuer og observasjon er typiske kvalitative metoder."
@@ -90,9 +90,9 @@
       "text": "Hva betyr det at et utvalg er representativt?",
       "options": [
         "At det ligner gruppen man vil si noe om",
-        "At det er stort",
-        "At det bare består av eksperter",
-        "At alle er enige"
+        "At utvalget er stort nok til å gi sikre resultater",
+        "At deltakerne har særlig kunnskap om temaet",
+        "At deltakerne gir like svar på undersøkelsens spørsmål"
       ],
       "correct": 0,
       "explain": "Et skjevt utvalg gir misvisende resultater."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva kjennetegner sosialdemokratiet?",
       "options": [
-        "Fullt statseie av all produksjon",
-        "Ingen stat",
-        "Bare markedsøkonomi",
+        "Statsstyrt økonomi med offentlig eierskap og planlegging",
+        "Markedsøkonomi med privat velferd og liten omfordeling",
+        "Markedsøkonomi med lave skatter og begrensede offentlige tjenester",
         "Blandingsøkonomi med velferdsstat og omfordeling"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvordan kan interesser påvirke en debatt?",
       "options": [
         "De kan påvirke hvilke argumenter og kilder folk velger",
-        "De har ingen betydning",
-        "De gjør alle enige",
-        "De gjør debatten mer nøytral"
+        "De påvirker hvordan folk stemmer, men ikke argumentene de bruker",
+        "De gjør at alle deltakerne vurderer kildene på samme måte",
+        "De avgjør om påstandene i debatten er sanne eller usanne"
       ],
       "correct": 0,
       "explain": "Folk argumenterer ofte ut fra det de selv tjener eller taper på."
@@ -137,22 +137,22 @@
       "id": "q06",
       "text": "Hva er reliabilitet?",
       "options": [
-        "At man måler det man vil måle",
-        "At målingen er pålitelig og ville gitt samme resultat på nytt",
-        "At utvalget er stort",
-        "At kilden er ny"
+        "At målingen undersøker fenomenet den skal undersøke",
+        "At målingen gir stabile resultater når den gjentas",
+        "At utvalget omfatter mange av dem som undersøkes",
+        "At kilden inneholder opplysninger som nylig er publisert"
       ],
       "correct": 1,
-      "explain": "Validitet handler om man måler det riktige."
+      "explain": "Reliabilitet handler om at målinger gir stabile resultater når de gjentas."
     },
     {
       "id": "q07",
       "text": "Hva ligger vanligvis til grunn for plasseringen på høyre–venstre-aksen?",
       "options": [
-        "Synet på miljø",
-        "Synet på kultur",
-        "Synet på økonomisk likhet og statens rolle",
-        "Synet på utenrikspolitikk"
+        "Synet på hvor mye staten bør prioritere naturvern",
+        "Synet på tradisjoner og endringer i kulturen",
+        "Synet på økonomisk likhet og hvor mye staten bør styre",
+        "Synet på landets samarbeid med andre stater"
       ],
       "correct": 2,
       "explain": "Venstresiden vil ha mer omfordeling, høyresiden mer marked."
@@ -174,9 +174,9 @@
       "text": "Hva er forskjellen på uenighet om fakta og uenighet om verdier?",
       "options": [
         "Fakta kan ofte sjekkes, mens verdier handler om hva som er viktigst",
-        "Det er ingen forskjell",
-        "Verdier kan alltid bevises",
-        "Fakta er alltid meninger"
+        "Fakta handler om hva som er viktigst, mens verdier kan ofte sjekkes",
+        "Fakta og verdier kan begge kontrolleres direkte gjennom målinger",
+        "Fakta og verdier er begge personlige meninger om samfunnet"
       ],
       "correct": 0,
       "explain": "Uenighet om verdier er kjernen i politikken."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor kan det være nyttig å argumentere for et syn du er uenig i?",
       "options": [
-        "For å bytte mening",
+        "For å vise at motpartens synspunkt er feil",
         "For å vise at du forstår debatten og motpartens argumenter",
-        "For å lure andre",
-        "Det er ikke nyttig"
+        "For å unngå å ta stilling til uenigheten",
+        "For å få motparten til å trekke tilbake meningene sine"
       ],
       "correct": 1,
       "explain": "Det gjør også dine egne argumenter bedre."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hvilken metode passer best for å forstå hvordan unge opplever utenforskap?",
         "options": [
-          "Dybdeintervjuer",
-          "Registerdata om inntekt",
-          "Folketelling",
-          "Valgstatistikk"
+          "Dybdeintervjuer med åpne spørsmål",
+          "Spørreundersøkelse med faste svaralternativer",
+          "Analyse av registerdata om inntekt",
+          "Sammenligning av valgstatistikk over tid"
         ],
         "correct": 0,
         "explain": "Kvalitative metoder gir innsikt i opplevelser."
@@ -328,13 +328,13 @@
         "type": "flervalg",
         "text": "Hvilke partier regnes vanligvis til høyre i norsk politikk?",
         "options": [
-          "Rødt og SV",
+          "Rødt og Sosialistisk Venstreparti",
           "Høyre og Fremskrittspartiet",
-          "Arbeiderpartiet og SV",
-          "MDG og Rødt"
+          "Arbeiderpartiet og Sosialistisk Venstreparti",
+          "Miljøpartiet De Grønne og Rødt"
         ],
         "correct": 1,
-        "explain": "Rødt og SV regnes til venstre.",
+        "explain": "Høyre og Fremskrittspartiet regnes vanligvis til høyre i norsk politikk.",
         "niva": "eksempel"
       },
       {
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva er en ideologi?",
         "options": [
-          "Et politisk parti",
-          "En lov",
+          "Et politisk parti som stiller kandidater til valg",
+          "En lov vedtatt av Stortinget som gjelder for innbyggerne",
           "Sammenhengende ideer om hvordan samfunnet er og bør være",
-          "En type statistikk"
+          "En statistikk med tall som beskriver forhold i samfunnet"
         ],
         "correct": 2,
         "explain": "Ideologier ligger til grunn for partienes politikk."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

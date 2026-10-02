@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på anatomi og fysiologi?",
       "options": [
-        "Det er det samme",
-        "Anatomi er oppbygning, fysiologi er funksjon",
-        "Anatomi gjelder planter, fysiologi dyr",
-        "Fysiologi er oppbygning, anatomi er funksjon"
+        "Anatomi beskriver funksjon, mens fysiologi beskriver oppbygning.",
+        "Anatomi beskriver oppbygning, mens fysiologi beskriver funksjon.",
+        "Anatomi beskriver organenes oppgaver, mens fysiologi beskriver hvor de ligger.",
+        "Anatomi beskriver kroppens kjemiske reaksjoner, mens fysiologi beskriver cellenes form."
       ],
       "correct": 1,
       "explain": "De henger tett sammen."
@@ -94,7 +94,7 @@
         "I mitokondriene",
         "I kloroplastene",
         "I cellekjernen",
-        "I celleveggen"
+        "I Golgiapparatet"
       ],
       "correct": 0,
       "explain": "Energien lagres i ATP."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvorfor har store organismer store indre overflater?",
       "options": [
-        "For å bli tyngre",
-        "For å se større ut",
-        "Fordi volumet vokser raskere enn overflaten",
-        "Fordi de har færre celler"
+        "Fordi overflaten vokser raskere enn volumet hos store organismer.",
+        "Fordi store organismer har kortere avstand mellom cellene og omgivelsene.",
+        "Fordi volumet vokser raskere enn overflaten hos store organismer.",
+        "Fordi store organismer har færre celler som trenger stoffutveksling."
       ],
       "correct": 2,
       "explain": "Stoffutvekslingen må skje gjennom overflater."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva gjør vedvevet (xylem) i planter?",
       "options": [
-        "Frakter sukker nedover",
-        "Lager fotosyntese",
-        "Lukker spalteåpningene",
-        "Frakter vann og mineraler opp fra røttene"
+        "Vedvevet frakter sukker og næring fra røttene opp gjennom planten.",
+        "Vedvevet frakter vann og mineraler fra bladene ned mot røttene.",
+        "Vedvevet frakter sukker fra bladene ned mot røttene.",
+        "Vedvevet frakter vann og mineraler fra røttene opp gjennom planten."
       ],
       "correct": 3,
       "explain": "Silvevet frakter sukker."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er motstrømsprinsippet i gjellene?",
       "options": [
-        "Blod og vann strømmer i motsatt retning",
-        "Vann strømmer inn og ut samme vei",
-        "Blodet står stille",
-        "Fisken svømmer baklengs"
+        "Blod og vann strømmer gjennom gjellene i motsatt retning.",
+        "Blod og vann strømmer gjennom gjellene i samme retning.",
+        "Blodet strømmer gjennom gjellene, mens vannet står stille der.",
+        "Vannet strømmer gjennom gjellene, mens blodet beveger seg utenom dem."
       ],
       "correct": 0,
       "explain": "Det gir effektivt oksygenopptak."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvordan får insekter oksygen til cellene?",
       "options": [
-        "Med lunger",
-        "Gjennom trakéer",
-        "Med gjeller",
-        "Gjennom blodet i et lukket kretsløp"
+        "Gjennom lunger, som leder luft videre til cellene.",
+        "Gjennom trakéer, som leder luft direkte til cellene.",
+        "Gjennom blodet i et lukket kretsløp til cellene.",
+        "Gjennom gjeller, som tar opp oksygen fra vannet."
       ],
       "correct": 1,
       "explain": "Rør leder luft direkte inn."
@@ -154,7 +154,7 @@
         "I magesekken",
         "I tykktarmen",
         "I tynntarmen",
-        "I spiserøret"
+        "I endetarmen"
       ],
       "correct": 2,
       "explain": "Tarmtottene gir stor overflate."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva er et dobbelt blodkretsløp?",
       "options": [
-        "To hjerter",
-        "Blod som går begge veier i samme åre",
-        "Et åpent og et lukket kretsløp",
-        "Ett kretsløp gjennom lungene og ett gjennom kroppen"
+        "Blodet går gjennom ett kretsløp til lungene og kroppen samlet.",
+        "Blodet går gjennom to kretsløp til lungene før det når kroppen.",
+        "Blodet går gjennom to hjerter, ett til lungene og ett til kroppen.",
+        "Blodet går gjennom ett kretsløp til lungene og ett til kroppen."
       ],
       "correct": 3,
       "explain": "Pattedyr og fugler har det."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Har planter celleånding?",
       "options": [
-        "Ja, i tillegg til fotosyntese",
-        "Nei, bare fotosyntese",
-        "Bare om natten",
-        "Bare i røttene"
+        "Ja, planter driver celleånding i tillegg til fotosyntese.",
+        "Nei, planter får energi gjennom fotosyntesen uten celleånding.",
+        "Ja, planter driver celleånding i stedet for fotosyntese.",
+        "Ja, planter driver celleånding i røttene, men ikke i bladene."
       ],
       "correct": 0,
       "explain": "Alle levende planteceller trenger ATP."
@@ -319,7 +319,7 @@
         "options": [
           "Karbondioksid",
           "Glukose",
-          "ATP fra oksygen",
+          "Vann",
           "Nitrogen"
         ],
         "correct": 1,
@@ -331,9 +331,9 @@
         "text": "Hvor kan planter regulere gassutvekslingen?",
         "options": [
           "I spalteåpningene",
-          "I røttene",
-          "I blomstene",
-          "I frøene"
+          "I kloroplastene",
+          "I rothårene",
+          "I ledningsvevet"
         ],
         "correct": 0,
         "explain": "De kan åpnes og lukkes."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva blir fett brutt ned til?",
         "options": [
-          "Aminosyrer",
-          "Glukose",
+          "Glukose og aminosyrer",
+          "Glukose og fruktose",
           "Fettsyrer og glyserol",
-          "Vitaminer"
+          "Aminosyrer og nukleotider"
         ],
         "correct": 2,
         "explain": "Enzymet lipase gjør jobben."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

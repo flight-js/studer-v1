@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva gjorde jordbruksrevolusjonen mulig?",
       "options": [
-        "Internett",
+        "Nomadisme, jakt, små grupper og midlertidige leirer",
         "Bofasthet, matoverskudd, byer og stater",
-        "Dampmaskiner",
-        "Trykte bøker"
+        "Fabrikker, jernbaner, lønnsarbeid og industribyer",
+        "Handel, trykkerier, universiteter og nasjonale stater"
       ],
       "correct": 1,
       "explain": "Overskudd ga rom for spesialisering."
@@ -90,9 +90,9 @@
       "text": "Når utviklet Gutenberg trykking med løse typer?",
       "options": [
         "Rundt 1450",
-        "Rundt 1000",
-        "Rundt 1800",
-        "Rundt 1650"
+        "Rundt 1200",
+        "Rundt 1600",
+        "Rundt 1750"
       ],
       "correct": 0,
       "explain": "Bøker ble billigere."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan påvirket boktrykkerkunsten reformasjonen?",
       "options": [
-        "Den stoppet den",
-        "Den hadde ingen betydning",
+        "Trykte skrifter gjorde reformatorenes budskap vanskeligere å spre",
+        "Trykte skrifter begrenset reformasjonen til lokale menigheter",
         "Trykte skrifter spredte ideene raskt",
-        "Den gjorde kirken sterkere"
+        "Trykte skrifter gjorde at reformatorenes tekster ble værende på latin"
       ],
       "correct": 2,
       "explain": "Bibelen ble oversatt til folkespråk."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva var nytt i den vitenskapelige revolusjonen?",
       "options": [
-        "Troen på at jorda er sentrum",
-        "At kirken bestemte alt",
-        "At naturen var uforståelig",
+        "Kirkens autoritet og klassiske tekster som grunnlag for kunnskap",
+        "Religiøs åpenbaring og tradisjon som grunnlag for naturkunnskap",
+        "Filosofisk spekulasjon uten observasjoner som grunnlag for kunnskap",
         "Observasjon, eksperiment og matematikk som grunnlag for kunnskap"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvor startet den industrielle revolusjonen?",
       "options": [
         "I Storbritannia",
-        "I Norge",
-        "I Kina",
-        "I USA"
+        "I Frankrike",
+        "I Nederland",
+        "I Tyskland"
       ],
       "correct": 0,
       "explain": "Fra slutten av 1700-tallet."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilke levekår hadde mange arbeidere under den tidlige industrialiseringen?",
       "options": [
-        "Korte arbeidsdager og god lønn",
+        "Korte arbeidsdager, høye lønninger og romslige boliger",
         "Lange arbeidsdager, barnearbeid og trangboddhet",
-        "Fri helsehjelp",
-        "Store boliger"
+        "Moderate arbeidsdager, god helsehjelp og trygg boligstandard",
+        "Voksne arbeidere, korte skift og gode boforhold"
       ],
       "correct": 1,
       "explain": "På lang sikt økte velstanden."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvordan endret den vitenskapelige revolusjonen virkelighetsoppfatningen?",
       "options": [
-        "Mennesket ble sentrum i universet",
-        "Alt ble forklart med myter",
+        "Universet ble sett som et system der jorda står i sentrum",
+        "Naturen ble sett som et rike styrt av ånder og myter",
         "Naturen ble sett som en maskin som følger lover",
-        "Vitenskapen ble forbudt"
+        "Naturens lover ble sett som ukjente og utilgjengelige for vitenskapen"
       ],
       "correct": 2,
       "explain": "Et mekanisk verdensbilde."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor er teknologideterminisme omstridt?",
       "options": [
-        "Fordi teknologi ikke finnes",
-        "Fordi alt skyldes religion",
-        "Fordi teknologi ikke har betydning",
-        "Fordi også økonomiske interesser og ideer driver endringene"
+        "Fordi teknologien utvikles uavhengig av økonomiske interesser og ideer",
+        "Fordi vitenskapelige oppdagelser alene forklarer teknologisk endring",
+        "Fordi politiske valg former teknologien, mens økonomi ikke påvirker den",
+        "Fordi økonomiske interesser og ideer også driver endringene"
       ],
       "correct": 3,
       "explain": "Teknologien alene bestemmer ikke.",
@@ -175,9 +175,9 @@
       "text": "Hvilken negativ følge fikk jordbruksrevolusjonen?",
       "options": [
         "Mer ulikhet, krig om jord og nye sykdommer",
-        "Mindre befolkning",
-        "Færre byer",
-        "Mindre mat"
+        "Større matoverskudd, mindre ulikhet og færre konflikter",
+        "Lavere befolkning, færre bosetninger og mindre matproduksjon",
+        "Jevnere tilgang til jord, færre sykdommer og mindre konflikt"
       ],
       "correct": 0,
       "explain": "Endringer gir vinnere og tapere."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål har den digitale revolusjonen reist?",
       "options": [
-        "Om dampkraft",
+        "Om arbeidstid, barnearbeid og lønn i fabrikkene",
         "Om personvern, overvåking og makt hos teknologiselskaper",
-        "Om livegenskap",
-        "Om kongens guddommelige rett"
+        "Om jordfordeling, matoverskudd og bofasthet",
+        "Om produksjon, dampkraft og transport med jernbane"
       ],
       "correct": 1,
       "explain": "Og om hva som er sant."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvem beskrev tyngdekraften med matematiske lover i 1687?",
         "options": [
-          "Galilei",
+          "Johannes Kepler",
           "Isaac Newton",
-          "Kopernikus",
-          "Gutenberg"
+          "Galileo Galilei",
+          "Robert Hooke"
         ],
         "correct": 1,
         "explain": "Principia."
@@ -328,9 +328,9 @@
         "text": "Hva er urbanisering?",
         "options": [
           "Flytting fra land til by",
-          "Bygging av slott",
-          "Nedleggelse av byer",
-          "Innføring av jordbruk"
+          "Flytting fra by til land",
+          "Flytting mellom ulike byer",
+          "Flytting fra land til utlandet"
         ],
         "correct": 0,
         "explain": "Typisk for industrialiseringen."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilken energikilde drev dampmaskinene?",
         "options": [
-          "Vind",
-          "Vann",
+          "Vindkraft",
+          "Vannkraft",
           "Kull",
-          "Sol"
+          "Solenergi"
         ],
         "correct": 2,
         "explain": "Kull ga ny, stor energi."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

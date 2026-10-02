@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva måler BNP?",
       "options": [
-        "Hvor mye staten eier",
-        "Verdien av varer og tjenester produsert i landet",
-        "Antall arbeidsledige",
-        "Prisstigningen"
+        "Verdien av varer og tjenester solgt i landet i en periode",
+        "Verdien av varer og tjenester produsert i landet i en periode",
+        "Verdien av varer og tjenester brukt i landet i en periode",
+        "Verdien av varer og tjenester eid av landet i en periode"
       ],
       "correct": 1,
       "explain": "Verdiskapingen i en periode."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hvorfor bruker vi reelt BNP for å måle vekst?",
       "options": [
-        "Fordi det er justert for prisstigning",
-        "Fordi det er høyere",
-        "Fordi det inkluderer ubetalt arbeid",
-        "Fordi det er i dollar"
+        "Fordi tallet er korrigert for endringer i det generelle prisnivået",
+        "Fordi tallet bygger på priser uten justering over tid",
+        "Fordi tallet inkluderer verdien av ubetalt arbeid",
+        "Fordi tallet omregnes til en felles valuta"
       ],
       "correct": 0,
       "explain": "Nominelt BNP kan øke bare fordi prisene stiger."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er den viktigste kilden til vekst på lang sikt?",
       "options": [
-        "Flere feriedager",
-        "Høyere priser",
-        "Bedre teknologi og kunnskap",
-        "Mer import"
+        "Høyere priser uten økt produksjon",
+        "Mer import uten økt innenlandsk produksjon",
+        "Framgang innen teknologi og kunnskap",
+        "Større pengebruk uten økt produksjon"
       ],
       "correct": 2,
       "explain": "Økt produktivitet."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er holdt utenfor i BNP for Fastlands-Norge?",
       "options": [
-        "Jordbruk",
-        "Offentlig sektor",
-        "Industri",
+        "Fiske og oppdrett og innenriks sjøfart",
+        "Jordbruk og offentlig virksomhet",
+        "Industri og innenriks transport",
         "Olje- og gassutvinning og utenriks sjøfart"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva er en svakhet ved BNP?",
       "options": [
-        "Ubetalt arbeid er ikke med",
-        "Det måler produksjon",
-        "Det kan sammenlignes over tid",
-        "Det lages av SSB"
+        "Ubetalt arbeid er ikke regnet med i BNP",
+        "Offentlige tjenester er ikke regnet med i BNP",
+        "Eksporterte varer er ikke regnet med i BNP",
+        "Arbeidsinntekter er ikke regnet med i BNP"
       ],
       "correct": 0,
       "explain": "Også miljøskader og fordeling mangler."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvordan kan gode institusjoner gi økonomisk vekst?",
       "options": [
-        "Ved å øke skattene",
+        "Ved å svekke vernet av eiendomsrett og avtaler",
         "Ved å gjøre det tryggere å investere",
-        "Ved å forby handel",
-        "Ved å redusere utdanning"
+        "Ved å gjøre handel mellom bedrifter vanskeligere",
+        "Ved å øke usikkerheten rundt investeringer"
       ],
       "correct": 1,
       "explain": "Rettsstat og lite korrupsjon."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva kombinerer HDI?",
       "options": [
-        "BNP og import",
-        "Renter og priser",
+        "Levealder, sysselsetting og prisnivå",
+        "Utdanning, eksport og skattenivå",
         "Levealder, utdanning og inntekt",
-        "Eksport og skatt"
+        "Inntekt, renter og arbeidsledighet"
       ],
       "correct": 2,
       "explain": "FNs indeks for menneskelig utvikling.",
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hvorfor kan oljeutvinning gi et for positivt bilde i BNP?",
       "options": [
-        "Fordi olje er billig",
-        "Fordi den ikke gir inntekter",
-        "Fordi den er ulovlig",
-        "Fordi vi tærer på en ressurs som ikke kommer tilbake"
+        "Fordi oljeprisen ikke regnes med når produksjonen måles",
+        "Fordi inntekter fra olje holdes utenfor BNP-beregningen",
+        "Fordi oljeutvinning regnes som produksjon i utlandet",
+        "Fordi vi bruker opp en ressurs som ikke fornyes"
       ],
       "correct": 3,
       "explain": "Formuen reduseres.",
@@ -179,9 +179,9 @@
       "text": "Hva er den største delen av nasjonalformuen i Norge?",
       "options": [
         "Humankapitalen",
-        "Oljefondet",
-        "Boligene",
-        "Skogen"
+        "Finanskapitalen",
+        "Realkapitalen",
+        "Naturkapitalen"
       ],
       "correct": 0,
       "explain": "Arbeidskraften vår.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva betyr grønn vekst?",
       "options": [
-        "At BNP synker",
+        "Økt verdiskaping samtidig som utslipp går ned, men ressursbruken øker",
         "Økt verdiskaping samtidig som utslipp og ressursbruk går ned",
-        "At alle har grønne biler",
-        "At staten eier alt"
+        "Økt verdiskaping samtidig som ressursbruken går ned, men utslippene øker",
+        "Redusert verdiskaping samtidig som utslipp og ressursbruk går ned"
       ],
       "correct": 1,
       "explain": "Et sentralt spørsmål i klimadebatten.",
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er økonomisk vekst?",
         "options": [
-          "Økt nominelt BNP",
-          "Økt reelt BNP",
-          "Økt befolkning",
-          "Økte priser"
+          "En økning i BNP målt i løpende priser",
+          "En økning i BNP målt i faste priser",
+          "En økning i befolkningen uten høyere produksjon",
+          "En økning i prisnivået uten høyere produksjon"
         ],
         "correct": 1,
         "explain": "Justert for prisstigning."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva gjør investeringer i maskiner med produktiviteten?",
         "options": [
-          "Øker den",
-          "Senker den",
-          "Påvirker den ikke",
-          "Fjerner den"
+          "Flere maskiner per arbeider øker produktiviteten",
+          "Flere maskiner per arbeider reduserer produktiviteten",
+          "Flere maskiner per arbeider gir uendret produktivitet",
+          "Flere maskiner per arbeider øker arbeidstiden, ikke produktiviteten"
         ],
         "correct": 0,
         "explain": "Mer realkapital per arbeider."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hvorfor bruker vi BNP per innbygger?",
         "options": [
-          "For å måle eksport",
-          "For å måle rente",
+          "For å sammenligne landenes eksport med hverandre",
+          "For å sammenligne prisnivået mellom ulike land",
           "For å sammenligne land med ulik befolkning",
-          "For å måle arbeidsledighet"
+          "For å sammenligne arbeidsledigheten mellom ulike land"
         ],
         "correct": 2,
         "explain": "Tar hensyn til befolkningsstørrelsen."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

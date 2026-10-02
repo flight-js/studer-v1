@@ -94,9 +94,9 @@
       "text": "Hvordan sier du «Jeg er sulten»?",
       "options": [
         "Ich habe Hunger.",
-        "Ich bin Hunger.",
         "Ich habe Durst.",
-        "Ich esse Hunger."
+        "Ich esse gerade.",
+        "Ich mag Äpfel."
       ],
       "correct": 0,
       "explain": "På tysk «har» man sult."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hvordan bestiller du høflig en te?",
       "options": [
-        "Ich will Tee!",
+        "Ich möchte ein Tee, bitte.",
         "Ich möchte einen Tee, bitte.",
-        "Tee jetzt!",
-        "Du Tee?"
+        "Ich möchte eine Tee, bitte.",
+        "Ich möchte einer Tee, bitte."
       ],
       "correct": 1,
       "explain": "«Ich möchte …, bitte» er høflig."
@@ -129,9 +129,9 @@
       "id": "q05",
       "text": "Hvordan ber du om regningen?",
       "options": [
-        "Guten Appetit!",
-        "Prost!",
         "Die Speisekarte, bitte.",
+        "Das Getränk, bitte.",
+        "Den Teller, bitte.",
         "Die Rechnung, bitte."
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "id": "q09",
       "text": "Hva er «das Abendbrot» i mange tyske familier?",
       "options": [
-        "En varm middag",
-        "Kake",
-        "Frokost",
+        "Et varmt måltid med kjøtt og poteter",
+        "Et frokostmåltid med brød og syltetøy",
+        "Et søtt bakverk fylt med frukt og krem",
         "Et kveldsmåltid med brød og pålegg"
       ],
       "correct": 3,
@@ -191,7 +191,7 @@
       "text": "Hva betyr «die Speisekarte»?",
       "options": [
         "Regningen",
-        "Bordet",
+        "Tallerkenen",
         "Menyen",
         "Kokken"
       ],
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich mag keinen Fisch»?",
         "options": [
-          "Jeg liker fisk",
+          "Jeg spiser ikke fisk",
           "Jeg liker ikke fisk",
-          "Jeg har fisk",
-          "Jeg spiser fisk i dag"
+          "Jeg liker ikke kjøtt",
+          "Jeg liker fisk godt"
         ],
         "correct": 1,
         "explain": "«kein» nekter substantivet."
@@ -350,7 +350,7 @@
         "type": "flervalg",
         "text": "Hva sier man når man skåler?",
         "options": [
-          "Guten Appetit!",
+          "Mahlzeit!",
           "Danke!",
           "Prost!",
           "Tschüs!"
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

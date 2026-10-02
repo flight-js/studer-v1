@@ -78,9 +78,9 @@
       "id": "q01",
       "text": "Hva er et livssyn?",
       "options": [
-        "En type religion",
-        "En politisk ideologi",
-        "En vitenskapelig teori",
+        "En religiøs lære om guder, ritualer og regler for tilhengerne",
+        "En politisk plan for hvordan samfunnet bør styres og hvilke lover som gjelder",
+        "En vitenskapelig forklaring på hvordan naturen og universet fungerer",
         "En grunnleggende oppfatning av mennesket, livet og hva som er rett og galt"
       ],
       "correct": 3,
@@ -93,7 +93,7 @@
         "Mennesket",
         "Gud",
         "Naturen",
-        "Staten"
+        "Menneskets sjel"
       ],
       "correct": 0,
       "explain": "Humanister mener mennesker selv har ansvar for å skape et godt liv."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva bygger humanister etikken sin på?",
       "options": [
-        "Hellige skrifter",
-        "Kongens befalinger",
+        "Hellige tekster, religiøse regler og religiøse ledere",
+        "Lover, straffer og påbud fra myndighetene",
         "Empati, fornuft og konsekvenser for andre",
-        "Tradisjon alene"
+        "Familietradisjoner, gamle skikker og vaner"
       ],
       "correct": 2,
       "explain": "Humanister mener at vi kan vite hva som er godt uten å vise til en gud."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Når ble Human-Etisk Forbund stiftet?",
       "options": [
-        "1814",
+        "1954",
         "1956",
-        "1905",
-        "2002"
+        "1958",
+        "1962"
       ],
       "correct": 1,
       "explain": "Forbundet er i dag et av de største livssynssamfunnene i Norge.",
@@ -128,9 +128,9 @@
       "text": "Hva er ateisme?",
       "options": [
         "Overbevisningen om at det ikke finnes noen gud",
-        "Synet at man ikke kan vite om det finnes en gud",
-        "Troen på mange guder",
-        "Troen på gjenfødelse"
+        "Usikkerheten om vi kan vite om det finnes en gud",
+        "Overbevisningen om at det finnes flere guder",
+        "Troen på at sjelen blir født på nytt etter døden"
       ],
       "correct": 0,
       "explain": "Det andre alternativet beskriver agnostisisme."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er agnostisisme?",
       "options": [
-        "Troen på én Gud",
-        "Troen på at alt er forutbestemt",
-        "Synet at vi ikke kan vite om det finnes en gud",
-        "Motstand mot all religion"
+        "Troen på at én gud har skapt verden og styrer den",
+        "Synet at menneskers valg er bestemt på forhånd",
+        "Synet at det er umulig å vite om en gud finnes",
+        "Synet at religion bør holdes utenfor samfunnet"
       ],
       "correct": 2,
       "explain": "Ordet kommer fra gresk og betyr «uten kunnskap»."
@@ -151,9 +151,9 @@
       "id": "q07",
       "text": "Hvem sa at «mennesket er alle tings mål»?",
       "options": [
-        "Martin Luther",
-        "Charles Darwin",
-        "Buddha",
+        "Sokrates",
+        "Platon",
+        "Aristoteles",
         "Protagoras"
       ],
       "correct": 3,
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er sekularisering?",
       "options": [
-        "At flere blir religiøse",
+        "At religion får større plass i samfunnet",
         "At religion får mindre betydning i samfunnet",
-        "At staten får en offisiell religion",
-        "At det bygges flere kirker"
+        "At staten knytter seg til en bestemt religion",
+        "At religiøse regler styrer flere deler av samfunnet"
       ],
       "correct": 1,
       "explain": "I Norge har religion fått mindre betydning for mange de siste tiårene."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hvilken seremoni tilbyr Human-Etisk Forbund?",
       "options": [
-        "Dåp",
-        "Nattverd",
-        "Bar mitsva",
+        "Kristen konfirmasjon",
+        "Kristen dåp",
+        "Jødisk bar mitsva",
         "Humanistisk konfirmasjon"
       ],
       "correct": 3,
@@ -190,9 +190,9 @@
       "text": "Hva mener humanister om livssynsfrihet?",
       "options": [
         "At alle skal kunne velge livssyn selv, og at staten bør behandle alle livssyn likt",
-        "At alle bør bli humanister",
-        "At religion bør forbys",
-        "At staten skal bestemme livssyn"
+        "At hver person bør velge livssyn selv, mens staten gir religiøse livssyn større støtte",
+        "At foreldre bør velge livssyn for barna, mens staten behandler livssynene likt",
+        "At personer kan velge livssyn selv, mens staten støtter livssynet flest følger"
       ],
       "correct": 0,
       "explain": "Livssynsfrihet er også en menneskerettighet."
@@ -330,9 +330,9 @@
         "text": "Hva sier den gylne regel?",
         "options": [
           "Gjør mot andre det du vil at de skal gjøre mot deg",
-          "Tenk alltid på deg selv først",
-          "Følg alltid loven",
-          "Gi bort alt du eier"
+          "Følg lovene i landet når du skal avgjøre hva som er rett",
+          "Ta hensyn til hva flertallet mener før du handler mot andre",
+          "La religiøse regler bestemme hvordan du behandler mennesker rundt deg"
         ],
         "correct": 0,
         "explain": "Varianter av regelen finnes i mange religioner og livssyn."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "I hvilken periode oppfordret filosofer folk til å bruke sin egen fornuft?",
         "options": [
-          "Vikingtiden",
-          "Middelalderen",
+          "Renessansen",
+          "Reformasjonen",
           "Opplysningstiden",
-          "Steinalderen"
+          "Romantikken"
         ],
         "correct": 2,
         "explain": "Opplysningstiden var på 1700-tallet."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hva mener de fleste humanister om livet etter døden?",
         "options": [
-          "At man blir gjenfødt",
-          "At vi bare har ett liv",
-          "At alle kommer til himmelen",
-          "At sjelen lever videre i naturen"
+          "At vi blir født på nytt etter døden",
+          "At mennesker bare lever ett liv, fram til døden",
+          "At sjelen fortsetter å leve etter døden",
+          "At livet fortsetter i en annen verden etter døden"
         ],
         "correct": 1,
         "explain": "Derfor legger humanister vekt på å gjøre dette livet meningsfullt."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

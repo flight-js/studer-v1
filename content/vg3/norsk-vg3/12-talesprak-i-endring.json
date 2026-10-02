@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Har Norge en offisiell norm for talespråket?",
       "options": [
-        "Ja, bokmål",
+        "Ja, norsk tale følger bokmålsnormen i hele landet",
         "Nei, det er vanlig å snakke dialekt",
-        "Ja, nynorsk",
-        "Ja, Oslo-dialekt"
+        "Ja, norsk tale følger nynorsknormen i hele landet",
+        "Ja, norsk tale følger Oslo-dialekten i hele landet"
       ],
       "correct": 1,
       "explain": "Uvanlig sammenlignet med mange land."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva er regionalisering?",
       "options": [
-        "At bydialekten påvirker omlandet og regionale talemål vokser fram",
-        "At alle dialekter blir helt like",
-        "At nynorsk blir mer brukt",
-        "At engelsk erstatter norsk"
+        "At bydialekter påvirker omlandet, og regionale talemål vokser fram",
+        "At regionale talemål påvirker byene, og lokale talemål vokser fram",
+        "At dialekter påvirker skriftspråket, og regionale skrivemåter vokser fram",
+        "At talemål påvirkes av medier, og et felles norsk talemål vokser fram"
       ],
       "correct": 0,
       "explain": "En form for dialektutjevning."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er en sosiolekt?",
       "options": [
-        "En dialekt fra et bestemt sted",
-        "Et skriftspråk",
+        "En talemåte knyttet til et bestemt geografisk område",
+        "En skrivemåte knyttet til sosial bakgrunn",
         "En talemåte knyttet til sosial bakgrunn",
-        "Et fremmedspråk"
+        "Et språk knyttet til et bestemt land"
       ],
       "correct": 2,
       "explain": "For eksempel øst- og vestkant i Oslo."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva kjennetegner multietnolektisk ungdomsspråk?",
       "options": [
-        "Bare engelske ord",
-        "Gammelnorske former",
-        "Streng V2-regel",
+        "Lånord, egen rytme og ordstilling der verbet står på andreplass",
+        "Lånord, egen rytme og ordstilling der verbet står sist",
+        "Lånord, egen rytme og ordstilling der subjektet står på andreplass",
         "Lånord, egen rytme og ordstilling der verbet ikke står på andreplass"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er kodeveksling?",
       "options": [
         "Å bytte mellom to språk i samme samtale",
-        "Å skrive kode",
-        "Å bytte dialekt helt",
-        "Å lære et nytt språk"
+        "Å bytte mellom to språk i ulike samtaler",
+        "Å oversette en ytring fra ett språk til et annet",
+        "Å lære gloser fra et nytt språk"
       ],
       "correct": 0,
       "explain": "Vanlig mellom norsk og engelsk."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er domenetap?",
       "options": [
-        "At dialekter forsvinner",
+        "At et språk mister talere gjennom et generasjonsskifte",
         "At et språk mister terreng innen et område",
-        "At man glemmer ord",
-        "At ord får ny betydning"
+        "At en dialekt mister lokale særtrekk over tid",
+        "At et språk får færre lånord fra andre språk"
       ],
       "correct": 1,
       "explain": "For eksempel i forskning.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvilken endring skjer mange steder i norske dialekter?",
       "options": [
-        "Flere kasus",
-        "Mer dativ",
-        "Hunkjønn forsvinner",
-        "Flere dialekter oppstår"
+        "At dativformer blir vanligere i dagligtalen",
+        "At kasusformer blir vanligere i dagligtalen",
+        "At hunkjønnsformer blir erstattet av hankjønnsformer",
+        "At nye dialekter oppstår i byområder"
       ],
       "correct": 2,
       "explain": "«En bok» i stedet for «ei bok».",
@@ -173,7 +173,7 @@
         "Samisk"
       ],
       "correct": 3,
-      "explain": "Kvensk er nasjonalt minoritetsspråk.",
+      "explain": "Samiske språk er urfolksspråk; kvensk er et nasjonalt minoritetsspråk.",
       "niva": "eksempel"
     },
     {
@@ -181,9 +181,9 @@
       "text": "Hvorfor forsvinner særtrekk ved små dialekter?",
       "options": [
         "Fordi folk flytter mer og møter mange andre",
-        "Fordi det er forbudt å bruke dem",
-        "Fordi skolen krever bokmål i tale",
-        "Fordi de aldri har eksistert"
+        "Fordi folk flytter mindre og møter færre andre",
+        "Fordi talemålet styres mer av skriftlige regler",
+        "Fordi lokale medier styrker små dialekter i hverdagen"
       ],
       "correct": 0,
       "explain": "Mobilitet og urbanisering."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva kan en dialekt være et symbol på?",
       "options": [
-        "Utdanning alltid",
+        "Skriftspråk og rettskriving",
         "Hjemsted og tilhørighet",
-        "Inntekt",
-        "Alder alene"
+        "Skolefag og karakterer",
+        "Værforhold og årstider"
       ],
       "correct": 1,
       "explain": "Språk og identitet henger sammen."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva betyr ordet «wolla» i ungdomsspråket?",
         "options": [
-          "«Hei»",
+          "«Hva skjer?»",
           "«Jeg sverger»",
-          "«Takk»",
-          "«Ha det»"
+          "«Det går bra»",
+          "«Kom igjen»"
         ],
         "correct": 1,
         "explain": "Et lånord fra arabisk.",
@@ -334,12 +334,12 @@
         "text": "Hvilket språk er nasjonalt minoritetsspråk i Norge?",
         "options": [
           "Kvensk",
-          "Engelsk",
-          "Samisk",
-          "Svensk"
+          "Svensk",
+          "Dansk",
+          "Engelsk"
         ],
         "correct": 0,
-        "explain": "Samisk er urfolksspråk.",
+        "explain": "Kvensk er et nasjonalt minoritetsspråk, mens samisk er urfolksspråk.",
         "niva": "eksempel"
       },
       {
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er en årsak til endringer i talespråket?",
         "options": [
-          "Færre reiser",
-          "Mindre kontakt mellom folk",
+          "Færre reiser, mindre kontakt mellom folk og mindre bruk av medier",
+          "Skoleundervisning, rettskrivingsregler og skriftlige grammatikkregler",
           "Urbanisering, innvandring og nye medier",
-          "At dialekter er forbudt"
+          "Klimaendringer, årstider og lokale værforhold"
         ],
         "correct": 2,
         "explain": "Samfunnsendringer gir språkendringer."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på feilinformasjon og desinformasjon?",
       "options": [
-        "Det er det samme",
+        "Feilinformasjon er bevisst villedende, desinformasjon er ubevisst feil",
         "Desinformasjon er bevisst villedende, feilinformasjon er ubevisst feil",
-        "Feilinformasjon er alltid bevisst",
-        "Desinformasjon er alltid sann"
+        "Begge begrepene beskriver bevisst villedende informasjon",
+        "Begge begrepene beskriver feil som skyldes manglende kunnskap"
       ],
       "correct": 1,
       "explain": "Hensikten skiller dem."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvorfor kalles EØS-avtalen noen ganger et demokratisk underskudd?",
       "options": [
-        "Fordi Norge innfører EU-regler uten stemmerett i EU",
-        "Fordi Norge ikke har valg",
-        "Fordi EU styrer Stortinget direkte",
-        "Fordi Norge har for mange partier"
+        "Norge innfører EU-regler uten å ha stemmerett i EU",
+        "EU-parlamentet vedtar norske lover direkte uten behandling i Stortinget",
+        "EØS-avtalen gir EU stemmerett når Stortinget vedtar norske lover",
+        "Norske velgere kan ikke stemme ved stortingsvalg på grunn av EØS"
       ],
       "correct": 0,
       "explain": "Norge deltar ikke i vedtakene.",
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hvilken konsekvens kan netthets mot politikere ha?",
       "options": [
-        "Flere vil stille til valg",
-        "Mer mangfold blant folkevalgte",
-        "At folk trekker seg fra politikken eller lar være å si hva de mener",
-        "Høyere valgdeltakelse"
+        "At flere stiller til valg og deltar mer i den politiske debatten",
+        "At folk får større tillit til politikere og deltar oftere i valg",
+        "At folk trekker seg fra politikken eller lar være å ytre meningene sine",
+        "At flere grupper blir bedre representert i folkevalgte organer"
       ],
       "correct": 2,
       "explain": "En nedkjølingseffekt."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva er polarisering?",
       "options": [
-        "At alle blir enige",
-        "At det blir flere partier",
-        "At valgdeltakelsen øker",
-        "At grupper beveger seg lenger fra hverandre og ser motstandere som fiender"
+        "At grupper nærmer seg hverandre og ser politiske motstandere som samarbeidspartnere",
+        "At grupper beholder ulike syn, men diskuterer dem med mindre konflikt",
+        "At grupper samler seg om felles synspunkter og får færre uenigheter",
+        "At grupper glir fra hverandre og ser politiske motstandere som fiender"
       ],
       "correct": 3,
       "explain": "Kan forsterkes av sosiale medier."
@@ -130,9 +130,9 @@
       "text": "Hva gir offentlighetsloven?",
       "options": [
         "Innsyn i offentlige dokumenter",
-        "Stemmerett",
-        "Rett til bolig",
-        "Rett til å demonstrere"
+        "Innsyn i private dokumenter",
+        "Stemmerett ved stortingsvalg og kommunevalg",
+        "Klage på offentlige forvaltningsvedtak"
       ],
       "correct": 0,
       "explain": "Åpenhet i forvaltningen.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvilken institusjon advarer mot påvirkningsoperasjoner fra fremmede stater?",
       "options": [
-        "NAV",
+        "Mattilsynet",
         "PST",
-        "Skatteetaten",
-        "Sametinget"
+        "Kartverket",
+        "Bufdir"
       ],
       "correct": 1,
       "explain": "Politiets sikkerhetstjeneste.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hvorfor er lav valgdeltakelse i noen grupper et problem?",
       "options": [
-        "Det gjør valget kortere",
-        "Det gir flere mandater",
-        "Det kan gi skjev representasjon",
-        "Det øker tilliten"
+        "Det kan føre til at valgdistriktene endrer geografiske grenser",
+        "Det kan føre til at kommunevalget får en høyere sperregrense",
+        "Det kan føre til skjev representasjon mellom samfunnsgrupper",
+        "Det kan gjøre at valglokalene må holde åpent flere dager"
       ],
       "correct": 2,
       "explain": "Politikerne lytter mest til dem som stemmer."
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er et tiltak mot desinformasjon?",
       "options": [
-        "Kildekritikk, mediekunnskap og faktasjekk",
-        "Å stenge alle aviser",
-        "Å forby sosiale medier helt",
-        "Å slutte å stemme"
+        "Å bruke kildekritikk, mediekunnskap og faktasjekk",
+        "Å dele ubekreftede påstander fra kontoer med mange følgere",
+        "Å vurdere nyheter ut fra hvor mange ganger de deles",
+        "Å godta politiske påstander fra kjente kontoer uten kontroll"
       ],
       "correct": 0,
       "explain": "Og sterke redaktørstyrte medier."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvorfor gjør KI desinformasjon til en større utfordring?",
       "options": [
-        "Fordi KI alltid sier sannheten",
-        "Fordi det blir enklere å lage troverdige falske bilder, video og lyd",
-        "Fordi KI ikke kan lage bilder",
-        "Fordi KI stopper all falsk informasjon"
+        "Fordi KI gjør det enklere å kontrollere om bilder, videoer og lydopptak er ekte",
+        "Fordi KI gjør det enklere å lage troverdige falske bilder, videoer og lydopptak",
+        "Fordi KI gjør falske tekster mindre overbevisende for dem som leser dem",
+        "Fordi KI hindrer falske bilder og videoer i å spre seg på nett"
       ],
       "correct": 1,
       "explain": "Deepfakes.",
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hvilke politikere rammes ofte særlig av netthets?",
         "options": [
-          "Bare eldre menn",
+          "Menn, eldre og politikere fra majoritetsgrupper",
           "Kvinner, unge og politikere med minoritetsbakgrunn",
-          "Ingen",
-          "Bare ministre"
+          "Statsråder, partiledere og ordførere fra store kommuner",
+          "Erfarne politikere, lokalpolitikere og folkevalgte med lang fartstid"
         ],
         "correct": 1,
         "explain": "Det svekker mangfoldet.",
@@ -336,9 +336,9 @@
         "text": "Hva er et tiltak som kan styrke lokaldemokratiet?",
         "options": [
           "Mer lokal handlefrihet og færre øremerkede midler",
-          "Å avskaffe kommunevalg",
-          "Å flytte alle beslutninger til staten",
-          "Å stenge lokalaviser"
+          "Mindre lokal handlefrihet og flere øremerkede midler",
+          "Mer statlig detaljstyring og færre kommunale oppgaver",
+          "Færre lokale folkeavstemninger og mindre kommunalt ansvar"
         ],
         "correct": 0,
         "explain": "Styrker det lokale selvstyret."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er en påvirkningsoperasjon?",
         "options": [
-          "En valgkampanje fra et norsk parti",
-          "En medisinsk operasjon",
+          "Et forsøk fra norske medier på å dekke debatt og valg",
+          "Et forsøk fra norske myndigheter på å informere velgere om valg",
           "Et forsøk fra fremmede stater på å påvirke debatt og valg",
-          "En folkeavstemning"
+          "Et forsøk fra fremmede stater på å organisere norske valgmøter"
         ],
         "correct": 2,
         "explain": "For eksempel falske kontoer og hacking."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

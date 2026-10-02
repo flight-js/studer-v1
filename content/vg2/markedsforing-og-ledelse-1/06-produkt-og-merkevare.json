@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er kjerneproduktet til en mobiltelefon?",
       "options": [
-        "Designet",
-        "Kommunikasjon",
-        "Garantien",
-        "Emballasjen"
+        "Muligheten til å beskytte telefonen",
+        "Muligheten til å kommunisere",
+        "Muligheten til å lade telefonen",
+        "Muligheten til å reparere telefonen"
       ],
       "correct": 1,
       "explain": "Det grunnleggende behovet."
@@ -92,9 +92,9 @@
       "text": "Hva hører til det utvidede produktet?",
       "options": [
         "Garanti og service",
-        "Kjernebehovet",
-        "Fargen",
-        "Logoen"
+        "Telefonens grunnleggende funksjon",
+        "Telefonens utforming og farge",
+        "Telefonens navn og logo"
       ],
       "correct": 0,
       "explain": "Tillegg utover selve produktet."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva skiller tjenester fra varer?",
       "options": [
-        "De er alltid dyrere",
-        "De selges bare på nett",
+        "De kan produseres på forhånd og lagres før forbruk",
+        "De har fysisk form og kan oppbevares etter kjøpet",
         "De kan ikke lagres og produseres ofte mens de forbrukes",
-        "De har emballasje"
+        "De kan transporteres hjem og brukes senere av kunden"
       ],
       "correct": 2,
       "explain": "For eksempel en frisørtime."
@@ -127,22 +127,22 @@
       "id": "q05",
       "text": "Hva er sortimentsdybde?",
       "options": [
-        "Antall varianter innen en produktgruppe",
-        "Antall produktgrupper",
-        "Antall butikker",
-        "Antall kunder"
+        "Antall varianter innen én produktgruppe",
+        "Antall produktgrupper i hele sortimentet",
+        "Antall butikker som selger produktgruppen",
+        "Antall kunder som kjøper fra produktgruppen"
       ],
       "correct": 0,
-      "explain": "Bredde er antall produktgrupper."
+      "explain": "Dybde viser hvor mange varianter sortimentet har innen samme produktgruppe."
     },
     {
       "id": "q06",
       "text": "Hva er en merkevare?",
       "options": [
-        "Bare en logo",
-        "Summen av inntrykk, følelser og forventninger kundene har",
-        "Bare et navn",
-        "En pris"
+        "Produktets navn, logo og visuelle kjennetegn",
+        "Kundenes samlede inntrykk, følelser og forventninger",
+        "Virksomhetens reklame, logo og visuelle uttrykk",
+        "Produktets pris, kvalitet og praktiske egenskaper"
       ],
       "correct": 1,
       "explain": "Bygges gjennom opplevelser og kommunikasjon."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er egne merkevarer (EMV)?",
       "options": [
-        "Merker eid av produsenten",
-        "Merker fra utlandet",
+        "Merker eid av produsentene",
+        "Merker eid av importørene",
         "Merker eid av butikkjedene",
-        "Merker uten logo"
+        "Merker eid av grossistene"
       ],
       "correct": 2,
       "explain": "Vanlige i dagligvarehandelen."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva er en fordel med en sterk merkevare?",
       "options": [
-        "Lavere kvalitet",
-        "Ingen konkurranse",
-        "Færre kunder",
-        "Mulighet til å ta høyere pris og lojale kunder"
+        "Lavere betalingsvilje og sterkere kundelojalitet",
+        "Høyere betalingsvilje og svakere kundelojalitet",
+        "Sterkere kundelojalitet og høyere prisfølsomhet",
+        "Høyere betalingsvilje og sterkere kundelojalitet"
       ],
       "correct": 3,
       "explain": "Gir også trygghet for kunden."
@@ -176,9 +176,9 @@
       "text": "Hva kan en virksomhet gjøre i modningsfasen?",
       "options": [
         "Forbedre produktet eller finne nye målgrupper",
-        "Slutte å markedsføre",
-        "Heve prisen kraftig",
-        "Legge ned produktet med en gang"
+        "Utvikle en prototype eller teste produktideen",
+        "Introdusere produktet eller bygge kjennskap",
+        "Avvikle produktet eller redusere distribusjonen"
       ],
       "correct": 0,
       "explain": "For å forlenge livssyklusen."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor velger noen virksomheter individuelle merker?",
       "options": [
-        "Fordi det er billigst",
-        "For at en feil ved ett produkt ikke skal smitte over på andre",
-        "Fordi loven krever det",
-        "For å ha færre produkter"
+        "For å samle alle produktene under ett felles merkenavn",
+        "For å hindre at en produktfeil skader virksomhetens øvrige merker",
+        "For å gjøre reklamen lik for alle produktene",
+        "For å sikre at produktene får samme omdømme"
       ],
       "correct": 1,
       "explain": "Paraplymerker deler omdømmet."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva er sortimentsbredde?",
         "options": [
-          "Antall varianter i én gruppe",
-          "Antall produktgrupper",
-          "Størrelsen på butikken",
-          "Antall ansatte"
+          "Antall ulike varianter i én produktgruppe",
+          "Antall ulike produktgrupper i sortimentet",
+          "Antall butikker i en butikkjede",
+          "Antall produkter på lager i butikken"
         ],
         "correct": 1,
         "explain": "Dybde er antall varianter."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er et paraplymerke?",
         "options": [
-          "Samme navn på mange produkter",
-          "Et merke for regntøy",
-          "Et merke eid av butikken",
-          "Et merke uten logo"
+          "Ett merkenavn som brukes på flere produkter",
+          "Ett merkenavn som brukes på ett produkt",
+          "Ulike merkenavn som brukes på flere produkter",
+          "Flere merkenavn som brukes på ett produkt"
         ],
         "correct": 0,
         "explain": "Gir tillit til nye produkter."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva kommer etter idé og testing i produktutviklingen?",
         "options": [
-          "Nedgang",
-          "Metning",
+          "Modning og nedgang",
+          "Introduksjon og vekst",
           "Prototyp og lansering",
-          "Avvikling"
+          "Metning og avvikling"
         ],
         "correct": 2,
         "explain": "Produktet prøves ut før det lanseres."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

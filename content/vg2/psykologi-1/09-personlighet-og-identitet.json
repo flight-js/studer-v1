@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva mener de fleste psykologer i dag om arv og miljø?",
       "options": [
-        "Bare arv betyr noe",
+        "Arv og miljø virker uavhengig av hverandre",
         "Arv og miljø virker sammen",
-        "Bare miljø betyr noe",
-        "Ingen av delene betyr noe"
+        "Arv former personlighet uten påvirkning fra miljø",
+        "Miljø former personlighet uten påvirkning fra arv"
       ],
       "correct": 1,
       "explain": "Spørsmålet «arv eller miljø» er feil stilt."
@@ -97,9 +97,9 @@
       "text": "Hvorfor brukes eneggede tvillinger i forskning?",
       "options": [
         "De har tilnærmet like gener",
-        "De har ulike gener",
-        "De vokser alltid opp hver for seg",
-        "De er alltid like i alt"
+        "De har ulike gener fra samme foreldre",
+        "De har ulike gener, men samme kjønn",
+        "De har ulike gener og ulike fødselsår"
       ],
       "correct": 0,
       "explain": "Forskjeller kan da skyldes miljø."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva er epigenetikk?",
       "options": [
-        "Studiet av tvillinger",
-        "En personlighetstest",
+        "At miljøet endrer selve genenes DNA-sekvens",
+        "At gener bestemmer hvilke miljøer personen møter",
         "At miljøet påvirker hvilke gener som skrus av og på",
-        "At gener aldri endres"
+        "At miljøet påvirker hvilke egenskaper som arves"
       ],
       "correct": 2,
       "explain": "Et eksempel på samspill mellom arv og miljø.",
@@ -122,8 +122,8 @@
       "text": "Hvilken dimensjon hører til femfaktormodellen?",
       "options": [
         "Intelligens",
-        "Kreativitet",
-        "Humor",
+        "Selvfølelse",
+        "Impulsivitet",
         "Ekstroversjon"
       ],
       "correct": 3,
@@ -135,8 +135,8 @@
       "options": [
         "Identitet mot rolleforvirring",
         "Tillit mot mistillit",
-        "Integritet mot fortvilelse",
-        "Intimitet mot isolasjon"
+        "Intimitet mot isolasjon",
+        "Generativitet mot stagnasjon"
       ],
       "correct": 0,
       "explain": "Hvem er jeg, og hvor skal jeg?"
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "En ungdom har valgt samme yrke som foreldrene uten å vurdere andre muligheter. Hvilken status er dette hos Marcia?",
       "options": [
-        "Oppnådd identitet",
-        "Overtatt identitet",
-        "Moratorium",
-        "Diffus identitet"
+        "Forpliktelse etter utforsking",
+        "Forpliktelse uten utforsking",
+        "Utforsking uten forpliktelse",
+        "Verken utforsking eller forpliktelse"
       ],
       "correct": 1,
       "explain": "Forpliktet uten å utforske."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er temperament?",
       "options": [
-        "Et resultat av oppdragelsen alene",
-        "Et personlighetstrekk som dannes i voksen alder",
+        "Lærte mønstre i hvordan vi reagerer",
+        "Personlighetstrekk utviklet i voksen alder",
         "Medfødte tendenser i hvordan vi reagerer",
-        "En identitetsstatus"
+        "Identitetsstatus knyttet til ungdomstiden"
       ],
       "correct": 2,
       "explain": "Et grunnlag for personligheten."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva vektlegger Rogers i sin personlighetsteori?",
       "options": [
-        "Ubevisste drifter",
-        "Gener",
-        "Belønning og straff",
+        "Ubevisste drifter og konflikter fra tidlig barndom",
+        "Lærte atferdsmønstre gjennom belønning og straff",
+        "Medfødte egenskaper og genetiske forskjeller mellom mennesker",
         "Selvbildet og avstanden til den man ønsker å være"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hva er moratorium hos Marcia?",
       "options": [
         "At man utforsker, men ikke har forpliktet seg ennå",
-        "At man har bestemt seg",
-        "At man ikke bryr seg",
-        "At man overtar foreldrenes valg"
+        "At man har forpliktet seg etter å ha utforsket ulike valg",
+        "At man har forpliktet seg uten å utforske ulike valg",
+        "At man verken utforsker valg eller forplikter seg"
       ],
       "correct": 0,
       "explain": "En aktiv utforskningsfase."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva er sosial identitet?",
       "options": [
-        "Antall følgere i sosiale medier",
+        "Den delen av personligheten som kommer fra gruppene vi tilhører",
         "Den delen av identiteten som kommer fra gruppene vi tilhører",
-        "Et personlighetstrekk",
-        "En diagnose"
+        "Den delen av identiteten som kommer fra egne personlige egenskaper",
+        "Den delen av identiteten som kommer fra mål vi setter oss selv"
       ],
       "correct": 1,
       "explain": "Familie, venner, kultur og mer."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva måler nevrotisisme i femfaktormodellen?",
         "options": [
-          "Hvor utadvendt man er",
+          "Tendens til å søke sosial kontakt",
           "Tendens til følelsesmessig ustabilitet",
-          "Hvor ryddig man er",
-          "Hvor kreativ man er"
+          "Tendens til å være ryddig og målrettet",
+          "Tendens til å være nysgjerrig og kreativ"
         ],
         "correct": 1,
         "explain": "Bekymring og negative følelser."
@@ -332,9 +332,9 @@
         "text": "Hvem beskrev fire identitetsstatuser?",
         "options": [
           "James Marcia",
+          "Erik Erikson",
           "Sigmund Freud",
-          "Ivan Pavlov",
-          "Jean Piaget"
+          "Carl Rogers"
         ],
         "correct": 0,
         "explain": "Bygger på Eriksons teori."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva tyder det på hvis eneggede tvillinger er mer like enn toeggede?",
         "options": [
-          "At miljøet betyr alt",
-          "At tvillinger er spesielle",
+          "At miljøet forklarer den større likheten",
+          "At toeggede tvillinger deler flere gener",
           "At arv betyr noe for egenskapen",
-          "At studien er feil"
+          "At eneggede tvillinger har ulike gener for egenskapen"
         ],
         "correct": 2,
         "explain": "De har flere gener felles."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er p-verdien?",
       "options": [
-        "Sannsynligheten for at H₀ er sann",
+        "Sannsynligheten for at H₀ er sann ut fra observerte data",
         "Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann",
-        "Signifikansnivået",
-        "Andelen defekte"
+        "Sannsynligheten for et minst like ekstremt resultat dersom H₁ er sann",
+        "Sannsynligheten for akkurat det observerte resultatet dersom H₀ er sann"
       ],
       "correct": 1,
       "explain": "Beregnes under antakelsen om H₀."
@@ -88,9 +88,9 @@
       "text": "Når forkaster vi H₀?",
       "options": [
         "Når p-verdien ≤ α",
-        "Når p-verdien > α",
-        "Alltid",
-        "Når n er stor"
+        "Når p-verdien er større enn α",
+        "Når testobservatoren er mindre enn α",
+        "Når utvalget er stort, selv om p-verdien er høy"
       ],
       "correct": 0,
       "explain": "Resultatet er for usannsynlig under H₀."
@@ -100,9 +100,9 @@
       "text": "Hva er en type I-feil?",
       "options": [
         "Å beholde en usann H₀",
-        "Å regne feil",
+        "Å forkaste en usann H₀",
         "Å forkaste en sann H₀",
-        "Å velge feil fordeling"
+        "Å forkaste H₀ når p-verdien er større enn α"
       ],
       "correct": 2,
       "explain": "Sannsynligheten er α."
@@ -112,8 +112,8 @@
       "text": "Hva gjør vi med p-verdien i en tosidig test?",
       "options": [
         "Halverer den",
-        "Tar kvadratroten",
-        "Lar den være",
+        "Kvadrerer den",
+        "Bruker den uendret",
         "Dobler den"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "I eksempelet med 10 defekte av 100 er p-verdien 0,028. Hva blir konklusjonen ved 5 % nivå?",
       "options": [
         "Forkast H₀",
-        "Behold H₀",
-        "Testen er ugyldig",
-        "Vi trenger ikke konkludere"
+        "Behold H₀ fordi p-verdien er under 0,05",
+        "Forkast H₁ fordi p-verdien er under 0,05",
+        "Konkluder med at H₀ er sann"
       ],
       "correct": 0,
       "explain": "0,028 < 0,05."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva betyr det å beholde H₀?",
       "options": [
-        "At H₀ er bevist",
+        "At vi har vist at H₀ er sann",
         "At vi ikke har grunnlag for å forkaste H₀",
-        "At H₁ er bevist",
-        "At dataene er feil"
+        "At vi har grunnlag for å forkaste H₁",
+        "At resultatet ikke kan brukes i testen"
       ],
       "correct": 1,
       "explain": "Ikke et bevis for H₀."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "60 kron på 100 kast gir tosidig p-verdi 0,057. Hva er konklusjonen ved 5 % nivå?",
       "options": [
-        "Mynten er skjev",
-        "Mynten er bevist rettferdig",
+        "Vi forkaster H₀",
+        "Vi konkluderer med at mynten er rettferdig",
         "Vi beholder H₀",
-        "Vi forkaster H₀"
+        "Vi konkluderer med at mynten er skjev"
       ],
       "correct": 2,
       "explain": "0,057 > 0,05."
@@ -160,8 +160,8 @@
       "text": "Når velges signifikansnivået?",
       "options": [
         "Etter at p-verdien er regnet ut",
-        "Når resultatet er kjent",
-        "Det velges aldri",
+        "Etter at vi har sett resultatet",
+        "Når vi har bestemt hvilken hypotese vi vil støtte",
         "Før vi ser på dataene"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er en type II-feil?",
       "options": [
         "Å beholde H₀ selv om den er usann",
-        "Å forkaste en sann H₀",
-        "Å bruke feil α",
-        "Å doble p-verdien"
+        "Å forkaste H₀ selv om den er sann",
+        "Å beholde H₀ fordi p-verdien er mindre enn α",
+        "Å forkaste H₀ fordi utvalget er lite"
       ],
       "correct": 0,
       "explain": "Reduseres med større utvalg."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor er ikke statistisk signifikant alltid viktig?",
       "options": [
-        "Fordi signifikans er tilfeldig",
+        "Fordi en signifikant p-verdi viser at effekten er stor",
         "Fordi små, uviktige forskjeller kan bli signifikante i store utvalg",
-        "Fordi p-verdien alltid er feil",
-        "Fordi α er for stor"
+        "Fordi p-verdien måler hvor viktig forskjellen er i praksis",
+        "Fordi statistisk signifikans viser at resultatet skyldes tilfeldigheter"
       ],
       "correct": 1,
       "explain": "Skill mellom statistisk og praktisk betydning."
@@ -308,7 +308,7 @@
           "p = 0,05",
           "p > 0,05",
           "p < 0,05",
-          "p ≠ 0,5"
+          "p ≠ 0,05"
         ],
         "correct": 1,
         "explain": "Ensidig test."
@@ -319,9 +319,9 @@
         "text": "Hva er sannsynligheten for type I-feil?",
         "options": [
           "α",
-          "p-verdien alltid",
           "1 − α",
-          "0"
+          "β",
+          "p-verdien"
         ],
         "correct": 0,
         "explain": "Signifikansnivået."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva er et problem med et skjevt utvalg?",
         "options": [
-          "Det gjør testen raskere",
-          "Det gir alltid lav p-verdi",
+          "Det påvirker datainnsamlingens hastighet, ikke konklusjonen",
+          "Det gir en mer representativ andel enn et tilfeldig utvalg",
           "Det kan gi feil konklusjon uansett test",
-          "Det har ingen betydning"
+          "Det gjør beregningen av andelen mer presis"
         ],
         "correct": 2,
         "explain": "Datainnsamlingen er avgjørende."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

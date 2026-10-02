@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva beskriver en forretningsmodell?",
       "options": [
-        "Bare logoen",
+        "Hvordan virksomheten markedsfører tilbudet og fastsetter salgsprisene",
         "Hvordan en virksomhet skaper, leverer og tar betalt for verdi",
-        "Bare regnskapet",
-        "Bare de ansatte"
+        "Hvordan virksomheten organiserer ansatte og fordeler arbeidsoppgaver",
+        "Hvordan virksomheten fører regnskap og rapporterer økonomiske resultater"
       ],
       "correct": 1,
       "explain": "Kunder, tilbud, inntekter og kostnader."
@@ -89,9 +89,9 @@
       "text": "Hvem utviklet forretningsmodellkanvaset?",
       "options": [
         "Alexander Osterwalder",
-        "Michael Porter",
-        "Abraham Maslow",
-        "Adam Smith"
+        "Peter Drucker",
+        "Clayton Christensen",
+        "Henry Chesbrough"
       ],
       "correct": 0,
       "explain": "Ni byggeklosser på ett ark.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er et verdiforslag?",
       "options": [
-        "Prisen på produktet",
-        "Budsjettet",
-        "Hvilket problem man løser, og hvorfor kundene skal velge en",
-        "Antall ansatte"
+        "Hvilken pris virksomheten setter, og hvilke betalingsmåter kundene kan bruke",
+        "Hvilket kundesegment virksomheten retter seg mot, og hvor stort det er",
+        "Hvilket problem virksomheten løser, og hvorfor kundene bør velge tilbudet",
+        "Hvilke kanaler virksomheten bruker, og hvordan den markedsfører tilbudet"
       ],
       "correct": 2,
       "explain": "Kjernen i forretningsmodellen."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken modell kobler kjøpere og selgere mot et gebyr?",
       "options": [
-        "Abonnement",
-        "Salg",
-        "Utleie",
-        "Plattform eller markedsplass"
+        "Abonnementsmodell",
+        "Utleiemodell",
+        "Direktesalgsmodell",
+        "Markedsplass"
       ],
       "correct": 3,
       "explain": "For eksempel nettsteder for bruktsalg."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er en abonnementsmodell?",
       "options": [
-        "Kunden betaler fast per måned eller år",
-        "Kunden betaler én gang",
-        "Tjenesten er gratis",
-        "Annonsører betaler"
+        "Kunden betaler et fast beløp hver måned eller hvert år",
+        "Kunden betaler et engangsbeløp for varig tilgang til tjenesten",
+        "Kunden betaler etter hvor mye av tjenesten den bruker",
+        "Kunden betaler et gebyr for hver enkelt bestilling"
       ],
       "correct": 0,
       "explain": "Som strømmetjenester."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilken byggekloss handler om leverandører og samarbeidspartnere?",
       "options": [
-        "Kundesegmenter",
+        "Nøkkelaktiviteter",
         "Nøkkelpartnere",
-        "Kanaler",
-        "Inntektsstrømmer"
+        "Nøkkelressurser",
+        "Kundesegmenter"
       ],
       "correct": 1,
       "explain": "På driftssiden."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor kan en utleiemodell være miljøvennlig?",
       "options": [
-        "Den gir mer transport",
-        "Den er alltid gratis",
-        "Mange deler på samme utstyr",
-        "Den krever ingen ressurser"
+        "Utleier kjøper inn ett nytt produkt per kunde",
+        "Utleieren selger produktet i stedet for å leie det ut",
+        "Mange deler på det samme utstyret",
+        "Kundene kaster utstyret etter én gangs bruk"
       ],
       "correct": 2,
       "explain": "Mindre behov for nye produkter."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr økonomisk bærekraft for en forretningsmodell?",
       "options": [
-        "At den gir mest utslipp",
-        "At den er gratis",
-        "At den ikke har kostnader",
+        "At virksomheten har høy omsetning i oppstartsfasen",
+        "At virksomheten har nok penger til dagens utgifter",
+        "At virksomheten vokser raskt i et nytt marked",
         "At den er lønnsom over tid"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvilket etisk dilemma kan gratis tjenester ha?",
       "options": [
         "De kan bygge på innsamling av persondata",
-        "De er alltid dyre",
-        "De har ingen brukere",
-        "De er ulovlige"
+        "De kan være unntatt personvernreglene når brukerne ikke betaler",
+        "De kan mangle ansvar for personopplysninger når tjenesten er gratis",
+        "De kan slippe å informere brukerne om tjenestevilkårene"
       ],
       "correct": 0,
       "explain": "Brukeren betaler med data.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er en fordel med forretningsmodellkanvaset?",
       "options": [
-        "Det erstatter regnskapet",
+        "Det beregner virksomhetens overskudd og fører regnskapet",
         "Det gjør det lett å se sammenhengene og endre modellen",
-        "Det gir patent",
-        "Det registrerer selskapet"
+        "Det gir virksomheten enerett til å bruke forretningsideen",
+        "Det registrerer virksomheten automatisk i offentlige registre"
       ],
       "correct": 1,
       "explain": "Alt på ett ark."
@@ -321,7 +321,7 @@
           "Kostnadsstruktur",
           "Kanaler",
           "Nøkkelressurser",
-          "Nøkkelpartnere"
+          "Nøkkelaktiviteter"
         ],
         "correct": 1,
         "explain": "For eksempel nettside og butikk."
@@ -332,9 +332,9 @@
         "text": "Hva er en sirkulær forretningsmodell?",
         "options": [
           "Inntekter fra reparasjon, bruktsalg eller gjenvinning",
-          "Salg av engangsprodukter",
-          "Annonser",
-          "Lån fra banken"
+          "Inntekter fra økt salg av nye produkter",
+          "Inntekter fra annonser på digitale plattformer",
+          "Finansiering gjennom lån fra banker og investorer"
         ],
         "correct": 0,
         "explain": "Ressurser holdes i bruk."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva er et mulig problem med abonnement for kundene?",
         "options": [
-          "De får for mye",
-          "De betaler for lite",
+          "Kunden får automatisk eierskap etter første betaling",
+          "Betaling skjer kun etter hvert enkelt kjøp",
           "Det kan være vanskelig å avslutte",
-          "Det er ulovlig"
+          "Prisen varierer ut fra bruken ved hver anledning"
         ],
         "correct": 2,
         "explain": "Et etisk dilemma."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

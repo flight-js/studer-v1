@@ -93,10 +93,10 @@
       "id": "q01",
       "text": "Hvilket maleri av Picasso viser bombingen av en baskisk by i 1937?",
       "options": [
-        "Las Meninas",
+        "Skrik",
         "Guernica",
         "Kysset",
-        "Skrik"
+        "Mona Lisa"
       ],
       "correct": 1,
       "explain": "Maleriet henger i Museo Reina Sofía i Madrid.",
@@ -106,9 +106,9 @@
       "id": "q02",
       "text": "Hvilken kunstner er kjent for surrealistiske bilder med smeltende klokker?",
       "options": [
-        "Velázquez",
-        "Goya",
-        "Picasso",
+        "Pablo Picasso",
+        "Francisco Goya",
+        "Joan Miró",
         "Salvador Dalí"
       ],
       "correct": 3,
@@ -120,8 +120,8 @@
       "text": "Hvem skrev «Hundre års ensomhet»?",
       "options": [
         "Gabriel García Márquez",
-        "Pablo Neruda",
-        "Isabel Allende",
+        "Jorge Luis Borges",
+        "Mario Vargas Llosa",
         "Miguel de Cervantes"
       ],
       "correct": 0,
@@ -145,9 +145,9 @@
       "id": "q05",
       "text": "Hvor ligger Alhambra, et praktfullt palass fra den muslimske tiden i Spania?",
       "options": [
-        "Madrid",
-        "Barcelona",
-        "Bilbao",
+        "Sevilla",
+        "Córdoba",
+        "Toledo",
         "Granada"
       ],
       "correct": 3,
@@ -184,10 +184,10 @@
       "id": "q08",
       "text": "Hvilken Pixar-film handler om Día de Muertos i Mexico?",
       "options": [
-        "Encanto",
-        "Frost",
+        "Luca",
+        "Soul",
         "Coco",
-        "Toy Story"
+        "Up"
       ],
       "correct": 2,
       "explain": "Filmen viser tradisjonene med ofrendas og ringblomster.",
@@ -197,9 +197,9 @@
       "id": "q09",
       "text": "Hva betyr «El libro trata de una familia»?",
       "options": [
-        "Familien leser boka",
-        "Boka er skrevet av en familie",
-        "Familien kjøper boka",
+        "En familie leser en bok",
+        "En familie skriver en bok",
+        "En familie kjøper en bok",
         "Boka handler om en familie"
       ],
       "correct": 3,
@@ -210,9 +210,9 @@
       "text": "Hvilken chilensk poet fikk Nobels litteraturpris i 1971?",
       "options": [
         "Pablo Neruda",
-        "Federico García Lorca",
-        "Gabriel García Márquez",
-        "Miguel de Cervantes"
+        "Gabriela Mistral",
+        "Octavio Paz",
+        "Federico García Lorca"
       ],
       "correct": 0,
       "explain": "Neruda er kjent for sine kjærlighetsdikt.",
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva kalles stilen der magiske ting skjer i en realistisk verden?",
         "options": [
-          "Impresjonisme",
+          "Kritisk realisme",
           "Magisk realisme",
-          "Kubisme",
-          "Romantikk"
+          "Sosial realisme",
+          "Poetisk realisme"
         ],
         "correct": 1,
         "explain": "García Márquez er den mest kjente forfatteren i denne stilen.",
@@ -359,9 +359,9 @@
         "text": "Hva betyr «Me parece emocionante»?",
         "options": [
           "Jeg synes det er spennende",
-          "Det er kjedelig",
-          "Jeg er lei meg",
-          "Det er dyrt"
+          "Jeg synes det er kjedelig",
+          "Jeg synes det er trist",
+          "Jeg synes det er dyrt"
         ],
         "correct": 0,
         "explain": "«emocionante» betyr spennende."
@@ -468,6 +468,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

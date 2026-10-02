@@ -100,9 +100,9 @@
       "text": "Hvordan sier du «Avfallet må sorteres»?",
       "options": [
         "Der Müll muss getrennt werden.",
-        "Der Müll wird trennen müssen.",
-        "Der Müll muss trennen.",
-        "Der Müll ist getrennt müssen."
+        "Der Müll kann getrennt werden.",
+        "Der Müll soll getrennt werden.",
+        "Der Müll muss recycelt werden."
       ],
       "correct": 0,
       "explain": "Modalverb + partisipp + werden."
@@ -111,10 +111,10 @@
       "id": "q02",
       "text": "Hvordan dannes passiv på tysk?",
       "options": [
-        "haben + partisipp",
-        "sein + infinitiv",
-        "würde + infinitiv",
-        "werden + partisipp"
+        "werden + Infinitiv",
+        "haben + Partizip II",
+        "sein + Infinitiv",
+        "werden + Partizip II"
       ],
       "correct": 3,
       "explain": "Der Müll wird getrennt."
@@ -124,9 +124,9 @@
       "text": "Hvordan sier du «Jeg bruker mobilen for å chatte med venner»?",
       "options": [
         "Ich benutze das Handy, um mit Freunden zu chatten.",
-        "Ich benutze das Handy, für mit Freunden chatten.",
-        "Ich benutze das Handy, dass ich chatte.",
-        "Ich benutze das Handy zu um chatten."
+        "Ich benutze das Handy, um mit Freunden chatten.",
+        "Ich benutze das Handy, um für Freunde zu chatten.",
+        "Ich benutze das Handy, um mit Freunden zu telefonieren."
       ],
       "correct": 0,
       "explain": "um … zu = for å."
@@ -135,10 +135,10 @@
       "id": "q04",
       "text": "Hvor står «zu» i «anrufen»?",
       "options": [
-        "zu anrufen",
-        "anrufen zu",
+        "zuanrufen",
+        "anrufen-zu",
         "anzurufen",
-        "zuanrufen"
+        "an-zurufen"
       ],
       "correct": 2,
       "explain": "Ved trennbare verb står zu mellom prefiks og verb."
@@ -147,10 +147,10 @@
       "id": "q05",
       "text": "Hva var gjestearbeidere (Gastarbeiter)?",
       "options": [
-        "Turister",
+        "Arbeidsinnvandrere som kom til Øst-Tyskland etter krigen",
         "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen",
-        "Studenter",
-        "Soldater"
+        "Arbeidsinnvandrere som kom til Vest-Tyskland før krigen",
+        "Flyktninger som kom til Vest-Tyskland etter krigen"
       ],
       "correct": 1,
       "explain": "Mange kom fra Tyrkia, Italia og Hellas.",
@@ -185,9 +185,9 @@
       "id": "q08",
       "text": "Når bruker man «wäre» i stedet for «hätte» i konjunktiv II i fortid?",
       "options": [
-        "Med alle modalverb",
-        "Med verb i passiv",
-        "Med alle sterke verb",
+        "Med verb som tar «haben» i perfektum",
+        "Med sterke verb i perfektum",
+        "Med svake verb i perfektum",
         "Med verb som tar «sein» i perfektum"
       ],
       "correct": 3,
@@ -197,10 +197,10 @@
       "id": "q09",
       "text": "Hva kjennetegner en Kurzgeschichte?",
       "options": [
-        "Lang tekst med mange personer",
-        "Kort tekst, åpen begynnelse og slutt og et vendepunkt",
-        "Rimet dikt",
-        "Historisk roman"
+        "Lang tekst med flere handlinger og mange personer",
+        "Kort tekst med åpen start, åpen slutt og vendepunkt",
+        "Kort tekst med fast rim, strofer og regelmessig rytme",
+        "Lang tekst med historisk miljø og flere generasjoner"
       ],
       "correct": 1,
       "explain": "Sjangeren ble viktig etter andre verdenskrig."
@@ -209,10 +209,10 @@
       "id": "q10",
       "text": "Hva ville Brecht oppnå med fremmedgjøringseffekten?",
       "options": [
-        "At publikum skulle gråte",
-        "At publikum skulle sovne",
-        "At publikum skulle tenke kritisk",
-        "At skuespillerne skulle gjemme seg"
+        "At publikum skulle leve seg inn i handlingen",
+        "At publikum skulle føle med hovedpersonen underveis",
+        "At publikum skulle tenke kritisk under forestillingen",
+        "At publikum skulle glemme at det var teater"
       ],
       "correct": 2,
       "explain": "Publikum skulle ikke bare leve seg inn i handlingen.",
@@ -351,7 +351,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -372,10 +372,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «CO₂ skal reduseres»?",
         "options": [
-          "CO₂ wird reduzieren.",
+          "CO₂ muss reduziert werden.",
           "CO₂ soll reduziert werden.",
-          "CO₂ soll reduzieren.",
-          "CO₂ ist reduziert."
+          "CO₂ kann reduziert werden.",
+          "CO₂ wird reduziert."
         ],
         "correct": 1,
         "explain": "Modalverb + partisipp + werden."
@@ -387,8 +387,8 @@
         "options": [
           "Er teilt Nachrichten, um sie zu lesen.",
           "Er teilt Nachrichten, ohne sie zu lesen.",
-          "Er teilt Nachrichten, statt sie lesen.",
-          "Er teilt ohne Nachrichten lesen."
+          "Er liest Nachrichten, ohne sie zu teilen.",
+          "Er teilt Nachrichten, bevor er sie liest."
         ],
         "correct": 1,
         "explain": "ohne … zu."
@@ -510,12 +510,84 @@
           "Sier at Tyskland har brukt mye kull og bygd ut vind- og solkraft."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på tysk en kort forklaring av den tyske Energiewende. Ta med hva overgangen går ut på, og hva som skjedde med kjernekraftverkene i 2023.",
+        "fasit": "Die Energiewende ist der Übergang von Kernkraft und Kohle zu erneuerbaren Energien. Die letzten Kernkraftwerke wurden 2023 geschlossen, aber Kohle wird weiterhin verwendet.",
+        "kriterier": [
+          "Forklarer at Energiewende er en overgang til fornybar energi fra kjernekraft og kull.",
+          "Nevner at de siste kjernekraftverkene ble stengt i 2023, og at kull fortsatt brukes."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Du skal lytte til en tyskspråklig nyhetspodkast for å øve på tysk. Skriv på tysk hvordan du kan forberede deg, og hva du gjør når du møter ord du ikke kjenner.",
+        "fasit": "Zuerst lese ich die Überschrift oder die Beschreibung. Beim Hören achte ich auf Schlüsselwörter und Zahlen und versuche, den Hauptinhalt zu verstehen, ohne bei jedem unbekannten Wort zu stoppen.",
+        "kriterier": [
+          "Nevner at man kan lese overskriften eller beskrivelsen først, og lytte etter nøkkelord eller tall.",
+          "Forklarer at man bør prøve å få med hovedinnholdet uten å stoppe ved hvert ukjent ord."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Skriv på tysk en kort nyhetsmelding om flyktningene som kom til Tyskland i 2015. Ta med hva Angela Merkel sa, bruk indirekte tale, og nevn hvor mange av flyktningene særlig kom fra.",
+        "fasit": "Angela Merkel sagte, man schaffe das. 2015 kamen sehr viele Flüchtlinge nach Deutschland, besonders aus Syrien.",
+        "kriterier": [
+          "Gjengir «Wir schaffen das» med indirekte tale, for eksempel «man schaffe das».",
+          "Nevner at mange flyktninger kom til Tyskland i 2015, særlig fra Syria."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Forklar på tysk forskjellen mellom Erasmus+ og et Freiwilliges Soziales Jahr (FSJ). Ta med hva slags mulighet hvert av dem gir.",
+        "fasit": "Mit Erasmus+ können Studierende ein Semester oder ein Jahr in einem anderen europäischen Land verbringen. Ein FSJ ist ein freiwilliges soziales Jahr, zum Beispiel in einem Kindergarten oder einem Pflegeheim.",
+        "kriterier": [
+          "Forklarer at Erasmus+ gir mulighet for utveksling i utdanning i et annet europeisk land.",
+          "Forklarer at FSJ er et frivillig sosialt år, for eksempel i en barnehage eller på et sykehjem."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Sammenlign på tysk en Kurzgeschichte med teateret Bertolt Brecht laget. Ta med ett typisk trekk ved hver av dem.",
+        "fasit": "Eine Kurzgeschichte zeigt oft eine Alltagssituation mit wenigen Personen und hat häufig ein offenes Ende. Brecht wollte, dass das Theater das Publikum zum kritischen Denken bringt; dafür konnten Schauspieler zum Beispiel direkt zum Publikum sprechen.",
+        "kriterier": [
+          "Nevner et typisk trekk ved Kurzgeschichte, som få personer, hverdagssituasjon eller åpen slutt.",
+          "Forklarer at Brecht ville få publikum til å tenke kritisk, og nevner gjerne et virkemiddel som direkte tale til publikum."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Skriv på tysk om tysk rap og ungdomskultur. Bruk et adjektiv foran et substantiv etter bestemt artikkel, med riktig ending. Ta med hva mange artister gjør.",
+        "fasit": "Die beliebte deutsche Rapmusik ist bei Jugendlichen sehr populär. Viele Künstler singen auf Deutsch.",
+        "kriterier": [
+          "Nevner at tysk rap er populær blant unge, og at mange artister synger på tysk.",
+          "Bruker riktig adjektivending etter bestemt artikkel, for eksempel «die beliebte deutsche Rapmusik»."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Skriv på tysk om én fordel og én utfordring ved å bruke kunstig intelligens når man lærer. Knytt utfordringen til personvern.",
+        "fasit": "Künstliche Intelligenz kann beim Lernen helfen. Eine Herausforderung ist, dass unsere Daten gesammelt werden und der Datenschutz wichtig ist.",
+        "kriterier": [
+          "Nevner at kunstig intelligens kan hjelpe med læring.",
+          "Knytter en utfordring til personvern, for eksempel at data samles inn."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Skriv på tysk hva den tyske debatten om fartsgrense på Autobahn handler om. Ta med hvordan reglene er på store deler av Autobahn, og hva en fartsgrense skal bidra til.",
+        "fasit": "Auf großen Teilen der Autobahn gibt es keine allgemeine Geschwindigkeitsbegrenzung. In der Debatte geht es darum, ob ein Tempolimit eingeführt werden sollte, um den CO₂-Ausstoß zu verringern.",
+        "kriterier": [
+          "Nevner at det ikke finnes en generell fartsgrense på store deler av Autobahn.",
+          "Forklarer at debatten handler om å innføre en fartsgrense for å redusere utslipp."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

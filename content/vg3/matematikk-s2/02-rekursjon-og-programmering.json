@@ -88,8 +88,8 @@
       "text": "Hva er likevektsverdien for Pₙ = 1,1 · Pₙ₋₁ − 500?",
       "options": [
         "5000",
-        "500",
-        "550",
+        "4500",
+        "5500",
         "6000"
       ],
       "correct": 0,
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilken løkke passer når du skal regne til sparingen passerer 100 000 kr?",
       "options": [
-        "for-løkke med 10 steg",
-        "Ingen løkke",
-        "while-løkke",
-        "En liste"
+        "Bruk en for-løkke med et på forhånd bestemt antall steg.",
+        "Bruk en if-setning som tester om saldoen har passert grensen.",
+        "Bruk en while-løkke som tester om saldoen har passert grensen.",
+        "Bruk en liste som lagrer saldoen for hvert steg."
       ],
       "correct": 2,
       "explain": "Vi vet ikke antall steg på forhånd."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva gjør append i Python?",
       "options": [
-        "Sletter en liste",
-        "Skriver ut en verdi",
-        "Tegner en graf",
+        "Fjerner et element fra en liste",
+        "Henter et element fra en liste",
+        "Sorterer elementene i en liste",
         "Legger til et element i en liste"
       ],
       "correct": 3,
@@ -125,8 +125,8 @@
       "options": [
         "1000",
         "200",
-        "250",
-        "800"
+        "800",
+        "1200"
       ],
       "correct": 0,
       "explain": "P = 0,8P + 200 gir 0,2P = 200."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva betyr det at en likevekt er ustabil?",
       "options": [
-        "At følgen nærmer seg den",
+        "At små avvik minker",
         "At små avvik vokser",
-        "At den er lik null",
-        "At den ikke finnes"
+        "At små avvik holder seg like store",
+        "At likevektsverdien er null"
       ],
       "correct": 1,
       "explain": "Følgen fjerner seg fra likevekten."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvilken rekursiv formel beskriver et lån på 4 % rente med 30 000 kr i årlig innbetaling?",
       "options": [
-        "Lₙ = 0,04 · Lₙ₋₁ − 30 000",
+        "Lₙ = 0,96 · Lₙ₋₁ − 30 000",
         "Lₙ = 1,04 · Lₙ₋₁ + 30 000",
         "Lₙ = 1,04 · Lₙ₋₁ − 30 000",
-        "Lₙ = Lₙ₋₁ − 30 000"
+        "Lₙ = 0,04 · Lₙ₋₁ − 30 000"
       ],
       "correct": 2,
       "explain": "Renter legges til, innbetalingen trekkes fra."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hvorfor er programmering nyttig for rekursive modeller?",
       "options": [
-        "Fordi formler er ulovlige",
-        "Fordi svaret alltid blir eksakt",
-        "Fordi det ikke trengs startverdi",
-        "Fordi vi raskt kan regne mange steg og endre parametere"
+        "Fordi vi kan regne modellen uten å angi en startverdi.",
+        "Fordi programmering gir et eksakt svar for modellen.",
+        "Fordi rekursive modeller ikke kan regnes med formler.",
+        "Fordi vi raskt kan regne mange steg og endre parametere."
       ],
       "correct": 3,
       "explain": "Vi kan utforske modellen."
@@ -172,9 +172,9 @@
       "text": "Hvilken formel i et regneark gir neste ledd når forrige ledd står i A1 og Pₙ = 1,1 · Pₙ₋₁ − 500?",
       "options": [
         "=1,1*A1-500",
-        "=A1+1,1",
-        "=500*A1",
-        "=1,1-A1"
+        "=1,1*A1+500",
+        "=1,1+A1-500",
+        "=1,1*A1-1"
       ],
       "correct": 0,
       "explain": "Kopieres nedover."
@@ -185,8 +185,8 @@
       "options": [
         "Den vokser",
         "Den minker",
-        "Den står stille",
-        "Den blir 5000"
+        "Den holder seg konstant",
+        "Den nærmer seg 5000"
       ],
       "correct": 1,
       "explain": "Den starter under den ustabile likevekten."
@@ -306,8 +306,8 @@
         "options": [
           "2000",
           "2100",
-          "2200",
-          "1100"
+          "1100",
+          "2200"
         ],
         "correct": 1,
         "explain": "S₁ = 1000, S₂ = 1100 + 1000."
@@ -318,9 +318,9 @@
         "text": "Hvilken forutsetning bør drøftes i en lånemodell?",
         "options": [
           "Om renten er fast",
-          "Om Python er installert",
-          "Om grafen er blå",
-          "Om n er et partall"
+          "Om regnearket bruker komma eller punktum",
+          "Om programmet bruker en while-løkke eller for-løkke",
+          "Om grafen vises som linje eller punkter"
         ],
         "correct": 0,
         "explain": "Renten kan endre seg."
@@ -331,9 +331,9 @@
         "text": "Hva kalles en verdi som ikke endrer seg fra steg til steg?",
         "options": [
           "Startverdi",
-          "Kvotient",
+          "Differanse",
           "Likevektsverdi",
-          "Differanse"
+          "Kvotient"
         ],
         "correct": 2,
         "explain": "P = f(P)."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

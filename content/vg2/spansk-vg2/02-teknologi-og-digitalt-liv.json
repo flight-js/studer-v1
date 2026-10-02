@@ -82,11 +82,11 @@
       "options": [
         "el móvil",
         "el celular",
-        "el ordenador",
-        "la pantalla"
+        "la tableta",
+        "el teléfono fijo"
       ],
       "correct": 1,
-      "explain": "I Spania sier man el móvil."
+      "explain": "I store deler av Latin-Amerika brukes «celular» om mobiltelefon."
     },
     {
       "id": "q02",
@@ -94,8 +94,8 @@
       "options": [
         "hablando",
         "hablado",
-        "hablendo",
-        "hablar"
+        "hablar",
+        "hablaba"
       ],
       "correct": 0,
       "explain": "-ar blir -ando."
@@ -105,9 +105,9 @@
       "text": "Hva er gerundium av «leer»?",
       "options": [
         "leiendo",
-        "leendo",
+        "leído",
         "leyendo",
-        "leído"
+        "leer"
       ],
       "correct": 2,
       "explain": "Uregelmessig: leyendo."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva uttrykker «estar + gerundio»?",
       "options": [
-        "Noe i framtiden",
-        "Noe som har skjedd",
-        "En vane",
-        "Noe som pågår akkurat nå"
+        "En handling som er planlagt senere",
+        "En handling som allerede er avsluttet",
+        "En handling som skjer regelmessig",
+        "En handling som pågår akkurat nå"
       ],
       "correct": 3,
       "explain": "Estoy chateando."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva betyr «Llevo dos horas estudiando»?",
       "options": [
-        "Jeg har lest i to timer.",
-        "Jeg skal lese i to timer.",
-        "Jeg leste for to timer siden.",
-        "Jeg bærer to bøker."
+        "Jeg har studert i to timer.",
+        "Jeg skal studere i to timer.",
+        "Jeg studerte for to timer siden.",
+        "Jeg har studert i to dager."
       ],
       "correct": 0,
       "explain": "llevar + tid + gerundio.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva betyr «Acabo de subir una foto»?",
       "options": [
-        "Jeg skal laste opp et bilde.",
+        "Jeg skal snart laste opp et bilde.",
         "Jeg har nettopp lastet opp et bilde.",
-        "Jeg har slettet et bilde.",
-        "Jeg avslutter med et bilde."
+        "Jeg har nettopp slettet et bilde.",
+        "Jeg har nettopp redigert et bilde."
       ],
       "correct": 1,
       "explain": "acabar de + infinitiv = har nettopp."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er «los bulos»?",
       "options": [
-        "bussene",
-        "vennene",
+        "falske annonser",
+        "ekte nyheter",
         "falske nyheter",
-        "bildene"
+        "digitale meldinger"
       ],
       "correct": 2,
       "explain": "Ord brukt i Spania.",
@@ -180,8 +180,8 @@
       "options": [
         "Det fortsetter å regne.",
         "Det har sluttet å regne.",
-        "Det skal regne.",
-        "Det regnet i går."
+        "Det begynner å regne.",
+        "Det fortsetter å snø."
       ],
       "correct": 0,
       "explain": "seguir + gerundio.",
@@ -191,13 +191,13 @@
       "id": "q10",
       "text": "Hvordan innleder du en presentasjon på spansk?",
       "options": [
-        "Para terminar, …",
+        "Al final, voy a resumir.",
         "Hoy voy a hablar de …",
-        "Por último, …",
-        "Adiós, …"
+        "Gracias por escuchar mi presentación.",
+        "Ahora voy a despedirme de todos."
       ],
       "correct": 1,
-      "explain": "Deretter kan du bruke primero, después, por último."
+      "explain": "«Hoy voy a hablar de…» passer når du forteller hva presentasjonen skal handle om."
     }
   ],
   "mindmap": {
@@ -327,7 +327,7 @@
           "deciendo",
           "diciendo",
           "dicho",
-          "decindo"
+          "decir"
         ],
         "correct": 1,
         "explain": "Vokalen endres: e → i."
@@ -339,7 +339,7 @@
         "options": [
           "dele",
           "sammenligne",
-          "kjøpe",
+          "lagre",
           "kommentere"
         ],
         "correct": 0,
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

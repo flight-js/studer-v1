@@ -92,12 +92,12 @@
       "text": "Hva kjennetegner et gyldig samtykke?",
       "options": [
         "Det er frivillig og tydelig, og kan trekkes tilbake",
-        "Det gjelder for alltid",
-        "Stillhet er nok",
-        "Det kan gis av noen som sover"
+        "Det er frivillig, men gjelder også etter at man ombestemmer seg",
+        "Det kan vises gjennom passivitet uten et tydelig ja",
+        "Det kan gis på forhånd for situasjoner som skjer senere"
       ],
       "correct": 0,
-      "explain": "Stillhet er ikke et ja."
+      "explain": "Samtykke må være frivillig og tydelig, og det kan trekkes tilbake."
     },
     {
       "id": "q03",
@@ -115,13 +115,13 @@
       "id": "q04",
       "text": "Hva er kjønnsuttrykk?",
       "options": [
-        "Hvilket kjønn man er født med",
-        "Hvem man er tiltrukket av",
-        "Et juridisk begrep",
+        "Hvilket kjønn man får registrert ved fødselen",
+        "Hvem man blir forelsket i eller tiltrukket av",
+        "Hvilket juridisk kjønn som står i offentlige dokumenter",
         "Hvordan man viser kjønn gjennom klær, stil og væremåte"
       ],
       "correct": 3,
-      "explain": "Kjønnsidentitet er hvilket kjønn man opplever å være."
+      "explain": "Kjønnsuttrykk skiller seg fra kjønnsidentitet, som handler om hvilket kjønn man opplever å være."
     },
     {
       "id": "q05",
@@ -142,7 +142,7 @@
       "options": [
         "Opplæringsloven",
         "Likestillings- og diskrimineringsloven",
-        "Markedsføringsloven",
+        "Arbeidsmiljøloven",
         "Ekteskapsloven"
       ],
       "correct": 1,
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva er seksuell trakassering?",
       "options": [
-        "Et kompliment",
-        "En kjæresterelasjon",
-        "En type flørt begge vil ha",
+        "Ønsket seksuell oppmerksomhet",
+        "Uønsket romantisk oppmerksomhet",
+        "Gjensidig seksuell interesse",
         "Uønsket seksuell oppmerksomhet"
       ],
       "correct": 3,
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva er forskjellen på lover, normer og verdier?",
       "options": [
-        "Det er det samme",
+        "Lover er hva man mener er riktig, normer hva som er lov, verdier hva som forventes",
         "Lover er hva som er lov, normer hva som forventes, verdier hva man mener er riktig",
-        "Normer er alltid skrevet ned",
-        "Verdier bestemmes av Stortinget"
+        "Lover er hva som forventes, normer hva man mener er riktig, verdier hva som er lov",
+        "Lover er hva som er lov, normer hva man mener er riktig, verdier hva som forventes"
       ],
       "correct": 1,
       "explain": "Å skille disse gjør drøftingen tydeligere."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva kan du gjøre hvis noen deler krenkende bilder av deg?",
         "options": [
-          "Ingenting",
+          "Sende bildet videre til venner for å få hjelp med saken",
           "Kontakte politiet, Slettmeg.no eller en voksen du stoler på",
-          "Dele bilder av dem tilbake",
-          "Slette kontoen din og ikke si noe"
+          "Svare med å legge ut et bilde av personen som delte det",
+          "Slette meldinger og vente på at personen tar bildet ned"
         ],
         "correct": 1,
         "explain": "Det er straffbart å dele krenkende bilder uten samtykke."
@@ -335,25 +335,25 @@
         "text": "Hva er seksuell orientering?",
         "options": [
           "Hvem man blir forelsket i eller tiltrukket av",
-          "Hvilket kjønn man opplever å være",
-          "Hvordan man kler seg",
-          "Hvilket kjønn som står i passet"
+          "Hvilket kjønn man selv opplever å være",
+          "Hvordan man uttrykker seg gjennom klær og stil",
+          "Hvilket kjønn som er registrert i passet og andre papirer"
         ],
         "correct": 0,
-        "explain": "Kjønnsidentitet er noe annet."
+        "explain": "Kjønnsidentitet handler om hvilket kjønn man opplever å være."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hva påvirker ulike syn på kjønn og seksualitet i samfunnet?",
         "options": [
-          "Bare alder",
-          "Bare lover",
+          "Blant annet kromosomer, hormoner, pubertet og kroppslig utvikling",
+          "Blant annet forelskelse, seksuell lyst, kropp og reproduksjon",
           "Blant annet religion, kultur, generasjon og politikk",
-          "Bare sosiale medier"
+          "Blant annet kjønnsorganer, pubertet, hormoner og biologisk utvikling"
         ],
         "correct": 2,
-        "explain": "Mange faktorer spiller inn."
+        "explain": "Syn på kjønn og seksualitet påvirkes av flere samfunnsforhold, blant annet religion, kultur, generasjon og politikk."
       }
     ],
     "skriv": [
@@ -439,6 +439,7 @@
     "merknader": [
       "Fakta sjekket i september 2026: samtykkebasert voldtektsbestemmelse i kraft fra 1. juli 2025, juridisk kjønn fra 16 år (fra 6 år med samtykke fra foreldrene). Sensitivt tema – en lærer bør likevel gå gjennom formuleringene."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

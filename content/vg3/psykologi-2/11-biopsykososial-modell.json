@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvem lanserte den biopsykososiale modellen?",
       "options": [
-        "Sigmund Freud",
+        "Aaron Beck",
         "George Engel",
-        "Albert Bandura",
-        "Corey Keyes"
+        "Urie Bronfenbrenner",
+        "Abraham Maslow"
       ],
       "correct": 1,
       "explain": "I 1977.",
@@ -90,9 +90,9 @@
       "text": "Hva sier sårbarhet-stress-modellen?",
       "options": [
         "At lidelse utløses når stress overstiger det personen tåler",
-        "At alle blir syke av stress",
-        "At sårbarhet ikke betyr noe",
-        "At stress alltid er positivt"
+        "At lidelse skyldes stress, mens sårbarhet har liten betydning",
+        "At lidelse oppstår når sårbarheten er lav og stresset begrenset",
+        "At høy sårbarhet gjør belastninger mindre krevende for personen"
       ],
       "correct": 0,
       "explain": "Samspill mellom sårbarhet og belastning."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvilken faktor er psykologisk?",
       "options": [
-        "Gener",
-        "Fattigdom",
+        "Arvelig sårbarhet",
+        "Sosial isolasjon",
         "Negative tankemønstre",
-        "Søvn"
+        "Hormonell ubalanse"
       ],
       "correct": 2,
       "explain": "Tanker og følelser."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken faktor er en beskyttende sosial faktor?",
       "options": [
-        "Mobbing",
-        "Ensomhet",
-        "Fattigdom",
-        "Støttende venner"
+        "Venner som mobber",
+        "Familie med konflikter",
+        "Venner som stenger ute",
+        "Venner som støtter"
       ],
       "correct": 3,
       "explain": "Gir tilhørighet."
@@ -126,9 +126,9 @@
       "text": "Hva er resiliens?",
       "options": [
         "Evnen til å klare seg godt til tross for belastninger",
-        "En diagnose",
-        "En medisin",
-        "En risikofaktor"
+        "Evnen til å unngå belastninger før de oppstår",
+        "Evnen til å skjule psykiske plager for andre mennesker",
+        "Evnen til å tåle stress uten støtte fra andre"
       ],
       "correct": 0,
       "explain": "Motstandsdyktighet."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva viser epigenetikk?",
       "options": [
-        "At gener aldri påvirkes",
+        "At miljøet endrer selve genene og skaper nye arvevarianter",
         "At miljøet kan påvirke hvordan gener slås av og på",
-        "At arv er alt",
-        "At miljø er alt"
+        "At gener og miljø virker hver for seg uten å påvirke hverandre",
+        "At miljøet avgjør hvilke gener en person arver fra foreldrene"
       ],
       "correct": 1,
       "explain": "Arv og miljø samspiller."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvordan kan dårlig søvn påvirke sosiale forhold?",
       "options": [
-        "Den gir flere venner",
-        "Den har ingen virkning",
-        "Dårligere humør kan gi konflikter",
-        "Den gir bedre skoleresultater"
+        "Dårlig søvn kan gjøre det lettere å lytte til venner og forstå dem",
+        "Dårlig søvn kan øke tålmodigheten i samtaler med venner",
+        "Dårligere humør etter lite søvn kan føre til flere konflikter med andre",
+        "Dårlig søvn kan gjøre samarbeid med andre mer effektivt"
       ],
       "correct": 2,
       "explain": "Nivåene påvirker hverandre."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er en svakhet ved den biopsykososiale modellen?",
       "options": [
-        "At den er for ensidig",
-        "At den bare ser på gener",
-        "At den ignorerer sosiale forhold",
+        "At den overser hvordan sosiale forhold påvirker psykisk helse",
+        "At den forklarer lidelser ut fra én biologisk årsak",
+        "At den skiller psykiske og kroppslige forhold helt fra hverandre",
         "At det er vanskelig å vite hvor mye hver faktor betyr"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva henger negative barndomserfaringer sammen med?",
       "options": [
         "Økt risiko for helseplager senere i livet",
-        "Bedre helse",
-        "Høyere intelligens",
-        "Ingen ting"
+        "Lavere risiko for helseplager senere i livet",
+        "Bedre psykisk helse i voksen alder",
+        "Høyere skoleprestasjoner senere i livet"
       ],
       "correct": 0,
       "explain": "Påvirker stressystemet."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva betyr modellen for behandling?",
       "options": [
-        "At bare medisiner virker",
+        "At tiltak bør rette seg mot én årsak til plagene",
         "At tiltak bør rette seg mot flere nivåer",
-        "At samtaleterapi er unødvendig",
-        "At sosiale forhold er uviktige"
+        "At behandling bør bygge på diagnosen framfor livssituasjonen",
+        "At tiltak bør vurderes uavhengig av sosiale forhold"
       ],
       "correct": 1,
       "explain": "Helhetlig tilnærming."
@@ -306,10 +306,10 @@
         "type": "flervalg",
         "text": "Hvilken faktor fremmer god psykisk helse?",
         "options": [
-          "Mobbing",
+          "Vedvarende mobbing og sosial utestenging",
           "Mening og gode relasjoner",
-          "Kronisk stress",
-          "Lite søvn"
+          "Langvarig stress og dårlig søvn",
+          "Lite støtte og få nære relasjoner"
         ],
         "correct": 1,
         "explain": "Også mestring og fysisk aktivitet."
@@ -320,9 +320,9 @@
         "text": "Hvilken modell kritiserte Engel?",
         "options": [
           "Den ensidig biomedisinske modellen",
+          "Den psykodynamiske modellen",
           "Den kognitive modellen",
-          "Den humanistiske modellen",
-          "To-kontinua-modellen"
+          "Den humanistiske modellen"
         ],
         "correct": 0,
         "explain": "Sykdom som bare noe i kroppen.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvilken faktor er biologisk?",
         "options": [
-          "Diskriminering",
-          "Selvfølelse",
-          "Søvn",
-          "Venner"
+          "Sosial støtte",
+          "Personlig selvfølelse",
+          "Kroppens søvnrytme",
+          "Sosial diskriminering"
         ],
         "correct": 2,
         "explain": "Kroppslige prosesser."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

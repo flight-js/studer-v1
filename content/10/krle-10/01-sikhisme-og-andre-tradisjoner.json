@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er langar?",
       "options": [
-        "Et gratis kjøkken i gurdwaraen der alle får mat",
-        "En hellig bok",
-        "En turban",
-        "En høytid"
+        "Et gratis måltid i gurdwaraen som alle kan delta i",
+        "En felles bønn i gurdwaraen som alle kan delta i",
+        "En religiøs undervisning i gurdwaraen som alle kan delta i",
+        "En høytidelig seremoni i gurdwaraen som alle kan delta i"
       ],
       "correct": 0,
       "explain": "Langar er et uttrykk for likeverd og deling."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er Guru Granth Sahib?",
       "options": [
-        "Den første guruen",
-        "Et tempel i Amritsar",
-        "Et seremonielt sverd",
-        "Sikhismens hellige skrift, som regnes som evig guru"
+        "Sikhismens første guru, som grunnla religionen i Punjab",
+        "Sikhismens hellige skrift, som regnes som den tiende guru",
+        "Sikhismens viktigste gudshus, som ligger i byen Amritsar",
+        "Sikhismens hellige skrift, som regnes som den evige guru"
       ],
       "correct": 3,
       "explain": "Etter den tiende guruen har skriften vært sikhenes guru."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva mente guruene om kastesystemet?",
       "options": [
-        "At det var gitt av Gud",
-        "At det skulle avvises fordi alle er likeverdige",
-        "At det bare gjaldt i Punjab",
-        "At det var nødvendig"
+        "At kastesystemet skulle beholdes fordi det var en del av tradisjonen",
+        "At kastesystemet skulle avvises fordi alle mennesker er likeverdige",
+        "At kastesystemet skulle endres fordi yrker skulle følge familiebakgrunn",
+        "At kastesystemet skulle brukes fordi det skapte orden i samfunnet"
       ],
       "correct": 1,
       "explain": "Likeverd er et grunnleggende prinsipp i sikhismen."
@@ -125,9 +125,9 @@
       "id": "q05",
       "text": "Hva er de fem K-ene?",
       "options": [
-        "Fem hellige byer",
-        "Fem guruer",
-        "Fem daglige bønner",
+        "Fem hellige steder som sikher besøker på pilegrimsreiser",
+        "Fem daglige bønner som sikher sier ved bestemte tider",
+        "Fem religiøse høytider som sikher feirer gjennom året",
         "Fem kjennetegn som innviede sikher bærer"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr Dao i daoismen?",
       "options": [
-        "Kraften",
-        "Guden",
+        "En guddom som skapte verden og menneskene",
+        "Et tempel der daoister samles for bønn",
         "Veien, den naturlige orden i alt",
-        "Himmelen"
+        "En religiøs lov med regler for dagliglivet"
       ],
       "correct": 2,
       "explain": "Daoister søker å leve i harmoni med dao."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er kami i shinto?",
       "options": [
-        "Ånder og guddommelige krefter i naturen, forfedrene og hellige steder",
-        "En munk",
-        "En hellig bok",
-        "En port"
+        "Ånder og guddommelige krefter knyttet til natur, forfedre og hellige steder",
+        "Ritualer og bønner knyttet til natur, forfedre og hellige steder",
+        "Prester og munker som utfører ritualer ved hellige steder",
+        "Hellige bygninger og porter som markerer inngangen til helligdommer"
       ],
       "correct": 0,
       "explain": "Kami kan finnes i fjell, trær, elver og forfedre."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva legger bahá'í vekt på?",
       "options": [
-        "At bare én religion er sann",
+        "At det finnes én Gud, og at religionene har ulike guddommelige opphav",
         "At det finnes én Gud, og at religionene har samme kilde",
-        "At det finnes mange guder",
-        "At naturen er hellig"
+        "At det finnes flere guder, og at religionene har samme kilde",
+        "At det finnes én Gud, og at religionene ikke har felles opphav"
       ],
       "correct": 1,
       "explain": "Bahá'í vektlegger også menneskehetens enhet."
@@ -323,8 +323,8 @@
         "options": [
           "Løve",
           "Prinsesse",
-          "Lærer",
-          "Elev"
+          "Konge",
+          "Kriger"
         ],
         "correct": 0,
         "explain": "Kvinner får navnet Kaur, som betyr «prinsesse».",
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er yin og yang?",
         "options": [
-          "To guruer",
+          "To like krefter som virker uavhengig av hverandre",
           "To motsatte krefter som hører sammen og må være i balanse",
-          "To japanske helligdommer",
-          "To hellige bøker"
+          "To guder som kjemper om kontroll over verden",
+          "To elementer som må holdes atskilt for å skape harmoni"
         ],
         "correct": 1,
         "explain": "For eksempel lys og mørke, varmt og kaldt."
@@ -350,7 +350,7 @@
         "options": [
           "Moské",
           "Synagoge",
-          "Pagode",
+          "Mandir",
           "Gurdwara"
         ],
         "correct": 3,
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

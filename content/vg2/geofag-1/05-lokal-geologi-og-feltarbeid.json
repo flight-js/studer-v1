@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en morene?",
       "options": [
-        "Sortert og lagdelt sand",
+        "Sortert lag av sand og grus fra smeltevann",
         "Usortert blanding av leire, sand, stein og blokker",
-        "Bare leire",
-        "Organisk materiale"
+        "Finkornet leire avsatt i stille vann",
+        "Torv og planterester avsatt i myr"
       ],
       "correct": 1,
       "explain": "Isen avsetter alt om hverandre."
@@ -90,9 +90,9 @@
       "text": "Hva er marin grense?",
       "options": [
         "Det høyeste nivået havet nådde etter istida",
-        "Grensen mellom Norge og havet i dag",
-        "Grensen for fiskerisone",
-        "Høyeste flomnivå"
+        "Det høyeste nivået en innsjø nådde etter istida",
+        "Det høyeste nivået havet nådde før siste istid",
+        "Nivået havet står på i dag langs kysten"
       ],
       "correct": 0,
       "explain": "Den varierer fra sted til sted."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor er breelvavsetninger viktige ressurser?",
       "options": [
-        "De inneholder gull",
-        "De er gode til jordbruk alltid",
+        "De er viktige kilder til matjord og torv",
+        "De er viktige kilder til kull og kalkstein",
         "De er viktige kilder til grus og grunnvann",
-        "De hindrer skred"
+        "De er viktige kilder til leire og overflatevann"
       ],
       "correct": 2,
       "explain": "Sortert materiale med god gjennomstrømning."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva viser skuringsstriper?",
       "options": [
-        "Hvor gammelt berget er",
-        "Landhevingen",
-        "Hvor havet sto",
+        "Hvilken vei elva rant over berget",
+        "Hvor lenge berget har vært eksponert",
+        "Hvilken retning berglaget heller",
         "Hvilken vei isen beveget seg"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvor kan det finnes kvikkleire?",
       "options": [
         "Under marin grense",
-        "På toppen av fjell",
-        "I morene over tregrensen",
-        "I vulkansk aske"
+        "Over marin grense",
+        "I grov breelvsand",
+        "I fast fjellgrunn"
       ],
       "correct": 0,
       "explain": "Kvikkleire er marin leire."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva forteller skjellbanker høyt over havet?",
       "options": [
-        "At det har vært vulkanutbrudd",
-        "At landet har hevet seg",
-        "At havet har steget",
-        "At isen har vært der nylig"
+        "At landet har sunket etter at skjellene ble avsatt",
+        "At landet har hevet seg etter at skjellene ble avsatt",
+        "At breen fraktet skjellene til stedet under istida",
+        "At elva avsatte skjellene på stedet etter istida"
       ],
       "correct": 1,
       "explain": "Skjellene ble avsatt i havet."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor tar du bilder med målestokk i felt?",
       "options": [
-        "For å spare tid",
-        "For at bildet skal bli penere",
+        "For å vise hvilken retning terrenget heller",
+        "For å vise hvor høyt lokaliteten ligger over havet",
         "For å vise størrelsen på det du fotograferer",
-        "For å finne retning"
+        "For å vise hvor langt motivet er fra kameraet"
       ],
       "correct": 2,
       "explain": "Ellers er det vanskelig å tolke bildet."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvor finner du digitale kart over løsmasser i Norge?",
       "options": [
-        "Hos Statistisk sentralbyrå",
-        "Hos Meteorologisk institutt",
-        "Hos Folkehelseinstituttet",
+        "Hos Norges vassdrags- og energidirektorat (NVE)",
+        "Hos Kartverket",
+        "Hos Miljødirektoratet",
         "Hos Norges geologiske undersøkelse (NGU)"
       ],
       "correct": 3,
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva er det første steget i et feltarbeid?",
       "options": [
-        "Planlegging med problemstilling, kart og sikkerhetsvurdering",
-        "Å ta prøver",
-        "Å skrive rapporten",
-        "Å sikte prøvene"
+        "Planlegge problemstilling, kart og sikkerhet",
+        "Samle inn prøver fra utvalgte lokaliteter",
+        "Registrere observasjoner og målinger i felt",
+        "Analysere kornstørrelsen i innsamlede prøver"
       ],
       "correct": 0,
       "explain": "God planlegging gir bedre data."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er podsol?",
       "options": [
-        "En type morene",
+        "Jordsmonn i løvskog med mørkt, næringsrikt topplag",
         "Jordsmonn i barskog med blekt, utvasket lag",
-        "En bergart",
-        "En type kvikkleire"
+        "Jordsmonn på myr med tykt, organisk torvlag",
+        "Jordsmonn på strand med grovt, saltpåvirket lag"
       ],
       "correct": 1,
       "explain": "Vanlig i norsk barskog."
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hvilken metode brukes for å finne kornfordelingen i en prøve?",
         "options": [
-          "Syretest",
+          "Syretesting",
           "Sikting",
-          "Radiometrisk datering",
-          "Kompassmåling"
+          "Kompassmåling",
+          "Hardhetsmåling"
         ],
         "correct": 1,
         "explain": "Prøven ristes gjennom sikter med ulik maskevidde."
@@ -334,9 +334,9 @@
         "text": "Hva viser en morenerygg?",
         "options": [
           "Hvor brefronten sto",
-          "Hvor havet sto",
-          "Hvor elva rant",
-          "Hvor vulkanen var"
+          "Hvor havnivået sto",
+          "Hvor elveløpet gikk",
+          "Hvor fjellskredet stoppet"
         ],
         "correct": 0,
         "explain": "Isen skjøv opp materiale foran seg."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilket utstyr bruker du for å teste om en bergart inneholder kalkspat?",
         "options": [
-          "Kompass",
-          "Lupe",
+          "Fortynnet natronløsning",
+          "Destillert vann",
           "Fortynnet saltsyre",
-          "Målebånd"
+          "Kaliumpermanganatløsning"
         ],
         "correct": 2,
         "explain": "Kalkspat bruser.",
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -88,9 +88,9 @@
       "text": "Hva er historiebevissthet?",
       "options": [
         "Forståelse av sammenhengen mellom fortid, nåtid og framtid",
-        "Å kunne mange årstall",
-        "Å like historie",
-        "Å lese historiske romaner"
+        "Kunnskap om viktige hendelser fra fortiden",
+        "Evne til å plassere historiske hendelser kronologisk",
+        "Kjennskap til hvordan historikere bruker skriftlige kilder"
       ],
       "correct": 0,
       "explain": "Fortiden tolkes for å forstå nåtiden."
@@ -99,9 +99,9 @@
       "id": "q02",
       "text": "Hva er tendens i en kilde?",
       "options": [
-        "At den er gammel",
-        "At den er kort",
-        "At den er muntlig",
+        "At den er skrevet i en bestemt historisk periode",
+        "At den gir opplysninger om en bestemt historisk hendelse",
+        "At den er formidlet muntlig fra én person til en annen",
         "At den har interesse i å framstille noe på en bestemt måte"
       ],
       "correct": 3,
@@ -111,10 +111,10 @@
       "id": "q03",
       "text": "Hva er handlingsrom?",
       "options": [
-        "Et rom i et museum",
+        "De valgene en person ønsket å ta",
         "De mulighetene en person faktisk hadde",
-        "En type kilde",
-        "En politisk ideologi"
+        "De rettighetene en person hadde etter loven",
+        "De beslutningene en person tok i praksis"
       ],
       "correct": 1,
       "explain": "Begrenset av strukturer."
@@ -123,10 +123,10 @@
       "id": "q04",
       "text": "Hvordan kan du drøfte i hvilken grad en periode var preget av brudd?",
       "options": [
-        "Ved å se bare på politikk",
-        "Ved å gi ett svar uten begrunnelse",
+        "Ved å sammenligne bare politiske endringer gjennom perioden",
+        "Ved å telle hvor mange viktige hendelser som fant sted",
         "Ved å se på ulike områder, tempo og hvem som opplevde endring",
-        "Ved å telle årstall"
+        "Ved å beskrive periodens hendelser uten å vurdere hvem de berørte"
       ],
       "correct": 2,
       "explain": "Nyansert vurdering."
@@ -135,10 +135,10 @@
       "id": "q05",
       "text": "Hva skilte sosialdemokrater fra kommunister?",
       "options": [
-        "Sosialdemokratene ville ha diktatur",
-        "Kommunistene ville ha valg",
+        "Sosialdemokratene ville endre samfunnet gjennom revolusjon og væpnet opprør",
+        "Kommunistene ville bevare kapitalismen gjennom gradvise reformer",
         "Sosialdemokratene ville endre samfunnet gjennom valg og reformer",
-        "De var helt like"
+        "Sosialdemokratene ønsket å avskaffe demokratiet og innføre ettpartistyre"
       ],
       "correct": 2,
       "explain": "Kommunistene ville ha revolusjon."
@@ -147,9 +147,9 @@
       "id": "q06",
       "text": "Hva gjorde samlebåndet mulig?",
       "options": [
-        "Håndverk",
+        "Håndverksproduksjon",
+        "Småskalaproduksjon",
         "Hjemmeproduksjon",
-        "Barnearbeid",
         "Masseproduksjon"
       ],
       "correct": 3,
@@ -161,9 +161,9 @@
       "text": "Hva er integrering?",
       "options": [
         "At minoriteten deltar og beholder deler av sin kultur",
-        "At minoriteten gir opp sin kultur helt",
-        "At gruppene lever atskilt",
-        "At alle flytter ut"
+        "At minoriteten gir opp egen kultur og tilpasser seg helt",
+        "At gruppene bor sammen, men holdes adskilt fra hverandre",
+        "At majoriteten gir opp egen kultur og tilpasser seg minoriteten"
       ],
       "correct": 0,
       "explain": "Skiller seg fra assimilering."
@@ -173,9 +173,9 @@
       "text": "Hva bidro til avkoloniseringen etter 1945?",
       "options": [
         "Svekkede kolonimakter og sterke frigjøringsbevegelser",
-        "At koloniene ble rikere enn Europa",
-        "At Berlinkonferansen ble gjentatt",
-        "At misjonen stoppet"
+        "En styrket økonomi hos kolonimaktene og mindre motstand i koloniene",
+        "At Berlinkonferansen ble fulgt opp med nye avtaler om Afrika",
+        "Større militær støtte fra kolonimaktene til styrene i koloniene"
       ],
       "correct": 0,
       "explain": "Også FN og menneskerettighetene."
@@ -184,9 +184,9 @@
       "id": "q09",
       "text": "Hvorfor mener mange at Versaillesfreden bidro til ny krig?",
       "options": [
-        "Fordi den var for mild mot alle",
-        "Fordi Tyskland vant",
-        "Fordi den ga Tyskland kolonier",
+        "Fordi den ble opplevd som rettferdig og svekket støtten til nazismen",
+        "Fordi den styrket Tysklands økonomi og hindret nazismens framvekst",
+        "Fordi den ga Tyskland nye kolonier og økte støtten til nazismen",
         "Fordi den ble opplevd som urettferdig og ga grobunn for nazismen"
       ],
       "correct": 3,
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "Hva kan bidra til å forebygge folkemord?",
       "options": [
-        "Propaganda",
+        "Menneskerettigheter, diktatur og kunnskap om fortiden",
         "Menneskerettigheter, rettsstat og kunnskap om fortiden",
-        "Polarisering",
-        "Å være tilskuer"
+        "Sensur, rettsstat og kunnskap om fortiden",
+        "Menneskerettigheter, rettsstat og historisk glemsel"
       ],
       "correct": 1,
       "explain": "Også å si fra mot hatretorikk."
@@ -209,9 +209,9 @@
       "text": "Hva kan være en negativ virkning av en snever nasjonal fortelling?",
       "options": [
         "At den utelukker og undertrykker dem som ikke passer inn",
-        "At den skaper samhold",
-        "At den gir tillit",
-        "At den gir fellesskap"
+        "At den styrker tilhørigheten til dem som allerede passer inn",
+        "At den gir flere grupper en felles forståelse av fortiden",
+        "At den øker tilliten mellom ulike grupper i samfunnet"
       ],
       "correct": 0,
       "explain": "Nasjonsbyggingen hadde en pris."
@@ -221,9 +221,9 @@
       "text": "Hvordan har frigjøringskampene bidratt til demokratiet?",
       "options": [
         "Ved å gi flere stemmerett, innflytelse og vern mot diskriminering",
-        "Ved å fjerne valg",
-        "Ved å gi kongen mer makt",
-        "De har ikke bidratt"
+        "Ved å gi flere stemmerett, men begrense politisk innflytelse og vern mot diskriminering",
+        "Ved å styrke politisk innflytelse, men redusere stemmerett og vern mot diskriminering",
+        "Ved å utvide diskrimineringsvernet, men begrense stemmerett og politisk innflytelse"
       ],
       "correct": 0,
       "explain": "Demokratiet er blitt bredere."
@@ -233,9 +233,9 @@
       "text": "Hva betyr at ytelsene er universelle?",
       "options": [
         "At de gjelder alle",
-        "At de bare gjelder de fattigste",
-        "At de gjelder hele verden",
-        "At de er private"
+        "At de gjelder lavinntektsgrupper",
+        "At de gjelder yrkesaktive personer",
+        "At de gis etter behovsprøving"
       ],
       "correct": 0,
       "explain": "Kjennetegn ved den norske modellen."
@@ -244,10 +244,10 @@
       "id": "q14",
       "text": "Hva lærer vi av overbeskatningen av hval, sild og skog?",
       "options": [
-        "At ressurser aldri tar slutt",
-        "At teknologi alltid løser problemer",
-        "At reguleringer er unødvendige",
-        "Hva som skjer når ingen tar ansvar for felles ressurser"
+        "At tekniske løsninger kan sikre ressursene alene",
+        "At privat eierskap løser alle konflikter om ressurser",
+        "At økt produksjon gir bedre vern av felles ressurser",
+        "At felles ressurser trenger ansvarlig forvaltning"
       ],
       "correct": 3,
       "explain": "Allmenningens tragedie.",
@@ -386,7 +386,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -409,10 +409,10 @@
         "type": "flervalg",
         "text": "Hva betyr det å tenke historisk?",
         "options": [
-          "Å dømme fortiden etter dagens verdier",
-          "Å pugge årstall",
+          "Å vurdere fortidens handlinger ut fra dagens moralske normer",
+          "Å forklare historiske hendelser gjennom årstall og kronologi",
           "Å forstå fortidens forutsetninger og egen tids påvirkning",
-          "Å bare lese om krig"
+          "Å undersøke krigshistorie ved å sammenligne slag og ledere"
         ],
         "correct": 2,
         "explain": "Begge perspektiver trengs."
@@ -422,10 +422,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan to historikere framstille samme hendelse ulikt?",
         "options": [
-          "Fordi den ene lyver alltid",
-          "Fordi fortiden endrer seg",
+          "Fordi den historiske hendelsen endrer seg over tid",
+          "Fordi historikerne bygger på identiske kilder og metoder",
           "Fordi de har ulikt ståsted, ulike kilder og ulik kontekst",
-          "Fordi de har lest samme bok"
+          "Fordi de har lest samme lærebok og fulgt samme tolkning"
         ],
         "correct": 2,
         "explain": "Framstillinger preges av mange faktorer."
@@ -451,8 +451,8 @@
         "options": [
           "Liberalismen",
           "Fascismen",
-          "Kommunismen",
-          "Konservatismen"
+          "Sosialismen",
+          "Sosialdemokratiet"
         ],
         "correct": 0,
         "explain": "Individets frihet står sentralt."
@@ -462,10 +462,10 @@
         "type": "flervalg",
         "text": "Hvilken økonomisk følge fikk kolonialismen for mange kolonier?",
         "options": [
-          "Sterk egen industri",
-          "Mye egen teknologi",
+          "Økonomier innrettet mot produksjon for lokalt forbruk",
+          "Økonomier bygget på en sterk lokal industri og eksport av ferdigvarer",
           "Økonomier innrettet mot eksport av råvarer",
-          "Rikdom for lokalbefolkningen"
+          "Økonomier preget av stor teknologisk selvstendighet og lokal foredling"
         ],
         "correct": 2,
         "explain": "Hemmet egen utvikling."
@@ -544,12 +544,84 @@
           "Forklarer at reguleringer kan bidra til at bestanden kommer tilbake."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Framstillinger av 1814 har endret seg: eldre historieskrivning la vekt på en heroisk nasjonal gjenfødelse, mens nyere framstillinger også trekker fram stormaktspolitikk og at grupper som jøder og kvinner manglet rettigheter. Columbus’ reise i 1492 ble lenge omtalt i Europa som «oppdagelsen» av Amerika, mens urfolksperspektiver vektlegger erobring og undertrykkelse. Forklar hvordan ståsted og samtid kan påvirke slike historiske framstillinger.",
+        "fasit": "Framstillinger formes av hvem som skriver, hvilke spørsmål som er viktige i samtiden, og hvilke kilder og perspektiver som får plass. Eldre fortellinger om 1814 og Columbus la i stor grad vekt på europeisk nasjonsbygging og handlingene til mektige personer, mens nyere framstillinger også løfter fram grupper som tidligere ble utelatt.",
+        "kriterier": [
+          "Viser at ståsted, samtid eller formål påvirker hva som vektlegges.",
+          "Bruker forskjellene i framstillingene av 1814 eller Columbus som eksempel."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Den industrielle revolusjonen førte til at produksjon ble flyttet fra hjem og gårder til fabrikker, og mange flyttet til byene. Arbeiderbevegelser vokste fram i denne perioden. Forklar hvordan endringer i arbeidslivet bidro til at arbeidere organiserte seg, og nevn ett krav arbeiderbevegelsen stilte.",
+        "fasit": "Fabrikkarbeidet førte til lange arbeidsdager og ofte dårlige arbeidsforhold, samtidig som en større arbeiderklasse vokste fram. Arbeiderne organiserte seg for å få bedre vilkår, blant annet kortere arbeidsdag; arbeiderbevegelsen kjempet for åtte timers arbeidsdag.",
+        "kriterier": [
+          "Knytter industrialiseringens arbeidsforhold eller framveksten av en arbeiderklasse til organisering.",
+          "Nevner et relevant krav, for eksempel åtte timers arbeidsdag eller bedre arbeidsforhold."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Opplysningstidens ideer om folkesuverenitet og rettigheter inspirerte revolusjonene i Amerika og Frankrike. Begge revolusjonene påvirket Grunnloven av 1814, men mange mennesker fikk ikke politiske rettigheter. Forklar både hvordan ideene påvirket demokratiet, og hvordan retten til politisk deltakelse senere ble utvidet i Norge.",
+        "fasit": "Ideene om at makten skulle komme fra folket og at mennesker hadde rettigheter, bidro til utviklingen av demokratiske styreformer og inspirerte Grunnloven av 1814. Likevel var deltakelsen begrenset, og den ble gradvis utvidet, blant annet med allmenn stemmerett for menn i 1898 og for kvinner i 1913.",
+        "kriterier": [
+          "Forklarer en forbindelse mellom opplysningstidens ideer, revolusjonene og Grunnloven av 1814.",
+          "Viser at politisk deltakelse først var begrenset, og nevner en utvidelse av stemmeretten i Norge."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Europeiske industristater ønsket råvarer, markeder og tilgang til billig arbeidskraft, og dette var viktige drivkrefter bak imperialismen. Etter at kolonier ble selvstendige, fortsatte flere å være avhengige av eksport av råvarer. Forklar sammenhengen mellom industriens behov, kolonisering og en økonomisk følge av kolonitiden.",
+        "fasit": "Industristatene tok kontroll over områder for å skaffe råvarer og markeder og for å utnytte billig arbeidskraft. Koloniene ble ofte innrettet mot eksport av råvarer, slik at denne økonomiske strukturen kunne fortsette også etter selvstendigheten og gjøre det vanskeligere å utvikle egen industri.",
+        "kriterier": [
+          "Knytter industriens behov for råvarer, markeder eller arbeidskraft til imperialismen.",
+          "Nevner en økonomisk følge for koloniserte områder, som råvareavhengighet eller svekket lokal industri."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Etter apartheid opprettet Sør-Afrika en sannhets- og forsoningskommisjon. I Norge la Sannhets- og forsoningskommisjonen i 2023 fram en rapport om fornorskingspolitikken overfor samer, kvener og skogfinner. Forklar et fellestrekk ved disse forsøkene på å håndtere historisk urett, og nevn én forskjell mellom dem.",
+        "fasit": "Begge forsøkene handler om å synliggjøre historisk urett og bidra til forsoning. Sør-Afrika opprettet en sannhets- og forsoningskommisjon etter apartheid, mens den norske kommisjonen la fram en rapport om fornorskingspolitikken og uretten mot samer, kvener og skogfinner.",
+        "kriterier": [
+          "Nevner at begge retter oppmerksomhet mot historisk urett eller forsoning.",
+          "Skiller mellom Sør-Afrikas kommisjon etter apartheid og den norske rapporten om fornorsking."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Etter første verdenskrig opplevde mange tyskere Versaillesfreden som ydmykende. Den økonomiske krisen etter børskrakket i 1929 førte også til arbeidsløshet og politisk ustabilitet. Forklar hvordan slike forhold bidro til at andre verdenskrig brøt ut.",
+        "fasit": "Misnøye med Versaillesfreden bidro til støtte for nazistenes krav om hevn og nytt land. Den økonomiske krisen skapte arbeidsløshet og politisk ustabilitet, noe som styrket ytterliggående bevegelser; Tyskland startet krigen ved å angripe Polen i 1939.",
+        "kriterier": [
+          "Knytter misnøyen med Versaillesfreden til nazistisk hevn eller ekspansjon.",
+          "Forklarer hvordan den økonomiske krisen bidro til politisk ustabilitet eller styrket ytterliggående bevegelser."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Avtaler bidro til å redusere sur nedbør i Europa, og Montrealprotokollen fra 1987 forbød stoffer som skadet ozonlaget. Klimaendringene har vært vanskeligere å løse gjennom internasjonalt samarbeid. Forklar en grunn til at avtalene kunne virke på disse problemene, og hvorfor klimaendringene er mer krevende.",
+        "fasit": "Avtaler kan gi resultater når land blir enige om å begrense bestemte utslipp eller stoffer, slik som i Montrealprotokollen og avtalene mot sur nedbør. Klimaendringene er vanskeligere å håndtere fordi utslippene er knyttet til nesten all økonomisk aktivitet, noe som gjør det krevende å bli enige om og dele kostnadene ved omfattende tiltak.",
+        "kriterier": [
+          "Viser at internasjonale avtaler kan begrense bestemte forurensende stoffer eller utslipp.",
+          "Forklarer at klimaendringene er krevende fordi utslippene er knyttet til omfattende økonomisk aktivitet eller kostnader."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Under den økonomiske krisen på 1930-tallet inngikk Arbeiderpartiet og Bondepartiet kriseforliket i 1935. Etter andre verdenskrig ble flere velferdsordninger bygd ut, blant annet barnetrygd og Folketrygden. Forklar hvordan politiske kompromisser og økonomiske kriser bidro til utviklingen av velferdsstaten i Norge.",
+        "fasit": "Krisen på 1930-tallet gjorde arbeidsløshet og økonomisk trygghet til viktige politiske spørsmål, og kriseforliket bidro til at Arbeiderpartiet dannet regjering og nye ordninger ble innført. Etter krigen bygde politisk enighet om gjenreisning videre på denne utviklingen, blant annet gjennom barnetrygd og senere Folketrygden.",
+        "kriterier": [
+          "Knytter krisen på 1930-tallet og kriseforliket til politiske tiltak eller nye trygdeordninger.",
+          "Viser hvordan utbyggingen etter 1945 videreførte utviklingen av velferdsstaten."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

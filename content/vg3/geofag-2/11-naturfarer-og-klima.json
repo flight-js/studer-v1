@@ -77,22 +77,22 @@
       "id": "q01",
       "text": "Hvordan kan risiko beskrives?",
       "options": [
-        "Bare sannsynlighet",
+        "Sannsynlighet + konsekvens",
         "Sannsynlighet × konsekvens",
-        "Bare konsekvens",
-        "Antall hendelser per år"
+        "Sannsynlighet ÷ konsekvens",
+        "Konsekvens − sannsynlighet"
       ],
       "correct": 1,
-      "explain": "Begge deler må med."
+      "explain": "Risiko vurderes ut fra både sannsynlighet og konsekvens."
     },
     {
       "id": "q02",
       "text": "Hva gir stormflo?",
       "options": [
         "Lavt trykk, pålandsvind og springflo samtidig",
-        "Høytrykk og vindstille",
-        "Tørke",
-        "Snøsmelting"
+        "Høyt trykk, pålandsvind og springflo samtidig",
+        "Lavt trykk, fralandsvind og springflo samtidig",
+        "Lavt trykk, pålandsvind og nippflo samtidig"
       ],
       "correct": 0,
       "explain": "Ekstra høy vannstand."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er et sørpeskred?",
       "options": [
-        "Et steinsprang",
-        "Et skred av tørr snø",
+        "Tørr snø som raser nedover",
+        "Vannmettet jord som raser nedover",
         "Vannmettet snø som raser",
-        "Et jordskjelv"
+        "Løse steiner som raser nedover"
       ],
       "correct": 2,
       "explain": "Ofte ved regn eller rask snøsmelting."
@@ -113,22 +113,22 @@
       "id": "q04",
       "text": "Hva betyr oransje farevarsel?",
       "options": [
-        "Ingen fare",
-        "Ekstrem fare",
-        "Moderat fare",
+        "Moderat fare – vær oppmerksom",
+        "Ekstrem fare – følg myndighetenes råd",
+        "Liten fare – følg med på utviklingen",
         "Betydelig fare – vær forberedt"
       ],
       "correct": 3,
-      "explain": "Rødt er ekstrem fare."
+      "explain": "Oransje varsler betydelig fare; rødt varsler ekstrem fare."
     },
     {
       "id": "q05",
       "text": "Hvilken nettside publiserer NVEs skred- og flomvarsler?",
       "options": [
         "varsom.no",
-        "yr.no alene",
-        "nrk.no",
-        "regjeringen.no"
+        "yr.no",
+        "senorge.no",
+        "met.no"
       ],
       "correct": 0,
       "explain": "Snøskred, jordskred og flom.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvordan kan klimaendringer påvirke stormflo?",
       "options": [
-        "Gjøre den mindre farlig",
+        "Gjøre den mindre farlig gjennom havnivåfall",
         "Gjøre den farligere gjennom havnivåstigning",
-        "Ingen effekt",
-        "Stoppe den helt"
+        "La faren være uendret ved havnivåstigning",
+        "Gjøre den mindre farlig gjennom svakere tidevann"
       ],
       "correct": 1,
       "explain": "Høyere utgangsnivå."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er et jøkulhlaup?",
       "options": [
-        "Et snøskred",
-        "En orkan",
+        "Gradvis tømming av en bredemt sjø",
+        "Plutselig tømming av en innsjø etter kraftig regn",
         "Plutselig tømming av en bredemt sjø",
-        "En tørkeperiode"
+        "Plutselig tømming av en innsjø ved stormflo"
       ],
       "correct": 2,
       "explain": "En brerelatert fare.",
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er et eksempel på forebygging gjennom arealplanlegging?",
       "options": [
-        "Evakuering",
-        "Farevarsel",
-        "Fangnett",
+        "Å evakuere beboere før en flom",
+        "Å sende farevarsel til utsatte områder",
+        "Å sette opp fangnett i skredutsatte områder",
         "Å unngå å bygge i flomsoner"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvorfor kan tinende permafrost være farlig?",
       "options": [
         "Det kan gjøre fjellsider ustabile",
-        "Det gir mer snø",
-        "Det senker havnivået",
-        "Det gir mindre nedbør"
+        "Det kan gjøre fjellsider mer stabile",
+        "Det kan redusere faren for steinsprang i fjellområder",
+        "Det kan senke havnivået når bakken tiner"
       ],
       "correct": 0,
       "explain": "Isen holdt massene sammen."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på fysisk sikring mot skred?",
         "options": [
-          "Farevarsel",
+          "Farevarsler og evakuering",
           "Skredvoller og fangnett",
-          "Arealplan",
-          "Evakuering"
+          "Arealplaner og byggeforbud",
+          "Målinger og beredskapsplaner"
         ],
         "correct": 1,
         "explain": "Stopper eller leder skredmassene."
@@ -325,9 +325,9 @@
         "text": "Hva utløser ofte jordskred og flomskred?",
         "options": [
           "Intens nedbør i bratt terreng",
-          "Høytrykk",
-          "Kulde",
-          "Vindstille"
+          "Høytrykk og tørrvær i bratt terreng",
+          "Lett snøfall i slakt terreng",
+          "Kulde og vindstille i dalbunner"
         ],
         "correct": 0,
         "explain": "Løsmassene blir vannmettet."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva betyr gult farevarsel?",
         "options": [
-          "Ekstrem fare",
-          "Betydelig fare",
+          "Betydelig fare – vær forberedt",
+          "Ekstrem fare – følg myndighetenes råd",
           "Moderat fare – vær oppmerksom",
-          "Ingen fare"
+          "Liten fare – følg med på utviklingen"
         ],
         "correct": 2,
         "explain": "Det laveste nivået."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

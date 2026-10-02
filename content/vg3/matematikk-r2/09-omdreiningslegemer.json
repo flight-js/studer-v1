@@ -76,7 +76,7 @@
       "id": "q01",
       "text": "Hva er volumformelen når f roteres om x-aksen?",
       "options": [
-        "V = ∫ₐᵇ f(x) dx",
+        "V = π · ∫ₐᵇ f(x) dx",
         "V = π · ∫ₐᵇ (f(x))² dx",
         "V = 2π · ∫ₐᵇ f(x) dx",
         "V = π · (∫ₐᵇ f(x) dx)²"
@@ -126,7 +126,7 @@
       "options": [
         "π · ∫ₐᵇ ((f(x))² − (g(x))²) dx",
         "π · ∫ₐᵇ (f(x) − g(x))² dx",
-        "∫ₐᵇ (f(x) − g(x)) dx",
+        "π · ∫ₐᵇ (f(x) − g(x)) dx",
         "π · ∫ₐᵇ f(x)g(x) dx"
       ],
       "correct": 0,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er den generelle skivemetoden?",
       "options": [
-        "V = A · h alltid",
-        "V = ∫ f′(x) dx",
+        "V = π · r² · (b − a)",
+        "V = ∫ₐᵇ A′(x) dx",
         "V = ∫ₐᵇ A(x) dx",
-        "V = π · r²"
+        "V = A(a) · (b − a)"
       ],
       "correct": 2,
       "explain": "A(x) er tverrsnittsarealet."
@@ -317,9 +317,9 @@
         "text": "Hva må du gjøre for å finne vannhøyden når en tank er halvfull?",
         "options": [
           "Løse π ∫₀ʰ (f(x))² dx = V/2 for h",
-          "Dele høyden på 2",
-          "Derivere f",
-          "Finne toppunktet"
+          "Sette h lik halvparten av tankens totale høyde",
+          "Derivere f(x) og sette f′(x) = 0 for å finne h",
+          "Finne toppunktet til f og bruke x-koordinaten som h"
         ],
         "correct": 0,
         "explain": "Formen avgjør høyden."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

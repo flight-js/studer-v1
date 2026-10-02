@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva kjennetegner trinnet «personifisering» i konflikttrappa?",
       "options": [
-        "Partene blir enige",
+        "Uenigheten handler fortsatt om selve saken",
         "Motparten blir sett på som problemet",
-        "Konflikten er løst",
-        "Man snakker sammen"
+        "Partene trekker seg helt fra kontakten",
+        "Omgivelsene begynner å velge side"
       ],
       "correct": 1,
       "explain": "Fokuset flyttes fra sak til person."
@@ -89,9 +89,9 @@
       "text": "Hvilket utsagn er et jeg-budskap?",
       "options": [
         "Jeg blir lei meg når du ikke svarer",
-        "Du er så egoistisk",
-        "Du gjør alltid dette",
-        "Du ødelegger alt"
+        "Jeg mener at du burde svare raskere",
+        "Jeg blir lei meg fordi du er egoistisk",
+        "Jeg synes du ødelegger samtalen når du går"
       ],
       "correct": 0,
       "explain": "Beskriver egne følelser."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er mekling?",
       "options": [
-        "At læreren bestemmer",
-        "At man unngår konflikten",
-        "At en nøytral tredjepart hjelper partene å finne en løsning",
-        "At den sterkeste vinner"
+        "En nøytral tredjepart bestemmer løsningen for partene",
+        "En av partene hjelper den andre med å finne en løsning",
+        "En nøytral tredjepart hjelper partene å finne en løsning",
+        "Partene finner en løsning uten hjelp fra andre"
       ],
       "correct": 2,
       "explain": "Partene finner løsningen selv."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva gjør vi ofte når ord og kroppsspråk ikke stemmer overens?",
       "options": [
-        "Legger mer vekt på kroppsspråket",
-        "Ignorerer begge",
-        "Legger mest vekt på ordene",
-        "Spør en annen"
+        "Legger mest vekt på kroppsspråket",
+        "Legger mest vekt på ordene som blir sagt",
+        "Venter med å tolke budskapet til samtalen er over",
+        "Ser mest på hvor raskt den andre svarer"
       ],
       "correct": 0,
       "explain": "Ikke-verbale signaler er sterke."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor kan konflikter trappes raskere opp digitalt?",
       "options": [
-        "Fordi folk skriver mer",
+        "Fordi skriftlige samtaler inneholder flere følelsessignaler",
         "Fordi mange ikke-verbale signaler mangler",
-        "Fordi det er flere emojier",
-        "Fordi det er gratis"
+        "Fordi meldinger gjør det lettere å høre tonefallet",
+        "Fordi emojier viser kroppsspråket på en nøyaktig måte"
       ],
       "correct": 1,
       "explain": "Større fare for misforståelser."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er en verdikonflikt?",
       "options": [
-        "Uenighet om penger",
-        "Uenighet om hva som har skjedd",
+        "Uenighet om hvem som skal få en bestemt ressurs",
+        "Uenighet om hva som faktisk har skjedd",
         "Uenighet om hva som er riktig og viktig",
-        "Uenighet om tid"
+        "Uenighet om hvordan oppgaven skal fordeles"
       ],
       "correct": 2,
       "explain": "Ofte vanskelige å løse."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva skjer på trinnet «samtalen oppgis»?",
       "options": [
-        "Partene møtes ofte",
-        "Konflikten løses",
-        "Partene blir venner",
+        "Man diskuterer saken direkte med hverandre",
+        "Man snakker rolig sammen for å finne en løsning",
+        "Man tar opp konflikten med en nøytral tredjepart",
         "Man snakker om hverandre i stedet for med hverandre"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er aktiv lytting?",
       "options": [
-        "Full oppmerksomhet, åpne spørsmål og gjentakelse med egne ord",
-        "Å høre på musikk",
-        "Å avbryte ofte",
-        "Å tenke på eget svar"
+        "Å følge med, stille åpne spørsmål og gjengi med egne ord",
+        "Å lytte for å finne feil og forberede motargumenter",
+        "Å gi råd før man har forstått den andres synspunkt",
+        "Å avbryte for å vise at man kjenner temaet"
       ],
       "correct": 0,
       "explain": "Viser at man forstår."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Kan konflikter være positive?",
       "options": [
-        "Nei, aldri",
+        "Nei, konflikter fører vanligvis til at samarbeidet tar slutt",
         "Ja, de kan føre til avklaring og utvikling",
-        "Bare i idrett",
-        "Bare hvis man vinner"
+        "Ja, når partene blir enige om hvem som har skylden",
+        "Ja, når én part får gjennomslag for sitt syn"
       ],
       "correct": 1,
       "explain": "Håndteringen er avgjørende."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner siste trinn i konflikttrappa?",
         "options": [
-          "Polarisering der omgivelsene velger side",
-          "Uenighet om en sak",
-          "Personifisering",
-          "Enighet"
+          "Konflikten polariseres, og omgivelsene velger side",
+          "Konflikten personifiseres, og motparten blir sett som problemet",
+          "Samtalen oppgis, og partene snakker om hverandre",
+          "Uenigheten handler fortsatt om den konkrete saken"
         ],
         "correct": 0,
         "explain": "Svært vanskelig å finne tilbake."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva betyr å skille sak og person?",
         "options": [
-          "Å unngå å snakke om saken",
-          "Å snakke bare om personen",
+          "Å kritisere mennesket ut fra handlingen",
+          "Å ta opp saken uten å nevne handlingen",
           "Å kritisere handlingen, ikke mennesket",
-          "Å be en annen ta over"
+          "Å beskrive personens egenskaper framfor handlingen"
         ],
         "correct": 2,
         "explain": "Hindrer at konflikten blir personlig."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

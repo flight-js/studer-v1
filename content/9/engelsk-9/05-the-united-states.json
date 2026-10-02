@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "What happened in 1776?",
       "options": [
-        "The Civil War ended",
+        "The colonies signed the US Constitution",
         "The colonies declared independence from Britain",
-        "Slavery was abolished",
-        "The first president was elected"
+        "The Civil War ended between the North and South",
+        "Slavery was abolished across the United States"
       ],
       "correct": 1,
       "explain": "The Declaration of Independence was adopted on 4 July 1776."
@@ -104,8 +104,8 @@
       "options": [
         "Slavery",
         "Independence from Britain",
-        "Oil",
-        "Taxes on tea"
+        "Trade with European countries",
+        "Control of the Caribbean"
       ],
       "correct": 0,
       "explain": "The war between the North and the South (1861–1865) was largely about slavery."
@@ -128,8 +128,8 @@
       "options": [
         "The Supreme Court",
         "Congress",
-        "The President alone",
-        "The states"
+        "The Cabinet",
+        "The Electoral College"
       ],
       "correct": 1,
       "explain": "Congress, consisting of the Senate and the House of Representatives, makes federal laws."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "What does “checks and balances” mean?",
       "options": [
-        "The three branches of government control each other",
-        "The president decides everything",
-        "A way of paying taxes",
-        "A type of bank account"
+        "Each branch of government can limit the power of the others",
+        "Each branch of government has the same role and powers",
+        "Each branch of government is controlled by the president",
+        "Each branch of government makes decisions without review"
       ],
       "correct": 0,
       "explain": "The system prevents any one branch from getting too much power."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "What was segregation?",
       "options": [
-        "A voting system",
-        "A type of school subject",
+        "A system for choosing elected leaders",
+        "A law protecting freedom of religion",
         "Separation of people by race",
-        "A trade agreement"
+        "An agreement to share public services"
       ],
       "correct": 2,
       "explain": "Segregation meant separate schools, buses and public places for Black and white people, especially in the South."
@@ -178,7 +178,7 @@
         "Every two years",
         "Every four years",
         "Every six years",
-        "For life"
+        "Every eight years"
       ],
       "correct": 1,
       "explain": "Presidential elections are held every four years."
@@ -188,9 +188,9 @@
       "text": "What is the American Dream?",
       "options": [
         "The idea that anyone can succeed through hard work",
-        "A famous film",
-        "The national anthem",
-        "A law from 1787"
+        "The idea that success depends mainly on family background",
+        "The belief that everyone should receive the same income",
+        "The idea that people succeed through luck rather than effort"
       ],
       "correct": 0,
       "explain": "The American Dream is about opportunity and success, though many debate how real it is for everyone."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Which city is the biggest in the USA?",
         "options": [
-          "Washington, D.C.",
           "Los Angeles",
+          "Chicago",
           "New York",
-          "Chicago"
+          "Houston"
         ],
         "correct": 2,
         "explain": "New York is the largest city in the USA.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "What does the Supreme Court do?",
         "options": [
-          "Leads the army",
+          "Decides how federal laws should be written",
           "Decides whether laws follow the Constitution",
-          "Elects the president",
-          "Collects taxes"
+          "Decides how federal laws should be enforced",
+          "Decides how federal taxes should be spent"
         ],
         "correct": 1,
         "explain": "The Supreme Court is the highest court and interprets the Constitution."
@@ -351,9 +351,9 @@
         "text": "Who lived in North America before Europeans arrived?",
         "options": [
           "Native American peoples",
-          "Nobody",
-          "The British",
-          "The Vikings only"
+          "British settlers",
+          "Spanish colonists",
+          "French settlers"
         ],
         "correct": 0,
         "explain": "Many Native American peoples lived across the continent for thousands of years."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

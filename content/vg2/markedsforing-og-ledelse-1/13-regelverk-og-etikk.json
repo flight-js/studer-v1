@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er formålet med markedsføringsloven?",
       "options": [
-        "Å øke salget",
+        "Å regulere hvordan varer produseres og selges",
         "Å beskytte forbrukerne og sikre rettferdig konkurranse",
-        "Å forby all reklame",
-        "Å fastsette priser"
+        "Å fastsette felles priser for varer og tjenester",
+        "Å gi virksomheter like rettigheter til å annonsere"
       ],
       "correct": 1,
       "explain": "Den viktigste loven på området."
@@ -96,9 +96,9 @@
       "text": "Hva må en påvirker gjøre ved et betalt samarbeid?",
       "options": [
         "Merke innlegget tydelig som reklame helt i starten",
-        "Ingenting",
-        "Bare nevne det i kommentarfeltet",
-        "Skjule samarbeidet"
+        "Merke innlegget tydelig som reklame etter omtalen",
+        "Opplyse om samarbeidet i profilteksten før publisering",
+        "Nevne samarbeidet muntlig i en kommentar senere"
       ],
       "correct": 0,
       "explain": "Skjult reklame er forbudt."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva er villedende markedsføring?",
       "options": [
-        "Reklame med humor",
-        "Reklame på TV",
+        "Humoristiske framstillinger av produktets pris og egenskaper",
+        "Reklame med kjente personer og tydelig produktinformasjon",
         "Uriktige eller skjulte opplysninger om pris eller egenskaper",
-        "Reklame med kjente personer"
+        "TV-reklame med korrekt informasjon om pris og egenskaper"
       ],
       "correct": 2,
       "explain": "For eksempel falske førpriser."
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva må merkes i reklame der kroppen er endret ved retusjering?",
       "options": [
-        "Prisen",
-        "Produsenten",
-        "Fotografen",
-        "At reklamen er retusjert"
+        "At reklamebildet er betalt av produsenten",
+        "At reklamebildet er tatt av en profesjonell fotograf",
+        "At reklamebildet viser produktet med et digitalt filter",
+        "At reklamebildet er endret gjennom digital retusjering"
       ],
       "correct": 3,
       "explain": "Regelen skal motvirke kroppspress.",
@@ -133,9 +133,9 @@
       "text": "Hva krever markedsføring på e-post til forbrukere som hovedregel?",
       "options": [
         "Forhåndssamtykke",
-        "At e-posten er kort",
-        "At den sendes om natta",
-        "Ingenting"
+        "Etterfølgende samtykke",
+        "Reklamemerking",
+        "Avmeldingsmulighet"
       ],
       "correct": 0,
       "explain": "Mottakeren skal også kunne reservere seg."
@@ -147,7 +147,7 @@
         "Datatilsynet",
         "Forbrukertilsynet",
         "Arbeidstilsynet",
-        "Politiet"
+        "Konkurransetilsynet"
       ],
       "correct": 1,
       "explain": "Kan gi overtredelsesgebyr."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hva er forbudt i markedsføring rettet mot barn?",
       "options": [
-        "Å bruke farger",
-        "Å vise leker",
+        "Å vise leker i reklame for barn",
+        "Å bruke fargerike bilder i reklame for barn",
         "Å oppfordre barn direkte til å kjøpe",
-        "Å bruke tegnefigurer"
+        "Å vise tegnefigurer i reklame for barneprodukter"
       ],
       "correct": 2,
       "explain": "Barn er ekstra sårbare."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva er aggressiv markedsføring?",
       "options": [
-        "Høy musikk i butikken",
-        "Store plakater",
-        "Lave priser",
-        "Press, trakassering eller tvang"
+        "Høy musikk, gjentatte annonser eller store plakater",
+        "Påtrengende reklame, mange annonser eller tydelige tilbud",
+        "Store rabatter, tydelige skilt eller mange produktvalg",
+        "Press, trakassering eller tvang mot forbrukeren"
       ],
       "correct": 3,
       "explain": "Forbudt som urimelig handelspraksis."
@@ -181,9 +181,9 @@
       "text": "Hva betyr «ikke alt som er lovlig, er etisk»?",
       "options": [
         "At virksomheter har et ansvar som går lenger enn loven",
-        "At loven ikke gjelder",
-        "At etikk er ulovlig",
-        "At alt er lov"
+        "At virksomheter først og fremst har ansvar for å overholde lovens krav",
+        "At etikk handler om å følge loven og unngå juridiske reaksjoner",
+        "At loven fastsetter hele ansvaret virksomheter har overfor samfunnet"
       ],
       "correct": 0,
       "explain": "Samfunnsansvar."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva er et eksempel på manipulerende design?",
       "options": [
-        "En tydelig kjøpsknapp",
-        "En skjult avbestillingsknapp",
-        "En oversiktlig meny",
-        "En prisliste"
+        "En tydelig kjøpsknapp på produktsiden",
+        "En skjult avbestillingsknapp på en abonnementsside",
+        "En oversiktlig meny på en bestillingsside",
+        "En synlig prisliste på en abonnementsside"
       ],
       "correct": 1,
       "explain": "Lurer brukeren.",
@@ -318,9 +318,9 @@
         "text": "Hvilken påstand kan være villedende?",
         "options": [
           "«Tilbudet gjelder bare i dag» når det varer i en måned",
-          "«Pris 199 kr»",
-          "«Laget i Norge» når det stemmer",
-          "«Ny smak»"
+          "«Pris 199 kr» når varen faktisk selges til den prisen",
+          "«Laget i Norge» når produktet faktisk er laget i Norge",
+          "«Ny smak» når smaken nylig er lansert på markedet"
         ],
         "correct": 0,
         "explain": "Falsk tidsbegrensning."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva kan Forbrukertilsynet gjøre ved ulovlig markedsføring?",
         "options": [
-          "Fengsle daglig leder",
+          "Gi pålegg om retting og ilegge fengselsstraff",
           "Kreve stans og ilegge gebyr",
-          "Stenge alle butikker i Norge",
-          "Ingenting"
+          "Kreve stans og inndra virksomhetens varer",
+          "Stenge butikkene og trekke tilbake selskapets tillatelse"
         ],
         "correct": 1,
         "explain": "Også tvangsmulkt."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvorfor gjelder det egne regler for markedsføring mot barn?",
         "options": [
-          "Barn har mye penger",
-          "Barn ser lite reklame",
-          "Barn er ekstra sårbare for påvirkning",
-          "Barn kan ikke lese"
+          "Reglene gjelder fordi barn har større kjøpekraft enn voksne",
+          "Reglene gjelder fordi barn møter færre reklamebudskap enn voksne",
+          "Reglene gjelder fordi barn er ekstra sårbare for påvirkning",
+          "Reglene gjelder fordi barn har mer erfaring med å vurdere reklame"
         ],
         "correct": 2,
         "explain": "De har vanskeligere for å gjennomskue reklame."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

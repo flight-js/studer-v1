@@ -84,8 +84,8 @@
       "options": [
         "1945",
         "1948",
-        "1989",
-        "2007"
+        "1966",
+        "1989"
       ],
       "correct": 1,
       "explain": "10. desember markeres som menneskerettighetsdagen.",
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hva betyr det at menneskerettighetene er universelle?",
       "options": [
-        "At de gjelder alle mennesker",
-        "At de bare gjelder i Europa",
-        "At de kan kjøpes",
-        "At de bare gjelder voksne"
+        "At rettighetene gjelder alle mennesker",
+        "At rettighetene gjelder alle i Europa",
+        "At rettighetene gjelder alle som følger lovene",
+        "At rettighetene gjelder alle statsborgere i landet"
       ],
       "correct": 0,
       "explain": "Rettighetene gjelder uansett hvor du bor, og hvem du er."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva er forskjellen på en erklæring og en konvensjon?",
       "options": [
-        "Det er ingen forskjell",
-        "En erklæring er strengere",
+        "En erklæring er bindende for statene som slutter seg til den",
+        "En konvensjon er et politisk signal uten juridisk virkning",
         "En konvensjon er bindende for statene som slutter seg til den",
-        "En konvensjon gjelder bare barn"
+        "En konvensjon gjelder bare barn og unge"
       ],
       "correct": 2,
       "explain": "Erklæringer er viktige politiske signaler, men konvensjoner er juridisk bindende."
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hvem har hovedansvaret for å sikre menneskerettighetene?",
       "options": [
-        "Den enkelte",
-        "Bedrifter",
-        "Amnesty International",
-        "Staten"
+        "FN har hovedansvaret for å sikre rettighetene",
+        "Bedriftene har hovedansvaret for å sikre rettighetene",
+        "Den enkelte har hovedansvaret for å sikre rettighetene",
+        "Staten har hovedansvaret for å sikre rettighetene"
       ],
       "correct": 3,
       "explain": "Staten skal respektere, beskytte og oppfylle rettighetene."
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?",
       "options": [
-        "At vindkraftverk krenket rettighetene til samiske reindriftsutøvere",
-        "At vindkraft er ulovlig i Norge",
-        "At reindrift skal avvikles",
-        "At samene ikke er urfolk"
+        "Vindkraftverkene krenket samiske reindriftsutøveres rettigheter",
+        "Vindkraftverkene var ulovlige i hele Norge",
+        "Reindrift skulle avvikles i Fosen-området",
+        "Samene hadde ikke urfolksrettigheter i saken"
       ],
       "correct": 0,
       "explain": "Dommen viser hvordan urfolksrettigheter påvirker norsk politikk.",
@@ -156,9 +156,9 @@
       "id": "q07",
       "text": "Hvor ligger Den europeiske menneskerettsdomstolen?",
       "options": [
-        "Oslo",
-        "New York",
+        "Brussel",
         "Genève",
+        "Haag",
         "Strasbourg"
       ],
       "correct": 3,
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hvordan påvirker menneskerettskonvensjonene norsk politikk?",
       "options": [
-        "De har ingen betydning",
+        "Norske myndigheter kan se bort fra dem",
         "Norske lover må være i tråd med dem",
-        "De gjelder bare utenfor Norge",
+        "De gjelder bare når Norge er i utlandet",
         "De bestemmer hvem som blir statsminister"
       ],
       "correct": 1,
@@ -182,9 +182,9 @@
       "text": "Hva betyr likestilling?",
       "options": [
         "At alle skal ha like muligheter og rettigheter",
-        "At alle skal være like",
-        "At alle skal tjene det samme",
-        "At kvinner og menn skal ha samme yrke"
+        "At alle skal ha samme meninger og interesser",
+        "At alle skal ha samme lønn uansett arbeid",
+        "At kvinner og menn skal velge samme yrke"
       ],
       "correct": 0,
       "explain": "Likestilling handler om muligheter og rettigheter, ikke om at alle skal velge det samme."
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hvilken rettighet gir ILO-konvensjon 169 urfolk?",
       "options": [
-        "Rett til gratis strøm",
-        "Rett til å slippe skatt",
+        "Rett til å få økonomisk støtte fra staten",
+        "Rett til å godkjenne alle vedtak som angår dem",
         "Rett til å bli konsultert i saker som angår dem",
-        "Rett til egen hær"
+        "Rett til å bestemme over alle områder de bor på"
       ],
       "correct": 2,
       "explain": "Staten må for eksempel konsultere Sametinget før vedtak som berører samene.",
@@ -341,8 +341,8 @@
         "options": [
           "10",
           "30",
-          "50",
-          "100"
+          "20",
+          "50"
         ],
         "correct": 1,
         "explain": "De 30 artiklene dekker både sivile, politiske, økonomiske og sosiale rettigheter.",
@@ -367,10 +367,10 @@
         "type": "flervalg",
         "text": "Hva gjør Amnesty International?",
         "options": [
-          "Vedtar lover",
-          "Dømmer i straffesaker",
+          "Lager og vedtar lover om menneskerettighetene",
+          "Behandler og avgjør straffesaker i norske domstoler",
           "Avdekker og protesterer mot brudd på menneskerettighetene",
-          "Leder FN"
+          "Samler og leder medlemslandene i FN"
         ],
         "correct": 2,
         "explain": "Amnesty er en frivillig organisasjon med medlemmer over hele verden.",
@@ -458,6 +458,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

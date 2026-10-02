@@ -88,8 +88,7 @@
     },
     {
       "term": "Chorus",
-      "def": "The repeated part of a song, often carrying its main message.",
-      "niva": "eksempel"
+      "def": "The repeated part of a song, often carrying its main message."
     },
     {
       "term": "Commonwealth",
@@ -117,10 +116,10 @@
       "id": "q01",
       "text": "Make the sentence passive: “Someone stole my bike.”",
       "options": [
-        "My bike stole.",
-        "My bike has stealing.",
+        "My bike was steal.",
+        "My bike has stolen.",
         "My bike was stolen.",
-        "My bike is steal."
+        "My bike stole someone."
       ],
       "correct": 2,
       "explain": "was + past participle (stolen). We leave out “by someone” because it adds nothing."
@@ -141,9 +140,9 @@
       "id": "q03",
       "text": "How do you report the question “Do you like football?”",
       "options": [
-        "He asked do I like football.",
-        "He asked did I like football?",
-        "He asked that I like football.",
+        "He asked if did I like football.",
+        "He asked did I like football.",
+        "He asked whether did I like football.",
         "He asked if I liked football."
       ],
       "correct": 3,
@@ -153,10 +152,10 @@
       "id": "q04",
       "text": "What is a thesis statement?",
       "options": [
-        "The title of the essay",
-        "One clear sentence that states your position",
-        "A list of sources",
-        "The last paragraph"
+        "A clear sentence that introduces the essay topic",
+        "A clear sentence that states your position",
+        "A short sentence that names the essay's main source",
+        "A final sentence that repeats the essay title"
       ],
       "correct": 1,
       "explain": "The thesis statement tells the reader exactly what you are going to argue."
@@ -165,10 +164,10 @@
       "id": "q05",
       "text": "Why should you include a counterargument?",
       "options": [
-        "To change your opinion",
-        "To make the essay longer",
+        "To show that the opposing view matters more than your own position",
+        "To persuade readers to accept the opposing view instead of yours",
         "To show that you have considered other views and can refute them",
-        "Because the teacher says so"
+        "To avoid explaining your reasons for supporting your own position"
       ],
       "correct": 2,
       "explain": "Answering a counterargument makes your own position more convincing."
@@ -177,10 +176,10 @@
       "id": "q06",
       "text": "What is bias?",
       "options": [
-        "A spelling mistake",
+        "A presentation based on recent information",
         "A one-sided presentation of information",
-        "A reference list",
-        "A type of website"
+        "A claim supported by several sources",
+        "A list of sources in a text"
       ],
       "correct": 1,
       "explain": "A biased text may leave out information that does not support its view."
@@ -189,9 +188,9 @@
       "id": "q07",
       "text": "What is paraphrasing?",
       "options": [
-        "Copying a text word for word",
-        "Writing a reference list",
-        "Deleting sources",
+        "Giving only a text's main points in fewer words",
+        "Quoting a source and naming its author",
+        "Translating a passage into another language",
         "Expressing someone's ideas in your own words"
       ],
       "correct": 3,
@@ -201,10 +200,10 @@
       "id": "q08",
       "text": "What is plagiarism?",
       "options": [
-        "Using many sources",
-        "Quoting correctly",
+        "Using another person's ideas with proper credit",
+        "Quoting a source and naming its author",
         "Presenting someone else's work as your own",
-        "Writing a summary"
+        "Writing a brief account of a source's main points"
       ],
       "correct": 2,
       "explain": "Plagiarism is a serious form of cheating."
@@ -213,10 +212,10 @@
       "id": "q09",
       "text": "Which is an open question?",
       "options": [
-        "Do you like football?",
-        "Is it raining?",
+        "Do you think the law should change?",
+        "Should the law change this year?",
         "Why do you think the law should change?",
-        "Are you ready?"
+        "Is the law likely to change soon?"
       ],
       "correct": 2,
       "explain": "Open questions start with words like why, how and what, and invite longer answers."
@@ -226,9 +225,9 @@
       "text": "What is signposting in a presentation?",
       "options": [
         "Phrases that guide the audience through your talk",
-        "Drawing road signs",
-        "Holding up a poster",
-        "Reading the whole script"
+        "Facts and examples that support your main points",
+        "Images and charts shown to the audience",
+        "A list of sources used to prepare your talk"
       ],
       "correct": 0,
       "explain": "Phrases like “Moving on to…” help the audience follow your structure."
@@ -237,10 +236,10 @@
       "id": "q11",
       "text": "What is a coming-of-age story?",
       "options": [
-        "A story about old people",
+        "A story where the main character solves a mystery and finds clues",
         "A story where the main character grows up and changes",
-        "A story about time travel",
-        "A story without characters"
+        "A story where the main character travels abroad and searches for treasure",
+        "A story where the main character discovers magic and battles a villain"
       ],
       "correct": 1,
       "explain": "The main character matures through experiences and challenges.",
@@ -250,10 +249,10 @@
       "id": "q12",
       "text": "What should a book review avoid?",
       "options": [
-        "The title",
-        "The author",
-        "The writer's opinion",
-        "Spoilers that reveal the ending"
+        "The title and author",
+        "A brief plot summary",
+        "The reviewer's opinion",
+        "Spoilers revealing the ending"
       ],
       "correct": 3,
       "explain": "A review should make readers curious, not reveal the big surprises."
@@ -263,9 +262,9 @@
       "text": "What effect does a low camera angle often have?",
       "options": [
         "The character looks powerful",
-        "The character looks weak",
-        "The scene looks funny",
-        "The scene becomes silent"
+        "The character looks smaller and weaker",
+        "The character looks distant and unimportant",
+        "The character looks confused and amused"
       ],
       "correct": 0,
       "explain": "Looking up at someone makes them seem bigger and more powerful.",
@@ -275,9 +274,9 @@
       "id": "q14",
       "text": "Why is context important when analysing a song?",
       "options": [
-        "It is not important",
-        "It tells you the song's length",
-        "It changes the lyrics",
+        "It helps identify the rhyme pattern in each verse",
+        "It helps describe the instruments heard in the recording",
+        "It helps explain how the singer's voice was recorded",
         "It helps explain what the song is reacting to"
       ],
       "correct": 3,
@@ -287,9 +286,9 @@
       "id": "q15",
       "text": "What do Australia, New Zealand and Canada have in common?",
       "options": [
-        "They all have French as an official language",
-        "They were never colonised",
-        "They are all republics with presidents",
+        "They were French colonies and are now democracies in the Commonwealth",
+        "They were British colonies and are now republics outside the Commonwealth",
+        "They were British colonies and are now democracies in the European Union",
         "They were British colonies and are now democracies in the Commonwealth"
       ],
       "correct": 3,
@@ -418,7 +417,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -463,10 +462,10 @@
         "type": "flervalg",
         "text": "Which phrase is signposting?",
         "options": [
-          "I'm on the fence.",
+          "I see what you mean about that…",
           "Moving on to my second point…",
-          "Sorry to interrupt.",
-          "That makes sense."
+          "Sorry to interrupt you for a moment…",
+          "That makes sense to me so far…"
         ],
         "correct": 1,
         "explain": "“Moving on to…” tells the audience you are starting a new part."
@@ -552,12 +551,89 @@
           "Correctly uses past form in the if-clause and would in the main clause, without would in the if-clause.",
           "Identifies the situation as unreal or unlikely now."
         ]
+      },
+      {
+        "text": "In a young adult novel, a teenager asks, “Where do I belong?” A friend later tells a teacher about the question. Write what the friend said using “The friend asked…”. Then explain how the question connects to a common theme in young adult fiction.",
+        "fasit": "The friend asked where the teenager belonged. The question connects to the theme of identity and finding a place where you belong, which is common in young adult fiction.",
+        "kriterier": [
+          "Uses statement word order in the reported question and changes “do I belong” to “the teenager belonged”.",
+          "Connects the question to identity or belonging as a common young adult theme."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "A teenager begins a story feeling like an outsider, but becomes more independent after facing a family conflict. Explain why this could be a coming-of-age story and name one detail you could note while analysing the novel.",
+        "fasit": "It could be a coming-of-age story because the main character grows and changes through the story. I could note how the character changes, or how the family conflict affects them.",
+        "kriterier": [
+          "Explains that a coming-of-age story shows the main character growing or changing.",
+          "Names a relevant detail to note, such as character development, an important event, or the setting."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Compare how a film and a song can use sound to create a mood. Give one example of a sound feature used in each form.",
+        "fasit": "A film can use its soundtrack or sound effects to create tension. A song can use its tempo or the singer’s voice to support the mood of its lyrics.",
+        "kriterier": [
+          "Explains that sound can help create a mood in both films and songs.",
+          "Gives a relevant sound feature for each, such as soundtrack or sound effects in a film and tempo or the singer’s voice in a song."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "You are writing an argumentative essay and want to use an idea from a report. Explain how you could paraphrase the idea, credit its source, and connect it to your argument using PEEL.",
+        "fasit": "I could express the report’s idea in my own words and still name the report as my source. In PEEL, I would explain how this evidence supports my point and link it back to my argument.",
+        "kriterier": [
+          "Explains that a paraphrased idea must still be credited to its source.",
+          "Explains how the writer connects or explains the evidence so it supports the point."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Explain the difference between the zero conditional and the first conditional. Give one example of each.",
+        "fasit": "The zero conditional describes something that is always true, using the present tense in both clauses: “If you heat ice, it melts.” The first conditional describes a real future possibility: “If it rains tomorrow, we will stay inside.”",
+        "kriterier": [
+          "Identifies the zero conditional as describing something always true, with present tense in both clauses.",
+          "Identifies the first conditional as a real future possibility, using present tense with “will”.",
+          "Gives a suitable example of each conditional."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Canada and New Zealand both have Indigenous peoples and more than one language in national life. Name Canada’s two official languages and New Zealand’s Indigenous language, then explain one way language is connected to culture in either country.",
+        "fasit": "Canada’s official languages are English and French, and New Zealand’s Indigenous language is te reo Māori. Te reo Māori is an official language and Māori culture, including the haka, is visible in New Zealand’s national life.",
+        "kriterier": [
+          "Names English and French as Canada’s official languages and te reo Māori as New Zealand’s Indigenous language.",
+          "Gives a relevant link between language and culture, such as the place of te reo Māori in New Zealand’s national life."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "You are giving an oral presentation about a film review. Describe how you could structure the presentation and include two things you would cover from the review.",
+        "fasit": "I would introduce the film and say what I will cover, then discuss its story and visuals with examples. I would finish by summing up and giving a recommendation. I would avoid revealing spoilers.",
+        "kriterier": [
+          "Includes a clear introduction, main part, and conclusion.",
+          "Mentions relevant review content, such as basic facts, a spoiler-free summary, evaluation with examples, or a recommendation."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "During a class discussion, a classmate says, “The film is boring because it has slow scenes.” Write a polite response that disagrees and an open follow-up question that invites the classmate to explain their view.",
+        "fasit": "I see what you mean, but I think the slow scenes help build suspense. What do you think the director wanted the audience to feel in those scenes?",
+        "kriterier": [
+          "Disagrees politely, using a suitable phrase or tone.",
+          "Asks an open question that invites an explanation rather than a yes-or-no answer."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

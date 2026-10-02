@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er relativ usikkerhet?",
       "options": [
-        "Usikkerheten i samme enhet som målingen",
+        "Målt verdi delt på absolutt usikkerhet",
         "Absolutt usikkerhet delt på målt verdi",
-        "Forskjellen mellom to målinger",
-        "Antall målinger"
+        "Absolutt usikkerhet pluss målt verdi",
+        "Målt verdi delt på antall målinger"
       ],
       "correct": 1,
       "explain": "Oppgis ofte i prosent."
@@ -97,8 +97,8 @@
       "options": [
         "Legger sammen de relative usikkerhetene",
         "Legger sammen de absolutte usikkerhetene",
-        "Multipliserer usikkerhetene",
-        "Tar den største"
+        "Multipliserer de relative usikkerhetene",
+        "Velger den største relative usikkerheten"
       ],
       "correct": 0,
       "explain": "Gjelder også divisjon."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "s = (10,0 ± 0,1) m og t = (2,00 ± 0,05) s. Hva er relativ usikkerhet i v = s/t?",
       "options": [
-        "1,0 %",
-        "2,5 %",
+        "2,0 %",
+        "3,0 %",
         "3,5 %",
-        "0,15 %"
+        "4,0 %"
       ],
       "correct": 2,
       "explain": "1,0 % + 2,5 %."
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hva ble påvist ved CERN i 2012?",
       "options": [
-        "Gravitasjonsbølger",
-        "Et sort hull",
-        "Mørk materie",
+        "W-bosonet",
+        "Topkvarken",
+        "Tau-nøytrinoet",
         "Higgs-partikkelen"
       ],
       "correct": 3,
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Hva målte LIGO i 2015?",
       "options": [
-        "Gravitasjonsbølger",
-        "Higgs-partikkelen",
-        "Lysfarten",
-        "Nøytrinoer"
+        "Gravitasjonsbølger fra to sorte hull som smeltet sammen",
+        "Nøytrinoer fra en supernova i en nærliggende galakse",
+        "Lys fra to nøytronstjerner som smeltet sammen",
+        "Higgs-partikler fra protoner som kolliderte i en partikkelakselerator"
       ],
       "correct": 0,
       "explain": "Fra to sorte hull som smeltet sammen.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hvorfor er linearisering nyttig?",
       "options": [
-        "Den fjerner all usikkerhet",
+        "Den gjør det lettere å teste en modell ved å redusere måleusikkerheten",
         "Den gjør det lettere å teste en modell med en rett linje",
-        "Den gjør grafen penere",
-        "Den erstatter målinger"
+        "Den gjør det lettere å teste en modell uten å bruke måledata",
+        "Den gjør det lettere å teste en modell ved å bytte ut målingene med beregninger"
       ],
       "correct": 1,
       "explain": "For eksempel s mot t²."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er en fordel med internasjonalt forskningssamarbeid?",
       "options": [
-        "Færre forskere",
-        "Mindre kontroll",
-        "Deling av kostnader og kontroll av resultater",
-        "Hemmelige data"
+        "Det gir deling av kostnader og gjør resultatene mindre etterprøvbare",
+        "Det gir flere forskere og færre muligheter til å sammenligne resultater",
+        "Det gir deling av kostnader og kontroll av resultater",
+        "Det gir felles data og gjør kontroll av resultatene unødvendig"
       ],
       "correct": 2,
       "explain": "Store prosjekter krever mange land."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva viste Event Horizon Telescope i 2019?",
       "options": [
-        "Higgs-partikkelen",
-        "De første galaksene",
-        "Gravitasjonsbølger",
+        "Det første bildet av overflaten til en nøytronstjerne",
+        "Det første bildet av en eksoplanets overflate",
+        "Det første bildet av en stjernes indre",
         "Det første bildet av skyggen av et sort hull"
       ],
       "correct": 3,
@@ -184,8 +184,8 @@
       "options": [
         "De absolutte usikkerhetene legges sammen",
         "De relative usikkerhetene legges sammen",
-        "De multipliseres",
-        "De ignoreres"
+        "De absolutte usikkerhetene multipliseres",
+        "Den største usikkerheten brukes alene"
       ],
       "correct": 0,
       "explain": "Også ved subtraksjon."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Når er et resultat i samsvar med teorien?",
       "options": [
-        "Når det er nøyaktig likt",
+        "Når avviket er større enn usikkerheten",
         "Når avviket er innenfor usikkerheten",
-        "Når det er større",
-        "Aldri"
+        "Når resultatet ligger nær teorien, uten å vurdere usikkerheten",
+        "Når måleverdien har samme enhet som teoriens verdi"
       ],
       "correct": 1,
       "explain": "Usikkerheten avgjør."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er absolutt usikkerhet i l = (2,50 ± 0,02) m?",
         "options": [
-          "0,8 %",
+          "0,20 m",
           "0,02 m",
           "2,50 m",
-          "0,08 m"
+          "0,05 m"
         ],
         "correct": 1,
         "explain": "Samme enhet som målingen."
@@ -332,9 +332,9 @@
         "text": "Hva studerer James Webb-romteleskopet blant annet?",
         "options": [
           "De første galaksene",
-          "Partikkelkollisjoner",
-          "Jordskjelv",
-          "Havstrømmer"
+          "Protonkollisjoner i akseleratorer",
+          "Jordskjelvbølger i jordskorpen",
+          "Havstrømmer i verdenshavene"
         ],
         "correct": 0,
         "explain": "Og atmosfæren til eksoplaneter.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på systematisk feil i et falleforsøk?",
         "options": [
-          "Tilfeldig reaksjonstid",
-          "Avlesningsvariasjon",
+          "Tilfeldig variasjon i reaksjonstiden mellom målinger",
+          "Tilfeldig variasjon når lengden avleses på linjalen",
           "Luftmotstand som teorien ikke tar med",
-          "At man måler flere ganger"
+          "Tilfeldig variasjon i starttid når forsøket gjentas"
         ],
         "correct": 2,
         "explain": "Trekker resultatet i én retning."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

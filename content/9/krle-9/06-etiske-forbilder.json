@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva lærer lignelsen om den barmhjertige samaritan?",
       "options": [
-        "At man bare skal hjelpe familien",
-        "At nesten er den som trenger hjelp, uansett hvem det er",
-        "At man skal gå i tempelet",
-        "At samaritanere var onde"
+        "At man først bør hjelpe et familiemedlem som trenger det.",
+        "At den som trenger hjelp, er vår neste, hvem det enn er.",
+        "At man bør hjelpe en person fra sin egen gruppe.",
+        "At man bør søke hjelp hos religiøse ledere først."
       ],
       "correct": 1,
       "explain": "Samaritanen hjalp en fremmed som andre hadde gått forbi."
@@ -95,9 +95,9 @@
       "id": "q02",
       "text": "Hvilken lærer sa: «Det som er hatefullt for deg, skal du ikke gjøre mot din neste»?",
       "options": [
-        "Buddha",
-        "Gandhi",
-        "Muhammad",
+        "Jesus",
+        "Konfutse",
+        "Rabbi Akiva",
         "Hillel"
       ],
       "correct": 3,
@@ -134,10 +134,10 @@
       "id": "q05",
       "text": "Hva er et fellestrekk ved mange religiøse og livssynsbaserte tradisjoner?",
       "options": [
-        "At de har samme gud",
-        "At de har samme matregler",
-        "At de har samme høytider",
-        "At de har en variant av den gylne regel"
+        "At mange religiøse tradisjoner følger de samme matreglene.",
+        "At mange religiøse tradisjoner feirer de samme høytidene.",
+        "At mange religiøse tradisjoner tror på den samme guden.",
+        "At mange religiøse tradisjoner har en variant av den gylne regel."
       ],
       "correct": 3,
       "explain": "Varianter av regelen finnes hos Jesus, Hillel, Konfutse og mange andre."
@@ -160,9 +160,9 @@
       "text": "Hva betyr ubuntu?",
       "options": [
         "«Jeg er fordi vi er»",
-        "«Elsk deres fiender»",
-        "«Ingen vold»",
-        "«Følg middelveien»"
+        "«Elsk din neste som deg selv»",
+        "«Ikke gjør skade på andre»",
+        "«Følg den gylne middelvei»"
       ],
       "correct": 0,
       "explain": "Ubuntu understreker at mennesker henger sammen og trenger hverandre.",
@@ -172,10 +172,10 @@
       "id": "q08",
       "text": "Hva sa Jesus i Bergprekenen om fiender?",
       "options": [
-        "At man skal hevne seg",
-        "At man skal unngå dem",
+        "At man skal hevne seg på dem",
+        "At man skal holde avstand til dem",
         "At man skal elske dem",
-        "At man skal frykte dem"
+        "At man skal være redd for dem"
       ],
       "correct": 2,
       "explain": "Budet om å elske fiendene var radikalt i sin samtid."
@@ -184,10 +184,10 @@
       "id": "q09",
       "text": "Hvordan kan begrunnelsen for etikk være forskjellig i ulike tradisjoner?",
       "options": [
-        "Den er alltid den samme",
-        "Alle viser til karma",
-        "Alle viser til fornuft",
-        "Noen viser til Guds bud, andre til karma eller fornuft"
+        "Noen viser til høytider, andre til matregler eller klær.",
+        "Noen viser til bønn, andre til faste eller ritualer.",
+        "Noen viser til hellige steder, andre til klær eller matregler.",
+        "Noen viser til Guds bud, andre til karma eller fornuft."
       ],
       "correct": 3,
       "explain": "Tradisjoner kan komme fram til like regler av ulike grunner."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva sier de buddhistiske forskriftene blant annet?",
         "options": [
-          "At man skal be fem ganger om dagen",
-          "At man ikke skal drepe, stjele eller lyve",
-          "At man skal holde sabbaten",
-          "At man skal gi bort alt man eier"
+          "At man skal be fem ganger om dagen.",
+          "At man ikke skal drepe, stjele eller lyve.",
+          "At man skal holde sabbaten hver uke.",
+          "At man skal gi bort alt man eier."
         ],
         "correct": 1,
         "explain": "Forskriftene gjelder alle buddhister, ikke bare munker."
@@ -369,10 +369,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan det være nyttig å skille mellom ideene og personen når vi ser på forbilder?",
         "options": [
-          "Fordi forbilder aldri tar feil",
-          "Fordi ideer ikke betyr noe",
-          "Fordi forbilder også er mennesker som kan ha gjort feil",
-          "Fordi personer ikke betyr noe"
+          "Fordi det er personen som avgjør om en idé er god.",
+          "Fordi forbilders handlinger sier mer enn ideene deres.",
+          "Fordi forbilder også er mennesker som kan ha gjort feil.",
+          "Fordi gode ideer viser at personen er et godt forbilde."
         ],
         "correct": 2,
         "explain": "Gode ideer kan ha verdi selv om personen bak dem har svakheter."
@@ -459,6 +459,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

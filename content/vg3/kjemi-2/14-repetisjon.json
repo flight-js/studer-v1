@@ -101,10 +101,10 @@
       "id": "q01",
       "text": "En vekt viser alltid 0,05 g for mye. Hva slags feil er det?",
       "options": [
-        "Systematisk feil",
-        "Tilfeldig feil",
-        "Ingen feil",
-        "Presisjonsfeil"
+        "En systematisk feil i målingen",
+        "En tilfeldig feil i målingen",
+        "En grov feil i målingen",
+        "En feil i beregningen av massen"
       ],
       "correct": 0,
       "explain": "Den trekker resultatet i én retning."
@@ -125,10 +125,10 @@
       "id": "q03",
       "text": "Q er mindre enn K. Hvilken vei går reaksjonen?",
       "options": [
-        "Mot venstre",
-        "Den står stille",
-        "Mot høyre",
-        "Den eksploderer"
+        "Reaksjonen går netto mot venstre.",
+        "Reaksjonen går netto ingen vei.",
+        "Reaksjonen går netto mot høyre.",
+        "Likevektskonstanten K endres når Q blir mindre."
       ],
       "correct": 2,
       "explain": "Mot produktene til Q = K."
@@ -139,8 +139,8 @@
       "options": [
         "ΔG = ΔH − TΔS",
         "ΔG = ΔH + TΔS",
-        "ΔG = −zF",
-        "ΔG = m · c · ΔT"
+        "ΔG = ΔH − ΔS/T",
+        "ΔG = TΔS − ΔH"
       ],
       "correct": 0,
       "explain": "T i kelvin."
@@ -149,10 +149,10 @@
       "id": "q05",
       "text": "Hva betyr en liten pKa?",
       "options": [
-        "Svak syre",
-        "Sterk base",
-        "Nøytral løsning",
-        "Sterk syre"
+        "En svak syre",
+        "En sterk base",
+        "En nøytral løsning",
+        "En sterk syre"
       ],
       "correct": 3,
       "explain": "Stor Ka gir liten pKa."
@@ -161,10 +161,10 @@
       "id": "q06",
       "text": "Hva består en buffer av?",
       "options": [
-        "En sterk syre og en sterk base",
+        "En sterk syre og dens korresponderende base",
         "En svak syre og dens korresponderende base",
-        "Bare vann",
-        "Et salt og vann"
+        "En sterk base og dens korresponderende syre",
+        "En svak syre og en annen svak syre"
       ],
       "correct": 1,
       "explain": "I omtrent like store mengder."
@@ -173,10 +173,10 @@
       "id": "q07",
       "text": "Hva skjer når Q > Ksp?",
       "options": [
-        "Alt løses",
-        "Løsningen er umettet",
-        "Ingenting",
-        "Det felles ut fast stoff"
+        "Fast stoff løses opp og danner flere ioner.",
+        "Løsningen kan løse mer fast stoff uten utfelling.",
+        "Løsningen er i likevekt mellom fast stoff og ioner.",
+        "Fast stoff felles ut fra løsningen."
       ],
       "correct": 3,
       "explain": "Løsningen er overmettet."
@@ -185,10 +185,10 @@
       "id": "q08",
       "text": "Hvordan øker en katalysator reaksjonsfarten?",
       "options": [
-        "Ved å øke temperaturen",
+        "Ved å gi en vei med høyere aktiveringsenergi",
         "Ved å gi en vei med lavere aktiveringsenergi",
-        "Ved å endre ΔH",
-        "Ved å bli forbrukt"
+        "Ved å øke reaksjonens entalpiendring",
+        "Ved å gjøre kollisjonene mellom molekylene færre"
       ],
       "correct": 1,
       "explain": "Flere kollisjoner har nok energi."
@@ -198,9 +198,9 @@
       "text": "Hva er kondensasjon?",
       "options": [
         "To molekyler slås sammen og vann spaltes av",
-        "Et molekyl spaltes med vann",
-        "En dobbeltbinding brytes",
-        "En gruppe byttes ut"
+        "Et molekyl spaltes ved opptak av vann",
+        "To molekyler slås sammen uten at noe spaltes av",
+        "En gruppe fjernes fra et molekyl og erstattes av en annen"
       ],
       "correct": 0,
       "explain": "For eksempel esterdannelse."
@@ -209,10 +209,10 @@
       "id": "q10",
       "text": "Hvordan regnes prosentvis utbytte ut?",
       "options": [
-        "Faktisk / teoretisk utbytte · 100",
-        "Teoretisk / faktisk · 100",
-        "Faktisk − teoretisk",
-        "Masse / molar masse"
+        "Faktisk utbytte / teoretisk utbytte · 100",
+        "Teoretisk utbytte / faktisk utbytte · 100",
+        "(Teoretisk utbytte − faktisk utbytte) / teoretisk utbytte · 100",
+        "Faktisk utbytte / teoretisk utbytte"
       ],
       "correct": 0,
       "explain": "Gir utbyttet i prosent."
@@ -233,10 +233,10 @@
       "id": "q12",
       "text": "Hva er et proteins primærstruktur?",
       "options": [
-        "Den tredimensjonale formen",
-        "Heliks og flak",
+        "Proteinets tredimensjonale form",
+        "Helikser og flak",
         "Rekkefølgen av aminosyrer",
-        "Flere proteinkjeder sammen"
+        "Antall kjeder sammen"
       ],
       "correct": 2,
       "explain": "Bestemt av genene."
@@ -245,10 +245,10 @@
       "id": "q13",
       "text": "Hva må du vurdere når du sammenligner plastpose og papirpose?",
       "options": [
-        "Bare fargen",
-        "Hele livsløpet fra råvare til avfall",
-        "Bare prisen",
-        "Bare vekten"
+        "Sammenligne utslippene fra produksjonen av hver pose",
+        "Vurdere hele livsløpet fra råvareuttak til avfall",
+        "Vurdere hvor mange ganger hver pose kan brukes",
+        "Sammenligne råstoffene posene er laget av"
       ],
       "correct": 1,
       "explain": "Livsløpsvurdering."
@@ -397,7 +397,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -427,9 +427,9 @@
         "text": "Hvilken formel gir ladningen i elektrolyse?",
         "options": [
           "Q = I · t",
-          "Q = m / M",
-          "Q = c · V",
-          "Q = F / z"
+          "Q = I / t",
+          "Q = U · t",
+          "Q = n(e⁻) / F"
         ],
         "correct": 0,
         "explain": "Strøm ganger tid."
@@ -440,9 +440,9 @@
         "text": "En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?",
         "options": [
           "K øker",
-          "K er uendret",
+          "K forblir uendret",
           "K minker",
-          "K blir null"
+          "K blir lik 1"
         ],
         "correct": 2,
         "explain": "Likevekten forskyves mot reaktantene."
@@ -459,10 +459,10 @@
         "type": "flervalg",
         "text": "Hva er [H₃O⁺] når pH = 3?",
         "options": [
-          "3 mol/L",
-          "1,0 · 10⁻³ mol/L",
           "1,0 · 10³ mol/L",
-          "0,3 mol/L"
+          "1,0 · 10⁻³ mol/L",
+          "3,0 · 10⁻¹ mol/L",
+          "1,0 · 10⁻¹¹ mol/L"
         ],
         "correct": 1,
         "explain": "[H₃O⁺] = 10⁻ᵖᴴ."
@@ -473,9 +473,9 @@
         "text": "Hvilket prinsipp forklarer fellesioneffekten?",
         "options": [
           "Le Châteliers prinsipp",
-          "Faradays lov",
           "Hess' lov",
-          "Avogadros lov"
+          "Avogadros lov",
+          "Boyles lov"
         ],
         "correct": 0,
         "explain": "Likevekten forskyves."
@@ -487,8 +487,8 @@
         "options": [
           "Omtrent 80 %",
           "Omtrent 124 %",
-          "Omtrent 50 %",
-          "Omtrent 95 %"
+          "Omtrent 20 %",
+          "Omtrent 8 %"
         ],
         "correct": 0,
         "explain": "2,10 / 2,61 · 100."
@@ -566,12 +566,84 @@
           "Beskriver kondensasjon som sammenkobling der ofte vann spaltes av.",
           "Beskriver hydrolyse som spalting ved hjelp av vann."
         ]
+      },
+      {
+        "text": "Du undersøker hvordan strømstyrken påvirker hvor mye kobber som felles ut på en elektrode ved elektrolyse. Beskriv hvordan du kan planlegge forsøket slik at du kan undersøke denne sammenhengen på en pålitelig måte.",
+        "fasit": "Jeg varierer strømstyrken og måler massen av kobber som felles ut etter en bestemt tid. Tiden og andre relevante forhold bør holdes konstante, og hvert forsøk bør gjentas slik at jeg kan sammenligne resultatene og beregne et gjennomsnitt.",
+        "kriterier": [
+          "Strømstyrke er den uavhengige variabelen, og utfelt kobbermasse er den avhengige variabelen.",
+          "Kontrollerer relevante variabler, for eksempel elektrolysetid, og gjentar forsøkene."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Jern kan framstilles ved å redusere jernoksid med karbon, mens en annen metode bruker hydrogen som reduksjonsmiddel. Forklar hvilken rolle reduksjonsmiddelet har i redoksreaksjonen, og hvorfor hydrogenmetoden kan gi mindre CO₂-utslipp.",
+        "fasit": "Reduksjonsmiddelet avgir elektroner og blir selv oksidert, mens jernionene i jernoksidet tar opp elektroner og blir redusert til jern. Når hydrogen brukes som reduksjonsmiddel, dannes vann i stedet for CO₂ fra reduksjonen.",
+        "kriterier": [
+          "Reduksjonsmiddelet avgir elektroner og oksideres; jernoksidet reduseres.",
+          "Hydrogen som reduksjonsmiddel gir vann i stedet for CO₂."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Reaksjonen N₂(g) + 3H₂(g) ⇌ 2NH₃(g) er eksoterm. Forklar hvordan en temperaturøkning påvirker ammoniakkutbyttet ved likevekt, og hva som skjer med likevektskonstanten.",
+        "fasit": "Når temperaturen øker, forskyves likevekten i den endoterme retningen, altså mot N₂ og H₂, slik at ammoniakkutbyttet ved likevekt blir mindre. Likevektskonstanten endres også når temperaturen endres.",
+        "kriterier": [
+          "Økt temperatur forskyver likevekten mot reaktantene fordi reaksjonen mot NH₃ er eksoterm.",
+          "Temperaturendring endrer verdien av K."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En buffer inneholder en svak syre med pKa = 4,7. Forholdet mellom konsentrasjonen av den korresponderende basen og syren er 10. Beregn pH i bufferen.",
+        "fasit": "Bufferligningen gir pH = pKa + log([A⁻]/[HA]) = 4,7 + log 10 = 5,7.",
+        "kriterier": [
+          "Bruker bufferligningen med base/syre-forholdet 10.",
+          "Får pH = 5,7."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En løsning inneholder sølvioner og kloridioner med konsentrasjonene 1,0 · 10⁻⁴ mol/L av hver. For AgCl er Ksp = 1,0 · 10⁻¹⁰. Beregn ioneproduktet Q og avgjør om det dannes bunnfall.",
+        "fasit": "Q = [Ag⁺][Cl⁻] = 1,0 · 10⁻⁸. Siden Q er større enn Ksp, er løsningen overmettet, og AgCl felles ut som bunnfall.",
+        "kriterier": [
+          "Beregner Q = 1,0 · 10⁻⁸.",
+          "Sammenligner Q med Ksp og konkluderer med at det dannes bunnfall."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Du undersøker en reaksjonsblanding med tynnsjiktkromatografi på en polar silikaplate med et upolart løsemiddel. Forklar hvilket av et polart og et upolart stoff som vanligvis vandrer lengst, og hvordan du kan vurdere om et isolert produkt er rent.",
+        "fasit": "Det upolare stoffet vandrer vanligvis lengst fordi det bindes svakere til den polare silikaen og løses godt i det upolare løsemiddelet. Et rent produkt gir én flekk på TLC-platen.",
+        "kriterier": [
+          "Det upolare stoffet vandrer vanligvis lengst under de beskrevne forholdene.",
+          "Én flekk tyder på at produktet er rent."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Polyeten (PE) og PET er plasttyper som dannes ved ulike reaksjonstyper. Forklar forskjellen på hvordan de dannes, og hva som skjer med polymerene ved kjemisk gjenvinning.",
+        "fasit": "PE dannes ved addisjon av monomerer med dobbeltbindinger, mens PET dannes ved kondensasjon, der et lite molekyl som vann spaltes av. Ved kjemisk gjenvinning brytes polymerene ned til monomerer.",
+        "kriterier": [
+          "PE dannes ved addisjon, mens PET dannes ved kondensasjon.",
+          "Kjemisk gjenvinning bryter polymerer ned til monomerer."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Pepsin i magesekken virker best i sur løsning, mens enzymer i tynntarmen virker best ved nøytral til svakt basisk pH. Forklar hvorfor ulike enzymer har ulike pH-optimum, og hvorfor svært feil pH kan føre til at et enzym slutter å virke.",
+        "fasit": "Enzymer har ulike pH-optimum fordi strukturen og det aktive setet deres fungerer best ved bestemte forhold. Ved svært feil pH kan ladningene på proteinet endres og strukturen ødelegges, slik at enzymet denatureres og mister funksjonen.",
+        "kriterier": [
+          "Enzymers pH-optimum henger sammen med strukturen og det aktive setet.",
+          "Feil pH kan endre proteinstrukturen og denaturere enzymet."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

@@ -104,7 +104,7 @@ Det riktige svaret:
 - skal bety det samme som før, og fortsatt være helt riktig. Du kan korte det ned eller omformulere det, men ikke endre innholdet.
 - skal ikke skille seg ut ved å gjenta ord fra spørsmålet som feilsvarene ikke har, eller ved å være mer forsiktig formulert («ofte», «kan»).
 
-forklaring: Returner forklaringen uendret, med mindre den nevner de gamle feilsvarene. Da justerer du den så den passer.
+forklaring: Skriv en tom streng, med mindre forklaringen nevner de gamle feilsvarene. Da skriver du en justert forklaring som passer.
 
 Ikke endre spørsmålsteksten. Skriv på samme språk og målform som spørsmålet.`;
 
@@ -278,7 +278,8 @@ async function blindtest(jobb, t, kandidater) {
       },
     ],
   };
-  if (ER_OPENAI) Object.assign(body, { response_format: FORMAT_BLIND, store: false, reasoning_effort: "medium" });
+  // Lav resonnering holder: spørsmålene er på elevnivå, og det er billigere.
+  if (ER_OPENAI) Object.assign(body, { response_format: FORMAT_BLIND, store: false, reasoning_effort: "low" });
   const { svar, kostnad } = await kall(jobb, body);
   const gitt = new Map((svar.svar ?? []).map((s) => [s.id, s]));
   const bestatt = new Set(

@@ -78,9 +78,9 @@
       "text": "Hvilken endring er en kjemisk reaksjon?",
       "options": [
         "Is som smelter",
-        "Vann som koker",
+        "Vann som fordamper",
         "Et stearinlys som brenner",
-        "Sukker som løses i te"
+        "Salt som løses i vann"
       ],
       "correct": 2,
       "explain": "Når stearinet brenner, dannes nye stoffer som CO₂ og vann."
@@ -90,9 +90,9 @@
       "text": "Hva sier loven om massebevaring?",
       "options": [
         "Massen av produktene er lik massen av reaktantene",
-        "Massen øker i alle reaksjoner",
-        "Gasser har ingen masse",
-        "Massen forsvinner ved forbrenning"
+        "Massen av produktene er større enn massen av reaktantene",
+        "Massen av produktene er mindre enn massen av reaktantene",
+        "Massen av produktene avhenger av hvor raskt reaksjonen går"
       ],
       "correct": 0,
       "explain": "Atomene omorganiseres, men ingen forsvinner eller oppstår."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilke tre ting trengs for at noe skal brenne?",
       "options": [
-        "Vann, lys og luft",
+        "Brensel, nitrogen og høy nok temperatur",
         "Brensel, oksygen og høy nok temperatur",
-        "Karbon, nitrogen og vann",
-        "Metall, salt og varme"
+        "Oksygen, karbondioksid og høy nok temperatur",
+        "Vann, oksygen og høy nok temperatur"
       ],
       "correct": 1,
       "explain": "Dette er branntrekanten."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvorfor slokner en brann når du legger et brannteppe over?",
       "options": [
-        "Fordi temperaturen øker",
-        "Fordi brenselet forsvinner",
+        "Fordi flammen blir kaldere",
+        "Fordi brenselet blir vått",
         "Fordi oksygentilførselen stoppes",
-        "Fordi teppet er vått"
+        "Fordi varmen flyttes til teppet"
       ],
       "correct": 2,
       "explain": "Teppet kveler brannen ved å fjerne oksygenet fra branntrekanten."
@@ -138,9 +138,9 @@
       "text": "Hva dannes ved fullstendig forbrenning av stoffer med karbon og hydrogen?",
       "options": [
         "Karbondioksid og vann",
-        "Oksygen og sukker",
-        "Karbonmonoksid og sot",
-        "Bare vann"
+        "Karbondioksid og karbonmonoksid",
+        "Karbonmonoksid og vann",
+        "Karbon og vanndamp"
       ],
       "correct": 0,
       "explain": "Med nok oksygen blir karbonet til CO₂ og hydrogenet til H₂O."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor er ufullstendig forbrenning farlig?",
       "options": [
-        "Den gir for mye oksygen",
-        "Den er for kald",
-        "Den gir ikke varme",
-        "Den kan danne den giftige gassen karbonmonoksid"
+        "Den kan danne karbondioksid, som lukter sterkt og varsler om fare.",
+        "Den kan danne sot, som løses i blodet og hindrer det i å frakte oksygen.",
+        "Den kan danne vanndamp, som binder seg til blodet og hindrer oksygenfrakt.",
+        "Den kan danne giftig karbonmonoksid, som hindrer blodet i å frakte oksygen."
       ],
       "correct": 3,
       "explain": "Karbonmonoksid er luktfritt og svært giftig, fordi det hindrer blodet i å frakte oksygen."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvilket er IKKE et tegn på kjemisk reaksjon?",
       "options": [
-        "Gassbobler dannes",
-        "Fargen endres",
+        "Gassbobler dannes når syre reagerer med kalk",
+        "Jern får rødbrun farge når det ruster",
         "Et stoff endrer form fra fast til flytende",
-        "Det avgis lys"
+        "Et stoff avgir lys mens det reagerer med oksygen"
       ],
       "correct": 2,
       "explain": "Smelting er en fysisk endring. Stoffet er det samme."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "En fyrstikk brenner og ser lettere ut etterpå. Hvor ble massen av?",
       "options": [
-        "Den forsvant",
+        "Den ble omdannet til varme og lys da fyrstikken brant",
         "Den gikk over i gasser som slapp ut i lufta",
-        "Den ble til energi",
-        "Den gikk inn i bordet"
+        "Den kom fra oksygenet og ble til aske på fyrstikken",
+        "Den ble lagret som varme inni fyrstikkesken"
       ],
       "correct": 1,
       "explain": "Atomene finnes fortsatt, men i gasser som CO₂ og vanndamp."
@@ -315,7 +315,7 @@
           "Reaktanter",
           "Koeffisienter",
           "Produkter",
-          "Brensel"
+          "Katalysatorer"
         ],
         "correct": 2,
         "explain": "Produktene står på høyre side av pilen."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken er en fysisk endring?",
         "options": [
-          "Rust på en sykkel",
-          "Brød som ristes svart",
+          "Jern som ruster på en sykkel",
+          "Brød som blir svart i brødristeren",
           "Vann som fryser til is",
-          "Ved som brenner"
+          "Ved som brenner i en peis"
         ],
         "correct": 2,
         "explain": "Is er fortsatt vann, bare i fast form."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvor mange nullpunkter kan en tredjegradsfunksjon høyst ha?",
       "options": [
-        "2",
+        "1",
         "3",
-        "4",
-        "Uendelig mange"
+        "2",
+        "4"
       ],
       "correct": 1,
       "explain": "En polynomfunksjon av grad n har høyst n nullpunkter."
@@ -89,8 +89,8 @@
       "options": [
         "x = 3",
         "x = −3",
-        "y = 2",
-        "x = −1/2"
+        "x = −1/2",
+        "x = 1"
       ],
       "correct": 0,
       "explain": "Nevneren er null for x = 3."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Er f(x) = 3 · 0,8ˣ voksende eller avtagende?",
       "options": [
-        "Voksende",
-        "Konstant",
-        "Først voksende, så avtagende",
-        "Avtagende"
+        "Funksjonen er voksende når x øker.",
+        "Funksjonen har konstant verdi når x øker.",
+        "Funksjonen vokser først og avtar deretter.",
+        "Funksjonen er avtagende når x øker."
       ],
       "correct": 3,
       "explain": "Grunntallet 0,8 er mellom 0 og 1."
@@ -137,8 +137,8 @@
       "options": [
         "y = 5",
         "y = 0",
-        "x = 0",
-        "y = 2"
+        "y = 2",
+        "y = 1"
       ],
       "correct": 1,
       "explain": "2ˣ går mot 0 når x går mot −∞."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er definisjonsmengden til f(x) = 1/(x + 2)?",
       "options": [
-        "Alle x",
         "Alle x unntatt x = 2",
+        "Alle x unntatt x = −1",
         "Alle x unntatt x = −2",
-        "Bare x > 0"
+        "Alle x unntatt x = 0"
       ],
       "correct": 2,
       "explain": "Nevneren er null for x = −2."
@@ -183,13 +183,13 @@
       "id": "q10",
       "text": "Hva er verdimengden til en funksjon?",
       "options": [
-        "Alle x-verdiene",
-        "Alle y-verdiene funksjonen kan få",
-        "Antall nullpunkter",
-        "Stigningstallet"
+        "Den består av alle x-verdiene funksjonen kan bruke.",
+        "Den består av alle y-verdiene funksjonen kan få.",
+        "Den viser antallet nullpunkter som grafen til funksjonen har.",
+        "Den angir stigningstallet som grafen til funksjonen har."
       ],
       "correct": 1,
-      "explain": "Definisjonsmengden er x-verdiene."
+      "explain": "Verdimengden er samlingen av y-verdier funksjonen kan ha."
     }
   ],
   "mindmap": {
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva slags funksjon er f(x) = 1/x?",
         "options": [
-          "Lineær",
-          "Eksponentiell",
+          "Lineær funksjon med eksponent 1",
+          "Eksponentialfunksjon med grunntall 2",
           "Potensfunksjon med eksponent −1",
-          "Andregradsfunksjon"
+          "Andregradsfunksjon med eksponent 2"
         ],
         "correct": 2,
         "explain": "1/x = x⁻¹. Den er også en rasjonal funksjon."
@@ -341,7 +341,7 @@
         "options": [
           "x = 2",
           "x = 1",
-          "y = 1",
+          "x = −1",
           "x = 3"
         ],
         "correct": 1,
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

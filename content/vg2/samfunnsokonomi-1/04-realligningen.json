@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva står på tilgangssiden i realligningen?",
       "options": [
-        "Konsum og eksport",
-        "BNP og import",
-        "Investeringer og eksport",
-        "Bare import"
+        "Privat konsum og eksport fra Norge",
+        "BNP og import fra utlandet",
+        "Investeringer og eksport fra Norge",
+        "BNP og eksport fra Norge"
       ],
       "correct": 1,
       "explain": "Det vi produserer og kjøper fra utlandet."
@@ -88,21 +88,21 @@
       "text": "Hva er offentlig konsum?",
       "options": [
         "Tjenester stat og kommuner produserer, som skole og helse",
-        "Pensjoner",
-        "Barnetrygd",
-        "Husholdningenes kjøp"
+        "Penger stat og kommuner utbetaler, som pensjoner og barnetrygd",
+        "Varer husholdningene kjøper, som mat og klær",
+        "Tjenester private bedrifter selger, som forsikring og frisørbesøk"
       ],
       "correct": 0,
-      "explain": "Overføringer regnes ikke med."
+      "explain": "Offentlig konsum er tjenester som produseres av stat og kommuner, ikke overføringer eller husholdningenes kjøp."
     },
     {
       "id": "q03",
       "text": "Hva er nettoeksport?",
       "options": [
         "Eksport pluss import",
-        "BNP minus konsum",
+        "Import minus eksport",
         "Eksport minus import",
-        "Import minus investeringer"
+        "Eksport minus investeringer"
       ],
       "correct": 2,
       "explain": "Kalles også handelsbalansen."
@@ -124,9 +124,9 @@
       "text": "Hvorfor har Norge vanligvis overskudd på handelsbalansen?",
       "options": [
         "På grunn av eksporten av olje og gass",
-        "Fordi vi importerer mye",
-        "Fordi vi har lite eksport",
-        "Fordi staten forbyr import"
+        "På grunn av importen av olje og gass",
+        "På grunn av at importen overstiger eksporten",
+        "På grunn av høye tollsatser på importerte varer"
       ],
       "correct": 0,
       "explain": "Stor eksport.",
@@ -138,8 +138,8 @@
       "options": [
         "Offentlig konsum",
         "Privat konsum",
-        "Eksport",
-        "Investering"
+        "Privat investering",
+        "Offentlig overføring"
       ],
       "correct": 1,
       "explain": "Overføringer blir privat konsum."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva må skje hvis privat konsum øker og alt annet er likt?",
       "options": [
-        "Eksporten må øke",
-        "Offentlig konsum må øke",
+        "Eksporten eller investeringene må øke",
+        "Offentlig konsum eller eksport må øke",
         "Produksjonen eller importen må øke",
-        "Ingenting"
+        "Prisene eller lønningene må øke"
       ],
       "correct": 2,
       "explain": "Tilgang og anvendelse må være like."
@@ -160,22 +160,22 @@
       "id": "q08",
       "text": "Hva hører til realinvesteringene?",
       "options": [
-        "Kjøp av aksjer",
-        "Innskudd i banken",
-        "Pensjoner",
-        "Nye boliger, maskiner og bygninger"
+        "Aksjer, obligasjoner og fondsandeler",
+        "Bankinnskudd, kontanter og sparekontoer",
+        "Pensjoner, barnetrygd og sosialhjelp",
+        "Nye boliger, maskiner og næringsbygg"
       ],
       "correct": 3,
-      "explain": "Realkapital, ikke finanskapital."
+      "explain": "Realinvesteringer øker beholdningen av boliger, maskiner og bygninger."
     },
     {
       "id": "q09",
       "text": "Hvem lager nasjonalregnskapet i Norge?",
       "options": [
-        "SSB",
+        "Statistisk sentralbyrå (SSB)",
         "Norges Bank",
-        "NAV",
-        "Konkurransetilsynet"
+        "Finansdepartementet",
+        "Arbeids- og velferdsetaten (NAV)"
       ],
       "correct": 0,
       "explain": "Statistisk sentralbyrå.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva skjer med BNP hvis eksporten faller og ingen annen etterspørsel øker?",
       "options": [
-        "BNP øker",
-        "BNP faller",
-        "BNP er uendret",
-        "Importen øker alltid"
+        "BNP øker fordi lavere eksport øker etterspørselen etter norsk produksjon.",
+        "BNP faller fordi lavere eksport reduserer etterspørselen etter norsk produksjon.",
+        "BNP holder seg uendret fordi eksport ikke inngår i samlet etterspørsel.",
+        "Importen øker fordi lavere eksport gjør utenlandske varer mer etterspurt."
       ],
       "correct": 1,
       "explain": "Mindre etterspørsel etter norsk produksjon."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hvilke fire grupper etterspør varer og tjenester i realligningen?",
         "options": [
-          "Banker, skoler, sykehus og butikker",
+          "Husholdninger, banker, bedrifter og utlandet",
           "Husholdninger, det offentlige, bedrifter og utlandet",
-          "Kommuner, fylker, stat og EU",
-          "Arbeidere, ledere, eiere og kunder"
+          "Husholdninger, det offentlige, banker og utlandet",
+          "Husholdninger, det offentlige, bedrifter og bankene"
         ],
         "correct": 1,
         "explain": "Konsum, investeringer og eksport."
@@ -323,9 +323,9 @@
         "text": "Hva kan skje hvis offentlig konsum øker mye når alle allerede er i arbeid?",
         "options": [
           "Prisene og importen kan presses opp",
-          "Arbeidsledigheten øker",
-          "Eksporten øker alltid",
-          "BNP faller"
+          "Arbeidsledigheten og eksporten kan presses opp",
+          "Produksjonen kan øke uten press på prisene",
+          "BNP kan falle fordi offentlig konsum øker"
         ],
         "correct": 0,
         "explain": "Økonomien har lite ledig kapasitet."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvor regnes en ny vei bygget av staten?",
         "options": [
-          "Privat konsum",
-          "Eksport",
+          "Offentlig konsum",
+          "Privat realinvestering",
           "Realinvesteringer",
-          "Import"
+          "Offentlig overføring"
         ],
         "correct": 2,
         "explain": "Offentlige investeringer."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

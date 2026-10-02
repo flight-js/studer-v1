@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva viste Rutherfords gullfolieforsøk?",
       "options": [
-        "At atomet er udelelig",
+        "At den positive ladningen er jevnt fordelt i atomet",
         "At atomet har en liten, tung, positiv kjerne",
-        "At elektroner finnes",
-        "At lys er partikler"
+        "At elektronene utgjør mesteparten av atomets masse",
+        "At atomets masse er jevnt fordelt i hele atomet"
       ],
       "correct": 1,
       "explain": "Noen få alfapartikler ble kastet tilbake."
@@ -90,9 +90,9 @@
       "text": "Hva var det nye i Bohrs atommodell?",
       "options": [
         "At elektronene bare kan ha bestemte energinivåer",
-        "At atomet er en rosinbolle",
-        "At atomet er udelelig",
-        "At kjernen er negativ"
+        "At elektronene kan ha alle mulige energier i atomet",
+        "At elektronene sender ut lys når de går til høyere energinivå",
+        "At den positive ladningen er jevnt fordelt i atomet"
       ],
       "correct": 0,
       "explain": "Den forklarte hydrogenets linjespekter."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva skjer når et elektron faller til et lavere energinivå?",
       "options": [
-        "Det absorberer et foton",
-        "Atomet blir alltid ionisert",
-        "Det sendes ut et foton med energi lik forskjellen mellom nivåene",
-        "Kjernen deler seg"
+        "Elektronet absorberer et foton med energi lik energiforskjellen",
+        "Elektronet sender ut et foton og går til et høyere energinivå",
+        "Elektronet sender ut et foton med energi lik energiforskjellen",
+        "Elektronet sender ut et foton med energi som ikke avhenger av nivåforskjellen"
       ],
       "correct": 2,
       "explain": "Slik oppstår emisjonsspekteret."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilken formel gir energien til et foton?",
       "options": [
-        "E = mgh",
+        "E = mc²",
+        "E = qV",
         "E = ½mv²",
-        "E = UIt",
         "E = hf"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva skjer i fusjonen i sola?",
       "options": [
         "Hydrogen blir til helium",
-        "Uran spaltes",
-        "Jern blir til gull",
-        "Helium blir til hydrogen"
+        "Helium blir til hydrogen",
+        "Uran blir til lettere grunnstoffer",
+        "Jern blir til gull"
       ],
       "correct": 0,
       "explain": "Massedifferansen blir energi."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor stopper energigivende fusjon i stjerner ved jern?",
       "options": [
-        "Fordi jern er magnetisk",
+        "Fordi jern har den minst stabile kjernen, så videre fusjon frigjør energi",
         "Fordi jern har den mest stabile kjernen, så videre fusjon krever energi",
-        "Fordi stjernen blir for kald",
-        "Fordi jern er tyngst av alle"
+        "Fordi stjernen blir for kald til å fusjonere kjerner etter at jern dannes",
+        "Fordi jernkjernen har for få protoner til å holde sammen en stor atomkjerne"
       ],
       "correct": 1,
       "explain": "Tyngre grunnstoffer dannes på andre måter."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvor dannes grunnstoffer som gull?",
       "options": [
-        "I Big Bang",
-        "I vanlige stjerner som sola",
+        "I Big Bang og i de første stjernene",
+        "I vanlige stjerner som sola gjennom hydrogenfusjon",
         "I supernovaer og kollisjoner mellom nøytronstjerner",
-        "I jordas kjerne"
+        "I planetenes indre ved høyt trykk og temperatur"
       ],
       "correct": 2,
       "explain": "En nøytronstjernekollisjon ble observert i 2017.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva viste den fotoelektriske effekten?",
       "options": [
-        "At lys bare er bølger",
-        "At atomet har en kjerne",
-        "At jern er stabilt",
+        "At lys oppfører seg bare som bølger",
+        "At lysstyrken avgjør om elektroner slås løs fra metall",
+        "At atomkjernen sender ut elektroner når den absorberer lys",
         "At lys oppfører seg som partikler (fotoner)"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvordan vet vi hva stjernene består av?",
       "options": [
         "Fra linjene i spekteret deres",
-        "Fra romsonder som har landet der",
-        "Fra fargen på natthimmelen",
-        "Vi vet det ikke"
+        "Fra overflatetemperaturen og stjernens farge",
+        "Fra stjernens masse og størrelse",
+        "Fra den samlede lysstyrken uten å analysere spekteret"
       ],
       "correct": 0,
       "explain": "Hvert grunnstoff har sitt spektrale fingeravtrykk."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva betyr det at vi består av «stjernestøv»?",
         "options": [
-          "At vi lyser i mørket",
-          "At vi kommer fra månen",
+          "At atomene i kroppen ble dannet direkte i Big Bang",
+          "At grunnstoffene i kroppen ble dannet på jorda av stjernelys",
           "At grunnstoffene i kroppen ble dannet i stjerner",
-          "At vi består av helium"
+          "At alt stoffet i kroppen ble dannet ved fusjon i sola"
         ],
         "correct": 2,
         "explain": "Karbon, oksygen og jern er laget ved fusjon og eksplosjoner."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

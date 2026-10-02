@@ -90,8 +90,8 @@
       "options": [
         "eˣ",
         "x · eˣ⁻¹",
-        "1/x",
-        "e"
+        "eˣ⁻¹",
+        "1/eˣ"
       ],
       "correct": 0,
       "explain": "eˣ er sin egen deriverte."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er den deriverte av x² · eˣ?",
       "options": [
-        "2x · eˣ",
-        "x² · eˣ",
+        "eˣ(2x)",
+        "eˣ(x² + 2)",
         "eˣ(x² + 2x)",
-        "2eˣ"
+        "eˣ(x² − 2x)"
       ],
       "correct": 2,
       "explain": "Produktregelen."
@@ -113,8 +113,8 @@
       "text": "Hva er den deriverte av (2x + 1)⁵?",
       "options": [
         "5(2x + 1)⁴",
-        "(2x + 1)⁴",
-        "2(2x + 1)⁵",
+        "2(2x + 1)⁴",
+        "10(2x + 1)⁵",
         "10(2x + 1)⁴"
       ],
       "correct": 3,
@@ -127,7 +127,7 @@
         "1/x",
         "ln x",
         "x",
-        "eˣ"
+        "1/(ln x)"
       ],
       "correct": 0,
       "explain": "For x > 0."
@@ -139,7 +139,7 @@
         "2√x",
         "1/(2√x)",
         "√x/2",
-        "x^(3/2)"
+        "1/√x"
       ],
       "correct": 1,
       "explain": "√x = x^½."
@@ -149,9 +149,9 @@
       "text": "Hva er den deriverte av ln(x² + 1)?",
       "options": [
         "1/(x² + 1)",
-        "2x · ln(x² + 1)",
+        "2/(x² + 1)",
         "2x/(x² + 1)",
-        "1/(2x)"
+        "2x/(x² + 1)²"
       ],
       "correct": 2,
       "explain": "Kjerneregelen med kjerne x² + 1."
@@ -162,7 +162,7 @@
       "options": [
         "Produktregelen",
         "Potensregelen",
-        "Kjerneregelen alene",
+        "Kjerneregelen",
         "Kvotientregelen"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "options": [
         "3e³ˣ",
         "e³ˣ",
-        "3xe³ˣ⁻¹",
-        "e³"
+        "3e³ˣ⁻¹",
+        "9e³ˣ"
       ],
       "correct": 0,
       "explain": "Kjernen 3x har deriverte 3."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er den deriverte av ln x / x?",
         "options": [
-          "1/x²",
-          "(1 − ln x)/x²",
           "(ln x − 1)/x²",
-          "1/(x · ln x)"
+          "(1 − ln x)/x²",
+          "(1 + ln x)/x²",
+          "(1 − ln x)/x"
         ],
         "correct": 1,
         "explain": "Kvotientregelen."
@@ -326,8 +326,8 @@
         "options": [
           "−10/x³",
           "10/x³",
-          "5/(2x)",
-          "−5/x"
+          "−10/x²",
+          "−5/x³"
         ],
         "correct": 0,
         "explain": "5x⁻² gir −10x⁻³."
@@ -340,7 +340,7 @@
           "Kvotientregelen",
           "Produktregelen",
           "Kjerneregelen",
-          "Ingen regel"
+          "Potensregelen"
         ],
         "correct": 2,
         "explain": "f′(x) = 2x · e^(x²)."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

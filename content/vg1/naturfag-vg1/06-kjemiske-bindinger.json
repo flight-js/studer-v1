@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva skjer i en kovalent binding?",
       "options": [
-        "Atomene deler elektronpar",
-        "Et atom gir bort alle elektronene",
-        "Atomene deler protoner",
-        "Elektronene flyter fritt i en sjø"
+        "Atomene deler elektronpar mellom seg",
+        "Ett atom overfører elektroner til det andre",
+        "Elektronene beveger seg fritt mellom atomene",
+        "Atomene deler protoner mellom seg"
       ],
       "correct": 0,
       "explain": "Kovalente bindinger dannes mellom ikke-metaller."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Når leder salt strøm?",
       "options": [
-        "Alltid",
-        "Aldri",
-        "Når det er smeltet eller løst i vann",
-        "Bare i fast form"
+        "Salt leder strøm når det er fast og tørt i romtemperatur",
+        "Salt leder strøm når det er løst i olje ved romtemperatur",
+        "Salt leder strøm når det er smeltet eller løst i vann",
+        "Salt leder strøm når det er fast og ionene kan bevege seg"
       ],
       "correct": 2,
       "explain": "Da kan ionene bevege seg."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvorfor er vann et polart molekyl?",
       "options": [
-        "Fordi det er lineært",
-        "Fordi det er et metall",
-        "Fordi det inneholder ioner",
+        "Fordi oksygen trekker mer på elektronene og molekylet er lineært",
+        "Fordi hydrogen trekker mer på elektronene og molekylet er vinklet",
+        "Fordi oksygen trekker mindre på elektronene og molekylet er vinklet",
         "Fordi oksygen trekker mer på elektronene og molekylet er vinklet"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva forklarer at metaller leder strøm godt?",
       "options": [
         "Frie elektroner i en elektronsjø",
-        "Hydrogenbindinger",
-        "Iongitter",
-        "Polare bindinger"
+        "Bevegelige ioner i et ionegitter",
+        "Delte elektronpar i polare bindinger",
+        "Hydrogenbindinger mellom metallatomene"
       ],
       "correct": 0,
       "explain": "Elektronene kan bevege seg gjennom metallet."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor løses ikke fett i vann?",
       "options": [
-        "Fordi fett er tyngre enn vann",
+        "Fordi fett er polart og vann er upolart",
         "Fordi fett er upolart og vann er polart",
-        "Fordi vann er for kaldt",
-        "Fordi fett er et metall"
+        "Fordi fett danner ioner som vann ikke kan løse",
+        "Fordi fettmolekylene er større enn vannmolekylene"
       ],
       "correct": 1,
       "explain": "Likt løser likt."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva forklarer at vann har et høyt kokepunkt for et så lite molekyl?",
       "options": [
-        "Ionebindinger",
-        "Metallbindinger",
-        "Hydrogenbindinger mellom molekylene",
-        "At vann er upolart"
+        "Ionebindinger mellom vannmolekylene",
+        "Kovalente bindinger mellom vannmolekylene",
+        "Hydrogenbindinger mellom vannmolekylene",
+        "Van der Waals-krefter mellom vannmolekylene"
       ],
       "correct": 2,
       "explain": "Hydrogenbindingene må brytes for at vannet skal koke."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvorfor leder grafitt strøm, mens diamant ikke gjør det?",
       "options": [
-        "Grafitt inneholder metall",
-        "Diamant er for hard",
-        "Grafitt er polart",
-        "I grafitt kan noen elektroner bevege seg mellom lagene"
+        "I diamant kan noen elektroner bevege seg fritt i lagene",
+        "I grafitt kan karbonatomene bevege seg fritt i lagene",
+        "I grafitt kan ioner bevege seg fritt i lagene",
+        "I grafitt kan noen elektroner bevege seg fritt i lagene"
       ],
       "correct": 3,
       "explain": "Begge består bare av karbon, men atomene er ordnet ulikt.",
@@ -176,9 +176,9 @@
       "text": "Hva er elektronegativitet?",
       "options": [
         "Hvor sterkt et atom trekker på elektronene i en binding",
-        "Antall elektroner i et atom",
-        "Ladningen til et ion",
-        "Hvor tungt et atom er"
+        "Hvor mange elektroner et atom deler med andre i en binding",
+        "Hvor sterk bindingen er mellom to atomer i et molekyl",
+        "Hvor stor elektrisk ladning et atom får når det binder seg"
       ],
       "correct": 0,
       "explain": "Forskjell i elektronegativitet gir polare bindinger."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor er CO₂ upolart selv om bindingene er polare?",
       "options": [
-        "Fordi karbon er et metall",
-        "Fordi molekylet er lineært, så polariteten oppheves",
-        "Fordi det er en gass",
-        "Fordi det har hydrogenbindinger"
+        "Fordi molekylet er vinklet, så polariteten i bindingene oppheves",
+        "Fordi molekylet er lineært, så polariteten i bindingene oppheves",
+        "Fordi molekylet er lineært, så bindingene i molekylet er upolare",
+        "Fordi molekylet er lineært, så begge bindingene peker samme vei"
       ],
       "correct": 1,
       "explain": "De to polare bindingene peker i hver sin retning."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan såpe vaske bort fett?",
         "options": [
-          "Den har en polar og en upolar ende",
-          "Den er et metall",
-          "Den inneholder salt",
-          "Den er upolar i begge ender"
+          "Såpemolekylet har en polar og en upolar ende",
+          "Såpemolekylet har to polare ender og løses i vann",
+          "Såpemolekylet har to upolare ender og løses i fett",
+          "Såpemolekylet har en polar og en upolar ende, men binder seg ikke til fett"
         ],
         "correct": 0,
         "explain": "Den upolare enden binder seg til fettet og den polare til vannet.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvilken binding er svakest?",
         "options": [
-          "Ionebinding",
+          "Ionebindinger",
           "Van der Waals-krefter",
-          "Kovalent binding",
-          "Metallbinding"
+          "Kovalente bindinger",
+          "Metallbindinger"
         ],
         "correct": 1,
         "explain": "Van der Waals-krefter er svake krefter mellom molekyler."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

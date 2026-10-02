@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er direkte distribusjon?",
       "options": [
-        "Salg via grossist",
-        "Produsenten selger rett til forbrukeren",
-        "Salg i dagligvarebutikk",
-        "Salg via agent"
+        "Produsenten selger gjennom en grossist til butikker.",
+        "Produsenten selger direkte til forbrukeren.",
+        "Produsenten selger gjennom en detaljist til forbrukeren.",
+        "Produsenten selger gjennom en agent til butikker."
       ],
       "correct": 1,
       "explain": "For eksempel gårdsutsalg."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva gjør en grossist?",
       "options": [
-        "Kjøper store mengder og selger videre til butikker",
-        "Selger til forbrukere",
-        "Produserer varer",
-        "Lager reklame"
+        "Grossisten kjøper varer i store mengder fra produsenter og selger dem videre til butikker.",
+        "Grossisten selger store mengder varer direkte til forbrukerne, uten å levere til butikker.",
+        "Grossisten produserer varene selv og selger dem videre til butikkene.",
+        "Grossisten lager reklame for varene og selger dem direkte til forbrukerne."
       ],
       "correct": 0,
       "explain": "Et mellomledd i lange kanaler."
@@ -116,8 +116,8 @@
       "text": "Hvilken distribusjon passer for en luksusklokke?",
       "options": [
         "Intensiv",
-        "Salg på bensinstasjoner",
-        "Salg i alle kiosker",
+        "Selektiv",
+        "Direkte",
         "Eksklusiv"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er omnikanal?",
       "options": [
-        "Sømløs kundeopplevelse på tvers av kanaler",
-        "Bare nettbutikk",
-        "Bare fysisk butikk",
-        "Salg via én kanal"
+        "En sømløs kundeopplevelse på tvers av nettbutikk og fysisk butikk",
+        "En kundeopplevelse der nettbutikk og fysisk butikk fungerer hver for seg",
+        "En kundeopplevelse gjennom nettbutikk uten en fysisk butikk",
+        "En kundeopplevelse der kunden handler i flere fysiske butikker"
       ],
       "correct": 0,
       "explain": "Nett og butikk henger sammen."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor har dagligvarekjedene stor makt overfor leverandørene?",
       "options": [
-        "De produserer alt selv",
-        "De bestemmer blant annet hvilke varer som får hylleplass",
-        "De eier alle fabrikker",
-        "De har ingen konkurrenter"
+        "De produserer selv varene som leverandørene tilbyr butikkene.",
+        "De bestemmer blant annet hvilke varer som får hylleplass i butikkene.",
+        "De fastsetter prisene leverandørene betaler for råvarene.",
+        "De bestemmer avgiftene leverandørene betaler på varene."
       ],
       "correct": 1,
       "explain": "Tre store grupper dominerer markedet."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er en pull-strategi?",
       "options": [
-        "Rabatter til forhandlerne",
-        "Å selge direkte",
-        "Å skape etterspørsel hos forbrukerne slik at de spør etter varen",
-        "Å kutte mellomledd"
+        "Å gi forhandlerne rabatter for å få dem til å kjøpe inn varen.",
+        "Å selge varen direkte fra produsenten til forbrukerne.",
+        "Å skape etterspørsel hos forbrukerne slik at de spør etter varen.",
+        "Å redusere antallet mellomledd før varen når butikkene."
       ],
       "correct": 2,
       "explain": "Kundene trekker varen gjennom kanalen."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva er en ulempe ved mange mellomledd?",
       "options": [
-        "Flere transaksjoner",
-        "Mer kontroll for produsenten",
-        "Varene kommer raskere",
-        "Hvert ledd tar fortjeneste, og produsenten får mindre kontroll"
+        "Flere mellomledd gir produsenten direkte kontakt med forbrukerne og bedre kontroll.",
+        "Flere mellomledd reduserer kostnadene og lar produsenten beholde mer av fortjenesten.",
+        "Flere mellomledd forkorter distribusjonsveien og gir raskere levering.",
+        "Mellomleddene tar en del av fortjenesten, og produsenten får mindre kontroll."
       ],
       "correct": 3,
       "explain": "Men mellomledd gir også fordeler."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva hører til logistikk?",
       "options": [
-        "Lager, transport og returer",
-        "Reklame",
-        "Prissetting",
-        "Merkevarebygging"
+        "Lagerhold, transport og håndtering av returer",
+        "Reklame, kampanjer og merkevarebygging",
+        "Prissetting, rabatter og betalingsvilkår",
+        "Produktutvikling, design og emballasje"
       ],
       "correct": 0,
       "explain": "Den fysiske distribusjonen."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor er mange returer i netthandelen et problem?",
       "options": [
-        "Det gir flere kunder",
-        "Det er dyrt og lite bærekraftig",
-        "Det er ulovlig",
-        "Det gir lavere priser"
+        "Det reduserer transportarbeidet og behovet for emballasje.",
+        "Det øker kostnadene og miljøbelastningen.",
+        "Det gjør lagerstyringen enklere og øker varetilgjengeligheten.",
+        "Det gir nettbutikken flere varer å selge og høyere fortjeneste."
       ],
       "correct": 1,
       "explain": "Transport og håndtering koster."
@@ -314,7 +314,7 @@
           "Eksklusiv",
           "Selektiv",
           "Intensiv",
-          "Ingen distribusjon"
+          "Direkte"
         ],
         "correct": 1,
         "explain": "Utvalgte forhandlere med kompetanse."
@@ -325,9 +325,9 @@
         "text": "Hva er en push-strategi?",
         "options": [
           "Rabatter og salgsstøtte til forhandlerne",
-          "Reklame rettet mot forbrukerne",
-          "Salg på gården",
-          "Gratis retur"
+          "Reklame og kampanjer rettet mot forbrukerne",
+          "Produktinformasjon og rabattkuponger til forbrukerne",
+          "Gratis frakt og returer til nettkundene"
         ],
         "correct": 0,
         "explain": "Varen skyves gjennom kanalen."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er klikk og hent?",
         "options": [
-          "Hjemlevering",
-          "Salg på telefon",
-          "Å handle på nett og hente i butikk",
-          "Salg på markedsplass"
+          "Å bestille varen på nett og få den levert hjem.",
+          "Å bestille varen på telefon og hente den i en fysisk butikk.",
+          "Å bestille varen på nett og hente den i en fysisk butikk.",
+          "Å bestille varen i butikk og få den sendt hjem."
         ],
         "correct": 2,
         "explain": "En del av omnikanalhandel."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

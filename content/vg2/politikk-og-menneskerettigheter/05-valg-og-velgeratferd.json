@@ -78,8 +78,8 @@
       "options": [
         "2 %",
         "4 %",
-        "5 %",
-        "10 %"
+        "3 %",
+        "5 %"
       ],
       "correct": 1,
       "explain": "Partier under 4 % kan likevel vinne distriktsmandater."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er formålet med utjevningsmandater?",
       "options": [
-        "Å gjøre resultatet mer rettferdig nasjonalt",
-        "Å gi flere mandater til store partier",
-        "Å gi kongen mandater",
-        "Å redusere antall partier"
+        "Å gjøre mandatfordelingen mer rettferdig på nasjonalt nivå",
+        "Å sikre at store partier får flere mandater nasjonalt",
+        "Å sikre likt antall mandater til hvert valgdistrikt",
+        "Å redusere antallet partier som får plass på Stortinget"
       ],
       "correct": 0,
       "explain": "Ett per valgdistrikt."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er saksstemming?",
       "options": [
-        "Å stemme som foreldrene",
-        "Å stemme etter klasse",
+        "Å stemme ut fra partiet familien vanligvis støtter",
+        "Å stemme ut fra hvilken samfunnsklasse man tilhører",
         "Å stemme ut fra politikken i viktige saker",
-        "Å stemme tilfeldig"
+        "Å stemme ut fra regjeringens resultater i forrige periode"
       ],
       "correct": 2,
       "explain": "For eksempel klima eller skatt."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er retrospektiv stemmegivning?",
       "options": [
-        "Å stemme på det nyeste partiet",
-        "Å stemme etter framtidige løfter",
-        "Å stemme blankt",
-        "Å belønne eller straffe regjeringen for hvordan det har gått"
+        "Å velge partiet som lover den beste politikken framover",
+        "Å stemme på partiet man har støttet over lang tid",
+        "Å velge en kandidat ut fra personlige egenskaper og erfaring",
+        "Å belønne eller straffe regjeringen for resultatene den har oppnådd"
       ],
       "correct": 3,
       "explain": "Ser bakover."
@@ -125,9 +125,9 @@
       "text": "Hvor stor er feilmarginen omtrent i en meningsmåling med 1000 personer?",
       "options": [
         "±3 prosentpoeng",
-        "±0,1 prosentpoeng",
-        "±15 prosentpoeng",
-        "Ingen feilmargin"
+        "±1 prosentpoeng",
+        "±2 prosentpoeng",
+        "±5 prosentpoeng"
       ],
       "correct": 0,
       "explain": "Små endringer kan være tilfeldige."
@@ -138,8 +138,8 @@
       "options": [
         "Den har blitt sterkere",
         "Den har blitt svakere",
-        "Den er uendret",
-        "Den er forbudt"
+        "Den har holdt seg omtrent uendret",
+        "Den har blitt tydeligere"
       ],
       "correct": 1,
       "explain": "Flere bytter parti."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilke grupper har ofte lavere valgdeltakelse?",
       "options": [
-        "Eldre med høy utdanning",
-        "Pensjonister",
+        "Eldre velgere og personer med høy utdanning og inntekt",
+        "Voksne i fast arbeid og personer med høy inntekt",
         "Unge og personer med lav utdanning og inntekt",
-        "Politikere"
+        "Middelaldrende velgere og personer med lang utdanning"
       ],
       "correct": 2,
       "explain": "Gir skjev representasjon."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor er lav valgdeltakelse et problem?",
       "options": [
-        "Det gjør valg dyrere",
-        "Det gir flere partier",
-        "Det gjør valget kortere",
+        "Det kan føre til at Stortinget får færre representanter",
+        "Det kan gjøre valget mindre forutsigbart for partiene",
+        "Det kan føre til at regjeringen må gå av",
         "Det kan svekke legitimiteten og gi skjev representasjon"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er partiidentifikasjon?",
       "options": [
         "Varig tilhørighet til et parti",
-        "Et medlemskort",
-        "Et valgprogram",
-        "En meningsmåling"
+        "Formelt medlemskap i et parti",
+        "Kortvarig støtte til et parti",
+        "Kjennskap til et partis valgprogram"
       ],
       "correct": 0,
       "explain": "Ofte formet gjennom familien."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor får distrikter med spredt bosetting flere mandater per innbygger?",
       "options": [
-        "Fordi de har flere partier",
+        "Fordi hvert fylke får samme antall mandater",
         "Fordi også areal teller i fordelingen",
-        "Fordi byene ikke stemmer",
-        "Fordi kongen bestemmer det"
+        "Fordi kommunene fordeler mandatene selv",
+        "Fordi partiene får egne mandater i hvert distrikt"
       ],
       "correct": 1,
       "explain": "Et distriktshensyn i valgordningen."
@@ -325,9 +325,9 @@
         "text": "Hvilken metode gir innsikt i hvorfor noen lar være å stemme?",
         "options": [
           "Kvalitative intervjuer",
-          "Valgresultatet alene",
-          "Mandatfordelingen",
-          "Sperregrensen"
+          "Statistisk analyse av valgresultater",
+          "Sammenligning av mandatfordeling mellom partier",
+          "Kartlegging av sperregrensen ved stortingsvalg"
         ],
         "correct": 0,
         "explain": "Gir dybdekunnskap."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er diskutert for å øke valgdeltakelsen blant unge?",
         "options": [
-          "Høyere stemmerettsalder",
-          "Færre valglokaler",
+          "Stemmerett for 15-åringer",
+          "Obligatorisk stemmegivning for unge velgere",
           "Stemmerett for 16-åringer",
-          "Avskaffe skolevalg"
+          "Heving av stemmerettsalderen til 20 år"
         ],
         "correct": 2,
         "explain": "Prøvd ut i enkelte kommuner.",
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva skjer ved transkripsjon?",
       "options": [
-        "Protein lages på ribosomet",
+        "RNA-polymerase lager et protein fra genet",
         "RNA-polymerase lager en mRNA-kopi av genet",
-        "DNA kopieres før celledeling",
-        "Aminosyrer brytes ned"
+        "DNA-polymerase lager en mRNA-kopi av genet",
+        "RNA-polymerase lager en DNA-kopi av genet"
       ],
       "correct": 1,
       "explain": "Første trinn i genuttrykket."
@@ -89,9 +89,9 @@
       "text": "Hva er et kodon?",
       "options": [
         "Tre baser i mRNA som koder for én aminosyre",
-        "Et protein",
-        "En type RNA-polymerase",
-        "Et gen"
+        "Tre baser i DNA som koder for én aminosyre",
+        "To baser i mRNA som koder for én aminosyre",
+        "Tre baser i mRNA som koder for ett protein"
       ],
       "correct": 0,
       "explain": "Leses av ribosomet."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor er den genetiske koden redundant?",
       "options": [
-        "Fordi det finnes 20 kodoner",
-        "Fordi ett kodon gir flere aminosyrer",
+        "Fordi 20 kodoner koder for 64 aminosyrer",
+        "Fordi hvert kodon kan kode for flere aminosyrer",
         "Fordi 64 kodoner koder for 20 aminosyrer",
-        "Fordi den ikke er universell"
+        "Fordi 64 aminosyrer kodes av 20 kodoner"
       ],
       "correct": 2,
       "explain": "Flere kodoner kan gi samme aminosyre."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva skjer ved spleising?",
       "options": [
-        "Eksoner klippes ut",
-        "DNA dobles",
-        "Proteinet brettes",
+        "Eksoner klippes ut og introner skjøtes sammen",
+        "Introner klippes ut og DNA-tråder skjøtes sammen",
+        "Introner skjøtes sammen og eksoner klippes ut",
         "Introner klippes ut og eksoner skjøtes sammen"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvorfor gjør den universelle koden genteknologi mulig?",
       "options": [
         "Fordi et gen fra én art kan leses av en annen art",
-        "Fordi alle arter har samme gener",
-        "Fordi DNA ikke kan endres",
-        "Fordi proteiner er like"
+        "Fordi alle arter har de samme genene i cellene sine",
+        "Fordi alle arter lager de samme proteinene fra genene sine",
+        "Fordi et protein fra én art kan kopieres av en annen art"
       ],
       "correct": 0,
       "explain": "For eksempel menneskelig insulin i bakterier."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva skjer i lac-operonet når laktose er til stede?",
       "options": [
-        "Genene slås av",
+        "Laktose binder repressoren, og genene slås av",
         "Laktose binder repressoren, og genene slås på",
-        "Bakterien dør",
-        "DNA-et endres"
+        "Laktose binder operatøren, og genene slås på",
+        "Repressoren binder operatøren, og genene slås på"
       ],
       "correct": 1,
       "explain": "Enzymene lages bare når de trengs.",
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er epigenetikk?",
       "options": [
-        "Mutasjoner i DNA",
-        "Kopiering av DNA",
+        "Endringer i DNA-sekvensen som påvirker genuttrykket",
+        "Endringer i genuttrykket som skyldes mutasjoner i DNA",
         "Endringer i genuttrykk uten endring i DNA-sekvensen",
-        "Proteinsyntese"
+        "Endringer i DNA-kopiering uten endring i DNA-sekvensen"
       ],
       "correct": 2,
       "explain": "For eksempel DNA-metylering."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva gjør PCR?",
       "options": [
-        "Klipper DNA",
-        "Lager proteiner",
-        "Endrer gener",
+        "Klipper et DNA-stykke i millioner av biter",
+        "Lager millioner av proteiner ut fra et DNA-stykke",
+        "Kopierer et RNA-stykke millioner av ganger",
         "Kopierer et DNA-stykke millioner av ganger"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er CRISPR-Cas9?",
       "options": [
         "En gensaks som klipper DNA på et bestemt sted",
-        "En vaksine",
-        "Et hormon",
-        "En type ribosom"
+        "En gensaks som klipper RNA på et bestemt sted",
+        "En gensaks som kopierer DNA på et bestemt sted",
+        "En gensaks som klipper DNA på mange tilfeldige steder"
       ],
       "correct": 0,
       "explain": "Nobelprisen i kjemi 2020."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor uttrykker en nervecelle andre gener enn en muskelcelle?",
       "options": [
-        "Fordi de har ulikt DNA",
-        "Fordi genuttrykket reguleres ulikt",
-        "Fordi nerveceller ikke har DNA",
-        "Tilfeldigheter"
+        "Fordi de har ulike DNA-sekvenser i cellekjernene",
+        "Fordi genuttrykket reguleres på ulike måter i cellene",
+        "Fordi muskelceller mangler gener for nerveceller",
+        "Fordi nerveceller har flere gener enn muskelceller"
       ],
       "correct": 1,
       "explain": "Grunnlaget for celledifferensiering."
@@ -312,8 +312,8 @@
         "options": [
           "I cellekjernen",
           "På ribosomene",
-          "I mitokondriene",
-          "I cellemembranen"
+          "I Golgiapparatet",
+          "I lysosomene"
         ],
         "correct": 1,
         "explain": "mRNA leses der."
@@ -325,8 +325,8 @@
         "options": [
           "AUG",
           "UAA",
-          "GGG",
-          "CCC"
+          "UGA",
+          "GGA"
         ],
         "correct": 0,
         "explain": "Koder for metionin."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvordan har diabetikere fått insulin siden 1980-tallet?",
         "options": [
-          "Fra griser alene",
-          "Fra planter",
+          "Fra bakterier med menneskelig glukagongen",
+          "Fra bakterier med menneskelig hemoglobingen",
           "Fra bakterier med menneskelig insulingen",
-          "Fra fisk"
+          "Fra bakterier med menneskelig veksthormongen"
         ],
         "correct": 2,
         "explain": "Rekombinant DNA.",
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

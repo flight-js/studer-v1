@@ -87,8 +87,7 @@
     },
     {
       "term": "中秋节 Zhōngqiūjié",
-      "def": "midthøstfestivalen",
-      "niva": "eksempel"
+      "def": "midthøstfestivalen"
     },
     {
       "term": "筷子 kuàizi",
@@ -100,10 +99,10 @@
       "id": "q01",
       "text": "Hva er pinyin?",
       "options": [
-        "Kinesiske tegn",
+        "Et system med kinesiske tegn for mandarin",
         "Lydskrift for kinesisk med latinske bokstaver",
-        "En kinesisk dialekt",
-        "En type tone"
+        "En egen dialekt som snakkes i Nord-Kina",
+        "Et tonesystem som viser ordets betydning"
       ],
       "correct": 1,
       "explain": "Pinyin brukes også når man skriver tegn på PC og mobil."
@@ -112,9 +111,9 @@
       "id": "q02",
       "text": "Hvordan uttales «nǐ hǎo» i praksis?",
       "options": [
-        "nì hào",
-        "nǐ hǎo med to 3. toner",
-        "nī hāo",
+        "nī hǎo",
+        "nǐ háo",
+        "nì hǎo",
         "ní hǎo"
       ],
       "correct": 3,
@@ -124,10 +123,10 @@
       "id": "q03",
       "text": "Hvordan lager du et ja/nei-spørsmål på kinesisk?",
       "options": [
-        "Ved å bytte om på ordene",
-        "Ved å bøye verbet",
+        "Ved å sette 谁 til slutt",
+        "Ved å sette 哪儿 til slutt",
         "Ved å sette 吗 til slutt",
-        "Ved å sette 什么 først"
+        "Ved å sette 什么 til slutt"
       ],
       "correct": 2,
       "explain": "你是学生吗？ – Er du elev?"
@@ -136,10 +135,10 @@
       "id": "q04",
       "text": "I navnet 王明 Wáng Míng – hva er etternavnet?",
       "options": [
-        "Míng",
-        "Begge",
+        "Lǐ",
+        "Zhāng",
         "Wáng",
-        "Ingen av dem"
+        "Zhào"
       ],
       "correct": 2,
       "explain": "Etternavnet står først på kinesisk."
@@ -149,21 +148,21 @@
       "text": "Hvordan sier du «to personer»?",
       "options": [
         "两个人 liǎng ge rén",
-        "二个人 èr ge rén",
-        "二人个 èr rén ge",
-        "两人个 liǎng rén ge"
+        "三个人 sān ge rén",
+        "四个人 sì ge rén",
+        "两个人们 liǎng ge rénmen"
       ],
       "correct": 0,
-      "explain": "Foran måleord brukes 两, ikke 二."
+      "explain": "两 liǎng står foran måleordet 个 når du teller personer."
     },
     {
       "id": "q06",
       "text": "I hvilken rekkefølge skrives en dato på kinesisk?",
       "options": [
         "År – måned – dag",
-        "Dag – måned – år",
+        "Dag – år – måned",
         "Måned – dag – år",
-        "Tilfeldig"
+        "Måned – år – dag"
       ],
       "correct": 0,
       "explain": "Fra størst til minst."
@@ -173,21 +172,21 @@
       "text": "Hvordan nekter man 有?",
       "options": [
         "没有 méiyǒu",
-        "不有 bù yǒu",
-        "有不 yǒu bù",
-        "非有 fēi yǒu"
+        "不是有 bú shì yǒu",
+        "有吗 yǒu ma",
+        "有的 yǒu de"
       ],
       "correct": 0,
-      "explain": "有 nektes alltid med 没."
+      "explain": "有 nektes ved å sette 没 foran, slik at det blir 没有."
     },
     {
       "id": "q08",
       "text": "Hvor står 都 dōu i setningen?",
       "options": [
-        "Til slutt",
-        "Først",
-        "Foran verbet",
-        "Etter objektet"
+        "Mellom verbet og objektet",
+        "Etter objektet",
+        "Mellom subjektet og verbet",
+        "Før subjektet"
       ],
       "correct": 2,
       "explain": "我们都是学生。"
@@ -209,9 +208,9 @@
       "id": "q10",
       "text": "Hva står et kinesisk tegn vanligvis for?",
       "options": [
-        "En bokstav",
-        "En hel setning",
-        "Et avsnitt",
+        "Én bokstav med en egen lyd",
+        "Én stavelse uten en egen betydning",
+        "Flere stavelser samlet i ett tegn",
         "Én stavelse med en betydning"
       ],
       "correct": 3,
@@ -222,13 +221,12 @@
       "text": "Hva får barn ofte i gave til kinesisk nyttår?",
       "options": [
         "Røde konvolutter med penger",
-        "Julestrømper",
-        "Påskeegg",
-        "Blomster"
+        "Gule konvolutter med penger",
+        "Røde konvolutter med godteri",
+        "Røde poser med lykkesymboler"
       ],
       "correct": 0,
-      "explain": "红包 hóngbāo.",
-      "niva": "eksempel"
+      "explain": "红包 hóngbāo."
     }
   ],
   "mindmap": {
@@ -343,7 +341,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -384,30 +382,31 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Jeg har ingen eldre søster»?",
         "options": [
-          "我不有姐姐。",
+          "我没有妹妹。",
           "我没有姐姐。",
-          "我姐姐没有。",
-          "我有不姐姐。"
+          "我没有哥哥。",
+          "我没有弟弟。"
         ],
         "correct": 1,
-        "explain": "有 nektes med 没."
+        "explain": "有 nektes ved å sette 没 foran, slik at det blir 没有."
       },
       {
         "id": "m05",
         "type": "sant-usant",
         "text": "Radikalen i et tegn sier ofte noe om betydningen.",
         "correct": true,
-        "explain": "For eksempel vann-radikalen i 河 og 海."
+        "explain": "For eksempel vann-radikalen i 河 og 海.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
         "type": "flervalg",
         "text": "Hva har jul i Norge og vårfestivalen i Kina til felles?",
         "options": [
-          "De feires samme dato",
-          "Begge feires med røde konvolutter",
-          "Begge handler om å samles med familien og spise tradisjonsmat",
-          "Ingenting"
+          "Begge feires på samme dag hvert år.",
+          "Begge har røde konvolutter som fast skikk.",
+          "Begge samler familien rundt tradisjonsmat.",
+          "Begge markerer starten på et nytt år."
         ],
         "correct": 2,
         "explain": "Familie og tradisjonsmat står sentralt i begge."
@@ -488,12 +487,89 @@
           "Nevner en skikk ved delte måltider eller at spisepinner ikke skal stå loddrett i risen."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "En elev spør om mandarin bare brukes i Kina, og hvilke typer kinesiske tegn som brukes i Taiwan og Singapore. Forklar hvor mandarin er offisielt språk, og sammenlign skriftsystemene i Taiwan og Singapore.",
+        "fasit": "Mandarin er offisielt språk i Kina og Taiwan, og ett av de offisielle språkene i Singapore. Taiwan bruker tradisjonelle tegn, mens Singapore bruker forenklede tegn.",
+        "kriterier": [
+          "Plasserer mandarin riktig i forhold til Kina, Taiwan og Singapore.",
+          "Skiller mellom tradisjonelle tegn i Taiwan og forenklede tegn i Singapore."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på kinesisk «I morgen går vi alle på skolen». Forklar hvor tidsuttrykket og 都 står i setningen.",
+        "fasit": "我们明天都上学。 Tidsuttrykket 明天 står etter subjektet og før verbet. 都 står også foran verbet.",
+        "kriterier": [
+          "Skriver en forståelig kinesisk setning med betydningen «I morgen går vi alle på skolen».",
+          "Plasserer 明天 og 都 foran verbet."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Skriv tallene 36 og 99 med kinesiske tegn. Forklar kort hvordan 36 er bygd opp.",
+        "fasit": "36 er 三十六, og 99 er 九十九. 三十六 betyr tre tiere og seks, altså tretti-seks.",
+        "kriterier": [
+          "Skriver 36 som 三十六 og 99 som 九十九.",
+          "Forklarer at 36 består av tre tiere og seks."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Tegnet 休 betyr «hvile». Forklar hvilke deler tegnet består av, og hva delene kan få deg til å tenke på. Nevn også én regel for strekrekkefølge i kinesiske tegn.",
+        "fasit": "休 består av 亻, som betyr menneske, og 木, som betyr tre. Delene kan minne om en person som hviler mot et tre. En regel er å skrive fra venstre mot høyre.",
+        "kriterier": [
+          "Identifiserer 亻 som menneske og 木 som tre, og knytter tegnet til hvile.",
+          "Nevner en riktig regel for strekrekkefølge."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Sammenlign midthøstfestivalen og dragebåtfestivalen i Kina. Nevn når eller hvordan de markeres, og hva som er særlig knyttet til hver festival.",
+        "fasit": "Midthøstfestivalen feires ved fullmåne om høsten, når familien samles, ser på månen og spiser månekaker. Under dragebåtfestivalen arrangeres kappløp i lange båter formet som drager.",
+        "kriterier": [
+          "Knytter midthøstfestivalen til fullmåne om høsten og månekaker eller familiesamling.",
+          "Knytter dragebåtfestivalen til kappløp med drageformede båter."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En besøkende får en gave og får deretter et kompliment i Kina. Forklar hvordan personen kan opptre høflig i disse to situasjonene.",
+        "fasit": "Når personen tar imot gaven, kan hen bruke begge hendene. Når hen får et kompliment, kan hen svare beskjedent, for eksempel med 哪里哪里, «ikke i det hele tatt».",
+        "kriterier": [
+          "Nevner at man gjerne tar imot noe med begge hender.",
+          "Nevner at man ofte svarer beskjedent på komplimenter."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på kinesisk «Jeg er ikke elev» og «Jeg har ingen yngre søster». Forklar hvorfor de to setningene bruker ulike nektingsord.",
+        "fasit": "我不是学生。 我没有妹妹。 不 brukes til å nekte 是, mens 有 nektes med 没.",
+        "kriterier": [
+          "Skriver setningene med betydningen «Jeg er ikke elev» og «Jeg har ingen yngre søster».",
+          "Forklarer at 有 nektes med 没, mens 不 brukes foran 是."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Forklar hvordan landskapet i vestlige og østlige Kina er forskjellig. Nevn også hovedstaden og den største byen i Kina.",
+        "fasit": "Vest i Kina finnes store fjellområder, blant annet Himalaya og Tibet-platået, mens øst har tett befolkede sletter. Beijing er hovedstaden, og Shanghai er den største byen.",
+        "kriterier": [
+          "Skiller mellom fjellområdene i vest og de tett befolkede slettene i øst.",
+          "Nevner Beijing som hovedstad og Shanghai som største by."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

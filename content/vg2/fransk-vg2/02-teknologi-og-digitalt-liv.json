@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva betyr «les réseaux sociaux»?",
       "options": [
-        "nettverkskablene",
+        "søkemotorene",
         "sosiale medier",
-        "sosialarbeiderne",
-        "vennegruppene"
+        "nettbutikkene",
+        "databasene"
       ],
       "correct": 1,
       "explain": "réseau = nettverk."
@@ -91,9 +91,9 @@
       "text": "Hvordan dannes gérondif?",
       "options": [
         "en + participe présent",
-        "avoir + partisipp",
-        "être + infinitiv",
-        "que + subjonctif"
+        "avoir + participe passé",
+        "être + participe passé",
+        "pour + infinitif"
       ],
       "correct": 0,
       "explain": "en écoutant, en faisant."
@@ -105,7 +105,7 @@
         "fait",
         "faisait",
         "faisant",
-        "ferant"
+        "fera"
       ],
       "correct": 2,
       "explain": "nous faisons → faisant."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva innførte Frankrike i 2018?",
       "options": [
-        "Gratis mobil til alle elever",
-        "Forbud mot sosiale medier",
-        "Obligatorisk programmering",
+        "Forbud mot nettbrett i barneskolen og collège",
+        "Forbud mot mobil i lycée og universitet",
+        "Påbud om programmering i barneskolen og collège",
         "Forbud mot mobil i barneskolen og collège"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva betyr «On apprend une langue en parlant»?",
       "options": [
         "Man lærer et språk ved å snakke.",
-        "Man snakker et språk man har lært.",
-        "Man lærer å snakke.",
-        "Man snakker mens man lærer matte."
+        "Man lærer et språk ved å lytte til andre.",
+        "Man snakker et språk etter at man har lært det.",
+        "Man lærer et språk mens noen andre snakker."
       ],
       "correct": 0,
       "explain": "Gérondif uttrykker måte."
@@ -140,9 +140,9 @@
       "text": "Hva er participe présent av «être»?",
       "options": [
         "étant",
-        "êtant",
-        "soyant",
-        "été"
+        "était",
+        "été",
+        "être"
       ],
       "correct": 0,
       "explain": "être er uregelmessig."
@@ -154,7 +154,7 @@
         "være sint",
         "være trøtt",
         "være hekta",
-        "være borte"
+        "være bekymret"
       ],
       "correct": 2,
       "explain": "accro au portable = mobilavhengig."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva er en god strategi når du lytter til franske nyheter?",
       "options": [
-        "Forstå hvert ord",
-        "Lese transkripsjonen først alltid",
-        "Aldri bruke teksting",
-        "Lytte etter nøkkelord og tall"
+        "Prøve å forstå hvert eneste ord i nyhetene",
+        "Oversette setningene til norsk mens du lytter",
+        "Fokusere på grammatikk i stedet for innholdet",
+        "Lytte etter nøkkelord og tall i nyhetene"
       ],
       "correct": 3,
       "explain": "Hovedinnholdet er viktigst."
@@ -177,8 +177,8 @@
       "options": [
         "ulempene",
         "fordelene",
-        "løsningene",
-        "bekvemmelighetene"
+        "mulighetene",
+        "årsakene"
       ],
       "correct": 0,
       "explain": "les avantages = fordelene."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvordan sier du «Jeg gjør lekser mens jeg hører på musikk»?",
       "options": [
-        "Je fais mes devoirs et écouter de la musique.",
+        "Je fais mes devoirs après avoir écouté de la musique.",
         "Je fais mes devoirs en écoutant de la musique.",
-        "Je fais mes devoirs pour écouter de la musique.",
-        "J'écoute mes devoirs en musique."
+        "Je fais mes devoirs avant d'écouter de la musique.",
+        "J'écoute de la musique avant de faire mes devoirs."
       ],
       "correct": 1,
       "explain": "Gérondif uttrykker samtidighet."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva er participe présent av «avoir»?",
         "options": [
-          "avant",
+          "avait",
           "ayant",
-          "eu",
-          "avoyant"
+          "a",
+          "eu"
         ],
         "correct": 1,
         "explain": "avoir er uregelmessig."
@@ -329,9 +329,9 @@
         "text": "Hvordan innleder du en presentasjon på fransk?",
         "options": [
           "Aujourd'hui, je vais vous parler de …",
-          "Pour conclure, …",
-          "Enfin, …",
-          "Au revoir, …"
+          "Pour conclure, je vais vous parler de …",
+          "Ensuite, je vais vous parler de …",
+          "Enfin, je vais vous parler de …"
         ],
         "correct": 0,
         "explain": "Deretter kan du bruke d'abord, ensuite, enfin."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er «la liaison»?",
         "options": [
-          "en kjærlighetshistorie",
-          "et bindeord i grammatikken",
+          "bortfall av sluttvokal foran et annet ord",
+          "trykk på siste stavelse i et ord",
           "binding mellom ord i uttale",
-          "et lenke på nett"
+          "nasal uttale av en vokal i et ord"
         ],
         "correct": 2,
         "explain": "les_amis uttales «lez-ami»."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

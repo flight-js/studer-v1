@@ -87,7 +87,7 @@
         "Buksa",
         "Skjørtet",
         "Jakka",
-        "Sokkene"
+        "Skoene"
       ],
       "correct": 0,
       "explain": "Skjørtet heter «la jupe»."
@@ -97,9 +97,9 @@
       "text": "Hvordan spør du hva noe koster?",
       "options": [
         "C'est où ?",
-        "C'est quoi ?",
+        "C'est quand ?",
         "C'est combien ?",
-        "C'est qui ?"
+        "C'est comment ?"
       ],
       "correct": 2,
       "explain": "«combien» betyr hvor mye."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva betyr «Je peux l'essayer ?»?",
       "options": [
-        "Kan jeg kjøpe den?",
+        "Kan jeg kjøpe den nå?",
         "Kan jeg prøve den på?",
-        "Kan jeg levere den tilbake?",
-        "Kan jeg få rabatt?"
+        "Kan jeg bytte den her?",
+        "Kan jeg betale med kort?"
       ],
       "correct": 1,
       "explain": "«essayer» betyr å prøve."
@@ -121,8 +121,8 @@
       "text": "Hva betyr «C'est trop cher»?",
       "options": [
         "Det er for stort",
-        "Det er for lite",
-        "Det er for billig",
+        "Det er for trangt",
+        "Det er for langt",
         "Det er for dyrt"
       ],
       "correct": 3,
@@ -145,9 +145,9 @@
       "text": "Hva betyr «Quelle taille faites-vous ?»?",
       "options": [
         "Hvilken størrelse bruker De?",
-        "Hvilken farge liker De?",
-        "Hvor mye penger har De?",
-        "Hvor høy er De?"
+        "Hvilken farge ønsker De?",
+        "Hvilken modell foretrekker De?",
+        "Hvilken pris betaler De?"
       ],
       "correct": 0,
       "explain": "«la taille» betyr størrelsen."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva er «les soldes»?",
       "options": [
-        "Soldatene",
-        "Utsalget",
-        "Prøverommet",
-        "Kassen"
+        "Rabattene",
+        "Utsalgene",
+        "Prøverommene",
+        "Klesbutikkene"
       ],
       "correct": 1,
       "explain": "Utsalgene i Frankrike er i januar og om sommeren."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva heter skostørrelse på fransk?",
         "options": [
-          "la taille",
-          "la pointure",
           "la mesure",
-          "le numéro"
+          "la pointure",
+          "la longueur",
+          "le modèle"
         ],
         "correct": 1,
         "explain": "«la taille» brukes om klesstørrelse.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Elle te va bien !»?",
         "options": [
-          "Den kler deg!",
-          "Den er for liten!",
-          "Den er dyr!",
-          "Den er min!"
+          "Den kler deg godt!",
+          "Den passer deg dårlig!",
+          "Den er for stor!",
+          "Den er for dyr!"
         ],
         "correct": 0,
         "explain": "Du sier det når noen har på seg noe som passer dem."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvordan leser du prisen 29,99 €?",
         "options": [
-          "vingt-neuf virgule neuf neuf",
-          "deux neuf neuf neuf euros",
+          "vingt-neuf euros quatre-vingt-dix-huit",
+          "vingt-neuf euros quatre-vingt-dix",
           "vingt-neuf euros quatre-vingt-dix-neuf",
-          "trente euros"
+          "vingt-neuf euros quatre-vingt-neuf"
         ],
         "correct": 2,
         "explain": "Først eurobeløpet, så centene."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

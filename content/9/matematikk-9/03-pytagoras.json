@@ -130,9 +130,9 @@
       "id": "q05",
       "text": "En trekant har sidene 7, 24 og 25. Er den rettvinklet?",
       "options": [
-        "Nei, 7 + 24 er ikke 25",
-        "Det kan ikke avgjøres uten vinkelmåler",
-        "Nei, sidene er for ulike",
+        "Ja, fordi 7 + 24 = 25",
+        "Nei, fordi 7² + 24² ≠ 25²",
+        "Nei, fordi 7² + 25² = 24²",
         "Ja, fordi 7² + 24² = 25²"
       ],
       "correct": 3,
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "En snekker måler 3 m og 4 m langs to vegger. Avstanden mellom merkene er 5,2 m. Hva betyr det?",
       "options": [
-        "Hjørnet er nøyaktig rett",
+        "Vinkelen er nøyaktig 90°",
         "Vinkelen er litt større enn 90°",
         "Vinkelen er litt mindre enn 90°",
-        "Veggene er parallelle"
+        "Vinkelen er tydelig mindre enn 90°"
       ],
       "correct": 1,
       "explain": "5,2² = 27,04 er større enn 3² + 4² = 25. Da er vinkelen stump, altså litt over 90°.",
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

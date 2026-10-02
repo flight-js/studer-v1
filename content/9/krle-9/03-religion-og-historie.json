@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilken romersk keiser ga de kristne religionsfrihet i 313?",
       "options": [
-        "Nero",
-        "Augustus",
+        "Theodosius",
+        "Diokletian",
         "Konstantin",
-        "Cæsar"
+        "Trajan"
       ],
       "correct": 2,
       "explain": "Etter dette vokste kristendommen raskt i Romerriket."
@@ -91,9 +91,9 @@
       "text": "Hva skjedde på Stiklestad i 1030?",
       "options": [
         "Olav Haraldsson falt i slag",
-        "Norge ble kristnet på én dag",
-        "Nidarosdomen sto ferdig",
-        "Reformasjonen startet"
+        "Olav Tryggvason falt i slag",
+        "Knut den mektige falt i slag",
+        "Olav Haraldsson ble kronet til konge"
       ],
       "correct": 0,
       "explain": "Kort tid etter ble han dyrket som helgen."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "Hvilken endring førte kristningen med seg i Norge?",
       "options": [
-        "Norrøn religion ble statsreligion",
-        "Runer ble den eneste skriften",
-        "Tingene ble avskaffet",
+        "Islamske lover, moskeer og arabisk skrift",
+        "Jødiske lover, synagoger og hebraisk skrift",
+        "Romerske guder, templer og latinsk skrift",
         "Nye lover, kirker og skriftkultur"
       ],
       "correct": 3,
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva bidro muslimske lærde med i islams gullalder?",
       "options": [
-        "Boktrykkerkunsten",
+        "Boktrykkerkunst og europeiske sjøreiser",
         "Algebra og bevaring av greske tekster",
-        "Dampmaskinen",
-        "Oppdagelsen av Amerika"
+        "Kompass og kart over Amerika",
+        "Dampmaskiner og romerske lovtekster"
       ],
       "correct": 1,
       "explain": "Mye av den greske filosofien nådde Europa via arabiske oversettelser.",
@@ -140,9 +140,9 @@
       "text": "Hva var korstogene?",
       "options": [
         "Europeiske kristnes kriger for å erobre Jerusalem",
-        "Misjonsreiser til Amerika",
-        "Pilegrimsreiser til Nidaros",
-        "Handelsreiser til India"
+        "Europeiske kristnes pilegrimsreiser for å besøke Nidaros",
+        "Europeiske muslimers kriger for å erobre Jerusalem",
+        "Europeiske kristnes handelsreiser for å finne nye sjøveier"
       ],
       "correct": 0,
       "explain": "Korstogene varte fra 1096 til 1291."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er en kritikk av misjonen i kolonitiden?",
       "options": [
-        "At den bygde skoler",
-        "At den ga folk sykehus",
-        "At den var en del av en kolonialisme som undertrykte lokale kulturer",
-        "At den var for liten"
+        "At den støttet kolonistyret og ga lokale grupper større politisk makt",
+        "At den motarbeidet europeisk påvirkning og styrket lokale religioner",
+        "At den var en del av kolonialismen som undertrykte lokale kulturer",
+        "At den handlet om handel og gjorde koloniene selvstendige"
       ],
       "correct": 2,
       "explain": "Misjonen hadde både positive og negative følger for folkene den møtte.",
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva ga dissenterloven av 1845?",
       "options": [
-        "Forbud mot alle andre religioner",
+        "Alle religioner rett til å danne egne trossamfunn",
         "Andre kristne rett til å danne egne trossamfunn",
-        "Religionsundervisning i skolen",
-        "Skille mellom kirke og stat"
+        "Andre kristne rett til å velge egne biskoper",
+        "Andre kristne rett til å starte egne skoler"
       ],
       "correct": 1,
       "explain": "Loven var et viktig steg mot religionsfrihet i Norge.",
@@ -178,9 +178,9 @@
       "text": "Når ble Den norske kirke skilt fra staten som et selvstendig trossamfunn?",
       "options": [
         "2017",
-        "1814",
-        "1905",
-        "1945"
+        "2012",
+        "2016",
+        "2018"
       ],
       "correct": 0,
       "explain": "Grunnloven ble endret allerede i 2012, og skillet trådte i kraft i 2017."
@@ -355,9 +355,9 @@
         "text": "Hva er sekularisering?",
         "options": [
           "At religion får mindre betydning i samfunnet",
-          "At det bygges flere kirker",
-          "At staten får en ny religion",
-          "At flere går i kirken"
+          "At religion får større betydning i samfunnet",
+          "At staten får mindre betydning i samfunnet",
+          "At kirken får større makt i samfunnet"
         ],
         "correct": 0,
         "explain": "Sekularisering har preget Norge og mange andre land de siste hundre årene."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

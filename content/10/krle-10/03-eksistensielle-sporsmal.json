@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva er et eksistensielt spørsmål?",
       "options": [
-        "Hva er klokka?",
-        "Hva koster en bussbillett?",
+        "Hvordan kan mennesker måle tid?",
+        "Hvor gammel er planeten vår?",
         "Hva er meningen med livet?",
-        "Hvilken dag er det i dag?"
+        "Hvordan fungerer menneskets hukommelse?"
       ],
       "correct": 2,
       "explain": "Eksistensielle spørsmål handler om de store sidene ved det å være menneske."
@@ -98,9 +98,9 @@
       "text": "Hva sa Sartre om menneskets frihet?",
       "options": [
         "At vi er «dømt til å være frie»",
-        "At alt er forutbestemt",
-        "At bare Gud er fri",
-        "At frihet ikke finnes"
+        "At mennesket kan velge, men slipper ansvar for valgene sine",
+        "At valgene våre er bestemt av forhold vi ikke kan påvirke",
+        "At frihet først kommer når vi følger samfunnets regler"
       ],
       "correct": 0,
       "explain": "Ifølge Sartre kan vi ikke unngå å velge, og vi har ansvar for valgene våre.",
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "Hvordan svarer livssynshumanismen på spørsmålet om meningen med livet?",
       "options": [
-        "At meningen er gitt av Gud",
-        "At vi selv skaper mening, for eksempel gjennom relasjoner og å hjelpe andre",
-        "At livet ikke har noen mening",
-        "At meningen er å bli gjenfødt"
+        "At meningen med livet er bestemt av Gud fra starten",
+        "At vi selv skaper mening gjennom relasjoner og å hjelpe andre",
+        "At menneskelivet mangler mening fordi alt tar slutt",
+        "At meningen med livet er å bli gjenfødt i en ny kropp"
       ],
       "correct": 1,
       "explain": "Humanister mener at mening skapes av mennesker.",
@@ -123,9 +123,9 @@
       "id": "q04",
       "text": "Hvem var Søren Kierkegaard?",
       "options": [
-        "En norsk prest",
-        "En tysk fysiker",
-        "En fransk forfatter",
+        "En norsk prest som skrev om kirkens historie og ritualer",
+        "En tysk filosof som skrev om naturvitenskap og tekniske oppfinnelser",
+        "En fransk politiker som arbeidet med lover og statsstyre",
         "En dansk filosof som skrev om valg, ansvar og angst"
       ],
       "correct": 3,
@@ -136,10 +136,10 @@
       "id": "q05",
       "text": "Hva betyr «eksistensen går forut for essensen»?",
       "options": [
-        "At Gud skapte alt",
+        "At menneskets natur er bestemt ved fødselen, før det tar egne valg",
         "At vi ikke er født med en ferdig mening, men skaper oss selv gjennom valg",
-        "At alt er bestemt på forhånd",
-        "At bare essensen betyr noe"
+        "At vi først får en identitet når andre bestemmer hvilken rolle vi skal ha",
+        "At vår egentlige natur finnes ferdig inni oss og styrer valgene våre"
       ],
       "correct": 1,
       "explain": "Først finnes vi, så blir vi den vi er gjennom det vi gjør.",
@@ -149,10 +149,10 @@
       "id": "q06",
       "text": "Hvordan ser islam på livet?",
       "options": [
-        "Som en drøm",
-        "Som en tilfeldighet",
+        "Som en del av samsara",
+        "Som en vei til nirvana",
         "Som en prøve fra Gud",
-        "Som ett av mange liv i samsara"
+        "Som en tilfeldig hendelse uten mål"
       ],
       "correct": 2,
       "explain": "Hvordan man lever, har betydning på dommens dag.",
@@ -162,9 +162,9 @@
       "id": "q07",
       "text": "Hva mente Albert Camus med det absurde?",
       "options": [
-        "At livet bare er morsomt",
-        "At vi ikke bør bry oss om noe",
-        "At Gud styrer alt",
+        "At verden har en klar mening som mennesket kan oppdage",
+        "At mennesker finner mening ved å følge Guds plan",
+        "At livet mangler mening, så vi bør trekke oss unna",
         "At vi søker mening i en verden som ikke gir klare svar"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvilken utfordring kan sosiale medier gi?",
       "options": [
         "Sammenligning og følelsen av å ikke være god nok",
-        "At man lærer for mye",
-        "At man får for lite fritid",
-        "Ingen utfordringer"
+        "Bedre selvfølelse fordi innleggene viser vanlige hverdager",
+        "Mer trygghet fordi bilder viser livet slik det faktisk er",
+        "Større ro fordi innholdet sjelden påvirker humøret"
       ],
       "correct": 0,
       "explain": "Det man ser på sosiale medier, er ofte et redigert bilde av livet."
@@ -187,10 +187,10 @@
       "id": "q09",
       "text": "Hva kan du gjøre hvis du går gjennom en livskrise?",
       "options": [
-        "Holde alt for deg selv",
-        "Unngå alle andre",
+        "Prøve å løse alt alene uten å fortelle noen",
+        "Unngå støtte fra familie, venner og fagpersoner",
         "Snakke med noen du stoler på eller ringe en hjelpetelefon",
-        "Late som ingenting"
+        "Vente til krisen går over før du søker hjelp"
       ],
       "correct": 2,
       "explain": "Det hjelper ofte å dele tankene med noen."
@@ -199,10 +199,10 @@
       "id": "q10",
       "text": "Hva er målet i hinduisme og buddhisme?",
       "options": [
-        "Å bli rik",
+        "Å bli gjenfødt i en rik familie etter døden",
         "Frigjøring fra gjenfødelsene, moksha eller nirvana",
-        "Å leve evig på jorda",
-        "Å få mange barn"
+        "Å leve evig på jorda uten å bli gjenfødt",
+        "Å komme til en himmel etter dommens dag"
       ],
       "correct": 1,
       "explain": "Begge religionene ser livet som en del av et kretsløp.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvilket nummer har Alarmtelefonen for barn og unge?",
         "options": [
-          "112",
+          "116 117",
           "116 111",
-          "113",
-          "110"
+          "116 123",
+          "116 000"
         ],
         "correct": 1,
         "explain": "Telefonen er gratis og åpen for barn og unge som trenger hjelp.",
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva er et kristent svar på hva som skjer etter døden?",
         "options": [
-          "Håp om evig liv",
-          "Gjenfødelse som dyr",
-          "At ingenting skjer",
-          "At man blir en ånd i naturen"
+          "Håp om evig liv etter døden",
+          "Håp om gjenfødelse i en ny kropp",
+          "Håp om å bli en ånd i naturen",
+          "Håp om et liv i samsara etter døden"
         ],
         "correct": 0,
         "explain": "Håpet bygger på troen på Jesu oppstandelse.",
@@ -367,10 +367,10 @@
         "type": "flervalg",
         "text": "Hva mente Kierkegaard at friheten til å velge kan skape?",
         "options": [
-          "Bare glede",
-          "Kjedsomhet",
+          "Glede",
+          "Trygghet",
           "Angst",
-          "Rikdom"
+          "Popularitet"
         ],
         "correct": 2,
         "explain": "Når vi selv må velge, kjenner vi på ansvaret.",
@@ -458,6 +458,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en hvit løgn?",
       "options": [
-        "En løgn som skader mange",
-        "En løgn i retten",
-        "En løgn på nett",
-        "En liten løgn for å skåne noen"
+        "En løgn som gir noen økonomisk fordel",
+        "En løgn som brukes i en rettssak",
+        "En løgn som sprer falske nyheter på nett",
+        "En liten løgn for å skåne en annen"
       ],
       "correct": 3,
       "explain": "Etiske teorier vurderer hvite løgner ulikt."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvordan vil en pliktetiker som Kant se på å lyve?",
       "options": [
-        "At det er greit hvis det gir gode følger",
-        "At det alltid er galt",
-        "At det er opp til hver enkelt",
-        "At det bare er galt på nett"
+        "At løgn kan forsvares når den gir gode følger",
+        "At det er galt å lyve, uansett hva som skjer etterpå",
+        "At hver enkelt selv avgjør om løgn er greit",
+        "At løgn kan være riktig når den beskytter en venn"
       ],
       "correct": 1,
       "explain": "Kant mente at plikten til å si sannheten gjelder uansett følger.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Når kan det være riktig å bryte et løfte om å holde noe hemmelig?",
       "options": [
-        "Når hemmeligheten er kjedelig",
-        "Når du er sint på vennen",
-        "Når en venn blir utsatt for vold eller kan komme til å skade seg selv",
-        "Aldri"
+        "Når en venn forteller noe flaut, men helt ufarlig for andre",
+        "Når en venn ikke ønsker å dele hemmeligheten med gruppa",
+        "Når en venn utsettes for vold eller kan komme til å skade seg selv",
+        "Når flere venner spør om hemmeligheten av ren nysgjerrighet"
       ],
       "correct": 2,
       "explain": "Plikten til å hjelpe kan veie tyngre enn løftet om å tie."
@@ -114,9 +114,9 @@
       "text": "Hvorfor kan terskelen for sårende kommentarer være lavere på nett?",
       "options": [
         "Fordi vi ikke ser ansiktet og reaksjonen til mottakeren",
-        "Fordi alle er anonyme",
-        "Fordi det er lov",
-        "Fordi ingen leser det"
+        "Fordi man har bedre tid til å tenke før man sender en melding",
+        "Fordi nettprat gjør det enklere å tolke ansiktsuttrykk",
+        "Fordi kommentarer på nett påvirker forhold mellom mennesker mindre"
       ],
       "correct": 0,
       "explain": "Avstanden gjør det lettere å glemme at det er et menneske på den andre siden."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er forskjellen på dialog og debatt?",
       "options": [
-        "Det er ingen forskjell",
-        "Debatt er alltid bedre",
-        "Dialog handler om å forstå, debatt ofte om å vinne",
-        "Dialog er bare skriftlig"
+        "Dialog handler om å vinne, debatt handler ofte om å forstå",
+        "Dialog handler om å bli enig, debatt handler om å lytte",
+        "Dialog handler om å forstå, debatt handler ofte om å vinne",
+        "Dialog handler om å stille spørsmål, debatt handler om å fortelle"
       ],
       "correct": 2,
       "explain": "Begge formene kan være nyttige i ulike situasjoner."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva er et stråmannsargument?",
       "options": [
-        "Et argument med mange fakta",
-        "Et argument om landbruk",
-        "Et spørsmål til motparten",
+        "Å angripe personen i stedet for argumentet",
+        "Å bruke påstander som ikke støttes av fakta",
+        "Å gjenta sin egen påstand som bevis for at den stemmer",
         "Å forvrenge motpartens syn og så angripe det"
       ],
       "correct": 3,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er et jeg-budskap?",
       "options": [
-        "Å snakke bare om seg selv",
+        "Å bruke ordet «jeg» mens man anklager den andre",
         "Å si hvordan man selv opplever noe, i stedet for å anklage",
-        "Å skrive dagbok",
-        "Å alltid ta ordet først"
+        "Å fortelle den andre hva han eller hun føler",
+        "Å si hva den andre bør gjøre uten å fortelle hva man selv opplever"
       ],
       "correct": 1,
       "explain": "Jeg-budskap gjør det lettere for den andre å lytte uten å gå i forsvar."
@@ -162,9 +162,9 @@
       "text": "Hvem gjorde begrepet hersketeknikker kjent i Norge?",
       "options": [
         "Berit Ås",
-        "Henrik Ibsen",
-        "Gro Harlem Brundtland",
-        "Sigrid Undset"
+        "Eva Kolstad",
+        "Hanna Kvanmo",
+        "Torild Skard"
       ],
       "correct": 0,
       "explain": "Hun beskrev fem hersketeknikker, blant annet usynliggjøring og latterliggjøring.",
@@ -174,9 +174,9 @@
       "id": "q09",
       "text": "Hva er en etisk utfordring ved anonymitet på nett?",
       "options": [
-        "At ingen kan skrive",
-        "At det blir for mange innlegg",
-        "At alle blir mer høflige",
+        "At anonymitet gjør det umulig å rapportere hets til plattformen",
+        "At anonyme innlegg automatisk blir synlige for alle brukere",
+        "At anonymitet hindrer brukere i å blokkere andre på nett",
         "At det kan gjøre det lettere å hetse andre"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva sier den gylne regel om kommunikasjon?",
       "options": [
-        "Si alltid det du vil",
+        "Behandle andre slik de selv behandler deg",
         "Snakk til andre slik du selv vil bli snakket til",
-        "Svar aldri på meldinger",
-        "Del alt du ser"
+        "Snakk til andre slik du tror de ønsker å bli snakket til",
+        "Svar andre slik flertallet mener at du bør svare"
       ],
       "correct": 1,
       "explain": "Regelen passer like godt på nett som ansikt til ansikt."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er perspektivtaking?",
         "options": [
-          "Å ta bilder fra ulike vinkler",
+          "Å prøve å overbevise den andre om at ens eget syn er riktig",
           "Å prøve å forstå hvordan den andre tenker og opplever saken",
-          "Å alltid være enig",
-          "Å bytte mening ofte"
+          "Å gjette hva den andre mener uten å spørre",
+          "Å vurdere saken ut fra egne erfaringer alene"
         ],
         "correct": 1,
         "explain": "Perspektivtaking gjør det lettere å håndtere uenighet."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er et personangrep i en diskusjon?",
         "options": [
-          "Å angripe personen i stedet for argumentet",
-          "Å gi ros",
-          "Å stille spørsmål",
-          "Å vise til fakta"
+          "Å angripe personen i stedet for å svare på argumentet",
+          "Å kritisere argumentet i stedet for personen",
+          "Å be personen forklare hva han eller hun mener",
+          "Å bruke fakta for å vise at argumentet er svakt"
         ],
         "correct": 0,
         "explain": "Personangrep svarer ikke på saken."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er meningsbrytning?",
         "options": [
-          "At man slutter å snakke sammen",
-          "At alle mener det samme",
+          "At ulike meninger legges fram uten å bli undersøkt",
+          "At en mening byttes ut med en annen uten diskusjon",
           "At ulike meninger møtes og prøves mot hverandre",
-          "At man bryter et løfte"
+          "At personer med samme mening diskuterer hvordan de kan bli enige"
         ],
         "correct": 2,
         "explain": "Meningsbrytning er en viktig del av demokratiet."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

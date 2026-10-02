@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "What is the setting of a story?",
       "options": [
-        "The main character",
+        "The people and events that appear in the story",
         "Where and when the story takes place",
-        "The ending",
-        "The title"
+        "The central problem that the characters try to solve",
+        "The order of events from the beginning to the end"
       ],
       "correct": 1,
       "explain": "The setting tells the reader the place and time of the story."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "What is the climax of a story?",
       "options": [
-        "The first sentence",
-        "The list of characters",
-        "The most exciting moment and turning point",
-        "The author's name"
+        "The opening scene that introduces the main characters",
+        "The final scene where the main problem is solved",
+        "The story’s most exciting moment and turning point",
+        "A quiet scene that describes the setting and mood"
       ],
       "correct": 2,
       "explain": "The climax is where the tension is highest and something important changes."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "Which sentence “shows” rather than “tells”?",
       "options": [
-        "She was very nervous.",
-        "He was sad.",
-        "They were happy.",
+        "She felt nervous as she carefully opened the letter.",
+        "He felt sad when he read the message.",
+        "They were happy when their team won the game.",
         "Her hands were shaking as she opened the letter."
       ],
       "correct": 3,
@@ -115,9 +115,9 @@
       "text": "How is dialogue usually written in English?",
       "options": [
         "With quotation marks and a new line for each speaker",
-        "In capital letters",
-        "Without any punctuation",
-        "In brackets"
+        "With a speaker’s name in brackets before each line",
+        "With commas around spoken sentences and no quotation marks",
+        "With quotation marks and a new paragraph after each sentence"
       ],
       "correct": 0,
       "explain": "Quotation marks show what is said, and a new line makes it clear who is speaking."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "What tense are most stories written in?",
       "options": [
-        "Present continuous",
+        "Present tense",
         "Past tense",
         "Future tense",
-        "It does not matter, you can change often"
+        "Present perfect tense"
       ],
       "correct": 1,
       "explain": "Most stories use the past tense, and it is important to stay in the same tense."
@@ -139,9 +139,9 @@
       "text": "What does a first-person narrator use?",
       "options": [
         "“I”",
-        "“he” or “she”",
         "“you”",
-        "“they” only"
+        "“he”",
+        "“they”"
       ],
       "correct": 0,
       "explain": "The first-person narrator is a character in the story who tells it as “I”."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Which verb is more precise than “walked slowly”?",
       "options": [
-        "went",
-        "moved",
+        "hurried",
+        "rushed",
         "crept",
-        "did"
+        "sprinted"
       ],
       "correct": 2,
       "explain": "“Crept” tells the reader that the character moved slowly and quietly."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "What is the conflict in a story?",
       "options": [
-        "The title",
+        "The place and time where the story takes place",
         "The problem or struggle that drives the story",
-        "The setting",
-        "The last sentence"
+        "The events that happen from the beginning to the end",
+        "The moment when the main problem is solved"
       ],
       "correct": 1,
       "explain": "Without a conflict, there is little to keep the reader interested."
@@ -175,8 +175,8 @@
       "text": "Which is a linking word that shows something unexpected?",
       "options": [
         "finally",
-        "first",
-        "then",
+        "meanwhile",
+        "eventually",
         "suddenly"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "What should you do with feedback on your story?",
       "options": [
-        "Ignore it",
+        "Ask the reader to rewrite the story for you",
         "Use it to revise and improve the text",
-        "Delete the story",
-        "Only fix the title"
+        "Choose a different topic instead of editing the draft",
+        "Copy the comments into the story as new sentences"
       ],
       "correct": 1,
       "explain": "Feedback helps you see your text through a reader's eyes, so you can make it better."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Which opening grabs the reader's attention best?",
         "options": [
-          "This is a story about a boy.",
+          "I was walking home from school on a sunny afternoon.",
           "The door slammed shut behind me, and the lights went out.",
-          "Once there was a day.",
-          "I will now tell a story."
+          "My name is Alex, and I live in a quiet little town.",
+          "It was the first day of summer, and I felt excited."
         ],
         "correct": 1,
         "explain": "Starting in the middle of dramatic action makes the reader want to know more."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "What is the resolution of a story?",
         "options": [
-          "The beginning",
-          "The climax",
+          "The opening, where the characters and setting are introduced",
+          "The turning point, where the tension reaches its highest point",
           "The ending, where the problem is solved or rounded off",
-          "The dialogue"
+          "The spoken conversation between characters in a scene"
         ],
         "correct": 2,
         "explain": "The resolution ties up the story after the climax."
@@ -352,8 +352,8 @@
         "options": [
           "whispered",
           "yelled",
-          "screamed",
-          "shouted"
+          "shouted",
+          "announced"
         ],
         "correct": 0,
         "explain": "“Whispered” tells the reader that the character speaks very quietly."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

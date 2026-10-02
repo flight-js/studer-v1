@@ -100,7 +100,7 @@
     {
       "term": "Etos",
       "def": "Appell til avsenderens troverdighet.",
-      "niva": "eksempel"
+      "niva": "over-niva"
     },
     {
       "term": "Desinformasjon",
@@ -112,10 +112,10 @@
       "id": "q01",
       "text": "Hvorfor kalles krigen «kald»?",
       "options": [
-        "Fordi den foregikk om vinteren",
-        "Fordi supermaktene aldri kriget direkte mot hverandre",
-        "Fordi den foregikk i Arktis",
-        "Fordi ingen døde"
+        "Fordi supermaktene konkurrerte om å utforske Arktis",
+        "Fordi supermaktene ikke kriget direkte mot hverandre",
+        "Fordi kampene foregikk i kalde områder i Europa",
+        "Fordi supermaktene konkurrerte uten å bruke atomvåpen"
       ],
       "correct": 1,
       "explain": "Konflikten foregikk gjennom våpenkappløp, propaganda og stedfortrederkriger."
@@ -124,23 +124,22 @@
       "id": "q02",
       "text": "Hva var Cubakrisen i 1962?",
       "options": [
-        "En krise der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba",
-        "En økonomisk krise på Cuba",
-        "En borgerkrig i Latin-Amerika",
-        "En orkan"
+        "En krise da sovjetiske raketter på Cuba brakte verden nær atomkrig",
+        "En krise da amerikanske raketter på Cuba brakte verden nær atomkrig",
+        "En krise da sovjetiske soldater invaderte Cuba og startet en krig",
+        "En krise da Cuba erklærte krig mot Sovjetunionen og truet verdensfreden"
       ],
       "correct": 0,
-      "explain": "Krisen ble løst gjennom forhandlinger, og Sovjetunionen trakk rakettene tilbake.",
-      "niva": "eksempel"
+      "explain": "Krisen ble løst gjennom forhandlinger, og Sovjetunionen trakk rakettene tilbake."
     },
     {
       "id": "q03",
       "text": "Hvilket spørsmål hører til en konfliktanalyse?",
       "options": [
-        "Hvem er partene, og hva vil de oppnå?",
-        "Hvilken farge har flaggene?",
-        "Hvor mange innbyggere har hovedstaden?",
-        "Hva heter nasjonalsangen?"
+        "Hvem er partene, og hva ønsker de å oppnå?",
+        "Hvem laget flaggene, og når ble de tatt i bruk?",
+        "Hvem skrev nasjonalsangene, og når ble de framført?",
+        "Hvor mange innbyggere bor i hovedstedene, og hvor store er de?"
       ],
       "correct": 0,
       "explain": "Aktører og interesser er sentrale for å forstå en konflikt."
@@ -149,10 +148,10 @@
       "id": "q04",
       "text": "Hva er mekling?",
       "options": [
-        "At en nøytral tredjepart hjelper partene å finne en løsning",
-        "At én part vinner krigen",
-        "At FN sender soldater",
-        "At et land innfører sanksjoner"
+        "At en nøytral tredjepart hjelper partene med å finne en løsning",
+        "At en nøytral domstol avgjør hvem som har rett i saken",
+        "At partene forhandler direkte uten hjelp fra andre land",
+        "At en tredjepart sender soldater for å skille partene"
       ],
       "correct": 0,
       "explain": "Norge har ofte hatt rollen som mekler."
@@ -161,10 +160,10 @@
       "id": "q05",
       "text": "Når blir radikale meninger til ekstremisme?",
       "options": [
-        "Når man er uenig med regjeringen",
+        "Når man vil endre samfunnet raskt gjennom lovlige politiske tiltak",
         "Når man godtar bruk av vold for å nå målet",
-        "Når man skriver leserinnlegg",
-        "Når man demonstrerer"
+        "Når man kritiserer regjeringen og krever endringer i politikken",
+        "Når man deltar i en demonstrasjon mot en politisk beslutning"
       ],
       "correct": 1,
       "explain": "Radikale meninger er lov i et demokrati, men ikke å bruke vold."
@@ -173,10 +172,10 @@
       "id": "q06",
       "text": "Hvilken avveining må samfunnet gjøre etter terrorangrep?",
       "options": [
-        "Mellom sport og kultur",
-        "Mellom skatt og lønn",
-        "Mellom by og land",
-        "Mellom sikkerhet og frihet og personvern"
+        "Mellom strengere straffer, flere fengselsplasser og raskere rettssaker",
+        "Mellom grensekontroll, innvandring og internasjonal handel",
+        "Mellom beredskap, politibemanning og domstolenes kapasitet",
+        "Mellom økt samfunnssikkerhet, personlig frihet og vern av privatlivet"
       ],
       "correct": 3,
       "explain": "Mer overvåking kan gi tryggere samfunn, men også begrense friheten."
@@ -186,9 +185,9 @@
       "text": "Hvilke tre dimensjoner har bærekraftig utvikling?",
       "options": [
         "Miljømessig, økonomisk og sosial",
-        "Politisk, militær og religiøs",
-        "Lokal, nasjonal og global",
-        "Fortid, nåtid og framtid"
+        "Politisk, økonomisk og sosial",
+        "Miljømessig, politisk og kulturell",
+        "Miljømessig, økonomisk og teknologisk"
       ],
       "correct": 0,
       "explain": "Alle tre må ivaretas for at utviklingen skal være bærekraftig."
@@ -197,10 +196,10 @@
       "id": "q08",
       "text": "Hva er sirkulær økonomi?",
       "options": [
-        "At pengene går i ring mellom bankene",
-        "At ressursene holdes i kretsløp gjennom gjenbruk og resirkulering",
-        "At alle varer lages av plast",
-        "At man bare handler lokalt"
+        "At varer brukes kort tid før de erstattes av nye produkter",
+        "At ressurser holdes i kretsløp gjennom gjenbruk og resirkulering",
+        "At materialer samles inn, men ikke brukes til nye produkter",
+        "At bedrifter lager flere varer av nye råvarer for å senke prisene"
       ],
       "correct": 1,
       "explain": "Målet er at minst mulig blir til avfall."
@@ -209,10 +208,10 @@
       "id": "q09",
       "text": "Hva betyr det at en velferdsordning er universell?",
       "options": [
-        "At den bare gjelder fattige",
+        "At den gjelder alle med lav inntekt",
         "At den gjelder alle, uansett inntekt",
-        "At den gjelder hele verden",
-        "At den er frivillig"
+        "At den gjelder alle som er i arbeid",
+        "At den gjelder alle land i verden"
       ],
       "correct": 1,
       "explain": "Barnetrygd og gratis skole er eksempler på universelle ordninger."
@@ -222,9 +221,9 @@
       "text": "Hvordan finansieres velferdsstaten først og fremst?",
       "options": [
         "Gjennom skatter og avgifter",
-        "Gjennom lotteri",
-        "Gjennom lån fra andre land",
-        "Gjennom frivillige gaver"
+        "Gjennom lån fra norske banker",
+        "Gjennom salg av statlige tjenester",
+        "Gjennom innbetalinger til private forsikringer"
       ],
       "correct": 0,
       "explain": "Oljefondet bidrar også, men skatter og avgifter er den viktigste kilden."
@@ -233,10 +232,10 @@
       "id": "q11",
       "text": "Hva er forskjellen på en fordom og diskriminering?",
       "options": [
-        "Det er ingen forskjell",
+        "En fordom er en handling, diskriminering er en holdning",
         "En fordom er en holdning, diskriminering er en handling",
-        "Diskriminering er en holdning, en fordom er en handling",
-        "Fordommer er alltid positive"
+        "En fordom er en følelse, diskriminering er en mening",
+        "En fordom er en regel, diskriminering er en uenighet"
       ],
       "correct": 1,
       "explain": "Når fordommer påvirker hvordan vi behandler andre, blir det diskriminering."
@@ -245,10 +244,10 @@
       "id": "q12",
       "text": "Hva betyr integrering?",
       "options": [
-        "At minoriteten må gi opp sin kultur",
-        "At grupper lever atskilt",
+        "At minoriteter tar opp majoritetens kultur og gir slipp på sin egen",
+        "At minoriteter lever atskilt fra andre grupper i samfunnet",
         "At minoriteter deltar i samfunnet og samtidig kan beholde sin kultur",
-        "At alle må flytte"
+        "At minoriteter følger majoritetens skikker uten å delta i samfunnet"
       ],
       "correct": 2,
       "explain": "Integrering skiller seg fra assimilering, der man må gi opp sin kultur."
@@ -257,10 +256,10 @@
       "id": "q13",
       "text": "Hvordan kan algoritmer påvirke formen på samfunnsdebatten?",
       "options": [
-        "De gjør innleggene lengre og roligere",
+        "De belønner høflige innlegg og demper sterke meninger",
         "De belønner engasjement og kan fremme spisse utspill",
-        "De fjerner alle meninger",
-        "De har ingen påvirkning"
+        "De prioriterer innlegg etter hvor politisk nøytrale de er",
+        "De gir størst synlighet til innlegg fra offentlige myndigheter"
       ],
       "correct": 1,
       "explain": "Innlegg som vekker sterke følelser, får ofte mest spredning."
@@ -270,9 +269,9 @@
       "text": "Hvilket spørsmål er viktig når du vurderer et politisk utspill?",
       "options": [
         "Hvem er avsenderen, og hvilke interesser har de?",
-        "Hvor mange liker innlegget?",
-        "Hvilken farge har logoen?",
-        "Hvor lang er teksten?"
+        "Hvor mange har delt innlegget, og hvor raskt spredte det seg?",
+        "Hvilken overskrift bruker utspillet, og hvilke bilder følger med?",
+        "Hvor mange argumenter står i teksten, og hvor lange er de?"
       ],
       "correct": 0,
       "explain": "Interessene til avsenderen kan påvirke hvilke argumenter som brukes."
@@ -407,7 +406,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -438,10 +437,10 @@
         "type": "flervalg",
         "text": "Hvem har vetorett i FNs sikkerhetsråd?",
         "options": [
-          "Alle FNs medlemsland",
-          "Bare USA",
+          "De ti valgte medlemmene",
+          "Alle medlemslandene i FN",
           "De fem faste medlemmene",
-          "Generalsekretæren"
+          "FNs generalsekretær og ledelse"
         ],
         "correct": 2,
         "explain": "USA, Russland, Kina, Storbritannia og Frankrike.",
@@ -466,10 +465,10 @@
         "type": "flervalg",
         "text": "Hvorfor gir eldrebølgen utfordringer for velferdsstaten?",
         "options": [
-          "Eldre betaler mer skatt enn andre",
-          "Det blir færre sykehjem",
+          "Utgiftene til pensjon og omsorg øker, mens det blir flere i arbeid per pensjonist",
+          "Utgiftene til pensjon og omsorg synker, mens det blir færre i arbeid per pensjonist",
           "Utgiftene til pensjon og omsorg øker, mens det blir færre i arbeid per pensjonist",
-          "Eldre trenger ikke helsetjenester"
+          "Utgiftene til helse og skole øker, mens det blir færre i arbeid per pensjonist"
         ],
         "correct": 2,
         "explain": "Færre skal betale for velferden til flere."
@@ -479,10 +478,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er nyttig når du vurderer en framstilling av en gruppe?",
         "options": [
-          "Hvor lang er teksten?",
-          "Hvilken skrifttype er brukt?",
-          "Hvem forteller, og hvem mangler?",
-          "Hvor mange bilder har den?"
+          "Hvor lang er teksten, og hvor mange avsnitt har den?",
+          "Hvilke farger brukes, og hvor stor er skrifttypen?",
+          "Hvem forteller om gruppen, og hvilke stemmer mangler?",
+          "Hvor mange ord står det, og hvor mange setninger har teksten?"
         ],
         "correct": 2,
         "explain": "Avsender og manglende stemmer sier mye om hvilket bilde som skapes."
@@ -561,12 +560,92 @@
           "Forklarer at algoritmer kan fremme engasjerende, spisse eller polariserende utspill. (½ poeng)",
           "Nevner en kildekritisk måte å kontrollere påstanden på, som å sjekke avsenderen eller sammenligne kilder. (½ poeng)"
         ]
+      },
+      {
+        "text": "Norge ble medlem av NATO under den kalde krigen, men hadde samtidig en basepolitikk. Forklar hvordan medlemskapet og basepolitikken kunne ivareta ulike hensyn i forholdet til Sovjetunionen.",
+        "fasit": "NATO-medlemskapet ga Norge en sikkerhetsallianse med USA og andre medlemsland. Basepolitikken, som hindret faste utenlandske baser og atomvåpen i Norge i fredstid, skulle samtidig redusere spenningen ved grensen til Sovjetunionen.",
+        "kriterier": [
+          "Knytter NATO-medlemskapet til sikkerhet eller forsvar.",
+          "Forklarer at basepolitikken skulle begrense spenning i nord."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Tørke kan gjøre det vanskeligere å få tilgang til vann og dyrkbar jord i et fattig område. Forklar hvordan dette kan øke faren for konflikt, og knytt sammenhengen til minst to dimensjoner av bærekraftig utvikling.",
+        "fasit": "Tørke kan forsterke kampen om vann og jord, mens fattigdom kan gjøre det lettere for væpnede grupper å rekruttere folk. Klimaendringene rammer ofte fattige hardt gjennom dårligere avlinger, noe som påvirker både miljøet, levekårene og økonomien.",
+        "kriterier": [
+          "Forklarer at knapphet på vann eller jord kan bidra til konflikt.",
+          "Knytter fattigdom eller dårligere avlinger til sosiale eller økonomiske følger.",
+          "Viser sammenheng mellom minst to bærekraftsdimensjoner."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Norge vurderer å trappe ned olje- og gassproduksjonen og utvikle nye næringer. Forklar en mulig miljøgevinst og hvordan en slik omstilling kan påvirke arbeidsplasser, inntekter og velferd over tid.",
+        "fasit": "Mindre olje- og gassproduksjon kan redusere utslipp. Samtidig kan omstillingen føre til tap av arbeidsplasser og inntekter dersom nye næringer ikke vokser fram. Arbeid og inntekter er viktige for økonomien som velferdsstaten bygger på.",
+        "kriterier": [
+          "Nevner redusert utslipp som en mulig miljøgevinst.",
+          "Forklarer at omstilling kan gi tap av arbeidsplasser eller inntekter.",
+          "Knytter arbeid eller inntekter til velferd eller økonomi over tid."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Etter et terrorangrep vurderer myndighetene å øke overvåkingen. Forklar hvorfor terror kan føre til krav om strengere sikkerhet, og hvilket dilemma dette kan skape.",
+        "fasit": "Terror kan føre til død, skader og frykt, og derfor kan folk ønske tiltak som skal hindre nye angrep. Mer overvåking kan likevel begrense frihet og personvern, så myndighetene må veie sikkerhet mot disse hensynene.",
+        "kriterier": [
+          "Knytter terror til frykt eller behov for sikkerhetstiltak.",
+          "Forklarer at overvåking kan komme i konflikt med frihet eller personvern."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En avis avslører at en offentlig myndighet har misbrukt makten sin. Forklar hvordan avisens makt er forskjellig fra Stortingets og regjeringens makt, og hvordan mediene kan påvirke samfunnet.",
+        "fasit": "Stortinget og regjeringen har formell politisk makt, blant annet til å vedta lover. Mediene har mediemakt ved å velge hvilke saker folk får vite om, og kan fungere som en vaktbikkje ved å avsløre maktmisbruk.",
+        "kriterier": [
+          "Skiller mellom formell politisk makt og mediemakt.",
+          "Forklarer at mediene kan sette dagsorden eller avsløre maktmisbruk."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En person antar at alle i en gruppe har de samme egenskapene, og behandler senere en person dårligere på grunn av bakgrunnen deres. Forklar hvilke begreper som passer til den forenklede antakelsen, en negativ holdning uten god kunnskap og den dårlige behandlingen.",
+        "fasit": "Den forenklede antakelsen er en stereotypi. En negativ holdning til gruppen uten god kunnskap er en fordom, mens det å behandle noen dårligere på grunn av bakgrunnen deres er diskriminering.",
+        "kriterier": [
+          "Knytter stereotypi til et forenklet bilde av en gruppe.",
+          "Knytter fordom til en negativ holdning uten god kunnskap.",
+          "Knytter diskriminering til dårligere behandling på grunn av hvem noen er."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En kommune skal planlegge grunnskole, kollektivtransport og sykehustjenester. Forklar hvilket offentlig nivå som har ansvar for hver av disse tjenestene.",
+        "fasit": "Kommunen har ansvar for grunnskolen. Fylkeskommunen har ansvar for kollektivtransport, mens staten har ansvar for sykehus.",
+        "kriterier": [
+          "Plasserer grunnskole hos kommunen.",
+          "Plasserer kollektivtransport hos fylkeskommunen.",
+          "Plasserer sykehus hos staten."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "FNs sikkerhetsråd vurderer tiltak mot en konflikt, men ett av de fem faste medlemmene er imot. Forklar hvordan vetoretten kan påvirke beslutningen, og nevn to andre måter konflikter kan forsøkes løst på.",
+        "fasit": "Et fast medlem kan bruke vetoretten til å hindre at Sikkerhetsrådet blir enig om et vedtak. Konflikter kan også forsøkes løst gjennom forhandlinger eller mekling, og FN kan sende fredsbevarende styrker eller vedta sanksjoner.",
+        "kriterier": [
+          "Forklarer at vetoretten kan blokkere en beslutning i Sikkerhetsrådet.",
+          "Nevner to relevante tiltak, som forhandlinger, mekling, fredsbevarende styrker eller sanksjoner."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

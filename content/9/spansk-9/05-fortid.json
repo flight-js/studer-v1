@@ -81,21 +81,21 @@
       "text": "Hva er riktig form av «hablar» i indefinido med «yo»?",
       "options": [
         "hablo",
-        "habló",
+        "hablaba",
         "hablé",
-        "hablaba"
+        "hablaste"
       ],
       "correct": 2,
-      "explain": "«hablé» betyr jeg snakket. «habló» betyr han eller hun snakket."
+      "explain": "«hablé» betyr jeg snakket."
     },
     {
       "id": "q02",
       "text": "Hva betyr «fui» i setningen «Ayer fui al cine»?",
       "options": [
         "Jeg dro",
-        "Jeg er",
-        "Jeg går",
-        "Jeg skal"
+        "Jeg drar",
+        "Jeg skal dra",
+        "Han dro"
       ],
       "correct": 0,
       "explain": "«fui» er indefinido av «ir»."
@@ -106,7 +106,7 @@
       "options": [
         "Ayer como paella.",
         "Ayer comeré paella.",
-        "Ayer comiendo paella.",
+        "Ayer comía paella.",
         "Ayer comí paella."
       ],
       "correct": 3,
@@ -116,21 +116,21 @@
       "id": "q04",
       "text": "Hva er indefinido av «hacer» med «yo»?",
       "options": [
-        "haci",
+        "hago",
         "hice",
-        "hacé",
-        "hizo"
+        "hacía",
+        "hace"
       ],
       "correct": 1,
-      "explain": "«hizo» betyr han eller hun gjorde."
+      "explain": "«hice» er indefinido av «hacer» med «yo»."
     },
     {
       "id": "q05",
       "text": "Hva betyr «¿Qué hiciste el fin de semana?»?",
       "options": [
-        "Hva gjør du i helgen?",
+        "Hva gjør du denne helgen?",
         "Hva skal du gjøre i helgen?",
-        "Liker du helgen?",
+        "Hva gjorde han i helgen?",
         "Hva gjorde du i helgen?"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva betyr «Lo pasé muy bien»?",
       "options": [
-        "Jeg gikk forbi",
+        "Jeg hadde det veldig dårlig",
         "Jeg hadde det veldig gøy",
-        "Jeg passet på",
-        "Det gikk dårlig"
+        "Jeg var veldig trøtt",
+        "Jeg var veldig spent"
       ],
       "correct": 1,
       "explain": "Uttrykket brukes når man har hatt det morsomt."
@@ -155,7 +155,7 @@
         "For to dager siden",
         "Om to dager",
         "I to dager",
-        "Det gjør to dager"
+        "I løpet av to dager"
       ],
       "correct": 0,
       "explain": "«hace» + tid betyr «for … siden»."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hvilke to verb har de samme formene i indefinido?",
       "options": [
-        "hacer og tener",
-        "comer og vivir",
+        "ir og estar",
+        "ser og estar",
         "ir og ser",
-        "hablar og estar"
+        "tener og hacer"
       ],
       "correct": 2,
       "explain": "Begge bøyes fui, fuiste, fue …"
@@ -178,7 +178,7 @@
       "options": [
         "ir + infinitiv",
         "estar + gerundium",
-        "ser + adjektiv",
+        "ser + partisipp",
         "haber + partisipp"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "text": "Hva betyr «el verano pasado»?",
       "options": [
         "I fjor sommer",
-        "Neste sommer",
-        "Hele sommeren",
-        "Om sommeren"
+        "Om sommeren neste år",
+        "I løpet av sommeren",
+        "Hver eneste sommer"
       ],
       "correct": 0,
       "explain": "«pasado» betyr forrige."
@@ -321,7 +321,7 @@
         "type": "flervalg",
         "text": "Hva er indefinido av «tener» med «yo»?",
         "options": [
-          "tení",
+          "tenía",
           "tuve",
           "tuvo",
           "tengo"
@@ -335,9 +335,9 @@
         "text": "Hva betyr «Fue genial»?",
         "options": [
           "Det var kjempebra",
-          "Han dro",
-          "Det er fint",
-          "Det blir morsomt"
+          "Det er kjempebra",
+          "Det blir kjempebra",
+          "Det var kjempelett"
         ],
         "correct": 0,
         "explain": "Her er «fue» fortid av «ser»."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

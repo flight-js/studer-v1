@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er indirekte forskjellsbehandling?",
       "options": [
-        "Åpen diskriminering på grunn av kjønn",
+        "En regel som uttrykkelig skiller mellom personer på et vernet grunnlag",
         "En tilsynelatende nøytral regel som stiller noen dårligere",
-        "Positiv særbehandling",
-        "Lovlig forskjellsbehandling"
+        "Et tiltak som gir en underrepresentert gruppe en fordel",
+        "En regel som stiller noen dårligere fordi de har klaget"
       ],
       "correct": 1,
       "explain": "For eksempel unødvendige språkkrav."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvilke vilkår må være oppfylt for at forskjellsbehandling skal være lovlig?",
       "options": [
-        "Saklig formål, nødvendig og forholdsmessig",
-        "At arbeidsgiver vil det",
-        "At flertallet er enig",
-        "At den er skriftlig"
+        "Saklig formål, nødvendig tiltak og forholdsmessighet",
+        "Saklig formål, skriftlig avtale og myndighetenes godkjenning",
+        "Nødvendig tiltak, flertallets støtte og lik behandling",
+        "Forholdsmessig tiltak, arbeidsgivers ønske og skriftlig begrunnelse"
       ],
       "correct": 0,
       "explain": "Alle tre vilkårene må være oppfylt."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvem behandler klager på diskriminering og kan fatte vedtak?",
       "options": [
-        "Stortinget",
-        "Politiet",
+        "Likestillings- og diskrimineringsombudet",
+        "Sivilombudet",
         "Diskrimineringsnemnda",
-        "Datatilsynet"
+        "Forbrukertilsynet"
       ],
       "correct": 2,
       "explain": "Gratis å klage."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er positiv særbehandling?",
       "options": [
-        "Å behandle alle likt",
-        "Ulovlig diskriminering",
-        "Trakassering",
+        "Å behandle alle grupper likt for å fremme likestilling",
+        "Å prioritere en allerede representert gruppe for å fremme likestilling",
+        "Å prioritere en underrepresentert gruppe for å belønne tidligere innsats",
         "Å prioritere en underrepresentert gruppe for å fremme likestilling"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvilket er et vernet grunnlag etter loven?",
       "options": [
         "Alder",
-        "Favorittlag",
-        "Hårfarge som motepreferanse",
-        "Musikksmak"
+        "Utdanningsnivå",
+        "Bosted",
+        "Inntekt"
       ],
       "correct": 0,
       "explain": "Sammen med blant annet kjønn og etnisitet."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva betyr delt bevisbyrde?",
       "options": [
-        "At begge parter må betale",
-        "At den anklagede må sannsynliggjøre at diskriminering ikke skjedde, når det er grunn til å tro at den har skjedd",
-        "At ingen må bevise noe",
-        "At dommeren beviser alt"
+        "Når det er grunn til å tro at diskriminering har skjedd, må klageren bevise at den skjedde.",
+        "Når det er grunn til å tro at diskriminering har skjedd, må den innklagede sannsynliggjøre at den ikke skjedde.",
+        "Når en klage blir levert, må begge parter legge fram bevis for at diskriminering ikke skjedde.",
+        "Når det er grunn til å tro at diskriminering har skjedd, må nemnda bevise hvem som har skylden."
       ],
       "correct": 1,
       "explain": "Gjør det lettere for den som er diskriminert."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er gjengjeldelse?",
       "options": [
-        "Erstatning",
-        "En klage",
+        "Å betale penger til noen som har opplevd diskriminering",
+        "Å varsle arbeidsgiveren om mulig diskriminering",
         "Å straffe noen for å ha klaget på diskriminering",
-        "Et vedtak"
+        "Å fatte et vedtak etter en klage om diskriminering"
       ],
       "correct": 2,
       "explain": "Forbudt etter loven."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er aktivitetsplikten?",
       "options": [
-        "Plikt til å trene",
-        "Plikt for ansatte til å delta på fester",
-        "Plikt for elever til å møte",
+        "Plikt for arbeidsgivere til å behandle alle ansatte helt likt",
+        "Plikt for ansatte og myndigheter til å rapportere diskrimineringssaker",
+        "Plikt for arbeidsgivere til å følge opp hver enkelt klage",
         "Plikt for arbeidsgivere og myndigheter til å arbeide aktivt for likestilling"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Er et krav om at en livredder må kunne svømme godt, lovlig?",
       "options": [
-        "Ja, det har saklig formål, er nødvendig og forholdsmessig",
-        "Nei, det er alltid diskriminering",
-        "Bare for menn",
-        "Bare om sommeren"
+        "Ja, kravet har saklig formål, er nødvendig og forholdsmessig.",
+        "Ja, kravet er lovlig fordi arbeidsgiveren selv bestemmer kvalifikasjonene.",
+        "Nei, kravet er ulovlig fordi det stiller søkere ulikt etter funksjonsevne.",
+        "Nei, kravet mangler saklig formål når det gjelder en bestemt yrkesrolle."
       ],
       "correct": 0,
       "explain": "Lovlig forskjellsbehandling."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva gjør Likestillings- og diskrimineringsombudet?",
       "options": [
-        "Dømmer i straffesaker",
+        "Behandler klager og fatter bindende vedtak",
         "Gir veiledning og driver pådriverarbeid",
-        "Vedtar lover",
-        "Ansetter folk"
+        "Utformer og vedtar nye lover om likestilling",
+        "Undersøker og straffeforfølger diskriminering i arbeidslivet"
       ],
       "correct": 1,
       "explain": "Nemnda fatter vedtak i klagesaker."
@@ -312,7 +312,7 @@
           "Indirekte forskjellsbehandling",
           "Direkte forskjellsbehandling",
           "Positiv særbehandling",
-          "Lovlig forskjellsbehandling"
+          "Trakassering på grunn av etnisitet"
         ],
         "correct": 1,
         "explain": "Dårligere behandling på grunn av etnisitet."
@@ -323,9 +323,9 @@
         "text": "Hvilket tiltak kan redusere diskriminering ved ansettelser?",
         "options": [
           "Anonyme søknader",
-          "Krav om bilde i søknaden",
-          "Bare muntlige intervjuer",
-          "Kortere søknadsfrist"
+          "Søknader med bilde",
+          "Ustrukturerte intervjuer",
+          "Utvelgelse etter magefølelse"
         ],
         "correct": 0,
         "explain": "Fjerner informasjon om grunnlag.",
@@ -338,7 +338,7 @@
         "options": [
           "Retten til ferie",
           "Retten til arv",
-          "Religionsfrihet",
+          "Retten til religionsfrihet",
           "Retten til overtidstillegg"
         ],
         "correct": 2,
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -125,8 +125,8 @@
       "options": [
         "(cos v, sin v)",
         "(sin v, cos v)",
-        "(tan v, 1)",
-        "(v, 1)"
+        "(cos v, tan v)",
+        "(tan v, 1)"
       ],
       "correct": 0,
       "explain": "x-koordinaten er cosinus og y-koordinaten er sinus."
@@ -173,8 +173,8 @@
       "options": [
         "30° og 150°",
         "30° og 60°",
-        "Bare 30°",
-        "60° og 120°"
+        "60° og 120°",
+        "150° og 180°"
       ],
       "correct": 0,
       "explain": "sin(180° − v) = sin v."
@@ -310,7 +310,7 @@
           "0,6",
           "1,25",
           "0,8",
-          "0,75"
+          "1,2"
         ],
         "correct": 2,
         "explain": "8/10 = 0,8."
@@ -335,8 +335,8 @@
         "options": [
           "2",
           "8",
-          "4√3",
-          "6,9"
+          "4",
+          "4,6"
         ],
         "correct": 1,
         "explain": "4 / cos 60° = 4 / 0,5 = 8."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

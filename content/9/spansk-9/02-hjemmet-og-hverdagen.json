@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva betyr «la cocina»?",
       "options": [
-        "Soverommet",
+        "Spisestua",
         "Kjøkkenet",
-        "Badet",
-        "Stua"
+        "Soverommet",
+        "Badet"
       ],
       "correct": 1,
       "explain": "«cocinar» betyr å lage mat."
@@ -94,7 +94,7 @@
       "options": [
         "Han har",
         "Det var",
-        "Han går",
+        "De er",
         "Det er / det finnes"
       ],
       "correct": 3,
@@ -105,9 +105,9 @@
       "text": "Hvordan sier du «Jeg står opp klokka sju»?",
       "options": [
         "Me levanto a las siete.",
-        "Levanto a las siete.",
-        "Yo levanta a las siete.",
-        "Me levanta a las siete."
+        "Me acuesto a las siete.",
+        "Me levanto a las ocho.",
+        "Se levanta a las siete."
       ],
       "correct": 0,
       "explain": "«levantarse» er refleksivt: me levanto."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva er riktig form av «ir» med «yo»?",
       "options": [
-        "iro",
+        "vas",
         "va",
         "voy",
-        "vo"
+        "vamos"
       ],
       "correct": 2,
       "explain": "«ir» er helt uregelrett."
@@ -128,8 +128,8 @@
       "id": "q05",
       "text": "Hva betyr «hacer los deberes»?",
       "options": [
-        "Å lage mat",
-        "Å rydde",
+        "Å lage middag",
+        "Å vaske klær",
         "Å gjøre lekser",
         "Å gå på skolen"
       ],
@@ -142,8 +142,8 @@
       "options": [
         "Foran verbet",
         "Etter verbet",
-        "Til slutt i setningen",
-        "Det finnes ikke"
+        "På slutten av setningen",
+        "Mellom to verb"
       ],
       "correct": 0,
       "explain": "I vanlige setninger står pronomenet foran verbet."
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "Hva betyr «el armario»?",
       "options": [
+        "Bokhylla",
+        "Kommoden",
         "Senga",
-        "Stolen",
-        "Vinduet",
         "Skapet"
       ],
       "correct": 3,
@@ -166,8 +166,8 @@
       "options": [
         "la casa",
         "el piso",
-        "el jardín",
-        "la terraza"
+        "el edificio",
+        "la habitación"
       ],
       "correct": 1,
       "explain": "«el piso» kan også bety etasje."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hvilket uttrykk betyr «til slutt»?",
       "options": [
-        "primero",
-        "luego",
-        "después",
+        "al principio",
+        "a continuación",
+        "más tarde",
         "por último"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "text": "Hva betyr «fregar los platos»?",
       "options": [
         "Å dekke bordet",
-        "Å handle",
+        "Å vaske klærne",
         "Å ta oppvasken",
-        "Å vaske klær"
+        "Å lage middag"
       ],
       "correct": 2,
       "explain": "«los platos» betyr tallerkenene.",
@@ -326,9 +326,9 @@
         "text": "Hva betyr «Mi habitación es pequeña pero bonita»?",
         "options": [
           "Rommet mitt er lite, men fint",
-          "Rommet mitt er stort",
-          "Jeg liker ikke rommet mitt",
-          "Rommet mitt er rotete"
+          "Rommet mitt er stort, men fint",
+          "Rommet mitt er lite, men stygt",
+          "Rommet mitt er stort og rotete"
         ],
         "correct": 0,
         "explain": "«pero» betyr men."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva betyr «al lado de»?",
         "options": [
-          "Bak",
+          "Rett overfor",
           "Ved siden av",
-          "Under",
-          "Foran"
+          "Mellom to ting",
+          "I nærheten av"
         ],
         "correct": 1,
         "explain": "«enfrente de» betyr overfor."
@@ -354,7 +354,7 @@
           "me",
           "se",
           "nos",
-          "os"
+          "te"
         ],
         "correct": 2,
         "explain": "Med «nosotros» er refleksivpronomenet «nos»."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

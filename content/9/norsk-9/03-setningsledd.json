@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er subjektet i «Hunden bet postbudet»?",
       "options": [
-        "bet",
-        "postbudet",
-        "Hunden",
-        "Hunden bet"
+        "«bet» (subjekt)",
+        "«postbudet» (subjekt)",
+        "«Hunden» (subjekt)",
+        "«Hunden bet» (subjekt)"
       ],
       "correct": 2,
       "explain": "Hvem bet? Hunden. Den som gjør handlingen, er subjektet."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er det direkte objektet i «Kari spiste en brødskive»?",
       "options": [
-        "Kari",
-        "spiste",
-        "en brødskive",
-        "Det finnes ikke"
+        "«Kari» (direkte objekt)",
+        "«spiste» (direkte objekt)",
+        "«en brødskive» (direkte objekt)",
+        "«Kari spiste» (direkte objekt)"
       ],
       "correct": 2,
       "explain": "Hva spiste Kari? En brødskive. Det er det handlingen rammer."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvilket ledd er «trøtt» i «Kari er trøtt»?",
       "options": [
-        "Direkte objekt",
+        "Verbal",
         "Predikativ",
-        "Adverbial",
-        "Subjekt"
+        "Indirekte objekt",
+        "Setningsadverbial"
       ],
       "correct": 1,
       "explain": "«Trøtt» sier noe om subjektet etter verbet «er». Det er predikativ."
@@ -113,9 +113,9 @@
       "text": "Hvilket ledd er «i går» i «Vi spilte fotball i går»?",
       "options": [
         "Adverbial",
-        "Subjekt",
-        "Verbal",
-        "Indirekte objekt"
+        "Predikativ",
+        "Direkte objekt",
+        "Verbal"
       ],
       "correct": 0,
       "explain": "«I går» svarer på når. Tid, sted, måte og årsak er adverbialer."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er det indirekte objektet i «Mor ga barna is»?",
       "options": [
-        "Mor",
-        "ga",
-        "is",
-        "barna"
+        "«Mor» (indirekte objekt)",
+        "«ga» (indirekte objekt)",
+        "«is» (indirekte objekt)",
+        "«barna» (indirekte objekt)"
       ],
       "correct": 3,
       "explain": "Barna er mottakerne. Du kan si «ga is til barna»."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilken av disse er en leddsetning?",
       "options": [
-        "Jeg var syk.",
-        "fordi jeg var syk",
-        "Kom hit!",
-        "Det regnet i går."
+        "Jeg ble hjemme i dag.",
+        "Fordi jeg var syk",
+        "Hun dro hjem etter skolen.",
+        "Vi spiste middag sammen i går."
       ],
       "correct": 1,
       "explain": "«Fordi jeg var syk» innledes av en subjunksjon og kan ikke stå alene som en fullstendig setning."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er inversjon?",
       "options": [
-        "At subjektet kommer før verbalet",
-        "At setningen mangler verbal",
+        "At subjektet står før verbalet",
+        "At subjektet blir utelatt fra setningen",
         "At verbalet kommer før subjektet",
-        "At setningen står i fortid"
+        "At verbalet står sist i setningen"
       ],
       "correct": 2,
       "explain": "Etter en leddsetning først bytter subjekt og verbal plass: Fordi det regnet, ble vi inne."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er verbalet i «Elevene har lest boka»?",
       "options": [
-        "Elevene",
-        "har lest",
-        "boka",
-        "lest boka"
+        "«Elevene» (subjektet)",
+        "«har lest» (verbalet)",
+        "«boka» (direkte objektet)",
+        "«lest» (hovedverbet)"
       ],
       "correct": 1,
       "explain": "Verbalet kan bestå av flere verb. Her er det «har lest»."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvorfor er setningsanalyse nyttig når du skriver?",
       "options": [
-        "Den hjelper deg å sette komma riktig og unngå ufullstendige setninger",
-        "Den gjør teksten lengre",
-        "Den erstatter rettskriving",
-        "Den er bare nyttig i matematikk"
+        "Den hjelper med komma og med å unngå ufullstendige setninger",
+        "Den hjelper deg å finne verbtider og skrive dem riktig",
+        "Den viser hvilke ord som bør skrives med stor bokstav",
+        "Den hjelper deg å finne subjektet, men ikke med tegnsettingen"
       ],
       "correct": 0,
       "explain": "Når du ser hvor helsetninger og leddsetninger begynner og slutter, blir tegnsettingen riktigere."
@@ -184,9 +184,9 @@
       "id": "q10",
       "text": "Hvilken setning har to sideordnede helsetninger?",
       "options": [
-        "Jeg vet at du kommer.",
-        "Hvis det regner, blir vi inne.",
-        "Boka som ligger der, er min.",
+        "Jeg tror at Emma kommer hjem etter skolen.",
+        "Når timen er ferdig, går elevene ut.",
+        "Bilen som står utenfor, tilhører naboen.",
         "Det regnet, og vi ble våte."
       ],
       "correct": 3,
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hvilket ledd er «Ali» i «Han heter Ali»?",
         "options": [
-          "Direkte objekt",
-          "Subjekt",
+          "Verbal",
+          "Indirekte objekt",
           "Predikativ",
-          "Adverbial"
+          "Setningsadverbial"
         ],
         "correct": 2,
         "explain": "Etter verbet «heter» sier «Ali» noe om subjektet. Det er predikativ."
@@ -327,9 +327,9 @@
         "text": "Hvilket ord innleder en leddsetning?",
         "options": [
           "hvis",
-          "og",
-          "men",
-          "eller"
+          "derfor",
+          "likevel",
+          "dessuten"
         ],
         "correct": 0,
         "explain": "«Hvis» er en subjunksjon. «Og», «men» og «eller» er konjunksjoner."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva er subjektet i «I morgen skal Emma reise»?",
         "options": [
-          "I morgen",
-          "skal reise",
-          "reise",
-          "Emma"
+          "«I morgen» (tidsadverbialet)",
+          "«skal» (hjelpeverbalet)",
+          "«reise» (hovedverbet)",
+          "«Emma» (subjektet)"
         ],
         "correct": 3,
         "explain": "Hvem skal reise? Emma. Adverbialet står først, og derfor kommer verbalet før subjektet."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

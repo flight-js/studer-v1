@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvor mange utdanningsprogram finnes det i videregående?",
       "options": [
-        "Ti",
+        "Tretten",
         "Femten",
-        "Fem",
-        "Tjue"
+        "Seksten",
+        "Atten"
       ],
       "correct": 1,
       "explain": "Fem studieforberedende og ti yrkesfaglige."
@@ -92,9 +92,9 @@
       "text": "Hvilket av disse er et studieforberedende utdanningsprogram?",
       "options": [
         "Idrettsfag",
-        "Naturbruk",
-        "Elektro og datateknologi",
-        "Helse- og oppvekstfag"
+        "Bygg- og anleggsteknikk",
+        "Restaurant- og matfag",
+        "Teknologi- og industrifag"
       ],
       "correct": 0,
       "explain": "De andre er yrkesfaglige program.",
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva gir generell studiekompetanse?",
       "options": [
-        "Fagbrev alene",
-        "Ungdomsskolen",
+        "Rett til å få studieplass på universitet og høyskole",
+        "Rett til å få fagbrev uten læretid",
         "Rett til å søke universitet og høyskole",
-        "En lærlingplass"
+        "Rett til å begynne på mastergrad direkte"
       ],
       "correct": 2,
       "explain": "Den får du etter et studieforberedende program eller påbygging."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvor lang tid tar en bachelorgrad vanligvis?",
       "options": [
-        "Ett år",
+        "To år",
+        "Fire år",
         "Fem år",
-        "Åtte år",
         "Tre år"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva er påbygging?",
       "options": [
         "Et ekstra år etter yrkesfag som gir generell studiekompetanse",
-        "Å bygge et tilbygg på skolen",
-        "Et utdanningsprogram på ungdomsskolen",
-        "En type lærekontrakt"
+        "Et ekstra år etter yrkesfag som gir fagbrev i et yrke",
+        "Et ekstra år før yrkesfag som gir generell studiekompetanse",
+        "Et ekstra år etter studiespesialisering som gir fagbrev"
       ],
       "correct": 0,
       "explain": "Påbygging åpner veien til høyere utdanning."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er spesiell studiekompetanse?",
       "options": [
-        "Det samme som fagbrev",
+        "Krav om bestemt karaktergjennomsnitt for å komme inn på enkelte studier",
         "Krav om bestemte fag for å komme inn på enkelte studier",
-        "Karakterer fra ungdomsskolen",
-        "En bachelorgrad"
+        "Krav om fagbrev for å komme inn på enkelte studier",
+        "Krav om bestemte fag på ungdomsskolen for å komme inn på enkelte studier"
       ],
       "correct": 1,
       "explain": "For eksempel krav til matematikk og fysikk for ingeniørstudier.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvor finner du oversikt over utdanningsprogrammene i videregående?",
       "options": [
-        "Yr.no",
-        "Finn.no",
+        "Vigo.no",
+        "Samordnaopptak.no",
         "Vilbli.no",
-        "Nrk.no"
+        "Lånekassen.no"
       ],
       "correct": 2,
       "explain": "Vilbli.no viser alle veier gjennom videregående.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvor mange år er grunnskolen i Norge?",
       "options": [
-        "Sju",
-        "Tolv",
         "Ni",
+        "Elleve",
+        "Tolv",
         "Ti"
       ],
       "correct": 3,
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hvorfor bør du være kildekritisk når du leser om skoler og utdanninger?",
       "options": [
-        "Fordi informasjonen ofte er markedsføring",
-        "Fordi all informasjon er feil",
-        "Fordi rådgiveren sier det",
-        "Det er ikke nødvendig"
+        "Fordi skoler kan framheve egne tilbud i informasjonen",
+        "Fordi skolene får rådgivere til å skrive informasjonen for elevene",
+        "Fordi kommunen skriver informasjonen på skolenes nettsider",
+        "Fordi Utdanningsdirektoratet kontrollerer all informasjon fra skolene"
       ],
       "correct": 0,
       "explain": "Sjekk flere kilder før du bestemmer deg."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva er en fagskole?",
       "options": [
-        "En ungdomsskole",
-        "En barneskole",
+        "Ungdomsskoleutdanning",
+        "Videregående opplæring",
         "Høyere yrkesfaglig utdanning",
-        "Et universitet"
+        "Universitetsutdanning"
       ],
       "correct": 2,
       "explain": "Fagskoler gir kortere, praktiske utdanninger."
@@ -330,7 +330,7 @@
         "options": [
           "Ett år",
           "Tre år",
-          "Fem år",
+          "Fire år",
           "To år"
         ],
         "correct": 3,
@@ -342,9 +342,9 @@
         "text": "Hva er programfag?",
         "options": [
           "Fag man velger for å fordype seg",
-          "Fag på ungdomsskolen",
-          "Fag som alle må ha",
-          "Fag på universitetet"
+          "Fag alle elever må ha på videregående",
+          "Fag man tar i læretiden for å få fagbrev",
+          "Fag man får tilbud om på ungdomsskolen"
         ],
         "correct": 0,
         "explain": "For eksempel fysikk eller rettslære på studiespesialisering."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva betyr hospitering?",
         "options": [
-          "Å være på sykehus",
-          "Å besøke en skole eller arbeidsplass for å prøve den",
-          "Å ta en eksamen",
-          "Å søke jobb"
+          "Et besøk hos en rådgiver for å søke plass på en skole",
+          "Et besøk på en skole eller arbeidsplass for å prøve den",
+          "Et besøk på en skole for å ta en opptaksprøve",
+          "Et besøk på en arbeidsplass for å levere en jobbsøknad"
         ],
         "correct": 1,
         "explain": "Hospitering gir et inntrykk av hvordan det er i praksis.",
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

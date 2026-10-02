@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er (x + 3)²?",
       "options": [
-        "x² + 9",
-        "x² + 6x + 9",
         "x² + 3x + 9",
-        "2x + 6"
+        "x² + 6x + 9",
+        "x² + 9",
+        "x² + 6x + 6"
       ],
       "correct": 1,
       "explain": "Første kvadratsetning: x² + 2 · x · 3 + 3² = x² + 6x + 9."
@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "Hva er (a − 4)²?",
       "options": [
-        "a² − 16",
         "a² + 8a + 16",
-        "a² − 8a − 16",
+        "a² − 8a + 8",
+        "a² − 4a + 16",
         "a² − 8a + 16"
       ],
       "correct": 3,
@@ -102,8 +102,8 @@
       "options": [
         "x² − 25",
         "x² + 25",
-        "x² − 10x − 25",
-        "x² − 10"
+        "x² − 10x + 25",
+        "x² − 10x − 25"
       ],
       "correct": 0,
       "explain": "Tredje kvadratsetning: x² − 5² = x² − 25. Midtleddene opphever hverandre."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hvilken feil er vanligst med første kvadratsetning?",
       "options": [
-        "Å skrive a² − b²",
-        "Å bytte fortegn på a²",
+        "Å glemme leddet b²",
+        "Å skrive midtleddet som ab",
         "Å glemme midtleddet 2ab",
-        "Å gange med 3"
+        "Å bruke pluss i midtleddet ved (a − b)²"
       ],
       "correct": 2,
       "explain": "Mange skriver (a + b)² = a² + b² og glemmer 2ab, som tilsvarer de to rektanglene i figuren."
@@ -138,7 +138,7 @@
       "options": [
         "899",
         "901",
-        "869",
+        "930",
         "929"
       ],
       "correct": 0,
@@ -148,8 +148,8 @@
       "id": "q07",
       "text": "Faktoriser x² + 6x + 9.",
       "options": [
-        "(x + 9)(x + 1)",
-        "(x + 6)(x + 3)",
+        "(x + 1)(x + 9)",
+        "(x + 2)(x + 4)",
         "(x − 3)²",
         "(x + 3)²"
       ],
@@ -162,7 +162,7 @@
       "options": [
         "(x − 4)²",
         "(x + 4)(x − 4)",
-        "(x − 8)(x + 2)",
+        "(x + 8)(x − 2)",
         "(x + 16)(x − 1)"
       ],
       "correct": 1,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "I figuren for (a + b)², hva tilsvarer leddet 2ab?",
       "options": [
-        "Det store kvadratet",
-        "Det lille kvadratet",
+        "Kvadratet med side a",
+        "Kvadratet med side b",
         "De to rektanglene",
-        "Hele figuren"
+        "De to kvadratene"
       ],
       "correct": 2,
       "explain": "Kvadratet med side a + b består av a², b² og to rektangler på a · b. Rektanglene gir 2ab."
@@ -313,7 +313,7 @@
         "options": [
           "(x + 5)²",
           "(x − 5)(x + 5)",
-          "(x − 25)(x − 1)",
+          "(x − 1)(x − 25)",
           "(x − 5)²"
         ],
         "correct": 3,
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er (3 − y)²?",
         "options": [
-          "9 − y²",
-          "9 − 6y + y²",
           "9 + 6y + y²",
-          "9 − 3y + y²"
+          "9 − 6y + y²",
+          "9 − 3y + y²",
+          "9 − 6y − y²"
         ],
         "correct": 1,
         "explain": "Andre kvadratsetning: 3² − 2 · 3 · y + y² = 9 − 6y + y²."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

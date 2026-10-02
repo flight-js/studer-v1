@@ -78,7 +78,7 @@
         "Den distributive loven",
         "Den assosiative loven",
         "Den kommutative loven",
-        "Regnerekkefølgen"
+        "Prioriteringsregelen"
       ],
       "correct": 2,
       "explain": "Den kommutative loven sier at faktorene kan bytte plass ved multiplikasjon uten at produktet endres."
@@ -90,7 +90,7 @@
         "5 · 8 + 2",
         "5 · 8 + 5 · 2",
         "5 + 8 · 2",
-        "5 · 8 · 2"
+        "5 · 8 + 5 + 2"
       ],
       "correct": 1,
       "explain": "Faktoren 5 skal ganges med begge leddene i parentesen: 5 · 8 + 5 · 2 = 40 + 10 = 50."
@@ -100,9 +100,9 @@
       "text": "Hvilken strategi passer best for å regne 99 · 8 i hodet?",
       "options": [
         "100 · 8 − 8",
-        "99 · 10 − 2",
-        "90 · 8 + 99",
-        "9 · 9 · 8 − 1"
+        "100 · 8 − 1",
+        "90 · 8 + 9",
+        "100 · 8 + 8"
       ],
       "correct": 0,
       "explain": "99 er én mindre enn 100. Regn 100 · 8 = 800 og trekk fra én åtter: 800 − 8 = 792."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er 25 · 4 · 17?",
       "options": [
-        "425",
-        "1017",
-        "1360",
+        "170",
+        "1717",
+        "17 000",
         "1700"
       ],
       "correct": 3,
@@ -126,7 +126,7 @@
         "Subtraksjon",
         "Addisjon",
         "Divisjon",
-        "Ingen av dem"
+        "Potensering"
       ],
       "correct": 1,
       "explain": "a + b = b + a gjelder alltid. For subtraksjon og divisjon gir det et annet svar om tallene bytter plass."
@@ -162,7 +162,7 @@
         "50 · 30 = 1500",
         "40 · 30 = 1200",
         "50 · 40 = 2000",
-        "48 · 3 = 144"
+        "48 · 30 = 1440"
       ],
       "correct": 0,
       "explain": "Rund 48 opp til 50 og 31 ned til 30. Det nøyaktige svaret er 1488, som ligger nær 1500."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

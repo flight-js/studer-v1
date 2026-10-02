@@ -84,9 +84,9 @@
       "id": "q01",
       "text": "Hva er «le goûter»?",
       "options": [
-        "Frokost",
-        "Lunsj",
-        "Middag",
+        "Frokost før skolen",
+        "Lunsj midt på dagen",
+        "Kveldsmat om kvelden",
         "Ettermiddagsmat for barn"
       ],
       "correct": 3,
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "Hvordan sier du «Jeg er sulten»?",
       "options": [
-        "Je suis faim.",
-        "J'ai faim.",
         "J'ai soif.",
-        "Je mange faim."
+        "J'ai faim.",
+        "J'ai froid.",
+        "J'ai sommeil."
       ],
       "correct": 1,
       "explain": "På fransk «har» man sult."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hvordan bestiller du høflig?",
       "options": [
-        "Je veux un café !",
-        "Donne-moi un café.",
+        "Je veux un café, maintenant !",
+        "Apporte-moi un café tout de suite !",
         "Je voudrais un café, s'il vous plaît.",
-        "Un café, vite !"
+        "Sers-moi un café sans attendre !"
       ],
       "correct": 2,
       "explain": "«Je voudrais» er høfligere enn «je veux»."
@@ -133,9 +133,9 @@
       "text": "Hvordan ber du om regningen?",
       "options": [
         "La carte, s'il vous plaît.",
-        "Bon appétit !",
+        "Le menu, s'il vous plaît.",
         "L'addition, s'il vous plaît.",
-        "Santé !"
+        "Un café, s'il vous plaît."
       ],
       "correct": 2,
       "explain": "«l'addition» betyr regningen."
@@ -145,9 +145,9 @@
       "text": "Hva betyr «Je ne mange pas de viande»?",
       "options": [
         "Jeg spiser ikke kjøtt",
-        "Jeg spiser mye kjøtt",
-        "Jeg liker kjøtt",
-        "Jeg har kjøtt"
+        "Jeg spiser litt kjøtt",
+        "Jeg spiser mer kjøtt",
+        "Jeg spiser ikke fisk"
       ],
       "correct": 0,
       "explain": "Etter nektelse blir delingsartikkelen til «de»."
@@ -157,8 +157,8 @@
       "text": "Hva er riktig form av «boire» med «nous»?",
       "options": [
         "nous boivons",
-        "nous boirons",
-        "nous boit",
+        "nous buvez",
+        "nous boivent",
         "nous buvons"
       ],
       "correct": 3,
@@ -183,7 +183,7 @@
         "les légumes",
         "les fruits",
         "les pâtes",
-        "les frites"
+        "les desserts"
       ],
       "correct": 0,
       "explain": "«les fruits» betyr frukt."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvilken artikkel bruker du etter «aimer»: «J'aime … chocolat»?",
       "options": [
-        "du",
-        "un",
+        "la",
+        "les",
         "le",
-        "de"
+        "des"
       ],
       "correct": 2,
       "explain": "Etter aimer, adorer og préférer bruker man bestemt artikkel."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva betyr «de l'eau»?",
         "options": [
-          "Vannet",
+          "Vannet i glasset",
           "Noe vann",
-          "Ikke vann",
-          "Mye vann"
+          "Mye av vannet",
+          "Alt vannet"
         ],
         "correct": 1,
         "explain": "Delingsartikkelen viser en ubestemt mengde."
@@ -345,9 +345,9 @@
         "text": "Hva betyr «Je prends le poisson»?",
         "options": [
           "Jeg tar fisken",
-          "Jeg liker ikke fisk",
-          "Jeg fisker",
-          "Jeg har fisk"
+          "Jeg liker fisken",
+          "Jeg spiser fisken",
+          "Jeg har fisken"
         ],
         "correct": 0,
         "explain": "«prendre» brukes ofte når man bestiller."
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

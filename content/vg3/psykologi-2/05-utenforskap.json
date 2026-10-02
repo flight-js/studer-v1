@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på ensomhet og sosial isolasjon?",
       "options": [
-        "Det er det samme",
-        "Ensomhet er subjektiv, isolasjon er objektiv",
-        "Isolasjon er alltid frivillig",
-        "Ensomhet gjelder bare eldre"
+        "Ensomhet handler om få sosiale kontakter, mens isolasjon er en subjektiv følelse.",
+        "Ensomhet er en subjektiv følelse, mens isolasjon handler om få sosiale kontakter.",
+        "Både ensomhet og isolasjon beskriver hvor mange sosiale kontakter en person har.",
+        "Både ensomhet og isolasjon beskriver hvordan en person føler seg sosialt."
       ],
       "correct": 1,
       "explain": "Man kan være ensom blant mange."
@@ -92,8 +92,8 @@
       "options": [
         "Baumeister og Leary",
         "Asch og Milgram",
-        "Piaget og Vygotskij",
-        "Pavlov og Skinner"
+        "Bowlby og Ainsworth",
+        "Maslow og Rogers"
       ],
       "correct": 0,
       "explain": "The need to belong.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva kan være en familieårsak til utenforskap?",
       "options": [
-        "Mobbing i klassen",
-        "Diskriminering i arbeidslivet",
-        "Lav inntekt som hindrer deltakelse i fritidsaktiviteter",
-        "Gruppechatter"
+        "Mobbing i klassen som gjør det vanskelig å delta i organiserte fritidsaktiviteter.",
+        "Diskriminering på arbeidsplassen som gjør det vanskelig å delta i organiserte fritidsaktiviteter.",
+        "Lav familieinntekt som gjør det vanskelig å delta i organiserte fritidsaktiviteter.",
+        "Utestenging i vennegruppen som gjør det vanskelig å delta i organiserte fritidsaktiviteter."
       ],
       "correct": 2,
       "explain": "Økonomi påvirker deltakelse."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er den onde sirkelen ved ensomhet?",
       "options": [
-        "At man får flere venner",
-        "At ensomhet alltid går over",
-        "At man blir mer sosial",
-        "At man blir mer årvåken for avvisning og trekker seg tilbake"
+        "At man blir mindre oppmerksom på avvisning og tar mer kontakt med andre.",
+        "At man forventer støtte fra andre og derfor søker seg til flere fellesskap.",
+        "At man tolker avvisning som ufarlig og føler seg tryggere i sosiale situasjoner.",
+        "At man blir mer årvåken for avvisning og trekker seg tilbake."
       ],
       "correct": 3,
       "explain": "Ensomheten forsterkes."
@@ -128,9 +128,9 @@
       "text": "Hva står NEET for?",
       "options": [
         "Unge som verken er i arbeid, utdanning eller opplæring",
-        "En type mobbing",
-        "En skole",
-        "En diagnose"
+        "Unge som er i arbeid, men verken i utdanning eller opplæring",
+        "Unge som verken er i arbeid eller utdanning, men deltar i opplæring",
+        "Unge som er i utdanning eller opplæring, men ikke i arbeid"
       ],
       "correct": 0,
       "explain": "Not in employment, education or training.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken konsekvens kan utenforskap ha for psykisk helse?",
       "options": [
-        "Bedre konsentrasjon",
+        "Bedre konsentrasjon og sterkere motivasjon på skolen",
         "Økt risiko for angst og depresjon",
-        "Mer energi",
-        "Ingen konsekvenser"
+        "Lavere uro og større trygghet i sosiale situasjoner",
+        "Økt selvfølelse og bedre humør i hverdagen"
       ],
       "correct": 1,
       "explain": "Også selvskading."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva viser forsøk med utestengning i enkle dataspill?",
       "options": [
-        "At ingen bryr seg",
-        "At spill er farlige",
+        "At avvisning kan oppleves som kjedsomhet",
+        "At avvisning først og fremst påvirker evnen til å huske spilleregler",
         "At avvisning kan oppleves som smerte",
-        "At alle blir sinte"
+        "At avvisning kan oppleves som støtte fra de andre spillerne"
       ],
       "correct": 2,
       "explain": "Sosial smerte.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvilken rett har elever etter opplæringsloven?",
       "options": [
-        "Rett til gratis mobil",
-        "Rett til å velge lærer",
-        "Rett til egne fag",
+        "Rett til å bestemme hvem som skal være kontaktlærer",
+        "Rett til å få alle vurderinger utsatt når skolearbeidet oppleves vanskelig",
+        "Rett til å velge hvilke fag som inngår i skolens timeplan",
         "Rett til et trygt og godt skolemiljø"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hvilken beskyttende faktor kan utgjøre en stor forskjell?",
       "options": [
         "Én god venn",
-        "Mer skjermtid",
-        "Flere prøver",
-        "Mindre søvn"
+        "Flere konflikter med jevnaldrende",
+        "Mindre kontakt med trygge voksne",
+        "Større sosial avstand til klassekamerater"
       ],
       "correct": 0,
       "explain": "Også en voksen som ser eleven."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvorfor kan noen som opplever utenforskap, søke seg til negative miljøer?",
       "options": [
-        "Fordi de er onde",
-        "Fordi de søker tilhørighet",
-        "Fordi det er tilfeldig",
-        "Fordi de er rike"
+        "De kan søke seg til negative miljøer fordi de ønsker bedre skolekarakterer.",
+        "De kan søke seg til negative miljøer fordi de ønsker tilhørighet.",
+        "De kan søke seg til negative miljøer fordi de vil unngå ansvar hjemme.",
+        "De kan søke seg til negative miljøer fordi de ønsker å hevne seg på andre."
       ],
       "correct": 1,
       "explain": "Behovet for tilhørighet er sterkt."
@@ -319,8 +319,8 @@
         "options": [
           "Individ",
           "Samfunn",
-          "Biologi",
-          "Søvn"
+          "Familie",
+          "Vennegruppe"
         ],
         "correct": 1,
         "explain": "Strukturelle forhold."
@@ -331,9 +331,9 @@
         "text": "Hvem kan bidra med tidlig innsats?",
         "options": [
           "Helsesykepleier, NAV og oppfølgingstjenesten",
-          "Bare politiet",
-          "Ingen",
-          "Bare foreldre"
+          "Skatteetaten, Lånekassen og Statens vegvesen",
+          "Mattilsynet, Forbrukerrådet og Arbeidstilsynet",
+          "Tollvesenet, Brønnøysundregistrene og Kartverket"
         ],
         "correct": 0,
         "explain": "Flere tjenester samarbeider.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

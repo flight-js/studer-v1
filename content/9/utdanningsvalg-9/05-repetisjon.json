@@ -109,10 +109,10 @@
       "id": "q01",
       "text": "Hva betyr karriere i utdanningsvalg?",
       "options": [
-        "Bare å bli sjef",
-        "Hele veien gjennom livet, med utdanning, arbeid, fritid og familie",
-        "Bare den første jobben",
-        "Å tjene mest mulig"
+        "Arbeidserfaringen du får i ett bestemt yrke",
+        "Utdanning, arbeid, fritid og familie gjennom livet",
+        "Valgene du tar på arbeidsplassen etter at du er ansatt",
+        "Utdanning og arbeid fram til du får din første jobb"
       ],
       "correct": 1,
       "explain": "Karriere handler om hele livsløpet."
@@ -122,9 +122,9 @@
       "text": "Hva er forskjellen på en interesse og en ferdighet?",
       "options": [
         "En interesse er noe du liker, en ferdighet er noe du er flink til",
-        "Det er det samme",
-        "En ferdighet er noe du liker",
-        "En interesse kan ikke endre seg"
+        "En interesse er noe du er flink til, en ferdighet er noe du liker",
+        "En interesse er noe du gjør ofte, en ferdighet er noe du gjør av og til",
+        "En interesse er noe du lærer, en ferdighet er noe du er født med"
       ],
       "correct": 0,
       "explain": "Du kan være interessert i noe du ennå ikke er flink til."
@@ -133,10 +133,10 @@
       "id": "q03",
       "text": "Hva er karrierekompetanse?",
       "options": [
-        "Å ha en høy stilling",
-        "Å ha mange sertifikater",
+        "Evnen til å få gode karakterer, følge skoleregler og fullføre oppgaver",
+        "Evnen til å utføre arbeidsoppgaver, følge beskjeder og samarbeide med kolleger",
         "Evnen til å kjenne seg selv, finne informasjon og ta gode valg",
-        "Å ha jobbet lenge"
+        "Evnen til å velge et yrke, få en jobb og beholde samme stilling"
       ],
       "correct": 2,
       "explain": "Karrierekompetanse kan trenes gjennom hele livet."
@@ -145,10 +145,10 @@
       "id": "q04",
       "text": "Hva gir generell studiekompetanse?",
       "options": [
-        "Fagbrev alene",
-        "Ungdomsskolen",
+        "Rett til å få studieplass på universitet og høyskole",
+        "Rett til å få fagbrev uten læretid",
         "Rett til å søke universitet og høyskole",
-        "En lærlingplass"
+        "Rett til å begynne på mastergrad direkte"
       ],
       "correct": 2,
       "explain": "Den får du etter et studieforberedende program eller påbygging."
@@ -158,9 +158,9 @@
       "text": "Hva er påbygging?",
       "options": [
         "Et ekstra år etter yrkesfag som gir generell studiekompetanse",
-        "Å bygge et tilbygg på skolen",
-        "Et utdanningsprogram på ungdomsskolen",
-        "En type lærekontrakt"
+        "Et ekstra år etter yrkesfag som gir fagbrev i et yrke",
+        "Et ekstra år før yrkesfag som gir generell studiekompetanse",
+        "Et ekstra år etter studiespesialisering som gir fagbrev"
       ],
       "correct": 0,
       "explain": "Påbygging åpner veien til høyere utdanning."
@@ -169,10 +169,10 @@
       "id": "q06",
       "text": "Hvorfor bør du være kildekritisk når du leser om skoler og utdanninger?",
       "options": [
-        "Fordi informasjonen ofte er markedsføring",
-        "Fordi all informasjon er feil",
-        "Fordi rådgiveren sier det",
-        "Det er ikke nødvendig"
+        "Fordi skoler kan framheve egne tilbud i informasjonen",
+        "Fordi skolene får rådgivere til å skrive informasjonen for elevene",
+        "Fordi kommunen skriver informasjonen på skolenes nettsider",
+        "Fordi Utdanningsdirektoratet kontrollerer all informasjon fra skolene"
       ],
       "correct": 0,
       "explain": "Sjekk flere kilder før du bestemmer deg."
@@ -181,10 +181,10 @@
       "id": "q07",
       "text": "Hva kjennetegner en høykonjunktur?",
       "options": [
-        "Høy arbeidsledighet",
-        "Mange konkurser",
+        "Lavt salg og høy arbeidsledighet",
+        "Lav produksjon og mange permitteringer",
         "Høyt salg og lav arbeidsledighet",
-        "At alle blir permittert"
+        "Fallende salg og flere konkurser"
       ],
       "correct": 2,
       "explain": "I høykonjunktur trenger bedriftene flere ansatte."
@@ -193,9 +193,9 @@
       "id": "q08",
       "text": "Hva er automatisering?",
       "options": [
-        "At folk jobber mer",
-        "At bilene blir større",
-        "At bedrifter flytter til utlandet",
+        "At ansatte overtar oppgaver maskiner gjorde før",
+        "At maskiner lager nye oppgaver for ansatte",
+        "At bedrifter flytter produksjon til andre land",
         "At maskiner overtar oppgaver mennesker gjorde før"
       ],
       "correct": 3,
@@ -206,9 +206,9 @@
       "text": "Hvorfor bør du tenke langsiktig når du velger utdanning?",
       "options": [
         "Fordi en utdanning tar flere år og konjunkturene endrer seg",
-        "Fordi arbeidslivet aldri endrer seg",
-        "Fordi alle jobber forsvinner",
-        "Det er ikke nødvendig"
+        "Fordi utdanningen bestemmer nøyaktig hvilken jobb du får etterpå",
+        "Fordi konjunkturene påvirker lønn, men ikke hvilke jobber som finnes",
+        "Fordi arbeidsmarkedet endrer seg mindre enn utdanningene gjør"
       ],
       "correct": 0,
       "explain": "Det som gjelder i dag, kan være annerledes når du er ferdig."
@@ -217,10 +217,10 @@
       "id": "q10",
       "text": "Hva betyr det at arbeidsmarkedet er kjønnsdelt?",
       "options": [
-        "At kvinner og menn jobber på ulike dager",
+        "At kvinner og menn oftere jobber i samme typer yrker",
         "At mange yrker domineres av ett kjønn",
-        "At lønna er lik for alle",
-        "At menn og kvinner ikke får jobbe sammen"
+        "At mange yrker har omtrent like mange kvinner og menn",
+        "At kvinner og menn får ulik lønn i mange av de samme yrkene"
       ],
       "correct": 1,
       "explain": "Norge har et av de mest kjønnsdelte arbeidsmarkedene i Europa, selv om landet regnes som likestilt."
@@ -229,10 +229,10 @@
       "id": "q11",
       "text": "Hvordan kan rollemodeller påvirke yrkesvalg?",
       "options": [
-        "De har ingen betydning",
-        "De bestemmer valget for deg",
+        "De gjør det lettere å velge et yrke som vennene dine allerede har valgt",
+        "De gjør det lettere å velge et yrke med kortere utdanning enn andre",
         "De gjør det lettere å se for seg et yrke man ellers ikke ville vurdert",
-        "De gjør alle yrker like"
+        "De viser hvilke yrker som passer best til alle med samme kjønn"
       ],
       "correct": 2,
       "explain": "Det er lettere å velge noe når man ser at andre som ligner en, har gjort det."
@@ -241,9 +241,9 @@
       "id": "q12",
       "text": "Hvorfor er det et problem for samfunnet at arbeidsmarkedet er kjønnsdelt?",
       "options": [
-        "Det er ikke et problem",
-        "Det gir for mange arbeidere",
-        "Det gjør alle yrker like",
+        "Samfunnet får bedre løsninger og mindre mangel på ansatte i noen yrker",
+        "Samfunnet får flere søkere og mindre behov for arbeidskraft i noen yrker",
+        "Samfunnet får flere ansatte og mindre behov for talenter i noen yrker",
         "Samfunnet går glipp av talenter og får mangel på arbeidskraft i noen yrker"
       ],
       "correct": 3,
@@ -356,7 +356,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -419,10 +419,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel med mangfold på arbeidsplassen?",
         "options": [
-          "Det gir ofte bedre løsninger og arbeidsmiljø",
-          "Det gir lavere lønn",
-          "Det gjør alle like",
-          "Det gir færre ansatte"
+          "Det kan gi bedre løsninger og arbeidsmiljø",
+          "Det kan gi lavere lønn og større forskjeller på arbeidsplassen",
+          "Det kan gjøre at ansatte får likere erfaringer og synspunkter",
+          "Det kan føre til færre ulike perspektiver og løsninger på jobb"
         ],
         "correct": 0,
         "explain": "Ulike perspektiver kan gi bedre løsninger."
@@ -481,8 +481,7 @@
         "kriterier": [
           "Forklarer riktig hva primærnæringer gjør og gir et passende eksempel.",
           "Forklarer riktig hva sekundærnæringer gjør og gir et passende eksempel."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s07",
@@ -501,12 +500,90 @@
           "Forklarer hva det grønne skiftet betyr.",
           "Nevner et relevant område med behov for arbeidskraft eller at eksisterende yrker må lære nye metoder."
         ]
+      },
+      {
+        "text": "En elev har fullført yrkesfag og fått fagbrev. Eleven vil bli ingeniør. Forklar to mulige utdanningsveier videre, og nevn hva slags opptakskrav ingeniørstudier kan ha.",
+        "fasit": "Eleven kan ta påbygging etter yrkesfag for å få generell studiekompetanse, eller undersøke Y-veien, som gir personer med fagbrev mulighet til å bli ingeniør. Ingeniørstudier kan kreve spesiell studiekompetanse med bestemte matematikk- og realfag.",
+        "kriterier": [
+          "Påbygging etter yrkesfag kan gi generell studiekompetanse.",
+          "Y-veien kan gi personer med fagbrev mulighet til å bli ingeniør.",
+          "Ingeniørstudier kan kreve bestemte matematikk- og realfag."
+        ],
+        "id": "s09",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En kommune driver en skole, og en privat bedrift driver en butikk. Forklar hvilken sektor hver av dem tilhører, og hvorfor begge arbeidsplassene regnes som del av tjenesteytende næringer.",
+        "fasit": "Skolen tilhører offentlig sektor fordi den drives av kommunen, mens butikken tilhører privat sektor fordi den drives av en privat bedrift. Begge regnes som tjenesteytende næringer fordi skole og handel er tjenester.",
+        "kriterier": [
+          "Kommunen og skolen hører til offentlig sektor; den private butikken hører til privat sektor.",
+          "Både skole og handel er tjenesteyting og dermed del av tertiærnæringene."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "I en lavkonjunktur faller salget hos en byggbedrift. Forklar hva som kan skje med ansatte i bedriften, og hvordan arbeidsledigheten kan påvirkes.",
+        "fasit": "Når salget faller, kan bedriften permittere noen ansatte eller noen kan miste jobben. Hvis flere mister jobben, kan arbeidsledigheten øke.",
+        "kriterier": [
+          "Bedriften kan permittere ansatte eller si opp noen.",
+          "Arbeidsledigheten kan øke i en lavkonjunktur."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En person endrer planer for jobb og utdanning når livet og interessene endrer seg. Forklar hva karriere betyr i utdanningsvalg, og hvordan omvalg kan passe inn i karrieren.",
+        "fasit": "Karriere betyr hele veien gjennom livet, og omfatter blant annet utdanning, jobber, fritid, familie og frivillig arbeid. Omvalg kan være en del av karrieren fordi få valg er endelige, og det er mulig å ta nye veier senere.",
+        "kriterier": [
+          "Karriere omfatter mer enn jobb og kan inkludere utdanning, fritid, familie og frivillig arbeid.",
+          "Omvalg og nye veier kan være en del av karrieren."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En norsk bedrift møter konkurranse fra bedrifter i andre land, og vurderer å flytte noen jobber til et land med lavere lønn. Forklar hvordan dette henger sammen med globalisering, og nevn én mulig følge for jobber i Norge.",
+        "fasit": "Globalisering knytter land tettere sammen gjennom blant annet handel og kommunikasjon, slik at norske bedrifter konkurrerer internasjonalt. Noen jobber kan flyttes til land med lavere lønn, mens andre jobber kan oppstå i Norge.",
+        "kriterier": [
+          "Globalisering knytter land sammen og gjør at bedrifter konkurrerer på tvers av landegrenser.",
+          "Jobber kan flyttes ut av Norge, og andre jobber kan oppstå her."
+        ],
+        "id": "s13",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En helsefagarbeider bruker velferdsteknologi i arbeidet sitt. Forklar hvordan teknologi kan endre innholdet i et yrke, og nevn en ferdighet som blir viktigere i arbeidslivet.",
+        "fasit": "Teknologi kan endre oppgavene i et yrke, slik at helsefagarbeidere må bruke velferdsteknologi i arbeidet. Digitale ferdigheter blir viktigere i arbeidslivet.",
+        "kriterier": [
+          "Teknologi kan endre arbeidsoppgavene i et yrke.",
+          "Digitale ferdigheter blir viktigere."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En arbeidsgiver skal ansette nye medarbeidere og ønsker å behandle søkere likt uavhengig av kjønn. Forklar hva loven sier om diskriminering ved ansettelse, og hva arbeidsgivere plikter å gjøre for likestilling.",
+        "fasit": "Likestillings- og diskrimineringsloven forbyr diskriminering på grunn av kjønn, blant annet ved ansettelse. Arbeidsgivere har plikt til å jobbe aktivt for likestilling.",
+        "kriterier": [
+          "Loven forbyr diskriminering på grunn av kjønn ved ansettelse.",
+          "Arbeidsgivere har plikt til å jobbe aktivt for likestilling."
+        ],
+        "id": "s15",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En person med fagbrev ønsker en kortere, praktisk utdanning, mens en annen vurderer en bachelorgrad ved et universitet eller en høyskole. Forklar hva som kjennetegner fagskoleutdanning, og hvordan den skiller seg fra en bachelorgrad.",
+        "fasit": "Fagskole er høyere yrkesfaglig utdanning og gir kortere, praktiske utdanninger som bygger på fagbrev eller relevant erfaring. En bachelorgrad ved universitet eller høyskole varer vanligvis tre år.",
+        "kriterier": [
+          "Fagskole er kortere, praktisk høyere yrkesfaglig utdanning som bygger på fagbrev eller relevant erfaring.",
+          "En bachelorgrad varer vanligvis tre år."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

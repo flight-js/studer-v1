@@ -106,10 +106,10 @@
       "id": "q01",
       "text": "Hvorfor jobber man iterativt i produktutvikling?",
       "options": [
-        "For å bruke mer tid",
+        "For å ferdigstille løsningen før den blir testet på en prototype",
         "For å oppdage feil tidlig mens de er billige å rette",
-        "Fordi det er påbudt",
-        "For å slippe testing"
+        "For å unngå å endre produktet etter den første testen",
+        "For å dokumentere at den første løsningen oppfyller kravene"
       ],
       "correct": 1,
       "explain": "Prototype, test og forbedring gjentas."
@@ -118,10 +118,10 @@
       "id": "q02",
       "text": "Hvorfor trenger en lysdiode en formotstand?",
       "options": [
-        "For å lyse sterkere",
-        "For å skifte farge",
+        "For å øke spenningen over lysdioden så den lyser sterkere",
+        "For å gjøre lysdioden mindre følsom for spenningsendringer",
         "For å begrense strømmen så den ikke ødelegges",
-        "For å måle lys"
+        "For å få lysdioden til å blinke med faste mellomrom"
       ],
       "correct": 2,
       "explain": "Ofte 220 Ω på 5 V."
@@ -130,10 +130,10 @@
       "id": "q03",
       "text": "Hva er forskjellen på et analogt og et digitalt signal?",
       "options": [
-        "Analoge er alltid raskere",
-        "Et analogt kan ha alle verdier i et område, et digitalt har bestemte verdier",
-        "Digitale signaler finnes bare i datamaskiner",
-        "Det er ingen forskjell"
+        "Et analogt signal har bestemte verdier, mens et digitalt signal kan ha alle verdier i et område.",
+        "Et analogt signal kan ha alle verdier i et område, mens et digitalt signal har bestemte verdier.",
+        "Et analogt signal kan ha alle verdier i et område, mens et digitalt signal endrer seg jevnt mellom verdiene.",
+        "Et analogt signal har bestemte trinn mellom verdier, mens et digitalt signal varierer kontinuerlig i området."
       ],
       "correct": 1,
       "explain": "For eksempel 0–5 V mot HØY/LAV."
@@ -142,10 +142,10 @@
       "id": "q04",
       "text": "Hva bestemmer hva som skal måles, hvor ofte og hvor lenge?",
       "options": [
-        "Prisen på sensoren",
+        "Lagringskapasiteten i dataloggeren",
         "Spørsmålet du vil ha svar på",
-        "Fargen på kabinettet",
-        "Hvor mange ledninger du har"
+        "Måleområdet til sensoren",
+        "Oppløsningen i måleinstrumentet"
       ],
       "correct": 1,
       "explain": "Start alltid med spørsmålet."
@@ -154,10 +154,10 @@
       "id": "q05",
       "text": "Hva kjennetegner en systematisk feil?",
       "options": [
-        "Den varierer tilfeldig",
+        "Den gir en ny skjevhet fra måling til måling",
         "Den gir samme skjevhet hver gang",
-        "Den forsvinner med flere målinger",
-        "Den skyldes alltid brukeren"
+        "Den blir mindre når flere målinger tas",
+        "Den skyldes endringer i avlesningen fra gang til gang"
       ],
       "correct": 1,
       "explain": "Oppdages ved kalibrering."
@@ -166,10 +166,10 @@
       "id": "q06",
       "text": "Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?",
       "options": [
-        "For å kunne knytte endringen i resultatet til den variabelen",
-        "For å spare tid",
-        "Fordi det er påbudt",
-        "For å få flere variabler"
+        "For å knytte endringen i resultatet til én bestemt variabel",
+        "For å redusere usikkerheten i hver enkelt måling",
+        "For å gjøre forsøket enklere å gjenta for andre",
+        "For å sikre at variablene påvirker resultatet like mye"
       ],
       "correct": 0,
       "explain": "Ellers vet vi ikke hva som påvirket resultatet."
@@ -178,9 +178,9 @@
       "id": "q07",
       "text": "Hvorfor var overgangen fra analoge til digitale mobilnett viktig?",
       "options": [
-        "Telefonene ble større",
-        "Den fjernet behovet for master",
-        "Den gjorde samtaler gratis",
+        "Den ga mobiltelefonene bedre batteritid og større lagringsplass",
+        "Den gjorde at mobilnettet brukte satellitter i stedet for master",
+        "Den ga samtaler høyere lydstyrke og lengre rekkevidde",
         "Den ga bedre lyd og plass til flere brukere"
       ],
       "correct": 3,
@@ -191,10 +191,10 @@
       "id": "q08",
       "text": "Hva sier føre var-prinsippet?",
       "options": [
-        "Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker",
-        "Innfør all ny teknologi raskt",
-        "Bare bevist skade skal tas hensyn til",
-        "Teknologi er alltid farlig"
+        "Vær forsiktig når alvorlig skade kan oppstå og kunnskapen er usikker",
+        "Vent med tiltak til alvorlig skade er dokumentert",
+        "Vurder sannsynligheten for skade, men ikke hvor alvorlig den kan bli",
+        "Velg løsningen med størst forventet nytte når kunnskapen er usikker"
       ],
       "correct": 0,
       "explain": "Viktig ved uopprettelig skade."
@@ -203,10 +203,10 @@
       "id": "q09",
       "text": "Hva betyr det at teknologi ikke er nøytral?",
       "options": [
-        "At den alltid er ond",
-        "At den ikke virker",
-        "At den påvirker og fordeler nytte, risiko og makt",
-        "At den er politisk styrt"
+        "Teknologi utvikles og brukes uten å påvirke samfunnet",
+        "Teknologi fordeler nytte, men ikke risiko eller makt",
+        "Teknologi påvirker og fordeler nytte, risiko og makt",
+        "Teknologi påvirker risiko, men ikke nytte eller makt"
       ],
       "correct": 2,
       "explain": "Valgene i utviklingen har konsekvenser."
@@ -215,10 +215,10 @@
       "id": "q10",
       "text": "Hva er de tre dimensjonene av bærekraft?",
       "options": [
-        "Teknologi, økonomi og politikk",
-        "Miljø, sosial og økonomi",
-        "Energi, vann og luft",
-        "Lokal, nasjonal og global"
+        "Teknologisk, økonomisk og politisk bærekraft",
+        "Miljømessig, sosial og økonomisk bærekraft",
+        "Sosial, politisk og kulturell bærekraft",
+        "Lokal, nasjonal og global bærekraft"
       ],
       "correct": 1,
       "explain": "Alle tre må ivaretas."
@@ -227,10 +227,10 @@
       "id": "q11",
       "text": "Hva er sirkulær økonomi?",
       "options": [
-        "At penger sirkulerer raskt",
-        "At produkter kastes etter bruk",
+        "At produkter produseres lokalt for å redusere transport mellom bedrifter",
+        "At materialer sorteres etter bruk og sendes til forbrenning",
         "At ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning",
-        "At alt produseres lokalt"
+        "At produkter brukes én gang før de erstattes med nye"
       ],
       "correct": 2,
       "explain": "Motsatt av bruk-og-kast."
@@ -367,7 +367,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -395,9 +395,9 @@
         "text": "Hva gjør pinMode(13, OUTPUT)?",
         "options": [
           "Gjør pinne 13 til en utgang",
-          "Slår på pinne 13",
-          "Leser pinne 13",
-          "Sletter programmet"
+          "Leser signalet på pinne 13 som en inngang",
+          "Setter pinne 13 til høy spenning med én gang",
+          "Kobler pinne 13 til jord gjennom programmet"
         ],
         "correct": 0,
         "explain": "Kjøres i setup().",
@@ -415,10 +415,10 @@
         "type": "flervalg",
         "text": "Hva hører med i vurderingen av et datainnsamlingsprosjekt?",
         "options": [
-          "Bare produktets farge",
-          "Bare hvor mye tid det tok",
+          "Sensorens merke, modell og innkjøpspris",
+          "Måleverdienes gjennomsnitt, median og typetall",
           "Usikkerhet, feilkilder og forslag til forbedringer",
-          "Bare hvem som var på gruppa"
+          "Prosjektets tidsbruk, gruppestørrelse og arbeidsfordeling"
         ],
         "correct": 2,
         "explain": "Kritisk vurdering av resultatene."
@@ -443,9 +443,9 @@
         "text": "Hva er det siste steget i en etisk drøfting?",
         "options": [
           "En begrunnet konklusjon",
-          "Å beskrive teknologien",
-          "Å liste opp perspektivene",
-          "Å telle argumentene"
+          "En beskrivelse av teknologien",
+          "En oversikt over de etiske perspektivene",
+          "En opptelling av argumentene for og imot"
         ],
         "correct": 0,
         "explain": "Gjerne med forslag til tiltak."
@@ -536,12 +536,84 @@
           "Nevner vurdering av bærekraft utover bare energibruk.",
           "Nevner rebound-effekt eller en annen relevant ulempe fra oppgaven."
         ]
+      },
+      {
+        "text": "En TMP36-temperatursensor gir 0,70 V. Temperaturen kan beregnes med formelen T = (U − 0,5) · 100, der U er spenningen i volt. Hva er temperaturen?",
+        "fasit": "T = (0,70 − 0,5) · 100 = 20 °C.",
+        "kriterier": [
+          "Bruker formelen med riktig spenning.",
+          "Får 20 °C."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En ultralydsensor får ekkoet tilbake etter 1,0 ms. Lydfarten er 343 m/s. Omtrent hvor langt unna er hindringen, og hvorfor skal den tilbakelagte lydstrekningen deles på to?",
+        "fasit": "Lyden går omtrent 0,343 m fram og tilbake på 1,0 ms. Hindringen er derfor omtrent 0,17 m unna, fordi lyden går både til hindringen og tilbake.",
+        "kriterier": [
+          "Regner seg fram til omtrent 0,17 m.",
+          "Forklarer at ekkotiden gjelder tur-retur."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Du skal lage en datalogger som måler enten romtemperatur gjennom en skoledag eller rystelser på en sykkel. Sammenlign hvor ofte loggeren bør måle i de to tilfellene, og forklar én ulempe ved svært hyppige målinger.",
+        "fasit": "Romtemperaturen endrer seg sakte, så én måling i minuttet kan være nok. Rystelser endrer seg raskt og krever mange målinger per sekund. Svært hyppige målinger gir større datamengder og bruker mer strøm.",
+        "kriterier": [
+          "Knytter langsomme temperaturendringer til lavere målefrekvens og raske rystelser til høyere frekvens.",
+          "Nevner større datamengder eller høyere strømforbruk som ulempe."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En fotoresistor (LDR) skal styre en lysdiode gjennom en mikrokontroller. Forklar hvordan endringer i lys kan bli til et signal programmet bruker for å slå lysdioden av eller på.",
+        "fasit": "LDR-ens resistans endres med lysnivået, og en spenningsdeler gjør endringen om til en spenning. Mikrokontrollerens AD-omformer gjør spenningen om til et tall som programmet kan sammenligne med en terskelverdi. Programmet bruker resultatet til å styre lysdioden.",
+        "kriterier": [
+          "Forklarer at LDR-en og spenningsdeleren gir et analogt signal som AD-omformeren gjør om til en tallverdi.",
+          "Forklarer at programmet kan bruke en terskelverdi til å styre lysdioden."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En virksomhet vurderer å bruke GPS-data fra ansattes mobiltelefoner for å planlegge mer effektive leveringsruter. Vurder løsningen med konsekvensetikk og autonomi.",
+        "fasit": "Konsekvensetisk kan mer effektive ruter være nyttige, for eksempel ved å gjøre logistikken mer effektiv, men innsamlingen kan også svekke de ansattes personvern. Autonomien ivaretas bedre hvis de ansatte får god informasjon og reell mulighet til å ta stilling til bruken av dataene.",
+        "kriterier": [
+          "Veier mulige fordeler mot ulemper for dem som berøres.",
+          "Knytter autonomi til informasjon og mulighet til å bestemme."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En bedrift utvikler et elektronisk produkt. Forklar hvordan en livsløpsanalyse og sirkulær økonomi kan hjelpe bedriften med å ta mer bærekraftige valg.",
+        "fasit": "En livsløpsanalyse kartlegger miljøbelastningen fra råvareutvinning og produksjon til transport, bruk og avfall. Sirkulær økonomi kan påvirke utformingen slik at produktet varer lenge, kan repareres og kan gjenbrukes eller gjenvinnes.",
+        "kriterier": [
+          "Beskriver at livsløpsanalysen vurderer flere faser gjennom produktets livsløp.",
+          "Knytter sirkulær økonomi til lang levetid, reparasjon, gjenbruk eller gjenvinning."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En elev lager et kabinett i et DAK-program som skal produseres med en 3D-printer. Hvilke opplysninger bør arbeidstegningen inneholde for at en annen person skal kunne lage kabinettet nøyaktig?",
+        "fasit": "Tegningen bør vise produktet fra flere sider og ha tydelige mål med målelinjer og hjelpelinjer. Den bør også oppgi målestokk og relevante opplysninger som materiale, slik at andre kan lage riktig form og størrelse.",
+        "kriterier": [
+          "Nevner projeksjoner fra flere sider og tydelige mål.",
+          "Nevner målestokk og/eller materiale som relevant informasjon."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En datalogger viser at CO₂-nivået i et rom øker samtidig som antallet personer i rommet øker. Forklar hvorfor dette alene ikke beviser at flere personer er årsaken, og foreslå hvordan sammenhengen kan undersøkes bedre.",
+        "fasit": "At to størrelser øker samtidig, viser en korrelasjon, men beviser ikke i seg selv årsakssammenheng; for eksempel kan ventilasjonen også ha endret seg. Man kan gjenta målinger under kontrollerte forhold og endre antallet personer mens andre forhold, som ventilasjon, holdes mest mulig like.",
+        "kriterier": [
+          "Skiller mellom korrelasjon og bevist årsakssammenheng, og nevner en mulig alternativ forklaring.",
+          "Foreslår gjentatte eller kontrollerte målinger der andre forhold holdes like."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

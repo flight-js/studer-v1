@@ -87,9 +87,9 @@
       "text": "Hvorfor kombinerer mange forskere kvantitative og kvalitative metoder?",
       "options": [
         "For å få både bredde og dybde",
-        "Fordi det er påbudt",
-        "For å slippe analyse",
-        "For å unngå kildekritikk"
+        "For å få flere svar uten å bruke tid på analyse",
+        "For å stille de samme spørsmålene i alle intervjuene",
+        "For å slippe å vurdere kvaliteten på kildene"
       ],
       "correct": 0,
       "explain": "Metodene utfyller hverandre."
@@ -98,10 +98,10 @@
       "id": "q02",
       "text": "Hvorfor bør en analyse ofte bruke flere teorier?",
       "options": [
-        "Fordi det er påbudt",
+        "Fordi teorier bygger på de samme grunnleggende forklaringene",
         "Fordi hver teori ser noen sider og overser andre",
-        "Fordi teorier er like",
-        "For å gjøre teksten lengre"
+        "Fordi en analyse må følge en bestemt faglig regel",
+        "Fordi flere teorier gir analysen flere eksempler"
       ],
       "correct": 1,
       "explain": "Teorier er som ulike briller."
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "Hvorfor sies sosialisering å være livslang?",
       "options": [
-        "Fordi den bare skjer i barndommen",
+        "Fordi mennesker lærer nye normer ved hvert skolebytte",
         "Fordi nye livsfaser krever nye roller og normer",
-        "Fordi den skjer i søvne",
-        "Fordi den er arvelig"
+        "Fordi mennesker møter nye steder, men beholder de samme rollene",
+        "Fordi sosialisering handler om å gjenta kjente rutiner gjennom livet"
       ],
       "correct": 1,
       "explain": "For eksempel ny jobb eller foreldreskap."
@@ -122,10 +122,10 @@
       "id": "q04",
       "text": "Hvorfor kan strenge reaksjoner noen ganger gi mer avvik?",
       "options": [
-        "Fordi straff alltid virker",
+        "Fordi strenge reaksjoner viser at samfunnet godtar normbruddet som normalt",
         "Fordi stempling kan føre til at personen tar på seg avviksrollen",
-        "Fordi alle blir redde",
-        "Det kan de ikke"
+        "Fordi strenge reaksjoner gjør at lovbruddet ikke får juridiske følger",
+        "Fordi strenge reaksjoner lærer personen at normene ikke gjelder for andre"
       ],
       "correct": 1,
       "explain": "Stemplingsteorien."
@@ -135,9 +135,9 @@
       "text": "Hva er etnosentrisme?",
       "options": [
         "Å vurdere andre kulturer ut fra egen kultur som målestokk",
-        "Å studere etnisitet",
-        "Å respektere alle kulturer",
-        "Å reise mye"
+        "Å forstå andre kulturer ut fra deres egne normer og verdier",
+        "Å sammenligne ulike kulturer for å beskrive likheter og forskjeller",
+        "Å undersøke hvordan etniske grupper skiller seg fra hverandre"
       ],
       "correct": 0,
       "explain": "Egen kultur fremstår som den rette."
@@ -146,22 +146,22 @@
       "id": "q06",
       "text": "Hva er forskjellen på integrering og assimilering?",
       "options": [
-        "Det er det samme",
-        "Assimilering betyr å leve atskilt",
-        "Integrering betyr å gi opp egen kultur",
-        "Integrering innebærer deltakelse mens man beholder deler av egen kultur"
+        "Integrering og assimilering gir deltakelse uten krav om kulturell endring.",
+        "Integrering innebærer å leve atskilt, mens assimilering gir deltakelse i samfunnet.",
+        "Integrering krever at egen kultur oppgis, mens assimilering åpner for å bevare den.",
+        "Integrering gir deltakelse samtidig som deler av egen kultur beholdes."
       ],
       "correct": 3,
-      "explain": "Assimilering betyr å bli lik majoriteten."
+      "explain": "Assimilering innebærer tilpasning til majoritetskulturen, mens integrering gir rom for å beholde deler av egen kultur."
     },
     {
       "id": "q07",
       "text": "Hva er skjult makt ifølge Lukes?",
       "options": [
-        "Makt i en avstemning",
-        "Makt gjennom vold",
+        "Makten til å avgjøre utfallet av en synlig avstemning",
+        "Makten til å håndheve regler gjennom fysisk tvang og trusler",
         "Makten til å bestemme hva som kommer på dagsordenen",
-        "Makt over naturen"
+        "Makten til å kontrollere økonomiske ressurser og fordele dem ulikt"
       ],
       "correct": 2,
       "explain": "Noen saker blir aldri diskutert.",
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hva er et ekkokammer?",
       "options": [
-        "Et rom med ekko",
-        "En type podkast",
-        "En reklamekanal",
+        "Når vi møter mange ulike synspunkter på samme tema",
+        "Når algoritmer tilpasser innhold etter søk og klikk",
+        "Når brukere skjuler innlegg fra bestemte personer",
         "Når vi mest møter synspunkter som bekrefter våre egne"
       ],
       "correct": 3,
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hva er en ond sirkel i sammenheng med utenforskap?",
       "options": [
-        "En sosial aktivitet",
-        "En type tiltak",
-        "Et vennskap",
-        "At årsaker forsterker hverandre"
+        "At én enkelt årsak fører direkte til utenforskap",
+        "At utfordringer oppstår samtidig uten å påvirke hverandre",
+        "At et tiltak gradvis fjerner årsakene til utenforskap",
+        "At årsaker til utenforskap forsterker hverandre"
       ],
       "correct": 3,
       "explain": "For eksempel helse, frafall og lav inntekt."
@@ -195,9 +195,9 @@
       "id": "q10",
       "text": "Hvorfor er det feil å se urfolkskultur som noe som bare tilhører fortiden?",
       "options": [
-        "Fordi urfolk ikke har tradisjoner",
-        "Fordi alle urfolk bor i storbyer",
-        "Fordi kulturen er forbudt",
+        "Fordi tradisjonene deres har holdt seg uendret gjennom flere hundre år",
+        "Fordi urfolkskultur først ble dokumentert etter at den var i ferd med å forsvinne",
+        "Fordi dagens urfolkskultur hovedsakelig består av uttrykk fra majoritetskulturen",
         "Fordi mange lever moderne liv samtidig som de holder på språk og tradisjoner"
       ],
       "correct": 3,
@@ -207,10 +207,10 @@
       "id": "q11",
       "text": "Hvilken er en forutsetning for høy sosial mobilitet?",
       "options": [
-        "Dyr privatskole",
-        "Store lønnsforskjeller",
+        "Høye opptakskrav til videregående utdanning",
+        "Store forskjeller i familiers økonomiske ressurser",
         "Gratis og god utdanning for alle",
-        "Arv av yrke"
+        "Tidlig valg av yrke etter foreldrenes klasse"
       ],
       "correct": 2,
       "explain": "Gir like muligheter."
@@ -220,9 +220,9 @@
       "text": "Hva kjennetegner den norske modellen?",
       "options": [
         "Trepartssamarbeid, høy organisasjonsgrad og medbestemmelse",
-        "Ingen fagforeninger",
-        "Store lønnsforskjeller",
-        "Ingen arbeidsmiljølov"
+        "Topartssamarbeid, høy organisasjonsgrad og individuell lønnsfastsettelse",
+        "Trepartssamarbeid, lav organisasjonsgrad og svak medbestemmelse",
+        "Trepartssamarbeid, store lønnsforskjeller og begrenset medbestemmelse"
       ],
       "correct": 0,
       "explain": "Gir trygghet og små lønnsforskjeller."
@@ -231,10 +231,10 @@
       "id": "q13",
       "text": "Hva sier forskjellsprinsippet?",
       "options": [
-        "Alle skal ha nøyaktig like mye",
-        "Ulikhet er alltid bra",
-        "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode",
-        "Staten skal ikke fordele"
+        "Ulikhet godtas når den belønner dem som yter størst innsats",
+        "Ulikhet godtas når den øker samfunnets samlede rikdom",
+        "Ulikhet godtas bare når den bedrer situasjonen til de dårligst stilte",
+        "Ulikhet fjernes ved at alle får samme inntekt"
       ],
       "correct": 2,
       "explain": "Rawls' prinsipp.",
@@ -364,7 +364,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -504,12 +504,84 @@
           "Forklarer hvordan algoritmer velger innhold ut fra tidligere bruk.",
           "Nevner filterbobler eller ekkokamre og en mulig følge, som polarisering."
         ]
+      },
+      {
+        "text": "En forsker vil undersøke om skolens mobilforbud påvirker hvordan elever samarbeider i friminuttene. Beskriv en egnet måte å samle inn kunnskap om elevenes erfaringer, og forklar ett etisk hensyn forskeren må ivareta.",
+        "fasit": "Forskeren kan intervjue elever med åpne spørsmål for å få innsikt i erfaringene deres. Elevene må få vite hva de deltar i og kunne trekke seg, og opplysningene må behandles slik at de ikke kan gjenkjennes.",
+        "kriterier": [
+          "Foreslår en egnet kvalitativ metode som gir innsikt i elevenes erfaringer.",
+          "Nevner et relevant forskningsetisk hensyn, som informert samtykke eller anonymitet."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En skole bruker digitale logger til å registrere når elever kommer for sent, og elevene vet at ledelsen kan følge med. Forklar situasjonen med Foucaults begrep disiplinmakt, og vis hvordan elevenes handlinger også kan påvirke skolens praksis.",
+        "fasit": "Foucaults disiplinmakt virker gjennom overvåking og normalisering: Elevene kan rette seg etter skolens forventninger fordi de vet at de kan bli observert. Hvis elever handler sammen og protesterer mot praksisen, kan de også bidra til at skolen endrer den.",
+        "kriterier": [
+          "Knytter disiplinmakt til overvåking og at mennesker tilpasser seg normer.",
+          "Viser at elevers handlinger kan påvirke eller endre praksis og strukturer."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En global motetrend blir populær blant ungdom i Norge, men de blander den med lokale klær og uttrykk. Forklar hvordan dette kan være et eksempel på både kulturell spredning og kulturell blanding.",
+        "fasit": "Trenden sprer seg mellom kulturer, noe som kalles diffusjon. Når ungdom blander globale impulser med lokale uttrykk og skaper noe nytt, er det hybridisering eller kreolisering; det viser også at kultur er i endring.",
+        "kriterier": [
+          "Forklarer diffusjon som spredning av kulturelle impulser.",
+          "Knytter blandingen av globale og lokale elementer til hybridisering/kreolisering eller kulturendring."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En seremoni markerer at en person går fra én sosial status til en annen. Forklar de tre fasene i en overgangsrite, og hvordan ritualet kan hjelpe personen inn i en ny rolle.",
+        "fasit": "Overgangsriter består av atskillelse fra den gamle statusen, en liminal fase mellom det gamle og det nye, og innlemmelse i den nye statusen. Ritualet markerer overgangen og kan gjøre det tydelig for både personen og fellesskapet at personen har fått en ny rolle.",
+        "kriterier": [
+          "Nevner atskillelse, liminal overgangsfase og innlemmelse.",
+          "Forklarer at ritualet markerer ny status eller hjelper personen inn i en ny rolle."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En kjent kunstner har høy anseelse, men middels inntekt og liten innflytelse på politiske beslutninger. Forklar hvordan Weber ville skilt mellom personens klasse, stand og parti.",
+        "fasit": "Kunstnerens middels inntekt sier noe om klasseposisjonen. Den høye anseelsen viser høy status eller stand, mens den lille politiske innflytelsen tyder på lav makt i Webers betydning av parti.",
+        "kriterier": [
+          "Knytter klasse til økonomisk posisjon, som inntekt.",
+          "Knytter stand til status og anseelse, og parti til politisk makt eller innflytelse."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En person ønsker å bli rik, men bruker svindel fordi hen mener at lovlige veier til målet ikke er tilgjengelige. Hvilken tilpasning hos Merton beskriver dette, og hvorfor?",
+        "fasit": "Dette er innovasjon. Personen godtar samfunnets mål om rikdom, men bruker ulovlige midler for å nå det.",
+        "kriterier": [
+          "Identifiserer tilpasningen som innovasjon.",
+          "Forklarer at personen godtar målet, men bruker ulovlige midler."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "På et moderne sykehus utfører ulike yrkesgrupper spesialiserte oppgaver og er avhengige av hverandre. Hvordan ville Durkheim forklart samholdet i et slikt samfunn, og hvordan skiller dette seg fra samhold i et enklere samfunn?",
+        "fasit": "Durkheim ville kalt samholdet organisk solidaritet, fordi mennesker med ulike oppgaver er avhengige av hverandre. I enklere samfunn bygger mekanisk solidaritet i større grad på at folk ligner hverandre og deler verdier.",
+        "kriterier": [
+          "Knytter arbeidsdeling og gjensidig avhengighet til organisk solidaritet.",
+          "Skiller dette fra mekanisk solidaritet, som bygger på likhet og felles verdier."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "I Fosen-saken protesterte unge samer og miljøaktivister mot vindkraftverk. Forklar hvordan protestene viser makt nedenfra, og hvorfor saken også handlet om samenes rettigheter som urfolk.",
+        "fasit": "Protestene viser makt nedenfra fordi grupper uten formell beslutningsmakt forsøkte å påvirke saken gjennom protest. Saken handlet om urfolks rettigheter fordi Høyesterett slo fast at vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse.",
+        "kriterier": [
+          "Forklarer protest som en måte grupper kan påvirke samfunnet uten formell makt.",
+          "Knytter saken til samenes rett til kulturutøvelse eller urfolks rettigheter."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

@@ -88,9 +88,9 @@
       "text": "Hva er eggløsning?",
       "options": [
         "Når et modent egg slippes ut fra eggstokken",
-        "Når fosteret blir født",
-        "Når menstruasjonen starter",
-        "Når sædceller dannes"
+        "Når et befruktet egg fester seg i livmoren",
+        "Når livmoren støter ut slimhinnen som menstruasjon",
+        "Når et egg blir laget inne i eggstokken"
       ],
       "correct": 0,
       "explain": "Eggløsningen skjer omtrent én gang i måneden."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilken prevensjonsmetode beskytter også mot seksuelt overførbare infeksjoner?",
       "options": [
-        "P-piller",
-        "P-stav",
+        "Kobberspiral",
+        "P-ring",
         "Kondom",
-        "Hormonspiral"
+        "P-plaster"
       ],
       "correct": 2,
       "explain": "Kondomet hindrer kontakt med kroppsvæsker og beskytter derfor også mot SOI."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvorfor er klamydia lett å overse?",
       "options": [
-        "Den gir alltid høy feber",
-        "Den smitter ikke",
-        "Den varer bare én dag",
+        "Den gir ofte høy feber",
+        "Den gir ofte utslett på huden",
+        "Den gir ofte sår på kjønnsorganene",
         "Den gir ofte ingen symptomer"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva betyr samtykke?",
       "options": [
         "At alle involverte frivillig sier ja og kan ombestemme seg",
-        "At man har sagt ja én gang for alltid",
-        "At foreldrene har sagt ja",
-        "At man ikke har sagt nei"
+        "At et ja til én handling gjelder for andre også",
+        "At et ja fra én person gjelder for partneren",
+        "At man kan regne med ja fra en man kjenner"
       ],
       "correct": 0,
       "explain": "Samtykke må være frivillig og kan trekkes tilbake når som helst."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er den seksuelle lavalderen i Norge?",
       "options": [
-        "14 år",
-        "15 år",
+        "13 år",
+        "17 år",
         "16 år",
-        "18 år"
+        "20 år"
       ],
       "correct": 2,
       "explain": "Den seksuelle lavalderen i Norge er 16 år."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva skjer hvis egget ikke blir befruktet?",
       "options": [
-        "Det utvikler seg likevel til et foster",
+        "Egget fester seg fast i livmorveggen",
         "Livmorslimhinnen støtes ut som menstruasjon",
-        "Egget blir i eggstokken for alltid",
-        "Det dannes nye sædceller"
+        "Egget modnes videre inne i egglederen",
+        "Egget går tilbake til eggstokken"
       ],
       "correct": 1,
       "explain": "Slimhinnen som ble bygd opp, trengs ikke og støtes ut."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken SOI finnes det vaksine mot i barnevaksinasjonsprogrammet?",
       "options": [
-        "Klamydia",
-        "Gonoré",
-        "Herpes",
+        "Syfilis",
+        "Mykoplasma",
+        "Trikomonas",
         "HPV"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hvor kan unge få gratis veiledning om prevensjon og seksuell helse?",
       "options": [
         "Helsestasjon for ungdom",
-        "Bare hos privatlege mot betaling",
-        "Ingen steder",
-        "I butikken"
+        "Skolebiblioteket",
+        "NAV-kontoret",
+        "Tannklinikken"
       ],
       "correct": 0,
       "explain": "Helsestasjon for ungdom tilbyr gratis og konfidensiell hjelp.",
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Er det lovlig å dele nakenbilder av andre uten samtykke?",
       "options": [
-        "Ja, hvis bildet ble sendt til deg",
-        "Ja, hvis det er en venn",
-        "Nei, det er ulovlig",
-        "Ja, hvis man er over 16"
+        "Ja, tillatelse til fotografering gir delingsrett",
+        "Ja, lukket vennegruppe gjør deling lovlig",
+        "Nei, deling uten samtykke er ulovlig",
+        "Ja, tidligere bildedeling betyr nytt samtykke"
       ],
       "correct": 2,
       "explain": "Deling av slike bilder uten samtykke er straffbart og kan skade den som blir utsatt for det.",
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er seksuell orientering?",
         "options": [
-          "Hvilket kjønn man er født med",
+          "Hvilket kjønn man selv opplever å ha",
           "Hvem man forelsker seg i og tiltrekkes av",
-          "Hvor gammel man er",
-          "Hvilken prevensjon man bruker"
+          "Hvordan man velger å kle seg og uttrykke seg",
+          "Hvem man velger å være sammen med som venn"
         ],
         "correct": 1,
         "explain": "Seksuell orientering handler om tiltrekning og forelskelse."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvor lang er en menstruasjonssyklus ofte?",
         "options": [
-          "7 dager",
-          "14 dager",
+          "Rundt 10 dager",
+          "Rundt 45 dager",
           "Rundt 28 dager",
-          "60 dager"
+          "Rundt 90 dager"
         ],
         "correct": 2,
         "explain": "Rundt 28 dager er vanlig, men syklusen varierer mye."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva kan klamydia føre til hvis den ikke behandles?",
         "options": [
-          "Bedre immunforsvar",
+          "Livmorhalskreft",
           "Nedsatt fruktbarhet",
-          "Ingenting",
-          "Høyere blodsukker"
+          "Genital herpes",
+          "Økt fruktbarhet"
         ],
         "correct": 1,
         "explain": "Ubehandlet klamydia kan gi betennelser som skader fruktbarheten."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

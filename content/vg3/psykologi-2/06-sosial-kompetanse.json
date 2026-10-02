@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er selvhevdelse?",
       "options": [
-        "Å alltid få viljen sin",
+        "Å si sin mening uten å ta hensyn til andres reaksjoner",
         "Å si sin mening og stå imot press på en respektfull måte",
-        "Å være stille",
-        "Å dominere andre"
+        "Å unngå uenighet ved å tilpasse seg andres ønsker",
+        "Å få gjennomslag ved å avbryte andres synspunkter"
       ],
       "correct": 1,
       "explain": "Respekterer også andre."
@@ -89,8 +89,8 @@
       "options": [
         "Autoritativ",
         "Autoritær",
-        "Forsømmende",
-        "Ettergivende"
+        "Ettergivende",
+        "Forsømmende"
       ],
       "correct": 0,
       "explain": "Varme og tydelige grenser."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er theory of mind?",
       "options": [
-        "En teori om hjernen",
-        "Evnen til å huske",
+        "Kunnskapen om hvordan hjernen lagrer minner og følelser",
+        "Evnen til å huske egne tanker og følelser",
         "Forståelsen av at andre har egne tanker og følelser",
-        "En type intelligens-test"
+        "Forståelsen av hvordan hjernen styrer tanker og følelser"
       ],
       "correct": 2,
       "explain": "Mentalisering."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva lærer barn gjennom lek?",
       "options": [
-        "Bare motorikk",
-        "Ingenting sosialt",
-        "Bare regning",
+        "Å følge voksnes instrukser og gjenta innøvde svar",
+        "Å løse individuelle oppgaver uten å samhandle med andre",
+        "Å lære faglige regler gjennom voksenstyrt undervisning",
         "Turtaking, forhandling og konfliktløsning"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er samregulering?",
       "options": [
-        "At voksne hjelper barnet å roe ned sterke følelser",
-        "At barn regulerer hverandre",
-        "At barnet klarer alt selv",
-        "At følelser undertrykkes"
+        "At voksne hjelper barnet med å roe ned sterke følelser",
+        "At barnet hjelper voksne med å roe ned sterke følelser",
+        "At barnet roer ned sterke følelser uten støtte fra voksne",
+        "At voksne får barnet til å skjule sterke følelser"
       ],
       "correct": 0,
       "explain": "Før barnet klarer det selv."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor er sosial kompetanse situasjonsavhengig?",
       "options": [
-        "Fordi den er medfødt",
-        "Fordi den aldri endres",
+        "Fordi sosial kompetanse handler om personlighet, ikke situasjonen",
+        "Fordi sosiale normer er de samme på tvers av kulturer",
         "Fordi det som fungerer, varierer mellom situasjoner og kulturer",
-        "Fordi den bare gjelder barn"
+        "Fordi sosial kompetanse utvikles ferdig i barndommen"
       ],
       "correct": 2,
       "explain": "Kulturelle normer varierer."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Kan sosial kompetanse læres?",
       "options": [
-        "Nei, den er fast",
-        "Bare i barndommen",
-        "Bare av voksne",
+        "Nei, ferdighetene er stabile og endres lite gjennom livet",
+        "Ja, gjennom biologisk modning uavhengig av erfaring",
+        "Nei, sosial kompetanse formes ikke gjennom øvelse",
         "Ja, gjennom trening og tilbakemeldinger"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva gir en trygg tilknytning?",
       "options": [
         "En trygg base for å utforske verden",
-        "Mer sjenanse",
-        "Mindre empati",
-        "Flere konflikter"
+        "Et mønster der barnet unngår å utforske omgivelsene",
+        "En grunn til å søke bekreftelse før utforskning",
+        "En støtte for å unngå nye og ukjente situasjoner"
       ],
       "correct": 0,
       "explain": "Bowlby."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Kan en introvert person ha god sosial kompetanse?",
       "options": [
-        "Nei, aldri",
-        "Ja",
-        "Bare på nett",
-        "Bare i familien"
+        "Nei, introversjon hindrer mestring av sosiale situasjoner",
+        "Ja, en introvert person kan ha god sosial kompetanse",
+        "Ja, dersom personen blir utadvendt i sosiale situasjoner",
+        "Nei, god sosial kompetanse krever et utadvendt temperament"
       ],
       "correct": 1,
       "explain": "Kompetanse handler om å mestre situasjoner."
@@ -325,9 +325,9 @@
         "text": "Rundt hvilken alder utvikles theory of mind tydelig?",
         "options": [
           "Fire–fem år",
-          "Ett år",
-          "Ti år",
-          "Femten år"
+          "Ett–to år",
+          "Åtte–ni år",
+          "Elleve–tolv år"
         ],
         "correct": 0,
         "explain": "Men den utvikles videre gjennom ungdomstiden.",
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

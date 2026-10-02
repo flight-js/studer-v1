@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på en vare og en tjeneste?",
       "options": [
-        "En vare er gratis, en tjeneste koster penger",
+        "En vare er en oppgave man gjør, en tjeneste er en ting man kjøper",
         "En vare er noe fysisk, en tjeneste er noe man gjør for andre",
-        "Det er ingen forskjell",
-        "En tjeneste er alltid mat"
+        "En vare er noe man leier, en tjeneste er noe man eier",
+        "En vare er en avtale om arbeid, en tjeneste er et ferdig produkt"
       ],
       "correct": 1,
       "explain": "En kake er en vare, mens å servere kaka er en tjeneste."
@@ -91,9 +91,9 @@
       "id": "q02",
       "text": "Hvem er oppdragsgiveren?",
       "options": [
-        "Læreren som gir karakter",
-        "Den som utfører arbeidet",
-        "Rektor",
+        "Den som lager varen eller utfører tjenesten",
+        "Den som planlegger arbeidet og fordeler oppgavene",
+        "Den som kontrollerer arbeidet etter at det er gjort",
         "Den som ønsker varen eller tjenesten"
       ],
       "correct": 3,
@@ -104,9 +104,9 @@
       "text": "Hvilket spørsmål hører til en arbeidsplan?",
       "options": [
         "Hvem gjør hva, og når?",
-        "Hva er favorittfilmen din?",
-        "Hvor bor oppdragsgiveren?",
-        "Hvor gammel er læreren?"
+        "Hvor mye koster materialene, og hvem betaler?",
+        "Hvilken kvalitet skal varen ha, og hvorfor?",
+        "Hvor skal oppdragsgiveren kjøpe varen?"
       ],
       "correct": 0,
       "explain": "Arbeidsplanen fordeler oppgaver og setter frister."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hvordan kan du finne ut hvilke behov som finnes på skolen?",
       "options": [
-        "Gjette",
-        "Kopiere et annet prosjekt",
+        "Gjette ut fra egne ønsker eller kopiere et oppdrag fra før",
+        "Se på skolens timeplan eller lese skolens ordensregler",
         "Spørre elever og ansatte eller lage en spørreundersøkelse",
-        "Vente til noen klager"
+        "Undersøke skolens utstyr eller telle antall klasserom"
       ],
       "correct": 2,
       "explain": "Å spørre gir et bedre grunnlag for oppdraget."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er et budsjett i et arbeidsoppdrag?",
       "options": [
-        "En tidsplan",
-        "En tegning",
+        "En oversikt over hvor lang tid oppdraget vil ta",
+        "En oversikt over hvilke oppgaver som skal utføres",
         "En oversikt over hva oppdraget vil koste",
-        "En logg"
+        "En oversikt over hvem som skal gjøre oppgavene"
       ],
       "correct": 2,
       "explain": "Budsjettet viser utgiftene til blant annet materialer.",
@@ -141,9 +141,9 @@
       "text": "Hvorfor bør du føre logg?",
       "options": [
         "For å dokumentere hva du har gjort og lært",
-        "For å slippe å jobbe",
-        "Fordi det er gøy å skrive",
-        "For å få høyere lønn"
+        "For å planlegge hvilke oppgaver du skal gjøre neste gang",
+        "For å avtale med oppdragsgiveren hva arbeidet skal koste",
+        "For å vise hvem som skal utføre hver oppgave"
       ],
       "correct": 0,
       "explain": "Loggen er nyttig når arbeidet skal vurderes."
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "Hva er kvalitetskrav?",
       "options": [
-        "Prisen på varen",
-        "Antall arbeidere",
-        "Tidspunktet for levering",
+        "Krav til hvor mye produktet eller tjenesten skal koste",
+        "Krav til hvor mange personer som skal utføre arbeidet",
+        "Krav til når produktet eller tjenesten skal leveres",
         "Krav til hvor godt produktet eller tjenesten skal være"
       ],
       "correct": 3,
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hvilke utdanningsprogram henter arbeidslivsfaget innhold fra?",
       "options": [
-        "Studiespesialisering",
+        "De studieforberedende utdanningsprogrammene",
         "De yrkesfaglige utdanningsprogrammene",
-        "Universitetet",
-        "Barnehagen"
+        "Utdanningsprogrammene på ungdomsskolen",
+        "Utdanningsprogrammene på universitetet"
       ],
       "correct": 1,
       "explain": "For eksempel restaurant og mat eller bygg og anlegg."
@@ -177,9 +177,9 @@
       "text": "Hva er en materialliste?",
       "options": [
         "En oversikt over materialene som trengs",
-        "En liste over kunder",
-        "En lønnsslipp",
-        "En tidsplan"
+        "En oversikt over verktøyene som skal brukes",
+        "En oversikt over oppgavene som skal gjøres",
+        "En oversikt over utgiftene til oppdraget"
       ],
       "correct": 0,
       "explain": "Materiallisten brukes også når man lager budsjett.",
@@ -189,9 +189,9 @@
       "id": "q10",
       "text": "Hvorfor er planlegging viktig?",
       "options": [
-        "Det gir flere feil",
-        "Det gjør arbeidet dyrere",
-        "Det er bare for lærere",
+        "Det gjør arbeidet mer kostbart og gir flere feil",
+        "Det gjør at oppgavene ikke trenger å fordeles",
+        "Det gjør at frister blir mindre viktige",
         "Det sparer tid og penger og gir færre feil"
       ],
       "correct": 3,
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er en bestilling?",
         "options": [
-          "En avklaring av hva som skal lages, hvor mange, når og til hvilken kvalitet",
-          "En faktura",
-          "En klage",
-          "En kvittering"
+          "En avklaring av hva som skal lages, antall, frist og kvalitet",
+          "En oversikt over kostnadene kunden skal betale for arbeidet",
+          "En melding om at arbeidet ikke holder avtalt kvalitet",
+          "Et bevis på at kunden har betalt for oppdraget"
         ],
         "correct": 0,
         "explain": "Bestillingen er grunnlaget for hele oppdraget."
@@ -336,9 +336,9 @@
         "text": "Hva er et eksempel på en vare?",
         "options": [
           "Å klippe hår",
-          "En fuglekasse",
+          "En liten fuglekasse",
           "Å passe barn",
-          "Å vaske en bil"
+          "Å vaske bilen"
         ],
         "correct": 1,
         "explain": "De andre alternativene er tjenester."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er en arbeidstegning?",
         "options": [
-          "En tegning fra kunstfag",
-          "Et bilde av arbeiderne",
+          "En tegning som viser hvor arbeidsplassen ligger på kartet",
+          "En skisse som viser formen på produktet, uten mål",
           "En tegning som viser hvordan noe skal lages, med mål",
-          "En tegneserie"
+          "En tegning som viser hvilke farger produktet skal ha"
         ],
         "correct": 2,
         "explain": "Arbeidstegninger brukes blant annet i bygg og produksjon.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

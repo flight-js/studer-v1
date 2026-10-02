@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er entreprenørskap?",
       "options": [
-        "Å jobbe i en stor bedrift",
+        "Å lage en grundig plan uten å sette den ut i livet",
         "Å se muligheter og gjøre ideer om til handling",
-        "Å kjøpe aksjer",
-        "Å være leder på skolen"
+        "Å drive en bedrift uten å utvikle nye ideer",
+        "Å undersøke markedet uten å starte et tiltak"
       ],
       "correct": 1,
       "explain": "Entreprenører skaper noe nytt."
@@ -91,9 +91,9 @@
       "text": "Hvilke tre spørsmål svarer en forretningsidé på?",
       "options": [
         "Hva, til hvem og hvordan skiller vi oss ut?",
-        "Hvor, når og hvorfor?",
-        "Hvem, hva og hvor mye?",
-        "Når, hvordan og hvor lenge?"
+        "Hvor, når og hvorfor starter vi bedriften?",
+        "Hvem lager regnskapet, hva koster det og når betaler vi?",
+        "Hvor kjøper vi utstyr, hvem ansetter vi og når åpner vi?"
       ],
       "correct": 0,
       "explain": "Forretningsideen er grunnlaget for bedriften."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "Hva er en målgruppe?",
       "options": [
-        "Bedriftens ansatte",
-        "Bedriftens konkurrenter",
-        "Bedriftens eiere",
+        "Personene som jobber i bedriften",
+        "Bedriftene som selger lignende produkter",
+        "Personene som eier en del av bedriften",
         "De kundene bedriften ønsker å nå"
       ],
       "correct": 3,
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva står de fire P-ene for?",
       "options": [
-        "Penger, planer, personer og profitt",
+        "Produkt, pris, produksjon og personale",
         "Produkt, pris, plass og påvirkning",
-        "Pakking, porto, post og papir",
-        "Plan, prosess, produkt og presentasjon"
+        "Produkt, plass, påvirkning og planlegging",
+        "Pris, plass, profil og personale"
       ],
       "correct": 1,
       "explain": "De fire P-ene kalles markedsføringsmiksen."
@@ -126,8 +126,8 @@
       "id": "q05",
       "text": "Inntektene er 8000 kr og kostnadene 5500 kr. Hva er resultatet?",
       "options": [
-        "13 500 kr",
-        "5500 kr",
+        "13 500 kr i overskudd",
+        "5500 kr i overskudd",
         "2500 kr i overskudd",
         "2500 kr i underskudd"
       ],
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er nullpunktet?",
       "options": [
-        "Antallet man må selge for at inntektene skal dekke kostnadene",
-        "Når bedriften starter",
-        "Når bedriften har null kunder",
-        "Prisen på produktet"
+        "Antallet som må selges for at inntektene skal dekke kostnadene",
+        "Antallet varer bedriften må selge før den kan betale eierne utbytte",
+        "Beløpet bedriften må tjene inn for å dekke bare de faste kostnadene",
+        "Prisen per vare som gjør at salget gir et ønsket overskudd"
       ],
       "correct": 0,
       "explain": "Etter nullpunktet går bedriften med overskudd."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvordan skaffer mange elevbedrifter startkapital?",
       "options": [
-        "Ved å låne i banken",
+        "Ved å ta opp et ordinært lån med pant i bedriftens eiendom",
         "Ved å selge andeler til familie og venner",
-        "Ved å få penger fra staten",
-        "Ved å ta pengene fra skolen"
+        "Ved å få et fast etableringstilskudd fra staten",
+        "Ved å bruke overskudd fra årets salg før oppstarten"
       ],
       "correct": 1,
       "explain": "Andelseierne får pengene tilbake ved avviklingen.",
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva gjør den økonomiansvarlige i en elevbedrift?",
       "options": [
-        "Lager plakater",
-        "Produserer varene",
-        "Leder styremøtene",
+        "Har ansvar for plakater, reklame og kontakt med kunder",
+        "Har ansvar for å lage produkter og kontrollere kvaliteten",
+        "Har ansvar for å lede møter og fordele oppgaver",
         "Har ansvar for budsjett, regnskap og kasse"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvorfor bør man gjøre en markedsundersøkelse?",
       "options": [
-        "For å finne ut om noen vil kjøpe produktet og hva de vil betale",
-        "For å slippe å lage produktet",
-        "Fordi det er påbudt ved lov",
-        "For å finne en daglig leder"
+        "For å undersøke om kunder vil kjøpe produktet og til hvilken pris",
+        "For å beregne hvor mye skatt bedriften skal betale",
+        "For å finne ut hvem som skal ha lederansvar i bedriften",
+        "For å kontrollere hvor mange varer bedriften har på lager"
       ],
       "correct": 0,
       "explain": "Da reduserer man risikoen for å lage noe ingen vil ha."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva skjer når en elevbedrift avvikles?",
       "options": [
-        "Eierne mister pengene sine",
-        "Bedriften fortsetter for alltid",
-        "Varelageret selges, eierne får tilbake andelene og det skrives årsrapport",
-        "Skolen overtar bedriften"
+        "Varelageret selges, eierne får ikke andelene tilbake og en årsrapport skrives",
+        "Varelageret beholdes, eierne får andelene tilbake og en årsrapport skrives",
+        "Varelageret selges, eierne får andelene tilbake og en årsrapport skrives",
+        "Varelageret selges, eierne får andelene tilbake og bedriften videreføres neste skoleår"
       ],
       "correct": 2,
       "explain": "Avviklingen skjer ved slutten av skoleåret.",
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva handler P-en «plass» om?",
         "options": [
-          "Hvor mye produktet koster",
+          "Hvor mye det koster å lage og pakke produktet",
           "Hvor og hvordan kundene får kjøpt produktet",
-          "Hvor stort lokalet er",
-          "Hvor mange ansatte bedriften har"
+          "Hvilken kvalitet og utforming produktet skal ha",
+          "Hvordan bedriften reklamerer for produktet til kundene"
         ],
         "correct": 1,
         "explain": "Det kan være en stand, en nettbutikk eller levering på døra."
@@ -338,9 +338,9 @@
         "type": "flervalg",
         "text": "Hvilken organisasjon støtter elev- og ungdomsbedrifter i Norge?",
         "options": [
-          "NAV",
-          "Mattilsynet",
-          "Arbeidstilsynet",
+          "Innovasjon Norge",
+          "Næringslivets Hovedorganisasjon",
+          "Elevorganisasjonen",
           "Ungt Entreprenørskap"
         ],
         "correct": 3,
@@ -353,9 +353,9 @@
         "text": "Hva er startkapital?",
         "options": [
           "Penger bedriften trenger for å komme i gang",
-          "Overskuddet ved slutten av året",
-          "Lønnen til daglig leder",
-          "Prisen på én vare"
+          "Pengene som blir igjen etter at utgiftene er betalt",
+          "Beløpet bedriften bruker på lønn til daglig leder",
+          "Pengene som kommer inn fra salg i løpet av året"
         ],
         "correct": 0,
         "explain": "Startkapitalen brukes blant annet til innkjøp."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

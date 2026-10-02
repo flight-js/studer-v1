@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er partisippet av «spielen»?",
       "options": [
-        "spielt",
         "gespielen",
+        "gespiel",
         "gespielt",
-        "spielte"
+        "gespielte"
       ],
       "correct": 2,
       "explain": "Regelrette verb får ge- + stamme + -t."
@@ -104,8 +104,8 @@
       "id": "q03",
       "text": "Hvilken setning er riktig?",
       "options": [
-        "Ich habe gespielt gestern Fußball.",
-        "Ich gestern habe Fußball gespielt.",
+        "Ich bin gestern Fußball gespielt.",
+        "Ich habe gestern Fußball spielen.",
         "Gestern ich habe Fußball gespielt.",
         "Ich habe gestern Fußball gespielt."
       ],
@@ -118,8 +118,8 @@
       "options": [
         "geesst",
         "gegessen",
-        "gessen",
-        "geessen"
+        "geessen",
+        "gegesset"
       ],
       "correct": 1,
       "explain": "«essen» er uregelrett: gegessen."
@@ -129,8 +129,8 @@
       "text": "Hvordan sier du «Jeg reiste til Berlin»?",
       "options": [
         "Ich habe nach Berlin gefahren.",
-        "Ich fahre nach Berlin gefahren.",
         "Ich bin nach Berlin gefahrt.",
+        "Ich bin nach Berlin fahren.",
         "Ich bin nach Berlin gefahren."
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva betyr «Es war toll»?",
       "options": [
-        "Det er gal",
+        "Det var kjedelig",
         "Det var kjempebra",
-        "Det blir fint",
-        "Det var kjedelig"
+        "Det er kjempebra",
+        "Det blir kjempebra"
       ],
       "correct": 1,
       "explain": "«toll» betyr fantastisk eller kjempebra."
@@ -155,7 +155,7 @@
         "Forrige helg",
         "Neste helg",
         "Hver helg",
-        "Helgen som kommer"
+        "Kommende helg"
       ],
       "correct": 0,
       "explain": "«letzt» betyr forrige eller siste."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er partisippet av «aufstehen»?",
       "options": [
-        "geaufstanden",
-        "aufstehen",
+        "aufgestandet",
+        "aufgestieht",
         "aufgestanden",
-        "aufgesteht"
+        "gestanden"
       ],
       "correct": 2,
       "explain": "Delbare verb får ge- i midten."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva er «ich hatte»?",
       "options": [
-        "Presens av haben",
-        "Perfektum av sein",
-        "Futurum av haben",
+        "Presens av haben: jeg har",
+        "Perfektum av haben: jeg har hatt",
+        "Futurum av haben: jeg skal ha",
         "Preteritum av haben: jeg hadde"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "text": "Hvordan lages partisippet av mange regelrette verb?",
       "options": [
         "ge- + stamme + -t",
-        "stamme + -en",
         "ge- + stamme + -en",
-        "stamme + -te"
+        "stamme + ge- + -t",
+        "ge- + stamme + -te"
       ],
       "correct": 0,
       "explain": "For eksempel machen → gemacht."
@@ -323,8 +323,8 @@
         "options": [
           "getrinkt",
           "getrunken",
-          "getranken",
-          "trunken"
+          "getrunket",
+          "getrunkt"
         ],
         "correct": 1,
         "explain": "«trinken» er uregelrett."
@@ -337,7 +337,7 @@
           "For to dager siden",
           "Om to dager",
           "I to dager",
-          "Før klokka to"
+          "To dager framover"
         ],
         "correct": 0,
         "explain": "«vor» + tid betyr «for … siden»."
@@ -350,7 +350,7 @@
           "sein",
           "werden",
           "haben",
-          "mögen"
+          "bleiben"
         ],
         "correct": 2,
         "explain": "«sehen» uttrykker ikke bevegelse: «ich habe gesehen»."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

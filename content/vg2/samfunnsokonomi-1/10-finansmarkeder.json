@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er en aksje?",
       "options": [
-        "Et banklån",
+        "Et lån til et selskap",
         "En eierandel i et selskap",
-        "En type valuta",
-        "En skatt"
+        "En renteavtale med et selskap",
+        "Et innskudd i en bank"
       ],
       "correct": 1,
       "explain": "Handles blant annet på Oslo Børs."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva er en obligasjon?",
       "options": [
-        "Et verdipapir som viser at noen har lånt penger og betaler renter",
-        "En eierandel",
-        "En forsikring",
-        "En valuta"
+        "Et verdipapir som viser at en låntaker skal betale renter",
+        "Et verdipapir som gir eierandel i et selskap",
+        "Et verdipapir som gir rett til utbytte fra et selskap",
+        "Et verdipapir som gir stemmerett på generalforsamlingen"
       ],
       "correct": 0,
       "explain": "Stat, kommuner og bedrifter utsteder obligasjoner."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er en viktig oppgave for finansmarkedene?",
       "options": [
-        "Å fastsette skattene",
-        "Å produsere varer",
+        "Å styre forbruket mot importerte varer",
+        "Å flytte skatteinntekter til offentlige tjenester",
         "Å kanalisere sparing til investeringer",
-        "Å bestemme lønningene"
+        "Å bestemme hvor mye bedrifter skal produsere"
       ],
       "correct": 2,
       "explain": "Sparing blir til lån og investeringer."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er en boble i et marked?",
       "options": [
-        "At prisene faller",
-        "At det ikke finnes kjøpere",
-        "Et statlig inngrep",
+        "At prisene stiger omtrent i takt med inntektene",
+        "At prisene faller under det som er fundamentalt begrunnet",
+        "At omsetningen øker raskere enn verdien av selskapene",
         "At prisene stiger langt over det som er fundamentalt begrunnet"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva utløste finanskrisen i 2008?",
       "options": [
         "Tap på amerikanske boliglån",
-        "En krig",
-        "Lav oljepris alene",
-        "En pandemi"
+        "Fall i amerikanske aksjekurser",
+        "Kollaps i europeiske statsfinanser",
+        "Kraftig økning i oljeprisen"
       ],
       "correct": 0,
       "explain": "Tapene spredte seg til banker verden over.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvem fører tilsyn med banker i Norge?",
       "options": [
-        "Konkurransetilsynet",
+        "Norges Bank",
         "Finanstilsynet",
-        "Forbrukertilsynet",
-        "Datatilsynet"
+        "Finansdepartementet",
+        "Oslo Børs"
       ],
       "correct": 1,
       "explain": "Også forsikring og verdipapirmarkedet.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvorfor kan høy husholdningsgjeld være en risiko?",
       "options": [
-        "Fordi den gir lavere renter",
-        "Fordi den øker sparingen",
+        "Fordi husholdningene får høyere inntekter når renten stiger",
+        "Fordi høy gjeld gir husholdningene lavere lånerente",
         "Fordi husholdningene må kutte forbruket hvis renten stiger",
-        "Fordi den er ulovlig"
+        "Fordi høy gjeld gir husholdningene større renteinntekter"
       ],
       "correct": 2,
       "explain": "Kan forsterke en nedgang."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er bankpanikk?",
       "options": [
-        "At bankene stenger om natta",
-        "At renten er høy",
-        "At banken tjener for mye",
+        "At mange banker låner ut penger samtidig til kundene",
+        "At bankene setter opp rentene for innskudd samtidig",
+        "At mange kunder flytter sparepengene mellom banker samtidig",
         "At mange vil ta ut pengene sine samtidig"
       ],
       "correct": 3,
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hvorfor må bankene ha nok egenkapital?",
       "options": [
-        "For å tåle tap",
-        "For å betale mer skatt",
-        "For å gi høyere lønn",
-        "For å slippe tilsyn"
+        "For å kunne tåle økonomiske tap",
+        "For å kunne betale skatt på overskudd",
+        "For å kunne gi kundene høyere innskuddsrente",
+        "For å kunne unngå offentlig tilsyn"
       ],
       "correct": 0,
       "explain": "Gjør banksystemet mer robust."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvordan kan finansmarkedene bidra til bærekraft?",
       "options": [
-        "Ved å forby lån",
+        "Ved at kapital styres mot prosjekter med høye utslipp",
         "Ved at kapital styres mot klimavennlige prosjekter",
-        "Ved å stoppe all handel",
-        "Ved å øke gjelden"
+        "Ved at kapital styres mot prosjekter med høyest kortsiktig avkastning",
+        "Ved at kapital styres mot prosjekter uten vurdering av miljøvirkning"
       ],
       "correct": 1,
       "explain": "For eksempel grønne obligasjoner.",
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva gjør innskuddsgarantien?",
         "options": [
-          "Garanterer aksjekursene",
+          "Sikrer aksjeinvesteringer opp til et visst beløp",
           "Sikrer bankinnskudd opp til et visst beløp",
-          "Garanterer lav rente",
-          "Garanterer høy lønn"
+          "Sikrer banklån opp til et visst beløp",
+          "Sikrer obligasjoner opp til et visst beløp"
         ],
         "correct": 1,
         "explain": "Reduserer faren for bankpanikk."
@@ -336,9 +336,9 @@
         "text": "Hvordan kan Norges Bank hjelpe i en finanskrise?",
         "options": [
           "Ved å låne ut penger til bankene",
-          "Ved å stenge børsen for alltid",
-          "Ved å øke skattene",
-          "Ved å forby sparing"
+          "Ved å gi bankene tilskudd fra statsbudsjettet",
+          "Ved å låne penger direkte til husholdningene",
+          "Ved å kjøpe aksjer fra bankene"
         ],
         "correct": 0,
         "explain": "Bidrar til finansiell stabilitet.",
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva betyr risikospredning?",
         "options": [
-          "Å sette alle pengene i én aksje",
-          "Å låne mest mulig",
+          "Å velge investeringer med høyest forventet avkastning",
+          "Å plassere pengene i én trygg sparekonto",
           "Å fordele pengene på mange investeringer",
-          "Å ta ut alle pengene"
+          "Å kjøpe flere aksjer i samme selskap"
         ],
         "correct": 2,
         "explain": "Reduserer faren for store tap."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

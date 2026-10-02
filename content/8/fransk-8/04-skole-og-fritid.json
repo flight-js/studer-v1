@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hvordan sier du «Jeg liker å lese»?",
       "options": [
-        "J'aime lire.",
-        "Je lis aime.",
-        "J'aime de lire.",
-        "Je aime lire."
+        "J'aime bien lire.",
+        "Je préfère lire.",
+        "Je veux lire.",
+        "Je sais lire."
       ],
       "correct": 0,
       "explain": "«aimer» etterfølges av infinitiv, og «je» blir «j'» foran vokal."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva betyr «ennuyeux»?",
       "options": [
-        "Morsom",
-        "Lett",
+        "Interessant",
+        "Vanskelig",
         "Kjedelig",
-        "Vanskelig"
+        "Spennende"
       ],
       "correct": 2,
       "explain": "Ordet er i slekt med engelsk «annoying»."
@@ -105,9 +105,9 @@
       "id": "q03",
       "text": "Hvordan sier du «spille fotball»?",
       "options": [
-        "jouer de la foot",
-        "faire le foot",
-        "jouer du foot",
+        "jouer au tennis",
+        "jouer au basket",
+        "jouer aux cartes",
         "jouer au foot"
       ],
       "correct": 3,
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hvordan sier du «spille gitar»?",
       "options": [
-        "jouer à la guitare",
+        "jouer du piano",
         "jouer de la guitare",
-        "faire la guitare",
-        "jouer guitare"
+        "jouer de la batterie",
+        "jouer du violon"
       ],
       "correct": 1,
       "explain": "Med instrumenter bruker du «jouer de»."
@@ -129,9 +129,9 @@
       "id": "q05",
       "text": "Hva er «le collège» i Frankrike?",
       "options": [
-        "Universitetet",
-        "Barnehagen",
-        "Videregående skole",
+        "Barneskolen for elever fra ca. 6 til 11 år",
+        "Videregående skole for elever fra ca. 15 til 18 år",
+        "Barnehagen for barn fra ca. 3 til 6 år",
         "Ungdomsskolen for elever fra ca. 11 til 15 år"
       ],
       "correct": 3,
@@ -142,9 +142,9 @@
       "text": "Hvilken karakterskala brukes ofte i franske skoler?",
       "options": [
         "0 til 20",
-        "1 til 6",
-        "A til F",
-        "1 til 10"
+        "0 til 10",
+        "1 til 20",
+        "0 til 100"
       ],
       "correct": 0,
       "explain": "10 av 20 regnes som bestått.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva betyr «parfois»?",
       "options": [
-        "Alltid",
+        "Ganske ofte",
         "Noen ganger",
-        "Aldri",
-        "Ofte"
+        "Svært sjelden",
+        "Nesten daglig"
       ],
       "correct": 1,
       "explain": "«souvent» betyr ofte, og «jamais» betyr aldri."
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hva heter faget kroppsøving på fransk?",
       "options": [
-        "les arts plastiques",
-        "la musique",
+        "les sciences",
+        "la géographie",
         "l'EPS",
-        "l'histoire"
+        "les mathématiques"
       ],
       "correct": 2,
       "explain": "EPS står for «éducation physique et sportive»."
@@ -179,9 +179,9 @@
       "text": "Hvordan spør du «Hva liker du å gjøre?»",
       "options": [
         "Qu'est-ce que tu aimes faire ?",
-        "Tu habites où ?",
-        "Quelle heure est-il ?",
-        "Ça va ?"
+        "Qu'est-ce que tu aimes lire ?",
+        "Qu'est-ce que tu fais après l'école ?",
+        "Qu'est-ce que tu veux faire ?"
       ],
       "correct": 0,
       "explain": "«faire» betyr å gjøre."
@@ -190,9 +190,9 @@
       "id": "q10",
       "text": "Hva betyr «Ma matière préférée, c'est l'histoire»?",
       "options": [
-        "Jeg liker ikke historie",
-        "Historie er vanskelig",
-        "Læreren min underviser i historie",
+        "Yndlingsfaget mitt er geografi",
+        "Historiefaget mitt er vanskelig",
+        "Favorittlæreren min underviser i historie",
         "Yndlingsfaget mitt er historie"
       ],
       "correct": 3,
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva betyr «dessiner»?",
         "options": [
-          "Å danse",
+          "Å male",
           "Å tegne",
-          "Å svømme",
-          "Å lese"
+          "Å løpe",
+          "Å skrive"
         ],
         "correct": 1,
         "explain": "Ordet er i slekt med norsk «design»."
@@ -335,9 +335,9 @@
         "text": "Hva betyr «le week-end»?",
         "options": [
           "Helgen",
-          "Ferien",
+          "Uka",
           "Kvelden",
-          "Uken"
+          "Måneden"
         ],
         "correct": 0,
         "explain": "Ordet er lånt fra engelsk."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva betyr «C'est difficile»?",
         "options": [
-          "Det er lett",
-          "Det er morsomt",
+          "Det er interessant",
+          "Det er stressende",
           "Det er vanskelig",
-          "Det er kjedelig"
+          "Det er nyttig"
         ],
         "correct": 2,
         "explain": "Lett heter «facile»."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

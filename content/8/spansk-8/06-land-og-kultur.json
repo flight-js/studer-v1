@@ -93,10 +93,10 @@
       "id": "q01",
       "text": "Hva er hovedstaden i Spania?",
       "options": [
-        "Barcelona",
+        "Málaga",
         "Madrid",
-        "Sevilla",
-        "Valencia"
+        "Zaragoza",
+        "Bilbao"
       ],
       "correct": 1,
       "explain": "Barcelona er Spanias nest største by."
@@ -105,9 +105,9 @@
       "id": "q02",
       "text": "Hvilke språk snakkes i Spania i tillegg til spansk?",
       "options": [
-        "Portugisisk og italiensk",
-        "Fransk og tysk",
-        "Engelsk og arabisk",
+        "Portugisisk, italiensk og fransk",
+        "Fransk, tysk og engelsk",
+        "Arabisk, engelsk og portugisisk",
         "Katalansk, galisisk og baskisk"
       ],
       "correct": 3,
@@ -119,9 +119,9 @@
       "text": "Hva er «tortilla española»?",
       "options": [
         "Potetomelett",
-        "Maisbrød",
-        "Et bakverk",
-        "En suppe"
+        "Maislefse",
+        "Spansk risrett",
+        "Kjøttpai"
       ],
       "correct": 0,
       "explain": "I Mexico er en tortilla derimot et flatt brød av mais.",
@@ -131,10 +131,10 @@
       "id": "q04",
       "text": "Hva feires i Mexico 1. og 2. november?",
       "options": [
-        "Uavhengighetsdagen",
-        "Jul",
-        "Día de Muertos, de dødes dag",
-        "Nyttår"
+        "Día de la Independencia",
+        "Cinco de Mayo",
+        "Día de Muertos (de dødes dag)",
+        "Día de la Candelaria"
       ],
       "correct": 2,
       "explain": "Familier minnes sine døde med altere, blomster og mat.",
@@ -144,10 +144,10 @@
       "id": "q05",
       "text": "Hvem gir barna gaver 6. januar i Spania?",
       "options": [
-        "Julenissen",
-        "Påskeharen",
-        "Mormor",
-        "Los Reyes Magos, de tre vise menn"
+        "Papá Noel",
+        "Olentzero",
+        "Tió de Nadal",
+        "Los Reyes Magos (de tre vise menn)"
       ],
       "correct": 3,
       "explain": "Dagen kalles også helligtrekongersdag.",
@@ -157,10 +157,10 @@
       "id": "q06",
       "text": "Hvilken arkitekt tegnet Sagrada Família i Barcelona?",
       "options": [
-        "Pablo Picasso",
+        "Santiago Calatrava",
         "Antoni Gaudí",
-        "Salvador Dalí",
-        "Diego Velázquez"
+        "Rafael Moneo",
+        "Juan de Herrera"
       ],
       "correct": 1,
       "explain": "Kirken har vært under bygging i over hundre år.",
@@ -170,10 +170,10 @@
       "id": "q07",
       "text": "Hva gjør mange spanjoler ved midnatt på nyttårsaften?",
       "options": [
-        "Hopper i sjøen",
-        "Spiser pannekaker",
+        "Spiser tolv kirsebær",
+        "Spiser tolv oliven",
         "Spiser tolv druer",
-        "Synger nasjonalsangen"
+        "Drikker tolv slurker vin"
       ],
       "correct": 2,
       "explain": "Én drue for hvert klokkeslag skal gi lykke i det nye året.",
@@ -184,9 +184,9 @@
       "text": "Hvilket land har inkabyen Machu Picchu?",
       "options": [
         "Peru",
-        "Mexico",
-        "Argentina",
-        "Cuba"
+        "Bolivia",
+        "Ecuador",
+        "Chile"
       ],
       "correct": 0,
       "explain": "Machu Picchu ligger høyt oppe i Andesfjellene.",
@@ -199,7 +199,7 @@
         "Tango",
         "Flamenco",
         "Salsa",
-        "Samba"
+        "Merengue"
       ],
       "correct": 1,
       "explain": "Tango kommer fra Argentina og Uruguay.",
@@ -209,9 +209,9 @@
       "id": "q10",
       "text": "Når spiser mange spanjoler middag?",
       "options": [
-        "Klokka 16",
-        "Klokka 17",
-        "Klokka 18",
+        "Rundt klokka 16 eller 17",
+        "Rundt klokka 17 eller 18",
+        "Rundt klokka 18 eller 19",
         "Rundt klokka 21 eller 22"
       ],
       "correct": 3,
@@ -358,9 +358,9 @@
         "text": "Hva er tapas?",
         "options": [
           "Små retter som deles",
-          "En type dans",
-          "En festival",
-          "Et fotballag"
+          "En kald tomatsuppe",
+          "En spansk potetomelett",
+          "En søt mandelkake"
         ],
         "correct": 0,
         "explain": "Tapas spises ofte sammen med venner."
@@ -384,10 +384,10 @@
         "type": "flervalg",
         "text": "Hva er La Tomatina?",
         "options": [
-          "En tomatsuppe",
+          "En fest der folk løper foran okser",
           "En fest der folk kaster tomater på hverandre",
-          "En sang",
-          "En fotballklubb"
+          "En fest der folk bygger mennesketårn",
+          "En fest der folk kaster appelsiner"
         ],
         "correct": 1,
         "explain": "Festen holdes i byen Buñol i august.",
@@ -478,6 +478,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilken dato stormet folket Bastillen?",
       "options": [
-        "1. mai 1789",
+        "10. august 1792",
         "14. juli 1789",
-        "4. juli 1776",
-        "11. november 1918"
+        "21. januar 1793",
+        "18. juni 1815"
       ],
       "correct": 1,
       "explain": "Dagen er Frankrikes nasjonaldag."
@@ -92,9 +92,9 @@
       "text": "Hva slo menneskerettighetserklæringen fra 1789 fast?",
       "options": [
         "At alle mennesker fødes frie og like i rettigheter",
-        "At kongen har all makt",
-        "At kirken skal styre staten",
-        "At Frankrike skal ha kolonier"
+        "At kongen skulle velges direkte av det franske folket",
+        "At adelen skulle beholde sine gamle særrettigheter i Frankrike",
+        "At kirken skulle styre staten sammen med kongen"
       ],
       "correct": 0,
       "explain": "Erklæringen fikk stor betydning i hele verden."
@@ -103,21 +103,21 @@
       "id": "q03",
       "text": "Når kronet Napoleon seg til keiser?",
       "options": [
-        "1789",
-        "1815",
+        "1799",
+        "1812",
         "1804",
-        "1870"
+        "1815"
       ],
       "correct": 2,
-      "explain": "Han ble beseiret ved Waterloo i 1815."
+      "explain": "Napoleon ble keiser ved en kroningsseremoni i Paris i 1804."
     },
     {
       "id": "q04",
       "text": "Hva var la Résistance?",
       "options": [
-        "Vichy-regimet",
+        "Vichy-regimet under okkupasjonen",
         "Den franske hæren i 1914",
-        "En politisk avis",
+        "En politisk avis under krigen",
         "Motstandsbevegelsen under okkupasjonen"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvordan sier du «i 1789» på fransk?",
       "options": [
         "en 1789",
-        "dans 1789",
-        "à 1789",
-        "le 1789"
+        "vers 1789",
+        "depuis 1789",
+        "pour 1789"
       ],
       "correct": 0,
       "explain": "Årstall bruker en."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva betyr «il fut» i en historisk tekst?",
       "options": [
-        "han ble født",
+        "han hadde",
         "han var",
-        "han flyktet",
-        "han ville"
+        "han gjorde",
+        "han dro"
       ],
       "correct": 1,
       "explain": "fut er passé simple av être."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Når ble Algerie selvstendig?",
       "options": [
-        "1945",
-        "1957",
+        "1954",
+        "1958",
         "1962",
-        "1989"
+        "1961"
       ],
       "correct": 2,
       "explain": "Det skjedde etter en blodig krig.",
@@ -164,22 +164,22 @@
       "id": "q08",
       "text": "Hva skjedde i Normandie 6. juni 1944?",
       "options": [
-        "Tyskland okkuperte Frankrike",
-        "Paris ble bombet",
-        "Napoleon tapte",
+        "De allierte frigjorde Paris",
+        "Tyske styrker invaderte Sør-Frankrike",
+        "Frankrike overga seg til Tyskland",
         "De allierte gikk i land"
       ],
       "correct": 3,
-      "explain": "Paris ble frigjort i august 1944."
+      "explain": "Landgangen åpnet en vestfront mot den tyske okkupasjonen."
     },
     {
       "id": "q09",
       "text": "Hvilken traktat fra 1957 var grunnlaget for det som i dag er EU?",
       "options": [
         "Roma-traktaten",
-        "Versailles-traktaten",
+        "Paris-traktaten",
         "Maastricht-traktaten",
-        "Wien-traktaten"
+        "Nice-traktaten"
       ],
       "correct": 0,
       "explain": "Frankrike var et av grunnleggerlandene.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva betyr «La Bastille a été prise en 1789»?",
       "options": [
-        "Bastillen tok 1789.",
+        "Bastillen ble bygget i 1789.",
         "Bastillen ble tatt i 1789.",
-        "Bastillen skal tas i 1789.",
-        "Bastillen var tom i 1789."
+        "Bastillen hadde blitt tatt i 1789.",
+        "Bastillen ble forlatt i 1789."
       ],
       "correct": 1,
       "explain": "Passiv: être + partisipp."
@@ -322,8 +322,8 @@
         "options": [
           "han tok",
           "han ba",
-          "han pratet",
-          "han priset"
+          "han satte",
+          "han skrev"
         ],
         "correct": 0,
         "explain": "prit er passé simple av prendre."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvem ledet De frie franske styrkene fra London?",
         "options": [
-          "Napoleon",
+          "Philippe Pétain",
           "Charles de Gaulle",
-          "Ludvig 16.",
-          "Victor Hugo"
+          "Jean Moulin",
+          "Georges Clemenceau"
         ],
         "correct": 1,
         "explain": "De Gaulle ble senere president.",
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvilket slag i 1916 er et symbol på redslene i første verdenskrig?",
         "options": [
-          "Waterloo",
-          "Normandie",
+          "Marne",
+          "Ypres",
           "Verdun",
-          "Austerlitz"
+          "Gallipoli"
         ],
         "correct": 2,
         "explain": "Slaget ved Verdun kostet hundretusener av liv.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

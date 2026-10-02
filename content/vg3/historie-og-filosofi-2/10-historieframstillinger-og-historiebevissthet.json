@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva betyr intensjon i en historieframstilling?",
       "options": [
-        "Hvor gammel kilden er",
-        "Hva opphavspersonen vil oppnå",
-        "Hvor lang teksten er",
-        "Hvem som leste den"
+        "Kildens alder da opphavspersonen laget framstillingen",
+        "Opphavspersonens mål med å lage framstillingen",
+        "Lesernes kunnskap om temaet i framstillingen",
+        "Tekstens lengde og plassering i en samling"
       ],
       "correct": 1,
       "explain": "Informere, overbevise eller selge?"
@@ -94,9 +94,9 @@
       "text": "Hva er et eksempel på frigjørende historiebruk?",
       "options": [
         "Kvinnehistorie som viser kvinner som aktører",
-        "Nazistenes rasehistorie",
-        "Sovjetisk retusjering",
-        "Kolonial nedvurdering"
+        "Kvinnehistorie som framstiller kvinner som tilskuere",
+        "Samisk historie som framstiller samer som uten egen kultur",
+        "Arbeiderhistorie som framstiller arbeidere som passive mottakere"
       ],
       "correct": 0,
       "explain": "Gir grupper stemme.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva gjorde sovjetiske myndigheter med personer som falt i unåde?",
       "options": [
-        "Hedret dem",
-        "Skrev biografier om dem",
+        "Beholdt dem i offentlige bilder og lærebøker",
+        "Skrev biografier om dem i sovjetiske historiebøker",
         "Fjernet dem fra bilder og historien",
-        "Satte opp statuer"
+        "Oppkalte offentlige bygninger etter dem i hovedstaden"
       ],
       "correct": 2,
       "explain": "Undertrykkende historiebruk.",
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva er historiebevissthet?",
       "options": [
-        "Å kunne mange årstall",
-        "Å lese historiebøker",
-        "Å like historie",
-        "Forbindelsen mellom fortolkning av fortiden, nåtiden og framtiden"
+        "Kunnskapen om viktige hendelser i fortid og nåtid",
+        "Evnen til å skille historiske kilder fra fortellinger",
+        "Interessen for hvordan fortiden påvirker samfunnet i dag",
+        "Sammenhengen mellom fortolkninger av fortid, nåtid og framtid"
       ],
       "correct": 3,
       "explain": "Den virker begge veier."
@@ -132,9 +132,9 @@
       "text": "Hvordan preger samtiden fortolkningen av fortiden?",
       "options": [
         "Hva vi synes er viktig i dag, påvirker spørsmålene vi stiller til fortiden",
-        "Den gjør ikke det",
-        "Samtiden endrer kildene",
-        "Samtiden sletter fortiden"
+        "Fortidens verdier påvirker hva vi synes er viktig i dagens samfunn og forskning",
+        "Samtidens samfunn endrer ordlyden i kildene som ble laget i fortiden",
+        "Historikere velger temaer ut fra kildenes alder, snarere enn dagens interesser"
       ],
       "correct": 0,
       "explain": "Hver generasjon skriver historien på nytt."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva gjør sannhetskommisjoner?",
       "options": [
-        "Dømmer forbrytere til døden",
+        "Lar domstoler fastsette straff for personer dømt for urett",
         "Lar ofre fortelle om urett som ble fortiet",
-        "Skriver lærebøker",
-        "Bygger museer"
+        "Lar myndigheter skrive nye lærebøker om tidligere konflikter",
+        "Lar lokalsamfunn bygge minnesmerker over krigens ofre"
       ],
       "correct": 1,
       "explain": "Bidrar til forsoning.",
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvordan framstilte kolonimakter ofte de koloniserte?",
       "options": [
-        "Som historiske helter",
-        "Som likeverdige",
+        "Som folk med en likeverdig plass i verdenshistorien",
+        "Som folk som grunnla de europeiske statene",
         "Som folk «uten historie»",
-        "Som ledere"
+        "Som folk med politisk kontroll over kolonimaktene"
       ],
       "correct": 2,
       "explain": "Undertrykkende historiebruk.",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva kan endre historiebevisstheten?",
       "options": [
-        "Ingenting",
-        "Bare kongelige vedtak",
-        "At alle kilder forsvinner",
+        "Skiftende arkivregler, nye papirtyper og endrede skrifttyper",
+        "Historiske årstall, geografiske navn og kildeformater",
+        "Nye lærebokomslag, ulike skrifttyper og moderne arkivsystemer",
         "Nye kilder, nye stemmer og endrede verdier"
       ],
       "correct": 3,
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "Hvordan har synet på 1814 endret seg?",
       "options": [
-        "Fra heroisk fortelling til mer nyansert forståelse med blant annet jødeparagrafen",
-        "Fra negativt til heroisk",
-        "Det har ikke endret seg",
-        "1814 er glemt"
+        "Fra en heroisk fortelling til en mer nyansert forståelse med vekt på jødeparagrafen",
+        "Fra en kritisk fortelling til en heroisk forståelse der jødeparagrafen fikk større plass",
+        "Fra en heroisk fortelling til en økonomisk forståelse der unionen ble hovedtema",
+        "Fra en fortelling om selvstendighet til en fortelling om at Norge forble dansk"
       ],
       "correct": 0,
       "explain": "Endringen sier noe om vår tids verdier.",
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva betyr det å være historiebevisst?",
       "options": [
-        "Å tro at vi står utenfor historien",
+        "Å mene at historikere kan forstå fortiden uten påvirkning fra egen samtid",
         "Å se at også vår forståelse er preget av tiden vi lever i",
-        "Å bare lese om krig",
-        "Å unngå fortiden"
+        "Å rette oppmerksomheten mot krigshistorie framfor samfunnsendringer i nåtiden",
+        "Å unngå å bruke fortiden når man tolker dagens samfunn og framtid"
       ],
       "correct": 1,
       "explain": "Framtidige generasjoner vil tolke oss."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv løfter fram vanlige menneskers liv?",
         "options": [
-          "Makthavernes perspektiv",
+          "Perspektivet ovenfra",
           "Perspektivet nedenfra",
-          "Kongens perspektiv",
-          "Vinnernes perspektiv"
+          "Perspektivet fra eliten",
+          "Perspektivet fra seierherrene"
         ],
         "correct": 1,
         "explain": "Gir nye stemmer plass.",
@@ -333,9 +333,9 @@
         "text": "Hva brukte nazistene historien til?",
         "options": [
           "Å rettferdiggjøre erobring og folkemord",
-          "Å fremme forsoning",
-          "Å gi minoriteter rettigheter",
-          "Å kritisere seg selv"
+          "Å kritisere erobring og forfølgelse",
+          "Å fremme fred og europeisk forsoning",
+          "Å sikre minoriteter politisk selvbestemmelse"
         ],
         "correct": 0,
         "explain": "Undertrykkende historiebruk.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvordan kan samisk historie fortalt fra samisk ståsted virke?",
         "options": [
-          "Undertrykkende",
-          "Nøytralt uten virkning",
+          "Assimilerende og svekkende for samisk identitet og rettigheter",
+          "Nøytral og uten betydning for samisk identitet og rettigheter",
           "Frigjørende og styrkende for identitet og rettigheter",
-          "Forfalskende"
+          "Undertrykkende og legitimerende for statens makt over samer"
         ],
         "correct": 2,
         "explain": "Bidrar også til forsoning.",
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

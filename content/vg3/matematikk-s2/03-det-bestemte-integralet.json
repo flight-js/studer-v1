@@ -92,7 +92,7 @@
         "5",
         "6",
         "7",
-        "4"
+        "3"
       ],
       "correct": 0,
       "explain": "(1 + 2 + 3 + 4) · 0,5."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvordan defineres det bestemte integralet?",
       "options": [
-        "Som den deriverte",
-        "Som venstresummen med n = 4",
-        "Som f(b) − f(a)",
+        "Som summen av rektanglenes arealer for et fast n",
+        "Som grenseverdien av funksjonsverdiene når x nærmer seg b",
+        "Som differansen mellom funksjonsverdiene i endepunktene",
         "Som grenseverdien av summene når n → ∞"
       ],
       "correct": 3,
@@ -127,7 +127,7 @@
       "options": [
         "Negativt",
         "Positivt",
-        "Ikke i det hele tatt",
+        "Null",
         "Dobbelt"
       ],
       "correct": 0,
@@ -139,7 +139,7 @@
       "options": [
         "Salg per dag",
         "Totalt salg i perioden",
-        "Gjennomsnittlig pris",
+        "Gjennomsnittlig salg per dag",
         "Antall dager"
       ],
       "correct": 1,
@@ -174,9 +174,9 @@
       "text": "Hvordan finner du samlet areal når grafen krysser x-aksen?",
       "options": [
         "Del opp ved nullpunktene og legg sammen tallverdiene",
-        "Integrer over hele intervallet",
-        "Bruk bare venstresum",
-        "Det er ikke mulig"
+        "Del opp ved toppunktene og legg sammen tallverdiene",
+        "Integrer hele intervallet og behold fortegnene på bidragene",
+        "Bruk én venstresum på hele intervallet som samlet areal"
       ],
       "correct": 0,
       "explain": "Ellers kan positive og negative bidrag nulle hverandre ut."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva skjer med summene når n øker?",
       "options": [
-        "De blir tilfeldige",
+        "De blir stadig mer tilfeldige",
         "De nærmer seg integralet",
-        "De blir null",
-        "De vokser uendelig"
+        "De nærmer seg null",
+        "De vokser uten øvre grense"
       ],
       "correct": 1,
       "explain": "Integralet er grenseverdien."
@@ -301,7 +301,7 @@
         "text": "Hva gir vannføring i L/min integrert over minutter?",
         "options": [
           "Liter per minutt",
-          "Antall liter",
+          "Liter",
           "Minutter",
           "Liter per sekund"
         ],
@@ -316,7 +316,7 @@
           "7",
           "5",
           "6",
-          "8"
+          "14"
         ],
         "correct": 0,
         "explain": "(2 + 3 + 4 + 5) · 0,5."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva kalles funksjonen f(x) i ∫ₐᵇ f(x) dx?",
         "options": [
-          "Grensen",
-          "Antideriverten",
+          "Integrasjonsintervallet",
+          "Stamfunksjonen",
           "Integranden",
-          "Differansen"
+          "Integrasjonsvariabelen"
         ],
         "correct": 2,
         "explain": "Den som integreres."
@@ -414,6 +414,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

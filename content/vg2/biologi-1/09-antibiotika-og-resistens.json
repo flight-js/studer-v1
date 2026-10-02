@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvorfor virker ikke antibiotika mot virus?",
       "options": [
-        "Virus er for store",
+        "Virus har en cellevegg som beskytter dem mot antibiotika",
         "Virus mangler strukturene antibiotika angriper, som cellevegg og ribosomer",
-        "Virus er alltid resistente",
-        "Antibiotika blir brutt ned av virus"
+        "Virus formerer seg så raskt at antibiotika ikke rekker fram",
+        "Virus bryter ned virkestoffene i antibiotika før de virker"
       ],
       "correct": 1,
       "explain": "Virus bruker vertscellens maskineri."
@@ -92,9 +92,9 @@
       "text": "Hvordan virker penicillin?",
       "options": [
         "Hindrer bakteriene i å bygge cellevegg",
-        "Ødelegger virus",
-        "Styrker immunforsvaret",
-        "Bryter ned DNA i våre celler"
+        "Hindrer bakteriene i å lage ribosomer",
+        "Hindrer bakteriene i å kopiere DNA",
+        "Hindrer bakteriene i å lage proteiner"
       ],
       "correct": 0,
       "explain": "Våre celler har ikke cellevegg."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er horisontal genoverføring?",
       "options": [
-        "At gener arves fra foreldre",
-        "At bakterier dør",
+        "At bakterier arver gener fra foreldrene",
+        "At bakterier endrer gener ved celledeling",
         "At bakterier deler gener med hverandre",
-        "At mennesker får nye gener"
+        "At bakterier får gener fra vertsceller"
       ],
       "correct": 2,
       "explain": "Ofte via plasmider."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvorfor fører mye bruk av antibiotika til mer resistens?",
       "options": [
-        "Antibiotika lager nye bakterier",
-        "Antibiotika gjør bakteriene større",
-        "Antibiotika skader immunforsvaret",
+        "Antibiotika får bakteriene til å utvikle resistens mens de formerer seg",
+        "Antibiotika dreper de resistente bakteriene, slik at følsomme bakterier formerer seg",
+        "Antibiotika gjør bakteriene mindre, så de tåler medisinen bedre",
         "De følsomme bakteriene dør, og de resistente overlever og formerer seg"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er MRSA?",
       "options": [
-        "Et virus",
+        "Multiresistente gule streptokokker",
         "Multiresistente gule stafylokokker",
-        "Et nytt antibiotikum",
-        "En vaksine"
+        "Antibiotikaresistente tarmbakterier hos mennesker",
+        "Et virus som tåler antibiotika"
       ],
       "correct": 1,
       "explain": "Motstandsdyktig mot flere antibiotika.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvorfor bør man velge smalspektrede antibiotika når det er mulig?",
       "options": [
-        "De er alltid billigere",
-        "De virker også mot virus",
+        "De rammer flere bakterietyper og gir sterkere seleksjon for resistens",
+        "De behandler virusinfeksjoner og forebygger dermed resistens",
         "De rammer færre nyttige bakterier og gir mindre seleksjon for resistens",
-        "De har ingen bivirkninger"
+        "De påvirker tarmfloraen mer og gir mindre seleksjon for resistens"
       ],
       "correct": 2,
       "explain": "Bredspektrede påvirker hele tarmfloraen."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvilken behandling blir mer risikabel uten virksomme antibiotika?",
       "options": [
-        "Forkjølelse",
-        "Brilleutprøving",
-        "Tannpuss",
+        "Allergivaksinering og fysioterapi",
+        "Allergibehandling og samtaleterapi",
+        "Psykoterapi og synskorrigering",
         "Operasjoner og kreftbehandling"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva er et plasmid?",
       "options": [
         "En liten DNA-ring i bakterier",
-        "Et virus",
-        "En del av cellemembranen",
-        "Et antibiotikum"
+        "Et lite proteinmolekyl i bakterier",
+        "En DNA-tråd i bakterienes kromosom",
+        "Et enzym som bryter ned antibiotika"
       ],
       "correct": 0,
       "explain": "Kan overføres mellom bakterier."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvordan kan vaksiner bidra mot antibiotikaresistens?",
       "options": [
-        "De dreper resistente bakterier direkte",
+        "De stimulerer immunforsvaret til å fjerne resistente bakterier direkte",
         "De forebygger infeksjoner og dermed behovet for antibiotika",
-        "De inneholder antibiotika",
-        "De gjør ingen forskjell"
+        "De inneholder små mengder antibiotika som forebygger infeksjoner",
+        "De forebygger virusinfeksjoner, men påvirker ikke antibiotikabruken"
       ],
       "correct": 1,
       "explain": "Mindre bruk gir mindre seleksjon."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan resistens spre seg raskt?",
         "options": [
-          "Bakterier lever lenge",
+          "Antibiotika får bakterier til å dele seg raskere",
           "Bakterier formerer seg svært raskt",
-          "Bakterier er store",
-          "Bakterier har cellekjerne"
+          "Resistens oppstår fordi bakterier har mange gener",
+          "Resistens sprer seg gjennom bakterienes lange levetid"
         ],
         "correct": 1,
         "explain": "Mange generasjoner på kort tid."
@@ -338,9 +338,9 @@
         "text": "Hvorfor bruker norsk fiskeoppdrett lite antibiotika i dag?",
         "options": [
           "Vaksiner har gjort fisken friskere",
-          "Fisk kan ikke få bakterieinfeksjoner",
-          "Antibiotika er forbudt i all matproduksjon",
-          "Laks tåler ikke antibiotika"
+          "Antibiotika er forbudt i norsk fiskeoppdrett",
+          "Fiskeoppdrett bruker antibiotika mest mot virusinfeksjoner",
+          "Oppdrettslaks tåler dårlig behandling med antibiotika"
         ],
         "correct": 0,
         "explain": "Vaksinering av oppdrettsfisk.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva er en bakteriofag?",
         "options": [
-          "En bakterie som spiser virus",
-          "En hvit blodcelle",
+          "En bakterie som angriper andre bakterier",
+          "Et virus som angriper menneskeceller",
           "Et virus som angriper bakterier",
-          "Et antibiotikum fra sopp"
+          "Et protein som angriper bakterieceller"
         ],
         "correct": 2,
         "explain": "Mulig alternativ behandling.",
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

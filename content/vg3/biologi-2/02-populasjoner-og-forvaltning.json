@@ -81,8 +81,8 @@
       "options": [
         "J-formet",
         "S-formet",
-        "Rett linje",
-        "Sirkel"
+        "U-formet",
+        "Omvendt S-formet"
       ],
       "correct": 1,
       "explain": "Veksten avtar mot bæreevnen."
@@ -92,9 +92,9 @@
       "text": "Hva er bæreevnen?",
       "options": [
         "Det største antallet individer miljøet kan bære over tid",
-        "Antall fødsler per år",
-        "Dyrets styrke",
-        "Mengden mat per dag"
+        "Det største antallet individer som fødes hvert år",
+        "Antallet individer miljøet kan støtte i løpet av ett år",
+        "Det minste antallet individer som sikrer vekst i bestanden"
       ],
       "correct": 0,
       "explain": "Kalles K."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilken faktor er tetthetsavhengig?",
       "options": [
-        "Flom",
-        "Kulde",
+        "En plutselig flom",
+        "En lang kuldeperiode",
         "Konkurranse om mat",
-        "Skogbrann"
+        "Et lynnedslag som starter brann"
       ],
       "correct": 2,
       "explain": "Sterkere virkning ved høy tetthet."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva kjennetegner en K-strategist?",
       "options": [
-        "Mange avkom og lite omsorg",
-        "Kort levetid",
-        "Store svingninger",
+        "Mange avkom, lite omsorg og kort levetid",
+        "Få avkom, lite omsorg og kort levetid",
+        "Mange avkom, mye omsorg og lang levetid",
         "Få avkom, mye omsorg og lang levetid"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvorfor svinger bestandene av gaupe og snøskohare i takt?",
       "options": [
-        "Fordi rovdyrene øker når byttedyrene øker, og omvendt",
-        "Fordi de spiser samme mat",
-        "Fordi de lever i ulike land",
-        "Tilfeldigheter"
+        "Fordi flere harer gir gaupa mer mat, og flere gauper reduserer harebestanden",
+        "Fordi gaupa og haren konkurrerer om den samme maten i området",
+        "Fordi begge bestandene øker når plantemengden blir større",
+        "Fordi gaupa formerer seg raskere enn haren i gode år"
       ],
       "correct": 0,
       "explain": "Predator–byttedyr-syklus.",
@@ -142,8 +142,8 @@
       "options": [
         "Når uttaket er større enn tilveksten",
         "Når uttaket er mindre enn tilveksten",
-        "Når alle dyrene høstes",
-        "Aldri"
+        "Når uttaket tilsvarer bestandens samlede størrelse",
+        "Når uttaket holdes likt fra år til år"
       ],
       "correct": 1,
       "explain": "Da kan bestanden opprettholdes."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilken konflikt er knyttet til rovdyr i Norge?",
       "options": [
-        "Rovdyr og turisme alene",
-        "Rovdyr og fiske",
-        "Beitenæringen taper sau og rein, mens andre vil ha levedyktige bestander",
-        "Ingen konflikt"
+        "Fiskere mister torskefangst, mens andre vil sikre bestander av landlevende rovdyr",
+        "Skogeiere taper tømmerinntekter, mens andre ønsker større rovdyrbestander",
+        "Beitenæringen mister sau og rein, mens andre ønsker levedyktige rovdyrbestander",
+        "Turistbedrifter mister fisketurister, mens andre ønsker levedyktige rovdyrbestander"
       ],
       "correct": 2,
       "explain": "Løses med soneforvaltning og bestandsmål."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva truer villaksen?",
       "options": [
-        "For mye mat i elvene",
-        "Fredning",
-        "Kalde vintre",
+        "Fisketrapper og vernede elvestrekninger",
+        "Rikelig gyteareal og god vannføring",
+        "Fredning og restaurerte gyteområder",
         "Lakselus og rømt oppdrettslaks"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er en tetthetsuavhengig faktor?",
       "options": [
         "Et uvær",
-        "Sykdom",
-        "Predasjon",
-        "Konkurranse"
+        "Et sykdomsutbrudd i bestanden",
+        "Økt predasjon på unge individer",
+        "Konkurranse om mat i bestanden"
       ],
       "correct": 0,
       "explain": "Virker uansett tetthet."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva skjer i et smågnagerår?",
       "options": [
-        "Rovdyrene dør ut",
+        "Rev, rovfugler og ugler får færre unger",
         "Rev, rovfugler og ugler får flere unger",
-        "Lemen forsvinner",
-        "Ingenting"
+        "Smågnagerne får færre unger når maten blir rikelig",
+        "Rovfuglene flytter bort når smågnagerne blir tallrike"
       ],
       "correct": 1,
       "explain": "Mye mat gir flere avkom.",
@@ -327,9 +327,9 @@
         "text": "Hvilke rovdyr er fredet i Norge, men forvaltet med bestandsmål?",
         "options": [
           "Ulv, bjørn, jerv og gaupe",
-          "Rev og grevling",
-          "Elg og hjort",
-          "Laks og torsk"
+          "Rev, grevling, elg og hjort",
+          "Elg, hjort, rådyr og villrein",
+          "Laks, torsk, sei og sild"
         ],
         "correct": 0,
         "explain": "De store rovdyrene.",
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva bør god forvaltning bygge på?",
         "options": [
-          "Bare økonomiske hensyn",
-          "Bare tradisjon",
+          "Tradisjon, økonomiske interesser og faste vedtak",
+          "Lokale tradisjoner, jaktønsker og historiske vaner",
           "Kunnskap, overvåking og dialog mellom partene",
-          "Tilfeldige vedtak"
+          "Tilfeldige beslutninger og skiftende lokale hensyn"
         ],
         "correct": 2,
         "explain": "Ulike interesser må veies."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

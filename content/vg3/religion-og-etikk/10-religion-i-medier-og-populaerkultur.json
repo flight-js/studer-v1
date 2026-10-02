@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvorfor havner religion ofte i nyhetene ved konflikter?",
       "options": [
-        "Fordi religion bare handler om konflikt",
+        "Fordi religion vanligvis er den viktigste årsaken til internasjonale konflikter",
         "Fordi nyhetskriterier som konflikt og sensasjon styrer hva som blir nyheter",
-        "Fordi journalister hater religion",
-        "Fordi det er lovpålagt"
+        "Fordi nyhetsredaksjoner prioriterer religiøs praksis framfor politiske hendelser",
+        "Fordi religiøse høytider får mer oppmerksomhet enn konflikter i nyhetene"
       ],
       "correct": 1,
       "explain": "Hverdagslivet blir sjeldnere vist."
@@ -92,9 +92,9 @@
       "text": "Hva er en stereotypi?",
       "options": [
         "Et forenklet bilde av en hel gruppe",
-        "En nyhetsartikkel",
-        "En religiøs tekst",
-        "En type film"
+        "En generell vurdering av en enkelt persons handlinger",
+        "En detaljert beskrivelse av en bestemt religiøs tradisjon",
+        "En personlig mening om en aktuell samfunnssak"
       ],
       "correct": 0,
       "explain": "Kan skape fordommer."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er et ekkokammer?",
       "options": [
-        "Et rom i en kirke",
-        "En type musikk",
+        "Når vi møter mange ulike synspunkter på samme sak",
+        "Når vi får nyheter fra flere forskjellige redaksjoner",
         "Når vi mest møter synspunkter vi er enige i",
-        "En nyhetskanal"
+        "Når vi diskuterer synspunkter med personer vi er uenige med"
       ],
       "correct": 2,
       "explain": "Algoritmer kan forsterke dette."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvem var Sana i serien Skam?",
       "options": [
-        "En kristen prest",
-        "En ateist",
-        "En buddhistisk munk",
+        "En kristen hovedperson",
+        "En hinduistisk hovedperson",
+        "En jødisk hovedperson",
         "En muslimsk hovedperson"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva betyr populærkultur som religion?",
       "options": [
         "At fans kan ha nesten religiøse ritualer og hengivenhet",
-        "At kirker lager film",
-        "At religion er forbudt i film",
-        "At alle filmer handler om Gud"
+        "At religion blir et vanlig tema i filmer og serier",
+        "At religiøse organisasjoner lager underholdning for et stort publikum",
+        "At religiøse symboler brukes som pynt i populærkulturelle verk"
       ],
       "correct": 0,
       "explain": "For eksempel rundt idrett eller musikk.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvordan kan ekstremister bruke sosiale medier?",
       "options": [
-        "Til å skape forsoning",
-        "Til propaganda og rekruttering",
-        "Til å stenge nettet",
-        "De bruker ikke sosiale medier"
+        "Til å spre propaganda og fraråde støtte til egen ideologi",
+        "Til å spre propaganda og forsøke å rekruttere støttespillere",
+        "Til å rekruttere støttespillere og advare mot egen bevegelse",
+        "Til å koordinere budskap og avvise kontakt med mulige støttespillere"
       ],
       "correct": 1,
       "explain": "En utfordring for samfunnet.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvilket spørsmål er viktig når du analyserer religion i medier?",
       "options": [
-        "Hvor lang filmen er",
-        "Hvilken farge logoen har",
+        "Hvilket medium publiserer saken – radio eller avis?",
+        "Hvor mange personer blir intervjuet – få eller mange?",
         "Hvem får snakke – de troende selv eller andre?",
-        "Hvor mye reklame det er"
+        "Hvor lang tid tok redigeringen – timer eller dager?"
       ],
       "correct": 2,
       "explain": "Innenfra- eller utenfraperspektiv."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvor lærer mange om Tor og Odin i dag?",
       "options": [
-        "Bare i kirken",
-        "Bare i skolen",
-        "Aldri",
+        "Gjennom kristne prekener og bibelstudier",
+        "Gjennom buddhistiske tekster og meditasjon",
+        "Gjennom islamske høytider og moskébesøk",
         "Gjennom superheltfilmer og spill"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva har forskning vist om framstillingen av islam i vestlige medier?",
       "options": [
-        "At islam ofte framstilles i sammenheng med vold og problemer",
-        "At islam aldri nevnes",
-        "At islam bare framstilles positivt",
-        "At alle muslimer vises i hverdagen"
+        "Forskning viser at islam ofte framstilles sammen med vold og samfunnsproblemer",
+        "Forskning viser at islam ofte framstilles gjennom muslimers hverdagsliv",
+        "Forskning viser at islam ofte knyttes til religiøse høytider og tradisjoner",
+        "Forskning viser at islam ofte beskrives gjennom dialog og samarbeid"
       ],
       "correct": 0,
       "explain": "Kan skape stereotypier.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva kan mediene bidra til?",
       "options": [
-        "Bare fordommer",
-        "Både å bygge bro og forsterke fordommer",
-        "Bare forståelse",
-        "Ingenting"
+        "Mediene kan bygge bro ved å fjerne fordommer fra dekningen",
+        "Mediene kan både bygge bro og forsterke fordommer",
+        "Mediene kan forsterke fordommer uten å påvirke forståelsen",
+        "Mediene kan formidle religion uten å påvirke publikums holdninger"
       ],
       "correct": 1,
       "explain": "Derfor er mediekritikk viktig."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvilket nyhetskriterium gjør at terror får mye oppmerksomhet?",
         "options": [
-          "Hverdag",
+          "Hverdagsliv og rutine",
           "Konflikt og sensasjon",
-          "Stillhet",
-          "Harmoni"
+          "Harmoni og stabilitet",
+          "Stillhet og anonymitet"
         ],
         "correct": 1,
         "explain": "Nyheter vektlegger det uvanlige."
@@ -331,9 +331,9 @@
         "text": "Hva er vinkling i en nyhetssak?",
         "options": [
           "Hvilken side av saken som vektlegges",
-          "Kameravinkelen alene",
-          "Antall ord",
-          "Tidspunktet"
+          "Hvilken kameramodell som brukes under intervjuet",
+          "Hvor mange kilder som får uttale seg i saken",
+          "Når på dagen nyhetssaken blir publisert"
         ],
         "correct": 0,
         "explain": "Påvirker hvordan vi forstår saken."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på religion som bruker populærkulturen?",
         "options": [
-          "Fans av et fotballag",
-          "En superheltfilm om Tor",
+          "En filmskaper som lager en dokumentar om et trossamfunn",
+          "Et spillselskap som lager et spill med bibelske fortellinger",
           "Et trossamfunn som lager musikkvideoer for å nå ut",
-          "En julereklame for sko"
+          "En artist som bruker religiøse symboler i musikkvideoen sin"
         ],
         "correct": 2,
         "explain": "Religiøse aktører tar i bruk populærkulturens former.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

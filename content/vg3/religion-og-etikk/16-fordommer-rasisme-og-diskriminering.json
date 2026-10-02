@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er en fordom?",
       "options": [
-        "Kunnskap om en gruppe",
+        "En positiv holdning til en person fordi hen tilhører en gruppe",
         "En negativ holdning til en person fordi hen tilhører en gruppe",
-        "En lov",
-        "En type forskning"
+        "En negativ holdning til en person på grunn av en bestemt handling",
+        "En individuell vurdering av en person etter personlige erfaringer"
       ],
       "correct": 1,
       "explain": "Uten at man kjenner personen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er antisemittisme?",
       "options": [
-        "Hat mot muslimer",
-        "Hat mot samer",
+        "Fordommer og hat mot kristne",
+        "Fordommer og hat mot romer",
         "Fordommer og hat mot jøder",
-        "Kritikk av religion"
+        "Fordommer og hat mot ateister"
       ],
       "correct": 2,
       "explain": "Drivkraften bak holocaust."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er indirekte diskriminering?",
       "options": [
-        "Bevisst avvisning",
-        "Trakassering",
-        "Hets på nett",
+        "En bevisst beslutning om å avvise en person fra en gruppe",
+        "Gjentatte krenkende kommentarer rettet mot en person på jobb",
+        "En offentlig ytring som oppfordrer til hat mot en gruppe",
         "En tilsynelatende nøytral regel som rammer noen grupper hardere"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva sier forskningen om menneskeraser?",
       "options": [
         "At det ikke finnes egne menneskeraser",
-        "At det finnes fem raser",
-        "At raser har ulik intelligens",
-        "At raser har ulik verdi"
+        "At det finnes fem biologiske menneskeraser",
+        "At menneskeraser har medfødt ulik intelligens",
+        "At menneskers verdi bestemmes av biologisk rasetilhørighet"
       ],
       "correct": 0,
       "explain": "Biologisk rasisme er avvist."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er en syndebukk?",
       "options": [
-        "En type dyr",
+        "En gruppe som får makten til å bestemme over samfunnet",
         "En gruppe som får skylden for problemer",
-        "En lov",
-        "En type ytring"
+        "En gruppe som får ansvaret for å løse problemer",
+        "En gruppe som blir valgt til å representere minoriteter"
       ],
       "correct": 1,
       "explain": "Minoriteter rammes ofte i krisetider."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilken lov forbyr diskriminering på grunn av religion og etnisitet?",
       "options": [
-        "Arbeidsmiljøloven alene",
-        "Arveloven",
+        "Forvaltningsloven",
+        "Personopplysningsloven",
         "Likestillings- og diskrimineringsloven",
-        "Barneloven"
+        "Ekteskapsloven"
       ],
       "correct": 2,
       "explain": "Også kjønn og seksuell orientering.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva kan redusere fordommer?",
       "options": [
-        "Mindre kontakt",
-        "Konspirasjonsteorier",
-        "Å dele hets",
+        "Mindre kontakt og større avstand mellom grupper",
+        "Rykter om grupper og lite personlig kontakt",
+        "Stereotypier som bekreftes gjennom ensidig informasjon",
         "Kunnskap og kontakt på tvers av grupper"
       ],
       "correct": 3,
@@ -179,8 +179,8 @@
       "options": [
         "Direkte",
         "Indirekte",
-        "Strukturell alene",
-        "Positiv"
+        "Positiv særbehandling",
+        "Trakassering"
       ],
       "correct": 0,
       "explain": "Bevisst avvisning."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er forskjellen på kritikk av ideer og hat mot mennesker?",
       "options": [
-        "Ingen forskjell",
+        "Kritikk retter seg mot mennesker som gruppe, hat retter seg mot ideer",
         "Kritikk retter seg mot ideer, hat rammer mennesker som gruppe",
-        "Hat er alltid lovlig",
-        "Kritikk er alltid ulovlig"
+        "Kritikk og hat retter seg begge mot ideer, ikke mot mennesker",
+        "Kritikk retter seg mot ideer, hat handler om uenighet med enkeltpersoner"
       ],
       "correct": 1,
       "explain": "Viktig skille."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvem gir veiledning om diskriminering i Norge?",
         "options": [
-          "Forbrukertilsynet",
+          "Likestillings- og diskrimineringsnemnda",
           "Likestillings- og diskrimineringsombudet",
-          "Konkurransetilsynet",
-          "Datatilsynet"
+          "Arbeidstilsynet",
+          "Sivilombudet"
         ],
         "correct": 1,
         "explain": "Hjelper dem som opplever diskriminering.",
@@ -334,9 +334,9 @@
         "text": "Hva gjør hjernen når den kategoriserer?",
         "options": [
           "Forenkler verden for å spare energi",
-          "Lager alltid riktige bilder",
-          "Fjerner alle fordommer",
-          "Glemmer alt"
+          "Sorterer informasjon for å huske flere enkeltdetaljer",
+          "Skiller mennesker for å fjerne egne forventninger",
+          "Samler informasjon for å unngå raske vurderinger"
         ],
         "correct": 0,
         "explain": "En årsak til stereotypier."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva kan du gjøre når noen utsettes for hets?",
         "options": [
-          "Dele hetsen videre",
-          "Late som ingenting",
+          "Be den som rammes om å håndtere situasjonen selv",
+          "Dele hetsen videre for å vise hva som skjedde",
           "Si ifra og støtte den som rammes",
-          "Le med"
+          "Kritisere den som rammes for å unngå mer oppmerksomhet"
         ],
         "correct": 2,
         "explain": "Hver enkelt kan gjøre en forskjell."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

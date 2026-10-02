@@ -78,8 +78,8 @@
       "options": [
         "24 kr",
         "240 kr",
-        "2400 kr",
-        "270 kr"
+        "80 kr",
+        "560 kr"
       ],
       "correct": 1,
       "explain": "0,30 · 800 = 240."
@@ -91,7 +91,7 @@
         "40 %",
         "45 %",
         "25 %",
-        "18 %"
+        "400 %"
       ],
       "correct": 2,
       "explain": "45/180 = 0,25 = 25 %."
@@ -101,8 +101,8 @@
       "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?",
       "options": [
         "5 prosentpoeng",
+        "0,05 prosentpoeng",
         "25 prosentpoeng",
-        "20 prosentpoeng",
         "45 prosentpoeng"
       ],
       "correct": 0,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er 3 ‰ som desimaltall?",
       "options": [
-        "0,3",
         "0,03",
+        "0,3",
         "0,003",
-        "3,0"
+        "0,0003"
       ],
       "correct": 2,
       "explain": "Promille betyr tusendeler: 3/1000."
@@ -137,9 +137,9 @@
       "text": "En pris stiger fra 250 kr til 300 kr. Hva er den prosentvise økningen?",
       "options": [
         "20 %",
-        "50 %",
         "16,7 %",
-        "25 %"
+        "25 %",
+        "50 %"
       ],
       "correct": 0,
       "explain": "50/250 = 0,20. Del alltid på den gamle verdien."
@@ -161,8 +161,8 @@
       "text": "En vare koster 500 kr med 25 % moms. Hva koster den uten moms?",
       "options": [
         "375 kr",
-        "475 kr",
         "125 kr",
+        "625 kr",
         "400 kr"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "En pris synker fra 400 kr til 300 kr. Hva er den prosentvise nedgangen?",
       "options": [
         "33,3 %",
-        "100 %",
+        "75 %",
         "25 %",
-        "75 %"
+        "100 %"
       ],
       "correct": 2,
       "explain": "100/400 = 0,25 = 25 %."
@@ -186,8 +186,8 @@
       "options": [
         "0,2 ‰",
         "0,5 ‰",
-        "2 ‰",
-        "0 ‰"
+        "0 ‰",
+        "1 ‰"
       ],
       "correct": 0,
       "explain": "Grensen er 0,2 promille alkohol i blodet.",
@@ -341,7 +341,7 @@
           "240 kr",
           "770 kr",
           "560 kr",
-          "530 kr"
+          "1040 kr"
         ],
         "correct": 2,
         "explain": "800 · 0,70 = 560."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

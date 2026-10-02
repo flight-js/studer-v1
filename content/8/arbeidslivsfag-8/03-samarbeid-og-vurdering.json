@@ -78,9 +78,9 @@
       "text": "Hva er en dagsorden?",
       "options": [
         "En liste over sakene som skal tas opp på et møte",
-        "En timeplan for skolen",
-        "En kalender",
-        "En regel for pauser"
+        "En oversikt over beslutningene som ble tatt på møtet",
+        "En plan over hvem som skal snakke på møtet",
+        "En oversikt over reglene som gjelder under møtet"
       ],
       "correct": 0,
       "explain": "Dagsordenen sendes gjerne ut før møtet."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva betyr konsensus?",
       "options": [
-        "At lederen bestemmer",
-        "At flertallet vinner",
-        "At alle blir enige",
-        "At man trekker lodd"
+        "At lederen velger løsningen etter å ha hørt gruppa",
+        "At flertallet velger løsningen etter en avstemning",
+        "At alle blir enige om samme løsning",
+        "At gruppa trekker lodd for å velge løsning"
       ],
       "correct": 2,
       "explain": "Konsensus gir eierskap, men kan ta tid."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er et referat?",
       "options": [
-        "En invitasjon",
+        "En skriftlig plan over sakene som skal tas opp på møtet",
         "En skriftlig oversikt over hva som ble bestemt på et møte",
-        "En klage",
-        "En tegning"
+        "En skriftlig liste over hvem som deltok på møtet",
+        "En skriftlig beskjed om tid og sted for møtet"
       ],
       "correct": 1,
       "explain": "Referatet gjør det lett å huske og følge opp beslutninger."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er en god måte å løse en konflikt i gruppa på?",
       "options": [
-        "Å ignorere den",
-        "Å snakke bak ryggen på hverandre",
-        "Å slutte i gruppa",
+        "Å vente med uenigheten og håpe at problemet løser seg selv",
+        "Å fortelle andre i gruppa om problemet, uten å snakke sammen",
+        "Å la én person bestemme hvem som har skylden for konflikten",
         "Å ta det tidlig, snakke om saken og finne en løsning sammen"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er en fordel ved å fordele roller i en gruppe?",
       "options": [
-        "Ingen trenger å jobbe",
+        "Alle vet når de skal slutte å jobbe",
         "Alle vet hva de har ansvar for",
-        "Det blir flere konflikter",
-        "Arbeidet tar lengre tid"
+        "Lederen slipper å følge opp hvordan arbeidet går",
+        "Gruppa trenger ikke å avtale hvem som gjør hva"
       ],
       "correct": 1,
       "explain": "Tydelige roller gir bedre oversikt."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva er en tillitsvalgt?",
       "options": [
-        "Sjefen i bedriften",
-        "En kunde",
-        "En lærer",
+        "En person som representerer ledelsen overfor arbeidstakerne",
+        "En person som representerer kundene overfor bedriftens ansatte",
+        "En person som lærer arbeidstakerne å utføre oppgavene sine",
         "En person som representerer arbeidstakerne overfor ledelsen"
       ],
       "correct": 3,
@@ -151,9 +151,9 @@
       "text": "Hva er egenvurdering?",
       "options": [
         "Å vurdere sitt eget arbeid og sin egen innsats",
-        "Å gi andre karakter",
-        "Å la kunden vurdere",
-        "Å vurdere læreren"
+        "Å vurdere gruppas arbeid og de andres innsats",
+        "Å vurdere lærerens arbeid og klassens samlede innsats",
+        "Å be lederen vurdere ditt eget arbeid og din innsats"
       ],
       "correct": 0,
       "explain": "Egenvurdering hjelper deg å se hva du kan forbedre."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvilket spørsmål hører til en evaluering av et arbeidsoppdrag?",
       "options": [
-        "Hvor mye tjente sjefen?",
-        "Hvem kom sist?",
+        "Hvilke materialer skal gruppa kjøpe til neste arbeidsoppdrag?",
+        "Hvilket oppdrag skal gruppa velge å gjøre neste gang?",
         "Hva gikk bra, og hva kan gjøres bedre neste gang?",
-        "Hvilken farge hadde verktøyet?"
+        "Hvem skal få bestemme oppgavene i gruppa neste gang?"
       ],
       "correct": 2,
       "explain": "Evaluering handler om å lære til neste gang."
@@ -174,9 +174,9 @@
       "id": "q09",
       "text": "Hva er aktiv lytting?",
       "options": [
-        "Å høre på musikk mens man jobber",
-        "Å snakke mest mulig",
-        "Å avbryte for å vise engasjement",
+        "Å lytte mens man planlegger hva man selv skal svare",
+        "Å vente på tur til å snakke uten å følge med",
+        "Å gi råd før den andre har forklart ferdig",
         "Å lytte oppmerksomt og vise at man forstår"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er et kompromiss?",
       "options": [
-        "At én part får alt",
+        "En løsning der én part får viljen sin helt",
         "En løsning der begge parter gir litt",
-        "At ingen blir enige",
-        "At man lar være å bestemme"
+        "En løsning der begge parter beholder alle kravene sine",
+        "En løsning der lederen velger mellom partenes forslag"
       ],
       "correct": 1,
       "explain": "Kompromisser er vanlige både i arbeidslivet og i politikken."
@@ -326,9 +326,9 @@
         "text": "Hva er vurderingskriterier?",
         "options": [
           "Beskrivelser av hva som kjennetegner godt arbeid",
-          "En liste over materialer",
-          "En tidsplan",
-          "Et budsjett"
+          "Beskrivelser av hvilke materialer som trengs til arbeidet",
+          "Beskrivelser av når de ulike arbeidsoppgavene skal gjøres",
+          "Beskrivelser av hvem som har ansvar for hver arbeidsoppgave"
         ],
         "correct": 0,
         "explain": "Kriteriene gjør vurderingen tydelig og rettferdig."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er et jeg-budskap?",
         "options": [
-          "Å snakke om seg selv hele tiden",
+          "Å si hva den andre gjør feil, uten å beskrive egne følelser",
           "Å si hvordan man selv opplever noe, uten å anklage",
-          "Å bestemme alt selv",
-          "Å skrive dagbok"
+          "Å si hvordan man selv opplever noe, mens man gir den andre skylden",
+          "Å fortelle hva den andre bør gjøre, uten å si hva man selv føler"
         ],
         "correct": 1,
         "explain": "For eksempel: «Jeg blir stresset når fristen er så kort.»"
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel med demokratiske beslutninger i en gruppe?",
         "options": [
-          "Det går alltid raskest",
-          "Én person får bestemme",
-          "Flere føler eierskap til beslutningen",
-          "Ingen må si sin mening"
+          "Én person i gruppa velger den endelige løsningen",
+          "Færre i gruppa får si sin mening om løsningen",
+          "Flere i gruppa føler eierskap til beslutningen",
+          "Gruppa tar beslutningen uten å høre ulike forslag"
         ],
         "correct": 2,
         "explain": "Når alle har vært med, er det lettere å følge beslutningen."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

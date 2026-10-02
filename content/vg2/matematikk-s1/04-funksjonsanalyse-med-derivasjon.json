@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvordan faktoriseres f′(x) = 3x² − 12x + 9?",
       "options": [
-        "3(x + 1)(x + 3)",
+        "3(x + 1)(x − 3)",
         "3(x − 1)(x − 3)",
-        "(3x − 1)(x − 9)",
-        "3(x − 2)²"
+        "3(x − 1)(x + 3)",
+        "3(x − 2)(x − 2)"
       ],
       "correct": 1,
       "explain": "x² − 4x + 3 = (x − 1)(x − 3)."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva skjer i et vendepunkt?",
       "options": [
-        "f′ = 0 alltid",
-        "Funksjonen har sin største verdi",
-        "Funksjonen skifter fortegn",
-        "Krumningen endrer seg, og endringen er raskest eller langsomst"
+        "Stigningstallet er null, og grafen har vannrett tangent",
+        "Funksjonen har et toppunkt, og stigningstallet er null",
+        "Grafen krysser x-aksen, og funksjonsverdien er null",
+        "Krumningen endrer seg, og stigningstallet har et ekstremalpunkt"
       ],
       "correct": 3,
       "explain": "f″ skifter fortegn."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva har f(x) = x³ i x = 0?",
       "options": [
-        "Toppunkt",
-        "Terrassepunkt",
-        "Bunnpunkt",
-        "Asymptote"
+        "Et toppunkt med vannrett tangent",
+        "Et terrassepunkt med vannrett tangent",
+        "Et bunnpunkt med vannrett tangent",
+        "Et vendepunkt uten vannrett tangent"
       ],
       "correct": 1,
       "explain": "f′ = 0 uten fortegnsskifte."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "En modell viser salget av en vare. Hva forteller vendepunktet?",
       "options": [
-        "Når salget var størst",
-        "Når salget var minst",
-        "Når varen ble lansert",
-        "Når salget vokste eller sank raskest"
+        "Tidspunktet da salget var størst",
+        "Tidspunktet da salget var minst",
+        "Tidspunktet da varen ble lansert",
+        "Tidspunktet da salget vokste eller sank raskest"
       ],
       "correct": 3,
       "explain": "f′ har et ekstremalpunkt der."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hvorfor bør du begrunne svaret med fortegnslinje, selv om GeoGebra finner punktet?",
       "options": [
-        "For å vise at det er et topp- eller bunnpunkt",
-        "Fordi GeoGebra alltid tar feil",
-        "Fordi fortegnslinjer er påbudt i alle oppgaver",
-        "Det er ikke nødvendig"
+        "For å vise at punktet er et topp- eller bunnpunkt",
+        "For å vise at punktet er et vendepunkt",
+        "For å vise at funksjonsverdien er positiv",
+        "For å vise at funksjonen har et nullpunkt"
       ],
       "correct": 0,
       "explain": "Argumentasjonen er en del av løsningen."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr f″(x) > 0?",
       "options": [
-        "f vokser",
+        "Grafen krummer ned",
         "Grafen krummer opp",
-        "f er positiv",
-        "f har toppunkt"
+        "Grafen har positiv stigning",
+        "Funksjonen har et bunnpunkt"
       ],
       "correct": 1,
       "explain": "Stigningstallet øker."
@@ -322,8 +322,8 @@
         "options": [
           "x > 3",
           "x < 3",
-          "x > 6",
-          "Overalt"
+          "x > 0",
+          "x < 0"
         ],
         "correct": 0,
         "explain": "f′(x) = 2x − 6 > 0 for x > 3."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

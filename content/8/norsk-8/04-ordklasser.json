@@ -80,7 +80,7 @@
         "Verb",
         "Adjektiv",
         "Substantiv",
-        "Adverb"
+        "Pronomen"
       ],
       "correct": 2,
       "explain": "«Gleden» er bestemt form av substantivet glede. Du kan si «en glede»."
@@ -91,7 +91,7 @@
       "options": [
         "kaster",
         "kastet",
-        "har kastet",
+        "kaste",
         "kast"
       ],
       "correct": 1,
@@ -102,9 +102,9 @@
       "text": "Hvilket ord er en subjunksjon?",
       "options": [
         "fordi",
-        "og",
+        "men",
         "på",
-        "fort"
+        "ganske"
       ],
       "correct": 0,
       "explain": "«Fordi» innleder en leddsetning: … fordi det regnet. «Og» er konjunksjon."
@@ -115,7 +115,7 @@
       "options": [
         "Adverb",
         "Konjunksjon",
-        "Substantiv",
+        "Subjunksjon",
         "Preposisjon"
       ],
       "correct": 3,
@@ -127,8 +127,8 @@
       "options": [
         "god – godere – godest",
         "god – bedre – best",
-        "god – godt – gode",
-        "god – mer god – mest god"
+        "god – bedre – godest",
+        "god – godere – best"
       ],
       "correct": 1,
       "explain": "«God» har uregelrett gradbøying: god – bedre – best."
@@ -137,13 +137,13 @@
       "id": "q06",
       "text": "Hvilket ord er et pronomen?",
       "options": [
-        "denne",
-        "min",
+        "bok",
+        "rød",
         "hun",
-        "tre"
+        "hos"
       ],
       "correct": 2,
-      "explain": "«Hun» står i stedet for et substantiv. «Denne», «min» og «tre» er determinativer som står sammen med et substantiv."
+      "explain": "«Hun» står i stedet for et substantiv, for eksempel «Anna»."
     },
     {
       "id": "q07",
@@ -163,7 +163,7 @@
       "options": [
         "biler",
         "bilen",
-        "en bil",
+        "bilenes",
         "bilene"
       ],
       "correct": 3,
@@ -336,8 +336,8 @@
         "options": [
           "løpe",
           "grønn",
-          "raskt",
-          "under"
+          "hos",
+          "men"
         ],
         "correct": 1,
         "explain": "«Grønn» beskriver et substantiv og kan bøyes: grønn – grønt – grønne."
@@ -360,9 +360,9 @@
         "type": "flervalg",
         "text": "Hva er presens perfektum av «skrive»?",
         "options": [
-          "skrev",
-          "skriver",
-          "skriv",
+          "hadde skrevet",
+          "ble skrevet",
+          "har skrivet",
           "har skrevet"
         ],
         "correct": 3,
@@ -450,6 +450,7 @@
     "merknader": [
       "Antall ordklasser varierer mellom framstillinger (ti, eventuelt med infinitivsmerke som egen klasse). Sjekk mot læreverket skolen bruker."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

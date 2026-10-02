@@ -121,16 +121,16 @@
         "ils a"
       ],
       "correct": 0,
-      "explain": "Pass på: «ils sont» er fra «être»."
+      "explain": "«être» betyr å være, mens «avoir» betyr å ha."
     },
     {
       "id": "q05",
       "text": "Hvordan sier du «Jeg snakker ikke tysk»?",
       "options": [
-        "Je pas parle allemand.",
+        "Je ne pas parle allemand.",
         "Je parle ne pas allemand.",
         "Je ne parle pas allemand.",
-        "Ne je parle pas allemand."
+        "Je ne parle allemand pas."
       ],
       "correct": 2,
       "explain": "«ne» står foran verbet og «pas» etter."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva skjer med «je» foran et ord som begynner med vokal?",
       "options": [
-        "Det forsvinner",
-        "Det blir til j'",
-        "Det blir til jé",
-        "Det blir til moi"
+        "Det beholder formen «je».",
+        "Det blir til «j'».",
+        "Det blir til «jé».",
+        "Det blir til «j»."
       ],
       "correct": 1,
       "explain": "Dette kalles elisjon: «j'aime»."
@@ -151,9 +151,9 @@
       "id": "q07",
       "text": "Hvordan kan du gjøre en setning om til et spørsmål?",
       "options": [
-        "Ved å sette «pas» foran verbet",
-        "Ved å bytte artikkel",
-        "Ved å sette ordet i flertall",
+        "Ved å sette «est-ce que» sist i setningen",
+        "Ved å sette «est-ce que» etter verbet",
+        "Ved å sette «est-ce que» etter subjektet",
         "Ved å sette «est-ce que» først i setningen"
       ],
       "correct": 3,
@@ -164,9 +164,9 @@
       "text": "Hva betyr «on» i dagligtale?",
       "options": [
         "Man eller vi",
-        "Han",
-        "Dere",
-        "De"
+        "Han eller hun",
+        "Du eller dere",
+        "De eller dem"
       ],
       "correct": 0,
       "explain": "«On y va !» betyr «Vi drar!»."
@@ -326,7 +326,7 @@
           "tu ai"
         ],
         "correct": 1,
-        "explain": "«tu es» kommer fra «être»."
+        "explain": "«Avoir» bøyes «j’ai, tu as, il/elle a»."
       },
       {
         "id": "m06",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -72,7 +72,7 @@
     {
       "term": "Hjemmel",
       "def": "Den underforståtte sammenhengen mellom belegg og påstand.",
-      "niva": "eksempel"
+      "niva": "over-niva"
     },
     {
       "term": "Å drøfte",
@@ -128,9 +128,9 @@
       "id": "q01",
       "text": "Hva er forskjellen på motiv og tema?",
       "options": [
-        "Det er det samme",
-        "Tema er den konkrete situasjonen",
-        "Motiv er budskapet",
+        "Motiv er tekstens budskap, tema er den konkrete situasjonen teksten skildrer",
+        "Motiv er tekstens hovedperson, tema er stedet der handlingen foregår",
+        "Motiv er forfatterens mening, tema er tekstens konkrete handling",
         "Motiv er den konkrete situasjonen, tema er det allmenne teksten handler om"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q02",
       "text": "Hva må en god tolkning inneholde?",
       "options": [
-        "Bare egne meninger",
+        "Personlige meninger uten støtte fra tekstens innhold",
         "Begrunnelser med eksempler og sitater fra teksten",
-        "Et sammendrag av handlingen",
-        "Forfatterens biografi"
+        "Et sammendrag av handlingen med de viktigste hendelsene",
+        "Opplysninger om forfatterens liv og tiden teksten ble skrevet"
       ],
       "correct": 1,
       "explain": "En tolkning må forankres i teksten."
@@ -153,9 +153,9 @@
       "text": "Hvilket spørsmål er nyttig når du analyserer kulturmøter i en tekst?",
       "options": [
         "Hvem forteller, og hvem får stemme?",
-        "Hvor mange sider har boka?",
-        "Hva kostet boka?",
-        "Hvor bor forfatteren nå?"
+        "Hvilke personer møtes, og hvor skjer handlingen?",
+        "Hvilken sjanger har teksten, og hvem skrev den?",
+        "Hvordan er kapitlene ordnet, og hvor lang er teksten?"
       ],
       "correct": 0,
       "explain": "Perspektivet påvirker hvordan kulturene framstilles."
@@ -164,10 +164,10 @@
       "id": "q04",
       "text": "Hvordan kan litteratur om kulturmøter påvirke leseren?",
       "options": [
-        "Den kan ikke påvirke noen",
-        "Den gir bare underholdning",
+        "Den kan få leseren til å tro at fordommer bygger på sikre fakta",
+        "Den kan bekrefte at mennesker fra ulike kulturer har faste egenskaper",
         "Den kan skape empati og utfordre fordommer",
-        "Den gjør leseren mer fordomsfull"
+        "Den kan vise at kulturmøter ikke påvirker personers identitet"
       ],
       "correct": 2,
       "explain": "Litteratur lar oss se verden fra andres ståsted."
@@ -189,9 +189,9 @@
       "text": "Hvorfor er det viktig å forklare effekten av virkemidlene?",
       "options": [
         "Fordi analysen skal vise hvordan teksten prøver å overbevise",
-        "Fordi det gjør teksten lengre",
-        "Fordi det er lettere enn å finne dem",
-        "Det er ikke viktig"
+        "Fordi analysen skal beskrive hvordan teksten er satt sammen",
+        "Fordi analysen skal vise hvor mange virkemidler teksten bruker",
+        "Fordi analysen skal gjengi hvilke temaer teksten tar opp"
       ],
       "correct": 0,
       "explain": "En liste over virkemidler uten effekt er ikke en analyse."
@@ -200,10 +200,10 @@
       "id": "q07",
       "text": "Hva er belegg i Toulmins modell?",
       "options": [
-        "Det man vil overbevise om",
-        "Grunnen eller støtten for påstanden",
-        "Et motargument",
-        "Konklusjonen"
+        "Synspunktet man prøver å få fram",
+        "Grunnen som støtter en påstand",
+        "Innvendingen mot en annens synspunkt",
+        "Avslutningen som følger av argumentasjonen"
       ],
       "correct": 1,
       "explain": "Belegget skal støtte påstanden."
@@ -212,10 +212,10 @@
       "id": "q08",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å bare gi sin egen mening",
-        "Å gjenfortelle en tekst",
-        "Å se et spørsmål fra flere sider og komme fram til en begrunnet konklusjon",
-        "Å diskutere høylytt"
+        "Å presentere egen mening uten å vurdere motargumenter",
+        "Å gjengi hovedinnholdet i en tekst med egne ord",
+        "Å vurdere flere sider og begrunne en konklusjon",
+        "Å utveksle synspunkter uten å begrunne dem"
       ],
       "correct": 2,
       "explain": "Drøfting krever argumenter både for og mot."
@@ -224,10 +224,10 @@
       "id": "q09",
       "text": "Hva betyr selvstendig kildebruk?",
       "options": [
-        "Å bruke bare én kilde",
-        "Å kopiere kilder",
+        "Å bruke én kilde til å begrunne hele resonnementet",
+        "Å gjengi kildenes forklaringer uten egne formuleringer",
         "Å bruke kildene til å støtte eget resonnement",
-        "Å ikke bruke kilder"
+        "Å la kildenes konklusjoner erstatte eget resonnement"
       ],
       "correct": 2,
       "explain": "Du skal bearbeide stoffet, ikke bare gjengi det."
@@ -237,9 +237,9 @@
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
         "Hvem står bak kilden, og har de interesser i saken?",
-        "Hvor lang er teksten?",
-        "Hvilken farge har nettsiden?",
-        "Hvor mange bilder er det?"
+        "Hvor mange avsnitt har teksten, og hvor lange er setningene?",
+        "Hvilken skriftstørrelse er brukt, og hvor mange bilder vises?",
+        "Hvilke farger har nettsiden, og hvor mange avsnitt inneholder teksten?"
       ],
       "correct": 0,
       "explain": "Avsenderens interesser kan påvirke innholdet."
@@ -248,10 +248,10 @@
       "id": "q11",
       "text": "Hva sier V2-regelen?",
       "options": [
-        "At det skal være to verb i hver setning",
-        "At subjektet alltid står først",
-        "At setninger har to ledd",
-        "At verbalet står på andre plass i helsetninger"
+        "Subjektet står på andre plass i helsetningen",
+        "Verbalet står på andre plass i leddsetningen",
+        "Verbalet står på tredje plass i helsetningen",
+        "Verbalet står på andre plass i helsetningen"
       ],
       "correct": 3,
       "explain": "Derfor heter det «I går leste Ali», ikke «I går Ali leste»."
@@ -261,9 +261,9 @@
       "text": "Hva er en leddsetning?",
       "options": [
         "En setning som fungerer som et ledd i en annen setning",
-        "En setning uten verb",
-        "En setning med to subjekter",
-        "Den første setningen i en tekst"
+        "En setning som fungerer som et ord i en annen setning",
+        "En setning som står som helsetning ved siden av en annen",
+        "En setning som fungerer som overskrift i en annen setning"
       ],
       "correct": 0,
       "explain": "Leddsetninger kan ikke stå alene."
@@ -272,10 +272,10 @@
       "id": "q13",
       "text": "Hva er revisjon?",
       "options": [
-        "Å rette skrivefeil",
-        "Å skrive første utkast",
-        "Å bearbeide teksten ut fra tilbakemeldinger og kriterier",
-        "Å lese andres tekster"
+        "Å rette skrivefeil uten å vurdere tekstens innhold",
+        "Å skrive et førsteutkast uten å bruke tilbakemeldinger",
+        "Å bearbeide teksten etter tilbakemeldinger og kriterier",
+        "Å lese en tekst uten å vurdere eller endre den"
       ],
       "correct": 2,
       "explain": "Revisjon handler om innhold og struktur, ikke bare feil."
@@ -284,10 +284,10 @@
       "id": "q14",
       "text": "Hva er en anglisisme?",
       "options": [
-        "Et gammelt norsk ord",
-        "Et dialektord",
+        "Et lånord eller uttrykk fra svensk",
+        "Et lånord eller uttrykk fra samisk",
         "Et lånord eller uttrykk fra engelsk",
-        "Et samisk ord"
+        "Et lånord eller uttrykk fra arabisk"
       ],
       "correct": 2,
       "explain": "«Chille» og «streame» er eksempler."
@@ -296,10 +296,10 @@
       "id": "q15",
       "text": "Hva sier Grunnloven § 108?",
       "options": [
-        "At norsk er eneste offisielle språk",
+        "At staten skal legge til rette for kvensk språk, kultur og samfunnsliv",
         "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
-        "At samer ikke har egne rettigheter",
-        "At alle må lære nynorsk"
+        "At staten skal legge til rette for samisk språk og kultur i Sverige",
+        "At staten skal gi samene rett til egen stat og selvstendig styre"
       ],
       "correct": 1,
       "explain": "Paragrafen ble vedtatt i 1988.",
@@ -457,7 +457,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -481,10 +481,10 @@
         "type": "flervalg",
         "text": "Hva er et symbol i litteraturen?",
         "options": [
-          "Et bilde på forsiden",
+          "En gjentakelse av like lyder på slutten av verselinjer",
           "Noe konkret som står for noe mer",
-          "En type rim",
-          "Et kapittel"
+          "Et språklig bilde som sammenligner to ting med «som»",
+          "En kort setning som uttrykker tekstens viktigste budskap"
         ],
         "correct": 1,
         "explain": "For eksempel kan et tomt hus symbolisere ensomhet."
@@ -591,14 +591,88 @@
         "kriterier": [
           "Forklarer at oversetteren må gjøre valg mellom innhold, stemning og rytme.",
           "Knytter oversettelsesvalgene til leserens forståelse av teksten eller kulturen."
+        ]
+      },
+      {
+        "text": "En roman fortelles i korte, ikke-kronologiske tekstbiter og slutter før konflikten blir løst. Forklar hvordan den fragmenterte komposisjonen og den åpne slutten kan påvirke leserens opplevelse.",
+        "fasit": "De korte, ikke-kronologiske tekstbitene kan gjøre det krevende å sette handlingen sammen. Den åpne slutten lar konflikten stå uløst og overlater mer til leserens tolkning.",
+        "kriterier": [
+          "Knytter den fragmenterte komposisjonen til leserens arbeid eller opplevelse.",
+          "Forklarer at den åpne slutten lar spørsmål stå ubesvart eller åpner for flere tolkninger."
         ],
-        "niva": "eksempel"
+        "id": "s09"
+      },
+      {
+        "text": "I en fortelling blir en nyinnflyttet person omtalt som «rar» av folk i bygda. Samtidig viser handlingene hans at han bryr seg om naboene. Forklar hvordan synsvinkel og personskildring kan påvirke om fortellingen utfordrer eller forsterker en stereotypi.",
+        "fasit": "Hvis fortellingen hovedsakelig viser bygdefolkets syn, kan personen framstå som fremmed og stereotypien bli forsterket. Handlingene hans gir likevel et mer sammensatt bilde og kan utfordre dette inntrykket.",
+        "kriterier": [
+          "Knytter synsvinkel eller perspektiv til hvordan personen blir framstilt.",
+          "Forklarer hvordan handlingene kan nyansere eller utfordre stereotypien."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En appell om å bedre beredskapen blir publisert rett etter en alvorlig hendelse som mange følger med på. Forklar hva kairos betyr i denne situasjonen, og hvordan tidspunktet kan påvirke gjennomslaget hos mottakerne.",
+        "fasit": "Kairos er det rette øyeblikket for å formidle et budskap. Fordi hendelsen er aktuell og opptar mange, kan appellen få større oppmerksomhet og gjennomslag hos mottakerne.",
+        "kriterier": [
+          "Forklarer kairos som riktig eller gunstig tidspunkt.",
+          "Knytter aktualiteten til mulig oppmerksomhet eller overbevisningskraft."
+        ],
+        "id": "s11",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En elev hevder: «Skolen bør starte klokka ni, fordi tenåringer trenger mer søvn om morgenen.» Hvilken del er påstanden, hvilken del er belegget, og hvilken hjemmel kan knytte belegget til påstanden?",
+        "fasit": "Påstanden er at skolen bør starte klokka ni, og belegget er at tenåringer trenger mer søvn om morgenen. En mulig hjemmel er at elever lærer bedre når de får nok søvn.",
+        "kriterier": [
+          "Identifiserer riktig påstand og belegg.",
+          "Forklarer en relevant, underforstått sammenheng som hjemmel."
+        ],
+        "id": "s12",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En elev bruker en KI-tjeneste til å finne fakta og lage en litteraturliste til en fagartikkel. Forklar hva eleven bør gjøre før opplysningene og kildene tas med i teksten.",
+        "fasit": "Eleven bør kontrollere opplysningene og sjekke at kildene faktisk finnes og støtter dem. Eleven må følge skolens regler og oppgi hvordan KI er brukt.",
+        "kriterier": [
+          "Nevner at fakta og kilder fra KI må kontrolleres.",
+          "Nevner at KI-bruken må oppgis i tråd med skolens regler."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Se på setningen: «Når intervjuet var ferdig, sendte Sara læreren notatene, men hun beholdt opptaket.» Forklar hvorfor det står komma etter den første delen og før «men».",
+        "fasit": "«Når intervjuet var ferdig» er en leddsetning som står først, og da skal det stå komma etter den. «Men» binder sammen to helsetninger, så det skal også stå komma foran konjunksjonen.",
+        "kriterier": [
+          "Identifiserer den førstestilte leddsetningen og regelen om komma etter den.",
+          "Forklarer kommaet foran «men» med at det binder sammen helsetninger."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Skriv setningen på nynorsk: «Jeg liker huset mitt, men hun vil ikke gå fra det.»",
+        "fasit": "Eg liker huset mitt, men ho vil ikkje gå frå det.",
+        "kriterier": [
+          "Bruker nynorsk form av «jeg», «hun» og «ikke».",
+          "Skriver «frå» og lar eiendomsordet stå etter substantivet i «huset mitt»."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En podkast hevder at norsk, samisk og kvensk tilhører samme språkfamilie fordi språkene brukes i Norge. Rett påstanden med kunnskap om språkfamilier, og nevn ett eksempel på hvordan språkkontakt har endret norsk.",
+        "fasit": "Norsk er et germansk språk i den indoeuropeiske språkfamilien, mens samisk og kvensk er finsk-ugriske språk. Språkkontakt har blant annet gitt norsk lånord fra lavtysk, som «arbeid».",
+        "kriterier": [
+          "Skiller mellom norsk som indoeuropeisk/germansk og samisk og kvensk som finsk-ugriske språk.",
+          "Gir et korrekt eksempel på språkkontakt som har påvirket norsk."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

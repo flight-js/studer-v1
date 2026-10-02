@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en funksjonell definisjon av religion?",
       "options": [
-        "Den sier hva religion er",
-        "Den sier hva religion gjør, for eksempel gir mening og fellesskap",
-        "Den handler bare om guder",
-        "Den gjelder bare kristendom"
+        "Den beskriver hva religion er, som tro på guder og hellige tekster",
+        "Den beskriver hva religion gjør, som å gi mening og fellesskap",
+        "Den forklarer hvordan religion oppstår gjennom historie og kultur",
+        "Den avgrenser religion til tro på guder og religiøse ritualer"
       ],
       "correct": 1,
       "explain": "Kan også omfatte ikke-religiøse fenomener."
@@ -93,9 +93,9 @@
       "text": "Hva er et livssyn?",
       "options": [
         "En grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig",
-        "Bare religiøs tro",
-        "En politisk ideologi",
-        "En type ritual"
+        "En religiøs oppfatning av guder, ritualer og livet etter døden",
+        "En politisk ideologi som beskriver hvordan staten bør styres",
+        "Et religiøst ritual som uttrykker fellesskap mellom troende"
       ],
       "correct": 0,
       "explain": "Alle har et livssyn."
@@ -104,34 +104,34 @@
       "id": "q03",
       "text": "Hva er et innenfraperspektiv?",
       "options": [
-        "Hvordan forskere beskriver religionen",
-        "Hvordan medier framstiller religionen",
+        "Hvordan religionsforskere analyserer religionen med faglige metoder",
+        "Hvordan religiøse ledere lærer andre å praktisere religionen",
         "Hvordan de troende selv forstår sin religion",
-        "Hvordan staten ser på religionen"
+        "Hvordan myndigheter regulerer religionens plass i samfunnet"
       ],
       "correct": 2,
-      "explain": "Utenfraperspektivet er forskerens."
+      "explain": "Innenfra handler om de troendes egne perspektiver, mens utenfra beskriver religionen med faglige begreper."
     },
     {
       "id": "q04",
       "text": "Hva er agnostisisme?",
       "options": [
-        "Tro på mange guder",
-        "Tro på én gud",
-        "Tro på at Gud er i alt",
+        "Troen på at mange guder styrer ulike deler av verden",
+        "Troen på én gud som har skapt og styrer verden",
+        "Synet at guddommen finnes i naturen og hele verden",
         "Synet at vi ikke kan vite om det finnes en gud"
       ],
       "correct": 3,
-      "explain": "Skiller seg fra ateisme."
+      "explain": "Agnostisisme handler om hva vi kan vite, mens ateisme handler om tro på guder."
     },
     {
       "id": "q05",
       "text": "Hva er sekularisering?",
       "options": [
         "At religion får mindre betydning i samfunnet",
-        "At religion blir sterkere",
-        "At en ny religion oppstår",
-        "At staten innfører religion"
+        "At religion får større betydning i samfunnets offentlige liv",
+        "At religiøse institusjoner får mer innflytelse over politikk og skole",
+        "At religiøs praksis flyttes fra hjemmet til offentlige institusjoner"
       ],
       "correct": 0,
       "explain": "Et sentralt fagbegrep."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken dimensjon hos Ninian Smart handler om bønn og gudstjenester?",
       "options": [
-        "Læren",
-        "Ritualene",
-        "Etikken",
-        "Det materielle"
+        "Den læremessige dimensjonen",
+        "Den rituelle dimensjonen",
+        "Den etiske dimensjonen",
+        "Den materielle dimensjonen"
       ],
       "correct": 1,
       "explain": "Også overgangsriter."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvorfor kan én troende ikke snakke for alle?",
       "options": [
-        "Fordi troende lyver",
-        "Fordi religioner ikke har medlemmer",
+        "Fordi læren gir troende en felles forståelse av religionen",
+        "Fordi religiøse tekster gir samme svar på sentrale spørsmål",
         "Fordi religioner er mangfoldige og tolkes ulikt",
-        "Fordi bare prester vet"
+        "Fordi religiøse ledere formidler læren på vegne av troende"
       ],
       "correct": 2,
       "explain": "Det finnes ikke én ekte versjon."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er forskjellen på etikk og moral?",
       "options": [
-        "Det er det samme",
-        "Moral er teori, etikk er praksis",
-        "Etikk handler bare om religion",
+        "Etikk og moral beskriver det samme, både normer og vurderinger av handlinger",
+        "Moral er refleksjon over rett og galt, mens etikk er normer i praksis",
+        "Etikk gjelder religiøse regler, mens moral handler om lovene i samfunnet",
         "Etikk er tenkning om rett og galt, moral er de faktiske normene"
       ],
       "correct": 3,
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva prøver religionsvitenskapen å gjøre?",
       "options": [
-        "Beskrive religioner nøytralt uten å ta stilling til om de er sanne",
-        "Bevise at religioner er sanne",
-        "Bevise at religioner er usanne",
-        "Omvende folk"
+        "Å beskrive religioner saklig uten å avgjøre om trosforestillingene er sanne",
+        "Å vise at religiøse forklaringer stemmer bedre enn vitenskapelige forklaringer",
+        "Å bevise at religiøse forestillinger er usanne ved hjelp av forskning",
+        "Å undersøke hvilken religion som gir best svar på livets spørsmål"
       ],
       "correct": 0,
       "explain": "Saklig og nøytralt."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er monoteisme?",
       "options": [
-        "Tro på mange guder",
+        "Tro på flere guder",
         "Tro på én gud",
-        "Tro på ingen gud",
-        "Tro på ånder"
+        "Tro på ånder i naturen",
+        "Tro på at Gud er alt"
       ],
       "correct": 1,
       "explain": "For eksempel jødedom, kristendom og islam."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva er panteisme?",
         "options": [
-          "Tro på én gud",
-          "Troen på at Gud er i alt",
-          "Tro på ingen gud",
-          "Tro på mange guder"
+          "Synet at én gud står over verden",
+          "Synet at Gud finnes i alt",
+          "Synet at flere guder styrer verden",
+          "Synet at verden ikke har guddommelighet"
         ],
         "correct": 1,
         "explain": "Gud og verden er ett."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva er fundamentalisme?",
         "options": [
-          "Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger",
-          "Tro på mange guder",
-          "Sekularisering",
-          "Religionsvitenskap"
+          "En bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger",
+          "En symbolsk lesning av hellige tekster og tilpasning til moderne tolkninger",
+          "En historisk lesning av hellige tekster med vekt på tekstens opprinnelse",
+          "En religiøs retning som prioriterer ritualer framfor hellige tekster"
         ],
         "correct": 0,
         "explain": "Finnes i mange religioner."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvilken dimensjon omfatter kirker, moskeer og symboler?",
         "options": [
-          "Læren",
-          "Etikken",
-          "Det materielle",
-          "Erfaringene"
+          "Den rituelle dimensjonen",
+          "Den læremessige dimensjonen",
+          "Den materielle dimensjonen",
+          "Den erfaringsmessige dimensjonen"
         ],
         "correct": 2,
         "explain": "Bygninger, kunst og klær."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

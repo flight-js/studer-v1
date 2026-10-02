@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en parafrase?",
       "options": [
-        "Et ordrett sitat",
+        "Et direkte sitat fra en kilde",
         "En gjengivelse av innholdet med egne ord",
-        "En litteraturliste",
-        "En overskrift"
+        "Et sammendrag av flere kilder",
+        "En kommentar til innholdet i en kilde"
       ],
       "correct": 1,
       "explain": "Også parafraser krever kildehenvisning."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er plagiat?",
       "options": [
-        "Å oppgi kilder",
-        "Å bruke sitater",
+        "Å oppgi kildene man har brukt i teksten",
+        "Å bruke sitater med tydelig kildehenvisning",
         "Å gi andres tekst ut som sin egen",
-        "Å skrive en fagartikkel"
+        "Å skrive en fagtekst med egne formuleringer"
       ],
       "correct": 2,
       "explain": "Plagiat regnes som fusk."
@@ -101,9 +101,9 @@
       "text": "Hvordan ordnes en litteraturliste?",
       "options": [
         "Alfabetisk etter forfatterens etternavn",
-        "Etter hvor viktig kilden er",
-        "Etter årstall",
-        "Tilfeldig"
+        "Etter kildenes utgivelsesår",
+        "Etter forfatterens fornavn først",
+        "Etter hvor troverdig kilden virker"
       ],
       "correct": 0,
       "explain": "Da er det lett å finne kildene."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er en primærkilde?",
       "options": [
-        "Den viktigste kilden",
-        "En nettside",
-        "Et leksikon",
-        "En førstehånds kilde, som et intervju"
+        "En kilde som oppsummerer andres undersøkelser",
+        "En leksikontekst som forklarer et tema",
+        "En kilde som viser andres tolkning av hendelser",
+        "En førstehåndskilde, for eksempel et intervju"
       ],
       "correct": 3,
       "explain": "Sekundærkilder skriver om andre kilder."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva hører hjemme i innledningen til en fagartikkel?",
       "options": [
-        "Tema og problemstilling",
-        "Konklusjonen",
-        "Litteraturlisten",
-        "Alle sitatene"
+        "Temaet og problemstillingen",
+        "Resultatene og konklusjonen",
+        "Kildene og litteraturlisten",
+        "Sitatene og kildehenvisningene"
       ],
       "correct": 0,
       "explain": "Problemstillingen styrer resten av teksten."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor må du kontrollere informasjon fra KI-verktøy?",
       "options": [
-        "Fordi det er forbudt å bruke dem",
+        "Fordi KI henter svar fra skolens lærebøker",
         "Fordi KI kan finne på kilder og fakta",
-        "Fordi KI skriver for kort",
-        "Det trenger du ikke"
+        "Fordi KI trenger tilgang til bibliotekets databaser",
+        "Fordi læreren kontrollerer svarene før KI viser dem"
       ],
       "correct": 1,
       "explain": "Du må også følge skolens regler og oppgi bruken."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva betyr selvstendig kildebruk?",
       "options": [
-        "Å bruke bare én kilde",
-        "Å kopiere kilder",
+        "Å bruke én kilde til å begrunne hele resonnementet",
+        "Å gjengi kildenes forklaringer uten egne formuleringer",
         "Å bruke kildene til å støtte eget resonnement",
-        "Å ikke bruke kilder"
+        "Å la kildenes konklusjoner erstatte eget resonnement"
       ],
       "correct": 2,
       "explain": "Du skal bearbeide stoffet, ikke bare gjengi det."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er forskjellen på å redegjøre og å drøfte?",
       "options": [
-        "Det er det samme",
-        "Å drøfte er å gjengi fakta",
-        "Å redegjøre er å gi sin mening",
-        "Å redegjøre er å forklare fakta, å drøfte er å se saken fra flere sider"
+        "Å redegjøre vurderer flere sider; å drøfte forklarer fakta",
+        "Å redegjøre uttrykker egen mening; å drøfte gjengir fakta",
+        "Å redegjøre oppsummerer kilder; å drøfte gjengir problemstillingen",
+        "Å redegjøre forklarer fakta; å drøfte ser saken fra flere sider"
       ],
       "correct": 3,
       "explain": "En fagartikkel gjør ofte begge deler."
@@ -173,9 +173,9 @@
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
         "Hvem står bak kilden, og har de interesser i saken?",
-        "Hvor lang er teksten?",
-        "Hvilken farge har nettsiden?",
-        "Hvor mange bilder er det?"
+        "Hvor mange avsnitt har teksten, og hvor lange er setningene?",
+        "Hvilken skriftstørrelse er brukt, og hvor mange bilder vises?",
+        "Hvilke farger har nettsiden, og hvor mange avsnitt inneholder teksten?"
       ],
       "correct": 0,
       "explain": "Avsenderens interesser kan påvirke innholdet."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er en temasetning?",
       "options": [
-        "Tittelen på artikkelen",
+        "En setning som avslutter et avsnitt og oppsummerer hovedtanken",
         "En setning som innleder et avsnitt og viser hovedtanken",
-        "Den siste setningen i teksten",
-        "Et sitat"
+        "En setning som presenterer et eksempel fra avsnittets innhold",
+        "En setning som viser hvilken kilde som støtter avsnittets påstand"
       ],
       "correct": 1,
       "explain": "Temasetninger gjør teksten lett å følge."
@@ -320,9 +320,9 @@
         "type": "flervalg",
         "text": "Hvor bør konklusjonen stå i en fagartikkel?",
         "options": [
-          "I tittelen",
-          "I avslutningen",
           "I innledningen",
+          "I avslutningen",
+          "I hoveddelen",
           "I litteraturlisten"
         ],
         "correct": 1,
@@ -334,9 +334,9 @@
         "text": "Hvilket av disse er en tekstbinder?",
         "options": [
           "Derimot",
-          "Bok",
-          "Rask",
-          "Skole"
+          "Kanskje",
+          "Fortsatt",
+          "Særlig"
         ],
         "correct": 0,
         "explain": "Tekstbindere viser sammenhengen i resonnementet."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilken kildehenvisning følger APA-stilen?",
         "options": [
-          "[Hansen 45]",
-          "Hansen sa det",
+          "(Hansen 2021, s. 45)",
+          "(Hansen, 2021, 45)",
           "(Hansen, 2021, s. 45)",
-          "Kilde: internett"
+          "(Hansen, s. 45, 2021)"
         ],
         "correct": 2,
         "explain": "Forfatter, år og side oppgis i parentes.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

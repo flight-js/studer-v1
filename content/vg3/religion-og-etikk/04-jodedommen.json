@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er Toraen?",
       "options": [
-        "Den muslimske hellige boken",
-        "De fem Mosebøkene",
-        "Rabbinernes diskusjoner",
-        "En bønn"
+        "En samling av jødiske profettekster og fortellinger",
+        "En samling av de fem Mosebøkene",
+        "En samling av rabbinske lovdiskusjoner og tolkninger",
+        "En samling av jødiske bønner til gudstjenesten"
       ],
       "correct": 1,
       "explain": "Den viktigste delen av de hellige skriftene."
@@ -89,9 +89,9 @@
       "text": "Hva er Talmud?",
       "options": [
         "En samling rabbinske diskusjoner og tolkninger av loven",
-        "En høytid",
-        "Et tempel",
-        "En overgangsrite"
+        "En samling jødiske profetfortellinger og tekster fra Bibelen",
+        "En samling jødiske bønner og salmer brukt i gudstjenesten",
+        "En samling religiøse fortellinger om skapelsen og utferden"
       ],
       "correct": 0,
       "explain": "Skrevet gjennom flere hundre år."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Når varer sabbaten?",
       "options": [
-        "Hele søndag",
-        "Mandag til fredag",
+        "Fra lørdag kveld til søndag kveld",
+        "Fra torsdag kveld til fredag kveld",
         "Fra fredag kveld til lørdag kveld",
-        "Bare lørdag morgen"
+        "Fra fredag morgen til lørdag morgen"
       ],
       "correct": 2,
       "explain": "En hviledag til minne om skapelsen."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva minner pesach om?",
       "options": [
-        "Skapelsen",
-        "Tempelets gjeninnvielse",
-        "Nyttåret",
-        "Utferden fra Egypt"
+        "Jødenes mottakelse av Toraen ved Sinai",
+        "Tempelets gjeninnvielse i Jerusalem",
+        "Verdens skapelse ifølge Første Mosebok",
+        "Jødenes utferd fra Egypt"
       ],
       "correct": 3,
       "explain": "En av de viktigste høytidene."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er jom kippur?",
       "options": [
-        "Forsoningsdagen med faste og bønn",
-        "Lysfesten",
-        "Nyttåret",
-        "Høsttakkefesten"
+        "En forsoningsdag med faste og bønn",
+        "En nyttårsdag med bønn og shofarblåsing",
+        "En lysfest med lys og familiebesøk",
+        "En pilegrimsfest med måltid og fortelling"
       ],
       "correct": 0,
       "explain": "Den helligste dagen i året."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilken retning følger loven strengest?",
       "options": [
-        "Reformjødedom",
-        "Ortodoks jødedom",
-        "Konservativ jødedom",
-        "Sekulær jødedom"
+        "Den reformerte retningen innen jødedommen",
+        "Den ortodokse retningen innen jødedommen",
+        "Den konservative retningen innen jødedommen",
+        "Den sekulære retningen innen jødedommen"
       ],
       "correct": 1,
       "explain": "Loven ses som uforanderlig."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er diasporaen?",
       "options": [
-        "Et jødisk tempel",
-        "En høytid",
-        "At jødene spredte seg over verden",
-        "En hellig bok"
+        "Jødenes samling rundt tempelet i Jerusalem",
+        "Jødenes feiring av høytider i hjemmene sine",
+        "Jødenes spredning til mange deler av verden",
+        "Jødenes nedskriving av hellige tekster i Israel"
       ],
       "correct": 2,
       "explain": "Etter at tempelet ble ødelagt i år 70."
@@ -161,8 +161,8 @@
       "text": "Når ble forbudet mot jøder i Grunnloven opphevet?",
       "options": [
         "1814",
+        "1845",
         "1905",
-        "1945",
         "1851"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er kosher?",
       "options": [
-        "Regler for hva som er tillatt å spise",
-        "En bønn",
-        "En synagoge",
-        "En type rabbiner"
+        "Regler for hvilke matvarer som er tillatt å spise",
+        "Regler for hvilke bønner som skal sies i hjemmet",
+        "Regler for hvordan synagoger skal bygges og innredes",
+        "Regler for hvilke klær som brukes under høytider"
       ],
       "correct": 0,
       "explain": "For eksempel skal kjøtt og melk ikke blandes."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva legger jødedommen særlig vekt på?",
       "options": [
-        "Trosbekjennelser alene",
-        "Handling – å leve etter budene",
-        "Misjon",
-        "Pilegrimsreise til Mekka"
+        "Å legge vekt på trosbekjennelser ved å uttrykke sin tro",
+        "Å legge vekt på handlinger ved å leve etter budene",
+        "Å legge vekt på misjon ved å spre religionen til andre",
+        "Å legge vekt på pilegrimsreiser ved å besøke Mekka"
       ],
       "correct": 1,
       "explain": "Praksis er sentralt."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva er hanukka?",
         "options": [
-          "Forsoningsdagen",
-          "Lysfesten",
-          "Nyttåret",
-          "Utferden"
+          "Den jødiske forsoningsdagen",
+          "Den jødiske lysfesten",
+          "Det jødiske nyttåret",
+          "Den jødiske påskefesten"
         ],
         "correct": 1,
         "explain": "Minner om gjeninnvielsen av tempelet."
@@ -326,9 +326,9 @@
         "text": "Når ble staten Israel opprettet?",
         "options": [
           "1948",
-          "1914",
-          "1851",
-          "70"
+          "1917",
+          "1922",
+          "1947"
         ],
         "correct": 0,
         "explain": "Etter andre verdenskrig."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilke deler består Tanakh av?",
         "options": [
-          "Evangeliene og brevene",
-          "Koranen og hadith",
+          "Talmud, Mishnah og Midrasj",
+          "Mishnah, Gemara og responsa",
           "Toraen, Profetene og Skriftene",
-          "Vedaene og Upanishadene"
+          "Talmud, Midrasj og bønnebøker"
         ],
         "correct": 2,
         "explain": "Den hebraiske bibelen."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

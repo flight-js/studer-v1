@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er f⁻¹(x) når f(x) = 2x + 3?",
       "options": [
-        "(x + 3)/2",
+        "(x − 2)/3",
         "(x − 3)/2",
-        "1/(2x + 3)",
-        "2x − 3"
+        "(3 − x)/2",
+        "2x + 3"
       ],
       "correct": 1,
       "explain": "Løs y = 2x + 3 for x."
@@ -89,9 +89,9 @@
       "text": "Hvordan henger grafene til f og f⁻¹ sammen?",
       "options": [
         "De er speilbilder om linjen y = x",
-        "De er speilbilder om x-aksen",
-        "De er like",
-        "De er parallelle"
+        "De er speilbilder om linjen y = −x",
+        "De er speilbilder om y-aksen",
+        "De er speilbilder om linjen y = 1"
       ],
       "correct": 0,
       "explain": "(a, b) blir til (b, a)."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor har ikke f(x) = x² en omvendt funksjon på hele tallinjen?",
       "options": [
-        "Fordi den er et polynom",
-        "Fordi den ikke er kontinuerlig",
+        "Fordi den ikke er definert for negative x-verdier",
+        "Fordi grafen ikke skjærer y-aksen",
         "Fordi to x-verdier gir samme y-verdi",
-        "Fordi den er voksende"
+        "Fordi den bare gir positive y-verdier"
       ],
       "correct": 2,
       "explain": "For eksempel gir både 2 og −2 verdien 4."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvilken funksjon er den omvendte til eˣ?",
       "options": [
-        "1/eˣ",
-        "e⁻ˣ",
-        "lg x",
+        "−ln x",
+        "ln(x + 1)",
+        "ln x + 1",
         "ln x"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "f(x) = x³ + x. Hva er (f⁻¹)′(2)?",
       "options": [
         "1/4",
-        "4",
-        "2",
-        "1/2"
+        "1/3",
+        "1/6",
+        "1/8"
       ],
       "correct": 0,
       "explain": "f(1) = 2 og f′(1) = 4."
@@ -138,8 +138,8 @@
       "options": [
         "D(f)",
         "V(f)",
-        "Alltid ℝ",
-        "Alltid x > 0"
+        "V(f⁻¹)",
+        "ℝ"
       ],
       "correct": 1,
       "explain": "Definisjons- og verdimengde bytter plass."
@@ -148,21 +148,21 @@
       "id": "q07",
       "text": "Hvilket punkt ligger på grafen til ln x?",
       "options": [
-        "(0, 1)",
-        "(0, 0)",
+        "(e², 1)",
+        "(1/e, 1)",
         "(1, 0)",
-        "(e, 0)"
+        "(e², 0)"
       ],
       "correct": 2,
-      "explain": "Speilbildet av (0, 1) på eˣ."
+      "explain": "Siden ln 1 = 0, ligger punktet (1, 0) på grafen."
     },
     {
       "id": "q08",
       "text": "Når har en funksjon garantert en omvendt funksjon?",
       "options": [
-        "Når den er kontinuerlig",
-        "Når den har et toppunkt",
-        "Når den er et polynom",
+        "Når den er voksende eller avtakende",
+        "Når grafen har et toppunkt i definisjonsmengden",
+        "Når grafen krysser x-aksen på ett punkt",
         "Når den er strengt voksende eller strengt avtakende"
       ],
       "correct": 3,
@@ -173,21 +173,21 @@
       "text": "Hva betyr f⁻¹(x)?",
       "options": [
         "Den omvendte funksjonen til f",
-        "1/f(x)",
-        "f(x) − 1",
-        "f(−x)"
+        "Den deriverte funksjonen til f",
+        "Funksjonen f evaluert i −x",
+        "Funksjonen f sammensatt med seg selv"
       ],
       "correct": 0,
-      "explain": "Ikke forveksle med 1/f."
+      "explain": "Den omvendte funksjonen sender en funksjonsverdi tilbake til den opprinnelige x-verdien."
     },
     {
       "id": "q10",
       "text": "Hvilken omvendt funksjon får x² når definisjonsmengden begrenses til x ≥ 0?",
       "options": [
-        "1/x²",
+        "−√x",
         "√x",
-        "x/2",
-        "ln x"
+        "2√x",
+        "√(x + 1)"
       ],
       "correct": 1,
       "explain": "√(x²) = x for x ≥ 0."
@@ -306,10 +306,10 @@
         "type": "flervalg",
         "text": "Omtrent hvilken celsiustemperatur svarer til 100 °F?",
         "options": [
-          "−12 °C",
+          "68 °C",
           "38 °C",
-          "56 °C",
-          "212 °C"
+          "50 °C",
+          "100 °C"
         ],
         "correct": 1,
         "explain": "(100 − 32)/1,8 ≈ 37,8.",
@@ -321,9 +321,9 @@
         "text": "Hva er f⁻¹(x) når f(x) = eˣ⁺¹?",
         "options": [
           "ln x − 1",
-          "ln(x − 1)",
-          "e^(x − 1)",
-          "1/(ln x)"
+          "ln x + 1",
+          "eˣ − 1",
+          "ln(x + 1)"
         ],
         "correct": 0,
         "explain": "y = eˣ⁺¹ gir x + 1 = ln y."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Punktet (3, 7) ligger på grafen til f. Hvilket punkt ligger på grafen til f⁻¹?",
         "options": [
-          "(3, 7)",
-          "(−3, −7)",
+          "(7, −3)",
+          "(−7, 3)",
           "(7, 3)",
-          "(1/3, 1/7)"
+          "(3, −7)"
         ],
         "correct": 2,
         "explain": "Koordinatene bytter plass."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

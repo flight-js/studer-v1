@@ -94,8 +94,8 @@
       "options": [
         "J'ai treize ans.",
         "Je suis treize ans.",
-        "J'ai treize.",
-        "Je m'appelle treize."
+        "J'ai treize mois.",
+        "J'ai quatorze ans."
       ],
       "correct": 0,
       "explain": "På fransk bruker man «avoir» (å ha) om alder."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Når bruker du «vous» i stedet for «tu»?",
       "options": [
-        "Til bestevennen din",
-        "Til kjæledyret ditt",
-        "Til søsknene dine",
-        "Til voksne du ikke kjenner, eller til flere personer"
+        "Til en nær venn eller et familiemedlem du kjenner godt",
+        "Til et barn du kjenner godt eller en klassekamerat",
+        "Til én venn på din egen alder, ikke til flere",
+        "Til voksne du ikke kjenner eller til flere personer"
       ],
       "correct": 3,
       "explain": "«vous» er både høflighetsform og flertall."
@@ -131,7 +131,7 @@
         "Som norsk «o»",
         "Som norsk «y»",
         "Som norsk «u»",
-        "Som «au»"
+        "Som norsk «å»"
       ],
       "correct": 2,
       "explain": "«vous» uttales omtrent «vu»."
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hva er ofte spesielt med konsonanter på slutten av franske ord?",
       "options": [
-        "De uttales dobbelt",
-        "De skrives med stor bokstav",
-        "De har alltid aksent",
+        "De uttales tydelig til slutt",
+        "De uttales med en ekstra lyd",
+        "De får en egen stavelse",
         "De er ofte stumme"
       ],
       "correct": 3,
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva betyr «De rien»?",
       "options": [
-        "Bare hyggelig / ingen årsak",
-        "Takk",
-        "Unnskyld",
-        "Ha det"
+        "Bare hyggelig",
+        "Tusen takk",
+        "Unnskyld meg",
+        "God kveld"
       ],
       "correct": 0,
       "explain": "Du svarer «De rien» når noen sier «Merci»."
@@ -167,7 +167,7 @@
         "Som k",
         "Som s",
         "Som sj",
-        "Den er stum"
+        "Som z"
       ],
       "correct": 1,
       "explain": "Cedillen viser at c skal uttales som s."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva sier du når du bor i Bergen?",
       "options": [
-        "Je suis Bergen.",
-        "J'ai Bergen.",
-        "Je m'appelle Bergen.",
+        "Je viens de Bergen.",
+        "Je vais à Bergen.",
+        "Je visite Bergen.",
         "J'habite à Bergen."
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er «la bise»?",
       "options": [
-        "En type brød",
-        "En hilsen på telefon",
+        "Håndtrykk som hilsen",
+        "Klem som avskjed",
         "Kinnkyss som hilsen",
-        "En fransk sang"
+        "Kyss på hånden"
       ],
       "correct": 2,
       "explain": "Venner og familie hilser ofte med kinnkyss i Frankrike.",
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ça va bien, merci !»?",
         "options": [
-          "Jeg heter Ça",
+          "Det går dårlig, takk!",
           "Det går bra, takk!",
-          "Ha det bra!",
-          "Vær så snill!"
+          "Det går bra, beklager!",
+          "Det går dårlig i dag!"
         ],
         "correct": 1,
         "explain": "Det er et vanlig svar på «Ça va ?»."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva betyr «s'il te plaît»?",
         "options": [
-          "Takk",
-          "Unnskyld",
+          "Takk for hjelpen",
+          "Unnskyld meg",
           "Vær så snill",
-          "Velkommen"
+          "Velkommen hit"
         ],
         "correct": 2,
         "explain": "Til voksne du ikke kjenner, sier du «s'il vous plaît»."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

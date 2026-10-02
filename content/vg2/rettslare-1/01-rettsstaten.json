@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva sier legalitetsprinsippet?",
       "options": [
-        "At alle skal betale skatt",
+        "At myndighetenes inngrep må godkjennes av domstolene før de gjennomføres",
         "At myndighetenes inngrep overfor den enkelte må ha grunnlag i lov",
-        "At kongen har all makt",
-        "At domstolene lager lover"
+        "At myndighetenes inngrep må vedtas av Stortinget i hver enkelt sak",
+        "At myndighetenes inngrep må følge kommunale vedtak i den berørte kommunen"
       ],
       "correct": 1,
       "explain": "Grunnloven § 113."
@@ -89,9 +89,9 @@
       "text": "Hva er uskyldspresumsjonen?",
       "options": [
         "At alle regnes som uskyldige til det motsatte er bevist",
-        "At alle er skyldige til de beviser noe annet",
-        "At ingen kan dømmes",
-        "At dommeren alltid har rett"
+        "At alle regnes som skyldige til dommen er avsagt",
+        "At tiltalte må bevise sin uskyld for domstolen",
+        "At dommeren kan fastslå skyld uten å vurdere bevis"
       ],
       "correct": 0,
       "explain": "En grunnleggende rettssikkerhetsgaranti."
@@ -103,7 +103,7 @@
         "Den lovgivende",
         "Den utøvende",
         "Den dømmende",
-        "Ingen"
+        "Den kontrollerende"
       ],
       "correct": 2,
       "explain": "De dømmer i konkrete saker."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva sier Grunnloven § 96?",
       "options": [
-        "At alle er like for loven",
-        "At staten kan straffe uten lov",
-        "At lover kan gis tilbakevirkende kraft",
+        "At ingen kan dømmes uten at regjeringen har godkjent dommen",
+        "At ingen kan dømmes uten at saken er behandlet av Stortinget",
+        "At ingen kan dømmes uten at skyld er innrømmet",
         "At ingen kan dømmes uten etter lov"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er prøvingsretten?",
       "options": [
         "Domstolenes rett til å prøve om lover strider mot Grunnloven",
-        "Stortingets rett til å felle regjeringen",
-        "Retten til å anke",
-        "Retten til å stemme"
+        "Stortingets rett til å prøve om dommer strider mot Grunnloven",
+        "Regjeringens rett til å prøve om lover strider mot Grunnloven",
+        "Domstolenes rett til å prøve om regjeringen følger Stortingets vedtak"
       ],
       "correct": 0,
       "explain": "Også mot menneskerettighetene."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva betyr habilitet?",
       "options": [
-        "At saken er rask",
+        "At dommere og saksbehandlere ikke offentliggjør opplysninger om saken",
         "At dommere og saksbehandlere ikke har personlige interesser i saken",
-        "At partene er enige",
-        "At saken er offentlig"
+        "At dommere og saksbehandlere behandler saken innen fastsatt frist",
+        "At dommere og saksbehandlere følger partenes felles ønske i saken"
       ],
       "correct": 1,
       "explain": "Sikrer upartiskhet."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva betyr rettssikkerhet?",
       "options": [
-        "At politiet har mye makt",
-        "At straffene er strenge",
+        "At den enkelte er beskyttet mot kriminalitet og kan få hjelp fra politiet",
+        "At den enkelte får lik behandling i retten og kan bestemme hvilken straff som brukes",
         "At den enkelte er vernet mot overgrep og kan forutberegne sin rettsstilling",
-        "At det finnes mange advokater"
+        "At den enkelte får en rask rettssak og kan kreve at saken avgjøres på kort tid"
       ],
       "correct": 2,
       "explain": "Beskyttelse mot vilkårlighet."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvilken utfordring har den norske rettsstaten?",
       "options": [
-        "At domstolene ikke er uavhengige",
-        "At det ikke finnes lover",
-        "At det ikke finnes Grunnlov",
+        "Manglende uavhengighet mellom domstolene og regjeringen",
+        "Manglende mulighet til å anke dommer fra tingretten",
+        "Manglende lovkrav ved inngrep fra offentlige myndigheter",
         "Lang saksbehandlingstid og kostnader for å føre sak"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva sier Grunnloven § 98?",
       "options": [
         "At alle er like for loven",
-        "At ingen kan dømmes uten lov",
-        "At kongen er ukrenkelig",
-        "At staten skal ha oljefond"
+        "At ingen dømmes uten hjemmel i lov",
+        "At lover ikke gjelder for tidligere handlinger",
+        "At myndighetene følger vedtatte lover"
       ],
       "correct": 0,
       "explain": "Forbud mot usaklig forskjellsbehandling."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor er maktfordeling viktig i en rettsstat?",
       "options": [
-        "For å gjøre staten raskere",
+        "For at regjeringen skal kunne vedta lover uten innblanding fra Stortinget",
         "For at maktene skal kontrollere hverandre og hindre maktmisbruk",
-        "For å gi kongen mer makt",
-        "For å slippe valg"
+        "For at domstolene skal bestemme hvem som skal sitte på Stortinget",
+        "For at regjeringen skal kunne styre uten kontroll fra andre statsmakter"
       ],
       "correct": 1,
       "explain": "Ingen skal ha all makt."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hvilken paragraf i Grunnloven inneholder legalitetsprinsippet?",
         "options": [
-          "§ 100",
+          "§ 96",
           "§ 113",
-          "§ 1",
-          "§ 12"
+          "§ 97",
+          "§ 98"
         ],
         "correct": 1,
         "explain": "Tatt inn i 2014."
@@ -323,9 +323,9 @@
         "text": "Hva er en rettssikkerhetsgaranti i forvaltningen?",
         "options": [
           "Rett til å klage og få begrunnelse",
-          "Rett til å velge saksbehandler",
-          "Rett til å slippe skatt",
-          "Rett til å bestemme lovene"
+          "Rett til å velge hvem som behandler saken",
+          "Rett til innsyn i alle taushetsbelagte opplysninger",
+          "Rett til å få saken avgjort av Stortinget"
         ],
         "correct": 0,
         "explain": "Forvaltningsloven sikrer dette."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan fri rettshjelp være viktig for rettssikkerheten?",
         "options": [
-          "Fordi den gjør dommerne raskere",
-          "Fordi den fjerner behovet for domstoler",
+          "Fordi den gir domstolene flere dommere i hver sak",
+          "Fordi den gjør saksbehandlingen raskere for alle parter",
           "Fordi ikke alle har råd til advokat",
-          "Fordi den gir alltid seier i retten"
+          "Fordi den erstatter behovet for juridisk rådgivning"
         ],
         "correct": 2,
         "explain": "Lik tilgang til rettssystemet.",
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

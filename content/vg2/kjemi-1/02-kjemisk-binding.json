@@ -113,9 +113,9 @@
       "text": "Hvilken bindingstype finnes i natriumklorid (NaCl)?",
       "options": [
         "Upolar kovalent binding",
-        "Metallbinding",
+        "Polar kovalent binding",
         "Ionebinding",
-        "Hydrogenbinding"
+        "Metallbinding"
       ],
       "correct": 2,
       "explain": "Natrium er et metall og klor et ikke-metall. Natrium gir fra seg et elektron til klor, og ionene Na⁺ og Cl⁻ holdes sammen i et ionegitter."
@@ -125,12 +125,12 @@
       "text": "Hvorfor leder fast natriumklorid ikke strøm, mens smeltet natriumklorid gjør det?",
       "options": [
         "I fast stoff sitter ionene fast i gitteret",
-        "Fast natriumklorid inneholder ingen ioner",
-        "Smeltet natriumklorid inneholder frie elektroner",
-        "Fast natriumklorid er et metall"
+        "I fast stoff kan ionene bevege seg fritt i gitteret",
+        "Når saltet smelter, er det elektronene som beveger seg",
+        "Fast natriumklorid leder strøm fordi elektronene flytter seg"
       ],
       "correct": 0,
-      "explain": "For å lede strøm må ladde partikler kunne bevege seg. I fast stoff er ionene låst i gitteret. Når stoffet smelter eller løses i vann, kan ionene bevege seg fritt."
+      "explain": "Fast natriumklorid inneholder ioner, men de er låst på plass i gitteret. Når saltet smelter, kan ionene bevege seg og frakte ladning."
     },
     {
       "id": "q03",
@@ -142,7 +142,7 @@
         "Cl₂"
       ],
       "correct": 3,
-      "explain": "I Cl₂ er begge atomene like, med lik elektronegativitet, så elektronene deles helt likt. I de andre molekylene er atomene ulike og bindingene polare."
+      "explain": "I Cl₂ er atomene like, så elektronene deles likt. I HCl, H₂O og NH₃ er bindingene mellom ulike atomtyper og dermed polare."
     },
     {
       "id": "q04",
@@ -150,7 +150,7 @@
       "options": [
         "Plan trigonal",
         "Tetraedrisk",
-        "Lineær",
+        "Trigonal pyramidal",
         "Vinklet"
       ],
       "correct": 1,
@@ -160,10 +160,10 @@
       "id": "q05",
       "text": "Hvorfor er vannmolekylet vinklet og ikke lineært?",
       "options": [
-        "Hydrogenatomene tiltrekker hverandre",
-        "Oksygen danner to dobbeltbindinger",
+        "Oksygen har to bindinger som peker i motsatt retning",
+        "Hydrogenatomene har frie elektronpar som bøyer molekylet",
         "Oksygen har to frie elektronpar som skyver bindingene sammen",
-        "Vannmolekylene danner hydrogenbindinger"
+        "Hydrogenbindinger mellom molekylene bøyer hvert vannmolekyl"
       ],
       "correct": 2,
       "explain": "Oksygen har to bindinger og to frie elektronpar, altså fire elektronområder. De frie parene tar mye plass og presser bindingene sammen til omtrent 104,5°."
@@ -173,24 +173,24 @@
       "text": "CO₂ har polare bindinger. Hvorfor er molekylet likevel upolart?",
       "options": [
         "Molekylet er lineært, så dipolene opphever hverandre",
-        "Karbon og oksygen har lik elektronegativitet",
-        "Bindingene i CO₂ er ioniske",
-        "CO₂ er en gass ved romtemperatur"
+        "Karbon og oksygen har lik elektronegativitet, så bindingene er upolare",
+        "Molekylet er vinklet, så dipolene opphever hverandre",
+        "Bindingene er upolare, men molekylet får en positiv og negativ ende"
       ],
       "correct": 0,
-      "explain": "Begge C=O-bindingene er polare, men de peker i motsatt retning med 180° mellom seg. Da opphever dipolene hverandre, og molekylet får ingen positiv og negativ ende."
+      "explain": "C=O-bindingene i CO₂ er polare. Siden molekylet er lineært, peker dipolene i motsatt retning og opphever hverandre."
     },
     {
       "id": "q07",
       "text": "Hvilken type kraft virker mellom alle molekyler?",
       "options": [
-        "Hydrogenbindinger",
-        "London-krefter",
         "Dipol-dipol-krefter",
+        "London-krefter",
+        "Hydrogenbindinger",
         "Ionebindinger"
       ],
       "correct": 1,
-      "explain": "London-krefter skyldes midlertidige skjevheter i elektronskyen og finnes mellom alle molekyler, også upolare. De andre kreftene krever polare molekyler eller ioner."
+      "explain": "London-krefter finnes mellom alle molekyler, også upolare. Dipol-dipol-krefter og hydrogenbindinger krever polare molekyler, mens ionebindinger virker mellom ioner."
     },
     {
       "id": "q08",
@@ -202,31 +202,31 @@
         "NH₃"
       ],
       "correct": 3,
-      "explain": "Hydrogenbindinger krever H bundet til N, O eller F. I NH₃ er hydrogen bundet til nitrogen, og nitrogen har et fritt elektronpar som kan tiltrekke H i et annet molekyl."
+      "explain": "Hydrogenbindinger dannes når hydrogen er bundet til N, O eller F. I NH₃ er hydrogen bundet til nitrogen, som også har et fritt elektronpar."
     },
     {
       "id": "q09",
       "text": "Hvorfor har vann (H₂O) mye høyere kokepunkt enn hydrogensulfid (H₂S)?",
       "options": [
         "Vannmolekylene danner hydrogenbindinger",
-        "Vannmolekylet er større",
-        "Hydrogensulfid er en ioneforbindelse",
-        "Vann er et kovalent nettverk"
+        "Vannmolekylene har større masse enn H₂S-molekylene",
+        "H₂S-molekylene danner hydrogenbindinger mellom seg",
+        "H₂S-molekylene holdes sammen av sterkere krefter"
       ],
       "correct": 0,
-      "explain": "Oksygen er svært elektronegativt, så vann danner hydrogenbindinger. Svovel er mindre elektronegativt, og H₂S har bare svakere krefter mellom molekylene. Derfor koker vann ved 100 °C og H₂S langt under 0 °C."
+      "explain": "Vannmolekylene danner hydrogenbindinger, mens H₂S-molekylene holdes sammen av svakere krefter. Derfor har vann et mye høyere kokepunkt."
     },
     {
       "id": "q10",
       "text": "Hva kjennetegner metallbinding?",
       "options": [
-        "Delte elektronpar mellom to bestemte atomer",
-        "Positive og negative ioner i et gitter",
+        "Atomer bundet sammen av delte elektronpar",
+        "Positive og negative ioner ordnet i et ionegitter",
         "Positive metallioner i et hav av frie elektroner",
-        "Hydrogen bundet til oksygen"
+        "Positive metallioner bundet sammen av elektronpar mellom naboatomene"
       ],
       "correct": 2,
-      "explain": "I metaller deler alle atomene valenselektronene sine i et felles elektronhav. De frie elektronene gjør at metaller leder strøm og varme."
+      "explain": "I metallbinding er positive metallioner omgitt av et felles hav av frie elektroner. Delte elektronpar mellom bestemte atomer kjennetegner kovalent binding, og ionegitter kjennetegner ionebinding."
     },
     {
       "id": "q11",
@@ -417,7 +417,7 @@
         "type": "flervalg",
         "text": "Hvilken bindingsvinkel har et tetraedrisk molekyl?",
         "options": [
-          "90°",
+          "107°",
           "109,5°",
           "120°",
           "180°"
@@ -443,7 +443,7 @@
           "Vinklet"
         ],
         "correct": 2,
-        "explain": "Bor har tre bindinger og ingen frie elektronpar. Tre elektronområder legger seg i samme plan med 120° mellom seg."
+        "explain": "Bor har tre bindinger og ingen frie elektronpar. Derfor ligger de tre elektronområdene i samme plan, med 120° mellom bindingene."
       },
       {
         "id": "m05",
@@ -566,6 +566,7 @@
     "merknader": [
       "Læreverk bruker litt ulike navn på molekylformene (for eksempel «plan trigonal» eller «plan trekantet»). Sjekk at navnene stemmer med læreboka elevene bruker."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

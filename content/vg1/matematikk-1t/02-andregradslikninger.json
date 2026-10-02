@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er (x + 3)²?",
       "options": [
-        "x² + 9",
-        "x² + 6x + 9",
         "x² + 3x + 9",
-        "2x + 6"
+        "x² + 6x + 9",
+        "x² + 6x + 3",
+        "x² + 3x + 6"
       ],
       "correct": 1,
       "explain": "Første kvadratsetning: x² + 2 · 3 · x + 3²."
@@ -90,7 +90,7 @@
         "x = 2 eller x = 3",
         "x = −2 eller x = −3",
         "x = 1 eller x = 6",
-        "x = 5 eller x = 6"
+        "x = −1 eller x = −6"
       ],
       "correct": 0,
       "explain": "abc-formelen gir (5 ± 1)/2."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er diskriminanten?",
       "options": [
-        "−b/(2a)",
         "b² + 4ac",
+        "b² − 4c",
         "b² − 4ac",
-        "√(b² − 4ac)/(2a)"
+        "√(b² − 4ac)"
       ],
       "correct": 2,
       "explain": "Diskriminanten er uttrykket under rottegnet."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva betyr det at diskriminanten er negativ?",
       "options": [
-        "To løsninger",
-        "Én løsning",
-        "Uendelig mange løsninger",
+        "To reelle løsninger",
+        "Én reell løsning",
+        "Uendelig mange reelle løsninger",
         "Ingen reelle løsninger"
       ],
       "correct": 3,
@@ -125,8 +125,8 @@
       "options": [
         "(x − 3)(x + 3)",
         "(x − 3)²",
-        "(x − 9)(x + 1)",
-        "x(x − 9)"
+        "(x − 1)(x + 9)",
+        "(x − 9)(x + 1)"
       ],
       "correct": 0,
       "explain": "Konjugatsetningen: a² − b² = (a + b)(a − b)."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Løs x² − 5x = 0.",
       "options": [
-        "x = 5",
+        "x = 0 eller x = −5",
         "x = 0 eller x = 5",
-        "x = ±√5",
-        "x = −5"
+        "x = −5 eller x = 5",
+        "x = 0 eller x = √5"
       ],
       "correct": 1,
       "explain": "x(x − 5) = 0, så x = 0 eller x = 5."
@@ -148,9 +148,9 @@
       "text": "Løs ulikheten x² − 5x + 6 < 0.",
       "options": [
         "x < 2 eller x > 3",
-        "x > 3",
+        "2 ≤ x ≤ 3",
         "2 < x < 3",
-        "x < 2"
+        "x ≤ 2 eller x ≥ 3"
       ],
       "correct": 2,
       "explain": "(x − 2)(x − 3) er negativ mellom nullpunktene."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvordan ser grafen til f(x) = −x² + 4x ut?",
       "options": [
-        "En rett linje",
         "En parabel med bunnpunkt",
-        "En hyperbel",
+        "En rett linje gjennom origo",
+        "En parabel som åpner oppover",
         "En parabel med toppunkt"
       ],
       "correct": 3,
@@ -173,7 +173,7 @@
       "options": [
         "x = 3",
         "x = −3",
-        "x = 6",
+        "x = −6",
         "x = 5"
       ],
       "correct": 0,
@@ -183,7 +183,7 @@
       "id": "q10",
       "text": "Hvor mange løsninger har x² + 4x + 4 = 0?",
       "options": [
-        "Ingen",
+        "Null",
         "Én",
         "To",
         "Tre"
@@ -314,9 +314,9 @@
         "text": "Løs x² = 16.",
         "options": [
           "x = 4",
-          "x = 8",
+          "x = ±8",
           "x = ±4",
-          "x = 256"
+          "x = ±16"
         ],
         "correct": 2,
         "explain": "Både 4² og (−4)² er 16."
@@ -327,9 +327,9 @@
         "text": "Hvordan skrives x² + 6x + 5 med fullstendig kvadrat?",
         "options": [
           "(x + 3)² − 4",
-          "(x + 3)² + 5",
-          "(x + 6)² − 31",
-          "(x − 3)² + 4"
+          "(x + 3)² − 5",
+          "(x + 3)² + 4",
+          "(x − 3)² − 4"
         ],
         "correct": 0,
         "explain": "(x + 3)² = x² + 6x + 9, og 9 − 4 = 5."
@@ -339,9 +339,9 @@
         "type": "flervalg",
         "text": "Faktoriser x² − 5x + 6.",
         "options": [
-          "(x + 2)(x + 3)",
-          "(x − 1)(x − 6)",
-          "(x + 1)(x − 6)",
+          "(x + 2)(x − 3)",
+          "(x − 2)(x + 3)",
+          "(x − 1)(x − 5)",
           "(x − 2)(x − 3)"
         ],
         "correct": 3,
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

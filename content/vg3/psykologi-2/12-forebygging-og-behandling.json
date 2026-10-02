@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er universell forebygging?",
       "options": [
-        "Tiltak for de som allerede er syke",
+        "Tiltak rettet mot personer med diagnose",
         "Tiltak rettet mot alle",
-        "Tiltak bare for risikogrupper",
-        "Medisinering"
+        "Tiltak rettet mot personer i risikogrupper",
+        "Tiltak rettet mot personer i behandling"
       ],
       "correct": 1,
       "explain": "For eksempel livsmestring i skolen."
@@ -91,9 +91,9 @@
       "text": "Hva er BUP?",
       "options": [
         "Barne- og ungdomspsykiatrisk poliklinikk",
-        "En kommunal skole",
-        "En medisin",
-        "En terapiform"
+        "Barne- og ungdomspsykiatrisk sykehusavdeling",
+        "Barne- og ungdomspsykologisk poliklinikk",
+        "Barne- og ungdomsmedisinsk poliklinikk"
       ],
       "correct": 0,
       "explain": "Del av spesialisthelsetjenesten."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er eksponering i behandling av angst?",
       "options": [
-        "Å unngå det man frykter",
-        "Å ta medisiner",
+        "Å gradvis unngå det man frykter",
+        "Å bruke medisiner for å dempe angsten",
         "Å gradvis møte det man frykter",
-        "Å snakke om barndommen"
+        "Å lete etter årsaker i barndommen"
       ],
       "correct": 2,
       "explain": "En del av kognitiv atferdsterapi."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er terapeutisk allianse?",
       "options": [
-        "En avtale om betaling",
-        "En medisin",
-        "En diagnose",
+        "Avtalen mellom terapeut og klient om betaling",
+        "Diagnosen terapeuten stiller ut fra klientens symptomer",
+        "Behandlingsplanen terapeuten lager for klientens symptomer",
         "Relasjonen mellom terapeut og klient"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er evidensbasert praksis?",
       "options": [
         "Å kombinere forskning, klinisk erfaring og pasientens ønsker",
-        "Å bare følge egen erfaring",
-        "Å bare bruke medisiner",
-        "Å gjøre som pasienten sier"
+        "Å kombinere forskning, klinisk erfaring og terapeutens ønsker",
+        "Å kombinere forskning, medisinsk behandling og pasientens ønsker",
+        "Å kombinere klinisk erfaring, behandlingsregler og pasientens ønsker"
       ],
       "correct": 0,
       "explain": "Tre kunnskapskilder."
@@ -140,7 +140,7 @@
       "options": [
         "Læreren",
         "Fastlegen",
-        "Rektor",
+        "Rektoren",
         "Politiet"
       ],
       "correct": 1,
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er selektiv forebygging?",
       "options": [
-        "Tiltak for alle",
-        "Tiltak for de med diagnose",
+        "Tiltak rettet mot alle i befolkningen",
+        "Tiltak rettet mot personer med tidlige symptomer",
         "Tiltak rettet mot risikogrupper",
-        "Tiltak bare på sykehus"
+        "Tiltak rettet mot personer med en etablert diagnose"
       ],
       "correct": 2,
       "explain": "For eksempel barn av foreldre med rusproblemer."
@@ -176,9 +176,9 @@
       "text": "Hva er et sosialt behandlingstiltak?",
       "options": [
         "Samarbeid med skole og NAV om tilrettelegging",
-        "SSRI",
-        "Søvnmedisin",
-        "Eksponering"
+        "Medikamentell behandling med SSRI og søvnmedisin",
+        "Psykologisk behandling med eksponering og avspenning",
+        "Medisinsk oppfølging med fastlege og legemidler"
       ],
       "correct": 0,
       "explain": "Behandling på flere nivåer."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva anbefales ofte først ved lettere psykiske plager?",
       "options": [
-        "Innleggelse",
-        "Samtalebehandling",
-        "Sterke medisiner",
-        "Ingen hjelp"
+        "Døgnbasert behandling",
+        "Samtalebasert behandling",
+        "Medikamentell behandling",
+        "Sykehusbasert behandling"
       ],
       "correct": 1,
       "explain": "Medisiner kan ha bivirkninger."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilken terapiform involverer hele familien?",
         "options": [
-          "KAT",
+          "Kognitiv atferdsterapi",
           "Familieterapi",
           "Interpersonlig terapi",
-          "Eksponering"
+          "Eksponeringsterapi"
         ],
         "correct": 1,
         "explain": "Særlig ved barn og unge.",
@@ -327,9 +327,9 @@
         "text": "Hva er et eksempel på indikert forebygging?",
         "options": [
           "Kurs i å mestre nedstemthet for ungdom med symptomer",
-          "Livsmestring for alle elever",
-          "Gratis fritidsaktiviteter",
-          "Tiltak mot mobbing for alle"
+          "Kurs i livsmestring for alle elever i ungdomsskolen",
+          "Kurs i mestring for ungdom i familier med rusproblemer",
+          "Kurs i depresjonsbehandling for ungdom med diagnose"
         ],
         "correct": 0,
         "explain": "Rettet mot tidlige symptomer."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvor kan du få hjelp på skolen?",
         "options": [
-          "I kantinen",
-          "Hos vaktmesteren",
+          "Hos fastlegen på legekontoret",
+          "Hos psykologen på en klinikk",
           "Hos helsesykepleier i skolehelsetjenesten",
-          "Ingen steder"
+          "Hos NAV-veilederen på NAV-kontoret"
         ],
         "correct": 2,
         "explain": "Første linje."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

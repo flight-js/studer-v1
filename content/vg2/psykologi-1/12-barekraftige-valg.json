@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er gapet mellom holdning og handling?",
       "options": [
-        "At vi handler mer enn vi mener",
+        "At vi handler i tråd med det vi mener",
         "At vi mener noe, men ikke handler etter det",
-        "At holdninger aldri endres",
-        "At alle er enige"
+        "At holdningene våre endres etter handlingene våre",
+        "At vi sier det samme som vi faktisk mener"
       ],
       "correct": 1,
       "explain": "Mange er bekymret, men endrer lite."
@@ -94,9 +94,9 @@
       "text": "Hva er kognitiv dissonans?",
       "options": [
         "Ubehag når holdning og handling ikke stemmer",
-        "En hukommelsesfeil",
-        "En vane",
-        "En sosial norm"
+        "Ubehag når andre er uenige med holdningene våre",
+        "En vane som styrer handlinger uten bevisst vurdering",
+        "En sosial forventning om hvordan gruppen bør handle"
       ],
       "correct": 0,
       "explain": "Beskrevet av Festinger."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "En person som flyr mye, sier «én flytur betyr ingenting». Hva gjør personen?",
       "options": [
-        "Endrer atferden",
-        "Viser konformitet",
+        "Endrer flyvanene for å få handlingene til å passe",
+        "Tilpasser holdningen for å følge andres forventninger",
         "Reduserer dissonans ved å endre tankene",
-        "Bruker dulting"
+        "Endrer valgmiljøet for å gjøre flyreiser mindre tilgjengelige"
       ],
       "correct": 2,
       "explain": "Det er ofte lettere enn å endre handlingen."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er psykologisk distanse?",
       "options": [
-        "Avstanden til skolen",
-        "At vi føler oss ensomme",
-        "At vi er uenige",
+        "At klimaendringer oppleves som mindre alvorlige enn de er",
+        "At klimaendringer virker vanskelige å forstå og forklare",
+        "At klimaendringer oppleves som vanskelige å påvirke personlig",
         "At klimaendringer oppleves langt unna i tid og rom"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva viste hotellforsøket med håndklær?",
       "options": [
         "At sosiale normer påvirker atferd",
-        "At folk ikke bryr seg om miljø",
-        "At skilt ikke virker",
-        "At pris er det eneste som teller"
+        "At miljøkunnskap alene forklarte gjestenes valg av håndklær",
+        "At økonomiske belønninger fikk flest gjester til å gjenbruke håndklær",
+        "At hotellets regler påvirket valgene mer enn gjestenes normer"
       ],
       "correct": 0,
       "explain": "Beskjeden om at de fleste gjorde det, virket best.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er dulting?",
       "options": [
-        "Å forby miljøskadelige varer",
+        "Å forby varer som gir store utslipp gjennom offentlige regler",
         "Å endre valgomgivelsene slik at et valg blir lettere",
-        "Å skattlegge alt",
-        "Å gi straff"
+        "Å legge avgifter på miljøskadelige valg for å endre atferd",
+        "Å straffe personer som velger miljøskadelig transport eller produkter"
       ],
       "correct": 1,
       "explain": "Uten å fjerne valgmuligheter."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva er et eksempel på et standardvalg?",
       "options": [
-        "En reklame for bil",
-        "En skatt på bensin",
-        "Dobbeltsidig utskrift som forhåndsvalgt",
-        "Et forbud mot plast"
+        "At skriveren viser en påminnelse om papirforbruk før hver utskrift",
+        "At elever får en belønning for å velge dobbeltsidig utskrift",
+        "At skriveren er satt til dobbeltsidig utskrift som standard",
+        "At skolen forbyr utskrift på én side av arket"
       ],
       "correct": 2,
       "explain": "Mange beholder det forhåndsvalgte."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva kan sterk klimaangst føre til?",
       "options": [
-        "Alltid mer handling",
-        "Bedre søvn",
-        "Mer kunnskap",
+        "Trygghet og framtidstro",
+        "Bedre søvn og lavere stressnivå",
+        "Økt mestringstro og mindre bekymring",
         "Håpløshet og passivitet"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er nåtidsskjevhet?",
       "options": [
         "Å legge mer vekt på fordeler nå enn kostnader i framtiden",
-        "Å tenke mye på framtiden",
-        "Å huske fortiden dårlig",
-        "Å følge med i nyhetene"
+        "Å prioritere framtidige fordeler framfor umiddelbare belønninger",
+        "Å vurdere valg ut fra tidligere erfaringer mer enn framtidige følger",
+        "Å velge gevinster for fellesskapet framfor egne fordeler"
       ],
       "correct": 0,
       "explain": "En billig ferie nå veier tyngre enn klimaeffekten.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvilken kritikk rettes mot dulting?",
       "options": [
-        "At den er for dyr",
+        "At den krever at valgmulighetene fjernes for å påvirke atferd",
         "At den kan være manipulasjon og flytte ansvar til enkeltpersoner",
-        "At den ikke har noen effekt",
-        "At den er ulovlig"
+        "At den virker best når folk får store økonomiske belønninger",
+        "At den hovedsakelig fungerer ved å øke prisen på varer"
       ],
       "correct": 1,
       "explain": "Politikk og næringsliv har også ansvar."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva beskriver allmenningens tragedie?",
         "options": [
-          "At folk deler for mye",
+          "At felles ressurser fordeles likt når alle samarbeider om bruken",
           "At felles ressurser overbrukes når hver tjener på å ta mer",
-          "At private eiendommer ødelegges",
-          "At staten eier alt"
+          "At private ressurser overbrukes fordi staten styrer fordelingen",
+          "At felles ressurser bevares når hver person tar mest mulig"
         ],
         "correct": 1,
         "explain": "Et kollektivt handlingsproblem.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er et eksempel på dulting i en kantine?",
         "options": [
-          "Å plassere vegetarretten først",
-          "Å forby kjøtt",
-          "Å heve prisen på alt",
-          "Å stenge kantinen"
+          "Å sette vegetarretten først i køen i kantinen",
+          "Å fjerne kjøttrettene fra menyen i kantinen",
+          "Å øke prisen på kjøttrettene i kantinen",
+          "Å gi poeng for å velge vegetarretten i kantinen"
         ],
         "correct": 0,
         "explain": "Endrer valgomgivelsene."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva øker sjansen for at noen handler bærekraftig?",
         "options": [
-          "At de tror valgene ikke nytter",
-          "At ingen andre gjør det",
+          "At de tror egne valg ikke gjør noen forskjell",
+          "At de forventer at andre tar ansvar for miljøet",
           "At de tror egne valg nytter",
-          "At det er vanskelig og dyrt"
+          "At de mangler kunnskap om hvilke valg som er bærekraftige"
         ],
         "correct": 2,
         "explain": "Mestringsforventning."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

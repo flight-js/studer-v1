@@ -77,13 +77,13 @@
       "id": "q01",
       "text": "Hvilken tid brukes mest når tyskere snakker om fortiden?",
       "options": [
-        "Preteritum",
+        "Presens",
         "Perfektum",
-        "Futurum",
-        "Presens"
+        "Preteritum",
+        "Pluskvamperfektum"
       ],
       "correct": 1,
-      "explain": "Preteritum brukes mest skriftlig."
+      "explain": "Perfektum brukes mest i muntlig tysk når man forteller om fortiden."
     },
     {
       "id": "q02",
@@ -91,8 +91,8 @@
       "options": [
         "ging",
         "gehte",
-        "gang",
-        "gegangen"
+        "gegangen",
+        "gingte"
       ],
       "correct": 0,
       "explain": "gehen er et sterkt verb."
@@ -126,7 +126,7 @@
       "text": "Hva betyr «plötzlich»?",
       "options": [
         "plutselig",
-        "etterpå",
+        "senere",
         "til slutt",
         "først"
       ],
@@ -139,8 +139,8 @@
       "options": [
         "Plötzlich wir hörten einen Knall.",
         "Plötzlich hörten wir einen Knall.",
-        "Wir plötzlich hörten einen Knall.",
-        "Plötzlich wir einen Knall hörten."
+        "Plötzlich hörte wir einen Knall.",
+        "Plötzlich hörten wir ein Knall."
       ],
       "correct": 1,
       "explain": "Verbet står på andre plass (inversjon)."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva uttrykker plusquamperfektum?",
       "options": [
-        "Noe i framtiden",
-        "Noe som skjer nå",
+        "Noe som skjedde etter noe annet i fortiden",
+        "Noe som skjedde samtidig med noe annet i fortiden",
         "Noe som skjedde før noe annet i fortiden",
-        "En vane"
+        "Noe som skjer regelmessig på samme tidspunkt i fortiden"
       ],
       "correct": 2,
       "explain": "Der Zug war schon abgefahren."
@@ -305,11 +305,11 @@
         "options": [
           "kommte",
           "kam",
-          "kom",
+          "kommt",
           "gekommen"
         ],
         "correct": 1,
-        "explain": "kommen – kam – ist gekommen."
+        "explain": "Kommen bøyes kam i preteritum."
       },
       {
         "id": "m06",
@@ -317,8 +317,8 @@
         "text": "Hva betyr «Es war einmal …»?",
         "options": [
           "Det var en gang …",
-          "Det er ofte …",
-          "Det var bare …",
+          "Det var nylig …",
+          "Det skjer ofte …",
           "Det blir snart …"
         ],
         "correct": 0,
@@ -416,6 +416,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

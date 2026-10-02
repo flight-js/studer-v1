@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva menes med muntlig skriftkultur?",
       "options": [
-        "At vi leser høyt",
+        "At muntlige samtaler blir skrevet ned ordrett",
         "At skriftlige meldinger ligner muntlig språk",
-        "At vi bare snakker",
-        "At vi skriver med penn"
+        "At skriftlige meldinger bruker formelt språk",
+        "At språk i meldinger følger faste skriveregler"
       ],
       "correct": 1,
       "explain": "Meldinger og chat er skriftlige, men har mange trekk fra muntlig språk."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvorfor kan meldingen «ok.» oppfattes som sur?",
       "options": [
-        "Fordi den er feilstavet",
-        "Fordi den er for lang",
-        "Fordi tonefall og kroppsspråk mangler, og punktum kan virke kort",
-        "Fordi den er på engelsk"
+        "Fordi meldingen mangler en hilsen, og svaret virker avvisende",
+        "Fordi store bokstaver gjør teksten vanskelig å lese",
+        "Fordi tonefall og kroppsspråk mangler, og punktum virker kort",
+        "Fordi avsenderen bruker slang som mottakeren ikke kjenner"
       ],
       "correct": 2,
       "explain": "Uten tone og ansiktsuttrykk leser mottakeren meldingen ut fra små signaler, som et punktum."
@@ -101,9 +101,9 @@
       "text": "Hva gjør algoritmer i sosiale medier?",
       "options": [
         "Velger ut hva du får se basert på tidligere aktivitet",
-        "Retter skrivefeil",
-        "Oversetter innlegg",
-        "Sletter alle reklamer"
+        "Retter skrivefeil i innlegg før de blir publisert",
+        "Oversetter innlegg til språket i telefonens innstillinger",
+        "Fjerner annonser fra innholdet i nyhetsstrømmen"
       ],
       "correct": 0,
       "explain": "Algoritmene prioriterer innhold de tror du vil like og reagere på."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er et ekkokammer?",
       "options": [
-        "Et rom med ekko",
-        "En type podkast",
-        "Et innlegg som blir slettet",
+        "Når innlegg blir vist etter tidspunktet de ble lagt ut",
+        "Når en melding blir sendt direkte til én person",
+        "Når en sak deles videre av mange brukere",
         "Når du mest møter meninger som ligner dine egne"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er kodeveksling?",
       "options": [
         "Å veksle mellom uformelt og formelt språk etter situasjonen",
-        "Å bytte passord",
-        "Å programmere",
-        "Å oversette fra engelsk"
+        "Å bytte mellom tale og tekst i samme samtale",
+        "Å endre skrivemåte for å skjule hvem som skriver",
+        "Å bruke forkortelser for å skrive meldinger raskere"
       ],
       "correct": 0,
       "explain": "De fleste skriver annerledes i en melding til en venn enn i en skoleoppgave."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilken funksjon har emojier ofte i meldinger?",
       "options": [
-        "De erstatter alle ord",
+        "De erstatter tegnsettingen og deler teksten i avsnitt",
         "De viser følelser og tone, omtrent som kroppsspråk",
-        "De gjør meldingen formell",
-        "De har ingen funksjon"
+        "De viser hvem som har sendt meldingen til gruppen",
+        "De forteller mottakeren hvilket svar de bør skrive"
       ],
       "correct": 1,
       "explain": "Emojier kan myke opp tonen og vise hvordan en melding er ment."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor spres innhold som skaper sterke reaksjoner ofte mer?",
       "options": [
-        "Fordi det er sant",
-        "Fordi det er kort",
+        "Fordi mange delinger viser at opplysningene er korrekte",
+        "Fordi korte tekster kommer høyere opp i søkeresultater",
         "Fordi engasjement belønnes av algoritmene",
-        "Fordi det er skrevet på dialekt"
+        "Fordi innlegg med dialekt når flere lokale brukere"
       ],
       "correct": 2,
       "explain": "Kommentarer, delinger og likerklikk gjør at algoritmene viser innholdet til flere."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Har ytringsfriheten grenser på nett?",
       "options": [
-        "Nei, alt er lov på nett",
+        "Nei, fordi nettinnlegg regnes som private samtaler",
         "Ja, for eksempel mot trusler og hatefulle ytringer",
-        "Bare på skolens nettsider",
-        "Bare for voksne"
+        "Nei, fordi norske lover ikke gjelder på sosiale medier",
+        "Nei, fordi moderering betyr at ytringsfriheten ikke gjelder"
       ],
       "correct": 1,
       "explain": "Ytringsfriheten gjelder også på nett, men lovverket setter grenser for blant annet trusler og hat."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvilken sjanger ligner en podkast mest på?",
       "options": [
-        "Et dikt",
-        "En roman",
-        "En radiosamtale",
-        "En plakat"
+        "En avisartikkel med intervju og sitater",
+        "En lydbok med opplest fortelling",
+        "Et radioprogram med samtale",
+        "Et TV-program med studiointervju"
       ],
       "correct": 2,
       "explain": "Podkasten bygger videre på radioformatet med samtaler og intervjuer.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva bør du gjøre før du deler et bilde av en venn?",
       "options": [
-        "Spørre om samtykke",
-        "Redigere bildet",
-        "Legge til en emoji",
-        "Ingenting"
+        "Spørre vennen om lov først",
+        "Spørre en følger om lov først",
+        "Dele bildet etter å ha redigert det",
+        "Legge bildet ut i en lukket gruppe"
       ],
       "correct": 0,
       "explain": "Andre har rett til å bestemme over bilder av seg selv. Spør alltid først."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva er falske nyheter?",
         "options": [
-          "Nyheter fra i fjor",
+          "Bekreftede saker presentert som nyheter uten endringer",
           "Oppdiktede eller villedende saker presentert som nyheter",
-          "Nyheter om kjendiser",
-          "Nyheter på dialekt"
+          "Reklamesaker presentert som tydelig merkede annonser på nett",
+          "Meningssaker presentert som leserinnlegg på nyhetssider"
         ],
         "correct": 1,
         "explain": "Falske nyheter later som de er ekte journalistikk, men er oppdiktet eller villedende."
@@ -335,9 +335,9 @@
         "text": "Hvilket av disse er en forkortelse brukt i digitale meldinger?",
         "options": [
           "mvh",
-          "hus",
-          "løpe",
-          "grønn"
+          "hei",
+          "takk",
+          "jada"
         ],
         "correct": 0,
         "explain": "«Mvh» betyr «med vennlig hilsen»."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva kan du gjøre for å unngå at en kort melding blir misforstått?",
         "options": [
-          "Skrive i store bokstaver",
-          "Sende den på nytt",
+          "Skrive hele meldingen med store bokstaver for tydelighet",
+          "Fjerne tegnsettingen slik at meldingen virker mindre streng",
           "Tenke over tonen og eventuelt utdype eller bruke emoji",
-          "Slette appen"
+          "Legge inn flere forkortelser for å gjøre budskapet kortere"
         ],
         "correct": 2,
         "explain": "Litt mer tekst eller en emoji kan vise at meldingen er vennlig ment."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

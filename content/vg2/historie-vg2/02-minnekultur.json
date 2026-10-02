@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er minnekultur?",
       "options": [
-        "Et fag på universitetet",
+        "Måtene et samfunn bevarer gamle bygninger og gjenstander på",
         "Måtene et samfunn husker og markerer fortiden på",
-        "En type museum",
-        "En gammel kultur"
+        "Måtene et samfunn forsker på historiske hendelser og personer",
+        "Måtene et samfunn samler historiske gjenstander i museer på"
       ],
       "correct": 1,
       "explain": "Den sier også mye om samtiden."
@@ -93,9 +93,9 @@
       "text": "Hva markerer 8. mai i Norge?",
       "options": [
         "Frigjøringen i 1945",
-        "Grunnloven",
-        "Unionsoppløsningen",
-        "Samenes nasjonaldag"
+        "Grunnlovsdagen i 1814",
+        "Unionsoppløsningen i 1905",
+        "Samenes nasjonaldag i 1917"
       ],
       "correct": 0,
       "explain": "8. mai er frigjøringsdagen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er snublesteiner?",
       "options": [
-        "Steiner fra Berlinmuren",
-        "Gravsteiner",
+        "Messingplater på husvegger til minne om motstandsfolk under krigen",
+        "Små plaketter i fortauet til minne om soldater fra første verdenskrig",
         "Messingplater i fortauet til minne om ofre for Holocaust",
-        "Veisteiner fra middelalderen"
+        "Messingplater i fortauet til minne om jøder som overlevde Holocaust"
       ],
       "correct": 2,
       "explain": "De ligger utenfor der ofrene bodde.",
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hvorfor sier man at minnekultur handler om makt?",
       "options": [
-        "Fordi bare politikere kan besøke museer",
-        "Fordi det koster penger",
-        "Fordi kongen bestemmer",
+        "Fordi minnekultur først og fremst handler om hvem som eier museene",
+        "Fordi minnekultur gir enkelte grupper rett til å eie historiske steder",
+        "Fordi minnekultur bestemmer hvem som får stemme ved valg",
         "Fordi noen avgjør hvem som huskes og hvem som glemmes"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva skjedde med statuen av Edward Colston i Bristol i 2020?",
       "options": [
         "Den ble revet ned av demonstranter",
-        "Den ble gjort større",
-        "Den ble flyttet til Norge",
-        "Den ble gullbelagt"
+        "Den ble fjernet av politiet under protesten",
+        "Den ble flyttet av byrådet til en park",
+        "Den ble erstattet av en ny statue"
       ],
       "correct": 0,
       "explain": "Colston var slavehandler.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvordan har synet på norsk historie under andre verdenskrig endret seg?",
       "options": [
-        "Man mener nå at det ikke var noen motstand",
+        "Bildet har blitt mer sammensatt, med samarbeid og frivillig utvandring av jøder",
         "Bildet har blitt mer sammensatt, med samarbeid og deportasjon av jøder",
-        "Man har sluttet å snakke om krigen",
-        "Krigen minnes ikke lenger"
+        "Bildet har blitt mer sammensatt, med motstand og deportasjon av tyske soldater",
+        "Bildet har blitt enklere, med motstand som hovedfortelling og uten vekt på samarbeid"
       ],
       "correct": 1,
       "explain": "Historikere har vist flere sider av okkupasjonstiden."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvorfor ble minnestedet for 22. juli ved Utøya omstridt?",
       "options": [
-        "Fordi det var for lite",
-        "Fordi ingen ville ha et minnested",
+        "Fordi naboene mente minnestedet burde ligge inne på Utøya",
+        "Fordi overlevende ønsket at minnestedet skulle bygges i Oslo sentrum",
         "Fordi naboer ikke ønsket å bli minnet om terroren hver dag",
-        "Fordi det lå i utlandet"
+        "Fordi lokale myndigheter ville bruke området til et krigsmuseum"
       ],
       "correct": 2,
       "explain": "Minnekultur handler om ulike behov.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvilket er et eksempel på lokal minnekultur?",
       "options": [
-        "FNs hovedkvarter",
-        "Stortinget",
-        "Den kinesiske mur",
+        "Et internasjonalt minnested for Holocaust ved Auschwitz i Polen",
+        "Et landsdekkende minnesmerke over frigjøringen i hovedstaden",
+        "Et globalt museum om menneskerettigheter i Genève",
         "En minnetavle over et skipsforlis i bygda"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva preget norsk minnekultur etter 1905?",
       "options": [
         "Nasjonsbygging",
-        "Globalisering",
-        "Sosiale medier",
-        "Kolonialisme"
+        "Industrialisering",
+        "Demokratisering",
+        "Internasjonalisering"
       ],
       "correct": 0,
       "explain": "Vikingtid, Grunnloven og bondekultur ble løftet fram."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket forslag er vanlig i debatten om omstridte statuer?",
       "options": [
-        "Å lage flere av dem",
+        "Å bevare dem uten forklaring, dekke dem til eller fjerne informasjonsskiltene",
         "Å fjerne dem, forklare dem med skilt eller flytte dem til museer",
-        "Å male dem gule",
-        "Å gjøre dem hemmelige"
+        "Å restaurere dem, sette opp vakter eller begrense adgangen til plassene",
+        "Å erstatte dem med kopier, bygge inn soklene eller flytte dem til private samlinger"
       ],
       "correct": 1,
       "explain": "Debatten handler om vanskelig fortid."
@@ -325,7 +325,7 @@
           "17. mai",
           "6. februar",
           "8. mai",
-          "22. juli"
+          "7. juni"
         ],
         "correct": 1,
         "explain": "Til minne om det første samiske landsmøtet i 1917.",
@@ -337,9 +337,9 @@
         "text": "Hva er et eksempel på vanskelig fortid?",
         "options": [
           "Slavehandel og kolonialisme",
-          "En fotballseier",
-          "En kongebryllup",
-          "En ny bro"
+          "Industrialisering og urbanisering",
+          "Innføring av stemmerett og skolegang",
+          "Utbygging av jernbane og elektrisitet"
         ],
         "correct": 0,
         "explain": "Vanskelig fortid er smertefull eller skamfull.",
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva gjorde Sannhets- og forsoningskommisjonen?",
         "options": [
-          "Bygde minnesmerker over krigen",
-          "Skrev lærebøker om vikingtiden",
+          "Undersøkte fornorskingen og ga erstatning til samer, kvener og skogfinner",
+          "Undersøkte fornorskingen og opprettet egne skoler for samer og kvener",
           "Undersøkte fornorskingen og urett mot samer, kvener/norskfinner og skogfinner",
-          "Rev statuer"
+          "Undersøkte fornorskingen og urett mot norske krigsfanger"
         ],
         "correct": 2,
         "explain": "Rapporten kom i 2023.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en nukleofil?",
       "options": [
-        "En elektronfattig partikkel",
+        "En elektronfattig partikkel som søker elektronrike atomer",
         "En elektronrik partikkel som angriper elektronfattige atomer",
-        "En katalysator",
-        "Et produkt"
+        "En partikkel som øker reaksjonsfarten uten å forbrukes",
+        "En partikkel som tar opp protoner fra andre stoffer"
       ],
       "correct": 1,
       "explain": "For eksempel OH⁻."
@@ -90,9 +90,9 @@
       "text": "Hva skjer i en addisjonsreaksjon?",
       "options": [
         "En dobbeltbinding brytes og atomer legges til",
-        "Vann spaltes av",
-        "En gruppe byttes ut",
-        "En dobbeltbinding dannes"
+        "En binding brytes og vann spaltes fra molekylet",
+        "En gruppe fjernes fra et molekyl og erstattes av en annen",
+        "To molekyler går sammen mens et lite molekyl spaltes av"
       ],
       "correct": 0,
       "explain": "Typisk for alkener."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvilken test viser at et stoff har dobbeltbinding?",
       "options": [
-        "Lakmustest",
-        "Flammetest",
+        "Lakmuspapir blir rødt",
+        "Kalkvann blir grumsete",
         "Bromvann avfarges",
-        "Kalkvann blir grumsete"
+        "Glødende trepinne flammer opp"
       ],
       "correct": 2,
       "explain": "Brom adderes til dobbeltbindingen.",
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "CH₃Br + OH⁻ → CH₃OH + Br⁻. Hvilken reaksjonstype er dette?",
       "options": [
-        "Addisjon",
+        "Hydrering",
         "Eliminasjon",
-        "Kondensasjon",
+        "Esterifisering",
         "Substitusjon"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er kondensasjon?",
       "options": [
         "To molekyler slås sammen og vann spaltes av",
-        "Et molekyl spaltes med vann",
-        "En dobbeltbinding brytes",
-        "En gruppe byttes ut"
+        "Et molekyl spaltes ved opptak av vann",
+        "To molekyler slås sammen uten at noe spaltes av",
+        "En gruppe fjernes fra et molekyl og erstattes av en annen"
       ],
       "correct": 0,
       "explain": "For eksempel esterdannelse."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva dannes når etanol varmes med konsentrert syre?",
       "options": [
-        "Etansyre",
+        "Etan, ved addisjon av hydrogen",
         "Eten, ved eliminasjon av vann",
-        "Etylacetat",
-        "Metan"
+        "Etanal, ved oksidasjon av etanol",
+        "Etansyre, ved oksidasjon av etanol"
       ],
       "correct": 1,
       "explain": "Eliminasjon."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvorfor angriper OH⁻ karbonatomet i CH₃Br?",
       "options": [
-        "Fordi karbon er negativt ladd",
-        "Fordi brom er positivt",
+        "Fordi karbonatomet har delvis negativ ladning",
+        "Fordi bromatomet har delvis positiv ladning",
         "Fordi karbonatomet har delvis positiv ladning",
-        "Fordi OH⁻ er elektronfattig"
+        "Fordi OH⁻ mangler et ledig elektronpar"
       ],
       "correct": 2,
       "explain": "Brom er mer elektronegativt."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er hydrolyse?",
       "options": [
-        "Dannelse av vann",
-        "Oppvarming",
-        "Addisjon av hydrogen",
+        "Dannelse av et molekyl ved at vann spaltes av",
+        "Spalting av et molekyl ved hjelp av hydrogen",
+        "Tilsetting av hydrogen til en dobbeltbinding",
         "Spalting av et molekyl ved hjelp av vann"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva dannes ved reaksjon mellom en karboksylsyre og en alkohol?",
       "options": [
         "En ester og vann",
-        "En aldehyd",
-        "En alken",
-        "Et salt"
+        "En eter og vann",
+        "Et aldehyd og vann",
+        "En ester og hydrogen"
       ],
       "correct": 0,
       "explain": "En kondensasjonsreaksjon."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er et karbokation?",
       "options": [
-        "Et negativt karbonatom",
+        "Et negativt ladd karbonatom",
         "Et positivt ladd karbonatom",
-        "Et nøytralt molekyl",
-        "En katalysator"
+        "Et positivt ladd oksygenatom",
+        "Et negativt ladd nitrogenatom"
       ],
       "correct": 1,
       "explain": "Mellomprodukt i addisjon av HBr."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hvilken reaksjonstype danner nylon og polyester?",
         "options": [
-          "Addisjon",
+          "Hydrering",
           "Kondensasjon",
-          "Eliminasjon",
-          "Substitusjon"
+          "Hydrolyse",
+          "Oksidasjon"
         ],
         "correct": 1,
         "explain": "Vann spaltes av ved hver binding.",
@@ -331,8 +331,8 @@
         "options": [
           "Etanol",
           "Etan",
-          "Etansyre",
-          "Dietyleter"
+          "Etanal",
+          "Metanol"
         ],
         "correct": 0,
         "explain": "Addisjon av vann."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva viser buede piler i en reaksjonsmekanisme?",
         "options": [
-          "Atomenes størrelse",
-          "Temperatur",
+          "Hvordan atomkjerner flytter seg",
+          "Hvilke bindinger som blir sterkere",
           "Hvordan elektronpar flytter seg",
-          "Reaksjonsfarten"
+          "Hvor raskt reaksjonen går"
         ],
         "correct": 2,
         "explain": "Fra nukleofil til elektrofil."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

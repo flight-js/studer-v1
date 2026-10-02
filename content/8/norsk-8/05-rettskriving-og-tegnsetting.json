@@ -77,8 +77,8 @@
       "options": [
         "Jeg liker og svømme.",
         "Jeg liker å svømme.",
-        "Jeg liker og å svømme.",
-        "Jeg liker svømme."
+        "Jeg liker å svømmer.",
+        "Jeg liker å svøm."
       ],
       "correct": 1,
       "explain": "«Svømme» er et verb i infinitiv, og da skal det stå «å» foran."
@@ -88,9 +88,9 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "Jeg snakket med de i går.",
-        "Dem kom for sent.",
+        "Jeg snakket med vi i går.",
         "Jeg snakket med dem i går.",
-        "De og dem betyr det samme."
+        "Jeg snakket med deres i går."
       ],
       "correct": 2,
       "explain": "Etter preposisjonen «med» skal det være objektsformen «dem». Test: med oss, ikke med vi."
@@ -101,23 +101,23 @@
       "options": [
         "Takk for maten",
         "Tak for maten",
-        "Takkk for maten",
-        "Tagg for maten"
+        "Takk for matten",
+        "Takk for maden"
       ],
       "correct": 0,
-      "explain": "Vokalen i «takk» er kort, så det skal være dobbel konsonant. «Tak» er det som er over huset."
+      "explain": "Vokalen i «takk» er kort, derfor skal det være dobbel konsonant."
     },
     {
       "id": "q04",
       "text": "Hvilket alternativ er skrevet riktig i ett ord?",
       "options": [
-        "ungdoms skole",
-        "fotball trening",
-        "røyk fritt",
+        "fotball kamp",
+        "håndball lag",
+        "vinter jakke",
         "ungdomsskole"
       ],
       "correct": 3,
-      "explain": "Sammensatte ord skrives i ett ord på norsk. De andre er eksempler på særskriving."
+      "explain": "På norsk skrives sammensatte ord i ett ord."
     },
     {
       "id": "q05",
@@ -126,7 +126,7 @@
         "Etter «Når»",
         "Etter «hjem»",
         "Etter «vi»",
-        "Det skal ikke være komma"
+        "Etter «skal»"
       ],
       "correct": 1,
       "explain": "Leddsetningen «Når vi kommer hjem» står først, og da skal det være komma etter den."
@@ -148,7 +148,7 @@
       "text": "Hvilken setning har riktig komma?",
       "options": [
         "Jeg kjøpte epler, pærer, og bananer.",
-        "Jeg kjøpte, epler pærer og bananer.",
+        "Jeg kjøpte, epler, pærer og bananer.",
         "Jeg kjøpte epler, pærer og bananer.",
         "Jeg kjøpte epler pærer, og bananer."
       ],
@@ -173,8 +173,8 @@
       "options": [
         "At det er lov å røyke",
         "At røyking er forbudt",
-        "At røyk er gratis",
-        "Ingenting"
+        "At røyken slipper fritt ut",
+        "At området er røykfritt"
       ],
       "correct": 0,
       "explain": "Særskrivingen endrer betydningen: «røyk fritt» betyr «røyk så mye du vil». Riktig er «røykfritt»."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilken setning trenger komma?",
       "options": [
-        "Jeg vet at du kommer.",
-        "Hun sa hei.",
+        "Jeg tror at du kommer i morgen.",
+        "Hun sa at møtet begynner snart.",
         "Vi dro på tur og vi hadde det gøy.",
-        "Han løp fort."
+        "De håper at været blir bedre."
       ],
       "correct": 2,
       "explain": "To helsetninger bundet sammen med «og» skal ha komma: Vi dro på tur, og vi hadde det gøy."
@@ -320,8 +320,8 @@
         "options": [
           "de",
           "dem",
-          "dems",
-          "di"
+          "deres",
+          "dems"
         ],
         "correct": 1,
         "explain": "Ordet er indirekte objekt: Jeg ga dem boka. Test: Jeg ga oss boka."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

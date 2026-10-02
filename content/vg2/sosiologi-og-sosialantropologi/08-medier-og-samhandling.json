@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr det at redaksjoner var portvoktere?",
       "options": [
-        "At de passet dørene",
-        "At de bestemte hva som ble nyheter",
-        "At de solgte aviser",
-        "At de sensurerte alt"
+        "At de kontrollerte hvordan aviser ble fraktet til leserne",
+        "At de bestemte hvilke saker som ble nyheter",
+        "At de samlet inn nyheter fra lokale kilder",
+        "At de formidlet lesernes meninger gjennom avisene"
       ],
       "correct": 1,
       "explain": "I massemedienes tid."
@@ -89,9 +89,9 @@
       "text": "Hvem beskrev nettverkssamfunnet?",
       "options": [
         "Manuel Castells",
-        "Émile Durkheim",
-        "Karl Marx",
-        "Max Weber"
+        "Anthony Giddens",
+        "Jürgen Habermas",
+        "Zygmunt Bauman"
       ],
       "correct": 0,
       "explain": "Digitale nettverk på tvers av grenser.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er en parasosial relasjon?",
       "options": [
-        "Et vennskap i klassen",
-        "Et forhold mellom kolleger",
+        "Et gjensidig vennskap med en person vi følger på nett",
+        "Et profesjonelt forhold mellom en journalist og en kilde",
         "En ensidig relasjon til en person som ikke kjenner oss",
-        "Et familieforhold"
+        "Et vennskap mellom personer som kjenner hverandre fra skolen"
       ],
       "correct": 2,
       "explain": "For eksempel til en influenser."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er et ekkokammer?",
       "options": [
-        "Et rom med ekko",
-        "En type podkast",
-        "En reklamekanal",
+        "Når vi møter mange ulike synspunkter på samme tema",
+        "Når algoritmer tilpasser innhold etter søk og klikk",
+        "Når brukere skjuler innlegg fra bestemte personer",
         "Når vi mest møter synspunkter som bekrefter våre egne"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvordan passer Goffmans teori til sosiale medier?",
       "options": [
         "Vi viser fram en redigert versjon av oss selv",
-        "Vi viser alltid alt",
-        "Vi har ingen roller på nett",
-        "Sosiale medier har ingen publikum"
+        "Vi viser fram en uendret versjon av oss selv",
+        "Vi tilpasser rollene våre uten å ta hensyn til publikum",
+        "Vi viser fram samme versjon av oss selv til ulike målgrupper"
       ],
       "correct": 0,
       "explain": "Inntrykksstyring.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvordan har sosiale medier endret kommunikasjonen?",
       "options": [
-        "Fra mange til få",
+        "Fra én til én, til én til mange",
         "Fra få til mange, til mange til mange",
-        "Fra muntlig til skriftlig bare",
-        "Ingen endring"
+        "Fra mange til én, til én til én",
+        "Fra mange til mange, til én til mange"
       ],
       "correct": 1,
       "explain": "Alle kan publisere."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvorfor kan feilinformasjon spre seg raskt i sosiale medier?",
       "options": [
-        "Fordi alle er kildekritiske",
-        "Fordi redaksjonene sjekker alt",
-        "Fordi sjokkerende innhold ofte får mest oppmerksomhet",
-        "Fordi algoritmer fjerner alt"
+        "Fordi saklige innlegg får mest oppmerksomhet fra brukerne",
+        "Fordi redaksjoner kontrollerer innlegg før de deles videre",
+        "Fordi sjokkerende innlegg får mye oppmerksomhet på plattformene",
+        "Fordi plattformer prioriterer kilder med høy troverdighet"
       ],
       "correct": 2,
       "explain": "Algoritmer belønner engasjement."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvilket er et positivt trekk ved sosiale medier?",
       "options": [
-        "Netthets",
-        "Søvnproblemer",
-        "Kroppspress",
-        "Nye fellesskap og muligheter for deltakelse"
+        "Redaksjonell kontroll og kvalitetssikring av innlegg",
+        "Lik synlighet og rekkevidde for alle brukere",
+        "Sikker spredning av korrekte nyheter og informasjon",
+        "Nye fellesskap og flere muligheter for deltakelse"
       ],
       "correct": 3,
       "explain": "Også for grupper uten tilgang til tradisjonelle medier."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva er en filterboble?",
       "options": [
-        "At vi mest ser innhold som passer våre interesser",
-        "En type såpe",
-        "Et personvernfilter",
-        "En reklameblokker"
+        "At vi mest ser innhold som passer interessene våre",
+        "At algoritmer viser oss innhold som utfordrer interessene våre",
+        "At redaksjoner velger nyheter for en bred målgruppe",
+        "At brukere skjuler innlegg fra bestemte personer"
       ],
       "correct": 0,
       "explain": "Algoritmene tilpasser innholdet."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er digital dømmekraft?",
       "options": [
-        "Å dømme andre på nett",
+        "Evnen til å vurdere andres oppførsel og meninger på nett",
         "Evnen til å opptre ansvarlig og kritisk på nett",
-        "Å bruke mye tid på nett",
-        "Å kunne programmere"
+        "Evnen til å bruke digitale tjenester raskt og effektivt",
+        "Evnen til å lage nettsider og skrive programkode"
       ],
       "correct": 1,
       "explain": "Kildekritikk og nettvett."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilken bevegelse fikk stor gjennomslagskraft via sosiale medier?",
         "options": [
-          "Arbeiderbevegelsen på 1800-tallet",
+          "Den britiske suffragettebevegelsen",
           "#MeToo",
-          "Reformasjonen",
-          "Hanseatene"
+          "Den europeiske arbeiderbevegelsen på 1800-tallet",
+          "Den amerikanske borgerrettsbevegelsen på 1960-tallet"
         ],
         "correct": 1,
         "explain": "Fra 2017.",
@@ -333,9 +333,9 @@
         "text": "Hvem har fått stor makt over offentligheten i dag?",
         "options": [
           "De store teknologiselskapene",
-          "Postvesenet",
-          "Telegrafen",
-          "Lokale bibliotek"
+          "De kommunale kulturinstitusjonene",
+          "De nasjonale posttjenestene",
+          "De lokale transportselskapene"
         ],
         "correct": 0,
         "explain": "Gjennom plattformer og algoritmer."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva kan det føre til å sammenligne seg med andres redigerte liv på nett?",
         "options": [
-          "Bedre søvn",
-          "Mer tid",
+          "Større trygghet i eget selvbilde",
+          "Bedre kontroll over plattformenes algoritmer",
           "Press og dårligere selvbilde",
-          "Høyere inntekt"
+          "Mer innflytelse på redaksjonelle prioriteringer"
         ],
         "correct": 2,
         "explain": "Vi ser bare scenen, ikke bakscenen."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

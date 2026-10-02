@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvorfor bruker vi numeriske metoder?",
       "options": [
-        "Fordi formler er for enkle",
+        "Fordi datamaskiner gir mer nøyaktige svar enn formler",
         "Fordi mange problemer ikke kan løses med en enkel formel",
-        "Fordi datamaskiner alltid har rett",
-        "For å slippe fysikk"
+        "Fordi måleverdier ikke kan settes inn i formler",
+        "Fordi fysikkens lover ikke kan regnes med algebra"
       ],
       "correct": 1,
       "explain": "For eksempel varierende luftmotstand."
@@ -88,9 +88,9 @@
       "text": "Hvordan oppdateres farten i Eulers metode?",
       "options": [
         "v_ny = v + a · Δt",
-        "v_ny = v · a",
-        "v_ny = x / t",
-        "v_ny = a / Δt"
+        "v_ny = v + a / Δt",
+        "v_ny = a · Δt",
+        "v_ny = v + a · Δt²"
       ],
       "correct": 0,
       "explain": "Akselerasjonen antas konstant i hvert steg."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva skjer hvis tidssteget er for stort?",
       "options": [
-        "Beregningen blir mer nøyaktig",
-        "Ingenting",
-        "Feilene kan vokse over tid",
-        "Programmet stopper alltid"
+        "Resultatene blir mer nøyaktige over tid",
+        "Tidsstegene blir kortere over tid",
+        "Feilene vokser over tid",
+        "Startverdiene får mindre betydning over tid"
       ],
       "correct": 2,
       "explain": "For eksempel planetbaner som ikke lukker seg."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er terminalfart?",
       "options": [
-        "Farten ved start",
-        "Farten ved landing alltid",
-        "Maksimal lysfart",
+        "Farten legemet har idet det slippes",
+        "Farten legemet har idet det treffer bakken",
+        "Farten der luftmotstanden blir større enn tyngden",
         "Farten der luftmotstanden er like stor som tyngden"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hvordan kan du teste om tidssteget er lite nok?",
       "options": [
-        "Halvere det og se om resultatet endres lite",
-        "Doble det",
-        "Fjerne løkken",
-        "Endre massen"
+        "Halver tidssteget og se om resultatet endres lite",
+        "Doble tidssteget og se om resultatet endres lite",
+        "Halver massen og se om resultatet endres lite",
+        "Øk antall desimaler og se om resultatet endres lite"
       ],
       "correct": 0,
       "explain": "Liten endring tyder på god nøyaktighet."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er akselerasjonen for et fallende legeme med luftmotstand L = kv²?",
       "options": [
-        "a = g",
+        "a = g + (k/m) · v²",
         "a = g − (k/m) · v²",
-        "a = kv²",
-        "a = 0 alltid"
+        "a = g − (k/m) · v",
+        "a = (k/m) · v² − g"
       ],
       "correct": 1,
       "explain": "Fra Newtons andre lov."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvordan påvirker luftmotstand et skrått kast?",
       "options": [
-        "Kastet blir lengre",
-        "Banen blir helt symmetrisk",
+        "Kastet blir lengre og banen usymmetrisk",
+        "Kastet blir kortere og banen symmetrisk",
         "Kastet blir kortere og banen usymmetrisk",
-        "Ingen påvirkning"
+        "Kastet blir lengre og banen symmetrisk"
       ],
       "correct": 2,
       "explain": "Luftmotstanden virker mot fartsretningen."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva gjør en løkke i et simuleringsprogram?",
       "options": [
-        "Tegner plottet",
-        "Lagrer startverdiene",
-        "Stopper programmet",
-        "Gjentar beregningene for hvert tidssteg"
+        "Den lagrer startverdiene før beregningene begynner",
+        "Den tegner bevegelsesgrafen før beregningene starter",
+        "Den finner modellens konstanter før simuleringen starter",
+        "Den gjentar beregningene for hvert tidssteg"
       ],
       "correct": 3,
       "explain": "Kjernen i Eulers metode."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva gjør du hvis simuleringen ikke stemmer med målingene?",
       "options": [
-        "Justerer parametere eller endrer modellen",
-        "Endrer målingene",
-        "Ignorerer det",
-        "Bruker større tidssteg"
+        "Juster parametere eller endre modellen",
+        "Endre måleverdiene så de passer simuleringen",
+        "Ignorer avviket og behold samme modell",
+        "Øk tidssteget for å få bedre samsvar"
       ],
       "correct": 0,
       "explain": "En modell er en forenkling."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvordan regner vi med bevegelse i to dimensjoner numerisk?",
       "options": [
-        "Bare i x-retning",
-        "Med x- og y-komponenter hver for seg",
-        "Bare med farten",
-        "Uten krefter"
+        "Ved å regne bare med x-komponenten",
+        "Ved å regne med x- og y-komponentene hver for seg",
+        "Ved å regne bare med y-komponenten",
+        "Ved å bruke én fart for begge retningene"
       ],
       "correct": 1,
       "explain": "Komponentvis oppdatering."
@@ -306,8 +306,8 @@
         "options": [
           "v_t = mg/k",
           "v_t = √(mg/k)",
-          "v_t = k/mg",
-          "v_t = g · t"
+          "v_t = √(mgk)",
+          "v_t = √(gk/m)"
         ],
         "correct": 1,
         "explain": "Når mg = kv²."
@@ -318,9 +318,9 @@
         "text": "Hvilken modell for luftmotstand passer ofte bedre ved lave farter?",
         "options": [
           "L = k · v",
-          "L = k · v³",
-          "L = 0",
-          "L = mg"
+          "L = k · v²",
+          "L = k / v",
+          "L = k · v³"
         ],
         "correct": 0,
         "explain": "Proporsjonal med farten.",
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva lagrer vi i lister i et simuleringsprogram?",
         "options": [
-          "Bare startverdien",
-          "Bare kodelinjer",
+          "Startverdier for tid, posisjon og fart før simuleringen",
+          "Parametere for masse, tyngdeakselerasjon og luftmotstand",
           "Tid, posisjon og fart for hvert steg",
-          "Feilmeldinger"
+          "Formler for posisjon, fart og akselerasjon i programmet"
         ],
         "correct": 2,
         "explain": "Brukes til plottet."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

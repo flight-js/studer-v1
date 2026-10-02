@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er UPR?",
       "options": [
-        "En domstol",
-        "En gjennomgang der alle FN-land vurderes jevnlig av de andre",
-        "En hjelpeorganisasjon",
-        "En traktat"
+        "En domstol der medlemsland behandler klager mot andre land",
+        "En gjennomgang der alle FN-land vurderes jevnlig av andre land",
+        "En avtale der medlemsland forplikter seg til felles regler",
+        "En organisasjon der medlemsland samordner humanitær bistand"
       ],
       "correct": 1,
       "explain": "Universell periodisk gjennomgang.",
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva kjennetegner overstatlig myndighet?",
       "options": [
-        "At statene alltid har vetorett",
-        "At bare stormakter bestemmer",
+        "At statene har vetorett over organets vedtak",
+        "At statene må godkjenne hvert vedtak før det blir bindende",
         "At et organ kan fatte vedtak som binder statene",
-        "At statene bestemmer alt selv"
+        "At statene beholder avgjørelsesmakten i alle saker"
       ],
       "correct": 2,
       "explain": "For eksempel EMD."
@@ -121,8 +121,8 @@
       "text": "Hvilke saker har Norge tapt flere av i EMD?",
       "options": [
         "Fiskerisaker",
-        "Oljesaker",
         "Skattesaker",
+        "Eiendomssaker",
         "Barnevernssaker"
       ],
       "correct": 3,
@@ -134,9 +134,9 @@
       "text": "Hva gjør FNs traktatorganer?",
       "options": [
         "Overvåker konvensjonene gjennom rapporter og anbefalinger",
-        "Straffer statsledere",
-        "Vedtar lover i Norge",
-        "Leder FNs hær"
+        "Avgjør klager og ilegger straff til statsledere",
+        "Vedtar bindende lover som gjelder i Norge",
+        "Organiserer FNs fredsbevarende styrker i konfliktområder"
       ],
       "correct": 0,
       "explain": "For eksempel FNs barnekomité."
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Er EMDs dommer bindende for statene?",
       "options": [
-        "Nei, bare anbefalinger",
-        "Ja",
-        "Bare for EU-land",
-        "Bare for stormakter"
+        "Nei, dommen er en anbefaling staten kan vurdere.",
+        "Ja, dommen er bindende for staten som tapte saken.",
+        "Ja, dommen er bindende for alle EU-land i saken.",
+        "Ja, dommen gjelder hvis staten godtar den etterpå."
       ],
       "correct": 1,
       "explain": "Overstatlig myndighet."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er NIM?",
       "options": [
-        "En FN-domstol",
-        "En frivillig organisasjon",
+        "Et statlig ombud for barns rettigheter",
+        "Et statlig tilsyn for personvern og data",
         "Norges institusjon for menneskerettigheter",
-        "Et politisk parti"
+        "En frivillig organisasjon for politiske rettigheter"
       ],
       "correct": 2,
       "explain": "Overvåker og gir råd.",
@@ -170,10 +170,10 @@
       "id": "q08",
       "text": "Hva kjennetegner mellomstatlig samarbeid?",
       "options": [
-        "At et organ fatter bindende vedtak",
-        "At statene gir fra seg all makt",
-        "At det ikke finnes avtaler",
-        "At statene samarbeider, men beholder vetorett"
+        "Et organ kan fatte bindende vedtak på vegne av statene",
+        "Statene overfører myndighet til et felles organ",
+        "Statene samarbeider uten felles avtaler eller regler",
+        "Statene samarbeider, men beholder vetoretten over felles vedtak"
       ],
       "correct": 3,
       "explain": "Som i FN."
@@ -183,9 +183,9 @@
       "text": "Hvilken rolle har organisasjoner som Amnesty?",
       "options": [
         "Dokumentere brudd og legge press på regjeringer",
-        "Dømme i straffesaker",
-        "Vedta lover",
-        "Lede FN"
+        "Etterforske lovbrudd og dømme personer i straffesaker",
+        "Utarbeide og vedta lover på vegne av regjeringer",
+        "Samordne hjelpearbeid og lede FNs fredsbevarende styrker"
       ],
       "correct": 0,
       "explain": "Gjennom rapporter og kampanjer."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva er et argument mot overstatlige organer?",
       "options": [
-        "At de gir sterkere vern",
+        "At de gjør nasjonale folkevalgte mer ansvarlige for avgjørelser",
         "At de flytter makt bort fra nasjonale folkevalgte",
-        "At de beskytter mindretall",
-        "At de er billige"
+        "At de gir nasjonale folkevalgte større kontroll over rettighetsvern",
+        "At de gjør menneskerettigheter mer like på tvers av land"
       ],
       "correct": 1,
       "explain": "Spenning mellom rettigheter og demokrati."
@@ -325,8 +325,8 @@
         "options": [
           "EMD",
           "Sivilombudet",
-          "ICC",
-          "UPR"
+          "Datatilsynet",
+          "Diskrimineringsnemnda"
         ],
         "correct": 1,
         "explain": "Nasjonal klageordning.",
@@ -339,8 +339,8 @@
         "options": [
           "47",
           "15",
-          "193",
-          "5"
+          "54",
+          "193"
         ],
         "correct": 0,
         "explain": "Valgt av FNs generalforsamling.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hvilken institusjon kan straffe statsledere for krigsforbrytelser?",
         "options": [
-          "Sivilombudet",
-          "FNs barnekomité",
+          "ICJ",
+          "EMD",
           "ICC",
-          "Europarådet"
+          "FNs menneskerettighetsråd"
         ],
         "correct": 2,
         "explain": "Den internasjonale straffedomstolen.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

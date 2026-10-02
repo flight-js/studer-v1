@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Which shot shows a character's face and emotions?",
       "options": [
-        "Long shot",
-        "Extreme long shot",
-        "Close-up",
-        "Establishing shot"
+        "A medium shot",
+        "A long shot",
+        "A close-up shot",
+        "An extreme long shot"
       ],
       "correct": 2,
       "explain": "Close-ups bring us near the character's feelings.",
@@ -97,9 +97,9 @@
       "id": "q02",
       "text": "What is non-diegetic sound?",
       "options": [
-        "Dialogue between characters",
-        "Footsteps in the scene",
-        "A door slamming in the scene",
+        "Sound the characters hear, like dialogue between them",
+        "Sound the characters hear, like footsteps in the scene",
+        "Sound the characters hear, like a door slamming",
         "Sound only the audience hears, like background music"
       ],
       "correct": 3,
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "What do fast cuts usually create?",
       "options": [
-        "Calm",
-        "Speed and tension",
-        "Silence",
-        "A happy ending"
+        "A calmer mood and slower pace",
+        "A faster pace and more tension",
+        "A happier mood and lighter tone",
+        "A quieter mood and slower pace"
       ],
       "correct": 1,
       "explain": "Fast cuts are common in action scenes.",
@@ -123,10 +123,10 @@
       "id": "q04",
       "text": "What is a multimodal text?",
       "options": [
-        "A text with many chapters",
+        "A text that combines several genres, characters and settings",
         "A text that combines modes like words, pictures and sound",
-        "A text in many languages",
-        "A very long novel"
+        "A text that presents one story in several chapters",
+        "A text that uses words in several different languages"
       ],
       "correct": 1,
       "explain": "Comics and videos are typical multimodal texts."
@@ -136,9 +136,9 @@
       "text": "What is a protagonist?",
       "options": [
         "The main character, who usually wants something",
-        "The villain",
-        "The narrator of a podcast",
-        "The setting"
+        "A supporting character who helps the main character",
+        "The person who tells the story to the audience",
+        "The place and time where a story happens"
       ],
       "correct": 0,
       "explain": "The protagonist's goal drives the story forward."
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "What is a storyboard?",
       "options": [
-        "A plan with sketches of what the audience will see and hear",
-        "A board game",
-        "A list of characters",
-        "The final version of a film"
+        "A sketch plan of what viewers will see and hear",
+        "A written plan of dialogue and scene descriptions",
+        "A list of camera shots and their order",
+        "The edited version of a film with sound"
       ],
       "correct": 0,
       "explain": "Storyboards help you plan videos and comics.",
@@ -161,9 +161,9 @@
       "text": "What is bias?",
       "options": [
         "Presenting something in a one-sided or unfair way",
-        "A type of narrator",
-        "A fact that can be checked",
-        "A news headline"
+        "A narrator's view of events in a story",
+        "A message's main purpose or intended effect",
+        "A detail that can be checked against evidence"
       ],
       "correct": 0,
       "explain": "Bias can be both conscious and unconscious."
@@ -172,10 +172,10 @@
       "id": "q08",
       "text": "Which sentence is an opinion?",
       "options": [
-        "London is the capital of the UK.",
+        "London is located in the south-east of England.",
         "London is the best city in the world.",
-        "London has millions of inhabitants.",
-        "The Thames flows through London."
+        "The River Thames flows through central London.",
+        "London has several major railway stations."
       ],
       "correct": 1,
       "explain": "“The best” is a judgement that cannot be proved."
@@ -184,9 +184,9 @@
       "id": "q09",
       "text": "Which question helps you think critically about a message?",
       "options": [
-        "How many words does it have?",
-        "What font is used?",
-        "Is it printed or digital?",
+        "How many letters are in the message's first word?",
+        "What colour is the background behind the message?",
+        "How large is the title compared with the text?",
         "What is included, and what is left out?"
       ],
       "correct": 3,
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "What might “That might be difficult” mean in an indirect culture?",
       "options": [
-        "Yes, definitely",
-        "No",
-        "I don't understand",
-        "Let's start now"
+        "Yes, that sounds easy.",
+        "No.",
+        "I need more details first.",
+        "Let's try it right away."
       ],
       "correct": 1,
       "explain": "Indirect speakers often avoid saying no directly."
@@ -208,10 +208,10 @@
       "id": "q11",
       "text": "What is a good way to avoid misunderstandings across cultures?",
       "options": [
-        "Always assume you are right",
+        "Assume the person shares your customs and communication style",
         "Ask if you are unsure what someone means",
-        "Rely on stereotypes",
-        "Avoid talking to people"
+        "Use stereotypes to predict how the person will respond",
+        "Keep the conversation short to reduce chances of confusion"
       ],
       "correct": 1,
       "explain": "Asking shows interest and prevents mistakes."
@@ -220,10 +220,10 @@
       "id": "q12",
       "text": "What is disinformation?",
       "options": [
-        "Information that is out of date",
-        "Information in another language",
-        "False information spread on purpose",
-        "Information from a university"
+        "False information shared by people who believe it",
+        "Accurate information shared to persuade others",
+        "False information deliberately shared to deceive others",
+        "Unverified claims repeated without checking sources"
       ],
       "correct": 2,
       "explain": "Disinformation is meant to deceive."
@@ -232,10 +232,10 @@
       "id": "q13",
       "text": "What is a paraphrase?",
       "options": [
-        "An exact quote",
+        "Repeating an idea using the author's exact words",
         "Explaining an idea in your own words",
-        "A list of sources",
-        "A picture"
+        "Listing the books and websites used in your work",
+        "Describing an idea by changing its original meaning"
       ],
       "correct": 1,
       "explain": "You must still name the source when you paraphrase."
@@ -244,9 +244,9 @@
       "id": "q14",
       "text": "What should you remember about AI chatbots?",
       "options": [
-        "They are always correct",
-        "They never make mistakes about sources",
-        "They should replace all other sources",
+        "They check their answers against trusted sources",
+        "They copy their answers directly from reliable websites",
+        "They can identify the exact source behind each answer",
         "They can make things up and invent sources"
       ],
       "correct": 3,
@@ -257,9 +257,9 @@
       "id": "q15",
       "text": "What must you do when you quote someone's exact words?",
       "options": [
-        "Change some words",
-        "Hide the source",
-        "Translate them into Norwegian",
+        "Use italics and name the source",
+        "Use quotation marks and change a few words",
+        "Use quotation marks but leave out the source",
         "Use quotation marks and name the source"
       ],
       "correct": 3,
@@ -357,7 +357,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -390,9 +390,9 @@
         "text": "Which of these is diegetic sound?",
         "options": [
           "A character's voice in a conversation",
-          "Background music added later",
-          "A narrator nobody in the film hears",
-          "The theme song over the credits"
+          "Background music added over the scene",
+          "A narrator's voice heard outside the scene",
+          "A theme song played over the end credits"
         ],
         "correct": 0,
         "explain": "The other characters in the scene can hear the voice.",
@@ -404,9 +404,9 @@
         "text": "What is the conflict in a story?",
         "options": [
           "The main problem or struggle",
-          "The title",
-          "The setting",
-          "The last page"
+          "The central character's goal or desire",
+          "The sequence of events in the story",
+          "The place and time where events happen"
         ],
         "correct": 0,
         "explain": "Without a conflict, there is little to drive the story."
@@ -502,12 +502,88 @@
           "Explains that both quotes and paraphrases need a named source; a quote uses quotation marks.",
           "Mentions permission or copyright and consent before sharing another person’s picture."
         ]
+      },
+      {
+        "text": "A story about a young explorer is turned into a video game. Explain how letting the player make choices can change the way the plot is experienced compared with reading the story in a book.",
+        "fasit": "In a game, the player takes part in the story and can make choices that affect what happens. In a book, the reader follows the story without controlling the character’s actions.",
+        "kriterier": [
+          "Explains that the player participates and makes choices in a game.",
+          "Compares this with following a story without controlling events in a book."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "A mystery podcast takes place in a dark forest. Explain how voice and sound effects could help listeners imagine the setting and create suspense, and compare this with one way a comic could show the forest.",
+        "fasit": "A quiet, nervous voice and sounds such as rustling leaves can help listeners imagine the forest and feel suspense. A comic could show the dark forest in its pictures, so readers can see the setting directly.",
+        "kriterier": [
+          "Explains how voice or sound effects can create setting or suspense in a podcast.",
+          "Names a comic technique, such as pictures, that can show the setting."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "In a film, the camera looks down at a character, the lighting is dark and shadowy, and the shots change slowly. Explain what these choices might suggest about the character or the mood of the scene.",
+        "fasit": "The high angle can make the character seem small or weak. The dark lighting may create an uneasy mood, while the slow cuts can make the scene feel calm or still.",
+        "kriterier": [
+          "Explains that a high angle can make a character seem small or weak.",
+          "Connects dark lighting or slow cuts to a possible mood."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "An advert calls a new phone “the only smart choice” and shows happy teenagers using it, but says nothing about its disadvantages. Explain how the advert may be biased and how its choices could affect its audience.",
+        "fasit": "The advert is biased because it only presents positive images and leaves out possible disadvantages. The loaded phrase and happy teenagers may persuade its audience to think the phone is a good choice.",
+        "kriterier": [
+          "Identifies the one-sided presentation or the information left out as bias.",
+          "Explains how the wording or images may influence the audience."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Players from different countries join the same online gaming group. They use English, emojis and gaming slang, but one player misunderstands a message. Explain why this could happen and what the players could do to communicate more clearly.",
+        "fasit": "English is a shared language for players with different first languages, but slang and emojis can mean different things to different people. They could ask what a message means and use clear language instead of assuming everyone understands the slang.",
+        "kriterier": [
+          "Explains that different languages, norms or interpretations of slang/emojis can cause misunderstandings.",
+          "Suggests asking for clarification or adapting language to communicate clearly."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "You ask an AI chatbot for facts and sources for a school report. Explain why you should check its answer and how you could check whether its sources are real and trustworthy.",
+        "fasit": "An AI chatbot can make up facts or invent sources, so its answer should not be treated as automatically reliable. I could look up the sources myself and check the important facts against reliable sources such as a university or a well-known news organisation.",
+        "kriterier": [
+          "States that AI can make up facts or invent sources.",
+          "Explains that sources and facts should be checked against reliable sources."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "A film trailer uses fast cuts and ends before the audience learns how the conflict is resolved. Explain how these choices might persuade people to watch the film.",
+        "fasit": "Fast cuts can create speed and excitement. By not showing the resolution, the trailer leaves the audience curious about what happens and may persuade them to watch the film.",
+        "kriterier": [
+          "Connects fast cuts with speed, excitement or tension.",
+          "Explains that withholding the resolution can create curiosity and persuade viewers."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "A school report says, “The school day begins at 8:30” and “The school day should begin later.” Explain which statement is a fact and which is an opinion, and why hearing different perspectives on the question could give a fuller picture.",
+        "fasit": "“The school day begins at 8:30” is a fact that can be checked. “The school day should begin later” is an opinion, and hearing different perspectives can show how the issue affects different people.",
+        "kriterier": [
+          "Correctly identifies the first statement as a fact and the second as an opinion.",
+          "Explains that different perspectives can provide a fuller picture of the issue."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

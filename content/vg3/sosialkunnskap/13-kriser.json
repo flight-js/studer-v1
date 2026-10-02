@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en traumatisk krise?",
       "options": [
-        "En overgang som pubertet",
+        "En utviklingskrise ved en vanlig livsfase",
         "En krise etter en plutselig, alvorlig hendelse",
-        "En økonomisk krise",
-        "En planlagt endring"
+        "En belastningskrise etter langvarige problemer",
+        "En livskrise ved en planlagt endring"
       ],
       "correct": 1,
       "explain": "For eksempel dødsfall eller ulykke."
@@ -89,9 +89,9 @@
       "text": "Hva sier nærhetsprinsippet?",
       "options": [
         "At kriser skal håndteres på lavest mulig nivå",
-        "At alle må bo nær hverandre",
-        "At staten skal ta alle kriser",
-        "At naboer har ansvar"
+        "At kriser skal håndteres på høyest mulig nivå",
+        "At kriser skal håndteres av nasjonale myndigheter",
+        "At kriser skal håndteres av det største fagmiljøet"
       ],
       "correct": 0,
       "explain": "Ett av fire beredskapsprinsipper."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er normale krisereaksjoner?",
       "options": [
-        "Glede og energi",
-        "Ingen reaksjoner",
+        "Feber, hoste, utslett og leddsmerter",
+        "Planlegging, problemløsing, støtte og informasjon",
         "Sjokk, angst, søvnvansker og sorg",
-        "Bare sinne"
+        "Glede, overskudd, ro og bedre konsentrasjon"
       ],
       "correct": 2,
       "explain": "Normale reaksjoner på en unormal situasjon."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva sier samvirkeprinsippet?",
       "options": [
-        "At bare politiet har ansvar",
-        "At kriser håndteres lokalt",
-        "At organiseringen skal være lik",
+        "At hver aktør arbeider uavhengig av de andre",
+        "At kriser ledes av aktøren med mest myndighet",
+        "At beredskapen beholder samme organisering som før",
         "At alle aktører har plikt til å samarbeide"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvorfor var tillit viktig under pandemien?",
       "options": [
         "Fordi mange fulgte rådene frivillig",
-        "Fordi den senket skatten",
-        "Fordi den stoppet viruset",
-        "Den hadde ingen betydning"
+        "Fordi tillit gjorde rådene bindende for folk",
+        "Fordi tillit ga myndighetene større juridisk makt",
+        "Fordi tillit reduserte behovet for helsehjelp"
       ],
       "correct": 0,
       "explain": "Tillit gjør krisehåndtering lettere."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er egenberedskap?",
       "options": [
-        "At staten ordner alt",
+        "At staten sørger for at husholdninger får det de trenger",
         "At husholdninger kan klare seg selv en periode",
-        "En forsikring",
-        "En militær øvelse"
+        "At husholdninger tegner forsikring mot strømbrudd og flom",
+        "At husholdninger øver på evakuering ved militære angrep"
       ],
       "correct": 1,
       "explain": "Vann, mat, medisiner og radio."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er totalforsvaret?",
       "options": [
-        "Bare hæren",
-        "Bare politiet",
+        "Samarbeid mellom politiet og kommunale tjenester",
+        "Samarbeid mellom næringslivet og frivillige organisasjoner",
         "Samarbeid mellom sivile og militære ressurser",
-        "Et parti"
+        "Samarbeid mellom ulike militære forsvarsgrener"
       ],
       "correct": 2,
       "explain": "Hele samfunnet bidrar."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er problemfokusert mestring?",
       "options": [
-        "Å håndtere følelsene",
-        "Å unngå situasjonen",
-        "Å glemme alt",
-        "Å gjøre noe med situasjonen"
+        "Å regulere egne følelser rundt situasjonen",
+        "Å unngå å tenke på selve problemet",
+        "Å søke støtte for å tåle situasjonen",
+        "Å gjøre konkrete handlinger for å endre situasjonen"
       ],
       "correct": 3,
       "explain": "Emosjonsfokusert mestring handler om følelsene."
@@ -173,9 +173,9 @@
       "text": "Hvilken hendelse rammet regjeringskvartalet og Utøya?",
       "options": [
         "22. juli 2011",
-        "Covid-19",
-        "Finanskrisen",
-        "Flommen i 1995"
+        "25. juni 2022",
+        "10. august 2019",
+        "26. desember 2004"
       ],
       "correct": 0,
       "explain": "Fikk store konsekvenser for beredskapen.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor gjennomføres evalueringer etter kriser?",
       "options": [
-        "For å straffe alle",
+        "For å fastslå hvem som skal straffes etter krisen",
         "For å lære og forbedre beredskapen",
-        "For å skjule feil",
-        "Fordi det er gøy"
+        "For å samle dokumentasjon til bruk i rettssaker",
+        "For å avgjøre hvem som skal få erstatning"
       ],
       "correct": 1,
       "explain": "For eksempel koronakommisjonen."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hvilken hendelse i 2022 ga flyktningstrøm og høyere energipriser?",
         "options": [
-          "Covid-19",
+          "Covid-19-pandemien i Europa",
           "Russlands invasjon av Ukraina",
-          "Finanskrisen",
-          "22. juli"
+          "Finanskrisen i USA",
+          "Terrorangrepene i Norge i 2011"
         ],
         "correct": 1,
         "explain": "Økt fokus på forsvar.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvilket dilemma oppstår ofte i samfunnskriser?",
         "options": [
-          "Skatt mot toll",
-          "By mot land",
+          "Skattelette mot økte avgifter",
+          "Byutvikling mot distriktshensyn",
           "Frihet mot sikkerhet",
-          "Sport mot kultur"
+          "Idrettstilbud mot kulturtilbud"
         ],
         "correct": 2,
         "explain": "For eksempel nedstengning."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

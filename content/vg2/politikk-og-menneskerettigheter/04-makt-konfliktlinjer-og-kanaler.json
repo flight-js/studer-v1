@@ -79,8 +79,8 @@
       "options": [
         "At folkestyret var styrket",
         "At folkestyret var svekket",
-        "At Stortinget hadde all makt",
-        "At media ikke har makt"
+        "At Stortinget fikk større makt",
+        "At markedet fikk mindre makt"
       ],
       "correct": 1,
       "explain": "Makt var flyttet til blant annet markeder og domstoler.",
@@ -91,9 +91,9 @@
       "text": "Hva er den korporative kanalen?",
       "options": [
         "Påvirkning via organisasjoner, høringer og forhandlinger",
-        "Påvirkning via valg",
-        "Påvirkning via demonstrasjoner",
-        "Påvirkning via domstolene"
+        "Påvirkning via partier, valg og folkevalgte",
+        "Påvirkning via demonstrasjoner, streiker og aksjoner",
+        "Påvirkning via domstoler, søksmål og rettssaker"
       ],
       "correct": 0,
       "explain": "For eksempel LO og NHO."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er et eksempel på aksjonskanalen?",
       "options": [
-        "Å stemme ved valg",
-        "Å delta i en høring",
-        "Skolestreik for klima",
-        "Å gå til Høyesterett"
+        "Å avgi stemme ved kommunevalg",
+        "Å delta i en kommunal høring",
+        "Å streike på skolen for klima",
+        "Å prøve et vedtak ved domstol"
       ],
       "correct": 2,
       "explain": "Aksjoner setter saker på dagsordenen.",
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva handler den økonomiske høyre–venstre-dimensjonen om?",
       "options": [
-        "Språk og religion",
-        "By og land",
-        "EU-medlemskap",
+        "Hvordan språk og religion skal prege politikken",
+        "Hvordan makt fordeles mellom by og land",
+        "Hvor nært Norge skal knytte seg til EU",
         "Hvor mye staten skal styre og omfordele"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er den rettslige kanalen?",
       "options": [
-        "Å gå til domstolene for å prøve om staten følger loven",
-        "Å skrive debattinnlegg",
-        "Å melde seg inn i et parti",
-        "Å boikotte en bedrift"
+        "Å bruke domstolene til å prøve om staten følger loven",
+        "Å bruke Stortinget til å få vedtatt nye lover",
+        "Å bruke organisasjoner til å forhandle fram politiske løsninger",
+        "Å bruke demonstrasjoner til å få endret politiske vedtak"
       ],
       "correct": 0,
       "explain": "For eksempel Fosen-saken."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor kan partier være enige i én sak og uenige i en annen?",
       "options": [
-        "Fordi de ikke har program",
+        "Fordi partiene mangler politiske programmer for enkeltsaker",
         "Fordi de plasserer seg ulikt på flere konfliktdimensjoner",
-        "Fordi de alltid er enige",
-        "Fordi de bytter meninger tilfeldig"
+        "Fordi partiene har samme syn, men ulike velgergrupper",
+        "Fordi partienes standpunkter endres etter meningsmålinger"
       ],
       "correct": 1,
       "explain": "Politikken er flerdimensjonal."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er dagsordenmakt?",
       "options": [
-        "Makten til å vedta lover",
-        "Makten til å dømme",
+        "Makten til å bestemme hvilke forslag som blir vedtatt",
+        "Makten til å avgjøre hvem som får sitte i regjering",
         "Makten til å bestemme hva som blir diskutert",
-        "Makten til å velge statsminister"
+        "Makten til å avgjøre hvordan lover skal tolkes"
       ],
       "correct": 2,
       "explain": "Mediene har mye av den."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvilke grupper har ofte lettest for å påvirke politikken?",
       "options": [
-        "Grupper uten organisering",
-        "Grupper uten nettverk",
-        "Grupper uten kunnskap",
+        "Grupper med mange medlemmer, men svak organisering og få nettverk",
+        "Grupper med få penger, gode nettverk og svak organisering",
+        "Grupper med god organisering, men få nettverk og lite kunnskap",
         "Grupper med mye penger, gode nettverk og god organisering"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er lobbyisme?",
       "options": [
         "Påvirkning av beslutningstakere på vegne av interesser",
-        "Å sitte i Stortingets lobby",
-        "Å stemme ved valg",
-        "Å demonstrere"
+        "Påvirkning av velgere på vegne av et politisk parti",
+        "Påvirkning av offentligheten gjennom demonstrasjoner og aksjoner",
+        "Påvirkning av domstolene gjennom søksmål på vegne av borgere"
       ],
       "correct": 0,
       "explain": "En del av den korporative kanalen."
@@ -190,7 +190,7 @@
         "Miljø–vekst",
         "Sentrum–periferi",
         "Verdikonflikter",
-        "EU-spørsmålet"
+        "EU–nasjonal suverenitet"
       ],
       "correct": 1,
       "explain": "By mot distrikt."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hvilke organisasjoner er typiske parter i trepartssamarbeidet?",
         "options": [
-          "Amnesty og Redd Barna",
+          "Amnesty og Redd Barna sammen med staten",
           "LO og NHO sammen med staten",
-          "Partiene på Stortinget",
-          "Domstolene og politiet"
+          "Partiene på Stortinget sammen med regjeringen",
+          "Domstolene og politiet sammen med staten"
         ],
         "correct": 1,
         "explain": "Arbeidstakere, arbeidsgivere og staten.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hvilken konfliktdimensjon er sentral i oljepolitikken?",
         "options": [
-          "Sentrum–periferi alene",
-          "Religion",
+          "Sentrum–periferi",
+          "Religiøse verdier",
           "Miljø–vekst",
-          "Språk"
+          "Norsk EU-medlemskap"
         ],
         "correct": 2,
         "explain": "Klima mot økonomi og arbeidsplasser."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

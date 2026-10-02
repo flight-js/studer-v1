@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er utgangspunktet når en lovtekst skal tolkes?",
       "options": [
-        "Dommerens mening",
+        "Forarbeidene",
         "Ordlyden",
-        "Avisomtale",
-        "Partenes ønsker"
+        "Rettspraksis",
+        "Reelle hensyn"
       ],
       "correct": 1,
       "explain": "Vanlig språkbruk."
@@ -90,9 +90,9 @@
       "text": "Hva betyr lex specialis?",
       "options": [
         "Den spesielle regelen går foran den generelle",
-        "Den nyeste regelen går foran",
-        "Den høyeste regelen går foran",
-        "Den eldste regelen går foran"
+        "Den nyere regelen går foran den eldre",
+        "Den høyere regelen går foran den lavere",
+        "Den eldre regelen går foran den nyere"
       ],
       "correct": 0,
       "explain": "Spesialregel foran hovedregel."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor er analogi til skade for tiltalte ikke tillatt i strafferetten?",
       "options": [
-        "Fordi den er for tidkrevende",
-        "Fordi Høyesterett ikke liker analogi",
+        "Fordi straffeloven krever at analogi brukes ved uklare regler",
+        "Fordi Grunnloven krever at straff fastsettes i forskrift",
         "Fordi Grunnloven krever klar hjemmel for straff",
-        "Fordi det ikke finnes straffelover"
+        "Fordi straffebud bare kan tolkes etter ordlyden"
       ],
       "correct": 2,
       "explain": "Legalitetsprinsippet."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er subsumsjon?",
       "options": [
-        "Å finne partene",
-        "Å skrive konklusjonen",
-        "Å lete etter lover",
+        "Å sammenholde partene med kravene i saken",
+        "Å sammenholde konklusjonen med rettskildene i saken",
+        "Å sammenholde lovene med argumentene i saken",
         "Å sammenholde faktum med vilkårene i regelen"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva sier menneskerettsloven § 3?",
       "options": [
         "At inkorporerte konvensjoner går foran annen lov ved motstrid",
-        "At menneskerettighetene ikke gjelder i Norge",
-        "At forskrifter går foran lover",
-        "At EU-retten gjelder"
+        "At konvensjoner gjelder foran norsk lov også uten inkorporering",
+        "At konvensjoner gjelder som forskrifter etter norsk rett",
+        "At konvensjoner må vedtas på nytt av Stortinget i hver sak"
       ],
       "correct": 0,
       "explain": "En viktig motstridsregel.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er riktig rekkefølge i en juridisk drøfting?",
       "options": [
-        "Konklusjon, faktum, krav",
+        "Konklusjon, parter, krav, rettslig grunnlag, problemstilling, drøfting",
         "Parter, krav, rettslig grunnlag, problemstilling, drøfting, konklusjon",
-        "Drøfting, parter, lov",
-        "Problemstilling, konklusjon, parter"
+        "Parter, krav, drøfting, rettslig grunnlag, problemstilling, konklusjon",
+        "Parter, rettslig grunnlag, problemstilling, drøfting, krav, konklusjon"
       ],
       "correct": 1,
       "explain": "Fra hvem og hva til svar."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva betyr lex superior?",
       "options": [
-        "Den nyeste regelen går foran",
-        "Den spesielle regelen går foran",
+        "Den nyere regelen går foran den eldre",
+        "Den spesielle regelen går foran den generelle",
         "Den høyere regelen går foran",
-        "Den lengste regelen går foran"
+        "Den eldre regelen går foran den nyere"
       ],
       "correct": 2,
       "explain": "Grunnloven foran lov."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Når får reelle hensyn størst betydning?",
       "options": [
-        "Når loven er helt klar",
-        "Aldri",
-        "Bare i straffesaker",
+        "Når lovens ordlyd gir et klart svar",
+        "Når rettspraksis gir et klart svar",
+        "Når partene er uenige om faktum",
         "Når de andre kildene ikke gir klart svar"
       ],
       "correct": 3,
@@ -176,8 +176,8 @@
       "options": [
         "Det som ikke er nevnt, er ikke omfattet",
         "Å bruke regelen på lignende tilfeller",
-        "Å utvide regelen",
-        "Å se bort fra ordlyden"
+        "Å trekke slutning fra formålet med regelen",
+        "Å tolke ordlyden i lys av forarbeidene"
       ],
       "correct": 0,
       "explain": "Motsetningsslutning."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilke dommer fra Høyesterett har særlig stor vekt?",
       "options": [
-        "Dommer i ankeutvalget",
+        "Dommer fra Høyesteretts ankeutvalg",
         "Dommer fra storkammer og plenum",
-        "Tingrettsdommer",
-        "Dommer med dissens"
+        "Dommer fra tingrett og lagmannsrett",
+        "Dommer fra Høyesterett med dissens"
       ],
       "correct": 1,
       "explain": "Prinsipielle saker.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva betyr lex posterior?",
         "options": [
-          "Den høyere regelen går foran",
+          "Den høyere regelen går foran den lavere",
           "Den nyere regelen går foran den eldre",
-          "Den spesielle regelen går foran",
-          "Den eldste regelen går foran"
+          "Den spesielle regelen går foran den generelle",
+          "Den eldre regelen går foran den nyere"
         ],
         "correct": 1,
         "explain": "Nyere foran eldre."
@@ -331,9 +331,9 @@
         "text": "Hvor finner du norske lover og forskrifter?",
         "options": [
           "Lovdata",
-          "Wikipedia",
-          "Stortingets kantine",
-          "Politiets nettside"
+          "Domstol.no",
+          "Sivilombudet.no",
+          "Brønnøysundregistrene.no"
         ],
         "correct": 0,
         "explain": "Også dommer fra Høyesterett."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er et krav i en juridisk sak?",
         "options": [
-          "Loven som gjelder",
-          "Dommerens navn",
+          "Det rettsgrunnlaget parten viser til i saken",
+          "Det spørsmålet retten skal ta stilling til",
           "Det den ene parten krever av den andre",
-          "Konklusjonen"
+          "Det resultatet dommeren fastsetter i dommen"
         ],
         "correct": 2,
         "explain": "For eksempel erstatning eller heving."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

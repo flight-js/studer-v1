@@ -75,9 +75,9 @@
       "id": "q01",
       "text": "Hvem er i arbeidsstyrken?",
       "options": [
-        "Bare sysselsatte",
+        "Sysselsatte med fast jobb",
         "Sysselsatte og arbeidsledige",
-        "Alle innbyggere",
+        "Alle personer i landet",
         "Studenter og pensjonister"
       ],
       "correct": 1,
@@ -88,9 +88,9 @@
       "text": "Det er 100 000 arbeidsledige og en arbeidsstyrke på 2 500 000. Hva er ledighetsraten?",
       "options": [
         "4 %",
-        "2,5 %",
-        "25 %",
-        "10 %"
+        "0,4 %",
+        "2 %",
+        "40 %"
       ],
       "correct": 0,
       "explain": "100 000 ÷ 2 500 000 · 100."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er strukturledighet?",
       "options": [
-        "Ledighet mellom to jobber",
-        "Ledighet om vinteren",
-        "Ledige har ikke kompetansen eller bostedet som trengs",
-        "Ledighet fordi etterspørselen er lav"
+        "Ledighet fordi arbeidstakere bytter mellom to jobber",
+        "Ledighet fordi etterspørselen faller i en lavkonjunktur",
+        "Ledighet fordi kompetansen eller bostedet ikke passer jobbene",
+        "Ledighet fordi arbeidsbehovet varierer gjennom året"
       ],
       "correct": 2,
       "explain": "Oppstår ofte ved omstilling."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvilket tiltak passer best mot konjunkturledighet?",
       "options": [
-        "Omskolering",
-        "Flyttestøtte",
-        "Bedre jobbportaler",
+        "Omskolering og bedre samsvar mellom kompetanse og jobber",
+        "Flyttestøtte og bedre informasjon om ledige stillinger",
+        "Lønnstilskudd og mer yrkesrettet opplæring",
         "Lavere rente og økte offentlige utgifter"
       ],
       "correct": 3,
@@ -125,8 +125,8 @@
       "options": [
         "Utdanning og omskolering",
         "Lavere rente",
-        "Skattelette",
-        "Økt offentlig forbruk"
+        "Skattelette til bedrifter",
+        "Økte offentlige utgifter"
       ],
       "correct": 0,
       "explain": "De ledige må passe til jobbene."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvorfor viser AKU ofte høyere ledighet enn NAV?",
       "options": [
-        "Fordi AKU teller pensjonister",
-        "Fordi ikke alle som søker jobb, registrerer seg hos NAV",
-        "Fordi NAV teller feil",
-        "Fordi AKU teller studenter som ledige"
+        "AKU regner alle studenter uten jobb som arbeidsledige",
+        "AKU fanger opp arbeidsledige som ikke er registrert hos NAV",
+        "AKU regner alle pensjonister uten jobb som arbeidsledige",
+        "NAV teller bare personer som mottar dagpenger som ledige"
       ],
       "correct": 1,
       "explain": "To ulike målemetoder."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er friksjonsledighet?",
       "options": [
-        "Langvarig ledighet",
-        "Ledighet på grunn av lav etterspørsel",
-        "Kortvarig ledighet mellom to jobber",
-        "Ledighet om sommeren"
+        "Langvarig ledighet etter tap av arbeidsplass",
+        "Ledighet når samlet etterspørsel faller i økonomien",
+        "Ledighet i en kort overgang mellom jobber",
+        "Ledighet når behovet for arbeidskraft varierer med årstidene"
       ],
       "correct": 2,
       "explain": "Vil alltid finnes."
@@ -160,8 +160,8 @@
       "text": "Hva er en samfunnsøkonomisk kostnad ved arbeidsledighet?",
       "options": [
         "Høyere skatteinntekter",
-        "Lavere utgifter til ytelser",
-        "Mer produksjon",
+        "Lavere utgifter til dagpenger",
+        "Større samlet produksjon",
         "Tapt produksjon"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva kan skje hvis ekspansiv politikk brukes mot strukturledighet?",
       "options": [
         "Det kan gi prisstigning i stedet for flere jobber",
-        "Ledigheten forsvinner alltid",
-        "Rentene faller",
-        "Ingenting"
+        "Det kan gi ledige den fagkompetansen bedriftene trenger for å ansette",
+        "Det kan flytte arbeidsledige dit jobbene finnes uten opplæring",
+        "Det kan gjøre ledige kvalifiserte ved å øke samlet etterspørsel"
       ],
       "correct": 0,
       "explain": "De ledige passer ikke til jobbene."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er et lønnstilskudd?",
       "options": [
-        "Lønn fra staten til alle",
+        "Dagpenger til arbeidssøker mens hen venter på jobb",
         "Tilskudd til arbeidsgiver som ansetter en ledig",
-        "En skatt",
-        "En type dagpenger"
+        "Offentlig støtte til arbeidstaker som mister jobben",
+        "Skattefradrag til bedrift som reduserer lønnskostnader"
       ],
       "correct": 1,
       "explain": "Et arbeidsmarkedstiltak."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvilken etat har ansvar for mange arbeidsmarkedstiltak?",
         "options": [
-          "SSB",
+          "Arbeidstilsynet",
           "NAV",
-          "Norges Bank",
-          "Skatteetaten"
+          "Lånekassen",
+          "Utdanningsdirektoratet"
         ],
         "correct": 1,
         "explain": "Kurs, praksisplasser og lønnstilskudd."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva er en større utfordring enn ledigheten i Norge?",
         "options": [
-          "For mange i jobb",
-          "For lav befolkning",
+          "At alle uten arbeid regnes som arbeidsledige",
+          "At arbeidsstyrken omfatter alle innbyggere i landet",
           "At mange står utenfor arbeidsstyrken",
-          "For høy rente"
+          "At pensjonister utgjør flesteparten av arbeidsstyrken"
         ],
         "correct": 2,
         "explain": "For eksempel på grunn av helseproblemer."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

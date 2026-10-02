@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvem la fram definisjonen av bærekraftig utvikling i 1987?",
       "options": [
-        "FNs sikkerhetsråd",
+        "FNs miljøprogram",
         "Brundtland-kommisjonen",
-        "EU",
-        "NATO"
+        "FNs generalforsamling",
+        "Verdensbanken"
       ],
       "correct": 1,
       "explain": "Kommisjonen ble ledet av Gro Harlem Brundtland."
@@ -89,9 +89,9 @@
       "text": "Hvilke tre dimensjoner har bærekraftig utvikling?",
       "options": [
         "Miljømessig, økonomisk og sosial",
-        "Politisk, militær og religiøs",
-        "Lokal, nasjonal og global",
-        "Fortid, nåtid og framtid"
+        "Politisk, økonomisk og sosial",
+        "Miljømessig, politisk og kulturell",
+        "Miljømessig, økonomisk og teknologisk"
       ],
       "correct": 0,
       "explain": "Alle tre må ivaretas for at utviklingen skal være bærekraftig."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvor mange bærekraftsmål vedtok FN i 2015?",
       "options": [
-        "5",
-        "10",
+        "8",
+        "15",
         "17",
-        "30"
+        "20"
       ],
       "correct": 2,
       "explain": "Målene gjelder alle land og skal etter planen nås innen 2030."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er målet i Parisavtalen?",
       "options": [
-        "Å stoppe all bilkjøring",
-        "Å øke oljeproduksjonen",
-        "At alle land skal bli med i EU",
-        "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C"
+        "Å begrense den globale oppvarmingen til under 3 °C innen år 2100",
+        "Å stanse økningen i globale utslipp innen år 2030",
+        "Å holde den globale oppvarmingen under 2 °C uten et mål på 1,5 °C",
+        "Å begrense den globale oppvarmingen til godt under 2 °C, helst 1,5 °C"
       ],
       "correct": 3,
       "explain": "Landene skal kutte klimagassutslipp for å nå målet.",
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvordan kan fattigdom påvirke miljøet?",
       "options": [
-        "Fattige mennesker kan bli tvunget til å hogge skog for å overleve",
-        "Fattigdom gir alltid renere natur",
-        "Fattigdom har ingen sammenheng med miljø",
-        "Fattigdom gir mindre avfall overalt"
+        "Fattigdom kan tvinge mennesker til å hogge skog for å overleve.",
+        "Fattigdom påvirker inntektene, men ikke hvordan mennesker bruker naturressurser.",
+        "Fattigdom reduserer behovet for ved og dyrkbar jord, slik at skogen får mindre press.",
+        "Fattigdom gjør det lettere å velge miljøvennlige energikilder framfor ved og kull."
       ],
       "correct": 0,
       "explain": "Her påvirker den sosiale dimensjonen den miljømessige."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er sirkulær økonomi?",
       "options": [
-        "At pengene går i ring mellom bankene",
-        "At ressursene holdes i kretsløp gjennom gjenbruk og resirkulering",
-        "At alle varer lages av plast",
-        "At man bare handler lokalt"
+        "At varer brukes kort tid før de erstattes av nye produkter",
+        "At ressurser holdes i kretsløp gjennom gjenbruk og resirkulering",
+        "At materialer samles inn, men ikke brukes til nye produkter",
+        "At bedrifter lager flere varer av nye råvarer for å senke prisene"
       ],
       "correct": 1,
       "explain": "Målet er at minst mulig blir til avfall."
@@ -149,9 +149,9 @@
       "id": "q07",
       "text": "Hvilket tiltak kan en kommune gjøre for mer bærekraft?",
       "options": [
-        "Legge ned bussrutene",
-        "Bygge flere motorveier inn til sentrum",
-        "Øke antall parkeringsplasser",
+        "Satse på flere parkeringsplasser og utvide bilveiene",
+        "Legge ned bussruter og redusere antall sykkelveier",
+        "Bygge boliger langt fra kollektivtransport og sentrum",
         "Satse på kollektivtransport og sykkelveier"
       ],
       "correct": 3,
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor kan det å avvikle oljeindustrien være et dilemma?",
       "options": [
-        "Fordi det gir mer utslipp",
-        "Fordi det kan redusere utslipp, men gi tap av arbeidsplasser og inntekter",
-        "Fordi olje er fornybar",
-        "Det er ikke noe dilemma"
+        "Fordi en avvikling kan øke utslipp, men samtidig skape nye arbeidsplasser og inntekter",
+        "Fordi en avvikling kan redusere utslipp, men gi tap av arbeidsplasser og inntekter",
+        "Fordi olje er en fornybar ressurs, men vanskelig å transportere uten utslipp",
+        "Fordi avviklingen kan redusere oljeprisen, men ikke påvirke utslipp eller arbeidsplasser"
       ],
       "correct": 1,
       "explain": "Miljøhensyn og økonomiske hensyn trekker i hver sin retning.",
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva betyr det at klimaendringer har en sosial dimensjon?",
       "options": [
-        "At de ofte rammer de fattigste hardest",
-        "At de bare påvirker naturen",
-        "At de er gode for økonomien",
-        "At de bare skjer i rike land"
+        "At de fattigste ofte rammes hardest fordi de har færre ressurser til å tilpasse seg",
+        "At rike land ofte rammes hardest fordi mange innbyggere bor i byer",
+        "At klimaendringer ofte påvirker naturen, men ikke menneskers levekår",
+        "At klimaendringer ofte gir fattige bedre helse og tryggere boliger"
       ],
       "correct": 0,
       "explain": "De fattigste har minst ressurser til å tilpasse seg tørke og flom."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva kan du som enkeltperson gjøre for mer bærekraft?",
       "options": [
-        "Kjøpe mer og kaste oftere",
-        "Kjøre bil korte strekninger",
-        "Reparere, gjenbruke og reise kollektivt",
-        "Kaste avfall usortert"
+        "Erstatte brukbare ting, kjøpe engangsvarer og kjøre korte turer alene",
+        "Velge bil framfor kollektivtransport, kjøpe nye varer og kaste brukbare ting",
+        "Reparere ting, gjenbruke varer og reise med kollektivtransport",
+        "Kjøpe varer med kort levetid, kaste dem og kjøre til nærliggende steder"
       ],
       "correct": 2,
       "explain": "Mange små valg til sammen kan utgjøre en forskjell."
@@ -318,9 +318,9 @@
         "text": "Hva er fornybar energi?",
         "options": [
           "Energi fra kilder som ikke tar slutt, som vann, vind og sol",
-          "Energi fra kull og olje",
-          "Energi som bare kan brukes én gang",
-          "Energi fra naturgass"
+          "Energi fra fossile brensler som kull, olje og naturgass, dannet over lang tid",
+          "Energi fra uran som brukes i kjernekraftverk og utvinnes fra berggrunnen",
+          "Energi fra kilder som bare kan brukes én gang, som engangsbatterier og bensin"
         ],
         "correct": 0,
         "explain": "Fornybar energi gir lite klimagassutslipp i bruk."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva betyr rovdrift?",
         "options": [
-          "At man sparer ressurser",
-          "At man planter trær",
+          "At ressurser brukes saktere enn de fornyes",
+          "At ressurser spares slik at de kan brukes senere",
           "At ressurser brukes raskere enn de fornyes",
-          "At man resirkulerer"
+          "At ressurser gjenvinnes etter at de er brukt"
         ],
         "correct": 2,
         "explain": "Overfiske er et eksempel på rovdrift."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva handler den sosiale dimensjonen om?",
         "options": [
-          "Bare om sosiale medier",
-          "Rettferdig fordeling, helse, utdanning og trygghet",
-          "Bare om økonomisk vekst",
-          "Bare om dyreliv"
+          "Økonomisk vekst, arbeidsplasser, handel og produksjon i samfunnet",
+          "Rettferdig fordeling, god helse, utdanning og trygghet for mennesker",
+          "Naturvern, artsmangfold, skog og vannkvalitet i ulike områder",
+          "Politiske valg, lover, styresett og samarbeid mellom land"
         ],
         "correct": 1,
         "explain": "Et bærekraftig samfunn må være rettferdig for alle."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

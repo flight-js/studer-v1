@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Which word is an adjective in “The old dog slept quietly”?",
       "options": [
-        "dog",
+        "the",
         "old",
-        "slept",
-        "quietly"
+        "dog",
+        "slept"
       ],
       "correct": 1,
       "explain": "“Old” describes the noun “dog”. “Quietly” is an adverb describing how the dog slept."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Which is correct?",
       "options": [
-        "a hour",
-        "an university",
+        "a honest man",
+        "an house",
         "an hour",
-        "a apple"
+        "a orange"
       ],
       "correct": 2,
       "explain": "“Hour” starts with a vowel sound because the h is silent, so we use “an”."
@@ -103,9 +103,9 @@
       "text": "Which sentence has correct English word order?",
       "options": [
         "Yesterday I went to the cinema.",
-        "Yesterday went I to the cinema.",
-        "Yesterday to the cinema I went.",
-        "I yesterday went to the cinema to."
+        "Yesterday I to the cinema went.",
+        "Yesterday I went the cinema to.",
+        "Yesterday went to the cinema I."
       ],
       "correct": 0,
       "explain": "English keeps subject + verb even when the sentence starts with a time expression."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "What is the plural of “child”?",
       "options": [
-        "childs",
         "childes",
-        "childrens",
+        "childen",
+        "child's",
         "children"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Which word is a conjunction?",
       "options": [
-        "under",
+        "beneath",
         "because",
-        "quickly",
-        "they"
+        "carefully",
+        "someone"
       ],
       "correct": 1,
       "explain": "“Because” joins a subordinate clause to a main clause."
@@ -139,9 +139,9 @@
       "text": "How do you make “She likes fish” negative?",
       "options": [
         "She not likes fish.",
-        "She don't like fish.",
+        "She doesn't liking fish.",
         "She doesn't like fish.",
-        "She likes not fish."
+        "She don't likes fish."
       ],
       "correct": 2,
       "explain": "Most verbs need do-support in negatives. With he/she/it we use “does not” (doesn't) + the base form."
@@ -151,9 +151,9 @@
       "text": "What is the subject in “My brother plays football”?",
       "options": [
         "My brother",
-        "plays",
-        "football",
-        "plays football"
+        "plays football",
+        "brother plays",
+        "my football"
       ],
       "correct": 0,
       "explain": "The subject is who does the action: my brother."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Which is NOT a complete sentence?",
       "options": [
-        "I stayed at home.",
-        "It was raining.",
+        "Rain fell during lunch.",
+        "We went home early.",
         "Because it was raining.",
-        "I stayed at home because it was raining."
+        "The sky became dark."
       ],
       "correct": 2,
       "explain": "“Because it was raining” is a subordinate clause and cannot stand alone."
@@ -174,9 +174,9 @@
       "id": "q09",
       "text": "Which word is an adverb?",
       "options": [
-        "beautiful",
-        "beauty",
-        "beautify",
+        "pretty",
+        "beautician",
+        "decorate",
         "beautifully"
       ],
       "correct": 3,
@@ -187,9 +187,9 @@
       "text": "Which is correct?",
       "options": [
         "They are tall buildings.",
-        "They are talls buildings.",
-        "They are tall buildingses.",
-        "They are talls building."
+        "They is tall buildings.",
+        "They are taller building.",
+        "They are tall building's."
       ],
       "correct": 0,
       "explain": "English adjectives never take a plural ending. Only the noun changes: buildings."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Which question is correct?",
         "options": [
-          "Like you pizza?",
+          "Do you likes pizza?",
           "Do you like pizza?",
-          "You like pizza do?",
-          "Does you like pizza?"
+          "Do likes you pizza?",
+          "Do you pizza like?"
         ],
         "correct": 1,
         "explain": "Questions with most verbs need “do” before the subject: Do you like pizza?"
@@ -326,9 +326,9 @@
         "text": "Which word is a pronoun?",
         "options": [
           "them",
-          "table",
-          "green",
-          "slowly"
+          "teacher",
+          "bright",
+          "carefully"
         ],
         "correct": 0,
         "explain": "“Them” replaces a noun, for example “the students”."
@@ -339,9 +339,9 @@
         "text": "Which article is correct? “She is … engineer.”",
         "options": [
           "a",
-          "the a",
+          "these",
           "an",
-          "no article"
+          "many"
         ],
         "correct": 2,
         "explain": "“Engineer” starts with a vowel sound, so we use “an”. English also needs an article with jobs: She is an engineer."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

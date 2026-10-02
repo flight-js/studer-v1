@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er en primærkilde?",
       "options": [
-        "En lærebok",
-        "En kilde fra den tiden som undersøkes",
-        "En forskningsartikkel",
-        "En film om fortiden"
+        "En lærebok skrevet om perioden senere",
+        "En kilde fra tiden som undersøkes",
+        "En fagtekst som bygger på flere kilder",
+        "En kilde om en annen historisk periode"
       ],
       "correct": 1,
       "explain": "For eksempel et brev eller en kirkebok."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva betyr det å bruke en kilde som levning?",
       "options": [
-        "Å se hva kilden viser om tiden den ble til i",
-        "Å se hva kilden forteller",
-        "Å kaste kilden",
-        "Å kopiere kilden"
+        "Å undersøke hva kilden viser om tiden den ble til i",
+        "Å undersøke hva kilden sier om hendelsene den beskriver",
+        "Å vurdere om kilden er ekte og pålitelig",
+        "Å undersøke hvem som skrev kilden og hvem den var rettet mot"
       ],
       "correct": 0,
       "explain": "En gammel reklame kan vise kjønnsroller og idealer."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvorfor er det vanskelig å skrive historien til fattige, kvinner og slaver?",
       "options": [
-        "Fordi de ikke fantes",
-        "Fordi det er forbudt",
+        "Fordi muntlige kilder ikke kan brukes til å undersøke fortiden",
+        "Fordi arkeologiske funn ikke kan si noe om menneskers liv",
         "Fordi de har etterlatt seg få skriftlige kilder",
-        "Fordi historikere ikke er interessert"
+        "Fordi historikere mangler metoder for å undersøke vanlige menneskers liv"
       ],
       "correct": 2,
       "explain": "Historikere må bruke andre kilder, som arkeologi og statistikk."
@@ -127,9 +127,9 @@
       "text": "Hva er et problem med periodisering?",
       "options": [
         "Periodene kan være eurosentriske",
-        "Det gir for mye oversikt",
-        "Det er alltid riktig",
-        "Det finnes bare én periode"
+        "Periodiseringen gjør at historiske endringer ikke kan undersøkes",
+        "Periodiseringen gjør alle perioder like lange",
+        "Periodiseringen hindrer sammenligning mellom ulike samfunn"
       ],
       "correct": 0,
       "explain": "Middelalderen er et europeisk begrep."
@@ -138,7 +138,7 @@
       "id": "q06",
       "text": "Omtrent når var middelalderen i Europa?",
       "options": [
-        "800 f.Kr.–500 e.Kr.",
+        "3000 f.Kr.–500 f.Kr.",
         "500–1500",
         "1500–1800",
         "1800–1900"
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er et godt første steg når man utforsker fortiden?",
       "options": [
-        "Å skrive konklusjonen",
-        "Å velge en periode",
+        "Å bestemme hva konklusjonen skal være",
+        "Å velge en historisk kilde",
         "Å stille et historisk spørsmål",
-        "Å lese en roman"
+        "Å begynne med å lese en historisk roman"
       ],
       "correct": 2,
       "explain": "Spørsmålet styrer valg av kilder."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor mener mange historikere at «den mørke middelalder» er et urettferdig navn?",
       "options": [
-        "Fordi det var mye sol",
-        "Fordi middelalderen varte kort",
-        "Fordi det bare gjelder Norge",
+        "Fordi navnet bygger på at perioden hadde få skriftlige kilder",
+        "Fordi navnet ble brukt om perioden etter middelalderen",
+        "Fordi navnet viser til at Europa var politisk samlet",
         "Fordi navnet gir et ensidig negativt bilde av perioden"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvorfor kan to historikere komme til ulike konklusjoner?",
       "options": [
-        "Fordi historie bygger på kilder og tolkninger",
-        "Fordi en av dem alltid lyver",
-        "Fordi fortiden endrer seg",
-        "Fordi de har ulike lærebøker"
+        "Fordi de tolker kilder og bevis ulikt",
+        "Fordi historiske kilder gir samme svar til alle som leser dem",
+        "Fordi historikere kan endre hendelsene de undersøker",
+        "Fordi historikernes alder bestemmer hvilke konklusjoner de kommer til"
       ],
       "correct": 0,
       "explain": "Historie er fortellinger om fortiden."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
-        "Hvor mange sider har kilden?",
+        "Hvor lang er kilden, og hvor mange opplysninger inneholder den?",
         "Hvem laget kilden, når og hvorfor?",
-        "Hvor mye koster kilden?",
-        "Hvilken farge har kilden?"
+        "Hvilket tema handler kilden om, og hvor mange sider har den?",
+        "Hvilket sted omtaler kilden, og hvor mange avsnitt har den?"
       ],
       "correct": 1,
       "explain": "Også: Hvem var mottakeren?"
@@ -315,9 +315,9 @@
         "text": "Hva er eurosentrisme?",
         "options": [
           "Å se historien med Europa i sentrum",
-          "Å bruke euro som valuta",
-          "En periode i Europa",
-          "En type kilde"
+          "Å bruke euro som målestokk for økonomisk utvikling",
+          "Å undersøke Europas historie i en bestemt periode",
+          "Å bruke en europeisk kilde til å beskrive fortiden"
         ],
         "correct": 0,
         "explain": "Mange periodebegreper er europeiske."
@@ -330,7 +330,7 @@
           "500",
           "1500",
           "1800",
-          "1945"
+          "1914"
         ],
         "correct": 1,
         "explain": "Tidlig nytid regnes fra ca. 1500 til 1800."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilken periode bygger på et politisk kriterium?",
         "options": [
-          "Jernalderen",
+          "Bronsealderen",
           "Industrisamfunnet",
           "Etterkrigstiden",
-          "Bronsealderen"
+          "Reformasjonen"
         ],
         "correct": 2,
         "explain": "Etterkrigstiden defineres ut fra en politisk hendelse.",
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

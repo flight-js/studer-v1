@@ -87,10 +87,10 @@
       "id": "q01",
       "text": "Hvem skrev «Les Misérables»?",
       "options": [
-        "Molière",
+        "Émile Zola",
         "Victor Hugo",
-        "Saint-Exupéry",
-        "Monet"
+        "Alexandre Dumas",
+        "Gustave Flaubert"
       ],
       "correct": 1,
       "explain": "Romanen kom i 1862.",
@@ -101,9 +101,9 @@
       "text": "Hvor kommer navnet impresjonisme fra?",
       "options": [
         "Et maleri av Claude Monet",
-        "En bok av Victor Hugo",
-        "Et museum i Paris",
-        "En sang av Édith Piaf"
+        "Et maleri av Édouard Manet",
+        "Et maleri av Edgar Degas",
+        "Et maleri av Pierre-Auguste Renoir"
       ],
       "correct": 0,
       "explain": "Impression, soleil levant (1872).",
@@ -116,7 +116,7 @@
         "je voulais",
         "je voudrai",
         "je voudrais",
-        "je veux bien"
+        "je veux"
       ],
       "correct": 2,
       "explain": "Futur-stamme voudr- + -ais."
@@ -150,10 +150,10 @@
       "id": "q06",
       "text": "Hva kalles fransk-belgiske tegneserier?",
       "options": [
-        "le manga",
+        "le dessin animé",
         "la bande dessinée",
-        "le roman",
-        "la chanson"
+        "le film d’animation",
+        "le livre illustré"
       ],
       "correct": 1,
       "explain": "Forkortes ofte BD."
@@ -162,8 +162,8 @@
       "id": "q07",
       "text": "Hvilket kjent maleri finnes på Louvre?",
       "options": [
-        "Skrik",
-        "Solsikker",
+        "Le Cri",
+        "Les Tournesols",
         "Mona Lisa",
         "Guernica"
       ],
@@ -176,8 +176,8 @@
       "text": "Hvem skrev «Le Petit Prince»?",
       "options": [
         "Victor Hugo",
-        "Hergé",
-        "Molière",
+        "Jules Verne",
+        "Alexandre Dumas",
         "Antoine de Saint-Exupéry"
       ],
       "correct": 3,
@@ -202,8 +202,8 @@
       "options": [
         "Stromae",
         "Édith Piaf",
-        "Molière",
-        "Claude Monet"
+        "Charles Aznavour",
+        "Jacques Brel"
       ],
       "correct": 1,
       "explain": "Piaf er et symbol på fransk chanson.",
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva betyr «J'aimerais voyager»?",
         "options": [
-          "Jeg reiste.",
+          "Jeg reiser ofte alene.",
           "Jeg skulle gjerne reist.",
-          "Jeg skal reise.",
-          "Jeg liker å reise."
+          "Jeg må reise i morgen.",
+          "Jeg har reist før."
         ],
         "correct": 1,
         "explain": "Conditionnel uttrykker ønske."
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Cette chanson me fait penser à l'été»?",
         "options": [
-          "Jeg liker sommersanger.",
-          "Sangen handler om sommeren.",
+          "Denne sangen får meg til å tenke på våren.",
+          "Denne sangen får meg til å tenke på høsten.",
           "Denne sangen får meg til å tenke på sommeren.",
-          "Jeg hørte sangen i sommer."
+          "Denne sommeren får meg til å tenke på sangen."
         ],
         "correct": 2,
         "explain": "faire penser à = få en til å tenke på."
@@ -454,6 +454,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

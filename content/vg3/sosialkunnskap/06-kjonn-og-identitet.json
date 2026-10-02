@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er kjønnsidentitet?",
       "options": [
-        "Hvem man blir forelsket i",
-        "Hvilket kjønn man opplever å være",
-        "Hvordan man kler seg",
-        "Kjønnet i passet"
+        "Hvem man opplever seg forelsket i",
+        "Hvilket kjønn man selv opplever å være",
+        "Hvordan man uttrykker kjønn med klær og kroppsspråk",
+        "Hvilket kjønn som står registrert i folkeregisteret"
       ],
       "correct": 1,
       "explain": "Ulikt seksuell orientering."
@@ -91,9 +91,9 @@
       "text": "Fra hvilket år kan personer over 16 år selv søke om å endre juridisk kjønn?",
       "options": [
         "2016",
-        "1972",
-        "2000",
-        "2023"
+        "2013",
+        "2014",
+        "2018"
       ],
       "correct": 0,
       "explain": "Lov om endring av juridisk kjønn.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva hevder sosialkonstruktivismen?",
       "options": [
-        "At alt skyldes gener",
-        "At kjønn ikke finnes",
+        "At mye av det vi forbinder med kjønn, skyldes biologiske forskjeller",
+        "At kjønnsroller formes av individuelle valg, uavhengig av samfunnet",
         "At mye av det vi forbinder med kjønn, er skapt av kultur og forventninger",
-        "At kjønnsroller aldri endres"
+        "At oppfatninger om kjønn er stabile på tvers av kulturer og tid"
       ],
       "correct": 2,
       "explain": "Kan derfor endres."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er interseksjonalitet?",
       "options": [
-        "Et trafikkryss",
-        "En lov",
-        "En diagnose",
+        "At kjønn og seksualitet er to ord for samme identitet",
+        "At kjønn påvirker mennesker uavhengig av klasse og etnisitet",
+        "At kjønn og etnisitet er to navn på samme samfunnskategori",
         "At kjønn krysser andre kategorier som klasse og etnisitet"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er minoritetsstress?",
       "options": [
         "Ekstra belastning ved å tilhøre en gruppe som møter fordommer",
-        "Stress på jobben",
-        "Eksamenspress",
-        "Stress ved flytting"
+        "Belastning som skyldes høye krav på skole eller arbeidsplass",
+        "Belastning ved å tilpasse seg et nytt bosted eller miljø",
+        "Belastning som oppstår når man har lite sosial støtte"
       ],
       "correct": 0,
       "explain": "Kan gi psykiske helseplager.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken endring i kjønnsroller har skjedd i Norge?",
       "options": [
-        "Færre kvinner i arbeid",
+        "Flere menn enn kvinner tar høyere utdanning",
         "Kvinner tar mer utdanning enn menn",
-        "Menn tar all omsorg",
-        "Ingen endring"
+        "Kvinners deltakelse i arbeidslivet har gått tilbake",
+        "Fedre tar en mindre del av omsorgsarbeidet hjemme enn før"
       ],
       "correct": 1,
       "explain": "Store endringer siden 1970-tallet.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er kjønnsuttrykk?",
       "options": [
-        "Kjønn i folkeregisteret",
-        "Kromosomer",
+        "Hvordan man registrerer kjønn i folkeregisteret",
+        "Hvordan kromosomene bestemmer ens biologiske kjønn",
         "Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk",
-        "Hvem man er forelsket i"
+        "Hvordan man opplever hvilket kjønn man er"
       ],
       "correct": 2,
       "explain": "Kan variere uavhengig av identitet."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva forbyr likestillings- og diskrimineringsloven?",
       "options": [
-        "Deltid",
-        "Fedrekvote",
-        "Utdanning",
+        "Diskriminering på grunn av bosted, inntekt og utdanningsnivå",
+        "Diskriminering på grunn av politisk syn, språk og arbeidserfaring",
+        "Diskriminering på grunn av familiesituasjon, personlighet og sosial status",
         "Diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva hevder essensialismen?",
       "options": [
         "At kjønnsforskjeller i hovedsak skyldes biologi",
-        "At kjønn er helt sosialt skapt",
-        "At kjønn er juridisk",
-        "At kjønn ikke betyr noe"
+        "At kjønnsforskjeller i hovedsak skyldes sosialisering og kultur",
+        "At kjønnsforskjeller først og fremst bestemmes av juridiske regler",
+        "At biologiske forskjeller mellom kjønnene er små sammenlignet med sosiale forskjeller"
       ],
       "correct": 0,
       "explain": "Medfødte forskjeller."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva innebærer respekt for andres identitet?",
       "options": [
-        "At man må være enig i alt",
+        "At man trenger å dele andres oppfatning av egen identitet",
         "At man anerkjenner andres rett til å definere seg selv",
-        "At man ikke snakker om kjønn",
-        "At alle skal være like"
+        "At man bør unngå samtaler om kjønn og identitet med andre",
+        "At man behandler personer likt ved å overse identiteten deres"
       ],
       "correct": 1,
       "explain": "Og leve et trygt liv."
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hva betyr ikke-binær?",
         "options": [
-          "Å være homofil",
+          "Å ha en seksuell orientering rettet mot samme kjønn",
           "Å oppleve seg verken bare som kvinne eller mann",
-          "Å være cis",
-          "Å ikke ha noen identitet"
+          "Å oppleve seg som samme kjønn som ble registrert ved fødselen",
+          "Å oppleve at kjønnsidentiteten følger forventningene til eget kjønn"
         ],
         "correct": 1,
         "explain": "En kjønnsidentitet."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva har fedrekvoten ført til?",
         "options": [
-          "At flere fedre tar omsorgsansvar",
-          "At færre kvinner jobber",
-          "Lavere fødselstall",
-          "At mødre får mindre permisjon totalt"
+          "At flere fedre tar en større del av omsorgen",
+          "At permisjonen fordeles etter hvor mye foreldrene tjener",
+          "At mødre får hovedansvaret for omsorgen etter fødselen",
+          "At den samlede foreldrepermisjonen blir kortere for familier"
         ],
         "correct": 0,
         "explain": "Endrede kjønnsroller.",
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er sosial identitet?",
         "options": [
-          "Ens personlighet",
-          "Ens gener",
-          "Gruppene man tilhører",
-          "Ens navn"
+          "Egenskapene som kjennetegner personligheten",
+          "Biologiske trekk man arver fra foreldrene",
+          "Gruppene man opplever å tilhøre",
+          "Navnet og rollen man har i familien"
         ],
         "correct": 2,
         "explain": "Personlig identitet er egenskaper og erfaringer."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,20 +78,20 @@
       "options": [
         "Midlertidig ansettelse",
         "Fast ansettelse",
-        "Innleie",
-        "Frilans"
+        "Innleie fra bemanningsforetak",
+        "Selvstendig oppdragstaker"
       ],
       "correct": 1,
-      "explain": "Midlertidig bare i bestemte tilfeller."
+      "explain": "Midlertidig ansettelse er tillatt når loven åpner for det."
     },
     {
       "id": "q02",
       "text": "Hvor lang kan prøvetiden være?",
       "options": [
         "Inntil seks måneder",
-        "Inntil ett år",
-        "Inntil to uker",
-        "Inntil tre år"
+        "Inntil fire måneder",
+        "Inntil åtte måneder",
+        "Inntil tolv måneder"
       ],
       "correct": 0,
       "explain": "Etter arbeidsmiljøloven."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvor stort er overtidstillegget minst?",
       "options": [
-        "10 %",
-        "25 %",
+        "20 %",
+        "30 %",
         "40 %",
-        "100 %"
+        "50 %"
       ],
       "correct": 2,
       "explain": "Av timelønnen."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er forskjellen på oppsigelse og avskjed?",
       "options": [
-        "Det er det samme",
-        "Avskjed krever ikke grunn",
-        "Oppsigelse gjelder bare ledere",
-        "Ved avskjed opphører arbeidsforholdet straks ved grovt pliktbrudd"
+        "Ved avskjed avsluttes arbeidsforholdet etter vanlig oppsigelsestid.",
+        "Ved oppsigelse avsluttes arbeidsforholdet straks etter grovt pliktbrudd.",
+        "Avskjed brukes ved nedbemanning, mens oppsigelse brukes ved pliktbrudd.",
+        "Ved avskjed avsluttes arbeidsforholdet straks etter grovt pliktbrudd."
       ],
       "correct": 3,
       "explain": "Oppsigelse har oppsigelsestid."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvor mange virkedager ferie har arbeidstakere rett til?",
       "options": [
-        "25",
-        "15",
-        "30",
-        "20"
+        "25 virkedager",
+        "20 virkedager",
+        "28 virkedager",
+        "30 virkedager"
       ],
       "correct": 0,
       "explain": "Etter ferieloven."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er varsling?",
       "options": [
-        "Å si opp jobben",
-        "Å si fra om kritikkverdige forhold i virksomheten",
-        "Å klage på lønnen",
-        "Å gi arbeidsgiveren tips om ferie"
+        "Å melde fra om misnøye med egne arbeidsoppgaver",
+        "Å melde fra om kritikkverdige forhold på arbeidsplassen",
+        "Å be arbeidsgiveren rette opp en feil i lønnsutbetalingen",
+        "Å informere kolleger om endringer i virksomhetens rutiner"
       ],
       "correct": 1,
       "explain": "Gjengjeldelse er forbudt."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er styringsrett?",
       "options": [
-        "Arbeidstakers rett til å velge oppgaver",
-        "Fagforeningens rett til å streike",
+        "Arbeidstakers rett til å lede og fordele arbeidet i virksomheten",
+        "Fagforeningens rett til å lede og fordele arbeidet i virksomheten",
         "Arbeidsgivers rett til å lede og fordele arbeidet",
-        "Statens rett til å styre bedrifter"
+        "Arbeidsgivers plikt til å følge arbeidstakernes valg av arbeidsoppgaver"
       ],
       "correct": 2,
       "explain": "Innenfor lov og avtale."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva kreves for at en oppsigelse skal være lovlig?",
       "options": [
-        "At arbeidsgiver ikke liker arbeidstakeren",
-        "At det er dårlig vær",
-        "Ingenting",
-        "At den er saklig begrunnet og skriftlig"
+        "At oppsigelsen er saklig begrunnet og godkjent av Arbeidstilsynet",
+        "At oppsigelsen er skriftlig og varslet til NAV på forhånd",
+        "At oppsigelsen er skriftlig og godkjent av fagforeningen",
+        "At oppsigelsen er saklig begrunnet og skriftlig"
       ],
       "correct": 3,
       "explain": "Ellers kan den kjennes ugyldig."
@@ -173,21 +173,21 @@
       "text": "Hva er alminnelig arbeidstid per uke etter loven?",
       "options": [
         "40 timer",
-        "37,5 timer alltid",
-        "50 timer",
-        "30 timer"
+        "37,5 timer",
+        "38 timer",
+        "45 timer"
       ],
       "correct": 0,
-      "explain": "Mange tariffavtaler har kortere arbeidstid."
+      "explain": "Tariffavtaler kan avtale kortere arbeidstid enn lovens alminnelige grense."
     },
     {
       "id": "q10",
       "text": "Hvilken plikt har arbeidsgiveren når det gjelder trakassering?",
       "options": [
-        "Ingen plikt",
-        "Å forebygge og følge opp trakassering",
-        "Bare å føre logg",
-        "Å la de ansatte løse det selv"
+        "Å undersøke trakassering først etter en skriftlig klage",
+        "Å forebygge trakassering og følge opp meldte saker",
+        "Å registrere trakassering uten å iverksette tiltak",
+        "Å kreve at den utsatte først tar saken opp direkte"
       ],
       "correct": 1,
       "explain": "Et forsvarlig arbeidsmiljø."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva kan være saklig grunn til oppsigelse?",
         "options": [
-          "At arbeidstakeren er gravid",
-          "Nedbemanning på grunn av dårlig økonomi",
-          "At arbeidstakeren har varslet",
-          "At arbeidstakeren er medlem av en fagforening"
+          "Oppsigelse fordi arbeidstakeren har varslet om kritikkverdige forhold",
+          "Nedbemanning fordi virksomheten har fått dårligere økonomi",
+          "Oppsigelse fordi arbeidstakeren er gravid og skal ut i permisjon",
+          "Oppsigelse fordi arbeidstakeren er medlem av en fagforening"
         ],
         "correct": 1,
         "explain": "Virksomhetens forhold."
@@ -328,9 +328,9 @@
         "text": "Hvem fører tilsyn med arbeidsmiljøloven?",
         "options": [
           "Arbeidstilsynet",
-          "Datatilsynet",
-          "Forbrukerrådet",
-          "Politiet"
+          "Likestillings- og diskrimineringsombudet",
+          "NAV",
+          "Statsforvalteren"
         ],
         "correct": 0,
         "explain": "Kan gi pålegg og reaksjoner.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvilken plikt har arbeidstakeren?",
         "options": [
-          "Å velge egne arbeidsoppgaver",
-          "Å bestemme lønnen",
-          "Å være lojal mot arbeidsgiveren",
-          "Å ansette nye kolleger"
+          "Å ivareta arbeidsgiverens ansvar for arbeidsmiljøet på arbeidsplassen",
+          "Å fastsette egen lønn og arbeidstid uten avtale",
+          "Å opptre lojalt overfor arbeidsgiveren i jobbsammenheng",
+          "Å forhandle arbeidsavtaler på vegne av nye kolleger"
         ],
         "correct": 2,
         "explain": "Lojalitetsplikt."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

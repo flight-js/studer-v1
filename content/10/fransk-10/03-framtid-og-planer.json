@@ -83,9 +83,9 @@
       "id": "q01",
       "text": "Hvordan lager du futur proche?",
       "options": [
-        "avoir + partisipp",
-        "être + infinitiv",
-        "infinitiv + -ait",
+        "avoir + infinitiv",
+        "être + participe passé",
+        "faire + infinitiv",
         "aller + infinitiv"
       ],
       "correct": 3,
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hvordan sier du «Jeg vil gjerne bli lege»?",
       "options": [
-        "Je voudrais être un médecin.",
+        "Je voudrais avoir un médecin.",
         "Je voudrais être médecin.",
-        "Je voudrais médecin.",
-        "Je suis voudrais médecin."
+        "Je voudrais être médecine.",
+        "Je voudrais suis médecin."
       ],
       "correct": 1,
       "explain": "Man bruker ikke artikkel foran yrket."
@@ -120,9 +120,9 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "Je veux être professeur parce que j'aime les enfants.",
-        "Je veux être professeur parce que les enfants j'aime.",
-        "Je veux être professeur que parce j'aime les enfants.",
-        "Je veux être parce que professeur j'aime les enfants."
+        "Je veux être professeur parce que j'aime aux enfants.",
+        "Je veux être professeur parce que j'aime les enfant.",
+        "Je veux être professeur parce que j'aime les enfants beaucoup."
       ],
       "correct": 0,
       "explain": "Etter «parce que» brukes vanlig ordstilling."
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "Hva er «le stage»?",
       "options": [
-        "En scene",
-        "En eksamen",
+        "En avsluttende eksamen på en skole",
+        "En scene i et teaterstykke",
         "En praksisperiode i en bedrift",
-        "Et skolefag"
+        "Et skolefag på ungdomsskolen"
       ],
       "correct": 2,
       "explain": "Mange franske elever har stage allerede i collège.",
@@ -146,8 +146,8 @@
       "options": [
         "Neste år",
         "I fjor",
-        "Hvert år",
-        "Dette året"
+        "Dette året",
+        "Neste måned"
       ],
       "correct": 0,
       "explain": "I fjor heter «l'année dernière»."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hva er «le bac»?",
       "options": [
-        "En yrkestittel",
-        "En skoletype",
-        "En praksisplass",
-        "Eksamen som avslutter lycée"
+        "Avsluttende eksamen på collège",
+        "Opptaksprøve til lycée",
+        "Praksisperiode på lycée",
+        "Avsluttende eksamen på lycée"
       ],
       "correct": 3,
       "explain": "Bac gir adgang til høyere utdanning.",
@@ -169,10 +169,10 @@
       "id": "q08",
       "text": "Hva er hunkjønnsformen av «infirmier»?",
       "options": [
-        "infirmiere",
+        "aide-soignante",
         "infirmière",
-        "infirmienne",
-        "infirmiesse"
+        "pharmacienne",
+        "secrétaire"
       ],
       "correct": 1,
       "explain": "Endelsen -ier blir -ière."
@@ -181,9 +181,9 @@
       "id": "q09",
       "text": "Hva betyr «Si j'ai de bonnes notes, j'irai à l'université»?",
       "options": [
-        "Jeg har gode karakterer på universitetet",
-        "Jeg gikk på universitetet",
-        "Universitetet er bra",
+        "Hvis jeg får dårlige karakterer, skal jeg gå på universitetet",
+        "Fordi jeg får gode karakterer, skal jeg gå på universitetet",
+        "Selv om jeg får gode karakterer, skal jeg gå på universitetet",
         "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
       ],
       "correct": 3,
@@ -194,9 +194,9 @@
       "text": "Hva er «l'apprentissage»?",
       "options": [
         "En yrkesopplæring der man lærer i en bedrift",
-        "En eksamen",
-        "Et universitet",
-        "En type lærer"
+        "En skoleeksamen der man viser hva man kan",
+        "En universitetsutdanning der man studerer teori",
+        "En lærerutdanning der man lærer å undervise"
       ],
       "correct": 0,
       "explain": "«apprendre» betyr å lære.",
@@ -335,9 +335,9 @@
         "text": "Hva er futur simple av «avoir» med «je»?",
         "options": [
           "j'aurai",
-          "j'avrai",
-          "j'avoirai",
-          "j'ai"
+          "j'avais",
+          "j'ai",
+          "je serai"
         ],
         "correct": 0,
         "explain": "«avoir» har stammen aur- i futur simple."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Je rêve de devenir pilote»?",
         "options": [
-          "Jeg drømte om fly",
-          "Jeg er pilot",
+          "Jeg drømmer om å bli lege",
+          "Jeg planlegger å bli pilot en dag",
           "Jeg drømmer om å bli pilot",
-          "Jeg liker piloter"
+          "Jeg drømmer om å være pilot nå"
         ],
         "correct": 2,
         "explain": "«rêver de» betyr å drømme om."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

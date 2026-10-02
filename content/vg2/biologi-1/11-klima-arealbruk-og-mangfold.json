@@ -82,8 +82,8 @@
       "options": [
         "Klimaendringer",
         "Arealendringer",
-        "Fremmede arter",
-        "Jakt"
+        "Forurensning",
+        "Overhøsting"
       ],
       "correct": 1,
       "explain": "Nedbygging og ødeleggelse av leveområder.",
@@ -94,9 +94,9 @@
       "text": "Hva er fragmentering?",
       "options": [
         "At natur deles opp i små, isolerte biter",
-        "At arter blir større",
-        "At isen smelter",
-        "At havet blir surere"
+        "At naturtyper endrer seg når klimaet blir varmere",
+        "At bestander får færre individer etter en tørkeperiode",
+        "At arter utvikler mindre variasjon i arvestoffet"
       ],
       "correct": 0,
       "explain": "Små bestander blir mer sårbare."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hvorfor er myr viktig?",
       "options": [
-        "Den har ingen arter",
-        "Den gir mye tømmer",
+        "Den har få spesialiserte arter og lagrer lite karbon",
+        "Den har mange skogarter og binder mest nitrogen i jorda",
         "Den har spesialiserte arter og lagrer mye karbon",
-        "Den er lett å bygge på"
+        "Den har arter som trives i tørr jord og lagrer lite karbon"
       ],
       "correct": 2,
       "explain": "Nedbygging slipper ut karbon."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hvordan påvirker et varmere klima utbredelsen til arter?",
       "options": [
-        "Artene flytter sørover",
-        "Ingenting skjer",
-        "Alle arter får mer plass",
+        "Artene flytter mot kysten og nedover i fjellet",
+        "Artene blir værende mens leveområdene endres rundt dem",
+        "Artene sprer seg mot ekvator og oppover i fjellet",
         "Artene flytter nordover og oppover i fjellet"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er havforsuring?",
       "options": [
         "At havet blir surere fordi det tar opp CO₂",
-        "At havet blir saltere",
-        "At havet fryser",
-        "At havet får mer oksygen"
+        "At havet blir varmere fordi det tar opp mer solenergi",
+        "At havet blir mindre salt når mer ferskvann renner til",
+        "At havet får mindre oksygen når temperaturen i vannet stiger"
       ],
       "correct": 0,
       "explain": "Det kan skade koraller og skjell."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva vurderer Fremmedartslista?",
       "options": [
-        "Truede norske arter",
-        "Arter spredt til Norge med menneskers hjelp og risikoen de utgjør",
-        "Utdødde arter",
-        "Fiskekvoter"
+        "Fremmedartslista vurderer norske arter som står i fare for å dø ut",
+        "Fremmedartslista vurderer arter som mennesker har hjulpet til Norge, og risikoen de utgjør",
+        "Fremmedartslista vurderer arter som har forsvunnet fra Norge, og årsakene til utdøingen",
+        "Fremmedartslista vurderer størrelsen på fiskebestander og hvor mye som kan høstes"
       ],
       "correct": 1,
       "explain": "For eksempel stillehavsøsters og hagelupin.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvordan kan man restaurere en drenert myr?",
       "options": [
-        "Plante gran",
-        "Bygge veier",
+        "Fjerne torvlaget",
+        "Senke vannstanden ytterligere",
         "Tette grøftene",
-        "Brenne den"
+        "Legge drensrør i jorda"
       ],
       "correct": 2,
       "explain": "Da kommer vannet tilbake.",
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hvorfor forsterker klimaendringer og arealbruk hverandre?",
       "options": [
-        "De gjør det ikke",
-        "Arealbruk gir alltid kaldere klima",
-        "Klimaendringer stopper nedbygging",
-        "Arter som må flytte, kommer ikke langt i et oppstykket landskap"
+        "Arter som må flytte, finner lett nye leveområder mellom oppdelte naturområder",
+        "Arealbruk gjør at arter kan tilpasse seg klimaendringer uten å flytte",
+        "Klimaendringer reduserer behovet for sammenhengende leveområder for arter",
+        "Arter som må flytte, hindres av et oppstykket landskap"
       ],
       "correct": 3,
       "explain": "Grønne korridorer kan hjelpe."
@@ -180,9 +180,9 @@
       "text": "Hva er et av hovedmålene i Naturavtalen fra 2022?",
       "options": [
         "Å bevare 30 % av land- og havområdene innen 2030",
-        "Å stanse all fiske",
-        "Å bygge flere veier",
-        "Å plante 30 % mer skog i Norge"
+        "Å beskytte 50 % av land- og havområdene innen 2030",
+        "Å bevare 30 % av Norges skogområder innen 2030",
+        "Å restaurere 30 % av Norges natur innen 2030"
       ],
       "correct": 0,
       "explain": "Ofte kalt 30 × 30.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvilken art er avhengig av store, uforstyrrede fjellområder i Norge?",
       "options": [
-        "Brunrotte",
+        "Lemen",
         "Villrein",
-        "Stillehavsøsters",
-        "Hagelupin"
+        "Rødrev",
+        "Hjort"
       ],
       "correct": 1,
       "explain": "Veier og hytter fragmenterer leveområdene.",
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hvilken institusjon lager Norsk rødliste for arter?",
         "options": [
-          "Statistisk sentralbyrå",
+          "Miljødirektoratet",
           "Artsdatabanken",
-          "Folkehelseinstituttet",
-          "Meteorologisk institutt"
+          "Norsk institutt for naturforskning",
+          "Klima- og miljødepartementet"
         ],
         "correct": 1,
         "explain": "Den vurderer risiko for utdøing.",
@@ -341,9 +341,9 @@
         "text": "Hva er en grønn korridor?",
         "options": [
           "En naturstripe som binder leveområder sammen",
-          "En sykkelvei",
-          "Et drivhus",
-          "En type fremmed art"
+          "En sti som forbinder turstier gjennom et naturområde",
+          "Et plantefelt som brukes til å dyrke trær for tømmer",
+          "Et vernet område der ferdsel og utbygging er begrenset"
         ],
         "correct": 0,
         "explain": "Den gjør det lettere for arter å flytte seg."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hvilken art står på Fremmedartslista?",
         "options": [
-          "Villrein",
-          "Fjellrev",
+          "Blåbær",
+          "Rødkløver",
           "Hagelupin",
-          "Bever"
+          "Fjellbjørk"
         ],
         "correct": 2,
         "explain": "Den fortrenger stedegne planter.",
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

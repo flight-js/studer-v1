@@ -78,7 +78,7 @@
         "Konvergerende",
         "Divergerende",
         "Transform",
-        "Ingen plategrense"
+        "Subduksjon"
       ],
       "correct": 1,
       "explain": "Platene beveger seg fra hverandre, og magma strømmer opp."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hvordan ble Himalaya dannet?",
       "options": [
-        "Ved at to kontinentplater kolliderte",
-        "Ved erosjon",
-        "Ved en vulkan",
-        "Ved at platene glir fra hverandre"
+        "Da to kontinentplater kolliderte",
+        "Da to havplater kolliderte",
+        "Da to kontinentalplater gled fra hverandre",
+        "Da en havplate sank under en kontinentalplate"
       ],
       "correct": 0,
       "explain": "Kollisjonen presser opp fjellkjeder.",
@@ -100,21 +100,21 @@
       "id": "q03",
       "text": "Hva former en U-dal?",
       "options": [
-        "En elv",
-        "Vinden",
-        "En isbre",
-        "Havet"
+        "Elv",
+        "Vind",
+        "Isbre",
+        "Havbølger"
       ],
       "correct": 2,
-      "explain": "Elver former V-daler."
+      "explain": "Isbreer graver brede daler med U-form."
     },
     {
       "id": "q04",
       "text": "Hva er frostsprengning?",
       "options": [
-        "At isbreer smelter",
-        "At vulkaner får utbrudd",
-        "At elver fryser",
+        "At røtter vokser i sprekker og deler berget",
+        "At mineraler i berget løses opp av vann",
+        "At sand sliper berget når vinden blåser",
         "At vann fryser i sprekker og sprenger berget"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er en morene?",
       "options": [
         "En rygg av stein, grus og sand avsatt av en isbre",
-        "En type vulkan",
-        "En dyp fjord",
-        "En elvemunning"
+        "Et lag av leire og sand avsatt på havbunnen",
+        "En dal med bratte sider gravd ut av en isbre",
+        "En haug av sand og grus avsatt av en elv"
       ],
       "correct": 0,
       "explain": "Morener gir ofte god jordbruksjord."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor hevet landet seg etter istiden?",
       "options": [
-        "Fordi havet sank",
-        "Fordi vekten av isen forsvant",
-        "Fordi det kom vulkanutbrudd",
-        "Fordi platene kolliderte"
+        "Fordi havnivået steg etter istiden",
+        "Fordi vekten fra isen forsvant",
+        "Fordi jordskorpa ble varmet av magma",
+        "Fordi isbreene presset landet oppover"
       ],
       "correct": 1,
       "explain": "Derfor ligger gammel havbunn i dag over havet."
@@ -149,9 +149,9 @@
       "text": "Hvor ligger de fleste jordskjelv og vulkaner?",
       "options": [
         "Midt på kontinentene",
-        "Ved polene",
+        "Langs elveleiene",
         "Langs plategrensene",
-        "Tilfeldig spredt"
+        "Ved jordas poler"
       ],
       "correct": 2,
       "explain": "Der beveger platene seg i forhold til hverandre."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvilken ressurs gir bratte fjell og mye nedbør i Norge?",
       "options": [
-        "Olje",
+        "Vindkraft",
         "Geotermisk energi",
-        "Kull",
+        "Kullkraft",
         "Vannkraft"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på forvitring og erosjon?",
       "options": [
-        "Forvitring bryter ned berget der det står, erosjon flytter materialet",
-        "Det er det samme",
-        "Erosjon skjer bare i ørkener",
-        "Forvitring skjer bare under vann"
+        "Forvitring bryter ned berg på stedet; erosjon frakter bort materialet",
+        "Forvitring frakter bort berg; erosjon bryter det ned på stedet",
+        "Forvitring bygger opp berg på stedet; erosjon frakter materialet bort",
+        "Forvitring frakter berg til havet; erosjon lager nytt berg"
       ],
       "correct": 0,
       "explain": "Begge er ytre krefter."
@@ -186,8 +186,8 @@
       "options": [
         "Der platene beveger seg fra hverandre",
         "Der platene glir sidelengs forbi hverandre",
-        "Der en havplate går under en annen",
-        "Der to kontinenter kolliderer"
+        "Der en havplate synker under en kontinentalplate",
+        "Der to kontinentalplater kolliderer mot hverandre"
       ],
       "correct": 1,
       "explain": "San Andreas-forkastningen er et kjent eksempel."
@@ -324,9 +324,9 @@
         "text": "Hva er subduksjon?",
         "options": [
           "At en havplate går ned under en annen plate",
-          "At to plater glir sidelengs",
-          "At en isbre smelter",
-          "At en elv lager et delta"
+          "At en kontinentalplate går ned under en havplate",
+          "At to plater glir sidelengs forbi hverandre",
+          "At to plater beveger seg fra hverandre"
         ],
         "correct": 0,
         "explain": "Subduksjon gir dyphavsgroper og vulkaner."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Når sluttet den siste istiden i Norge?",
         "options": [
-          "For 1000 år siden",
-          "For 1 million år siden",
+          "For omtrent 1 000 år siden",
+          "For omtrent 20 000 år siden",
           "For omtrent 10 000 år siden",
-          "For 400 millioner år siden"
+          "For omtrent 100 000 år siden"
         ],
         "correct": 2,
         "explain": "Isen trakk seg tilbake for rundt 10 000 år siden.",
@@ -350,9 +350,9 @@
         "type": "flervalg",
         "text": "Hvilken energikilde utnytter Island på grunn av vulkansk aktivitet?",
         "options": [
-          "Kullkraft",
+          "Vannkraft",
           "Geotermisk energi",
-          "Kjernekraft",
+          "Kullkraft",
           "Vindkraft"
         ],
         "correct": 1,
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

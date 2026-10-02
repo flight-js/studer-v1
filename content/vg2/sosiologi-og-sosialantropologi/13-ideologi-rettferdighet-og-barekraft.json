@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilken ideologi legger mest vekt på individets frihet og et fritt marked?",
       "options": [
-        "Sosialisme",
+        "Sosialdemokrati",
         "Liberalisme",
-        "Konservatisme",
-        "Grønn ideologi"
+        "Kommunisme",
+        "Nasjonalisme"
       ],
       "correct": 1,
       "explain": "Med begrenset stat."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva er uvitenhetens slør hos Rawls?",
       "options": [
-        "Et tankeeksperiment der vi ikke vet vår egen posisjon i samfunnet",
-        "En type skatt",
-        "En religiøs skikk",
-        "En lov"
+        "Et tankeeksperiment der man ikke kjenner sin egen plass i samfunnet",
+        "En regel for å fordele skatter etter inntekt og formue",
+        "En religiøs praksis der man skjuler sin sosiale bakgrunn",
+        "En lov som sikrer lik behandling uavhengig av samfunnsposisjon"
       ],
       "correct": 0,
       "explain": "Vi velger regler uten å vite om vi blir rik eller fattig."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva sier forskjellsprinsippet?",
       "options": [
-        "Alle skal ha nøyaktig like mye",
-        "Ulikhet er alltid bra",
-        "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode",
-        "Staten skal ikke fordele"
+        "Ulikhet godtas når den belønner dem som yter størst innsats",
+        "Ulikhet godtas når den øker samfunnets samlede rikdom",
+        "Ulikhet godtas bare når den bedrer situasjonen til de dårligst stilte",
+        "Ulikhet fjernes ved at alle får samme inntekt"
       ],
       "correct": 2,
       "explain": "Rawls' prinsipp."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hvorfor kan Nozick mene at omfordeling gjennom skatt er urettferdig?",
       "options": [
-        "Fordi skatt er for lav",
-        "Fordi alle er like",
-        "Fordi staten er for liten",
-        "Fordi det tar det folk har ervervet på rettmessig vis"
+        "Fordi skatten gjør at alle får samme inntekt uavhengig av arbeid",
+        "Fordi personer med lav inntekt betaler de største skattebeløpene",
+        "Fordi skattesatsene ikke tar hensyn til hvor mange timer folk arbeider",
+        "Fordi det tar fra folk det de har skaffet seg på rettmessig vis"
       ],
       "correct": 3,
       "explain": "Fokus på frivillige, rettmessige handlinger."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hva er behovsprinsippet?",
       "options": [
-        "De som trenger mest, får mest",
-        "Alle får likt",
-        "De som yter mest, får mest",
-        "De eldste får mest"
+        "De som har størst behov, får mest hjelp",
+        "De som bidrar mest til fellesskapet, får mest tilbake",
+        "Alle får samme andel uavhengig av hvor stort behovet er",
+        "De som har betalt mest skatt, får mest hjelp"
       ],
       "correct": 0,
       "explain": "Som i helsevesenet."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er den sosiale helsegradienten?",
       "options": [
-        "At alle har lik helse",
-        "At høyere utdanning og inntekt gir bedre helse i gjennomsnitt",
-        "At rike blir syke oftere",
-        "At helse ikke har med samfunnet å gjøre"
+        "At personer med høyere utdanning og inntekt i gjennomsnitt har dårligere helse",
+        "At personer med høyere utdanning og inntekt i gjennomsnitt har bedre helse",
+        "At personer med lav inntekt i gjennomsnitt har samme helse som personer med høy inntekt",
+        "At helseforskjeller mellom grupper først og fremst skyldes biologisk arv"
       ],
       "correct": 1,
       "explain": "Ulikhet påvirker helse."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva legger konservatismen vekt på?",
       "options": [
-        "Revolusjon",
-        "Et helt fritt marked uten tradisjoner",
-        "Tradisjon, stabilitet og gradvis endring",
-        "Avskaffelse av familien"
+        "Likhet, kollektivt eierskap og økonomisk omfordeling",
+        "Individuell frihet, konkurranse og minst mulig statlig styring",
+        "Tradisjon, stabilitet og gradvise samfunnsendringer",
+        "Naturvern, økologiske grenser og redusert ressursbruk"
       ],
       "correct": 2,
       "explain": "Institusjoner som familie og lokalsamfunn."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva betyr rettferdig omstilling i klimapolitikken?",
       "options": [
-        "At klimatiltak droppes",
-        "At rike land slipper å gjøre noe",
-        "At alle betaler likt uansett inntekt",
+        "At klimakutt fordeles likt mellom husholdninger uavhengig av betalingsevne",
+        "At arbeidstakere i utslippsnæringer skjermes fra kostnadene ved omstilling",
+        "At klimakutt gjennomføres raskt uten å vurdere sosiale følger",
         "At byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvilken ideologi legger vekt på naturens tålegrenser og framtidige generasjoner?",
       "options": [
         "Grønn ideologi",
-        "Liberalisme",
-        "Konservatisme",
-        "Sosialisme alene"
+        "Sosialdemokrati",
+        "Nasjonalisme",
+        "Fascisme"
       ],
       "correct": 0,
       "explain": "Også kalt økologisme."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva hevdet Wilkinson og Pickett?",
       "options": [
-        "At ulikhet ikke har betydning",
-        "At land med mindre ulikhet har færre sosiale problemer",
-        "At rike land alltid er lykkeligst",
-        "At skatt bør avskaffes"
+        "At land med mindre økonomisk ulikhet har flere sosiale problemer",
+        "At land med mindre økonomisk ulikhet har færre sosiale problemer",
+        "At økonomisk vekst reduserer sosiale problemer, mens ulikhet har liten betydning",
+        "At land med størst økonomisk ulikhet har færrest sosiale problemer"
       ],
       "correct": 1,
       "explain": "Ulikhet påvirker hele samfunnet.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilket prinsipp brukes når lønn fastsettes etter innsats?",
         "options": [
-          "Behovsprinsippet",
+          "Universalismeprinsippet",
           "Fortjenesteprinsippet",
-          "Likhetsprinsippet",
-          "Forskjellsprinsippet"
+          "Rettighetsprinsippet",
+          "Gjensidighetsprinsippet"
         ],
         "correct": 1,
         "explain": "De som yter mest, får mest."
@@ -332,9 +332,9 @@
         "text": "Når utga John Rawls sin rettferdighetsteori?",
         "options": [
           "1971",
-          "1848",
-          "1917",
-          "2001"
+          "1958",
+          "1968",
+          "1993"
         ],
         "correct": 0,
         "explain": "«A Theory of Justice».",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva hører til sosial bærekraft?",
         "options": [
-          "Bare lave utslipp",
-          "Bare økonomisk vekst",
+          "Naturvern, utslippskutt og fornybar energi",
+          "Produktivitet, lønnsomhet og økt verdiskaping",
           "Rettferdig fordeling, inkludering og tillit",
-          "Bare teknologisk utvikling"
+          "Digitalisering, innovasjon og teknologisk modernisering"
         ],
         "correct": 2,
         "explain": "En av tre bærekraftsdimensjoner."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -85,9 +85,9 @@
       "text": "Which word has a silent letter?",
       "options": [
         "knife",
-        "kind",
-        "keep",
-        "kite"
+        "planet",
+        "basket",
+        "lemon"
       ],
       "correct": 0,
       "explain": "The k in “knife” is silent."
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "How do you make the th-sound in “think”?",
       "options": [
-        "Like a t",
+        "With the tongue tip behind the teeth",
         "With the tongue between the teeth",
-        "With rounded lips",
-        "Like an f"
+        "With the lower lip against the teeth",
+        "With rounded lips and a closed mouth"
       ],
       "correct": 1,
       "explain": "The tongue tip goes between the teeth. Saying “tink” is a common mistake."
@@ -109,9 +109,9 @@
       "text": "Which pair is a minimal pair for practising v and w?",
       "options": [
         "vine – wine",
-        "very – vary",
-        "west – east",
-        "van – man"
+        "fan – fine",
+        "vest – best",
+        "wet – yet"
       ],
       "correct": 0,
       "explain": "“Vine” and “wine” differ only in the first sound, v or w.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "What usually happens with intonation in a yes/no question like “Are you coming?”",
       "options": [
-        "It goes down",
-        "It stays flat",
+        "It goes down at the end",
+        "It stays level to the end",
         "It goes up at the end",
-        "It stops"
+        "It goes up in the middle"
       ],
       "correct": 2,
       "explain": "Yes/no questions often have rising intonation at the end."
@@ -157,9 +157,9 @@
       "id": "q07",
       "text": "What is most important in pronunciation?",
       "options": [
-        "Sounding exactly like the King",
-        "Speaking as fast as possible",
-        "Using only American accent",
+        "Sounding like a native speaker",
+        "Speaking with a British accent",
+        "Using a regional English accent",
         "Being easy to understand"
       ],
       "correct": 3,
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "What sound should the s in “dogs” have?",
       "options": [
-        "A sharp s",
+        "A sharp s-sound",
         "A buzzing z-sound",
-        "A sh-sound",
-        "It is silent"
+        "A soft sh-sound",
+        "A short iz-sound"
       ],
       "correct": 1,
       "explain": "After voiced sounds, the plural -s is pronounced like z: dogz."
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "What is shadowing?",
       "options": [
-        "Reading in the dark",
-        "Writing words many times",
-        "Repeating what a speaker says right after them",
-        "Translating to Norwegian"
+        "Reading a speaker’s words before they say them",
+        "Translating a speaker’s words into Norwegian",
+        "Repeating a speaker’s words just after them",
+        "Writing down a speaker’s words while they talk"
       ],
       "correct": 2,
       "explain": "Shadowing trains rhythm, stress and intonation by copying a speaker closely.",
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Which word starts with a voiced th-sound?",
         "options": [
-          "think",
-          "three",
+          "thick",
+          "thumb",
           "this",
-          "thank"
+          "thirty"
         ],
         "correct": 2,
         "explain": "“This” has the voiced th. The others have the voiceless th."
@@ -345,9 +345,9 @@
         "text": "In which word is the l silent?",
         "options": [
           "walk",
-          "lamp",
-          "late",
-          "silk"
+          "milk",
+          "cloud",
+          "belt"
         ],
         "correct": 0,
         "explain": "The l in “walk” is not pronounced."
@@ -357,10 +357,10 @@
         "type": "flervalg",
         "text": "How do you make the w-sound?",
         "options": [
-          "With the teeth on the lip",
-          "With rounded lips",
-          "With the tongue between the teeth",
-          "Through the nose"
+          "With the lower lip against your teeth",
+          "With both lips rounded as you speak",
+          "With the tongue tip behind your teeth",
+          "With air flowing through your nose"
         ],
         "correct": 1,
         "explain": "The w is made with rounded lips, like a short “u”."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

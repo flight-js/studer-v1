@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "What is a bystander online?",
       "options": [
-        "Someone who creates content",
-        "An influencer",
-        "A moderator",
+        "Someone who posts videos and other content online",
+        "Someone who guides discussions and removes harmful posts",
+        "Someone who is targeted by bullying but does not report it",
         "Someone who sees something happen, like bullying, without acting"
       ],
       "correct": 3,
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Why can edited images affect self-esteem?",
       "options": [
-        "Because comparing yourself with unrealistic ideals can make you feel you are not good enough",
-        "Because they are always ugly",
-        "Because they are illegal",
-        "Because they are too small"
+        "Comparing yourself with unrealistic ideals can make you feel inadequate",
+        "Edited images show what most people naturally look like",
+        "Editing makes every image easier to understand",
+        "Comparing images tells you how popular a person is"
       ],
       "correct": 0,
       "explain": "Edited pictures show a reality that does not exist."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "What must sponsored content be?",
       "options": [
-        "Funny",
+        "Clearly marked as personal opinion",
         "Clearly marked as advertising",
-        "Written in English",
-        "Free"
+        "Clearly written in simple language",
+        "Clearly linked to the creator's profile"
       ],
       "correct": 1,
       "explain": "Hidden advertising misleads the audience."
@@ -124,9 +124,9 @@
       "id": "q05",
       "text": "What decides what appears in your feed?",
       "options": [
-        "Your teacher",
-        "The government",
-        "Chance only",
+        "Algorithms based on what your friends have posted",
+        "A schedule set by the people who made the app",
+        "A random selection of posts from popular accounts",
         "Algorithms based on what you have clicked on"
       ],
       "correct": 3,
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "What should you do before posting a video of a friend?",
       "options": [
-        "Ask for their consent",
-        "Add music",
-        "Tag strangers",
-        "Nothing"
+        "Ask your friend for permission first",
+        "Ask your friend to add a caption",
+        "Check whether the video is in focus",
+        "Tell your friend after the video is online"
       ],
       "correct": 0,
       "explain": "Everyone has the right to decide over pictures of themselves."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "What is an influencer?",
       "options": [
-        "A news journalist",
-        "A politician",
+        "Someone who reports on current events for a news organisation",
+        "Someone who makes laws and represents voters in government",
         "Someone who earns money by promoting products and lifestyles online",
-        "A computer program"
+        "Someone who develops software for social media platforms"
       ],
       "correct": 2,
       "explain": "Influencers can have large audiences, especially among young people."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "What is a filter bubble?",
       "options": [
-        "A soap bubble",
-        "When you mostly see content that matches what you already like and think",
-        "A photo filter",
-        "A privacy setting"
+        "Seeing mostly content chosen by people you follow",
+        "Seeing mostly content that matches your existing interests and views",
+        "Seeing mostly images changed with a photo effect",
+        "Seeing mostly content hidden by a privacy setting"
       ],
       "correct": 1,
       "explain": "Filter bubbles can limit the perspectives you meet."
@@ -172,9 +172,9 @@
       "id": "q09",
       "text": "Which question helps you reflect on your own posts?",
       "options": [
-        "How many likes can I get?",
-        "Which filter is best?",
-        "Should I post more often?",
+        "Would this post get more attention than my other posts?",
+        "Would this picture fit the style of my profile?",
+        "Would I get more followers if I shared this today?",
         "Would I be comfortable if a future employer saw this?"
       ],
       "correct": 3,
@@ -185,9 +185,9 @@
       "text": "How can you make your feed healthier?",
       "options": [
         "Follow different accounts, mute some and take breaks",
-        "Scroll even more",
-        "Follow only influencers",
-        "Turn off all privacy settings"
+        "Follow similar accounts, keep alerts on and skip breaks",
+        "Follow more accounts, leave unwanted posts unmuted and scroll longer",
+        "Follow familiar accounts, keep notifications on and avoid breaks"
       ],
       "correct": 0,
       "explain": "You can influence what the algorithm shows you."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "What is cyberbullying?",
         "options": [
-          "A computer virus",
-          "Bullying through digital channels",
-          "A video game",
-          "A type of filter"
+          "Harassment through face-to-face conversations",
+          "Bullying carried out through digital channels",
+          "A technical problem affecting online messages",
+          "A disagreement between gamers during a match"
         ],
         "correct": 1,
         "explain": "Cyberbullying can follow people everywhere through their phones."
@@ -336,8 +336,8 @@
         "type": "flervalg",
         "text": "Which role are you in when you post your own videos?",
         "options": [
-          "Consumer",
-          "Bystander",
+          "Viewer",
+          "Follower",
           "Creator",
           "Moderator"
         ],
@@ -350,9 +350,9 @@
         "text": "How can stereotypes online affect real life?",
         "options": [
           "They can shape how people see groups in real life",
-          "They have no effect",
-          "They only affect games",
-          "They make everyone equal"
+          "They have little connection to people's views of real groups",
+          "They can influence views of online characters rather than real groups",
+          "They can teach people facts about every group in society"
         ],
         "correct": 0,
         "explain": "Repeated images influence our attitudes."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

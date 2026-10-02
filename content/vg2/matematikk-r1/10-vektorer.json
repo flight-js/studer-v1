@@ -78,7 +78,7 @@
         "[5, 8]",
         "[3, 4]",
         "[−3, −4]",
-        "[4, 3]"
+        "[3, −4]"
       ],
       "correct": 1,
       "explain": "Sluttpunkt minus startpunkt."
@@ -88,9 +88,9 @@
       "text": "Hva er lengden av [3, 4]?",
       "options": [
         "5",
+        "4",
         "7",
-        "25",
-        "12"
+        "25"
       ],
       "correct": 0,
       "explain": "√(9 + 16)."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er [3, 4] · [4, −3]?",
       "options": [
-        "[12, −12]",
-        "25",
+        "12",
+        "−12",
         "0",
-        "24"
+        "25"
       ],
       "correct": 2,
       "explain": "12 − 12 = 0 – vektorene er vinkelrette."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Når står to vektorer (ulik nullvektoren) vinkelrett på hverandre?",
       "options": [
-        "Når de er like lange",
-        "Når summen er null",
-        "Når de er parallelle",
+        "Når lengdene er like",
+        "Når differansen mellom vektorene er null",
+        "Når skalarproduktet er positivt",
         "Når skalarproduktet er null"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Er [2, 6] og [1, 3] parallelle?",
       "options": [
-        "Ja, fordi [2, 6] = 2 · [1, 3]",
-        "Nei, de har ulik lengde",
-        "Nei, skalarproduktet er ikke null",
-        "Bare hvis de starter i samme punkt"
+        "Ja, fordi den ene vektoren er dobbelt så lang som den andre",
+        "Nei, fordi vektorene har ulik lengde",
+        "Nei, fordi skalarproduktet er positivt",
+        "Nei, fordi koordinatene ikke er like"
       ],
       "correct": 0,
       "explain": "Den ene er et tall ganger den andre."
@@ -161,7 +161,7 @@
       "options": [
         "En vektor",
         "En matrise",
-        "En vinkel alltid",
+        "En vinkel",
         "Et tall"
       ],
       "correct": 3,
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva skjer med en vektor som multipliseres med −2?",
       "options": [
-        "Den blir halvparten så lang",
+        "Den blir dobbelt så lang og beholder retningen",
         "Den blir dobbelt så lang og snur retning",
-        "Den forsvinner",
-        "Den dreies 90°"
+        "Den blir halvparten så lang og snur retning",
+        "Den blir dobbelt så lang og dreies 90 grader"
       ],
       "correct": 1,
       "explain": "Negativt tall snur retningen."
@@ -307,9 +307,9 @@
         "type": "flervalg",
         "text": "Hva er midtpunktet mellom A(1, 2) og B(4, 6)?",
         "options": [
-          "(3, 4)",
+          "(3; 4)",
           "(2,5; 4)",
-          "(5, 8)",
+          "(5; 8)",
           "(1,5; 2)"
         ],
         "correct": 1,
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

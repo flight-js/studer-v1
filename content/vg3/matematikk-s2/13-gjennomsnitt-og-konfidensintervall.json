@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er standardfeilen når σ = 6 og n = 36?",
       "options": [
-        "6",
-        "1",
         "0,17",
-        "36"
+        "1",
+        "6",
+        "0,33"
       ],
       "correct": 1,
       "explain": "6/√36."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er et 95 % konfidensintervall for μ?",
       "options": [
-        "x̄ ± σ",
-        "μ ± 1,96",
+        "x̄ ± σ/√n",
+        "x̄ ± 1,96 · σ/n",
         "x̄ ± 1,96 · σ/√n",
-        "x̄ ± 2,576 · σ"
+        "x̄ ± 2,576 · σ/√n"
       ],
       "correct": 2,
       "explain": "Bruker standardfeilen."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er feilmarginen når 30 % av 1000 svarer ja?",
       "options": [
-        "30 prosentpoeng",
-        "1 prosentpoeng",
-        "10 prosentpoeng",
+        "Omtrent 3,4 prosentpoeng",
+        "Omtrent 9,0 prosentpoeng",
+        "Omtrent 1,0 prosentpoeng",
         "Omtrent 2,8 prosentpoeng"
       ],
       "correct": 3,
@@ -128,7 +128,7 @@
         "Fire ganger så stort",
         "Dobbelt så stort",
         "Halvparten så stort",
-        "Ti ganger så stort"
+        "Åtte ganger så stort"
       ],
       "correct": 0,
       "explain": "Feilmarginen avtar med √n."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva brukes når σ er ukjent og utvalget er lite?",
       "options": [
-        "Poissonfordelingen",
+        "z-fordelingen",
         "t-fordelingen",
-        "Uniform fordeling",
-        "Ingen test er mulig"
+        "normalfordelingen",
+        "binomisk fordeling"
       ],
       "correct": 1,
       "explain": "Med utvalgets standardavvik s."
@@ -150,9 +150,9 @@
       "text": "Hva skjer med intervallet når konfidensnivået økes fra 95 % til 99 %?",
       "options": [
         "Det blir smalere",
-        "Det blir uendret",
+        "Det beholder samme bredde",
         "Det blir bredere",
-        "Det forsvinner"
+        "Det flyttes uten å endre bredden"
       ],
       "correct": 2,
       "explain": "2,576 i stedet for 1,96."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?",
       "options": [
-        "Når μ₀ ligger midt i intervallet",
-        "Når intervallet er bredt",
-        "Når x̄ = μ₀",
+        "Når μ₀ ligger innenfor 95 % konfidensintervallet",
+        "Når testobservatoren ligger mellom −1,96 og 1,96",
+        "Når p-verdien er større enn 0,05",
         "Når μ₀ ligger utenfor 95 % konfidensintervallet"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvordan tolkes et 95 % konfidensintervall?",
       "options": [
         "Metoden gir intervaller som inneholder den sanne verdien i 95 % av tilfellene",
-        "95 % av dataene ligger i intervallet",
-        "μ endres i 95 % av tilfellene",
-        "Det er 95 % sikkert at x̄ er riktig"
+        "Metoden gir intervaller som inneholder 95 % av observasjonene i utvalget",
+        "Metoden gir intervaller der den sanne verdien ligger med 95 % sannsynlighet",
+        "Metoden gir intervaller som dekker 95 % av mulige utvalgsgjennomsnitt"
       ],
       "correct": 0,
       "explain": "Det er metoden som treffer."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva tar feilmarginen i en meningsmåling ikke hensyn til?",
       "options": [
-        "Tilfeldig variasjon",
-        "At noen lar være å svare eller svarer uærlig",
-        "Utvalgets størrelse",
-        "Andelen som svarer ja"
+        "Tilfeldige variasjoner mellom utvalg",
+        "Manglende eller uærlige svar",
+        "Utvalgets størrelse i målingen",
+        "Andelen ja-svar i utvalget"
       ],
       "correct": 1,
       "explain": "Bare tilfeldig variasjon."
@@ -303,10 +303,10 @@
         "type": "flervalg",
         "text": "Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?",
         "options": [
-          "[496,5, 498,5]",
+          "Omtrent [496,5, 498,5]",
           "Omtrent [495,5, 499,5]",
-          "[490, 505]",
-          "[497,5, 500]"
+          "Omtrent [496, 499]",
+          "Omtrent [495, 500]"
         ],
         "correct": 1,
         "explain": "497,5 ± 1,96."
@@ -318,8 +318,8 @@
         "options": [
           "Omtrent 0,012",
           "Omtrent 0,006",
-          "Omtrent 0,05",
-          "Omtrent 0,5"
+          "Omtrent 0,024",
+          "Omtrent 0,05"
         ],
         "correct": 0,
         "explain": "2 · 0,0062."
@@ -332,7 +332,7 @@
           "1,645",
           "1,96",
           "2,576",
-          "3"
+          "2,326"
         ],
         "correct": 2,
         "explain": "Bredere enn 95 %."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

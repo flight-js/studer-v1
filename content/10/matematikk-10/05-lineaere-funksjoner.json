@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvilken sammenheng er proporsjonal?",
       "options": [
-        "Epler til 30 kr/kg",
-        "Taxi med 60 kr i startgebyr",
-        "Abonnement med fast månedspris",
-        "Vann som renner ut av et fullt basseng"
+        "Epler som koster 30 kroner per kilo",
+        "Taxi med fast startgebyr og kilometerpris",
+        "Mobilabonnement med en fast månedspris og tillegg",
+        "Basseng med vann fra før som fylles jevnt"
       ],
       "correct": 0,
       "explain": "Eplepris = 30 · vekt. Linjen går gjennom origo, og dobbel vekt gir dobbel pris."
@@ -172,7 +172,7 @@
       "text": "Hvilke to linjer er parallelle?",
       "options": [
         "y = 2x + 1 og y = 2x − 5",
-        "y = 2x og y = −2x",
+        "y = 2x + 1 og y = −2x − 5",
         "y = x + 3 og y = 3x + 1",
         "y = 4 og y = 4x"
       ],
@@ -310,8 +310,8 @@
         "type": "flervalg",
         "text": "Hva er enheten til stigningstallet når y er kroner og x er liter?",
         "options": [
-          "Kroner",
-          "Liter",
+          "Kroner per minutt",
+          "Liter per minutt",
           "Liter per krone",
           "Kroner per liter"
         ],
@@ -410,6 +410,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,22 +76,22 @@
       "id": "q01",
       "text": "Hvilken er en abiotisk faktor?",
       "options": [
-        "Et tre",
-        "En elg",
+        "Lav",
+        "Bakterie",
         "Temperatur",
-        "En sopp"
+        "Gress"
       ],
       "correct": 2,
-      "explain": "Temperatur er ikke-levende. Tre, elg og sopp er biotiske faktorer."
+      "explain": "Temperatur er ikke-levende. Levende organismer som planter og dyr er biotiske faktorer."
     },
     {
       "id": "q02",
       "text": "Hva er en produsent?",
       "options": [
         "En organisme som lager egen næring ved fotosyntese",
-        "Et rovdyr",
-        "En nedbryter",
-        "En planteeter"
+        "En organisme som spiser planter for å få energi",
+        "En organisme som spiser dyr for å få energi",
+        "En organisme som bryter ned dødt materiale for næring"
       ],
       "correct": 0,
       "explain": "Planter og alger er produsenter og står nederst i næringskjeden."
@@ -102,7 +102,7 @@
       "options": [
         "Produsent",
         "Nedbryter",
-        "Rovdyr på toppen",
+        "Sekundærkonsument",
         "Primærkonsument"
       ],
       "correct": 3,
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva gjør nedbryterne?",
       "options": [
-        "Lager oksygen",
+        "Lager oksygen ved hjelp av fotosyntese",
         "Bryter ned døde organismer til næringsstoffer",
-        "Spiser rovdyr",
-        "Fanger sollys"
+        "Spiser levende planter og smådyr",
+        "Fanger sollys for å lage sukker"
       ],
       "correct": 1,
       "explain": "Nedbryterne sørger for at næringsstoffene kommer tilbake i kretsløpet."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor finnes det færre rovdyr enn planteetere?",
       "options": [
-        "Fordi rovdyr lever lenger",
-        "Fordi det bare går videre omtrent en tidel av energien til hvert nytt trinn",
-        "Fordi rovdyr ikke trenger mat",
-        "Fordi planteetere er større"
+        "Fordi omtrent halvparten av energien går videre til neste trinn",
+        "Fordi omtrent en tidel av energien går videre til neste trinn",
+        "Fordi nesten all energien går videre til neste trinn",
+        "Fordi energimengden øker for hvert trinn i næringskjeden"
       ],
       "correct": 1,
       "explain": "Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er forskjellen på energi og materie i et økosystem?",
       "options": [
-        "Begge går i kretsløp",
-        "Begge går én vei",
+        "Energi går i kretsløp, materie går én vei",
+        "Energi og materie går begge i kretsløp",
         "Energi går én vei, materie går i kretsløp",
-        "Materie går én vei, energi går i kretsløp"
+        "Energi og materie går begge én vei"
       ],
       "correct": 2,
       "explain": "Energien kommer fra sola og tapes som varme, mens stoffene brukes om og om igjen."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er et næringsnett?",
       "options": [
-        "Mange sammenvevde næringskjeder",
-        "Et fiskegarn",
-        "En liste over planter",
-        "Et kretsløp for vann"
+        "Flere næringskjeder som henger sammen",
+        "En enkelt kjede av organismer",
+        "Et kretsløp av næringsstoffer",
+        "En gruppe arter med samme leveområde"
       ],
       "correct": 0,
       "explain": "De fleste dyr spiser og blir spist av flere arter, så kjedene henger sammen i et nett."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva kan skje hvis rovdyrene forsvinner fra et område?",
       "options": [
-        "Ingenting",
-        "Plantene forsvinner umiddelbart",
-        "Nedbryterne dør",
+        "Vegetasjonen kan forsvinne fordi rovdyrene ikke lenger spiser plantene",
+        "Nedbryterne kan dø ut fordi rovdyrene ikke lenger fanger dem",
+        "Byttedyrene kan bli færre fordi rovdyrene ikke lenger spiser dem",
         "Byttedyrene kan bli så mange at de spiser opp vegetasjonen"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er en populasjon?",
       "options": [
-        "Alle arter i en skog",
+        "Alle individer av ulike arter i et område",
         "Alle individer av samme art i et område",
-        "Alle abiotiske faktorer",
-        "Et helt kontinent"
+        "Alle abiotiske faktorer som finnes i et område",
+        "Alle levende organismer og miljøet i et område"
       ],
       "correct": 1,
       "explain": "For eksempel alle elgene i en bestemt skog."
@@ -185,9 +185,9 @@
       "text": "Hvor kommer nesten all energi i et økosystem fra?",
       "options": [
         "Sola",
-        "Jorda",
-        "Vannet",
-        "Nedbryterne"
+        "Jordas indre varme",
+        "Månens tidevann",
+        "Kjemisk energi i bergarter"
       ],
       "correct": 0,
       "explain": "Produsentene fanger solenergi, og den går videre gjennom næringskjedene."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hvilken organisme er en produsent?",
         "options": [
-          "Rev",
+          "Rødrev",
           "Blåbærlyng",
-          "Hare",
-          "Sopp"
+          "Lemen",
+          "Steinsopp"
         ],
         "correct": 1,
         "explain": "Blåbærlyng er en plante som driver fotosyntese."
@@ -323,7 +323,7 @@
         "text": "Hva er et eksempel på en fremmed art i Norge?",
         "options": [
           "Elg",
-          "Rev",
+          "Rødrev",
           "Hagelupin",
           "Bjørk"
         ],
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,9 +77,9 @@
       "id": "q01",
       "text": "What is the inverted pyramid in news writing?",
       "options": [
-        "A type of headline",
-        "A picture layout",
-        "A way to end an article",
+        "Putting background information before key facts",
+        "Saving the key information for the ending",
+        "Organising details in order of publication",
         "Putting the most important information first"
       ],
       "correct": 3,
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Which of these is an imperative?",
       "options": [
-        "The shoes are new.",
-        "Buy now!",
+        "The product looks new.",
+        "Buy the product now!",
         "Do you like it?",
-        "It was amazing."
+        "It was really amazing."
       ],
       "correct": 1,
       "explain": "Imperatives tell the reader to do something."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "What is a slogan?",
       "options": [
-        "A long article",
-        "A news report",
+        "A short, memorable headline reporting a news event",
+        "A short, memorable introduction naming a podcast episode",
         "A short, memorable phrase used in advertising",
-        "A type of podcast"
+        "A short, memorable caption describing a photograph"
       ],
       "correct": 2,
       "explain": "Good slogans are easy to remember."
@@ -114,9 +114,9 @@
       "text": "Which is typical of language on social media?",
       "options": [
         "Hashtags, emojis and abbreviations",
-        "Long, formal sentences",
-        "Footnotes",
-        "No pictures"
+        "Footnotes, citations and formal references",
+        "Long paragraphs, formal phrases and full sentences",
+        "Chapter titles, page numbers and indexes"
       ],
       "correct": 0,
       "explain": "Social media language is short and informal."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "What is a rhetorical question?",
       "options": [
-        "A question in a quiz",
+        "A question asked in a quiz to test knowledge",
         "A question asked for effect, not to get an answer",
-        "A question to the teacher",
-        "A question in an interview"
+        "A question asked in an interview to get information",
+        "A question asked in a survey to collect opinions"
       ],
       "correct": 1,
       "explain": "“Who doesn't love summer?” is an example."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Which headline is typical of a tabloid newspaper?",
       "options": [
-        "Government publishes annual report",
-        "Interest rates unchanged",
-        "Minister attends meeting",
+        "Council publishes plan for new housing",
+        "Central bank keeps interest rates unchanged",
+        "Minister attends regional transport meeting",
         "SHOCK AS STAR'S SECRET REVEALED!"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "What are fillers?",
       "options": [
-        "Headlines",
-        "Hashtags",
+        "Words like buy, try and save in adverts",
+        "Words like breaking, report and source in news",
         "Words like um, like and you know in speech",
-        "Adjectives in adverts"
+        "Words like hashtag, share and follow online"
       ],
       "correct": 2,
       "explain": "Fillers make spoken language sound natural."
@@ -174,9 +174,9 @@
       "id": "q09",
       "text": "Which features are typical of formal writing?",
       "options": [
-        "Slang and emojis",
-        "Abbreviations like idk",
-        "Short posts for engagement",
+        "Short fragments, casual vocabulary and frequent slang",
+        "Abbreviations, emojis and informal expressions",
+        "Long sentences, vague vocabulary and internet slang",
         "Complete sentences, precise vocabulary and no slang"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Why do adverts often use the word “you”?",
       "options": [
-        "Because it is required",
+        "To make the advert sound formal and objective",
         "To speak directly to the audience and involve them",
-        "To sound formal",
-        "To avoid saying the product's name"
+        "To avoid naming the product in the message",
+        "To meet a fixed rule for advertising language"
       ],
       "correct": 1,
       "explain": "Direct address makes the reader feel personally involved."
@@ -329,9 +329,9 @@
         "text": "What is the rule of three?",
         "options": [
           "Listing three things for rhythm and effect",
-          "Writing only three sentences",
-          "Using three pictures",
-          "Three rules for headlines"
+          "Writing three sentences in every paragraph",
+          "Adding three images to balance a page",
+          "Using three headlines for one article"
         ],
         "correct": 0,
         "explain": "“Faster, stronger, better” is an example."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Which word describes how formal or informal language is?",
         "options": [
-          "Headline",
+          "Genre",
           "Register",
-          "Slogan",
-          "Hashtag"
+          "Medium",
+          "Purpose"
         ],
         "correct": 1,
         "explain": "We choose register based on the situation."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "What is engagement on social media?",
         "options": [
-          "A promise to marry",
-          "Followers you buy",
+          "Posts, stories and reels",
+          "Captions, hashtags and bios",
           "Likes, comments and shares",
-          "A type of advert"
+          "Accounts, profiles and pages"
         ],
         "correct": 2,
         "explain": "Many posts are written to get as much engagement as possible."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

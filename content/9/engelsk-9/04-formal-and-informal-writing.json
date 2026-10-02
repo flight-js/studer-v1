@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Which greeting is best in an email to a company when you do not know the name?",
       "options": [
-        "Hey guys!",
+        "Dear Mr Brown,",
         "Dear Sir or Madam,",
-        "Hi there,",
-        "Yo,"
+        "Dear Ms Jones,",
+        "Hello there,"
       ],
       "correct": 1,
       "explain": "“Dear Sir or Madam” is the standard formal greeting when you do not know the receiver's name."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Which sentence is formal?",
       "options": [
-        "I'm gonna need the info asap.",
-        "Send me the stuff!",
+        "Can you send me the info ASAP?",
+        "I wanna get more information from you.",
         "Could you please send me more information?",
-        "Gimme the details."
+        "Send me the details when you can, okay?"
       ],
       "correct": 2,
       "explain": "Polite phrases like “Could you please…” and no slang or contractions make it formal."
@@ -105,8 +105,8 @@
       "options": [
         "Yours sincerely",
         "Yours faithfully",
-        "Love",
-        "See you"
+        "Lots of love",
+        "See you soon"
       ],
       "correct": 0,
       "explain": "When you know the name, the traditional British ending is “Yours sincerely”."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "What is a contraction?",
       "options": [
-        "A long word",
-        "A formal greeting",
-        "A type of letter",
-        "A short form like “don't” or “I'm”"
+        "A word made from its first letters",
+        "A phrase used at the start of a letter",
+        "A sentence used to end a formal letter",
+        "A shortened form like “don't” or “I'm”"
       ],
       "correct": 3,
       "explain": "Contractions combine two words. They are common in informal writing, but avoided in formal texts."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Which phrase is a good formal opening?",
       "options": [
-        "What's up?",
+        "I am writing because the product I bought is rubbish.",
         "I am writing to complain about the product I bought.",
-        "So, this thing broke.",
-        "Hey, just wanted to say…"
+        "I want to tell you that this thing is broken.",
+        "Hey, I bought this product and it is really bad."
       ],
       "correct": 1,
       "explain": "“I am writing to…” clearly and politely states the purpose of a formal letter."
@@ -140,9 +140,9 @@
       "text": "What is register?",
       "options": [
         "How formal or informal language is",
-        "A list of names",
-        "The length of a text",
-        "A spelling rule"
+        "How a text is organised into sections",
+        "The number of words in a text",
+        "The rules for spelling words correctly"
       ],
       "correct": 0,
       "explain": "Register is about adapting language to purpose, receiver and situation."
@@ -152,7 +152,7 @@
       "text": "Which of these is a mistake in a formal letter?",
       "options": [
         "Using full sentences",
-        "Using “I would like to”",
+        "Using polite request phrases",
         "Ending with “See ya!”",
         "Stating the purpose early"
       ],
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Which ending is common and polite in emails?",
       "options": [
-        "Bye bye",
+        "See you soon",
         "Kind regards",
-        "Later!",
-        "XOXO"
+        "Talk soon",
+        "Cheers, mate"
       ],
       "correct": 1,
       "explain": "“Kind regards” or “Best regards” are polite endings suitable for most emails."
@@ -175,9 +175,9 @@
       "id": "q09",
       "text": "Which text is usually most informal?",
       "options": [
-        "A job application",
-        "A letter of complaint",
-        "An email to the principal",
+        "A formal email to a company",
+        "A complaint letter to a shop",
+        "A job application to a company",
         "A text message to a friend"
       ],
       "correct": 3,
@@ -188,9 +188,9 @@
       "text": "Which sentence closes a formal letter well?",
       "options": [
         "I look forward to hearing from you.",
-        "Hope u reply soon!!",
-        "That's it.",
-        "Whatever."
+        "I hope you reply to me real soon, mate.",
+        "Please get back to me ASAP, mate.",
+        "Hope you can reply soon, okay?"
       ],
       "correct": 0,
       "explain": "“I look forward to hearing from you” is a standard, polite formal closing."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Which phrase fits best in a letter of complaint?",
         "options": [
-          "This is totally lame!",
+          "Give me a new product because this one is awful.",
           "I would be grateful if you could replace the product.",
-          "Fix it now or else!",
-          "Whatever, just refund it."
+          "I want you to replace it because it is rubbish.",
+          "Replace this product now, because it is really bad."
         ],
         "correct": 1,
         "explain": "A complaint should be polite but firm, and say clearly what you expect."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "What should you write to a teacher whose name is Anna Brown?",
         "options": [
-          "Hey Anna!",
-          "Yo teacher,",
+          "Dear Mr Brown,",
+          "Dear Sir or Madam,",
           "Dear Ms Brown,",
-          "Dear Sir or Madam,"
+          "Dear Ms Anna Brown,"
         ],
         "correct": 2,
         "explain": "When you know the name, use “Dear” + title + surname."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er etterspørsel?",
       "options": [
-        "En følelse av at noe mangler",
+        "Et ønske kunden mangler kjøpekraft til å gjennomføre",
         "Et ønske kunden har kjøpekraft til å gjennomføre",
-        "Et produkt",
-        "En reklame"
+        "En følelse kunden ønsker å få dekket gjennom kjøp",
+        "Et produkt kunden har kjøpekraft til å kjøpe"
       ],
       "correct": 1,
       "explain": "Behov og ønsker blir etterspørsel når kunden kan betale."
@@ -94,9 +94,9 @@
       "text": "Hva kjennetegner markedsorientering?",
       "options": [
         "Kundenes behov er utgangspunktet",
-        "Fokus på billig produksjon",
-        "Aggressivt salg",
-        "Bare kvalitet"
+        "Virksomhetens produkter er utgangspunktet",
+        "Produksjonens kostnader er utgangspunktet",
+        "Konkurrentenes priser er utgangspunktet"
       ],
       "correct": 0,
       "explain": "Virksomheten starter med kunden."
@@ -105,7 +105,7 @@
       "id": "q03",
       "text": "Hva står de fire P-ene for?",
       "options": [
-        "Plan, pris, personale og profitt",
+        "Produkt, pris, personale og profitt",
         "Produkt, profil, pris og presse",
         "Produkt, pris, plass og påvirkning",
         "Pris, prosess, plass og personale"
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hvilke P-er kommer i tillegg for tjenester?",
       "options": [
-        "Profitt, plan og presse",
-        "Pris og produkt",
-        "Promotering og plassering",
+        "Pris, produkt og påvirkning",
+        "Planlegging, plassering og profilering",
+        "Profitt, personale og påvirkning",
         "Personale, prosess og fysiske omgivelser"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hva er relasjonsmarkedsføring?",
       "options": [
         "Å bygge langsiktige forhold til kundene",
-        "Å selge mest mulig på kort tid",
-        "Å bare reklamere på TV",
-        "Å senke prisene"
+        "Å øke salget gjennom kortsiktige kampanjer",
+        "Å skaffe nye kunder gjennom bred reklame",
+        "Å tilby lavere priser for å vinne kunder"
       ],
       "correct": 0,
       "explain": "Det er ofte billigere å beholde en kunde enn å skaffe en ny.",
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hvilken oppgave er en klassisk lederoppgave?",
       "options": [
-        "Å produsere varene selv",
+        "Å planlegge, produsere, selge og reklamere",
         "Å planlegge, organisere, lede og kontrollere",
-        "Å selge i kassen",
-        "Å designe logoen"
+        "Å ansette, lønne, markedsføre og selge",
+        "Å undersøke, designe, produsere og levere"
       ],
       "correct": 1,
       "explain": "Fire klassiske lederoppgaver."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er det første steget i en markedsplan?",
       "options": [
-        "Kontroll",
-        "Budsjett",
+        "Målformulering",
+        "Strategivalg",
         "Situasjonsanalyse",
-        "Reklame"
+        "Tiltaksplan"
       ],
       "correct": 2,
       "explain": "Hvor står vi?"
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor bør du være kritisk til en virksomhets egne pressemeldinger?",
       "options": [
-        "De er alltid feil",
-        "De er for korte",
-        "De er ulovlige",
+        "De blir skrevet av journalister uten virksomhetens innspill",
+        "De bygger på undersøkelser utført av offentlige myndigheter",
+        "De blir faktasjekket av redaksjoner før de sendes ut",
         "Virksomheten har egeninteresse i å vise seg fram"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva kjennetegner samfunnsorientering?",
       "options": [
         "Hensyn også til samfunn og miljø på lang sikt",
-        "Fokus bare på profitt",
-        "Fokus på produksjon",
-        "Aggressivt salg"
+        "Fokus på virksomhetens lønnsomhet og salg på kort sikt",
+        "Fokus på effektiv produksjon og lave kostnader på lang sikt",
+        "Fokus på kundenes ønsker og tilfredshet i markedet"
       ],
       "correct": 0,
       "explain": "Den nyeste orienteringen."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er en modell i markedsføring?",
       "options": [
-        "En person i reklame",
+        "En framstilling som viser alle detaljer i en markedsanalyse",
         "En forenkling som hjelper oss å strukturere en analyse",
-        "Et produkt",
-        "En lov"
+        "En metode som undersøker kundenes behov gjennom spørreundersøkelser",
+        "En rapport som presenterer resultatene fra en markedsundersøkelse"
       ],
       "correct": 1,
       "explain": "Modeller har også svakheter."
@@ -330,9 +330,9 @@
         "text": "Hvilken kilde gir offisiell statistikk?",
         "options": [
           "SSB",
-          "En influencer",
-          "En reklameplakat",
-          "Et nettforum"
+          "Norstat",
+          "Ipsos",
+          "Kantar"
         ],
         "correct": 0,
         "explain": "Statistisk sentralbyrå.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er et behov?",
         "options": [
-          "Et bestemt merke",
-          "Et ønske med kjøpekraft",
+          "Et ønske kunden har økonomi til å dekke",
+          "Et ønske om å kjøpe et bestemt produkt",
           "En følelse av at noe mangler",
-          "En pris"
+          "En vurdering av hvor mye noe koster"
         ],
         "correct": 2,
         "explain": "For eksempel sult."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

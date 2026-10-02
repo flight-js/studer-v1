@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er formålet med en situasjonsanalyse?",
       "options": [
-        "Å lage reklame",
+        "Å fastsette virksomhetens lønnsnivå for den kommende perioden",
         "Å kartlegge hvor virksomheten står som grunnlag for beslutninger",
-        "Å ansette folk",
-        "Å sette lønn"
+        "Å utforme reklamekampanjer for virksomhetens viktigste produkter",
+        "Å bestemme hvilke ansatte som skal få nye arbeidsoppgaver"
       ],
       "correct": 1,
       "explain": "Første steg i markedsplanen."
@@ -88,9 +88,9 @@
       "text": "Hvilket forhold er internt?",
       "options": [
         "De ansattes kompetanse",
-        "Renten",
-        "Nye lover",
-        "Konkurrentenes priser"
+        "Utviklingen i styringsrenten",
+        "Endringer i offentlige lover",
+        "Konkurrentenes prisnivå"
       ],
       "correct": 0,
       "explain": "Virksomheten kan selv påvirke det."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva står den andre E-en i PESTEL for?",
       "options": [
-        "Etikk",
-        "Eksport",
+        "Etikk (ethical)",
+        "Eksport (export)",
         "Miljø (environmental)",
-        "Effektivitet"
+        "Effektivitet (efficiency)"
       ],
       "correct": 2,
       "explain": "Den første E-en står for økonomi (economic)."
@@ -126,7 +126,7 @@
         "Indirekte",
         "Direkte",
         "Intern",
-        "Ingen konkurrent"
+        "Potensiell"
       ],
       "correct": 0,
       "explain": "Dekker samme behov på en annen måte."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvordan regner du ut markedsandel?",
       "options": [
-        "Overskudd delt på omsetning",
+        "Eget overskudd delt på samlet salg i markedet",
         "Eget salg delt på totalt salg i markedet",
-        "Antall ansatte delt på kunder",
-        "Pris ganger mengde"
+        "Totalt salg i markedet delt på eget salg",
+        "Eget salg delt på virksomhetens samlede kostnader"
       ],
       "correct": 1,
       "explain": "Oppgis ofte i prosent."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvilket forhold hører til PESTEL-analysen?",
       "options": [
-        "De ansattes motivasjon",
-        "Butikkens beliggenhet",
+        "De ansattes motivasjon på arbeidsplassen",
+        "Virksomhetens beliggenhet i nærområdet",
         "Prisveksten i samfunnet",
-        "Egne produkter"
+        "Utvalget av egne produkter i butikken"
       ],
       "correct": 2,
       "explain": "Et økonomisk forhold i makroomgivelsene."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hvordan bør SWOT-analysen brukes?",
       "options": [
-        "Som pynt i en rapport",
-        "Bare til å liste opp svakheter",
-        "Bare én gang",
-        "Til å velge strategier, for eksempel bruke styrker til å utnytte muligheter"
+        "Til å beskrive virksomheten uten å bruke funnene videre",
+        "Til å velge tiltak ut fra konkurrentenes valg alene",
+        "Til å vurdere interne forhold uten å kartlegge omgivelsene",
+        "Til å velge strategier ut fra SWOT-funnene"
       ],
       "correct": 3,
       "explain": "Analysen må føre til beslutninger."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor bør en situasjonsanalyse oppdateres jevnlig?",
       "options": [
-        "Fordi loven krever det hver uke",
-        "Fordi markedet endrer seg",
-        "Fordi den alltid er feil",
-        "Fordi konkurrentene ber om det"
+        "Fordi myndighetene krever at analysen leveres hvert år",
+        "Fordi endringer i markedet gjør tidligere vurderinger utdaterte",
+        "Fordi situasjonsanalysen inngår som del av årsregnskapet",
+        "Fordi konkurrentene forventer å få analysen tilsendt"
       ],
       "correct": 1,
       "explain": "Nye muligheter og trusler oppstår."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvilket forhold er sosialt i PESTEL?",
         "options": [
-          "Renten",
-          "Nye avgifter",
+          "Rentenivået i samfunnet",
+          "Endringer i skatter og avgifter",
           "Befolkningsutvikling og trender",
-          "Digitalisering"
+          "Utvikling innen digital teknologi"
         ],
         "correct": 2,
         "explain": "Endringer i befolkning, verdier og livsstil."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvordan finansieres offentlig sektor hovedsakelig?",
       "options": [
-        "Gjennom salg",
+        "Med salg av offentlige eiendeler",
         "Med skatter og avgifter",
-        "Med lån fra private",
-        "Med gaver"
+        "Med lån fra private banker",
+        "Med betaling fra frivillige givere"
       ],
       "correct": 1,
       "explain": "Og inntekter fra oljefondet."
@@ -88,9 +88,9 @@
       "text": "Hvor jobber flest i Norge?",
       "options": [
         "I tjenesteytende næringer",
-        "I jordbruket",
-        "I fisket",
-        "I oljeutvinning"
+        "I primærnæringene",
+        "I industrien",
+        "I offentlig sektor"
       ],
       "correct": 0,
       "explain": "Tertiærnæringene."
@@ -102,19 +102,19 @@
         "Kommunen",
         "Staten",
         "Fylkeskommunen",
-        "Private"
+        "Utdanningsdirektoratet"
       ],
       "correct": 2,
-      "explain": "Kommunen har grunnskolen."
+      "explain": "Fylkeskommunen har ansvar for videregående skole, mens kommunen har ansvar for grunnskolen."
     },
     {
       "id": "q04",
       "text": "Hva sier handlingsregelen?",
       "options": [
-        "At staten skal bruke hele oljefondet",
-        "At oljefondet skal investeres i Norge",
-        "At staten aldri kan bruke av fondet",
-        "At staten over tid skal bruke om lag den forventede realavkastningen"
+        "At staten hvert år skal bruke hele avkastningen fra fondet",
+        "At staten over tid skal bruke hele verdien av fondet",
+        "At staten skal investere fondets avkastning i norske bedrifter",
+        "At staten over tid skal bruke forventet realavkastning fra fondet"
       ],
       "correct": 3,
       "explain": "Rundt 3 prosent av verdien."
@@ -124,9 +124,9 @@
       "text": "Hva er eldrebølgen?",
       "options": [
         "At andelen eldre i befolkningen øker",
-        "At eldre jobber mer",
-        "At det fødes flere barn",
-        "At pensjonene blir lavere"
+        "At flere eldre står lenger i arbeid",
+        "At det fødes flere barn per kvinne i Norge",
+        "At pensjonsalderen øker for alle arbeidstakere"
       ],
       "correct": 0,
       "explain": "Gir høyere utgifter til pensjon og helse."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvorfor har arbeidskraften flyttet fra primærnæringene til tjenester?",
       "options": [
-        "Fordi det er forbudt å drive jordbruk",
+        "Fordi produktiviteten i jordbruk og industri har falt",
         "Fordi produktiviteten i jordbruk og industri har økt",
-        "Fordi tjenester ikke krever arbeid",
-        "Fordi primærnæringene er borte"
+        "Fordi etterspørselen etter tjenester har gått ned i Norge",
+        "Fordi flere ansatte trengs for å drive moderne jordbruk"
       ],
       "correct": 1,
       "explain": "Færre trengs for å produsere det samme."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er en mulighet i det grønne skiftet?",
       "options": [
-        "Mer kullkraft",
-        "Flere oljeplattformer",
+        "Kullkraft og oljeraffinering",
+        "Bensinbiler og oljeutvinning",
         "Havvind og batteriproduksjon",
-        "Mindre forskning"
+        "Gasskraft og kullutvinning"
       ],
       "correct": 2,
       "explain": "Nye næringer med lave utslipp.",
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er en utfordring ved lavere oljeinntekter på sikt?",
       "options": [
-        "For mange jobber",
-        "For lav rente",
-        "For mye eksport",
-        "Andre næringer må ta over"
+        "Staten må bruke mer av oljefondet hvert år",
+        "Arbeidskraften må flyttes tilbake til oljeutvinning",
+        "Staten må låne mer penger fra private banker",
+        "Andre næringer må overta inntekter og arbeidsplasser"
       ],
       "correct": 3,
       "explain": "Norge må omstille seg."
@@ -173,8 +173,8 @@
       "text": "Hvem har ansvaret for barnehage og eldreomsorg?",
       "options": [
         "Kommunen",
-        "Staten",
         "Fylkeskommunen",
+        "Staten",
         "NAV"
       ],
       "correct": 0,
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan kan digitalisering hjelpe offentlig sektor?",
       "options": [
-        "Ved å øke skattene",
+        "Ved å øke skatteinntektene",
         "Ved å øke produktiviteten",
-        "Ved å fjerne alle tjenester",
-        "Ved å stenge kommuner"
+        "Ved å øke saksbehandlingstiden",
+        "Ved å kreve fysisk oppmøte"
       ],
       "correct": 1,
       "explain": "Mer effektive løsninger."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hvilken oppgave har staten?",
         "options": [
-          "Grunnskole",
+          "Grunnskoler og barnehager",
           "Sykehus og politi",
-          "Barnehage",
-          "Fylkesveier"
+          "Videregående skoler og fylkesveier",
+          "Eldreomsorg og kommunale veier"
         ],
         "correct": 1,
         "explain": "Også forsvar og universiteter."
@@ -325,9 +325,9 @@
         "text": "Hvorfor skal bare en liten del av oljefondet brukes hvert år?",
         "options": [
           "For at pengene også skal komme framtidige generasjoner til gode",
-          "Fordi fondet er lite",
-          "Fordi loven forbyr all bruk",
-          "Fordi pengene tilhører utlandet"
+          "For at fondet skal dekke dagens offentlige utgifter uten skatter",
+          "For at staten skal betale private banklån med avkastningen",
+          "For at fondet skal investeres i norske bedrifter og banker"
         ],
         "correct": 0,
         "explain": "Handlingsregelen."
@@ -337,13 +337,13 @@
         "type": "flervalg",
         "text": "Hva er et argument for at private leverer offentlige tjenester?",
         "options": [
-          "Mer ulikhet",
-          "Mindre valgfrihet",
-          "Valgfrihet og effektivitet",
-          "Høyere skatter"
+          "Likere tilbud og sterkere offentlig styring",
+          "Større ulikhet og høyere kostnader",
+          "Større valgfrihet og mer effektiv drift",
+          "Mindre valgfrihet og svakere innsyn"
         ],
         "correct": 2,
-        "explain": "Motstandere er bekymret for ulikhet og profitt."
+        "explain": "Private leverandører kan gi brukerne flere alternativer og skape press for mer effektiv drift."
       }
     ],
     "skriv": [
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

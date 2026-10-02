@@ -68,8 +68,7 @@
     },
     {
       "term": "Omnikanal",
-      "def": "Sømløs kundeopplevelse på tvers av kanaler.",
-      "niva": "eksempel"
+      "def": "Sømløs kundeopplevelse på tvers av kanaler."
     },
     {
       "term": "Dekningsbidrag",
@@ -111,9 +110,9 @@
       "text": "Hva kjennetegner markedsorientering?",
       "options": [
         "Kundenes behov er utgangspunktet",
-        "Fokus på billig produksjon",
-        "Aggressivt salg",
-        "Bare kvalitet"
+        "Virksomhetens produkter er utgangspunktet",
+        "Produksjonens kostnader er utgangspunktet",
+        "Konkurrentenes priser er utgangspunktet"
       ],
       "correct": 0,
       "explain": "Virksomheten starter med kunden."
@@ -124,8 +123,8 @@
       "options": [
         "Informasjonssøk",
         "Behovserkjennelse",
-        "Kjøpsbeslutning",
-        "Etterkjøpsatferd"
+        "Alternativvurdering",
+        "Etterkjøpsvurdering"
       ],
       "correct": 1,
       "explain": "Kunden merker et behov."
@@ -135,9 +134,9 @@
       "text": "Hvilket mål er SMART?",
       "options": [
         "Selge 200 lunsjbokser i uka innen utgangen av året",
-        "Selge flere",
-        "Bli best",
-        "Få mange kunder"
+        "Selge flere lunsjbokser i uka innen utgangen av året",
+        "Selge 200 lunsjbokser i uka når etterspørselen øker",
+        "Selge 200 lunsjbokser til flest mulig kunder i uka"
       ],
       "correct": 0,
       "explain": "Spesifikt, målbart og tidsbestemt."
@@ -146,9 +145,9 @@
       "id": "q04",
       "text": "Hva er et representativt utvalg?",
       "options": [
-        "Bare venner",
-        "Bare de som vil svare",
-        "Alle i populasjonen",
+        "Et utvalg av frivillige deltakere",
+        "Et utvalg fra én bestemt aldersgruppe",
+        "Et utvalg av lett tilgjengelige kunder",
         "Et utvalg som ligner populasjonen"
       ],
       "correct": 3,
@@ -158,10 +157,10 @@
       "id": "q05",
       "text": "Hvordan bør SWOT-analysen brukes?",
       "options": [
-        "Som pynt i en rapport",
-        "Bare til å liste opp svakheter",
-        "Bare én gang",
-        "Til å velge strategier, for eksempel bruke styrker til å utnytte muligheter"
+        "Til å beskrive virksomheten uten å bruke funnene videre",
+        "Til å velge tiltak ut fra konkurrentenes valg alene",
+        "Til å vurdere interne forhold uten å kartlegge omgivelsene",
+        "Til å velge strategier ut fra SWOT-funnene"
       ],
       "correct": 3,
       "explain": "Analysen må føre til beslutninger."
@@ -170,10 +169,10 @@
       "id": "q06",
       "text": "Hva er en merkevare?",
       "options": [
-        "Bare en logo",
-        "Summen av inntrykk, følelser og forventninger kundene har",
-        "Bare et navn",
-        "En pris"
+        "Produktets navn, logo og visuelle kjennetegn",
+        "Kundenes samlede inntrykk, følelser og forventninger",
+        "Virksomhetens reklame, logo og visuelle uttrykk",
+        "Produktets pris, kvalitet og praktiske egenskaper"
       ],
       "correct": 1,
       "explain": "Bygges gjennom opplevelser og kommunikasjon."
@@ -182,23 +181,22 @@
       "id": "q07",
       "text": "Hva er omnikanal?",
       "options": [
-        "Sømløs kundeopplevelse på tvers av kanaler",
-        "Bare nettbutikk",
-        "Bare fysisk butikk",
-        "Salg via én kanal"
+        "En sømløs kundeopplevelse på tvers av nettbutikk og fysisk butikk",
+        "En kundeopplevelse der nettbutikk og fysisk butikk fungerer hver for seg",
+        "En kundeopplevelse gjennom nettbutikk uten en fysisk butikk",
+        "En kundeopplevelse der kunden handler i flere fysiske butikker"
       ],
       "correct": 0,
-      "explain": "Nett og butikk henger sammen.",
-      "niva": "eksempel"
+      "explain": "Nett og butikk henger sammen."
     },
     {
       "id": "q08",
       "text": "Hva er dekningsbidrag per enhet?",
       "options": [
-        "Pris minus faste kostnader",
-        "Faste kostnader delt på pris",
+        "Pris minus faste kostnader per enhet",
+        "Variable kostnader per enhet minus pris",
         "Pris minus variable kostnader per enhet",
-        "Omsetning minus skatt"
+        "Salgsinntekt per enhet minus faste kostnader"
       ],
       "correct": 2,
       "explain": "Skal dekke faste kostnader og gi overskudd."
@@ -208,9 +206,9 @@
       "text": "Hva står AIDA for?",
       "options": [
         "Oppmerksomhet, interesse, lyst og handling",
-        "Analyse, idé, design og annonse",
-        "Avsender, informasjon, dialog og avslutning",
-        "Appell, image, distribusjon og avgift"
+        "Analyse, interesse, design og handling",
+        "Oppmerksomhet, informasjon, distribusjon og aktivitet",
+        "Avsender, interesse, lyst og annonse"
       ],
       "correct": 0,
       "explain": "Veien mot kjøp."
@@ -219,22 +217,22 @@
       "id": "q10",
       "text": "Hva er dekning?",
       "options": [
-        "Hvor mye kampanjen koster",
-        "Hvor mange som kjøper",
-        "Hvor mange ganger hver ser budskapet",
-        "Andelen av målgruppen som ser budskapet minst én gang"
+        "Andelen i målgruppen som kjøper produktet etter kampanjen",
+        "Antallet ganger hver person i målgruppen ser budskapet",
+        "Andelen av budsjettet som brukes på kampanjen",
+        "Andelen i målgruppen som ser budskapet minst én gang"
       ],
       "correct": 3,
-      "explain": "Frekvens er antall ganger."
+      "explain": "Dekning teller personer som ser budskapet minst én gang. Frekvens teller hvor mange ganger de ser det."
     },
     {
       "id": "q11",
       "text": "Hva betyr det at markedsføringsmiksen er konsistent?",
       "options": [
-        "At den er billig",
+        "At konkurransemidlene sender motstridige signaler til kundene",
         "At konkurransemidlene henger sammen og passer posisjoneringen",
-        "At den aldri endres",
-        "At den bare bruker reklame"
+        "At pris og produkt ikke passer virksomhetens målgruppe",
+        "At reklamen ikke samsvarer med butikkens utforming"
       ],
       "correct": 1,
       "explain": "Kundene opplever summen."
@@ -244,9 +242,9 @@
       "text": "Hva er situasjonsbestemt ledelse?",
       "options": [
         "Å tilpasse stilen til den ansattes kompetanse og motivasjon",
-        "Å alltid bestemme alene",
-        "Å aldri styre",
-        "Å lede bare i kriser"
+        "Å tilpasse stilen til virksomhetens størrelse og økonomi",
+        "Å bruke samme lederstil uavhengig av ansattes behov",
+        "Å velge lederstil etter lederens personlige preferanser"
       ],
       "correct": 0,
       "explain": "En nyansatt trenger mer instruksjon.",
@@ -257,22 +255,21 @@
       "text": "Hva må en påvirker gjøre ved et betalt samarbeid?",
       "options": [
         "Merke innlegget tydelig som reklame helt i starten",
-        "Ingenting",
-        "Bare nevne det i kommentarfeltet",
-        "Skjule samarbeidet"
+        "Merke innlegget tydelig som reklame etter omtalen",
+        "Opplyse om samarbeidet i profilteksten før publisering",
+        "Nevne samarbeidet muntlig i en kommentar senere"
       ],
       "correct": 0,
-      "explain": "Skjult reklame er forbudt.",
-      "niva": "eksempel"
+      "explain": "Skjult reklame er forbudt."
     },
     {
       "id": "q14",
       "text": "Hva er grønnvasking?",
       "options": [
-        "Å vaske klær miljøvennlig",
-        "Å resirkulere",
+        "Å vaske klær med vaskemiddel som belaster miljøet mindre",
+        "Å resirkulere produkter for å redusere mengden avfall",
         "Å framstille noe som mer miljøvennlig enn det er",
-        "Å bruke grønne farger"
+        "Å bruke grønn emballasje for å gjøre varen synlig i butikk"
       ],
       "correct": 2,
       "explain": "Kan være ulovlig."
@@ -434,7 +431,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -464,10 +461,10 @@
         "type": "flervalg",
         "text": "Hvilket etisk spørsmål reiser kunnskap om forbrukeratferd?",
         "options": [
-          "Om varene er tunge",
-          "Om butikken er stor",
-          "Når påvirkning blir til manipulasjon",
-          "Om kunden har bil"
+          "Om emballasjen passer til produktets målgruppe",
+          "Om butikkens åpningstider passer kundenes handlevaner",
+          "Om påvirkning blir til manipulasjon",
+          "Om betalingsløsningen fungerer på mobiltelefoner"
         ],
         "correct": 2,
         "explain": "Og hvordan markedsføring påvirker overforbruk."
@@ -477,10 +474,10 @@
         "type": "flervalg",
         "text": "Hvilken metode passer best for å forstå hvorfor kunder velger bort et produkt?",
         "options": [
-          "Salgsstatistikk",
-          "Dybdeintervjuer",
-          "Nettstatistikk",
-          "Befolkningsstatistikk"
+          "Oversikt over registrert salg i butikk",
+          "Grundige intervjuer med enkeltkunder",
+          "Måling av besøk på bedriftens nettside",
+          "Statistikk over befolkningens alder og bosted"
         ],
         "correct": 1,
         "explain": "Kvalitative metoder gir forklaringer."
@@ -579,12 +576,87 @@
           "Forklarer at innholdet må tilpasses kanalens format.",
           "Forklarer konvertering som måling av andelen som handler."
         ]
+      },
+      {
+        "text": "En produsent av en ny ryggsekk opplever at salget først økte raskt, men nå har flatet ut samtidig som flere konkurrenter tilbyr lignende sekker. Hvilken fase i produktlivssyklusen tyder dette på, og nevn ett tiltak produsenten kan bruke for å holde på kundene.",
+        "fasit": "Dette tyder på modningsfasen, der salget flater ut og konkurransen er hard. Produsenten kan for eksempel forbedre sekken eller tilby et lojalitetsprogram.",
+        "kriterier": [
+          "Kjenner igjen modningsfasen ut fra at salget flater ut og konkurransen øker.",
+          "Foreslår et relevant tiltak, som produktforbedring eller lojalitetsprogram."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En liten produsent av honning selger varene sine direkte fra gården og ønsker å nå kunder i hele landet. Forklar én fordel og én ulempe ved å selge gjennom butikker eller grossister, og nevn én ting produsenten bør tenke på for å gjøre transporten mer bærekraftig.",
+        "fasit": "Butikker eller grossister kan gi tilgang til flere kunder og kompetanse om markedet, men mellomleddene tar en del av fortjenesten og gir produsenten mindre kontroll. Produsenten kan for eksempel samle leveranser eller velge kortere transportveier for å redusere utslipp.",
+        "kriterier": [
+          "Nevner en relevant fordel ved mellomledd, som større rekkevidde eller markedskompetanse.",
+          "Nevner en relevant ulempe, som lavere fortjeneste eller mindre kontroll.",
+          "Knytter et konkret transportvalg til lavere miljøbelastning."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En nettbutikk ser at mange besøkende klikker på en vare, men få fullfører kjøpet. Nettstatistikken viser hva kundene gjør, men ikke nødvendigvis hvorfor. Foreslå en kvalitativ undersøkelse som kan gi mer innsikt, og forklar hva den kan avdekke.",
+        "fasit": "Nettbutikken kan gjennomføre dybdeintervjuer med kunder som avbrøt kjøpet. Intervjuene kan avdekke om det for eksempel var pris, informasjon eller betalingsløsningen som gjorde at de ikke fullførte kjøpet.",
+        "kriterier": [
+          "Foreslår en relevant kvalitativ metode, som dybdeintervju eller fokusgruppe.",
+          "Forklarer at metoden kan gi innsikt i hvorfor kundene avbrøt kjøpet."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En påvirker får betalt for å reklamere for en energidrikk i innlegg rettet mot 12-åringer. I innlegget står det «få foreldrene dine til å kjøpe den», men det er ikke merket som reklame. Forklar to problemer ved markedsføringen ut fra reglene for reklame og vern av barn.",
+        "fasit": "Innlegget må merkes tydelig som reklame helt i starten, fordi påvirkeren får betalt. Markedsføring skal ikke oppfordre barn direkte til å kjøpe eller mase på foreldrene, og barn er særlig sårbare for påvirkning.",
+        "kriterier": [
+          "Forklarer at betalt påvirkerinnhold må merkes tydelig som reklame.",
+          "Forklarer at reklame ikke skal oppfordre barn direkte til å kjøpe eller mase på foreldrene."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En app tilbyr spanskkurs. Appen inneholder leksjoner og øvelser, og kundene får også hjelp fra kundestøtte. Beskriv kjerneproduktet, det faktiske produktet og det utvidede produktet i dette tilbudet.",
+        "fasit": "Kjerneproduktet er å lære spansk. Det faktiske produktet er appen med leksjoner og øvelser, mens kundestøtten er en del av det utvidede produktet.",
+        "kriterier": [
+          "Knytter kjerneproduktet til behovet for å lære spansk.",
+          "Knytter appen, leksjonene eller øvelsene til det faktiske produktet.",
+          "Knytter kundestøtten til det utvidede produktet."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et klesmerke skriver på nettsiden sin at en jakke er «helt miljøvennlig», men viser ikke til dokumentasjon. Forklar hvorfor kundene bør være kritiske til påstanden, og nevn hva merket bør gjøre for å gjøre miljøkommunikasjonen troverdig.",
+        "fasit": "Kundene bør være kritiske fordi merkets egen nettside har en egeninteresse i å framstille produktet positivt, og den vage påstanden ikke er dokumentert. Merket bør bruke konkrete, sanne miljøpåstander og dokumentere dem, gjerne med støtte fra pålitelige kilder eller miljømerker.",
+        "kriterier": [
+          "Forklarer at en vag eller udokumentert miljøpåstand kan være grønnvasking, eller at virksomheten har egeninteresse.",
+          "Nevner konkrete og dokumenterbare påstander eller troverdig dokumentasjon som tiltak."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et lite bakeri vurderer å tilby hjemlevering. Bakeriet har ansatte med god bakekompetanse, men begrenset økonomi. Samtidig bestiller flere kunder mat digitalt, og strømprisene øker. Skill mellom interne og eksterne forhold i situasjonen, og forklar hvordan ett av forholdene kan påvirke beslutningen.",
+        "fasit": "Bakekompetansen og den begrensede økonomien er interne forhold som bakeriet selv kan påvirke. Flere digitale bestillinger og økte strømpriser er eksterne forhold; den økte interessen for bestilling på nett kan gjøre hjemlevering mer attraktivt, mens høyere kostnader kan gjøre det vanskeligere å lønne seg.",
+        "kriterier": [
+          "Skiller riktig mellom minst ett internt forhold og minst ett eksternt forhold.",
+          "Forklarer hvordan et forhold kan påvirke beslutningen om hjemlevering."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En smoothiebar øker prisen litt og opplever at mange kunder slutter å kjøpe smoothie der. Kundene har flere lignende steder å velge mellom. Hva forteller dette om priselastisiteten, og hva bør smoothiebaren ta hensyn til når den vurderer prisen videre?",
+        "fasit": "Et stort fall i etterspørselen etter en liten prisøkning tyder på elastisk etterspørsel. Smoothiebaren bør ta hensyn til at kundene reagerer mye på prisendringer, blant annet fordi de har flere alternativer.",
+        "kriterier": [
+          "Identifiserer etterspørselen som elastisk.",
+          "Knytter prisfølsomheten til at kundene har alternativer, eller forklarer at en prisøkning kan redusere etterspørselen mye."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }
