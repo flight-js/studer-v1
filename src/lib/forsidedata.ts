@@ -29,10 +29,10 @@ export const EKSEMPEL = {
       "En protonmottaker",
       "En protongiver",
       "En elektrongiver",
-      "Et stoff som inneholder OH⁻"
+      "Et OH⁻-holdig stoff"
     ],
     "correct": 1,
-    "explain": "En Brønsted-syre gir fra seg et proton (H⁺) til en base. Basen er protonmottakeren."
+    "explain": "En Brønsted-syre gir fra seg et proton (H⁺) til en base."
   },
   "skriveoppgave": {
     "text": "Se på reaksjonen HCl + H₂O → H₃O⁺ + Cl⁻. Forklar hvorfor dette er en protolyse, og hvilken rolle HCl og H₂O har i reaksjonen.",

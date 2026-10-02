@@ -201,7 +201,7 @@ function Flashcard() {
       </div>
 
       <p aria-live="polite" className="mt-3 min-h-6 text-sm text-muted">
-        <span key={`${snudd}-${svar}-${trykk}`} className={svar ? "rise inline-block" : "inline-block"}>
+        <span key={`${snudd}-${svar}-${trykk}`} className={svar ? "rise-rask inline-block" : "inline-block"}>
           {svar ? SVARTEKST[svar] : snudd ? "Kunne du det?" : "Snu kortet først, og svar ærlig."}
         </span>
       </p>
@@ -248,7 +248,7 @@ function Quiz() {
       </div>
       <div aria-live="polite" className="min-h-0">
         {svart && (
-          <div className="mt-4 flex flex-col sm:flex-row sm:items-end gap-3 justify-between rise">
+          <div className="mt-4 flex flex-col sm:flex-row sm:items-end gap-3 justify-between rise-rask">
             <p className="text-[15px] leading-relaxed text-ink-soft max-w-[52ch]">
               <span className="font-semibold text-foreground">
                 {valgt === correct ? "Riktig. " : "Ikke helt. "}

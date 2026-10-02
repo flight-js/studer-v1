@@ -335,7 +335,7 @@ export function Pensumkart() {
             ref={kort}
             aria-hidden="true"
             className={`absolute left-0 top-0 w-[220px] rounded-2xl bg-background text-foreground p-4 shadow-[0_24px_60px_-20px_rgba(0,0,0,0.75)] transition-[opacity,visibility,scale] duration-500 ease-out-soft ${
-              steg === 4 ? "opacity-100 visible scale-100" : "opacity-0 invisible scale-95"
+              steg === 4 ? "opacity-100 visible scale-100" : "opacity-0 invisible scale-95 motion-reduce:scale-100"
             }`}
           >
             <div className="text-xs font-medium text-muted">
