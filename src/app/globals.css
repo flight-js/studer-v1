@@ -344,30 +344,22 @@ html:not(.har-okt):has([data-forside]),
 html:not(.har-okt):has([data-forside]) body {
   background: var(--natt);
 }
-/* Feltet bak klokka på iPhone (iOS 26 Safari). To ting må til samtidig:
-   1. Siden går helt opp under klokka (viewportFit cover i app/layout.tsx),
-      og menyene dekker det feltet med sin egen bakgrunn, med luft for
-      klokka og hakket.
-   2. Menyen selv har ikke backdrop-filter. Ellers klipper WebKit bort
-      bakgrunnen i feltet bak klokka, og innholdet som er rullet forbi
-      skinner gjennom. Uskarpheten ligger derfor i et lag inni menyen,
-      under klokkefeltet.
-   dekk-topp brukes på AppBar og øvingsmenyen. */
-.fs-meny,
-.dekk-topp {
-  padding-top: env(safe-area-inset-top);
-  padding-left: env(safe-area-inset-left);
-  padding-right: env(safe-area-inset-right);
-}
-.fs-meny::before,
-.dekk-topp::before {
-  content: "";
-  position: absolute;
-  inset: env(safe-area-inset-top) 0 0;
-  z-index: -1;
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-  pointer-events: none;
+/* Uskarpheten bak menyene ligger i et lag inni dem, og bare på store
+   skjermer der menyen er halvgjennomsiktig. backdrop-filter på selve menyen
+   hindrer Safari i å bruke menyfargen i feltet bak klokka. (Innholdet som
+   er rullet forbi, vises likevel svakt der i iOS 26 – det styrer Safari,
+   ikke siden.) dekk-topp brukes på AppBar og øvingsmenyen. */
+@media (min-width: 1024px) {
+  .fs-meny::before,
+  .dekk-topp::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    pointer-events: none;
+  }
 }
 .fs-menylenke {
   color: var(--meny-dempet);
@@ -496,24 +488,24 @@ html.fs-intro .ff-intro {
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0,
-    #000 calc(96px + env(safe-area-inset-top)),
+    #000 96px,
     #000 calc(var(--ff-grense, 42%) - 12px),
     rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
   );
   mask-image: linear-gradient(
     to bottom,
     transparent 0,
-    #000 calc(96px + env(safe-area-inset-top)),
+    #000 96px,
     #000 calc(var(--ff-grense, 42%) - 12px),
     rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
   );
 }
 @media (min-width: 1024px) {
   .ff-felt {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 calc(110px + env(safe-area-inset-top))),
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
       radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
     -webkit-mask-composite: source-in;
-    mask-image: linear-gradient(to bottom, transparent 0, #000 calc(110px + env(safe-area-inset-top))),
+    mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
       radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
     mask-composite: intersect;
   }
@@ -528,7 +520,7 @@ html.fs-intro .ff-intro {
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 0.18em 0.62em;
-  padding: calc(88px + env(safe-area-inset-top)) max(20px, 3.5cqw) 0;
+  padding: 88px max(20px, 3.5cqw) 0;
   font-family: var(--font-display);
   /* På mobil litt mindre enn før, så det står flere ord på hver linje og
      tekstveggen ligner den på store skjermer. */

@@ -67,7 +67,7 @@ export function SporAi({
   }, []);
 
   return (
-    <div className="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
+    <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
       <AiHjelp ref={ai} temaId={temaId} temaNavn={temaNavn} fagNavn={fagNavn} apen={apen} onLukk={() => setApen(false)} />
       {(!skjultTilBruk || brukt) && (
         <button

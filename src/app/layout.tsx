@@ -32,12 +32,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
 };
 
-// viewportFit cover: siden går helt opp under klokka på iPhone. Ellers viser
-// iOS 26 Safari innholdet som er rullet forbi, svakt bak statuslinja. Menyene
-// og sidetoppene har luft for klokka med env(safe-area-inset-top) i stedet.
 export const viewport: Viewport = {
   themeColor: "#f7f4ee",
-  viewportFit: "cover",
 };
 
 // Kjøres før forsiden tegnes: skjul markedssiden hvis det finnes en lagret

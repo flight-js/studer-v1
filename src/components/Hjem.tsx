@@ -100,7 +100,7 @@ export function Hjem() {
       <main id="innhold" className="flex flex-col flex-1">
         {/* Natt: pulten */}
         <section aria-labelledby="hei" className="fs-natt relative overflow-hidden">
-          <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-[calc(7rem+env(safe-area-inset-top))] sm:pt-[calc(9rem+env(safe-area-inset-top))] pb-16 lg:pb-24">
+          <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-28 sm:pt-36 pb-16 lg:pb-24">
             <div className="flex flex-col gap-4">
               <p className="rise text-sm font-medium text-background/65 first-letter:uppercase">{dato}</p>
               <h1
