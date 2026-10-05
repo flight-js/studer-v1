@@ -46,6 +46,18 @@ function Abonnement() {
   const params = useSearchParams();
   const { bruker, laster, profil, oppfriskProfil } = useAuth();
   const [plan, setPlan] = useState<Plan>(params.get("plan") === "maned" ? "maned" : "ar");
+  // På mobil havner knappen under planene og fordelene, så etter et planvalg
+  // rulles den inn i bildet hvis den ikke alt er synlig.
+  const handling = useRef<HTMLDivElement>(null);
+  const velgPlan = (p: Plan) => {
+    setPlan(p);
+    const el = handling.current;
+    if (!el || el.getBoundingClientRect().bottom <= (window.visualViewport?.height ?? window.innerHeight)) return;
+    el.scrollIntoView({
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+      block: "end",
+    });
+  };
   const [steg, setSteg] = useState<Steg>(params.get("betaling") === "fullfort" ? "ferdig" : "velg");
   const [okt, setOkt] = useState<Betalingsokt | null>(null);
   // Når prøveperioden i økten slutter, og om kjøpet som nettopp ble gjort, var en prøveperiode.
@@ -315,7 +327,7 @@ function Abonnement() {
         <>
           <div role="radiogroup" aria-label="Abonnement" className="grid sm:grid-cols-2 gap-3 rise">
             {(["maned", "ar"] as const).map((p) => (
-              <Planvalg key={p} plan={p} valgt={plan === p} prove={visProve} onVelg={() => setPlan(p)} />
+              <Planvalg key={p} plan={p} valgt={plan === p} prove={visProve} onVelg={() => velgPlan(p)} />
             ))}
           </div>
 
@@ -330,32 +342,34 @@ function Abonnement() {
 
           {feil && <Feilmelding tekst={feil} />}
 
-          {bruker ? (
-            <button
-              onClick={tilBetaling}
-              disabled={jobber}
-              className="group self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-60"
-            >
-              {jobber ? "Åpner betaling …" : visProve ? "Start gratis prøveperiode" : "Til betaling"}
-              {!jobber && <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />}
-            </button>
-          ) : (
-            <div className="flex flex-wrap items-center gap-3">
-              <Link
-                href={`/registrer?neste=${encodeURIComponent(tilbakeHit)}`}
-                className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+          <div ref={handling} className="scroll-mb-6">
+            {bruker ? (
+              <button
+                onClick={tilBetaling}
+                disabled={jobber}
+                className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-60"
               >
-                Lag konto og prøv gratis
-                <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
-              </Link>
-              <Link
-                href={`/logg-inn?neste=${encodeURIComponent(tilbakeHit)}`}
-                className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
-              >
-                Jeg har konto
-              </Link>
-            </div>
-          )}
+                {jobber ? "Åpner betaling …" : visProve ? "Start gratis prøveperiode" : "Til betaling"}
+                {!jobber && <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />}
+              </button>
+            ) : (
+              <div className="flex flex-wrap items-center gap-3">
+                <Link
+                  href={`/registrer?neste=${encodeURIComponent(tilbakeHit)}`}
+                  className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+                >
+                  Lag konto og prøv gratis
+                  <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+                </Link>
+                <Link
+                  href={`/logg-inn?neste=${encodeURIComponent(tilbakeHit)}`}
+                  className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+                >
+                  Jeg har konto
+                </Link>
+              </div>
+            )}
+          </div>
 
           <p className="flex items-start gap-2 text-xs leading-relaxed text-muted max-w-[60ch]">
             <Lock size={14} className="shrink-0 mt-0.5" />
