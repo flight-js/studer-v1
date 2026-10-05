@@ -47,12 +47,14 @@ function Abonnement() {
   const { bruker, laster, profil, oppfriskProfil } = useAuth();
   const [plan, setPlan] = useState<Plan>(params.get("plan") === "maned" ? "maned" : "ar");
   // På mobil havner knappen under planene og fordelene, så etter et planvalg
-  // rulles den inn i bildet hvis den ikke alt er synlig.
+  // rulles den inn i bildet hvis den ikke alt er synlig. Bare på mobil (under
+  // sm, der planene står under hverandre) – på PC skal siden stå i ro.
   const handling = useRef<HTMLDivElement>(null);
   const velgPlan = (p: Plan) => {
     setPlan(p);
     const el = handling.current;
-    if (!el || el.getBoundingClientRect().bottom <= (window.visualViewport?.height ?? window.innerHeight)) return;
+    if (!el || !window.matchMedia("(max-width: 639px)").matches) return;
+    if (el.getBoundingClientRect().bottom <= (window.visualViewport?.height ?? window.innerHeight)) return;
     el.scrollIntoView({
       behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
       block: "end",
