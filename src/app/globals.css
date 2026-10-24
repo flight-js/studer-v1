@@ -266,6 +266,30 @@ body::before {
   }
 }
 
+/* Spørsmål og svar (components/Sporsmal.tsx): svaret glir opp og toner inn.
+   Høyden animeres bare der interpolate-size finnes – ellers åpnes det rett. */
+.sporsmal {
+  interpolate-size: allow-keywords;
+}
+.sporsmal::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow-y: clip;
+  transition:
+    block-size 300ms var(--ease-out-soft),
+    opacity 300ms var(--ease-out-soft),
+    content-visibility 300ms allow-discrete;
+}
+.sporsmal[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sporsmal::details-content {
+    transition-property: opacity, content-visibility;
+  }
+}
+
 /* Alt riktig: merket spretter så vidt inn etter resultatet (se components/AltRiktig.tsx). */
 @keyframes pop {
   from {

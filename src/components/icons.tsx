@@ -49,6 +49,12 @@ export const Close = (p: IconProps) => (
   </Svg>
 );
 
+export const Plus = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 5v14M5 12h14" />
+  </Svg>
+);
+
 export const Check = (p: IconProps) => (
   <Svg {...p}>
     <path d="M20 6L9 17l-5-5" />

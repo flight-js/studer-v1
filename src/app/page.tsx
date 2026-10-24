@@ -9,14 +9,17 @@ import { Fokusfelt } from "@/components/forside/Fokusfelt";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Ovingsformer } from "@/components/forside/Ovingsformer";
 import { Pensumkart } from "@/components/forside/Pensumkart";
+import { Sporsmalliste } from "@/components/Sporsmal";
 import { ArrowRight, Check } from "@/components/icons";
 import { EKSEMPEL, TELLING } from "@/lib/forsidedata";
 import { DRIVER, SKOLE } from "@/lib/juridisk";
 import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
+import { FORSIDE_SPORSMAL } from "@/lib/sporsmal";
 
 // Forsiden for utloggede. Den går fra natt (leselampa og hele pensum som
-// prikker) til dag (øvingsformene, fagene og prisen) og tilbake til natt.
+// prikker) til dag (øvingsformene, fagene, prisen og spørsmål og svar) og
+// tilbake til natt.
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -151,7 +154,7 @@ function Markedsside() {
           </div>
         </section>
 
-        {/* Dag: øvingsformene, fagene og prisen */}
+        {/* Dag: øvingsformene, fagene, prisen og spørsmål og svar */}
         <div data-flate="dag" className="bg-background text-foreground">
           <section aria-labelledby="ov-tittel" className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16">
             <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-6 items-end mb-12 lg:mb-16">
@@ -214,6 +217,27 @@ function Markedsside() {
                   featured
                 />
               </div>
+            </div>
+          </section>
+
+          <section id="sporsmal" aria-labelledby="sporsmal-tittel" className="border-t border-border">
+            <div className="max-w-7xl mx-auto px-5 sm:px-8 py-24 lg:py-36 grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-10 items-start">
+              <div className="flex flex-col gap-5 lg:sticky lg:top-28">
+                <Ordtittel id="sporsmal-tittel" className={tittel}>
+                  Spørsmål og svar.
+                </Ordtittel>
+                <p className="text-lg leading-relaxed text-ink-soft max-w-[36ch]">
+                  Det folk lurer på før de prøver.{" "}
+                  <Link
+                    href="/hjelp"
+                    className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground"
+                  >
+                    Se alle spørsmålene
+                  </Link>
+                  .
+                </p>
+              </div>
+              <Sporsmalliste liste={FORSIDE_SPORSMAL} vis />
             </div>
           </section>
         </div>

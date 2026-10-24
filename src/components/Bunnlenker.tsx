@@ -6,7 +6,7 @@ import { SOSIALE_MEDIER } from "@/lib/seo";
 
 const IKONER: Record<string, typeof Instagram> = { Instagram, TikTok };
 
-// Lenkene som skal finnes nederst overalt: forslag, vilkår, personvern og
+// Lenkene som skal finnes nederst overalt: hjelp, forslag, vilkår, personvern og
 // kontakt til venstre, lys/mørk modus og profilene våre i sosiale medier
 // til høyre.
 // mork: på mørk bakgrunn (bunnen av forsiden).
@@ -19,6 +19,9 @@ export function Bunnlenker({ className = "", mork = false }: { className?: strin
         aria-label="Om Studer"
         className={`flex flex-wrap gap-x-6 gap-y-2 text-sm ${mork ? "text-background/60" : "text-muted"}`}
       >
+        <Link href="/hjelp" className={lenke}>
+          Spørsmål og svar
+        </Link>
         <Link href="/forslag" className={lenke}>
           Send forslag
         </Link>
