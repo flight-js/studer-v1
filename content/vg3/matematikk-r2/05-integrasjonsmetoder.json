@@ -193,6 +193,48 @@
       "explain": "Del på 2."
     }
   ],
+  "formler": [
+    {
+      "venstre": "∫ u′ · v dx",
+      "hoyre": "u · v − ∫ u · v′ dx",
+      "navn": "Delvis integrasjon"
+    },
+    {
+      "venstre": "∫ f′(x)/f(x) dx",
+      "hoyre": "ln|f(x)| + C",
+      "navn": "Integral av funksjonskvotient"
+    },
+    {
+      "venstre": "∫ e^(kx) dx",
+      "hoyre": "e^(kx)/k + C",
+      "navn": "Integral av eksponentialfunksjon"
+    },
+    {
+      "venstre": "∫ cos(kx) dx",
+      "hoyre": "sin(kx)/k + C",
+      "navn": "Integral av cosinus"
+    },
+    {
+      "venstre": "∫ sin(kx) dx",
+      "hoyre": "−cos(kx)/k + C",
+      "navn": "Integral av sinus"
+    },
+    {
+      "venstre": "∫ (f(x) + g(x)) dx",
+      "hoyre": "∫ f(x) dx + ∫ g(x) dx",
+      "navn": "Sumregel for integraler"
+    },
+    {
+      "venstre": "∫ k · f(x) dx",
+      "hoyre": "k · ∫ f(x) dx",
+      "navn": "Konstantfaktorregel"
+    },
+    {
+      "venstre": "du",
+      "hoyre": "u′ dx",
+      "navn": "Differensial ved substitusjon"
+    }
+  ],
   "mindmap": {
     "label": "Integrasjonsmetoder",
     "children": [

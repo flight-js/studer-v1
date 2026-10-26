@@ -192,6 +192,18 @@
       "explain": "Hver gang ganges verdien med et tall mellom 0 og 1. Den blir mindre og mindre, men aldri nøyaktig 0."
     }
   ],
+  "formler": [
+    {
+      "venstre": "x · f(x)",
+      "hoyre": "k",
+      "navn": "Produkt ved omvendt proporsjonalitet"
+    },
+    {
+      "venstre": "A(s)",
+      "hoyre": "s²",
+      "navn": "Kvadratets areal"
+    }
+  ],
   "mindmap": {
     "label": "Funksjonstyper",
     "children": [

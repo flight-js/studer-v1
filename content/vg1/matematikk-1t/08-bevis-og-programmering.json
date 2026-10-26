@@ -197,6 +197,13 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "(a + b)²",
+      "hoyre": "a² + 2ab + b²",
+      "navn": "Kvadratsetningen"
+    }
+  ],
   "mindmap": {
     "label": "Bevis og programmering",
     "children": [

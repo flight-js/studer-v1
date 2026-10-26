@@ -193,6 +193,33 @@
       "explain": "250 km = 25 mil, og 0,6 · 25 = 15."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v",
+      "hoyre": "s/t",
+      "navn": "Fart fra strekning og tid"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "v · t",
+      "navn": "Strekning fra fart og tid"
+    },
+    {
+      "venstre": "t",
+      "hoyre": "s/v",
+      "navn": "Tid fra strekning og fart"
+    },
+    {
+      "venstre": "1 m/s",
+      "hoyre": "3,6 km/h",
+      "navn": "Omregning av fart"
+    },
+    {
+      "venstre": "1 g/cm³",
+      "hoyre": "1 kg/L",
+      "navn": "Tetthet i ulike enheter"
+    }
+  ],
   "mindmap": {
     "label": "Sammensatte måleenheter",
     "children": [

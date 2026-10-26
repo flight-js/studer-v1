@@ -193,6 +193,38 @@
       "explain": "Newtons 2. lov."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ΣF",
+      "hoyre": "mg − kv²",
+      "navn": "Kraftsum med luftmotstand"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "ΣF / m",
+      "navn": "Akselerasjon fra kraftsum"
+    },
+    {
+      "venstre": "v_ny",
+      "hoyre": "v + a · Δt",
+      "navn": "Fart i Eulers metode"
+    },
+    {
+      "venstre": "s_ny",
+      "hoyre": "s + v · Δt",
+      "navn": "Posisjon i Eulers metode"
+    },
+    {
+      "venstre": "t_ny",
+      "hoyre": "t + Δt",
+      "navn": "Tid i Eulers metode"
+    },
+    {
+      "venstre": "v_t",
+      "hoyre": "√(mg / k)",
+      "navn": "Terminalfart med luftmotstand"
+    }
+  ],
   "mindmap": {
     "label": "Numeriske metoder",
     "children": [

@@ -8,7 +8,9 @@ import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
+import { Tips } from "@/components/Tips";
 import { lagreResultat, temaHref, type Flashcard } from "@/lib/pensum";
+import { TIPS } from "@/lib/tips";
 
 export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort: Flashcard[]; tilbake: string }) {
   const allIds = kort.map((_, i) => i);
@@ -177,6 +179,9 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
             </p>
 
             <Rapporter key={card.begrep} temaId={temaId} type="flashcard" nokkel={card.begrep} />
+
+            {/* Står i flyten under kortet, så det aldri dekker knappene. */}
+            <Tips tips={TIPS.flashcards} />
           </>
         )}
       </main>

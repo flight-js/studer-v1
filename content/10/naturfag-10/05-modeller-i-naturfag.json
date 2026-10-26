@@ -201,6 +201,13 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "s",
+      "hoyre": "v · t",
+      "navn": "Strekning fra fart og tid"
+    }
+  ],
   "mindmap": {
     "label": "Modeller i naturfag",
     "children": [

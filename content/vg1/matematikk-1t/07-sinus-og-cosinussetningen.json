@@ -194,6 +194,53 @@
       "explain": "cos A = (25 + 64 − 49)/80 = 0,5."
     }
   ],
+  "formler": [
+    {
+      "venstre": "T",
+      "hoyre": "½ · a · b · sin C",
+      "navn": "Areal fra to sider"
+    },
+    {
+      "venstre": "a²",
+      "hoyre": "b² + c² − 2bc · cos A",
+      "navn": "Cosinussetningen for side"
+    },
+    {
+      "venstre": "sin A / a",
+      "hoyre": "sin B / b",
+      "navn": "Forhold i sinussetningen"
+    },
+    {
+      "venstre": "cos A",
+      "hoyre": "(b² + c² − a²)/(2bc)",
+      "navn": "Cosinussetningen for vinkel"
+    },
+    {
+      "venstre": "h",
+      "hoyre": "b · sin C",
+      "navn": "Høyde fra sinus"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "½ · a · h",
+      "navn": "Areal fra grunnlinje og høyde"
+    },
+    {
+      "venstre": "sin v",
+      "hoyre": "sin(180° − v)",
+      "navn": "Sinus for supplementvinkler"
+    },
+    {
+      "venstre": "a²",
+      "hoyre": "b² + c²",
+      "navn": "Pytagoras' setning"
+    },
+    {
+      "venstre": "cos 90°",
+      "hoyre": "0",
+      "navn": "Cosinus til nitti grader"
+    }
+  ],
   "mindmap": {
     "label": "Trigonometri i trekanter",
     "children": [

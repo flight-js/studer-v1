@@ -193,6 +193,28 @@
       "explain": "Tallet foran skal være mellom 1 og 10."
     }
   ],
+  "formler": [
+    {
+      "venstre": "s",
+      "hoyre": "½at²",
+      "navn": "Strekning ved akselerasjon"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "ma",
+      "navn": "Newtons andre lov"
+    },
+    {
+      "venstre": "N",
+      "hoyre": "kg·m/s²",
+      "navn": "Newtons grunnenheter"
+    },
+    {
+      "venstre": "J",
+      "hoyre": "N·m",
+      "navn": "Joules enhetssammenheng"
+    }
+  ],
   "mindmap": {
     "label": "Forsøk og modeller",
     "children": [

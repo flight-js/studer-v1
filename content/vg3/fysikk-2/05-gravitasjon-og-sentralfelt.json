@@ -194,6 +194,48 @@
       "explain": "E_p = −γMm / r."
     }
   ],
+  "formler": [
+    {
+      "venstre": "F",
+      "hoyre": "γ · m₁ · m₂ / r²",
+      "navn": "Gravitasjonskraft"
+    },
+    {
+      "venstre": "γ",
+      "hoyre": "6,67 · 10⁻¹¹ N·m²/kg²",
+      "navn": "Gravitasjonskonstantens verdi"
+    },
+    {
+      "venstre": "g",
+      "hoyre": "γM / r²",
+      "navn": "Gravitasjonsfeltstyrke"
+    },
+    {
+      "venstre": "E_p",
+      "hoyre": "−γMm / r",
+      "navn": "Potensiell energi"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "√(2γM / r)",
+      "navn": "Unnslipningsfart"
+    },
+    {
+      "venstre": "γMm / r²",
+      "hoyre": "mv² / r",
+      "navn": "Kraft i sirkelbane"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "√(γM / r)",
+      "navn": "Banefart i sirkelbane"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "2πr / v",
+      "navn": "Omløpstid"
+    }
+  ],
   "mindmap": {
     "label": "Gravitasjon og sentralfelt",
     "children": [

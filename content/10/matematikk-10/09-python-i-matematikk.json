@@ -193,6 +193,7 @@
       "explain": "I en sporingstabell noterer du verdiene linje for linje. Det gjør det lettere å forstå og forklare hva koden gjør."
     }
   ],
+  "formler": [],
   "mindmap": {
     "label": "Python i matematikken",
     "children": [

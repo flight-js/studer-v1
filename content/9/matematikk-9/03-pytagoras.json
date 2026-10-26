@@ -201,6 +201,38 @@
       "niva": "over-niva"
     }
   ],
+  "formler": [
+    {
+      "venstre": "a² + b²",
+      "hoyre": "c²",
+      "navn": "Pytagoras' setning"
+    },
+    {
+      "venstre": "a²",
+      "hoyre": "c² − b²",
+      "navn": "Katetens kvadrat"
+    },
+    {
+      "venstre": "c",
+      "hoyre": "√(a² + b²)",
+      "navn": "Finne hypotenusen"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "√(c² − b²)",
+      "navn": "Finne en katet"
+    },
+    {
+      "venstre": "d",
+      "hoyre": "√(l² + b²)",
+      "navn": "Diagonal i rektangel"
+    },
+    {
+      "venstre": "d",
+      "hoyre": "√(Δx² + Δy²)",
+      "navn": "Avstand mellom punkter"
+    }
+  ],
   "mindmap": {
     "label": "Pytagoras' setning",
     "children": [

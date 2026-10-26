@@ -197,6 +197,13 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "pH",
+      "hoyre": "pKa + log([A⁻] / [HA])",
+      "navn": "Bufferligningen"
+    }
+  ],
   "mindmap": {
     "label": "Buffere",
     "children": [

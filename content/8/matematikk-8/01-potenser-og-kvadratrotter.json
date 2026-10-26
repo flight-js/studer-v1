@@ -196,6 +196,18 @@
       "explain": "Potensen først: 4² = 16. Så multiplikasjonen: 3 · 16 = 48. Til slutt addisjonen: 2 + 48 = 50."
     }
   ],
+  "formler": [
+    {
+      "venstre": "aᵐ · aⁿ",
+      "hoyre": "aᵐ⁺ⁿ",
+      "navn": "Multiplikasjon av potenser med samme grunntall"
+    },
+    {
+      "venstre": "aᵐ : aⁿ",
+      "hoyre": "aᵐ⁻ⁿ",
+      "navn": "Divisjon av potenser med samme grunntall"
+    }
+  ],
   "mindmap": {
     "label": "Potenser og kvadratrøtter",
     "children": [

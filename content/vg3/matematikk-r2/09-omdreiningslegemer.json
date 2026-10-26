@@ -193,6 +193,43 @@
       "explain": "1 L = 1000 cm³."
     }
   ],
+  "formler": [
+    {
+      "venstre": "V",
+      "hoyre": "∫ₐᵇ A(x) dx",
+      "navn": "Volum med skivemetoden"
+    },
+    {
+      "venstre": "A(x)",
+      "hoyre": "π · f(x)²",
+      "navn": "Tverrsnittsareal ved rotasjon"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "π · ∫ₐᵇ (f(x))² dx",
+      "navn": "Volum rundt x-aksen"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "π · ∫ₐᵇ ((f(x))² − (g(x))²) dx",
+      "navn": "Volum med hulrom"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "π · ∫ (x(y))² dy",
+      "navn": "Volum rundt y-aksen"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "πr²h",
+      "navn": "Sylindervolum"
+    },
+    {
+      "venstre": "A(x)",
+      "hoyre": "π · r(x)²",
+      "navn": "Areal fra målt radius"
+    }
+  ],
   "mindmap": {
     "label": "Omdreiningslegemer",
     "children": [

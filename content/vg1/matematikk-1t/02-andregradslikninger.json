@@ -192,6 +192,43 @@
       "explain": "D = 16 − 16 = 0, og løsningen er x = −2."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(a + b)²",
+      "hoyre": "a² + 2ab + b²",
+      "navn": "Første kvadratsetning"
+    },
+    {
+      "venstre": "(a − b)²",
+      "hoyre": "a² − 2ab + b²",
+      "navn": "Andre kvadratsetning"
+    },
+    {
+      "venstre": "(a + b)(a − b)",
+      "hoyre": "a² − b²",
+      "navn": "Konjugatsetningen"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "(−b ± √(b² − 4ac)) / (2a)",
+      "navn": "abc-formelen"
+    },
+    {
+      "venstre": "D",
+      "hoyre": "b² − 4ac",
+      "navn": "Diskriminanten"
+    },
+    {
+      "venstre": "ax² + bx + c",
+      "hoyre": "a(x − x₁)(x − x₂)",
+      "navn": "Faktorisering av andregradspolynom"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "−b/(2a)",
+      "navn": "Symmetrilinje"
+    }
+  ],
   "mindmap": {
     "label": "Andregradslikninger",
     "children": [

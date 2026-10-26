@@ -197,6 +197,18 @@
       "explain": "Resistente bakterier overlever og formerer seg."
     }
   ],
+  "formler": [
+    {
+      "venstre": "p + q",
+      "hoyre": "1",
+      "navn": "Allelfrekvenser i likevekt"
+    },
+    {
+      "venstre": "p² + 2pq + q²",
+      "hoyre": "1",
+      "navn": "Genotypefrekvenser i likevekt"
+    }
+  ],
   "mindmap": {
     "label": "Evolusjon og artsdannelse",
     "children": [

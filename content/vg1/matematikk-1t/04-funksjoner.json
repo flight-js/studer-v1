@@ -192,6 +192,28 @@
       "explain": "Verdimengden er samlingen av y-verdier funksjonen kan ha."
     }
   ],
+  "formler": [
+    {
+      "venstre": "√x",
+      "hoyre": "x^(1/2)",
+      "navn": "Kvadratrot som potens"
+    },
+    {
+      "venstre": "1/x",
+      "hoyre": "x⁻¹",
+      "navn": "Brøk som potens"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "s²",
+      "navn": "Areal av kvadrat"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "s³",
+      "navn": "Volum av kube"
+    }
+  ],
   "mindmap": {
     "label": "Funksjonstyper",
     "children": [

@@ -196,6 +196,53 @@
       "explain": "60/180 · π."
     }
   ],
+  "formler": [
+    {
+      "venstre": "180°",
+      "hoyre": "π",
+      "navn": "Grader til radianer"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "rθ",
+      "navn": "Formel for buelengde"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "½r²θ",
+      "navn": "Formel for sektorareal"
+    },
+    {
+      "venstre": "tan v",
+      "hoyre": "sin v/cos v",
+      "navn": "Tangens fra sinus og cosinus"
+    },
+    {
+      "venstre": "p",
+      "hoyre": "2π/c",
+      "navn": "Periode til sinusfunksjon"
+    },
+    {
+      "venstre": "(sin x)′",
+      "hoyre": "cos x",
+      "navn": "Derivasjon av sinus"
+    },
+    {
+      "venstre": "(cos x)′",
+      "hoyre": "−sin x",
+      "navn": "Derivasjon av cosinus"
+    },
+    {
+      "venstre": "(tan x)′",
+      "hoyre": "1/cos²x",
+      "navn": "Derivasjon av tangens"
+    },
+    {
+      "venstre": "(sin(cx + φ))′",
+      "hoyre": "c · cos(cx + φ)",
+      "navn": "Derivasjon med kjerneregel"
+    }
+  ],
   "mindmap": {
     "label": "Trigonometriske funksjoner",
     "children": [

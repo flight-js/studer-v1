@@ -8,10 +8,14 @@ import { ArrowRight, Chat, Check, Close, Repeat } from "@/components/icons";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
+import { Tips } from "@/components/Tips";
 import { lagreResultat, temaHref, type Sporsmal } from "@/lib/pensum";
 import { stokkRunde } from "@/lib/stokk";
+import { TIPS } from "@/lib/tips";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
+// «Ekstra»-tipset bare når quizen har slike spørsmål.
+const TIPS_MED_EKSTRA = [...TIPS.quiz, ...TIPS.quizEkstra];
 
 const forklarTekst = (q: Sporsmal, valgt: number) =>
   `Jeg svarte feil på et quizspørsmål og vil forstå det.\n\nSpørsmål: ${q.tekst}\nMitt svar: ${q.alternativer[valgt]}\nRiktig svar: ${q.alternativer[q.riktig]}\n\nKan du forklare hvorfor?`;
@@ -190,6 +194,12 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
                 </button>
               )}
             </div>
+          </div>
+        )}
+        {/* Utenfor spørsmålet (som byttes for hvert spørsmål), så tipset blir stående. */}
+        {!done && (
+          <div className="w-full max-w-2xl mx-auto mt-6">
+            <Tips tips={sporsmal.some((s) => !s.kjerne) ? TIPS_MED_EKSTRA : TIPS.quiz} />
           </div>
         )}
       </main>

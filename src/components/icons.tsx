@@ -61,6 +61,23 @@ export const Check = (p: IconProps) => (
   </Svg>
 );
 
+// Lyspære (tips).
+export const Lyspare = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M9.5 18h5M10.5 21h3" />
+    <path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4.9 1.1.9 1.8V16h5.2v-.3c0-.7.3-1.4.9-1.8A6 6 0 0 0 12 3z" />
+  </Svg>
+);
+
+// To brikker med likhetstegn mellom (formelmatch).
+export const Formel = (p: IconProps) => (
+  <Svg {...p}>
+    <rect x="2.5" y="6.5" width="7" height="11" rx="2" />
+    <rect x="14.5" y="6.5" width="7" height="11" rx="2" />
+    <path d="M11 10.5h2M11 13.5h2" />
+  </Svg>
+);
+
 export const Repeat = (p: IconProps) => (
   <Svg {...p}>
     <path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5" />

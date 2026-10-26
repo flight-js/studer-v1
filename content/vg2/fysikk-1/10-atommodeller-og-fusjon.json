@@ -195,6 +195,33 @@
       "explain": "Pluss litt litium."
     }
   ],
+  "formler": [
+    {
+      "venstre": "E",
+      "hoyre": "h · f",
+      "navn": "Fotonenergi"
+    },
+    {
+      "venstre": "Eₙ",
+      "hoyre": "−B / n²",
+      "navn": "Hydrogenets energinivåer"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "m · c²",
+      "navn": "Masse og energi"
+    },
+    {
+      "venstre": "h",
+      "hoyre": "6,63 · 10⁻³⁴ J·s",
+      "navn": "Plancks konstant"
+    },
+    {
+      "venstre": "B",
+      "hoyre": "2,18 · 10⁻¹⁸ J",
+      "navn": "Hydrogenets konstant B"
+    }
+  ],
   "mindmap": {
     "label": "Atommodeller og fusjon",
     "children": [

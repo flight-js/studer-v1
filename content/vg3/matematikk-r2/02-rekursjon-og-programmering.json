@@ -198,6 +198,23 @@
       "explain": "3 + (n − 1) · 4."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Fₙ",
+      "hoyre": "Fₙ₋₁ + Fₙ₋₂",
+      "navn": "Fibonacci-rekursjon"
+    },
+    {
+      "venstre": "Pₙ₊₁",
+      "hoyre": "Pₙ + r · Pₙ(1 − Pₙ/K)",
+      "navn": "Diskret logistisk modell"
+    },
+    {
+      "venstre": "0!",
+      "hoyre": "1",
+      "navn": "Nullfakultet"
+    }
+  ],
   "mindmap": {
     "label": "Rekursjon",
     "children": [

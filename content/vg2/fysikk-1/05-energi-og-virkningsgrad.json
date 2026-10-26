@@ -193,6 +193,58 @@
       "explain": "Energiprinsippet gjelder fortsatt."
     }
   ],
+  "formler": [
+    {
+      "venstre": "W",
+      "hoyre": "F · s · cos α",
+      "navn": "Arbeid fra kraft"
+    },
+    {
+      "venstre": "Eₖ",
+      "hoyre": "½mv²",
+      "navn": "Kinetisk energi"
+    },
+    {
+      "venstre": "Eₚ",
+      "hoyre": "mgh",
+      "navn": "Potensiell energi"
+    },
+    {
+      "venstre": "½mv₀² + mgh₀",
+      "hoyre": "½mv² + mgh",
+      "navn": "Bevaring av mekanisk energi"
+    },
+    {
+      "venstre": "W_ΣF",
+      "hoyre": "ΔEₖ",
+      "navn": "Arbeid–energi-setningen"
+    },
+    {
+      "venstre": "P",
+      "hoyre": "W / t",
+      "navn": "Effekt fra arbeid"
+    },
+    {
+      "venstre": "P",
+      "hoyre": "F · v",
+      "navn": "Effekt fra kraft og fart"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "√(2gh)",
+      "navn": "Fart etter fritt fall"
+    },
+    {
+      "venstre": "mgh",
+      "hoyre": "½mv²",
+      "navn": "Energi ved fritt fall"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "Eₖ + Eₚ",
+      "navn": "Mekanisk energi"
+    }
+  ],
   "mindmap": {
     "label": "Energi og virkningsgrad",
     "children": [

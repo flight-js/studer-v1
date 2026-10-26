@@ -192,6 +192,33 @@
       "explain": "15 = 10 + 5, så 12 · 15 = 12 · 10 + 12 · 5 = 120 + 60 = 180. Begge leddene må ganges med 12."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a + b",
+      "hoyre": "b + a",
+      "navn": "Kommutativ lov for addisjon"
+    },
+    {
+      "venstre": "a · b",
+      "hoyre": "b · a",
+      "navn": "Kommutativ lov for multiplikasjon"
+    },
+    {
+      "venstre": "(a + b) + c",
+      "hoyre": "a + (b + c)",
+      "navn": "Assosiativ lov for addisjon"
+    },
+    {
+      "venstre": "(a · b) · c",
+      "hoyre": "a · (b · c)",
+      "navn": "Assosiativ lov for multiplikasjon"
+    },
+    {
+      "venstre": "a · (b + c)",
+      "hoyre": "a · b + a · c",
+      "navn": "Distributiv lov"
+    }
+  ],
   "mindmap": {
     "label": "Regnestrategier",
     "children": [

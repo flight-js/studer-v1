@@ -200,6 +200,48 @@
       "explain": "For eksempel HCl."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Kw",
+      "hoyre": "[H₃O⁺] · [OH⁻]",
+      "navn": "Vannets ionprodukt"
+    },
+    {
+      "venstre": "pH",
+      "hoyre": "−log[H₃O⁺]",
+      "navn": "pH fra oksoniumkonsentrasjon"
+    },
+    {
+      "venstre": "pOH",
+      "hoyre": "−log[OH⁻]",
+      "navn": "pOH fra hydroksidkonsentrasjon"
+    },
+    {
+      "venstre": "pH + pOH",
+      "hoyre": "14",
+      "navn": "Sammenheng mellom pH og pOH"
+    },
+    {
+      "venstre": "[H₃O⁺]",
+      "hoyre": "10⁻ᵖᴴ",
+      "navn": "Oksoniumkonsentrasjon fra pH"
+    },
+    {
+      "venstre": "Ka",
+      "hoyre": "[A⁻] · [H₃O⁺] / [HA]",
+      "navn": "Syrekonstant for svak syre"
+    },
+    {
+      "venstre": "pKa",
+      "hoyre": "−log Ka",
+      "navn": "pKa fra syrekonstant"
+    },
+    {
+      "venstre": "Ka · Kb",
+      "hoyre": "Kw",
+      "navn": "Sammenheng mellom syre- og basekonstant"
+    }
+  ],
   "mindmap": {
     "label": "pH-beregninger",
     "children": [

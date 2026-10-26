@@ -192,6 +192,48 @@
       "explain": "Negativt tall snur retningen."
     }
   ],
+  "formler": [
+    {
+      "venstre": "[a, b] + [c, d]",
+      "hoyre": "[a + c, b + d]",
+      "navn": "Vektorsum på koordinatform"
+    },
+    {
+      "venstre": "[a, b] − [c, d]",
+      "hoyre": "[a − c, b − d]",
+      "navn": "Vektordifferanse på koordinatform"
+    },
+    {
+      "venstre": "t · [a, b]",
+      "hoyre": "[ta, tb]",
+      "navn": "Skalarmultiplikasjon av vektor"
+    },
+    {
+      "venstre": "|u⃗|",
+      "hoyre": "√(a² + b²)",
+      "navn": "Lengde av en vektor"
+    },
+    {
+      "venstre": "u⃗",
+      "hoyre": "t · v⃗",
+      "navn": "Kriterium for parallelle vektorer"
+    },
+    {
+      "venstre": "u⃗ · v⃗",
+      "hoyre": "|u⃗| · |v⃗| · cos θ",
+      "navn": "Skalarprodukt med vinkel"
+    },
+    {
+      "venstre": "[a, b] · [c, d]",
+      "hoyre": "ac + bd",
+      "navn": "Skalarprodukt på koordinatform"
+    },
+    {
+      "venstre": "W",
+      "hoyre": "F⃗ · s⃗",
+      "navn": "Arbeid som skalarprodukt"
+    }
+  ],
   "mindmap": {
     "label": "Vektorer",
     "children": [

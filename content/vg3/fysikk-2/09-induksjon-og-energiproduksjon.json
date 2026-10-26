@@ -198,6 +198,23 @@
       "explain": "Bærekraft har flere sider."
     }
   ],
+  "formler": [
+    {
+      "venstre": "U₁ / U₂",
+      "hoyre": "N₁ / N₂",
+      "navn": "Transformatorens spenningsforhold"
+    },
+    {
+      "venstre": "P_tap",
+      "hoyre": "R · I²",
+      "navn": "Varmetap i ledning"
+    },
+    {
+      "venstre": "P",
+      "hoyre": "U · I",
+      "navn": "Elektrisk effekt"
+    }
+  ],
   "mindmap": {
     "label": "Induksjon og energi",
     "children": [

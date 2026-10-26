@@ -194,6 +194,53 @@
       "explain": "v_y = 10 m/s gir h = 10²/(2 · 9,81)."
     }
   ],
+  "formler": [
+    {
+      "venstre": "x",
+      "hoyre": "x₀ + a · t",
+      "navn": "Parameterframstilling for x"
+    },
+    {
+      "venstre": "y",
+      "hoyre": "y₀ + b · t",
+      "navn": "Parameterframstilling for y"
+    },
+    {
+      "venstre": "v⃗(t)",
+      "hoyre": "[x′(t), y′(t)]",
+      "navn": "Fartsvektor fra koordinater"
+    },
+    {
+      "venstre": "v⃗(t)",
+      "hoyre": "r⃗′(t)",
+      "navn": "Derivert posisjonsvektor"
+    },
+    {
+      "venstre": "a⃗(t)",
+      "hoyre": "v⃗′(t)",
+      "navn": "Akselerasjonsvektor"
+    },
+    {
+      "venstre": "x(t)",
+      "hoyre": "v₀ cos α · t",
+      "navn": "Horisontal posisjon i kast"
+    },
+    {
+      "venstre": "y(t)",
+      "hoyre": "v₀ sin α · t − ½ g t²",
+      "navn": "Vertikal posisjon i kast"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "r cos t",
+      "navn": "Sirkelens x-koordinat"
+    },
+    {
+      "venstre": "y",
+      "hoyre": "r sin t",
+      "navn": "Sirkelens y-koordinat"
+    }
+  ],
   "mindmap": {
     "label": "Parameterframstillinger",
     "children": [

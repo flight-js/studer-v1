@@ -239,6 +239,18 @@
       "explain": "2,5 kJ / 0,050 mol = 50 kJ/mol. Siden reaksjonen avgir varme, er ΔH negativ: −50 kJ/mol."
     }
   ],
+  "formler": [
+    {
+      "venstre": "q",
+      "hoyre": "m · c · ΔT",
+      "navn": "Varme i kalorimetri"
+    },
+    {
+      "venstre": "c",
+      "hoyre": "4,18 J/(g · °C)",
+      "navn": "Vannets spesifikke varmekapasitet"
+    }
+  ],
   "mindmap": {
     "label": "Energi og entalpi",
     "children": [

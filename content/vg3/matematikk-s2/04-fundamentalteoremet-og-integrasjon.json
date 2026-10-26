@@ -194,6 +194,68 @@
       "explain": "[2x²]₀³."
     }
   ],
+  "formler": [
+    {
+      "venstre": "F′(x)",
+      "hoyre": "f(x)",
+      "navn": "Definisjon av antiderivert"
+    },
+    {
+      "venstre": "∫ f(x) dx",
+      "hoyre": "F(x) + C",
+      "navn": "Ubestemt integral"
+    },
+    {
+      "venstre": "∫ xⁿ dx",
+      "hoyre": "xⁿ⁺¹/(n + 1) + C",
+      "navn": "Integrasjon av potenser"
+    },
+    {
+      "venstre": "∫ 1/x dx",
+      "hoyre": "ln|x| + C",
+      "navn": "Integral av invers funksjon"
+    },
+    {
+      "venstre": "∫ eˣ dx",
+      "hoyre": "eˣ + C",
+      "navn": "Integral av eksponentialfunksjon"
+    },
+    {
+      "venstre": "∫ e^(kx) dx",
+      "hoyre": "e^(kx)/k + C",
+      "navn": "Integral med lineær eksponent"
+    },
+    {
+      "venstre": "∫ aˣ dx",
+      "hoyre": "aˣ/ln a + C",
+      "navn": "Integral av eksponentialfunksjon med grunntall"
+    },
+    {
+      "venstre": "∫ (f + g) dx",
+      "hoyre": "∫ f dx + ∫ g dx",
+      "navn": "Integral av sum"
+    },
+    {
+      "venstre": "∫ k · f dx",
+      "hoyre": "k · ∫ f dx",
+      "navn": "Konstant faktor i integral"
+    },
+    {
+      "venstre": "∫ₐᵇ f(x) dx",
+      "hoyre": "F(b) − F(a)",
+      "navn": "Analysens fundamentalteorem"
+    },
+    {
+      "venstre": "∫ₐᵇ f′(x) dx",
+      "hoyre": "f(b) − f(a)",
+      "navn": "Samlet endring fra vekstfart"
+    },
+    {
+      "venstre": "f(b)",
+      "hoyre": "f(a) + ∫ₐᵇ f′(x) dx",
+      "navn": "Sluttverdi fra startverdi"
+    }
+  ],
   "mindmap": {
     "label": "Fundamentalteoremet",
     "children": [

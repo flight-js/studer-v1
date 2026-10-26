@@ -197,6 +197,28 @@
       "explain": "For eksempel i en panelovn."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ΔU",
+      "hoyre": "Q + W",
+      "navn": "Endring i indre energi"
+    },
+    {
+      "venstre": "Q",
+      "hoyre": "c · m · ΔT",
+      "navn": "Varme ved temperaturendring"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "t + 273,15",
+      "navn": "Presis kelvinomregning"
+    },
+    {
+      "venstre": "0 K",
+      "hoyre": "−273,15 °C",
+      "navn": "Absolutt nullpunkt"
+    }
+  ],
   "mindmap": {
     "label": "Varme og temperatur",
     "children": [

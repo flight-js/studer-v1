@@ -197,6 +197,13 @@
       "explain": "Da har vi ikke noe funksjonsuttrykk å derivere."
     }
   ],
+  "formler": [
+    {
+      "venstre": "y − f(a)",
+      "hoyre": "f′(a)(x − a)",
+      "navn": "Tangentlikningen"
+    }
+  ],
   "mindmap": {
     "label": "Den deriverte",
     "children": [

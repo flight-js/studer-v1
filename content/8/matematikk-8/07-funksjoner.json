@@ -194,6 +194,13 @@
       "explain": "x står for antall minutter, og det gir ikke mening med negative minutter. Grafen tegnes derfor bare for x ≥ 0."
     }
   ],
+  "formler": [
+    {
+      "venstre": "A",
+      "hoyre": "s²",
+      "navn": "Areal av kvadrat"
+    }
+  ],
   "mindmap": {
     "label": "Funksjoner",
     "children": [

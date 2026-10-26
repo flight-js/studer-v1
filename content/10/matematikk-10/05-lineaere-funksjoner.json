@@ -192,6 +192,13 @@
       "explain": "Brattheten avhenger av tallverdien til stigningstallet. |−5| = 5 er størst, selv om linjen synker."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a",
+      "hoyre": "(y₂ − y₁) / (x₂ − x₁)",
+      "navn": "Stigningstall fra to punkter"
+    }
+  ],
   "mindmap": {
     "label": "Lineære funksjoner",
     "children": [

@@ -192,6 +192,33 @@
       "explain": "Det oppleves som vektløshet."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ΣF",
+      "hoyre": "m · a",
+      "navn": "Newtons andre lov"
+    },
+    {
+      "venstre": "G",
+      "hoyre": "m · g",
+      "navn": "Tyngdekraft"
+    },
+    {
+      "venstre": "R",
+      "hoyre": "μ · N",
+      "navn": "Friksjonskraft"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "g · sin α",
+      "navn": "Akselerasjon på skråplan"
+    },
+    {
+      "venstre": "L",
+      "hoyre": "k · v²",
+      "navn": "Luftmotstand"
+    }
+  ],
   "mindmap": {
     "label": "Krefter og Newtons lover",
     "children": [

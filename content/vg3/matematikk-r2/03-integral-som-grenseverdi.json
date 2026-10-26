@@ -194,6 +194,38 @@
       "explain": "(1/n³) · n(n + 1)(2n + 1)/6 → 1/3."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Δx",
+      "hoyre": "(b − a)/n",
+      "navn": "Bredde på delintervall"
+    },
+    {
+      "venstre": "∫ₐᵇ (f(x) + g(x)) dx",
+      "hoyre": "∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx",
+      "navn": "Integral av en sum"
+    },
+    {
+      "venstre": "∫ₐᵇ k · f(x) dx",
+      "hoyre": "k · ∫ₐᵇ f(x) dx",
+      "navn": "Konstant faktor i integral"
+    },
+    {
+      "venstre": "∫ₐᵃ f(x) dx",
+      "hoyre": "0",
+      "navn": "Integral med like grenser"
+    },
+    {
+      "venstre": "∫ᵦₐ f(x) dx",
+      "hoyre": "−∫ₐᵇ f(x) dx",
+      "navn": "Bytte av integrasjonsgrenser"
+    },
+    {
+      "venstre": "1² + 2² + … + n²",
+      "hoyre": "n(n + 1)(2n + 1)/6",
+      "navn": "Sum av kvadrater"
+    }
+  ],
   "mindmap": {
     "label": "Integral som grenseverdi",
     "children": [

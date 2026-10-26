@@ -192,6 +192,38 @@
       "explain": "v = Δs/Δt."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v",
+      "hoyre": "v₀ + at",
+      "navn": "Fart ved konstant akselerasjon"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "v₀t + ½at²",
+      "navn": "Forflytning ved konstant akselerasjon"
+    },
+    {
+      "venstre": "v² − v₀²",
+      "hoyre": "2as",
+      "navn": "Tidløs bevegelseslikning"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "½(v₀ + v)t",
+      "navn": "Forflytning fra gjennomsnittsfart"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "Δv / Δt",
+      "navn": "Akselerasjon fra fartsendring"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "Δs/Δt",
+      "navn": "Fart fra forflytning"
+    }
+  ],
   "mindmap": {
     "label": "Rettlinjet bevegelse",
     "children": [

@@ -195,6 +195,53 @@
       "niva": "over-niva"
     }
   ],
+  "formler": [
+    {
+      "venstre": "I(x)",
+      "hoyre": "p · x",
+      "navn": "Inntekt ved fast pris"
+    },
+    {
+      "venstre": "O(x)",
+      "hoyre": "I(x) − K(x)",
+      "navn": "Overskudd"
+    },
+    {
+      "venstre": "I′(x)",
+      "hoyre": "p",
+      "navn": "Grenseinntekt ved fast pris"
+    },
+    {
+      "venstre": "I(x)",
+      "hoyre": "p(x) · x",
+      "navn": "Inntekt ved variabel pris"
+    },
+    {
+      "venstre": "O′(x)",
+      "hoyre": "I′(x) − K′(x)",
+      "navn": "Endring i overskudd"
+    },
+    {
+      "venstre": "I′(x)",
+      "hoyre": "K′(x)",
+      "navn": "Grenseinntekt lik grensekostnad"
+    },
+    {
+      "venstre": "A(x)",
+      "hoyre": "K(x)/x",
+      "navn": "Enhetskostnad"
+    },
+    {
+      "venstre": "A(x)",
+      "hoyre": "K′(x)",
+      "navn": "Betingelse for lavest enhetskostnad"
+    },
+    {
+      "venstre": "K(b) − K(a)",
+      "hoyre": "∫ₐᵇ K′(x) dx",
+      "navn": "Kostnadsøkning fra grensekostnad"
+    }
+  ],
   "mindmap": {
     "label": "Grenseanalyse",
     "children": [

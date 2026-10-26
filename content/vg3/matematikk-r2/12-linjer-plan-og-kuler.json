@@ -192,6 +192,23 @@
       "explain": "t gir punktet."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ax + by + cz + d",
+      "hoyre": "0",
+      "navn": "Planlikning på koordinatform"
+    },
+    {
+      "venstre": "n",
+      "hoyre": "AB × AC",
+      "navn": "Normalvektor fra tre punkter"
+    },
+    {
+      "venstre": "n",
+      "hoyre": "[a, b, c]",
+      "navn": "Normalvektorens komponenter"
+    }
+  ],
   "mindmap": {
     "label": "Linjer, plan og kuler",
     "children": [

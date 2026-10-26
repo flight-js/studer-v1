@@ -197,6 +197,38 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "y′",
+      "hoyre": "k · y",
+      "navn": "Eksponentiell vekstfart"
+    },
+    {
+      "venstre": "y′",
+      "hoyre": "k · y(1 − y/K)",
+      "navn": "Logistisk vekstfart"
+    },
+    {
+      "venstre": "T′",
+      "hoyre": "−k(T − Tₒ)",
+      "navn": "Avkjølingsmodell"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "Tₒ + C · e^(−kt)",
+      "navn": "Løsning for avkjøling"
+    },
+    {
+      "venstre": "f̄",
+      "hoyre": "(1/(b − a)) · ∫ₐᵇ f(x) dx",
+      "navn": "Gjennomsnittsverdi på intervall"
+    },
+    {
+      "venstre": "f(b)",
+      "hoyre": "f(a) + ∫ₐᵇ f′(x) dx",
+      "navn": "Total endring fra startverdi"
+    }
+  ],
   "mindmap": {
     "label": "Analyse av modeller",
     "children": [

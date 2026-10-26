@@ -9,7 +9,9 @@ import { Sammendragtekst } from "@/components/ovinger/Sammendragtekst";
 import { useOvingsinnhold } from "@/components/Ovingsramme";
 import { Tankekart } from "@/components/Tankekart";
 import { Laster } from "@/components/Tilstand";
+import { Tips } from "@/components/Tips";
 import { hentSammendrag, hentTema, temaHref } from "@/lib/pensum";
+import { TIPS } from "@/lib/tips";
 
 const hent = async (id: string) => {
   const [innhold, tema] = await Promise.all([hentSammendrag(id), hentTema(id)]);
@@ -101,6 +103,7 @@ function Sammendrag() {
           </main>
         ))}
       {data && <SporAi temaId={id} temaNavn={data.tema.navn} fagNavn={data.tema.fagNavn} />}
+      {data && <Tips tips={TIPS.sammendrag} flytende />}
     </>
   );
 }

@@ -194,6 +194,18 @@
       "explain": "k er tallet x ganges med."
     }
   ],
+  "formler": [
+    {
+      "venstre": "y/x",
+      "hoyre": "k",
+      "navn": "Forhold ved proporsjonalitet"
+    },
+    {
+      "venstre": "x · y",
+      "hoyre": "k",
+      "navn": "Produkt ved omvendt proporsjonalitet"
+    }
+  ],
   "mindmap": {
     "label": "Proporsjonalitet",
     "children": [

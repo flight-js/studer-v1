@@ -192,6 +192,58 @@
       "explain": "Pytagoras."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v₀ₓ",
+      "hoyre": "v₀ · cos α",
+      "navn": "Horisontal fartskomponent"
+    },
+    {
+      "venstre": "v₀ᵧ",
+      "hoyre": "v₀ · sin α",
+      "navn": "Vertikal fartskomponent"
+    },
+    {
+      "venstre": "vᵧ",
+      "hoyre": "v₀ᵧ − g · t",
+      "navn": "Vertikal fart underveis"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "v₀ₓ · t",
+      "navn": "Horisontal posisjon"
+    },
+    {
+      "venstre": "y",
+      "hoyre": "v₀ᵧ · t − ½ · g · t²",
+      "navn": "Vertikal posisjon"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "√(vₓ² + vᵧ²)",
+      "navn": "Fart fra komponenter"
+    },
+    {
+      "venstre": "R",
+      "hoyre": "v₀² · sin(2α) / g",
+      "navn": "Rekkevidde på flat mark"
+    },
+    {
+      "venstre": "h",
+      "hoyre": "v₀ᵧ² / (2g)",
+      "navn": "Maksimal høyde"
+    },
+    {
+      "venstre": "tan θ",
+      "hoyre": "vᵧ / vₓ",
+      "navn": "Vinkel fra fartskomponenter"
+    },
+    {
+      "venstre": "vₓ",
+      "hoyre": "v₀ₓ",
+      "navn": "Konstant horisontal fart"
+    }
+  ],
   "mindmap": {
     "label": "Bevegelse i to dimensjoner",
     "children": [

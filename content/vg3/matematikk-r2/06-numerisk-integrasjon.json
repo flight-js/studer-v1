@@ -197,6 +197,18 @@
       "explain": "Linjestykkene ligger over grafen."
     }
   ],
+  "formler": [
+    {
+      "venstre": "T",
+      "hoyre": "Δx · (f(x₀)/2 + f(x₁) + … + f(xₙ₋₁) + f(xₙ)/2)",
+      "navn": "Trapesformelen"
+    },
+    {
+      "venstre": "Δx",
+      "hoyre": "(b − a)/n",
+      "navn": "Delintervallbredde"
+    }
+  ],
   "mindmap": {
     "label": "Numerisk integrasjon",
     "children": [

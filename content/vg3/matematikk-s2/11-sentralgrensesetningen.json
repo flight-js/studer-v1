@@ -196,6 +196,13 @@
       "explain": "Avvik jevnes ut."
     }
   ],
+  "formler": [
+    {
+      "venstre": "S",
+      "hoyre": "X₁ + … + Xₙ",
+      "navn": "Sum av variabler"
+    }
+  ],
   "mindmap": {
     "label": "Sentralgrensesetningen",
     "children": [

@@ -194,6 +194,28 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "P(a < X < b)",
+      "hoyre": "∫ₐᵇ f(x) dx",
+      "navn": "Sannsynlighet som areal"
+    },
+    {
+      "venstre": "Z",
+      "hoyre": "(X − μ)/σ",
+      "navn": "Standardisering av normalfordeling"
+    },
+    {
+      "venstre": "Φ(z)",
+      "hoyre": "P(Z ≤ z)",
+      "navn": "Kumulativ standardnormalfordeling"
+    },
+    {
+      "venstre": "P(X < a)",
+      "hoyre": "P(X ≤ a)",
+      "navn": "Sannsynlighet under grense"
+    }
+  ],
   "mindmap": {
     "label": "Normalfordelingen",
     "children": [

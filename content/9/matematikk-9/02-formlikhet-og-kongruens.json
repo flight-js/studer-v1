@@ -201,6 +201,18 @@
       "explain": "12 m = 1200 cm. Del på 100: 1200 cm / 100 = 12 cm."
     }
   ],
+  "formler": [
+    {
+      "venstre": "DE/AB",
+      "hoyre": "EF/BC",
+      "navn": "Forhold mellom sider"
+    },
+    {
+      "venstre": "EF/BC",
+      "hoyre": "DF/AC",
+      "navn": "Forhold mellom sider"
+    }
+  ],
   "mindmap": {
     "label": "Formlikhet og kongruens",
     "children": [

@@ -290,6 +290,95 @@ body::before {
   }
 }
 
+/* Formelmatch (components/ovinger/Formelmatch.tsx): brikkene glir opp i
+   likningen (Web Animations i komponenten), likhetstegnet spretter så vidt når
+   paret er riktig, og likningen rister når det er feil. «+1 s» stiger opp og
+   toner ut. */
+@keyframes likhet-inn {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+}
+.likhet {
+  animation: likhet-inn 220ms var(--ease-out-soft) both;
+}
+@keyframes rist {
+  20%,
+  60% {
+    translate: -5px 0;
+  }
+  40%,
+  80% {
+    translate: 5px 0;
+  }
+}
+.rist {
+  animation: rist 320ms ease-in-out;
+}
+@keyframes straff {
+  0% {
+    opacity: 0;
+    translate: 0 4px;
+  }
+  20%,
+  70% {
+    opacity: 1;
+    translate: 0 0;
+  }
+  100% {
+    opacity: 0;
+    translate: 0 -6px;
+  }
+}
+.straff {
+  animation: straff 900ms var(--ease-out-soft) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .likhet,
+  .rist {
+    animation: none;
+  }
+  .straff {
+    animation-name: ton-inn;
+    animation-duration: 200ms;
+  }
+}
+
+/* Tips (components/Tips.tsx): glir opp og toner inn, og litt ned og ut når det lukkes. */
+@keyframes tips-inn {
+  from {
+    opacity: 0;
+    translate: 0 12px;
+    scale: 0.98;
+  }
+}
+@keyframes tips-ut {
+  to {
+    opacity: 0;
+    translate: 0 8px;
+  }
+}
+.tips {
+  animation: tips-inn 360ms var(--ease-out-soft) both;
+}
+.tips-ut {
+  animation: tips-ut 200ms ease-in both;
+}
+@keyframes tips-ut-rolig {
+  to {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tips {
+    animation-name: ton-inn;
+  }
+  .tips-ut {
+    animation-name: tips-ut-rolig;
+  }
+}
+
 /* Alt riktig: merket spretter så vidt inn etter resultatet (se components/AltRiktig.tsx). */
 @keyframes pop {
   from {

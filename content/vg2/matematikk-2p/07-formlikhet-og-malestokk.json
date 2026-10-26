@@ -192,6 +192,38 @@
       "explain": "200 m · 300 m = 60 000 m²."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a² + b²",
+      "hoyre": "c²",
+      "navn": "Pytagoras’ setning"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "l · b",
+      "navn": "Areal av rektangel"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "g · h / 2",
+      "navn": "Areal av trekant"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "(a + b) · h / 2",
+      "navn": "Areal av trapes"
+    },
+    {
+      "venstre": "O",
+      "hoyre": "2πr",
+      "navn": "Omkrets av sirkel"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "πr²",
+      "navn": "Areal av sirkel"
+    }
+  ],
   "mindmap": {
     "label": "Formlikhet og målestokk",
     "children": [

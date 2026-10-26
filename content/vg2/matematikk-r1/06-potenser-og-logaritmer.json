@@ -194,6 +194,68 @@
       "explain": "Eksponenten kan flyttes foran."
     }
   ],
+  "formler": [
+    {
+      "venstre": "aᵐ · aⁿ",
+      "hoyre": "aᵐ⁺ⁿ",
+      "navn": "Produkt av potenser"
+    },
+    {
+      "venstre": "aᵐ / aⁿ",
+      "hoyre": "aᵐ⁻ⁿ",
+      "navn": "Kvotient av potenser"
+    },
+    {
+      "venstre": "(aᵐ)ⁿ",
+      "hoyre": "aᵐ·ⁿ",
+      "navn": "Potens opphøyd i potens"
+    },
+    {
+      "venstre": "(a · b)ⁿ",
+      "hoyre": "aⁿ · bⁿ",
+      "navn": "Potens av produkt"
+    },
+    {
+      "venstre": "a⁰",
+      "hoyre": "1",
+      "navn": "Potens med eksponent null"
+    },
+    {
+      "venstre": "a⁻ⁿ",
+      "hoyre": "1 / aⁿ",
+      "navn": "Negativ eksponent"
+    },
+    {
+      "venstre": "a^(1/n)",
+      "hoyre": "ⁿ√a",
+      "navn": "Potens som rot"
+    },
+    {
+      "venstre": "lg(a · b)",
+      "hoyre": "lg a + lg b",
+      "navn": "Logaritme av produkt"
+    },
+    {
+      "venstre": "lg(a / b)",
+      "hoyre": "lg a − lg b",
+      "navn": "Logaritme av kvotient"
+    },
+    {
+      "venstre": "lg(aⁿ)",
+      "hoyre": "n · lg a",
+      "navn": "Logaritme av potens"
+    },
+    {
+      "venstre": "10^(lg x)",
+      "hoyre": "x",
+      "navn": "Eksponentialfunksjon og logaritme"
+    },
+    {
+      "venstre": "e^(ln x)",
+      "hoyre": "x",
+      "navn": "Eksponentialfunksjon og logaritme"
+    }
+  ],
   "mindmap": {
     "label": "Potenser og logaritmer",
     "children": [

@@ -8,6 +8,7 @@
 import { readFileSync, readdirSync, existsSync, writeFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { erSymbolformel, harGeneriskVenstreside } from "./lib/pensum-rader.mjs";
 
 const ROOT = fileURLToPath(new URL("../content/", import.meta.url));
 const REPORT = join(ROOT, "GJENNOMGANG.md");
@@ -166,6 +167,23 @@ function checkTema(file, tema, fag) {
         if (ids.has(s.id)) err(where, `id «${s.id}» finnes to ganger`);
         checkNiva(where, s, s.id);
         ids.add(s.id);
+      }
+    }
+  }
+
+  // Formlene til formelmatchen (valgfritt, se scripts/lag-formler.mjs). Repetisjonstemaet
+  // får sine ved importen.
+  if (tema.formler !== undefined) {
+    if (!Array.isArray(tema.formler) || tema.id === "repetisjon") err(where, "formler må være en liste, og ikke i repetisjonstemaet");
+    else {
+      const formler = new Set();
+      for (const f of tema.formler) {
+        if (![f.venstre, f.hoyre, f.navn].every(nonEmpty)) err(where, "en formel mangler venstre, høyre eller navn");
+        else if (!erSymbolformel(f)) err(where, `formelen «${f.venstre} = ${f.hoyre}» er skrevet med ord`);
+        else if (harGeneriskVenstreside(f)) err(where, `formelen «${f.venstre} = ${f.hoyre}» har bare et funksjonsnavn til venstre`);
+        const k = `${f.venstre}=${f.hoyre}`.replace(/\s/g, "");
+        if (formler.has(k)) err(where, `formelen «${f.venstre} = ${f.hoyre}» finnes to ganger`);
+        formler.add(k);
       }
     }
   }

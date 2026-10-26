@@ -192,6 +192,48 @@
       "explain": "1000(1,1⁵ − 1)/0,1."
     }
   ],
+  "formler": [
+    {
+      "venstre": "aₙ",
+      "hoyre": "a₁ + (n − 1)d",
+      "navn": "Aritmetisk ledd"
+    },
+    {
+      "venstre": "Sₙ",
+      "hoyre": "n(a₁ + aₙ)/2",
+      "navn": "Sum av aritmetisk rekke"
+    },
+    {
+      "venstre": "aₙ",
+      "hoyre": "a₁ · kⁿ⁻¹",
+      "navn": "Geometrisk ledd"
+    },
+    {
+      "venstre": "Sₙ",
+      "hoyre": "a₁(kⁿ − 1)/(k − 1)",
+      "navn": "Sum av geometrisk rekke"
+    },
+    {
+      "venstre": "S",
+      "hoyre": "a₁/(1 − k)",
+      "navn": "Sum av uendelig geometrisk rekke"
+    },
+    {
+      "venstre": "L",
+      "hoyre": "b/(1 + r) + b/(1 + r)² + … + b/(1 + r)ⁿ",
+      "navn": "Lånebeløp som nåverdier"
+    },
+    {
+      "venstre": "b",
+      "hoyre": "L · r/(1 − (1 + r)⁻ⁿ)",
+      "navn": "Terminbeløp i annuitetslån"
+    },
+    {
+      "venstre": "1 + c + c² + …",
+      "hoyre": "1/(1 − c)",
+      "navn": "Multiplikator ved økt etterspørsel"
+    }
+  ],
   "mindmap": {
     "label": "Rekker og økonomi",
     "children": [

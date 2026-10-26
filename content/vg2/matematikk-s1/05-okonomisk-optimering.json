@@ -195,6 +195,33 @@
       "explain": "0,5 · 2x + 20."
     }
   ],
+  "formler": [
+    {
+      "venstre": "O(x)",
+      "hoyre": "I(x) − K(x)",
+      "navn": "Overskuddsfunksjon"
+    },
+    {
+      "venstre": "I(x)",
+      "hoyre": "p · x",
+      "navn": "Inntekt ved fast pris"
+    },
+    {
+      "venstre": "K′(x)",
+      "hoyre": "I′(x)",
+      "navn": "Størst overskudd"
+    },
+    {
+      "venstre": "E(x)",
+      "hoyre": "K(x)/x",
+      "navn": "Enhetskostnad"
+    },
+    {
+      "venstre": "K′(x)",
+      "hoyre": "E(x)",
+      "navn": "Minste enhetskostnad"
+    }
+  ],
   "mindmap": {
     "label": "Økonomisk optimering",
     "children": [

@@ -192,6 +192,38 @@
       "explain": "σ√n = 3 · 10."
     }
   ],
+  "formler": [
+    {
+      "venstre": "σ",
+      "hoyre": "√Var(X)",
+      "navn": "Standardavvik fra varians"
+    },
+    {
+      "venstre": "E(aX + b)",
+      "hoyre": "a · E(X) + b",
+      "navn": "Forventning ved lineær transformasjon"
+    },
+    {
+      "venstre": "Var(aX + b)",
+      "hoyre": "a² · Var(X)",
+      "navn": "Varians ved lineær transformasjon"
+    },
+    {
+      "venstre": "E(X + Y)",
+      "hoyre": "E(X) + E(Y)",
+      "navn": "Forventning av sum"
+    },
+    {
+      "venstre": "Var(X + Y)",
+      "hoyre": "Var(X) + Var(Y)",
+      "navn": "Varians av uavhengig sum"
+    },
+    {
+      "venstre": "SD(aX + b)",
+      "hoyre": "|a| · SD(X)",
+      "navn": "Standardavvik ved lineær transformasjon"
+    }
+  ],
   "mindmap": {
     "label": "Stokastiske variabler",
     "children": [

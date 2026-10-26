@@ -193,6 +193,68 @@
       "explain": "[x³]₀² = 8."
     }
   ],
+  "formler": [
+    {
+      "venstre": "F′(x)",
+      "hoyre": "f(x)",
+      "navn": "Definisjon av antiderivert"
+    },
+    {
+      "venstre": "∫ f(x) dx",
+      "hoyre": "F(x) + C",
+      "navn": "Ubestemt integral"
+    },
+    {
+      "venstre": "∫ₐᵇ f(x) dx",
+      "hoyre": "F(b) − F(a)",
+      "navn": "Fundamentalteoremet del to"
+    },
+    {
+      "venstre": "A′(x)",
+      "hoyre": "f(x)",
+      "navn": "Derivert av arealfunksjonen"
+    },
+    {
+      "venstre": "A(x)",
+      "hoyre": "∫ₐˣ f(t) dt",
+      "navn": "Arealfunksjonen"
+    },
+    {
+      "venstre": "∫ xʳ dx",
+      "hoyre": "xʳ⁺¹/(r + 1) + C",
+      "navn": "Potensintegral"
+    },
+    {
+      "venstre": "∫ 1/x dx",
+      "hoyre": "ln|x| + C",
+      "navn": "Integral av én over x"
+    },
+    {
+      "venstre": "∫ eˣ dx",
+      "hoyre": "eˣ + C",
+      "navn": "Integral av e-potens"
+    },
+    {
+      "venstre": "∫ aˣ dx",
+      "hoyre": "aˣ/ln a + C",
+      "navn": "Integral av a-potens"
+    },
+    {
+      "venstre": "∫ cos x dx",
+      "hoyre": "sin x + C",
+      "navn": "Integral av cosinus"
+    },
+    {
+      "venstre": "∫ sin x dx",
+      "hoyre": "−cos x + C",
+      "navn": "Integral av sinus"
+    },
+    {
+      "venstre": "∫ₐᵇ f′(x) dx",
+      "hoyre": "f(b) − f(a)",
+      "navn": "Total endring"
+    }
+  ],
   "mindmap": {
     "label": "Fundamentalteoremet",
     "children": [

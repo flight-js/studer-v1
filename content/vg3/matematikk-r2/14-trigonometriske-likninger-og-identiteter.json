@@ -192,6 +192,68 @@
       "explain": "Cosinus er symmetrisk om y-aksen."
     }
   ],
+  "formler": [
+    {
+      "venstre": "sin²x + cos²x",
+      "hoyre": "1",
+      "navn": "Enhetsformelen"
+    },
+    {
+      "venstre": "tan x",
+      "hoyre": "sin x / cos x",
+      "navn": "Tangens som sinusbrøk"
+    },
+    {
+      "venstre": "sin(u + v)",
+      "hoyre": "sin u cos v + cos u sin v",
+      "navn": "Summeformel for sinus"
+    },
+    {
+      "venstre": "cos(u + v)",
+      "hoyre": "cos u cos v − sin u sin v",
+      "navn": "Summeformel for cosinus"
+    },
+    {
+      "venstre": "sin 2x",
+      "hoyre": "2 sin x cos x",
+      "navn": "Dobbel vinkel for sinus"
+    },
+    {
+      "venstre": "cos 2x",
+      "hoyre": "cos²x − sin²x",
+      "navn": "Dobbel vinkel for cosinus"
+    },
+    {
+      "venstre": "sin(π − x)",
+      "hoyre": "sin x",
+      "navn": "Sinus av supplementvinkel"
+    },
+    {
+      "venstre": "cos(−x)",
+      "hoyre": "cos x",
+      "navn": "Cosinus av negativ vinkel"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "±arccos a + n · 2π",
+      "navn": "Løsning av cosinuslikning"
+    },
+    {
+      "venstre": "x",
+      "hoyre": "arctan a + n · π",
+      "navn": "Løsning av tangenslikning"
+    },
+    {
+      "venstre": "a sin x + b cos x",
+      "hoyre": "A sin(x + φ)",
+      "navn": "Sinusform for sinus og cosinus"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "√(a² + b²)",
+      "navn": "Amplitude fra koeffisienter"
+    }
+  ],
   "mindmap": {
     "label": "Identiteter og likninger",
     "children": [

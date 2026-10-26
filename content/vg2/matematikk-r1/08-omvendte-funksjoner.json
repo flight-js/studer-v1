@@ -193,6 +193,53 @@
       "explain": "√(x²) = x for x ≥ 0."
     }
   ],
+  "formler": [
+    {
+      "venstre": "f⁻¹(f(x))",
+      "hoyre": "x",
+      "navn": "Sammensetning med invers funksjon"
+    },
+    {
+      "venstre": "f(f⁻¹(x))",
+      "hoyre": "x",
+      "navn": "Sammensetning med invers funksjon"
+    },
+    {
+      "venstre": "D(f⁻¹)",
+      "hoyre": "V(f)",
+      "navn": "Definisjonsmengde til invers"
+    },
+    {
+      "venstre": "V(f⁻¹)",
+      "hoyre": "D(f)",
+      "navn": "Verdimengde til invers"
+    },
+    {
+      "venstre": "(f⁻¹)′(y₀)",
+      "hoyre": "1 / f′(x₀)",
+      "navn": "Derivert av invers funksjon"
+    },
+    {
+      "venstre": "e^(ln x)",
+      "hoyre": "x",
+      "navn": "Eksponentialfunksjon og logaritme"
+    },
+    {
+      "venstre": "ln(eˣ)",
+      "hoyre": "x",
+      "navn": "Logaritme og eksponentialfunksjon"
+    },
+    {
+      "venstre": "(ln x)′",
+      "hoyre": "1/x",
+      "navn": "Derivert av naturlig logaritme"
+    },
+    {
+      "venstre": "10^(lg x)",
+      "hoyre": "x",
+      "navn": "Ti-logaritme og tierpotens"
+    }
+  ],
   "mindmap": {
     "label": "Omvendte funksjoner",
     "children": [

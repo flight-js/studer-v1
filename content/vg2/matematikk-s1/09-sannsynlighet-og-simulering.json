@@ -195,6 +195,18 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "P(A og B)",
+      "hoyre": "P(A) · P(B)",
+      "navn": "Produktregel for uavhengige hendelser"
+    },
+    {
+      "venstre": "P(A | B)",
+      "hoyre": "P(A og B) / P(B)",
+      "navn": "Betinget sannsynlighet"
+    }
+  ],
   "mindmap": {
     "label": "Sannsynlighet og simulering",
     "children": [

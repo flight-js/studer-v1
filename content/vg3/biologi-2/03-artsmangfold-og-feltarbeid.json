@@ -196,6 +196,13 @@
       "explain": "Tåler endringer bedre."
     }
   ],
+  "formler": [
+    {
+      "venstre": "N",
+      "hoyre": "M · C / R",
+      "navn": "Bestandsstørrelse ved fangst–gjenfangst"
+    }
+  ],
   "mindmap": {
     "label": "Artsmangfold og feltarbeid",
     "children": [

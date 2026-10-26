@@ -193,6 +193,28 @@
       "explain": "Samme som N·s."
     }
   ],
+  "formler": [
+    {
+      "venstre": "p",
+      "hoyre": "m · v",
+      "navn": "Bevegelsesmengde fra masse og fart"
+    },
+    {
+      "venstre": "I",
+      "hoyre": "F · Δt",
+      "navn": "Impuls fra kraft og tid"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "Δp / Δt",
+      "navn": "Kraft fra impuls og tid"
+    },
+    {
+      "venstre": "m₁v₁ + m₂v₂",
+      "hoyre": "m₁v₁' + m₂v₂'",
+      "navn": "Bevaring av bevegelsesmengde"
+    }
+  ],
   "mindmap": {
     "label": "Bevegelsesmengde",
     "children": [

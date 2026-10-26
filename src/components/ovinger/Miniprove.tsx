@@ -9,6 +9,7 @@ import { ArrowRight, Check, Close, Pen, Repeat, Timer } from "@/components/icons
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
 import { Laster } from "@/components/Tilstand";
+import { Tips } from "@/components/Tips";
 import {
   antallOppgaver,
   MAKS_SVAR,
@@ -19,6 +20,7 @@ import {
   type Vurdering,
 } from "@/lib/miniprove";
 import { lagreResultat, temaHref, type ProveSporsmal, type Skriveoppgave } from "@/lib/pensum";
+import { TIPS } from "@/lib/tips";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -216,6 +218,8 @@ export function Miniprove({
                 Svarene sendes til en KI-tjeneste for retting og lagres ikke. Ikke skriv personlige opplysninger.
               </p>
             )}
+            {/* Under knappen, så det ikke dekker den på mobil. */}
+            <Tips tips={TIPS.miniprove} />
           </div>
         </main>
       )}

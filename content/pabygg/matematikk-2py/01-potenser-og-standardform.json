@@ -196,6 +196,48 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "a^m · a^n",
+      "hoyre": "a^(m+n)",
+      "navn": "Multiplikasjon av potenser"
+    },
+    {
+      "venstre": "a^m : a^n",
+      "hoyre": "a^(m−n)",
+      "navn": "Divisjon av potenser"
+    },
+    {
+      "venstre": "(a^m)^n",
+      "hoyre": "a^(m·n)",
+      "navn": "Potens av potens"
+    },
+    {
+      "venstre": "(a · b)^n",
+      "hoyre": "a^n · b^n",
+      "navn": "Potens av produkt"
+    },
+    {
+      "venstre": "a⁰",
+      "hoyre": "1",
+      "navn": "Nullte potens"
+    },
+    {
+      "venstre": "a⁻ⁿ",
+      "hoyre": "1/aⁿ",
+      "navn": "Negativ eksponent"
+    },
+    {
+      "venstre": "√(a · b)",
+      "hoyre": "√a · √b",
+      "navn": "Kvadratrot av produkt"
+    },
+    {
+      "venstre": "√(a/b)",
+      "hoyre": "√a / √b",
+      "navn": "Kvadratrot av brøk"
+    }
+  ],
   "mindmap": {
     "label": "Potenser og standardform",
     "children": [

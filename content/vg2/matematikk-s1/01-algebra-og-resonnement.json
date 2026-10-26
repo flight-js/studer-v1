@@ -192,6 +192,18 @@
       "explain": "Felles faktor 3x."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a² − b²",
+      "hoyre": "(a − b)(a + b)",
+      "navn": "Konjugatsetningen"
+    },
+    {
+      "venstre": "ax² + bx + c",
+      "hoyre": "a(x − x₁)(x − x₂)",
+      "navn": "Faktorisering av andregradsuttrykk"
+    }
+  ],
   "mindmap": {
     "label": "Algebra og resonnement",
     "children": [

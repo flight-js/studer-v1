@@ -194,6 +194,33 @@
       "explain": "Slå sammen x²-leddene: 3x² − x² = 2x². Slå sammen x-leddene: 2x + 4x = 6x."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a² · a³",
+      "hoyre": "a⁵",
+      "navn": "Multiplikasjon av potenser"
+    },
+    {
+      "venstre": "a⁶ : a²",
+      "hoyre": "a⁴",
+      "navn": "Divisjon av potenser"
+    },
+    {
+      "venstre": "(a²)³",
+      "hoyre": "a⁶",
+      "navn": "Potens av potens"
+    },
+    {
+      "venstre": "(ab)²",
+      "hoyre": "a²b²",
+      "navn": "Potens av produkt"
+    },
+    {
+      "venstre": "a⁻ⁿ",
+      "hoyre": "1/aⁿ",
+      "navn": "Negativ eksponent"
+    }
+  ],
   "mindmap": {
     "label": "Regneregler og algebra",
     "children": [

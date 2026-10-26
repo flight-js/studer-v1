@@ -193,6 +193,28 @@
       "explain": "Omkrets delt på tid."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v",
+      "hoyre": "2πr / T",
+      "navn": "Banefart fra periode"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "v² / r",
+      "navn": "Sentripetalakselerasjon"
+    },
+    {
+      "venstre": "ΣF",
+      "hoyre": "m · v² / r",
+      "navn": "Sentripetalkraft"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "2πr/v",
+      "navn": "Periode fra banefart"
+    }
+  ],
   "mindmap": {
     "label": "Sirkelbevegelse",
     "children": [

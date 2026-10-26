@@ -195,6 +195,13 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "N",
+      "hoyre": "F + A + ΔM",
+      "navn": "Vannbalanse for nedbørfelt"
+    }
+  ],
   "mindmap": {
     "label": "Vannets kretsløp",
     "children": [

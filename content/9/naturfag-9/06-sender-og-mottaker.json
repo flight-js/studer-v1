@@ -198,6 +198,7 @@
       "explain": "Selv med litt støy er det lett å se om signalet er 0 eller 1."
     }
   ],
+  "formler": [],
   "mindmap": {
     "label": "Sender og mottaker",
     "children": [

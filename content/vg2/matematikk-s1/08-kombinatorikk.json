@@ -197,6 +197,28 @@
       "explain": "Å velge r er det samme som å velge bort n − r."
     }
   ],
+  "formler": [
+    {
+      "venstre": "C(n, r)",
+      "hoyre": "n! / (r! · (n − r)!)",
+      "navn": "Uordnet utvalg uten tilbakelegging"
+    },
+    {
+      "venstre": "C(n, r)",
+      "hoyre": "C(n, n − r)",
+      "navn": "Symmetri for binomialkoeffisienter"
+    },
+    {
+      "venstre": "0!",
+      "hoyre": "1",
+      "navn": "Nullfakultet"
+    },
+    {
+      "venstre": "C(n, 0)",
+      "hoyre": "C(n, n)",
+      "navn": "Binomialkoeffisienter ved ytterpunktene"
+    }
+  ],
   "mindmap": {
     "label": "Kombinatorikk",
     "children": [

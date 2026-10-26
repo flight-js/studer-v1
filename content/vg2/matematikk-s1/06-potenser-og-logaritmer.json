@@ -195,6 +195,68 @@
       "explain": "lg x er bare definert for x > 0."
     }
   ],
+  "formler": [
+    {
+      "venstre": "aᵐ · aⁿ",
+      "hoyre": "aᵐ⁺ⁿ",
+      "navn": "Produkt av potenser"
+    },
+    {
+      "venstre": "aᵐ / aⁿ",
+      "hoyre": "aᵐ⁻ⁿ",
+      "navn": "Kvotient av potenser"
+    },
+    {
+      "venstre": "(aᵐ)ⁿ",
+      "hoyre": "aᵐ·ⁿ",
+      "navn": "Potens av potens"
+    },
+    {
+      "venstre": "a⁰",
+      "hoyre": "1",
+      "navn": "Potens med eksponent null"
+    },
+    {
+      "venstre": "a⁻ⁿ",
+      "hoyre": "1/aⁿ",
+      "navn": "Negativ eksponent"
+    },
+    {
+      "venstre": "a^(1/n)",
+      "hoyre": "ⁿ√a",
+      "navn": "Potens med brøkeksponent"
+    },
+    {
+      "venstre": "10^(lg x)",
+      "hoyre": "x",
+      "navn": "Ti opphøyd i logaritme"
+    },
+    {
+      "venstre": "lg(10ˣ)",
+      "hoyre": "x",
+      "navn": "Logaritme av tierpotens"
+    },
+    {
+      "venstre": "lg(a · b)",
+      "hoyre": "lg a + lg b",
+      "navn": "Logaritme av produkt"
+    },
+    {
+      "venstre": "lg(a / b)",
+      "hoyre": "lg a − lg b",
+      "navn": "Logaritme av brøk"
+    },
+    {
+      "venstre": "lg(aˣ)",
+      "hoyre": "x · lg a",
+      "navn": "Logaritme av potens"
+    },
+    {
+      "venstre": "pH",
+      "hoyre": "−lg[H₃O⁺]",
+      "navn": "pH-formelen"
+    }
+  ],
   "mindmap": {
     "label": "Potenser og logaritmer",
     "children": [

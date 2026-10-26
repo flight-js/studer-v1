@@ -192,6 +192,63 @@
       "explain": "Overflaten av en kule er O = 4πr², altså like stor som fire sirkler med samme radius."
     }
   ],
+  "formler": [
+    {
+      "venstre": "V",
+      "hoyre": "G · h",
+      "navn": "Volum av prisme"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "πr² · h",
+      "navn": "Volum av sylinder"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "G · h / 3",
+      "navn": "Volum av pyramide"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "πr² · h / 3",
+      "navn": "Volum av kjegle"
+    },
+    {
+      "venstre": "O",
+      "hoyre": "2πr² + 2πrh",
+      "navn": "Overflate av sylinder"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "4πr³/3",
+      "navn": "Volum av kule"
+    },
+    {
+      "venstre": "O",
+      "hoyre": "4πr²",
+      "navn": "Overflate av kule"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "l · b · h",
+      "navn": "Volum av firkantet prisme"
+    },
+    {
+      "venstre": "1 L",
+      "hoyre": "1000 cm³",
+      "navn": "Liter til kubikkcentimeter"
+    },
+    {
+      "venstre": "1 m³",
+      "hoyre": "1000 L",
+      "navn": "Kubikkmeter til liter"
+    },
+    {
+      "venstre": "1 m³",
+      "hoyre": "1000 dm³",
+      "navn": "Kubikkmeter til kubikkdesimeter"
+    }
+  ],
   "mindmap": {
     "label": "Overflate og volum",
     "children": [

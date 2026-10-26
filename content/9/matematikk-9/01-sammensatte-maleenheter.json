@@ -195,6 +195,38 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "v",
+      "hoyre": "s / t",
+      "navn": "Fart fra strekning og tid"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "v · t",
+      "navn": "Strekning fra fart og tid"
+    },
+    {
+      "venstre": "t",
+      "hoyre": "s / v",
+      "navn": "Tid fra strekning og fart"
+    },
+    {
+      "venstre": "1 m/s",
+      "hoyre": "3,6 km/h",
+      "navn": "Omregning fra m/s til km/h"
+    },
+    {
+      "venstre": "1 km",
+      "hoyre": "1000 m",
+      "navn": "Kilometer til meter"
+    },
+    {
+      "venstre": "1 h",
+      "hoyre": "3600 s",
+      "navn": "Timer til sekunder"
+    }
+  ],
   "mindmap": {
     "label": "Sammensatte måleenheter",
     "children": [

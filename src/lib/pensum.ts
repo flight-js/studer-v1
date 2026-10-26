@@ -21,6 +21,7 @@ export type TemaDetaljer = TemaKort & {
   trinnNavn: string;
   nummer: number;
   antallTemaer: number;
+  antallFormler: number;
 };
 
 // kjerne: noe nesten alle klasser lærer i temaet. Resten (eksempler som skoler
@@ -38,6 +39,10 @@ export type Sporsmal = {
 };
 
 export type Tankekart = { label: string; note?: string; children?: Tankekart[] };
+
+// En formel i formelmatchen: venstre = hoyre, og hva den er (navn). I
+// repetisjonstemaet står det også hvilket tema den kommer fra.
+export type Formel = { venstre: string; hoyre: string; navn: string; tema?: string };
 
 export type Aktivitet = "flashcards" | "quiz" | "miniprove";
 export type Resultat = { beste: number; av: number; sistOvd: string };
@@ -89,7 +94,7 @@ export async function hentTema(id: string): Promise<TemaDetaljer> {
   const t = sjekk(
     await supabase
       .from("temaer")
-      .select("id, slug, navn, intro, status, sortering, fag(id, navn, trinn(id, navn))")
+      .select("id, slug, navn, intro, status, sortering, antall_formler, fag(id, navn, trinn(id, navn))")
       .eq("id", id)
       .maybeSingle()
   );
@@ -108,6 +113,7 @@ export async function hentTema(id: string): Promise<TemaDetaljer> {
     trinnNavn: t.fag.trinn.navn,
     nummer: alle.findIndex((a) => a.id === t.id) + 1,
     antallTemaer: alle.length,
+    antallFormler: t.antall_formler,
   };
 }
 
@@ -185,6 +191,11 @@ export async function hentSammendrag(id: string) {
     await supabase.from("tema_innhold").select("sammendrag, tankekart").eq("tema_id", id).maybeSingle()
   );
   return { sammendrag: r.sammendrag, tankekart: r.tankekart as unknown as Tankekart };
+}
+
+export async function hentFormler(id: string): Promise<Formel[]> {
+  const r = sjekk(await supabase.from("tema_innhold").select("formler").eq("tema_id", id).maybeSingle());
+  return r.formler as unknown as Formel[];
 }
 
 // Fremdrift ---------------------------------------------------------------------

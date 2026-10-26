@@ -196,6 +196,38 @@
       "explain": "Slik fungerer en generator."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Φ",
+      "hoyre": "B · A · cos θ",
+      "navn": "Magnetisk fluks"
+    },
+    {
+      "venstre": "ε",
+      "hoyre": "−N · ΔΦ / Δt",
+      "navn": "Faradays induksjonslov"
+    },
+    {
+      "venstre": "ε",
+      "hoyre": "B · l · v",
+      "navn": "Spenning i bevegelig leder"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "qvB",
+      "navn": "Kraft på ladning"
+    },
+    {
+      "venstre": "Φ",
+      "hoyre": "B · A",
+      "navn": "Fluks vinkelrett på flaten"
+    },
+    {
+      "venstre": "1 Wb",
+      "hoyre": "1 T · m²",
+      "navn": "Weber i tesla og areal"
+    }
+  ],
   "mindmap": {
     "label": "Elektromagnetisk induksjon",
     "children": [

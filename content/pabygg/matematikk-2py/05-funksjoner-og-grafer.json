@@ -193,6 +193,13 @@
       "explain": "Eksponentiell vekst blir etter hvert mye raskere."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a",
+      "hoyre": "(y₂ − y₁)/(x₂ − x₁)",
+      "navn": "Stigningstall mellom punkter"
+    }
+  ],
   "mindmap": {
     "label": "Funksjoner og grafer",
     "children": [

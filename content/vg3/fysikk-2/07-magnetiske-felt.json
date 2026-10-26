@@ -193,6 +193,28 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "F",
+      "hoyre": "B · I · l",
+      "navn": "Kraft på strømførende leder"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "q · v · B",
+      "navn": "Kraft på ladd partikkel"
+    },
+    {
+      "venstre": "qvB",
+      "hoyre": "mv² / r",
+      "navn": "Magnetisk sentripetalkraft"
+    },
+    {
+      "venstre": "r",
+      "hoyre": "mv / (qB)",
+      "navn": "Radius for ladd partikkel"
+    }
+  ],
   "mindmap": {
     "label": "Magnetiske felt",
     "children": [

@@ -247,6 +247,28 @@
       "explain": "Mg + 2HCl → MgCl₂ + H₂. Magnesium er et uedelt metall som reduserer H⁺ til hydrogengass."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Kw",
+      "hoyre": "[H₃O⁺] · [OH⁻]",
+      "navn": "Vannets ionekonstant"
+    },
+    {
+      "venstre": "pH",
+      "hoyre": "−log[H₃O⁺]",
+      "navn": "Beregning av pH"
+    },
+    {
+      "venstre": "pOH",
+      "hoyre": "−log[OH⁻]",
+      "navn": "Beregning av pOH"
+    },
+    {
+      "venstre": "pH + pOH",
+      "hoyre": "14",
+      "navn": "Sammenheng mellom pH og pOH"
+    }
+  ],
   "mindmap": {
     "label": "Syrer, baser og pH",
     "children": [

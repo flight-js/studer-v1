@@ -192,6 +192,18 @@
       "explain": "Skill mellom statistisk og praktisk betydning."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Z",
+      "hoyre": "(p̂ − p₀)/√(p₀(1 − p₀)/n)",
+      "navn": "Teststørrelse for andel"
+    },
+    {
+      "venstre": "p̂",
+      "hoyre": "X/n",
+      "navn": "Observert andel"
+    }
+  ],
   "mindmap": {
     "label": "Hypotesetesting",
     "children": [

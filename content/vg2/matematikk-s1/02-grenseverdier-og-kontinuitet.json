@@ -194,6 +194,13 @@
       "explain": "For eksempel x² + 3x − 1."
     }
   ],
+  "formler": [
+    {
+      "venstre": "E(x)",
+      "hoyre": "K(x)/x",
+      "navn": "Enhetskostnad fra kostnad"
+    }
+  ],
   "mindmap": {
     "label": "Grenser og kontinuitet",
     "children": [

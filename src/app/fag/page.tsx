@@ -8,6 +8,7 @@ import { Logo } from "@/components/Logo";
 import { ArrowUp, ChevronRight, Repeat } from "@/components/icons";
 import { Abonnementskort } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
+import { Tips } from "@/components/Tips";
 import { useAuth } from "@/lib/auth";
 import {
   hentFremdrift,
@@ -17,6 +18,7 @@ import {
   REPETISJON,
   temaHref,
 } from "@/lib/pensum";
+import { TIPS } from "@/lib/tips";
 import { useHent } from "@/lib/useHent";
 
 export default function FagvalgPage() {
@@ -95,6 +97,7 @@ function Fagvalg() {
       id="innhold"
       className="px-5 sm:px-8 pt-10 pb-20 flex flex-col gap-10 max-w-5xl w-full mx-auto"
     >
+      {bruker && <Tips tips={TIPS.fag} flytende />}
       <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em]">
         Hva vil du øve på?
       </h1>

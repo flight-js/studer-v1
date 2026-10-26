@@ -195,6 +195,13 @@
       "explain": "Venstre og høyre side skal bli like."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(a + b)²",
+      "hoyre": "a² + 2ab + b²",
+      "navn": "Kvadrat av en sum"
+    }
+  ],
   "mindmap": {
     "label": "Algebra og likninger",
     "children": [

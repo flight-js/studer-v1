@@ -195,6 +195,18 @@
       "explain": "En kald vinter motbeviser ikke global oppvarming."
     }
   ],
+  "formler": [
+    {
+      "venstre": "I",
+      "hoyre": "σ · T⁴",
+      "navn": "Stefan–Boltzmanns lov"
+    },
+    {
+      "venstre": "σ",
+      "hoyre": "5,67 · 10⁻⁸ W/(m²·K⁴)",
+      "navn": "Stefan–Boltzmanns konstant"
+    }
+  ],
   "mindmap": {
     "label": "Stråling og klima",
     "children": [

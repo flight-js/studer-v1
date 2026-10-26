@@ -192,6 +192,23 @@
       "explain": "Da er ΔH større enn TΔS."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ΔG",
+      "hoyre": "ΔH − TΔS",
+      "navn": "Gibbs fri energi"
+    },
+    {
+      "venstre": "ΔG°",
+      "hoyre": "−RT ln K",
+      "navn": "Fri energi og likevektskonstant"
+    },
+    {
+      "venstre": "R",
+      "hoyre": "8,314 J/(mol·K)",
+      "navn": "Gasskonstanten"
+    }
+  ],
   "mindmap": {
     "label": "Entropi og spontanitet",
     "children": [

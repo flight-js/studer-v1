@@ -197,6 +197,28 @@
       "explain": "Ved lave farter er Newtons fysikk god."
     }
   ],
+  "formler": [
+    {
+      "venstre": "t",
+      "hoyre": "γ · t₀",
+      "navn": "Tidsforlengelse"
+    },
+    {
+      "venstre": "γ",
+      "hoyre": "1 / √(1 − v²/c²)",
+      "navn": "Gammafaktoren"
+    },
+    {
+      "venstre": "L",
+      "hoyre": "L₀ / γ",
+      "navn": "Lengdeforkortning"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "mc²",
+      "navn": "Masse og energi"
+    }
+  ],
   "mindmap": {
     "label": "Relativitetsteori",
     "children": [

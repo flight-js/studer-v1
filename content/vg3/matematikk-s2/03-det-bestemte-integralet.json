@@ -194,6 +194,23 @@
       "explain": "Integralet er grenseverdien."
     }
   ],
+  "formler": [
+    {
+      "venstre": "Δx",
+      "hoyre": "(b − a)/n",
+      "navn": "Bredde på delintervall"
+    },
+    {
+      "venstre": "∫ₐᵇ (f(x) + g(x)) dx",
+      "hoyre": "∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx",
+      "navn": "Integral av en sum"
+    },
+    {
+      "venstre": "∫ₐᵇ k · f(x) dx",
+      "hoyre": "k · ∫ₐᵇ f(x) dx",
+      "navn": "Konstantfaktor i integral"
+    }
+  ],
   "mindmap": {
     "label": "Bestemt integral",
     "children": [

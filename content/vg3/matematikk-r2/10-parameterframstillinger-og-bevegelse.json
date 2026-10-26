@@ -193,6 +193,43 @@
       "explain": "Initialbetingelser."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v(t)",
+      "hoyre": "r′(t)",
+      "navn": "Fartsvektor"
+    },
+    {
+      "venstre": "|v(t)|",
+      "hoyre": "√(x′(t)² + y′(t)²)",
+      "navn": "Banefart"
+    },
+    {
+      "venstre": "a(t)",
+      "hoyre": "v′(t)",
+      "navn": "Akselerasjonsvektor"
+    },
+    {
+      "venstre": "a(t)",
+      "hoyre": "[0, −g]",
+      "navn": "Akselerasjon ved skrått kast"
+    },
+    {
+      "venstre": "v(t)",
+      "hoyre": "[−Rω sin(ωt), Rω cos(ωt)]",
+      "navn": "Fartsvektor i sirkelbevegelse"
+    },
+    {
+      "venstre": "a(t)",
+      "hoyre": "−ω² · r(t)",
+      "navn": "Akselerasjon i sirkelbevegelse"
+    },
+    {
+      "venstre": "s",
+      "hoyre": "∫ₐᵇ |v(t)| dt",
+      "navn": "Buelengde"
+    }
+  ],
   "mindmap": {
     "label": "Bevegelse",
     "children": [

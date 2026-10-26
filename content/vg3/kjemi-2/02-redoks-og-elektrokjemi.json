@@ -196,6 +196,33 @@
       "explain": "Hydrogen og oksygen reagerer."
     }
   ],
+  "formler": [
+    {
+      "venstre": "ΔG°",
+      "hoyre": "−zFE°",
+      "navn": "Fri energi fra cellespenning"
+    },
+    {
+      "venstre": "Q",
+      "hoyre": "I · t",
+      "navn": "Ladning fra strøm og tid"
+    },
+    {
+      "venstre": "n(e⁻)",
+      "hoyre": "Q / F",
+      "navn": "Stoffmengde elektroner"
+    },
+    {
+      "venstre": "n",
+      "hoyre": "n(e⁻) / z",
+      "navn": "Stoffmengde fra elektroner"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "96 485 C/mol",
+      "navn": "Faradays konstant"
+    }
+  ],
   "mindmap": {
     "label": "Redoks og elektrokjemi",
     "children": [

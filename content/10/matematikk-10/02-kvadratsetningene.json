@@ -193,6 +193,28 @@
       "explain": "(2x)² + 2 · 2x · 1 + 1² = 4x² + 4x + 1. Husk at hele 2x skal opphøyes."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(a + b)²",
+      "hoyre": "a² + 2ab + b²",
+      "navn": "Første kvadratsetning"
+    },
+    {
+      "venstre": "(a − b)²",
+      "hoyre": "a² − 2ab + b²",
+      "navn": "Andre kvadratsetning"
+    },
+    {
+      "venstre": "(a + b)(a − b)",
+      "hoyre": "a² − b²",
+      "navn": "Produkt av konjugater"
+    },
+    {
+      "venstre": "a² − b²",
+      "hoyre": "(a + b)(a − b)",
+      "navn": "Differanse av kvadrater"
+    }
+  ],
   "mindmap": {
     "label": "Kvadratsetningene",
     "children": [

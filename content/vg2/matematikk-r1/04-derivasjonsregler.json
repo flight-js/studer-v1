@@ -193,6 +193,68 @@
       "explain": "(aˣ)′ = aˣ ln a."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(xⁿ)′",
+      "hoyre": "n · xⁿ⁻¹",
+      "navn": "Potensregelen"
+    },
+    {
+      "venstre": "(k)′",
+      "hoyre": "0",
+      "navn": "Derivert av konstant"
+    },
+    {
+      "venstre": "(k · f)′",
+      "hoyre": "k · f′",
+      "navn": "Konstantfaktorregelen"
+    },
+    {
+      "venstre": "(f ± g)′",
+      "hoyre": "f′ ± g′",
+      "navn": "Sum- og differanseregelen"
+    },
+    {
+      "venstre": "(eˣ)′",
+      "hoyre": "eˣ",
+      "navn": "Derivert av eksponentialfunksjon"
+    },
+    {
+      "venstre": "(aˣ)′",
+      "hoyre": "aˣ · ln a",
+      "navn": "Derivert av potensfunksjon"
+    },
+    {
+      "venstre": "(ln x)′",
+      "hoyre": "1/x",
+      "navn": "Derivert av logaritme"
+    },
+    {
+      "venstre": "(u · v)′",
+      "hoyre": "u′ · v + u · v′",
+      "navn": "Produktregelen"
+    },
+    {
+      "venstre": "(u / v)′",
+      "hoyre": "(u′ · v − u · v′) / v²",
+      "navn": "Kvotientregelen"
+    },
+    {
+      "venstre": "(g(u))′",
+      "hoyre": "g′(u) · u′",
+      "navn": "Kjerneregelen"
+    },
+    {
+      "venstre": "(√x)′",
+      "hoyre": "½ · x^(−½)",
+      "navn": "Derivert av kvadratrot"
+    },
+    {
+      "venstre": "(1/x)′",
+      "hoyre": "−1/x²",
+      "navn": "Derivert av reciprok funksjon"
+    }
+  ],
   "mindmap": {
     "label": "Derivasjonsregler",
     "children": [

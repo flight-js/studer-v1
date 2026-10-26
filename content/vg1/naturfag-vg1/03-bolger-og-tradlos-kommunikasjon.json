@@ -194,6 +194,13 @@
       "explain": "Radiobølger er elektromagnetiske bølger med lang bølgelengde."
     }
   ],
+  "formler": [
+    {
+      "venstre": "v",
+      "hoyre": "λ · f",
+      "navn": "Bølgefart"
+    }
+  ],
   "mindmap": {
     "label": "Bølger og trådløs kommunikasjon",
     "children": [

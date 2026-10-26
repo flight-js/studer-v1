@@ -194,6 +194,43 @@
       "explain": "Vurder alltid gyldighetsområdet."
     }
   ],
+  "formler": [
+    {
+      "venstre": "k",
+      "hoyre": "ln b",
+      "navn": "Vekstkonstant fra vekstfaktor"
+    },
+    {
+      "venstre": "(eᵏᵗ)′",
+      "hoyre": "k · eᵏᵗ",
+      "navn": "Derivasjon av eksponentialfunksjon"
+    },
+    {
+      "venstre": "f′(t)",
+      "hoyre": "k · f(t)",
+      "navn": "Vekstfart ved eksponentiell vekst"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "ln 2 / ln b",
+      "navn": "Doblingstid"
+    },
+    {
+      "venstre": "N(0)",
+      "hoyre": "K / (1 + a)",
+      "navn": "Startverdi i logistisk modell"
+    },
+    {
+      "venstre": "N′",
+      "hoyre": "k · N · (1 − N/K)",
+      "navn": "Logistisk vekstfart"
+    },
+    {
+      "venstre": "b",
+      "hoyre": "1 + p",
+      "navn": "Vekstfaktor ved vekst"
+    }
+  ],
   "mindmap": {
     "label": "Eksponentiell og logistisk vekst",
     "children": [

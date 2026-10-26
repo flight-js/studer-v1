@@ -199,6 +199,38 @@
       "explain": "Trekk først fra 32, del så på 1,8."
     }
   ],
+  "formler": [
+    {
+      "venstre": "s",
+      "hoyre": "v · t",
+      "navn": "Strekning fra fart og tid"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "1,8C + 32",
+      "navn": "Celsius til fahrenheit"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "πr²",
+      "navn": "Areal av sirkel"
+    },
+    {
+      "venstre": "t",
+      "hoyre": "s/v",
+      "navn": "Tid fra strekning og fart"
+    },
+    {
+      "venstre": "C",
+      "hoyre": "(F − 32)/1,8",
+      "navn": "Fahrenheit til celsius"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "l · b",
+      "navn": "Areal av rektangel"
+    }
+  ],
   "mindmap": {
     "label": "Formler og variabler",
     "children": [

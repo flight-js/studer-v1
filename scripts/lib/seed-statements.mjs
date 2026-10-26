@@ -55,17 +55,18 @@ export function seedStatements(opts = {}) {
       grupper.push({
         navn: `${f.navn}: ${t.navn}`,
         setninger: [
-          "insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values\n" +
+          "insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, antall_formler, oppdatert) values\n" +
             values([[
               str(t.id), str(t.fag_id), str(t.slug), str(t.navn), str(t.intro), intArr(t.kompetansemaal),
-              int(t.sortering), str(t.status), textArr(t.merknader), bool(t.publisert), "now()",
+              int(t.sortering), str(t.status), textArr(t.merknader), bool(t.publisert), int(t.antall_formler), "now()",
             ]]) +
             "\non conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,\n" +
             "  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,\n" +
-            "  publisert = excluded.publisert, oppdatert = excluded.oppdatert;",
-          "insert into public.tema_innhold (tema_id, sammendrag, tankekart) values\n" +
-            values([[str(inn.tema_id), str(inn.sammendrag), jsonb(inn.tankekart)]]) +
-            "\non conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;",
+            "  publisert = excluded.publisert, antall_formler = excluded.antall_formler, oppdatert = excluded.oppdatert;",
+          "insert into public.tema_innhold (tema_id, sammendrag, tankekart, formler) values\n" +
+            values([[str(inn.tema_id), str(inn.sammendrag), jsonb(inn.tankekart), jsonb(inn.formler)]]) +
+            "\non conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart,\n" +
+            "  formler = excluded.formler;",
           `delete from public.flashcards where tema_id = ${str(t.id)};`,
           "insert into public.flashcards (tema_id, begrep, forklaring, kjerne, sortering) values\n" +
             values(

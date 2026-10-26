@@ -193,6 +193,7 @@
       "explain": "Antall kast før sekser er tilfeldig og varierer. En simulering med mange runder gir et godt anslag på gjennomsnittet."
     }
   ],
+  "formler": [],
   "mindmap": {
     "label": "Simulering",
     "children": [

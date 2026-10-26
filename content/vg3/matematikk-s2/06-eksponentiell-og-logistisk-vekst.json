@@ -195,6 +195,38 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "k",
+      "hoyre": "ln b",
+      "navn": "Sammenheng mellom vekstfaktorer"
+    },
+    {
+      "venstre": "f′(t)",
+      "hoyre": "k · f(t)",
+      "navn": "Vekstfart ved eksponentiell vekst"
+    },
+    {
+      "venstre": "T",
+      "hoyre": "ln 2/k",
+      "navn": "Doblingstid"
+    },
+    {
+      "venstre": "N(0)",
+      "hoyre": "K/(1 + a)",
+      "navn": "Startverdi i logistisk modell"
+    },
+    {
+      "venstre": "t",
+      "hoyre": "ln a/b",
+      "navn": "Tidspunkt for vendepunkt"
+    },
+    {
+      "venstre": "N′",
+      "hoyre": "b · N(1 − N/K)",
+      "navn": "Vekstfart ved logistisk vekst"
+    }
+  ],
   "mindmap": {
     "label": "Vekstmodeller",
     "children": [

@@ -237,6 +237,23 @@
       "explain": "Molforholdet CH₄ : CO₂ er 1 : 1, så det dannes 1,00 mol CO₂. m = 1,00 mol · 44,01 g/mol = 44,0 g."
     }
   ],
+  "formler": [
+    {
+      "venstre": "n",
+      "hoyre": "m / M",
+      "navn": "Stoffmengde fra masse"
+    },
+    {
+      "venstre": "m",
+      "hoyre": "n · M",
+      "navn": "Masse fra stoffmengde"
+    },
+    {
+      "venstre": "N",
+      "hoyre": "n · N_A",
+      "navn": "Partikkelantall fra stoffmengde"
+    }
+  ],
   "mindmap": {
     "label": "Stoffmengde og støkiometri",
     "children": [

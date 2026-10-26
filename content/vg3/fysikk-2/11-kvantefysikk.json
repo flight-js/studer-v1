@@ -196,6 +196,28 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "E",
+      "hoyre": "h · f",
+      "navn": "Fotonenergi fra frekvens"
+    },
+    {
+      "venstre": "E_k",
+      "hoyre": "hf − W",
+      "navn": "Fotoelektrisk effekt"
+    },
+    {
+      "venstre": "λ",
+      "hoyre": "h / p",
+      "navn": "de Broglie-bølgelengde fra bevegelsesmengde"
+    },
+    {
+      "venstre": "h",
+      "hoyre": "6,63 · 10⁻³⁴ J·s",
+      "navn": "Plancks konstant"
+    }
+  ],
   "mindmap": {
     "label": "Kvantefysikk",
     "children": [

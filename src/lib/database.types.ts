@@ -449,16 +449,19 @@ export type Database = {
       }
       tema_innhold: {
         Row: {
+          formler: Json
           sammendrag: string
           tankekart: Json
           tema_id: string
         }
         Insert: {
+          formler?: Json
           sammendrag: string
           tankekart: Json
           tema_id: string
         }
         Update: {
+          formler?: Json
           sammendrag?: string
           tankekart?: Json
           tema_id?: string
@@ -475,6 +478,7 @@ export type Database = {
       }
       temaer: {
         Row: {
+          antall_formler: number
           fag_id: string
           id: string
           intro: string
@@ -488,6 +492,7 @@ export type Database = {
           status: string
         }
         Insert: {
+          antall_formler?: number
           fag_id: string
           id: string
           intro: string
@@ -501,6 +506,7 @@ export type Database = {
           status?: string
         }
         Update: {
+          antall_formler?: number
           fag_id?: string
           id?: string
           intro?: string

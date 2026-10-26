@@ -194,6 +194,18 @@
       "explain": "Toppen ligger midt på."
     }
   ],
+  "formler": [
+    {
+      "venstre": "E(X)",
+      "hoyre": "n · p",
+      "navn": "Forventningsverdi i binomisk fordeling"
+    },
+    {
+      "venstre": "P(X ≥ k)",
+      "hoyre": "1 − P(X ≤ k − 1)",
+      "navn": "Minst k suksesser"
+    }
+  ],
   "mindmap": {
     "label": "Binomisk fordeling",
     "children": [

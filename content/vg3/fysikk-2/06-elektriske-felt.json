@@ -195,6 +195,58 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "F",
+      "hoyre": "k · |q₁ · q₂| / r²",
+      "navn": "Coulombs lov"
+    },
+    {
+      "venstre": "k",
+      "hoyre": "8,99 · 10⁹ N·m²/C²",
+      "navn": "Coulombs konstant"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "F / q",
+      "navn": "Elektrisk feltstyrke"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "kQ / r²",
+      "navn": "Feltstyrke fra punktladning"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "U / d",
+      "navn": "Feltstyrke mellom plater"
+    },
+    {
+      "venstre": "F",
+      "hoyre": "qE",
+      "navn": "Kraft i elektrisk felt"
+    },
+    {
+      "venstre": "W",
+      "hoyre": "qU",
+      "navn": "Arbeid i elektrisk felt"
+    },
+    {
+      "venstre": "1 eV",
+      "hoyre": "1,60 · 10⁻¹⁹ J",
+      "navn": "Elektronvolt i joule"
+    },
+    {
+      "venstre": "½mv²",
+      "hoyre": "eU",
+      "navn": "Energi ved akselerasjon"
+    },
+    {
+      "venstre": "v",
+      "hoyre": "√(2qU / m)",
+      "navn": "Fart etter ladningsakselerasjon"
+    }
+  ],
   "mindmap": {
     "label": "Elektriske felt",
     "children": [

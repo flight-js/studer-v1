@@ -192,6 +192,38 @@
       "explain": "y-enhet per x-enhet."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(xⁿ)′",
+      "hoyre": "n · xⁿ⁻¹",
+      "navn": "Derivasjon av potens"
+    },
+    {
+      "venstre": "(f + g)′",
+      "hoyre": "f′ + g′",
+      "navn": "Derivasjon av sum"
+    },
+    {
+      "venstre": "(k · f)′",
+      "hoyre": "k · f′",
+      "navn": "Derivasjon av konstant ganger funksjon"
+    },
+    {
+      "venstre": "y − f(a)",
+      "hoyre": "f′(a)(x − a)",
+      "navn": "Tangentlikning"
+    },
+    {
+      "venstre": "(k)′",
+      "hoyre": "0",
+      "navn": "Derivasjon av konstant"
+    },
+    {
+      "venstre": "(x)′",
+      "hoyre": "1",
+      "navn": "Derivasjon av x"
+    }
+  ],
   "mindmap": {
     "label": "Vekstfart og derivasjon",
     "children": [

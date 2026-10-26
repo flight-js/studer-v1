@@ -11,11 +11,13 @@ import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Fortsett } from "@/components/hjem/Fortsett";
 import { Logo } from "@/components/Logo";
 import { ArrowRight } from "@/components/icons";
+import { Tips } from "@/components/Tips";
 import { Abonnementskort } from "@/components/Las";
 import { useAuth } from "@/lib/auth";
 import { hentKatalog, hentSisteTemaer } from "@/lib/pensum";
 import { lagreTrinn } from "@/lib/profil";
 import { useHent } from "@/lib/useHent";
+import { TIPS } from "@/lib/tips";
 
 // Startsiden for innloggede, i samme natt–dag-rytme som forsiden: øverst
 // pulten med lampa på det man øvde på sist (se hjem/Fortsett.tsx), under det
@@ -98,6 +100,7 @@ export function Hjem() {
       </header>
 
       <main id="innhold" className="flex flex-col flex-1">
+        <Tips tips={TIPS.hjem} flytende />
         {/* Natt: pulten */}
         <section aria-labelledby="hei" className="fs-natt relative overflow-hidden">
           <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-28 sm:pt-36 pb-16 lg:pb-24">

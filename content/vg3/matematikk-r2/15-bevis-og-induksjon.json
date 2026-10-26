@@ -197,6 +197,23 @@
       "explain": "x kan også være −2."
     }
   ],
+  "formler": [
+    {
+      "venstre": "1 + 3 + 5 + … + (2n − 1)",
+      "hoyre": "n²",
+      "navn": "Sum av oddetall"
+    },
+    {
+      "venstre": "k² + 2k + 1",
+      "hoyre": "(k + 1)²",
+      "navn": "Kvadrat av sum"
+    },
+    {
+      "venstre": "n",
+      "hoyre": "2k + 1",
+      "navn": "Oddetall med variabel"
+    }
+  ],
   "mindmap": {
     "label": "Bevis",
     "children": [

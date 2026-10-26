@@ -199,6 +199,18 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "E(X)",
+      "hoyre": "n · M / N",
+      "navn": "Forventningsverdi for hypergeometrisk fordeling"
+    },
+    {
+      "venstre": "p",
+      "hoyre": "M/N",
+      "navn": "Sannsynlighet i binomisk tilnærming"
+    }
+  ],
   "mindmap": {
     "label": "Hypergeometrisk fordeling",
     "children": [

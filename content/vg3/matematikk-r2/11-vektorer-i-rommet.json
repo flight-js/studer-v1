@@ -193,6 +193,63 @@
       "explain": "Volumet er null."
     }
   ],
+  "formler": [
+    {
+      "venstre": "AB",
+      "hoyre": "[x₂ − x₁, y₂ − y₁, z₂ − z₁]",
+      "navn": "Vektor mellom punkter"
+    },
+    {
+      "venstre": "|u|",
+      "hoyre": "√(a² + b² + c²)",
+      "navn": "Lengde av vektor"
+    },
+    {
+      "venstre": "u · v",
+      "hoyre": "u₁v₁ + u₂v₂ + u₃v₃",
+      "navn": "Skalarprodukt med koordinater"
+    },
+    {
+      "venstre": "cos θ",
+      "hoyre": "(u · v)/(|u| · |v|)",
+      "navn": "Vinkel mellom vektorer"
+    },
+    {
+      "venstre": "u × v",
+      "hoyre": "[u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁]",
+      "navn": "Vektorprodukt i koordinater"
+    },
+    {
+      "venstre": "|u × v|",
+      "hoyre": "|u| · |v| · sin θ",
+      "navn": "Lengde av vektorprodukt"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "|u × v|",
+      "navn": "Parallellogrammets areal"
+    },
+    {
+      "venstre": "A",
+      "hoyre": "½ · |AB × AC|",
+      "navn": "Areal av trekant"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "|(u × v) · w|",
+      "navn": "Volum av parallellepiped"
+    },
+    {
+      "venstre": "V",
+      "hoyre": "(1/6) · |(u × v) · w|",
+      "navn": "Volum av tetraeder"
+    },
+    {
+      "venstre": "τ",
+      "hoyre": "r × F",
+      "navn": "Dreiemoment"
+    }
+  ],
   "mindmap": {
     "label": "Vektorer i rommet",
     "children": [

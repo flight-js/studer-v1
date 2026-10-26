@@ -154,6 +154,15 @@ Trinnet «Påbygg» (Vg3 påbygging til generell studiekompetanse) har de fire f
 
 Repetisjonstemaene er laget med `content:repetisjon`. Endres et kildetema, kjør lag-pabygg på nytt, så `content:repetisjon -- <fag> --pa-nytt` og import.
 
+## Formelmatch (oktober 2026)
+
+Temaer med formler har feltet `formler` (venstre, høyre og navn), som brukes i formelmatchen på `/formler`. Formlene er hentet ut med `npm run content:formler -- <fag …>` for de 27 fagene med formler (matte, fysikk, kjemi, naturfag, biologi, geofag, IT, TOF og samfunnsøkonomi). Bare formler som står ordrett i temaets eget innhold blir med. Etterpå er listene gått gjennom for hånd (`scripts/innhold/formler-rydd.mjs`): regneeksempler med bestemte tall, betingelser som «f′(x) = 0», programlinjer og formler med bare et funksjonsnavn til venstre (f(x), N(t), r(t)) er tatt ut.
+
+- `content:check` gir feil på formler skrevet med ord og formler med bare et funksjonsnavn til venstre.
+- Repetisjonstemaet får formlene fra alle temaene i faget ved importen, med hvilket tema hver formel kommer fra.
+- Temasiden viser formelmatch når minst tre formler har ulik venstreside (`antall_formler`). Det gjelder 85 temaer.
+- Nytt fag med formler: kjør `content:formler`, se gjennom lista, og kjør så `content:import`.
+
 ## Gjenstår
 
 Ingen fag gjenstår. Faktasjekken av «sjekkes»-temaene ble gjort i september 2026: 58 av 62 er rettet og satt til «utkast». De 4 som fortsatt har status «sjekkes» (se merknadene i GJENNOMGANG.md), venter på noe utenfor innholdet selv:

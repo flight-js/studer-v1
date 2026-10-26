@@ -192,6 +192,28 @@
       "explain": "tan⁻¹(1/12) ≈ 4,8°."
     }
   ],
+  "formler": [
+    {
+      "venstre": "tan v",
+      "hoyre": "sin v / cos v",
+      "navn": "Tangens med sinus og cosinus"
+    },
+    {
+      "venstre": "sin(180° − v)",
+      "hoyre": "sin v",
+      "navn": "Sinus for supplementvinkel"
+    },
+    {
+      "venstre": "cos(180° − v)",
+      "hoyre": "−cos v",
+      "navn": "Cosinus for supplementvinkel"
+    },
+    {
+      "venstre": "sin²v + cos²v",
+      "hoyre": "1",
+      "navn": "Trigonometrisk identitet"
+    }
+  ],
   "mindmap": {
     "label": "Sinus, cosinus og tangens",
     "children": [

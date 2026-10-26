@@ -10,6 +10,39 @@ import { fileURLToPath } from "node:url";
 const ROOT = fileURLToPath(new URL("../../content/", import.meta.url));
 const readJson = (p) => JSON.parse(readFileSync(p, "utf8"));
 
+// Samme formel skrevet litt ulikt (mellomrom, gangetegn, minus, fet skrift)
+// regnes som lik. Brukes også av lag-formler.mjs.
+export const normaliserFormel = (s) =>
+  s
+    .replace(/\*\*/g, "")
+    .replace(/[\s\u00a0\u202f]/g, "")
+    .replace(/[*×⋅•]/g, "·")
+    .replace(/[−–]/g, "-");
+
+// Formelmatchen skal bare ha formler skrevet med symboler, ikke med ord
+// («Utbytte i prosent = faktisk utbytte / …» er ute). Tre bokstaver på rad er
+// greit (sin, log, lim, mol, pOH, E_kin), fire eller flere regnes som ord.
+// Navnet på en formel skrives som en setning: «Integral av sinus», ikke «Integral
+// Av Sinus». Egennavn (Celsius, Eulers metode, de Broglie) beholder stor bokstav.
+const EGENNAVN = /^(Fahrenheit|Celsius|Kelvin|Eulers?|Newtons?|Pytagoras'?|Broglie|Hardy|Weinberg|Ohms?|Coulombs?|Avogadros?|Plancks?|Einsteins?|Keplers?|Hookes?|Bohrs?|Gauss)\b/;
+export const somSetning = (navn) =>
+  navn
+    .split(" ")
+    .map((ord, i) => (i === 0 || EGENNAVN.test(ord) ? ord : ord.replace(/^([A-ZÆØÅ])(?=[a-zæøå])/, (b) => b.toLowerCase())))
+    .join(" ");
+
+// Venstresiden må si hva formelen er. «f(x) = a · bˣ» og «N(t) = K/(1 + a · e⁻ᵏᵗ)»
+// har bare et funksjonsnavn til venstre, så alle slike brikker passer med alle
+// funksjonsuttrykk – det er ingenting å koble.
+const GENERISK = /^(?:[fghN]\([xt]\)|r⃗?\(t\))$/;
+export const harGeneriskVenstreside = (f) => GENERISK.test(f.venstre.replace(/\s/g, ""));
+
+const FUNKSJONER = new Set(["arcsin", "arccos", "arctan", "sinh", "cosh", "tanh"]);
+export const erSymbolformel = (f) =>
+  [f.venstre, f.hoyre].every((side) =>
+    (side.match(/[A-Za-zÆØÅæøå]{4,}/g) ?? []).every((ord) => FUNKSJONER.has(ord.toLowerCase()))
+  );
+
 /**
  * @param {{ publiserUtkast?: boolean, fag?: string[] }} opts
  *   publiserUtkast – publiser temaer uansett status (for testing)
@@ -58,6 +91,28 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
     );
     const slugs = meta.temaer.filter((slug) => filer.has(slug));
 
+    // Temasiden viser formelmatchen bare når minst tre formler har ulik venstreside
+    // (samme tekst kan bare stå én gang per brett, se src/lib/formelmatch.ts).
+    const spillbare = (liste) =>
+      new Set(liste.map((f) => normaliserFormel(f.venstre))).size >= 3 ? liste.length : 0;
+
+    // Formlene til formelmatchen. Repetisjonstemaet får formlene fra alle
+    // temaene i faget, hver formel én gang.
+    const formler = (slug) => {
+      if (slug !== "repetisjon") return filer.get(slug).formler ?? [];
+      const sett = new Set();
+      // tema: hvilket tema formelen kommer fra, så eleven kan velge temaer før runden.
+      return slugs
+        .filter((s) => s !== "repetisjon")
+        .flatMap((s) => (filer.get(s).formler ?? []).map((f) => ({ ...f, tema: filer.get(s).name })))
+        .filter((f) => {
+          const k = normaliserFormel(`${f.venstre}=${f.hoyre}`);
+          if (sett.has(k)) return false;
+          sett.add(k);
+          return true;
+        });
+    };
+
     const temaer = slugs.map((slug) => {
       const t = filer.get(slug);
       const id = `${meta.id}:${slug}`;
@@ -83,8 +138,9 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           status: t.kvalitet.status,
           merknader: t.kvalitet.merknader,
           publisert,
+          antall_formler: spillbare(formler(slug)),
         },
-        innhold: { tema_id: id, sammendrag: t.sammendrag, tankekart: t.mindmap },
+        innhold: { tema_id: id, sammendrag: t.sammendrag, tankekart: t.mindmap, formler: formler(slug) },
         flashcards: t.flashcards.map((c, i) => ({
           tema_id: id,
           begrep: c.term,

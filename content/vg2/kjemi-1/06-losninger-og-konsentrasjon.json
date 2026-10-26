@@ -237,6 +237,18 @@
       "explain": "1 ppm er 1 mg per kg, så 5 mg per kg er 5 ppm."
     }
   ],
+  "formler": [
+    {
+      "venstre": "c",
+      "hoyre": "n / V",
+      "navn": "Stoffmengdekonsentrasjon fra stoffmengde"
+    },
+    {
+      "venstre": "c₁ · V₁",
+      "hoyre": "c₂ · V₂",
+      "navn": "Sammenheng ved fortynning"
+    }
+  ],
   "mindmap": {
     "label": "Løsninger og konsentrasjon",
     "children": [

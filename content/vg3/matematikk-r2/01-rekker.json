@@ -198,6 +198,33 @@
       "explain": "1 + 4 + 9 + 16."
     }
   ],
+  "formler": [
+    {
+      "venstre": "aₙ",
+      "hoyre": "a₁ + (n − 1)d",
+      "navn": "N-te ledd i aritmetisk rekke"
+    },
+    {
+      "venstre": "Sₙ",
+      "hoyre": "n(a₁ + aₙ) / 2",
+      "navn": "Sum av aritmetisk rekke"
+    },
+    {
+      "venstre": "aₙ",
+      "hoyre": "a₁ · kⁿ⁻¹",
+      "navn": "N-te ledd i geometrisk rekke"
+    },
+    {
+      "venstre": "Sₙ",
+      "hoyre": "a₁(kⁿ − 1) / (k − 1)",
+      "navn": "Sum av geometrisk rekke"
+    },
+    {
+      "venstre": "S",
+      "hoyre": "a₁ / (1 − k)",
+      "navn": "Sum av uendelig geometrisk rekke"
+    }
+  ],
   "mindmap": {
     "label": "Rekker",
     "children": [

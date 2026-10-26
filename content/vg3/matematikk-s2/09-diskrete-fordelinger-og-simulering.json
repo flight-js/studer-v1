@@ -195,6 +195,28 @@
       "niva": "eksempel"
     }
   ],
+  "formler": [
+    {
+      "venstre": "E(X)",
+      "hoyre": "np",
+      "navn": "Forventning binomisk fordeling"
+    },
+    {
+      "venstre": "Var(X)",
+      "hoyre": "np(1 − p)",
+      "navn": "Varians binomisk fordeling"
+    },
+    {
+      "venstre": "E(X)",
+      "hoyre": "n · m/N",
+      "navn": "Forventning hypergeometrisk fordeling"
+    },
+    {
+      "venstre": "Var(X)",
+      "hoyre": "λ",
+      "navn": "Varians poissonfordeling"
+    }
+  ],
   "mindmap": {
     "label": "Diskrete fordelinger",
     "children": [

@@ -192,6 +192,38 @@
       "explain": "En konstant endrer seg ikke."
     }
   ],
+  "formler": [
+    {
+      "venstre": "(xⁿ)′",
+      "hoyre": "n · xⁿ⁻¹",
+      "navn": "Derivasjon av potens"
+    },
+    {
+      "venstre": "(f + g)′",
+      "hoyre": "f′ + g′",
+      "navn": "Derivasjon av sum"
+    },
+    {
+      "venstre": "(k · f)′",
+      "hoyre": "k · f′",
+      "navn": "Derivasjon av konstant ganger funksjon"
+    },
+    {
+      "venstre": "(k)′",
+      "hoyre": "0",
+      "navn": "Derivert av konstant"
+    },
+    {
+      "venstre": "(x)′",
+      "hoyre": "1",
+      "navn": "Derivert av X"
+    },
+    {
+      "venstre": "y − f(a)",
+      "hoyre": "f′(a)(x − a)",
+      "navn": "Tangentlikning"
+    }
+  ],
   "mindmap": {
     "label": "Vekstfart og derivasjon",
     "children": [

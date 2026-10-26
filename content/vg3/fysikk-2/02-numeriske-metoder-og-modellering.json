@@ -192,6 +192,48 @@
       "explain": "Komponentvis oppdatering."
     }
   ],
+  "formler": [
+    {
+      "venstre": "a",
+      "hoyre": "ΣF / m",
+      "navn": "Newtons andre lov"
+    },
+    {
+      "venstre": "v_ny",
+      "hoyre": "v + a · Δt",
+      "navn": "Oppdatering av fart"
+    },
+    {
+      "venstre": "x_ny",
+      "hoyre": "x + v · Δt",
+      "navn": "Oppdatering av posisjon"
+    },
+    {
+      "venstre": "L",
+      "hoyre": "k · v²",
+      "navn": "Luftmotstandsmodell"
+    },
+    {
+      "venstre": "ΣF",
+      "hoyre": "mg − kv²",
+      "navn": "Nettokraft med luftmotstand"
+    },
+    {
+      "venstre": "a",
+      "hoyre": "g − (k/m) · v²",
+      "navn": "Akselerasjon med luftmotstand"
+    },
+    {
+      "venstre": "v_t",
+      "hoyre": "√(mg/k)",
+      "navn": "Terminalfart"
+    },
+    {
+      "venstre": "L",
+      "hoyre": "k · v",
+      "navn": "Luftmotstand ved lav fart"
+    }
+  ],
   "mindmap": {
     "label": "Numeriske metoder",
     "children": [

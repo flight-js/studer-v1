@@ -198,6 +198,68 @@
       "explain": "1000 W · 3600 s."
     }
   ],
+  "formler": [
+    {
+      "venstre": "I",
+      "hoyre": "Q / t",
+      "navn": "Strøm fra ladning"
+    },
+    {
+      "venstre": "U",
+      "hoyre": "W / Q",
+      "navn": "Spenning fra energi"
+    },
+    {
+      "venstre": "U",
+      "hoyre": "R · I",
+      "navn": "Ohms lov"
+    },
+    {
+      "venstre": "R",
+      "hoyre": "ρL / A",
+      "navn": "Resistans i ledning"
+    },
+    {
+      "venstre": "R",
+      "hoyre": "R₁ + R₂",
+      "navn": "Resistans i seriekobling"
+    },
+    {
+      "venstre": "1/R",
+      "hoyre": "1/R₁ + 1/R₂",
+      "navn": "Resistans i parallellkobling"
+    },
+    {
+      "venstre": "P",
+      "hoyre": "U · I",
+      "navn": "Elektrisk effekt"
+    },
+    {
+      "venstre": "E",
+      "hoyre": "P · t",
+      "navn": "Elektrisk energi"
+    },
+    {
+      "venstre": "I",
+      "hoyre": "U/R",
+      "navn": "Strøm fra spenning"
+    },
+    {
+      "venstre": "Q",
+      "hoyre": "I · t",
+      "navn": "Ladning fra strøm"
+    },
+    {
+      "venstre": "e",
+      "hoyre": "1,60 · 10⁻¹⁹ C",
+      "navn": "Elementærladning"
+    },
+    {
+      "venstre": "1 kWh",
+      "hoyre": "3,6 MJ",
+      "navn": "Kilowattime i megajoule"
+    }
+  ],
   "mindmap": {
     "label": "Elektrisitet",
     "children": [

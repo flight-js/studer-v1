@@ -252,6 +252,13 @@
       "niva": "over-niva"
     }
   ],
+  "formler": [
+    {
+      "venstre": "c",
+      "hoyre": "n/V",
+      "navn": "Konsentrasjon fra stoffmengde"
+    }
+  ],
   "mindmap": {
     "label": "Titrering og spektroskopi",
     "children": [

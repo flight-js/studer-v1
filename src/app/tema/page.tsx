@@ -8,6 +8,7 @@ import { AppBar } from "@/components/AppBar";
 import {
   Book,
   Cards,
+  Formel,
   ChevronRight,
   Lock,
   Quiz,
@@ -15,8 +16,10 @@ import {
 } from "@/components/icons";
 import { Abonnementskort } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
+import { Tips } from "@/components/Tips";
 import { useAuth, useTilgang } from "@/lib/auth";
 import { abonnementHref } from "@/lib/betaling";
+import { MINST } from "@/lib/formelmatch";
 import { antallOppgaver, poengTekst } from "@/lib/miniprove";
 import {
   hentFremdrift,
@@ -30,6 +33,7 @@ import {
 } from "@/lib/pensum";
 import { useHent } from "@/lib/useHent";
 import { useTemaId } from "@/lib/useTemaId";
+import { TIPS } from "@/lib/tips";
 
 export default function TemaPage() {
   return (
@@ -172,6 +176,16 @@ function Tema() {
                 resultat={f?.miniprove}
                 icon={<Timer size={22} />}
               />
+              {t.antallFormler >= MINST && (
+                <ModeCard
+                  href={temaHref("/formler", id)}
+                  laast={laast}
+                  title="Formelmatch"
+                  text={<>{t.antallFormler} formler<Dot />koble sidene på tid</>}
+                  icon={<Formel size={22} />}
+                  bred
+                />
+              )}
             </div>
             <Abonnementskort neste={temaHref("/tema", id)} />
             {t.status !== "godkjent" && (
@@ -183,8 +197,9 @@ function Tema() {
         </main>
       )}
 
-      {/* AI-hjelp */}
+      {/* AI-hjelp, og tips om den når eleven har tilgang til den */}
       {t && <SporAi temaId={id} temaNavn={t.navn} fagNavn={t.fagNavn} />}
+      {t && !laast && !tilgangLaster && <Tips tips={TIPS.tema} flytende />}
     </div>
   );
 }
@@ -219,6 +234,7 @@ function ModeCard({
   resultat,
   icon,
   featured,
+  bred,
 }: {
   href: string;
   laast: boolean;
@@ -227,13 +243,14 @@ function ModeCard({
   resultat?: Resultat;
   icon: React.ReactNode;
   featured?: boolean;
+  bred?: boolean;
 }) {
   // Låst: til abonnementet, og derfra rett til øvingen etter kjøpet.
   const lenke = laast ? abonnementHref(href) : href;
   return (
     <Link
       href={lenke}
-      className="group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99]"
+      className={`group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99] ${bred ? "sm:col-span-2" : ""}`}
     >
       <span
         className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
