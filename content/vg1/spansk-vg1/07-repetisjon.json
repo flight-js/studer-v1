@@ -441,6 +441,9 @@
         "kriterier": [
           "Bruker ser om personlighetstrekket.",
           "Bruker estar om følelsen og har samsvar mellom adjektiv og person."
+        ],
+        "temaer": [
+          "identitet-og-relasjoner"
         ]
       },
       {
@@ -451,6 +454,10 @@
           "Bruker imperfecto til bakgrunn eller vane.",
           "Bruker indefinido til en avsluttet hendelse.",
           "Uttrykker en følelse forståelig."
+        ],
+        "temaer": [
+          "fortelle-om-opplevelser",
+          "identitet-og-relasjoner"
         ]
       },
       {
@@ -460,6 +467,9 @@
         "kriterier": [
           "Bruker ir a + infinitiv om studieplanen.",
           "Bruker futuro simple om den senere handlingen."
+        ],
+        "temaer": [
+          "skole-og-arbeid"
         ]
       },
       {
@@ -471,7 +481,11 @@
           "Oppgir 17 autonome regioner.",
           "Kobler et regionalt språk til riktig region."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-arbeid",
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "id": "s05",
@@ -481,7 +495,10 @@
           "Bruker llegó i indefinido om Columbus’ reise til Amerika.",
           "Bruker en forståelig passiv form om erobringen av Granada."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "historie"
+        ]
       },
       {
         "id": "s06",
@@ -491,7 +508,11 @@
           "Plasserer borgerkrigen i perioden 1936–1939.",
           "Knytter Guernica til bombingen av byen under krigen."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "historie",
+          "kunst-og-kultur"
+        ]
       },
       {
         "id": "s07",
@@ -500,6 +521,9 @@
         "kriterier": [
           "Bruker me gustaría til å uttrykke et ønske.",
           "Bruker podría i en høflig forespørsel."
+        ],
+        "temaer": [
+          "kunst-og-kultur"
         ]
       },
       {
@@ -511,7 +535,11 @@
           "Oppgir perioden 1810–1825 for de fleste landenes uavhengighet.",
           "Formidler mangfold eller ulike bakgrunner."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker",
+          "historie"
+        ]
       },
       {
         "text": "Forklar på spansk for en norsk utvekslingselev hvordan en vanlig skoledag i Spania kan skille seg fra en i Norge. Ta også med en opplysning om unges arbeidssituasjon i Spania.",
@@ -521,7 +549,10 @@
           "Nevner høy arbeidsledighet blant unge og en følge eller et eksempel, som å flytte utenlands eller jobbe deltid i turisme og service."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-arbeid"
+        ]
       },
       {
         "text": "Fortell på spansk om en situasjon der du kom for sent til stasjonen sammen med søsteren din, og toget allerede hadde gått. Beskriv bakgrunnen eller forholdet mellom dere, hva som skjedde etterpå, og hvordan du følte deg.",
@@ -531,7 +562,11 @@
           "Forteller en avsluttet hendelse med indefinido og tar med en følelse."
         ],
         "id": "s10",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "fortelle-om-opplevelser",
+          "identitet-og-relasjoner"
+        ]
       },
       {
         "text": "En skoleklasse lager en presentasjon om hvor spansk snakkes. Skriv på spansk hvor mange land som har spansk som offisielt språk, hvilket land som har flest spansktalende, og nevn to andre steder eller land der spansk brukes.",
@@ -541,7 +576,10 @@
           "Nevner to andre steder eller land der spansk brukes, for eksempel Puerto Rico, Ekvatorial-Guinea eller USA."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Sammenlign på spansk Don Quijote og Cien años de soledad. Ta med forfatter og utgivelsesår for hvert verk, og én opplysning om handlingen eller litterær stil.",
@@ -551,7 +589,10 @@
           "Knytter García Márquez til Cien años de soledad og 1967, og nevner magisk realisme."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Du skal presentere spansk og latinamerikansk musikk på spansk. Forklar hva flamenco kombinerer og hvor tango oppsto. Avslutt med å si at du liker salsa og cumbia, og bruk gustar riktig.",
@@ -561,7 +602,11 @@
           "Bruker gustar riktig med salsa og cumbia som subjekt i flertall."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur",
+          "identitet-og-relasjoner"
+        ]
       },
       {
         "text": "En venn skal ta en viktig eksamen. Skriv på spansk at du håper vennen har flaks, og fortell hva du skal gjøre hvis du består eksamen.",
@@ -571,7 +616,11 @@
           "Bruker presens etter si og futuro simple for det som skal skje dersom eksamen bestås."
         ],
         "id": "s14",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "skole-og-arbeid",
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Du har sett en utlysning for en sommerjobb innen turisme. Skriv en kort, formell melding på spansk der du sier at du gjerne vil ha jobben fordi du er interessert i turisme, og ber høflig om et jobbintervju.",
@@ -581,7 +630,10 @@
           "Uttrykker interesse for sommerjobben med condicional og ber høflig om et jobbintervju."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-arbeid"
+        ]
       },
       {
         "text": "En besøkende spør hvorfor katalansk og baskisk ble undertrykt i Spania, og hva som skjedde etter Francos død. Forklar dette på spansk, og ta med årstallet for den nye grunnloven.",
@@ -591,7 +643,11 @@
           "Nevner Francos død i 1975, overgangen til demokrati og grunnloven fra 1978."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "historie",
+          "samfunn-og-aktuelle-saker"
+        ]
       }
     ]
   },

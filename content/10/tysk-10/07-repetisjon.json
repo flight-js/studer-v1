@@ -429,6 +429,9 @@
         "kriterier": [
           "Oppgir et reisemål og bruker passende formulering for å reise dit.",
           "Forteller om overnatting og beskriver været."
+        ],
+        "temaer": [
+          "reise-og-ferie"
         ]
       },
       {
@@ -438,6 +441,9 @@
         "kriterier": [
           "Beskriver feber og hodepine med forståelige tyske uttrykk.",
           "Gir et passende råd med modalverb og infinitiv sist."
+        ],
+        "temaer": [
+          "helse-og-kropp"
         ]
       },
       {
@@ -447,6 +453,9 @@
         "kriterier": [
           "Nevner et yrke uten artikkel foran yrkesordet.",
           "Bruker «weil» med verbet sist og/eller korrekt «werden» med infinitiv."
+        ],
+        "temaer": [
+          "framtid-og-planer"
         ]
       },
       {
@@ -456,6 +465,9 @@
         "kriterier": [
           "Nevner en fordel og en ulempe ved sosiale medier.",
           "Bruker uttrykket «Einerseits … andererseits …» og viser forståelse av personvern eller mobbing på nett."
+        ],
+        "temaer": [
+          "ungdom-og-medier"
         ]
       },
       {
@@ -466,7 +478,10 @@
           "Knytter melodien til Beethoven og den niende symfonien.",
           "Forteller at den er EUs hymne."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "id": "s06",
@@ -475,6 +490,9 @@
         "kriterier": [
           "Nevner to miljøvennlige handlinger fra teksten.",
           "Bruker «dass» med verbet sist."
+        ],
+        "temaer": [
+          "miljo-og-samfunn"
         ]
       },
       {
@@ -484,6 +502,9 @@
         "kriterier": [
           "Bruker «nach Berlin» og presens med tidsuttrykk om framtiden.",
           "Nevner et transportmiddel og en ferieaktivitet."
+        ],
+        "temaer": [
+          "reise-og-ferie"
         ]
       },
       {
@@ -493,6 +514,10 @@
         "kriterier": [
           "Nevner en kulturressurs, for eksempel tysk musikk, film eller en serie.",
           "Nevner en læringsstrategi, for eksempel skumlesing eller å dele opp sammensatte ord."
+        ],
+        "temaer": [
+          "ungdom-og-medier",
+          "kunst-og-kultur"
         ]
       },
       {
@@ -503,7 +528,10 @@
           "Nevner tysk vindkraft eller solenergi og at Norge eksporterer gass eller strøm til Tyskland."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-samfunn"
+        ]
       },
       {
         "text": "En elev vurderer to utdanningsveier i Tyskland: Gymnasium og yrkesutdanning. Forklar på tysk hva Gymnasium fører fram til, og hvordan yrkesutdanning i det duale systemet fungerer.",
@@ -513,7 +541,10 @@
           "Forklarer at man i det duale systemet jobber i en bedrift og går på yrkesskole samtidig."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "framtid-og-planer"
+        ]
       },
       {
         "text": "Du lager en faktaboks for ungdom som føler seg stresset og sover for lite. Skriv på tysk om to vaner som kan støtte et sunt liv, og hva man kan gjøre når man ikke har det bra.",
@@ -522,7 +553,10 @@
           "Nevner to sunne vaner, for eksempel nok søvn, fysisk aktivitet eller å spise frukt og grønnsaker.",
           "Nevner at det kan hjelpe å snakke med noen når man ikke har det bra."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "helse-og-kropp"
+        ]
       },
       {
         "text": "Du skal forklare kildesortering i Tyskland for en norsk venn. Skriv på tysk hvor plast- og metallemballasje, papir og matavfall skal kastes, og hva man gjør med flasker og bokser med pant.",
@@ -532,7 +566,10 @@
           "Nevner pant på flasker og bokser."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-samfunn"
+        ]
       },
       {
         "text": "Sammenlign på tysk to litterære bidrag fra Tyskland: Goethes «Faust» og eventyrene til brødrene Grimm. Fortell kort hva «Faust» handler om, og hva brødrene Grimm er kjent for.",
@@ -542,7 +579,10 @@
           "Forteller at brødrene Grimm samlet eventyr, gjerne med et eksempel."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "En tysk ungdomsorganisasjon lager en plakat om ungdomsspråk. Forklar på tysk hva «Jugendwort des Jahres» er, og nevn to kjennetegn ved tysk ungdomsspråk.",
@@ -552,7 +592,10 @@
           "Nevner at mange ungdomsord er lånt fra engelsk, og at ungdomsspråk endrer seg raskt."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "ungdom-og-medier"
+        ]
       },
       {
         "text": "En nordmann skal reise i Tyskland og vil vite hvordan hen får hjelp i en nødsituasjon. Skriv på tysk hvilket nummer man ringer etter ambulanse eller brannvesen, hvilket nummer som er til politiet, og hvilket helsekort nordmenn bør ha med på reise i Europa.",
@@ -562,7 +605,11 @@
           "Nevner Europeisk helsetrygdkort som kort nordmenn bør ha med på reise i Europa."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "reise-og-ferie",
+          "helse-og-kropp"
+        ]
       },
       {
         "text": "En skoleklasse ser den tyske filmen «Das Leben der Anderen». Skriv på tysk hva filmen handler om, og nevn et tema fra tysk historie som skoler legger stor vekt på.",
@@ -572,7 +619,11 @@
           "Nevner et tema fra tysk historie som skolene legger stor vekt på, for eksempel delingen av Tyskland, andre verdenskrig eller Holocaust."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur",
+          "miljo-og-samfunn"
+        ]
       }
     ]
   },

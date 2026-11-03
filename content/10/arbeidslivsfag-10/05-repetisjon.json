@@ -479,7 +479,11 @@
           "Viser prosjektfasene i riktig rekkefølge eller forklarer planlegging og oppfølging.",
           "Gir et tydelig, målbart og tidsbestemt mål for elevbedriften."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "prosjektstyring",
+          "ungdomsbedrift"
+        ]
       },
       {
         "id": "s02",
@@ -489,7 +493,10 @@
           "Forklarer at undersøkelsen undersøker kundenes interesse eller betalingsvilje og gjerne konkurrenter.",
           "Nevner produkt, pris, plass og påvirkning."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "ungdomsbedrift"
+        ]
       },
       {
         "id": "s03",
@@ -498,6 +505,10 @@
         "kriterier": [
           "Skiller mellom forventede tall i budsjettet og faktiske tall i regnskapet.",
           "Forklarer at sammenligning viser om rammene ble fulgt."
+        ],
+        "temaer": [
+          "prosjektstyring",
+          "ungdomsbedrift"
         ]
       },
       {
@@ -507,6 +518,9 @@
         "kriterier": [
           "Nevner minst to plikter som arbeidstaker.",
           "Forklarer arbeidsgiverens ansvar for opplæring og trygghet."
+        ],
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet"
         ]
       },
       {
@@ -517,7 +531,11 @@
           "Kobler læretid og fagprøve med fagbrev eller svennebrev.",
           "Nevner en riktig videre vei, som fagskole, påbygging eller mesterbrev."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "yrkesfag-og-veien-videre",
+          "ungdomsbedrift"
+        ]
       },
       {
         "id": "s06",
@@ -526,6 +544,9 @@
         "kriterier": [
           "Regner ut inntekter minus kostnader riktig.",
           "Kaller et positivt resultat overskudd."
+        ],
+        "temaer": [
+          "ungdomsbedrift"
         ]
       },
       {
@@ -535,6 +556,9 @@
         "kriterier": [
           "Sammenligner budsjett og faktiske utgifter.",
           "Regner ut forskjellen til 1300 kroner."
+        ],
+        "temaer": [
+          "prosjektstyring"
         ]
       },
       {
@@ -545,7 +569,10 @@
           "Forklarer fordelingen mellom skole og læretid.",
           "Kobler bestått prøve til fagbrev eller svennebrev."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "yrkesfag-og-veien-videre"
+        ]
       },
       {
         "text": "En elevbedrift skal lage 40 stoffposer til en salgsdag om fire uker. Stoffet må kjøpes før posene kan sys, mens plakater kan lages samtidig med sømmen. Forklar hvordan et Gantt-diagram, milepæler og statusmøter kan hjelpe bedriften med å holde oversikt og håndtere forsinkelser.",
@@ -556,7 +583,11 @@
           "Forklarer at statusmøter avdekker problemer og kan føre til justering av planen."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "prosjektstyring",
+          "ungdomsbedrift"
+        ]
       },
       {
         "text": "En butikk tilbyr en ungdom lønn kontant uten å oppgi den til skattemyndighetene. Forklar hva slags arbeid dette er, og nevn to følger det kan få for ungdommen.",
@@ -566,7 +597,10 @@
           "Nevner to rettigheter som kan gå tapt, for eksempel sykepenger, feriepenger, pensjonsopptjening eller ulykkesforsikring."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet"
+        ]
       },
       {
         "text": "En elevbedrift får en stor bestilling, men teamet mangler oversikt over hvem som skal kjøpe materialer, følge med på pengene og passe på framdriften. Forklar hvordan prosjektlederen og aktuelle roller i elevbedriften kan bidra til å få arbeidet gjort innen fristen og budsjettet.",
@@ -577,7 +611,11 @@
           "Viser at oversikt og kommunikasjon kan bidra til å holde frist og budsjett."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "prosjektstyring",
+          "ungdomsbedrift"
+        ]
       },
       {
         "text": "Sara er 16 år og vurderer restaurant- og matfag, men vil først finne ut om hun trives med praktisk arbeid på et kjøkken. Forklar hvordan hun kan undersøke yrket, og hva arbeidsgiveren må ta hensyn til hvis hun får en jobb på et kjøkken.",
@@ -587,7 +625,11 @@
           "Forklarer at arbeidsgiveren skal gi opplæring og sørge for trygghet.",
           "Nevner begrensningen på farlig arbeid eller farlige maskiner og stoffer for unge."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet",
+          "yrkesfag-og-veien-videre"
+        ]
       },
       {
         "text": "En arbeidstaker tjente 2500 kroner året før ferien. Feriepengene skal være minst 10,2 prosent av lønnen. Regn ut det minste beløpet arbeidstakeren har tjent opp i feriepenger, og forklar når feriepenger tjenes opp.",
@@ -597,7 +639,10 @@
           "Forklarer at feriepenger tjenes opp året før."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet"
+        ]
       },
       {
         "text": "En arbeidstaker har 125 kroner i timelønn og arbeider to timer overtid. Overtidstillegget skal være minst 40 prosent. Regn ut den minste lønnen for de to overtidstimene, inkludert tillegget.",
@@ -607,7 +652,10 @@
           "Regner ut minst 350 kroner for de to timene."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet"
+        ]
       },
       {
         "text": "Et skoleprosjekt er ferdig, og en elevbedrift avslutter virksomheten ved slutten av skoleåret. Sammenlign hva som skjer i avslutningen av prosjektet med hva elevbedriften gjør når den avvikles.",
@@ -618,7 +666,11 @@
           "Viser forskjellen mellom prosjektets sluttrapport og elevbedriftens avvikling."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "prosjektstyring",
+          "ungdomsbedrift"
+        ]
       },
       {
         "text": "Arbeidstakere og arbeidsgivere forhandler om lønn og arbeidsvilkår, men blir ikke enige. Forklar hvem som samarbeider i den norske modellen, hva organisasjonene deres gjør, og hva som kan skje hvis partene ikke blir enige.",
@@ -629,7 +681,10 @@
           "Nevner at uenighet kan føre til streik."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "rettigheter-og-plikter-i-arbeidslivet"
+        ]
       }
     ]
   },

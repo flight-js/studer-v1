@@ -553,6 +553,9 @@
         "kriterier": [
           "Knytter forrentede innskudd til en geometrisk rekke.",
           "Forklarer at tidslinjen viser betalingstidspunkt og støtter omregning til samme tidspunkt."
+        ],
+        "temaer": [
+          "rekker-og-okonomi"
         ]
       },
       {
@@ -562,6 +565,9 @@
         "kriterier": [
           "Oppgir en antiderivert, x².",
           "Regner ut F(2) − F(0) = 4."
+        ],
+        "temaer": [
+          "fundamentalteoremet-og-integrasjon"
         ]
       },
       {
@@ -571,6 +577,9 @@
         "kriterier": [
           "Finner forventningsverdien 1.",
           "Finner variansen 1 ved å bruke avvikene fra forventningsverdien."
+        ],
+        "temaer": [
+          "forventning-varians-og-standardavvik"
         ]
       },
       {
@@ -580,6 +589,10 @@
         "kriterier": [
           "Forklarer at derivasjon og integrasjon er motsatte operasjoner.",
           "Knytter integralet av grensekostnaden til samlet kostnadsøkning."
+        ],
+        "temaer": [
+          "fundamentalteoremet-og-integrasjon",
+          "grensekostnad-og-grenseinntekt"
         ]
       },
       {
@@ -589,6 +602,10 @@
         "kriterier": [
           "Nevner at standardavviket til gjennomsnittet er σ/√n og blir mindre når n øker.",
           "Knytter sentralgrensesetningen til tilnærmet normalfordeling."
+        ],
+        "temaer": [
+          "sentralgrensesetningen",
+          "forventning-varians-og-standardavvik"
         ]
       },
       {
@@ -598,6 +615,10 @@
         "kriterier": [
           "Konkluderer med at nullhypotesen forkastes.",
           "Tolker konklusjonen som statistisk grunnlag, ikke bevis."
+        ],
+        "temaer": [
+          "gjennomsnitt-og-konfidensintervall",
+          "hypotesetesting"
         ]
       },
       {
@@ -607,6 +628,9 @@
         "kriterier": [
           "Knytter endringen i overskudd til I′(x) − K′(x).",
           "Oppgir likhet mellom grenseinntekt og grensekostnad som betingelse for størst overskudd."
+        ],
+        "temaer": [
+          "grensekostnad-og-grenseinntekt"
         ]
       },
       {
@@ -617,7 +641,10 @@
           "Velger hypergeometrisk fordeling.",
           "Begrunner valget med trekk uten tilbakelegging og endret sannsynlighet."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "diskrete-fordelinger-og-simulering"
+        ]
       },
       {
         "text": "En følge har første ledd 4, og hvert ledd etter det er 3 større enn det forrige. Hva er summen av de seks første leddene?",
@@ -625,7 +652,10 @@
         "kriterier": [
           "Oppgir summen 69."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "rekker-og-okonomi"
+        ]
       },
       {
         "text": "En funksjon q(t) beskriver netto vannstrøm i liter per minutt gjennom et rør. Integralet av q fra t = 0 til t = 10 er −12 liter. Hva forteller dette om vannstrømmen, og hvorfor trenger ikke 12 liter være den totale mengden vann som har passert?",
@@ -634,7 +664,10 @@
           "Tolk­er det negative integralet som netto strøm i negativ retning.",
           "Forklarer at integralet er en fortegnet sum, slik at strøm i motsatt retning trekkes fra."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "det-bestemte-integralet"
+        ]
       },
       {
         "text": "En fiskebestand modelleres med Pₙ = 0,8 · Pₙ₋₁ + 200 og starter på 1500 fisk. Finn likevektsverdien og beskriv hvordan bestanden utvikler seg mot den.",
@@ -643,7 +676,10 @@
           "Finner likevektsverdien 1000.",
           "Beskriver at bestanden minker mot likevekten fra startverdien 1500."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "rekursjon-og-programmering"
+        ]
       },
       {
         "text": "En bestand øker først raskt, men veksten bremser etter hvert og bestanden nærmer seg en øvre grense på 800. Hvilken av modellene, eksponentiell eller logistisk vekst, passer best? Når er veksten raskest ifølge modellen?",
@@ -652,7 +688,10 @@
           "Velger logistisk vekst fordi modellen har en øvre grense.",
           "Oppgir at veksten er raskest ved 400, halvparten av bæreevnen."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "eksponentiell-og-logistisk-vekst"
+        ]
       },
       {
         "text": "Ved et bestemt produksjonsnivå er grensekostnaden lavere enn enhetskostnaden. Hva skjer med enhetskostnaden når produksjonen økes litt? Hva kjennetegner produksjonsnivået der enhetskostnaden er minst?",
@@ -661,7 +700,10 @@
           "Forklarer at enhetskostnaden synker når grensekostnaden er lavere enn den.",
           "Oppgir at minimum oppstår når grensekostnad og enhetskostnad er like."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "grensekostnad-og-grenseinntekt"
+        ]
       },
       {
         "text": "Et kundesenter får telefoner tilfeldig og uavhengig, med et gjennomsnitt på 3 telefoner per ti minutter. Hvilken sannsynlighetsfordeling passer for antallet telefoner i et slikt tidsrom, og hva er forventningsverdien og variansen?",
@@ -670,7 +712,10 @@
           "Velger Poissonfordelingen og knytter valget til tilfeldig, uavhengig hendelsesrate.",
           "Oppgir forventningsverdi 3 og varians 3."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "diskrete-fordelinger-og-simulering"
+        ]
       },
       {
         "text": "Vekten av en vare er normalfordelt med forventning 50 gram og standardavvik 4 gram. Omtrent hvor stor andel veier mellom 46 og 54 gram?",
@@ -679,7 +724,10 @@
           "Gjenkjenner at intervallet er μ ± σ.",
           "Oppgir omtrent 68 %."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "normalfordelingen"
+        ]
       },
       {
         "text": "En forsker vurderer å senke signifikansnivået i en hypotesetest. Forklar hvordan dette påvirker risikoen for type I- og type II-feil, og hvordan et større utvalg kan være til hjelp.",
@@ -688,7 +736,10 @@
           "Forklarer at lavere signifikansnivå gir mindre risiko for type I-feil, men større risiko for type II-feil.",
           "Nevner at et større utvalg reduserer risikoen for type II-feil."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "hypotesetesting"
+        ]
       }
     ]
   },

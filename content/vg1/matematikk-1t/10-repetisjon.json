@@ -543,6 +543,9 @@
         "kriterier": [
           "Skiller mellom bestemte verdier og alle verdier.",
           "Knytter kvadratsetningen til identitet."
+        ],
+        "temaer": [
+          "algebra-likninger-og-ulikheter"
         ]
       },
       {
@@ -552,6 +555,9 @@
         "kriterier": [
           "Deler begge sider på −2 og snur tegnet.",
           "Oppgir løsningen x > −3."
+        ],
+        "temaer": [
+          "algebra-likninger-og-ulikheter"
         ]
       },
       {
@@ -562,6 +568,10 @@
           "Forklarer at den deriverte beskriver fart.",
           "Bruker h′(t) = 0 for å finne mulig maksimum.",
           "Nevner at modellen har et gyldighetsområde."
+        ],
+        "temaer": [
+          "vekstfart-og-derivasjon",
+          "modellering"
         ]
       },
       {
@@ -571,6 +581,9 @@
         "kriterier": [
           "Velger cosinussetningen for tre kjente sider.",
           "Velger sinussetningen for to vinkler og én side."
+        ],
+        "temaer": [
+          "sinus-og-cosinussetningen"
         ]
       },
       {
@@ -580,6 +593,9 @@
         "kriterier": [
           "Oppgir kvotienten x − 3 og at resten er null.",
           "Knytter faktoriseringen til nullpunktene."
+        ],
+        "temaer": [
+          "polynomdivisjon"
         ]
       },
       {
@@ -589,6 +605,9 @@
         "kriterier": [
           "Forklarer at avkortet y-akse kan overdrive synlige forskjeller.",
           "Nevner et relevant punkt å undersøke, som årsakssammenheng eller utvalg."
+        ],
+        "temaer": [
+          "modellering"
         ]
       },
       {
@@ -598,6 +617,9 @@
         "kriterier": [
           "Deriverer riktig til 6x − 2 og finner f′(2) = 10.",
           "Tolker verdien som tangentens stigningstall."
+        ],
+        "temaer": [
+          "vekstfart-og-derivasjon"
         ]
       },
       {
@@ -608,7 +630,11 @@
           "Nevner et startintervall med ulike fortegn i endepunktene.",
           "Forklarer at intervallet halveres gjentatte ganger for å nærme seg nullpunktet."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "bevis-og-programmering",
+          "funksjoner"
+        ]
       },
       {
         "text": "Løs likningssettet x + y = 7 og x − y = 1 ved å legge sammen likningene. Forklar hva løsningen betyr dersom likningene også vises som to rette linjer i et koordinatsystem.",
@@ -617,7 +643,10 @@
           "Finner x = 4 og y = 3.",
           "Forklarer at løsningen er skjæringspunktet (4, 3)."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "algebra-likninger-og-ulikheter"
+        ]
       },
       {
         "text": "Undersøk hvor mange reelle løsninger likningen x² + 2x + 5 = 0 har ved å bruke diskriminanten. Hva betyr svaret for grafen til f(x) = x² + 2x + 5?",
@@ -626,7 +655,10 @@
           "Regner ut D = −16 og konkluderer med ingen reelle løsninger.",
           "Knytter dette til at grafen ikke har nullpunkter eller ikke krysser x-aksen."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "andregradslikninger"
+        ]
       },
       {
         "text": "For funksjonen f(x) = (3x + 6)/(x − 1), oppgi definisjonsmengden og de vertikale og horisontale asymptotene. Begrunn kort svarene.",
@@ -635,7 +667,10 @@
           "Oppgir at x = 1 er utelatt fra definisjonsmengden, og at x = 1 er vertikal asymptote.",
           "Oppgir den horisontale asymptoten y = 3 og viser til forholdet mellom koeffisientene foran x."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "funksjoner"
+        ]
       },
       {
         "text": "Et trekantområde har to sider på 8 m og 10 m, og vinkelen mellom sidene er 30°. Finn arealet og forklar hvilken sammenheng mellom sinus og høyde som gjør at arealsetningen kan brukes.",
@@ -644,7 +679,10 @@
           "Finner arealet 20 m² ved å bruke arealsetningen.",
           "Forklarer at høyden er den ene siden multiplisert med sinus til vinkelen mellom sidene."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "sinus-og-cosinussetningen"
+        ]
       },
       {
         "text": "For f(x) = x³ − 3x² er f′(x) = 3x(x − 2). Bruk fortegnet til den deriverte til å beskrive hvor f er voksende og hvor den er avtagende.",
@@ -653,7 +691,11 @@
           "Angir riktig fortegn for f′ på intervallene bestemt av 0 og 2.",
           "Konkluderer med at f er voksende for x < 0 og x > 2, og avtagende for 0 < x < 2."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "vekstfart-og-derivasjon",
+          "funksjoner"
+        ]
       },
       {
         "text": "En elev skriver «x² = 16 ⇒ x = 4». Vis med et eksempel hvorfor påstanden ikke stemmer, og oppgi alle løsningene av x² = 16.",
@@ -662,7 +704,11 @@
           "Gir −4 som moteksempel og viser at det oppfyller x² = 16.",
           "Oppgir begge løsningene x = 4 og x = −4."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "andregradslikninger",
+          "bevis-og-programmering"
+        ]
       },
       {
         "text": "Antall brukere av en tjeneste øker med omtrent 12 % hvert år. En andregradsmodell for dataene gir etter hvert negative brukertall. Hvilken modelltype kan passe bedre til den jevne prosentvise veksten, og hva bør man vurdere før man bruker modellen til å forutsi framtidige brukertall?",
@@ -671,7 +717,11 @@
           "Velger en eksponentialmodell og knytter valget til jevn prosentvis vekst.",
           "Nevner at modellens gyldighetsområde eller forutsetninger må vurderes, og at negative brukertall ikke er realistiske."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "modellering",
+          "funksjoner"
+        ]
       },
       {
         "text": "En program skal finne det minste positive heltallet n som gjør at 4n + 1 > 20. Beskriv hvordan en løkke kan starte, oppdatere n og stoppe, og oppgi tallet programmet skal skrive ut.",
@@ -680,7 +730,11 @@
           "Beskriver at n starter på et positivt heltall og økes trinnvis mens betingelsen ikke er oppfylt.",
           "Oppgir at programmet stopper og skriver ut n = 5."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "bevis-og-programmering",
+          "algebra-likninger-og-ulikheter"
+        ]
       }
     ]
   },

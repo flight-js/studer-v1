@@ -136,6 +136,7 @@ export type Database = {
           forklaring: string
           id: number
           kjerne: boolean
+          kilde: string | null
           sortering: number
           tema_id: string
         }
@@ -144,6 +145,7 @@ export type Database = {
           forklaring: string
           id?: never
           kjerne?: boolean
+          kilde?: string | null
           sortering: number
           tema_id: string
         }
@@ -152,6 +154,7 @@ export type Database = {
           forklaring?: string
           id?: never
           kjerne?: boolean
+          kilde?: string | null
           sortering?: number
           tema_id?: string
         }
@@ -328,6 +331,7 @@ export type Database = {
           i_miniprove: boolean
           i_quiz: boolean
           kjerne: boolean
+          kilde: string | null
           nokkel: string
           riktig: number
           sortering: number
@@ -341,6 +345,7 @@ export type Database = {
           i_miniprove: boolean
           i_quiz: boolean
           kjerne?: boolean
+          kilde?: string | null
           nokkel: string
           riktig: number
           sortering: number
@@ -354,6 +359,7 @@ export type Database = {
           i_miniprove?: boolean
           i_quiz?: boolean
           kjerne?: boolean
+          kilde?: string | null
           nokkel?: string
           riktig?: number
           sortering?: number
@@ -413,6 +419,7 @@ export type Database = {
         Row: {
           fasit: string
           kjerne: boolean
+          kilder: string[] | null
           kriterier: string[]
           nokkel: string
           sortering: number
@@ -422,6 +429,7 @@ export type Database = {
         Insert: {
           fasit: string
           kjerne?: boolean
+          kilder?: string[] | null
           kriterier?: string[]
           nokkel: string
           sortering: number
@@ -431,6 +439,7 @@ export type Database = {
         Update: {
           fasit?: string
           kjerne?: boolean
+          kilder?: string[] | null
           kriterier?: string[]
           nokkel?: string
           sortering?: number

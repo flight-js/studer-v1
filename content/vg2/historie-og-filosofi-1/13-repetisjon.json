@@ -489,6 +489,9 @@
         "kriterier": [
           "1 poeng: Forklarer direkte demokrati i Athen og viser at borgerrettighetene var begrenset, og sammenligner med moderne representativt demokrati og allmenn stemmerett.",
           "½ poeng: Nevner én riktig forskjell, men forklarer ikke begge samfunnsformene tydelig."
+        ],
+        "temaer": [
+          "antikkens-demokrati-og-makt"
         ]
       },
       {
@@ -499,7 +502,11 @@
           "1 poeng: Forklarer Magna Cartas prinsipp om at kongen må følge loven og Lockes syn på rettigheter og folkets rett til opprør.",
           "½ poeng: Forklarer riktig enten Magna Carta eller Lockes syn, men sammenligner dem ikke tydelig."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "makt-i-middelalder-og-enevelde",
+          "opplysningstid-og-revolusjoner"
+        ]
       },
       {
         "id": "s03",
@@ -508,6 +515,9 @@
         "kriterier": [
           "1 poeng: Skiller riktig mellom rasjonalisme og empirisme og forklarer at Kant kombinerte erfaring og fornuftens former.",
           "½ poeng: Forklarer riktig forskjellen mellom rasjonalisme og empirisme eller Kants forsøk på å forene dem."
+        ],
+        "temaer": [
+          "metafysikk-og-erkjennelsesteori"
         ]
       },
       {
@@ -517,6 +527,9 @@
         "kriterier": [
           "1 poeng: Forklarer utilitarismens vekt på konsekvenser og pliktetikkens vekt på at mennesket ikke skal brukes bare som middel.",
           "½ poeng: Forklarer riktig vurderingen til én av teoriene eller viser en relevant forskjell uten å forklare begge."
+        ],
+        "temaer": [
+          "etikk"
         ]
       },
       {
@@ -527,7 +540,10 @@
           "1 poeng: Forklarer begge rollene og gir et relevant eksempel på legitimering og kritikk.",
           "½ poeng: Forklarer én av rollene med et relevant eksempel."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "religion-filosofi-og-makt"
+        ]
       },
       {
         "id": "s06",
@@ -536,6 +552,10 @@
         "kriterier": [
           "1 poeng: Knytter kildekritikk til vurdering av kilder og forklarer hvordan flere perspektiver eller utelatte grupper kan nyansere fortellingen.",
           "½ poeng: Nevner et relevant kildekritisk spørsmål eller at nasjonale fortellinger kan utelate grupper, men knytter dem svakt sammen."
+        ],
+        "temaer": [
+          "kilder-og-historisk-kunnskap",
+          "fortellinger-og-historiesyn"
         ]
       },
       {
@@ -545,6 +565,10 @@
         "kriterier": [
           "1 poeng: Forklarer minst én viktig samfunnsendring og én miljømessig eller sosial kostnad ved industrialiseringen.",
           "½ poeng: Nevner en relevant samfunnsendring eller kostnad, men forklarer bare den ene siden."
+        ],
+        "temaer": [
+          "teknologi-vitenskap-og-samfunn",
+          "natur-og-virkelighetsoppfatninger"
         ]
       },
       {
@@ -554,6 +578,9 @@
         "kriterier": [
           "1 poeng: Forklarer begge natursynene og knytter dem til ulike vurderinger av et naturinngrep.",
           "½ poeng: Forklarer riktig ett av natursynene eller nevner at synet på naturens verdi påvirker vurderingen av inngrep."
+        ],
+        "temaer": [
+          "natur-og-virkelighetsoppfatninger"
         ]
       },
       {
@@ -563,7 +590,11 @@
           "Sokratisk samtale bruker spørsmål til å avklare og teste påstander og begrunnelser.",
           "Kildekritikk vurderer blant annet opphav, tidspunkt, formål/tendens og støtte fra andre kilder."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "filosofisk-samtale-og-argumentasjon",
+          "kilder-og-historisk-kunnskap"
+        ]
       },
       {
         "text": "Mange innlegg på nettet gjentar den samme påstanden om hva som vil skje i framtiden. Forklar hvorfor gjentakelsen ikke i seg selv beviser at påstanden er sann, og hvordan kunnskap om kilder kan hjelpe deg å vurdere den.",
@@ -572,7 +603,11 @@
           "Induktive slutninger bygger på gjentatte tilfeller, men gir ikke sikker kunnskap om framtiden.",
           "Gjentatte innlegg er ikke nødvendigvis uavhengige kilder; opphav og kildegrunnlag bør undersøkes."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "metafysikk-og-erkjennelsesteori",
+          "kilder-og-historisk-kunnskap"
+        ]
       },
       {
         "text": "En kommune vurderer digitale overvåkingsverktøy for å gjøre innbyggerne tryggere. Forklar hvordan Hobbes, Locke og Montesquieu kunne bidratt med ulike hensyn i diskusjonen.",
@@ -582,7 +617,10 @@
           "Locke vektlegger naturlige rettigheter, blant annet frihet, som staten skal beskytte.",
           "Montesquieu vektlegger maktfordeling og kontroll av statsmakten."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "opplysningstid-og-revolusjoner"
+        ]
       },
       {
         "text": "En person sier at handlingene våre er bestemt av tidligere årsaker, og at ingen derfor kan holdes ansvarlige. Forklar hvordan kompatibilisme kan svare på dette, og hvordan stoisk filosofi skiller mellom ulike sider ved situasjonen.",
@@ -592,7 +630,11 @@
           "Stoisisme skiller mellom det vi kan og ikke kan kontrollere."
         ],
         "id": "s12",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "metafysikk-og-erkjennelsesteori",
+          "antikkens-filosofi"
+        ]
       },
       {
         "text": "En historiker undersøker den industrielle revolusjonen. Hvordan kan en marxistisk og en strukturell historiker legge vekt på ulike forhold når de forklarer endringene?",
@@ -602,7 +644,11 @@
           "Strukturelt historiesyn framhever langsomme endringer, som geografi, klima, økonomi og mentalitet."
         ],
         "id": "s13",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "fortellinger-og-historiesyn",
+          "teknologi-vitenskap-og-samfunn"
+        ]
       },
       {
         "text": "Arkeologer finner redskaper og DNA-spor fra en periode der det også finnes en skriftlig fortelling som ble skrevet ned flere hundre år senere. Hva kan de ulike kildene bidra med, og hvilke begrensninger bør historikeren ta hensyn til?",
@@ -612,7 +658,10 @@
           "En fortelling skrevet lenge etter hendelsene har tidsavstand og må vurderes kritisk.",
           "Kilder bør sammenholdes; fortiden blir tolket ut fra bevarte spor."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "kilder-og-historisk-kunnskap"
+        ]
       },
       {
         "text": "Forklar hvordan boktrykkerkunsten kunne svekke kirkens kontroll over kunnskap og samtidig bidra til at nye religiøse og vitenskapelige ideer spredte seg.",
@@ -622,7 +671,11 @@
           "Trykte tekster bidro til reformasjonens spredning og gjorde kunnskap mindre avhengig av kirken.",
           "Vitenskapelige ideer kunne deles og kontrolleres av flere."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "teknologi-vitenskap-og-samfunn",
+          "religion-filosofi-og-makt"
+        ]
       },
       {
         "text": "En gruppe skal lage regler for hvem som får delta i politiske valg, men vet ikke selv hvilken plass de vil få i samfunnet. Forklar hvordan Rawls’ uvitenhetens slør kan påvirke reglene, og knytt det til hvem som historisk har blitt holdt utenfor demokratiet.",
@@ -633,7 +686,12 @@
           "Kvinner og slaver er eksempler på grupper som historisk ble holdt utenfor politiske rettigheter."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "opplysningstid-og-revolusjoner",
+          "etikk",
+          "antikkens-demokrati-og-makt"
+        ]
       }
     ]
   },

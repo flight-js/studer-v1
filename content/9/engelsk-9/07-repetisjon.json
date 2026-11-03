@@ -476,6 +476,9 @@
         "kriterier": [
           "States that intelligibility matters more than sounding like a native speaker.",
           "Gives a relevant pronunciation feature and a practice method."
+        ],
+        "temaer": [
+          "pronunciation"
         ]
       },
       {
@@ -485,6 +488,9 @@
         "kriterier": [
           "Corrects both sentences: Everybody is here; There are two cars outside.",
           "Explains that everybody is singular and that there is/are agrees with the following noun."
+        ],
+        "temaer": [
+          "common-grammar-mistakes"
         ]
       },
       {
@@ -494,6 +500,9 @@
         "kriterier": [
           "Identifies the door as a possible symbol of isolation.",
           "Explains that an interpretation should be supported with textual evidence and the writer’s explanation."
+        ],
+        "temaer": [
+          "short-stories"
         ]
       },
       {
@@ -504,6 +513,9 @@
           "Uses a suitable formal greeting and maintains a formal register without contractions or slang.",
           "Clearly explains the problem and politely requests a replacement.",
           "Uses an appropriate formal closing."
+        ],
+        "temaer": [
+          "formal-and-informal-writing"
         ]
       },
       {
@@ -513,6 +525,9 @@
         "kriterier": [
           "Explains that purpose, receiver and situation guide register.",
           "Gives a suitable informal feature for a friend and a formal feature for an email to a teacher."
+        ],
+        "temaer": [
+          "formal-and-informal-writing"
         ]
       },
       {
@@ -524,7 +539,10 @@
           "Explains checks and balances as the branches controlling one another.",
           "Correctly describes the roles of Congress and the Supreme Court."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "the-united-states"
+        ]
       },
       {
         "id": "s07",
@@ -534,6 +552,9 @@
           "Identifies consequences of colonisation, such as land loss or displacement.",
           "Connects continuing challenges, including land-use conflicts, to Indigenous rights today.",
           "Explains reconciliation as recognising past injustice and working for a fairer future."
+        ],
+        "temaer": [
+          "indigenous-peoples"
         ]
       },
       {
@@ -545,7 +566,10 @@
           "Accurately describes Norwegianisation and its effect on Sámi or Kven language and culture.",
           "Identifies the shared pressure to give up language or culture."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "indigenous-peoples"
+        ]
       },
       {
         "text": "The word “record” has two common meanings, and “present” can also be a noun or a verb. Show where the stress falls in each word when it is a noun and when it is a verb, using capital letters for the stressed syllable.",
@@ -554,7 +578,10 @@
           "Shows that the stress is on the first syllable for both nouns.",
           "Shows that the stress is on the second syllable for both verbs."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "pronunciation"
+        ]
       },
       {
         "text": "A student means that they own many books and may visit London one day. Correct this sentence and explain the two language mistakes: “I have much books and two advices. Eventually, I might visit London.”",
@@ -564,7 +591,10 @@
           "Explains that “eventually” means “in the end”, not “possibly”."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "common-grammar-mistakes"
+        ]
       },
       {
         "text": "In a short story, Leo says he is not afraid of the storm. He grips the railing, but then goes back into the flooded garden to rescue his sister’s dog. Explain what Leo’s actions suggest about his character and identify one kind of conflict in the story.",
@@ -573,7 +603,10 @@
           "Uses Leo’s actions as evidence of a character trait.",
           "Identifies an external conflict, such as Leo facing the storm."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "short-stories"
+        ]
       },
       {
         "text": "A short story is set in the southern United States in 1955. A Black passenger refuses to give up a seat on a bus where rules separate Black and white passengers. Explain how the setting helps create the story’s conflict and connect it to a historical fact.",
@@ -583,7 +616,11 @@
           "Connects the story to Rosa Parks or the civil rights movement."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "short-stories",
+          "the-united-states"
+        ]
       },
       {
         "text": "The United States is sometimes called a “nation of immigrants”. Explain why this description does not tell the whole story of the country’s peoples, and include one fact about Native Americans during westward expansion.",
@@ -593,7 +630,11 @@
           "Mentions land loss, reservations, or another stated consequence of westward expansion."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "the-united-states",
+          "indigenous-peoples"
+        ]
       },
       {
         "text": "In a short story, a Sámi child is punished at school for speaking Sámi. The child feels torn between obeying the teacher and using their language with a friend. Explain the child’s conflict and connect it to a historical policy in Norway.",
@@ -603,7 +644,11 @@
           "Connects the situation to Norwegianisation and pressure to give up Sámi language or culture."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "short-stories",
+          "indigenous-peoples"
+        ]
       },
       {
         "text": "Write a headline and opening for a neutral, informative article about the American civil rights movement. Include one person or event from the movement and explain what it helped bring about.",
@@ -613,7 +658,10 @@
           "Includes a relevant person or event and links the movement to laws banning discrimination or the fight for equal rights."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "the-united-states"
+        ]
       },
       {
         "text": "Explain how the stress differs in “REcord” and “reCORD”. What difference in meaning or word class can the stress show?",
@@ -622,7 +670,10 @@
           "Identifies the first-syllable stress in the noun and second-syllable stress in the verb.",
           "Correctly links the stress pattern to the word class."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "pronunciation"
+        ]
       }
     ]
   },

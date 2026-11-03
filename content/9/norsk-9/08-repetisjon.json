@@ -497,6 +497,9 @@
         "kriterier": [
           "Identifiserer virkemiddelet som metafor.",
           "Forklarer at bildet kan framstille tiden som en som tar eller stjeler noe."
+        ],
+        "temaer": [
+          "lyrikk"
         ]
       },
       {
@@ -507,6 +510,10 @@
           "Beskriver en oppbygning med innledning, hoveddel og avslutning.",
           "Nevner argumenter og et motargument som imøtegås.",
           "Bruker bindeord som uttrykker relevante sammenhenger."
+        ],
+        "temaer": [
+          "retorikk-og-argumentasjon",
+          "tekstbinding"
         ]
       },
       {
@@ -518,7 +525,10 @@
           "Forklarer inversjonen med verbalet før subjektet.",
           "Forklarer at leddsetningen ikke kan stå alene."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "setningsledd"
+        ]
       },
       {
         "id": "s04",
@@ -528,6 +538,10 @@
           "Nevner relevante spørsmål om kildens avsender, hensikt eller tidspunkt.",
           "Sier at påstanden bør sjekkes mot andre kilder.",
           "Knytter logos til fakta eller logisk begrunnelse."
+        ],
+        "temaer": [
+          "kildebruk",
+          "retorikk-og-argumentasjon"
         ]
       },
       {
@@ -539,7 +553,10 @@
           "Forklarer den historiske sammenhengen mellom dansk skriftspråk og bokmål.",
           "Nevner bløte konsonanter eller stød."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "nabosprak"
+        ]
       },
       {
         "id": "s06",
@@ -549,6 +566,9 @@
           "Forklarer hvordan førsteperson kan bringe leseren tett på hovedpersonen.",
           "Knytter slang til autentisitet.",
           "Skiller mellom sammensatte personer og stereotypier."
+        ],
+        "temaer": [
+          "ungdom-i-litteraturen"
         ]
       },
       {
@@ -559,6 +579,9 @@
           "Forklarer at historisk kontekst sier noe om tiden og samfunnet teksten ble skrevet i.",
           "Nevner et tema som kan gå igjen, som forelskelse.",
           "Nevner forhold som kan endre seg, som teknologi, skole eller forventninger."
+        ],
+        "temaer": [
+          "ungdom-i-litteraturen"
         ]
       },
       {
@@ -569,6 +592,11 @@
           "Forklarer at parafraser også trenger kildehenvisning.",
           "Nevner kildeliste eller annen korrekt kildeoppføring.",
           "Beskriver avsnitt med temasetning og utdypende kommentarer."
+        ],
+        "temaer": [
+          "kildebruk",
+          "tekstbinding",
+          "ungdom-i-litteraturen"
         ]
       },
       {
@@ -578,7 +606,10 @@
           "Identifiserer besjeling/personifikasjon.",
           "Forklarer at virkemiddelet gir været menneskelige egenskaper og kan skape en bestemt stemning."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "lyrikk"
+        ]
       },
       {
         "text": "I en tale sier en helsesykepleier med lang erfaring: «Åtte av ti elever i undersøkelsen vår sover for lite. Jeg møtte også en elev som var så trøtt at det var vanskelig å følge med i timene.» Forklar hvordan taleren bruker etos, logos og patos.",
@@ -587,7 +618,10 @@
           "Knytter helsesykepleierens erfaring til etos og troverdighet.",
           "Knytter tallet/undersøkelsen til logos og elevhistorien til patos."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "retorikk-og-argumentasjon"
+        ]
       },
       {
         "text": "Setningen «Lina sendte Nora en melding etter prøven fordi hun var bekymret» er uklar. Det er Lina som er bekymret. Skriv setningen om så det blir tydelig hvem pronomenet viser til, og forklar hva som var uklart.",
@@ -596,7 +630,10 @@
           "Skriver om setningen slik at Lina tydelig er den bekymrede.",
           "Forklarer at pronomenet «hun» kunne vise til både Lina og Nora."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "setningsledd"
+        ]
       },
       {
         "text": "En elev sier: «Vi bør avlyse alle friminutt fordi én elev ble skadet i skolegården.» Hva slags usaklig argumentasjonsgrep bruker eleven, og hvorfor er begrunnelsen for svak?",
@@ -606,7 +643,10 @@
           "Forklarer at én hendelse ikke er nok grunnlag for en så omfattende konklusjon."
         ],
         "id": "s12",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "retorikk-og-argumentasjon"
+        ]
       },
       {
         "text": "En nettside omtaler en undersøkelse om ungdommers søvn, men nettsiden har ikke selv utført undersøkelsen. Forklar om nettsiden er en primær- eller sekundærkilde, hva slags kilde undersøkelsen er, og hvordan du kan bruke opplysningen uten å gjøre deg skyldig i plagiat.",
@@ -616,7 +656,10 @@
           "Forklarer at opplysningen må gjengis med egne ord og kildehenvisning."
         ],
         "id": "s13",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "kildebruk"
+        ]
       },
       {
         "text": "På en svensk kafémeny står det «glass», og etter at noen forteller en vits, sier en svensk venn «Det var roligt». Hva betyr de svenske ordene her, og hvordan kan sammenhengen hjelpe deg å forstå dem?",
@@ -625,7 +668,10 @@
           "Forklarer at svensk «glass» betyr iskrem og «rolig» betyr morsom.",
           "Viser hvordan sammenhengen rundt ordene hjelper med å forstå betydningen."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "nabosprak"
+        ]
       },
       {
         "text": "I en fortelling begynner Noah på en ny skole og føler seg utenfor. Senere tar han selv initiativ til å bli kjent med en medelev. Hvilke temaer fra ungdomslitteratur kommer fram, og hvorfor kan fortellingen kalles en utviklingsfortelling?",
@@ -634,7 +680,10 @@
           "Nevner relevante temaer, for eksempel utenforskap og vennskap.",
           "Forklarer at Noah forandrer seg gjennom utfordringen."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "ungdom-i-litteraturen"
+        ]
       },
       {
         "text": "Les diktet: «Vårsol over jord / små bekker våkner i natt / snøen går til ro». Hvilken diktform har diktet, og hva forteller bildene om årstiden?",
@@ -644,7 +693,10 @@
           "Forklarer at bildene viser overgangen fra vinter til vår."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "lyrikk"
+        ]
       }
     ]
   },

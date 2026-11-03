@@ -458,6 +458,9 @@
         "kriterier": [
           "Får fram at Athens demokrati var direkte, mens Norge har representativt demokrati.",
           "Nevner at politiske rettigheter i Athen var begrenset til frie menn med athenske foreldre, mens langt flere har rettigheter i Norge i dag."
+        ],
+        "temaer": [
+          "demokrati-for-og-na"
         ]
       },
       {
@@ -467,6 +470,9 @@
         "kriterier": [
           "Nevner at jordbruk førte til bofasthet og befolkningsvekst.",
           "Knytter matoverskudd til handel, arbeidsdeling eller utvikling av byer og stater."
+        ],
+        "temaer": [
+          "mat-og-naturressurser"
         ]
       },
       {
@@ -476,6 +482,10 @@
         "kriterier": [
           "Nevner at dødeligheten falt mens fødselstallet fortsatt var høyt.",
           "Knytter poteter eller bedre tilgang på mat til befolkningsveksten."
+        ],
+        "temaer": [
+          "demografiske-endringer",
+          "mat-og-naturressurser"
         ]
       },
       {
@@ -485,6 +495,10 @@
         "kriterier": [
           "Nevner at boktrykk gjorde bøker billigere eller ideer raskere å spre.",
           "Bruker reformasjonen som eksempel."
+        ],
+        "temaer": [
+          "kommunikasjon-og-kulturmoter",
+          "religion-og-makt"
         ]
       },
       {
@@ -494,6 +508,9 @@
         "kriterier": [
           "Nevner at eneveldets makt ble legitimert gjennom Gud.",
           "Knytter opplysningstidens ideer til folkesuverenitet, rettigheter eller maktfordeling."
+        ],
+        "temaer": [
+          "makt-og-legitimitet"
         ]
       },
       {
@@ -503,6 +520,9 @@
         "kriterier": [
           "Forklarer at minnekultur handler om hvem som huskes og hvem som glemmes.",
           "Nevner minst én gruppe som ofte har vært lite synlig."
+        ],
+        "temaer": [
+          "minnekultur"
         ]
       },
       {
@@ -513,7 +533,10 @@
           "Nevner tørrfisk og korn i handelen med hanseatene.",
           "Nevner slavegjorte afrikanere eller råvarer fra Amerika i trekanthandelen, og knytter handelen til makt eller ulikhet."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "handel-og-okonomi"
+        ]
       },
       {
         "id": "s08",
@@ -522,6 +545,10 @@
         "kriterier": [
           "Nevner at kongene brukte kristningen til å samle riket eller styrke kongemakten.",
           "Forklarer at kirken kunne være en selvstendig maktfaktor, og at kongen overtok kirken etter reformasjonen."
+        ],
+        "temaer": [
+          "religion-og-makt",
+          "makt-og-legitimitet"
         ]
       },
       {
@@ -531,7 +558,10 @@
           "Skiller mellom hva kilden forteller (beretning), og hva den viser om tiden (levning).",
           "Nevner et relevant kildekritisk spørsmål, for eksempel om avsender, formål eller mottaker."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "historie-som-fag"
+        ]
       },
       {
         "text": "Svartedauden kom til Norge i 1349. Forklar hvordan pestepidemien påvirket både bosetting og maktforhold i Norge.",
@@ -540,7 +570,11 @@
           "Knytter befolkningsnedgangen til ødegårder og/eller lavere skatteinntekter.",
           "Forklarer at adelens og kirkens makt eller inntekter ble svekket; kan også nevne at Norge senere kom i union."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "demografiske-endringer",
+          "makt-og-legitimitet"
+        ]
       },
       {
         "text": "Forklar sammenhengen mellom forbedringer i jordbruket på 1700- og 1800-tallet, flytting til byene og framveksten av industrisamfunnet. Nevn også en følge av økt bruk av kull eller olje.",
@@ -549,7 +583,11 @@
           "Knytter større avlinger og færre arbeidere i jordbruket til flytting til byene og industriarbeid.",
           "Nevner at kull eller olje var grunnlag for industrien, og en miljøfølge som klimautslipp."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "mat-og-naturressurser",
+          "demografiske-endringer"
+        ]
       },
       {
         "text": "Sammenlign merkantilisme og kapitalisme når det gjelder statens rolle og hvordan handel og økonomi skulle skape rikdom.",
@@ -559,7 +597,10 @@
           "Beskriver kapitalismen med privat eierskap, konkurranse og profitt, eventuelt frihandel eller ulikhet som følge."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "handel-og-okonomi"
+        ]
       },
       {
         "text": "Hvordan har internett og smarttelefoner påvirket kulturmøter i vår tid? Forklar én mulighet og én utfordring som følger av dette.",
@@ -568,7 +609,10 @@
           "Forklarer at digital kommunikasjon gjør kulturmøter raskere, hyppigere eller mer tilgjengelige.",
           "Nevner en mulighet, som forståelse eller nysgjerrighet, og en utfordring, som stereotypier, polarisering, falske nyheter eller overvåking."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "kommunikasjon-og-kulturmoter"
+        ]
       },
       {
         "text": "Forklar hvordan ideene til Locke, Montesquieu og Rousseau kan knyttes til maktutøvelse i et moderne demokrati.",
@@ -578,7 +622,11 @@
           "Knytter Montesquieu til maktfordeling mellom lovgivende, utøvende og dømmende makt."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "makt-og-legitimitet",
+          "demokrati-for-og-na"
+        ]
       },
       {
         "text": "Beskriv hvordan retten til religionsfrihet i Norge endret seg fra Grunnloven i 1814 til 1964, og forklar hva endringen viser om religionens plass i staten.",
@@ -588,7 +636,10 @@
           "Nevner at religionsfrihet ble tatt inn i Grunnloven i 1964, og knytter utviklingen til større frihet eller religiøst mangfold."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "religion-og-makt"
+        ]
       },
       {
         "text": "En historiker bruker begrepene «middelalder» og «tidlig nytid» når hen skriver om Kinas historie. Forklar hvorfor denne periodiseringen kan være misvisende, og nevn en annen begrensning ved å dele fortiden inn i perioder.",
@@ -597,7 +648,10 @@
           "Forklarer at europeiske periodebegreper kan være eurosentriske eller passe dårlig på Kinas historie.",
           "Nevner at overganger er glidende, eller at periodisering er et verktøy og ikke en fasit."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "historie-som-fag"
+        ]
       }
     ]
   },

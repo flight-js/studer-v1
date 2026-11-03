@@ -465,6 +465,9 @@
         "kriterier": [
           "Bruker hunkjønnsformene *gentille* og *drôle* riktig.",
           "Uttrykker at man kommer godt overens, for eksempel med *Je m'entends bien avec elle*."
+        ],
+        "temaer": [
+          "identitet-og-relasjoner"
         ]
       },
       {
@@ -474,6 +477,9 @@
         "kriterier": [
           "Bruker *futur proche* til planen om å ta bac.",
           "Bruker presens etter *si* og futur simple i hovedsetningen."
+        ],
+        "temaer": [
+          "skole-og-arbeid"
         ]
       },
       {
@@ -483,6 +489,9 @@
         "kriterier": [
           "Bruker imparfait til vær eller tilstand som bakgrunn.",
           "Bruker passé composé til hendelsen som skjedde."
+        ],
+        "temaer": [
+          "fortelle-om-opplevelser"
         ]
       },
       {
@@ -492,6 +501,10 @@
         "kriterier": [
           "Knytter kolonihistorien til utbredelsen av fransk.",
           "Nevner at de fleste fransktalende i dag bor i Afrika."
+        ],
+        "temaer": [
+          "historie",
+          "samfunn-og-aktuelle-saker"
         ]
       },
       {
@@ -502,7 +515,10 @@
           "Beskriver Frankrike før revolusjonen som et eneveldig kongedømme.",
           "Oppgir datoen for stormingen og bruker en forståelig formulering for at Bastillen ble tatt."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "historie"
+        ]
       },
       {
         "id": "s06",
@@ -512,7 +528,11 @@
           "Får fram at erklæringen slår fast at alle fødes frie og like i rettigheter.",
           "Forklarer laïcité som statens religiøse nøytralitet og at religion og stat er atskilt."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker",
+          "historie"
+        ]
       },
       {
         "id": "s07",
@@ -522,7 +542,11 @@
           "Nevner den rike mannen i rullestol og hjelperen fra forstedene.",
           "Får fram at vennskapet mellom dem står sentralt."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur",
+          "identitet-og-relasjoner"
+        ]
       },
       {
         "id": "s08",
@@ -531,6 +555,9 @@
         "kriterier": [
           "Bruker *je voudrais* som høflig ønske.",
           "Bruker imparfait etter *si* og conditionnel i hovedsetningen."
+        ],
+        "temaer": [
+          "kunst-og-kultur"
         ]
       },
       {
@@ -540,7 +567,11 @@
           "Bruker imparfait om bakgrunn eller følelser og passé composé om det som skjedde.",
           "Bruker «leur» foran verbet for å vise til foreldrene."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "identitet-og-relasjoner",
+          "fortelle-om-opplevelser"
+        ]
       },
       {
         "text": "Forklar på fransk skoleløpet i Frankrike etter barneskolen. Ta med hvor lenge collège og lycée varer, navnene på de tre årene på lycée, og hva bac gir adgang til. Oppgi også hvilken karakter som er bestått på skalaen fra 0 til 20.",
@@ -550,7 +581,10 @@
           "Forklarer at bac gir adgang til høyere utdanning, og at 10 av 20 er bestått."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-arbeid"
+        ]
       },
       {
         "text": "Du ønsker sommerjobb i en bedrift innen turisme. Skriv en formell e-post på fransk der du ber om jobben og forklarer hvorfor den interesserer deg. Bruk en formell hilsen og avslutning.",
@@ -559,7 +593,10 @@
           "Bruker en passende høflig forespørsel, for eksempel «je souhaiterais».",
           "Har formell hilsen og avslutning, og oppgir interesse for turisme."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "skole-og-arbeid"
+        ]
       },
       {
         "text": "Skriv på fransk om hvordan Frankrike gikk fra okkupasjon under andre verdenskrig til frigjøring og europeisk samarbeid. Ta med okkupasjonen i 1940, landgangen i Normandie og frigjøringen av Paris, og knytt etterkrigstidens forsoning mellom Frankrike og Tyskland til Roma-traktaten.",
@@ -569,7 +606,10 @@
           "Knytter fransk-tysk forsoning etter krigen til europeisk samarbeid og Roma-traktaten i 1957."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "historie"
+        ]
       },
       {
         "text": "Skriv en kort presentasjon på fransk av det franske presidentskapet og Gule vester-bevegelsen. Ta med hvordan presidenten velges og hvor lenge hen sitter, og forklar hva protestene startet mot og hva de etter hvert også handlet om.",
@@ -579,7 +619,10 @@
           "Nevner at Gule vester startet i 2018 mot høyere drivstoffavgifter og ble en bredere protest mot sosial ulikhet."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "En fransktalende venn spør deg hvor i verden man snakker fransk. Svar på fransk med eksempler fra Europa, Amerika og Afrika. Ta også med Réunion og forklar hvilken status øya har; bruk «où» om et sted.",
@@ -590,7 +633,10 @@
           "Bruker «où» om et sted."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Sammenlign på fransk hva Molière er kjent for, med hva impresjonistiske malere ønsket å fange i bildene sine. Ta med Claude Monet og maleriet som ga impresjonismen navnet.",
@@ -601,7 +647,10 @@
           "Knytter navnet til Monets «Impression, soleil levant» fra 1872."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Skriv på fransk om forskjellen mellom chanson og musikken til Stromae. Ta med hva som står sentralt i chanson, hvor Stromae kommer fra, hvilke musikksjangre han blander, og eksempler på temaer i tekstene hans.",
@@ -612,7 +661,11 @@
           "Nevner minst ett tema tekstene hans handler om."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur",
+          "identitet-og-relasjoner"
+        ]
       }
     ]
   },

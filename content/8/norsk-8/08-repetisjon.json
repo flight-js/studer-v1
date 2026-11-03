@@ -503,6 +503,9 @@
         "kriterier": [
           "Nevner relevante strategier fra minst to av fasene før, under og etter lesing.",
           "Forklarer at oppsummering eller kontroll av forståelsen bidrar til å forstå og huske."
+        ],
+        "temaer": [
+          "lesestrategier"
         ]
       },
       {
@@ -512,6 +515,9 @@
         "kriterier": [
           "Kjenner igjen in medias res som start midt i handlingen.",
           "Forklarer at frampek hinter om noe senere, eller at åpen slutt lar leseren tolke."
+        ],
+        "temaer": [
+          "fortelling-og-novelle"
         ]
       },
       {
@@ -521,6 +527,9 @@
         "kriterier": [
           "Nevner en passende oppbygning med innledning, hoveddel og avslutning.",
           "Forklarer hvordan avsnitt, fagord eller tilpasning til mottaker gjør teksten forståelig."
+        ],
+        "temaer": [
+          "sakprosa"
         ]
       },
       {
@@ -530,6 +539,9 @@
         "kriterier": [
           "Identifiserer riktige ord: løp, raskt, men og ved.",
           "Forklarer funksjonen til minst to av ordklassene riktig."
+        ],
+        "temaer": [
+          "ordklasser"
         ]
       },
       {
@@ -539,6 +551,9 @@
         "kriterier": [
           "Skriver «å lese» og «med dem» riktig.",
           "Setter komma mellom de to helsetningene."
+        ],
+        "temaer": [
+          "rettskriving-og-tegnsetting"
         ]
       },
       {
@@ -548,6 +563,9 @@
         "kriterier": [
           "Forklarer virkningen av froskeperspektiv eller stor overskrift/blikkfang.",
           "Forklarer at bilde og tekst som sier det samme, forsterker budskapet."
+        ],
+        "temaer": [
+          "sammensatte-tekster"
         ]
       },
       {
@@ -557,6 +575,9 @@
         "kriterier": [
           "Bruker eg, ikkje og ho riktig.",
           "Bruker ei forståeleg nynorsk form av resten av setninga, inkludert «heile»."
+        ],
+        "temaer": [
+          "nynorsk-grunnkurs"
         ]
       },
       {
@@ -566,6 +587,10 @@
         "kriterier": [
           "Skiller riktig mellom sakprosa og skjønnlitteratur.",
           "Nevner en riktig forskjell i oppbygning."
+        ],
+        "temaer": [
+          "fortelling-og-novelle",
+          "sakprosa"
         ]
       },
       {
@@ -575,7 +600,11 @@
           "Nevner søkelesing for å finne bestemte opplysninger.",
           "Knytter nettsidens mellomtitler eller oppsett til det å finne fram."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "lesestrategier",
+          "sakprosa"
+        ]
       },
       {
         "text": "I en novelle forteller jeg-personen: «Mina la den eneste tørre votten i sekken min. Så gikk hun ut i snøen uten sine egne.» Hva kan handlingen fortelle om Mina, og hva får leseren ikke vite direkte fordi fortelleren bruker jeg-synsvinkel?",
@@ -584,7 +613,10 @@
           "Tolker handlingen som et tegn på en egenskap hos Mina.",
           "Forklarer at jeg-synsvinkelen begrenser leseren til fortellerens perspektiv."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "fortelling-og-novelle"
+        ]
       },
       {
         "text": "En reportasje om en brann starter med en beskrivelse av en familie som løper ut av huset. Forklar hvordan reportasjen kan bruke en slik scene og likevel være sakprosa. Nevn også én ting leseren kan undersøke for å vurdere om opplysningene er til å stole på.",
@@ -593,7 +625,10 @@
           "Forklarer at reportasjen handler om virkeligheten selv om den bruker fortellergrep.",
           "Nevner å vurdere hvem som står bak, eller å skille fakta fra meninger."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "sakprosa"
+        ]
       },
       {
         "text": "En reklame viser en person på en fjelltopp ved siden av teksten «Du blir ustoppelig» og en logo for en sportsdrikk. Forklar hvordan bilde og tekst kan påvirke følelsene til leseren, og hvorfor slagordet ikke nødvendigvis er et faktum.",
@@ -602,7 +637,10 @@
           "Forklarer hvordan bilde og tekst kan skape en følelse eller bruke patos.",
           "Skiller slagordet fra et faktum som kan sjekkes."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "sammensatte-tekster"
+        ]
       },
       {
         "text": "Se på ordet «kastet» i disse setningene: «Kastet var langt.» og «Hun kastet ballen.» Hvilken ordklasse tilhører ordet i hver setning, og hva i setningene hjelper deg å avgjøre det?",
@@ -611,7 +649,10 @@
           "Identifiserer «kastet» som substantiv i den første setningen.",
           "Identifiserer «kastet» som verb i den andre og knytter det til handlingen."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "ordklasser"
+        ]
       },
       {
         "text": "Skriv setningen riktig: «På mandag besøkte vi ungdoms skole i bergen.» Forklar kort hvilke rettskrivingsregler du brukte.",
@@ -620,7 +661,10 @@
           "Skriver «ungdomsskole» i ett ord.",
           "Skriver «Bergen» med stor forbokstav."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "rettskriving-og-tegnsetting"
+        ]
       },
       {
         "text": "Skriv substantivene «ein gut», «ei jente» og «eit hus» i bestemt form flertall på nynorsk.",
@@ -630,7 +674,10 @@
           "Skriver hokjønnsformen «jentene».",
           "Skriver inkjekjønnsformen «husa»."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "nynorsk-grunnkurs"
+        ]
       },
       {
         "text": "På nynorsk bøyes det sterke verbet slik: «å skrive – skriv – skreiv – har skrive». Forklar hva som skjer med verbet i de ulike formene, og hvilken form som viser fortid.",
@@ -639,7 +686,10 @@
           "Kjenner igjen «skreiv» som preteritum og «skriv» som presens.",
           "Viser at verbet bøyes i ulike tider og at vokalen skifter i fortidsformen."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "nynorsk-grunnkurs"
+        ]
       }
     ]
   },

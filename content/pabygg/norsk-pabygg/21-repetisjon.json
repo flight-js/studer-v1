@@ -546,6 +546,10 @@
           "Nevner indirekte personskildring og ære eller ætt i sagaene.",
           "Knytter realismen til hverdagsliv og samfunnskritikk.",
           "Viser en relevant likhet eller forskjell."
+        ],
+        "temaer": [
+          "norron-litteratur",
+          "realismen"
         ]
       },
       {
@@ -556,6 +560,11 @@
           "Beskriver opplysningstidens vekt på fornuft og kunnskap.",
           "Beskriver romantikkens vekt på følelser og fantasi.",
           "Beskriver realismens virkelighetsskildring eller samfunnskritikk."
+        ],
+        "temaer": [
+          "renessanse-barokk-og-opplysningstid",
+          "romantikken",
+          "realismen"
         ]
       },
       {
@@ -566,6 +575,9 @@
           "Nevner dansk som skriftspråk i dansketiden.",
           "Skiller mellom Knudsens fornorsking av dansk og Aasens dialektgrunnlag.",
           "Knytter språkstriden til utviklingen av to skriftspråk eller jamstillingsvedtaket."
+        ],
+        "temaer": [
+          "sprakhistorie-og-sprakstriden"
         ]
       },
       {
@@ -576,6 +588,10 @@
           "Kartlegger sentrale deler av den retoriske situasjonen.",
           "Forklarer minst to appellformer.",
           "Nevner påstand og belegg og vurderer argumentasjonen."
+        ],
+        "temaer": [
+          "retorisk-analyse-av-sakprosa",
+          "retorisk-situasjon"
         ]
       },
       {
@@ -586,6 +602,11 @@
           "Knytter problemstillingen til struktur og konklusjon.",
           "Forklarer at sitater eller eksempler må kommenteres som belegg.",
           "Nevner kildehenvisning ved bruk av andres opplysninger."
+        ],
+        "temaer": [
+          "fagartikkel-og-kildebruk",
+          "litterar-tolkning-og-sammenligning",
+          "fagartikkel-om-tekster-i-kontekst"
         ]
       },
       {
@@ -596,6 +617,10 @@
           "Nevner flere av arbeidsoppgavene: finne, ordne, formulere, huske eller framføre.",
           "Beskriver forberedelse eller framføring med stikkord og muntlige virkemidler.",
           "Knytter samtalesvar til lytting, fagbegreper eller teksteksempler."
+        ],
+        "temaer": [
+          "muntlig-framforing",
+          "muntlig-fordypning"
         ]
       },
       {
@@ -606,6 +631,9 @@
           "Knytter naturalismen til arv, miljø og drifter.",
           "Knytter nyromantikken til følelser eller det ubevisste.",
           "Nevner en forskjell i fokus eller stil."
+        ],
+        "temaer": [
+          "naturalismen-og-nyromantikken"
         ]
       },
       {
@@ -616,6 +644,10 @@
           "Nevner samfunnsuro eller politiske temaer i litteraturen før 1945.",
           "Knytter modernismen til brudd eller fragmentering og indre uro.",
           "Sammenligner tema eller form."
+        ],
+        "temaer": [
+          "mellomkrigstiden",
+          "modernismen-etter-1945"
         ]
       },
       {
@@ -626,6 +658,9 @@
           "Forklarer postmodernismens lek med fortellere, sjangre eller sannhet.",
           "Forklarer autofiksjon som blanding av eget liv og fiksjon.",
           "Viser en relevant sammenheng eller forskjell."
+        ],
+        "temaer": [
+          "samtidslitteratur"
         ]
       },
       {
@@ -636,6 +671,10 @@
           "Knytter essayet til personlig, utforskende refleksjon.",
           "Knytter fagartikkelen til saklig redegjørelse, drøfting og konklusjon.",
           "Nevner en likhet, for eksempel bruk av tekster eller kilder."
+        ],
+        "temaer": [
+          "essay",
+          "fagartikkel-og-kildebruk"
         ]
       },
       {
@@ -646,6 +685,10 @@
           "Nevner flere uttrykksformer og hvordan de kan samspille.",
           "Knytter analysen til målgruppe, formål eller virkning.",
           "Vurderer troverdighet eller verdier i reklamen."
+        ],
+        "temaer": [
+          "sammensatte-tekster",
+          "retorisk-analyse-av-sakprosa"
         ]
       },
       {
@@ -656,6 +699,9 @@
           "Knytter mobilitet eller urbanisering til dialektutjevning eller regionalisering.",
           "Forklarer at bydialekter kan påvirke omlandet eller at særtrekk kan forsvinne.",
           "Knytter talemåte til identitet eller tilhørighet."
+        ],
+        "temaer": [
+          "talesprak-i-endring"
         ]
       },
       {
@@ -666,6 +712,10 @@
           "Knytter nasjonalromantikken til søken etter en egen norsk kultur.",
           "Nevner dialekter eller folkekultur som viktige kilder.",
           "Forklarer Aasens arbeid med landsmålet og forbindelsen til nynorsk."
+        ],
+        "temaer": [
+          "romantikken",
+          "sprakhistorie-og-sprakstriden"
         ]
       },
       {
@@ -676,6 +726,10 @@
           "Nevner en tydelig problemstilling og struktur.",
           "Forklarer hvordan stikkord eller overganger støtter presentasjonen.",
           "Knytter samtalen til lytting, begrunnelse eller utforskende resonnering."
+        ],
+        "temaer": [
+          "muntlig-fordypning",
+          "muntlig-framforing"
         ]
       },
       {
@@ -686,6 +740,11 @@
           "Knytter romantikken til besjelet eller nasjonal natur.",
           "Beskriver naturen som indre speil eller symbol i modernismen, eller natur og framtidsansvar i klimalitteratur.",
           "Sammenligner minst to av framstillingene."
+        ],
+        "temaer": [
+          "romantikken",
+          "modernismen-etter-1945",
+          "samtidslitteratur"
         ]
       },
       {
@@ -696,6 +755,9 @@
           "Nevner relevante spørsmål i kildekritikk.",
           "Forklarer at KI-opplysninger må kontrolleres mot pålitelige kilder.",
           "Slår fast at både sitater og parafraser krever kildehenvisning."
+        ],
+        "temaer": [
+          "fagartikkel-og-kildebruk"
         ]
       }
     ]

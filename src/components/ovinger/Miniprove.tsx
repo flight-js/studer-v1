@@ -41,6 +41,8 @@ export function Miniprove({
   minutter,
   temaNavn,
   fagNavn,
+  meny,
+  lagre = true,
 }: {
   temaId: string;
   tilbake: string;
@@ -49,6 +51,10 @@ export function Miniprove({
   minutter: number;
   temaNavn: string;
   fagNavn: string;
+  // Temavalget i repetisjonstemaet, bare før prøven starter. lagre: false når
+  // bare noen temaer er valgt – da regnes ikke prøven med i fremdriften.
+  meny?: React.ReactNode;
+  lagre?: boolean;
 }) {
   const [fase, setFase] = useState<Fase>("start");
   const [utvalg, setUtvalg] = useState<ReturnType<typeof settSammen> | null>(null);
@@ -147,8 +153,8 @@ export function Miniprove({
   useEffect(() => {
     if (fase !== "levert" || retter || feilet.length || lagretForsok.current === forsok.current) return;
     lagretForsok.current = forsok.current;
-    lagreResultat(temaId, "miniprove", poeng, total);
-  }, [fase, retter, feilet.length, poeng, total, temaId]);
+    if (lagre) lagreResultat(temaId, "miniprove", poeng, total);
+  }, [fase, retter, feilet.length, poeng, total, temaId, lagre]);
 
   const klokke = `${Math.floor(igjen / 60)}:${String(igjen % 60).padStart(2, "0")}`;
   const antallRettet = skrivRettinger.filter((r) => r && r.status !== "venter").length;
@@ -166,6 +172,7 @@ export function Miniprove({
             </span>
           ) : undefined
         }
+        meny={fase === "start" ? meny : undefined}
       >
         {fase === "pagar" && (
           <div className="flex items-center gap-3">

@@ -495,6 +495,9 @@
         "kriterier": [
           "Forklarer at USA bygde på demokrati og kapitalisme. (½ poeng)",
           "Forklarer at Sovjetunionen bygde på kommunisme og knytter forskjellene til mistillit eller rivalisering. (½ poeng)"
+        ],
+        "temaer": [
+          "den-kalde-krigen"
         ]
       },
       {
@@ -505,7 +508,10 @@
           "Nevner relevante deler av en konfliktanalyse, som aktører, interesser eller årsaker. (½ poeng)",
           "Nevner en relevant konsekvens, som død, skader, ødeleggelse eller flukt. (½ poeng)"
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "konflikter-i-var-tid"
+        ]
       },
       {
         "id": "s03",
@@ -514,6 +520,10 @@
         "kriterier": [
           "Knytter utenforskap til mulig radikalisering. (½ poeng)",
           "Forklarer at inkludering eller gode fellesskap kan forebygge ekstremisme. (½ poeng)"
+        ],
+        "temaer": [
+          "terror-og-ekstremisme",
+          "mangfold-og-fordommer"
         ]
       },
       {
@@ -523,6 +533,9 @@
         "kriterier": [
           "Knytter tiltaket til arbeid for et mer bærekraftig samfunn. (½ poeng)",
           "Nevner at bærekraft har miljømessig, økonomisk og sosial dimensjon, og at de må ses i sammenheng. (½ poeng)"
+        ],
+        "temaer": [
+          "berekraftig-utvikling"
         ]
       },
       {
@@ -532,6 +545,9 @@
         "kriterier": [
           "Forklarer at skatter og avgifter først og fremst finansierer velferden. (½ poeng)",
           "Knytter flere eldre til økte utgifter eller færre i arbeid per pensjonist. (½ poeng)"
+        ],
+        "temaer": [
+          "velferdsstaten"
         ]
       },
       {
@@ -541,6 +557,10 @@
         "kriterier": [
           "Forklarer at ensidig omtale kan forsterke fordommer eller skape et forenklet bilde. (½ poeng)",
           "Nevner et relevant vurderingsspørsmål, for eksempel hvem som forteller eller hvem som mangler. (½ poeng)"
+        ],
+        "temaer": [
+          "mangfold-og-fordommer",
+          "makt-og-medier"
         ]
       },
       {
@@ -550,6 +570,9 @@
         "kriterier": [
           "Forklarer at integrering innebærer deltakelse samtidig som egen kultur kan beholdes. (½ poeng)",
           "Forklarer at assimilering innebærer at minoriteten må gi opp egen kultur og bli lik majoriteten. (½ poeng)"
+        ],
+        "temaer": [
+          "mangfold-og-fordommer"
         ]
       },
       {
@@ -559,6 +582,9 @@
         "kriterier": [
           "Forklarer at algoritmer kan fremme engasjerende, spisse eller polariserende utspill. (½ poeng)",
           "Nevner en kildekritisk måte å kontrollere påstanden på, som å sjekke avsenderen eller sammenligne kilder. (½ poeng)"
+        ],
+        "temaer": [
+          "makt-og-medier"
         ]
       },
       {
@@ -569,7 +595,10 @@
           "Forklarer at basepolitikken skulle begrense spenning i nord."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "den-kalde-krigen"
+        ]
       },
       {
         "text": "Tørke kan gjøre det vanskeligere å få tilgang til vann og dyrkbar jord i et fattig område. Forklar hvordan dette kan øke faren for konflikt, og knytt sammenhengen til minst to dimensjoner av bærekraftig utvikling.",
@@ -579,7 +608,11 @@
           "Knytter fattigdom eller dårligere avlinger til sosiale eller økonomiske følger.",
           "Viser sammenheng mellom minst to bærekraftsdimensjoner."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "konflikter-i-var-tid",
+          "berekraftig-utvikling"
+        ]
       },
       {
         "text": "Norge vurderer å trappe ned olje- og gassproduksjonen og utvikle nye næringer. Forklar en mulig miljøgevinst og hvordan en slik omstilling kan påvirke arbeidsplasser, inntekter og velferd over tid.",
@@ -590,7 +623,11 @@
           "Knytter arbeid eller inntekter til velferd eller økonomi over tid."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "berekraftig-utvikling",
+          "velferdsstaten"
+        ]
       },
       {
         "text": "Etter et terrorangrep vurderer myndighetene å øke overvåkingen. Forklar hvorfor terror kan føre til krav om strengere sikkerhet, og hvilket dilemma dette kan skape.",
@@ -599,7 +636,11 @@
           "Knytter terror til frykt eller behov for sikkerhetstiltak.",
           "Forklarer at overvåking kan komme i konflikt med frihet eller personvern."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "terror-og-ekstremisme",
+          "makt-og-medier"
+        ]
       },
       {
         "text": "En avis avslører at en offentlig myndighet har misbrukt makten sin. Forklar hvordan avisens makt er forskjellig fra Stortingets og regjeringens makt, og hvordan mediene kan påvirke samfunnet.",
@@ -608,7 +649,11 @@
           "Skiller mellom formell politisk makt og mediemakt.",
           "Forklarer at mediene kan sette dagsorden eller avsløre maktmisbruk."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "makt-og-medier",
+          "velferdsstaten"
+        ]
       },
       {
         "text": "En person antar at alle i en gruppe har de samme egenskapene, og behandler senere en person dårligere på grunn av bakgrunnen deres. Forklar hvilke begreper som passer til den forenklede antakelsen, en negativ holdning uten god kunnskap og den dårlige behandlingen.",
@@ -618,7 +663,10 @@
           "Knytter fordom til en negativ holdning uten god kunnskap.",
           "Knytter diskriminering til dårligere behandling på grunn av hvem noen er."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "mangfold-og-fordommer"
+        ]
       },
       {
         "text": "En kommune skal planlegge grunnskole, kollektivtransport og sykehustjenester. Forklar hvilket offentlig nivå som har ansvar for hver av disse tjenestene.",
@@ -628,7 +676,10 @@
           "Plasserer kollektivtransport hos fylkeskommunen.",
           "Plasserer sykehus hos staten."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "velferdsstaten"
+        ]
       },
       {
         "text": "FNs sikkerhetsråd vurderer tiltak mot en konflikt, men ett av de fem faste medlemmene er imot. Forklar hvordan vetoretten kan påvirke beslutningen, og nevn to andre måter konflikter kan forsøkes løst på.",
@@ -638,7 +689,10 @@
           "Nevner to relevante tiltak, som forhandlinger, mekling, fredsbevarende styrker eller sanksjoner."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "konflikter-i-var-tid"
+        ]
       }
     ]
   },

@@ -413,6 +413,9 @@
         "kriterier": [
           "Bruker Je m'appelle Nora.",
           "Bruker J'ai treize ans og J'habite à Bergen, en Norvège."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon"
         ]
       },
       {
@@ -422,6 +425,9 @@
         "kriterier": [
           "Sier at timen begynner mandag klokka åtte: Le cours commence lundi à huit heures.",
           "Sier at klokka er 8.30: Il est huit heures et demie."
+        ],
+        "temaer": [
+          "tall-og-tid"
         ]
       },
       {
@@ -431,6 +437,9 @@
         "kriterier": [
           "Bruker J'ai une sœur.",
           "Beskriver søsteren som snill med Elle est gentille."
+        ],
+        "temaer": [
+          "familie-og-venner"
         ]
       },
       {
@@ -440,6 +449,10 @@
         "kriterier": [
           "Sier at du liker å lese og ofte tegner.",
           "Sier at du aldri svømmer med ne … jamais."
+        ],
+        "temaer": [
+          "skole-og-fritid",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -450,7 +463,10 @@
           "Nevner Frankrike, Belgia og Senegal som steder der fransk snakkes.",
           "Forklarer at fellesskapet kalles la francophonie."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "id": "s06",
@@ -459,6 +475,9 @@
         "kriterier": [
           "Sier at du liker matte: J'aime les maths.",
           "Sier at du ikke liker historie, og beskriver den som vanskelig."
+        ],
+        "temaer": [
+          "skole-og-fritid"
         ]
       },
       {
@@ -469,7 +488,11 @@
           "Oppgir datoen som le deux février.",
           "Sier at man spiser crêpes."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "tall-og-tid",
+          "land-og-kultur"
+        ]
       },
       {
         "id": "s08",
@@ -478,6 +501,10 @@
         "kriterier": [
           "Sier at bestevenninnen heter Emma.",
           "Beskriver henne som snill og sier at hun liker å tegne."
+        ],
+        "temaer": [
+          "familie-og-venner",
+          "skole-og-fritid"
         ]
       },
       {
@@ -487,7 +514,10 @@
           "Bruker en passende hilsen og ber høflig om en baguette.",
           "Takker høflig."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "hilsener-og-presentasjon"
+        ]
       },
       {
         "text": "Forklar på fransk hvordan collège i Frankrike er organisert. Ta med omtrent hvilken alder elevene er der, hvordan klassetrinnene telles, og hva en karakter på 10 av 20 betyr.",
@@ -497,7 +527,10 @@
           "Forklarer at 10 av 20 regnes som bestått."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-fritid"
+        ]
       },
       {
         "text": "Bursdagen din er 1. mai. Skriv datoen på fransk og fortell hvilken årstid det er da.",
@@ -506,7 +539,10 @@
           "Skriver datoen som le premier mai.",
           "Sier at mai er om våren: au printemps."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "tall-og-tid"
+        ]
       },
       {
         "text": "Forklar på fransk hvordan man sier 70 og 90 i Frankrike, og hvordan mange sier de samme tallene i Belgia og Sveits. Ta med hvordan tallene settes sammen i Frankrike.",
@@ -516,7 +552,11 @@
           "Oppgir at mange i Belgia og Sveits sier septante og nonante."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "tall-og-tid",
+          "land-og-kultur"
+        ]
       },
       {
         "text": "En turist spør om Paris og noen geografiske trekk ved Frankrike. Skriv på fransk hva som er hovedstaden, hvilken elv som renner gjennom den, og hvor Pyreneene ligger.",
@@ -526,7 +566,10 @@
           "Plasserer Pyreneene sør i Frankrike."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Skriv på fransk om en forbindelse mellom Frankrike og Norge. Fortell hvem Jean-Baptiste Bernadotte ble, og nevn to norske ord som kommer fra fransk.",
@@ -536,7 +579,10 @@
           "Nevner to norske lånord fra fransk, for eksempel restaurant og sjåfør."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Forklar på fransk hva franskmenn feirer 14. juli. Ta med hvilken historisk hendelse dagen minnes, og nevn noe man kan oppleve på feiringen.",
@@ -546,7 +592,10 @@
           "Nevner parade eller fyrverkeri som del av feiringen."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Beskriv kusinen din på fransk. Si at hun er sporty, og fortell at hun har brunt hår.",
@@ -555,7 +604,10 @@
           "Beskriver kusinen som sporty med riktig hunkjønnsform: sportive.",
           "Forteller at hun har brunt hår: elle a les cheveux bruns."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "familie-og-venner"
+        ]
       }
     ]
   },

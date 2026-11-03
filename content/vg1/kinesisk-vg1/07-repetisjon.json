@@ -420,6 +420,9 @@
         "kriterier": [
           "Forklarer at pinyin skriver uttale med latinske bokstaver.",
           "Nevner at tone kan endre betydningen, og forklarer tonesandhi i 你好."
+        ],
+        "temaer": [
+          "uttale-og-toner"
         ]
       },
       {
@@ -429,6 +432,9 @@
         "kriterier": [
           "Bruker 老师好 som hilsen til en lærer.",
           "Skriver Jeg heter Anna og Jeg er norsk med 我叫安娜 og 我是挪威人."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon"
         ]
       },
       {
@@ -438,6 +444,9 @@
         "kriterier": [
           "Oppgir rekkefølgen år–måned–dag.",
           "Skriver eller forklarer riktig setning med 明天 foran verbet."
+        ],
+        "temaer": [
+          "tall-og-tid"
         ]
       },
       {
@@ -447,6 +456,10 @@
         "kriterier": [
           "Skriver 我有两个哥哥 eller en tilsvarende korrekt setning.",
           "Forklarer at 两 brukes foran måleord og at 个 er måleordet."
+        ],
+        "temaer": [
+          "familie-og-hverdag",
+          "tall-og-tid"
         ]
       },
       {
@@ -456,6 +469,9 @@
         "kriterier": [
           "Nevner samvær med familien eller tradisjonsmat som en likhet.",
           "Nevner en tradisjon ved vårfestivalen, for eksempel røde konvolutter eller dumplings."
+        ],
+        "temaer": [
+          "kultur-og-hoytider"
         ]
       },
       {
@@ -466,7 +482,11 @@
           "Forklarer at pinyin viser uttale og tone.",
           "Knytter 女 til betydning og 马 til uttale i 妈."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kinesiske-tegn",
+          "uttale-og-toner"
+        ]
       },
       {
         "id": "s07",
@@ -476,7 +496,10 @@
           "Forklarer at søskenord skiller mellom eldre og yngre.",
           "Nevner respekt for eldre som en tradisjonell familieverdi."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "familie-og-hverdag"
+        ]
       },
       {
         "id": "s08",
@@ -486,7 +509,10 @@
           "Skiller mellom ris i sør og mer hvete i nord.",
           "Nevner en skikk ved delte måltider eller at spisepinner ikke skal stå loddrett i risen."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kultur-og-hoytider"
+        ]
       },
       {
         "text": "En elev spør om mandarin bare brukes i Kina, og hvilke typer kinesiske tegn som brukes i Taiwan og Singapore. Forklar hvor mandarin er offisielt språk, og sammenlign skriftsystemene i Taiwan og Singapore.",
@@ -496,7 +522,12 @@
           "Skiller mellom tradisjonelle tegn i Taiwan og forenklede tegn i Singapore."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "uttale-og-toner",
+          "kinesiske-tegn",
+          "kultur-og-hoytider"
+        ]
       },
       {
         "text": "Skriv på kinesisk «I morgen går vi alle på skolen». Forklar hvor tidsuttrykket og 都 står i setningen.",
@@ -505,7 +536,11 @@
           "Skriver en forståelig kinesisk setning med betydningen «I morgen går vi alle på skolen».",
           "Plasserer 明天 og 都 foran verbet."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "familie-og-hverdag",
+          "tall-og-tid"
+        ]
       },
       {
         "text": "Skriv tallene 36 og 99 med kinesiske tegn. Forklar kort hvordan 36 er bygd opp.",
@@ -514,7 +549,10 @@
           "Skriver 36 som 三十六 og 99 som 九十九.",
           "Forklarer at 36 består av tre tiere og seks."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "tall-og-tid"
+        ]
       },
       {
         "text": "Tegnet 休 betyr «hvile». Forklar hvilke deler tegnet består av, og hva delene kan få deg til å tenke på. Nevn også én regel for strekrekkefølge i kinesiske tegn.",
@@ -523,7 +561,10 @@
           "Identifiserer 亻 som menneske og 木 som tre, og knytter tegnet til hvile.",
           "Nevner en riktig regel for strekrekkefølge."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "kinesiske-tegn"
+        ]
       },
       {
         "text": "Sammenlign midthøstfestivalen og dragebåtfestivalen i Kina. Nevn når eller hvordan de markeres, og hva som er særlig knyttet til hver festival.",
@@ -533,7 +574,10 @@
           "Knytter dragebåtfestivalen til kappløp med drageformede båter."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kultur-og-hoytider"
+        ]
       },
       {
         "text": "En besøkende får en gave og får deretter et kompliment i Kina. Forklar hvordan personen kan opptre høflig i disse to situasjonene.",
@@ -543,7 +587,10 @@
           "Nevner at man ofte svarer beskjedent på komplimenter."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hilsener-og-presentasjon"
+        ]
       },
       {
         "text": "Skriv på kinesisk «Jeg er ikke elev» og «Jeg har ingen yngre søster». Forklar hvorfor de to setningene bruker ulike nektingsord.",
@@ -552,7 +599,10 @@
           "Skriver setningene med betydningen «Jeg er ikke elev» og «Jeg har ingen yngre søster».",
           "Forklarer at 有 nektes med 没, mens 不 brukes foran 是."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "familie-og-hverdag"
+        ]
       },
       {
         "text": "Forklar hvordan landskapet i vestlige og østlige Kina er forskjellig. Nevn også hovedstaden og den største byen i Kina.",
@@ -562,7 +612,10 @@
           "Nevner Beijing som hovedstad og Shanghai som største by."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kultur-og-hoytider"
+        ]
       }
     ]
   },

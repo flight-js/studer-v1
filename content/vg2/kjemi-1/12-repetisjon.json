@@ -489,6 +489,10 @@
           "Samme gruppe betyr samme antall valenselektroner.",
           "Valenselektronene bestemmer hvordan atomer reagerer og binder seg.",
           "Nevner ionedannelse ved elektronoverføring eller kovalent binding ved deling."
+        ],
+        "temaer": [
+          "atomet-og-periodesystemet",
+          "kjemisk-binding"
         ]
       },
       {
@@ -498,6 +502,9 @@
         "kriterier": [
           "Bruker n = m/M.",
           "Oppgir 0,100 mol."
+        ],
+        "temaer": [
+          "stoffmengde-og-stokiometri"
         ]
       },
       {
@@ -507,6 +514,9 @@
         "kriterier": [
           "Bruker molforholdet fra den balanserte likningen.",
           "Finner 1,0 mol O₂ og 2,0 mol H₂O."
+        ],
+        "temaer": [
+          "stoffmengde-og-stokiometri"
         ]
       },
       {
@@ -516,6 +526,9 @@
         "kriterier": [
           "Skiller mellom sterk saltsyre og svak eddiksyre.",
           "Knytter fullstendig protolyse til høyere H₃O⁺-konsentrasjon og lavere pH."
+        ],
+        "temaer": [
+          "syrer-baser-og-ph"
         ]
       },
       {
@@ -525,6 +538,10 @@
         "kriterier": [
           "Forklarer at høyere temperatur gir flere effektive kollisjoner og økt reaksjonsfart.",
           "Angir at likevekten forskyves mot den endoterme retningen, her bakover."
+        ],
+        "temaer": [
+          "reaksjonsfart-og-likevekt",
+          "energi-og-entalpi"
         ]
       },
       {
@@ -534,6 +551,9 @@
         "kriterier": [
           "Knytter polariteten til molekylformen og om dipolene opphever hverandre.",
           "Angir at vann danner hydrogenbindinger."
+        ],
+        "temaer": [
+          "kjemisk-binding"
         ]
       },
       {
@@ -543,6 +563,10 @@
         "kriterier": [
           "Bruker n = cV for NaOH og 1:1-molforholdet.",
           "Oppgir konsentrasjonen 0,10 mol/L."
+        ],
+        "temaer": [
+          "titrering-og-spektroskopi",
+          "stoffmengde-og-stokiometri"
         ]
       },
       {
@@ -554,7 +578,10 @@
           "Forklarer at lav atomøkonomi kan gi biprodukter og avfall.",
           "Definerer E-faktor som masse avfall per masse produkt."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "gronn-kjemi"
+        ]
       },
       {
         "text": "Et atom har atomnummer 17 og massetall 37. Det tar opp ett elektron. Hvor mange protoner, nøytroner og elektroner har ionet? Forklar hva atomnummeret og massetallet forteller.",
@@ -564,7 +591,10 @@
           "Oppgir 18 elektroner etter at atomet har tatt opp ett elektron.",
           "Forklarer hva atomnummer og massetall angir."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "atomet-og-periodesystemet"
+        ]
       },
       {
         "text": "Kalsiumioner har ladning 2+ og fosfationer har ladning 3−. Skriv formelen og navnet på forbindelsen de danner. Forklar hvorfor forbindelsen leder elektrisk strøm når den er løst i vann, men ikke som fast stoff.",
@@ -574,7 +604,11 @@
           "Viser at forholdet mellom ionene gir samlet ladning null.",
           "Forklarer at ionene er bundet i gitteret som fast stoff, men bevegelige i løsning."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "formler-og-navnsetting",
+          "kjemisk-binding"
+        ]
       },
       {
         "text": "En prøve på 200 mL har konsentrasjonen 0,10 mol/L CaCl₂. Beregn stoffmengden kloridioner i prøven, og forklar hvordan formelen til saltet brukes i beregningen.",
@@ -583,7 +617,11 @@
           "Regner ut 0,020 mol CaCl₂ i prøven.",
           "Bruker at hvert CaCl₂ gir to kloridioner, og oppgir 0,040 mol Cl⁻."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "losninger-og-konsentrasjon",
+          "stoffmengde-og-stokiometri"
+        ]
       },
       {
         "text": "En sinkbit legges i en løsning med Cu²⁺-ioner, og det dannes fast kobber og Zn²⁺-ioner. Forklar hvilken partikkel som avgir elektroner, hvilken som tar dem opp, og hvilken rolle sink og kobberionene har i redoksreaksjonen.",
@@ -592,7 +630,10 @@
           "Forklarer at sink avgir elektroner og oksideres, mens Cu²⁺ tar opp elektroner og reduseres.",
           "Identifiserer sink som reduksjonsmiddel og Cu²⁺ som oksidasjonsmiddel."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "reaksjonstyper-og-redoks"
+        ]
       },
       {
         "text": "Når natriumatomer får tilført energi, kan de sende ut lys når elektronene faller tilbake til lavere energinivåer. Forklar hvorfor lyset får bestemte bølgelengder, og hvordan et absorpsjonsspekter oppstår når hvitt lys sendes gjennom en gass.",
@@ -601,7 +642,11 @@
           "Knytter bestemte energinivåer til bestemte energier eller bølgelengder i lyset.",
           "Forklarer at gassen absorberer bestemte bølgelengder, som blir mørke linjer."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "titrering-og-spektroskopi",
+          "atomet-og-periodesystemet"
+        ]
       },
       {
         "text": "I likevekten N₂(g) + 3H₂(g) ⇌ 2NH₃(g) økes trykket, og en katalysator tilsettes. Forklar hvordan trykkøkningen påvirker likevekten, og hva katalysatoren gjør med reaksjonene.",
@@ -610,7 +655,10 @@
           "Forklarer at trykkøkningen forskyver likevekten mot NH₃-siden, som har færrest gassmolekyler.",
           "Forklarer at katalysatoren gjør at likevekten nås raskere, uten å forskyve den."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "reaksjonsfart-og-likevekt"
+        ]
       },
       {
         "text": "Eddiksyre, som er en svak syre, titreres med en sterk base. Forklar hvorfor pH ved ekvivalenspunktet er over 7, og velg en indikator som passer til titreringen.",
@@ -619,7 +667,11 @@
           "Knytter pH over 7 ved ekvivalenspunktet til at eddiksyre er en svak syre som titreres med sterk base, eller til de basiske acetationene.",
           "Velger fenolftalein fordi ekvivalenspunktet er i basisk område."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "titrering-og-spektroskopi",
+          "syrer-baser-og-ph"
+        ]
       },
       {
         "text": "Et firma bytter til råstoff fra planter, men dyrkingen krever mye vann og gjødsel. Firmaet vurderer også å erstatte et skadelig organisk løsemiddel med vann. Forklar hvilke prinsipper for grønn kjemi valgene kan støtte, og hvorfor man trenger en livsløpsanalyse før man konkluderer om bærekraft.",
@@ -629,7 +681,10 @@
           "Forklarer at ressursbruken i dyrkingen må vurderes gjennom hele livsløpet før man konkluderer om bærekraft."
         ],
         "id": "s16",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "gronn-kjemi"
+        ]
       }
     ]
   },

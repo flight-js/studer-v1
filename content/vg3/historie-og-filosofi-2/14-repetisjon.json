@@ -450,6 +450,10 @@
         "kriterier": [
           "Skiller mellom logisk gyldighet og sanne premisser.",
           "Forklarer at falsifiserbarhet innebærer at påstanden kan testes og motbevises."
+        ],
+        "temaer": [
+          "argumentasjon-og-kildearbeid",
+          "vitenskap-og-pseudovitenskap"
         ]
       },
       {
@@ -459,6 +463,9 @@
         "kriterier": [
           "Beskriver hermeneutikk som tolkning påvirket av forforståelse.",
           "Beskriver kvantitativ metode som målinger/statistikk som gir oversikt eller mønstre."
+        ],
+        "temaer": [
+          "metode-perspektiv-og-erkjennelse"
         ]
       },
       {
@@ -469,7 +476,11 @@
           "Viser konflikten mellom individuell frihet og beskyttelse av fellesskapet.",
           "Nevner at knappe ressurser kan måtte prioriteres."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "frihet-autonomi-og-det-gode-liv",
+          "etiske-sporsmal-i-nyere-tid"
+        ]
       },
       {
         "id": "s04",
@@ -478,6 +489,9 @@
         "kriterier": [
           "Nevner minst én måte teknologi kan styrke livsutfoldelse på.",
           "Nevner minst én risiko og knytter virkningene til bruk eller regulering."
+        ],
+        "temaer": [
+          "teknologi-og-samfunn"
         ]
       },
       {
@@ -487,6 +501,10 @@
         "kriterier": [
           "Forklarer hvordan desinformasjon eller filterbobler svekker felles grunnlag eller debatt.",
           "Nevner et relevant mottiltak, som faktasjekk eller redaktørstyrte medier."
+        ],
+        "temaer": [
+          "kommunikasjon-og-offentlighet",
+          "vitenskap-og-pseudovitenskap"
         ]
       },
       {
@@ -497,7 +515,10 @@
           "Knytter Rawls til uvitenhetens slør og hensynet til de dårligst stilte.",
           "Knytter Nozick til rettferdig ervervet eiendom og begrenset omfordeling."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "natur-og-forbrukersamfunnet"
+        ]
       },
       {
         "id": "s07",
@@ -507,7 +528,10 @@
           "Nevner at vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse.",
           "Forklarer konflikten mellom grønn omstilling og urfolksrettigheter."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "urfolk-tradisjon-og-modernitet"
+        ]
       },
       {
         "id": "s08",
@@ -516,6 +540,9 @@
         "kriterier": [
           "Gir et eksempel på frigjørende historiebruk eller på at grupper får stemme.",
           "Forklarer at historie også kan brukes til å rettferdiggjøre makt eller overgrep."
+        ],
+        "temaer": [
+          "historieframstillinger-og-historiebevissthet"
         ]
       },
       {
@@ -525,7 +552,10 @@
           "Identifiserer personangrep og forklarer at argumentet, ikke personen, bør vurderes.",
           "Nevner en saklig samtalemåte, for eksempel å be om begrunnelser eller undersøke kilder."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "argumentasjon-og-kildearbeid"
+        ]
       },
       {
         "text": "En historiker vil undersøke hvordan vanlige arbeidere opplevde industrialiseringen, men arkivene inneholder mest brev og rapporter fra fabrikkeiere og myndigheter. Forklar hvordan dette kan påvirke framstillingen, og hvordan intervjuer eller andre kvalitative kilder kan bidra uten å fjerne all usikkerhet.",
@@ -534,7 +564,11 @@
           "Forklarer at arkivenes innhold og kildevalg påvirker hvilke perspektiver som kommer fram.",
           "Viser at kvalitative kilder kan gi dybde, men har begrensninger, for eksempel svakere grunnlag for generalisering."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "metode-perspektiv-og-erkjennelse",
+          "historieframstillinger-og-historiebevissthet"
+        ]
       },
       {
         "text": "I et land begynner regjeringen å svekke domstolenes uavhengighet og begrense frie medier. Forklar hvordan maktfordeling kan motvirke maktmisbruk, og hvorfor utviklingen kan være et tegn på demokratisk tilbakegang.",
@@ -543,7 +577,10 @@
           "Forklarer at maktfordeling skal hindre maktmisbruk.",
           "Knytter svekkede domstoler eller medier til demokratisk tilbakegang."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "veien-til-det-moderne-demokratiet"
+        ]
       },
       {
         "text": "En person har lov til å studere, men har ikke råd til å dekke utgiftene ved å gjøre det. Bruk Berlins skille mellom negativ og positiv frihet til å forklare personens situasjon, og hva som kan gi personen større reell frihet.",
@@ -552,7 +589,10 @@
           "Skiller mellom frihet fra tvang og reelle muligheter til å handle.",
           "Forklarer hvordan støtte eller velferd kan øke positiv frihet."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "frihet-autonomi-og-det-gode-liv"
+        ]
       },
       {
         "text": "Et firma bruker kunstig intelligens til å velge hvem som innkalles til jobbintervju. Systemet velger bort kvinner oftere enn menn. Forklar hvorfor dette reiser et etisk problem, og nevn hva firmaet bør vurdere når systemet brukes.",
@@ -561,7 +601,11 @@
           "Knytter skjevheten til mulige skjevheter i data eller systemet.",
           "Viser at ansvar for bruk, kontroll eller regulering må vurderes."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "etiske-sporsmal-i-nyere-tid",
+          "teknologi-og-samfunn"
+        ]
       },
       {
         "text": "Et selskap vil utvinne mineraler til forbruksvarer i et naturområde. Forklar hvordan et antroposentrisk syn og dypøkologi kan vurdere inngrepet forskjellig, og knytt vurderingen til ansvar for framtidige generasjoner.",
@@ -570,7 +614,10 @@
           "Skiller mellom menneskets nytte av naturen og naturens egenverdi.",
           "Knytter inngrepet til miljøhensyn eller ansvar for framtidige generasjoner."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "natur-og-forbrukersamfunnet"
+        ]
       },
       {
         "text": "Synet på Grunnloven av 1814 har endret seg fra en heroisk fortelling om nasjonal gjenfødelse til en framstilling som også tar opp stemmerettsbegrensninger og jødeparagrafen. Forklar hva denne endringen viser om forholdet mellom fortiden og samtiden.",
@@ -579,7 +626,10 @@
           "Forklarer at samtidens verdier eller spørsmål påvirker fortolkningen av fortiden.",
           "Viser at historiebevissthet knytter fortid, nåtid og eventuelt framtid sammen."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "historieframstillinger-og-historiebevissthet"
+        ]
       },
       {
         "text": "Under en økonomisk krise øker arbeidsledigheten. Forklar hvordan Keynes og Hayek ville ha begrunnet ulike roller for staten i møte med krisen, og hvilken bekymring som ligger bak Hayeks syn.",
@@ -588,7 +638,10 @@
           "Forklarer Keynes’ støtte til økte offentlige utgifter i krisetider.",
           "Forklarer Hayeks advarsel om at statlig styring kan true friheten."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "ideologier-og-okonomiske-teorier"
+        ]
       }
     ]
   },

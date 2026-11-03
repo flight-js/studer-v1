@@ -466,6 +466,10 @@
         "kriterier": [
           "Bruker passé composé riktig for å fortelle om noe som skjedde i går.",
           "Bruker passende hjelpeverb og partisipp, og viser rekkefølge med ensuite eller tilsvarende."
+        ],
+        "temaer": [
+          "fortid",
+          "mat-og-drikke"
         ]
       },
       {
@@ -475,6 +479,9 @@
         "kriterier": [
           "Spør hvor apoteket er med en passende fransk frase.",
           "Gir begge retningene riktig: rett fram og til høyre ved lyskrysset."
+        ],
+        "temaer": [
+          "byen-og-veibeskrivelse"
         ]
       },
       {
@@ -484,6 +491,9 @@
         "kriterier": [
           "Bruker uttrykket J'ai faim.",
           "Bestiller høflig med Je voudrais og passende delingsartikler."
+        ],
+        "temaer": [
+          "mat-og-drikke"
         ]
       },
       {
@@ -493,6 +503,9 @@
         "kriterier": [
           "Bruker riktig ord for skjørt og bøyer bleu til bleue.",
           "Bruker passende uttrykk for å prøve plagget og si at det er for dyrt."
+        ],
+        "temaer": [
+          "klaer-og-handel"
         ]
       },
       {
@@ -504,7 +517,12 @@
           "Har med Paris, familien, Eiffeltårnet, crêpes og kino.",
           "Bruker C'était super eller tilsvarende fra teksten."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "fortid",
+          "mat-og-drikke",
+          "byen-og-veibeskrivelse"
+        ]
       },
       {
         "id": "s06",
@@ -513,6 +531,9 @@
         "kriterier": [
           "Bruker il y a og de riktige ordene for seng og skrivebord.",
           "Beskriver rutinene med passende verb og rekkefølgeord."
+        ],
+        "temaer": [
+          "hjemmet-og-hverdagen"
         ]
       },
       {
@@ -523,7 +544,10 @@
           "Nevner le temps des sucres i Québec og knytter tradisjonen til sevje eller lønnesirup.",
           "Nevner at Saint-Nicolas kommer med gaver i Belgia 6. desember."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "id": "s08",
@@ -532,6 +556,9 @@
         "kriterier": [
           "Bruker uttrykkene for å lete etter en jakke og spørre om å prøve den.",
           "Bruker Je la prends med riktig pronomen for la veste."
+        ],
+        "temaer": [
+          "klaer-og-handel"
         ]
       },
       {
@@ -542,7 +569,10 @@
           "Nevner minst to deler av lunsjmåltidet."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Fortell på fransk hva du gjør etter skolen og om kvelden. Ta med en oppgave du gjør hjemme, og bruk ord som viser rekkefølge.",
@@ -551,7 +581,10 @@
           "Nevner en aktivitet etter skolen og en oppgave hjemme.",
           "Bruker et uttrykk for rekkefølge, for eksempel «ensuite» eller «après»."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "hjemmet-og-hverdagen"
+        ]
       },
       {
         "text": "Du er i Paris 14. juli. Skriv på fransk hvordan du kommer deg rundt i byen, og fortell om én ting du kan oppleve på nasjonaldagen.",
@@ -561,7 +594,11 @@
           "Forteller om en nasjonaldagsopplevelse, for eksempel militærparaden eller fyrverkeriet."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "byen-og-veibeskrivelse",
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "text": "Fortell på fransk om en feiring rundt 6. januar. Skriv hva dere spiste, og hva som skjer med den som finner den lille figuren i kaka.",
@@ -571,7 +608,11 @@
           "Forklarer at den som finner figuren, blir konge eller dronning for en dag."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner",
+          "fortid"
+        ]
       },
       {
         "text": "Skriv på fransk at du kjøper brukte sko for å spare penger og miljøet. Beskriv skoene med en farge.",
@@ -582,7 +623,10 @@
           "Bøyer fargen riktig til «chaussures»."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "klaer-og-handel"
+        ]
       },
       {
         "text": "Skriv på fransk at du ikke spiser kjøtt, men at du liker fisk. Bruk riktig artikkel etter nektelsen og etter verbet «aimer».",
@@ -591,7 +635,10 @@
           "Bruker «de» etter «ne … pas».",
           "Bruker bestemt artikkel etter «aimer», for eksempel «le poisson»."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Fortell på fransk om en fransk påsketradisjon. Skriv hva kirkeklokkene gjør ifølge tradisjonen, og hva barna leter etter.",
@@ -601,7 +648,10 @@
           "Nevner sjokoladeegg som barna leter etter i hagen."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "text": "Fortell på fransk om julefeiringen i Frankrike. Nevn en tradisjonell dessert og når barna ofte får gavene sine.",
@@ -611,7 +661,10 @@
           "Forteller at barna ofte får gavene natt til eller om morgenen 25. desember."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       }
     ]
   },

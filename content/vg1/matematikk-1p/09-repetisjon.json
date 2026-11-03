@@ -524,6 +524,9 @@
         "kriterier": [
           "Får 2⁵ = 32.",
           "Forklarer at eksponentene legges sammen."
+        ],
+        "temaer": [
+          "potenser-og-standardform"
         ]
       },
       {
@@ -533,6 +536,9 @@
         "kriterier": [
           "Bruker 0,75 som faktor eller trekker 25 % fra prisen.",
           "Oppgir 300 kr."
+        ],
+        "temaer": [
+          "prosent-og-prosentpoeng"
         ]
       },
       {
@@ -542,6 +548,9 @@
         "kriterier": [
           "Oppgir 5 prosentpoeng.",
           "Oppgir 25 % prosentvis økning, regnet fra den gamle prosenten."
+        ],
+        "temaer": [
+          "prosent-og-prosentpoeng"
         ]
       },
       {
@@ -551,6 +560,10 @@
         "kriterier": [
           "Ganger vekstfaktorene 1,10 og 0,90.",
           "Konkluderer med 1 % nedgang og forklarer at endringene regnes av ulike beløp."
+        ],
+        "temaer": [
+          "vekstfaktor-og-rente",
+          "prosent-og-prosentpoeng"
         ]
       },
       {
@@ -560,6 +573,10 @@
         "kriterier": [
           "Finner 2 timer ved 60 km/h og 1,5 timer ved 80 km/h.",
           "Forklarer at fart og tid er omvendt proporsjonale for fast strekning."
+        ],
+        "temaer": [
+          "proporsjonalitet",
+          "sammensatte-maleenheter"
         ]
       },
       {
@@ -569,6 +586,9 @@
         "kriterier": [
           "Regner energibruken til 6 kWh.",
           "Regner kostnaden til 7,20 kr."
+        ],
+        "temaer": [
+          "sammensatte-maleenheter"
         ]
       },
       {
@@ -578,6 +598,10 @@
         "kriterier": [
           "Skriver formelen P = 50 + 15x.",
           "Forklarer betydningen av det faste gebyret og kilometerprisen."
+        ],
+        "temaer": [
+          "formler-og-variabler",
+          "funksjoner-og-grafer"
         ]
       },
       {
@@ -588,6 +612,11 @@
           "Oppgir modellen B(x) = 5000 · 1,02ˣ eller forklarer at den er eksponentiell.",
           "Forklarer at 1,02 svarer til 2 % vekst per år.",
           "Nevner at premisser eller gyldighetsområde påvirker hvor pålitelig prognosen er."
+        ],
+        "temaer": [
+          "matematisk-modellering",
+          "funksjoner-og-grafer",
+          "vekstfaktor-og-rente"
         ]
       },
       {
@@ -597,7 +626,10 @@
           "Skriver 3⁻² som 1/9.",
           "Forklarer at negativ eksponent gir en omvendt brøk, ikke et negativt tall."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "potenser-og-standardform"
+        ]
       },
       {
         "text": "En blanding på 800 g inneholder salt tilsvarende 5 ‰ av blandingen. Hvor mange gram salt er det, og hvor mange prosent tilsvarer 5 ‰?",
@@ -606,7 +638,10 @@
           "Regner ut at saltmengden er 4 g.",
           "Regner om 5 ‰ til 0,5 %."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "prosent-og-prosentpoeng"
+        ]
       },
       {
         "text": "Et virus er omtrent 0,000004 m langt. Skriv lengden på standardform, og oppgi den i mikrometer (µm).",
@@ -615,7 +650,10 @@
           "Skriver lengden som 4 · 10⁻⁶ m.",
           "Oppgir lengden som 4 µm og bruker at mikro betyr 10⁻⁶."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "potenser-og-standardform"
+        ]
       },
       {
         "text": "En tabell viser at når x er 2, 4 og 8, er y henholdsvis 18, 9 og 4,5. Er x og y proporsjonale eller omvendt proporsjonale? Begrunn svaret med en beregning.",
@@ -624,7 +662,10 @@
           "Identifiserer sammenhengen som omvendt proporsjonal.",
           "Viser at produktet x · y er 36 for alle parene."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "proporsjonalitet"
+        ]
       },
       {
         "text": "En butikk selger 2 kg ris for 54 kr og 1,5 kg ris for 42 kr. Finn kiloprisen for hver pakke, og vurder hvilken pakke som er billigst per kilo.",
@@ -633,7 +674,10 @@
           "Finner kiloprisene 27 kr/kg og 28 kr/kg.",
           "Konkluderer med at pakken på 2 kg er billigst per kilo."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "sammensatte-maleenheter"
+        ]
       },
       {
         "text": "To modeller beskriver verdifallet til en mobiltelefon. Modell A sier at verdien synker med 500 kr hvert år, mens modell B sier at den synker med 20 % av verdien hvert år. Hvilken modell er lineær, og hvilken er eksponentiell? Forklar forskjellen på endringene.",
@@ -642,7 +686,11 @@
           "Knytter modell A til lineær endring med et fast beløp.",
           "Knytter modell B til eksponentiell endring med fast prosent og vekstfaktor 0,8."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "funksjoner-og-grafer",
+          "vekstfaktor-og-rente"
+        ]
       },
       {
         "text": "Forklar forskjellen på et serielån og et annuitetslån. Hvorfor er effektiv rente nyttig når du skal sammenligne lån?",
@@ -651,7 +699,10 @@
           "Forklarer at serielån har like avdrag og synkende terminbeløp, mens annuitetslån har like terminbeløp.",
           "Forklarer at effektiv rente inkluderer gebyrer og andre kostnader."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "vekstfaktor-og-rente"
+        ]
       },
       {
         "text": "En bil kjører 90 km med en gjennomsnittsfart på 60 km/h. Bilen bruker 0,5 L/mil. Hvor lang tid tar turen, og hvor mye drivstoff bruker bilen?",
@@ -660,7 +711,10 @@
           "Finner reisetiden 1,5 timer.",
           "Gjør om 90 km til 9 mil og finner drivstofforbruket 4,5 L."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "sammensatte-maleenheter"
+        ]
       }
     ]
   },

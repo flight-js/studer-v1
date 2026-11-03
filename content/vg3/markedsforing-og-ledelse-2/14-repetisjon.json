@@ -497,6 +497,11 @@
           "1 poeng: Knytter sammen pris, distribusjon og kommunikasjon med eksklusiv posisjonering og målgruppe.",
           "½ poeng: Nevner minst ett passende virkemiddel, men forklarer ikke helheten.",
           "0 poeng: Gir ikke faglig relevante koblinger."
+        ],
+        "temaer": [
+          "markedsmiks-og-effektmaling",
+          "merkevarestrategier-og-posisjonering",
+          "malgruppevalg"
         ]
       },
       {
@@ -507,6 +512,10 @@
           "1 poeng: Forklarer hvordan informasjon eller opplæring og forankring hjelper ansatte med å levere kundeløftet.",
           "½ poeng: Nevner et relevant virkemiddel i internmarkedsføring uten å forklare sammenhengen.",
           "0 poeng: Beskriver ikke et relevant tiltak eller sammenheng."
+        ],
+        "temaer": [
+          "lederens-rolle-og-internmarkedsforing",
+          "helhetlig-markedsstrategi-og-etikk"
         ]
       },
       {
@@ -517,6 +526,10 @@
           "1 poeng: Foreslår en relevant kjennskapsmåling og forklarer en utfordring eller begrensning ved måling.",
           "½ poeng: Nevner en relevant målemetode, men ikke hvorfor resultatet kan være ufullstendig.",
           "0 poeng: Foreslår ikke en måling som passer målet."
+        ],
+        "temaer": [
+          "markedsmiks-og-effektmaling",
+          "kommunikasjonsstrategier-og-mediemiks"
         ]
       },
       {
@@ -527,6 +540,11 @@
           "1 poeng: Forklarer dokumentasjonskravet og nevner livsløpsvurdering eller annen relevant vurdering av miljøbelastning.",
           "½ poeng: Identifiserer enten problemet med udokumenterte påstander eller en relevant vurderingsmetode.",
           "0 poeng: Forklarer ikke hvorfor påstanden er problematisk eller hvordan den kan vurderes."
+        ],
+        "temaer": [
+          "barekraftige-valg",
+          "helhetlig-markedsstrategi-og-etikk",
+          "samfunnsansvar-og-omdomme"
         ]
       },
       {
@@ -537,6 +555,9 @@
           "1 poeng: Skiller riktig mellom kanalene og forklarer sammenhengen mellom kontroll, kundedata, ressurser eller dekning.",
           "½ poeng: Forklarer kanalene eller kontrollforskjellen delvis.",
           "0 poeng: Beskriver ikke forskjellen faglig riktig."
+        ],
+        "temaer": [
+          "distribusjonsstrategier-og-makt"
         ]
       },
       {
@@ -547,6 +568,9 @@
           "1 poeng: Navngir begge vekstvalgene riktig og forklarer at diversifisering har høyest risiko.",
           "½ poeng: Navngir begge valgene eller forklarer risikoforskjellen delvis.",
           "0 poeng: Navngir ikke vekstvalgene riktig."
+        ],
+        "temaer": [
+          "situasjons-og-bransjeanalyse"
         ]
       },
       {
@@ -557,6 +581,10 @@
           "1 poeng: Identifiserer elastisk etterspørsel og forklarer at dette må påvirke prisvurderingen.",
           "½ poeng: Identifiserer elastisk etterspørsel, men forklarer ikke konsekvensen for prisvalget.",
           "0 poeng: Forklarer ikke elastisiteten riktig."
+        ],
+        "temaer": [
+          "prisstrategier",
+          "markedsmiks-og-effektmaling"
         ]
       },
       {
@@ -567,6 +595,11 @@
           "1 poeng: Bruker minst to dimensjoner i trippel bunnlinje og forklarer dokumentasjon, kjernevirksomhet eller langsiktig lønnsomhet.",
           "½ poeng: Nevner relevante bærekraftshensyn, men forklarer ikke hvordan de vurderes samlet.",
           "0 poeng: Gir ikke en relevant faglig vurdering."
+        ],
+        "temaer": [
+          "barekraftige-valg",
+          "samfunnsansvar-og-omdomme",
+          "visjon-forretningside-og-mal"
         ]
       },
       {
@@ -577,7 +610,11 @@
           "Ser at få lojale kunder ikke nødvendigvis representerer markedet.",
           "Foreslår mer aktuell eller bredere datainnsamling."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "teorier-og-modeller",
+          "situasjons-og-bransjeanalyse"
+        ]
       },
       {
         "text": "En låneapp bruker søkehistorikk til å finne personer som ofte søker etter hjelp med gjeld, og målretter annonser for forbrukslån mot dem. Forklar hvordan slik segmentering kan være nyttig for virksomheten, og hvilke etiske hensyn den må ta.",
@@ -587,7 +624,11 @@
           "Nevner risiko for å utnytte sårbare personer og/eller utfordringer med personvern.",
           "Beskriver et ansvarlig hensyn eller tiltak."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "malgruppevalg",
+          "helhetlig-markedsstrategi-og-etikk"
+        ]
       },
       {
         "text": "Et meieri har et produkt med høy markedsandel i et marked med lav vekst og en plantedrikk med lav markedsandel i et marked med høy vekst. Forklar hvordan BCG-matrisen klassifiserer produktene, og hvordan meieriet kan bruke informasjonen når det fordeler ressursene.",
@@ -597,7 +638,11 @@
           "Forklarer at melkekua kan finansiere investeringer i plantedrikken, eller at plantedrikken må vurderes nærmere.",
           "Nevner at BCG-matrisen er forenklet eller ikke bør stå alene som beslutningsgrunnlag."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "situasjons-og-bransjeanalyse",
+          "teorier-og-modeller"
+        ]
       },
       {
         "text": "En liten norsk matprodusent selger en populær saus som kundene aktivt etterspør. En dagligvarekjede har stor makt over hylleplass og distribusjon. Forklar hvordan kundenes etterspørsel kan påvirke produsentens forhandlingsmakt, og hvordan en pull-strategi skiller seg fra en push-strategi.",
@@ -607,7 +652,11 @@
           "Forklarer at pull retter seg mot sluttkunden for å skape etterspørsel.",
           "Forklarer at push retter seg mot forhandlerne, for eksempel med rabatter."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "distribusjonsstrategier-og-makt",
+          "kommunikasjonsstrategier-og-mediemiks"
+        ]
       },
       {
         "text": "En nettbutikk vurderer å bruke kunstig intelligens til å svare på kundespørsmål. Den har ansatte med teknologikompetanse, men er usikker på nye regler og på hvordan konkurrentene vil ta løsningen i bruk. Forklar hva som hører hjemme i en SWOT-analyse og hva som hører hjemme i en PESTEL-analyse, og nevn én begrensning ved å bruke modellene her.",
@@ -617,7 +666,11 @@
           "Knytter PESTEL til makroomgivelsene, for eksempel regler eller teknologi.",
           "Nevner at modellene forenkler virkeligheten eller kan overse raske endringer."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "teorier-og-modeller",
+          "situasjons-og-bransjeanalyse"
+        ]
       },
       {
         "text": "En nettbutikk kjører annonser for en ny ryggsekk. Mange klikker på annonsen, men få gjennomfører et kjøp. Forklar hva klikkraten og konverteringsraten forteller, og hvordan en A/B-test kan hjelpe nettbutikken med å forbedre resultatet.",
@@ -627,7 +680,11 @@
           "Forklarer hva konverteringsraten måler.",
           "Beskriver A/B-testing som en sammenligning av to versjoner for å finne hvilken som gir best resultat."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "markedsmiks-og-effektmaling",
+          "kommunikasjonsstrategier-og-mediemiks"
+        ]
       },
       {
         "text": "Et hotell vil øke andelen gjester som bestiller på nytt, samtidig som det vil redusere turnover blant de ansatte. Forklar hvordan hotellet kan bruke balansert målstyring og et SMART-mål for å følge med på om opplæring i service bidrar til målene.",
@@ -637,7 +694,11 @@
           "Gir eller beskriver et spesifikt, målbart og tidsbestemt mål.",
           "Knytter oppfølgingen til både kunde- og medarbeiderresultater."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "visjon-forretningside-og-mal",
+          "lederens-rolle-og-internmarkedsforing"
+        ]
       },
       {
         "text": "Et kjent sportsmerke ønsker å bruke merkenavnet sitt på en ny energidrikk, selv om merket hittil bare har solgt klær og sko. Forklar hva denne merkevarestrategien kalles, og hvilke fordeler og risikoer virksomheten bør vurdere sammenlignet med å lansere en ny merkevare.",
@@ -647,7 +708,10 @@
           "Forklarer fordelen ved å utnytte eksisterende merkekjennskap.",
           "Nevner risikoen for svekkede merkeassosiasjoner eller kostnaden ved å bygge et nytt merke."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "merkevarestrategier-og-posisjonering"
+        ]
       }
     ]
   },

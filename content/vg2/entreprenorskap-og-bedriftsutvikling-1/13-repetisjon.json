@@ -510,6 +510,10 @@
         "kriterier": [
           "Nevner kundeintervjuer eller annen innhenting av markedsinformasjon om behov.",
           "Nevner testing/validering, for eksempel minimumsprodukt eller forhåndsbestilling."
+        ],
+        "temaer": [
+          "markeder-og-kjopsatferd",
+          "innovasjonsprosesser"
         ]
       },
       {
@@ -519,6 +523,9 @@
         "kriterier": [
           "Forklarer at divergent tenkning skaper mange ideer uten kritikk.",
           "Forklarer at konvergent tenkning vurderer og velger ideer."
+        ],
+        "temaer": [
+          "kreativitet-og-forretningsideer"
         ]
       },
       {
@@ -528,6 +535,9 @@
         "kriterier": [
           "Knytter testing av en enkel versjon til bygg, mål og lær.",
           "Nevner forbedring eller snuoperasjon når antakelsene ikke holder."
+        ],
+        "temaer": [
+          "innovasjonsprosesser"
         ]
       },
       {
@@ -537,6 +547,9 @@
         "kriterier": [
           "Forklarer at deling kan redusere behovet for at hver kunde eier eget utstyr.",
           "Forklarer at modellen må være lønnsom for å overleve."
+        ],
+        "temaer": [
+          "forretningsmodeller-og-barekraft"
         ]
       },
       {
@@ -546,6 +559,9 @@
         "kriterier": [
           "Skiller mellom interne styrker/svakheter og eksterne muligheter/trusler.",
           "Forklarer at analysen skal brukes til å velge strategi."
+        ],
+        "temaer": [
+          "situasjonsanalyse-og-mal"
         ]
       },
       {
@@ -555,6 +571,9 @@
         "kriterier": [
           "Beskriver forskjellen i ansvar mellom ENK og AS.",
           "Nevner at risiko, kapitalbehov eller krav bør vurderes."
+        ],
+        "temaer": [
+          "selskapsformer"
         ]
       },
       {
@@ -564,6 +583,9 @@
         "kriterier": [
           "Svar: 100 kroner uten merverdiavgift.",
           "Viser at 25 prosent påslag beregnes ved å gange selvkost med 1,25."
+        ],
+        "temaer": [
+          "pris-budsjett-og-finansiering"
         ]
       },
       {
@@ -573,6 +595,9 @@
         "kriterier": [
           "Regner ut likviditetsgrad 1 til 2.",
           "Sammenligner riktig med tommelfingerregelen om at tallet bør være over 2."
+        ],
+        "temaer": [
+          "regnskap-og-nokkeltall"
         ]
       },
       {
@@ -583,7 +608,10 @@
           "Knytter tilnærmingen til stor usikkerhet og/eller risiko gründeren har råd til å tape."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "entreprenorskap-og-entreprenoriell-kompetanse"
+        ]
       },
       {
         "text": "Et nytt team er uenige om arbeidsmåter og roller, og diskusjonene har begynt å bli personlige. Forklar hvilken utviklingsfase teamet kan være i, og hvordan lederen kan bidra til at uenigheten blir håndtert på en måte som styrker samarbeidet.",
@@ -594,7 +622,10 @@
           "Skiller mellom nyttig uenighet om saken og skadelige personlige konflikter."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "ledelse-og-team"
+        ]
       },
       {
         "text": "I et område bor det 800 personer som kan være aktuelle kunder for en ny tjeneste. En fjerdedel har behovet tjenesten retter seg mot, og virksomheten tror den realistisk kan nå halvparten av disse. Hvor mange mulige kunder bør virksomheten anslå at den kan nå? Vis regnestykket.",
@@ -603,7 +634,10 @@
           "Regner ut at en fjerdedel av 800 er 200.",
           "Regner ut at halvparten av 200 er 100 og oppgir 100 mulige kunder."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "markeder-og-kjopsatferd"
+        ]
       },
       {
         "text": "En virksomhet viser overskudd i resultatbudsjettet, men har likevel for lite penger på konto når regninger forfaller. Kundene betaler sent, og virksomheten har kjøpt inn mye varelager. Forklar hvilket budsjett virksomheten bør bruke for å følge med på situasjonen, og hvorfor overskudd ikke garanterer at den har penger tilgjengelig.",
@@ -613,7 +647,10 @@
           "Forklarer at overskudd ikke nødvendigvis betyr at virksomheten har penger tilgjengelig.",
           "Knytter pengemangelen til sene innbetalinger og/eller penger bundet i varelager."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "pris-budsjett-og-finansiering"
+        ]
       },
       {
         "text": "En virksomhet kjøper en maskin for 90 000 kroner. Maskinen skal brukes i tre år, og kostnaden fordeles likt over levetiden. Hvor stor blir avskrivningen per år, og hva betyr avskrivning i regnskapet?",
@@ -622,7 +659,10 @@
           "Regner ut 90 000 ÷ 3 = 30 000 kroner per år.",
           "Forklarer at avskrivning fordeler kostnaden over maskinens levetid."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "regnskap-og-nokkeltall"
+        ]
       },
       {
         "text": "En digital tjeneste er gratis for brukerne, og virksomheten får inntekter fra annonsører. Tjenesten samler også inn persondata. Forklar hvordan denne forretningsmodellen gir inntekter, og hvilken bærekraftsdimensjon virksomheten bør vurdere når den vurderer konsekvensene av datainnsamlingen.",
@@ -631,7 +671,10 @@
           "Forklarer at annonsørene betaler for en tjeneste som er gratis for brukerne.",
           "Knytter konsekvenser av persondatainnsamling til sosial bærekraft og/eller kundenes interesser."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "forretningsmodeller-og-barekraft"
+        ]
       },
       {
         "text": "En virksomhet har utviklet en teknisk løsning som ikke er vist offentlig, og lager samtidig en logo og et dataprogram. Forklar hvilken beskyttelse som kan passe for den tekniske løsningen, logoen og dataprogrammet. Nevn også ett vilkår for å få patent på den tekniske løsningen.",
@@ -642,7 +685,10 @@
           "Kjenner igjen at opphavsrett gjelder automatisk for dataprogrammet."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "innovasjonsprosesser"
+        ]
       },
       {
         "text": "En virksomhet selger et produkt til kunder i én by og vil begynne å selge det samme produktet i en ny by. Identifiser vekststrategien i Ansoffs vekstmatrise, og sammenlign risikoen med å selge det eksisterende produktet mer til kundene i den første byen.",
@@ -653,7 +699,10 @@
           "Sier at markedsutvikling har større risiko enn markedspenetrasjon."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "situasjonsanalyse-og-mal"
+        ]
       }
     ]
   },

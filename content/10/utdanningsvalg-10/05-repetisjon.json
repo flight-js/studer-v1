@@ -472,6 +472,9 @@
         "kriterier": [
           "1 p: Forklarer at karaktersnittet ganges med ti og svarer 42 poeng.",
           "½ p: Har enten riktig beregning eller riktig svar, men ikke begge deler."
+        ],
+        "temaer": [
+          "soke-videregaende"
         ]
       },
       {
@@ -481,6 +484,9 @@
         "kriterier": [
           "1 p: Skiller mellom CV og søknadsbrev og nevner konkrete eksempler knyttet til annonsen.",
           "½ p: Forklarer bare én del eller mangler hvordan man viser at man passer."
+        ],
+        "temaer": [
+          "cv-og-jobbsoknad"
         ]
       },
       {
@@ -490,6 +496,9 @@
         "kriterier": [
           "1 p: Forklarer at arbeid gir skatteinntekter som finansierer velferd, og nevner en verdi utover lønn.",
           "½ p: Har bare sammenhengen med skatt og velferd eller bare en verdi for den enkelte."
+        ],
+        "temaer": [
+          "arbeid-og-utenforskap"
         ]
       },
       {
@@ -499,6 +508,10 @@
         "kriterier": [
           "1 p: Beskriver en plan eller et mål og minst ett relevant steg i jobbsøknaden, som tilpasning eller konkrete eksempler.",
           "½ p: Nevner bare planlegging eller bare et relevant steg i søknadsarbeidet."
+        ],
+        "temaer": [
+          "cv-og-jobbsoknad",
+          "overganger-og-mestring"
         ]
       },
       {
@@ -508,6 +521,9 @@
         "kriterier": [
           "1 p: Gir to mestringsstrategier og nevner en relevant person eller tjeneste.",
           "½ p: Gir bare én strategi eller nevner ikke hvem eleven kan få hjelp fra."
+        ],
+        "temaer": [
+          "overganger-og-mestring"
         ]
       },
       {
@@ -517,6 +533,9 @@
         "kriterier": [
           "1 p: Forklarer sammenhengen mellom fullført videregående og muligheten for fast jobb, og nevner en følge for samfunnet.",
           "½ p: Har bare sammenhengen med utdanning og jobb eller bare en følge for samfunnet."
+        ],
+        "temaer": [
+          "arbeid-og-utenforskap"
         ]
       },
       {
@@ -526,6 +545,10 @@
         "kriterier": [
           "1 p: Forklarer hvem som kan hjelpe, hva omvalg er, og hvordan reserveønsker henger sammen med at førsteønsket ikke er garantert.",
           "½ p: Forklarer bare noen av disse sammenhengene."
+        ],
+        "temaer": [
+          "overganger-og-mestring",
+          "soke-videregaende"
         ]
       },
       {
@@ -535,6 +558,10 @@
         "kriterier": [
           "1 p: Nevner et relevant tiltak fra arbeidsgivere og forklarer sammenhengen mellom erfaring og muligheten for å få første jobb.",
           "½ p: Nevner bare et tiltak eller forklarer bare betydningen av arbeidserfaring."
+        ],
+        "temaer": [
+          "arbeid-og-utenforskap",
+          "cv-og-jobbsoknad"
         ]
       },
       {
@@ -545,7 +572,10 @@
           "Oppgir 1. februar for søkere som ber om fortrinnsrett eller individuell behandling."
         ],
         "id": "s09",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "soke-videregaende"
+        ]
       },
       {
         "text": "En søker får tilbud om plass på et utdanningsprogram som ikke er førsteønsket. Forklar hvilke svarmuligheter søkeren har, og hva som kan skje hvis søkeren ikke svarer innen fristen.",
@@ -554,7 +584,10 @@
           "Nevner relevante svarmuligheter, inkludert venteliste for et høyere ønske.",
           "Forklarer at manglende svar kan føre til at plassen går tapt, eller at retten ikke garanterer førsteønsket."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "soke-videregaende"
+        ]
       },
       {
         "text": "En elev ønsker å ta fagbrev i framtiden og vurderer flere utdanningsprogrammer. Forklar hva eleven bør undersøke om veiene videre fra programmene, og hvordan reisevei kan inngå i vurderingen.",
@@ -563,7 +596,10 @@
           "Nevner at eleven bør undersøke om programmene gir fagbrev, studiekompetanse eller begge deler.",
           "Knytter reisevei eller hvilke skoler som tilbyr programmene til vurderingen."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "soke-videregaende"
+        ]
       },
       {
         "text": "Du leser en stillingsannonse for en jobb. Forklar forskjellen på et krav og et ønske i annonsen, og hva du kan bruke kontaktpersonen til.",
@@ -572,7 +608,10 @@
           "Skiller mellom krav («må ha») og ønske («en fordel»).",
           "Forklarer at kontaktpersonen kan svare på spørsmål om stillingen, eller at det å ta kontakt kan vise interesse."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "cv-og-jobbsoknad"
+        ]
       },
       {
         "text": "Du skal på jobbintervju og vil være godt forberedt. Beskriv hva du kan gjøre før intervjuet, og hvordan du kan svare på spørsmål under intervjuet.",
@@ -581,7 +620,10 @@
           "Nevner forberedelse ved å lese om bedriften eller annonsen.",
           "Nevner ærlige svar med konkrete eksempler, eller å lytte godt."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "cv-og-jobbsoknad"
+        ]
       },
       {
         "text": "En arbeidsgiver kan undersøke en jobbsøkers digitale fotavtrykk og kontakte referanser. Forklar én ting søkeren bør gjøre med det som finnes på nettet, og én ting søkeren bør gjøre før hen oppgir en referanse.",
@@ -590,7 +632,10 @@
           "Nevner å tenke over deling i sosiale medier eller å undersøke hva som finnes på nettet.",
           "Nevner at man må spørre en mulig referanse om lov før personen oppgis."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "cv-og-jobbsoknad"
+        ]
       },
       {
         "text": "En ungdom deltar frivillig i en fritidsklubb og vil senere søke jobb. Forklar hvordan den frivillige aktiviteten både kan gi ungdommen tilhørighet og være relevant i en CV.",
@@ -599,7 +644,11 @@
           "Knytter frivillig aktivitet til fellesskap, tilhørighet eller nettverk.",
           "Forklarer at frivillig arbeid kan stå på CV-en og vise erfaring eller ferdigheter."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "arbeid-og-utenforskap",
+          "cv-og-jobbsoknad"
+        ]
       },
       {
         "text": "En ungdom har helseplager, blir mobbet og begynner å være mye borte fra skolen. Forklar hvordan dette kan øke risikoen for utenforskap, og nevn to ulike former for støtte som kan hjelpe.",
@@ -608,7 +657,11 @@
           "Forklarer en sammenheng mellom helseplager eller mobbing, fravær og risiko for utenforskap.",
           "Nevner to former for støtte, for eksempel oppfølging eller tilrettelegging på skolen og et fellesskap gjennom en fritidsklubb eller frivillig organisasjon."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "arbeid-og-utenforskap",
+          "overganger-og-mestring"
+        ]
       }
     ]
   },

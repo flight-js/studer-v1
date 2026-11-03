@@ -505,6 +505,10 @@
         "kriterier": [
           "Knytter høyere rente til lavere konsum eller investeringer.",
           "Forklarer at sterkere krone kan gjøre import billigere og dempe prisstigningen."
+        ],
+        "temaer": [
+          "penge-og-finanspolitikk",
+          "valutakurser"
         ]
       },
       {
@@ -514,6 +518,9 @@
         "kriterier": [
           "Bruker arbeidsledige delt på arbeidsstyrken, multiplisert med 100.",
           "Får svaret 4 prosent."
+        ],
+        "temaer": [
+          "arbeidsledighet"
         ]
       },
       {
@@ -523,6 +530,9 @@
         "kriterier": [
           "Identifiserer strukturledighet og forklarer at kompetansen ikke passer.",
           "Nevner utdanning eller omskolering som tiltak."
+        ],
+        "temaer": [
+          "arbeidsledighet"
         ]
       },
       {
@@ -532,6 +542,9 @@
         "kriterier": [
           "Forklarer at kronen er svekket når eurokursen målt i kroner stiger.",
           "Knytter svakere krone til bedre konkurranseevne for eksportbedrifter og dyrere import."
+        ],
+        "temaer": [
+          "valutakurser"
         ]
       },
       {
@@ -541,6 +554,9 @@
         "kriterier": [
           "Regner ut omtrent 2 prosent økning i reallønn.",
           "Forklarer at reallønn viser lønnens kjøpekraft justert for prisstigning."
+        ],
+        "temaer": [
+          "prisstigning"
         ]
       },
       {
@@ -550,6 +566,10 @@
         "kriterier": [
           "Forklarer at avgiften gjør forurensning dyrere og kan gi insentiv til utslippskutt.",
           "Nevner at avgiften kan ramme lavinntektsgrupper hardest."
+        ],
+        "temaer": [
+          "miljo-og-barekraftig-vekst",
+          "inntektsfordeling-og-ulikhet"
         ]
       },
       {
@@ -559,6 +579,9 @@
         "kriterier": [
           "Forklarer komparativt fortrinn som lavest alternativkostnad.",
           "Knytter spesialisering og handel til at begge land kan få mer."
+        ],
+        "temaer": [
+          "internasjonal-handel-og-globalisering"
         ]
       },
       {
@@ -568,6 +591,9 @@
         "kriterier": [
           "Plasserer kommunens kjøp av tjenester som offentlig konsum i realligningen.",
           "Forklarer at BNP må øke når import og de andre anvendelsene holdes uendret."
+        ],
+        "temaer": [
+          "realligningen"
         ]
       },
       {
@@ -578,7 +604,10 @@
           "Knytter tilsynets rolle til å hindre konkurransebegrensende samarbeid eller misbruk av markedsmakt."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "markedsformer"
+        ]
       },
       {
         "text": "Andelen eldre i befolkningen øker, og det blir større behov for helse- og omsorgstjenester. Forklar hvordan digitale løsninger kan bidra til å møte dette behovet, og hvorfor investeringer i slike løsninger kan være viktige for framtidig økonomisk vekst.",
@@ -587,7 +616,11 @@
           "Knytter digitalisering til mer effektiv bruk av arbeidskraft eller andre ressurser i offentlig sektor.",
           "Forklarer at investeringer og økt produktivitet kan øke produksjonsevnen på sikt."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "privat-og-offentlig-sektor",
+          "okonomisk-vekst-og-bnp"
+        ]
       },
       {
         "text": "Konsumprisindeksen stiger fra 100 til 110. Hvor stor er prisstigningen i prosent, og hva betyr den for hvor mye varer og tjenester pengene kan kjøpe?",
@@ -596,7 +629,10 @@
           "Regner ut at prisstigningen er 10 prosent.",
           "Forklarer at pengenes kjøpekraft blir lavere."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "prisstigning"
+        ]
       },
       {
         "text": "Et land innfører toll på importerte klær for å beskytte egne klesprodusenter. Forklar hvordan tollen kan påvirke både de innenlandske produsentene og forbrukerne, og hvorfor tiltaket kan gjøre produksjonen mindre effektiv.",
@@ -606,7 +642,10 @@
           "Nevner høyere priser eller mindre utvalg for forbrukerne.",
           "Knytter handelshindringen til mindre effektiv ressursbruk."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "internasjonal-handel-og-globalisering"
+        ]
       },
       {
         "text": "En arbeidsgiverorganisasjon hevder at arbeidsledigheten har falt den siste måneden. Forklar hvorfor påstanden er positiv, ikke normativ, og hvilken norsk kilde du kan bruke for å undersøke hvor mange som er registrert helt ledige. Hvorfor bør du være oppmerksom på hvem som står bak organisasjonens analyser?",
@@ -617,7 +656,11 @@
           "Nevner at en interesseorganisasjon kan ha egne interesser."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunnsokonomi-og-modeller",
+          "arbeidsledighet"
+        ]
       },
       {
         "text": "Et land har et BNP på 800 milliarder kroner og import på 200 milliarder. Privat konsum er 300 milliarder, offentlig konsum 250 milliarder og realinvesteringer 150 milliarder. Hvor stor er eksporten? Vis regningen ved å bruke realligningen.",
@@ -626,7 +669,10 @@
           "Setter opp eller bruker realligningen riktig.",
           "Regner ut eksporten til 300 milliarder kroner."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "realligningen"
+        ]
       },
       {
         "text": "En fabrikk slipper ut klimagasser, men betaler ikke for skadene utslippene påfører andre. Forklar hvorfor markedet da kan produsere for mye av fabrikkens varer, og hvordan et system med omsettelige utslippskvoter kan begrense de samlede utslippene.",
@@ -636,7 +682,10 @@
           "Knytter dette til for høy produksjon eller utslipp sammenlignet med det som er best for samfunnet.",
           "Forklarer at kvoter setter et tak på samlede utslipp og kan omsettes."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "miljo-og-barekraftig-vekst"
+        ]
       },
       {
         "text": "Et land får høyere BNP, men har samtidig store utslipp og betydelige inntektsforskjeller. Forklar hvorfor BNP alene ikke gir et fullstendig bilde av innbyggernes velferd, og nevn ett annet mål som kan utfylle BNP.",
@@ -645,7 +694,12 @@
           "Nevner minst én svakhet ved BNP, for eksempel at det ikke viser fordeling eller miljøskader.",
           "Nevner et relevant utfyllende mål, som HDI, som også omfatter levealder og utdanning."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "okonomisk-vekst-og-bnp",
+          "inntektsfordeling-og-ulikhet",
+          "miljo-og-barekraftig-vekst"
+        ]
       }
     ]
   },

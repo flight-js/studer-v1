@@ -119,7 +119,14 @@ const skrivRegler = (antall) => `${antall} skriveoppgaver som eksamensøving. El
    - Hver oppgave må kunne forstås alene. Ikke vis til sammendraget, temaene eller annet eleven ikke ser.
    - Ikke skriv hvor langt svaret skal være. Ikke ja/nei-spørsmål eller meningsspørsmål uten fasit.
    - fasit: et fullgodt svar på elevens nivå, 1–4 setninger. kriterier: 1–3 korte punkter med det vesentlige faglige innholdet.
+   - temaer: T-numrene til de 1–3 temaene oppgaven bygger på, det viktigste først.
    - Bygg bare på fakta i sammendragene, på samme språk og målform.`;
+
+// T-numrene modellen svarer med, som slugs i temafilen (skriv[].temaer).
+const tilSlugs = (temaer, nr) => {
+  const slugs = [...new Set((nr ?? []).map((n) => temaer[Number(String(n).replace(/\D/g, "")) - 1]?.t.id).filter(Boolean))].slice(0, 3);
+  return slugs.length ? { temaer: slugs } : {};
+};
 
 // Gyldige skriveoppgaver uten gjentakelser, heller ikke av dem som finnes fra før.
 function rensSkriv(liste, finnes = []) {
@@ -132,7 +139,7 @@ function rensSkriv(liste, finnes = []) {
     if (!text || !fasit || !kriterier.length || text.length > 500 || fasit.length > 900) continue;
     if (tekster.has(text.toLowerCase())) continue;
     tekster.add(text.toLowerCase());
-    ut.push({ text, fasit, kriterier });
+    ut.push({ text, fasit, kriterier, temaer: o.temaer ?? [] });
   }
   return ut;
 }
@@ -194,8 +201,9 @@ const FORMAT = {
               text: { type: "string" },
               fasit: { type: "string" },
               kriterier: { type: "array", items: { type: "string" } },
+              temaer: { type: "array", items: { type: "string" } },
             },
-            required: ["text", "fasit", "kriterier"],
+            required: ["text", "fasit", "kriterier", "temaer"],
             additionalProperties: false,
           },
         },
@@ -304,7 +312,7 @@ function lagTema(fag, valg) {
       minutter: REPETISJON.minutter,
       quizRefs: quiz.map((q) => q.id),
       ekstra,
-      skriv: valg.skriv.map((s, i) => ({ id: `s${String(i + 1).padStart(2, "0")}`, ...s })),
+      skriv: valg.skriv.map(({ temaer: nr, ...s }, i) => ({ id: `s${String(i + 1).padStart(2, "0")}`, ...s, ...tilSlugs(temaer, nr) })),
     },
     kvalitet: {
       status: "utkast",
@@ -409,7 +417,7 @@ ${finnes.map((s) => `- ${s.text}`).join("\n")}`;
   }
   // Leser filen på nytt rett før skriving, i tilfelle den er endret imens.
   const fersk = lesJson(sti);
-  const alle = [...(fersk.miniprove.skriv ?? []), ...nye];
+  const alle = [...(fersk.miniprove.skriv ?? []), ...nye.map(({ temaer: nr, ...o }) => ({ ...o, ...tilSlugs(fag.temaer, nr) }))];
   fersk.miniprove.skriv = alle.map((s, i) => ({ ...s, id: `s${String(i + 1).padStart(2, "0")}` }));
   fersk.miniprove.minutter = REPETISJON.minutter;
   delete fersk.kvalitet.nivasjekk;

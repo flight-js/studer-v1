@@ -467,6 +467,9 @@
         "kriterier": [
           "Nevner en kvantitativ metode, for eksempel spørreskjema, for omfang eller mønstre.",
           "Nevner en kvalitativ metode, for eksempel intervju, for opplevelser og dybde."
+        ],
+        "temaer": [
+          "samfunnsvitenskapelig-metode-og-teori"
         ]
       },
       {
@@ -476,6 +479,10 @@
         "kriterier": [
           "Forklarer minst to av kapitalformene med relevante eksempler.",
           "Knytter ressurser eller sosial arv til ulike muligheter for utdanning eller fritidsdeltakelse."
+        ],
+        "temaer": [
+          "samfunnsvitenskapelig-metode-og-teori",
+          "sosial-ulikhet-og-utenforskap"
         ]
       },
       {
@@ -485,6 +492,9 @@
         "kriterier": [
           "Forklarer universalitet som ordninger for alle som oppfyller vilkårene.",
           "Knytter omfordeling eller prioritering til utjevning og bærekraft."
+        ],
+        "temaer": [
+          "velferdsstaten"
         ]
       },
       {
@@ -494,6 +504,10 @@
         "kriterier": [
           "Forklarer at tidlig innsats kan fange opp problemer og stoppe en negativ utvikling.",
           "Nevner en relevant beskyttende faktor."
+        ],
+        "temaer": [
+          "sosiale-problemer-og-forebygging",
+          "sosial-ulikhet-og-utenforskap"
         ]
       },
       {
@@ -503,6 +517,9 @@
         "kriterier": [
           "Nevner et tiltak arbeidsgiver eller arbeidsplass kan gjøre for å redusere barrierer.",
           "Nevner et samfunnstiltak og viser at ansvaret er gjensidig."
+        ],
+        "temaer": [
+          "inkludering"
         ]
       },
       {
@@ -512,6 +529,11 @@
         "kriterier": [
           "Slår fast at barn som opplever vold mellom foreldrene, også rammes.",
           "Nevner relevante rettigheter og minst én tjeneste eller trygg voksen som kan hjelpe."
+        ],
+        "temaer": [
+          "vold-og-trakassering",
+          "menneskerettigheter-og-velferd",
+          "behov-i-barne-og-ungdomsarene"
         ]
       },
       {
@@ -521,6 +543,10 @@
         "kriterier": [
           "Nevner relevante kildekritiske spørsmål og kontroll mot andre kilder.",
           "Forklarer at pålitelig informasjon og tillit støtter håndteringen, mens desinformasjon kan svekke den."
+        ],
+        "temaer": [
+          "kilder-og-informasjon",
+          "kriser"
         ]
       },
       {
@@ -531,7 +557,11 @@
           "Forklarer at tiltaket gjelder alle, med mer innsats der behovet er størst.",
           "Forklarer at evaluering undersøker virkninger eller om tiltaket når målgruppen."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "velferdsforskjeller-og-sosiale-problemer",
+          "samfunnsvitenskapelig-metode-og-teori"
+        ]
       },
       {
         "text": "En ungdomsorganisasjon legger ut en åpen nettavstemning om hvor trygge unge føler seg på skolen. 80 prosent av dem som svarer, sier at de føler seg trygge. Hva kan organisasjonen konkludere med, og hvorfor kan den ikke uten videre si at 80 prosent av alle unge føler seg trygge?",
@@ -540,7 +570,11 @@
           "Begrenser konklusjonen til dem som svarte.",
           "Forklarer at et selvvalgt nettutvalg ikke nødvendigvis er representativt og ikke gir grunnlag for generalisering."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "samfunnsvitenskapelig-metode-og-teori",
+          "kilder-og-informasjon"
+        ]
       },
       {
         "text": "En ungdom legger ut bilder på sosiale medier og endrer stil etter hvilke bilder som får flest positive reaksjoner. Forklar hvordan digital sosialisering og Cooleys speilingsselv kan bidra til å forme ungdommens identitet.",
@@ -549,7 +583,10 @@
           "Viser at sosiale medier og andres reaksjoner påvirker sosialiseringen.",
           "Forklarer speilingsselvet som at selvbildet formes gjennom hvordan man tror andre ser en."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "sosialisering"
+        ]
       },
       {
         "text": "En person hevder at dårlig helse blant mennesker med lav inntekt beviser at lav inntekt alltid fører til sykdom. Forklar hvordan den sosiale gradienten i helse utfordrer en slik påstand, og hvorfor sammenhengen også kan gå motsatt vei.",
@@ -558,7 +595,11 @@
           "Forklarer at helseforskjellene følger en gradient gjennom befolkningen.",
           "Skiller mellom sammenheng og årsak, og nevner at påvirkningen kan gå begge veier."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "velferdsforskjeller-og-sosiale-problemer",
+          "sosial-ulikhet-og-utenforskap"
+        ]
       },
       {
         "text": "Et kommunalt bibliotek har en digital bestillingsløsning som en person med nedsatt motorisk funksjon ikke kan bruke. Forklar hvordan universell utforming og CRPD kan knyttes til inkludering i denne situasjonen.",
@@ -567,7 +608,11 @@
           "Knytter universell utforming til digitale tjenester som kan brukes av alle.",
           "Forklarer at CRPD handler om like muligheter for deltakelse, og at fellesskapet må bidra til å fjerne barrierer."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "inkludering",
+          "menneskerettigheter-og-velferd"
+        ]
       },
       {
         "text": "En elev får gjentatte uønskede seksuelle kommentarer og bilder sendt til seg i en klassechat. Forklar hvorfor dette kan regnes som seksuell trakassering, og nevn en mulig konsekvens for eleven.",
@@ -576,7 +621,10 @@
           "Identifiserer uønskede seksuelle kommentarer eller bilder som seksuell trakassering.",
           "Nevner at det er forbudt etter likestillings- og diskrimineringsloven eller beskriver en mulig konsekvens for eleven."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "vold-og-trakassering"
+        ]
       },
       {
         "text": "En ungdom som tidligere har begått kriminalitet, får oppfølging gjennom konfliktrådet for å hindre nye lovbrudd. Forklar hvilken type forebygging dette er, og hva tiltaket skal forhindre.",
@@ -585,7 +633,10 @@
           "Klassifiserer oppfølgingen som tertiærforebygging.",
           "Forklarer at målet er å hindre forverring eller gjentakelse."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "sosiale-problemer-og-forebygging"
+        ]
       },
       {
         "text": "En kommune tilbyr gratis skolemåltider, skolehelsetjeneste og et fritidskort for barn og unge. Forklar hvordan slike ordninger kan støtte både grunnleggende behov og livsmestring, og hvorfor de ikke kan erstatte omsorgsfulle relasjoner.",
@@ -594,7 +645,11 @@
           "Knytter ordningene til behov som mat, helse, tilhørighet eller mestring.",
           "Forklarer at ordningene kan støtte livsmestring, men ikke erstatte omsorg og relasjoner."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "behov-i-barne-og-ungdomsarene",
+          "velferdsstaten"
+        ]
       },
       {
         "text": "Et kraftig flomskred rammer en kommune, og flere innbyggere trenger hjelp til å evakuere. Forklar hvordan nærhetsprinsippet og samvirkeprinsippet kan brukes i håndteringen, og hvorfor det er viktig å ta hensyn til sårbare grupper.",
@@ -603,7 +658,10 @@
           "Forklarer nærhetsprinsippet som håndtering på lavest mulig nivå.",
           "Forklarer samvirke som samarbeid mellom aktører, og viser at sårbare grupper trenger særskilt hensyn."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "kriser"
+        ]
       }
     ]
   },

@@ -478,7 +478,10 @@
           "Forklarer sammenhengen mellom mindre is, lavere albedo og mer varmeopptak.",
           "Nevner utslipp av metan og/eller CO₂ fra tinende permafrost som forsterkende tilbakekobling."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "jordsystemenes-vekselvirkninger"
+        ]
       },
       {
         "id": "s02",
@@ -487,6 +490,10 @@
         "kriterier": [
           "Skiller mellom vær her og nå og klima over lang tid.",
           "Skiller mellom værvarsling fra startverdier og klimamodeller som beregner statistikk over mange år."
+        ],
+        "temaer": [
+          "klimasystemet",
+          "numeriske-modeller"
         ]
       },
       {
@@ -496,6 +503,10 @@
         "kriterier": [
           "Knytter en klimaendring til en konkret naturfare i Norge.",
           "Nevner et relevant risikoreduserende tiltak, som arealplanlegging eller fysisk sikring."
+        ],
+        "temaer": [
+          "naturfarer-og-klima",
+          "klimaendringer-reduksjon-og-tilpasning"
         ]
       },
       {
@@ -505,6 +516,10 @@
         "kriterier": [
           "Forklarer at atmosfæren og havet transporterer varme fra ekvator mot polene.",
           "Nevner Golfstrømmen/Den nordatlantiske strømmen og vestavindene som viktige for Norges klima."
+        ],
+        "temaer": [
+          "straling-og-global-sirkulasjon",
+          "coriolis-trykk-og-havstrommer"
         ]
       },
       {
@@ -514,6 +529,9 @@
         "kriterier": [
           "Oppgir omtrent åtte ganger så stor effekt.",
           "Bruker sammenhengen med vindfarten i tredje potens, for eksempel 2³ = 8."
+        ],
+        "temaer": [
+          "energi-fra-hav-og-atmosfaere"
         ]
       },
       {
@@ -523,6 +541,9 @@
         "kriterier": [
           "Oppgir omtrent 27 ganger så stor effekt.",
           "Viser beregningen 3³ = 27 eller tilsvarende."
+        ],
+        "temaer": [
+          "energi-fra-hav-og-atmosfaere"
         ]
       },
       {
@@ -532,6 +553,9 @@
         "kriterier": [
           "Velger CTD-sonde og knytter den til måling av temperatur, saltholdighet og dybde.",
           "Nevner gjentatte målinger og/eller sammenligning med offisielle data som måte å øke påliteligheten på."
+        ],
+        "temaer": [
+          "geofaglig-feltarbeid"
         ]
       },
       {
@@ -541,6 +565,10 @@
         "kriterier": [
           "Knytter vindkraft til fornybar energi og/eller utslippskutt.",
           "Nevner en relevant ulempe eller konflikt og viser til vurdering av bærekraftens dimensjoner."
+        ],
+        "temaer": [
+          "energi-fra-hav-og-atmosfaere",
+          "klimaendringer-reduksjon-og-tilpasning"
         ]
       },
       {
@@ -550,7 +578,11 @@
           "Partikler fra vulkanutbrudd reflekterer sollys og gir midlertidig avkjøling.",
           "Økt CO₂ forsterker drivhuseffekten og gir oppvarming."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "straling-og-global-sirkulasjon",
+          "klimasystemet"
+        ]
       },
       {
         "text": "Utenfor Peru fører vinden til at overflatevann beveger seg bort fra kysten. Forklar hva som da skjer med vannet fra dypet, og hvordan dette kan påvirke fiskeriene.",
@@ -559,7 +591,10 @@
           "Oppstrømning fører kaldt, næringsrikt vann opp fra dypet.",
           "Næringstilførselen bidrar til rike fiskerier."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "coriolis-trykk-og-havstrommer"
+        ]
       },
       {
         "text": "Et værvarsel blir kjørt mange ganger med litt ulike startverdier. Etter noen dager spriker resultatene mye. Hva forteller dette om usikkerheten i varselet, og hvordan kan observasjoner bidra til bedre startverdier?",
@@ -568,7 +603,10 @@
           "Stor spredning i ensemblet betyr større usikkerhet i varselet.",
           "Observasjoner kombineres med modellberegninger gjennom dataassimilering for å lage startverdier."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "numeriske-modeller"
+        ]
       },
       {
         "text": "En forsker finner pollen i lag fra ulike tider i en innsjøbunn. Forklar hva pollen kan fortelle om klimaet før temperaturmålinger fantes, og hvorfor lagene må dateres.",
@@ -577,7 +615,10 @@
           "Pollen viser tidligere plantevegetasjon og kan brukes som proksydata for temperatur og nedbør.",
           "Datering fastslår når lagene ble avsatt."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "forhistorisk-klima"
+        ]
       },
       {
         "text": "En modell regner med at 100 energienheter kortbølget solstråling treffer jorda. Hvis 30 prosent reflekteres tilbake til verdensrommet, hvor mange energienheter blir tatt opp?",
@@ -586,7 +627,10 @@
           "Riktig svar: 70 energienheter.",
           "Viser at 30 enheter reflekteres fra 100, eller oppgir riktig regning."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "straling-og-global-sirkulasjon"
+        ]
       },
       {
         "text": "To områder har hver sin flomfare. I område A er sannsynligheten 1/2 og konsekvensskåren 4. I område B er sannsynligheten 1/4 og konsekvensskåren 6. Bruk risikoskår = sannsynlighet × konsekvensskår til å beregne skåren for hvert område og sammenligne dem.",
@@ -595,7 +639,10 @@
           "Område A: risikoskår 2.",
           "Område B: risikoskår 1,5, altså lavere enn i område A."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "naturfarer-og-klima"
+        ]
       },
       {
         "text": "Mer smeltevann fra Grønland blandes inn i overflatevannet i Nord-Atlanteren. Forklar hvordan dette kan påvirke vannets tetthet og den termohaline sirkulasjonen.",
@@ -604,7 +651,11 @@
           "Ferskere overflatevann er lettere og har lavere tetthet.",
           "Mindre synking kan svekke den termohaline sirkulasjonen."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "coriolis-trykk-og-havstrommer",
+          "jordsystemenes-vekselvirkninger"
+        ]
       },
       {
         "text": "Sammenlign hvordan en tropisk syklon og et ekstratropisk lavtrykk får energi og dannes.",
@@ -613,7 +664,10 @@
           "Tropiske sykloner dannes over varmt hav og får energi fra kondensering av vanndamp.",
           "Ekstratropiske lavtrykk dannes langs polarfronten gjennom en bølge mellom kald og varm luft."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "vaersystemer-og-vaerkart"
+        ]
       }
     ]
   },

@@ -436,6 +436,9 @@
         "kriterier": [
           "Forklarer riktig hva interesser og verdier betyr.",
           "Knytter dem til vurdering av utdanning og nevner en mulig påvirkning."
+        ],
+        "temaer": [
+          "meg-selv-og-mine-valg"
         ]
       },
       {
@@ -445,6 +448,9 @@
         "kriterier": [
           "Skiller mellom studiekompetanse fra studieforberedende og yrkeskompetanse fra yrkesfag.",
           "Nevner en relevant vei videre, for eksempel universitet/høyskole eller påbygging."
+        ],
+        "temaer": [
+          "utdanningssystemet"
         ]
       },
       {
@@ -454,6 +460,9 @@
         "kriterier": [
           "Forklarer at teknologi kan overta oppgaver eller endre yrker.",
           "Knytter dette til behov for livslang læring."
+        ],
+        "temaer": [
+          "arbeidslivet-i-endring"
         ]
       },
       {
@@ -463,6 +472,9 @@
         "kriterier": [
           "Nevner at konjunkturer og behov for arbeidskraft endrer seg.",
           "Forklarer at utdanning tar flere år og at det derfor er lurt å tenke langsiktig."
+        ],
+        "temaer": [
+          "arbeidslivet-i-endring"
         ]
       },
       {
@@ -472,6 +484,9 @@
         "kriterier": [
           "Forklarer hvordan forestillinger om kjønn kan påvirke valg.",
           "Nevner en konsekvens, som mangel på arbeidskraft eller at samfunnet går glipp av talenter."
+        ],
+        "temaer": [
+          "kjonn-og-karrierevalg"
         ]
       },
       {
@@ -481,6 +496,9 @@
         "kriterier": [
           "Forklarer riktig hva primærnæringer gjør og gir et passende eksempel.",
           "Forklarer riktig hva sekundærnæringer gjør og gir et passende eksempel."
+        ],
+        "temaer": [
+          "arbeidslivet-i-endring"
         ]
       },
       {
@@ -490,6 +508,10 @@
         "kriterier": [
           "Nevner relevante trinn i beslutningsprosessen.",
           "Forklarer at flere kilder bør sjekkes fordi informasjon kan være markedsføring."
+        ],
+        "temaer": [
+          "meg-selv-og-mine-valg",
+          "utdanningssystemet"
         ]
       },
       {
@@ -499,6 +521,9 @@
         "kriterier": [
           "Forklarer hva det grønne skiftet betyr.",
           "Nevner et relevant område med behov for arbeidskraft eller at eksisterende yrker må lære nye metoder."
+        ],
+        "temaer": [
+          "arbeidslivet-i-endring"
         ]
       },
       {
@@ -510,7 +535,10 @@
           "Ingeniørstudier kan kreve bestemte matematikk- og realfag."
         ],
         "id": "s09",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "utdanningssystemet"
+        ]
       },
       {
         "text": "En kommune driver en skole, og en privat bedrift driver en butikk. Forklar hvilken sektor hver av dem tilhører, og hvorfor begge arbeidsplassene regnes som del av tjenesteytende næringer.",
@@ -519,7 +547,10 @@
           "Kommunen og skolen hører til offentlig sektor; den private butikken hører til privat sektor.",
           "Både skole og handel er tjenesteyting og dermed del av tertiærnæringene."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "arbeidslivet-i-endring"
+        ]
       },
       {
         "text": "I en lavkonjunktur faller salget hos en byggbedrift. Forklar hva som kan skje med ansatte i bedriften, og hvordan arbeidsledigheten kan påvirkes.",
@@ -528,7 +559,10 @@
           "Bedriften kan permittere ansatte eller si opp noen.",
           "Arbeidsledigheten kan øke i en lavkonjunktur."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "arbeidslivet-i-endring"
+        ]
       },
       {
         "text": "En person endrer planer for jobb og utdanning når livet og interessene endrer seg. Forklar hva karriere betyr i utdanningsvalg, og hvordan omvalg kan passe inn i karrieren.",
@@ -537,7 +571,10 @@
           "Karriere omfatter mer enn jobb og kan inkludere utdanning, fritid, familie og frivillig arbeid.",
           "Omvalg og nye veier kan være en del av karrieren."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "meg-selv-og-mine-valg"
+        ]
       },
       {
         "text": "En norsk bedrift møter konkurranse fra bedrifter i andre land, og vurderer å flytte noen jobber til et land med lavere lønn. Forklar hvordan dette henger sammen med globalisering, og nevn én mulig følge for jobber i Norge.",
@@ -547,7 +584,10 @@
           "Jobber kan flyttes ut av Norge, og andre jobber kan oppstå her."
         ],
         "id": "s13",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "arbeidslivet-i-endring"
+        ]
       },
       {
         "text": "En helsefagarbeider bruker velferdsteknologi i arbeidet sitt. Forklar hvordan teknologi kan endre innholdet i et yrke, og nevn en ferdighet som blir viktigere i arbeidslivet.",
@@ -556,7 +596,10 @@
           "Teknologi kan endre arbeidsoppgavene i et yrke.",
           "Digitale ferdigheter blir viktigere."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "arbeidslivet-i-endring"
+        ]
       },
       {
         "text": "En arbeidsgiver skal ansette nye medarbeidere og ønsker å behandle søkere likt uavhengig av kjønn. Forklar hva loven sier om diskriminering ved ansettelse, og hva arbeidsgivere plikter å gjøre for likestilling.",
@@ -566,7 +609,10 @@
           "Arbeidsgivere har plikt til å jobbe aktivt for likestilling."
         ],
         "id": "s15",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "kjonn-og-karrierevalg"
+        ]
       },
       {
         "text": "En person med fagbrev ønsker en kortere, praktisk utdanning, mens en annen vurderer en bachelorgrad ved et universitet eller en høyskole. Forklar hva som kjennetegner fagskoleutdanning, og hvordan den skiller seg fra en bachelorgrad.",
@@ -576,7 +622,10 @@
           "En bachelorgrad varer vanligvis tre år."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "utdanningssystemet"
+        ]
       }
     ]
   },

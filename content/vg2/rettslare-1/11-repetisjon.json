@@ -477,6 +477,10 @@
           "Identifiserer forbruker og næringsdrivende, og kravet om omlevering.",
           "Knytter vurderingen til mangel og reklamasjon etter forbrukerkjøpsloven.",
           "Forklarer hovedregelen om omlevering og unntaket for umulighet eller urimelige kostnader."
+        ],
+        "temaer": [
+          "avtalerett-og-forbrukerkjop",
+          "rettskilder-og-juridisk-metode"
         ]
       },
       {
@@ -487,6 +491,9 @@
           "Forklarer at barnets beste er det sentrale hensynet og må vurderes konkret.",
           "Tar med barnets rett til å bli hørt og at meningen får stor vekt fra 12 år.",
           "Nevner mekling for foreldre med felles barn under 16 år."
+        ],
+        "temaer": [
+          "barnets-beste-og-barneloven"
         ]
       },
       {
@@ -496,6 +503,10 @@
         "kriterier": [
           "Skiller mellom likedeling av nettoverdier ved felleseie og samboeres eierskap.",
           "Oppgir en korrekt forskjell i ektefellers og samboeres arverett."
+        ],
+        "temaer": [
+          "ekteskap-og-samboerskap",
+          "arv-og-uskifte"
         ]
       },
       {
@@ -506,6 +517,9 @@
           "Identifiserer mulig indirekte forskjellsbehandling og kobler den til et vernet grunnlag.",
           "Nevner saklig formål, nødvendighet og forholdsmessighet.",
           "Bruker opplysningen om at arbeidsoppgavene ikke krever perfekt norsk i vurderingen."
+        ],
+        "temaer": [
+          "likestilling-og-diskriminering"
         ]
       },
       {
@@ -516,6 +530,9 @@
           "Nevner retten til forsvarlig varsling om kritikkverdige forhold.",
           "Forklarer at gjengjeldelse mot varsleren er forbudt.",
           "Nevner arbeidsgiverens ansvar for arbeidsmiljøet eller for å forebygge og følge opp trakassering."
+        ],
+        "temaer": [
+          "arbeidsrett"
         ]
       },
       {
@@ -526,7 +543,11 @@
           "Definerer begge uttrykkene riktig.",
           "Skiller mellom å beskrive gjeldende rett og å drøfte ønsket rettsutvikling."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "rettskilder-og-juridisk-metode",
+          "aktuelle-og-rettshistoriske-saker"
+        ]
       },
       {
         "id": "s07",
@@ -536,6 +557,9 @@
           "Nevner kravene om skriftlighet, underskrift og kvalifiserte vitner.",
           "Forklarer at testamentarv til et vitne eller vitnets nære familie er diskvalifiserende.",
           "Nevner pliktdelsarv eller ektefellens minstearv som en grense."
+        ],
+        "temaer": [
+          "arv-og-uskifte"
         ]
       },
       {
@@ -546,6 +570,9 @@
           "Forklarer at avtaleinngåelse bygger på tilbud og aksept.",
           "Nevner at aksepten må komme i tide og samsvare med tilbudet.",
           "Anvender begge manglene ved Leas svar på situasjonen."
+        ],
+        "temaer": [
+          "avtalerett-og-forbrukerkjop"
         ]
       },
       {
@@ -555,7 +582,11 @@
           "Myndighetenes inngrep må ha hjemmel i lov (legalitetsprinsippet).",
           "Vedtak kan påklages, og personen har rett til begrunnelse."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "rettsstaten",
+          "rettsreglenes-funksjon"
+        ]
       },
       {
         "text": "En 17-åring bestiller en dyr sykkel til privat bruk fra en nettbutikk. Foreldrene har ikke samtykket, og ti dager etter at sykkelen er mottatt, vil ungdommen gå fra kjøpet. Forklar hvilke regler som kan være relevante både for om avtalen er bindende, og for muligheten til å bruke angrerett.",
@@ -566,7 +597,10 @@
           "Skiller mellom spørsmålet om avtalen er bindende, og angreretten."
         ],
         "id": "s10",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "avtalerett-og-forbrukerkjop"
+        ]
       },
       {
         "text": "En handling er lovlig når den blir utført. Senere vedtar Stortinget en lov som gjør handlingen straffbar, og personen blir tiltalt. Forklar hvilket vern personen har mot å bli dømt, og hvordan maktfordelingen mellom Stortinget og domstolene kan være relevant.",
@@ -576,7 +610,10 @@
           "Grunnloven §§ 96 og 97 beskytter mot dom uten lov og tilbakevirkende lov til skade.",
           "Domstolene kan prøve om loven er i strid med Grunnloven."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "rettsstaten"
+        ]
       },
       {
         "text": "En 16-åring har jobb ved siden av skolen. Arbeidsgiveren gir beskjed om at ungdommen skal jobbe om natten, og viser til sin styringsrett. Forklar hvorfor arbeidsgiveren ikke nødvendigvis kan kreve at beskjeden følges, og nevn en annen regel som skal beskytte unge arbeidstakere.",
@@ -586,7 +623,10 @@
           "Ungdom kan ikke jobbe om natten.",
           "Unge har også begrensninger i arbeidstiden i skoleperioder."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "arbeidsrett"
+        ]
       },
       {
         "text": "En arbeidsgiver sier at en arbeidstaker som bruker rullestol, ikke kan få tilrettelegging på arbeidsplassen. Forklar hvilke plikter arbeidsgiveren kan ha, og hvordan kravet om likhet for loven er relevant.",
@@ -596,7 +636,11 @@
           "Arbeidsgivere har plikter knyttet til aktivt likestillingsarbeid og tilrettelegging.",
           "Likhet for loven forbyr usaklig eller uforholdsmessig forskjellsbehandling."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "likestilling-og-diskriminering",
+          "rettsstaten"
+        ]
       },
       {
         "text": "Nora dør uten testament. Hun har ingen barn eller ektefelle. Foreldrene hennes er døde, men hun har en avdød søster som etterlot seg barn, en levende tante og en levende fetter. Hvem kan arve etter arvelovens arvegangsklasser, og hvorfor?",
@@ -606,7 +650,10 @@
           "Andre arvegangsklasse går foran tredje klasse, som omfatter tanten.",
           "Fettere og kusiner arver ikke etter loven."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "arv-og-uskifte"
+        ]
       },
       {
         "text": "Homofili var straffbart i Norge fram til 1972, mens seksuell orientering i dag er et vernet grunnlag i diskrimineringsloven. Forklar hva denne endringen viser om forholdet mellom samfunn og rett, og nevn en funksjon rettsregler kan ha i en slik utvikling.",
@@ -617,7 +664,12 @@
           "Seksuell orientering er i dag et vernet grunnlag mot diskriminering."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "rettsreglenes-funksjon",
+          "aktuelle-og-rettshistoriske-saker",
+          "likestilling-og-diskriminering"
+        ]
       },
       {
         "text": "En kjøper og en selger er uenige om kjøperen reklamerte innen «rimelig tid» etter å ha oppdaget en mangel. Forklar hvordan en jurist kan tolke dette uttrykket og bruke juridisk metode for å vurdere saken.",
@@ -627,7 +679,11 @@
           "Relevante kilder kan være formål, forarbeider og rettspraksis.",
           "Anvender regelen på opplysningene i saken og trekker en konklusjon."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "rettskilder-og-juridisk-metode",
+          "avtalerett-og-forbrukerkjop"
+        ]
       }
     ]
   },

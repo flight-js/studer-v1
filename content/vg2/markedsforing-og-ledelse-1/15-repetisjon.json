@@ -512,6 +512,9 @@
         "kriterier": [
           "Forklarer segmentering som inndeling av markedet og valg av målgruppe.",
           "Knytter posisjoneringen til målgruppen og rimelige lunsjer."
+        ],
+        "temaer": [
+          "forretningside-og-malgrupper"
         ]
       },
       {
@@ -521,6 +524,9 @@
         "kriterier": [
           "Velger en kvalitativ metode som dybdeintervju for å forstå hvorfor.",
           "Forklarer at utvalget bør ligne populasjonen."
+        ],
+        "temaer": [
+          "markedsundersokelser"
         ]
       },
       {
@@ -530,6 +536,11 @@
         "kriterier": [
           "Forklarer at tilbud og bred distribusjon kan være inkonsistente med eksklusiv posisjonering.",
           "Viser at konkurransemidlene må vurderes samlet."
+        ],
+        "temaer": [
+          "konkurransemidler-i-kombinasjon",
+          "produkt-og-merkevare",
+          "pris"
         ]
       },
       {
@@ -539,6 +550,9 @@
         "kriterier": [
           "Knytter de ansattes rolle og kundemøtet til serviceopplevelsen.",
           "Nevner ledelsens ansvar for strategi, opplæring eller oppfølging."
+        ],
+        "temaer": [
+          "personale-og-ledelse"
         ]
       },
       {
@@ -548,6 +562,11 @@
         "kriterier": [
           "Forklarer hvordan tilbud eller digital påvirkning kan fremme impulskjøp.",
           "Nevner ansvarlig bruk av persondata eller hensyn til manipulasjon/villedning."
+        ],
+        "temaer": [
+          "forbrukeratferd",
+          "regelverk-og-etikk",
+          "markedsundersokelser"
         ]
       },
       {
@@ -557,6 +576,10 @@
         "kriterier": [
           "Knytter reparasjon eller bruktsalg til sirkulær økonomi.",
           "Krever konkrete og dokumenterbare miljøpåstander."
+        ],
+        "temaer": [
+          "barekraftig-markedsforing",
+          "regelverk-og-etikk"
         ]
       },
       {
@@ -566,6 +589,9 @@
         "kriterier": [
           "Regner dekningsbidraget riktig: 50 kroner per enhet.",
           "Regner nullpunktsmengden riktig: 20 enheter."
+        ],
+        "temaer": [
+          "pris"
         ]
       },
       {
@@ -575,6 +601,10 @@
         "kriterier": [
           "Forklarer at innholdet må tilpasses kanalens format.",
           "Forklarer konvertering som måling av andelen som handler."
+        ],
+        "temaer": [
+          "mediemiks-og-innhold",
+          "markedskommunikasjon"
         ]
       },
       {
@@ -584,7 +614,11 @@
           "Kjenner igjen modningsfasen ut fra at salget flater ut og konkurransen øker.",
           "Foreslår et relevant tiltak, som produktforbedring eller lojalitetsprogram."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "produkt-og-merkevare",
+          "konkurransemidler-i-kombinasjon"
+        ]
       },
       {
         "text": "En liten produsent av honning selger varene sine direkte fra gården og ønsker å nå kunder i hele landet. Forklar én fordel og én ulempe ved å selge gjennom butikker eller grossister, og nevn én ting produsenten bør tenke på for å gjøre transporten mer bærekraftig.",
@@ -594,7 +628,11 @@
           "Nevner en relevant ulempe, som lavere fortjeneste eller mindre kontroll.",
           "Knytter et konkret transportvalg til lavere miljøbelastning."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "distribusjon",
+          "barekraftig-markedsforing"
+        ]
       },
       {
         "text": "En nettbutikk ser at mange besøkende klikker på en vare, men få fullfører kjøpet. Nettstatistikken viser hva kundene gjør, men ikke nødvendigvis hvorfor. Foreslå en kvalitativ undersøkelse som kan gi mer innsikt, og forklar hva den kan avdekke.",
@@ -603,7 +641,10 @@
           "Foreslår en relevant kvalitativ metode, som dybdeintervju eller fokusgruppe.",
           "Forklarer at metoden kan gi innsikt i hvorfor kundene avbrøt kjøpet."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "markedsundersokelser"
+        ]
       },
       {
         "text": "En påvirker får betalt for å reklamere for en energidrikk i innlegg rettet mot 12-åringer. I innlegget står det «få foreldrene dine til å kjøpe den», men det er ikke merket som reklame. Forklar to problemer ved markedsføringen ut fra reglene for reklame og vern av barn.",
@@ -612,7 +653,10 @@
           "Forklarer at betalt påvirkerinnhold må merkes tydelig som reklame.",
           "Forklarer at reklame ikke skal oppfordre barn direkte til å kjøpe eller mase på foreldrene."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "regelverk-og-etikk"
+        ]
       },
       {
         "text": "En app tilbyr spanskkurs. Appen inneholder leksjoner og øvelser, og kundene får også hjelp fra kundestøtte. Beskriv kjerneproduktet, det faktiske produktet og det utvidede produktet i dette tilbudet.",
@@ -622,7 +666,10 @@
           "Knytter appen, leksjonene eller øvelsene til det faktiske produktet.",
           "Knytter kundestøtten til det utvidede produktet."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "produkt-og-merkevare"
+        ]
       },
       {
         "text": "Et klesmerke skriver på nettsiden sin at en jakke er «helt miljøvennlig», men viser ikke til dokumentasjon. Forklar hvorfor kundene bør være kritiske til påstanden, og nevn hva merket bør gjøre for å gjøre miljøkommunikasjonen troverdig.",
@@ -631,7 +678,11 @@
           "Forklarer at en vag eller udokumentert miljøpåstand kan være grønnvasking, eller at virksomheten har egeninteresse.",
           "Nevner konkrete og dokumenterbare påstander eller troverdig dokumentasjon som tiltak."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "barekraftig-markedsforing",
+          "markedsforing-og-teorier"
+        ]
       },
       {
         "text": "Et lite bakeri vurderer å tilby hjemlevering. Bakeriet har ansatte med god bakekompetanse, men begrenset økonomi. Samtidig bestiller flere kunder mat digitalt, og strømprisene øker. Skill mellom interne og eksterne forhold i situasjonen, og forklar hvordan ett av forholdene kan påvirke beslutningen.",
@@ -640,7 +691,10 @@
           "Skiller riktig mellom minst ett internt forhold og minst ett eksternt forhold.",
           "Forklarer hvordan et forhold kan påvirke beslutningen om hjemlevering."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "situasjonsanalyse"
+        ]
       },
       {
         "text": "En smoothiebar øker prisen litt og opplever at mange kunder slutter å kjøpe smoothie der. Kundene har flere lignende steder å velge mellom. Hva forteller dette om priselastisiteten, og hva bør smoothiebaren ta hensyn til når den vurderer prisen videre?",
@@ -649,7 +703,10 @@
           "Identifiserer etterspørselen som elastisk.",
           "Knytter prisfølsomheten til at kundene har alternativer, eller forklarer at en prisøkning kan redusere etterspørselen mye."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "pris"
+        ]
       }
     ]
   },

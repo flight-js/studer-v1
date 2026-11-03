@@ -483,6 +483,9 @@
         "kriterier": [
           "Beregner 0,8 %.",
           "Forklarer at relativ usikkerhet er absolutt usikkerhet delt på målt verdi."
+        ],
+        "temaer": [
+          "forsok-usikkerhet-og-forskningssamarbeid"
         ]
       },
       {
@@ -492,6 +495,9 @@
         "kriterier": [
           "Bruker v₀ᵧ = v₀ sin α.",
           "Får 10 m/s."
+        ],
+        "temaer": [
+          "bevegelse-i-to-dimensjoner"
         ]
       },
       {
@@ -501,6 +507,9 @@
         "kriterier": [
           "Knytter kraften inn mot sentrum til endring av fartsretningen.",
           "Nevner friksjon som kraftkilde og følger av for liten friksjon."
+        ],
+        "temaer": [
+          "sirkelbevegelse"
         ]
       },
       {
@@ -510,6 +519,10 @@
         "kriterier": [
           "Forklarer at gravitasjonen gir sentripetalkraften.",
           "Sier at banefarten ikke avhenger av satellittens masse."
+        ],
+        "temaer": [
+          "gravitasjon-og-sentralfelt",
+          "sirkelbevegelse"
         ]
       },
       {
@@ -519,6 +532,9 @@
         "kriterier": [
           "Bruker ε = Blv.",
           "Får 0,30 V."
+        ],
+        "temaer": [
+          "elektromagnetisk-induksjon"
         ]
       },
       {
@@ -528,6 +544,10 @@
         "kriterier": [
           "Knytter generatoren til roterende spole eller magnet og energiomforming.",
           "Forklarer at transformatoren bruker et varierende magnetfelt til å indusere spenning i sekundærspolen."
+        ],
+        "temaer": [
+          "induksjon-og-energiproduksjon",
+          "elektromagnetisk-induksjon"
         ]
       },
       {
@@ -537,6 +557,9 @@
         "kriterier": [
           "Forklarer at gravitasjon og akselerasjon ikke kan skilles i et lukket rom.",
           "Beskriver gravitasjon som krumning av romtiden."
+        ],
+        "temaer": [
+          "relativitetsteori"
         ]
       },
       {
@@ -546,6 +569,9 @@
         "kriterier": [
           "Sier at blått lys har størst energi per foton.",
           "Forklarer at større intensitet gir flere, ikke raskere, elektroner."
+        ],
+        "temaer": [
+          "kvantefysikk"
         ]
       },
       {
@@ -555,7 +581,10 @@
           "Riktig samlet lengde: 2,00 m.",
           "Riktig absolutt usikkerhet: 0,05 m."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "forsok-usikkerhet-og-forskningssamarbeid"
+        ]
       },
       {
         "text": "Et legeme har posisjon x = 4,0 m og fart v = 3,0 m/s. Nettokraften på legemet er 6,0 N, massen er 2,0 kg, og tidssteget er 0,50 s. Bruk ett steg med Eulers metode til å finne den nye farten og posisjonen. Bruk farten før steget når du oppdaterer posisjonen.",
@@ -564,7 +593,10 @@
           "Finner akselerasjonen 3,0 m/s² og ny fart 4,5 m/s.",
           "Finner ny posisjon 5,5 m ved å bruke farten før steget."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "numeriske-metoder-og-modellering"
+        ]
       },
       {
         "text": "Sammenlign kreftene som påvirker en ball som kastes skrått uten luftmotstand, og en ladd partikkel som beveger seg vinkelrett på et magnetfelt. Forklar hva kreftene gjør med bevegelsene.",
@@ -573,7 +605,11 @@
           "Beskriver tyngdekraften og at den endrer den vertikale bevegelsen, mens horisontalfarten er konstant.",
           "Beskriver at magnetkraften endrer retningen, ikke farten, og gir sirkelbane når farten står vinkelrett på feltet."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "bevegelse-i-to-dimensjoner",
+          "magnetiske-felt"
+        ]
       },
       {
         "text": "GPS-satellitter beveger seg raskt og befinner seg i et svakere gravitasjonsfelt enn bakken. Forklar hvorfor klokkene deres må korrigeres ved hjelp av både den spesielle og den generelle relativitetsteorien.",
@@ -582,7 +618,11 @@
           "Knytter bevegelsen til tidsforlengelse i den spesielle relativitetsteorien.",
           "Knytter det svakere gravitasjonsfeltet til raskere klokker, og sier at begge virkningene korrigeres for."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "relativitetsteori",
+          "gravitasjon-og-sentralfelt"
+        ]
       },
       {
         "text": "En ladd partikkel sendes vinkelrett inn i et homogent elektrisk felt, og en annen ladd partikkel sendes vinkelrett inn i et magnetfelt. Sammenlign hvordan feltene påvirker farten og banen til partiklene.",
@@ -591,7 +631,11 @@
           "Beskriver at elektrisk kraft kan endre farten, og at banen i et homogent felt blir parabolsk.",
           "Beskriver at magnetkraften bare endrer retningen og gir sirkelbane."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "elektriske-felt",
+          "magnetiske-felt"
+        ]
       },
       {
         "text": "Sammenlign usikkerheten i gjentatte målinger av en lengde med uskarphetsrelasjonen for en kvantepartikkel. Forklar om begge usikkerhetene skyldes begrensninger ved måleutstyret.",
@@ -600,7 +644,11 @@
           "Knytter måleusikkerhet til gjentatte målinger og/eller målemetode og utstyr.",
           "Forklarer at kvanteusikkerheten er grunnleggende, ikke bare en begrensning ved måleutstyret."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "forsok-usikkerhet-og-forskningssamarbeid",
+          "kvantefysikk"
+        ]
       },
       {
         "text": "CERN påviste Higgs-partikkelen i 2012, mens LIGO og Virgo målte gravitasjonsbølger fra sammensmeltende sorte hull i 2015. Forklar hva de to funnene bekreftet, og nevn én grunn til at slike forskningsprosjekter samarbeider internasjonalt.",
@@ -610,7 +658,12 @@
           "Knytter gravitasjonsbølgene til en bekreftelse av generell relativitetsteori.",
           "Nevner en fordel ved internasjonalt samarbeid, for eksempel deling av kostnader eller kompetanse."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "forsok-usikkerhet-og-forskningssamarbeid",
+          "relativitetsteori",
+          "kvantefysikk"
+        ]
       },
       {
         "text": "Elektrisk kraft overføres over lange avstander med høy spenning og transformeres ned før den brukes i hjemmene. Forklar hvordan høy spenning reduserer energitapet i ledningene, og hvilken rolle transformatorer spiller.",
@@ -620,7 +673,10 @@
           "Knytter mindre strøm til lavere varmetap gjennom P_tap = R · I².",
           "Beskriver at transformatorer øker spenningen for overføring og senker den før forbruk."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "induksjon-og-energiproduksjon"
+        ]
       }
     ]
   },

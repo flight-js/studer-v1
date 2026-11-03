@@ -467,6 +467,9 @@
         "kriterier": [
           "Bruk bekreftende tú-imperativ: «Recicla».",
           "Bruk nektende imperativ med subjuntivo: «No uses»."
+        ],
+        "temaer": [
+          "miljo-og-barekraft"
         ]
       },
       {
@@ -476,6 +479,9 @@
         "kriterier": [
           "Bruk estar i presens sammen med gerundium.",
           "Bruk gerundiumformen «chateando»."
+        ],
+        "temaer": [
+          "teknologi-og-digitalt-liv"
         ]
       },
       {
@@ -485,6 +491,9 @@
         "kriterier": [
           "Endre presens «estoy» til imperfecto «estaba» etter innledningsverbet i fortid.",
           "Endre «hoy» til «ese día»."
+        ],
+        "temaer": [
+          "migrasjon-og-mangfold"
         ]
       },
       {
@@ -494,6 +503,9 @@
         "kriterier": [
           "Bruk imperfecto de subjuntivo etter «si»: «tuviera».",
           "Bruk condicional i hovedsetningen: «viajaría»."
+        ],
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
         ]
       },
       {
@@ -505,7 +517,10 @@
           "Nevn frivillig arbeid i Latin-Amerika.",
           "Bruk «para» til å uttrykke formål."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
+        ]
       },
       {
         "id": "s06",
@@ -516,7 +531,10 @@
           "Knytt Spania til solenergi, tørke eller vannmangel.",
           "Gjør sammenligningen forståelig."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-barekraft"
+        ]
       },
       {
         "id": "s07",
@@ -526,7 +544,10 @@
           "Bruk «el móvil» om Spania og «el celular» om store deler av Latin-Amerika.",
           "Knytt «ustedes» til Latin-Amerika og «vosotros» til Spania."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "teknologi-og-digitalt-liv"
+        ]
       },
       {
         "id": "s08",
@@ -537,7 +558,10 @@
           "Nevn Argentina og korte fortellinger.",
           "Få fram at virkelighet og fantasi glir over i hverandre."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "litteratur"
+        ]
       },
       {
         "text": "Forklar på spansk hvordan tørke og hetebølger rammer Spania, og nevn én miljøutfordring i Andesfjellene og konsekvensen av den.",
@@ -546,7 +570,10 @@
           "Nevner hetebølger og tørke i Spania.",
           "Knytter smeltende isbreer i Andesfjellene til trusselen mot vannforsyningen."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "miljo-og-barekraft"
+        ]
       },
       {
         "text": "Skriv på spansk om én fordel og to ulemper ved sosiale medier eller internett. Ta med falske nyheter og personvern.",
@@ -555,7 +582,10 @@
           "Nevner en relevant fordel ved sosiale medier eller internett.",
           "Nevner falske nyheter og risiko for personvernet."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "teknologi-og-digitalt-liv"
+        ]
       },
       {
         "text": "Sammenlign på spansk spansk utvandring på 1960-tallet med migrasjon fra Latin-Amerika til Spania. Ta med hvor folk dro eller kom fra, og én grunn til migrasjonen.",
@@ -564,7 +594,10 @@
           "Nevner spanjoler som dro til Tyskland, Frankrike eller Sveits på 1960-tallet for å jobbe.",
           "Nevner migrasjon fra latinamerikanske land til Spania og at felles språk er relevant."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "migrasjon-og-mangfold"
+        ]
       },
       {
         "text": "Skriv på spansk en kort, formell søknad om sommerjobb i turisme. Bruk en høflig hilsen med kolon, forklar hvorfor du søker, og nevn en styrke.",
@@ -573,7 +606,10 @@
           "Bruker en formell hilsen med kolon.",
           "Oppgir en grunn til å søke og minst én relevant styrke."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
+        ]
       },
       {
         "text": "Sammenlign på spansk Federico García Lorca og Gabriela Mistral. Ta med hvilket land eller område de kom fra, og én opplysning om verkene eller livene deres.",
@@ -582,7 +618,10 @@
           "Plasserer Lorca i Andalucía og Mistral i Chile.",
           "Nevner en riktig opplysning om verkene eller livet til hver forfatter."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "litteratur"
+        ]
       },
       {
         "text": "Skriv på spansk at du drar til Valencia for å se Las Fallas, går gjennom byen og gir en billett til en venn. Bruk både «por» og «para» riktig.",
@@ -591,7 +630,10 @@
           "Bruker «para» om formål eller mottaker.",
           "Bruker «por» om å bevege seg gjennom et område."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "ungdomskultur"
+        ]
       },
       {
         "text": "Gi på spansk to konkrete råd til en norsk elev som vil bli bedre til å forstå muntlig spansk. Rådene skal bygge på gode strategier for å lytte og øve.",
@@ -600,7 +642,10 @@
           "Anbefaler minst én lytteaktivitet, som podkaster, nyheter eller serier med spansk teksting.",
           "Nevner en strategi som å lytte etter nøkkelord eller legge merke til ulike aksenter."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "ungdomskultur"
+        ]
       },
       {
         "text": "Forklar på spansk hva «spanglish» er, og hvordan det henger sammen med språk og identitet blant latinos i USA.",
@@ -609,7 +654,10 @@
           "Forklarer at spanglish blander engelsk og spansk.",
           "Knytter dette til tospråklige latinos eller mangfoldet i USA."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "migrasjon-og-mangfold"
+        ]
       }
     ]
   },

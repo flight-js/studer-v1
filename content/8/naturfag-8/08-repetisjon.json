@@ -486,6 +486,9 @@
         "kriterier": [
           "Mengden lys er uavhengig variabel, og veksten er avhengig variabel.",
           "Andre forhold holdes like; gjentakelser eller kontrollgruppe styrker sammenligningen."
+        ],
+        "temaer": [
+          "naturvitenskapelig-metode"
         ]
       },
       {
@@ -495,6 +498,10 @@
         "kriterier": [
           "Fotosyntesen lager glukose og oksygen i kloroplastene.",
           "Celleåndingen frigjør energi i mitokondriene, og prosessene bruker hverandres produkter."
+        ],
+        "temaer": [
+          "fotosyntese-og-celleanding",
+          "celler"
         ]
       },
       {
@@ -504,6 +511,9 @@
         "kriterier": [
           "Energi går én vei og tapes som varme, mens materie sirkulerer.",
           "Nedbrytere bryter ned døde organismer og bidrar til at næringsstoffer går tilbake i kretsløpet."
+        ],
+        "temaer": [
+          "okosystemer"
         ]
       },
       {
@@ -513,6 +523,10 @@
         "kriterier": [
           "Forbrenning frigjør raskt karbon som har vært lagret i fossile brensler.",
           "Karbonet slippes ut som CO₂ og øker mengden i atmosfæren."
+        ],
+        "temaer": [
+          "fotosyntese-og-celleanding",
+          "kjemiske-reaksjoner"
         ]
       },
       {
@@ -523,7 +537,11 @@
           "Teller riktig: fire hydrogenatomer og to oksygenatomer på hver side.",
           "Forklarer at samme antall atomer av hvert grunnstoff finnes på begge sider."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "kjemiske-reaksjoner",
+          "atomer-og-periodesystemet"
+        ]
       },
       {
         "id": "s06",
@@ -533,7 +551,10 @@
           "Bruker at omtrent en tidel av energien går videre ved hvert trinn.",
           "Regner riktig: omtrent 10 enheter til planteeteren og 1 til rovdyret."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "okosystemer"
+        ]
       },
       {
         "id": "s07",
@@ -542,6 +563,9 @@
         "kriterier": [
           "Nevner to relevante bevis, for eksempel kystlinjer som passer eller like fossiler på fjerne kontinenter.",
           "Knytter bevisene til at kontinenter eller plater har beveget seg."
+        ],
+        "temaer": [
+          "platetektonikk"
         ]
       },
       {
@@ -551,6 +575,10 @@
         "kriterier": [
           "Frysing er en fysisk endring der stoffet fortsatt er det samme.",
           "Brenning er en kjemisk reaksjon; atomene omorganiseres og danner nye stoffer."
+        ],
+        "temaer": [
+          "kjemiske-reaksjoner",
+          "atomer-og-periodesystemet"
         ]
       },
       {
@@ -560,7 +588,10 @@
           "Identifiserer cellen som en plantecelle.",
           "Nevner minst én av delene som skiller planteceller fra dyreceller."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "celler"
+        ]
       },
       {
         "text": "Etter en lang tørkeperiode får planter i et område lite vann. Forklar hvordan det kan påvirke fotosyntesen og tilgangen på mat for planteetere.",
@@ -569,7 +600,11 @@
           "Kobler vannmangel til redusert fotosyntese.",
           "Forklarer at dette kan gi mindre mat for planteetere."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "fotosyntese-og-celleanding",
+          "okosystemer"
+        ]
       },
       {
         "text": "Muskelceller trenger oksygen til celleånding. Forklar hvordan formen på røde blodceller hjelper med å frakte oksygen til muskelcellene.",
@@ -579,7 +614,10 @@
           "Kobler formen til at de kan passere gjennom smale årer."
         ],
         "id": "s11",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "celler"
+        ]
       },
       {
         "text": "En klasse skal undersøke hvordan et stoff brenner. Forklar hvordan elevene kan vurdere og redusere risikoen, og nevn hva som må være til stede for at stoffet skal brenne.",
@@ -588,7 +626,11 @@
           "Nevner risikovurdering og minst ett relevant sikkerhetstiltak.",
           "Nevner brensel, oksygen og høy nok temperatur."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "naturvitenskapelig-metode",
+          "kjemiske-reaksjoner"
+        ]
       },
       {
         "text": "Natrium og klor har andre egenskaper enn bordsalt. Forklar hvordan bordsalt kan få andre egenskaper enn grunnstoffene det er laget av.",
@@ -597,7 +639,10 @@
           "Forklarer at bordsalt er en kjemisk forbindelse av natrium og klor.",
           "Forklarer at forbindelsen kan ha andre egenskaper enn grunnstoffene."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "atomer-og-periodesystemet"
+        ]
       },
       {
         "text": "Et forsøk gir ulike måleresultater hver gang det gjentas. Hva bør forskeren gjøre før hen trekker en konklusjon, og hva bør rapporten fortelle?",
@@ -607,7 +652,10 @@
           "Nevner usikkerhet eller feilkilder.",
           "Forklarer at rapporten bør gjøre det mulig for andre å kontrollere eller gjenta forsøket."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "naturvitenskapelig-metode"
+        ]
       },
       {
         "text": "En plate beveger seg 3 cm i året. Hvor langt beveger den seg på 4 år?",
@@ -615,7 +663,10 @@
         "kriterier": [
           "Regner ut 3 cm × 4 år = 12 cm."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "platetektonikk"
+        ]
       },
       {
         "text": "I et lukket kar har reaktantene samlet masse på 42 g før en kjemisk reaksjon. Hva er den samlede massen av produktene etter reaksjonen, og hvorfor?",
@@ -624,7 +675,11 @@
           "Oppgir 42 g.",
           "Begrunner svaret med at massen bevares fordi atomene bare omorganiseres."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "kjemiske-reaksjoner",
+          "atomer-og-periodesystemet"
+        ]
       }
     ]
   },

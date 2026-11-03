@@ -21,7 +21,21 @@ const forklarTekst = (q: Sporsmal, valgt: number) =>
   `Jeg svarte feil på et quizspørsmål og vil forstå det.\n\nSpørsmål: ${q.tekst}\nMitt svar: ${q.alternativer[valgt]}\nRiktig svar: ${q.alternativer[q.riktig]}\n\nKan du forklare hvorfor?`;
 
 // sporsmal kommer ferdig stokket fra siden; «Ta quizen igjen» stokker på nytt.
-export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: string; sporsmal: Sporsmal[]; tilbake: string }) {
+// meny: temavalget i repetisjonstemaet. lagre: false når bare noen temaer er
+// valgt – da regnes ikke runden med i fremdriften for temaet.
+export function Quizrunde({
+  temaId,
+  sporsmal: forste,
+  tilbake,
+  meny,
+  lagre = true,
+}: {
+  temaId: string;
+  sporsmal: Sporsmal[];
+  tilbake: string;
+  meny?: React.ReactNode;
+  lagre?: boolean;
+}) {
   const [sporsmal, setSporsmal] = useState(forste);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -46,12 +60,12 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
   const next = useCallback(() => {
     if (index + 1 >= total) {
       setDone(true);
-      lagreResultat(temaId, "quiz", score, total);
+      if (lagre) lagreResultat(temaId, "quiz", score, total);
       return;
     }
     setIndex((i) => i + 1);
     setSelected(null);
-  }, [index, total, temaId, score]);
+  }, [index, total, temaId, score, lagre]);
 
   function restart() {
     setSporsmal(stokkRunde(sporsmal));
@@ -77,7 +91,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
 
   return (
     <>
-      <Ovingstopp tilbake={tilbake} avsluttTekst="Avslutt quiz" hoyre={`${done ? total : index + 1} / ${total}`}>
+      <Ovingstopp tilbake={tilbake} avsluttTekst="Avslutt quiz" hoyre={`${done ? total : index + 1} / ${total}`} meny={meny}>
         <div
           className="h-2 bg-sunken rounded-full overflow-hidden"
           role="progressbar"

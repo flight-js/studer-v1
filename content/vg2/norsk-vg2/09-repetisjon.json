@@ -457,6 +457,9 @@
         "kriterier": [
           "Nevner sagaenes saklige, kortfattede stil eller korte replikker.",
           "Forklarer likheten med moderne krimlitteratur eller minimalistisk prosa."
+        ],
+        "temaer": [
+          "norron-litteratur"
         ]
       },
       {
@@ -466,6 +469,10 @@
         "kriterier": [
           "Knytter opplysningstiden til fornuft, kunnskap eller kritisk tenkning.",
           "Knytter romantikken til følelser, fantasi eller det irrasjonelle."
+        ],
+        "temaer": [
+          "renessanse-barokk-og-opplysningstid",
+          "romantikken"
         ]
       },
       {
@@ -475,6 +482,9 @@
         "kriterier": [
           "Identifiserer politikere og/eller innbyggere som kan påvirke saken.",
           "Nevner en relevant begrensning, som elevens rolle, avisplass eller krav om saklighet."
+        ],
+        "temaer": [
+          "retorisk-situasjon"
         ]
       },
       {
@@ -485,6 +495,9 @@
           "Knytter kontekst til tid, samfunn eller ideer.",
           "Forklarer at sitater må kommenteres og brukes som belegg.",
           "Viser at drøfting innebærer tolkning, sammenligning eller vurdering."
+        ],
+        "temaer": [
+          "fagartikkel-om-tekster-i-kontekst"
         ]
       },
       {
@@ -494,6 +507,9 @@
         "kriterier": [
           "Knytter Knudsen til gradvis fornorsking av dansk.",
           "Knytter Aasen til dialekter og landsmålet."
+        ],
+        "temaer": [
+          "sprakhistorie-og-sprakstriden"
         ]
       },
       {
@@ -503,6 +519,9 @@
         "kriterier": [
           "Nevner norrøne kasus eller en annen oppgitt grammatisk forskjell.",
           "Nevner minst ett råd som styrker nabospråksforståelsen."
+        ],
+        "temaer": [
+          "nordiske-sprak-og-norront"
         ]
       },
       {
@@ -512,6 +531,9 @@
         "kriterier": [
           "Knytter etos til forberedelse, fagbegreper eller kilder.",
           "Knytter logos til struktur, argumenter eller konkrete eksempler."
+        ],
+        "temaer": [
+          "muntlig-framforing"
         ]
       },
       {
@@ -521,6 +543,10 @@
         "kriterier": [
           "Knytter nasjonalromantikken til ønsket om å vise fram en egen norsk kultur.",
           "Forklarer at utviklingen av skriftspråk var del av nasjonsbyggingen, med Knudsen- og/eller Aasen-linjen."
+        ],
+        "temaer": [
+          "romantikken",
+          "sprakhistorie-og-sprakstriden"
         ]
       },
       {
@@ -531,7 +557,11 @@
           "Sagaene kunne bidra med en felles norsk historie og styrke nasjonal identitet."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "norron-litteratur",
+          "romantikken"
+        ]
       },
       {
         "text": "Sammenlign hvordan naturen og livet framstilles i barokken og romantikken.",
@@ -540,7 +570,11 @@
           "Barokken forbindes med religiøsitet og livets forgjengelighet.",
           "Romantikken framstiller gjerne naturen som besjelet og knyttet til det guddommelige eller evige."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "renessanse-barokk-og-opplysningstid",
+          "romantikken"
+        ]
       },
       {
         "text": "Etter en nasjonal tragedie skal statsministeren holde tale til befolkningen. Forklar hvordan kairos og decorum kan påvirke når talen holdes, og hvordan den bør utformes.",
@@ -550,7 +584,10 @@
           "Decorum handler om at språk og tone passer til situasjonen og avsenderens rolle."
         ],
         "id": "s11",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "retorisk-situasjon"
+        ]
       },
       {
         "text": "I komedien «Erasmus Montanus» møter Rasmus Berg både uvitenhet og mennesker som reagerer på lærdommen hans. Forklar hvordan stykket bruker komikk til å kritisere to ulike holdninger til kunnskap.",
@@ -559,7 +596,10 @@
           "Stykket kritiserer både uvitenhet og overlegen eller arrogant lærdom.",
           "Holberg bruker komikk eller satire for å opplyse og kritisere menneskelige svakheter."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "renessanse-barokk-og-opplysningstid"
+        ]
       },
       {
         "text": "I en islendingesaga fører en fornærmelse til konflikt mellom slekter, og drømmer varsler om det som skal skje. Forklar hvordan kunnskap om sagasamfunnets forhold kan hjelpe en leser med å forstå både hevnen og varslene.",
@@ -568,7 +608,10 @@
           "Ættas ansvar for beskyttelse i et samfunn uten stat og politi bidrar til å forklare hevn.",
           "Drømmer og varsler uttrykker skjebnetro og fungerer som frampek."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "norron-litteratur"
+        ]
       },
       {
         "text": "En elev kan stoffet til en presentasjon, men leser alt fra lysbildene og ser sjelden på publikum. Forklar hvordan memoria og actio kan gjøre framføringen bedre.",
@@ -578,7 +621,10 @@
           "Actio gjelder framføringen, for eksempel stemme, kroppsspråk og blikkontakt."
         ],
         "id": "s14",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "muntlig-framforing"
+        ]
       },
       {
         "text": "I dansketiden brukte folk norske dialekter i tale, mens dansk ble brukt som skriftspråk. Forklar hvordan denne historien henger sammen med at Norge i dag har både bokmål og nynorsk som offisielle skriftspråk.",
@@ -587,7 +633,10 @@
           "Dansk ble skriftspråk i unionstiden, mens norske dialekter levde videre i tale.",
           "Bokmål utviklet seg fra fornorsking av dansk, mens nynorsk ble bygd på dialekter; begge er likestilte skriftspråk."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "sprakhistorie-og-sprakstriden"
+        ]
       },
       {
         "text": "En nordmann forstår ofte dansk tekst bedre enn dansk tale. Forklar hvorfor, og bruk én forskjell mellom dansk og norsk som eksempel.",
@@ -596,7 +645,10 @@
           "Dansk uttale har blant annet svake konsonanter, stød eller stavelser som svelges.",
           "Nevner en relevant skriftforskjell, for eksempel «bog» og «bok»."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "nordiske-sprak-og-norront"
+        ]
       }
     ]
   },

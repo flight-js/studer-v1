@@ -475,6 +475,9 @@
         "kriterier": [
           "Knytter fabrikker eller maskiner til endret produksjon og urbanisering.",
           "Nevner en relevant fordel og en relevant ulempe."
+        ],
+        "temaer": [
+          "industrialisering-og-teknologi"
         ]
       },
       {
@@ -484,6 +487,9 @@
         "kriterier": [
           "Forklarer at organisering og streik brukes for å presse fram krav.",
           "Nevner åttetimersdagen i 1919 eller et annet relevant resultat fra arbeiderkampen."
+        ],
+        "temaer": [
+          "kamp-for-endring"
         ]
       },
       {
@@ -493,6 +499,9 @@
         "kriterier": [
           "Nevner minst én langsiktig årsak til krigen.",
           "Skiller mellom Sarajevo-attentatet som utløsende årsak og alliansene som bidro til spredning."
+        ],
+        "temaer": [
+          "forste-verdenskrig"
         ]
       },
       {
@@ -502,6 +511,9 @@
         "kriterier": [
           "Knytter børskrakket eller den store depresjonen til krise og økt støtte til ekstreme ideologier.",
           "Nevner Hitlers ekspansjon eller angrepet på Polen som del av veien til krig."
+        ],
+        "temaer": [
+          "mellomkrigstid-og-andre-verdenskrig"
         ]
       },
       {
@@ -511,6 +523,9 @@
         "kriterier": [
           "Viser at forfølgelsen utviklet seg gjennom flere trinn, fra rettighetstap til drap.",
           "Nevner et relevant forebyggende tiltak, som kunnskap, kildekritikk eller å si ifra."
+        ],
+        "temaer": [
+          "holocaust-og-folkemord"
         ]
       },
       {
@@ -520,6 +535,10 @@
         "kriterier": [
           "Nevner en konkret virkning eller praksis knyttet til fornorskingen.",
           "Knytter den til urfolks rett til språk og kultur eller til å bli konsultert."
+        ],
+        "temaer": [
+          "fornorsking-og-minoriteter",
+          "menneskerettigheter"
         ]
       },
       {
@@ -530,7 +549,11 @@
           "Forklarer at urfolk har rett til å bli konsultert i saker som angår dem.",
           "Gjengir hovedresultatet i Fosen-saken."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "menneskerettigheter",
+          "fornorsking-og-minoriteter"
+        ]
       },
       {
         "id": "s08",
@@ -539,6 +562,10 @@
         "kriterier": [
           "Nevner og forklarer et relevant protestvirkemiddel.",
           "Forklarer hvordan menneskerettigheter eller bindende konvensjoner kan beskytte mennesker."
+        ],
+        "temaer": [
+          "kamp-for-endring",
+          "menneskerettigheter"
         ]
       },
       {
@@ -548,7 +575,10 @@
           "Nevner kull som viktig energikilde under industrialiseringen og vannkraft eller elektrisitet i Norge rundt 1900.",
           "Knytter fossile brensler til forurensning eller klimagassutslipp, og gjerne fornybar energi til løsninger."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "industrialisering-og-teknologi"
+        ]
       },
       {
         "text": "Norge var nøytralt under første verdenskrig, men ble okkupert under andre verdenskrig. Sammenlign hvordan krigene påvirket hverdagen til folk i Norge.",
@@ -557,7 +587,11 @@
           "Nevner følger av første verdenskrig, for eksempel sjøfolk som omkom, høye priser eller vareknapphet.",
           "Nevner følger av okkupasjonen under andre verdenskrig, for eksempel rasjonering, sensur eller frykt."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "forste-verdenskrig",
+          "mellomkrigstid-og-andre-verdenskrig"
+        ]
       },
       {
         "text": "Sammenlign hvorfor Folkeforbundet og FN ble opprettet etter hver sin verdenskrig. Forklar også hvordan opprettelsen av FN hang sammen med arbeidet for menneskerettigheter.",
@@ -566,7 +600,12 @@
           "Knytter Folkeforbundet til ønsket om å sikre fred etter første verdenskrig.",
           "Knytter FN til ønsket om å hindre nye overgrep etter andre verdenskrig og nevner menneskerettighetserklæringen eller menneskerettighetsarbeidet."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "forste-verdenskrig",
+          "mellomkrigstid-og-andre-verdenskrig",
+          "menneskerettigheter"
+        ]
       },
       {
         "text": "Folk har brukt foreninger, demonstrasjoner og streik for å kjempe for endring. Forklar hvordan sosiale medier har gitt nye muligheter til å spre budskap og mobilisere folk.",
@@ -575,7 +614,11 @@
           "Forklarer at sosiale medier kan spre budskap raskt eller til mange.",
           "Forklarer at de kan brukes til å samle støtte eller mobilisere folk."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "kamp-for-endring",
+          "industrialisering-og-teknologi"
+        ]
       },
       {
         "text": "Fornorskingspolitikken førte til at samisk og kvensk språk og kultur ble presset. Forklar hvordan politiske tiltak og revitalisering i dag kan være deler av arbeidet med forsoning.",
@@ -584,7 +627,11 @@
           "Nevner minst ett politisk tiltak eller en måte staten har erkjent uretten på.",
           "Knytter revitalisering, for eksempel at flere lærer eller bruker samisk eller kvensk, til å styrke språk og kultur."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "fornorsking-og-minoriteter",
+          "menneskerettigheter"
+        ]
       },
       {
         "text": "Hva er forskjellen på verdenserklæringen om menneskerettighetene og en menneskerettighetskonvensjon? Forklar også hvordan slike regler påvirker Norge.",
@@ -593,7 +640,10 @@
           "Forklarer at erklæringen ikke er juridisk bindende, mens konvensjoner binder statene som slutter seg til dem.",
           "Nevner at konvensjoner påvirker norsk lov eller politikk."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "menneskerettigheter"
+        ]
       },
       {
         "text": "En myndighet forsøker med vilje å ødelegge helt eller delvis en etnisk gruppe. Forklar hvorfor dette kan regnes som folkemord, og hvilken internasjonal avtale som gjør folkemord til en forbrytelse.",
@@ -603,7 +653,11 @@
           "Nevner FNs folkemordkonvensjon fra 1948 eller at folkemord er en forbrytelse etter internasjonal rett."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "holocaust-og-folkemord",
+          "menneskerettigheter"
+        ]
       },
       {
         "text": "I USA protesterte Rosa Parks mot raseskille på en buss, og Martin Luther King ledet ikkevoldelige demonstrasjoner. Nelson Mandela kjempet mot apartheid i Sør-Afrika. Forklar hvordan handlingene deres utfordret rasediskriminering.",
@@ -613,7 +667,10 @@
           "Knytter Mandela til kampen mot apartheid i Sør-Afrika."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kamp-for-endring"
+        ]
       }
     ]
   },

@@ -511,6 +511,11 @@
         "kriterier": [
           "Knytter skjevhet i treningsdata til urettferdige resultater eller diskriminering.",
           "Nevner dataminimering eller sikring av data som tiltak."
+        ],
+        "temaer": [
+          "innhenting-og-misbruk-av-data",
+          "it-i-samfunnet",
+          "personvern-og-regelverk"
         ]
       },
       {
@@ -521,7 +526,10 @@
           "Plasserer delte, oppdaterbare data i en database på en tjener.",
           "Forklarer at fetch henter data, og at et API er et grensesnitt til tjenesten."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "data-pa-nettsider"
+        ]
       },
       {
         "id": "s03",
@@ -530,6 +538,9 @@
         "kriterier": [
           "Bruker plassverdiene 8, 4, 2 og 1.",
           "Oppgir 11 som svar."
+        ],
+        "temaer": [
+          "digital-representasjon-og-datalagring"
         ]
       },
       {
@@ -539,6 +550,10 @@
         "kriterier": [
           "Forklarer at semantiske elementer beskriver sidens struktur eller innhold.",
           "Forklarer at alt-tekst beskriver bildet for personer som ikke ser det."
+        ],
+        "temaer": [
+          "brukervennlighet-og-universell-utforming",
+          "html-og-css"
         ]
       },
       {
@@ -548,6 +563,9 @@
         "kriterier": [
           "Sier at sensitive opplysninger ikke skal lagres åpent i nettleseren eller koden.",
           "Nevner minst to relevante prinsipper, som dataminimering, formålsbegrensning og sikring."
+        ],
+        "temaer": [
+          "personvern-og-regelverk"
         ]
       },
       {
@@ -557,6 +575,9 @@
         "kriterier": [
           "Viser at 13 = 8 + 4 + 1.",
           "Oppgir 1101₂ som svar."
+        ],
+        "temaer": [
+          "digital-representasjon-og-datalagring"
         ]
       },
       {
@@ -566,6 +587,9 @@
         "kriterier": [
           "Sammenligner halvering av søkeområdet med å undersøke elementer ett etter ett.",
           "Nevner at listen må være sortert."
+        ],
+        "temaer": [
+          "algoritmer-og-effektivitet"
         ]
       },
       {
@@ -576,6 +600,11 @@
           "Nevner tidlig hjelp som mulig nytte.",
           "Nevner en risiko, for eksempel feilvurdering, stempling eller overvåking.",
           "Nevner begrenset tilgang, dataminimering eller et mindre inngripende alternativ."
+        ],
+        "temaer": [
+          "innhenting-og-misbruk-av-data",
+          "personvern-og-regelverk",
+          "it-i-samfunnet"
         ]
       },
       {
@@ -585,7 +614,10 @@
           "Forklarer at en avkuttet y-akse kan overdrive små forskjeller.",
           "Foreslår en tydeligere eller mer balansert framstilling."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "data-pa-nettsider"
+        ]
       },
       {
         "text": "En designer lager både en logo og et fotografi til en nettside. Forklar hvilken type grafikk som passer best for hver av dem, og hvorfor.",
@@ -594,7 +626,10 @@
           "Velger vektorgrafikk til logoen og knytter det til skalering uten uskarphet.",
           "Velger punktgrafikk til fotografiet og knytter det til piksler."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "digital-representasjon-og-datalagring"
+        ]
       },
       {
         "text": "Du redigerer et dokument på en bærbar datamaskin mens det lagres i en skytjeneste. Forklar forskjellen på RAM og SSD for dokumentet, og nevn én utfordring dersom nettforbindelsen forsvinner.",
@@ -603,7 +638,10 @@
           "Skiller mellom flyktig RAM og permanent lagring på SSD.",
           "Nevner at manglende nett kan hindre tilgang til skytjenesten."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "datamaskiner-og-nettverk"
+        ]
       },
       {
         "text": "En nettside lar brukere bestille time. Foreslå ett tiltak som gjør skjemaet enklere å bruke for personer som navigerer med tastatur, og forklar hvordan utvikleren kan teste tiltaket.",
@@ -612,7 +650,11 @@
           "Foreslår et konkret tiltak for tastaturbruk, som synlig fokus eller tydelige etiketter.",
           "Beskriver manuell testing med bare tastatur."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "brukervennlighet-og-universell-utforming",
+          "html-og-css"
+        ]
       },
       {
         "text": "En Python-funksjon skal regne ut prisen med merverdiavgift, slik at resultatet senere kan legges sammen med andre priser. Forklar hvorfor funksjonen bør bruke `return` i stedet for bare `print`.",
@@ -621,7 +663,10 @@
           "Forklarer at `return` gjør resultatet tilgjengelig for videre bruk i programmet.",
           "Skiller dette fra `print`, som viser verdien på skjermen."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "programmering-med-funksjoner"
+        ]
       },
       {
         "text": "Et bibliotek skal sortere en svært stor liste med tall. Forklar hvorfor flettesortering vanligvis passer bedre enn boblesortering når lista er stor.",
@@ -631,7 +676,10 @@
           "Beskriver enten deling og fletting eller at boblesortering gjentar mange gjennomganger."
         ],
         "id": "s14",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "algoritmer-og-effektivitet"
+        ]
       },
       {
         "text": "Et ukomprimert RGB-bilde er 5 piksler bredt og 2 piksler høyt. Hver piksel bruker 24 bit, altså 3 byte. Hvor mange byte bruker bildet? Vis kort hvordan du regner det ut.",
@@ -640,7 +688,10 @@
           "Regner ut at bildet har 10 piksler.",
           "Regner ut riktig størrelse: 30 byte."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "digital-representasjon-og-datalagring"
+        ]
       },
       {
         "text": "En digital kode består av 2 byte. Én byte har 256 mulige verdier. Hvor mange ulike bitmønstre kan koden representere? Vis kort hvordan du finner svaret.",
@@ -649,7 +700,10 @@
           "Multipliserer antallet muligheter for de to bytene.",
           "Oppgir riktig svar: 65 536 ulike bitmønstre."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "digital-representasjon-og-datalagring"
+        ]
       }
     ]
   },

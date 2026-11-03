@@ -497,6 +497,9 @@
         "kriterier": [
           "Explains that interactivity means the player influences events.",
           "Explains that a branching narrative lets choices lead to different endings."
+        ],
+        "temaer": [
+          "video-games"
         ]
       },
       {
@@ -506,6 +509,9 @@
         "kriterier": [
           "Names relevant planning choices, such as purpose, audience, message, script or storyboard.",
           "Gives an accessibility measure such as adding captions."
+        ],
+        "temaer": [
+          "creating-digital-products"
         ]
       },
       {
@@ -515,6 +521,10 @@
         "kriterier": [
           "Connects the news structure or language to informing.",
           "Identifies an advertising technique and connects it to persuasion or selling."
+        ],
+        "temaer": [
+          "language-in-the-media",
+          "persuasion-and-rhetoric"
         ]
       },
       {
@@ -525,7 +535,10 @@
           "Identifies bandwagon and explains the appeal of following others.",
           "Identifies a testimonial as a recommendation."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "persuasion-and-rhetoric"
+        ]
       },
       {
         "id": "s05",
@@ -535,6 +548,9 @@
           "Correctly matches the expert with ethos and credibility.",
           "Correctly matches the emotional story with pathos and feelings.",
           "Correctly matches evidence with logos and facts or reasoning."
+        ],
+        "temaer": [
+          "persuasion-and-rhetoric"
         ]
       },
       {
@@ -544,6 +560,9 @@
         "kriterier": [
           "Connects edited or selected images with unrealistic ideals or self-esteem.",
           "Mentions checking whether the post is advertising or sponsored content."
+        ],
+        "temaer": [
+          "self-presentation-online"
         ]
       },
       {
@@ -553,6 +572,9 @@
         "kriterier": [
           "Says to get consent from the person who appears.",
           "Says to get permission to use material or use original material, and credit sources."
+        ],
+        "temaer": [
+          "creating-digital-products"
         ]
       },
       {
@@ -563,7 +585,10 @@
           "Identifies sharing as the role of a participant and notes that shares can spread content.",
           "Explains that algorithms use previous activity and can create a filter bubble."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "self-presentation-online"
+        ]
       },
       {
         "text": "A video game scene needs to signal danger, while a podcast tells a story about the same event. Explain how sound can work in the game and how spoken language can engage podcast listeners.",
@@ -572,7 +597,11 @@
           "Explains that game sound or music can create atmosphere or signal danger.",
           "Identifies a spoken-language feature that can engage podcast listeners."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "video-games",
+          "language-in-the-media"
+        ]
       },
       {
         "text": "Players from different countries use English to chat in an online game, including terms such as “NPC”, “lag” and “respawn”. Explain one benefit of this shared language and one problem game rules may help address.",
@@ -581,7 +610,10 @@
           "Mentions language learning or communication between players from different countries.",
           "Identifies toxic language and a way games can address it, such as rules or reporting."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "video-games"
+        ]
       },
       {
         "text": "A school group is creating an infographic to persuade pupils to reduce sugary drinks. Explain how the group can combine words and pictures effectively and use evidence responsibly.",
@@ -590,7 +622,11 @@
           "Explains that pictures and text should support each other, not simply repeat one another.",
           "Recommends using factual evidence or statistics responsibly, with context."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "creating-digital-products",
+          "persuasion-and-rhetoric"
+        ]
       },
       {
         "text": "A podcast and a formal report present the same information. Compare the language each might use and explain how it fits the medium.",
@@ -599,7 +635,10 @@
           "Identifies a spoken or conversational feature suitable for a podcast.",
           "Identifies formal features such as complete sentences, precise vocabulary or a neutral tone."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "language-in-the-media"
+        ]
       },
       {
         "text": "An influencer is paid to recommend a product in a video. Explain what the influencer should make clear to viewers and why the payment matters when they assess the message.",
@@ -608,7 +647,11 @@
           "States that paid or sponsored content should be clearly marked as advertising.",
           "Connects the payment to the post’s purpose of promoting or selling the product."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "self-presentation-online",
+          "persuasion-and-rhetoric"
+        ]
       },
       {
         "text": "You are writing a website for readers in Britain and the United States. Explain how to choose between British and American English and give two examples of differences.",
@@ -617,7 +660,10 @@
           "Says to choose one variety of English and use it consistently.",
           "Gives two accurate British/American spelling or vocabulary differences."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "language-in-the-media"
+        ]
       },
       {
         "text": "You are making a digital story about a personal experience using narration, pictures and music. Explain why this format suits the story and how the music should relate to the narration.",
@@ -626,7 +672,10 @@
           "Explains that a digital story combines narration, pictures and music.",
           "Says that music should match the mood and remain quiet enough for the narration to be heard."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "creating-digital-products"
+        ]
       },
       {
         "text": "A driving school uses a video game simulator to train learners. Explain how this illustrates a purpose of games beyond entertainment, and name two elements an analyst could examine in the game.",
@@ -635,7 +684,10 @@
           "Identifies training as a purpose of games beyond entertainment.",
           "Names two relevant elements to analyse, such as gameplay, mechanics, perspective or sound."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "video-games"
+        ]
       }
     ]
   },

@@ -34,12 +34,15 @@ export function Ovingstopp({
   avsluttTekst,
   children,
   hoyre,
+  meny,
   bred,
 }: {
   tilbake: string;
   avsluttTekst: string;
   children?: React.ReactNode;
   hoyre?: React.ReactNode;
+  // Ytterst til høyre, for eksempel temavalget i repetisjonstemaet.
+  meny?: React.ReactNode;
   bred?: boolean;
 }) {
   return (
@@ -56,6 +59,7 @@ export function Ovingstopp({
         {hoyre && (
           <div className="text-sm font-semibold text-muted tabular-nums whitespace-nowrap">{hoyre}</div>
         )}
+        {meny && <div className="-mr-2.5 sm:mr-0">{meny}</div>}
       </div>
     </header>
   );

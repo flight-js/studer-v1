@@ -444,6 +444,9 @@
         "kriterier": [
           "Forklarer at karma handler om følger av handlinger.",
           "Forklarer at samsara er gjenfødelsens kretsløp, og moksha frigjøring fra det."
+        ],
+        "temaer": [
+          "hinduismen"
         ]
       },
       {
@@ -453,6 +456,9 @@
         "kriterier": [
           "Får med lidelse, begjær og at lidelsen kan opphøre.",
           "Nevner den åttedelte vei som veien mot nirvana."
+        ],
+        "temaer": [
+          "buddhismen"
         ]
       },
       {
@@ -462,6 +468,9 @@
         "kriterier": [
           "Forklarer den gylne regel eller Jesu nestekjærlighet riktig.",
           "Viser fellestrekket: omsorgsfull behandling av andre."
+        ],
+        "temaer": [
+          "etiske-forbilder"
         ]
       },
       {
@@ -472,7 +481,11 @@
           "Nevner en konkret samfunnsendring etter kristningen av Norge.",
           "Nevner et eksempel på religion som inspirasjon til rettferdighetsarbeid."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "religion-og-historie",
+          "etiske-forbilder"
+        ]
       },
       {
         "id": "s05",
@@ -481,6 +494,9 @@
         "kriterier": [
           "Skiller mellom respekt for tro og kritisk vurdering av en påstand.",
           "Nevner at loven begrenser alternativ behandling av alvorlige sykdommer."
+        ],
+        "temaer": [
+          "religiost-mangfold"
         ]
       },
       {
@@ -490,6 +506,9 @@
         "kriterier": [
           "Nevner at populærkultur kan bruke religiøse symboler, fortellinger eller figurer.",
           "Nevner minst ett relevant spørsmål om framstillingen eller avsenderen."
+        ],
+        "temaer": [
+          "religion-i-populaerkultur"
         ]
       },
       {
@@ -499,6 +518,9 @@
         "kriterier": [
           "Forklarer sekularisering som mindre betydning for religion.",
           "Forklarer religiøst mangfold som flere religioner og livssyn side om side."
+        ],
+        "temaer": [
+          "religiost-mangfold"
         ]
       },
       {
@@ -509,7 +531,10 @@
           "Knytter Gandhi til ahimsa eller ikkevold.",
           "Knytter Martin Luther King til Jesu kjærlighetsbud, Gandhis metoder eller kampen mot rasisme."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "etiske-forbilder"
+        ]
       },
       {
         "text": "Sammenlign synet på menneskets innerste selv i hinduismen og buddhismen. Hva mener mange hinduer om atman og Brahman, og hva lærer buddhismen om et fast «jeg»?",
@@ -518,7 +543,11 @@
           "Beskriver hinduismens syn på atman og Brahman.",
           "Beskriver buddhismens lære om ikke-selv."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "hinduismen",
+          "buddhismen"
+        ]
       },
       {
         "text": "Beskriv to ulike veier en hindu kan følge for å arbeide mot frigjøring. Forklar hva som kjennetegner hver av dem.",
@@ -528,7 +557,10 @@
           "Forklarer hva de valgte veiene innebærer."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hinduismen"
+        ]
       },
       {
         "text": "Forklar hva kastesystemet har betydd for dalittene, og hvordan situasjonen deres er omtalt i indisk lov og i synet til mange hinduer.",
@@ -538,7 +570,10 @@
           "Nevner grunnlovens forbud og at diskriminering fortsatt forekommer, eller at mange hinduer avviser systemet."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hinduismen"
+        ]
       },
       {
         "text": "Hvordan påvirket de fire møtene Siddhartha Gautamas livsvalg, og hva lærte han da han fant middelveien?",
@@ -547,7 +582,10 @@
           "Knytter møtene til innsikten om alderdom, sykdom og død.",
           "Forklarer at han forlot palasset og fant middelveien mellom luksus og selvpining."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "buddhismen"
+        ]
       },
       {
         "text": "Fortell hvordan islam spredte seg etter Muhammads død, og nevn én måte muslimske lærde bidro til kunnskap i islams gullalder.",
@@ -557,7 +595,10 @@
           "Nevner en kunnskapsinnsats, for eksempel algebra, tallsystemet vi bruker i dag eller bevaring av greske filosofitekster."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "religion-og-historie"
+        ]
       },
       {
         "text": "Forklar hvordan reformasjonen endret forholdet mellom kongen og kirken i Danmark-Norge, og hvordan Den norske kirkes forhold til staten senere ble endret.",
@@ -567,7 +608,10 @@
           "Nevner at Den norske kirke ble skilt fra staten i 2017 og ble selvstendig."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "religion-og-historie"
+        ]
       },
       {
         "text": "Sammenlign hva Muhammad og Buddha la vekt på i møte med andre mennesker. Ta med ett eksempel fra hver tradisjon.",
@@ -576,7 +620,11 @@
           "Beskriver Muhammads vekt på omsorg eller rettferdighet, gjerne med zakat som eksempel.",
           "Beskriver Buddhas vekt på medfølelse eller ikkevold, gjerne med en av de fem forskriftene."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "etiske-forbilder",
+          "buddhismen"
+        ]
       },
       {
         "text": "Yoga, meditasjon og mindfulness praktiseres i dag både med og uten religiøst innhold. Forklar hvilke religioner disse praksisene har røtter i, og hvordan bruken kan være forskjellig i dag.",
@@ -586,7 +634,12 @@
           "Forklarer at praksisene i dag kan brukes både med og uten religiøst innhold."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hinduismen",
+          "buddhismen",
+          "religiost-mangfold"
+        ]
       }
     ]
   },

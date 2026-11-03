@@ -514,6 +514,11 @@
           "Knytter kroppslige reaksjoner til biologi eller stressrespons.",
           "Forklarer hvordan tanker eller tolkninger påvirker angst.",
           "Tar med sosial påvirkning eller viser at faktorene virker sammen."
+        ],
+        "temaer": [
+          "psykologiske-perspektiver",
+          "nervesystemet-og-hormonsystemet",
+          "sanser-persepsjon-og-kognisjon"
         ]
       },
       {
@@ -524,6 +529,9 @@
           "Sier at korrelasjon viser sammenheng, ikke nødvendigvis årsak.",
           "Beskriver en manipulert uavhengig variabel og målt avhengig variabel.",
           "Nevner eksperiment- og kontrollgruppe eller tilfeldig fordeling."
+        ],
+        "temaer": [
+          "forskningsmetoder"
         ]
       },
       {
@@ -534,6 +542,10 @@
           "Forklarer at attribusjonen kan svekke motivasjon eller mestringsforventning.",
           "Gir et problemfokusert tiltak, som en leseplan.",
           "Knytter passende utfordringer eller tilbakemeldinger til mestring."
+        ],
+        "temaer": [
+          "motivasjon-og-mestring",
+          "stress-og-resiliens"
         ]
       },
       {
@@ -544,6 +556,9 @@
           "Knytter atferden til trygg tilknytning eller trygg havn.",
           "Forklarer at erfaringer kan forme indre arbeidsmodeller.",
           "Gir et relevant eksempel på forventninger om seg selv eller andre."
+        ],
+        "temaer": [
+          "tilknytning"
         ]
       },
       {
@@ -554,6 +569,9 @@
           "Forklarer at forholdet mellom rus og psykiske plager går begge veier.",
           "Nevner selvmedisinering og at plagene kan forverres.",
           "Knytter sårbarhet til hjernens utvikling eller pannelappen."
+        ],
+        "temaer": [
+          "rus-og-hjernen"
         ]
       },
       {
@@ -565,7 +583,10 @@
           "Forklarer at vaner påvirker automatiske valg.",
           "Forklarer hvordan sosiale normer kan påvirke valg."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "barekraftige-valg"
+        ]
       },
       {
         "id": "s07",
@@ -575,6 +596,10 @@
           "Nevner selvtesting eller aktiv gjenhenting.",
           "Forklarer nytten av å spre repetisjonen over tid.",
           "Knytter søvn til konsolidering av minner."
+        ],
+        "temaer": [
+          "hukommelse",
+          "laering"
         ]
       },
       {
@@ -585,6 +610,9 @@
           "Forklarer at unngåelse ofte øker stress på sikt.",
           "Gir et problemfokusert tiltak rettet mot situasjonen.",
           "Gir et emosjonsfokusert tiltak rettet mot følelsene."
+        ],
+        "temaer": [
+          "stress-og-resiliens"
         ]
       },
       {
@@ -594,7 +622,12 @@
           "Knytter sjekking til læring gjennom belønning eller konsekvenser.",
           "Knytter varsler til oppmerksomhet, oppgaveveksling eller økt feilrisiko."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "psykologiske-perspektiver",
+          "sanser-persepsjon-og-kognisjon",
+          "laering"
+        ]
       },
       {
         "text": "Et vitne får etter en trafikkulykke spørsmål om hvor fort bilene kjørte da de «smalt inn i hverandre». Forklar hvordan spørsmålsformuleringen kan påvirke vitnets minne, og hvordan en forsker kan undersøke dette på en etisk forsvarlig måte.",
@@ -603,7 +636,11 @@
           "Forklarer at hukommelsen rekonstrueres, og at ledende ord kan påvirke gjenhenting eller falske minner.",
           "Foreslår en sammenligning av grupper og nevner relevante forskningsetiske hensyn."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "hukommelse",
+          "forskningsmetoder"
+        ]
       },
       {
         "text": "En fotballspiller kjenner hjertebank og rask pust før en viktig kamp. Forklar hvordan nervesystemet og hormoner kan bidra til reaksjonene, og hvordan spillerens vurdering av situasjonen kan påvirke opplevelsen av stress.",
@@ -612,7 +649,11 @@
           "Beskriver kroppens stressreaksjon med sympatisk nervesystem og/eller adrenalin og kortisol.",
           "Viser at vurdering av krav og egne ressurser påvirker stressopplevelsen."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "nervesystemet-og-hormonsystemet",
+          "stress-og-resiliens"
+        ]
       },
       {
         "text": "En ungdom vurderer å velge en utdanning som familien ikke kjenner så godt, og prøver ut ulike interesser før hen bestemmer seg. Forklar hvordan dette kan forstås med Marcias identitetsstatuser, og hvordan arv og miljø kan virke sammen i utviklingen av personlighet.",
@@ -622,7 +663,10 @@
           "Forklarer personlighet som et samspill mellom arv/anlegg og miljø/erfaringer."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "personlighet-og-identitet"
+        ]
       },
       {
         "text": "En app sender belønninger på uforutsigbare tidspunkter, og brukerne åpner den ofte for å se om noe nytt har skjedd. Forklar hvordan operant betinging kan bidra til å opprettholde denne atferden, og nevn et etisk spørsmål apputviklerne bør vurdere.",
@@ -631,7 +675,11 @@
           "Forklarer at uforutsigbare belønninger kan opprettholde atferd.",
           "Nevner etisk ansvar, for eksempel manipulering, samtykke eller brukerens interesse."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "laering",
+          "forskningsmetoder"
+        ]
       },
       {
         "text": "Etter en plutselig brann må en familie flytte fra hjemmet sitt. Beskriv hvordan reaksjonene kan endre seg gjennom faser i en traumatisk krise, og forklar hvordan støtte fra andre kan påvirke utfallet.",
@@ -640,7 +688,10 @@
           "Beskriver minst to relevante krisefaser eller hvordan reaksjonene kan utvikle seg over tid.",
           "Forklarer at sosial støtte kan beskytte eller bidra til mestring."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "psykiske-kriser"
+        ]
       },
       {
         "text": "Mange trekkes mot søt og fet mat selv om slik mat er lett tilgjengelig og et høyt inntak kan være skadelig. Forklar hvordan evolusjonspsykologi kan forstå denne tilbøyeligheten, og hvorfor forklaringen ikke betyr at atferden er uunngåelig.",
@@ -649,7 +700,10 @@
           "Knytter preferansen til energirik mat og mulig overlevelsesfordel i tidligere miljøer.",
           "Nevner mismatch eller at mennesker kan reflektere og endre atferd."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "evolusjonspsykologi"
+        ]
       },
       {
         "text": "En person ønsker hjelp for vedvarende angst og vil undersøke behandlingsmuligheter. Forklar hva en psykolog og en psykiater kan bidra med, og hvordan kognitiv atferdsterapi kan hjelpe personen.",
@@ -658,7 +712,11 @@
           "Skiller mellom psykologens utredning/psykoterapi og psykiaterens legeutdanning/medisinering.",
           "Forklarer at KAT arbeider med å endre tanker og atferd."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "anvendt-psykologi",
+          "psykologiske-perspektiver"
+        ]
       }
     ]
   },

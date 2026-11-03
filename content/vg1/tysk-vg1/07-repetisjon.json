@@ -510,6 +510,9 @@
         "kriterier": [
           "Bruker to passende personlighetstrekk, for eksempel ehrlich og hilfsbereit.",
           "Sier korrekt at vennene møtes hver fredag, for eksempel Wir treffen uns jeden Freitag."
+        ],
+        "temaer": [
+          "identitet-og-relasjoner"
         ]
       },
       {
@@ -519,6 +522,9 @@
         "kriterier": [
           "Bruker Als ich klein war og riktig preteritum wollte.",
           "Knytter Gymnasium til Abitur og Abitur til adgang til universitetet."
+        ],
+        "temaer": [
+          "skole-og-arbeid"
         ]
       },
       {
@@ -528,6 +534,9 @@
         "kriterier": [
           "Bruker preteritumformene ging og fand.",
           "Bruker tidsuttrykk som viser rekkefølge, for eksempel zuerst og dann."
+        ],
+        "temaer": [
+          "fortelle-om-opplevelser"
         ]
       },
       {
@@ -538,7 +547,11 @@
           "Knytter Sveits til direkte demokrati og folkeavstemninger.",
           "Beskriver DDR som en kommunistisk ettpartistat og viser kontrasten."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker",
+          "historie"
+        ]
       },
       {
         "id": "s05",
@@ -548,7 +561,10 @@
           "Oppgir hendelsene i riktig rekkefølge med riktige årstall.",
           "Bruker passivformen Die Mauer wurde 1961 gebaut."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "historie"
+        ]
       },
       {
         "id": "s06",
@@ -558,7 +574,11 @@
           "Nevner at filmen er en komedie om en ung mann i Øst-Berlin.",
           "Forklarer at han prøver å skjule for moren at DDR er gått i oppløsning."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur",
+          "historie"
+        ]
       },
       {
         "id": "s07",
@@ -567,6 +587,9 @@
         "kriterier": [
           "Bruker Ich hätte gern einen Kaffee korrekt.",
           "Bruker Könnten Sie mir helfen? som høflig forespørsel."
+        ],
+        "temaer": [
+          "kunst-og-kultur"
         ]
       },
       {
@@ -577,7 +600,11 @@
           "Beskriver vennen som pålitelig og bruker sich interessieren für korrekt.",
           "Uttrykker et ønske med würde gern og identifiserer filmen som en komedie om en ung mann i Øst-Berlin."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "identitet-og-relasjoner",
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Sammenlign Tyskland og Østerrike på tysk. Ta med hvor mange delstater hvert land har, og nevn hovedstedene.",
@@ -587,7 +614,10 @@
           "Oppgir Berlin og Wien som hovedsteder."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Forklar på tysk hvordan Sveits skiller seg ut når det gjelder språk og demokrati. Ta også med om landet er medlem av EU.",
@@ -597,7 +627,10 @@
           "Nevner folkeavstemninger som del av direkte demokrati og at Sveits ikke er medlem av EU."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Beskriv på tysk to miljøtiltak i Tyskland, og forklar hvordan ett av dem henger sammen med landets energiomstilling.",
@@ -607,7 +640,10 @@
           "Nevner kildesortering eller pant på flasker som et viktig tiltak i hverdagen."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samfunn-og-aktuelle-saker"
+        ]
       },
       {
         "text": "Forklar på tysk hvordan økonomiske problemer i Weimarrepublikken bidro til at ekstreme partier fikk grobunn. Ta med én krise og at nazistene kom til makten i 1933.",
@@ -618,7 +654,10 @@
           "Nevner at Hitler og nazistene kom til makten i 1933."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "historie"
+        ]
       },
       {
         "text": "Skriv på tysk om Bauhaus. Ta med når og hvor kunst- og designskolen ble grunnlagt, beskriv et trekk ved stilen og si noe om påvirkningen den har hatt.",
@@ -629,7 +668,10 @@
           "Nevner at Bauhaus har påvirket arkitektur eller design verden over."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Sammenlign på tysk Brødrene Grimms eventyrsamling med Franz Kafkas Die Verwandlung. Ta med ett kjennetegn ved hvert verk.",
@@ -639,7 +681,10 @@
           "Nevner at Gregor Samsa våkner forvandlet til et stort insekt i Kafkas Die Verwandlung."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Fortell på tysk at du og en venn kranglet, men at alt er bra igjen nå. Si også at du gleder deg til ferien.",
@@ -649,7 +694,11 @@
           "Bruker et passende refleksivt uttrykk, for eksempel „uns gestritten“.",
           "Bruker „sich freuen auf“ om noe som kommer."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "identitet-og-relasjoner",
+          "fortelle-om-opplevelser"
+        ]
       },
       {
         "text": "Forklar på tysk hvorfor yrkesutdanningen i Tyskland kalles et dualt system. Bruk ordene Azubi og Berufsschule.",
@@ -658,7 +707,10 @@
           "Nevner at lærlingene lærer både i en bedrift og på en Berufsschule.",
           "Forklarer at systemet er dualt fordi det har to læringssteder."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "skole-og-arbeid"
+        ]
       }
     ]
   },

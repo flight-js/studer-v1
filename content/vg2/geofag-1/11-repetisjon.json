@@ -489,6 +489,9 @@
         "kriterier": [
           "Riktig rekkefølge: A, B, gangen, C.",
           "Forklarer at en gjennomskjærende gang er yngre enn lagene den skjærer."
+        ],
+        "temaer": [
+          "geologisk-tid-og-datering"
         ]
       },
       {
@@ -498,6 +501,9 @@
         "kriterier": [
           "Halverer mengden to ganger.",
           "Oppgir 20 gram."
+        ],
+        "temaer": [
+          "geologisk-tid-og-datering"
         ]
       },
       {
@@ -507,6 +513,9 @@
         "kriterier": [
           "Setter inn verdiene i vannbalanselikningen.",
           "Finner avrenningen lik 40 enheter."
+        ],
+        "temaer": [
+          "vannets-kretslop"
         ]
       },
       {
@@ -516,6 +525,9 @@
         "kriterier": [
           "Forklarer at breen graver ut en U-dal som fylles av hav.",
           "Nevner skuringsstriper som spor etter isens bevegelsesretning."
+        ],
+        "temaer": [
+          "landformer"
         ]
       },
       {
@@ -525,6 +537,10 @@
         "kriterier": [
           "Morene er usortert og avsatt direkte av isbre.",
           "Breelvavsetning er sortert og lagdelt og avsatt av smeltevann."
+        ],
+        "temaer": [
+          "mineraler-og-bergarter",
+          "landformer"
         ]
       },
       {
@@ -534,6 +550,10 @@
         "kriterier": [
           "Knytter tette flater til mindre infiltrasjon og raskere avrenning.",
           "Nevner en relevant blågrønn løsning."
+        ],
+        "temaer": [
+          "vannets-kretslop",
+          "naturfarer"
         ]
       },
       {
@@ -543,6 +563,9 @@
         "kriterier": [
           "Nevner porøs reservoarbergart og tett takbergart som fanger olje og gass.",
           "Nevner seismikk som kartleggingsmetode."
+        ],
+        "temaer": [
+          "geologiske-ressurser"
         ]
       },
       {
@@ -553,6 +576,9 @@
           "Bruker sammenhengen risiko = sannsynlighet × konsekvens.",
           "Knytter sårbarhet eller konsekvens til at en skole ligger utsatt.",
           "Nevner arealplanlegging eller et annet relevant forebyggende tiltak."
+        ],
+        "temaer": [
+          "naturfarer"
         ]
       },
       {
@@ -561,7 +587,10 @@
         "kriterier": [
           "Regner ut 2,5 % av 4000 liter riktig: 100 liter."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "ferskvannsressurser"
+        ]
       },
       {
         "text": "Ved en konvergent plategrense møtes en havbunnsplate og en kontinentalplate. Beskriv hva som skjer med havbunnsplaten, og nevn to geologiske farer eller prosesser som kan oppstå ved denne plategrensen.",
@@ -570,7 +599,11 @@
           "Forklarer at havbunnsplaten subduseres under kontinentalplaten.",
           "Nevner to relevante følger, for eksempel dyphavsgrøft, jordskjelv eller vulkaner."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "platetektonikk",
+          "naturfarer"
+        ]
       },
       {
         "text": "På verdensbasis går omtrent 70 % av ferskvannet som tas ut, til jordbruk. Hvor mange enheter går til jordbruk dersom det tas ut 600 enheter ferskvann?",
@@ -578,7 +611,10 @@
         "kriterier": [
           "Regner ut 70 % av 600 riktig: 420 enheter."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "ferskvannsressurser"
+        ]
       },
       {
         "text": "Et stort vulkanutbrudd sender svovelpartikler opp i lufta. Forklar hvilke jordsystemer som samspiller, og hvordan partiklene kan påvirke klimaet de neste årene.",
@@ -587,7 +623,10 @@
           "Knytter vulkanutbruddet i geosfæren til atmosfæren.",
           "Forklarer at svovelpartikler reflekterer sollys og kan gi midlertidig nedkjøling."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "jordsystemene"
+        ]
       },
       {
         "text": "Langt over dagens havnivå finner du en gammel strandlinje med skjell. Hva forteller funnet om havnivået etter siste istid, og hvordan kan landhevingen ha oppstått?",
@@ -596,7 +635,11 @@
           "Forklarer at strandlinjen viser et tidligere havnivå.",
           "Knytter landhevingen til at jordskorpa steg etter at isen smeltet og trykket avtok."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "landformer",
+          "platetektonikk"
+        ]
       },
       {
         "text": "Et skogsområde blir ryddet for trær. Forklar hvordan dette kan påvirke både vannføringen etter regn og erosjonen i området.",
@@ -605,7 +648,11 @@
           "Nevner at mindre transpirasjon kan gi raskere avrenning.",
           "Knytter avskoging til økt erosjon."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "vannets-kretslop",
+          "landformer"
+        ]
       },
       {
         "text": "En trebit som antas å være omtrent 8000 år gammel, blir funnet begravd i sedimenter. Hvilken radiometrisk metode passer for å datere treet, og daterer metoden treet eller sedimentene direkte?",
@@ -614,7 +661,10 @@
           "Velger karbon-14 fordi prøven er organisk og innenfor metodens aldersområde.",
           "Forklarer at dateringen gjelder treet, ikke sedimentene direkte."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "geologisk-tid-og-datering"
+        ]
       },
       {
         "text": "Sjeldne jordartsmetaller kan brukes i magneter til vindturbiner og elbiler. Forklar hvordan utvinning av slike metaller både kan bidra til det grønne skiftet og skape miljøutfordringer, og nevn ett tiltak for mer bærekraftig bruk.",
@@ -624,7 +674,10 @@
           "Nevner en miljøutfordring ved gruvedrift og et relevant tiltak, for eksempel gjenvinning eller strenge miljøkrav."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "geologiske-ressurser"
+        ]
       }
     ]
   },

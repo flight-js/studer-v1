@@ -453,6 +453,10 @@
         "kriterier": [
           "Bruker **Me llamo** for navn.",
           "Bruker **Soy de** for opprinnelse og **tengo … años** for alder."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon",
+          "tall-og-tid"
         ]
       },
       {
@@ -462,6 +466,10 @@
         "kriterier": [
           "Bruker **tengo una hermana**.",
           "Lager nektelse med **no** foran verbet og skriver **hermanos**."
+        ],
+        "temaer": [
+          "familie-og-venner",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -471,6 +479,10 @@
         "kriterier": [
           "Bruker **gustan** med flertall **las matemáticas**.",
           "Bruker **no me gusta** med entall **la historia**."
+        ],
+        "temaer": [
+          "skole-og-fritid",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -480,6 +492,9 @@
         "kriterier": [
           "Bruker **jugar al fútbol** om sport.",
           "Bruker **tocar la guitarra** om instrument."
+        ],
+        "temaer": [
+          "skole-og-fritid"
         ]
       },
       {
@@ -489,6 +504,10 @@
         "kriterier": [
           "Bruker **soy de** om opprinnelse.",
           "Bruker **vivo en** om bosted."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -498,6 +517,10 @@
         "kriterier": [
           "Bruker familie- og kjæledyrordene **hermano** og **perro**.",
           "Bøyer beskrivelsene riktig: **alto** og **negro**."
+        ],
+        "temaer": [
+          "familie-og-venner",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -507,6 +530,10 @@
         "kriterier": [
           "Bruker **a las ocho** for når timen begynner.",
           "Skriver datoen med **el tres de marzo**."
+        ],
+        "temaer": [
+          "tall-og-tid",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -516,6 +543,10 @@
         "kriterier": [
           "Bruker **estar** om sted: **está**.",
           "Bruker **ser** om opprinnelse: **soy de**."
+        ],
+        "temaer": [
+          "grammatikk-grunnlag",
+          "land-og-kultur"
         ]
       },
       {
@@ -525,7 +556,11 @@
           "Bruker en passende morgenhilsen, for eksempel «¡Buenos días!»",
           "Bruker høflig usted-form, for eksempel «¿Cómo está usted?»"
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "hilsener-og-presentasjon",
+          "grammatikk-grunnlag"
+        ]
       },
       {
         "text": "Forklar på spansk hvilke aldersgrupper som går på la escuela primaria og la ESO i Spania, og hva elevene kan gå videre til etterpå.",
@@ -535,7 +570,11 @@
           "Etter la ESO kan elevene ta el Bachillerato, som forbereder til universitetet."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "skole-og-fritid",
+          "grammatikk-grunnlag"
+        ]
       },
       {
         "text": "Skriv på spansk at du alltid hører på musikk, og at du noen ganger sykler i helgene.",
@@ -544,7 +583,11 @@
           "Bruker «siempre» om å høre på musikk og «a veces» om å sykle.",
           "Bruker uttrykket «los fines de semana» for «i helgene»."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "skole-og-fritid",
+          "grammatikk-grunnlag"
+        ]
       },
       {
         "text": "Sammenlign Chile og Argentina: Hvilken årstid er det der i desember og januar? Svar på spansk.",
@@ -554,7 +597,11 @@
           "Skriver årstiden som «verano»."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "tall-og-tid",
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Skriv på spansk hvilket land som har flest spansktalende, og hvilket språk man snakker i Brasil.",
@@ -564,7 +611,10 @@
           "Sier at man snakker portugisisk i Brasil."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Fortell på spansk når mange spiser lunsj og middag i Spania.",
@@ -574,7 +624,11 @@
           "Oppgir at mange spiser middag rundt klokka ni eller ti om kvelden."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur",
+          "grammatikk-grunnlag"
+        ]
       },
       {
         "text": "Sammenlign La Tomatina i Spania med El Día de Muertos i Mexico. Skriv når de skjer, og hva folk gjør.",
@@ -584,7 +638,11 @@
           "Knytter El Día de Muertos til 1.–2. november i Mexico og til minnet om de døde, for eksempel med fargerike altere."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur",
+          "tall-og-tid"
+        ]
       },
       {
         "text": "Skriv på spansk hvem som tegnet Sagrada Família, og hvilken by kirken ligger i.",
@@ -594,7 +652,11 @@
           "Sier at kirken ligger i Barcelona."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur",
+          "grammatikk-grunnlag"
+        ]
       }
     ]
   },

@@ -465,6 +465,10 @@
         "kriterier": [
           "Bruker Ich heiße til navn.",
           "Bruker Ich bin … Jahre alt og Ich komme aus … riktig."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -475,6 +479,9 @@
           "Bruker haben-formen Ich habe.",
           "Bruker einen foran Bruder og eine foran Schwester.",
           "Bruker kein foran Haustier."
+        ],
+        "temaer": [
+          "familie-og-venner"
         ]
       },
       {
@@ -485,6 +492,9 @@
           "Bruker Sport som kroppsøving og riktig uttrykk for yndlingsfag.",
           "Bruker gern for å si at du liker aktiviteten.",
           "Har verbet på andre plass etter Am Wochenende."
+        ],
+        "temaer": [
+          "skole-og-fritid"
         ]
       },
       {
@@ -495,6 +505,10 @@
           "Bruker am Montag for på mandag.",
           "Bruker um acht Uhr for klokka åtte.",
           "Har verbet på andre plass."
+        ],
+        "temaer": [
+          "tall-og-tid",
+          "grammatikk-grunnlag"
         ]
       },
       {
@@ -504,6 +518,9 @@
         "kriterier": [
           "Svar med Gut, danke! eller et tilsvarende oppgitt svar.",
           "Bruker Tschüs som uformell avskjed."
+        ],
+        "temaer": [
+          "hilsener-og-presentasjon"
         ]
       },
       {
@@ -514,6 +531,9 @@
           "Bruker meine foran Mutter.",
           "Bruker nett for snill.",
           "Bruker Sie hat braune Augen for hun har brune øyne."
+        ],
+        "temaer": [
+          "familie-og-venner"
         ]
       },
       {
@@ -523,6 +543,9 @@
         "kriterier": [
           "Knytter Berlin til Deutschland.",
           "Knytter Wien til Österreich og Bern til die Schweiz."
+        ],
+        "temaer": [
+          "land-og-kultur"
         ]
       },
       {
@@ -533,7 +556,10 @@
           "Nevner at språkene er i slekt eller har hatt tett kontakt.",
           "Gir et riktig eksempel: betale, begynne eller arbeide."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Du hilser på en voksen du ikke kjenner i en butikk. Skriv på tysk en formell hilsen, spør hva personen heter, og si formelt ha det.",
@@ -542,7 +568,10 @@
           "Bruker høflig hilsen og avskjed.",
           "Bruker Sie med stor forbokstav når personen tiltales."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "hilsener-og-presentasjon"
+        ]
       },
       {
         "text": "Skriv tallene 16, 17 og 34 med tyske bokstaver. Skriv også på norsk hva som er spesielt med skrivemåten til 16 og 17.",
@@ -551,7 +580,11 @@
           "Skriver tallene sechzehn, siebzehn og vierunddreißig riktig.",
           "Forklarer at 16 og 17 har forkortede former."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "tall-og-tid",
+          "hilsener-og-presentasjon"
+        ]
       },
       {
         "text": "Du har bursdag 3. mars, og bursdagsselskapet begynner klokka 8.45. Skriv dette på tysk.",
@@ -560,7 +593,10 @@
           "Skriver bursdagsdatoen som am dritten März.",
           "Skriver at selskapet begynner um Viertel vor neun."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "tall-og-tid"
+        ]
       },
       {
         "text": "Skriv på tysk hvordan det tyske karaktersystemet er sammenlignet med det norske. Ta med hvilken karakter som er best og hvilken som er dårligst i Tyskland.",
@@ -570,7 +606,10 @@
           "Sammenligner med Norge ved å si at det er omvendt."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Skriv på tysk hvor Wiener Schnitzel kommer fra, og nevn fjellkjeden som går gjennom Østerrike og Sveits.",
@@ -580,7 +619,10 @@
           "Nevner Alpene og både Østerrike og Sveits."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "land-og-kultur"
+        ]
       },
       {
         "text": "Skriv på tysk at du ofte hører på musikk, og at du på søndag leser en bok.",
@@ -589,7 +631,10 @@
           "Bruker oft og uttrykker at du hører på musikk.",
           "Bruker am Sonntag og setter verbet foran ich i setningen."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "skole-og-fritid"
+        ]
       },
       {
         "text": "Skriv på tysk: «Jeg har ingen bok. Skolen er ikke liten.»",
@@ -598,7 +643,10 @@
           "Bruker kein for å nekte substantivet Buch.",
           "Bruker nicht for å nekte adjektivet klein, og skriver substantiv med stor forbokstav."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "grammatikk-grunnlag"
+        ]
       },
       {
         "text": "Forklar på norsk hvordan bokstavene w, v og z vanligvis uttales på tysk. Gi ett tysk eksempel på hver lyd.",
@@ -607,7 +655,10 @@
           "Forklarer uttalen av w som norsk v, v som oftest f, og z som ts.",
           "Gir et passende tysk eksempel på hver bokstav."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "hilsener-og-presentasjon"
+        ]
       }
     ]
   },

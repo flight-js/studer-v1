@@ -445,6 +445,9 @@
         "kriterier": [
           "Beskriver nervesignaler som raske, presise og kortvarige.",
           "Beskriver hormoner som langsommere og ofte mer langvarige, og bruker adrenalin riktig."
+        ],
+        "temaer": [
+          "nervesystemet-og-hormoner"
         ]
       },
       {
@@ -454,6 +457,9 @@
         "kriterier": [
           "Skiller mellom bakterier og virus når det gjelder antibiotika.",
           "Forklarer at vaksinen lærer immunforsvaret å kjenne igjen smittestoff og gir hukommelse."
+        ],
+        "temaer": [
+          "immunforsvar-og-vaksiner"
         ]
       },
       {
@@ -463,6 +469,10 @@
         "kriterier": [
           "Forklarer at miljøgifter øker oppover i næringskjeden og kan finnes i høy konsentrasjon hos rovdyr på toppen.",
           "Beskriver næringskjeden som en modell som viser sammenhenger, men forenkler."
+        ],
+        "temaer": [
+          "rus-legemidler-og-miljogifter",
+          "modeller-i-naturfag"
         ]
       },
       {
@@ -472,6 +482,9 @@
         "kriterier": [
           "Forklarer at samtykke skal være frivillig og gjelde alle involverte.",
           "Sier at man kan ombestemme seg når som helst."
+        ],
+        "temaer": [
+          "seksuell-og-reproduktiv-helse"
         ]
       },
       {
@@ -481,6 +494,9 @@
         "kriterier": [
           "Forklarer at korrelasjon betyr at to forhold varierer sammen, men ikke beviser årsak.",
           "Nevner varmt vær som en mulig felles årsak i eksempelet."
+        ],
+        "temaer": [
+          "forskning-og-kunnskap"
         ]
       },
       {
@@ -490,6 +506,9 @@
         "kriterier": [
           "Kjenner igjen tegnene på betennelse og knytter dem til kroppens forsvar.",
           "Forklarer at hvite blodceller bekjemper mikrober, og at feber kan hjelpe."
+        ],
+        "temaer": [
+          "immunforsvar-og-vaksiner"
         ]
       },
       {
@@ -499,6 +518,9 @@
         "kriterier": [
           "Bruker formelen s = v · t.",
           "Regner ut 12 meter."
+        ],
+        "temaer": [
+          "modeller-i-naturfag"
         ]
       },
       {
@@ -508,6 +530,9 @@
         "kriterier": [
           "Bruker sammenhengen v = s / t.",
           "Finner farten 4 meter per sekund."
+        ],
+        "temaer": [
+          "modeller-i-naturfag"
         ]
       },
       {
@@ -518,7 +543,10 @@
           "Ryggmargen sender beskjed til musklene før hjernen rekker å bestemme.",
           "Smerten kjennes når signalet når hjernen."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "nervesystemet-og-hormoner"
+        ]
       },
       {
         "text": "Noen miljøgifter ligner kroppens egne hormoner. Forklar hvordan slike stoffer kan påvirke kroppen, og hvorfor det kan være relevant for vekst og reproduksjon.",
@@ -527,7 +555,12 @@
           "Miljøgiftene kan ligne hormoner og påvirke kroppens hormonelle signaler.",
           "Dette kan påvirke vekst, utvikling eller reproduksjon."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "rus-legemidler-og-miljogifter",
+          "nervesystemet-og-hormoner",
+          "seksuell-og-reproduktiv-helse"
+        ]
       },
       {
         "text": "En person ønsker å redusere risikoen for HPV og andre seksuelt overførbare infeksjoner. Forklar hvordan HPV-vaksine og kondom kan bidra, og hvorfor vaksinen ikke erstatter kondom.",
@@ -538,7 +571,11 @@
           "Vaksinen mot HPV beskytter ikke mot alle andre seksuelt overførbare infeksjoner."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "seksuell-og-reproduktiv-helse",
+          "immunforsvar-og-vaksiner"
+        ]
       },
       {
         "text": "Nikotin og andre rusmidler kan påvirke hjernens belønningssystem. Forklar hvordan dette kan bidra til avhengighet, og hvorfor unge er ekstra sårbare.",
@@ -547,7 +584,11 @@
           "Rusmidler kan øke utskillelsen av dopamin i belønningssystemet og gi lyst på mer.",
           "Hjernen utvikler seg til rundt 25-årsalderen, og unge er ekstra sårbare for skader og avhengighet."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "rus-legemidler-og-miljogifter",
+          "nervesystemet-og-hormoner"
+        ]
       },
       {
         "text": "En enkel modell regner en menstruasjonssyklus som 28 dager. Hvor mange dager varer tre slike sykluser til sammen ifølge modellen, og hvorfor trenger ikke dette å være det nøyaktige antallet dager for en person?",
@@ -556,7 +597,11 @@
           "Regner ut 84 dager.",
           "Nevner at menstruasjonssykluser varierer."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "seksuell-og-reproduktiv-helse",
+          "modeller-i-naturfag"
+        ]
       },
       {
         "text": "I en enkel modell starter man med 4 mikrober, og antallet dobles for hver runde. Hvor mange mikrober viser modellen etter tre runder, og nevn én ting modellen forenkler.",
@@ -565,7 +610,10 @@
           "Regner ut 32 mikrober etter tre runder.",
           "Nevner en forenkling, for eksempel at antallet dobles likt hver runde."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "modeller-i-naturfag"
+        ]
       },
       {
         "text": "Et legemiddelfirma betaler for en undersøkelse som konkluderer med at firmaets legemiddel virker. Forklar hvordan fagfellevurdering, gjentakelse av forsøket og åpenhet om finansieringen kan hjelpe andre med å vurdere resultatet.",
@@ -576,7 +624,10 @@
           "Finansiering bør oppgis fordi den kan innebære en interessekonflikt."
         ],
         "id": "s15",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "forskning-og-kunnskap"
+        ]
       },
       {
         "text": "Dalton beskrev atomer som udelelige kuler, mens senere forskere oppdaget elektroner og en liten, tett atomkjerne. Forklar hvorfor atommodellen ble endret, og hva dette viser om naturvitenskapelige modeller.",
@@ -587,7 +638,10 @@
           "Naturvitenskapelige modeller kan forbedres når ny kunnskap kommer."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "modeller-i-naturfag"
+        ]
       }
     ]
   },

@@ -456,6 +456,9 @@
         "kriterier": [
           "Temperaturen er det som endres, og oppløsningshastigheten er det som måles.",
           "Nevner en relevant kontrollert variabel, for eksempel mengde vann eller sukker."
+        ],
+        "temaer": [
+          "hypoteser-modeller-og-teorier"
         ]
       },
       {
@@ -465,6 +468,9 @@
         "kriterier": [
           "Hypotese beskrives som testbar.",
           "Modell beskrives som en forenkling, og teori som godt underbygd av observasjoner."
+        ],
+        "temaer": [
+          "hypoteser-modeller-og-teorier"
         ]
       },
       {
@@ -474,6 +480,9 @@
         "kriterier": [
           "Bruker formelen ny fart = fart + akselerasjon · tidssteg.",
           "Regner riktig ut 7 m/s."
+        ],
+        "temaer": [
+          "programmering-og-modellering"
         ]
       },
       {
@@ -483,6 +492,9 @@
         "kriterier": [
           "Finner at 24 dager er tre halveringstider.",
           "Oppgir riktig restmasse: 8 g."
+        ],
+        "temaer": [
+          "straling"
         ]
       },
       {
@@ -492,6 +504,9 @@
         "kriterier": [
           "Forklarer at rødforskyvning innebærer lengre bølgelengde.",
           "Knytter observasjonen til at galakser fjerner seg og universet utvider seg."
+        ],
+        "temaer": [
+          "universets-opprinnelse"
         ]
       },
       {
@@ -501,6 +516,10 @@
         "kriterier": [
           "Knytter bakgrunnsstrålingen til ettergløden fra det unge universet.",
           "Identifiserer den som mikrobølger/elektromagnetisk stråling."
+        ],
+        "temaer": [
+          "universets-opprinnelse",
+          "bolger-og-tradlos-kommunikasjon"
         ]
       },
       {
@@ -510,6 +529,9 @@
         "kriterier": [
           "Radiobølger identifiseres som elektromagnetiske bølger.",
           "Forklarer at informasjon sendes ved modulasjon på en bærebølge."
+        ],
+        "temaer": [
+          "bolger-og-tradlos-kommunikasjon"
         ]
       },
       {
@@ -519,6 +541,9 @@
         "kriterier": [
           "Omformer formelen riktig til f = v/λ.",
           "Oppgir riktig frekvens: 1000 Hz."
+        ],
+        "temaer": [
+          "bolger-og-tradlos-kommunikasjon"
         ]
       },
       {
@@ -528,6 +553,9 @@
         "kriterier": [
           "Beskriver alfa som heliumkjerner og nevner faren ved at stoffet kommer inn i kroppen.",
           "Forklarer at UV kan skade DNA i hudceller."
+        ],
+        "temaer": [
+          "straling"
         ]
       },
       {
@@ -537,6 +565,9 @@
         "kriterier": [
           "Oppgir riktig baseparing: A–T og C–G.",
           "Knytter genets oppskrift på protein til egenskaper."
+        ],
+        "temaer": [
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -546,6 +577,9 @@
         "kriterier": [
           "Bruker forholdet 1 : 2 : 1 for Aa × Aa.",
           "Oppgir at en firedel får genotypen aa."
+        ],
+        "temaer": [
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -555,6 +589,9 @@
         "kriterier": [
           "Mitose gir to like celler med samme kromosomtall.",
           "Meiose gir ulike kjønnsceller med halvt kromosomtall."
+        ],
+        "temaer": [
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -564,6 +601,9 @@
         "kriterier": [
           "Forklarer at bakterier som tåler antibiotika, overlever og formerer seg.",
           "Knytter arvelighet til at egenskapen blir vanligere over generasjoner."
+        ],
+        "temaer": [
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -573,6 +613,10 @@
         "kriterier": [
           "Beskriver mutasjon som en endring i DNA og CRISPR som en metode for å endre DNA.",
           "Nevner at endringer i kjønnsceller kan arves videre."
+        ],
+        "temaer": [
+          "bioteknologi",
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -582,6 +626,9 @@
         "kriterier": [
           "Veier fordeler og ulemper med konsekvensetikk.",
           "Forklarer forsiktighet ved usikker risiko og/eller tar opp rettferdig tilgang."
+        ],
+        "temaer": [
+          "bioteknologi"
         ]
       },
       {
@@ -591,6 +638,9 @@
         "kriterier": [
           "Forklarer biomagnifisering gjennom at dyr spiser mange byttedyr.",
           "Nevner ett relevant tiltak, som regulering, rensing eller riktig avfallshåndtering."
+        ],
+        "temaer": [
+          "miljogifter"
         ]
       }
     ]

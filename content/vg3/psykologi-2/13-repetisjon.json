@@ -444,6 +444,9 @@
         "kriterier": [
           "Forklarer at korrelasjon ikke nødvendigvis viser kausalitet, for eksempel på grunn av omvendt påvirkning eller en tredjevariabel.",
           "Nevner en relevant begrensning ved utvalget eller et eksperiment med kontrollgruppe."
+        ],
+        "temaer": [
+          "egen-undersokelse"
         ]
       },
       {
@@ -454,6 +457,10 @@
           "Beskriver en relevant kognitiv forklaring på angst.",
           "Forklarer hvordan unngåelse kan opprettholde angst.",
           "Viser at biologiske, psykologiske og sosiale faktorer kan inngå i en helhetlig forklaring."
+        ],
+        "temaer": [
+          "teorier-og-forklaringer",
+          "biopsykososial-modell"
         ]
       },
       {
@@ -463,6 +470,9 @@
         "kriterier": [
           "Knytter utestengning til ensomhet og den onde sirkelen med økt årvåkenhet eller tilbaketrekning.",
           "Nevner to relevante beskyttende faktorer."
+        ],
+        "temaer": [
+          "utenforskap"
         ]
       },
       {
@@ -472,6 +482,10 @@
         "kriterier": [
           "Forklarer normativ eller informativ påvirkning korrekt.",
           "Beskriver aktiv lytting eller jeg-budskap som en måte å støtte kommunikasjonen på."
+        ],
+        "temaer": [
+          "sosial-pavirkning-og-grupper",
+          "konflikter-og-kommunikasjon"
         ]
       },
       {
@@ -482,6 +496,9 @@
           "Forklarer at manglende signaler eller ulik tolkning kan skape misforståelser.",
           "Beskriver anerkjennende kommunikasjon eller en form for sosial støtte.",
           "Knytter støtte til mindre stress eller bedre livskvalitet."
+        ],
+        "temaer": [
+          "kommunikasjon-og-livskvalitet"
         ]
       },
       {
@@ -492,7 +509,10 @@
           "Forklarer at sorg kan være en normal reaksjon, og viser til relevante forhold ved vurdering av lidelse.",
           "Forklarer at psykisk helse og psykisk lidelse er separate dimensjoner."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "normalitet-og-psykisk-helse"
+        ]
       },
       {
         "id": "s07",
@@ -501,6 +521,10 @@
         "kriterier": [
           "Skiller mellom et universelt tiltak og et tiltak for personer med tidlige symptomer.",
           "Knytter forslagene til minst to av de biologiske, psykologiske og sosiale nivåene."
+        ],
+        "temaer": [
+          "forebygging-og-behandling",
+          "biopsykososial-modell"
         ]
       },
       {
@@ -511,6 +535,10 @@
           "Viser hvordan tiltak kan rette seg mot biologiske, psykologiske og sosiale forhold.",
           "Forklarer evidensbasert praksis som en kombinasjon av forskning, klinisk erfaring og pasientens ønsker og verdier.",
           "Nevner pasientens medvirkning i mål eller behandling."
+        ],
+        "temaer": [
+          "forebygging-og-behandling",
+          "biopsykososial-modell"
         ]
       },
       {
@@ -520,7 +548,11 @@
           "Får fram at kommersielt formål, enkelthistorie og lite utvalg gir grunn til forsiktighet; fagfellevurdering er ingen garanti.",
           "Peker på behov for et bredere forskningsgrunnlag og/eller at forklaringen er reduksjonistisk."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "kilder-og-informasjon",
+          "teorier-og-forklaringer"
+        ]
       },
       {
         "text": "En skole vil undersøke om en kort gåtur før en konsentrasjonsoppgave påvirker elevenes resultater. Beskriv et eksperiment som kan undersøke dette, og forklar hva som er den uavhengige og den avhengige variabelen.",
@@ -529,7 +561,10 @@
           "Beskriver en gruppe som går tur og en kontrollgruppe, og sammenligner resultatene etterpå.",
           "Identifiserer gåtur som uavhengig variabel og konsentrasjonsresultat som avhengig variabel."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "egen-undersokelse"
+        ]
       },
       {
         "text": "Et elevråd skal velge mellom flere forslag, men går raskt inn for det første forslaget. Medlemmene unngår kritiske spørsmål fordi de vil bevare enigheten, og en elev som er uenig, blir møtt med press. Forklar hva dette kan være et eksempel på, og hvordan det kan føre til en dårlig beslutning.",
@@ -538,7 +573,10 @@
           "Kjenner igjen gruppetenkning og forklarer at enighet blir viktigere enn kritisk vurdering.",
           "Knytter press mot avvikere eller selvsensur til at alternativer og svakheter overses."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "sosial-pavirkning-og-grupper"
+        ]
       },
       {
         "text": "Et barn ser en voksen dele leker og spørre andre barn om tur. Senere gjør barnet det samme i lek, men trenger hjelp av den voksne når det blir frustrert. Forklar hvordan observasjonslæring og støtte til følelsesregulering kan bidra til barnets sosiale kompetanse.",
@@ -547,7 +585,10 @@
           "Forklarer at barnet kan lære sosial atferd ved å observere og etterligne en modell.",
           "Forklarer at støtte fra den voksne hjelper barnet med emosjonsregulering og sosial samhandling."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "sosial-kompetanse"
+        ]
       },
       {
         "text": "To elever er først uenige om hvordan en oppgave skal fordeles. Etter hvert kaller den ene den andre lat, trekker inn gamle uenigheter og begynner å snakke med andre elever om konflikten i stedet for å snakke med den andre. Forklar hvordan konflikten har utviklet seg, og hvorfor den kan bli vanskeligere å løse.",
@@ -556,7 +597,10 @@
           "Beskriver overgangen fra saklig uenighet til personifisering og/eller at problemet utvides.",
           "Forklarer at mindre direkte samtale og opptrapping gjør konflikten vanskeligere å løse."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "konflikter-og-kommunikasjon"
+        ]
       },
       {
         "text": "Homofili ble tidligere regnet som en diagnose, men ble fjernet fra det norske diagnosesystemet i 1977. Forklar hva denne endringen viser om sosial eller normativ normalitet, og hvorfor den ikke betyr at alle diagnoser bare er vilkårlige.",
@@ -565,7 +609,11 @@
           "Forklarer at normer og syn på normalitet kan endres med tid og samfunnsverdier.",
           "Får fram at diagnoser også bygger på kriterier, og at dette ikke gjør alle diagnoser vilkårlige."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "normalitet-og-psykisk-helse",
+          "psykisk-helse-i-endring"
+        ]
       },
       {
         "text": "En elev har en arvelig sårbarhet for psykiske vansker. I en periode opplever eleven både konflikter på skolen og lite søvn, men har også en nær venn som gir støtte. Bruk sårbarhet-stress-modellen og den biopsykososiale modellen til å forklare hvordan disse forholdene kan virke sammen.",
@@ -574,7 +622,10 @@
           "Knytter sårbarhet og belastninger fra flere nivåer til økt risiko når stresset blir for stort.",
           "Forklarer at støtten fra vennen kan virke beskyttende."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "biopsykososial-modell"
+        ]
       },
       {
         "text": "En nyhetsartikkel hevder at en faktor gir «fire ganger så stor risiko». I studien gjaldt det 2 av 1000 personer uten faktoren og 8 av 1000 med faktoren. Forklar forskjellen mellom den relative og den absolutte risikoen, og hva en statistisk signifikant forskjell ikke forteller oss.",
@@ -583,7 +634,10 @@
           "Forklarer at risikoen firedobles relativt, fra 2 til 8 av 1000.",
           "Regner ut absolutt økning til 6 av 1000 og/eller påpeker at statistisk signifikans ikke viser praktisk betydning."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "kilder-og-informasjon"
+        ]
       }
     ]
   },

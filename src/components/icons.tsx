@@ -61,6 +61,13 @@ export const Check = (p: IconProps) => (
   </Svg>
 );
 
+// Utvalg: tre streker som blir kortere (velg temaer).
+export const Utvalg = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M4 7h16M7 12h10M10 17h4" />
+  </Svg>
+);
+
 // Lyspære (tips).
 export const Lyspare = (p: IconProps) => (
   <Svg {...p}>

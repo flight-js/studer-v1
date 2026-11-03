@@ -509,7 +509,10 @@
           "Nevner at begge er monoteistiske.",
           "Får fram et relevant fellestrekk eller en forskjell i vektlegging, som menneskehetens enhet eller sikhismens likeverd."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "sikhisme-og-andre-tradisjoner"
+        ]
       },
       {
         "id": "s02",
@@ -518,6 +521,9 @@
         "kriterier": [
           "Forklarer at nyheter kan vektlegge det uvanlige eller konflikter, og at det er mangfold innad i religioner.",
           "Nevner relevant kildekritikk og/eller sammenligning med flere perspektiver eller kilder."
+        ],
+        "temaer": [
+          "kilder-og-perspektiver"
         ]
       },
       {
@@ -527,6 +533,9 @@
         "kriterier": [
           "Nevner at samtykke må innhentes før slik bildedeling.",
           "Forklarer at ytringsfrihet også innebærer ansvar eller respekt for den andre."
+        ],
+        "temaer": [
+          "etikk-og-kommunikasjon"
         ]
       },
       {
@@ -537,7 +546,11 @@
           "Får fram Singers argument om plikt til å hjelpe mennesker i nød.",
           "Nevner en relevant begrunnelse fra en religion eller et livssyn."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "menneskerettigheter-og-fattigdom",
+          "filosofi-og-aktuell-etikk"
+        ]
       },
       {
         "id": "s05",
@@ -546,6 +559,9 @@
         "kriterier": [
           "Beskriver humanismens syn på ett liv og selvskapt mening.",
           "Beskriver gjenfødelse og frigjøring i hinduismen eller buddhismen."
+        ],
+        "temaer": [
+          "eksistensielle-sporsmal"
         ]
       },
       {
@@ -555,6 +571,10 @@
         "kriterier": [
           "Forklarer at klimarettferdighet handler om rettferdig fordeling av byrder, og får fram spenningen mellom utvikling og utslipp.",
           "Knytter ansvar for framtidige generasjoner til Løgstrups etiske fordring eller hensyn til konsekvenser for dem som berøres."
+        ],
+        "temaer": [
+          "menneskerettigheter-og-fattigdom",
+          "filosofi-og-aktuell-etikk"
         ]
       },
       {
@@ -564,6 +584,9 @@
         "kriterier": [
           "Skiller mellom innenfra- og utenfraperspektiv og viser hvordan begge kan brukes.",
           "Nevner minst ett relevant kildekritisk spørsmål, som avsender, formål, ensidighet eller representativitet."
+        ],
+        "temaer": [
+          "kilder-og-perspektiver"
         ]
       },
       {
@@ -574,7 +597,11 @@
           "Knytter dette til Kants tanke om at mennesker skal behandles som mål i seg selv."
         ],
         "id": "s08",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "sikhisme-og-andre-tradisjoner",
+          "filosofi-og-aktuell-etikk"
+        ]
       },
       {
         "text": "En venn forteller deg i fortrolighet at hen blir utsatt for vold, men ber deg love å ikke si det til noen. Forklar hvorfor det kan være riktig å bryte løftet, og knytt det til Løgstrups etiske fordring.",
@@ -584,7 +611,11 @@
           "Knytter ansvaret til Løgstrups etiske fordring."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "etikk-og-kommunikasjon",
+          "filosofi-og-aktuell-etikk"
+        ]
       },
       {
         "text": "En ungdom synes det er vanskelig å velge hvem hen vil være, og blir urolig av alle mulighetene. Forklar hvordan Sartres syn på frihet kan belyse uroen, og hvordan livssynshumanismen kan forstå meningen med livet.",
@@ -594,7 +625,10 @@
           "Forklarer at livssynshumanismen ser mening som noe mennesker skaper i livet."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "eksistensielle-sporsmal"
+        ]
       },
       {
         "text": "Et likekjønnet par kan gifte seg etter norsk lov, men en religiøs menighet vil ikke vie dem. Forklar hvordan begge deler kan være mulig i Norge, og hvorfor mennesker innen samme religion kan mene ulikt om likekjønnet ekteskap.",
@@ -603,7 +637,10 @@
           "Nevner at norsk lov tillater likekjønnet ekteskap, samtidig som trossamfunn kan bestemme hvem de vier.",
           "Forklarer at det finnes ulike tolkninger og syn innad i religioner."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "kjonn-og-seksualitet"
+        ]
       },
       {
         "text": "En skole vurderer å bruke KI til å samle inn elevdata og forutsi hvem som trenger oppfølging. Forklar én bekymring med Kants menneskesyn, og bruk Mills skadeprinsipp til å si hva skolen bør vurdere.",
@@ -613,7 +650,10 @@
           "Forklarer at Mills skadeprinsipp handler om å hindre skade på andre."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "filosofi-og-aktuell-etikk"
+        ]
       },
       {
         "text": "En elev får vite at det forekommer barnearbeid i produksjonen av kakao, og vurderer å velge Fairtrade-merket sjokolade. Forklar hva merkeordningen skal bidra til, og hvordan valget kan knyttes til ansvar for menneskerettigheter i handel.",
@@ -623,7 +663,10 @@
           "Knytter valget til etisk ansvar for menneskerettigheter i produksjon og handel."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "menneskerettigheter-og-fattigdom"
+        ]
       },
       {
         "text": "En besøkende ser en rød torii-port ved en shintohelligdom og hører om kami. Sammenlign hvordan shinto og daoismen knytter det guddommelige eller hellige til naturen.",
@@ -633,7 +676,10 @@
           "Forklarer at daoismen legger vekt på Dao, naturens orden og harmoni eller balanse."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "sikhisme-og-andre-tradisjoner"
+        ]
       },
       {
         "text": "I en nettdebatt kritiserer noen en religions lære, og en annen person svarer med å håne alle som tilhører religionen. Forklar forskjellen på religionskritikk og hets av mennesker, og nevn én måte å svare mer saklig på.",
@@ -642,7 +688,11 @@
           "Skiller mellom kritikk av religiøse ideer eller praksiser og angrep på troende mennesker.",
           "Nevner en saklig måte å håndtere uenigheten på."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "etikk-og-kommunikasjon",
+          "kilder-og-perspektiver"
+        ]
       },
       {
         "text": "En elev spør om islam og hinduismen eller buddhismen forklarer livet etter døden på samme måte. Sammenlign hvordan islam og hinduismen eller buddhismen beskriver livet og det som skjer etter døden.",
@@ -651,7 +701,10 @@
           "Forklarer islams syn på livet som en prøve og dommens dag.",
           "Forklarer at hinduismen og buddhismen knytter livet til gjenfødelser og har frigjøring som mål."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "eksistensielle-sporsmal"
+        ]
       }
     ]
   },

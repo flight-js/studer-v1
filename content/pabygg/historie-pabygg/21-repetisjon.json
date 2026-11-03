@@ -605,6 +605,10 @@
         "kriterier": [
           "Nevner minst to forhold som kan påvirke framstillinger.",
           "Viser til kildekritikk eller begrunnede slutninger."
+        ],
+        "temaer": [
+          "historisk-metode-og-framstillinger",
+          "historiebruk-og-fortolkning"
         ]
       },
       {
@@ -614,6 +618,9 @@
         "kriterier": [
           "Forklarer at strukturer både kan begrense og muliggjøre handling.",
           "Bruker et relevant eksempel på valg eller handlingsrom under okkupasjonen."
+        ],
+        "temaer": [
+          "personer-og-handlingsrom"
         ]
       },
       {
@@ -623,6 +630,9 @@
         "kriterier": [
           "Nevner minst ett politisk brudd i 1814.",
           "Nevner minst ett eksempel på kontinuitet."
+        ],
+        "temaer": [
+          "brudd-og-kontinuitet"
         ]
       },
       {
@@ -632,6 +642,9 @@
         "kriterier": [
           "Forklarer en viktig følge av overgangen til jordbruk.",
           "Nevner både økte avlinger og minst én bakside ved den grønne revolusjonen."
+        ],
+        "temaer": [
+          "mat-og-naturressurser"
         ]
       },
       {
@@ -641,6 +654,9 @@
         "kriterier": [
           "Knytter handel til økonomisk makt eller rikdom.",
           "Nevner tvangsarbeid, slavehandel eller en annen alvorlig følge for berørte grupper."
+        ],
+        "temaer": [
+          "handel-og-okonomi"
         ]
       },
       {
@@ -650,6 +666,9 @@
         "kriterier": [
           "Beskriver hvem som kunne delta i Athen.",
           "Forklarer representativt demokrati eller bredere deltakelse i Norge i dag."
+        ],
+        "temaer": [
+          "demokrati-for-og-na"
         ]
       },
       {
@@ -659,6 +678,10 @@
         "kriterier": [
           "Forklarer at opplysningstidens ideer utfordret kongemakten.",
           "Nevner en relevant idé og knytter den til demokrati eller Grunnloven."
+        ],
+        "temaer": [
+          "makt-og-legitimitet",
+          "ideologier-og-politiske-omveltninger"
         ]
       },
       {
@@ -668,6 +691,10 @@
         "kriterier": [
           "Nevner hvordan kristningen kunne styrke kongemakten.",
           "Forklarer minst én kilde til kirkens egen makt."
+        ],
+        "temaer": [
+          "religion-og-makt",
+          "makt-og-legitimitet"
         ]
       },
       {
@@ -677,6 +704,9 @@
         "kriterier": [
           "Gir et eksempel på en ideologi eller idé som bidro til frigjøring.",
           "Gir et eksempel på utelukkelse eller undertrykkelse."
+        ],
+        "temaer": [
+          "ideologier-og-politiske-omveltninger"
         ]
       },
       {
@@ -686,6 +716,9 @@
         "kriterier": [
           "Beskriver en endring i arbeid eller hverdagsliv fra hver av omveltningene.",
           "Nevner minst én utfordring knyttet til teknologi."
+        ],
+        "temaer": [
+          "teknologiske-omveltninger"
         ]
       },
       {
@@ -695,6 +728,9 @@
         "kriterier": [
           "Nevner minst én relevant push-faktor.",
           "Nevner minst én relevant pull-faktor."
+        ],
+        "temaer": [
+          "migrasjon-og-kulturmoter"
         ]
       },
       {
@@ -704,6 +740,9 @@
         "kriterier": [
           "Beskriver hvordan Versaillesfreden ble opplevd eller hva den påla Tyskland.",
           "Nevner et fredstiltak etter 1945 og knytter det til samarbeid, tillit eller forsoning."
+        ],
+        "temaer": [
+          "verdenskrigene-og-fred"
         ]
       },
       {
@@ -713,6 +752,9 @@
         "kriterier": [
           "Forklarer hvordan propaganda eller dehumanisering kan ramme en gruppe.",
           "Nevner minst ett relevant forebyggende tiltak."
+        ],
+        "temaer": [
+          "undertrykkelse-og-folkemord"
         ]
       },
       {
@@ -722,6 +764,9 @@
         "kriterier": [
           "Nevner et eksempel på hvordan nasjonal identitet eller fellesskap ble bygget.",
           "Nevner en gruppe eller politikk som viser utenforskap."
+        ],
+        "temaer": [
+          "nasjonal-identitet"
         ]
       },
       {
@@ -731,6 +776,10 @@
         "kriterier": [
           "Nevner en frigjøringskamp eller et eksempel på utvidede rettigheter.",
           "Knytter politiske kompromisser eller samarbeid til velferdsutviklingen."
+        ],
+        "temaer": [
+          "myndiggjoring-og-frigjoring",
+          "velferdsstaten"
         ]
       },
       {
@@ -740,6 +789,9 @@
         "kriterier": [
           "Beskriver minst ett sikkerhetsnett før velferdsstaten.",
           "Nevner minst ett sentralt kjennetegn ved den norske velferdsmodellen."
+        ],
+        "temaer": [
+          "velferdsstaten"
         ]
       }
     ]

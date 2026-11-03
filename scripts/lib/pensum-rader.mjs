@@ -113,7 +113,20 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
         });
     };
 
+    // Repetisjonstemaet: hvilket tema hvert kort og spørsmål er kopiert fra
+    // (kilde), og hvilke temaer hver skriveoppgave bygger på (skriv[].temaer, se
+    // scripts/innhold/merk-repetisjon-skriv.mjs). Da kan eleven velge temaer i
+    // flashcards, quiz og miniprøve.
+    const enkel = (tekst) => (tekst ?? "").replace(/\s+/g, " ").trim().toLowerCase();
+    const kortKilde = new Map();
+    const sporsmalKilde = new Map();
+    for (const kilde of slugs.filter((x) => x !== "repetisjon").map((x) => filer.get(x))) {
+      for (const c of kilde.flashcards) kortKilde.set(`${enkel(c.term)}|${enkel(c.def)}`, kilde.name);
+      for (const q of [...kilde.quiz, ...kilde.miniprove.ekstra]) sporsmalKilde.set(enkel(q.text), kilde.name);
+    }
+
     const temaer = slugs.map((slug) => {
+      const erRep = slug === "repetisjon";
       const t = filer.get(slug);
       const id = `${meta.id}:${slug}`;
       const publisert = publiserUtkast || t.kvalitet.status === "godkjent";
@@ -146,6 +159,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           begrep: c.term,
           forklaring: c.def,
           kjerne: !c.niva,
+          kilde: erRep ? (kortKilde.get(`${enkel(c.term)}|${enkel(c.def)}`) ?? null) : null,
           sortering: i,
         })),
         sporsmal: sporsmal.map((q, i) => {
@@ -161,6 +175,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
             i_quiz: q.iQuiz,
             i_miniprove: q.iMini,
             kjerne: !q.niva,
+            kilde: erRep ? (sporsmalKilde.get(enkel(q.text)) ?? null) : null,
             sortering: i,
           };
         }),
@@ -172,6 +187,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           fasit: s.fasit,
           kriterier: s.kriterier,
           kjerne: !s.niva,
+          kilder: erRep && s.temaer?.length ? s.temaer.map((x) => filer.get(x)?.name).filter(Boolean) : null,
           sortering: i,
         })),
       };

@@ -444,6 +444,11 @@
         "kriterier": [
           "1 poeng: Knytter lav deltakelse til både skjev representasjon og svekket legitimitet.",
           "½ poeng: Forklarer én av disse sammenhengene riktig."
+        ],
+        "temaer": [
+          "valg-og-velgeratferd",
+          "demokrati-og-styreformer",
+          "demokratiets-utfordringer"
         ]
       },
       {
@@ -453,6 +458,9 @@
         "kriterier": [
           "1 poeng: Forklarer både FNs hovedsakelig ikke-bindende oppfølging og EMDs bindende dommer.",
           "½ poeng: Beskriver riktig én av ordningene eller forskjellen mellom dem."
+        ],
+        "temaer": [
+          "handhevelse-av-menneskerettigheter"
         ]
       },
       {
@@ -462,6 +470,10 @@
         "kriterier": [
           "1 poeng: Nevner konsultasjonsplikten, minst én påvirkningskanal og SP artikkel 27 eller kulturretten.",
           "½ poeng: Nevner riktig én eller to av disse delene."
+        ],
+        "temaer": [
+          "urfolk-og-minoriteter",
+          "makt-konfliktlinjer-og-kanaler"
         ]
       },
       {
@@ -471,6 +483,10 @@
         "kriterier": [
           "1 poeng: Forklarer både hvordan rettigheter muliggjør demokrati og hvordan de beskytter mindretall eller begrenser flertallet.",
           "½ poeng: Forklarer én av disse sammenhengene riktig."
+        ],
+        "temaer": [
+          "menneskerettigheter-demokrati-og-velferd",
+          "demokrati-og-styreformer"
         ]
       },
       {
@@ -480,6 +496,10 @@
         "kriterier": [
           "1 poeng: Forklarer gjensidig opprustning som et sikkerhetsdilemma og knytter det riktig til realisme.",
           "½ poeng: Forklarer sikkerhetsdilemmaet eller den realistiske forklaringen riktig."
+        ],
+        "temaer": [
+          "statsvitenskapelige-teorier-og-kilder",
+          "krig-fred-og-internasjonal-politikk"
         ]
       },
       {
@@ -489,6 +509,9 @@
         "kriterier": [
           "1 poeng: Forklarer hvem som kan rammes hardest og knytter dette til rettferdig fordeling eller rettferdig omstilling.",
           "½ poeng: Nevner riktig at avgiften kan ramme lavinntektsgrupper eller personer med lang reisevei."
+        ],
+        "temaer": [
+          "barekraft-og-fordeling"
         ]
       },
       {
@@ -498,6 +521,9 @@
         "kriterier": [
           "1 poeng: Beskriver en relevant korporativ påvirkningsmåte og skiller den fra valg, partier eller folkevalgte.",
           "½ poeng: Beskriver riktig én av kanalene."
+        ],
+        "temaer": [
+          "makt-konfliktlinjer-og-kanaler"
         ]
       },
       {
@@ -507,6 +533,10 @@
         "kriterier": [
           "1 poeng: Nevner en relevant regel som begrenser makt eller beskytter mennesker, og forklarer en håndhevingsutfordring.",
           "½ poeng: Beskriver riktig enten en regel eller en håndhevingsutfordring."
+        ],
+        "temaer": [
+          "folkeretten",
+          "krig-fred-og-internasjonal-politikk"
         ]
       },
       {
@@ -516,7 +546,10 @@
           "Krav fra innbyggerne er input, og politiske organer behandler kravet.",
           "Regelen er output, og reaksjoner fra samfunnet er tilbakekobling."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "statsvitenskapelige-teorier-og-kilder"
+        ]
       },
       {
         "text": "Forklar en viktig forskjell mellom parlamentarisme og presidentstyre når det gjelder forholdet mellom den utøvende makten og nasjonalforsamlingen.",
@@ -525,7 +558,10 @@
           "Regjeringen i et parlamentarisk system er avhengig av nasjonalforsamlingens tillit.",
           "Presidenten i et presidentstyre velges separat og kan ikke felles med mistillit."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "demokrati-og-styreformer"
+        ]
       },
       {
         "text": "En meningsmåling med omtrent 1000 deltakere viser at ett parti har 51 prosent oppslutning og et annet har 48 prosent. Feilmarginen er rundt ±3 prosentpoeng. Hva kan man si om forskjellen mellom partiene ut fra målingen?",
@@ -534,7 +570,10 @@
           "Feilmarginen gjør at målingen ikke sikkert viser hvilket parti som leder.",
           "Den lille forskjellen kan skyldes tilfeldig variasjon."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "valg-og-velgeratferd"
+        ]
       },
       {
         "text": "En organisasjon for næringslivet hevder i et innlegg at økt skatt alltid fører til færre arbeidsplasser. Hva bør du undersøke før du bruker påstanden som fakta?",
@@ -543,7 +582,10 @@
           "Vurder avsenderens interesser og formålet med innlegget.",
           "Undersøk dokumentasjon, skille mellom fakta og meninger, og sammenlign med uavhengige kilder."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "statsvitenskapelige-teorier-og-kilder"
+        ]
       },
       {
         "text": "Et kommunestyre vedtar å forby en minoritet å bruke sitt språk under offentlige kulturarrangementer. Forklar hvorfor et flertallsvedtak ikke alene avgjør om dette er akseptabelt, og hvilken menneskerettighet som er relevant.",
@@ -552,7 +594,12 @@
           "Flertallets makt begrenses av menneskerettighetene, som skal beskytte minoriteter.",
           "SP artikkel 27 beskytter minoriteters rett til å bruke språket sitt."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "menneskerettigheter-demokrati-og-velferd",
+          "urfolk-og-minoriteter",
+          "demokrati-og-styreformer"
+        ]
       },
       {
         "text": "Rike land har stått for størstedelen av de historiske utslippene, mens fattige land ofte rammes hardest av klimaendringene. Forklar hvorfor dette er et spørsmål om global fordeling, og hvordan liberalisme kan belyse internasjonalt samarbeid om klimafinansiering.",
@@ -561,7 +608,11 @@
           "Knytt ulikt historisk utslippsansvar og ulik sårbarhet til global fordeling.",
           "Klimafinansiering og avtaler kan fremme samarbeid; liberalismen vektlegger internasjonale institusjoner og samarbeid."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "barekraft-og-fordeling",
+          "statsvitenskapelige-teorier-og-kilder"
+        ]
       },
       {
         "text": "Hva er forskjellen på hvilke saker Den internasjonale domstolen (ICJ) og Den internasjonale straffedomstolen (ICC) behandler?",
@@ -571,7 +622,10 @@
           "ICC kan straffe enkeltpersoner for alvorlige internasjonale forbrytelser."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "folkeretten"
+        ]
       },
       {
         "text": "En falsk video av en politiker sprer seg i sosiale medier kort tid før et valg. Forklar hvordan dette kan utfordre demokratiet, og nevn tiltak som kan motvirke problemet uten å fjerne betydningen av ytringsfrihet.",
@@ -580,7 +634,10 @@
           "Falsk informasjon kan villede velgere og påvirke debatt og valg.",
           "Nevn tiltak som kildekritikk, mediekunnskap, faktasjekk eller redaktørstyrte medier."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "demokratiets-utfordringer"
+        ]
       }
     ]
   },

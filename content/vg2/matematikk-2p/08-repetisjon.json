@@ -522,6 +522,10 @@
         "kriterier": [
           "Bruker vekstfaktorene 1,04 og 1,03 eller forklarer at lønnen stiger mer enn prisene.",
           "Konkluderer med at reallønnen øker omtrent 1 %."
+        ],
+        "temaer": [
+          "indeks-og-reallonn",
+          "prosent-vekstfaktor-og-regneark"
         ]
       },
       {
@@ -531,6 +535,9 @@
         "kriterier": [
           "Velger median og begrunner valget med at ekstreme verdier påvirker den lite.",
           "Nevner et relevant spredningsmål og hva det beskriver."
+        ],
+        "temaer": [
+          "sentralmal-og-spredningsmal"
         ]
       },
       {
@@ -541,6 +548,9 @@
           "Velger linjediagram fordi undersøkelsen gjelder utvikling over tid.",
           "Nevner relevante hensyn som representativt/stort utvalg eller feilmargin.",
           "Nevner minst ett nødvendig diagramkjennetegn, som tittel, aksetitler, enheter eller kilde."
+        ],
+        "temaer": [
+          "statistikk-analyse-og-presentasjon"
         ]
       },
       {
@@ -550,6 +560,9 @@
         "kriterier": [
           "Setter opp en likning som representerer de to prisene.",
           "Finner x = 200 og tolker det som 200 minutter."
+        ],
+        "temaer": [
+          "likninger-og-ulikheter"
         ]
       },
       {
@@ -559,6 +572,9 @@
         "kriterier": [
           "Bruker Pytagoras riktig: 5² + 12² = c².",
           "Finner hypotenusen 13."
+        ],
+        "temaer": [
+          "formlikhet-og-malestokk"
         ]
       },
       {
@@ -568,6 +584,9 @@
         "kriterier": [
           "Beskriver riktig utvikling i terminbeløp for begge lånetypene.",
           "Sier at annuitetslånet gir mer renter totalt."
+        ],
+        "temaer": [
+          "lan-og-kreditt"
         ]
       },
       {
@@ -577,6 +596,9 @@
         "kriterier": [
           "Snu ulikhetstegnet når det deles med et negativt tall.",
           "Oppgir løsningen x < −3."
+        ],
+        "temaer": [
+          "likninger-og-ulikheter"
         ]
       },
       {
@@ -586,6 +608,9 @@
         "kriterier": [
           "Tolker målestokk 1 : 10 som lengder som er en tidel av originalens.",
           "Sier at arealet er 100 ganger mindre og volumet 1000 ganger mindre."
+        ],
+        "temaer": [
+          "formlikhet-og-malestokk"
         ]
       },
       {
@@ -597,7 +622,10 @@
           "Nevner en relevant forutsetning, for eksempel fast rente."
         ],
         "id": "s09",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "prosent-vekstfaktor-og-regneark"
+        ]
       },
       {
         "text": "En vare kostet 250 kr i et basisår da KPI var 100. Senere er KPI 120. Hva koster varen dersom den har fulgt prisutviklingen, og hva er kroneverdien når KPI er 120? Forklar kort hva kroneverdien forteller.",
@@ -607,7 +635,10 @@
           "Regner kroneverdien som 100/120, omtrent 0,83.",
           "Forklarer at kroneverdien viser kjøpekraft sammenlignet med basisåret."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "indeks-og-reallonn"
+        ]
       },
       {
         "text": "Du har 32 000 kr i bruttolønn i måneden og får 25 % skattetrekk. De månedlige utgiftene dine er 20 000 kr. Regn ut nettoinntekten og hvor mye du har igjen etter utgiftene. Forklar hvordan et budsjett kan bruke beløpet som er igjen.",
@@ -617,7 +648,10 @@
           "Regner ut at 4 000 kr er igjen etter utgiftene.",
           "Knytter beløpet som er igjen til sparing eller buffer i et budsjett."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "lan-og-kreditt"
+        ]
       },
       {
         "text": "To lån har samme lånebeløp og løpetid. Lån A har nominell rente 5,0 % og effektiv rente 5,4 %, mens lån B har nominell rente 5,2 % og effektiv rente 5,3 %. Hvilket lån har lavest faktisk kostnad ut fra renteopplysningene, og hvorfor er det riktig å sammenligne effektiv rente?",
@@ -626,7 +660,10 @@
           "Velger lån B fordi effektiv rente er lavest.",
           "Forklarer at effektiv rente inkluderer gebyrer og hvor ofte renten legges til."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "lan-og-kreditt"
+        ]
       },
       {
         "text": "En oversikt over reisetider er gruppert slik: [0, 10) minutter har frekvens 2, [10, 20) har frekvens 4, og [20, 30) har frekvens 2. Bruk klassemidtpunktene til å anslå gjennomsnittlig reisetid, og forklar hvorfor svaret er et anslag.",
@@ -636,7 +673,10 @@
           "Regner ut anslått gjennomsnitt til 15 minutter.",
           "Forklarer at klassene ikke viser de nøyaktige observasjonene."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "sentralmal-og-spredningsmal"
+        ]
       },
       {
         "text": "I en spørreundersøkelse oppgir 60 av 150 elever at de vanligvis går til skolen. Undersøkelsen spør også om andre transportmåter. Regn ut andelen som går, foreslå et diagram som kan sammenligne transportkategoriene, og forklar hva du bør undersøke før resultatet brukes til å si noe om alle elevene ved skolen.",
@@ -646,7 +686,11 @@
           "Velger et stolpediagram for å sammenligne kategorier.",
           "Nevner at utvalget bør være representativt og stort nok."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "statistikk-analyse-og-presentasjon",
+          "sentralmal-og-spredningsmal"
+        ]
       },
       {
         "text": "Et rektangel har omkrets 34 cm, og lengden er 3 cm større enn bredden. Sett opp en likning og finn lengden og bredden.",
@@ -655,7 +699,11 @@
           "Setter opp en likning som uttrykker at omkretsen er 34 cm.",
           "Finner bredden 7 cm og lengden 10 cm."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "likninger-og-ulikheter",
+          "formlikhet-og-malestokk"
+        ]
       },
       {
         "text": "En loddrett stav på 1,2 m kaster en skygge på 0,8 m. Samtidig kaster et tre en skygge på 10 m. Bruk formlikhet til å finne høyden på treet, og forklar hvorfor du kan sammenligne trekantene.",
@@ -664,7 +712,10 @@
           "Bruker proporsjonale høyder og skyggelengder til å finne 15 m.",
           "Forklarer at trekantene er formlike fordi de har like vinkler."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "formlikhet-og-malestokk"
+        ]
       }
     ]
   },

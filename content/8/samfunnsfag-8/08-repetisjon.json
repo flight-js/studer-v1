@@ -465,6 +465,9 @@
         "kriterier": [
           "Nevner en kvantitativ metode, for eksempel spørreundersøkelse, som gir oversikt eller tall.",
           "Nevner en kvalitativ metode, for eksempel intervju, som kan forklare tanker eller grunner."
+        ],
+        "temaer": [
+          "metoder-og-kilder"
         ]
       },
       {
@@ -474,6 +477,9 @@
         "kriterier": [
           "Forklarer at algoritmer velger eller tilpasser innhold ut fra brukerens aktivitet.",
           "Knytter det å møte mest bekreftende informasjon til en filterboble."
+        ],
+        "temaer": [
+          "metoder-og-kilder"
         ]
       },
       {
@@ -483,6 +489,9 @@
         "kriterier": [
           "Sier at man bør spørre om lov før man deler bildet.",
           "Knytter dette til vennens privatliv eller personvern."
+        ],
+        "temaer": [
+          "digitale-spor-og-personvern"
         ]
       },
       {
@@ -492,6 +501,9 @@
         "kriterier": [
           "Skiller mellom uskrevne normer og lover vedtatt av Stortinget.",
           "Nevner sosial sanksjon for normbrudd og mulig straff fra staten for lovbrudd."
+        ],
+        "temaer": [
+          "lover-og-regler"
         ]
       },
       {
@@ -501,6 +513,9 @@
         "kriterier": [
           "Identifiserer krig som en skyvefaktor.",
           "Identifiserer jobbmuligheter og/eller trygghet som trekkfaktorer."
+        ],
+        "temaer": [
+          "befolkning-og-levekar"
         ]
       },
       {
@@ -510,6 +525,9 @@
         "kriterier": [
           "Forklarer levestandard som materielle forhold.",
           "Forklarer livskvalitet som hvordan man har det, og at inntekt ikke alene avgjør dette."
+        ],
+        "temaer": [
+          "okonomi-og-forbruk"
         ]
       },
       {
@@ -519,6 +537,10 @@
         "kriterier": [
           "Forklarer medienes rolle i å sette dagsorden eller kontrollere makthavere.",
           "Forklarer at algoritmer kan løfte fram følelsessterkt innhold og bidra til polarisering."
+        ],
+        "temaer": [
+          "demokrati-og-politikk",
+          "digitale-spor-og-personvern"
         ]
       },
       {
@@ -528,6 +550,9 @@
         "kriterier": [
           "Nevner relevante kildevurderingsspørsmål, for eksempel hvem som har laget kilden, hvorfor eller om den stemmer med andre kilder.",
           "Forklarer at ulike kilder kan gi ulike perspektiver og motvirke et ensidig bilde."
+        ],
+        "temaer": [
+          "metoder-og-kilder"
         ]
       },
       {
@@ -537,7 +562,10 @@
           "Forklarer at et lite eller skjevt utvalg kan svekke gyldigheten.",
           "Forklarer at pålitelighet handler om hvor like resultatene blir ved gjentakelse."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "metoder-og-kilder"
+        ]
       },
       {
         "text": "I et land blir rent vann og medisiner vanligere, og færre mennesker dør, mens fødselsraten fortsatt er høy. Forklar hvilken fase i den demografiske overgangen landet er i, og hva som skjer med befolkningen.",
@@ -547,7 +575,10 @@
           "Knytter lavere dødsrate og fortsatt høy fødselsrate til rask befolkningsvekst."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "befolkning-og-levekar"
+        ]
       },
       {
         "text": "En nettbutikk viser deg reklame for en jakke etter at du har sett på lignende klær på nettet. Forklar hvordan digitale spor kan føre til slik reklame, og hvordan et budsjett kan hjelpe deg før du kjøper jakken.",
@@ -556,7 +587,11 @@
           "Forklarer at passive digitale spor kan brukes til å lage en profil og målrette reklame.",
           "Forklarer at et budsjett hjelper med å vurdere om kjøpet passer med økonomien."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "digitale-spor-og-personvern",
+          "okonomi-og-forbruk"
+        ]
       },
       {
         "text": "Stortinget vedtar en lov, regjeringen setter den ut i livet, og en domstol behandler en sak om loven. Forklar hvilken makt hver av disse tre institusjonene har, og hvordan maktfordelingen beskytter innbyggerne.",
@@ -565,7 +600,10 @@
           "Plasserer Stortinget, regjeringen og domstolene på riktig maktområde.",
           "Forklarer at maktfordeling skal hindre at noen får for mye makt, eller at domstolene avgjør saker etter lovene."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "demokrati-og-politikk"
+        ]
       },
       {
         "text": "En voksen ser på lønnsslippen sin og lurer på hvorfor beløpet hun får utbetalt, er lavere enn lønnen før skatt. Forklar forskjellen på bruttolønn og nettolønn, og hvorfor skatt betales.",
@@ -574,7 +612,10 @@
           "Skiller riktig mellom bruttolønn og nettolønn.",
           "Nevner at skatt finansierer offentlige tjenester eller velferdsordninger."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "okonomi-og-forbruk"
+        ]
       },
       {
         "text": "Historikere finner få skriftlige kilder om hvordan fattige mennesker levde i en bestemt periode. Forklar hvordan dette påvirker det vi vet om fortiden, og hvordan andre typer kilder kan bidra til et bredere bilde.",
@@ -583,7 +624,10 @@
           "Forklarer at mangel på kilder gjør enkelte gruppers historie mindre kjent eller gir et skjevt bilde.",
           "Nevner en annen type kilde som kan gi flere opplysninger eller perspektiver."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "metoder-og-kilder"
+        ]
       },
       {
         "text": "En ungdom følger influensere som viser fram redigerte bilder og en bestemt livsstil. Forklar hvordan influensere kan påvirke ungdommens sosialisering og selvbilde.",
@@ -592,7 +636,10 @@
           "Forklarer at influensere kan påvirke normer, verdier eller idealer som sosialiseringsagenter.",
           "Knytter urealistiske framstillinger til påvirkning på selvbildet."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "identitet-og-fellesskap"
+        ]
       },
       {
         "text": "I et kommentarfelt trekker flere seg fra debatten etter å ha mottatt trusler og hatefulle ytringer. Forklar hvorfor ytringsfriheten ikke gir rett til å true andre, og hvordan slike ytringer kan påvirke den digitale samfunnsdebatten.",
@@ -601,7 +648,11 @@
           "Forklarer at trusler og hatefulle ytringer er straffbare og ikke beskyttes av ytringsfriheten.",
           "Forklarer at hets eller hatprat kan føre til at folk trekker seg fra debatten."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "digitale-spor-og-personvern",
+          "lover-og-regler"
+        ]
       }
     ]
   },

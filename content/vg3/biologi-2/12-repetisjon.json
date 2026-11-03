@@ -489,6 +489,10 @@
         "kriterier": [
           "Beskriver sammenlignbare ruter/prøver på begge lokalitetene.",
           "Nevner etterprøvbar metode og en relevant feilkilde."
+        ],
+        "temaer": [
+          "artsmangfold-og-feltarbeid",
+          "biologisk-forskning-og-metode"
         ]
       },
       {
@@ -498,6 +502,9 @@
         "kriterier": [
           "Setter inn verdiene riktig i N = M · C / R.",
           "Får svaret 60 individer."
+        ],
+        "temaer": [
+          "artsmangfold-og-feltarbeid"
         ]
       },
       {
@@ -507,6 +514,10 @@
         "kriterier": [
           "Knytter tilført næring til eutrofiering og algeoppblomstring.",
           "Forklarer oksygenforbruk ved nedbrytning og mulig reduksjon i artsmangfold."
+        ],
+        "temaer": [
+          "menneskelig-pavirkning-pa-kretslopene",
+          "energistrom-og-stoffkretslop"
         ]
       },
       {
@@ -516,6 +527,9 @@
         "kriterier": [
           "Regner ut omtrent 500 kJ til primærkonsumentene.",
           "Regner ut omtrent 50 kJ til sekundærkonsumentene."
+        ],
+        "temaer": [
+          "energistrom-og-stoffkretslop"
         ]
       },
       {
@@ -525,6 +539,10 @@
         "kriterier": [
           "Forklarer at fotosyntese tar opp CO₂ og binder karbon.",
           "Forklarer at celleånding frigjør CO₂."
+        ],
+        "temaer": [
+          "fotosyntese-og-celleanding",
+          "energistrom-og-stoffkretslop"
         ]
       },
       {
@@ -534,6 +552,9 @@
         "kriterier": [
           "Finner q = 0,5 og p = 0,5 fra q² = 0,25.",
           "Bruker 2pq og får 50 % bærere."
+        ],
+        "temaer": [
+          "evolusjon-og-artsdannelse"
         ]
       },
       {
@@ -543,6 +564,10 @@
         "kriterier": [
           "Knytter mutasjon eller variasjon til forskjeller i resistens.",
           "Forklarer at seleksjon gjør resistensallelene vanligere gjennom overlevelse og avkom."
+        ],
+        "temaer": [
+          "evolusjon-og-artsdannelse",
+          "arv-og-variasjon"
         ]
       },
       {
@@ -552,6 +577,10 @@
         "kriterier": [
           "Skiller mellom gener fra andre arter og endring av organismens egne gener.",
           "Nevner en relevant etisk vurdering, for eksempel risiko for miljøet eller spredning til ville slektninger."
+        ],
+        "temaer": [
+          "genteknologi-og-etikk",
+          "genetisk-kode-og-genregulering"
         ]
       },
       {
@@ -561,7 +590,11 @@
           "Temperatur er uavhengig variabel, og enzymaktivitet eller nedbrytning er avhengig variabel.",
           "Andre relevante forhold holdes konstante, og gjentak øker påliteligheten."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "biologisk-forskning-og-metode",
+          "enzymer-og-metabolisme"
+        ]
       },
       {
         "text": "En muskelcelle bryter ned 5 glukosemolekyler uten tilgang på oksygen. Hvor mange ATP-molekyler kan cellen få fra disse gjennom glykolyse og gjæring, og hvorfor er utbyttet så lavt?",
@@ -570,7 +603,10 @@
           "Riktig beregning: 5 · 2 = 10 ATP.",
           "Uten oksygen gir glykolysen ATP, mens gjæring sørger for at NAD⁺ kan brukes videre."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "fotosyntese-og-celleanding"
+        ]
       },
       {
         "text": "Hos en planteart er A et dominant allel for mørke frø, mens a gir lyse frø når det finnes i to kopier. En plante med genotypen Aa krysses med en plante med genotypen aa. Blant 12 avkom, hvor mange forventes å få lyse frø?",
@@ -579,7 +615,10 @@
           "Krysningen gir 50 % sannsynlighet for genotypen aa.",
           "Riktig forventet antall: 6 avkom."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "arv-og-variasjon"
+        ]
       },
       {
         "text": "I et drivhus øker en dyrker CO₂-konsentrasjonen, og plantene først vokser raskere, men etter hvert øker veksten ikke lenger. Forklar hvorfor CO₂-tilførselen kan øke veksten i starten, og hvorfor en annen faktor senere kan begrense fotosyntesen.",
@@ -588,7 +627,10 @@
           "Økt CO₂ kan øke fotosyntesen når CO₂ er den begrensende faktoren.",
           "En annen nødvendig faktor kan senere begrense fotosyntesen."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "fotosyntese-og-celleanding"
+        ]
       },
       {
         "text": "En fiskebestand i en innsjø ser ut til å minke selv om fiskekvoten er uendret. Forklar hvorfor en fast kvote ikke alene viser om fisket er bærekraftig, og nevn hva forvaltningen bør følge med på.",
@@ -597,7 +639,10 @@
           "Bærekraftig uttak må være mindre enn bestandens tilvekst.",
           "Forvaltningen bør overvåke bestanden og bruke kunnskapen når kvoter vurderes."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "populasjoner-og-forvaltning"
+        ]
       },
       {
         "text": "Noen få individer av en art etablerer en ny bestand på en øy. Etter noen generasjoner er allelfrekvensene annerledes enn i bestanden de kom fra. Forklar hvilken evolusjonsmekanisme som kan ha ført til dette, og hvordan den kan påvirke bestandens evne til å tilpasse seg miljøendringer.",
@@ -606,7 +651,10 @@
           "Grunnleggereffekten er genetisk drift som endrer allelfrekvenser tilfeldig i en liten bestand.",
           "Mindre genetisk variasjon kan redusere muligheten for tilpasning."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "evolusjon-og-artsdannelse"
+        ]
       },
       {
         "text": "Forskere vil undersøke om turistbesøk påvirker atferden til en truet fugleart ved reirene. Forklar hvorfor observasjon kan være en passende metode, og nevn en begrensning ved å trekke konklusjoner fra resultatene.",
@@ -615,7 +663,10 @@
           "Observasjon er egnet når forsøk ikke kan eller bør gjennomføres på ville dyr.",
           "Sammenheng mellom turistbesøk og atferd beviser ikke alene årsakssammenheng."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "biologisk-forskning-og-metode"
+        ]
       },
       {
         "text": "En mRNA-vaksine får kroppens celler til å lage et bestemt protein. Forklar hvordan dette skjer i cellene, og hvordan det kan bidra til å trene immunforsvaret.",
@@ -624,7 +675,11 @@
           "Ribosomer bruker mRNA som oppskrift til å lage et protein.",
           "Proteinet bidrar til å trene immunforsvaret til å gjenkjenne det."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "genetisk-kode-og-genregulering",
+          "genteknologi-og-etikk"
+        ]
       }
     ]
   },

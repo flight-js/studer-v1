@@ -438,6 +438,9 @@
         "kriterier": [
           "Oppgir 1/8.",
           "Forklarer at negativ eksponent gir den omvendte brøken."
+        ],
+        "temaer": [
+          "potenser-og-standardform"
         ]
       },
       {
@@ -447,6 +450,9 @@
         "kriterier": [
           "Oppgir vekstfaktoren 1,06.",
           "Bruker K · 1,06ⁿ for n perioder."
+        ],
+        "temaer": [
+          "prosent-vekstfaktor-og-regneark"
         ]
       },
       {
@@ -456,6 +462,9 @@
         "kriterier": [
           "Finner kiloprisen 30 kr per kilo.",
           "Finner prisen 150 kr."
+        ],
+        "temaer": [
+          "proporsjonalitet"
         ]
       },
       {
@@ -465,6 +474,9 @@
         "kriterier": [
           "Regner ut 80 kr.",
           "Tolker 50 som fast beløp og 15 som pris per kilometer."
+        ],
+        "temaer": [
+          "formler-og-variabler"
         ]
       },
       {
@@ -474,6 +486,9 @@
         "kriterier": [
           "Bruker radiusen i formelen og får omtrent 28,3.",
           "Oppgir enheten cm²."
+        ],
+        "temaer": [
+          "potenser-og-standardform"
         ]
       },
       {
@@ -484,6 +499,9 @@
           "Knytter lineær vekst til fast tall per enhet.",
           "Knytter eksponentiell vekst til fast prosent per enhet.",
           "Gir eksempler som passer til hver veksttype."
+        ],
+        "temaer": [
+          "funksjoner-og-grafer"
         ]
       },
       {
@@ -493,6 +511,10 @@
         "kriterier": [
           "Tolker 5000 som startverdi og 1,02 som 2 % vekst.",
           "Nevner at premisser og gyldighetsområde må vurderes."
+        ],
+        "temaer": [
+          "matematisk-modellering",
+          "funksjoner-og-grafer"
         ]
       },
       {
@@ -502,6 +524,9 @@
         "kriterier": [
           "Knytter proporsjonalitet til konstant forhold y/x.",
           "Knytter omvendt proporsjonalitet til konstant produkt x · y."
+        ],
+        "temaer": [
+          "proporsjonalitet"
         ]
       },
       {
@@ -511,6 +536,9 @@
         "kriterier": [
           "Forklarer at absolutt referanse står fast ved kopiering.",
           "Knytter dette til at samme vekstfaktor kan brukes videre."
+        ],
+        "temaer": [
+          "prosent-vekstfaktor-og-regneark"
         ]
       },
       {
@@ -520,6 +548,9 @@
         "kriterier": [
           "Tolker a som endring per enhet i x.",
           "Tolker b som funksjonsverdien når x = 0 og y-akseskjæringen."
+        ],
+        "temaer": [
+          "funksjoner-og-grafer"
         ]
       },
       {
@@ -529,6 +560,9 @@
         "kriterier": [
           "Knytter større standardavvik til større spredning.",
           "Skiller mellom sentralmål og spredningsmål."
+        ],
+        "temaer": [
+          "sentralmal-og-spredningsmal"
         ]
       },
       {
@@ -538,6 +572,9 @@
         "kriterier": [
           "Regner ut 40 %.",
           "Tolker prosenten som andelen av de spurte elevene."
+        ],
+        "temaer": [
+          "statistikk-analyse-og-presentasjon"
         ]
       },
       {
@@ -547,6 +584,9 @@
         "kriterier": [
           "Forklarer at representativt utvalg ligner populasjonen.",
           "Forklarer at feilmargin beskriver usikkerhet."
+        ],
+        "temaer": [
+          "statistikk-analyse-og-presentasjon"
         ]
       },
       {
@@ -556,6 +596,9 @@
         "kriterier": [
           "Skiller mellom korrelasjon og årsakssammenheng.",
           "Nevner varmt vær som en mulig tredje faktor."
+        ],
+        "temaer": [
+          "statistikk-analyse-og-presentasjon"
         ]
       },
       {
@@ -565,6 +608,9 @@
         "kriterier": [
           "Knytter modellen til et begrenset gyldighetsområde.",
           "Forklarer ekstrapolering og hvorfor svaret kan bli urimelig."
+        ],
+        "temaer": [
+          "matematisk-modellering"
         ]
       },
       {
@@ -574,6 +620,9 @@
         "kriterier": [
           "Velger stolpediagram for kategorier.",
           "Nevner minst ett nødvendig element, som tittel, aksetitler, enheter eller kilde."
+        ],
+        "temaer": [
+          "statistikk-analyse-og-presentasjon"
         ]
       }
     ]

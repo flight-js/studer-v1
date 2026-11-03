@@ -444,6 +444,10 @@
         "kriterier": [
           "Nevner sentrale deler av bestillingen, som hva, når og kvalitetskrav.",
           "Forklarer at arbeidsplanen viser oppgaver, ansvar, tid eller hvordan arbeidet gjøres."
+        ],
+        "temaer": [
+          "arbeidsoppdrag-og-planlegging",
+          "kvalitet-og-kundeservice"
         ]
       },
       {
@@ -453,6 +457,9 @@
         "kriterier": [
           "Identifiserer det ødelagte verktøyet som et avvik og sier at det skal meldes fra om.",
           "Nevner vurdering av hva som kan gå galt og tiltak for å redusere eller fjerne risikoen."
+        ],
+        "temaer": [
+          "hms-og-sikkerhet"
         ]
       },
       {
@@ -462,6 +469,9 @@
         "kriterier": [
           "Forklarer at roller og ansvar gjør oppgavene tydelige.",
           "Nevner lytting og en saklig måte å håndtere uenigheten på, som kompromiss."
+        ],
+        "temaer": [
+          "samarbeid-og-vurdering"
         ]
       },
       {
@@ -471,6 +481,9 @@
         "kriterier": [
           "Nevner kvalitetskontroll underveis og til slutt, gjerne med sjekkliste og kvalitetskrav.",
           "Forklarer at kundens tilbakemelding kan brukes i evalueringen og til forbedring."
+        ],
+        "temaer": [
+          "kvalitet-og-kundeservice"
         ]
       },
       {
@@ -480,6 +493,9 @@
         "kriterier": [
           "Nevner at man skal lytte, beklage og finne en løsning.",
           "Knytter klagen til vurdering av kvalitet eller forbedring av arbeidet."
+        ],
+        "temaer": [
+          "kvalitet-og-kundeservice"
         ]
       },
       {
@@ -490,7 +506,11 @@
           "Nevner kvalitetskontroll og merking med innhold og allergener.",
           "Nevner rolle- eller ansvarsfordeling og kontroll mot bestillingen."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kvalitet-og-kundeservice",
+          "samarbeid-og-vurdering"
+        ]
       },
       {
         "id": "s07",
@@ -499,6 +519,10 @@
         "kriterier": [
           "Forklarer at risikovurdering handler om farer og tiltak før arbeidet.",
           "Forklarer at kvalitetskontroll handler om å sjekke arbeidet mot krav underveis og/eller til slutt."
+        ],
+        "temaer": [
+          "hms-og-sikkerhet",
+          "kvalitet-og-kundeservice"
         ]
       },
       {
@@ -508,6 +532,10 @@
         "kriterier": [
           "Nevner vurdering av samarbeid og/eller produktets kvalitet.",
           "Forklarer at vurderingen viser hva som gikk bra og hva som kan forbedres neste gang."
+        ],
+        "temaer": [
+          "samarbeid-og-vurdering",
+          "kvalitet-og-kundeservice"
         ]
       },
       {
@@ -517,7 +545,10 @@
           "Foreslår å undersøke behovet ved å spørre eller bruke en spørreundersøkelse.",
           "Knytter svarene til planlegging, for eksempel oppgaver, tid eller budsjett."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "arbeidsoppdrag-og-planlegging"
+        ]
       },
       {
         "text": "Du skal flytte tunge esker med utstyr før et arrangement. Hvordan kan du beskytte kroppen mens du løfter, og hvordan kan dere organisere arbeidet for å gjøre det tryggere?",
@@ -526,7 +557,10 @@
           "Nevner trygg løfteteknikk: rett rygg, bøyde knær og/eller lasten nær kroppen.",
           "Foreslår organisering som reduserer belastning, for eksempel å dele på arbeidet eller ta pauser."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "hms-og-sikkerhet"
+        ]
       },
       {
         "text": "På arbeidsplassen skal dere bruke et rengjøringsmiddel med et farepiktogram på flasken. Hva bør dere finne ut før bruk, og hvem har ansvar for å bidra til at arbeidet foregår trygt?",
@@ -536,7 +570,10 @@
           "Plasserer hovedansvaret for HMS hos arbeidsgiveren og/eller beskriver arbeidstakerens plikt til å følge rutiner og si fra."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hms-og-sikkerhet"
+        ]
       },
       {
         "text": "En gruppe skal kjøpe materialer til et produkt, men pengene rekker ikke til alt gruppa først ønsket. Hvordan kan gruppa bruke et møte til å komme fram til en beslutning og følge den opp?",
@@ -545,7 +582,10 @@
           "Beskriver at gruppa tar opp saken og lar medlemmene fremme forslag.",
           "Nevner en beslutningsmåte og/eller referat for å følge opp beslutningen."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "samarbeid-og-vurdering"
+        ]
       },
       {
         "text": "Du lager en vare der materialene koster 18 kroner og emballasjen koster 7 kroner. Dere vil legge til 10 kroner i fortjeneste. Hva blir prisen før eventuell merverdiavgift, og hvilke kostnader har du regnet med?",
@@ -554,7 +594,10 @@
           "Regner ut riktig pris: 18 + 7 + 10 = 35 kroner.",
           "Nevner materialer, emballasje og fortjeneste som delene i regnestykket."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "kvalitet-og-kundeservice"
+        ]
       },
       {
         "text": "I en praksisplass i helse- og omsorgsarbeid forteller en bruker deg noe privat. En annen elev spør hva brukeren sa. Hvordan bør du svare, og hvorfor?",
@@ -563,7 +606,10 @@
           "Sier at private opplysninger ikke skal deles med den andre eleven.",
           "Knytter svaret til taushetsplikt og/eller respekt og etiske regler."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "samarbeid-og-vurdering"
+        ]
       },
       {
         "text": "En gruppe vil få flere til å bestille en tjeneste gruppa tilbyr på skolen. Hva bør en plakat eller et innlegg på skolens nettside fortelle, og hvordan kan gruppa gjøre det enkelt å bestille?",
@@ -573,7 +619,10 @@
           "Forklarer at det må komme tydelig fram hvordan kunden kan bestille."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kvalitet-og-kundeservice"
+        ]
       },
       {
         "text": "På en arbeidsplass mener flere ansatte at en arbeidsrutine bør endres fordi den påvirker arbeidsmiljøet. Hvilke muligheter har arbeidstakerne til å påvirke saken, og hvem kan følge med på at arbeidsmiljøreglene blir fulgt?",
@@ -582,7 +631,11 @@
           "Nevner arbeidstakernes medvirkning og en kanal som verneombud eller tillitsvalgt.",
           "Beskriver verneombudets rolle og/eller at Arbeidstilsynet fører tilsyn med reglene."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "samarbeid-og-vurdering",
+          "hms-og-sikkerhet"
+        ]
       }
     ]
   },

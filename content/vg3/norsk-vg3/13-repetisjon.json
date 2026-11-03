@@ -534,6 +534,9 @@
         "kriterier": [
           "Naturalismen knytter mennesket til arv, miljø og drifter.",
           "Nyromantikken vektlegger sjeleliv, følelser eller det ubevisste."
+        ],
+        "temaer": [
+          "naturalismen-og-nyromantikken"
         ]
       },
       {
@@ -544,7 +547,12 @@
           "Begge framstilles som kvinner som søker frihet eller selvstendighet.",
           "Skiller mellom Noras brudd med hjemmet og Albertes kamp for å bli forfatter."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "realismen",
+          "mellomkrigstiden",
+          "litterar-tolkning-og-sammenligning"
+        ]
       },
       {
         "id": "s03",
@@ -553,6 +561,10 @@
         "kriterier": [
           "Realismen knyttes til hverdagslige, troverdige skildringer.",
           "Modernismen knyttes til brudd, fragmentering eller symboler og aktiv lesning."
+        ],
+        "temaer": [
+          "realismen",
+          "modernismen-etter-1945"
         ]
       },
       {
@@ -562,6 +574,9 @@
         "kriterier": [
           "Identifiserer mobilforbudet som påstanden og læring uten mobil som belegget.",
           "Forklarer hjemmelen som den uuttalte forutsetningen om læringens betydning for skolen."
+        ],
+        "temaer": [
+          "retorisk-analyse-av-sakprosa"
         ]
       },
       {
@@ -571,6 +586,9 @@
         "kriterier": [
           "Forklarer at samspillet er forsterkende og knytter bilen til natur eller ansvar.",
           "Nevner at reklamen kan utelate miljøavtrykket."
+        ],
+        "temaer": [
+          "sammensatte-tekster"
         ]
       },
       {
@@ -580,6 +598,10 @@
         "kriterier": [
           "Essayet beskrives som personlig og utforskende.",
           "Fagartikkelen beskrives som saklig, kildebasert og drøftende, med konklusjon."
+        ],
+        "temaer": [
+          "essay",
+          "fagartikkel-og-kildebruk"
         ]
       },
       {
@@ -589,6 +611,9 @@
         "kriterier": [
           "Knytter mobilitet og kontakt mellom mennesker til dialektutjevning.",
           "Forklarer regionalisering som påvirkning fra en større by og nevner språkets betydning for tilhørighet."
+        ],
+        "temaer": [
+          "talesprak-i-endring"
         ]
       },
       {
@@ -598,6 +623,9 @@
         "kriterier": [
           "Skiller mellom konkret motiv og overordnet tema.",
           "Forklarer at sitatet må kommenteres og knyttes til tolkningen."
+        ],
+        "temaer": [
+          "litterar-tolkning-og-sammenligning"
         ]
       },
       {
@@ -607,7 +635,11 @@
           "Knytter naturalismen til at arv og miljø former mennesket.",
           "Forklarer at autofiksjon blander forfatterens eget liv med fiksjon."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "naturalismen-og-nyromantikken",
+          "samtidslitteratur"
+        ]
       },
       {
         "text": "Du skal holde en muntlig presentasjon om hvordan en roman framstiller et samfunnsspørsmål. Du vil bruke både romanen og en fagtekst som kilder. Forklar hvordan du kan avgrense presentasjonen og bruke kildene og lysbildene på en faglig ryddig måte.",
@@ -617,7 +649,11 @@
           "Nevner kildekritikk og at kildene skal oppgis.",
           "Forklarer at lysbildene skal støtte, ikke erstatte, muntlig framføring."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "muntlig-fordypning",
+          "fagartikkel-og-kildebruk"
+        ]
       },
       {
         "text": "En ungdom med norske foreldre bruker lånord og særegen ordstilling som forbindes med multietnolekt. Forklar hvorfor talemåten ikke bare kan knyttes til etnisitet, og hvordan den kan uttrykke både tilhørighet og møte fordommer.",
@@ -627,7 +663,10 @@
           "Knytter talemåten til identitet eller fellesskap.",
           "Nevner at talemåter kan møtes med fordommer eller ha ulik status."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "talesprak-i-endring"
+        ]
       },
       {
         "text": "Sammenlign hva realismen og den sosialrealistiske litteraturen på 1970-tallet retter oppmerksomheten mot i samfunnet. Nevn også et fellestrekk ved samfunnskritikken deres.",
@@ -637,7 +676,11 @@
           "Knytter 1970-tallets sosialrealisme til arbeidsliv eller klassekamp.",
           "Får fram at begge retter kritikk mot samfunnsforhold."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "realismen",
+          "modernismen-etter-1945"
+        ]
       },
       {
         "text": "En organisasjon deler et innlegg om en aktuell helsesak. Innlegget bruker en personlig fortelling og viser til et statistisk tall, men oppgir ikke hvor tallet kommer fra. Forklar hvilke appellformer som er i bruk, og hvordan en leser kan undersøke hvor troverdig innlegget er.",
@@ -647,7 +690,11 @@
           "Nevner relevante kontroller av kilden, for eksempel avsender, aktualitet eller dokumentasjon.",
           "Skiller mellom følelsesvirkning og hvor godt påstanden er dokumentert."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "retorisk-analyse-av-sakprosa",
+          "fagartikkel-og-kildebruk"
+        ]
       },
       {
         "text": "I romanen «Is-slottet» blir is-slottet beskrevet som både vakkert og farlig. Forklar hvordan en leser kan tolke det som et symbol, og hvordan en slik tolkning bør begrunnes.",
@@ -657,7 +704,11 @@
           "Knytter tolkningen til tekstlige detaljer eller sitater.",
           "Knytter gjerne natursymbolet til menneskets indre hos Vesaas."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "modernismen-etter-1945",
+          "litterar-tolkning-og-sammenligning"
+        ]
       },
       {
         "text": "En essayist begynner med en personlig opplevelse av å føle seg utenfor, kobler den til en roman om fremmedfølelse og avslutter med et åpent spørsmål. Forklar hvordan dette passer med essaysjangeren, og hvorfor teksten bør gjøre mer enn å gjenfortelle romanen.",
@@ -667,7 +718,11 @@
           "Nevner utforskende refleksjon eller åpen avslutning.",
           "Forklarer at essayet skal utvikle tanker, ikke bare gjenfortelle handlingen."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "essay",
+          "litterar-tolkning-og-sammenligning"
+        ]
       },
       {
         "text": "En elev merker at hen veksler mellom norsk og engelsk i samtaler etter å ha brukt mye tid på engelskspråklige strømmetjenester og dataspill. Forklar hva språkbyttet kalles, hvordan mediene kan bidra til det, og hva bekymringen for domenetap betyr.",
@@ -677,7 +732,10 @@
           "Knytter mediebruk til økt kontakt med engelsk.",
           "Forklarer domenetap som at norsk mister terreng på bestemte samfunnsområder."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "talesprak-i-endring"
+        ]
       }
     ]
   },

@@ -476,6 +476,9 @@
         "kriterier": [
           "Explains that register changes with the receiver or situation.",
           "Names at least two suitable formal email features."
+        ],
+        "temaer": [
+          "online-communication"
         ]
       },
       {
@@ -485,6 +488,10 @@
         "kriterier": [
           "Gives two relevant points about music, songs or their use in games.",
           "Describes a clear presentation structure."
+        ],
+        "temaer": [
+          "music-and-lyrics",
+          "presenting-your-interests"
         ]
       },
       {
@@ -494,6 +501,10 @@
         "kriterier": [
           "Identifies the feedback as specific and helpful.",
           "Explains that the student should consider feedback and improve or practise the work."
+        ],
+        "temaer": [
+          "feedback-and-revision",
+          "presenting-your-interests"
         ]
       },
       {
@@ -503,6 +514,9 @@
         "kriterier": [
           "Says to ask for the friend’s consent.",
           "Explains that the post may be saved or shared or contribute to a lasting digital footprint."
+        ],
+        "temaer": [
+          "privacy-and-copyright"
         ]
       },
       {
@@ -512,6 +526,9 @@
         "kriterier": [
           "Mentions narrowing the topic and considering the audience.",
           "Gives at least two appropriate ways to organise or engage the audience."
+        ],
+        "temaer": [
+          "presenting-your-interests"
         ]
       },
       {
@@ -521,6 +538,9 @@
         "kriterier": [
           "Identifies the device as a simile.",
           "Explains that it uses “like” to make a comparison."
+        ],
+        "temaer": [
+          "music-and-lyrics"
         ]
       },
       {
@@ -539,6 +559,9 @@
         "kriterier": [
           "Explains that sources must be acknowledged and other people’s words or ideas must not be presented as one’s own.",
           "Mentions crediting the source and including source-list information."
+        ],
+        "temaer": [
+          "privacy-and-copyright"
         ]
       },
       {
@@ -548,7 +571,10 @@
           "Forklarer at kommunikasjonsstil eller manglende kroppsspråk og tone kan gjøre budskapet uklart.",
           "Foreslår et høflig spørsmål som ber om en avklaring."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "online-communication"
+        ]
       },
       {
         "text": "You are making a short podcast about a protest song about climate change. Explain how repetition in the song could emphasise its message, and describe one way to plan or practise the podcast.",
@@ -557,7 +583,11 @@
           "Knytter repetisjon, for eksempel et refreng, til en tydeligere eller mer minneverdig beskjed.",
           "Nevner en relevant måte å planlegge eller øve på podcasten."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "music-and-lyrics",
+          "presenting-your-interests"
+        ]
       },
       {
         "text": "A student’s draft has ideas in a confusing order and several grammar mistakes. Explain what the student should do when revising and when editing, and which should come first.",
@@ -566,7 +596,10 @@
           "Beskriver revisjon som arbeid med innhold eller struktur.",
           "Beskriver redigering som retting av språkdetaljer og setter revisjon først."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "feedback-and-revision"
+        ]
       },
       {
         "text": "You need to tell a classmate something urgent. Compare sending an email with making a video call, including how quickly you might get a reply and how non-verbal cues differ.",
@@ -575,7 +608,10 @@
           "Forklarer forskjellen på asynkron e-post og synkron videosamtale.",
           "Nevner at videosamtaler gir flere nonverbale signaler enn e-post."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "online-communication"
+        ]
       },
       {
         "text": "You are designing a school poster and want to include a photograph and a line from a song written by someone else. Explain how you can use these works while respecting copyright.",
@@ -584,7 +620,10 @@
           "Nevner bruk av lisensiert eller fritt tilgjengelig bilde, og at lisensvilkårene må følges.",
           "Nevner at et kort sitat skal krediteres."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "privacy-and-copyright"
+        ]
       },
       {
         "text": "A new app asks to use your location, and you post a photo of yourself on it. Explain which action creates active data and which may create passive data, and give one way to protect your privacy.",
@@ -594,7 +633,10 @@
           "Nevner et relevant tiltak for å beskytte personvernet."
         ],
         "id": "s14",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "privacy-and-copyright"
+        ]
       },
       {
         "text": "A joke in an online game chat upsets another player, even though you meant it playfully. Explain why the joke may have been misunderstood and how you could respond using good netiquette.",
@@ -603,7 +645,10 @@
           "Forklarer at mangel på tonefall eller kroppsspråk kan føre til misforståelser.",
           "Foreslår en høflig og respektfull respons, for eksempel å beklage."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "online-communication"
+        ]
       },
       {
         "text": "Compare music in a protest song with music in an advert. Explain what each is intended to do and how repetition could help either one achieve its purpose.",
@@ -612,7 +657,10 @@
           "Skiller mellom protestmusikkens budskap og reklamemusikkens mål om å gjøre et produkt minneverdig.",
           "Forklarer at repetisjon kan gjøre budskapet lettere å huske."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "music-and-lyrics"
+        ]
       }
     ]
   },

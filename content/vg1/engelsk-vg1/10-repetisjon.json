@@ -504,7 +504,10 @@
           "Explains that a lingua franca is shared by people with different first languages.",
           "Gives a relevant historical influence on English, such as Old Norse or French."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "english-as-a-world-language"
+        ]
       },
       {
         "id": "s02",
@@ -513,6 +516,9 @@
         "kriterier": [
           "Uses hedging, such as “may” or “suggests”.",
           "Avoids presenting the claim as certain."
+        ],
+        "temaer": [
+          "academic-language"
         ]
       },
       {
@@ -522,6 +528,9 @@
         "kriterier": [
           "Mentions a topic sentence or one main idea per paragraph.",
           "Explains how linking words, pronouns or synonyms create cohesion."
+        ],
+        "temaer": [
+          "grammar-and-text-structure"
         ]
       },
       {
@@ -531,6 +540,9 @@
         "kriterier": [
           "Gives two suitable communication strategies, such as paraphrasing, using a general word or a filler.",
           "Mentions signposting or another relevant presentation technique."
+        ],
+        "temaer": [
+          "discussion-and-pronunciation"
         ]
       },
       {
@@ -540,6 +552,10 @@
         "kriterier": [
           "Explains that the three factors influence language choices or register.",
           "Gives a relevant example of different text types, audiences or structures."
+        ],
+        "temaer": [
+          "academic-language",
+          "writing-different-texts"
         ]
       },
       {
@@ -549,6 +565,10 @@
         "kriterier": [
           "Mentions evidence such as a short quotation.",
           "Explains that the writer interprets the evidence and its effect or meaning."
+        ],
+        "temaer": [
+          "analysing-fiction",
+          "sources-and-reliability"
         ]
       },
       {
@@ -558,6 +578,9 @@
         "kriterier": [
           "Connects the different descriptions to framing or perspective.",
           "Names a relevant reliability check, such as evidence, accuracy or lateral reading."
+        ],
+        "temaer": [
+          "sources-and-reliability"
         ]
       },
       {
@@ -567,6 +590,9 @@
         "kriterier": [
           "Connects historical context to understanding present-day society or issues.",
           "Explains how different perspectives help avoid stereotypes or incomplete accounts."
+        ],
+        "temaer": [
+          "diversity-in-the-english-speaking-world"
         ]
       },
       {
@@ -577,7 +603,11 @@
           "Identifies India with the outer circle and recognises Indian English as a valid variety."
         ],
         "id": "s09",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "english-as-a-world-language",
+          "diversity-in-the-english-speaking-world"
+        ]
       },
       {
         "text": "A short film about a protest against racial inequality uses low-angle shots of officials, close-ups of people in the march and a protest song. Explain how two of these choices could shape the audience’s response, and connect the song’s role to the use of protest songs in social movements.",
@@ -586,7 +616,11 @@
           "Explains a possible effect of at least two film choices, such as camera angles, close-ups or music.",
           "Connects protest songs to social movements."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "film-music-and-games",
+          "diversity-in-the-english-speaking-world"
+        ]
       },
       {
         "text": "You are writing a report about a new policy. You use a 2023 interview with someone directly affected by it and a 2014 report that discusses several interviews. Explain which source is primary and which is secondary, and how you should use information from them responsibly.",
@@ -595,7 +629,11 @@
           "Correctly identifies the interview as a primary source and the report as a secondary source.",
           "Explains that information should be used purposefully and that quotations or paraphrases need references."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "sources-and-reliability",
+          "writing-different-texts"
+        ]
       },
       {
         "text": "In a story, the reader learns early on that a room is dangerous, but the main character does not know this and enters it. The story follows only that character’s thoughts. Explain the point of view and the use of dramatic irony, and describe one effect they may have on the reader.",
@@ -604,7 +642,10 @@
           "Identifies the point of view as third-person limited.",
           "Explains that the difference between what the reader and character know creates dramatic irony and may create suspense."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "analysing-fiction"
+        ]
       },
       {
         "text": "Correct the grammar in this sentence and briefly explain the changes: “I have lived in Bergen since five years. The news are positive, and if I would have more time, I will visit my cousins.”",
@@ -613,7 +654,10 @@
           "Uses “for five years” and the singular verb “is” with “news.”",
           "Correctly forms the second conditional without “would” in the if-clause."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "grammar-and-text-structure"
+        ]
       },
       {
         "text": "You take keyword notes while listening to a lecture and then use them to write one paragraph for a school report. Explain how signposting and key terms can help with the notes, and how you can organise the paragraph so it has a clear main idea.",
@@ -622,7 +666,11 @@
           "Explains how signposting and key terms help a listener follow or note important information.",
           "Describes a paragraph structure with a topic sentence and supporting details, with a concluding or linking sentence."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "grammar-and-text-structure",
+          "discussion-and-pronunciation"
+        ]
       },
       {
         "text": "In a video game, the player chooses whether to help another character, and the choice has consequences. Explain how this kind of player agency can affect the experience compared with watching a film about the same situation.",
@@ -632,7 +680,10 @@
           "Contrasts the player’s active role with the film audience’s role as a viewer, and explains a possible effect."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "film-music-and-games"
+        ]
       },
       {
         "text": "A Norwegian learner pronounces “worked”, “played” and “wanted” with the same ending sound, and pronounces the k in “knife”. Explain how these words should be pronounced.",
@@ -641,7 +692,10 @@
           "Gives the correct different “-ed” sounds for all three words.",
           "States that the k in “knife” is silent."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "discussion-and-pronunciation"
+        ]
       }
     ]
   },

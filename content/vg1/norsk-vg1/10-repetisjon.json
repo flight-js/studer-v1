@@ -526,6 +526,9 @@
         "kriterier": [
           "Skiller mellom konkret motiv og allment tema.",
           "Forklarer at tolkningen må støttes av teksteksempler eller sitater."
+        ],
+        "temaer": [
+          "nyere-skjonnlitteratur"
         ]
       },
       {
@@ -536,7 +539,10 @@
           "Knytter språkvalg til identitet eller tilhørighet.",
           "Forklarer betydningen av perspektiv eller hvem som får stemme."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kulturmoter-i-litteraturen"
+        ]
       },
       {
         "id": "s03",
@@ -545,6 +551,9 @@
         "kriterier": [
           "Knytter statistikk og fakta til logos.",
           "Knytter den personlige historien til patos og forklarer mulig effekt."
+        ],
+        "temaer": [
+          "retorikk-i-sakprosa"
         ]
       },
       {
@@ -555,7 +564,10 @@
           "Identifiserer stråmann og forklarer hvorfor.",
           "Beskriver et saklig svar som tar utgangspunkt i det som faktisk ble sagt."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "argumentasjon-og-diskusjon"
+        ]
       },
       {
         "id": "s05",
@@ -564,6 +576,9 @@
         "kriterier": [
           "Forklarer selvstendig kildebruk som bearbeiding og støtte for eget resonnement.",
           "Nevner kildehenvisninger og litteraturliste for etterrettelighet."
+        ],
+        "temaer": [
+          "kilder-og-fagartikkel"
         ]
       },
       {
@@ -573,6 +588,9 @@
         "kriterier": [
           "Forklarer V2-regelen for helsetninger.",
           "Plasserer «ikke» etter verbalet i helsetning og foran verbalet i leddsetning."
+        ],
+        "temaer": [
+          "setningsanalyse"
         ]
       },
       {
@@ -582,6 +600,9 @@
         "kriterier": [
           "Beskriver fornorskingspolitikkens mål og en språklig konsekvens.",
           "Nevner en språkrettighet eller revitalisering som kan styrke samiske språk."
+        ],
+        "temaer": [
+          "samiske-sprak"
         ]
       },
       {
@@ -591,6 +612,10 @@
         "kriterier": [
           "Forklarer at oversetteren må gjøre valg mellom innhold, stemning og rytme.",
           "Knytter oversettelsesvalgene til leserens forståelse av teksten eller kulturen."
+        ],
+        "temaer": [
+          "nyere-skjonnlitteratur",
+          "kulturmoter-i-litteraturen"
         ]
       },
       {
@@ -600,7 +625,10 @@
           "Knytter den fragmenterte komposisjonen til leserens arbeid eller opplevelse.",
           "Forklarer at den åpne slutten lar spørsmål stå ubesvart eller åpner for flere tolkninger."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "nyere-skjonnlitteratur"
+        ]
       },
       {
         "text": "I en fortelling blir en nyinnflyttet person omtalt som «rar» av folk i bygda. Samtidig viser handlingene hans at han bryr seg om naboene. Forklar hvordan synsvinkel og personskildring kan påvirke om fortellingen utfordrer eller forsterker en stereotypi.",
@@ -609,7 +637,11 @@
           "Knytter synsvinkel eller perspektiv til hvordan personen blir framstilt.",
           "Forklarer hvordan handlingene kan nyansere eller utfordre stereotypien."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "kulturmoter-i-litteraturen",
+          "nyere-skjonnlitteratur"
+        ]
       },
       {
         "text": "En appell om å bedre beredskapen blir publisert rett etter en alvorlig hendelse som mange følger med på. Forklar hva kairos betyr i denne situasjonen, og hvordan tidspunktet kan påvirke gjennomslaget hos mottakerne.",
@@ -619,7 +651,10 @@
           "Knytter aktualiteten til mulig oppmerksomhet eller overbevisningskraft."
         ],
         "id": "s11",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "retorikk-i-sakprosa"
+        ]
       },
       {
         "text": "En elev hevder: «Skolen bør starte klokka ni, fordi tenåringer trenger mer søvn om morgenen.» Hvilken del er påstanden, hvilken del er belegget, og hvilken hjemmel kan knytte belegget til påstanden?",
@@ -629,7 +664,10 @@
           "Forklarer en relevant, underforstått sammenheng som hjemmel."
         ],
         "id": "s12",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "argumentasjon-og-diskusjon"
+        ]
       },
       {
         "text": "En elev bruker en KI-tjeneste til å finne fakta og lage en litteraturliste til en fagartikkel. Forklar hva eleven bør gjøre før opplysningene og kildene tas med i teksten.",
@@ -638,7 +676,10 @@
           "Nevner at fakta og kilder fra KI må kontrolleres.",
           "Nevner at KI-bruken må oppgis i tråd med skolens regler."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "kilder-og-fagartikkel"
+        ]
       },
       {
         "text": "Se på setningen: «Når intervjuet var ferdig, sendte Sara læreren notatene, men hun beholdt opptaket.» Forklar hvorfor det står komma etter den første delen og før «men».",
@@ -647,7 +688,10 @@
           "Identifiserer den førstestilte leddsetningen og regelen om komma etter den.",
           "Forklarer kommaet foran «men» med at det binder sammen helsetninger."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "setningsanalyse"
+        ]
       },
       {
         "text": "Skriv setningen på nynorsk: «Jeg liker huset mitt, men hun vil ikke gå fra det.»",
@@ -656,7 +700,10 @@
           "Bruker nynorsk form av «jeg», «hun» og «ikke».",
           "Skriver «frå» og lar eiendomsordet stå etter substantivet i «huset mitt»."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "skriving-og-sidemal"
+        ]
       },
       {
         "text": "En podkast hevder at norsk, samisk og kvensk tilhører samme språkfamilie fordi språkene brukes i Norge. Rett påstanden med kunnskap om språkfamilier, og nevn ett eksempel på hvordan språkkontakt har endret norsk.",
@@ -665,7 +712,10 @@
           "Skiller mellom norsk som indoeuropeisk/germansk og samisk og kvensk som finsk-ugriske språk.",
           "Gir et korrekt eksempel på språkkontakt som har påvirket norsk."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "sprak-i-kontakt"
+        ]
       }
     ]
   },

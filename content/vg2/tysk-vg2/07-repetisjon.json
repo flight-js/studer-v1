@@ -443,6 +443,9 @@
         "kriterier": [
           "Bruker passiv med modalverb og har *werden* som infinitiv til slutt.",
           "Bruker partisippet *getrennt* og *reduziert*."
+        ],
+        "temaer": [
+          "miljo-og-barekraft"
         ]
       },
       {
@@ -452,6 +455,9 @@
         "kriterier": [
           "Bruker *um … zu* riktig i setningen om mobilen.",
           "Formidler at det er viktig å være kritisk til falske nyheter."
+        ],
+        "temaer": [
+          "teknologi-og-digitalt-liv"
         ]
       },
       {
@@ -462,7 +468,10 @@
           "Nevner at mannen spiser brød i hemmelighet og lyver om at han hørte noe.",
           "Nevner at kona later som hun tror ham for å skåne ham."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "litteratur"
+        ]
       },
       {
         "id": "s04",
@@ -471,6 +480,9 @@
         "kriterier": [
           "Nevner at et utenlandsår kan hjelpe en å lære språket.",
           "Nevner at man kan bli mer selvstendig."
+        ],
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
         ]
       },
       {
@@ -481,6 +493,9 @@
           "Bruker en formell hilsen og avslutning.",
           "Sier at søkeren søker au pair-stilling og forklarer en grunn.",
           "Nevner erfaring som barnevakt."
+        ],
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
         ]
       },
       {
@@ -490,6 +505,10 @@
         "kriterier": [
           "Bruker konjunktiv II i fortid med *hätte* og partisipp.",
           "Nevner en språklæringsstrategi, for eksempel daglig repetisjon eller å lytte til tysk musikk."
+        ],
+        "temaer": [
+          "ungdomskultur",
+          "studier-og-arbeid-i-utlandet"
         ]
       },
       {
@@ -499,6 +518,9 @@
         "kriterier": [
           "Nevner skumlesing for å få med hovedinnholdet.",
           "Nevner å gjette ord fra sammenhengen eller bare slå opp de viktigste ordene."
+        ],
+        "temaer": [
+          "litteratur"
         ]
       },
       {
@@ -509,7 +531,10 @@
           "Sier at Norge får nesten all strøm fra vannkraft og er en stor olje- og gasseksportør.",
           "Sier at Tyskland har brukt mye kull og bygd ut vind- og solkraft."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-barekraft"
+        ]
       },
       {
         "text": "Skriv på tysk en kort forklaring av den tyske Energiewende. Ta med hva overgangen går ut på, og hva som skjedde med kjernekraftverkene i 2023.",
@@ -518,7 +543,10 @@
           "Forklarer at Energiewende er en overgang til fornybar energi fra kjernekraft og kull.",
           "Nevner at de siste kjernekraftverkene ble stengt i 2023, og at kull fortsatt brukes."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "miljo-og-barekraft"
+        ]
       },
       {
         "text": "Du skal lytte til en tyskspråklig nyhetspodkast for å øve på tysk. Skriv på tysk hvordan du kan forberede deg, og hva du gjør når du møter ord du ikke kjenner.",
@@ -527,7 +555,11 @@
           "Nevner at man kan lese overskriften eller beskrivelsen først, og lytte etter nøkkelord eller tall.",
           "Forklarer at man bør prøve å få med hovedinnholdet uten å stoppe ved hvert ukjent ord."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "teknologi-og-digitalt-liv",
+          "ungdomskultur"
+        ]
       },
       {
         "text": "Skriv på tysk en kort nyhetsmelding om flyktningene som kom til Tyskland i 2015. Ta med hva Angela Merkel sa, bruk indirekte tale, og nevn hvor mange av flyktningene særlig kom fra.",
@@ -536,7 +568,10 @@
           "Gjengir «Wir schaffen das» med indirekte tale, for eksempel «man schaffe das».",
           "Nevner at mange flyktninger kom til Tyskland i 2015, særlig fra Syria."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "migrasjon-og-mangfold"
+        ]
       },
       {
         "text": "Forklar på tysk forskjellen mellom Erasmus+ og et Freiwilliges Soziales Jahr (FSJ). Ta med hva slags mulighet hvert av dem gir.",
@@ -545,7 +580,10 @@
           "Forklarer at Erasmus+ gir mulighet for utveksling i utdanning i et annet europeisk land.",
           "Forklarer at FSJ er et frivillig sosialt år, for eksempel i en barnehage eller på et sykehjem."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "studier-og-arbeid-i-utlandet"
+        ]
       },
       {
         "text": "Sammenlign på tysk en Kurzgeschichte med teateret Bertolt Brecht laget. Ta med ett typisk trekk ved hver av dem.",
@@ -554,7 +592,10 @@
           "Nevner et typisk trekk ved Kurzgeschichte, som få personer, hverdagssituasjon eller åpen slutt.",
           "Forklarer at Brecht ville få publikum til å tenke kritisk, og nevner gjerne et virkemiddel som direkte tale til publikum."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "litteratur"
+        ]
       },
       {
         "text": "Skriv på tysk om tysk rap og ungdomskultur. Bruk et adjektiv foran et substantiv etter bestemt artikkel, med riktig ending. Ta med hva mange artister gjør.",
@@ -563,7 +604,10 @@
           "Nevner at tysk rap er populær blant unge, og at mange artister synger på tysk.",
           "Bruker riktig adjektivending etter bestemt artikkel, for eksempel «die beliebte deutsche Rapmusik»."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "ungdomskultur"
+        ]
       },
       {
         "text": "Skriv på tysk om én fordel og én utfordring ved å bruke kunstig intelligens når man lærer. Knytt utfordringen til personvern.",
@@ -572,7 +616,10 @@
           "Nevner at kunstig intelligens kan hjelpe med læring.",
           "Knytter en utfordring til personvern, for eksempel at data samles inn."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "teknologi-og-digitalt-liv"
+        ]
       },
       {
         "text": "Skriv på tysk hva den tyske debatten om fartsgrense på Autobahn handler om. Ta med hvordan reglene er på store deler av Autobahn, og hva en fartsgrense skal bidra til.",
@@ -581,7 +628,10 @@
           "Nevner at det ikke finnes en generell fartsgrense på store deler av Autobahn.",
           "Forklarer at debatten handler om å innføre en fartsgrense for å redusere utslipp."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "miljo-og-barekraft"
+        ]
       }
     ]
   },

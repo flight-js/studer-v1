@@ -465,6 +465,9 @@
         "kriterier": [
           "Får produktet 400.",
           "Forklarer at dobling av én faktor og halvering av den andre bevarer produktet."
+        ],
+        "temaer": [
+          "regnestrategier"
         ]
       },
       {
@@ -474,6 +477,9 @@
         "kriterier": [
           "Oppgir formelen 4n − 1.",
           "Finner 19 på plass 5."
+        ],
+        "temaer": [
+          "monstre-og-algebra"
         ]
       },
       {
@@ -483,6 +489,9 @@
         "kriterier": [
           "Skriver uttrykket 15x + 60.",
           "Forklarer hva variabelen, koeffisienten og konstanten står for."
+        ],
+        "temaer": [
+          "monstre-og-algebra"
         ]
       },
       {
@@ -492,6 +501,9 @@
         "kriterier": [
           "Setter opp en passende likning med x som antall elever.",
           "Finner 27 elever og kontrollerer at summen stemmer."
+        ],
+        "temaer": [
+          "likninger"
         ]
       },
       {
@@ -501,6 +513,10 @@
         "kriterier": [
           "Finner x = 4 for likningen.",
           "Finner x < 4 for ulikheten og forklarer at ulikheten har flere løsninger."
+        ],
+        "temaer": [
+          "likninger",
+          "ulikheter"
         ]
       },
       {
@@ -510,6 +526,9 @@
         "kriterier": [
           "Skriver y = 2x + 100 og finner 200 kr for 50 minutter.",
           "Forklarer betydningen av stigningstallet og konstantleddet."
+        ],
+        "temaer": [
+          "funksjoner"
         ]
       },
       {
@@ -519,6 +538,10 @@
         "kriterier": [
           "Oppgir formelen 4n − 1.",
           "Forklarer at testing med kjent svar kontrollerer om algoritmen virker."
+        ],
+        "temaer": [
+          "algoritmer-og-programmering",
+          "monstre-og-algebra"
         ]
       },
       {
@@ -528,6 +551,9 @@
         "kriterier": [
           "Forkorter brøken til 3/4.",
           "Forklarer at felles primtallsfaktorer i teller og nevner kan forkortes bort."
+        ],
+        "temaer": [
+          "faktorisering-og-brok"
         ]
       },
       {
@@ -537,7 +563,10 @@
           "Finner 4² = 16 og √36 = 6.",
           "Får svaret 10."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "potenser-og-kvadratrotter"
+        ]
       },
       {
         "text": "Regn ut 1/4 + 1/6. Forklar hvordan du finner en fellesnevner ved å se på faktorene i nevnerne.",
@@ -546,7 +575,10 @@
           "Finner en fellesnevner, for eksempel 12.",
           "Regner riktig til 5/12."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "faktorisering-og-brok"
+        ]
       },
       {
         "text": "Skriv 5 600 000 på standardform, og forklar hva eksponenten i tierpotensen forteller.",
@@ -556,7 +588,10 @@
           "Forklarer at standardform bruker et tall mellom 1 og 10 ganget med en tierpotens, eller hva eksponenten viser."
         ],
         "id": "s11",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "potenser-og-kvadratrotter"
+        ]
       },
       {
         "text": "Regn ut (−5)² og −5². Forklar hvorfor svarene blir forskjellige.",
@@ -565,7 +600,10 @@
           "Finner verdiene 25 og −25 i riktig rekkefølge.",
           "Forklarer betydningen av parentesen eller rekkefølgen mellom potens og minustegn."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "potenser-og-kvadratrotter"
+        ]
       },
       {
         "text": "Fire like notatbøker og en penn til 20 kr koster til sammen 180 kr. La x være prisen på én notatbok. Sett opp en likning og finn prisen på én notatbok.",
@@ -574,7 +612,10 @@
           "Setter opp en riktig likning, for eksempel 4x + 20 = 180.",
           "Løser likningen riktig og finner 40 kr."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "likninger"
+        ]
       },
       {
         "text": "En elev har høyst 250 kr å bruke på inngangsbilletter som koster 48 kr hver. Skriv en ulikhet for antall billetter, og finn hvor mange hele billetter eleven maksimalt kan kjøpe.",
@@ -583,7 +624,10 @@
           "Setter opp en ulikhet som viser at kostnaden ikke kan være over 250 kr.",
           "Finner at det maksimale antallet hele billetter er 5."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "ulikheter"
+        ]
       },
       {
         "text": "Et kvadrat har sidelengde s. Omkretsen er P = 4s, og arealet er A = s². Sammenlign hvordan omkretsen og arealet endres når sidelengden øker fra 2 til 3.",
@@ -592,7 +636,11 @@
           "Regner ut riktige omkretser og arealer for sidelengdene 2 og 3.",
           "Sammenligner endringene og får fram at omkretsen er lineær, mens arealet følger s² og ikke øker med et fast beløp."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "funksjoner",
+          "potenser-og-kvadratrotter"
+        ]
       },
       {
         "text": "Beskriv en algoritme som avgjør om et helt tall er delelig med 3, og bruk den til å undersøke tallet 246.",
@@ -601,7 +649,10 @@
           "Beskriver at algoritmen finner tverrsummen og undersøker om den er delelig med 3.",
           "Bruker metoden riktig på 246 og konkluderer at tallet er delelig med 3."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "algoritmer-og-programmering"
+        ]
       }
     ]
   },

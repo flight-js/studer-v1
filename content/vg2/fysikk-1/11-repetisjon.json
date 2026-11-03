@@ -496,6 +496,10 @@
         "kriterier": [
           "Beskriver v-t-grafen ved konstant fart og/eller arealet som forflytning.",
           "Knytter kinetisk energi til farten i andre potens og oppgir firedobling."
+        ],
+        "temaer": [
+          "rettlinjet-bevegelse",
+          "energi-og-virkningsgrad"
         ]
       },
       {
@@ -505,6 +509,9 @@
         "kriterier": [
           "Bruker W = Fs cos α eller W = Fs når kraften er i bevegelsesretningen.",
           "Får 60 J."
+        ],
+        "temaer": [
+          "energi-og-virkningsgrad"
         ]
       },
       {
@@ -514,6 +521,9 @@
         "kriterier": [
           "Knytter impuls til endring i bevegelsesmengde.",
           "Forklarer at lengre stanstid gir mindre kraft."
+        ],
+        "temaer": [
+          "bevegelsesmengde"
         ]
       },
       {
@@ -523,6 +533,9 @@
         "kriterier": [
           "Bruker Ohms lov og løser for strømmen.",
           "Får 2,0 A."
+        ],
+        "temaer": [
+          "elektrisitet"
         ]
       },
       {
@@ -532,6 +545,9 @@
         "kriterier": [
           "Beskriver absorpsjon og tilbakesending av infrarød stråling.",
           "Knytter mindre is til lavere albedo og større absorpsjon av sollys."
+        ],
+        "temaer": [
+          "straling-og-klima"
         ]
       },
       {
@@ -541,6 +557,10 @@
         "kriterier": [
           "Forklarer sammenhengen mellom høyere temperatur og kortere bølgelengde.",
           "Bruker E = hc/λ til å forklare at fotonenergien øker."
+        ],
+        "temaer": [
+          "straling-og-klima",
+          "atommodeller-og-fusjon"
         ]
       },
       {
@@ -550,6 +570,10 @@
         "kriterier": [
           "Knytter økende luftmotstand til mindre kraftsum og avtakende akselerasjon.",
           "Beskriver beregning steg for steg med oppdatering av fart og posisjon."
+        ],
+        "temaer": [
+          "numeriske-metoder",
+          "krefter-og-newtons-lover"
         ]
       },
       {
@@ -559,6 +583,9 @@
         "kriterier": [
           "Setter potensiell energi lik kinetisk energi og bruker bevaring av mekanisk energi.",
           "Får omtrent 9,9 m/s."
+        ],
+        "temaer": [
+          "energi-og-virkningsgrad"
         ]
       },
       {
@@ -569,7 +596,11 @@
           "Gjentatte målinger eller gjennomsnitt brukes for å redusere tilfeldige feil.",
           "Forventer en lineær sammenheng mellom kraftsum og akselerasjon."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "forsok-og-modeller",
+          "krefter-og-newtons-lover"
+        ]
       },
       {
         "text": "En syklist har farten 2 m/s og akselererer jevnt med 3 m/s² i 4 s. Beregn farten etter 4 s og forflytningen i løpet av tiden.",
@@ -578,7 +609,10 @@
           "Finner sluttfarten 14 m/s.",
           "Finner forflytningen 32 m."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "rettlinjet-bevegelse"
+        ]
       },
       {
         "text": "En kloss slippes fra ro og glir ned et friksjonsfritt skråplan. Forklar hvordan kreftene og energien bidrar til bevegelsen nedover.",
@@ -587,7 +621,11 @@
           "Tyngdekraftens komponent langs planet gir akselerasjon nedover.",
           "Potensiell energi omformes til kinetisk energi, og mekanisk energi bevares uten friksjon."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "krefter-og-newtons-lover",
+          "energi-og-virkningsgrad"
+        ]
       },
       {
         "text": "En resistor på 6 Ω kobles til en spenningskilde på 12 V i 2 s. Beregn strømmen gjennom resistoren og den elektriske energien som resistoren mottar i løpet av tiden.",
@@ -596,7 +634,10 @@
           "Finner strømmen 2 A ved hjelp av Ohms lov.",
           "Finner energien 48 J, for eksempel ved å beregne effekt og bruke E = Pt."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "elektrisitet"
+        ]
       },
       {
         "text": "To vogner kolliderer i et isolert system og henger sammen etter støtet. Forklar hva som er bevart, og hva som skjer med den kinetiske energien.",
@@ -605,7 +646,10 @@
           "Samlet bevegelsesmengde er bevart i det isolerte systemet.",
           "Kinetisk energi er ikke bevart i støtet; noe omformes til andre energiformer."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "bevegelsesmengde"
+        ]
       },
       {
         "text": "En varmepumpe flytter varme fra kald uteluft inn i et varmere hus. Forklar hvorfor varmepumpen trenger tilført arbeid, og hvordan dette stemmer med energiprinsippet.",
@@ -614,7 +658,10 @@
           "Varme går av seg selv fra varmt til kaldt; arbeid trengs for å flytte den fra kaldt til varmt.",
           "Energiprinsippet gjelder: Energi skapes ikke, men overføres eller omformes."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "varme-og-temperatur"
+        ]
       },
       {
         "text": "I et forsøk med gullfolie går de fleste alfapartiklene rett gjennom, mens noen få blir kraftig avbøyd. Forklar hva resultatene sier om atomet, og hvorfor de førte til en ny atommodell.",
@@ -623,7 +670,10 @@
           "Atomet er for det meste tomrom og har en liten, tung, positiv kjerne.",
           "Resultatene utfordret Thomsons modell og støttet Rutherfords modell."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "atommodeller-og-fusjon"
+        ]
       },
       {
         "text": "Lys fra en stjerne passerer gjennom en kald gass før det når et teleskop. Forklar hvordan mørke linjer i lysspekteret kan brukes til å finne ut hvilke grunnstoffer gassen inneholder.",
@@ -632,7 +682,10 @@
           "Gassen absorberer fotoner med bestemte energier knyttet til forskjeller mellom energinivåer.",
           "Mørke linjer ved bestemte bølgelengder kan identifisere grunnstoffenes spektrale fingeravtrykk."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "atommodeller-og-fusjon"
+        ]
       }
     ]
   },

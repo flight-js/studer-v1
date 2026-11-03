@@ -512,6 +512,10 @@
         "kriterier": [
           "Nevner en kvalitativ metode, for eksempel dybdeintervjuer.",
           "Forklarer at metoden gir innsikt i erfaringer eller tanker."
+        ],
+        "temaer": [
+          "metode-og-ideologi",
+          "sosialisering-og-identitet"
         ]
       },
       {
@@ -521,6 +525,10 @@
         "kriterier": [
           "Forklarer at deling uten samtykke kan krenke personvernet.",
           "Knytter samtykke til retten til å bestemme over egne opplysninger eller grenser."
+        ],
+        "temaer": [
+          "digitale-spor-og-personvern",
+          "kjonn-seksualitet-og-grenser"
         ]
       },
       {
@@ -530,6 +538,9 @@
         "kriterier": [
           "Viser sammenhengen mellom dårlig råd og redusert deltakelse eller ensomhet.",
           "Nevner et relevant tiltak, som tilskudd til fritidsaktiviteter."
+        ],
+        "temaer": [
+          "ulikhet-og-utenforskap"
         ]
       },
       {
@@ -539,6 +550,10 @@
         "kriterier": [
           "Knytter forbruk til minst én miljøkonsekvens, som utslipp, avfall eller ressursbruk.",
           "Viser at forbruk også kan ha økonomiske eller samfunnsmessige virkninger."
+        ],
+        "temaer": [
+          "personlig-okonomi-og-forbruk",
+          "den-nordiske-modellen"
         ]
       },
       {
@@ -548,6 +563,10 @@
         "kriterier": [
           "Forklarer risikoen ved å være avhengig av én bedrift eller næring.",
           "Forklarer at variasjon gjør lokalsamfunnet mer robust."
+        ],
+        "temaer": [
+          "arbeidsliv-og-naeringsliv",
+          "ulikhet-og-utenforskap"
         ]
       },
       {
@@ -557,6 +576,9 @@
         "kriterier": [
           "Knytter arbeid eller sysselsetting til skatteinntekter.",
           "Forklarer at skatter finansierer velferdsordninger eller tjenester."
+        ],
+        "temaer": [
+          "den-nordiske-modellen"
         ]
       },
       {
@@ -566,6 +588,10 @@
         "kriterier": [
           "Forklarer hvorfor ytringsfrihet er viktig for demokratisk debatt.",
           "Viser hvordan hets kan hindre deltakelse, eller nevner at ytringsfriheten har grenser."
+        ],
+        "temaer": [
+          "menneskerettigheter-og-ytringsfrihet",
+          "politikk-makt-og-medborgerskap"
         ]
       },
       {
@@ -576,6 +602,11 @@
           "Nevner partenes interesser eller hva de kan vinne og tape.",
           "Viser at konsekvenser kan ramme grupper ulikt.",
           "Nevner en mulig konflikthåndtering, som dialog eller mekling."
+        ],
+        "temaer": [
+          "konflikter-og-utfordringer",
+          "majoritet-og-minoritet",
+          "arbeidsliv-og-naeringsliv"
         ]
       },
       {
@@ -585,7 +616,11 @@
           "Vurderer avsenderens formål eller mulige interesser.",
           "Etterspør dokumentasjon og sjekker aktualitet eller sammenligner med andre kilder."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "metode-og-ideologi",
+          "personlig-okonomi-og-forbruk"
+        ]
       },
       {
         "text": "En influenser reklamerer for klær med tilbudet «kjøp nå, betal senere». Forklar to ting en ungdom bør være oppmerksom på før kjøpet.",
@@ -594,7 +629,10 @@
           "Nevner at betalt eller sponset reklame skal merkes tydelig.",
           "Knytter kjøpet til budsjett, kostnader eller risiko for gjeld."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "personlig-okonomi-og-forbruk"
+        ]
       },
       {
         "text": "En ungdom ser mange redigerte treningsbilder på sosiale medier, og appen begynner å vise stadig flere slike bilder. Forklar hvordan digitale spor og algoritmer kan påvirke ungdommens selvfølelse.",
@@ -603,7 +641,11 @@
           "Forklarer at digitale spor kan brukes til å tilpasse anbefalinger eller innhold.",
           "Knytter gjentatt eksponering eller sammenligning med redigerte bilder til kroppspress eller selvfølelse."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "digitale-spor-og-personvern",
+          "sosialisering-og-identitet"
+        ]
       },
       {
         "text": "En skole vil at samiske elever skal delta i skolehverdagen, men også kunne bruke samisk språk og uttrykke samisk kultur. Forklar hvorfor dette er integrering, og hvordan det skiller seg fra assimilering.",
@@ -612,7 +654,10 @@
           "Forklarer at integrering kombinerer deltakelse med mulighet til å beholde egen kultur.",
           "Skiller assimilering fra integrering ved at assimilering krever at minoriteten blir lik majoriteten."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "majoritet-og-minoritet"
+        ]
       },
       {
         "text": "To jobbsøkere har like gode kvalifikasjoner, men søkeren med utenlandsk navn blir sjeldnere innkalt til intervju. Forklar hvorfor dette kan være diskriminering, og nevn ett tiltak som kan redusere problemet.",
@@ -621,7 +666,11 @@
           "Knytter forskjellsbehandlingen til etnisitet eller fordommer.",
           "Nevner et relevant tiltak, for eksempel anonymiserte jobbsøknader."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "menneskerettigheter-og-ytringsfrihet",
+          "ulikhet-og-utenforskap"
+        ]
       },
       {
         "text": "Regjeringen foreslår en ny lov, men et flertall på Stortinget sier at de ikke lenger har tillit til regjeringen. Forklar hvordan parlamentarismen påvirker regjeringens makt i denne situasjonen.",
@@ -630,7 +679,10 @@
           "Forklarer at regjeringen må ha Stortingets tillit.",
           "Viser at Stortinget dermed kan begrense eller holde regjeringen ansvarlig."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "politikk-makt-og-medborgerskap"
+        ]
       },
       {
         "text": "Et land får høyere BNP fordi det produserer og selger flere varer, men produksjonen gir også mer forurensning og innbyggerne får mindre fritid. Forklar hvorfor høyere BNP ikke nødvendigvis betyr bedre livskvalitet.",
@@ -639,7 +691,10 @@
           "Skiller mellom økonomisk vekst eller BNP og livskvalitet.",
           "Nevner at BNP ikke viser viktige forhold som fritid eller miljøskader."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "den-nordiske-modellen"
+        ]
       },
       {
         "text": "En bedrift innfører kunstig intelligens som overtar noen rutineoppgaver. Forklar hvordan endringen kan påvirke arbeidstakerne, og hvorfor livslang læring kan bli viktig.",
@@ -648,7 +703,11 @@
           "Nevner at teknologi kan fjerne oppgaver eller jobber, og eventuelt skape nye eller øke produktiviteten.",
           "Knytter endrede kompetansekrav til behovet for livslang læring."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "arbeidsliv-og-naeringsliv",
+          "den-nordiske-modellen"
+        ]
       }
     ]
   },

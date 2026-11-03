@@ -509,6 +509,9 @@
         "kriterier": [
           "Nevner variasjon mellom individer og at egenskaper kan arves.",
           "Forklarer at gunstige egenskaper gir flere avkom og blir vanligere over generasjoner."
+        ],
+        "temaer": [
+          "evolusjon"
         ]
       },
       {
@@ -518,6 +521,9 @@
         "kriterier": [
           "Knytter arealendringer til tap eller endring av natur.",
           "Forklarer at genetisk variasjon bidrar til tilpasning."
+        ],
+        "temaer": [
+          "biologisk-mangfold"
         ]
       },
       {
@@ -527,6 +533,9 @@
         "kriterier": [
           "Svar 2 kWh.",
           "Viser eller forklarer at 1000 W i én time tilsvarer 1 kWh."
+        ],
+        "temaer": [
+          "energi"
         ]
       },
       {
@@ -536,6 +545,10 @@
         "kriterier": [
           "Nevner CO₂-utslipp fra fossile brensler og kobler dem til drivhuseffekten.",
           "Nevner en lokal miljøvirkning fra en fornybar energikilde."
+        ],
+        "temaer": [
+          "energi-og-miljo",
+          "drivhuseffekten-og-klima"
         ]
       },
       {
@@ -545,6 +558,9 @@
         "kriterier": [
           "Forklarer sammenhengen mellom mindre is, lavere refleksjon og mer varmeopptak.",
           "Nevner én følge av klimaendringer."
+        ],
+        "temaer": [
+          "drivhuseffekten-og-klima"
         ]
       },
       {
@@ -565,7 +581,11 @@
           "Nevner en betingelse som styrer vifta.",
           "Nevner at sensoren kan kontrolleres mot et kjent måleinstrument."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "sender-og-mottaker",
+          "programmering-i-naturfag"
+        ]
       },
       {
         "id": "s08",
@@ -574,6 +594,9 @@
         "kriterier": [
           "Forklarer at en modell er en forenkling og brukes i simulering.",
           "Forklarer hvorfor resultater bør vurderes mot virkelige data."
+        ],
+        "temaer": [
+          "programmering-i-naturfag"
         ]
       },
       {
@@ -583,7 +606,10 @@
           "Deler nyttig energi på tilført energi.",
           "Oppgir virkningsgraden som 75 % eller 0,75."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "energi"
+        ]
       },
       {
         "text": "Gjør om 2 kWh til joule. Vis kort hvordan du regner.",
@@ -592,7 +618,10 @@
           "Bruker at 1 kWh = 3,6 millioner J.",
           "Oppgir 7,2 millioner joule, eller 7 200 000 J."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "energi"
+        ]
       },
       {
         "text": "I et vannkraftverk faller vann fra et magasin og driver en generator. Strømmen brukes senere til å få en lampe til å lyse. Forklar hvilke energiformer som er med, og hvorfor energi ikke forsvinner selv om noe av den blir mindre nyttig.",
@@ -601,7 +630,10 @@
           "Beskriver energiovergangen fra stillingsenergi via bevegelsesenergi til elektrisk energi.",
           "Nevner at energi omdannes til lys og varme, og at energi bevares selv om noe blir mindre nyttig."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "energi"
+        ]
       },
       {
         "text": "Det planlegges en vindpark i et område som brukes til reinbeite. Forklar hvordan vindparken både kan bidra til å redusere klimaendringer og påvirke naturen og menneskene som bruker området.",
@@ -612,7 +644,11 @@
           "Viser at fordeler og ulemper må veies mot hverandre."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "energi-og-miljo",
+          "biologisk-mangfold"
+        ]
       },
       {
         "text": "Et våtmarksområde bygges ned for å gi plass til boliger. Forklar hvordan dette kan påvirke både naturens mangfold og mennesker som bor i området.",
@@ -621,7 +657,10 @@
           "Forklarer at nedbygging kan fjerne leveområder og redusere biologisk mangfold.",
           "Nevner at myrer lagrer karbon eller demper flom, og knytter dette til nytte for mennesker."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "biologisk-mangfold"
+        ]
       },
       {
         "text": "Du sender en talemelding fra en mobiltelefon til en trådløs høyttaler. Forklar hvordan informasjonen går fra sender til mottaker, og hvilken rolle energi har i overføringen.",
@@ -631,7 +670,11 @@
           "Nevner radiobølger som signal og forklarer at mottakeren gjør signalet om til lyd.",
           "Knytter elektrisk energi til driften av senderen eller signaloverføringen."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "sender-og-mottaker",
+          "energi"
+        ]
       },
       {
         "text": "En gruppe undersøker om snøforhold påvirker tilgangen på reinbeite. De bruker automatiske målinger over tid og snakker med samiske reindriftsutøvere. Forklar hvordan disse kunnskapskildene kan utfylle hverandre og bidra til bærekraftig bruk av området.",
@@ -641,7 +684,11 @@
           "Forklarer hva tradisjonell samisk kunnskap kan bidra med.",
           "Knytter kombinasjonen til bærekraftig forvaltning av beite eller naturressurser."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "biologisk-mangfold",
+          "programmering-i-naturfag"
+        ]
       },
       {
         "text": "Menneskets arm, flaggermusens vinge og hvalens luffe har en lik grunnleggende benstruktur, selv om de brukes på ulike måter. Nært beslektede arter har også mer likt DNA. Forklar hva disse observasjonene kan fortelle om artenes utvikling.",
@@ -650,7 +697,10 @@
           "Knytter lik benstruktur til homologe organer og mulig felles opphav.",
           "Forklarer at likt DNA hos nært beslektede arter støtter felles forfedre."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "evolusjon"
+        ]
       }
     ]
   },

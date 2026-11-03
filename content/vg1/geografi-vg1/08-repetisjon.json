@@ -478,6 +478,9 @@
         "kriterier": [
           "Bruker at 1 cm tilsvarer 500 m.",
           "Kommer fram til 1 000 m eller 1 km."
+        ],
+        "temaer": [
+          "kart-og-feltarbeid"
         ]
       },
       {
@@ -487,6 +490,9 @@
         "kriterier": [
           "Forklarer riktig at divergerende plater beveger seg fra hverandre og nevner magma eller vulkanisme.",
           "Forklarer riktig at konvergerende plater beveger seg mot hverandre og nevner subduksjon, vulkaner eller fjellkjeder."
+        ],
+        "temaer": [
+          "landskapsformer"
         ]
       },
       {
@@ -497,7 +503,10 @@
           "Beskriver konflikten mellom kraftutbygging og reindriftens behov for beiteområder.",
           "Knytter saken til samiske kulturrettigheter og viser at flere interesser eller løsninger ble vurdert."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "ressurs-og-arealbruk"
+        ]
       },
       {
         "id": "s04",
@@ -506,6 +515,9 @@
         "kriterier": [
           "Skiller riktig mellom betinget fornybar fisk og ikke-fornybar olje.",
           "Forklarer bærekraftig forvaltning eller bærekraftig utvikling."
+        ],
+        "temaer": [
+          "ressursbruk-og-barekraft"
         ]
       },
       {
@@ -515,6 +527,9 @@
         "kriterier": [
           "Knytter menneskeskapte utslipp av drivhusgasser til forsterket drivhuseffekt og oppvarming.",
           "Gir et riktig eksempel på både utslippskutt og klimatilpasning."
+        ],
+        "temaer": [
+          "klimaendringer"
         ]
       },
       {
@@ -524,6 +539,9 @@
         "kriterier": [
           "Bruker at 1 cm tilsvarer 500 m.",
           "Kommer fram til 1 500 m eller 1,5 km."
+        ],
+        "temaer": [
+          "kart-og-feltarbeid"
         ]
       },
       {
@@ -533,6 +551,9 @@
         "kriterier": [
           "Forklarer at sårbarhet, bygninger eller beredskap påvirker konsekvensene.",
           "Nevner et relevant forebyggings- eller beredskapstiltak."
+        ],
+        "temaer": [
+          "natur-og-miljokatastrofer"
         ]
       },
       {
@@ -542,6 +563,9 @@
         "kriterier": [
           "Identifiserer tørke som push-faktor og arbeid eller utdanning som pull-faktor.",
           "Nevner en mulig utfordring ved rask urbanisering, som slumområder og dårlige boforhold."
+        ],
+        "temaer": [
+          "befolkning-og-levekar"
         ]
       },
       {
@@ -551,7 +575,11 @@
           "Forklarer hvordan flere GIS-datalag kan brukes til å vurdere området, for eksempel skredfare og bebyggelse.",
           "Nevner feltarbeid eller kildekritikk av kartkildene."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "kart-og-feltarbeid",
+          "natur-og-miljokatastrofer"
+        ]
       },
       {
         "text": "På et verdenskart ser Grønland omtrent like stort ut som Afrika, selv om Afrika i virkeligheten er rundt fjorten ganger større. Forklar hvorfor dette kan skje, og hva en annen type kartprojeksjon kan vise riktigere.",
@@ -560,7 +588,10 @@
           "Forklarer at Mercatorprojeksjonen forstørrer områder nær polene.",
           "Forklarer at projeksjoner som viser riktigere arealer, kan fordreie former."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "kart-og-feltarbeid"
+        ]
       },
       {
         "text": "Et område i Norge har morenerygger og gamle marine leiravsetninger. Forklar hvordan istid og landheving kan ha skapt disse avsetningene, og nevn én ressurs og én mulig fare knyttet til dem.",
@@ -569,7 +600,11 @@
           "Knytter morener til materiale som breene la igjen, og marin leire til gammel havbunn etter landheving.",
           "Nevner en ressurs og en mulig fare, for eksempel jordbruksjord eller grus og kvikkleireskred."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "landskapsformer",
+          "natur-og-miljokatastrofer"
+        ]
       },
       {
         "text": "Når havisen i Arktis krymper, blir nye skipsruter og ressursutvinning mer aktuelle. Forklar hvorfor dette kan gi økonomiske muligheter, men også føre til miljømessige utfordringer.",
@@ -578,7 +613,12 @@
           "Nevner økonomiske muligheter som nye skipsruter, ressursutvinning, inntekter eller arbeidsplasser.",
           "Nevner miljøutfordringer som sårbar natur, oljesøl eller utslipp som bidrar til oppvarming."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "ressurs-og-arealbruk",
+          "klimaendringer",
+          "ressursbruk-og-barekraft"
+        ]
       },
       {
         "text": "En mobil kan inneholde mineraler som er utvunnet i ett land og bearbeidet eller satt sammen i andre land. Forklar hvordan forbruk av mobilen kan påvirke mennesker og natur langt unna, og hvorfor ansvaret for bærekraft ikke bare ligger hos forbrukeren.",
@@ -587,7 +627,10 @@
           "Knytter global verdikjede og forbruk til mulige konsekvenser for mennesker eller natur andre steder.",
           "Nevner både forbrukervalg og ansvar hos myndigheter eller næringsliv."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "ressursbruk-og-barekraft"
+        ]
       },
       {
         "text": "Et land har en befolkningspyramide med smal bunn og stor andel eldre. Hva tyder dette på om fødselstallene og befolkningsutviklingen, og nevn én utfordring samfunnet kan møte.",
@@ -596,7 +639,10 @@
           "Tolk­er pyramiden som tegn på få barn/lav fødselsrate og en aldrende befolkning.",
           "Nevner en utfordring, for eksempel færre i arbeid per pensjonist eller økt behov for omsorgstjenester."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "befolkning-og-levekar"
+        ]
       },
       {
         "text": "Elever skal undersøke hvor trafikken er størst rundt skolen om morgenen. Beskriv hvordan de kan samle inn systematiske primærdata, hvordan de kan presentere funnene, og én mulig feilkilde.",
@@ -605,7 +651,10 @@
           "Beskriver systematisk innsamling av egne data, med registrering av sted og/eller tid.",
           "Nevner en måte å presentere dataene på og én relevant feilkilde."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "kart-og-feltarbeid"
+        ]
       },
       {
         "text": "Fattige land som har sluppet ut lite klimagasser, rammes ofte hardt av klimaendringer. Forklar hvorfor dette er et spørsmål om klimarettferdighet, og nevn én mulig konsekvens for en lavtliggende øystat.",
@@ -614,7 +663,10 @@
           "Forklarer skjevheten mellom små utslipp og store konsekvenser.",
           "Nevner en relevant konsekvens, for eksempel at havnivåstigning truer landområder eller levekår på lavtliggende øyer."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "klimaendringer"
+        ]
       }
     ]
   },

@@ -450,6 +450,10 @@
         "kriterier": [
           "Bruker et passende rekkefølgeord og et refleksivt verb med pronomen foran.",
           "Nevner mat eller drikke med forståelige spanske ord."
+        ],
+        "temaer": [
+          "hjemmet-og-hverdagen",
+          "mat-og-drikke"
         ]
       },
       {
@@ -459,6 +463,9 @@
         "kriterier": [
           "Spør forståelig om veien til museet.",
           "Ber høflig om gjentakelse."
+        ],
+        "temaer": [
+          "byen-og-veibeskrivelse"
         ]
       },
       {
@@ -468,6 +475,9 @@
         "kriterier": [
           "Spør om prisen med et passende uttrykk.",
           "Bruker **la** i *Me la llevo* fordi *falda* er hunkjønn."
+        ],
+        "temaer": [
+          "klaer-og-handel"
         ]
       },
       {
@@ -478,7 +488,10 @@
           "Bruker et passende tidsuttrykk for forrige helg.",
           "Bruker forståelige fortidsformer for å dra og spise."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "fortid"
+        ]
       },
       {
         "id": "s05",
@@ -488,7 +501,10 @@
           "Nevner at julaften er en kveld for familiemiddag.",
           "Nevner gavene fra de tre vise menn 6. januar."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "id": "s06",
@@ -497,6 +513,10 @@
         "kriterier": [
           "Gir en forståelig veibeskrivelse med uttrykk for retning.",
           "Nevner et klesplagg du leter etter."
+        ],
+        "temaer": [
+          "byen-og-veibeskrivelse",
+          "klaer-og-handel"
         ]
       },
       {
@@ -506,6 +526,9 @@
         "kriterier": [
           "Bruker **hay** til å si at noe finnes på rommet.",
           "Bruker **estar** og et passende plassuttrykk til å beskrive hvor jakka er."
+        ],
+        "temaer": [
+          "hjemmet-og-hverdagen"
         ]
       },
       {
@@ -516,7 +539,10 @@
           "Nevner nyttårsaften og tolv druene.",
           "Bruker et uttrykk som viser at druene spises ved midnatt."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "text": "Du spiser på en restaurant med dagens meny. Skriv på spansk hva du bestiller til første rett, hovedrett og dessert.",
@@ -525,7 +551,10 @@
           "Nevner en første rett, en hovedrett og en dessert.",
           "Bruker uttrykkene «de primero», «de segundo» og «de postre» riktig."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Skriv på spansk når dagens største måltid og kveldsmaten vanligvis spises i Spania, og hva dagens største måltid ofte består av.",
@@ -535,7 +564,10 @@
           "Nevner første rett, hovedrett og dessert som deler av comida."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Du skal hjelpe til hjemme før og etter familiens middag. Skriv på spansk hvilken oppgave du gjør før maten, og hvilken du gjør etterpå. Bruk uttrykk som viser rekkefølge.",
@@ -544,7 +576,10 @@
           "Nevner å dekke bordet før maten og ta oppvasken etterpå.",
           "Bruker passende rekkefølgeuttrykk, for eksempel «primero» og «después»."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "hjemmet-og-hverdagen"
+        ]
       },
       {
         "text": "Skriv to setninger på spansk: Si at du drar til museet, og fortell hvor postkontoret ligger i forhold til banken. Bruk riktige sammentrekninger av «a» eller «de» og «el».",
@@ -553,7 +588,10 @@
           "Bruker «al» i «voy al museo».",
           "Bruker «del» i «al lado del banco»."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "byen-og-veibeskrivelse"
+        ]
       },
       {
         "text": "Du forteller om Feria de Abril i Sevilla til en venn. Skriv på spansk hva slags fest det er, og nevn klær folk bruker der.",
@@ -563,7 +601,11 @@
           "Nevner flamenco, hester eller fargerike kjoler."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner",
+          "klaer-og-handel"
+        ]
       },
       {
         "text": "Skriv på spansk om to ting du har gjort: én avsluttet aktivitet i går og én ting du har gjort denne uken. Bruk riktig fortidsform til hvert tidsuttrykk.",
@@ -572,7 +614,10 @@
           "Bruker indefinido om aktiviteten i går.",
           "Bruker pretérito perfecto om aktiviteten denne uken."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "fortid"
+        ]
       },
       {
         "text": "En familie i Mexico feirer Día de Muertos. Skriv på spansk hva de kan sette på et ofrenda-alter, og hvorfor de gjør det.",
@@ -582,7 +627,10 @@
           "Forklarer at alteret brukes til å minnes og ære de døde."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "text": "Skriv på spansk om hva du gjør etter skolen hjemme: Ta med leksene og en oppgave du hjelper til med. Bruk et uttrykk som viser rekkefølge.",
@@ -591,7 +639,10 @@
           "Nevner at du gjør leksene etter skolen.",
           "Nevner en passende oppgave hjemme, for eksempel å rydde rommet, og bruker et rekkefølgeuttrykk."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "hjemmet-og-hverdagen"
+        ]
       }
     ]
   },

@@ -445,6 +445,9 @@
         "kriterier": [
           "Forteller om en reise i fortid med en passende form av passé composé.",
           "Beskriver været med imparfait."
+        ],
+        "temaer": [
+          "reise-og-ferie"
         ]
       },
       {
@@ -454,6 +457,9 @@
         "kriterier": [
           "Beskriver hodepine og feber med riktige uttrykk.",
           "Gir råd om å hvile og drikke vann, for eksempel med devoir eller il faut."
+        ],
+        "temaer": [
+          "helse-og-kropp"
         ]
       },
       {
@@ -463,6 +469,9 @@
         "kriterier": [
           "Bruker *devenir médecin* uten artikkel foran yrket og begrunner med *parce que*.",
           "Bruker *si* med presens og futur simple i følgesetningen."
+        ],
+        "temaer": [
+          "framtid-og-planer"
         ]
       },
       {
@@ -473,7 +482,11 @@
           "Knytter sammen sosiale medier og handlingen å dele eller publisere.",
           "Anbefaler avfallssortering og uttrykker at det er viktig å beskytte planeten."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-samfunn",
+          "ungdom-og-medier"
+        ]
       },
       {
         "id": "s05",
@@ -483,7 +496,10 @@
           "Sier at Frankrike hovedsakelig bruker atomkraft og Norge vannkraft.",
           "Foreslår et miljøtiltak som å spare energi eller kjøre mindre bil."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-samfunn"
+        ]
       },
       {
         "id": "s06",
@@ -493,7 +509,11 @@
           "Bruker *à Paris* og en framtidsform om besøket.",
           "Knytter Louvre til Mona Lisa og uttrykker en mening med en begrunnelse."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "reise-og-ferie",
+          "kunst-og-kultur"
+        ]
       },
       {
         "id": "s07",
@@ -502,6 +522,9 @@
         "kriterier": [
           "Oppgir varighet, feber og et annet symptom på fransk.",
           "Gjengir rådet om å holde senga og drikke mye vann."
+        ],
+        "temaer": [
+          "helse-og-kropp"
         ]
       },
       {
@@ -512,7 +535,11 @@
           "Bruker en framtidsform og forteller om en aktivitet på reisen.",
           "Foreslår kollektivtransport eller mindre bilbruk som miljøtiltak."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "reise-og-ferie",
+          "miljo-og-samfunn"
+        ]
       },
       {
         "text": "Un élève vient de terminer le collège et s’intéresse à une formation professionnelle. Explique deux parcours de formation possibles en France et indique comment fonctionne l’apprentissage.",
@@ -522,7 +549,10 @@
           "Expliquer que l’apprentissage permet d’apprendre dans une entreprise."
         ],
         "id": "s09",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "framtid-og-planer"
+        ]
       },
       {
         "text": "Un ami lit un article en français et ne comprend pas le mot « librairie ». Un outil de traduction lui dit que cela signifie « bibliothèque ». Explique ce que le mot veut dire et comment ton ami peut vérifier le sens sans faire confiance aveuglément à la traduction automatique.",
@@ -532,7 +562,10 @@
           "Mentionner le contexte ou le dictionnaire comme moyen de vérifier le sens.",
           "Dire que la traduction automatique peut se tromper."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "ungdom-og-medier"
+        ]
       },
       {
         "text": "Un supermarché en France veut jeter les aliments invendus et distribuer des sacs en plastique à usage unique. Explique quelles règles françaises concernent ces deux pratiques et comment elles limitent les déchets.",
@@ -542,7 +575,10 @@
           "Indiquer que les sacs en plastique à usage unique sont interdits dans les magasins."
         ],
         "id": "s11",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "miljo-og-samfunn"
+        ]
       },
       {
         "text": "Un adolescent passe beaucoup de temps devant les écrans et se sent fatigué. Écris des conseils qui relient la réduction du temps d’écran à d’autres habitudes saines.",
@@ -551,7 +587,11 @@
           "Conseiller de limiter le temps d’écran.",
           "Relier les conseils à au moins une autre habitude saine, comme dormir assez, faire du sport ou manger équilibré."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "helse-og-kropp",
+          "ungdom-og-medier"
+        ]
       },
       {
         "text": "Explique le lien entre les débuts du cinéma et un événement cinématographique connu en France. Donne l’année de la première projection publique des frères Lumière et nomme le prix principal du Festival de Cannes.",
@@ -561,7 +601,10 @@
           "Nommer la Palme d’or comme prix principal du Festival de Cannes."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Compare Stromae et Céline Dion en indiquant d’où ils viennent. Ajoute un fait sur la carrière de l’un des deux artistes.",
@@ -571,7 +614,10 @@
           "Donner un fait exact sur leur musique ou la carrière de l’un d’eux."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "kunst-og-kultur"
+        ]
       },
       {
         "text": "Explique deux règles appliquées dans les écoles publiques en France : l’une liée à la laïcité et l’autre à l’usage des téléphones portables.",
@@ -581,7 +627,11 @@
           "Indiquer que l’usage du téléphone est interdit dans les écoles et les collèges depuis 2018."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljo-og-samfunn",
+          "ungdom-og-medier"
+        ]
       },
       {
         "text": "À la réception d’un hôtel, demande une chambre double pour deux nuits et demande si le petit-déjeuner est compris.",
@@ -590,7 +640,10 @@
           "Demander une chambre double pour deux nuits.",
           "Demander si le petit-déjeuner est compris."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "reise-og-ferie"
+        ]
       }
     ]
   },

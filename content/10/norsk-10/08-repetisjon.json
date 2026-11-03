@@ -489,6 +489,9 @@
         "kriterier": [
           "Nevner sentrale trekk ved romantikken.",
           "Nevner realismen som samfunnsskildring og debatt."
+        ],
+        "temaer": [
+          "litteraturhistorie"
         ]
       },
       {
@@ -499,7 +502,10 @@
           "Identifiserer utviklingsroman.",
           "Forklarer at tilbakeblikk viser tidligere hendelser."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "romanen"
+        ]
       },
       {
         "id": "s03",
@@ -508,6 +514,9 @@
         "kriterier": [
           "Knytter Aasen til dialektene og landsmålet.",
           "Knytter Knudsen til gradvis fornorsking av dansk."
+        ],
+        "temaer": [
+          "bokmal-og-nynorsk-historie"
         ]
       },
       {
@@ -517,6 +526,9 @@
         "kriterier": [
           "Bruker begrepet kodeveksling.",
           "Forklarer at situasjonen eller samtalepartneren påvirker språkbruken."
+        ],
+        "temaer": [
+          "sprakvariasjon"
         ]
       },
       {
@@ -526,6 +538,9 @@
         "kriterier": [
           "Nevner at tonefall og kroppsspråk mangler.",
           "Foreslår å utdype meldingen eller bruke emoji."
+        ],
+        "temaer": [
+          "digitale-medier-og-sprak"
         ]
       },
       {
@@ -535,6 +550,9 @@
         "kriterier": [
           "Nevner argumenter for og mot og vurdering av dem.",
           "Forklarer at konklusjonen bygger på drøftingen."
+        ],
+        "temaer": [
+          "artikkel-og-debattinnlegg"
         ]
       },
       {
@@ -544,6 +562,9 @@
         "kriterier": [
           "Skriver «Bilane blir bygde».",
           "Identifiserer bli-passiv."
+        ],
+        "temaer": [
+          "nynorsk-skriving"
         ]
       },
       {
@@ -553,6 +574,10 @@
         "kriterier": [
           "Knytter realismen til samfunnsskildring og debatt.",
           "Forklarer hvordan epokekunnskap støtter tolkning eller kontekstualisering."
+        ],
+        "temaer": [
+          "litteraturhistorie",
+          "romanen"
         ]
       },
       {
@@ -562,7 +587,10 @@
           "Sagaene ble skrevet ned, mens folkediktningen ble overlevert muntlig.",
           "Asbjørnsen og Moe samlet og ga ut eventyr på 1800-tallet."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "litteraturhistorie"
+        ]
       },
       {
         "text": "En roman fra 1890 skildrer tankene og følelsene til en sulten forfatter i Kristiania. Forklar hvordan dette passer med nyromantikken, og hvordan indre monolog kan gi leseren innblikk i personen.",
@@ -571,7 +599,11 @@
           "Nyromantikken vendte blikket innover mot sjelelivet.",
           "Indre monolog gjengir tanker direkte og gir innblikk i personen."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "litteraturhistorie",
+          "romanen"
+        ]
       },
       {
         "text": "Sammenlign realismen og modernismen når det gjelder hva litteraturen var opptatt av, og hvordan den kunne være skrevet.",
@@ -581,7 +613,10 @@
           "Modernismen brøt med tradisjonelle former, for eksempel med frie vers.",
           "Modernistisk litteratur kunne skildre byliv eller fremmedgjøring."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "litteraturhistorie"
+        ]
       },
       {
         "text": "Etter 1814 ønsket mange at Norge skulle ha et eget skriftspråk. Forklar hvordan løsningene til Ivar Aasen og Knud Knudsen var ulike, og hvordan de henger sammen med bokmål og nynorsk i dag.",
@@ -591,7 +626,10 @@
           "Landsmål førte til nynorsk, og riksmål førte til bokmål.",
           "Bokmål og nynorsk er likestilte skriftspråk i dag."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "bokmal-og-nynorsk-historie"
+        ]
       },
       {
         "text": "En ungdomsgruppe bruker ord fra flere språk og uttrykk som «wolla» og «sjofe». Forklar hva slags språkvariant dette kan være, og hvorfor slike språkvarianter ikke bør rangeres som bedre eller dårligere enn andre dialekter.",
@@ -600,7 +638,10 @@
           "Multietnolekt kan oppstå blant unge med ulike språkbakgrunner.",
           "Vurderinger av språkvarianter kan uttrykke fordommer og status, ikke språklig kvalitet."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "sprakvariasjon"
+        ]
       },
       {
         "text": "En elev får ofte opp innlegg i sosiale medier som ligner på det eleven tidligere har likt. Forklar hvordan dette kan skape et ekkokammer, og nevn en måte eleven kan bidra til en saklig debatt på nett.",
@@ -611,7 +652,11 @@
           "Saklig debatt innebærer blant annet å lytte og svare på saken."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "digitale-medier-og-sprak",
+          "artikkel-og-debattinnlegg"
+        ]
       },
       {
         "text": "En skoleavis skal publisere en tekst som forklarer hvordan ungdom bruker sosiale medier. Beskriv to trekk som passer med en fagartikkel, og forklar én viktig forskjell mellom fagartikkelen og et debattinnlegg.",
@@ -621,7 +666,11 @@
           "Fagartikkelen bruker saklig språk og oppgir kilder.",
           "Et debattinnlegg har som formål å overbevise gjennom påstand og argumenter."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "artikkel-og-debattinnlegg",
+          "digitale-medier-og-sprak"
+        ]
       },
       {
         "text": "Skriv setningen på nynorsk: «Jeg spør noen om de har lest bøkene hjemme.»",
@@ -630,7 +679,10 @@
           "Bruk nynorske former som «eg», «nokon», «dei» og «heime».",
           "Bruk «lese» etter «har», og «bøkene» i bestemt fleirtal."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "nynorsk-skriving"
+        ]
       }
     ]
   },

@@ -436,6 +436,9 @@
         "kriterier": [
           "Bruker den høflige formen «Ich möchte …, bitte».",
           "Nevner «eine Suppe» og «ein Wasser»."
+        ],
+        "temaer": [
+          "mat-og-drikke"
         ]
       },
       {
@@ -445,6 +448,9 @@
         "kriterier": [
           "Forteller om å stå opp klokka sju og dusje refleksivt.",
           "Bruker «zuerst» eller «dann» og plasserer forstavelsen «auf» sist i setningen."
+        ],
+        "temaer": [
+          "hjemmet-og-hverdagen"
         ]
       },
       {
@@ -454,6 +460,9 @@
         "kriterier": [
           "Spør «Wie komme ich zum Museum?» og bruker riktig «zum».",
           "Ber om gjentakelse eller om at det snakkes langsommere på tysk."
+        ],
+        "temaer": [
+          "byen-og-veibeskrivelse"
         ]
       },
       {
@@ -463,6 +472,9 @@
         "kriterier": [
           "Bruker «die rote Jacke» med riktig ending på fargeadjektivet.",
           "Formidler at du vil prøve jakka på og at den passer godt."
+        ],
+        "temaer": [
+          "klaer-og-handel"
         ]
       },
       {
@@ -472,6 +484,10 @@
         "kriterier": [
           "Bruker «sein» med «gefahren» og «haben» med «gegessen».",
           "Setter partisippene sist i setningene."
+        ],
+        "temaer": [
+          "fortid",
+          "byen-og-veibeskrivelse"
         ]
       },
       {
@@ -481,6 +497,9 @@
         "kriterier": [
           "Bruker et plasseringsord, for eksempel «neben», riktig i setningen.",
           "Nevner et rom, for eksempel «das Schlafzimmer» eller «die Küche»."
+        ],
+        "temaer": [
+          "hjemmet-og-hverdagen"
         ]
       },
       {
@@ -491,7 +510,11 @@
           "Nevner «Lebkuchen», som finnes på julemarkeder.",
           "Bruker en høflig bestilling, for eksempel «Ich möchte …, bitte»."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "mat-og-drikke",
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "id": "s08",
@@ -501,7 +524,11 @@
           "Får med at barna setter fram skoene om kvelden og finner godteri om morgenen.",
           "Bruker perfektum med partisipp til slutt i setningene."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner",
+          "fortid"
+        ]
       },
       {
         "text": "Du forteller en tysk venn hva du liker til frokost. Si at du gjerne spiser rundstykker med ost og drikker melk.",
@@ -510,7 +537,10 @@
           "Nevner rundstykker med ost til frokost.",
           "Sier at du gjerne drikker melk."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Forklar på tysk hvordan tradisjonell lunsj og kveldsmat ofte er forskjellige i Tyskland.",
@@ -520,7 +550,11 @@
           "Sier at mange familier spiser brød med pålegg om kvelden."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner",
+          "mat-og-drikke"
+        ]
       },
       {
         "text": "Du forteller en venn om ettermiddagen din. Si på tysk at du tar bussen til skolen, og at du gjør lekser etter skolen.",
@@ -529,7 +563,11 @@
           "Bruker *mit dem Bus* og sier at du drar til skolen.",
           "Sier at du gjør lekser etter skolen."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "hjemmet-og-hverdagen",
+          "byen-og-veibeskrivelse"
+        ]
       },
       {
         "text": "Sammenlign Sankt Martin og Fasching på tysk. Fortell hva barn gjør på Sankt Martin, og hva som skjer under Fasching.",
@@ -539,7 +577,10 @@
           "Nevner kostymer, musikk eller opptog under Fasching."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       },
       {
         "text": "Fortell på tysk at du i går gikk på kino i byen, og at det var kjempegøy. Bruk fortidsform.",
@@ -548,7 +589,10 @@
           "Bruker perfektum med *bin ... gegangen* om kinoturen.",
           "Bruker *war* for å si at det var kjempegøy."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "fortid"
+        ]
       },
       {
         "text": "Du ser etter en genser og vil gjerne kjøpe brukte klær. Fortell på tysk at du ser etter en genser, og forklar fordelene med brukte klær.",
@@ -558,7 +602,10 @@
           "Sier at brukte klær er billigere og bedre for miljøet."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "klaer-og-handel"
+        ]
       },
       {
         "text": "Fortell på tysk hva du gjør etter skolen og hvordan du hjelper til hjemme: Du gjør lekser først, rydder rommet etterpå og støvsuger.",
@@ -567,7 +614,10 @@
           "Bruker ord for rekkefølge og sier at du gjør lekser først.",
           "Sier at du rydder rommet og støvsuger."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "hjemmet-og-hverdagen"
+        ]
       },
       {
         "text": "Fortell en norsk venn på tysk hva nyttårsaften heter i Tyskland, hvordan den feires, og hva man sier før og etter midnatt.",
@@ -577,7 +627,10 @@
           "Sier *Guten Rutsch!* før midnatt og *Frohes neues Jahr!* etter midnatt."
         ],
         "id": "s16",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "hoytider-og-tradisjoner"
+        ]
       }
     ]
   },

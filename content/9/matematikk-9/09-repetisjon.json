@@ -489,6 +489,10 @@
         "kriterier": [
           "Regner målestokken om til 2 km.",
           "Bruker t = s / v og får 0,4 timer eller 24 minutter."
+        ],
+        "temaer": [
+          "formlikhet-og-kongruens",
+          "sammensatte-maleenheter"
         ]
       },
       {
@@ -498,6 +502,9 @@
         "kriterier": [
           "Bruker Pytagoras og får diagonalen 15 cm.",
           "Forklarer at diagonalen danner en rettvinklet trekant med rektangelets sider som kateter."
+        ],
+        "temaer": [
+          "pytagoras"
         ]
       },
       {
@@ -507,6 +514,9 @@
         "kriterier": [
           "Beregner volumet til 1 m³ og gjør det om til 1000 L.",
           "Skiller volum fra overflateareal og velger overflateareal for maling."
+        ],
+        "temaer": [
+          "overflate-og-volum"
         ]
       },
       {
@@ -517,6 +527,10 @@
           "Finner teoretisk sannsynlighet 1/6 ved 6 gunstige av 36 mulige utfall.",
           "Beskriver gjentatte tilfeldige forsøk og relativ frekvens.",
           "Forklarer at simuleringen gir variasjon og et anslag."
+        ],
+        "temaer": [
+          "sannsynlighet",
+          "simulering"
         ]
       },
       {
@@ -526,6 +540,9 @@
         "kriterier": [
           "Velger linjediagram for utvikling over tid.",
           "Forklarer at en avkuttet akse kan overdrive inntrykket av forskjeller."
+        ],
+        "temaer": [
+          "statistikk-i-media"
         ]
       },
       {
@@ -535,6 +552,9 @@
         "kriterier": [
           "Forklarer at klassene kan ha ulik spredning selv om gjennomsnittet er likt.",
           "Nevner variasjonsbredde eller kvartilbredde som spredningsmål."
+        ],
+        "temaer": [
+          "sentralmal-og-spredning"
         ]
       },
       {
@@ -544,6 +564,9 @@
         "kriterier": [
           "Finner sylinderens volum som tre ganger kjeglens, altså 120 cm³.",
           "Bruker at kjeglen har en tredjedel av sylinderens volum ved samme grunnflate og høyde."
+        ],
+        "temaer": [
+          "overflate-og-volum"
         ]
       },
       {
@@ -555,7 +578,11 @@
           "Angir randint(1, 6) for begge terningene.",
           "Sammenligner relativ frekvens med teoretisk sannsynlighet 1/6."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "simulering",
+          "sannsynlighet"
+        ]
       },
       {
         "text": "En pakke på 400 g koster 34 kr, og en pakke på 600 g koster 48 kr. Hvilken pakke er billigst per kilo? Vis hvordan du sammenligner enhetsprisene.",
@@ -564,7 +591,10 @@
           "Regner ut enhetsprisene riktig: 85 kr/kg og 80 kr/kg.",
           "Konkluderer med at pakken på 600 g er billigst per kilo."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "sammensatte-maleenheter"
+        ]
       },
       {
         "text": "To trekanter har sidelengdene 3 cm, 4 cm og 5 cm og 6 cm, 8 cm og 10 cm. Forklar om trekantene er kongruente eller formlike, og om de er rettvinklede.",
@@ -573,7 +603,11 @@
           "Forklarer at sidene er proporsjonale, men at trekantene ikke er kongruente.",
           "Bruker Pytagoras' setning til å begrunne at trekantene er rettvinklede."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "formlikhet-og-kongruens",
+          "pytagoras"
+        ]
       },
       {
         "text": "En syklist sykler 900 meter på 3 minutter. Hva er farten i meter per sekund og kilometer per time?",
@@ -582,7 +616,10 @@
           "Finner farten 5 m/s ved å dele strekningen på tiden i sekunder.",
           "Gjør om til 18 km/h ved å gange med 3,6."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "sammensatte-maleenheter"
+        ]
       },
       {
         "text": "En gjenstand har masse 240 g og volum 80 cm³. Finn tettheten, og forklar om gjenstanden flyter i vann.",
@@ -591,7 +628,10 @@
           "Regner ut tettheten 3 g/cm³.",
           "Sammenligner med vann og konkluderer med at gjenstanden synker."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "sammensatte-maleenheter"
+        ]
       },
       {
         "text": "En figur forstørres slik at alle sidene blir fire ganger så lange. Hvordan endres arealet? Forklar sammenhengen mellom forstørrelsesfaktoren for lengder og areal.",
@@ -600,7 +640,10 @@
           "Svarer at arealet blir 16 ganger så stort.",
           "Forklarer at arealfaktoren er kvadratet av forstørrelsesfaktoren for lengder."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "formlikhet-og-kongruens"
+        ]
       },
       {
         "text": "En åpen nettavstemning med 200 deltakere viser at 65 % støtter et forslag om en ny skatepark. Kan kommunen bruke resultatet til å fastslå hvor stor andel av alle innbyggerne som støtter forslaget? Forklar, og foreslå en bedre måte å undersøke saken på.",
@@ -609,7 +652,10 @@
           "Forklarer at et åpent nettutvalg kan være skjevt og ikke representativt.",
           "Foreslår et tilfeldig og tilstrekkelig stort utvalg av innbyggerne."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "statistikk-i-media"
+        ]
       },
       {
         "text": "I en simulering av myntkast ble det kron i 61 av 100 kast og i 5034 av 10 000 kast. Finn den relative frekvensen for kron i begge simuleringene, og forklar hvilket resultat som ligger nærmest sannsynligheten for kron på en rettferdig mynt.",
@@ -618,7 +664,11 @@
           "Finner relative frekvenser på 61 % og 50,34 %.",
           "Velger simuleringen med 10 000 kast og knytter den til sannsynligheten 50 % og mange forsøk."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "sannsynlighet",
+          "simulering"
+        ]
       },
       {
         "text": "En sylinder har radius 3 cm og høyde 10 cm. Hvis sideflaten klippes opp og brettes ut til et rektangel, hvilke mål får rektangelet, og hva er sylinderens totale overflateareal?",
@@ -627,7 +677,10 @@
           "Oppgir rektangelets mål som 6π cm og 10 cm.",
           "Regner ut total overflate som 78π cm² ved å ta med de to sirklene og sideflaten."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "overflate-og-volum"
+        ]
       }
     ]
   },

@@ -164,6 +164,11 @@ function checkTema(file, tema, fag) {
         if (!nonEmpty(s.id) || !nonEmpty(s.text) || !nonEmpty(s.fasit)) err(where, `skriveoppgave ${s.id ?? "?"} mangler id, tekst eller fasit`);
         if (!Array.isArray(s.kriterier) || !inRange(s.kriterier.length, [1, 3]) || !s.kriterier.every(nonEmpty))
           err(where, `${s.id}: skriveoppgaven må ha 1–3 kriterier`);
+        // Repetisjonen: temaene oppgaven bygger på (slugs, se merk-repetisjon-skriv.mjs).
+        if (s.temaer !== undefined && (tema.id !== "repetisjon" || !Array.isArray(s.temaer) || !inRange(s.temaer.length, [1, 3]) || !s.temaer.every(nonEmpty)))
+          err(where, `${s.id}: temaer må være 1–3 temaer, og bare i repetisjonstemaet`);
+        else if (s.temaer?.some((x) => x === "repetisjon" || !fag.temaer.includes(x)))
+          err(where, `${s.id}: ukjent tema i temaer (${s.temaer.join(", ")})`);
         if (ids.has(s.id)) err(where, `id «${s.id}» finnes to ganger`);
         checkNiva(where, s, s.id);
         ids.add(s.id);

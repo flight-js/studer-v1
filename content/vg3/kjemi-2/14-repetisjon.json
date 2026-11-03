@@ -502,6 +502,9 @@
         "kriterier": [
           "Skiller riktig mellom presisjon og nøyaktighet.",
           "Knytter systematisk feil til at resultatene trekkes i én retning."
+        ],
+        "temaer": [
+          "forsok-modeller-og-kunnskapsutvikling"
         ]
       },
       {
@@ -511,6 +514,9 @@
         "kriterier": [
           "Setter katode- og anodepotensial inn i riktig rekkefølge.",
           "Får E°celle = 1,10 V."
+        ],
+        "temaer": [
+          "redoks-og-elektrokjemi"
         ]
       },
       {
@@ -520,6 +526,9 @@
         "kriterier": [
           "Bruker syrekonsentrasjonen som [H₃O⁺] for en sterk syre.",
           "Får pH = 2,0."
+        ],
+        "temaer": [
+          "ph-beregninger"
         ]
       },
       {
@@ -529,6 +538,10 @@
         "kriterier": [
           "Forklarer at aktiveringsenergien senkes og reaksjonsfarten øker.",
           "Forklarer at likevekten ikke endres, men nås raskere."
+        ],
+        "temaer": [
+          "katalyse",
+          "likevekt-og-massevirkningsloven"
         ]
       },
       {
@@ -538,6 +551,10 @@
         "kriterier": [
           "Knytter spontanitet til ΔG < 0.",
           "Skiller spontanitet fra reaksjonsfart og knytter lav fart til aktiveringsenergi."
+        ],
+        "temaer": [
+          "entropi-entalpi-og-spontanitet",
+          "katalyse"
         ]
       },
       {
@@ -547,6 +564,9 @@
         "kriterier": [
           "Beskriver korrosjon som oksidasjon i en redoksreaksjon.",
           "Forklarer at offeranoden korroderer i stedet for konstruksjonen."
+        ],
+        "temaer": [
+          "redoks-og-elektrokjemi"
         ]
       },
       {
@@ -556,6 +576,9 @@
         "kriterier": [
           "Bruker forholdet mellom stoffets vandring og løsemiddelfrontens vandring.",
           "Får Rf = 0,50."
+        ],
+        "temaer": [
+          "kromatografi"
         ]
       },
       {
@@ -565,6 +588,10 @@
         "kriterier": [
           "Beskriver kondensasjon som sammenkobling der ofte vann spaltes av.",
           "Beskriver hydrolyse som spalting ved hjelp av vann."
+        ],
+        "temaer": [
+          "organiske-reaksjonstyper",
+          "metaller-plast-og-gronn-kjemi"
         ]
       },
       {
@@ -574,7 +601,11 @@
           "Strømstyrke er den uavhengige variabelen, og utfelt kobbermasse er den avhengige variabelen.",
           "Kontrollerer relevante variabler, for eksempel elektrolysetid, og gjentar forsøkene."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "forsok-modeller-og-kunnskapsutvikling",
+          "redoks-og-elektrokjemi"
+        ]
       },
       {
         "text": "Jern kan framstilles ved å redusere jernoksid med karbon, mens en annen metode bruker hydrogen som reduksjonsmiddel. Forklar hvilken rolle reduksjonsmiddelet har i redoksreaksjonen, og hvorfor hydrogenmetoden kan gi mindre CO₂-utslipp.",
@@ -583,7 +614,11 @@
           "Reduksjonsmiddelet avgir elektroner og oksideres; jernoksidet reduseres.",
           "Hydrogen som reduksjonsmiddel gir vann i stedet for CO₂."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "redoks-og-elektrokjemi",
+          "metaller-plast-og-gronn-kjemi"
+        ]
       },
       {
         "text": "Reaksjonen N₂(g) + 3H₂(g) ⇌ 2NH₃(g) er eksoterm. Forklar hvordan en temperaturøkning påvirker ammoniakkutbyttet ved likevekt, og hva som skjer med likevektskonstanten.",
@@ -592,7 +627,10 @@
           "Økt temperatur forskyver likevekten mot reaktantene fordi reaksjonen mot NH₃ er eksoterm.",
           "Temperaturendring endrer verdien av K."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "likevekt-og-massevirkningsloven"
+        ]
       },
       {
         "text": "En buffer inneholder en svak syre med pKa = 4,7. Forholdet mellom konsentrasjonen av den korresponderende basen og syren er 10. Beregn pH i bufferen.",
@@ -601,7 +639,10 @@
           "Bruker bufferligningen med base/syre-forholdet 10.",
           "Får pH = 5,7."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "buffere"
+        ]
       },
       {
         "text": "En løsning inneholder sølvioner og kloridioner med konsentrasjonene 1,0 · 10⁻⁴ mol/L av hver. For AgCl er Ksp = 1,0 · 10⁻¹⁰. Beregn ioneproduktet Q og avgjør om det dannes bunnfall.",
@@ -610,7 +651,10 @@
           "Beregner Q = 1,0 · 10⁻⁸.",
           "Sammenligner Q med Ksp og konkluderer med at det dannes bunnfall."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "loselighet"
+        ]
       },
       {
         "text": "Du undersøker en reaksjonsblanding med tynnsjiktkromatografi på en polar silikaplate med et upolart løsemiddel. Forklar hvilket av et polart og et upolart stoff som vanligvis vandrer lengst, og hvordan du kan vurdere om et isolert produkt er rent.",
@@ -619,7 +663,11 @@
           "Det upolare stoffet vandrer vanligvis lengst under de beskrevne forholdene.",
           "Én flekk tyder på at produktet er rent."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "kromatografi",
+          "synteser-utbytte-og-renhet"
+        ]
       },
       {
         "text": "Polyeten (PE) og PET er plasttyper som dannes ved ulike reaksjonstyper. Forklar forskjellen på hvordan de dannes, og hva som skjer med polymerene ved kjemisk gjenvinning.",
@@ -628,7 +676,11 @@
           "PE dannes ved addisjon, mens PET dannes ved kondensasjon.",
           "Kjemisk gjenvinning bryter polymerer ned til monomerer."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "metaller-plast-og-gronn-kjemi",
+          "organiske-reaksjonstyper"
+        ]
       },
       {
         "text": "Pepsin i magesekken virker best i sur løsning, mens enzymer i tynntarmen virker best ved nøytral til svakt basisk pH. Forklar hvorfor ulike enzymer har ulike pH-optimum, og hvorfor svært feil pH kan føre til at et enzym slutter å virke.",
@@ -637,7 +689,11 @@
           "Enzymers pH-optimum henger sammen med strukturen og det aktive setet.",
           "Feil pH kan endre proteinstrukturen og denaturere enzymet."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "katalyse",
+          "biologiske-makromolekyler"
+        ]
       }
     ]
   },

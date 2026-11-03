@@ -503,6 +503,10 @@
         "kriterier": [
           "Skiller mellom det som endres, det som måles, og forhold som holdes like.",
           "Nevner gjentakelser eller feilkilder og vurdering av modellen mot målinger eller forenklinger."
+        ],
+        "temaer": [
+          "naturvitenskapelig-metode",
+          "programmering-og-modellering"
         ]
       },
       {
@@ -512,6 +516,10 @@
         "kriterier": [
           "Knytter kortere bølgelengde til høyere energi.",
           "Skiller mellom ikke-ioniserende radiobølger og ioniserende røntgenstråling, som kan skade DNA."
+        ],
+        "temaer": [
+          "straling",
+          "bolger-og-tradlos-kommunikasjon"
         ]
       },
       {
@@ -521,6 +529,9 @@
         "kriterier": [
           "Bruker formelen v = λ · f.",
           "Får bølgefarten 200 m/s."
+        ],
+        "temaer": [
+          "bolger-og-tradlos-kommunikasjon"
         ]
       },
       {
@@ -530,6 +541,9 @@
         "kriterier": [
           "Finner at 16 dager tilsvarer to halveringstider.",
           "Oppgir 16 gram som gjenværende mengde."
+        ],
+        "temaer": [
+          "straling"
         ]
       },
       {
@@ -539,6 +553,9 @@
         "kriterier": [
           "Forklarer at fossile brensler inneholder lagret karbon.",
           "Knytter forbrenning til utslipp av CO₂ og økt mengde i atmosfæren."
+        ],
+        "temaer": [
+          "karbonforbindelser"
         ]
       },
       {
@@ -548,6 +565,10 @@
         "kriterier": [
           "Forklarer bioakkumulering eller biomagnifisering riktig.",
           "Knytter miljøgifter i mat til kostråd for mennesker."
+        ],
+        "temaer": [
+          "miljogifter",
+          "kosthold-og-helse"
         ]
       },
       {
@@ -557,6 +578,9 @@
         "kriterier": [
           "Knytter arvelig variasjon og ulik reproduksjon til naturlig utvalg over generasjoner.",
           "Nevner en mulig følge av klimaendringer for arten."
+        ],
+        "temaer": [
+          "arv-og-evolusjon"
         ]
       },
       {
@@ -566,6 +590,9 @@
         "kriterier": [
           "Forklarer at slike endringer kan arves videre.",
           "Knytter føre-var-prinsippet til forsiktighet ved usikker risiko."
+        ],
+        "temaer": [
+          "bioteknologi"
         ]
       },
       {
@@ -576,7 +603,10 @@
           "Forklarer at mindre tidssteg kan gi større nøyaktighet, men lengre kjøretid."
         ],
         "id": "s09",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "programmering-og-modellering"
+        ]
       },
       {
         "text": "Et mellommåltid inneholder 2 g fett og 3 g karbohydrater. Fett gir omtrent 37 kJ per gram, og karbohydrater gir omtrent 17 kJ per gram. Hvor mye energi gir disse næringsstoffene til sammen?",
@@ -585,7 +615,10 @@
           "Regner ut energien fra fett til 74 kJ og fra karbohydrater til 51 kJ.",
           "Oppgir riktig samlet energi: 125 kJ."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "kosthold-og-helse"
+        ]
       },
       {
         "text": "Karbondioksid fra atmosfæren tas opp av havet. Forklar hvordan dette påvirker havet, og nevn en mulig konsekvens for organismer som lever der.",
@@ -595,7 +628,10 @@
           "Nevner at dette kan skade for eksempel koraller eller skjell."
         ],
         "id": "s11",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "karbonforbindelser"
+        ]
       },
       {
         "text": "Karbon finnes i kroppen vår. Forklar hvordan karbonatomer kan ha blitt dannet i universet og senere blitt en del av levende organismer på jorda.",
@@ -605,7 +641,11 @@
           "Forklarer at stoffene spres ut i rommet og kan inngå i nye planeter og organismer."
         ],
         "id": "s12",
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "universets-opprinnelse",
+          "karbonforbindelser"
+        ]
       },
       {
         "text": "En saltkrystall leder ikke elektrisk strøm, men en saltløsning gjør det. Forklar forskjellen ved å bruke kunnskap om ioner og hvordan de kan bevege seg.",
@@ -614,7 +654,10 @@
           "Forklarer at ionene er bundet på plass i fast salt.",
           "Forklarer at ionene kan bevege seg i løsningen og dermed lede strøm."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "kjemiske-bindinger"
+        ]
       },
       {
         "text": "Fett i maten hjelper kroppen med å ta opp vitaminene A, D, E og K. Samtidig kan enkelte miljøgifter lagres i fettvev. Forklar hvordan fett kan ha både en nyttig funksjon og bidra til at miljøgifter blir værende i kroppen.",
@@ -623,7 +666,11 @@
           "Nevner at fett hjelper kroppen med opptak av vitaminene A, D, E og K.",
           "Forklarer at fettløselige miljøgifter kan lagres i fettvev og hope seg opp."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "kosthold-og-helse",
+          "miljogifter"
+        ]
       },
       {
         "text": "Bakterier kan genmodifiseres slik at de produserer insulin til personer med diabetes. Forklar hvilken rolle insulin-genet har i dette, og hvorfor bakteriene kan lage insulin.",
@@ -633,7 +680,10 @@
           "Knytter insulin-genet til at de genmodifiserte bakteriene kan produsere insulin."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "bioteknologi"
+        ]
       },
       {
         "text": "En måling av radon i inneluft oppgis i becquerel, mens stråledosen til en person oppgis i sievert. Forklar hva de to enhetene måler, og hvorfor radon i boliger er viktig å følge med på.",
@@ -642,7 +692,10 @@
           "Skiller mellom Bq som mål på aktivitet og Sv som mål på biologisk virkning.",
           "Nevner at radon kan samle seg i hus og utgjør en helserisiko, blant annet for lungekreft."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "straling"
+        ]
       }
     ]
   },

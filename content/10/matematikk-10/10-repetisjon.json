@@ -485,6 +485,9 @@
         "kriterier": [
           "Ganger 2 med begge leddene i parentesen.",
           "Samler 3x og 2x til 5x."
+        ],
+        "temaer": [
+          "regneregler-og-algebra"
         ]
       },
       {
@@ -494,6 +497,9 @@
         "kriterier": [
           "Bruker faktorene 1,20 og 0,80.",
           "Får samlet faktor 0,96 eller forklarer at sluttverdien er 4 % lavere."
+        ],
+        "temaer": [
+          "prosentvis-endring"
         ]
       },
       {
@@ -503,6 +509,9 @@
         "kriterier": [
           "Finner et månedlig overskudd på 400 kr.",
           "Regner ut årlig sparing på 4800 kr."
+        ],
+        "temaer": [
+          "personlig-okonomi"
         ]
       },
       {
@@ -512,6 +521,11 @@
         "kriterier": [
           "Knytter lineær sammenheng til lik endring i antall.",
           "Knytter eksponentiell sammenheng til lik endring i prosent."
+        ],
+        "temaer": [
+          "funksjonstyper",
+          "lineaere-funksjoner",
+          "prosentvis-endring"
         ]
       },
       {
@@ -521,6 +535,9 @@
         "kriterier": [
           "Setter opp to likninger som passer til opplysningene.",
           "Finner at ett eple koster 5 kr."
+        ],
+        "temaer": [
+          "likningssett"
         ]
       },
       {
@@ -530,6 +547,9 @@
         "kriterier": [
           "Nevner at 40 år ligger utenfor modellens gyldighetsområde.",
           "Forklarer at ekstrapolering kan gi urimelige svar."
+        ],
+        "temaer": [
+          "modellering"
         ]
       },
       {
@@ -539,6 +559,9 @@
         "kriterier": [
           "Oppgir utskriften 6.",
           "Forklarer at range(1, 4) gir verdiene 1, 2 og 3."
+        ],
+        "temaer": [
+          "python-i-matematikk"
         ]
       },
       {
@@ -548,6 +571,9 @@
         "kriterier": [
           "Velger effektiv rente for å sammenligne lån.",
           "Forklarer at effektiv rente inkluderer kostnader, mens nominell rente ikke gjør det."
+        ],
+        "temaer": [
+          "personlig-okonomi"
         ]
       },
       {
@@ -557,7 +583,10 @@
           "Uttrykket blir x² + 10x + 25.",
           "Forklarer at de to rektanglene gir midtleddet 10x."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "kvadratsetningene"
+        ]
       },
       {
         "text": "Forenkle 2³ · 2⁻² uten kalkulator, og forklar hvilken potensregel du bruker.",
@@ -566,7 +595,10 @@
           "Legger sammen eksponentene og får 2¹.",
           "Oppgir svaret 2."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "regneregler-og-algebra"
+        ]
       },
       {
         "text": "På en gård er det høner og kaniner. Til sammen er det 20 dyr og 56 bein. Sett opp et likningssett, og finn hvor mange kaniner det er.",
@@ -575,7 +607,10 @@
           "Setter opp likninger som uttrykker antall dyr og antall bein.",
           "Finner 8 kaniner og får verdier som passer i begge likningene."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "likningssett"
+        ]
       },
       {
         "text": "To budtjenester tar betalt etter avstanden x i kilometer. Tjeneste A koster 40 kr pluss 8 kr per kilometer, og tjeneste B koster 12 kr pluss 12 kr per kilometer. Finn hvilken tjeneste som er billigst ved 5 km, og ved hvilken avstand de koster like mye.",
@@ -584,7 +619,11 @@
           "Finner at tjeneste B er billigst ved 5 km.",
           "Finner skjæringspunktet i avstand ved x = 7 km."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "lineaere-funksjoner",
+          "likningssett"
+        ]
       },
       {
         "text": "To sparealternativer starter begge med 1000 kr. På konto A vokser beløpet med 10 % hvert år. På konto B øker beløpet med 100 kr hvert år. Sammenlign beløpene etter to år, og forklar hvilken konto som følger en eksponentiell sammenheng.",
@@ -593,7 +632,11 @@
           "Finner 1210 kr på konto A og 1200 kr på konto B.",
           "Skiller mellom fast prosentvis vekst og fast økning i kroner."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "prosentvis-endring",
+          "funksjonstyper"
+        ]
       },
       {
         "text": "Forklar forskjellen på et serielån og et annuitetslån når det gjelder avdrag og terminbeløp.",
@@ -603,7 +646,10 @@
           "Beskriver like store terminbeløp og endret fordeling mellom renter og avdrag i annuitetslån."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "personlig-okonomi"
+        ]
       },
       {
         "text": "En plante vokser 3 cm hver uke i målingene de første seks ukene. En bakteriekultur øker med 5 % hver time. Hvilken funksjonstype passer best til hver utvikling, og hvorfor bør du være forsiktig med å bruke plantemodellen til å forutsi høyden langt fram i tid?",
@@ -612,7 +658,12 @@
           "Knytter fast økning i antall til lineær funksjon og fast prosentvis økning til eksponentialfunksjon.",
           "Forklarer at plantemodellen har et begrenset gyldighetsområde."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "funksjonstyper",
+          "lineaere-funksjoner",
+          "prosentvis-endring"
+        ]
       },
       {
         "text": "Hva skriver dette Python-programmet ut? Forklar hvordan funksjonen og betingelsen avgjør hva som blir skrevet ut.\n```python\ndef f(x):\n    return 2*x + 1\n\nfor x in range(1, 4):\n    if f(x) > 5:\n        print(x)\n```",
@@ -621,7 +672,11 @@
           "Oppgir at programmet skriver ut 3.",
           "Forklarer at range(1, 4) gir 1, 2 og 3, og at bare f(3) er større enn 5."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "python-i-matematikk",
+          "funksjonstyper"
+        ]
       }
     ]
   },

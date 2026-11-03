@@ -439,6 +439,9 @@
         "kriterier": [
           "Forklarer at kvantitative metoder gir bredde eller tall, mens kvalitative metoder gir dybde.",
           "Nevner en relevant begrensning ved hver metode."
+        ],
+        "temaer": [
+          "samfunnsvitenskapelig-metode"
         ]
       },
       {
@@ -449,7 +452,11 @@
           "Knytter sosialisering til læring av normer eller påvirkning fra sosialiseringsagenter.",
           "Forklarer inntrykksstyring som å forme inntrykket andre får."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "sosialisering",
+          "medier-og-samhandling"
+        ]
       },
       {
         "id": "s03",
@@ -458,6 +465,10 @@
         "kriterier": [
           "Knytter frafall til økt risiko for utenforskap fra arbeidslivet.",
           "Forklarer hvordan kompetansekrav kan være en samfunnsmessig barriere."
+        ],
+        "temaer": [
+          "marginalisering-og-inkludering",
+          "arbeid-og-produksjon"
         ]
       },
       {
@@ -467,6 +478,10 @@
         "kriterier": [
           "Forklarer at integrering kombinerer deltakelse med mulighet til å beholde kultur.",
           "Forklarer at assimilering innebærer å gi opp egen kultur og bli lik majoriteten."
+        ],
+        "temaer": [
+          "kulturendring-og-mangfold",
+          "kulturbegrepet"
         ]
       },
       {
@@ -476,6 +491,9 @@
         "kriterier": [
           "Forklarer hvordan stempling kan påvirke selvbildet eller videre handlinger.",
           "Skiller mellom primæravvik og mulig sekundæravvik."
+        ],
+        "temaer": [
+          "sosiale-avvik"
         ]
       },
       {
@@ -485,6 +503,9 @@
         "kriterier": [
           "Forklarer kulturell kapital med eksempler som språk, kunnskap eller vaner.",
           "Knytter skolens belønning av ulik kapital til reproduksjon av ulikhet."
+        ],
+        "temaer": [
+          "lagdeling-og-sosial-mobilitet"
         ]
       },
       {
@@ -494,6 +515,9 @@
         "kriterier": [
           "Gir et relevant eksempel på at klimatiltak kan ha ulik virkning for ulike grupper.",
           "Knytter rettferdig omstilling til fordeling av byrder og bærekraft."
+        ],
+        "temaer": [
+          "ideologi-rettferdighet-og-barekraft"
         ]
       },
       {
@@ -503,6 +527,9 @@
         "kriterier": [
           "Forklarer hvordan algoritmer velger innhold ut fra tidligere bruk.",
           "Nevner filterbobler eller ekkokamre og en mulig følge, som polarisering."
+        ],
+        "temaer": [
+          "medier-og-samhandling"
         ]
       },
       {
@@ -512,7 +539,10 @@
           "Foreslår en egnet kvalitativ metode som gir innsikt i elevenes erfaringer.",
           "Nevner et relevant forskningsetisk hensyn, som informert samtykke eller anonymitet."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "samfunnsvitenskapelig-metode"
+        ]
       },
       {
         "text": "En skole bruker digitale logger til å registrere når elever kommer for sent, og elevene vet at ledelsen kan følge med. Forklar situasjonen med Foucaults begrep disiplinmakt, og vis hvordan elevenes handlinger også kan påvirke skolens praksis.",
@@ -521,7 +551,10 @@
           "Knytter disiplinmakt til overvåking og at mennesker tilpasser seg normer.",
           "Viser at elevers handlinger kan påvirke eller endre praksis og strukturer."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "makt"
+        ]
       },
       {
         "text": "En global motetrend blir populær blant ungdom i Norge, men de blander den med lokale klær og uttrykk. Forklar hvordan dette kan være et eksempel på både kulturell spredning og kulturell blanding.",
@@ -530,7 +563,11 @@
           "Forklarer diffusjon som spredning av kulturelle impulser.",
           "Knytter blandingen av globale og lokale elementer til hybridisering/kreolisering eller kulturendring."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "kulturendring-og-mangfold",
+          "kulturbegrepet"
+        ]
       },
       {
         "text": "En seremoni markerer at en person går fra én sosial status til en annen. Forklar de tre fasene i en overgangsrite, og hvordan ritualet kan hjelpe personen inn i en ny rolle.",
@@ -539,7 +576,10 @@
           "Nevner atskillelse, liminal overgangsfase og innlemmelse.",
           "Forklarer at ritualet markerer ny status eller hjelper personen inn i en ny rolle."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "kulturbegrepet"
+        ]
       },
       {
         "text": "En kjent kunstner har høy anseelse, men middels inntekt og liten innflytelse på politiske beslutninger. Forklar hvordan Weber ville skilt mellom personens klasse, stand og parti.",
@@ -548,7 +588,11 @@
           "Knytter klasse til økonomisk posisjon, som inntekt.",
           "Knytter stand til status og anseelse, og parti til politisk makt eller innflytelse."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "lagdeling-og-sosial-mobilitet",
+          "makt"
+        ]
       },
       {
         "text": "En person ønsker å bli rik, men bruker svindel fordi hen mener at lovlige veier til målet ikke er tilgjengelige. Hvilken tilpasning hos Merton beskriver dette, og hvorfor?",
@@ -557,7 +601,10 @@
           "Identifiserer tilpasningen som innovasjon.",
           "Forklarer at personen godtar målet, men bruker ulovlige midler."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "sosiale-avvik"
+        ]
       },
       {
         "text": "På et moderne sykehus utfører ulike yrkesgrupper spesialiserte oppgaver og er avhengige av hverandre. Hvordan ville Durkheim forklart samholdet i et slikt samfunn, og hvordan skiller dette seg fra samhold i et enklere samfunn?",
@@ -566,7 +613,11 @@
           "Knytter arbeidsdeling og gjensidig avhengighet til organisk solidaritet.",
           "Skiller dette fra mekanisk solidaritet, som bygger på likhet og felles verdier."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "arbeid-og-produksjon",
+          "sosiologiske-perspektiver"
+        ]
       },
       {
         "text": "I Fosen-saken protesterte unge samer og miljøaktivister mot vindkraftverk. Forklar hvordan protestene viser makt nedenfra, og hvorfor saken også handlet om samenes rettigheter som urfolk.",
@@ -575,7 +626,11 @@
           "Forklarer protest som en måte grupper kan påvirke samfunnet uten formell makt.",
           "Knytter saken til samenes rett til kulturutøvelse eller urfolks rettigheter."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "makt",
+          "urfolk"
+        ]
       }
     ]
   },

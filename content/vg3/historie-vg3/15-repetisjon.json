@@ -479,6 +479,9 @@
         "kriterier": [
           "Skiller mellom beretning og levning.",
           "Nevner kildekritikk, for eksempel opphav, formål, tendens eller samsvar."
+        ],
+        "temaer": [
+          "historisk-metode-og-framstillinger"
         ]
       },
       {
@@ -488,6 +491,9 @@
         "kriterier": [
           "Forklarer at handlingsrommet ble påvirket av situasjonen eller strukturer.",
           "Nevner at man må unngå etterpåklokskap, samtidig som ansvar eller konsekvenser kan vurderes."
+        ],
+        "temaer": [
+          "personer-og-handlingsrom"
         ]
       },
       {
@@ -497,6 +503,9 @@
         "kriterier": [
           "Knytter arbeiderbevegelsen til stemmerett for menn.",
           "Knytter kvinnebevegelsen til stemmerett for kvinner og forklarer at deltakelsen ble bredere."
+        ],
+        "temaer": [
+          "myndiggjoring-og-frigjoring"
         ]
       },
       {
@@ -506,6 +515,10 @@
         "kriterier": [
           "Gir et eksempel på hvordan industrialisering endret arbeid eller hverdagsliv.",
           "Nevner en miljøfølge av industrialiseringen."
+        ],
+        "temaer": [
+          "teknologiske-omveltninger",
+          "menneske-natur-og-ressurser"
         ]
       },
       {
@@ -515,6 +528,9 @@
         "kriterier": [
           "Knytter opplevelsen av Versaillesfreden til ny konflikt eller grobunn for nazismen.",
           "Nevner samarbeid, gjenoppbygging eller forsoning som bidrag til varig fred."
+        ],
+        "temaer": [
+          "verdenskrigene-og-fred"
         ]
       },
       {
@@ -524,6 +540,9 @@
         "kriterier": [
           "Nevner et eksempel på hvordan nasjonsbygging eller symboler skapte fellesskap.",
           "Forklarer at fornorsking eller en snever nasjonal fortelling kunne føre til utenforskap."
+        ],
+        "temaer": [
+          "nasjonal-identitet"
         ]
       },
       {
@@ -533,6 +552,9 @@
         "kriterier": [
           "Forklarer at universelle ytelser gjelder alle.",
           "Nevner en virkning av velferdsstaten, som trygghet eller større mulighet for utdanning."
+        ],
+        "temaer": [
+          "velferdsstaten"
         ]
       },
       {
@@ -543,7 +565,10 @@
           "Forklarer overbeskatning som bruk av en ressurs raskere enn den fornyes.",
           "Forklarer at reguleringer kan bidra til at bestanden kommer tilbake."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "menneske-natur-og-ressurser"
+        ]
       },
       {
         "text": "Framstillinger av 1814 har endret seg: eldre historieskrivning la vekt på en heroisk nasjonal gjenfødelse, mens nyere framstillinger også trekker fram stormaktspolitikk og at grupper som jøder og kvinner manglet rettigheter. Columbus’ reise i 1492 ble lenge omtalt i Europa som «oppdagelsen» av Amerika, mens urfolksperspektiver vektlegger erobring og undertrykkelse. Forklar hvordan ståsted og samtid kan påvirke slike historiske framstillinger.",
@@ -552,7 +577,11 @@
           "Viser at ståsted, samtid eller formål påvirker hva som vektlegges.",
           "Bruker forskjellene i framstillingene av 1814 eller Columbus som eksempel."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "historisk-metode-og-framstillinger",
+          "historiebruk-og-fortolkning"
+        ]
       },
       {
         "text": "Den industrielle revolusjonen førte til at produksjon ble flyttet fra hjem og gårder til fabrikker, og mange flyttet til byene. Arbeiderbevegelser vokste fram i denne perioden. Forklar hvordan endringer i arbeidslivet bidro til at arbeidere organiserte seg, og nevn ett krav arbeiderbevegelsen stilte.",
@@ -561,7 +590,11 @@
           "Knytter industrialiseringens arbeidsforhold eller framveksten av en arbeiderklasse til organisering.",
           "Nevner et relevant krav, for eksempel åtte timers arbeidsdag eller bedre arbeidsforhold."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "teknologiske-omveltninger",
+          "myndiggjoring-og-frigjoring"
+        ]
       },
       {
         "text": "Opplysningstidens ideer om folkesuverenitet og rettigheter inspirerte revolusjonene i Amerika og Frankrike. Begge revolusjonene påvirket Grunnloven av 1814, men mange mennesker fikk ikke politiske rettigheter. Forklar både hvordan ideene påvirket demokratiet, og hvordan retten til politisk deltakelse senere ble utvidet i Norge.",
@@ -570,7 +603,11 @@
           "Forklarer en forbindelse mellom opplysningstidens ideer, revolusjonene og Grunnloven av 1814.",
           "Viser at politisk deltakelse først var begrenset, og nevner en utvidelse av stemmeretten i Norge."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "ideologier-og-politiske-omveltninger",
+          "myndiggjoring-og-frigjoring"
+        ]
       },
       {
         "text": "Europeiske industristater ønsket råvarer, markeder og tilgang til billig arbeidskraft, og dette var viktige drivkrefter bak imperialismen. Etter at kolonier ble selvstendige, fortsatte flere å være avhengige av eksport av råvarer. Forklar sammenhengen mellom industriens behov, kolonisering og en økonomisk følge av kolonitiden.",
@@ -579,7 +616,10 @@
           "Knytter industriens behov for råvarer, markeder eller arbeidskraft til imperialismen.",
           "Nevner en økonomisk følge for koloniserte områder, som råvareavhengighet eller svekket lokal industri."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "kolonialisme-og-imperialisme"
+        ]
       },
       {
         "text": "Etter apartheid opprettet Sør-Afrika en sannhets- og forsoningskommisjon. I Norge la Sannhets- og forsoningskommisjonen i 2023 fram en rapport om fornorskingspolitikken overfor samer, kvener og skogfinner. Forklar et fellestrekk ved disse forsøkene på å håndtere historisk urett, og nevn én forskjell mellom dem.",
@@ -588,7 +628,11 @@
           "Nevner at begge retter oppmerksomhet mot historisk urett eller forsoning.",
           "Skiller mellom Sør-Afrikas kommisjon etter apartheid og den norske rapporten om fornorsking."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "historiebruk-og-fortolkning",
+          "nasjonal-identitet"
+        ]
       },
       {
         "text": "Etter første verdenskrig opplevde mange tyskere Versaillesfreden som ydmykende. Den økonomiske krisen etter børskrakket i 1929 førte også til arbeidsløshet og politisk ustabilitet. Forklar hvordan slike forhold bidro til at andre verdenskrig brøt ut.",
@@ -597,7 +641,11 @@
           "Knytter misnøyen med Versaillesfreden til nazistisk hevn eller ekspansjon.",
           "Forklarer hvordan den økonomiske krisen bidro til politisk ustabilitet eller styrket ytterliggående bevegelser."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "verdenskrigene-og-fred",
+          "ideologier-og-politiske-omveltninger"
+        ]
       },
       {
         "text": "Avtaler bidro til å redusere sur nedbør i Europa, og Montrealprotokollen fra 1987 forbød stoffer som skadet ozonlaget. Klimaendringene har vært vanskeligere å løse gjennom internasjonalt samarbeid. Forklar en grunn til at avtalene kunne virke på disse problemene, og hvorfor klimaendringene er mer krevende.",
@@ -606,7 +654,10 @@
           "Viser at internasjonale avtaler kan begrense bestemte forurensende stoffer eller utslipp.",
           "Forklarer at klimaendringene er krevende fordi utslippene er knyttet til omfattende økonomisk aktivitet eller kostnader."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "menneske-natur-og-ressurser"
+        ]
       },
       {
         "text": "Under den økonomiske krisen på 1930-tallet inngikk Arbeiderpartiet og Bondepartiet kriseforliket i 1935. Etter andre verdenskrig ble flere velferdsordninger bygd ut, blant annet barnetrygd og Folketrygden. Forklar hvordan politiske kompromisser og økonomiske kriser bidro til utviklingen av velferdsstaten i Norge.",
@@ -615,7 +666,10 @@
           "Knytter krisen på 1930-tallet og kriseforliket til politiske tiltak eller nye trygdeordninger.",
           "Viser hvordan utbyggingen etter 1945 videreførte utviklingen av velferdsstaten."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "velferdsstaten"
+        ]
       }
     ]
   },

@@ -525,6 +525,10 @@
         "kriterier": [
           "Får fram at begge religionene tror på én Gud.",
           "Skiller mellom treenigheten i kristendommen og tawhid i islam."
+        ],
+        "temaer": [
+          "kristendommen",
+          "islam"
         ]
       },
       {
@@ -534,6 +538,10 @@
         "kriterier": [
           "Knytter Tanak til Det gamle testamente.",
           "Nevner at Det nye testamente også inngår i den kristne Bibelen."
+        ],
+        "temaer": [
+          "jodedommen",
+          "kristendommen"
         ]
       },
       {
@@ -543,6 +551,9 @@
         "kriterier": [
           "Forklarer den gylne regel.",
           "Forklarer pliktetikkens idé om at mennesker ikke bare skal brukes som middel."
+        ],
+        "temaer": [
+          "etiske-teorier"
         ]
       },
       {
@@ -552,6 +563,9 @@
         "kriterier": [
           "Bruker den gylne regel på situasjonen.",
           "Forklarer en relevant etisk teori, for eksempel pliktetikk eller konsekvensetikk."
+        ],
+        "temaer": [
+          "etiske-teorier"
         ]
       },
       {
@@ -561,6 +575,10 @@
         "kriterier": [
           "Nevner en måte jødisk kunnskap eller tradisjon føres videre på.",
           "Nevner muntlig tradisjon som en måte kunnskap om samisk religion er ført videre på."
+        ],
+        "temaer": [
+          "jodedommen",
+          "samisk-religion-og-urfolk"
         ]
       },
       {
@@ -571,7 +589,10 @@
           "Forklarer at en sieidi var en hellig stein eller et hellig sted.",
           "Nevner offergaver og et formål som god fangst eller beskyttelse."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samisk-religion-og-urfolk"
+        ]
       },
       {
         "id": "s07",
@@ -580,6 +601,9 @@
         "kriterier": [
           "Knytter konsekvensetikk til følgene av handlingen.",
           "Knytter sinnelagsetikk til hensikten."
+        ],
+        "temaer": [
+          "etiske-teorier"
         ]
       },
       {
@@ -589,6 +613,9 @@
         "kriterier": [
           "Skiller riktig mellom ateisme og agnostisisme.",
           "Forklarer minst ett sentralt trekk ved livssynshumanisme."
+        ],
+        "temaer": [
+          "livssynshumanisme"
         ]
       },
       {
@@ -598,7 +625,11 @@
           "Knytter påsken til Jesu død og oppstandelse.",
           "Forklarer at id al-fitr avslutter ramadan."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "kristendommen",
+          "islam"
+        ]
       },
       {
         "text": "Sammenlign fasten i ramadan med fasten på jom kippur. Hva går fasten i ramadan ut på, og hva kjennetegner jom kippur?",
@@ -607,7 +638,11 @@
           "Beskriver fasten under ramadan som faste fra soloppgang til solnedgang i en måned.",
           "Knytter jom kippur til forsoning og faste og bønn."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "islam",
+          "jodedommen"
+        ]
       },
       {
         "text": "En jødisk person sier at det er viktig å følge Toraens lov, mens en livssynshumanist sier at moral bør bygge på fornuft og empati. Forklar én forskjell og ett fellestrekk mellom disse synene på hvordan man bør leve.",
@@ -616,7 +651,11 @@
           "Forklarer forskjellen mellom loven i pakten med Gud og humanistisk moral uten gudstro.",
           "Nevner at begge gir veiledning for hvordan man bør leve."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "jodedommen",
+          "livssynshumanisme"
+        ]
       },
       {
         "text": "Førkristen samisk religion og flere andre urfolksreligioner legger vekt på naturen og muntlig tradisjon. Forklar ett likhetstrekk mellom dem, og hvordan retten til å praktisere religion kan bidra til å føre tradisjoner videre.",
@@ -625,7 +664,10 @@
           "Nevner et relevant likhetstrekk, som naturens betydning eller muntlig overføring.",
           "Forklarer at religionsfrihet eller retten til å praktisere religion kan støtte videreføring av tradisjoner."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "samisk-religion-og-urfolk"
+        ]
       },
       {
         "text": "Misjon og kristning fikk følger for samisk religion. Forklar én følge av misjonsarbeidet fra 1600- eller 1700-tallet, og gi ett eksempel på et samisk uttrykk for kristendom i dag.",
@@ -635,7 +677,11 @@
           "Gir et eksempel på kristendom med samiske uttrykk i dag."
         ],
         "id": "s13",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "samisk-religion-og-urfolk",
+          "kristendommen"
+        ]
       },
       {
         "text": "En elev foreslår at en ny klassekamerat skal få være med i en gruppe, selv om gruppa da må endre planene sine. Forklar hvordan livssynshumanistisk menneskeverd og konsekvensetikk kan støtte forslaget.",
@@ -644,7 +690,11 @@
           "Knytter menneskeverd til at alle har lik verdi og rett til respekt.",
           "Forklarer at konsekvensetikken vurderer følgene for dem som blir påvirket."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "livssynshumanisme",
+          "etiske-teorier"
+        ]
       },
       {
         "text": "Islam, jødedommen og kristendommen kalles ofte abrahamittiske religioner. Forklar hvorfor de har fått dette navnet, og nevn én person som regnes som profet i islam og som også er sentral i jødedommen eller kristendommen.",
@@ -653,7 +703,12 @@
           "Knytter navnet til Abraham/Ibrahim som en viktig skikkelse i religionene.",
           "Nevner en profet i islam som også er sentral i jødedommen eller kristendommen, for eksempel Moses/Musa eller Jesus/Isa."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "islam",
+          "jodedommen",
+          "kristendommen"
+        ]
       },
       {
         "text": "Sammenlign dåp i kristendommen med navnefest i livssynshumanismen. Hva slags seremoni er hver av dem, og hva sier de om praksis i de to livssynene?",
@@ -662,7 +717,11 @@
           "Beskriver dåp som et sakrament i de fleste kristne kirker.",
           "Beskriver navnefest som en humanistisk seremoni ved en viktig overgang i livet."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "kristendommen",
+          "livssynshumanisme"
+        ]
       }
     ]
   },

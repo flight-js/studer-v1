@@ -483,6 +483,10 @@
         "kriterier": [
           "Kristendommen ser Jesus som Messias og Guds sønn.",
           "Islam ser Jesus som en stor profet, men ikke Guds sønn."
+        ],
+        "temaer": [
+          "kristendommen",
+          "islam"
         ]
       },
       {
@@ -492,6 +496,11 @@
         "kriterier": [
           "Buddhismen knytter lidelse til begjær og søker frigjøring.",
           "Humanismen sier at mennesker selv skaper mening."
+        ],
+        "temaer": [
+          "eksistensielle-sporsmal",
+          "hinduisme-buddhisme-og-ostlige-tradisjoner",
+          "humanisme-og-sekulare-livssyn"
         ]
       },
       {
@@ -501,6 +510,11 @@
         "kriterier": [
           "Religion kan legitimere eller styrke makt.",
           "Religion kan også brukes i frigjøringsarbeid; ett relevant eksempel er med."
+        ],
+        "temaer": [
+          "religion-i-historiske-endringsprosesser",
+          "religion-livssyn-og-politikk",
+          "kristendommen"
         ]
       },
       {
@@ -510,6 +524,11 @@
         "kriterier": [
           "Knytter ensidig konfliktframstilling til stereotypier eller fordommer.",
           "Nevner relevante spørsmål om avsender, vinkling eller hvem som får snakke."
+        ],
+        "temaer": [
+          "religion-i-medier-og-populaerkultur",
+          "fordommer-rasisme-og-diskriminering",
+          "religion-livssyn-og-fagbegreper"
         ]
       },
       {
@@ -519,6 +538,10 @@
         "kriterier": [
           "Nevner energi- eller klimahensyn.",
           "Nevner naturhensyn og/eller samiske hellige steder og urfolksrettigheter."
+        ],
+        "temaer": [
+          "menneskeverd-natur-og-teknologi",
+          "samisk-religion-og-urfolksperspektiv"
         ]
       },
       {
@@ -528,6 +551,9 @@
         "kriterier": [
           "Skiller kritikk av ideer eller praksiser fra hets mot mennesker.",
           "Forklarer at ytringsfriheten beskytter kritikk, mens hatefulle ytringer er forbudt."
+        ],
+        "temaer": [
+          "religions-og-livssynskritikk"
         ]
       },
       {
@@ -537,6 +563,11 @@
         "kriterier": [
           "Gir minst to ulike begrunnelser for menneskeverd.",
           "Knytter begrunnelsene riktig til kristendom, Kant eller humanisme."
+        ],
+        "temaer": [
+          "filosofiske-menneskesyn",
+          "kristendommen",
+          "humanisme-og-sekulare-livssyn"
         ]
       },
       {
@@ -546,6 +577,10 @@
         "kriterier": [
           "Identifiserer indirekte diskriminering og forklarer hvorfor.",
           "Nevner relevante verdier eller grupper som berøres."
+        ],
+        "temaer": [
+          "fordommer-rasisme-og-diskriminering",
+          "religion-livssyn-og-politikk"
         ]
       },
       {
@@ -555,7 +590,10 @@
           "Skiller mellom substansiell definisjon (hva religion er) og funksjonell definisjon (hva religion gjør).",
           "Forklarer at definisjonene derfor kan inkludere ulike fenomener."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "religion-livssyn-og-fagbegreper"
+        ]
       },
       {
         "text": "Jødedommen og islam er begge monoteistiske religioner der religiøse tekster og praksiser påvirker hvordan troende lever. Forklar én viktig likhet og én forskjell mellom dem når det gjelder religiøse kilder eller praksis.",
@@ -564,7 +602,11 @@
           "Nevner en relevant likhet, for eksempel troen på én Gud eller betydningen av religiøs praksis.",
           "Nevner en faglig riktig forskjell i kilder eller praksis, for eksempel Tora/Talmud og Koran/sunna eller de fem søylene."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "jodedommen",
+          "islam"
+        ]
       },
       {
         "text": "Da lutherdommen ble innført i Norge i 1537, fikk det følger både for forholdet mellom politisk makt og kirken og for folks tilgang til religiøse tekster. Forklar disse følgene.",
@@ -573,7 +615,11 @@
           "Forklarer at kongen innførte lutherdommen og ble kirkens overhode.",
           "Nevner bibler eller salmer på folkespråket og kobler dette til økt leseferdighet."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "religion-i-historiske-endringsprosesser",
+          "kristendommen"
+        ]
       },
       {
         "text": "En artist har en svært hengiven fanskare som møtes årlig og synger sammen. Et trossamfunn bruker samtidig videoer og strømming for å nå flere. Bruk to ulike måter religion og populærkultur kan henge sammen på, og forklar hvordan de passer til eksemplene.",
@@ -582,7 +628,10 @@
           "Knytter fansens samlinger eller hengivenhet til populærkultur som religion.",
           "Knytter trossamfunnets bruk av video eller strømming til religion som bruker populærkultur."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "religion-i-medier-og-populaerkultur"
+        ]
       },
       {
         "text": "En elev deler et bilde av en venn uten å spørre om lov. Vennen blir lei seg og bildet sprer seg videre. Forklar hvordan en pliktetiker og en konsekvensetiker kan vurdere handlingen forskjellig.",
@@ -591,7 +640,10 @@
           "Forklarer at pliktetikken vurderer handlingen ut fra plikter eller regler, for eksempel respekt for personen.",
           "Forklarer at konsekvensetikken vurderer følgene, for eksempel krenkelse eller videre spredning."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "etikk-i-kommunikasjon-og-relasjoner"
+        ]
       },
       {
         "text": "Et rekrutteringsprogram avviser systematisk søkere med bestemte etniske bakgrunner ut fra navnene deres, selv om ingen har laget programmet for å diskriminere. Forklar hva slags diskriminering dette kan være, og hvorfor menneskeverd er relevant når virksomheten vurderer bruken av programmet.",
@@ -600,7 +652,11 @@
           "Kjenner igjen strukturell diskriminering eller indirekte diskriminering og forklarer hvorfor.",
           "Knytter menneskeverd til lik verdi og behovet for å undersøke eller rette opp skjev behandling."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "fordommer-rasisme-og-diskriminering",
+          "menneskeverd-natur-og-teknologi"
+        ]
       },
       {
         "text": "En person uten religiøs tro ønsker å delta i et fellesskap og markere viktige overganger i livet. Sammenlign hva et måltid i en sikhisk gurdwara og en humanistisk konfirmasjon kan tilby.",
@@ -609,7 +665,11 @@
           "Beskriver langar som et gratis fellesmåltid der alle kan delta, og knytter det til fellesskap eller likeverd.",
           "Beskriver humanistisk konfirmasjon som en ikke-religiøs markering med kurs om etikk, livssyn eller menneskerettigheter."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "hinduisme-buddhisme-og-ostlige-tradisjoner",
+          "humanisme-og-sekulare-livssyn"
+        ]
       },
       {
         "text": "Samiske religiøse spesialister ble forfulgt under kristningen, og mange samer ble presset til å oppgi sin tradisjonelle religion. I dag arbeider noen med å gjenopplive samisk kultur og spiritualitet. Forklar hva denne utviklingen viser om forholdet mellom majoritet, urfolk og religion.",
@@ -618,7 +678,11 @@
           "Knytter kristningen til press eller makt fra majoriteten mot samisk religion eller kultur.",
           "Forklarer at revitalisering handler om å gjenopplive eller videreføre samisk kultur og spiritualitet."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "samisk-religion-og-urfolksperspektiv",
+          "religion-i-historiske-endringsprosesser"
+        ]
       }
     ]
   },

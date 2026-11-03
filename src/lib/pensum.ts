@@ -26,7 +26,8 @@ export type TemaDetaljer = TemaKort & {
 
 // kjerne: noe nesten alle klasser lærer i temaet. Resten (eksempler som skoler
 // velger ulikt, og stoff over nivået) kommer sist og merkes «Ekstra».
-export type Flashcard = { begrep: string; forklaring: string; kjerne: boolean };
+// kilde: i repetisjonstemaet, hvilket tema kortet eller spørsmålet kommer fra.
+export type Flashcard = { begrep: string; forklaring: string; kjerne: boolean; kilde: string | null };
 
 export type Sporsmal = {
   nokkel: string;
@@ -36,6 +37,7 @@ export type Sporsmal = {
   riktig: number;
   forklaring: string;
   kjerne: boolean;
+  kilde: string | null;
 };
 
 export type Tankekart = { label: string; note?: string; children?: Tankekart[] };
@@ -141,7 +143,7 @@ export async function hentFlashcards(id: string): Promise<Flashcard[]> {
   return sjekk(
     await supabase
       .from("flashcards")
-      .select("begrep, forklaring, kjerne")
+      .select("begrep, forklaring, kjerne, kilde")
       .eq("tema_id", id)
       .order("kjerne", { ascending: false })
       .order("sortering")
@@ -152,7 +154,7 @@ async function hentSporsmal(id: string, filter: "i_quiz" | "i_miniprove"): Promi
   const rader = sjekk(
     await supabase
       .from("quiz_sporsmal")
-      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne")
+      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde")
       .eq("tema_id", id)
       .eq(filter, true)
       .order("sortering")
@@ -164,7 +166,8 @@ export const hentQuiz = (id: string) => hentSporsmal(id, "i_quiz");
 
 // Skriveoppgave i miniprøven. Fasiten kan ikke leses herfra – den kommer
 // sammen med vurderingen (se lib/miniprove.ts).
-export type Skriveoppgave = { nokkel: string; tekst: string; kjerne: boolean };
+// kilder: i repetisjonstemaet, temaene oppgaven bygger på.
+export type Skriveoppgave = { nokkel: string; tekst: string; kjerne: boolean; kilder: string[] | null };
 // kunProve: spørsmålet finnes bare i prøven, ikke i quizen.
 export type ProveSporsmal = Sporsmal & { kunProve: boolean };
 
@@ -172,11 +175,11 @@ export async function hentMiniprove(id: string) {
   const [sporsmal, skriv, prove] = await Promise.all([
     supabase
       .from("quiz_sporsmal")
-      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, i_quiz")
+      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde, i_quiz")
       .eq("tema_id", id)
       .eq("i_miniprove", true)
       .order("sortering"),
-    supabase.from("skriveoppgaver").select("nokkel, tekst, kjerne").eq("tema_id", id).order("sortering"),
+    supabase.from("skriveoppgaver").select("nokkel, tekst, kjerne, kilder").eq("tema_id", id).order("sortering"),
     supabase.from("miniprover").select("minutter").eq("tema_id", id).maybeSingle(),
   ]);
   return {

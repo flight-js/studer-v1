@@ -492,6 +492,9 @@
         "kriterier": [
           "Identifiserer temperatur som uavhengig variabel og oksygenmengde som avhengig variabel.",
           "Nevner minst ett relevant tiltak for pålitelighet, som kontrollerte variabler, replikater eller kontrollgruppe."
+        ],
+        "temaer": [
+          "biologisk-metode"
         ]
       },
       {
@@ -501,6 +504,9 @@
         "kriterier": [
           "Forklarer at homologe trekk har felles opphav.",
           "Forklarer at analoge trekk har lik funksjon, men uavhengig opphav, og at de ikke nødvendigvis viser nært slektskap."
+        ],
+        "temaer": [
+          "systematikk-og-klassifisering"
         ]
       },
       {
@@ -510,6 +516,9 @@
         "kriterier": [
           "Beskriver riktig hvor fotosyntese og celleånding foregår og hva prosessene bruker og danner.",
           "Forklarer sammenhengen mellom produktene i den ene prosessen og utgangsstoffene i den andre."
+        ],
+        "temaer": [
+          "anatomi-og-fysiologi"
         ]
       },
       {
@@ -519,6 +528,10 @@
         "kriterier": [
           "Forklarer at betaceller skiller ut insulin ved høyt blodsukker, og at insulin bidrar til å senke det.",
           "Knytter insulin til reseptorer og økt glukoseopptak og/eller lagring som glykogen."
+        ],
+        "temaer": [
+          "homeostase",
+          "cellen-og-cellekommunikasjon"
         ]
       },
       {
@@ -528,6 +541,9 @@
         "kriterier": [
           "Beskriver riktig resultat av mitose og at mitose gir genetisk like celler.",
           "Beskriver riktig resultat av meiose og knytter meiosen til genetisk variasjon."
+        ],
+        "temaer": [
+          "celledeling"
         ]
       },
       {
@@ -537,6 +553,9 @@
         "kriterier": [
           "Beregner omtrent 100 energienheter til første konsumentnivå.",
           "Beregner omtrent 10 energienheter videre til neste nivå."
+        ],
+        "temaer": [
+          "okosystemer-og-mangfold"
         ]
       },
       {
@@ -547,7 +566,10 @@
           "Setter inn R₀ = 2 og regner ut 1 − 1/2 = 1/2.",
           "Oppgir resultatet som 50 %."
         ],
-        "niva": "over-niva"
+        "niva": "over-niva",
+        "temaer": [
+          "vaksiner"
+        ]
       },
       {
         "id": "s08",
@@ -556,6 +578,10 @@
         "kriterier": [
           "Forklarer seleksjon: følsomme bakterier dør, mens resistente overlever og formerer seg.",
           "Forklarer at vaksiner kan forebygge infeksjoner og dermed redusere antibiotikabruk."
+        ],
+        "temaer": [
+          "antibiotika-og-resistens",
+          "vaksiner"
         ]
       },
       {
@@ -565,7 +591,11 @@
           "Nevner at transektet viser variasjon eller en sammenheng mellom forholdene.",
           "Forklarer at sammenheng ikke beviser årsak, for eksempel fordi andre faktorer kan påvirke planteantallet."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "biologisk-metode",
+          "okosystemer-og-mangfold"
+        ]
       },
       {
         "text": "En person med influensa ønsker antibiotika og vurderer samtidig å vaksinere seg før neste influensasesong. Forklar hvorfor antibiotika ikke virker mot influensavirus, og hvordan en vaksine kan bidra til raskere immunforsvar ved et senere møte med viruset.",
@@ -574,7 +604,12 @@
           "Forklarer at virus mangler bakterienes mål for antibiotika, eller at antibiotika ikke virker mot virus.",
           "Nevner at vaksinen danner hukommelsesceller som gir en raskere sekundærrespons."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "antibiotika-og-resistens",
+          "vaksiner",
+          "sykdommer-og-immunforsvaret"
+        ]
       },
       {
         "text": "Varmere vår gjør at insekter klekkes tidligere, mens fuglene i et område fortsatt får unger på omtrent samme tid som før. Forklar hvordan dette kan påvirke fuglene, og hvorfor oppstykkede leveområder kan gjøre det vanskeligere for arter å møte klimaendringer.",
@@ -583,7 +618,11 @@
           "Knytter endret tidspunkt for insekter til mindre mat når fugleungene trenger den.",
           "Forklarer at fragmenterte leveområder hindrer eller vanskeliggjør arters forflytning."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "klima-arealbruk-og-mangfold",
+          "okosystemer-og-mangfold"
+        ]
       },
       {
         "text": "En celle i bukspyttkjertelen lager et vannløselig proteinhormon som skal fraktes med blodet og påvirke bestemte målceller. Beskriv hvordan proteinet bearbeides og sendes ut av cellen, og hvordan det kan utløse en respons i en målcelle.",
@@ -592,7 +631,10 @@
           "Nevner ru ER/ribosomer og Golgiapparatet eller vesikler i produksjon og utsending av proteinet.",
           "Forklarer at hormonet binder seg til en passende membranreseptor og utløser en respons."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "cellen-og-cellekommunikasjon"
+        ]
       },
       {
         "text": "En bakterie deler seg hvert 20. minutt. Hvis du starter med én bakterie og den deler seg regelmessig uten at noen dør, hvor mange bakterier er det etter én time? Vis kort hvordan du regner det ut.",
@@ -601,7 +643,10 @@
           "Regner ut at det skjer tre delinger og at antallet dobles for hver deling.",
           "Oppgir 8 bakterier."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "celledeling"
+        ]
       },
       {
         "text": "En menneskecelle med 46 kromosomer gjennomgår meiose. Hvor mange kromosomer får hver av de fire cellene som dannes, og hvor mange kromosomer er det til sammen i alle fire cellene?",
@@ -610,7 +655,10 @@
           "Oppgir 23 kromosomer i hver celle.",
           "Regner ut at de fire cellene har 92 kromosomer til sammen."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "celledeling"
+        ]
       },
       {
         "text": "Et område består av 500 km² land og hav. Naturavtalen har som mål å bevare 30 % av land- og havområdene. Hvor mange km² tilsvarer 30 % av området? Nevn også ett tiltak som kan bidra til å bevare natur.",
@@ -620,7 +668,10 @@
           "Nevner et relevant tiltak, som vern, restaurering eller bedre arealplanlegging."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "klima-arealbruk-og-mangfold"
+        ]
       },
       {
         "text": "En encellet organisme mangler cellekjerne. Forklar hvilken hovedtype celle den har, og hvordan DNA-sammenligninger kan gi mer informasjon om slektskapet mellom denne organismen og andre organismer enn det at cellene mangler cellekjerne alene.",
@@ -629,7 +680,11 @@
           "Identifiserer cellen som prokaryot.",
           "Forklarer at DNA-sammenligning kan avdekke slektskap og skille mellom grupper som ikke kan skilles bare ut fra fravær av cellekjerne."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "systematikk-og-klassifisering",
+          "cellen-og-cellekommunikasjon"
+        ]
       }
     ]
   },

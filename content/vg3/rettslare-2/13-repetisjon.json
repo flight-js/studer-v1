@@ -484,6 +484,9 @@
         "kriterier": [
           "Skiller mellom de lege lata og de lege ferenda.",
           "Nevner demokratisk lovendring eller rettsstatlige grenser, som menneskerettigheter og domstolskontroll."
+        ],
+        "temaer": [
+          "rett-og-rettferd"
         ]
       },
       {
@@ -493,6 +496,9 @@
         "kriterier": [
           "Nevner forhåndsvarsel og utredningsplikt, eventuelt begrunnelse eller klage.",
           "Forklarer at ugyldighet avhenger av om feilen kan ha virket inn på vedtakets innhold."
+        ],
+        "temaer": [
+          "forvaltningsrett"
         ]
       },
       {
@@ -502,6 +508,10 @@
         "kriterier": [
           "Nevner kulturvernet etter SP artikkel 27 og/eller konsultasjonsplikten.",
           "Nevner relevante miljøhensyn og viser at disse må veies mot energiutbygging."
+        ],
+        "temaer": [
+          "samiske-rettigheter",
+          "miljorett"
         ]
       },
       {
@@ -511,6 +521,11 @@
         "kriterier": [
           "Slår fast at deling av intime bilder uten samtykke er straffbart.",
           "Knytter vurderingen til personvern og avveiningen mot ytringsfrihet."
+        ],
+        "temaer": [
+          "vold-og-seksuallovbrudd",
+          "personvern-og-ikt",
+          "demokrati-og-menneskerettigheter"
         ]
       },
       {
@@ -520,6 +535,10 @@
         "kriterier": [
           "Nevner alle tre erstatningsvilkårene.",
           "Skiller mellom erstatning for tap og straffansvar, og viser til straffbarhetsvilkår eller beviskrav."
+        ],
+        "temaer": [
+          "erstatningsrett",
+          "straffeansvar-og-reaksjoner"
         ]
       },
       {
@@ -529,6 +548,10 @@
         "kriterier": [
           "Identifiserer underslag og skiller det fra tyveri ved at gjenstanden allerede var i besittelse.",
           "Bruker straffbarhetsvilkårene, særlig skyld og vinningsforsett."
+        ],
+        "temaer": [
+          "vinningslovbrudd",
+          "straffeansvar-og-reaksjoner"
         ]
       },
       {
@@ -539,6 +562,10 @@
           "Skiller mellom de lege lata og de lege ferenda.",
           "Nevner kontroll av rettskilder og kritisk vurdering av avisens avsender, interesser eller fakta og meninger.",
           "Viser til drøfting av argumenter før et begrunnet standpunkt."
+        ],
+        "temaer": [
+          "aktuelle-rettssporsmal",
+          "rettskilder-og-juridisk-drofting"
         ]
       },
       {
@@ -550,7 +577,10 @@
           "Forklarer føre-var-prinsippet og/eller samlet belastning.",
           "Viser at miljøhensyn inngår i en avveining med andre hensyn."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "miljorett"
+        ]
       },
       {
         "text": "En straffebestemmelse nevner ikke uttrykkelig handlingen en person er tiltalt for, men handlingen ligner på det bestemmelsen forbyr. Kan retten bruke analogi for å straffe personen? Forklar hvilken regel om tolking som gjelder i strafferetten.",
@@ -559,7 +589,11 @@
           "Analogisk tolking til skade for tiltalte er ikke tillatt i strafferetten.",
           "Straff krever klar lovhjemmel."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "straffeansvar-og-reaksjoner",
+          "rettskilder-og-juridisk-drofting"
+        ]
       },
       {
         "text": "Myndighetene vil begrense en fredelig demonstrasjon fordi den kan forstyrre trafikken. Hvilke vilkår må være oppfylt for at begrensningen skal være et lovlig inngrep i forsamlingsfriheten?",
@@ -568,7 +602,10 @@
           "Inngrepet må ha hjemmel i lov og et legitimt formål.",
           "Inngrepet må være nødvendig og forholdsmessig."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "demokrati-og-menneskerettigheter"
+        ]
       },
       {
         "text": "En skole krever at elever oppgir helseopplysninger og religion i en læringsapp, og planlegger å lagre opplysningene uten tidsbegrensning. Skolen viser til at elevene har samtykket ved å bruke appen. Hvilke personvernkrav bør skolen vurdere?",
@@ -577,7 +614,10 @@
           "Samtykke må være frivillig, spesifikt, informert og utvetydig; pålagt bruk kan gjøre det ufrivillig.",
           "Helse og religion er særlige kategorier; behandlingen trenger rettslig grunnlag og må følge prinsippene om dataminimering og begrenset lagring."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "personvern-og-ikt"
+        ]
       },
       {
         "text": "En 14-åring knuser med vilje et vindu hos naboen. Forklar hva alderen betyr for straffansvaret, og om barnet likevel kan bli erstatningsansvarlig.",
@@ -586,7 +626,11 @@
           "En person under 15 år kan ikke straffes.",
           "Barn kan bli erstatningsansvarlige dersom det er rimelig vurdert blant annet ut fra alder, modenhet og økonomi."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "straffeansvar-og-reaksjoner",
+          "erstatningsrett"
+        ]
       },
       {
         "text": "En norsk forskrift er i strid med en norsk lov, og loven er i strid med en konvensjon som er gjort til norsk lov gjennom menneskerettsloven. Hvilke regler går foran, og hvorfor?",
@@ -595,7 +639,11 @@
           "Loven går foran forskriften etter lex superior.",
           "En konvensjon som er inkorporert gjennom menneskerettsloven, går foran norsk lov ved motstrid."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "rettskilder-og-juridisk-drofting",
+          "demokrati-og-menneskerettigheter"
+        ]
       },
       {
         "text": "En kommune planlegger en endring som kan påvirke samiske interesser direkte. Hvilke plikter har kommunen overfor Sametinget og andre berørte samiske interesser?",
@@ -604,7 +652,10 @@
           "Kommunen har konsultasjonsplikt når en sak kan påvirke samiske interesser direkte.",
           "Konsultasjonene skal skje i god tro med mål om enighet."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "samiske-rettigheter"
+        ]
       },
       {
         "text": "En 16-åring blir dømt for et lovbrudd. Forklar hvorfor fengsel normalt skal brukes med særlig tilbakeholdenhet overfor unge, og nevn én reaksjon som er særlig aktuell for aldersgruppen.",
@@ -613,7 +664,10 @@
           "Fengsel for personer under 18 år skal bare brukes når det er særlig påkrevd.",
           "Ungdomsstraff er aktuell for 15–17-åringer og gjennomføres i konfliktrådet."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "straffeansvar-og-reaksjoner"
+        ]
       },
       {
         "text": "Under en seksuell situasjon trekker den ene personen tilbake samtykket, men den andre fortsetter. Forklar hvilken betydning samtykket har etter voldtektsbestemmelsen, og hva som må bevises for at den andre skal kunne straffes.",
@@ -622,7 +676,11 @@
           "Samtykke må være frivillig og kan trekkes tilbake; voldtektsbestemmelsen er samtykkebasert.",
           "Skyld må bevises utover enhver rimelig tvil for at personen skal kunne straffes."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "vold-og-seksuallovbrudd",
+          "straffeansvar-og-reaksjoner"
+        ]
       }
     ]
   },

@@ -467,6 +467,10 @@
           "Kravene beskriver ønsket funksjon og kan testes.",
           "Prototypen brukes til å prøve ut produktet.",
           "Testresultater brukes til forbedring."
+        ],
+        "temaer": [
+          "kravspesifikasjon-og-arbeidstegninger",
+          "mikrokontrollere"
         ]
       },
       {
@@ -477,6 +481,10 @@
           "Nevner sensor, mikrokontroller og lagring av målinger.",
           "Forklarer at tidsstempler og passende målefrekvens er viktige.",
           "Nevner prøvelogging eller graf med tid på x-aksen."
+        ],
+        "temaer": [
+          "produkt-som-samler-data",
+          "sensorer-og-signaler"
         ]
       },
       {
@@ -487,6 +495,10 @@
           "Identifiserer feilen som systematisk.",
           "Nevner kalibrering mot en kjent referanse.",
           "Skiller mellom reliabilitet og validitet."
+        ],
+        "temaer": [
+          "dataanalyse-og-usikkerhet",
+          "kvantitativ-metode"
         ]
       },
       {
@@ -497,6 +509,10 @@
           "Identifiserer materialet som uavhengig variabel og temperaturfallet som avhengig variabel.",
           "Nevner kontrollerte variabler og/eller referanse.",
           "Nevner gjentak av forsøket."
+        ],
+        "temaer": [
+          "kvantitativ-metode",
+          "dataanalyse-og-usikkerhet"
         ]
       },
       {
@@ -506,6 +522,9 @@
         "kriterier": [
           "Forstår at 1 : 2 betyr halv størrelse.",
           "Svar: 20 mm."
+        ],
+        "temaer": [
+          "kravspesifikasjon-og-arbeidstegninger"
         ]
       },
       {
@@ -515,6 +534,9 @@
         "kriterier": [
           "Bruker summen av målingene delt på antallet.",
           "Svar: 50,0 cm."
+        ],
+        "temaer": [
+          "dataanalyse-og-usikkerhet"
         ]
       },
       {
@@ -525,6 +547,10 @@
           "Veier nytte og mulige skadevirkninger med et etisk perspektiv.",
           "Nevner relevante bærekraftsdimensjoner.",
           "Foreslår reparasjon eller gjenvinning som tiltak."
+        ],
+        "temaer": [
+          "teknologi-og-etikk",
+          "teknologihistorie-mobiltelefonen"
         ]
       },
       {
@@ -535,6 +561,10 @@
           "Forklarer hvordan data kan brukes til å overvåke produksjon eller spare energi.",
           "Nevner vurdering av bærekraft utover bare energibruk.",
           "Nevner rebound-effekt eller en annen relevant ulempe fra oppgaven."
+        ],
+        "temaer": [
+          "virksomhet-og-barekraft",
+          "produkt-som-samler-data"
         ]
       },
       {
@@ -544,7 +574,10 @@
           "Bruker formelen med riktig spenning.",
           "Får 20 °C."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "sensorer-og-signaler"
+        ]
       },
       {
         "text": "En ultralydsensor får ekkoet tilbake etter 1,0 ms. Lydfarten er 343 m/s. Omtrent hvor langt unna er hindringen, og hvorfor skal den tilbakelagte lydstrekningen deles på to?",
@@ -553,7 +586,10 @@
           "Regner seg fram til omtrent 0,17 m.",
           "Forklarer at ekkotiden gjelder tur-retur."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "sensorer-og-signaler"
+        ]
       },
       {
         "text": "Du skal lage en datalogger som måler enten romtemperatur gjennom en skoledag eller rystelser på en sykkel. Sammenlign hvor ofte loggeren bør måle i de to tilfellene, og forklar én ulempe ved svært hyppige målinger.",
@@ -562,7 +598,10 @@
           "Knytter langsomme temperaturendringer til lavere målefrekvens og raske rystelser til høyere frekvens.",
           "Nevner større datamengder eller høyere strømforbruk som ulempe."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "produkt-som-samler-data"
+        ]
       },
       {
         "text": "En fotoresistor (LDR) skal styre en lysdiode gjennom en mikrokontroller. Forklar hvordan endringer i lys kan bli til et signal programmet bruker for å slå lysdioden av eller på.",
@@ -571,7 +610,11 @@
           "Forklarer at LDR-en og spenningsdeleren gir et analogt signal som AD-omformeren gjør om til en tallverdi.",
           "Forklarer at programmet kan bruke en terskelverdi til å styre lysdioden."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "sensorer-og-signaler",
+          "mikrokontrollere"
+        ]
       },
       {
         "text": "En virksomhet vurderer å bruke GPS-data fra ansattes mobiltelefoner for å planlegge mer effektive leveringsruter. Vurder løsningen med konsekvensetikk og autonomi.",
@@ -580,7 +623,10 @@
           "Veier mulige fordeler mot ulemper for dem som berøres.",
           "Knytter autonomi til informasjon og mulighet til å bestemme."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "teknologi-og-etikk"
+        ]
       },
       {
         "text": "En bedrift utvikler et elektronisk produkt. Forklar hvordan en livsløpsanalyse og sirkulær økonomi kan hjelpe bedriften med å ta mer bærekraftige valg.",
@@ -589,7 +635,10 @@
           "Beskriver at livsløpsanalysen vurderer flere faser gjennom produktets livsløp.",
           "Knytter sirkulær økonomi til lang levetid, reparasjon, gjenbruk eller gjenvinning."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "virksomhet-og-barekraft"
+        ]
       },
       {
         "text": "En elev lager et kabinett i et DAK-program som skal produseres med en 3D-printer. Hvilke opplysninger bør arbeidstegningen inneholde for at en annen person skal kunne lage kabinettet nøyaktig?",
@@ -598,7 +647,10 @@
           "Nevner projeksjoner fra flere sider og tydelige mål.",
           "Nevner målestokk og/eller materiale som relevant informasjon."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "kravspesifikasjon-og-arbeidstegninger"
+        ]
       },
       {
         "text": "En datalogger viser at CO₂-nivået i et rom øker samtidig som antallet personer i rommet øker. Forklar hvorfor dette alene ikke beviser at flere personer er årsaken, og foreslå hvordan sammenhengen kan undersøkes bedre.",
@@ -607,7 +659,11 @@
           "Skiller mellom korrelasjon og bevist årsakssammenheng, og nevner en mulig alternativ forklaring.",
           "Foreslår gjentatte eller kontrollerte målinger der andre forhold holdes like."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "kvantitativ-metode",
+          "produkt-som-samler-data"
+        ]
       }
     ]
   },

@@ -483,6 +483,9 @@
         "kriterier": [
           "Identifies yesterday as a finished past time.",
           "Says to use the past simple, not the present perfect."
+        ],
+        "temaer": [
+          "verb-tenses"
         ]
       },
       {
@@ -492,6 +495,9 @@
         "kriterier": [
           "Explains that context or a whole phrase helps memory or correct use.",
           "Explains that using the phrase helps make it active vocabulary."
+        ],
+        "temaer": [
+          "learning-strategies-and-vocabulary"
         ]
       },
       {
@@ -501,6 +507,10 @@
         "kriterier": [
           "Uses past-tense verbs consistently.",
           "Shows fear through an action or sensory detail rather than only naming the feeling."
+        ],
+        "temaer": [
+          "writing-narratives",
+          "verb-tenses"
         ]
       },
       {
@@ -512,7 +522,10 @@
           "States that the UK also includes Northern Ireland.",
           "States that the Republic of Ireland is independent and not part of the UK."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "the-united-kingdom"
+        ]
       },
       {
         "id": "s05",
@@ -521,6 +534,9 @@
         "kriterier": [
           "Defines a lingua franca as a shared language between people with different first languages.",
           "Gives a supported reason English spread, such as the British Empire or US influence."
+        ],
+        "temaer": [
+          "english-around-the-world"
         ]
       },
       {
@@ -530,6 +546,10 @@
         "kriterier": [
           "Chooses past tense for finished events.",
           "Explains that linking words show event order or create flow."
+        ],
+        "temaer": [
+          "writing-narratives",
+          "verb-tenses"
         ]
       },
       {
@@ -539,6 +559,10 @@
         "kriterier": [
           "Gives a suitable strategy such as spaced repetition, flashcards or using the words.",
           "Gives the correct past-simple forms: went and wrote."
+        ],
+        "temaer": [
+          "learning-strategies-and-vocabulary",
+          "verb-tenses"
         ]
       },
       {
@@ -548,6 +572,9 @@
         "kriterier": [
           "Says to use one spelling variety consistently.",
           "Gives “colour” as the British spelling."
+        ],
+        "temaer": [
+          "english-around-the-world"
         ]
       },
       {
@@ -557,7 +584,10 @@
           "Uses subject–verb order: “Yesterday I went”.",
           "Uses “a university” because the first sound is a consonant sound."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "word-classes-and-sentences"
+        ]
       },
       {
         "text": "Jade plays tennis every Saturday. At this moment, she is on the court playing. Rewrite these ideas as two correct sentences, using a tense that fits each situation.",
@@ -566,7 +596,10 @@
           "Uses the present simple for a routine and adds -s with “she”.",
           "Uses am/is/are + verb-ing for something happening now."
         ],
-        "id": "s10"
+        "id": "s10",
+        "temaer": [
+          "verb-tenses"
+        ]
       },
       {
         "text": "A student writes the sentence “Because the team missed the bus.” Explain why it is not a complete sentence on its own, then add a main clause to make it complete.",
@@ -575,7 +608,10 @@
           "Explains that a subordinate clause cannot stand alone.",
           "Adds a main clause that can stand alone and completes the meaning."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "word-classes-and-sentences"
+        ]
       },
       {
         "text": "Ben has arranged to meet his friend at six. He looks at dark clouds and thinks rain is coming soon. Write a sentence for each situation using a suitable future form, and explain why each form fits.",
@@ -584,7 +620,10 @@
           "Uses the present continuous for the fixed arrangement.",
           "Uses “be going to” for the prediction based on visible signs."
         ],
-        "id": "s12"
+        "id": "s12",
+        "temaer": [
+          "verb-tenses"
+        ]
       },
       {
         "text": "In a draft, a spellchecker finds one misspelled word but does not flag “their” where the writer means “there”. Explain how a spellchecker and a dictionary could help the writer check the draft.",
@@ -593,7 +632,10 @@
           "Explains that a spellchecker can find many spelling mistakes but may miss a correctly spelled wrong word.",
           "Explains that a dictionary’s meanings or examples can help check word choice."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "learning-strategies-and-vocabulary"
+        ]
       },
       {
         "text": "Rewrite this exchange using English dialogue formatting: Tom said, Where are you going? I said Nowhere.",
@@ -602,7 +644,10 @@
           "Puts the spoken words in quotation marks.",
           "Starts a new line when the speaker changes."
         ],
-        "id": "s14"
+        "id": "s14",
+        "temaer": [
+          "writing-narratives"
+        ]
       },
       {
         "text": "A school poster says that Edinburgh is the capital of the UK and that Wales has no capital. Correct both statements and name the capital of Northern Ireland.",
@@ -612,7 +657,10 @@
           "Identifies Belfast as the capital of Northern Ireland."
         ],
         "id": "s15",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "the-united-kingdom"
+        ]
       },
       {
         "text": "A Norwegian company uses English for research and business. Explain one opportunity this can give people in Norway and one concern people may have about English in these areas.",
@@ -621,7 +669,10 @@
           "Gives an opportunity such as studying, working or communicating internationally.",
           "Explains domain loss as English pushing Norwegian aside in areas such as research or business."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "english-around-the-world"
+        ]
       }
     ]
   },

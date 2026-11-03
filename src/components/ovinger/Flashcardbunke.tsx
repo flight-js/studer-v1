@@ -12,7 +12,21 @@ import { Tips } from "@/components/Tips";
 import { lagreResultat, temaHref, type Flashcard } from "@/lib/pensum";
 import { TIPS } from "@/lib/tips";
 
-export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort: Flashcard[]; tilbake: string }) {
+// meny: temavalget i repetisjonstemaet. lagre: false når bare noen temaer er
+// valgt – da regnes ikke runden med i fremdriften for temaet.
+export function Flashcardbunke({
+  temaId,
+  kort,
+  tilbake,
+  meny,
+  lagre = true,
+}: {
+  temaId: string;
+  kort: Flashcard[];
+  tilbake: string;
+  meny?: React.ReactNode;
+  lagre?: boolean;
+}) {
   const allIds = kort.map((_, i) => i);
   // Køen av kort som gjenstår. «Kan ikke ennå» legger kortet bakerst igjen.
   const [queue, setQueue] = useState<number[]>(allIds);
@@ -29,14 +43,14 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
   const lagret = useRef({ known: 0, done: false });
   useEffect(() => {
     lagret.current = { known: known.size, done };
-    if (done) lagreResultat(temaId, "flashcards", total, total);
-  }, [known, done, temaId, total]);
+    if (done && lagre) lagreResultat(temaId, "flashcards", total, total);
+  }, [known, done, temaId, total, lagre]);
   useEffect(
     () => () => {
       const { known: n, done: ferdig } = lagret.current;
-      if (!ferdig && n > 0) lagreResultat(temaId, "flashcards", n, total);
+      if (!ferdig && n > 0 && lagre) lagreResultat(temaId, "flashcards", n, total);
     },
-    [temaId, total]
+    [temaId, total, lagre]
   );
 
   const answer = useCallback(
@@ -75,7 +89,7 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
 
   return (
     <>
-      <Ovingstopp tilbake={tilbake} avsluttTekst="Avslutt flashcards" hoyre={`${known.size} / ${total} kan`}>
+      <Ovingstopp tilbake={tilbake} avsluttTekst="Avslutt flashcards" hoyre={`${known.size} / ${total} kan`} meny={meny}>
         <div className="flex gap-1" aria-hidden="true">
           {allIds.map((id) => (
             <span

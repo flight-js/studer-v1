@@ -486,6 +486,9 @@
         "kriterier": [
           "Forms the passive correctly with a form of be and a past participle.",
           "Gives a valid reason for using the passive."
+        ],
+        "temaer": [
+          "advanced-grammar"
         ]
       },
       {
@@ -495,6 +498,9 @@
         "kriterier": [
           "Changes will to would and tomorrow to the next day.",
           "Changes the pronouns appropriately."
+        ],
+        "temaer": [
+          "advanced-grammar"
         ]
       },
       {
@@ -504,6 +510,10 @@
         "kriterier": [
           "Explains that evidence supports an argument and sources should be identified.",
           "Explains that a counterargument is presented fairly and then refuted."
+        ],
+        "temaer": [
+          "argumentative-writing",
+          "sources-and-reliability"
         ]
       },
       {
@@ -513,6 +523,9 @@
         "kriterier": [
           "Suggests checking the source and comparing the claim with reliable sources.",
           "States that a paraphrase still needs a citation."
+        ],
+        "temaer": [
+          "sources-and-reliability"
         ]
       },
       {
@@ -522,6 +535,10 @@
         "kriterier": [
           "Gives a relevant difference between features of book and film reviews.",
           "Identifies a shared feature, such as evaluation with examples or avoiding spoilers."
+        ],
+        "temaer": [
+          "film-music-and-media",
+          "youth-literature"
         ]
       },
       {
@@ -531,6 +548,10 @@
         "kriterier": [
           "Includes a clear presentation structure or signposting.",
           "Names a relevant song feature and explains what it can show."
+        ],
+        "temaer": [
+          "oral-communication",
+          "film-music-and-media"
         ]
       },
       {
@@ -541,7 +562,10 @@
           "Names a supported feature shared by all three countries.",
           "Gives an accurate difference between at least two of them."
         ],
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "australia-new-zealand-and-canada"
+        ]
       },
       {
         "id": "s08",
@@ -550,6 +574,9 @@
         "kriterier": [
           "Correctly uses past form in the if-clause and would in the main clause, without would in the if-clause.",
           "Identifies the situation as unreal or unlikely now."
+        ],
+        "temaer": [
+          "advanced-grammar"
         ]
       },
       {
@@ -559,7 +586,11 @@
           "Uses statement word order in the reported question and changes “do I belong” to “the teenager belonged”.",
           "Connects the question to identity or belonging as a common young adult theme."
         ],
-        "id": "s09"
+        "id": "s09",
+        "temaer": [
+          "advanced-grammar",
+          "youth-literature"
+        ]
       },
       {
         "text": "A teenager begins a story feeling like an outsider, but becomes more independent after facing a family conflict. Explain why this could be a coming-of-age story and name one detail you could note while analysing the novel.",
@@ -569,7 +600,10 @@
           "Names a relevant detail to note, such as character development, an important event, or the setting."
         ],
         "id": "s10",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "youth-literature"
+        ]
       },
       {
         "text": "Compare how a film and a song can use sound to create a mood. Give one example of a sound feature used in each form.",
@@ -578,7 +612,10 @@
           "Explains that sound can help create a mood in both films and songs.",
           "Gives a relevant sound feature for each, such as soundtrack or sound effects in a film and tempo or the singer’s voice in a song."
         ],
-        "id": "s11"
+        "id": "s11",
+        "temaer": [
+          "film-music-and-media"
+        ]
       },
       {
         "text": "You are writing an argumentative essay and want to use an idea from a report. Explain how you could paraphrase the idea, credit its source, and connect it to your argument using PEEL.",
@@ -588,7 +625,11 @@
           "Explains how the writer connects or explains the evidence so it supports the point."
         ],
         "id": "s12",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "argumentative-writing",
+          "sources-and-reliability"
+        ]
       },
       {
         "text": "Explain the difference between the zero conditional and the first conditional. Give one example of each.",
@@ -598,7 +639,10 @@
           "Identifies the first conditional as a real future possibility, using present tense with “will”.",
           "Gives a suitable example of each conditional."
         ],
-        "id": "s13"
+        "id": "s13",
+        "temaer": [
+          "advanced-grammar"
+        ]
       },
       {
         "text": "Canada and New Zealand both have Indigenous peoples and more than one language in national life. Name Canada’s two official languages and New Zealand’s Indigenous language, then explain one way language is connected to culture in either country.",
@@ -608,7 +652,10 @@
           "Gives a relevant link between language and culture, such as the place of te reo Māori in New Zealand’s national life."
         ],
         "id": "s14",
-        "niva": "eksempel"
+        "niva": "eksempel",
+        "temaer": [
+          "australia-new-zealand-and-canada"
+        ]
       },
       {
         "text": "You are giving an oral presentation about a film review. Describe how you could structure the presentation and include two things you would cover from the review.",
@@ -617,7 +664,11 @@
           "Includes a clear introduction, main part, and conclusion.",
           "Mentions relevant review content, such as basic facts, a spoiler-free summary, evaluation with examples, or a recommendation."
         ],
-        "id": "s15"
+        "id": "s15",
+        "temaer": [
+          "oral-communication",
+          "film-music-and-media"
+        ]
       },
       {
         "text": "During a class discussion, a classmate says, “The film is boring because it has slow scenes.” Write a polite response that disagrees and an open follow-up question that invites the classmate to explain their view.",
@@ -626,7 +677,11 @@
           "Disagrees politely, using a suitable phrase or tone.",
           "Asks an open question that invites an explanation rather than a yes-or-no answer."
         ],
-        "id": "s16"
+        "id": "s16",
+        "temaer": [
+          "oral-communication",
+          "film-music-and-media"
+        ]
       }
     ]
   },
