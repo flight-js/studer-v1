@@ -5,6 +5,7 @@ import { AuthProvider } from "@/lib/auth";
 import { oktNokkel } from "@/lib/supabase";
 import { temaskript } from "@/lib/temaskript";
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL, TITTELMAL } from "@/lib/seo";
+import { Analytics } from "@vercel/analytics/next";
 
 // Skriftene lastes ned ved bygging og serveres fra studer.no, så siden ikke
 // venter på Google Fonts før den vises.
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Hopp til innhold
         </a>
         <AuthProvider>{children}</AuthProvider>
+        <Analytics />
       </body>
     </html>
   );
