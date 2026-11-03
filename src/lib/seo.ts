@@ -10,7 +10,7 @@ export const NAVN = "Studer";
 // (sameAs), så Google knytter dem til Studer. null = ikke laget ennå.
 export const SOSIALE_MEDIER: { navn: string; url: string | null }[] = [
   { navn: "Instagram", url: "https://www.instagram.com/studer.no/" },
-  { navn: "TikTok", url: null },
+  { navn: "TikTok", url: "https://www.tiktok.com/@studer.no" },
 ];
 
 export const TITTEL = "Studer – øv på hele pensum med flashcards, quiz og prøver";
