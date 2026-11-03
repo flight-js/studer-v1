@@ -9,25 +9,30 @@ import { Bunnlenker } from "@/components/Bunnlenker";
 import { Bevegelse } from "@/components/forside/Bevegelse";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Fortsett } from "@/components/hjem/Fortsett";
+import { IDag } from "@/components/hjem/IDag";
 import { Logo } from "@/components/Logo";
 import { ArrowRight } from "@/components/icons";
 import { Tips } from "@/components/Tips";
 import { Abonnementskort } from "@/components/Las";
-import { useAuth } from "@/lib/auth";
-import { hentKatalog, hentSisteTemaer } from "@/lib/pensum";
+import { useAuth, useTilgang } from "@/lib/auth";
+import { hentRepetisjonsstatus } from "@/lib/minne";
+import { hentKatalog, hentSisteTemaer, hentSvakestTema } from "@/lib/pensum";
 import { lagreTrinn } from "@/lib/profil";
 import { useHent } from "@/lib/useHent";
 import { TIPS } from "@/lib/tips";
 
 // Startsiden for innloggede, i samme natt–dag-rytme som forsiden: øverst
-// pulten med lampa på det man øvde på sist (se hjem/Fortsett.tsx), under det
-// fagene på trinnet man går på.
+// pulten med det man bør gjøre i dag (se hjem/IDag.tsx) og lampa på det man øvde
+// på sist (se hjem/Fortsett.tsx), under det fagene på trinnet man går på.
 export function Hjem() {
   const { bruker, profil } = useAuth();
   const brukerId = bruker?.id ?? "";
   const profilLaster = profil === undefined;
   const katalog = useHent("katalog", hentKatalog);
   const siste = useHent(`siste:${brukerId}`, () => hentSisteTemaer(4));
+  const { abonnement } = useTilgang();
+  const repetisjon = useHent(abonnement ? `repetisjon:${brukerId}` : null, hentRepetisjonsstatus);
+  const svakest = useHent(abonnement ? `svakest:${brukerId}` : null, hentSvakestTema);
   const [valgtTrinn, setValgtTrinn] = useState<string | null>(null);
   const [bytterTrinn, setBytterTrinn] = useState(false);
 
@@ -56,7 +61,7 @@ export function Hjem() {
   // Innholdet kommer etter hvert; mål rulleposisjonene på nytt når det er på plass.
   useEffect(() => {
     ScrollTrigger.refresh();
-  }, [siste.data, katalog.data, trinnId, visTrinnvalg]);
+  }, [siste.data, katalog.data, trinnId, visTrinnvalg, repetisjon.data, svakest.data]);
 
   // Fagdelen: overskriften kommer inn ord for ord og radene én etter én når
   // delen kommer til syne – og på nytt når man bytter trinn.
@@ -122,6 +127,8 @@ export function Hjem() {
                 )}
               </p>
             </div>
+
+            <IDag repetisjon={repetisjon.data} svakest={svakest.data} />
 
             <div className="mt-14 lg:mt-20 flex flex-col gap-5">
               <h2 className="text-sm font-medium text-background/65">Fortsett der du slapp</h2>

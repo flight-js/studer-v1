@@ -137,6 +137,7 @@ export type Database = {
           id: number
           kjerne: boolean
           kilde: string | null
+          minne: string
           sortering: number
           tema_id: string
         }
@@ -146,6 +147,7 @@ export type Database = {
           id?: never
           kjerne?: boolean
           kilde?: string | null
+          minne?: never
           sortering: number
           tema_id: string
         }
@@ -155,6 +157,7 @@ export type Database = {
           id?: never
           kjerne?: boolean
           kilde?: string | null
+          minne?: never
           sortering?: number
           tema_id?: string
         }
@@ -226,6 +229,33 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      minne: {
+        Row: {
+          bruker_id: string
+          forfaller: string
+          nokkel: string
+          sist_ovd: string
+          steg: number
+          type: string
+        }
+        Insert: {
+          bruker_id?: string
+          forfaller: string
+          nokkel: string
+          sist_ovd?: string
+          steg: number
+          type: string
+        }
+        Update: {
+          bruker_id?: string
+          forfaller?: string
+          nokkel?: string
+          sist_ovd?: string
+          steg?: number
+          type?: string
+        }
+        Relationships: []
       }
       miniprover: {
         Row: {
@@ -332,6 +362,7 @@ export type Database = {
           i_quiz: boolean
           kjerne: boolean
           kilde: string | null
+          minne: string
           nokkel: string
           riktig: number
           sortering: number
@@ -346,6 +377,7 @@ export type Database = {
           i_quiz: boolean
           kjerne?: boolean
           kilde?: string | null
+          minne?: never
           nokkel: string
           riktig: number
           sortering: number
@@ -360,6 +392,7 @@ export type Database = {
           i_quiz?: boolean
           kjerne?: boolean
           kilde?: string | null
+          minne?: never
           nokkel?: string
           riktig?: number
           sortering?: number
@@ -584,6 +617,7 @@ export type Database = {
         Returns: string
       }
       har_tilgang: { Args: never; Returns: boolean }
+      husk_svar: { Args: { p_svar: Json }; Returns: undefined }
       lagre_resultat: {
         Args: {
           p_aktivitet: string
@@ -593,6 +627,8 @@ export type Database = {
         }
         Returns: undefined
       }
+      minne_i_dag: { Args: never; Returns: string }
+      minne_intervall: { Args: { p_steg: number }; Returns: number }
       provetid_epostnokkel: { Args: { p_epost: string }; Returns: string }
       provetid_registrer: {
         Args: {
@@ -606,6 +642,10 @@ export type Database = {
       provetid_tilgjengelig: {
         Args: { p_bruker: string; p_epost: string }
         Returns: boolean
+      }
+      repetisjon_i_dag: {
+        Args: never
+        Returns: { nokkel: string; type: string }[]
       }
     }
     Enums: {

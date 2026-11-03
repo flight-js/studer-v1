@@ -24,7 +24,7 @@ export default function Personvern() {
       kortFortalt={[
         "Vi samler bare inn det vi trenger for å gi deg konto, øvinger og abonnement.",
         "Vi selger aldri opplysninger om deg, og vi viser ikke reklame.",
-        "Vi bruker ingen verktøy for sporing eller analyse.",
+        "Vi teller besøk på sidene uten cookies, og uten at det kan knyttes til deg.",
         <>
           Du kan slette kontoen din selv under <Link href="/konto" className="text-primary font-medium">Min konto</Link>. Da
           slettes nesten alt med en gang.
@@ -47,7 +47,8 @@ export default function Personvern() {
         </p>
         <p>
           <strong>Øving og fremdrift.</strong> Resultatene dine i flashcards, quiz og miniprøver, og når du øvde sist,
-          så du kan se hvor langt du har kommet. Grunnlaget er avtalen med deg.
+          så du kan se hvor langt du har kommet. Vi lagrer også hvilke kort og spørsmål du har svart på, hvor godt du
+          kan dem, og når de skal repeteres. Grunnlaget er avtalen med deg.
         </p>
         <p>
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på
@@ -78,6 +79,13 @@ export default function Personvern() {
           <strong>E-post til oss.</strong> Det du skriver når du kontakter oss, bruker vi for å svare deg.
         </p>
         <p>
+          <strong>Besøksstatistikk.</strong> Vi bruker Vercel Web Analytics for å se hvor mange som besøker sidene, og
+          hvor folk faller fra. Da registreres hvilken side du besøkte, hvor du kom fra, omtrent hvor du er, og hva slags
+          enhet og nettleser du bruker. Det brukes ingen cookies, og ingenting knyttes til kontoen din. Et besøk kjennes
+          igjen med en kode som lages fra forespørselen og forkastes etter 24 timer. Grunnlaget er vår berettigede
+          interesse i å forbedre tjenesten.
+        </p>
+        <p>
           <strong>Tekniske data.</strong> IP-adresse, nettlesertype og tidspunkter lagres en kort tid i serverloggene
           til leverandørene våre, for drift og sikkerhet. Grunnlaget er vår berettigede interesse i å holde tjenesten
           trygg og i gang.
@@ -94,7 +102,7 @@ export default function Personvern() {
             <strong>Supabase</strong>: database, innlogging og serverfunksjoner. Serverne står i USA.
           </li>
           <li>
-            <strong>Vercel</strong>: driften av nettsiden.
+            <strong>Vercel</strong>: driften av nettsiden og besøksstatistikken.
           </li>
           <li>
             <strong>OpenAI</strong>: AI-hjelpen og rettingen av skriveoppgaver. OpenAI bruker ikke opplysningene til å
@@ -139,6 +147,10 @@ export default function Personvern() {
           </li>
           <li>
             <strong>Serverlogger</strong>: noen dager.
+          </li>
+          <li>
+            <strong>Besøksstatistikk</strong>: koden som kjenner igjen et besøk, forkastes etter 24 timer. Resten er samlet
+            statistikk som ikke kan knyttes til deg.
           </li>
         </ul>
       </Avsnitt>

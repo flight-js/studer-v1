@@ -19,6 +19,7 @@ import {
   vurderSvar,
   type Vurdering,
 } from "@/lib/miniprove";
+import { huskSvar } from "@/lib/minne";
 import { lagreResultat, temaHref, type ProveSporsmal, type Skriveoppgave } from "@/lib/pensum";
 import { TIPS } from "@/lib/tips";
 
@@ -107,7 +108,13 @@ export function Miniprove({
     // Svar som ikke er rettet ennå (eller er endret siden), sendes nå. Tomme svar
     // rettes også – da får eleven se fasiten.
     for (const s of utvalg.skriv) rett(s.nokkel, (tekster[s.nokkel] ?? "").trim());
-  }, [utvalg, tekster, rett]);
+    // De raske spørsmålene eleven svarte på, kommer tilbake i repetisjonen.
+    huskSvar(
+      utvalg.raske
+        .filter((q) => valg[q.nokkel] !== undefined)
+        .map((q) => ({ type: "sporsmal" as const, nokkel: q.minne, kan: valg[q.nokkel] === q.riktig }))
+    );
+  }, [utvalg, tekster, valg, rett]);
 
   function start() {
     forsok.current += 1;

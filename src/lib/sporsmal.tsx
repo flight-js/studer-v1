@@ -155,6 +155,17 @@ export const SPORSMAL: { tittel: string; liste: Sporsmal[] }[] = [
     tittel: "Øvingene",
     liste: [
       {
+        id: "repetere",
+        sporsmal: "Hva er «å repetere» på startsiden?",
+        svar: (
+          <p>
+            Studer husker hvert kort og spørsmål du har svart på. Det du bommer på, kommer tilbake dagen etter. Det du
+            kan, kommer sjeldnere og sjeldnere: først etter en uke, så etter to uker, en måned og så videre. Dette er noe
+            annet enn «Repetisjon av hele faget», som samler det viktigste før tentamen og eksamen.
+          </p>
+        ),
+      },
+      {
         id: "ai-hjelp",
         sporsmal: "Hva kan AI-hjelpen?",
         svar: (
@@ -205,8 +216,8 @@ export const SPORSMAL: { tittel: string; liste: Sporsmal[] }[] = [
         sporsmal: "Hva lagrer dere om meg?",
         svar: (
           <p>
-            Bare det vi trenger for å gi deg konto, øvinger og abonnement. Vi selger aldri opplysninger om deg, viser
-            ikke reklame og bruker ingen verktøy for sporing. Alt står i{" "}
+            Bare det vi trenger for å gi deg konto, øvinger og abonnement. Vi selger aldri opplysninger om deg og viser
+            ikke reklame. Vi teller besøk på sidene, men uten cookies og uten at det kan knyttes til deg. Alt står i{" "}
             <Link href="/personvern">personvernerklæringen</Link>.
           </p>
         ),

@@ -27,7 +27,8 @@ export type TemaDetaljer = TemaKort & {
 // kjerne: noe nesten alle klasser lærer i temaet. Resten (eksempler som skoler
 // velger ulikt, og stoff over nivået) kommer sist og merkes «Ekstra».
 // kilde: i repetisjonstemaet, hvilket tema kortet eller spørsmålet kommer fra.
-export type Flashcard = { begrep: string; forklaring: string; kjerne: boolean; kilde: string | null };
+// minne: nøkkelen som planen for neste repetisjon lagres under (se lib/minne.ts).
+export type Flashcard = { begrep: string; forklaring: string; kjerne: boolean; kilde: string | null; minne: string };
 
 export type Sporsmal = {
   nokkel: string;
@@ -38,6 +39,7 @@ export type Sporsmal = {
   forklaring: string;
   kjerne: boolean;
   kilde: string | null;
+  minne: string;
 };
 
 export type Tankekart = { label: string; note?: string; children?: Tankekart[] };
@@ -50,7 +52,7 @@ export type Aktivitet = "flashcards" | "quiz" | "miniprove";
 export type Resultat = { beste: number; av: number; sistOvd: string };
 export type Fremdrift = Partial<Record<Aktivitet, Resultat>>;
 
-function sjekk<R extends { data: unknown; error: { message: string } | null }>(svar: R) {
+export function sjekk<R extends { data: unknown; error: { message: string } | null }>(svar: R) {
   if (svar.error) throw new Error(svar.error.message);
   if (svar.data == null) throw new Error("Fant ikke innholdet.");
   return svar.data as NonNullable<R["data"]>;
@@ -143,7 +145,7 @@ export async function hentFlashcards(id: string): Promise<Flashcard[]> {
   return sjekk(
     await supabase
       .from("flashcards")
-      .select("begrep, forklaring, kjerne, kilde")
+      .select("begrep, forklaring, kjerne, kilde, minne")
       .eq("tema_id", id)
       .order("kjerne", { ascending: false })
       .order("sortering")
@@ -154,7 +156,7 @@ async function hentSporsmal(id: string, filter: "i_quiz" | "i_miniprove"): Promi
   const rader = sjekk(
     await supabase
       .from("quiz_sporsmal")
-      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde")
+      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde, minne")
       .eq("tema_id", id)
       .eq(filter, true)
       .order("sortering")
@@ -175,7 +177,7 @@ export async function hentMiniprove(id: string) {
   const [sporsmal, skriv, prove] = await Promise.all([
     supabase
       .from("quiz_sporsmal")
-      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde, i_quiz")
+      .select("nokkel, type, tekst, alternativer, riktig, forklaring, kjerne, kilde, minne, i_quiz")
       .eq("tema_id", id)
       .eq("i_miniprove", true)
       .order("sortering"),
@@ -248,6 +250,38 @@ export async function hentSisteTemaer(antall: number): Promise<SistOvdTema[]> {
   }
   const fremdrift = await hentFremdrift([...valgte.keys()]);
   return [...valgte.values()].map((t) => ({ ...t, fremdrift: fremdrift[t.id] ?? {} }));
+}
+
+export type SvakestTema = {
+  id: string;
+  navn: string;
+  fagNavn: string;
+  aktivitet: "quiz" | "miniprove";
+  prosent: number;
+};
+
+// Temaet eleven er svakest på: lavest beste resultat i quiz eller miniprøve de
+// siste 90 dagene. Flashcards teller ikke, for der vurderer eleven seg selv, og
+// repetisjonstemaet er ikke ett tema. Fra 80 % regnes det ikke som svakt.
+export async function hentSvakestTema(): Promise<SvakestTema | null> {
+  const rader = sjekk(
+    await supabase
+      .from("fremdrift")
+      .select("tema_id, aktivitet, beste, av, sist_ovd, temaer(slug, navn, fag(navn))")
+      .in("aktivitet", ["quiz", "miniprove"])
+      .gte("sist_ovd", new Date(Date.now() - 90 * 86_400_000).toISOString())
+  );
+  const svakest = rader
+    .filter((r) => r.temaer && r.temaer.slug !== REPETISJON && r.beste / r.av < 0.8)
+    .sort((a, b) => a.beste / a.av - b.beste / b.av || b.sist_ovd.localeCompare(a.sist_ovd))[0];
+  if (!svakest) return null;
+  return {
+    id: svakest.tema_id,
+    navn: svakest.temaer.navn,
+    fagNavn: svakest.temaer.fag.navn,
+    aktivitet: svakest.aktivitet as SvakestTema["aktivitet"],
+    prosent: Math.round((svakest.beste / svakest.av) * 100),
+  };
 }
 
 // Andel av temaet som er gjennomgått: snittet av beste resultat i de tre

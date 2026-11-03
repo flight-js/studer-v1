@@ -15,6 +15,11 @@ const sporAi: Tips = {
 export const TIPS = {
   hjem: [
     {
+      id: "a-repetere",
+      tekst:
+        "Studer husker hva du kan. Det du bommer på, kommer tilbake dagen etter, og det du kan, kommer sjeldnere og sjeldnere. Du finner det under «I dag» her på startsiden.",
+    },
+    {
       id: "repetisjon",
       tekst:
         "Siste tema i hvert fag er «Repetisjon av hele faget». Der står det viktigste fra alle temaene samlet – fint før tentamen og eksamen.",

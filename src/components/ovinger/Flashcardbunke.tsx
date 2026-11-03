@@ -2,13 +2,13 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Dot } from "@/components/Dot";
 import { AltRiktig } from "@/components/AltRiktig";
-import { Ekstramerke } from "@/components/Ekstramerke";
-import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
+import { ArrowRight, Repeat } from "@/components/icons";
+import { Flippkort, useKorttaster } from "@/components/ovinger/Flippkort";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
 import { Tips } from "@/components/Tips";
+import { huskSvar } from "@/lib/minne";
 import { lagreResultat, temaHref, type Flashcard } from "@/lib/pensum";
 import { TIPS } from "@/lib/tips";
 
@@ -38,6 +38,7 @@ export function Flashcardbunke({
   const current = queue[0];
   const done = queue.length === 0;
   const card = done ? null : kort[current];
+  const minne = card?.minne;
 
   // Lagre fremdriften når bunken er ferdig, eller når man går ut underveis.
   const lagret = useRef({ known: 0, done: false });
@@ -55,14 +56,18 @@ export function Flashcardbunke({
 
   const answer = useCallback(
     (knowIt: boolean) => {
-      if (done) return;
+      if (done || !minne) return;
       setFlipped(false);
       setQueue(([head, ...rest]) => (knowIt ? rest : [...rest, head]));
       if (knowIt) setKnown((k) => new Set(k).add(current));
       else setRetries((r) => r + 1);
+      huskSvar([{ type: "kort", nokkel: minne, kan: knowIt }]);
     },
-    [current, done]
+    [current, done, minne]
   );
+
+  const snu = useCallback(() => setFlipped((v) => !v), []);
+  useKorttaster(!done, snu, answer);
 
   function restart() {
     setQueue(allIds);
@@ -70,22 +75,6 @@ export function Flashcardbunke({
     setRetries(0);
     setFlipped(false);
   }
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (done) return;
-      // Ikke snu eller svar mens eleven skriver, for eksempel i AI-chatten.
-      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog], [data-rapport]")) return;
-      if (e.key === " " && !(e.target as HTMLElement).closest("button")) {
-        e.preventDefault();
-        setFlipped((v) => !v);
-      }
-      if (e.key === "ArrowLeft" || e.key === "1") answer(false);
-      if (e.key === "ArrowRight" || e.key === "2") answer(true);
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [answer, done]);
 
   return (
     <>
@@ -134,63 +123,13 @@ export function Flashcardbunke({
           </div>
         ) : (
           <>
-            <div key={current + "-" + retries + "-" + known.size} className="flip-scene w-full max-w-lg rise-rask">
-              <button
-                onClick={() => setFlipped((v) => !v)}
-                data-flipped={flipped}
-                aria-label={flipped ? `Forklaring: ${card.forklaring}. Trykk for å snu tilbake.` : `Begrep: ${card.begrep}. Trykk for å se forklaringen.`}
-                className="flip-card relative block w-full h-80 sm:h-96"
-              >
-                <span className="flip-face absolute inset-0 bg-surface border border-border rounded-[28px] shadow-lift flex flex-col items-center justify-center gap-4 p-8 text-center">
-                  {!card.kjerne && (
-                    <span className="absolute top-6 inset-x-6 flex justify-center">
-                      <Ekstramerke forklart />
-                    </span>
-                  )}
-                  <span className="text-sm font-medium text-faint">Begrep</span>
-                  <span
-                    lang="nb"
-                    className={`font-display font-semibold tracking-[-0.02em] leading-tight hyphens-auto ${
-                      card.begrep.length > 28 ? "text-3xl sm:text-4xl" : "text-4xl sm:text-5xl"
-                    }`}
-                  >
-                    {card.begrep}
-                  </span>
-                  <span className="absolute bottom-6 text-xs text-faint">Trykk for å snu</span>
-                </span>
-                <span className="flip-face flip-back absolute inset-0 bg-foreground text-background rounded-[28px] shadow-lift flex flex-col items-center justify-center gap-4 p-8 sm:p-10 text-center">
-                  <span className="text-sm font-medium text-background/55">{card.begrep}</span>
-                  <span
-                    className={`font-display font-medium leading-snug ${
-                      card.forklaring.length > 150 ? "text-xl sm:text-2xl" : "text-2xl sm:text-[28px]"
-                    }`}
-                  >
-                    {card.forklaring}
-                  </span>
-                </span>
-              </button>
-            </div>
-
-            <div className="flex gap-3 w-full max-w-lg">
-              <button
-                onClick={() => answer(false)}
-                className="flex-1 flex items-center justify-center gap-2 bg-surface border-[1.5px] border-border-strong px-5 py-4 rounded-2xl text-sm font-semibold hover:border-danger hover:text-danger-ink transition-[color,background-color,border-color,scale] duration-200 active:scale-[0.98]"
-              >
-                <Close size={18} />
-                Kan ikke ennå
-              </button>
-              <button
-                onClick={() => answer(true)}
-                className="flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,translate,scale] duration-200 active:scale-[0.98]"
-              >
-                <Check size={18} />
-                Kan dette
-              </button>
-            </div>
-
-            <p className="hidden sm:block text-xs text-faint">
-              Mellomrom snur kortet<Dot />← kan ikke ennå<Dot />→ kan dette
-            </p>
+            <Flippkort
+              kort={card}
+              snudd={flipped}
+              runde={`${current}-${retries}-${known.size}`}
+              onSnu={snu}
+              onSvar={answer}
+            />
 
             <Rapporter key={card.begrep} temaId={temaId} type="flashcard" nokkel={card.begrep} />
 

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Instrument_Sans } from "next/font/google";
 import "./globals.css";
+import { Statistikk } from "@/components/Statistikk";
 import { AuthProvider } from "@/lib/auth";
 import { oktNokkel } from "@/lib/supabase";
 import { temaskript } from "@/lib/temaskript";
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Hopp til innhold
         </a>
         <AuthProvider>{children}</AuthProvider>
+        <Statistikk />
       </body>
     </html>
   );
