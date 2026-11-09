@@ -72,7 +72,7 @@ export default function Home() {
 }
 
 const ctaGul =
-  "group inline-flex items-center justify-center gap-2 rounded-xl bg-merke text-foreground font-semibold transition-[background-color,translate,scale,box-shadow] duration-200 hover:bg-merke-dark hover:shadow-[0_14px_36px_-14px_rgba(246,224,94,0.6)] active:scale-[0.98]";
+  "group inline-flex items-center justify-center gap-2 rounded-xl bg-merke text-pa-merke font-semibold transition-[background-color,translate,scale,box-shadow] duration-200 hover:bg-merke-dark hover:shadow-[0_14px_36px_-14px_rgba(246,224,94,0.6)] active:scale-[0.98]";
 const menyLenke =
   "fs-menylenke px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-200";
 const menyKnapp =
@@ -335,7 +335,7 @@ function Plan({
       <div className="flex items-center justify-between h-7">
         <span className={`text-sm font-semibold ${featured ? "text-background/70" : "text-muted"}`}>{name}</span>
         {note && (
-          <span className="text-xs font-semibold bg-merke text-foreground px-2.5 py-1 rounded-md">{note}</span>
+          <span className="text-xs font-semibold bg-merke text-pa-merke px-2.5 py-1 rounded-md">{note}</span>
         )}
       </div>
       <div className="flex flex-col gap-1">
@@ -363,7 +363,7 @@ function Plan({
         href={`/abonnement?plan=${plan}`}
         className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,translate,scale,border-color] duration-200 active:scale-[0.98] ${
           featured
-            ? "bg-merke text-foreground hover:bg-merke-dark"
+            ? "bg-merke text-pa-merke hover:bg-merke-dark"
             : "bg-foreground text-background hover:bg-black"
         }`}
       >

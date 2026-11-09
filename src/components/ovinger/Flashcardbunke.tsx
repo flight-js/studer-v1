@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { AltRiktig } from "@/components/AltRiktig";
+import { Feiringsmerke } from "@/components/Feiringsmerke";
 import { ArrowRight, ChevronLeft, ChevronRight, Repeat } from "@/components/icons";
-import { Flippkort, useKorttaster } from "@/components/ovinger/Flippkort";
+import { Flippkort } from "@/components/ovinger/Flippkort";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
 import { Tips } from "@/components/Tips";
@@ -121,7 +121,6 @@ export function Flashcardbunke({
   };
 
   const snu = useCallback(() => setFlipped((v) => !v), []);
-  useKorttaster(!visFerdig, snu, answer);
 
   // Backspace: forrige kort (ikke mens eleven skriver, f.eks. i AI-chatten).
   useEffect(() => {
@@ -159,7 +158,7 @@ export function Flashcardbunke({
                 id === current && ser
                   ? "bg-foreground"
                   : known.has(id)
-                    ? "bg-success"
+                    ? "bg-success segment-pop"
                     : id === current
                       ? "bg-primary"
                       : "bg-sunken"
@@ -172,7 +171,7 @@ export function Flashcardbunke({
       <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-8 px-5 pt-10 pb-28">
         {visFerdig || !card ? (
           <div className="w-full max-w-md flex flex-col items-center text-center gap-6 rise">
-            {retries === 0 && <AltRiktig />}
+            <Feiringsmerke type={retries === 0 ? "alt-riktig" : "bra"} />
             <p className="text-sm font-medium text-muted">Bunken er ferdig</p>
             <h1 className="font-display text-5xl sm:text-6xl font-semibold tracking-[-0.025em]">
               Alle {total} kort sitter
@@ -185,14 +184,14 @@ export function Flashcardbunke({
             <div className="flex flex-wrap justify-center gap-3 mt-2">
               <button
                 onClick={restart}
-                className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+                className="trykk inline-flex items-center gap-2 border-[1.5px] border-border-strong bg-surface px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground"
               >
                 <Repeat size={16} />
                 Start på nytt
               </button>
               <Link
                 href={temaHref("/quiz", temaId)}
-                className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+                className="trykk trykk-blaa inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark"
               >
                 Test deg med quiz
                 <ArrowRight size={16} />

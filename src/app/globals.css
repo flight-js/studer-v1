@@ -34,6 +34,8 @@
   --lampe: #ffd98c;
   --merke: #f6e05e;
   --merke-dark: #e9cf35;
+  /* Tekst og ikoner på merkepenn-gult: alltid mørkt blekk, også i mørk modus. */
+  --pa-merke: #1b1a2e;
   /* --font-fraunces og --font-instrument-sans kommer fra next/font (app/layout.tsx). */
   --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
   --font-body: var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif;
@@ -96,6 +98,7 @@
   --color-lampe: var(--lampe);
   --color-merke: var(--merke);
   --color-merke-dark: var(--merke-dark);
+  --color-pa-merke: var(--pa-merke);
   --font-display: var(--font-display);
   --font-body: var(--font-body);
   --shadow-card: var(--shadow-card);
@@ -770,4 +773,283 @@ html.fs-intro .ff-intro {
 .ff-notat-kort {
   visibility: hidden;
   opacity: 0;
+}
+
+/* ------------------------------------------------------------------
+   Spillfølelse i øvingene (lib/feiring.ts, components/Feiringsmerke.tsx,
+   components/Rekke.tsx). Kort der det skjer ofte (hvert svar, hvert trykk),
+   større bare når eleven blir ferdig eller slår en rekord.
+   ------------------------------------------------------------------ */
+
+/* Trykk-knapper: en fast kant under knappen som trykkes ned når man trykker.
+   --kant er kantfargen; .trykk-* og .kant-* setter den. */
+.trykk {
+  --kant: var(--border-strong);
+  --dybde: 3px;
+  box-shadow: 0 var(--dybde) 0 var(--kant);
+  transition-property: translate, box-shadow, background-color, border-color, color, opacity, filter;
+  transition-duration: 140ms;
+  transition-timing-function: var(--ease-out-soft);
+}
+.trykk:active:not(:disabled) {
+  translate: 0 var(--dybde);
+  box-shadow: 0 0 0 var(--kant);
+  transition-duration: 60ms;
+}
+@media (hover: hover) and (pointer: fine) {
+  .trykk:hover:not(:disabled):not(:active) {
+    translate: 0 -1px;
+    box-shadow: 0 calc(var(--dybde) + 1px) 0 var(--kant);
+  }
+}
+.trykk-blaa {
+  --kant: color-mix(in oklab, var(--primary) 60%, black);
+}
+.trykk-gronn {
+  --kant: color-mix(in oklab, var(--success) 60%, black);
+}
+.trykk-blekk {
+  --kant: color-mix(in oklab, var(--foreground) 62%, var(--background));
+}
+.trykk-gul {
+  --kant: color-mix(in oklab, var(--merke) 55%, #7a5a00);
+}
+.kant-riktig {
+  --kant: var(--success);
+}
+.kant-feil {
+  --kant: var(--danger);
+}
+/* Kanten blir blå sammen med rammen når pekeren er over et svaralternativ. */
+@media (hover: hover) and (pointer: fine) {
+  .kant-hover:hover:not(:disabled) {
+    --kant: var(--primary);
+  }
+}
+
+/* Riktig svar: alternativet spretter så vidt, og haken snurrer inn. */
+@keyframes riktig-sprett {
+  40% {
+    scale: 1.025;
+  }
+}
+.riktig-sprett {
+  animation: riktig-sprett 300ms var(--ease-out-soft);
+}
+@keyframes ikon-pop {
+  from {
+    opacity: 0;
+    scale: 0.5;
+    rotate: -25deg;
+  }
+}
+.ikon-pop {
+  animation: ikon-pop 360ms var(--ease-pop) both;
+}
+
+/* Rekka (riktige på rad): merket spretter inn, tallet hopper for hvert nytt
+   riktig svar, og når rekka ryker, blekner merket bort. Fra 10 på rad blafrer
+   flammen. */
+@keyframes rekke-inn {
+  from {
+    opacity: 0;
+    scale: 0.8;
+  }
+}
+.rekke {
+  animation: rekke-inn 240ms var(--ease-pop) both;
+}
+@keyframes rekke-hopp {
+  from {
+    scale: 1.45;
+  }
+}
+.rekke-hopp {
+  display: inline-block;
+  animation: rekke-hopp 340ms var(--ease-pop);
+}
+@keyframes rekke-ut {
+  to {
+    opacity: 0;
+    scale: 0.85;
+    filter: grayscale(1);
+  }
+}
+.rekke-brutt {
+  animation: rekke-ut 600ms var(--ease-out-soft) 120ms both;
+}
+@keyframes flakk {
+  0%,
+  100% {
+    scale: 1;
+    rotate: -4deg;
+  }
+  50% {
+    scale: 1.14;
+    rotate: 5deg;
+  }
+}
+.flakk {
+  transform-origin: 50% 85%;
+  animation: flakk 850ms ease-in-out infinite;
+}
+
+/* Feiringsmerket: stemples inn, og en ring slår ut fra det. */
+@keyframes stempel {
+  from {
+    opacity: 0;
+    scale: 1.8;
+    rotate: -16deg;
+  }
+  55% {
+    opacity: 1;
+  }
+}
+.stempel {
+  animation: stempel 440ms var(--ease-pop) 120ms both;
+}
+@keyframes ring-ut {
+  from {
+    opacity: 0.6;
+    scale: 1;
+  }
+  to {
+    opacity: 0;
+    scale: 2.2;
+  }
+}
+.feiringsring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid currentColor;
+  opacity: 0;
+  animation: ring-ut 760ms var(--ease-out-soft) 300ms;
+  pointer-events: none;
+}
+
+/* Stjernene på øvingene i temaet: én og én, med en liten snurr. */
+@keyframes stjerne-inn {
+  from {
+    opacity: 0;
+    scale: 0.3;
+    rotate: -50deg;
+  }
+}
+.stjerne-inn {
+  animation: stjerne-inn 420ms var(--ease-pop) both;
+}
+
+/* Fremdriftsringen i temaet tegnes opp når siden åpnes. */
+@keyframes ring-tegn {
+  from {
+    stroke-dasharray: 0 100;
+  }
+}
+.ring-tegn {
+  animation: ring-tegn 900ms var(--ease-out-soft) 200ms both;
+}
+
+/* Øvingskortene i temaet: ikonet hopper litt når pekeren er over kortet. */
+.modus-ikon {
+  transition:
+    rotate 280ms var(--ease-pop),
+    scale 280ms var(--ease-pop),
+    background-color 200ms ease,
+    color 200ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .modus:hover .modus-ikon {
+    rotate: -7deg;
+    scale: 1.1;
+  }
+}
+
+@keyframes ton-ut {
+  to {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trykk:active:not(:disabled),
+  .trykk:hover:not(:disabled):not(:active) {
+    translate: none;
+  }
+  .riktig-sprett,
+  .rekke-hopp,
+  .flakk,
+  .feiringsring::after,
+  .ring-tegn {
+    animation: none;
+  }
+  .ikon-pop,
+  .rekke,
+  .stempel,
+  .stjerne-inn {
+    animation: ton-inn 200ms ease both;
+  }
+  .rekke-brutt {
+    animation: ton-ut 400ms ease 120ms both;
+  }
+  .modus-ikon {
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+}
+
+/* Flashcards: nytt kort deles ut (det besvarte kastes ut av Flippkort.tsx), og
+   streken for et kort eleven kan, gir et lite hopp. */
+@keyframes kort-inn {
+  from {
+    opacity: 0;
+    scale: 0.94;
+    translate: 0 14px;
+  }
+}
+.kort-inn {
+  animation: kort-inn 300ms var(--ease-out-soft) both;
+}
+@keyframes segment-pop {
+  40% {
+    scale: 1 2.2;
+  }
+}
+.segment-pop {
+  animation: segment-pop 340ms var(--ease-out-soft);
+}
+@media (prefers-reduced-motion: reduce) {
+  .kort-inn {
+    animation: ton-inn 200ms ease both;
+  }
+  .segment-pop {
+    animation: none;
+  }
+}
+
+/* Gullfargen på stjernene: merkepennen, mørk nok til å synes på papiret. */
+.stjerne-gull {
+  color: color-mix(in oklab, var(--merke) 62%, #a26f00);
+}
+:root[data-tema="mork"] .stjerne-gull {
+  color: var(--merke);
+}
+
+/* En trykk-knapp inni en lenke (hele raden er lenken): knappen trykkes ned
+   når raden trykkes, og løftes når pekeren er over raden. */
+.trykk-forelder:active .trykk {
+  translate: 0 var(--dybde);
+  box-shadow: 0 0 0 var(--kant);
+  transition-duration: 60ms;
+}
+@media (hover: hover) and (pointer: fine) {
+  .trykk-forelder:hover:not(:active) .trykk {
+    translate: 0 -1px;
+    box-shadow: 0 calc(var(--dybde) + 1px) 0 var(--kant);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trykk-forelder:active .trykk,
+  .trykk-forelder:hover:not(:active) .trykk {
+    translate: none;
+  }
 }

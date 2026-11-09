@@ -12,6 +12,7 @@ import {
   ChevronRight,
   Lock,
   Quiz,
+  Stjerne,
   Timer,
 } from "@/components/icons";
 import { Abonnementskort } from "@/components/Las";
@@ -131,6 +132,7 @@ function Tema() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <ModeCard
+                nr={0}
                 href={temaHref("/flashcards", id)}
                 laast={laast}
                 title="Flashcards"
@@ -140,6 +142,7 @@ function Tema() {
                 featured
               />
               <ModeCard
+                nr={1}
                 href={temaHref("/quiz", id)}
                 laast={laast}
                 title="Quiz"
@@ -148,6 +151,7 @@ function Tema() {
                 icon={<Quiz size={22} />}
               />
               <ModeCard
+                nr={2}
                 href={temaHref("/sammendrag", id)}
                 laast={laast}
                 title="Sammendrag"
@@ -155,6 +159,7 @@ function Tema() {
                 icon={<Book size={22} />}
               />
               <ModeCard
+                nr={3}
                 href={temaHref("/miniprove", id)}
                 laast={laast}
                 title="Miniprøve"
@@ -178,6 +183,7 @@ function Tema() {
               />
               {t.antallFormler >= MINST && (
                 <ModeCard
+                  nr={4}
                   href={temaHref("/formler", id)}
                   laast={laast}
                   title="Formelmatch"
@@ -215,18 +221,19 @@ function ProgressRing({ value }: { value: number }) {
         cy="18"
         r={r}
         fill="none"
-        stroke="var(--primary)"
+        stroke={value >= 100 ? "var(--success)" : "var(--primary)"}
         strokeWidth="3"
         strokeLinecap="round"
         strokeDasharray={`${(value / 100) * c} ${c}`}
         transform="rotate(-90 18 18)"
-        className="transition-[stroke-dasharray] duration-700 ease-out-soft"
+        className="ring-tegn transition-[stroke-dasharray] duration-700 ease-out-soft"
       />
     </svg>
   );
 }
 
 function ModeCard({
+  nr,
   href,
   laast,
   title,
@@ -236,6 +243,7 @@ function ModeCard({
   featured,
   bred,
 }: {
+  nr: number;
   href: string;
   laast: boolean;
   title: string;
@@ -250,10 +258,11 @@ function ModeCard({
   return (
     <Link
       href={lenke}
-      className={`group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99] ${bred ? "sm:col-span-2" : ""}`}
+      style={{ animationDelay: `${80 + nr * 60}ms` }}
+      className={`modus trykk rise group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 ${bred ? "sm:col-span-2" : ""}`}
     >
       <span
-        className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
+        className={`modus-ikon w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
           featured && !laast ? "bg-primary text-white" : "bg-primary-tint text-primary"
         }`}
       >
@@ -263,8 +272,11 @@ function ModeCard({
         <span className="text-lg font-semibold">{title}</span>
         <span className="text-sm text-muted">{text}</span>
         {resultat && (
-          <span className="text-xs font-semibold text-success-ink tabular-nums mt-1">
-            Beste: {poengTekst(resultat.beste)} av {resultat.av}
+          <span className="flex items-center gap-2 mt-1.5">
+            <Stjerner andel={resultat.beste / resultat.av} forsinkelse={420 + nr * 60} />
+            <span className="text-xs font-semibold text-success-ink tabular-nums">
+              Beste: {poengTekst(resultat.beste)} av {resultat.av}
+            </span>
           </span>
         )}
       </span>
@@ -277,5 +289,24 @@ function ModeCard({
         />
       )}
     </Link>
+  );
+}
+
+// Stjerner for beste resultat, som på et brett i et spill: én fra halvparten
+// riktig, to fra 80 %, tre for alt riktig. De snurrer inn én og én.
+function Stjerner({ andel, forsinkelse }: { andel: number; forsinkelse: number }) {
+  const antall = andel >= 1 ? 3 : andel >= 0.8 ? 2 : andel >= 0.5 ? 1 : 0;
+  return (
+    <span role="img" aria-label={`${antall} av 3 stjerner`} className="flex items-center gap-0.5">
+      {[0, 1, 2].map((i) => (
+        <span
+          key={i}
+          className={i < antall ? "stjerne-inn stjerne-gull" : "text-border-strong"}
+          style={i < antall ? { animationDelay: `${forsinkelse + i * 110}ms` } : undefined}
+        >
+          <Stjerne size={15} fylt={i < antall} />
+        </span>
+      ))}
+    </span>
   );
 }

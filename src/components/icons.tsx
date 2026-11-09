@@ -223,3 +223,23 @@ export const Gave = (p: IconProps) => (
     <path d="M3 9h18M12 9v11M12 9c-1.5-3-5-3.5-5-1.25C7 9 9.5 9 12 9zM12 9c1.5-3 5-3.5 5-1.25C17 9 14.5 9 12 9z" />
   </Svg>
 );
+
+// Flamme: rekker (riktige svar på rad). fylt: massiv, til merket i øvingene.
+export const Flamme = ({ fylt, ...p }: IconProps & { fylt?: boolean }) => (
+  <Svg {...p}>
+    <path
+      d="M12 2.75c.9 3.1 5.25 5.4 5.25 10.15a5.25 5.25 0 0 1-10.5 0c0-2.3 1.2-3.85 2.45-4.95.15 1.65.85 2.8 2.1 3.2-.45-2.9-.55-5.65.7-8.4z"
+      fill={fylt ? "currentColor" : "none"}
+    />
+  </Svg>
+);
+
+// Stjerne: godt resultat, stjerner på øvingene i temaet. fylt: oppnådd.
+export const Stjerne = ({ fylt, ...p }: IconProps & { fylt?: boolean }) => (
+  <Svg {...p}>
+    <path
+      d="M12 2.5l2.47 6.1 6.57.46-5.05 4.24 1.59 6.39L12 16.2l-5.58 3.49 1.59-6.39-5.05-4.24 6.57-.46z"
+      fill={fylt ? "currentColor" : "none"}
+    />
+  </Svg>
+);

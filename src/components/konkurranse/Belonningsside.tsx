@@ -143,7 +143,7 @@ function Kort({ b, saldo, demo, onInnlost }: { b: Belonning; saldo: number; demo
           <span className="text-xs font-medium text-muted">{b.partner}</span>
           <span className="font-display text-2xl font-semibold leading-tight">{b.tittel}</span>
         </span>
-        <span className="shrink-0 rounded-lg bg-merke px-2.5 py-1 font-semibold tabular-nums text-foreground">{tall(b.poengpris)}</span>
+        <span className="shrink-0 rounded-lg bg-merke px-2.5 py-1 font-semibold tabular-nums text-pa-merke">{tall(b.poengpris)}</span>
       </div>
       {b.beskrivelse && <p className="text-[15px] text-ink-soft">{b.beskrivelse}</p>}
       {b.vilkar && <p className="text-sm text-muted">{b.vilkar}</p>}

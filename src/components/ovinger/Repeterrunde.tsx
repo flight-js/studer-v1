@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useCallback, useState } from "react";
-import { AltRiktig } from "@/components/AltRiktig";
+import { Feiringsmerke } from "@/components/Feiringsmerke";
 import { SporAi } from "@/components/AiHjelp";
 import { ArrowRight } from "@/components/icons";
-import { Flippkort, useKorttaster } from "@/components/ovinger/Flippkort";
+import { Flippkort } from "@/components/ovinger/Flippkort";
 import { Sporsmalsvisning } from "@/components/ovinger/Sporsmalsvisning";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
@@ -71,7 +71,6 @@ export function Repeterrunde({
   }, []);
 
   const snu = useCallback(() => setSnudd((v) => !v), []);
-  useKorttaster(!!kort, snu, svarKort);
 
   const ferdige = total - ko.length;
   const andel = (ferdige + (valgt !== null ? 1 : 0)) / total;
@@ -143,7 +142,7 @@ function Ferdig({
   return (
     <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-6 px-5 pt-10 pb-28 text-center">
       <div className="w-full max-w-md flex flex-col items-center gap-6 rise">
-        {bommet === 0 && <AltRiktig />}
+        <Feiringsmerke type={bommet === 0 ? "alt-riktig" : "bra"} />
         <p className="text-sm font-medium text-muted">Runden er ferdig</p>
         <h1 className="font-display text-5xl sm:text-6xl font-semibold tracking-[-0.025em]">
           {igjen > 0 ? `${igjen} igjen i dag` : "Ferdig for i dag"}
@@ -157,7 +156,7 @@ function Ferdig({
           {igjen > 0 && (
             <button
               onClick={onFlere}
-              className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+              className="trykk trykk-blaa inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark"
             >
               Ta {Math.min(igjen, RUNDE)} til
               <ArrowRight size={16} />
@@ -165,7 +164,7 @@ function Ferdig({
           )}
           <Link
             href="/"
-            className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+            className="trykk inline-flex items-center gap-2 border-[1.5px] border-border-strong bg-surface px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground"
           >
             Til startsiden
           </Link>

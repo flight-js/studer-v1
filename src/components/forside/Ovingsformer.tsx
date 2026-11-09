@@ -318,7 +318,7 @@ function Miniprove() {
       <div className="mt-3 rounded-xl border border-border px-4 py-3.5">
         <div className="flex items-center justify-between">
           <span className="text-xs font-medium text-muted">Rettet av KI</span>
-          <span className="rounded-md bg-merke px-2 py-0.5 text-sm font-semibold text-foreground tabular-nums">½ poeng</span>
+          <span className="rounded-md bg-merke px-2 py-0.5 text-sm font-semibold text-pa-merke tabular-nums">½ poeng</span>
         </div>
         <ul className="mt-2.5 flex flex-col gap-2 text-sm">
           <li className="flex gap-2.5 text-success-ink">

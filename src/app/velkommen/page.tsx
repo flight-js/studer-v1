@@ -126,7 +126,7 @@ function Velkommen() {
                           onClick={() => setTrinn(t.id)}
                           className={`rounded-2xl border-[1.5px] px-4 py-4 text-left font-display text-xl font-semibold transition-[background-color,border-color,color,scale] duration-200 active:scale-[0.98] ${
                             valgt
-                              ? "bg-merke border-merke text-foreground"
+                              ? "bg-merke border-merke text-pa-merke"
                               : "border-natt-linje hover:border-background/40 hover:bg-natt-hevet"
                           }`}
                         >
@@ -193,7 +193,7 @@ function Velkommen() {
                 type="button"
                 onClick={videre}
                 disabled={lagrer || (steg === "trinn" && !valgtTrinn && !katalog.feil)}
-                className="group inline-flex items-center gap-2 rounded-xl bg-merke text-foreground px-6 py-3.5 text-sm font-semibold transition-[background-color,scale,opacity] duration-200 hover:bg-merke-dark active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed"
+                className="group inline-flex items-center gap-2 rounded-xl bg-merke text-pa-merke px-6 py-3.5 text-sm font-semibold transition-[background-color,scale,opacity] duration-200 hover:bg-merke-dark active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 {lagrer
                   ? "Lagrer …"

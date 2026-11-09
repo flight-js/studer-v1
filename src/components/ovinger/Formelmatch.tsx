@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { Fragment, useEffect, useLayoutEffect, useReducer, useRef, useState, useSyncExternalStore } from "react";
-import { AltRiktig } from "@/components/AltRiktig";
+import { Feiringsmerke } from "@/components/Feiringsmerke";
 import { Avkrysning } from "@/components/Avkrysning";
 import { ArrowRight, ChevronRight, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
+import { Rekke } from "@/components/Rekke";
+import { Tall } from "@/components/Tall";
+import { gnister } from "@/lib/feiring";
 import { Tips } from "@/components/Tips";
 import { Toppliste } from "@/components/konkurranse/Toppliste";
 import {
@@ -50,6 +53,7 @@ type Spill = {
   straffer: number;
   sist: number; // når siste riktige par ble trykket (event.timeStamp)
   bommet: string[]; // formlene som var med i et feil par (formelNokkel)
+  rekke: number; // riktige par på rad
 };
 
 type Handling =
@@ -58,7 +62,7 @@ type Handling =
   | { type: "neste" }
   | { type: "ny" };
 
-const NY: Spill = { brettNr: 0, borte: [], likning: [], svar: null, nr: 0, straffer: 0, sist: 0, bommet: [] };
+const NY: Spill = { brettNr: 0, borte: [], likning: [], svar: null, nr: 0, straffer: 0, sist: 0, bommet: [], rekke: 0 };
 
 // Svaret som vises, ryddes bort: riktige brikker forsvinner, feile går tilbake.
 function rydd(s: Spill): Spill {
@@ -71,7 +75,7 @@ function spill(s: Spill, h: Handling): Spill {
     case "ny":
       return NY;
     case "neste":
-      return { ...NY, brettNr: s.brettNr + 1, nr: s.nr, straffer: s.straffer, sist: s.sist, bommet: s.bommet };
+      return { ...NY, brettNr: s.brettNr + 1, nr: s.nr, straffer: s.straffer, sist: s.sist, bommet: s.bommet, rekke: s.rekke };
     case "rydd":
       return h.nr === s.nr ? rydd(s) : s;
     case "trykk": {
@@ -90,6 +94,7 @@ function spill(s: Spill, h: Handling): Spill {
         nr: n.nr + 1,
         straffer: n.straffer + (riktig ? 0 : 1),
         sist: riktig ? h.tidspunkt : n.sist,
+        rekke: riktig ? n.rekke + 1 : 0,
         // Begge formlene i et feil par regnes som bommet: eleven visste ikke hva noen av dem hørte sammen med.
         bommet: riktig ? n.bommet : [...new Set([...n.bommet, formelNokkel(a.formel), formelNokkel(b.formel)])],
       };
@@ -117,6 +122,8 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
   const serverRunde = useRef<Promise<string | null> | null>(null);
   const [avslutning, setAvslutning] = useState<{ nr: number; res: Avslutning | null }>({ nr: 0, res: null });
   const plasser = useRef<(HTMLSpanElement | null)[]>([]);
+  // Likhetstegnet: gnister herfra når paret er riktig.
+  const likhet = useRef<HTMLSpanElement>(null);
 
   const brett = runde[s.brettNr];
   const finn = (id: string) => brett?.brikker.find((b) => b.id === id);
@@ -142,6 +149,10 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
     const t = setTimeout(() => send({ type: "rydd", nr: s.nr }), s.svar === "riktig" ? VIS_RIKTIG : VIS_FEIL);
     return () => clearTimeout(t);
   }, [s.svar, s.nr]);
+
+  useEffect(() => {
+    if (s.svar === "riktig") gnister(likhet.current, s.rekke >= 5 ? 18 : 12);
+  }, [s.svar, s.nr, s.rekke]);
 
   // Brettet er tomt: neste brett, eller resultatet når det var det siste.
   useEffect(() => {
@@ -210,7 +221,14 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
         tilbake={tilbake}
         avsluttTekst="Avslutt formelmatch"
         bred
-        hoyre={fase === "start" ? undefined : sekunder(brukt)}
+        hoyre={
+          fase === "start" ? undefined : (
+            <span className="flex items-center gap-2.5">
+              {fase === "spiller" && <Rekke antall={s.rekke} enhet="par på rad" />}
+              {sekunder(brukt)}
+            </span>
+          )
+        }
       >
         {fase !== "start" && (
           <div
@@ -257,7 +275,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
               key={s.svar === "feil" ? s.nr : "likning"}
               className={`relative flex items-center gap-2 sm:gap-3 rounded-2xl border-[1.5px] p-2.5 sm:p-3 transition-[border-color,background-color] duration-200 ${
                 s.svar === "riktig"
-                  ? "border-success bg-success-tint"
+                  ? "riktig-sprett border-success bg-success-tint"
                   : s.svar === "feil"
                     ? "rist border-danger bg-danger-tint"
                     : "border-border bg-surface"
@@ -266,6 +284,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
               <Plass brikke={a} svar={s.svar} settRef={(el) => (plasser.current[0] = el)} />
               <span
                 key={s.svar === "riktig" ? s.nr : "lik"}
+                ref={likhet}
                 aria-hidden="true"
                 className={`font-display text-2xl sm:text-3xl font-semibold ${
                   s.svar === "riktig" ? "likhet text-success" : s.svar === "feil" ? "text-danger" : "text-muted"
@@ -378,10 +397,10 @@ function Brikkeknapp({
       aria-label={borte ? `${brikke.tekst}, koblet` : brikke.tekst}
       className={`min-h-[76px] sm:min-h-24 flex items-center justify-center px-3 py-3 rounded-2xl border-[1.5px] text-center font-display text-[17px] sm:text-xl leading-snug break-words transition-[border-color,background-color,color,opacity,scale,visibility] duration-200 ease-out-soft ${
         borte
-          ? "invisible opacity-0 scale-95"
+          ? "invisible opacity-0 scale-75"
           : iLikning
             ? "border-dashed border-border-strong text-faint"
-            : "bg-surface border-border hover:border-border-strong active:scale-[0.97]"
+            : "trykk kant-hover bg-surface border-border hover:border-primary"
       }`}
     >
       <span className="min-w-0">
@@ -479,7 +498,7 @@ function Startskjerm({
           onClick={onStart}
           disabled={!kan}
           autoFocus
-          className="group inline-flex items-center gap-2 bg-primary text-white px-7 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,scale,opacity] active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none"
+          className="trykk trykk-blaa group inline-flex items-center gap-2 bg-primary text-white px-7 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark disabled:opacity-50 disabled:pointer-events-none"
         >
           Start
           <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -696,16 +715,29 @@ function Resultat({
       : rekord.ny
         ? "Første runde er unnagjort. Prøv igjen og slå tiden din."
         : `Rekorden din er ${sekunder(rekord.forrige!)}.`;
+  const slaatt = rekord.ny && rekord.forrige !== null;
+  const feiring = slaatt ? "rekord" : straffer === 0 ? "alt-riktig" : null;
+  // Tiden teller opp som en stoppeklokke, og «Ny rekord» stemples på når den stopper.
+  const telletid = Math.min(500 + tid / 30, 1200);
   return (
     <div className="w-full max-w-2xl mx-auto flex flex-col gap-12 rise">
       <div className="flex flex-col items-center text-center gap-5">
-        {straffer === 0 && <AltRiktig />}
+        {feiring && <Feiringsmerke type={feiring} />}
         <p className="text-sm font-medium text-muted">
           Formelmatch fullført{straffer > 0 && ` · ${straffer} feil`}
         </p>
-        <div className="font-display text-7xl sm:text-8xl font-semibold tracking-[-0.03em] tabular-nums">
-          {sekunder(tid).replace(" s", "")}
+        <div className="relative font-display text-7xl sm:text-8xl font-semibold tracking-[-0.03em] tabular-nums">
+          <Tall verdi={tid} varighet={telletid} format={(n) => sekunder(n).replace(" s", "")} />
           <span className="text-faint text-5xl sm:text-6xl"> s</span>
+          {slaatt && (
+            <span
+              aria-hidden="true"
+              style={{ animationDelay: `${telletid + 250}ms` }}
+              className="stempel absolute -top-3 -right-4 sm:-right-10 -rotate-6 rounded-lg bg-merke px-2.5 py-1 font-body text-sm font-bold tracking-normal text-pa-merke shadow-card"
+            >
+              Ny rekord
+            </span>
+          )}
         </div>
         <p className="text-lg text-ink-soft max-w-[36ch]">{melding}</p>
         <div className="flex flex-wrap justify-center gap-3 mt-1">
@@ -714,7 +746,7 @@ function Resultat({
               type="button"
               onClick={onBommet}
               autoFocus
-              className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-[color,background-color,border-color,scale] active:scale-[0.98] bg-primary text-white hover:bg-primary-dark"
+              className="trykk trykk-blaa inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold bg-primary text-white hover:bg-primary-dark"
             >
               <Repeat size={16} />
               Øv på {bommet.length === 1 ? "den" : `de ${bommet.length}`} du bommet på
@@ -724,10 +756,10 @@ function Resultat({
             type="button"
             onClick={onIgjen}
             autoFocus={!bommet.length}
-            className={`inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold transition-[color,background-color,border-color,scale] active:scale-[0.98] ${
+            className={`trykk inline-flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold ${
               bommet.length
-                ? "border-[1.5px] border-border-strong hover:border-foreground"
-                : "bg-primary text-white hover:bg-primary-dark"
+                ? "border-[1.5px] border-border-strong bg-surface hover:border-foreground"
+                : "trykk-blaa bg-primary text-white hover:bg-primary-dark"
             }`}
           >
             {!bommet.length && <Repeat size={16} />}

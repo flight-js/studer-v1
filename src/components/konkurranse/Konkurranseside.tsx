@@ -66,7 +66,7 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
             )}
             <Link
               href="/belonninger"
-              className="group w-fit inline-flex items-center gap-2 rounded-xl bg-merke text-foreground px-5 py-3.5 text-sm font-semibold transition-[background-color,scale] duration-200 hover:bg-merke-dark active:scale-[0.98]"
+              className="group w-fit inline-flex items-center gap-2 rounded-xl bg-merke text-pa-merke px-5 py-3.5 text-sm font-semibold transition-[background-color,scale] duration-200 hover:bg-merke-dark active:scale-[0.98]"
             >
               <Gave size={18} />
               Løs inn poeng

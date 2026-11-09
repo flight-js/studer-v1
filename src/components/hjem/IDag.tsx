@@ -32,14 +32,14 @@ export function IDag({
       <ul className="border-t border-natt-linje">
         {!!repetisjon?.antall && (
           <li className="border-b border-natt-linje">
-            <Link href="/repeter" className="group flex items-center justify-between gap-6 py-6 sm:py-7 rounded-lg">
+            <Link href="/repeter" className="trykk-forelder group flex items-center justify-between gap-6 py-6 sm:py-7 rounded-lg">
               <span className="flex flex-col gap-2 min-w-0">
                 <span className="font-display font-semibold text-[26px] leading-[1.08] sm:text-4xl tracking-[-0.025em]">
                   {repetisjon.antall} å repetere
                 </span>
                 <span className="text-xs sm:text-sm text-background/70">{hvaSomSkalRepeteres(repetisjon)}</span>
               </span>
-              <span className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-merke text-foreground px-5 py-3 text-sm font-semibold transition-[background-color,scale] duration-200 group-hover:bg-merke-dark group-active:scale-[0.98]">
+              <span className="trykk trykk-gul shrink-0 inline-flex items-center gap-2 rounded-xl bg-merke text-pa-merke px-5 py-3 text-sm font-semibold group-hover:bg-merke-dark">
                 Start
                 <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
               </span>

@@ -1,11 +1,15 @@
 "use client";
 
-import { useEffect } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { Check, Close } from "@/components/icons";
+import { reduserBevegelse } from "@/lib/feiring";
 import type { Flashcard } from "@/lib/pensum";
 
 // Kortet som snus, med svarknappene under. Brukes i flashcards og i repetisjonen.
+// Tastene (mellomrom, piler) håndteres her. Når eleven svarer, kastes kortet
+// til høyre («Kan dette») eller venstre («Kan ikke ennå»), og neste kort deles
+// ut under (se kast nederst).
 // runde: endres når et nytt kort kommer, så kortet kommer inn på nytt.
 // valgt: svaret eleven ga sist på kortet, når man har gått tilbake til det.
 // medForrige: vis Backspace (forrige kort) i tastaturhjelpen.
@@ -27,9 +31,19 @@ export function Flippkort({
   medForrige?: boolean;
 }) {
   const harValgt = valgt !== undefined;
+  const scene = useRef<HTMLDivElement>(null);
+  const svar = useCallback(
+    (kan: boolean) => {
+      kast(scene.current, kan);
+      onSvar(kan);
+    },
+    [onSvar]
+  );
+  useKorttaster(true, onSnu, svar);
+
   return (
     <>
-      <div key={runde} className="flip-scene w-full max-w-lg rise-rask">
+      <div key={runde} ref={scene} className="flip-scene w-full max-w-lg kort-inn">
         <button
           onClick={onSnu}
           data-flipped={snudd}
@@ -68,11 +82,11 @@ export function Flippkort({
 
       <div className="flex gap-3 w-full max-w-lg">
         <button
-          onClick={() => onSvar(false)}
+          onClick={() => svar(false)}
           aria-pressed={harValgt ? valgt === false : undefined}
-          className={`flex-1 flex items-center justify-center gap-2 border-[1.5px] px-5 py-4 rounded-2xl text-sm font-semibold transition-[color,background-color,border-color,opacity,scale] duration-200 active:scale-[0.98] ${
+          className={`trykk flex-1 flex items-center justify-center gap-2 border-[1.5px] px-5 py-4 rounded-2xl text-sm font-semibold ${
             harValgt && valgt === false
-              ? "bg-danger-tint border-danger text-danger-ink"
+              ? "bg-danger-tint border-danger text-danger-ink kant-feil"
               : `bg-surface border-border-strong hover:border-danger hover:text-danger-ink ${harValgt ? "opacity-60 hover:opacity-100" : ""}`
           }`}
         >
@@ -80,11 +94,11 @@ export function Flippkort({
           Kan ikke ennå
         </button>
         <button
-          onClick={() => onSvar(true)}
+          onClick={() => svar(true)}
           aria-pressed={harValgt ? valgt === true : undefined}
-          className={`flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,opacity,box-shadow,translate,scale] duration-200 active:scale-[0.98] ${
+          className={`trykk trykk-gronn flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 ${
             harValgt && valgt === true
-              ? "ring-2 ring-success ring-offset-2 ring-offset-background"
+              ? "outline-2 outline-offset-2 outline-success"
               : harValgt
                 ? "opacity-60 hover:opacity-100"
                 : ""
@@ -132,6 +146,43 @@ export function useKorttaster(aktiv: boolean, onSnu: () => void, onSvar: (kan: b
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [aktiv, onSnu, onSvar]);
+}
+
+// Kortet som er besvart, flyr ut: en kopi legges over kortet og glir av
+// skjermen mens det nye kortet allerede står klart under. Eleven venter aldri
+// på animasjonen. Redusert bevegelse: ingen kopi, det nye kortet toner inn.
+function kast(el: HTMLElement | null, kan: boolean) {
+  if (!el || reduserBevegelse()) return;
+  const r = el.getBoundingClientRect();
+  const kopi = el.cloneNode(true) as HTMLElement;
+  kopi.classList.remove("kort-inn");
+  kopi.setAttribute("aria-hidden", "true");
+  kopi.inert = true;
+  Object.assign(kopi.style, {
+    position: "fixed",
+    left: `${r.left}px`,
+    top: `${r.top}px`,
+    width: `${r.width}px`,
+    height: `${r.height}px`,
+    margin: "0",
+    pointerEvents: "none",
+    zIndex: "30", // under menyen øverst (z-40)
+  });
+  if (kan) {
+    for (const flate of kopi.querySelectorAll<HTMLElement>(".flip-face")) {
+      flate.style.boxShadow = "0 0 0 3px var(--success), var(--shadow-lift)";
+    }
+  }
+  document.body.appendChild(kopi);
+  const x = (kan ? 1 : -1) * Math.min(window.innerWidth * 0.7, 560);
+  const animasjon = kopi.animate(
+    [
+      { transform: "none", opacity: 1 },
+      { transform: `translate(${x}px, ${kan ? -24 : 36}px) rotate(${kan ? 14 : -11}deg)`, opacity: 0 },
+    ],
+    { duration: 420, easing: "cubic-bezier(0.22, 1, 0.36, 1)" } // --ease-out-soft
+  );
+  animasjon.onfinish = animasjon.oncancel = () => kopi.remove();
 }
 
 function Tast({ children }: { children: React.ReactNode }) {

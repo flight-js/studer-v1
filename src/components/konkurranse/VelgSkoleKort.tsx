@@ -56,7 +56,7 @@ export function VelgSkoleKort({ brukerId }: { brukerId: string }) {
   return (
     <section aria-labelledby="velg-skole" className="rise mb-12 lg:mb-16 rounded-3xl border border-border bg-surface p-6 sm:p-8 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-6 lg:gap-10 items-start">
       <div className="flex flex-col gap-3">
-        <span className="inline-flex w-fit items-center gap-2 rounded-full bg-merke px-3 py-1 text-xs font-semibold text-foreground">
+        <span className="inline-flex w-fit items-center gap-2 rounded-full bg-merke px-3 py-1 text-xs font-semibold text-pa-merke">
           <Pokal size={14} />
           Skolekonkurranse
         </span>

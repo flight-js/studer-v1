@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { sporAi } from "@/components/AiHjelp";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Chat, Check, Close } from "@/components/icons";
 import { Rapporter } from "@/components/Rapporter";
+import { gnister } from "@/lib/feiring";
 import type { Sporsmal } from "@/lib/pensum";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
@@ -33,6 +34,12 @@ export function Sporsmalsvisning({
 }) {
   const answered = valgt !== null;
   const isCorrect = answered && valgt === q.riktig;
+
+  // Riktig svar: gnister fra bokstaven (haken) på alternativet.
+  const merker = useRef<(HTMLSpanElement | null)[]>([]);
+  useEffect(() => {
+    if (valgt !== null && valgt === q.riktig) gnister(merker.current[valgt]);
+  }, [valgt, q.riktig]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -70,17 +77,20 @@ export function Sporsmalsvisning({
               key={i}
               onClick={() => onVelg(i)}
               disabled={answered}
-              className={`group flex items-center gap-4 text-left rounded-2xl px-4 py-3.5 sm:py-4 border-[1.5px] transition-[border-color,background-color,opacity,translate,scale] duration-200 ${
+              className={`trykk group flex items-center gap-4 text-left rounded-2xl px-4 py-3.5 sm:py-4 border-[1.5px] ${
                 right
-                  ? "bg-success-tint border-success text-success-ink"
+                  ? `bg-success-tint border-success text-success-ink kant-riktig ${isCorrect ? "riktig-sprett" : ""}`
                   : wrong
-                    ? "bg-danger-tint border-danger text-danger-ink"
+                    ? "rist bg-danger-tint border-danger text-danger-ink kant-feil"
                     : dim
                       ? "bg-surface border-border opacity-55"
-                      : "bg-surface border-border hover:border-primary hover:bg-primary-tint/40 active:scale-[0.99]"
+                      : "bg-surface border-border hover:border-primary hover:bg-primary-tint/40 kant-hover"
               }`}
             >
               <span
+                ref={(el) => {
+                  merker.current[i] = el;
+                }}
                 className={`shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-sm font-semibold transition-colors duration-200 ${
                   right
                     ? "bg-success text-white"
@@ -89,7 +99,13 @@ export function Sporsmalsvisning({
                       : "bg-sunken text-muted group-hover:bg-primary group-hover:text-white"
                 }`}
               >
-                {right ? <Check size={16} /> : wrong ? <Close size={16} /> : LETTERS[i]}
+                {right ? (
+                  <Check size={16} className={isCorrect ? "ikon-pop" : undefined} />
+                ) : wrong ? (
+                  <Close size={16} />
+                ) : (
+                  LETTERS[i]
+                )}
               </span>
               <span className="flex-1 text-base">{text}</span>
             </button>
@@ -105,7 +121,7 @@ export function Sporsmalsvisning({
           }`}
         >
           <span
-            className={`shrink-0 mt-0.5 w-6 h-6 rounded-full flex items-center justify-center text-white ${
+            className={`ikon-pop shrink-0 mt-0.5 w-6 h-6 rounded-full flex items-center justify-center text-white ${
               isCorrect ? "bg-success" : "bg-danger"
             }`}
           >
@@ -137,7 +153,7 @@ export function Sporsmalsvisning({
           <button
             onClick={onNeste}
             autoFocus
-            className="group ml-auto inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-xl text-sm font-semibold transition-transform duration-200 active:scale-[0.98] rise-rask"
+            className="trykk trykk-blekk group ml-auto inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-xl text-sm font-semibold rise-rask"
           >
             {nesteTekst}
             <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />

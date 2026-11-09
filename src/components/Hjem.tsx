@@ -156,7 +156,7 @@ export function Hjem() {
                   </span>
                   <a
                     href="#fag"
-                    className="group shrink-0 w-fit inline-flex items-center gap-2 rounded-xl bg-merke text-foreground px-5 py-3.5 text-sm font-semibold transition-[background-color,translate,scale] duration-200 hover:bg-merke-dark active:scale-[0.98]"
+                    className="trykk trykk-gul group shrink-0 w-fit inline-flex items-center gap-2 rounded-xl bg-merke text-pa-merke px-5 py-3.5 text-sm font-semibold hover:bg-merke-dark"
                   >
                     Velg et fag
                     <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
