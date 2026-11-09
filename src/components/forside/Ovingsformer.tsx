@@ -3,14 +3,17 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
-import { Check, Close } from "@/components/icons";
+import { Check, Close, Repeat } from "@/components/icons";
+import { Formeltekst } from "@/components/ovinger/Formelmatch";
 import { EKSEMPEL } from "@/lib/forsidedata";
+import { stokk } from "@/lib/stokk";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// De fire øvingsformene på forsiden, vist med eksempeltemaet fra «Slik funker
-// det». Flashcardet og quizen er ekte og kan prøves; miniprøven og AI-hjelpen
-// er eksempler (tydelig merket) som spilles av når de kommer inn i bildet.
+// Øvingsformene på forsiden, vist med eksempeltemaet fra «Slik funker det».
+// Flashcardet, quizen og formelmatchen er ekte og kan prøves; miniprøven og
+// AI-hjelpen er eksempler (tydelig merket) som spilles av når de kommer inn i
+// bildet.
 
 const tema = `${EKSEMPEL.fag} · ${EKSEMPEL.tema}`;
 
@@ -46,7 +49,10 @@ export function Ovingsformer() {
       <Rad nr={3} tittel="Miniprøver" tekst="Skriv svarene selv, på tid. KI retter mot fasiten, og delvis riktig gir halvt poeng.">
         <Miniprove />
       </Rad>
-      <Rad nr={4} tittel="AI-hjelp" tekst="Spør når noe er uklart. Svarene holder seg til pensumet i faget du øver på.">
+      <Rad nr={4} tittel="Formelmatch" tekst="Koble formlene sammen så fort du klarer. Feil par koster ett sekund, og etterpå kan du øve på de du bommet på. Finnes i temaer med formler.">
+        <Formelmatch />
+      </Rad>
+      <Rad nr={5} tittel="AI-hjelp" tekst="Spør når noe er uklart. Svarene holder seg til pensumet i faget du øver på.">
         <AiHjelp />
       </Rad>
     </div>
@@ -375,5 +381,194 @@ function AiHjelp() {
         </div>
       </div>
     </div>
+  );
+}
+
+// Formelmatch med formlene fra eksempeltemaet. Samme regler som i appen:
+// første brikke går til venstre for likhetstegnet, neste til høyre. Riktig par
+// lyser grønt og forsvinner; feil par rister og koster ett sekund.
+type Formelbrikke = { id: string; formel: number; tekst: string };
+
+const ALLE_BRIKKER: Formelbrikke[] = EKSEMPEL.formler.flatMap((f, i) => [
+  { id: `${i}v`, formel: i, tekst: f.venstre },
+  { id: `${i}h`, formel: i, tekst: f.hoyre },
+]);
+// Fast startrekkefølge (lik på server og i nettleser); «Spill igjen» stokker.
+const START_REKKEFOLGE = [0, 5, 2, 7, 4, 1, 6, 3]
+  .filter((i) => i < ALLE_BRIKKER.length)
+  .map((i) => ALLE_BRIKKER[i]);
+
+function Formelmatch() {
+  const [brikker, setBrikker] = useState(START_REKKEFOLGE);
+  const [likning, setLikning] = useState<Formelbrikke[]>([]);
+  const [svar, setSvar] = useState<"riktig" | "feil" | null>(null);
+  const [borte, setBorte] = useState<string[]>([]);
+  const [straffer, setStraffer] = useState(0);
+  const [start, setStart] = useState<number | null>(null);
+  const [slutt, setSlutt] = useState<number | null>(null);
+  const [na, setNa] = useState(0);
+  const ferdig = slutt !== null;
+
+  // Klokka går fra første trykk til siste riktige par.
+  useEffect(() => {
+    if (start === null || ferdig) return;
+    const t = setInterval(() => setNa(performance.now()), 100);
+    return () => clearInterval(t);
+  }, [start, ferdig]);
+  const ms = start === null ? 0 : (slutt ?? na) - start + straffer * 1000;
+  const sek = (Math.max(ms, 0) / 1000).toLocaleString("nb-NO", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+  // Svaret står en liten stund, så ryddes likningen.
+  useEffect(() => {
+    if (!svar) return;
+    const t = setTimeout(
+      () => {
+        if (svar === "riktig") setBorte((b) => [...b, ...likning.map((x) => x.id)]);
+        setLikning([]);
+        setSvar(null);
+      },
+      svar === "riktig" ? 420 : 560,
+    );
+    return () => clearTimeout(t);
+  }, [svar, likning]);
+
+  const trykk = (b: Formelbrikke, tidspunkt: number) => {
+    if (ferdig || svar || borte.includes(b.id)) return;
+    if (start === null) {
+      setStart(tidspunkt);
+      setNa(tidspunkt);
+    }
+    if (likning[0]?.id === b.id) return setLikning([]);
+    if (!likning.length) return setLikning([b]);
+    const [a] = likning;
+    const riktig = a.formel === b.formel;
+    setLikning([a, b]);
+    setSvar(riktig ? "riktig" : "feil");
+    if (!riktig) setStraffer((n) => n + 1);
+    else if (borte.length + 2 === brikker.length) setSlutt(tidspunkt);
+  };
+
+  const igjen = () => {
+    setBrikker(stokk(ALLE_BRIKKER));
+    setLikning([]);
+    setSvar(null);
+    setBorte([]);
+    setStraffer(0);
+    setStart(null);
+    setSlutt(null);
+  };
+
+  const [a, b] = likning;
+  return (
+    <div>
+      <Demohode merke="Prøv selv" />
+      <div className="flex items-center justify-between mb-3 text-sm">
+        <span className="font-semibold">{ferdig ? "Alle formlene er koblet" : "Koble sammen formlene"}</span>
+        <span className="font-display text-2xl font-semibold tabular-nums tracking-tight" aria-label="Tid">
+          {sek} s
+        </span>
+      </div>
+
+      <div
+        key={svar === "feil" ? `feil-${straffer}` : "likning"}
+        className={`relative flex items-center gap-2 sm:gap-3 rounded-2xl border-[1.5px] p-2.5 transition-[border-color,background-color] duration-200 ${
+          svar === "riktig"
+            ? "border-success bg-success-tint"
+            : svar === "feil"
+              ? "rist border-danger bg-danger-tint"
+              : "border-border bg-background"
+        }`}
+      >
+        <Formelplass brikke={a} svar={svar} />
+        <span
+          aria-hidden="true"
+          className={`font-display text-2xl font-semibold ${
+            svar === "riktig" ? "likhet text-success" : svar === "feil" ? "text-danger" : "text-muted"
+          }`}
+        >
+          =
+        </span>
+        <Formelplass brikke={b} svar={svar} />
+        {straffer > 0 && (
+          <span
+            key={straffer}
+            aria-hidden="true"
+            className="straff absolute -top-3 right-3 rounded-full bg-danger px-2.5 py-0.5 text-xs font-semibold text-white tabular-nums"
+          >
+            +1 s
+          </span>
+        )}
+      </div>
+
+      {ferdig ? (
+        <div className="rise-rask mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-2xl bg-sunken px-5 py-4">
+          <p className="text-[15px] text-ink-soft">
+            <span className="font-semibold text-foreground">Ferdig på {sek} sekunder.</span>{" "}
+            {straffer ? `${straffer} feil par ga ${straffer} s ekstra.` : "Ingen feil – sterkt!"}
+          </p>
+          <button
+            type="button"
+            onClick={igjen}
+            className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-foreground text-background px-4 py-2.5 text-sm font-semibold transition-[background-color,scale] duration-200 hover:bg-black active:scale-[0.98]"
+          >
+            <Repeat size={16} />
+            Spill igjen
+          </button>
+        </div>
+      ) : (
+        <div role="group" aria-label="Brikker" className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {brikker.map((x) => {
+            const erBorte = borte.includes(x.id);
+            const iLikning = likning.some((l) => l.id === x.id);
+            return (
+              <button
+                key={x.id}
+                type="button"
+                onClick={(e) => trykk(x, e.timeStamp)}
+                disabled={erBorte}
+                aria-pressed={iLikning}
+                aria-label={erBorte ? `${x.tekst}, koblet` : x.tekst}
+                className={`min-h-16 flex items-center justify-center px-2 py-2.5 rounded-xl border-[1.5px] text-center font-display text-[17px] leading-snug transition-[border-color,background-color,color,opacity,scale,visibility] duration-200 ease-out-soft ${
+                  erBorte
+                    ? "invisible opacity-0 scale-95"
+                    : iLikning
+                      ? "border-dashed border-border-strong text-faint"
+                      : "bg-background border-border hover:border-border-strong active:scale-[0.97]"
+                }`}
+              >
+                <span className="min-w-0">
+                  <Formeltekst tekst={x.tekst} />
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+      <p role="status" className="sr-only">
+        {svar === "riktig" ? "Riktig par." : svar === "feil" ? "Feil par, ett sekund ekstra." : ferdig ? `Ferdig på ${sek} sekunder.` : ""}
+      </p>
+    </div>
+  );
+}
+
+function Formelplass({ brikke, svar }: { brikke?: Formelbrikke; svar: "riktig" | "feil" | null }) {
+  return (
+    <span
+      className={`flex-1 min-w-0 min-h-14 flex items-center justify-center rounded-xl border-[1.5px] px-2 py-2 text-center font-display text-lg sm:text-xl leading-snug transition-[border-color,background-color,color] duration-200 ${
+        !brikke
+          ? "border-dashed border-border-strong"
+          : svar === "riktig"
+            ? "border-success bg-surface text-success-ink"
+            : svar === "feil"
+              ? "border-danger bg-surface text-danger-ink"
+              : "border-primary bg-primary-tint"
+      }`}
+    >
+      {brikke && (
+        <span key={brikke.id} className="rise-rask block min-w-0">
+          <Formeltekst tekst={brikke.tekst} />
+        </span>
+      )}
+    </span>
   );
 }

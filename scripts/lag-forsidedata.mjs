@@ -63,6 +63,8 @@ for (const trinn of katalog.trinn) {
           flashcard: tema.flashcards.find((f) => f.term === "Amfolytt") ?? tema.flashcards[0],
           sporsmal: { text: quiz.text, options: quiz.options, correct: quiz.correct, explain: quiz.explain },
           skriveoppgave: skriv && { text: skriv.text, fasit: skriv.fasit, kriterier: skriv.kriterier },
+          // Til Formelmatch-demoen på forsiden.
+          formler: (tema.formler ?? []).map(({ venstre, hoyre }) => ({ venstre, hoyre })),
         };
       }
 

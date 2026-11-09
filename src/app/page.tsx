@@ -159,7 +159,7 @@ function Markedsside() {
           <section aria-labelledby="ov-tittel" className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16">
             <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-6 items-end mb-12 lg:mb-16">
               <Ordtittel id="ov-tittel" className={tittel}>
-                Fire måter å øve på.
+                Fem måter å øve på.
               </Ordtittel>
               <p className="text-lg leading-relaxed text-ink-soft max-w-[42ch]">
                 Samme tema, fire vinkler. Bytt når det begynner å gå på autopilot. Eksemplene er fra{" "}
@@ -168,7 +168,7 @@ function Markedsside() {
             </div>
             <Ovingsformer />
             <p className="border-t border-border pt-8 text-lg text-ink-soft">
-              Hvert tema har også et sammendrag og et tankekart, så du kan lese deg opp før du øver.
+              Hvert tema har også et sammendrag og et tankekart, så du kan lese deg opp før du øver. Og repetisjonen husker hvert kort og spørsmål, og tar dem fram igjen når det er på tide.
             </p>
           </section>
 
