@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useId, useState } from "react";
 import { Skolevelger } from "@/components/konkurranse/Skolevelger";
 import { useAuth } from "@/lib/auth";
-import { KALLENAVN_MAKS, kallenavnFeil } from "@/lib/kallenavn";
+import { KALLENAVN_MAKS, kallenavnFeil, ryddKallenavn } from "@/lib/kallenavn";
 import {
   hentKonkurranseprofil,
   lagreKonkurranseprofil,
@@ -49,6 +49,8 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
   const [skjul, setSkjul] = useState(start.skjulFornavn);
   const [kallenavn, setKallenavn] = useState(start.kallenavn ?? "");
   const [status, setStatus] = useState<{ type: "ok" | "feil"; tekst: string } | null>(null);
+  // Kallenavnet slik det er lagret nå, så et uendret navn ikke sjekkes på nytt.
+  const [lagretKallenavn, setLagretKallenavn] = useState(start.kallenavn);
   const [lagrer, setLagrer] = useState(false);
   const valgId = useId();
   const ugyldig = skjul && !!kallenavn.trim() && !!kallenavnFeil(kallenavn);
@@ -59,7 +61,13 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
     setLagrer(true);
     setStatus(null);
     try {
-      await lagreKonkurranseprofil(brukerId, { skoleId: skole?.id ?? null, skjulFornavn: skjul, kallenavn });
+      const lagret = await lagreKonkurranseprofil(brukerId, {
+        skoleId: skole?.id ?? null,
+        skjulFornavn: skjul,
+        kallenavn,
+        forrige: lagretKallenavn,
+      });
+      setLagretKallenavn(lagret);
       setStatus({ type: "ok", tekst: "Lagret." });
     } catch (err) {
       setStatus({ type: "feil", tekst: (err as Error).message });
@@ -86,7 +94,11 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
           disabled={lagrer || ugyldig}
           className="trykk trykk-blekk rounded-xl bg-foreground text-background px-5 py-3 text-sm font-semibold disabled:opacity-60"
         >
-          {lagrer ? "Lagrer …" : "Lagre"}
+          {lagrer
+            ? skjul && (ryddKallenavn(kallenavn) || null) !== lagretKallenavn && kallenavn.trim()
+              ? "Sjekker kallenavnet …"
+              : "Lagrer …"
+            : "Lagre"}
         </button>
         {status && (
           <p role="status" className={`text-sm ${status.type === "ok" ? "text-success-ink" : "text-danger-ink"}`}>
@@ -196,7 +208,8 @@ export function Rangeringsvalg({
             aria-live="polite"
             className={`text-xs ${feil ? (mork ? "text-[#ffb4a8] font-medium" : "text-danger-ink font-medium") : dempet}`}
           >
-            {feil ?? "Bokstaver, tall, mellomrom, - og _. La feltet stå tomt for å ikke vises på rangeringene i det hele tatt."}
+            {feil ??
+              "Bokstaver, tall, mellomrom, - og _. Det sjekkes før det lagres. La feltet stå tomt for å ikke vises på rangeringene i det hele tatt."}
           </p>
         </div>
       )}

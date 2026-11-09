@@ -49,7 +49,10 @@ alter table public.profiles
   add column skjul_fornavn boolean not null default false,
   add column kallenavn text;
 
-grant update (skole_id, skjul_fornavn, kallenavn) on public.profiles to authenticated;
+-- Kallenavnet kan bare lagres av serverfunksjonen «kallenavn», som også lar en
+-- språkmodell vurdere det (supabase/functions/kallenavn). Eleven kan derfor
+-- ikke oppdatere kolonnen selv.
+grant update (skole_id, skjul_fornavn) on public.profiles to authenticated;
 
 -- Ordlistene for kallenavn – de samme som i src/lib/kallenavn.ts (der står
 -- hvorfor ordene er delt i tre lister). Endres begge steder.
@@ -65,10 +68,13 @@ as $$
     'faggot', 'fagot', 'retard', 'tranny', 'shemale', 'porn', 'penis', 'vagina', 'dildo', 'wank',
     'cumshot', 'blowjob', 'handjob', 'motherf', 'asshole', 'arsehole', 'dumbass', 'jackass', 'dickhead',
     'pussy', 'milf', 'chink', 'gook', 'wetback', 'beaner', 'towelhead', 'killyourself', 'hitler',
-    'siegheil', 'whitepower', 'kkk', 'nazist', 'terrorist', 'pedofil', 'faen', 'helvete', 'jaevl',
-    'jaevel', 'javla', 'satan', 'dritt', 'fitte', 'fitta', 'knull', 'rasshol', 'homse', 'soperk',
-    'neger', 'pakkis', 'svarting', 'sigoyner', 'voldt', 'hestkuk', 'kukhue', 'horunge', 'horebukk',
-    'piss', 'mongis', 'spasser', 'drepdeg', 'admin', 'moderator', 'studerno'
+    'siegheil', 'whitepower', 'whitepride', 'skinhead', 'swastika', 'kkk', 'nazist', 'terrorist',
+    'jihad', 'taliban', 'pedofil', 'suicide', 'cocaine', 'faen', 'fakking', 'helvete', 'haelvete',
+    'jaevl', 'jaevel', 'javla', 'satan', 'dritt', 'sjit', 'fitte', 'fitta', 'knull', 'rasshol', 'homse',
+    'soperk', 'neger', 'pakkis', 'svarting', 'sigoyner', 'voldt', 'hestkuk', 'kukhue', 'horunge',
+    'horebukk', 'piss', 'mongis', 'spasser', 'drepdeg', 'hakekors', 'selvmord', 'kokain', 'narkoman',
+    'snapchat', 'instagram', 'whatsapp', 'telegram', 'discord', 'onlyfans', 'tiktok', 'admin',
+    'moderator', 'studerno'
   ];
 $$;
 
@@ -94,7 +100,8 @@ as $$
   select array[
     'ass', 'cum', 'tit', 'tits', 'sex', 'sexy', 'anal', 'anus', 'boob', 'boobs', 'nude', 'nudes',
     'naken', 'pupper', 'cock', 'dick', 'homo', 'kys', 'rape', 'spic', 'kike', 'coon', 'dyke', 'fag',
-    'fags', 'paki', 'mongo', 'nazi', 'nazis', 'heil', 'niga', 'nigr', 'horny', 'studer', 'support',
+    'fags', 'paki', 'mongo', 'nazi', 'nazis', 'heil', 'niga', 'nigr', 'horny', 'weed', 'meth', 'heroin',
+    'drug', 'drugs', 'hasj', 'mord', 'murder', 'fakk', 'snap', 'insta', 'kik', 'studer', 'support',
     'deg'
   ];
 $$;
@@ -138,6 +145,10 @@ begin
   end if;
   if char_length(regexp_replace(v, '[^A-Za-zÀ-ÖØ-öø-ÿĀ-ž]', '', 'g')) < 2 then
     return 'Kallenavnet må ha minst to bokstaver.';
+  end if;
+  -- Telefonnumre og lignende: høyst fire sifre på rad.
+  if v ~ '[0-9]{5}' then
+    return 'Bruk høyst fire tall på rad.';
   end if;
   if strpos(v, '1488') > 0 then
     return 'Det kallenavnet kan ikke brukes. Velg et annet.';
@@ -203,6 +214,41 @@ $$;
 create trigger profiles_sjekk_kallenavn
   before insert or update of kallenavn on public.profiles
   for each row execute function public.sjekk_kallenavn();
+
+-- Hvor mange kallenavn hver elev har fått sjekket av språkmodellen per døgn,
+-- så ingen kan prøve seg fram i det uendelige (eller koste mye). Bare
+-- serverfunksjonen «kallenavn» bruker tabellen, med secret-nøkkelen.
+create table public.kallenavn_sjekker (
+  bruker_id uuid not null references auth.users (id) on delete cascade,
+  dag date not null default public.minne_i_dag(),
+  antall int not null default 0,
+  primary key (bruker_id, dag)
+);
+alter table public.kallenavn_sjekker enable row level security;
+revoke all on public.kallenavn_sjekker from anon, authenticated;
+
+-- Teller én sjekk. Svarer 'ok', 'dag' (eleven har nådd grensen i dag) eller
+-- 'global' (hele appen har nådd grensen i dag – vern mot mange nye kontoer).
+create function public.kallenavn_tell_sjekk(p_bruker_id uuid, p_dagsgrense int, p_global_grense int)
+returns text
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_dag date := public.minne_i_dag();
+  v_antall int;
+begin
+  if (select coalesce(sum(antall), 0) from public.kallenavn_sjekker where dag = v_dag) >= p_global_grense then
+    return 'global';
+  end if;
+  insert into public.kallenavn_sjekker as k (bruker_id, dag, antall)
+  values (p_bruker_id, v_dag, 1)
+  on conflict (bruker_id, dag) do update set antall = k.antall + 1
+  returning antall into v_antall;
+  return case when v_antall <= p_dagsgrense then 'ok' else 'dag' end;
+end;
+$$;
 
 -- Fornavnet: første ord i navnet.
 create function public.visningsnavn(p_navn text)
@@ -767,7 +813,8 @@ revoke execute on function public.kallenavn_kort(text) from public, anon;
 revoke execute on function public.kallenavn_delord() from public, anon;
 revoke execute on function public.kallenavn_forstavelser() from public, anon;
 revoke execute on function public.kallenavn_helord() from public, anon;
--- Kallenavnsjekken kjøres av triggeren som eleven selv (når profilen lagres).
+revoke execute on function public.kallenavn_tell_sjekk(uuid, int, int) from public, anon, authenticated;
+-- Kallenavnsjekken kan også kjøres av en innlogget elev (ren funksjon, ingen data).
 grant execute on function public.kallenavn_feil(text) to authenticated;
 grant execute on function public.kallenavn_kort(text) to authenticated;
 grant execute on function public.kallenavn_delord() to authenticated;

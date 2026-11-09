@@ -67,7 +67,7 @@ Poengene tildeles i `gi_poeng()`, som bare kalles av `lagre_resultat()` og
 | Velkommen | `/velkommen` rett etter registrering: trinn, skole og preferanser (utseende, fornavn eller kallenavn) |
 | Startsiden | «Hvilken skole går du på?»-kort til skolen er valgt (`VelgSkoleKort.tsx`), poengbrikke i menyen |
 | Konto | Skole og «Ikke vis fornavnet mitt på rangeringene» med kallenavn (`components/konkurranse/Konkurranseprofil.tsx`) |
-| Kallenavn | Sjekk i `src/lib/kallenavn.ts` (mens eleven skriver) og `kallenavn_feil` i migrasjonen (når det lagres) |
+| Kallenavn | Ordlister i `src/lib/kallenavn.ts`, serverfunksjonen `supabase/functions/kallenavn` (ordlister + språkmodell, eneste vei til kolonnen) og `kallenavn_feil` i databasen |
 | Formelmatch | Runden starter og slutter på serveren; resultatskjermen viser topplista for temaet |
 | Varsel | «+12 poeng» nederst på skjermen etter øvinger (`components/Poengvarsel.tsx`) |
 | Juridisk | Utkast til punkt 9 i vilkårene og avsnitt i personvernerklæringen |
@@ -108,33 +108,66 @@ registrert.
 
 ## Kallenavn
 
-For elever som skjuler fornavnet. 2–20 tegn, bare latinske bokstaver (også
-æøå, aksenter og samiske bokstaver), tall, mellomrom, - og _, minst to
-bokstaver. Sjekkes to steder med de samme reglene og ordlistene:
-`src/lib/kallenavn.ts` mens eleven skriver, og `kallenavn_feil` i databasen
-når det lagres (en trigger på `profiles`), så sjekken ikke kan omgås.
-Feilmeldingen fra databasen vises som den er.
+For elever som skjuler fornavnet. Svært få rapporterer et stygt navn, så
+filteret må stoppe dem selv. Derfor tre lag:
 
-- **Tre ordlister:** ord som ikke kan stå noe sted («fuck», «faen», «neger»),
-  forstavelser som ikke kan begynne et ord (norske sammensetninger som
-  «kukhue» og «horebukk»), og korte ord som bare stoppes alene («ass»,
-  «cock», «nazi» – de finnes inni vanlige ord som «Kasse», «Hancock» og
-  «Nazir»). Også navn som utgir seg for Studer («admin», «moderator») og
-  «Deg», som er navnet skjulte elever ser seg selv med.
-- **Omveier som fanges:** store/små bokstaver, tegn og mellomrom imellom
-  («f.u.c.k»), tall for bokstaver («sh1t»), forlengede bokstaver («fuuuck»),
-  ord gjemt i camelCase («MatteKuk») og kyrilliske bokstaver som ligner
-  latinske (bare latinske er lov).
-- **Testet** med 86 navn som skal godtas, 93 som skal stoppes og 9 ugyldige,
-  og databaseversjonen ga samme svar som appen for alle 210 navnene (PGlite,
-  Postgres 17 med C-lokale). Bokstavområdene er skrevet ut i SQL-en fordi
-  `[[:alpha:]]` og `lower()` ikke kjenner æøå med C-lokale.
-- **Kjente feiltreff** (stoppes selv om de er uskyldige): Scunthorpe,
-  Pussycat, Shitake, Kukkonen, Faenza og feilstavingen «Fittness». Det er
-  prisen for å stoppe ordene inni dem.
-- **Endre ordlistene:** begge steder (`kallenavn.ts` og funksjonene
-  `kallenavn_delord`, `kallenavn_forstavelser` og `kallenavn_helord` i
-  migrasjonen). Er de ulike, gjelder databasens svar.
+1. **Ordlistene i appen** (`src/lib/kallenavn.ts`) gir svar mens eleven
+   skriver.
+2. **Serverfunksjonen `kallenavn`** (`supabase/functions/kallenavn`) er
+   eneste vei til `profiles.kallenavn` – eleven har ikke lov til å oppdatere
+   kolonnen selv. Den kjører ordlistene (`kallenavn_feil` i databasen) og lar
+   så en språkmodell vurdere navnet. Modellen fanger det lister ikke kan: nye
+   skrivemåter, andre språk («Merde», «Puta»), hets mot personer («Kari er
+   feit»), hentydninger («Big D Energy»), rus, fulle navn (kan være en annen
+   elev), kontaktinfo («finn meg på sc») og navn som utgir seg for lærere eller
+   kjente personer. Instruksjonene står i `prompt.ts`: streng, og i tvil avvises
+   navnet.
+3. **Databasen** sjekker ordlistene en gang til når navnet lagres (trigger på
+   `profiles`).
+
+Kan modellen ikke sjekke navnet (feil, tidsavbrudd eller ikke satt opp),
+lagres det **ikke** – eleven får «Prøv igjen om litt». Uendrede navn sjekkes
+ikke på nytt. Grenser: 10 sjekker per elev per døgn og 5 000 for hele appen
+(`AI_GRENSE_KALLENAVN`, `AI_GRENSE_KALLENAVN_TOTALT`), så ingen kan prøve seg
+fram eller drive opp kostnaden med mange kontoer. Kallenavnet logges aldri,
+og OpenAI lagrer det ikke (`store: false`). Krever innlogging, ikke abonnement
+(kallenavnet velges i velkomststegene).
+
+**Regler:** 2–20 tegn, bare latinske bokstaver (også æøå, aksenter og samiske
+bokstaver), tall, mellomrom, - og _, minst to bokstaver og høyst fire tall på
+rad (ikke telefonnumre).
+
+**Ordlistene:**
+
+- Tre lister: ord som ikke kan stå noe sted («fuck», «faen», «neger»,
+  «snapchat»), forstavelser som ikke kan begynne et ord (norske
+  sammensetninger som «kukhue» og «horebukk»), og korte ord som bare stoppes
+  alene («ass», «cock», «nazi», «snap», «fakk» – de finnes inni vanlige ord som
+  «Kasse», «Hancock», «Nazir», «Snapper» og «Fakkel»). Dekker banning,
+  seksuelle ord, slurs, rus, ekstremisme, selvmord, kontaktinfo og navn som
+  utgir seg for Studer («admin», «moderator», og «Deg», som er navnet skjulte
+  elever ser seg selv med).
+- Omveier som fanges: store/små bokstaver, tegn og mellomrom imellom, tall for
+  bokstaver («sh1t»), forlengede bokstaver («fuuuck»), ord gjemt i camelCase
+  («MatteKuk») og kyrilliske bokstaver som ligner latinske (bare latinske er
+  lov).
+- Kjente feiltreff (stoppes selv om de er uskyldige): Scunthorpe, Pussycat,
+  Shitake, Kukkonen, Faenza og feilstavingen «Fittness».
+- **Endre ordlistene:** i `kallenavn.ts`, og kjør `npm run kallenavn:sql`, som
+  skriver dem inn i databasefunksjonene i migrasjonen. Er migrasjonen allerede
+  kjørt, gir `node scripts/kallenavn-sql.mjs --ny` SQL-en til en ny migrasjon.
+
+**Testet:**
+
+- Ordlistene: 95 navn som skal godtas, 107 som skal stoppes og 9 ugyldige, 0
+  feil. Databaseversjonen ga samme svar som appen for alle 229 navnene
+  (PGlite, Postgres 17 med C-lokale – bokstavområdene er skrevet ut i SQL-en
+  fordi `[[:alpha:]]` og `lower()` ikke kjenner æøå med C-lokale). Triggeren,
+  rangeringsnavnet og grensene er også testet der.
+- Språkmodellen: **ikke testet ennå** (krever AI_API_KEY). Kjør
+  `npm run ai:kallenavn-test` før lansering – 35 navn, både harmløse og slike
+  ordlistene ikke fanger. Juster `prompt.ts` hvis den avviser vanlige navn
+  eller slipper gjennom stygge.
 
 ## Juks: hva som stoppes, og hva som ikke stoppes
 
@@ -179,16 +212,19 @@ fjerne poeng (`grunn = 'korrigering'`).
   og krever minst tre elever. Vurder en DPIA (personvernkonsekvensvurdering),
   og oppdater datoene i personvernerklæringen og vilkårene når teksten
   publiseres.
-- **Kallenavn.** Ingen filter er perfekt. Ha en rutine for å fjerne et
-  kallenavn som slipper gjennom (`update profiles set kallenavn = null where
-  id = …` med service_role), og vurder en «Rapporter»-knapp på rangeringene.
+- **Kallenavn.** Filteret er hovedvernet (se «Kallenavn»), fordi få
+  rapporterer. Ha likevel en rutine for å fjerne et navn som skulle slippe
+  gjennom (`update profiles set kallenavn = null where id = …` med
+  service_role).
 - **Partnere.** Det finnes ingen avtaler ennå. Sidene viser «Belønningene
   kommer snart» til ekte belønninger er lagt inn. Ikke vis logoer eller navn på
   partnere uten avtale.
 
 ## Lansering, steg for steg
 
-1. Kjør migrasjonen og `supabase/skoler.sql` (Supabase SQL Editor).
+1. Kjør migrasjonen og `supabase/skoler.sql` (Supabase SQL Editor), og last opp
+   serverfunksjonen `kallenavn` (AI_API_KEY finnes allerede fra «chat»). Kjør
+   `npm run ai:kallenavn-test` først.
 2. Generer `database.types.ts` på nytt og sjekk at det bygger.
 3. Test med en testkonto: poeng etter øving, tak, formelmatch-tid, ligaer.
 4. Legg inn ekte belønninger og koder (se nederst i migrasjonen).

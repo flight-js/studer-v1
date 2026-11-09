@@ -60,8 +60,9 @@ export default function Personvern() {
         </p>
         <p>
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på
-          skriveoppgavene i miniprøven, sendes til OpenAI for å lage svar og retting. Vi lagrer ikke samtalene eller
-          svarene dine. Vi lagrer bare poengsummen fra miniprøven, og hvor mange meldinger og rettinger du har brukt per
+          skriveoppgavene i miniprøven, sendes til OpenAI for å lage svar og retting. Et kallenavn du velger, sendes
+          også til OpenAI for å sjekke at det ikke er støtende. Vi lagrer ikke samtalene eller svarene dine. Vi lagrer
+          bare poengsummen fra miniprøven, og hvor mange meldinger, rettinger og kallenavnsjekker du har brukt per
           dag, slik at ingen kan misbruke tjenesten. Grunnlaget er avtalen med deg, og for tellerne vår berettigede
           interesse i å hindre misbruk (artikkel 6 nr. 1 bokstav f). Ikke skriv personopplysninger, som fullt navn,
           telefonnummer eller helseopplysninger, til AI-hjelpen.

@@ -1,12 +1,18 @@
 // Kallenavn på rangeringene (for elever som ikke vil vise fornavnet).
 //
-// Sjekken her gir svar mens eleven skriver. Databasen gjør den samme sjekken
-// når kallenavnet lagres (public.kallenavn_feil i migrasjonen
-// 20261109120000_konkurranse.sql), så den kan ikke omgås. Endrer du ordlistene
-// her, endre dem der også. Er de ulike, gjelder databasens svar.
+// Tre lag, så ingen må rapportere et stygt navn for at det skal bort:
+// 1. Ordlistene her gir svar mens eleven skriver.
+// 2. Serverfunksjonen «kallenavn» (supabase/functions/kallenavn) kjører de
+//    samme ordlistene og lar så en språkmodell vurdere navnet – den fanger det
+//    lister ikke kan: nye skrivemåter, andre språk, hets mot personer,
+//    hentydninger, fulle navn og kontaktinfo. Bare funksjonen kan lagre
+//    kallenavnet; eleven kan ikke skrive det direkte i databasen.
+// 3. Databasen sjekker ordlistene en gang til når navnet lagres
+//    (public.kallenavn_feil i migrasjonen 20261109120000_konkurranse.sql).
+// Endrer du ordlistene her, endre dem der også (scripts/kallenavn-sql.mjs).
 //
-// Ingen filter er perfekt. Målet er å stoppe banneord, seksuelle ord og
-// slurs på norsk og engelsk, også skrevet med mellomrom, tegn, tall for
+// Ordlistene stopper banneord, seksuelle ord, slurs, rus, ekstremisme og
+// kontaktinfo på norsk og engelsk, også skrevet med mellomrom, tegn, tall for
 // bokstaver («sh1t») og forlengede bokstaver («fuuuck»), uten å stoppe vanlige
 // navn og ord («Fagnerd», «Thoresen», «Spikkestad», «Nigel»).
 
@@ -17,11 +23,14 @@ const DELORD = [
   "fuck", "fuk", "fvck", "phuck", "phuk", "shit", "cunt", "bitch", "biatch", "whore", "slut", "nigg", "faggot", "fagot", "retard",
   "tranny", "shemale", "porn", "penis", "vagina", "dildo", "wank", "cumshot", "blowjob", "handjob", "motherf",
   "asshole", "arsehole", "dumbass", "jackass", "dickhead", "pussy", "milf", "chink", "gook", "wetback", "beaner",
-  "towelhead", "killyourself", "hitler", "siegheil", "whitepower", "kkk", "nazist", "terrorist", "pedofil",
+  "towelhead", "killyourself", "hitler", "siegheil", "whitepower", "whitepride", "skinhead", "swastika", "kkk",
+  "nazist", "terrorist", "jihad", "taliban", "pedofil", "suicide", "cocaine",
   // norsk
-  "faen", "helvete", "jaevl", "jaevel", "javla", "satan", "dritt", "fitte", "fitta", "knull", "rasshol", "homse", "soperk",
-  "neger", "pakkis", "svarting", "sigoyner", "voldt", "hestkuk", "kukhue", "horunge", "horebukk", "piss",
-  "mongis", "spasser", "drepdeg",
+  "faen", "fakking", "helvete", "haelvete", "jaevl", "jaevel", "javla", "satan", "dritt", "sjit", "fitte", "fitta",
+  "knull", "rasshol", "homse", "soperk", "neger", "pakkis", "svarting", "sigoyner", "voldt", "hestkuk", "kukhue",
+  "horunge", "horebukk", "piss", "mongis", "spasser", "drepdeg", "hakekors", "selvmord", "kokain", "narkoman",
+  // kontaktinfo («snap ola2010»): elever skal ikke kunne dele den på rangeringene
+  "snapchat", "instagram", "whatsapp", "telegram", "discord", "onlyfans", "tiktok",
   // utgir seg for Studer
   "admin", "moderator", "studerno",
 ];
@@ -34,7 +43,9 @@ const FORSTAVELSER = ["kuk", "pikk", "hore", "pule", "runk", "raev", "fitt", "pe
 const HELORD = [
   "ass", "cum", "tit", "tits", "sex", "sexy", "anal", "anus", "boob", "boobs", "nude", "nudes", "naken", "pupper",
   "cock", "dick", "homo", "kys", "rape", "spic", "kike", "coon", "dyke", "fag", "fags", "paki", "mongo", "nazi",
-  "nazis", "heil", "niga", "nigr", "horny",
+  "nazis", "heil", "niga", "nigr", "horny", "weed", "meth", "heroin", "drug", "drugs", "hasj", "mord", "murder", "fakk",
+  // kontaktinfo
+  "snap", "insta", "kik",
   // utgir seg for Studer, eller ser ut som navnet for skjulte elever
   "studer", "support", "deg",
 ];
@@ -78,6 +89,8 @@ export function kallenavnFeil(tekst: string): string | null {
   if (v.length < 2 || v.length > KALLENAVN_MAKS) return `Kallenavnet må ha 2–${KALLENAVN_MAKS} tegn.`;
   if (!TILLATT.test(v)) return "Bruk bare bokstaver, tall, mellomrom, - og _.";
   if ((v.match(BOKSTAVER) ?? []).length < 2) return "Kallenavnet må ha minst to bokstaver.";
+  // Telefonnumre og lignende: høyst fire sifre på rad («Ola2010» er greit).
+  if (/[0-9]{5}/.test(v)) return "Bruk høyst fire tall på rad.";
 
   const n = normaliser(v);
   const tett = n.replace(/[^a-z]/g, "");

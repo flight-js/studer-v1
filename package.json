@@ -20,7 +20,9 @@
     "forslag": "node scripts/forslag.mjs",
     "skoler": "node scripts/hent-skoler.mjs",
     "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs",
-    "ai:vurder-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/vurder-test.mjs"
+    "ai:vurder-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/vurder-test.mjs",
+    "ai:kallenavn-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/kallenavn-test.mjs",
+    "kallenavn:sql": "node scripts/kallenavn-sql.mjs"
   },
   "dependencies": {
     "@stripe/stripe-js": "^9.17.0",

@@ -289,10 +289,7 @@ export async function hentKonkurranseprofil(brukerId: string): Promise<Med<Konku
   };
 }
 
-async function oppdaterProfil(
-  brukerId: string,
-  endring: { skole_id?: string | null; skjul_fornavn?: boolean; kallenavn?: string | null }
-) {
+async function oppdaterProfil(brukerId: string, endring: { skole_id?: string | null; skjul_fornavn?: boolean }) {
   const { error } = await supabase.from("profiles").update(endring).eq("id", brukerId);
   if (!error) return;
   if (ikkeSattOpp(error)) throw new Error("Konkurransen er ikke slått på ennå, så ingenting ble lagret.");
@@ -301,18 +298,47 @@ async function oppdaterProfil(
 
 export const lagreSkole = (brukerId: string, skoleId: string | null) => oppdaterProfil(brukerId, { skole_id: skoleId });
 
-// Kallenavnet lagres bare når fornavnet er skjult (ellers står det forrige
-// igjen til neste gang), og sjekkes i databasen – feilmeldingen derfra vises
-// som den er. Tomt kallenavn: eleven vises ikke for andre.
-export const lagreKonkurranseprofil = (
+// Kallenavnet lagres av serverfunksjonen «kallenavn» (ordlister + språkmodell);
+// eleven kan ikke skrive det direkte. Gir en feil med teksten eleven skal se.
+export async function lagreKallenavn(kallenavn: string | null): Promise<string | null> {
+  const { data, error } = await supabase.functions.invoke("kallenavn", { body: { kallenavn } });
+  if (!error) return (data as { kallenavn: string | null }).kallenavn;
+  if (error.name === "FunctionsFetchError") throw new Error("Fikk ikke kontakt med serveren. Sjekk nettet.");
+  const res = (error as { context?: unknown }).context;
+  const body = res instanceof Response ? ((await res.json().catch(() => ({}))) as { feil?: string; melding?: string; grunn?: string }) : {};
+  if (res instanceof Response && res.status === 404) throw new Error("Konkurransen er ikke slått på ennå, så ingenting ble lagret.");
+  switch (body.feil) {
+    case "kallenavn":
+      throw new Error(body.melding ?? "Det kallenavnet kan ikke brukes. Velg et annet.");
+    case "grense":
+      throw new Error(
+        body.grunn === "global"
+          ? "Mange velger kallenavn akkurat nå. Prøv igjen i morgen."
+          : "Du har prøvd mange kallenavn i dag. Prøv igjen i morgen."
+      );
+    case "ikke-innlogget":
+      throw new Error("Du må logge inn på nytt.");
+    default:
+      // ai, ikke-satt-opp, server: kallenavnet er ikke sjekket, så det lagres ikke.
+      throw new Error("Fikk ikke sjekket kallenavnet akkurat nå. Prøv igjen om litt.");
+  }
+}
+
+// Skole og om fornavnet skal skjules. Kallenavnet sendes til sjekk bare når
+// fornavnet er skjult og navnet er endret (forrige: det som er lagret), så et
+// uendret navn ikke sjekkes på nytt. Kallenavnet lagres først – blir det
+// avvist, lagres ingenting. Tomt kallenavn: eleven vises ikke for andre.
+// Gir tilbake kallenavnet slik det er lagret nå.
+export async function lagreKonkurranseprofil(
   brukerId: string,
-  p: { skoleId: string | null; skjulFornavn: boolean; kallenavn: string | null }
-) =>
-  oppdaterProfil(brukerId, {
-    skole_id: p.skoleId,
-    skjul_fornavn: p.skjulFornavn,
-    ...(p.skjulFornavn ? { kallenavn: ryddKallenavn(p.kallenavn ?? "") || null } : {}),
-  });
+  p: { skoleId: string | null; skjulFornavn: boolean; kallenavn: string | null; forrige: string | null }
+): Promise<string | null> {
+  let lagret = p.forrige;
+  const nytt = ryddKallenavn(p.kallenavn ?? "") || null;
+  if (p.skjulFornavn && nytt !== p.forrige) lagret = await lagreKallenavn(nytt);
+  await oppdaterProfil(brukerId, { skole_id: p.skoleId, skjul_fornavn: p.skjulFornavn });
+  return lagret;
+}
 
 // ---------------------------------------------------------------- Poengvarsel
 

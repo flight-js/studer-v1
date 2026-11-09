@@ -73,6 +73,7 @@ function Velkommen() {
           skoleId: valgtSkole?.id ?? null,
           skjulFornavn: valgtSkjul,
           kallenavn: valgtKallenavn,
+          forrige: k!.data.kallenavn,
         });
       }
       if (nr + 1 < stegene.length) setSteg(stegene[nr + 1]);
