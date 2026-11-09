@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import { Dot } from "@/components/Dot";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { Check, Close } from "@/components/icons";
 import type { Flashcard } from "@/lib/pensum";
@@ -9,6 +8,7 @@ import type { Flashcard } from "@/lib/pensum";
 // Kortet som snus, med svarknappene under. Brukes i flashcards og i repetisjonen.
 // runde: endres når et nytt kort kommer, så kortet kommer inn på nytt.
 // valgt: svaret eleven ga sist på kortet, når man har gått tilbake til det.
+// medForrige: vis Backspace (forrige kort) i tastaturhjelpen.
 export function Flippkort({
   kort,
   snudd,
@@ -16,6 +16,7 @@ export function Flippkort({
   onSnu,
   onSvar,
   valgt,
+  medForrige = false,
 }: {
   kort: Flashcard;
   snudd: boolean;
@@ -23,6 +24,7 @@ export function Flippkort({
   onSnu: () => void;
   onSvar: (kan: boolean) => void;
   valgt?: boolean;
+  medForrige?: boolean;
 }) {
   const harValgt = valgt !== undefined;
   return (
@@ -93,8 +95,22 @@ export function Flippkort({
         </button>
       </div>
 
-      <p className="hidden sm:block text-xs text-faint">
-        Mellomrom snur kortet<Dot />← kan ikke ennå<Dot />→ kan dette
+      {/* Tastaturhjelp (bare på store skjermer). */}
+      <p className="hidden sm:flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-muted">
+        <span className="inline-flex items-center gap-1.5">
+          <Tast>Mellomrom</Tast> snu
+        </span>
+        <span className="inline-flex items-center gap-1.5">
+          <Tast>←</Tast> kan ikke ennå
+        </span>
+        <span className="inline-flex items-center gap-1.5">
+          <Tast>→</Tast> kan dette
+        </span>
+        {medForrige && (
+          <span className="rise-rask inline-flex items-center gap-1.5">
+            <Tast>⌫</Tast> forrige kort
+          </span>
+        )}
       </p>
     </>
   );
@@ -116,4 +132,12 @@ export function useKorttaster(aktiv: boolean, onSnu: () => void, onSvar: (kan: b
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [aktiv, onSnu, onSvar]);
+}
+
+function Tast({ children }: { children: React.ReactNode }) {
+  return (
+    <kbd className="inline-flex min-w-6 items-center justify-center rounded-md border border-border-strong bg-surface px-1.5 py-0.5 font-body text-[11px] font-semibold text-ink-soft shadow-[0_1px_0_var(--border-strong)]">
+      {children}
+    </kbd>
+  );
 }

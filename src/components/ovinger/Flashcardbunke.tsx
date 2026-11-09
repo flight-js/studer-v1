@@ -228,9 +228,7 @@ export function Flashcardbunke({
                     <ChevronRight size={16} />
                   </button>
                 </span>
-              ) : (
-                <span className="hidden sm:block text-xs text-faint">⌫ forrige kort</span>
-              )}
+              ) : null}
             </div>
 
             <Flippkort
@@ -240,6 +238,7 @@ export function Flashcardbunke({
               onSnu={snu}
               onSvar={answer}
               valgt={ser?.kan}
+              medForrige={kanGaTilbake}
             />
 
             <Rapporter key={card.begrep} temaId={temaId} type="flashcard" nokkel={card.begrep} />
