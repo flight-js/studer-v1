@@ -1,0 +1,407 @@
+{
+  "id": "priskalkulasjon",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Priskalkulasjon i handelsbedrifter",
+  "intro": "Hvordan en handelsbedrift fastsetter pris: inntakskost, påslag og avanse, selvkostkalkyle og bidragskalkyle – og hvorfor markedet og konkurrentene også avgjør prisen.",
+  "kompetansemaal": [
+    8,
+    1
+  ],
+  "sammendrag": "## Fra innkjøpspris til utsalgspris\n\nEn **handelsbedrift** kjøper varer og selger dem videre. Utgangspunktet for prisen er **inntakskosten**: innkjøpsprisen minus **rabatter** pluss kostnader for å få varen hjem, som **frakt** og **toll**.\n\n## Påslag og avanse\n\n- **Påslag** er det som legges på inntakskosten. **Påslagsprosenten** regnes i prosent av **inntakskosten**.\n- **Avanse** (bruttofortjeneste) er salgspris uten mva minus inntakskost. **Avanseprosenten** regnes i prosent av **salgsprisen**.\n\nEksempel: Inntakskosten er **400 kr**, og påslaget er **50 %**.\n\n- Salgspris uten mva: 400 · 1,5 = **600 kr**\n- Avanse: 600 − 400 = **200 kr**\n- Avanseprosent: 200 / 600 · 100 = **33,3 %**\n- Pris med 25 % mva: 600 · 1,25 = **750 kr**\n\nPåslagsprosenten er alltid **høyere** enn avanseprosenten, fordi den regnes av et mindre tall. Et påslag på 25 % gir en avanse på 20 %.\n\n## Selvkostkalkyle\n\nI en **selvkostkalkyle** skal prisen dekke **alle kostnader** pluss en ønsket **fortjeneste**. Til inntakskosten legges en andel av de **faste kostnadene**, som lønn og husleie, fordelt på hver vare. Metoden sikrer at alle kostnader blir dekket hvis man selger det man har planlagt, men det kan være vanskelig å fordele de faste kostnadene riktig.\n\n## Bidragskalkyle\n\nI en **bidragskalkyle** ser man på hva hver vare **bidrar med** til å dekke de faste kostnadene.\n\n- **Dekningsbidrag** per enhet = salgspris − variable kostnader per enhet.\n- **Dekningsgrad** = dekningsbidrag / salgspris · 100.\n\nSå lenge prisen er høyere enn de variable kostnadene, gir hvert salg et **positivt bidrag**. Metoden er nyttig ved tilbud og salgskampanjer.\n\n## Markedet bestemmer også\n\nEn kalkyle viser hva prisen **bør** være, men kundene og konkurrentene avgjør hva den **kan** være. Bedriften må vurdere **konkurrentenes priser**, kundenes **betalingsvilje** og hvordan salget endrer seg når prisen endres. Mange bruker også **psykologiske priser**, som 199 kr i stedet for 200 kr. En god pris dekker kostnadene og er samtidig **konkurransedyktig**.",
+  "flashcards": [
+    {
+      "term": "Handelsbedrift",
+      "def": "Bedrift som kjøper varer og selger dem videre uten å bearbeide dem."
+    },
+    {
+      "term": "Inntakskost",
+      "def": "Innkjøpspris minus rabatter pluss frakt, toll og andre kostnader for å få varen hjem."
+    },
+    {
+      "term": "Påslag",
+      "def": "Beløpet som legges på inntakskosten for å finne salgsprisen."
+    },
+    {
+      "term": "Påslagsprosent",
+      "def": "Påslaget i prosent av inntakskosten."
+    },
+    {
+      "term": "Avanse",
+      "def": "Salgspris uten mva minus inntakskost; også kalt bruttofortjeneste."
+    },
+    {
+      "term": "Avanseprosent",
+      "def": "Avansen i prosent av salgsprisen uten mva."
+    },
+    {
+      "term": "Salgspris uten mva",
+      "def": "Inntakskost pluss påslag."
+    },
+    {
+      "term": "Selvkostkalkyle",
+      "def": "Prisberegning der prisen skal dekke alle kostnader, inkludert en andel av de faste, pluss fortjeneste."
+    },
+    {
+      "term": "Faste kostnader",
+      "def": "Kostnader som ikke endrer seg med salget på kort sikt, for eksempel husleie og fast lønn."
+    },
+    {
+      "term": "Variable kostnader",
+      "def": "Kostnader som øker med salget; i handel først og fremst inntakskosten."
+    },
+    {
+      "term": "Bidragskalkyle",
+      "def": "Prisberegning som viser hva hver vare bidrar med til å dekke de faste kostnadene."
+    },
+    {
+      "term": "Dekningsbidrag",
+      "def": "Salgspris minus variable kostnader per enhet."
+    },
+    {
+      "term": "Dekningsgrad",
+      "def": "Dekningsbidraget i prosent av salgsprisen."
+    },
+    {
+      "term": "Betalingsvilje",
+      "def": "Hvor mye kundene er villige til å betale for en vare."
+    },
+    {
+      "term": "Psykologisk pris",
+      "def": "Pris som virker lavere enn den er, for eksempel 199 kr i stedet for 200 kr."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er inntakskost?",
+      "options": [
+        "Salgsprisen med merverdiavgift",
+        "Fortjenesten på varen",
+        "De faste kostnadene per måned",
+        "Innkjøpspris minus rabatter pluss frakt og toll"
+      ],
+      "correct": 3,
+      "explain": "Inntakskosten er hva varen har kostet bedriften å få inn på lageret."
+    },
+    {
+      "id": "q02",
+      "text": "Inntakskosten er 400 kr og påslaget 50 %. Hva er salgsprisen uten mva?",
+      "options": [
+        "450 kr",
+        "800 kr",
+        "600 kr",
+        "500 kr"
+      ],
+      "correct": 2,
+      "explain": "400 · 1,5 = 600 kr."
+    },
+    {
+      "id": "q03",
+      "text": "Salgsprisen uten mva er 600 kr og inntakskosten 400 kr. Hva er avanseprosenten?",
+      "options": [
+        "33,3 %",
+        "50 %",
+        "66,7 %",
+        "20 %"
+      ],
+      "correct": 0,
+      "explain": "Avansen er 200 kr, og 200 / 600 · 100 = 33,3 %."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er påslagsprosenten alltid høyere enn avanseprosenten for samme vare?",
+      "options": [
+        "Fordi påslaget regnes av inntakskosten, som er mindre enn salgsprisen",
+        "Fordi påslaget inkluderer mva",
+        "Fordi avansen er etter skatt",
+        "Fordi loven krever det"
+      ],
+      "correct": 0,
+      "explain": "Samme kronebeløp gir høyere prosent når det deles på et mindre tall."
+    },
+    {
+      "id": "q05",
+      "text": "En vare har salgspris uten mva på 800 kr. Hva betaler kunden med 25 % mva?",
+      "options": [
+        "825 kr",
+        "1 000 kr",
+        "960 kr",
+        "1 200 kr"
+      ],
+      "correct": 1,
+      "explain": "800 · 1,25 = 1 000 kr."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skal prisen dekke i en selvkostkalkyle?",
+      "options": [
+        "Bare inntakskosten",
+        "Bare de variable kostnadene",
+        "Alle kostnader, inkludert en andel av de faste, pluss fortjeneste",
+        "Bare merverdiavgiften"
+      ],
+      "correct": 2,
+      "explain": "Selvkostkalkylen fordeler også de faste kostnadene på varene."
+    },
+    {
+      "id": "q07",
+      "text": "En vare selges for 300 kr uten mva, og de variable kostnadene er 180 kr. Hva er dekningsbidraget?",
+      "options": [
+        "480 kr",
+        "180 kr",
+        "300 kr",
+        "120 kr"
+      ],
+      "correct": 3,
+      "explain": "300 − 180 = 120 kr."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er dekningsgraden når dekningsbidraget er 120 kr og salgsprisen 300 kr?",
+      "options": [
+        "40 %",
+        "60 %",
+        "25 %",
+        "120 %"
+      ],
+      "correct": 0,
+      "explain": "120 / 300 · 100 = 40 %."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket forhold handler om markedet snarere enn kostnadene?",
+      "options": [
+        "Fraktkostnader",
+        "Husleie",
+        "Konkurrentenes priser",
+        "Innkjøpspris"
+      ],
+      "correct": 2,
+      "explain": "Konkurrentenes priser og kundenes betalingsvilje setter grenser for hva prisen kan være."
+    },
+    {
+      "id": "q10",
+      "text": "Når er bidragskalkylen spesielt nyttig?",
+      "options": [
+        "Når bedriften skal velge selskapsform",
+        "Ved tilbud og kampanjer, for å se om salget gir et positivt bidrag",
+        "Når bedriften skal sende mva-melding",
+        "Når revisoren skal skrive beretning"
+      ],
+      "correct": 1,
+      "explain": "Så lenge prisen er høyere enn de variable kostnadene, bidrar salget til de faste kostnadene."
+    }
+  ],
+  "mindmap": {
+    "label": "Priskalkulasjon",
+    "children": [
+      {
+        "label": "Inntakskost",
+        "children": [
+          {
+            "label": "Innkjøpspris − rabatt"
+          },
+          {
+            "label": "+ frakt og toll"
+          }
+        ]
+      },
+      {
+        "label": "Påslag og avanse",
+        "children": [
+          {
+            "label": "Påslag: % av inntakskost"
+          },
+          {
+            "label": "Avanse: % av salgspris"
+          },
+          {
+            "label": "+ 25 % mva til kunden"
+          }
+        ]
+      },
+      {
+        "label": "Selvkost",
+        "children": [
+          {
+            "label": "Alle kostnader"
+          },
+          {
+            "label": "Andel faste kostnader"
+          },
+          {
+            "label": "+ fortjeneste"
+          }
+        ]
+      },
+      {
+        "label": "Bidrag",
+        "children": [
+          {
+            "label": "Dekningsbidrag"
+          },
+          {
+            "label": "Dekningsgrad"
+          }
+        ]
+      },
+      {
+        "label": "Markedet",
+        "children": [
+          {
+            "label": "Konkurrenter"
+          },
+          {
+            "label": "Betalingsvilje"
+          },
+          {
+            "label": "Psykologiske priser"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q06",
+      "q07",
+      "q08",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Avanseprosenten regnes i prosent av salgsprisen uten mva.",
+        "correct": true,
+        "explain": "Påslaget regnes av inntakskosten, avansen av salgsprisen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et påslag på 25 % gir en avanse på 25 %.",
+        "correct": false,
+        "explain": "Et påslag på 25 % gir en avanse på 20 %."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Frakt for å få varen hjem er en del av inntakskosten.",
+        "correct": true,
+        "explain": "Inntakskosten omfatter det det koster å få varen inn på lageret."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et negativt dekningsbidrag betyr at salget hjelper til å dekke de faste kostnadene.",
+        "correct": false,
+        "explain": "Da dekker ikke prisen engang de variable kostnadene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Inntakskosten er 240 kr og påslaget 25 %. Hva er salgsprisen uten mva?",
+        "options": [
+          "265 kr",
+          "300 kr",
+          "320 kr",
+          "360 kr"
+        ],
+        "correct": 1,
+        "explain": "240 · 1,25 = 300 kr."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en ulempe ved selvkostkalkylen?",
+        "options": [
+          "Den tar ikke hensyn til inntakskosten",
+          "Den gir alltid for lave priser",
+          "Det kan være vanskelig å fordele de faste kostnadene riktig på hver vare",
+          "Den kan bare brukes av aksjeselskaper"
+        ],
+        "correct": 2,
+        "explain": "Fordelingen av faste kostnader bygger på antakelser om salget."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor priser mange butikker en vare til 199 kr i stedet for 200 kr?",
+        "options": [
+          "Fordi mva blir lavere",
+          "Fordi prisen virker lavere for kunden",
+          "Fordi loven krever priser som slutter på 9",
+          "Fordi inntakskosten da blir lavere"
+        ],
+        "correct": 1,
+        "explain": "Psykologiske priser får varen til å virke billigere."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på påslag og avanse.",
+        "fasit": "Påslaget er det som legges på inntakskosten og regnes i prosent av inntakskosten. Avansen er salgspris uten mva minus inntakskost og regnes i prosent av salgsprisen.",
+        "kriterier": [
+          "Forklarer at påslagsprosenten regnes av inntakskosten.",
+          "Forklarer at avanseprosenten regnes av salgsprisen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Inntakskosten for en jakke er 600 kr, og butikken bruker 60 % påslag. Regn ut salgsprisen uten mva, avansen og prisen kunden betaler med 25 % mva.",
+        "fasit": "Salgsprisen uten mva er 600 · 1,6 = 960 kr. Avansen er 960 − 600 = 360 kr. Kunden betaler 960 · 1,25 = 1 200 kr.",
+        "kriterier": [
+          "Regner ut salgspris uten mva til 960 kr og avanse til 360 kr.",
+          "Regner ut pris med mva til 1 200 kr."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva er en selvkostkalkyle, og hva er fordelen og ulempen med den?",
+        "fasit": "I en selvkostkalkyle skal prisen dekke alle kostnader, inkludert en andel av de faste, pluss fortjeneste. Fordelen er at alle kostnader dekkes hvis salget blir som planlagt; ulempen er at det er vanskelig å fordele de faste kostnadene riktig.",
+        "kriterier": [
+          "Forklarer at prisen dekker alle kostnader pluss fortjeneste.",
+          "Nevner en fordel og en ulempe."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En vare selges for 250 kr uten mva og har variable kostnader på 150 kr. Regn ut dekningsbidraget og dekningsgraden.",
+        "fasit": "Dekningsbidraget er 250 − 150 = 100 kr. Dekningsgraden er 100 / 250 · 100 = 40 %.",
+        "kriterier": [
+          "Regner ut dekningsbidraget til 100 kr.",
+          "Regner ut dekningsgraden til 40 %."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hvorfor kan ikke en handelsbedrift bare bruke kalkylen når den setter pris? Nevn to forhold i markedet.",
+        "fasit": "Kalkylen viser hva prisen bør være for å dekke kostnadene, men kundene kjøper ikke hvis prisen er høyere enn hos konkurrentene eller over betalingsviljen. Konkurrentenes priser og kundenes betalingsvilje må derfor også vurderes.",
+        "kriterier": [
+          "Forklarer at kalkylen ikke tar hensyn til markedet.",
+          "Nevner to markedsforhold, som konkurrentenes priser og betalingsvilje."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hva dekningsbidrag er, og hvorfor det kan lønne seg å selge en vare billig i en kampanje.",
+        "fasit": "Dekningsbidraget er salgspris minus variable kostnader. Så lenge kampanjeprisen er høyere enn de variable kostnadene, gir hvert salg et positivt bidrag til de faste kostnadene, og kampanjen kan også lokke flere kunder.",
+        "kriterier": [
+          "Forklarer dekningsbidrag riktig.",
+          "Forklarer at salget lønner seg så lenge prisen er over de variable kostnadene."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

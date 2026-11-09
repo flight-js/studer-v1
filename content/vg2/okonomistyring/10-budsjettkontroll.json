@@ -1,0 +1,396 @@
+{
+  "id": "budsjettkontroll",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Budsjettkontroll og avviksanalyse",
+  "intro": "Hvordan virksomheten sammenligner regnskap med budsjett, regner ut og vurderer avvik, deler et inntektsavvik i mengde- og prisavvik, og bruker analysen til å sette inn tiltak.",
+  "kompetansemaal": [
+    10,
+    1
+  ],
+  "sammendrag": "## Hva er budsjettkontroll?\n\nEt budsjett er bare nyttig hvis det blir **fulgt opp**. I **budsjettkontrollen** sammenligner virksomheten de **faktiske tallene** i regnskapet med **budsjettet**, gjerne hver **måned** eller hvert **kvartal**. Målet er å oppdage problemer tidlig og gjøre noe med dem.\n\n## Avvik\n\n**Avvik = regnskap − budsjett**\n\nOm et avvik er bra eller dårlig, avhenger av posten:\n\n- For **inntekter** er et positivt avvik **gunstig**: Virksomheten har solgt mer enn planlagt.\n- For **kostnader** er et positivt avvik **ugunstig**: Kostnadene ble høyere enn planlagt.\n\nDet er også vanlig å regne **prosentvis avvik** = avvik / budsjett · 100, slik at små og store poster kan sammenlignes.\n\n## Avviksanalyse\n\nI en **avviksanalyse** finner man **årsakene** til avvikene. Typiske årsaker er:\n\n- **Pris**: høyere innkjøpspriser eller lavere salgspriser enn planlagt.\n- **Mengde**: færre eller flere solgte enheter.\n- **Ytre forhold**: vær, nye konkurrenter, rentenivå eller økonomiske nedgangstider.\n- **Budsjettfeil**: Budsjettet var urealistisk fra starten.\n\n## Mengde- og prisavvik på inntekter\n\nEt avvik i salgsinntekten kan deles i to:\n\n- **Mengdeavvik** = (faktisk mengde − budsjettert mengde) · budsjettert pris\n- **Prisavvik** = (faktisk pris − budsjettert pris) · faktisk mengde\n\nEksempel: Budsjettet var 1 000 enheter à 200 kr = 200 000 kr. Faktisk ble det solgt 900 enheter à 210 kr = 189 000 kr. Totalt avvik er **−11 000 kr**.\n\n- Mengdeavvik: (900 − 1 000) · 200 = **−20 000 kr** (ugunstig)\n- Prisavvik: (210 − 200) · 900 = **+9 000 kr** (gunstig)\n\nSummen, −20 000 + 9 000, blir −11 000 kr. Butikken solgte færre enheter, men til en høyere pris.\n\n## Fra analyse til tiltak\n\nIkke alle avvik er like viktige. Virksomheten bør prioritere **vesentlige** avvik og spørre: Er avviket **tilfeldig** eller **varig**? Kan vi **påvirke** det? Mulige **tiltak** er kampanjer, nye leverandører, kostnadskutt eller å **revidere** budsjettet for resten av året. Et **fleksibelt budsjett**, der de variable kostnadene justeres etter faktisk salg, gjør det lettere å se om kostnadene er under kontroll.",
+  "flashcards": [
+    {
+      "term": "Budsjettkontroll",
+      "def": "Sammenligning av faktiske tall i regnskapet med budsjettet, gjerne hver måned eller hvert kvartal."
+    },
+    {
+      "term": "Avvik",
+      "def": "Regnskap minus budsjett for en post."
+    },
+    {
+      "term": "Gunstig avvik",
+      "def": "Avvik som gir bedre resultat enn planlagt, for eksempel høyere inntekter eller lavere kostnader."
+    },
+    {
+      "term": "Ugunstig avvik",
+      "def": "Avvik som gir dårligere resultat enn planlagt, for eksempel høyere kostnader."
+    },
+    {
+      "term": "Prosentvis avvik",
+      "def": "Avvik / budsjett · 100."
+    },
+    {
+      "term": "Avviksanalyse",
+      "def": "Undersøkelse av årsakene til avvik mellom regnskap og budsjett."
+    },
+    {
+      "term": "Mengdeavvik",
+      "def": "(Faktisk mengde − budsjettert mengde) · budsjettert pris."
+    },
+    {
+      "term": "Prisavvik",
+      "def": "(Faktisk pris − budsjettert pris) · faktisk mengde."
+    },
+    {
+      "term": "Vesentlig avvik",
+      "def": "Avvik som er så stort at det har betydning for virksomheten og bør følges opp."
+    },
+    {
+      "term": "Tilfeldig avvik",
+      "def": "Avvik som skyldes en engangshendelse og ikke vil fortsette."
+    },
+    {
+      "term": "Varig avvik",
+      "def": "Avvik som skyldes en endring som vil fortsette, og som krever tiltak."
+    },
+    {
+      "term": "Revidert budsjett",
+      "def": "Budsjett som er justert underveis fordi forutsetningene har endret seg."
+    },
+    {
+      "term": "Fleksibelt budsjett",
+      "def": "Budsjett der de variable kostnadene justeres etter faktisk aktivitet."
+    },
+    {
+      "term": "Tiltak",
+      "def": "Det virksomheten gjør for å rette opp et ugunstig avvik, for eksempel en kampanje eller kostnadskutt."
+    },
+    {
+      "term": "Budsjettfeil",
+      "def": "Avvik som skyldes at budsjettet var urealistisk fra starten."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvordan regnes et avvik ut?",
+      "options": [
+        "Budsjett − regnskap",
+        "Regnskap · budsjett",
+        "Regnskap − budsjett",
+        "Budsjett / regnskap"
+      ],
+      "correct": 2,
+      "explain": "Avvik = regnskap − budsjett."
+    },
+    {
+      "id": "q02",
+      "text": "Salgsinntekten ble 50 000 kr høyere enn budsjettert. Hvordan vurderes avviket?",
+      "options": [
+        "Ugunstig",
+        "Det har ingen betydning",
+        "Gunstig",
+        "Det er en budsjettfeil"
+      ],
+      "correct": 2,
+      "explain": "Høyere inntekter enn planlagt er et gunstig avvik."
+    },
+    {
+      "id": "q03",
+      "text": "Lønnskostnadene ble 30 000 kr høyere enn budsjettert. Hvordan vurderes avviket?",
+      "options": [
+        "Ugunstig",
+        "Gunstig",
+        "Nøytralt",
+        "Det kan ikke vurderes"
+      ],
+      "correct": 0,
+      "explain": "Høyere kostnader enn planlagt gir dårligere resultat."
+    },
+    {
+      "id": "q04",
+      "text": "Budsjettert kostnad er 80 000 kr, og faktisk kostnad 88 000 kr. Hva er det prosentvise avviket?",
+      "options": [
+        "8 %",
+        "9,1 %",
+        "88 %",
+        "10 %"
+      ],
+      "correct": 3,
+      "explain": "8 000 / 80 000 · 100 = 10 %."
+    },
+    {
+      "id": "q05",
+      "text": "Budsjettert salg var 1 000 enheter à 200 kr, og faktisk 900 enheter. Hva er mengdeavviket?",
+      "options": [
+        "−20 000 kr",
+        "−10 000 kr",
+        "+20 000 kr",
+        "−100 kr"
+      ],
+      "correct": 0,
+      "explain": "(900 − 1 000) · 200 = −20 000 kr."
+    },
+    {
+      "id": "q06",
+      "text": "Faktisk pris ble 210 kr i stedet for 200 kr, og det ble solgt 900 enheter. Hva er prisavviket?",
+      "options": [
+        "+10 000 kr",
+        "−9 000 kr",
+        "+1 900 kr",
+        "+9 000 kr"
+      ],
+      "correct": 3,
+      "explain": "(210 − 200) · 900 = +9 000 kr."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er hensikten med budsjettkontroll?",
+      "options": [
+        "Å lage regnskapet for neste år",
+        "Å oppdage avvik tidlig og sette inn tiltak",
+        "Å beregne merverdiavgift",
+        "Å velge revisor"
+      ],
+      "correct": 1,
+      "explain": "Budsjettkontroll gjør det mulig å handle før problemene blir store."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken årsak til avvik er et ytre forhold?",
+      "options": [
+        "En ny konkurrent åpner i nærheten",
+        "Budsjettet var urealistisk",
+        "En ansatt slurvet med bestillingene",
+        "Butikken valgte feil leverandør"
+      ],
+      "correct": 0,
+      "explain": "Ytre forhold er forhold utenfor virksomheten som den ikke kan styre."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kjennetegner et fleksibelt budsjett?",
+      "options": [
+        "Det endres aldri",
+        "Det har ingen faste kostnader",
+        "Det lages bare for ett døgn",
+        "De variable kostnadene justeres etter faktisk aktivitet"
+      ],
+      "correct": 3,
+      "explain": "Da kan man se om kostnadene er under kontroll gitt det faktiske salget."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor bør virksomheten skille mellom tilfeldige og varige avvik?",
+      "options": [
+        "Fordi tilfeldige avvik alltid er gunstige",
+        "Fordi varige avvik krever tiltak, mens tilfeldige kanskje ikke gjør det",
+        "Fordi varige avvik ikke kan påvirkes",
+        "Fordi loven krever det"
+      ],
+      "correct": 1,
+      "explain": "Et avvik som vil fortsette, må følges opp med tiltak."
+    }
+  ],
+  "mindmap": {
+    "label": "Budsjettkontroll",
+    "children": [
+      {
+        "label": "Avvik",
+        "children": [
+          {
+            "label": "Regnskap − budsjett"
+          },
+          {
+            "label": "Gunstig eller ugunstig"
+          },
+          {
+            "label": "Prosentvis avvik"
+          }
+        ]
+      },
+      {
+        "label": "Årsaker",
+        "children": [
+          {
+            "label": "Pris og mengde"
+          },
+          {
+            "label": "Ytre forhold"
+          },
+          {
+            "label": "Budsjettfeil"
+          }
+        ]
+      },
+      {
+        "label": "Inntektsavvik",
+        "children": [
+          {
+            "label": "Mengdeavvik"
+          },
+          {
+            "label": "Prisavvik"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Vesentlige avvik først"
+          },
+          {
+            "label": "Tilfeldig eller varig"
+          },
+          {
+            "label": "Revidere budsjett"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et positivt avvik på en kostnadspost er gunstig.",
+        "correct": false,
+        "explain": "Høyere kostnader enn budsjettert er ugunstig."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Mengdeavvik og prisavvik summeres til det totale avviket i salgsinntekten.",
+        "correct": true,
+        "explain": "De to delene forklarer hele avviket."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Budsjettkontroll bør bare gjøres én gang i året.",
+        "correct": false,
+        "explain": "Hyppig kontroll, for eksempel månedlig, gjør det mulig å handle tidlig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et avvik kan skyldes at budsjettet var urealistisk.",
+        "correct": true,
+        "explain": "Da er det budsjettet, ikke driften, som var feil."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Budsjettert salgsinntekt var 300 000 kr, og faktisk 270 000 kr. Hva er avviket?",
+        "options": [
+          "+30 000 kr",
+          "−30 000 kr",
+          "−10 %",
+          "570 000 kr"
+        ],
+        "correct": 1,
+        "explain": "270 000 − 300 000 = −30 000 kr, et ugunstig avvik."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tiltak passer best når salget er varig lavere enn budsjettert?",
+        "options": [
+          "Å ignorere avviket",
+          "Å øke avskrivningene",
+          "Å sette i gang en kampanje og revidere budsjettet",
+          "Å bytte revisor"
+        ],
+        "correct": 2,
+        "explain": "Et varig avvik krever tiltak og ofte et revidert budsjett."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken pris brukes når mengdeavviket regnes ut?",
+        "options": [
+          "Faktisk pris",
+          "Budsjettert pris",
+          "Gjennomsnittet av de to",
+          "Prisen med mva"
+        ],
+        "correct": 1,
+        "explain": "Mengdeavvik = (faktisk mengde − budsjettert mengde) · budsjettert pris."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva budsjettkontroll er, og hvorfor det er nyttig.",
+        "fasit": "Budsjettkontroll er å sammenligne de faktiske tallene i regnskapet med budsjettet, gjerne hver måned. Det er nyttig fordi virksomheten kan oppdage avvik tidlig og sette inn tiltak.",
+        "kriterier": [
+          "Forklarer at regnskap sammenlignes med budsjett.",
+          "Forklarer nytten med å oppdage avvik og sette inn tiltak."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Når er et positivt avvik gunstig, og når er det ugunstig? Gi ett eksempel på hver.",
+        "fasit": "Et positivt avvik er gunstig for inntekter, for eksempel når salget blir høyere enn budsjettert. For kostnader er det ugunstig, for eksempel når lønnskostnadene blir høyere enn budsjettert.",
+        "kriterier": [
+          "Forklarer at positivt avvik er gunstig for inntekter og ugunstig for kostnader.",
+          "Gir ett riktig eksempel på hver."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Budsjettet var 500 enheter à 300 kr. Faktisk ble det solgt 550 enheter à 280 kr. Regn ut mengdeavviket og prisavviket.",
+        "fasit": "Mengdeavviket er (550 − 500) · 300 = +15 000 kr. Prisavviket er (280 − 300) · 550 = −11 000 kr.",
+        "kriterier": [
+          "Regner ut mengdeavviket til +15 000 kr.",
+          "Regner ut prisavviket til −11 000 kr."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Nevn tre mulige årsaker til at salget blir lavere enn budsjettert.",
+        "fasit": "Salget kan bli lavere fordi en ny konkurrent har åpnet, fordi prisene har vært for høye, fordi været har gitt færre kunder, eller fordi budsjettet var urealistisk.",
+        "kriterier": [
+          "Nevner tre relevante årsaker.",
+          "Årsakene er realistiske for en virksomhet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva er forskjellen på et tilfeldig og et varig avvik, og hvorfor er forskjellen viktig?",
+        "fasit": "Et tilfeldig avvik skyldes en engangshendelse og vil ikke fortsette, mens et varig avvik skyldes en endring som vil vare. Forskjellen er viktig fordi varige avvik krever tiltak eller et revidert budsjett.",
+        "kriterier": [
+          "Forklarer forskjellen på tilfeldige og varige avvik.",
+          "Forklarer at varige avvik krever tiltak."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Budsjetterte varekostnader var 120 000 kr, og faktiske 132 000 kr. Regn ut avviket i kroner og prosent, og vurder om det er gunstig eller ugunstig.",
+        "fasit": "Avviket er 132 000 − 120 000 = 12 000 kr, eller 12 000 / 120 000 · 100 = 10 %. Det er ugunstig fordi kostnadene ble høyere enn planlagt.",
+        "kriterier": [
+          "Regner ut 12 000 kr og 10 %.",
+          "Vurderer avviket som ugunstig med begrunnelse."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

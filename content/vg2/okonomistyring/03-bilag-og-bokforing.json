@@ -1,0 +1,205 @@
+{
+  "id": "bilag-og-bokforing",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Bilag og bokføring",
+  "intro": "Hvordan transaksjoner dokumenteres med bilag og føres i dobbelt bokholderi: debet og kredit, kontoplanen NS 4102, journal, hovedbok og saldobalanse.",
+  "kompetansemaal": [5, 1],
+  "sammendrag": "## Bilag dokumenterer transaksjonene\n\nAlt som skal inn i regnskapet, må **dokumenteres** med et **bilag**. Vanlige bilag er **salgsfakturaer**, **kjøpsfakturaer**, **kvitteringer**, **bankutskrifter** og **lønnslipper**. Et bilag skal blant annet vise **dato**, **beløp**, hvem som er **motpart**, og hva transaksjonen gjelder. Bilagene **nummereres** fortløpende, og regnskapsmaterialet skal som hovedregel **oppbevares i fem år**.\n\n## Kontoer og kontoplanen\n\nRegnskapet føres på **kontoer**. De fleste bruker **Norsk Standard kontoplan (NS 4102)**, der det første sifferet viser **kontoklassen**:\n\n- **1**: eiendeler, for eksempel 1920 Bankinnskudd og 1500 Kundefordringer\n- **2**: egenkapital og gjeld, for eksempel 2400 Leverandørgjeld\n- **3**: salgs- og driftsinntekter, for eksempel 3000 Salgsinntekt\n- **4**: varekostnad, for eksempel 4300 Innkjøp av varer for videresalg\n- **5**: lønnskostnader\n- **6** og **7**: andre driftskostnader, som husleie og avskrivninger\n- **8**: finansinntekter og finanskostnader\n\n## Dobbelt bokholderi: debet og kredit\n\nHver transaksjon føres på **minst to kontoer**, én gang på **debet**-siden (venstre) og én gang på **kredit**-siden (høyre). **Summen av debet er alltid lik summen av kredit.**\n\n- **Eiendeler** øker på debet og minker på kredit.\n- **Gjeld** og **egenkapital** øker på kredit og minker på debet.\n- **Kostnader** føres på debet, **inntekter** på kredit.\n\n## Eksempler\n\n- **Kontantsalg** for 8 000 kr: debet 1920 Bank, kredit 3000 Salgsinntekt.\n- **Varekjøp på kreditt** for 5 000 kr: debet 4300 Varekjøp, kredit 2400 Leverandørgjeld.\n- **Betaling** av leverandøren: debet 2400 Leverandørgjeld, kredit 1920 Bank.\n\n## Journal, hovedbok og saldobalanse\n\n- I **journalen** står transaksjonene i **tidsrekkefølge**, med bilagsnummer.\n- I **hovedboka** er de samme beløpene sortert **per konto**, så du ser saldoen på hver konto.\n- **Saldobalansen** er en liste over alle kontoene med saldo. Fordi debet alltid er lik kredit, skal summen av debetsaldoene være lik summen av kreditsaldoene. Er den ikke det, er noe ført feil.\n\nI dag gjøres dette nesten alltid i et **regnskapsprogram**, men prinsippene er de samme.",
+  "flashcards": [
+    { "term": "Bilag", "def": "Dokument som viser at en transaksjon har skjedd, for eksempel en faktura eller kvittering." },
+    { "term": "Salgsfaktura", "def": "Bilag virksomheten lager når den selger varer eller tjenester på kreditt." },
+    { "term": "Kjøpsfaktura", "def": "Bilag virksomheten mottar når den kjøper varer eller tjenester." },
+    { "term": "Konto", "def": "Sted i regnskapet der transaksjoner av samme slag samles, for eksempel bank eller salgsinntekt." },
+    { "term": "NS 4102", "def": "Norsk Standard kontoplan, der første siffer i kontonummeret viser kontoklassen." },
+    { "term": "Kontoklasse 1", "def": "Eiendeler, for eksempel bankinnskudd, kundefordringer og varelager." },
+    { "term": "Kontoklasse 2", "def": "Egenkapital og gjeld, for eksempel leverandørgjeld og banklån." },
+    { "term": "Kontoklasse 3", "def": "Salgs- og driftsinntekter." },
+    { "term": "Debet", "def": "Venstre side av en konto; eiendeler og kostnader øker her." },
+    { "term": "Kredit", "def": "Høyre side av en konto; gjeld, egenkapital og inntekter øker her." },
+    { "term": "Dobbelt bokholderi", "def": "Hver transaksjon føres på minst to kontoer, og sum debet er lik sum kredit." },
+    { "term": "Journal", "def": "Oversikt over transaksjonene i tidsrekkefølge med bilagsnummer." },
+    { "term": "Hovedbok", "def": "Oversikt over transaksjonene sortert per konto, med saldo på hver konto." },
+    { "term": "Saldobalanse", "def": "Liste over alle kontoer med saldo, der sum debet skal være lik sum kredit." },
+    { "term": "Kundefordring", "def": "Penger kunder skylder virksomheten etter salg på kreditt." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er et bilag?",
+      "options": [
+        "En oversikt over alle kontoene",
+        "Et dokument som viser at en transaksjon har skjedd",
+        "Et budsjett for neste år",
+        "En avtale mellom eierne"
+      ],
+      "correct": 1,
+      "explain": "Bilaget dokumenterer transaksjonen, for eksempel en faktura eller kvittering."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken kontoklasse brukes for eiendeler i NS 4102?",
+      "options": ["Klasse 3", "Klasse 2", "Klasse 5", "Klasse 1"],
+      "correct": 3,
+      "explain": "Eiendeler har kontonumre som begynner på 1, for eksempel 1920 Bankinnskudd."
+    },
+    {
+      "id": "q03",
+      "text": "På hvilken side øker en eiendelskonto?",
+      "options": ["Debet", "Kredit", "Begge sider", "Den øker aldri"],
+      "correct": 0,
+      "explain": "Eiendeler øker på debet og minker på kredit."
+    },
+    {
+      "id": "q04",
+      "text": "En butikk selger varer kontant for 8 000 kr. Hvordan føres det (uten merverdiavgift)?",
+      "options": [
+        "Debet 3000 Salgsinntekt, kredit 1920 Bank",
+        "Debet 1500 Kundefordringer, kredit 1920 Bank",
+        "Debet 1920 Bank, kredit 3000 Salgsinntekt",
+        "Debet 2400 Leverandørgjeld, kredit 3000 Salgsinntekt"
+      ],
+      "correct": 2,
+      "explain": "Banken (eiendel) øker på debet, og salgsinntekten føres på kredit."
+    },
+    {
+      "id": "q05",
+      "text": "Virksomheten kjøper varer på kreditt. Hvilken konto krediteres?",
+      "options": ["1920 Bankinnskudd", "2400 Leverandørgjeld", "3000 Salgsinntekt", "4300 Varekjøp"],
+      "correct": 1,
+      "explain": "Gjelden til leverandøren øker, og gjeld øker på kredit."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er forskjellen på journalen og hovedboka?",
+      "options": [
+        "Journalen viser transaksjonene i tidsrekkefølge, hovedboka per konto",
+        "Journalen viser bare inntekter, hovedboka bare kostnader",
+        "Journalen er for revisoren, hovedboka for skattemyndighetene",
+        "Det er ingen forskjell"
+      ],
+      "correct": 0,
+      "explain": "Det er de samme beløpene, sortert på to måter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr det hvis summen av debet og kredit i saldobalansen ikke er lik?",
+      "options": [
+        "At virksomheten går med overskudd",
+        "At virksomheten har for mye gjeld",
+        "At regnskapet er revidert",
+        "At noe er ført feil"
+      ],
+      "correct": 3,
+      "explain": "I dobbelt bokholderi skal debet alltid være lik kredit, så avvik viser en feil."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken side føres kostnader på?",
+      "options": ["Kredit", "Debet", "Det avhenger av beløpet", "Kostnader føres ikke på kontoer"],
+      "correct": 1,
+      "explain": "Kostnader føres på debet, inntekter på kredit."
+    },
+    {
+      "id": "q09",
+      "text": "Virksomheten betaler en leverandørfaktura fra banken. Hva skjer på kontoene?",
+      "options": [
+        "Debet 1920 Bank, kredit 2400 Leverandørgjeld",
+        "Debet 4300 Varekjøp, kredit 3000 Salgsinntekt",
+        "Debet 1500 Kundefordringer, kredit 1920 Bank",
+        "Debet 2400 Leverandørgjeld, kredit 1920 Bank"
+      ],
+      "correct": 3,
+      "explain": "Gjelden minker (debet), og banken minker (kredit)."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor lenge skal regnskapsmaterialet som hovedregel oppbevares?",
+      "options": ["Ett år", "To år", "Fem år", "Tjue år"],
+      "correct": 2,
+      "explain": "Hovedregelen i bokføringsloven er fem år etter regnskapsårets slutt."
+    }
+  ],
+  "mindmap": {
+    "label": "Bokføring",
+    "children": [
+      { "label": "Bilag", "children": [{ "label": "Faktura og kvittering" }, { "label": "Dato, beløp og motpart" }, { "label": "Oppbevares i fem år" }] },
+      { "label": "Kontoplan NS 4102", "children": [{ "label": "1 eiendeler" }, { "label": "2 egenkapital og gjeld" }, { "label": "3–8 resultatkontoer" }] },
+      { "label": "Debet og kredit", "children": [{ "label": "Eiendeler og kostnader: debet" }, { "label": "Gjeld, EK og inntekter: kredit" }, { "label": "Sum debet = sum kredit" }] },
+      { "label": "Oversikter", "children": [{ "label": "Journal" }, { "label": "Hovedbok" }, { "label": "Saldobalanse" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I dobbelt bokholderi føres hver transaksjon på minst to kontoer.", "correct": true, "explain": "Én gang på debet og én gang på kredit." },
+      { "id": "m02", "type": "sant-usant", "text": "Gjeld øker på debet-siden.", "correct": false, "explain": "Gjeld øker på kredit og minker på debet." },
+      { "id": "m03", "type": "sant-usant", "text": "Konto 3000 Salgsinntekt hører til kontoklasse 3.", "correct": true, "explain": "Klasse 3 er salgs- og driftsinntekter." },
+      { "id": "m04", "type": "sant-usant", "text": "Bilag trenger ikke å nummereres.", "correct": false, "explain": "Bilagene skal nummereres fortløpende, så alt kan spores." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Virksomheten selger varer på kreditt. Hvilken konto debiteres?",
+        "options": ["1920 Bankinnskudd", "1500 Kundefordringer", "2400 Leverandørgjeld", "3000 Salgsinntekt"],
+        "correct": 1,
+        "explain": "Kunden skylder penger, så kundefordringene (eiendel) øker på debet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken kontoklasse brukes for lønnskostnader?",
+        "options": ["Klasse 4", "Klasse 2", "Klasse 5", "Klasse 8"],
+        "correct": 2,
+        "explain": "Lønnskostnader føres i klasse 5."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket dokument er et bilag?",
+        "options": ["En kvittering fra et kjøp", "Kontoplanen", "Saldobalansen", "Selskapsavtalen"],
+        "correct": 0,
+        "explain": "Kvitteringen dokumenterer en transaksjon."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er et bilag, og hvilke opplysninger bør det inneholde? Nevn minst tre.",
+        "fasit": "Et bilag er et dokument som viser at en transaksjon har skjedd, for eksempel en faktura. Det bør vise dato, beløp, motpart og hva transaksjonen gjelder, og ha et bilagsnummer.",
+        "kriterier": ["Forklarer at et bilag dokumenterer en transaksjon.", "Nevner minst tre relevante opplysninger."]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar reglene for debet og kredit for eiendeler, gjeld, kostnader og inntekter.",
+        "fasit": "Eiendeler øker på debet og minker på kredit. Gjeld og egenkapital øker på kredit og minker på debet. Kostnader føres på debet og inntekter på kredit.",
+        "kriterier": ["Gir riktig regel for eiendeler og for gjeld og egenkapital.", "Gir riktig regel for kostnader og inntekter."]
+      },
+      {
+        "id": "s03",
+        "text": "En virksomhet kjøper varer på kreditt for 12 000 kr (se bort fra merverdiavgift). Hvilke kontoer debiteres og krediteres?",
+        "fasit": "Konto 4300 Varekjøp debiteres med 12 000 kr, og konto 2400 Leverandørgjeld krediteres med 12 000 kr.",
+        "kriterier": ["Debiterer varekjøp.", "Krediterer leverandørgjeld med samme beløp."]
+      },
+      {
+        "id": "s04",
+        "text": "Hva er forskjellen på journalen og hovedboka?",
+        "fasit": "Journalen viser transaksjonene i tidsrekkefølge med bilagsnummer, mens hovedboka viser de samme beløpene sortert per konto med saldo.",
+        "kriterier": ["Forklarer at journalen er i tidsrekkefølge.", "Forklarer at hovedboka er sortert per konto."]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvorfor saldobalansen kan brukes til å kontrollere regnskapet.",
+        "fasit": "I dobbelt bokholderi er sum debet alltid lik sum kredit. Hvis summen av debetsaldoene ikke er lik summen av kreditsaldoene i saldobalansen, er noe ført feil.",
+        "kriterier": ["Viser til at sum debet skal være lik sum kredit.", "Forklarer at avvik avslører feil."]
+      },
+      {
+        "id": "s06",
+        "text": "Hva viser det første sifferet i et kontonummer i NS 4102? Gi to eksempler.",
+        "fasit": "Det første sifferet viser kontoklassen. Kontoer som begynner på 1 er eiendeler, som 1920 Bankinnskudd, og kontoer som begynner på 3 er salgsinntekter, som 3000 Salgsinntekt.",
+        "kriterier": ["Forklarer at første siffer viser kontoklassen.", "Gir to riktige eksempler."]
+      }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

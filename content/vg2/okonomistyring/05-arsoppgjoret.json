@@ -1,0 +1,216 @@
+{
+  "id": "arsoppgjoret",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Årsoppgjøret",
+  "intro": "Hva som skjer når regnskapsåret avsluttes: regnskapsprinsippene, periodisering, avskrivninger, varetelling og tap på fordringer – og hvordan regnskapet for et enkeltpersonforetak avsluttes.",
+  "kompetansemaal": [5, 1],
+  "sammendrag": "## Hva er årsoppgjøret?\n\nGjennom året bokføres bilagene fortløpende. I **årsoppgjøret** kontrollerer og justerer virksomheten regnskapet, slik at det viser riktig **resultat** for året og riktige verdier i **balansen** per **31. desember**. Justeringene kalles **årsoppgjørsdisposisjoner**.\n\n## Regnskapsprinsippene\n\nRegnskapsloven bygger på noen grunnleggende prinsipper:\n\n- **Transaksjonsprinsippet**: En transaksjon registreres når den skjer, for eksempel når varen leveres.\n- **Opptjeningsprinsippet**: Inntekter føres når de er **opptjent**, ikke når pengene kommer.\n- **Sammenstillingsprinsippet**: Kostnader føres i samme periode som inntektene de har vært med på å skape.\n- **Forsiktighetsprinsippet**: Ved usikkerhet velger man den løsningen som ikke gir for gode tall.\n\n## Periodisering\n\nBetaling og bruk skjer ikke alltid i samme år. Da må beløpet **periodiseres**:\n\n- **Forskuddsbetalt kostnad**: Husleie for januar betalt i desember er en **eiendel** ved årsslutt, ikke en kostnad i år.\n- **Påløpt kostnad**: Strøm brukt i desember, men fakturert i januar, er en kostnad i år og en **gjeld** ved årsslutt.\n- Tilsvarende finnes **opptjente** og **forskuddsbetalte inntekter**.\n\n## Avskrivninger\n\n**Driftsmidler**, som maskiner og biler, brukes i flere år. Kostnaden fordeles derfor over levetiden med **avskrivninger**. Ved **lineær avskrivning** er avskrivningen lik hvert år:\n\n(anskaffelseskost − utrangeringsverdi) / levetid\n\nEn maskin til 300 000 kr med levetid på fem år og ingen utrangeringsverdi avskrives med **60 000 kr** per år.\n\n## Varetelling og tap på fordringer\n\n- Ved **varetelling** finner virksomheten verdien av varelageret. **Varekostnaden** blir da: inngående varebeholdning + varekjøp − utgående varebeholdning.\n- Hvis en kunde ikke kan betale, må fordringen føres som **tap på fordringer**, slik at kundefordringene ikke står oppført med for høy verdi.\n\n## Avslutning av et enkeltpersonforetak\n\nTil slutt **avsluttes** resultatkontoene, og **årsresultatet** overføres til **egenkapitalen**. Eieren av et ENK kan ta ut penger eller varer til seg selv, et **privatuttak**, som reduserer egenkapitalen:\n\nEgenkapital 31.12. = egenkapital 1.1. + årsresultat − privatuttak\n\nÅrsregnskapet består av **resultatregnskap**, **balanse** og **noter**.",
+  "flashcards": [
+    { "term": "Årsoppgjør", "def": "Kontroll og justering av regnskapet ved årets slutt, slik at resultat og balanse blir riktige." },
+    { "term": "Årsoppgjørsdisposisjon", "def": "Justering i årsoppgjøret, for eksempel periodisering, avskrivning eller tap på fordringer." },
+    { "term": "Transaksjonsprinsippet", "def": "En transaksjon registreres når den skjer, for eksempel ved levering." },
+    { "term": "Opptjeningsprinsippet", "def": "Inntekter føres når de er opptjent, ikke når betalingen kommer." },
+    { "term": "Sammenstillingsprinsippet", "def": "Kostnader føres i samme periode som inntektene de har vært med på å skape." },
+    { "term": "Forsiktighetsprinsippet", "def": "Ved usikkerhet velges løsningen som ikke gir for gode tall." },
+    { "term": "Periodisering", "def": "Å føre inntekter og kostnader i den perioden de hører til, uavhengig av betaling." },
+    { "term": "Forskuddsbetalt kostnad", "def": "Kostnad som er betalt, men gjelder neste periode; en eiendel ved årsslutt." },
+    { "term": "Påløpt kostnad", "def": "Kostnad som gjelder perioden, men ikke er betalt eller fakturert ennå; en gjeld ved årsslutt." },
+    { "term": "Driftsmiddel", "def": "Eiendel som brukes i driften i flere år, for eksempel en maskin eller bil." },
+    { "term": "Avskrivning", "def": "Fordeling av kostnaden for et driftsmiddel over levetiden." },
+    { "term": "Lineær avskrivning", "def": "Like store avskrivninger hvert år: (anskaffelseskost − utrangeringsverdi) / levetid." },
+    { "term": "Varekostnad", "def": "Inngående varebeholdning + varekjøp − utgående varebeholdning." },
+    { "term": "Tap på fordringer", "def": "Kostnad som føres når en kunde ikke kan betale det den skylder." },
+    { "term": "Privatuttak", "def": "Penger eller varer eieren av et ENK tar ut til seg selv; reduserer egenkapitalen." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er hensikten med årsoppgjøret?",
+      "options": [
+        "Å lage budsjett for neste år",
+        "Å justere regnskapet slik at resultat og balanse blir riktige",
+        "Å betale ut lønn til de ansatte",
+        "Å velge ny selskapsform"
+      ],
+      "correct": 1,
+      "explain": "I årsoppgjøret kontrolleres og justeres regnskapet per 31. desember."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket prinsipp sier at kostnader skal føres i samme periode som inntektene de skaper?",
+      "options": ["Forsiktighetsprinsippet", "Transaksjonsprinsippet", "Sammenstillingsprinsippet", "Opptjeningsprinsippet"],
+      "correct": 2,
+      "explain": "Sammenstillingsprinsippet kobler kostnader til inntektene de hører til."
+    },
+    {
+      "id": "q03",
+      "text": "Virksomheten betaler husleie for januar neste år i desember. Hvordan behandles beløpet ved årsslutt?",
+      "options": [
+        "Som forskuddsbetalt kostnad, altså en eiendel",
+        "Som påløpt kostnad, altså en gjeld",
+        "Som kostnad i år",
+        "Som inntekt neste år"
+      ],
+      "correct": 0,
+      "explain": "Kostnaden gjelder neste år, så beløpet er en eiendel i balansen per 31.12."
+    },
+    {
+      "id": "q04",
+      "text": "En maskin koster 240 000 kr, har levetid på fire år og ingen utrangeringsverdi. Hva er den årlige lineære avskrivningen?",
+      "options": ["48 000 kr", "80 000 kr", "60 000 kr", "240 000 kr"],
+      "correct": 2,
+      "explain": "240 000 / 4 = 60 000 kr per år."
+    },
+    {
+      "id": "q05",
+      "text": "Inngående varebeholdning er 50 000 kr, varekjøpet 200 000 kr og utgående varebeholdning 70 000 kr. Hva er varekostnaden?",
+      "options": ["180 000 kr", "220 000 kr", "320 000 kr", "130 000 kr"],
+      "correct": 0,
+      "explain": "50 000 + 200 000 − 70 000 = 180 000 kr."
+    },
+    {
+      "id": "q06",
+      "text": "Strøm for desember faktureres først i januar. Hva gjør virksomheten i årsoppgjøret?",
+      "options": [
+        "Venter med kostnaden til fakturaen kommer",
+        "Fører kostnaden som en eiendel",
+        "Fører det som tap på fordringer",
+        "Fører kostnaden i år og en påløpt kostnad som gjeld"
+      ],
+      "correct": 3,
+      "explain": "Strømmen er brukt i år, så kostnaden hører til i år selv om fakturaen kommer senere."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et privatuttak?",
+      "options": [
+        "En kostnad som gir fradrag i skatten",
+        "Penger eller varer eieren av et ENK tar ut til seg selv",
+        "Et lån fra banken til eieren",
+        "En inntekt fra salg til private kunder"
+      ],
+      "correct": 1,
+      "explain": "Privatuttak reduserer egenkapitalen og er ikke en kostnad."
+    },
+    {
+      "id": "q08",
+      "text": "Egenkapitalen 1.1. er 400 000 kr, årsresultatet 150 000 kr og privatuttaket 100 000 kr. Hva er egenkapitalen 31.12.?",
+      "options": ["650 000 kr", "350 000 kr", "550 000 kr", "450 000 kr"],
+      "correct": 3,
+      "explain": "400 000 + 150 000 − 100 000 = 450 000 kr."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor føres tap på fordringer?",
+      "options": [
+        "For at kundefordringene ikke skal stå med for høy verdi",
+        "For å øke inntektene",
+        "For å slippe å betale mva",
+        "For å redusere antall kunder"
+      ],
+      "correct": 0,
+      "explain": "Fordringer som ikke blir betalt, har ingen verdi og må tas ut som en kostnad."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket prinsipp sier at inntekter føres når de er opptjent?",
+      "options": ["Sammenstillingsprinsippet", "Forsiktighetsprinsippet", "Opptjeningsprinsippet", "Kontantprinsippet"],
+      "correct": 2,
+      "explain": "Opptjeningsprinsippet: inntekten føres når varen eller tjenesten er levert."
+    }
+  ],
+  "mindmap": {
+    "label": "Årsoppgjøret",
+    "children": [
+      { "label": "Prinsipper", "children": [{ "label": "Transaksjon og opptjening" }, { "label": "Sammenstilling" }, { "label": "Forsiktighet" }] },
+      { "label": "Periodisering", "children": [{ "label": "Forskuddsbetalt kostnad" }, { "label": "Påløpt kostnad" }, { "label": "Inntekter tilsvarende" }] },
+      { "label": "Avskrivninger", "children": [{ "label": "Driftsmidler" }, { "label": "Lineær metode" }] },
+      { "label": "Varer og fordringer", "children": [{ "label": "Varetelling" }, { "label": "Varekostnad" }, { "label": "Tap på fordringer" }] },
+      { "label": "Avslutning av ENK", "children": [{ "label": "Resultat til egenkapital" }, { "label": "Privatuttak" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et privatuttak er en kostnad i resultatregnskapet.", "correct": false, "explain": "Privatuttak reduserer egenkapitalen, men er ikke en kostnad." },
+      { "id": "m02", "type": "sant-usant", "text": "En påløpt kostnad er en gjeld i balansen ved årsslutt.", "correct": true, "explain": "Kostnaden hører til året, men er ikke betalt ennå." },
+      { "id": "m03", "type": "sant-usant", "text": "Ved lineær avskrivning er avskrivningen like stor hvert år.", "correct": true, "explain": "Kostnaden fordeles likt over levetiden." },
+      { "id": "m04", "type": "sant-usant", "text": "Opptjeningsprinsippet sier at inntekter føres når pengene kommer inn på konto.", "correct": false, "explain": "Inntekter føres når de er opptjent, uavhengig av betaling." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva består årsregnskapet av?",
+        "options": [
+          "Budsjett, likviditetsplan og selskapsavtale",
+          "Resultatregnskap, balanse og noter",
+          "Bare kontoutskrifter fra banken",
+          "Mva-meldinger for hele året"
+        ],
+        "correct": 1,
+        "explain": "Resultatregnskapet, balansen og notene utgjør årsregnskapet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "En bil kjøpes for 400 000 kr, har levetid på fem år og utrangeringsverdi på 100 000 kr. Hva er den årlige lineære avskrivningen?",
+        "options": ["80 000 kr", "100 000 kr", "60 000 kr", "50 000 kr"],
+        "correct": 2,
+        "explain": "(400 000 − 100 000) / 5 = 60 000 kr."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva skjer med årsresultatet når regnskapet for et ENK avsluttes?",
+        "options": [
+          "Det overføres til egenkapitalen",
+          "Det slettes",
+          "Det føres som gjeld til eieren",
+          "Det sendes til Finanstilsynet"
+        ],
+        "correct": 0,
+        "explain": "Resultatet øker (eller reduserer) egenkapitalen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar sammenstillingsprinsippet med et eksempel.",
+        "fasit": "Sammenstillingsprinsippet betyr at kostnader føres i samme periode som inntektene de har vært med på å skape. For eksempel føres kostnaden for varene som er solgt, i samme år som salgsinntekten.",
+        "kriterier": ["Forklarer at kostnader skal føres i samme periode som inntektene de skaper.", "Gir et relevant eksempel."]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er forskjellen på en forskuddsbetalt kostnad og en påløpt kostnad? Gi ett eksempel på hver.",
+        "fasit": "En forskuddsbetalt kostnad er betalt i år, men gjelder neste år, som husleie for januar betalt i desember, og er en eiendel. En påløpt kostnad gjelder i år, men betales senere, som strøm for desember fakturert i januar, og er en gjeld.",
+        "kriterier": ["Forklarer forskjellen og at den ene er eiendel og den andre gjeld.", "Gir ett riktig eksempel på hver."]
+      },
+      {
+        "id": "s03",
+        "text": "En maskin koster 500 000 kr, har levetid på åtte år og utrangeringsverdi på 100 000 kr. Regn ut den årlige lineære avskrivningen, og vis regnestykket.",
+        "fasit": "Avskrivningen er (500 000 − 100 000) / 8 = 50 000 kr per år.",
+        "kriterier": ["Trekker utrangeringsverdien fra anskaffelseskosten og deler på levetiden.", "Kommer fram til 50 000 kr."]
+      },
+      {
+        "id": "s04",
+        "text": "Inngående varebeholdning er 80 000 kr, varekjøpet 300 000 kr og utgående varebeholdning 60 000 kr. Regn ut varekostnaden.",
+        "fasit": "Varekostnaden er 80 000 + 300 000 − 60 000 = 320 000 kr.",
+        "kriterier": ["Bruker formelen inngående beholdning + kjøp − utgående beholdning.", "Kommer fram til 320 000 kr."]
+      },
+      {
+        "id": "s05",
+        "text": "Hvorfor avskrives driftsmidler i stedet for å føres som kostnad med en gang?",
+        "fasit": "Driftsmidler brukes i flere år og er med på å skape inntekter i hele levetiden. Ved å avskrive fordeles kostnaden over årene de brukes, i tråd med sammenstillingsprinsippet.",
+        "kriterier": ["Forklarer at driftsmidler brukes over flere år.", "Kobler avskrivning til at kostnaden fordeles over levetiden."]
+      },
+      {
+        "id": "s06",
+        "text": "Egenkapitalen i et ENK var 250 000 kr 1.1. Årsresultatet ble 180 000 kr, og eieren tok ut 120 000 kr privat. Hva er egenkapitalen 31.12.?",
+        "fasit": "Egenkapitalen 31.12. er 250 000 + 180 000 − 120 000 = 310 000 kr.",
+        "kriterier": ["Legger til årsresultatet og trekker fra privatuttaket.", "Kommer fram til 310 000 kr."]
+      }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,414 @@
+{
+  "id": "regnskapsforer-og-revisor",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Regnskapsfører og revisor",
+  "intro": "Hvem som fører og hvem som kontrollerer regnskapet: bokføringsplikt og regnskapsplikt, autorisasjonsplikten for regnskapsførere, revisjonsplikt og revisors uavhengige rolle.",
+  "kompetansemaal": [
+    4
+  ],
+  "sammendrag": "## Hvorfor regnskap må være til å stole på\n\nMange bruker regnskapet til en virksomhet: **eiere**, **långivere**, **leverandører**, **ansatte** og **skattemyndighetene**. Derfor stiller loven krav både til hvem som **fører** regnskapet, og til hvem som **kontrollerer** det.\n\n## Bokføringsplikt og regnskapsplikt\n\n- **Bokføringsplikt** gjelder alle som driver næring. De må registrere og **dokumentere** alle transaksjoner med **bilag** etter **bokføringsloven**.\n- **Regnskapsplikt** etter **regnskapsloven** betyr at virksomheten også må lage et **årsregnskap**. Aksjeselskaper har alltid regnskapsplikt, mens små enkeltpersonforetak ofte bare har bokføringsplikt.\n\nAksjeselskaper må sende årsregnskapet til **Regnskapsregisteret** i Brønnøysund, og der er det **offentlig**.\n\n## Regnskapsføreren\n\nEn **regnskapsfører** fører regnskapet: bokfører bilag, lager rapporter, beregner merverdiavgift og setter opp årsregnskapet. Mange små bedrifter fører regnskapet selv, men den som fører regnskap **for andre** som næring, har **autorisasjonsplikt**. Det betyr at regnskapsføreren må være **autorisert** av **Finanstilsynet**. Kravene gjelder utdanning, praksis og vandel, og skal sikre **kvalitet** og **tillit**.\n\n## Revisoren\n\nEn **revisor** kontrollerer regnskapet. Revisoren undersøker om årsregnskapet gir et **riktig bilde** og er laget etter loven og **god regnskapsskikk**, og skriver så en **revisjonsberetning**.\n\n- Revisoren må være **uavhengig** og kan derfor ikke selv føre regnskapet for den samme virksomheten.\n- Revisorer godkjennes av **Finanstilsynet**, med tittelen **statsautorisert revisor** eller **registrert revisor**.\n- Revisjonsberetningen sendes sammen med årsregnskapet og leses av eiere, banker og myndigheter.\n\nRevisoren går ikke gjennom hvert eneste bilag. I stedet **planlegger** revisoren arbeidet ut fra hvor risikoen for feil er størst, tar **stikkprøver**, sjekker at virksomheten har gode rutiner (**internkontroll**), og kontrollerer viktige poster som bank, varelager og kundefordringer. Finner revisoren feil, skal de rettes før regnskapet godkjennes.\n\n## Revisjonsplikt\n\nAksjeselskaper har i utgangspunktet **revisjonsplikt**. Små aksjeselskaper kan likevel **velge bort revisjon** hvis de er under bestemte grenser for **driftsinntekter**, **balansesum** og **antall ansatte**. Et **ASA** kan aldri velge bort revisjon.\n\n## Forskjellen i korte trekk\n\n- **Regnskapsføreren** lager regnskapet.\n- **Revisoren** kontrollerer at regnskapet er riktig.\n\nSammen skal de sørge for at alle som bruker regnskapet, kan **stole på** tallene.",
+  "flashcards": [
+    {
+      "term": "Bokføringsplikt",
+      "def": "Plikt for alle næringsdrivende til å registrere og dokumentere transaksjoner med bilag."
+    },
+    {
+      "term": "Regnskapsplikt",
+      "def": "Plikt etter regnskapsloven til å lage et årsregnskap, i tillegg til å bokføre."
+    },
+    {
+      "term": "Bokføringsloven",
+      "def": "Loven som regulerer hvordan transaksjoner skal registreres og dokumenteres."
+    },
+    {
+      "term": "Regnskapsloven",
+      "def": "Loven som bestemmer hvem som har regnskapsplikt og hvordan årsregnskapet skal lages."
+    },
+    {
+      "term": "Regnskapsregisteret",
+      "def": "Register i Brønnøysund der aksjeselskaper sender inn årsregnskapet, som blir offentlig."
+    },
+    {
+      "term": "Regnskapsfører",
+      "def": "Person som fører regnskapet: bokfører bilag og lager rapporter og årsregnskap."
+    },
+    {
+      "term": "Autorisasjonsplikt",
+      "def": "Krav om at den som fører regnskap for andre som næring, må være autorisert av Finanstilsynet."
+    },
+    {
+      "term": "Finanstilsynet",
+      "def": "Statlig tilsyn som blant annet autoriserer regnskapsførere og godkjenner revisorer."
+    },
+    {
+      "term": "Revisor",
+      "def": "Uavhengig person som kontrollerer at årsregnskapet er riktig og laget etter regelverket."
+    },
+    {
+      "term": "Revisjonsberetning",
+      "def": "Revisors skriftlige uttalelse om årsregnskapet etter revisjonen."
+    },
+    {
+      "term": "Revisjonsplikt",
+      "def": "Plikt til å få regnskapet kontrollert av revisor; aksjeselskaper har den i utgangspunktet."
+    },
+    {
+      "term": "Uavhengighet",
+      "def": "Revisoren kan ikke ha bindinger til virksomheten, for eksempel føre dens regnskap."
+    },
+    {
+      "term": "God regnskapsskikk",
+      "def": "Normer for hvordan regnskap skal føres, i tillegg til det som står i loven."
+    },
+    {
+      "term": "Statsautorisert revisor",
+      "def": "Revisortittel med de strengeste kravene til utdanning og praksis."
+    },
+    {
+      "term": "Velge bort revisjon",
+      "def": "Mulighet for små aksjeselskaper under bestemte grenser å slippe revisor."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvem har bokføringsplikt?",
+      "options": [
+        "Alle som driver næring",
+        "Bare aksjeselskaper",
+        "Bare virksomheter med ansatte",
+        "Bare virksomheter med revisor"
+      ],
+      "correct": 0,
+      "explain": "Alle næringsdrivende må registrere og dokumentere transaksjonene sine."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den viktigste forskjellen på en regnskapsfører og en revisor?",
+      "options": [
+        "Regnskapsføreren kontrollerer, revisoren fører regnskapet",
+        "Begge fører regnskapet, men revisoren er billigere",
+        "Revisoren jobber bare for skattemyndighetene",
+        "Regnskapsføreren fører regnskapet, revisoren kontrollerer det"
+      ],
+      "correct": 3,
+      "explain": "Regnskapsføreren lager regnskapet, og revisoren kontrollerer at det er riktig."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem må være autorisert av Finanstilsynet?",
+      "options": [
+        "Alle som fører sitt eget regnskap",
+        "Alle styremedlemmer i et AS",
+        "Den som fører regnskap for andre som næring",
+        "Alle ansatte i en regnskapsavdeling"
+      ],
+      "correct": 2,
+      "explain": "Autorisasjonsplikten gjelder den som yter regnskapstjenester for andre som næring."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor kan ikke revisoren føre regnskapet for den virksomheten hun reviderer?",
+      "options": [
+        "Fordi revisoren må være uavhengig",
+        "Fordi revisorer ikke kan bokføre",
+        "Fordi det er for dyrt for virksomheten",
+        "Fordi regnskapsloven forbyr revisorer å ha kunder"
+      ],
+      "correct": 0,
+      "explain": "Revisoren ville ellers kontrollert sitt eget arbeid."
+    },
+    {
+      "id": "q05",
+      "text": "Hva skriver revisoren etter at revisjonen er ferdig?",
+      "options": [
+        "En revisjonsberetning",
+        "Et budsjett",
+        "En selskapsavtale",
+        "En mva-melding"
+      ],
+      "correct": 0,
+      "explain": "Revisjonsberetningen er revisors uttalelse om årsregnskapet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken virksomhet kan aldri velge bort revisjon?",
+      "options": [
+        "Et lite AS",
+        "Et ENK",
+        "Et ASA",
+        "Et samvirkeforetak med få medlemmer"
+      ],
+      "correct": 2,
+      "explain": "Allmennaksjeselskaper har alltid revisjonsplikt."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor sender aksjeselskaper årsregnskapet sitt?",
+      "options": [
+        "Til Finanstilsynet",
+        "Til Regnskapsregisteret i Brønnøysund",
+        "Til Norges Bank",
+        "Til kommunen"
+      ],
+      "correct": 1,
+      "explain": "Årsregnskapet sendes til Regnskapsregisteret og blir offentlig."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er det strenge krav til regnskapsførere og revisorer?",
+      "options": [
+        "For at staten skal tjene penger på gebyrer",
+        "For å hindre at små bedrifter fører regnskap selv",
+        "For at mange brukere skal kunne stole på regnskapet",
+        "For å gjøre regnskapet hemmelig"
+      ],
+      "correct": 2,
+      "explain": "Eiere, banker, leverandører og myndigheter tar beslutninger ut fra regnskapet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr det at små aksjeselskaper kan velge bort revisjon?",
+      "options": [
+        "De slipper å føre regnskap",
+        "De slipper å få regnskapet kontrollert av revisor hvis de er under bestemte grenser",
+        "De slipper å betale skatt",
+        "De slipper å sende årsregnskapet til Brønnøysund"
+      ],
+      "correct": 1,
+      "explain": "De må fortsatt føre regnskap og sende det inn, men trenger ikke revisor."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken lov sier hvordan transaksjoner skal registreres og dokumenteres?",
+      "options": [
+        "Aksjeloven",
+        "Arbeidsmiljøloven",
+        "Merverdiavgiftsloven",
+        "Bokføringsloven"
+      ],
+      "correct": 3,
+      "explain": "Bokføringsloven regulerer registrering og dokumentasjon med bilag."
+    }
+  ],
+  "mindmap": {
+    "label": "Regnskapsfører og revisor",
+    "children": [
+      {
+        "label": "Plikter",
+        "children": [
+          {
+            "label": "Bokføringsplikt"
+          },
+          {
+            "label": "Regnskapsplikt"
+          },
+          {
+            "label": "Innsending til Brønnøysund"
+          }
+        ]
+      },
+      {
+        "label": "Regnskapsfører",
+        "children": [
+          {
+            "label": "Fører regnskapet"
+          },
+          {
+            "label": "Autorisasjonsplikt"
+          },
+          {
+            "label": "Finanstilsynet"
+          }
+        ]
+      },
+      {
+        "label": "Revisor",
+        "children": [
+          {
+            "label": "Kontrollerer"
+          },
+          {
+            "label": "Uavhengig"
+          },
+          {
+            "label": "Revisjonsberetning"
+          }
+        ]
+      },
+      {
+        "label": "Revisjonsplikt",
+        "children": [
+          {
+            "label": "AS i utgangspunktet"
+          },
+          {
+            "label": "Små AS kan velge bort"
+          },
+          {
+            "label": "ASA alltid"
+          }
+        ]
+      },
+      {
+        "label": "Brukere av regnskapet",
+        "children": [
+          {
+            "label": "Eiere og banker"
+          },
+          {
+            "label": "Leverandører"
+          },
+          {
+            "label": "Myndigheter"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et lite enkeltpersonforetak har alltid revisjonsplikt.",
+        "correct": false,
+        "explain": "Små ENK har ofte bare bokføringsplikt og ikke revisjonsplikt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Årsregnskapene til aksjeselskaper er offentlige.",
+        "correct": true,
+        "explain": "De ligger i Regnskapsregisteret og kan leses av alle."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En revisor kan godt føre regnskapet for virksomheten hun reviderer.",
+        "correct": false,
+        "explain": "Kravet om uavhengighet gjør at revisor ikke kan kontrollere sitt eget arbeid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Finanstilsynet godkjenner revisorer og autoriserer regnskapsførere.",
+        "correct": true,
+        "explain": "Finanstilsynet fører tilsyn med begge yrkene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva undersøker revisoren?",
+        "options": [
+          "Om virksomheten har det beste produktet i markedet",
+          "Om årsregnskapet gir et riktig bilde og følger regelverket",
+          "Om de ansatte trives på jobb",
+          "Om prisene er lavere enn konkurrentenes"
+        ],
+        "correct": 1,
+        "explain": "Revisjonen handler om at regnskapet er riktig og etter loven og god regnskapsskikk."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken oppgave er typisk for en regnskapsfører?",
+        "options": [
+          "Skrive revisjonsberetning",
+          "Godkjenne revisorer",
+          "Bokføre bilag og lage årsregnskap",
+          "Fastsette skattesatsene"
+        ],
+        "correct": 2,
+        "explain": "Regnskapsføreren registrerer transaksjonene og setter opp regnskapet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er hensikten med autorisasjonsplikten for regnskapsførere?",
+        "options": [
+          "Å gjøre det dyrere å starte bedrift",
+          "Å sikre kvalitet og tillit når noen fører regnskap for andre",
+          "Å hindre at bedrifter bytter regnskapsfører",
+          "Å la regnskapsføreren også være revisor"
+        ],
+        "correct": 1,
+        "explain": "Kravene til utdanning, praksis og vandel skal sikre at kundene og samfunnet kan stole på arbeidet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på bokføringsplikt og regnskapsplikt.",
+        "fasit": "Bokføringsplikt betyr å registrere og dokumentere alle transaksjoner med bilag, og gjelder alle næringsdrivende. Regnskapsplikt betyr at virksomheten i tillegg må lage et årsregnskap etter regnskapsloven.",
+        "kriterier": [
+          "Forklarer at bokføringsplikt handler om å registrere og dokumentere transaksjoner.",
+          "Forklarer at regnskapsplikt i tillegg krever et årsregnskap."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva betyr autorisasjonsplikten for regnskapsførere, og hvorfor finnes den?",
+        "fasit": "Den som fører regnskap for andre som næring, må være autorisert av Finanstilsynet. Kravet skal sikre kvalitet og tillit til regnskapene.",
+        "kriterier": [
+          "Forklarer at plikten gjelder den som fører regnskap for andre som næring, med autorisasjon fra Finanstilsynet.",
+          "Forklarer at hensikten er kvalitet og tillit."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Beskriv revisorens rolle, og forklar hvorfor revisoren må være uavhengig.",
+        "fasit": "Revisoren kontrollerer om årsregnskapet gir et riktig bilde og følger loven og god regnskapsskikk, og skriver en revisjonsberetning. Revisoren må være uavhengig for at kontrollen skal være til å stole på.",
+        "kriterier": [
+          "Beskriver at revisoren kontrollerer regnskapet og skriver revisjonsberetning.",
+          "Begrunner kravet om uavhengighet med troverdighet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hvilke aksjeselskaper kan velge bort revisjon, og hvorfor kan et ASA ikke gjøre det?",
+        "fasit": "Små aksjeselskaper under bestemte grenser for driftsinntekter, balansesum og antall ansatte kan velge bort revisjon. Et ASA har alltid revisjonsplikt fordi det er stort og kan ha mange eiere som trenger pålitelige tall.",
+        "kriterier": [
+          "Forklarer at små AS under grenser for driftsinntekter, balanse og ansatte kan velge bort revisjon.",
+          "Gir en rimelig begrunnelse for at ASA alltid har revisjonsplikt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Nevn tre grupper som bruker regnskapet til en virksomhet, og forklar hvorfor én av dem trenger det.",
+        "fasit": "Eiere, banker og skattemyndighetene bruker regnskapet. Banken trenger det for å vurdere om virksomheten kan betale tilbake lån.",
+        "kriterier": [
+          "Nevner tre relevante brukere av regnskapet.",
+          "Forklarer hvorfor én av dem trenger regnskapet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvorfor er det viktig at årsregnskapene til aksjeselskaper er offentlige?",
+        "fasit": "Aksjonærene har begrenset ansvar, så leverandører, långivere og andre trenger å kunne se hvordan selskapet går før de gir kreditt eller inngår avtaler.",
+        "kriterier": [
+          "Kobler offentlighet til at aksjonærene har begrenset ansvar.",
+          "Forklarer at andre aktører trenger innsyn før de handler med selskapet."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": [
+      "Grensene for å velge bort revisjon i AS er bevisst ikke tallfestet; sjekk om læreboka bruker konkrete tall (per 2025: driftsinntekter under 7 mill. kr, balansesum under 27 mill. kr og under 10 årsverk)."
+    ]
+  }
+}

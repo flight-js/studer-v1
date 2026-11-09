@@ -1,0 +1,230 @@
+{
+  "id": "teknologi-og-barekraft",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Teknologi, innovasjon og bærekraftige forretningsmodeller",
+  "intro": "Hvordan digitalisering og automatisering endrer økonomiarbeidet, hva en forretningsmodell er, og hvordan ny teknologi kan gi innovasjon og mer bærekraftige måter å drive på.",
+  "kompetansemaal": [11, 2],
+  "sammendrag": "## Automatisering i økonomiarbeidet\n\nRegnskap føres i dag nesten alltid **digitalt**, ofte i **skybaserte regnskapsprogram**. Mye av det som før ble gjort for hånd, skjer nå **automatisk**:\n\n- **Elektroniske fakturaer (EHF)** leses rett inn i regnskapet uten papir og skanning.\n- **Bankavstemming** skjer automatisk ved at programmet henter transaksjonene fra banken.\n- **Kunstig intelligens** kan tolke bilag og foreslå hvilken konto de skal føres på.\n- **Sanntidsrapporter** viser hvordan det går, uten å vente på månedsslutt.\n\nDette sparer tid og gir færre feil. Samtidig endrer det jobbene: Regnskapsførere bruker mindre tid på å taste inn tall og mer tid på **rådgivning** og **analyse**. Nye løsninger stiller også krav til **datasikkerhet** og **personvern**.\n\n## Hva er en forretningsmodell?\n\nEn **forretningsmodell** beskriver hvordan en virksomhet **skaper verdi** for kundene, **leverer** den og **tjener penger** på den. Ny teknologi har gitt nye modeller:\n\n- **Abonnement**: Kunden betaler fast hver måned, som for strømming av musikk og film.\n- **Plattform**: Virksomheten kobler kjøpere og selgere og tar betalt for formidlingen, som en digital markedsplass.\n- **Delingsøkonomi**: Folk leier ut eller deler ting de eier, som biler og verktøy.\n- **Produkt som tjeneste**: Kunden betaler for bruken i stedet for å eie, for eksempel leasing.\n\n## Innovasjon og bærekraft\n\n**Innovasjon** er nye løsninger som tas i bruk og skaper verdi. Teknologi kan gjøre forretningsmodeller mer **bærekraftige**:\n\n- I en **sirkulær økonomi** blir produkter **reparert**, **gjenbrukt** og **resirkulert** i stedet for kastet.\n- Bedre **data** og **logistikk** kan kutte svinn, transport og utslipp.\n- **Bærekraft** har tre dimensjoner: **økonomisk**, **sosial** og **miljømessig**. En bærekraftig modell må gå med overskudd uten å skade mennesker eller miljø.\n\nVirksomheter må passe seg for **grønnvasking**, altså å framstille seg som mer miljøvennlige enn de er. Villedende miljøpåstander i reklame er i strid med **markedsføringsloven**.\n\n## Følg med i næringslivet\n\nNæringslivet endrer seg hele tiden. Endringer i **renter**, **priser** og **teknologi** påvirker virksomhetenes økonomi. For å utforske dagsaktuelle temaer kan du bruke **nyheter**, **årsrapporter** og statistikk fra **SSB**, og vurdere kildene kritisk.",
+  "flashcards": [
+    { "term": "Digitalisering", "def": "Å ta i bruk digital teknologi i arbeidsoppgaver, for eksempel regnskap i skyen." },
+    { "term": "Automatisering", "def": "At oppgaver som før ble gjort manuelt, utføres av datasystemer." },
+    { "term": "EHF", "def": "Elektronisk handelsformat: faktura som sendes og leses rett inn i regnskapet." },
+    { "term": "Bankavstemming", "def": "Kontroll av at banktransaksjonene stemmer med regnskapet; kan skje automatisk." },
+    { "term": "Sanntidsrapport", "def": "Rapport som viser økonomiske tall fortløpende i stedet for etter periodeslutt." },
+    { "term": "Forretningsmodell", "def": "Hvordan en virksomhet skaper verdi for kundene, leverer den og tjener penger på den." },
+    { "term": "Abonnementsmodell", "def": "Forretningsmodell der kunden betaler et fast beløp per periode." },
+    { "term": "Plattformmodell", "def": "Forretningsmodell der virksomheten kobler kjøpere og selgere og tar betalt for formidlingen." },
+    { "term": "Delingsøkonomi", "def": "Økonomi der folk leier ut eller deler ting de eier, ofte via digitale tjenester." },
+    { "term": "Produkt som tjeneste", "def": "Kunden betaler for bruken av et produkt i stedet for å eie det." },
+    { "term": "Innovasjon", "def": "Ny løsning som tas i bruk og skaper verdi." },
+    { "term": "Sirkulær økonomi", "def": "Økonomi der produkter repareres, gjenbrukes og resirkuleres i stedet for å kastes." },
+    { "term": "Bærekraft", "def": "Utvikling som tar hensyn til økonomiske, sosiale og miljømessige forhold." },
+    { "term": "Grønnvasking", "def": "Å framstille en virksomhet eller vare som mer miljøvennlig enn den er." },
+    { "term": "Datasikkerhet", "def": "Beskyttelse av data og systemer mot innbrudd, tap og misbruk." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er en fordel med automatisering i regnskapet?",
+      "options": [
+        "Regnskapet blir helt unødvendig",
+        "Det sparer tid og gir færre feil",
+        "Det fjerner behovet for bilag",
+        "Det gjør det lovlig å slutte å betale mva"
+      ],
+      "correct": 1,
+      "explain": "Automatiske løsninger gjør rutinearbeid raskere og mer nøyaktig."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er EHF?",
+      "options": [
+        "En type selskapsform",
+        "Et nøkkeltall for likviditet",
+        "Elektronisk faktura som leses rett inn i regnskapet",
+        "En revisortittel"
+      ],
+      "correct": 2,
+      "explain": "EHF står for elektronisk handelsformat."
+    },
+    {
+      "id": "q03",
+      "text": "Hva beskriver en forretningsmodell?",
+      "options": [
+        "Hvordan virksomheten skaper verdi, leverer den og tjener penger",
+        "Hvem som sitter i styret",
+        "Hvordan regnskapet skal revideres",
+        "Hvilken mva-sats som gjelder"
+      ],
+      "correct": 0,
+      "explain": "Forretningsmodellen forklarer hvordan virksomheten henger sammen økonomisk."
+    },
+    {
+      "id": "q04",
+      "text": "En strømmetjeneste der kundene betaler fast hver måned, er et eksempel på hvilken modell?",
+      "options": ["Plattformmodell", "Delingsøkonomi", "Sirkulær økonomi", "Abonnementsmodell"],
+      "correct": 3,
+      "explain": "Fast betaling per periode er kjennetegnet på abonnement."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner en plattformmodell?",
+      "options": [
+        "Virksomheten produserer alle varene selv",
+        "Virksomheten kobler kjøpere og selgere og tar betalt for formidlingen",
+        "Kundene eier virksomheten",
+        "Virksomheten selger bare til staten"
+      ],
+      "correct": 1,
+      "explain": "Digitale markedsplasser er typiske plattformer."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr sirkulær økonomi?",
+      "options": [
+        "At pengene går i sirkel mellom bankene",
+        "At produktene kastes etter én bruk",
+        "At produkter repareres, gjenbrukes og resirkuleres",
+        "At virksomheter bare handler lokalt"
+      ],
+      "correct": 2,
+      "explain": "Målet er å holde ressursene i bruk lengst mulig."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilke tre dimensjoner har bærekraft?",
+      "options": [
+        "Økonomisk, sosial og miljømessig",
+        "Lokal, nasjonal og global",
+        "Kort, mellomlang og lang sikt",
+        "Pris, produkt og plass"
+      ],
+      "correct": 0,
+      "explain": "En bærekraftig virksomhet må ta hensyn til alle tre."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er grønnvasking?",
+      "options": [
+        "Å bruke miljøvennlige vaskemidler i produksjonen",
+        "Å framstille seg som mer miljøvennlig enn man er",
+        "Å resirkulere emballasje",
+        "Å kjøpe strøm fra fornybare kilder"
+      ],
+      "correct": 1,
+      "explain": "Villedende miljøpåstander i reklame er i strid med markedsføringsloven."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan endrer automatisering arbeidet til regnskapsførere?",
+      "options": [
+        "De må taste inn flere tall enn før",
+        "Yrket forsvinner helt",
+        "De slipper å følge loven",
+        "De bruker mindre tid på inntasting og mer på rådgivning og analyse"
+      ],
+      "correct": 3,
+      "explain": "Rutinearbeidet automatiseres, og vurderingene blir viktigere."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken kilde passer best for å finne offisiell statistikk om norsk økonomi?",
+      "options": ["SSB", "En reklamebrosjyre", "Et anonymt innlegg i sosiale medier", "En konkurrents nettbutikk"],
+      "correct": 0,
+      "explain": "Statistisk sentralbyrå publiserer offisiell statistikk."
+    }
+  ],
+  "mindmap": {
+    "label": "Teknologi og bærekraft",
+    "children": [
+      { "label": "Automatisering", "children": [{ "label": "EHF og bankavstemming" }, { "label": "KI som foreslår kontering" }, { "label": "Nye roller og krav" }] },
+      { "label": "Forretningsmodeller", "children": [{ "label": "Abonnement" }, { "label": "Plattform" }, { "label": "Deling og produkt som tjeneste" }] },
+      { "label": "Bærekraft", "children": [{ "label": "Økonomisk, sosial, miljø" }, { "label": "Sirkulær økonomi" }, { "label": "Grønnvasking" }] },
+      { "label": "Dagsaktuelt", "children": [{ "label": "Renter og priser" }, { "label": "Kilder og kildekritikk" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Automatisering kan stille nye krav til datasikkerhet og personvern.", "correct": true, "explain": "Mer data i digitale systemer må beskyttes." },
+      { "id": "m02", "type": "sant-usant", "text": "En bærekraftig forretningsmodell trenger ikke å gå med overskudd.", "correct": false, "explain": "Økonomisk bærekraft er en av de tre dimensjonene." },
+      { "id": "m03", "type": "sant-usant", "text": "Leasing av bil er et eksempel på produkt som tjeneste.", "correct": true, "explain": "Kunden betaler for bruken i stedet for å eie bilen." },
+      { "id": "m04", "type": "sant-usant", "text": "Villedende miljøpåstander i reklame er lov så lenge produktet selger godt.", "correct": false, "explain": "Markedsføringsloven forbyr villedende påstander, også om miljø." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken løsning henter transaksjoner fra banken og kontrollerer dem mot regnskapet?",
+        "options": ["Revisjonsberetning", "Automatisk bankavstemming", "Selskapsavtale", "Mva-melding"],
+        "correct": 1,
+        "explain": "Programmet sammenligner bankens tall med regnskapet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tiltak er et eksempel på sirkulær økonomi?",
+        "options": [
+          "Å lage produkter som går fort i stykker",
+          "Å kaste returvarer",
+          "Å tilby reparasjon og salg av brukte varer",
+          "Å øke emballasjen rundt hver vare"
+        ],
+        "correct": 2,
+        "explain": "Reparasjon og gjenbruk holder ressursene i bruk lenger."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en innovasjon?",
+        "options": [
+          "En idé som aldri blir tatt i bruk",
+          "En ny løsning som tas i bruk og skaper verdi",
+          "En kopi av en konkurrents produkt",
+          "Et krav fra revisor"
+        ],
+        "correct": 1,
+        "explain": "Innovasjon krever at løsningen faktisk brukes og skaper verdi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Gi to eksempler på hvordan ny teknologi har automatisert regnskapsarbeidet.",
+        "fasit": "Elektroniske fakturaer (EHF) leses rett inn i regnskapet, og banktransaksjoner hentes og avstemmes automatisk. Kunstig intelligens kan også foreslå hvilken konto et bilag skal føres på.",
+        "kriterier": ["Gir to relevante eksempler på automatisering.", "Forklarer kort hva hver løsning gjør."]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er en forretningsmodell? Forklar med et eksempel.",
+        "fasit": "En forretningsmodell beskriver hvordan virksomheten skaper verdi for kundene, leverer den og tjener penger. En strømmetjeneste skaper verdi med film og musikk, leverer den over internett og tjener penger på månedlige abonnement.",
+        "kriterier": ["Forklarer at forretningsmodellen handler om verdiskaping, levering og inntjening.", "Gir et eksempel som viser alle delene."]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hva sirkulær økonomi er, og hvordan en butikk kan bruke det i forretningsmodellen sin.",
+        "fasit": "I en sirkulær økonomi blir produkter reparert, gjenbrukt og resirkulert i stedet for kastet. En butikk kan for eksempel tilby reparasjon, ta imot brukte varer og selge dem videre, eller leie ut produkter.",
+        "kriterier": ["Forklarer sirkulær økonomi riktig.", "Gir et konkret og realistisk eksempel for en butikk."]
+      },
+      {
+        "id": "s04",
+        "text": "Hvilke tre dimensjoner har bærekraft, og hvorfor må en bærekraftig virksomhet også gå med overskudd?",
+        "fasit": "Bærekraft har en økonomisk, en sosial og en miljømessig dimensjon. Virksomheten må gå med overskudd fordi den ellers ikke kan overleve over tid, og da kan den heller ikke ta vare på ansatte og miljø.",
+        "kriterier": ["Nevner de tre dimensjonene.", "Begrunner hvorfor økonomisk bærekraft er nødvendig."]
+      },
+      {
+        "id": "s05",
+        "text": "Hva er grønnvasking, og hvorfor kan det skade en virksomhet?",
+        "fasit": "Grønnvasking er å framstille seg som mer miljøvennlig enn man er. Det kan gi tap av tillit og omdømme hvis kundene oppdager det, og villedende miljøpåstander er i strid med markedsføringsloven.",
+        "kriterier": ["Forklarer hva grønnvasking er.", "Forklarer minst én konsekvens, som tapt tillit eller lovbrudd."]
+      },
+      {
+        "id": "s06",
+        "text": "Hvordan kan automatisering endre arbeidet til en regnskapsfører, og hvilken kompetanse blir viktigere?",
+        "fasit": "Regnskapsføreren bruker mindre tid på å taste inn og kontrollere tall, fordi mye skjer automatisk. Kompetanse i rådgivning, analyse og bruk av digitale verktøy blir viktigere.",
+        "kriterier": ["Forklarer at rutinearbeid automatiseres.", "Nevner relevant kompetanse som blir viktigere."]
+      }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

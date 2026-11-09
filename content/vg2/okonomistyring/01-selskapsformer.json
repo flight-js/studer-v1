@@ -1,0 +1,216 @@
+{
+  "id": "selskapsformer",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Selskapsformer, ansvar og risiko",
+  "intro": "De vanligste selskapsformene i Norge – enkeltpersonforetak, ansvarlig selskap, aksjeselskap og samvirke – og hvordan ansvar, risiko, kapitalkrav og skatt avgjør hvilken form som passer.",
+  "kompetansemaal": [3, 1],
+  "sammendrag": "## Hvorfor selskapsform betyr noe\n\nNår noen starter en virksomhet, må de velge **selskapsform**. Valget avgjør hvem som har **ansvar** for gjelden, hvor stor **risiko** eierne tar, hvilke krav som gjelder for **kapital** og regnskap, og hvordan overskuddet **beskattes**. Alle virksomheter registreres i **Enhetsregisteret** og får et **organisasjonsnummer**.\n\n## Enkeltpersonforetak (ENK)\n\nEt **enkeltpersonforetak** eies av én person. Det finnes ikke noe krav til startkapital, og det er enkelt og billig å starte. Til gjengjeld har eieren **ubegrenset personlig ansvar**: Går virksomheten med tap, kan kreditorene kreve å få dekket gjelden av eierens private formue. Overskuddet skattlegges hos eieren som **personinntekt**.\n\n## Ansvarlig selskap (ANS og DA)\n\nI et **ansvarlig selskap** er det to eller flere eiere, kalt **deltakere**, som bør lage en skriftlig **selskapsavtale**.\n\n- **ANS**: Deltakerne har **solidarisk** og ubegrenset ansvar. En kreditor kan kreve hele gjelden av én deltaker, som så må kreve de andre for deres del.\n- **DA**: Deltakerne har **delt** ansvar. Hver deltaker svarer bare for sin **andel** av gjelden, men ubegrenset for den andelen.\n\n## Aksjeselskap (AS og ASA)\n\nEt **aksjeselskap** er et eget rettssubjekt. Eierne, **aksjonærene**, risikerer bare det de har skutt inn: De har **begrenset ansvar**.\n\n- **AS** må ha en **aksjekapital** på minst **30 000 kr**.\n- **ASA** (allmennaksjeselskap) må ha minst **1 million kr** i aksjekapital og kan få aksjene **notert på børs**.\n\nAksjeselskapet betaler selv skatt av overskuddet, og aksjonærene skattlegges når de tar ut **utbytte**. Et AS har strengere krav til styre, regnskap og **innsending av årsregnskap** enn et ENK.\n\n## Samvirkeforetak (SA)\n\nEt **samvirkeforetak** eies av **medlemmene**, som også er kunder eller leverandører, slik som i Coop eller Tine. Målet er å ivareta medlemmenes interesser, og overskudd kan deles ut etter hvor mye hvert medlem har handlet.\n\n## Å velge selskapsform\n\n- Lav risiko og lite kapital: **ENK** er enkelt.\n- Flere eiere som vil samarbeide tett: **ANS** eller **DA**.\n- Stor risiko eller behov for å hente kapital fra mange: **AS** eller **ASA**.\n\nJo større **risiko** og jo mer **kapital** som trengs, desto viktigere blir det å begrense eiernes personlige ansvar.",
+  "flashcards": [
+    { "term": "Selskapsform", "def": "Den juridiske formen en virksomhet er organisert i, som avgjør ansvar, risiko, regler og skatt." },
+    { "term": "Enhetsregisteret", "def": "Offentlig register der alle virksomheter registreres og får organisasjonsnummer." },
+    { "term": "Enkeltpersonforetak (ENK)", "def": "Virksomhet som eies av én person med ubegrenset personlig ansvar for gjelden." },
+    { "term": "Ubegrenset ansvar", "def": "Eieren kan måtte dekke virksomhetens gjeld med hele sin private formue." },
+    { "term": "Begrenset ansvar", "def": "Eieren risikerer bare kapitalen som er skutt inn i selskapet." },
+    { "term": "Ansvarlig selskap (ANS)", "def": "Selskap med to eller flere deltakere som har solidarisk og ubegrenset ansvar." },
+    { "term": "Solidarisk ansvar", "def": "En kreditor kan kreve hele gjelden av hvilken som helst av deltakerne." },
+    { "term": "Selskap med delt ansvar (DA)", "def": "Hver deltaker svarer bare for sin andel av gjelden, men ubegrenset for den andelen." },
+    { "term": "Selskapsavtale", "def": "Skriftlig avtale mellom deltakerne i et ansvarlig selskap om eierandeler, ansvar og drift." },
+    { "term": "Aksjeselskap (AS)", "def": "Selskap som er et eget rettssubjekt, der aksjonærene har begrenset ansvar." },
+    { "term": "Aksjekapital", "def": "Kapitalen aksjonærene skyter inn i et aksjeselskap – minst 30 000 kr i et AS." },
+    { "term": "Allmennaksjeselskap (ASA)", "def": "Aksjeselskap med minst 1 million kr i aksjekapital som kan noteres på børs." },
+    { "term": "Utbytte", "def": "Del av overskuddet i et aksjeselskap som deles ut til aksjonærene." },
+    { "term": "Samvirkeforetak (SA)", "def": "Foretak som eies av medlemmene og drives for å ivareta medlemmenes interesser." },
+    { "term": "Rettssubjekt", "def": "Noen som kan ha rettigheter og plikter, for eksempel inngå avtaler og ha gjeld, i eget navn." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilken selskapsform passer best for én person som vil starte enkelt og uten krav til startkapital?",
+      "options": ["Allmennaksjeselskap", "Aksjeselskap", "Enkeltpersonforetak", "Samvirkeforetak"],
+      "correct": 2,
+      "explain": "Et ENK har én eier og ikke noe krav til startkapital, men eieren har ubegrenset ansvar."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr solidarisk ansvar i et ANS?",
+      "options": [
+        "Hver deltaker svarer bare for sin egen andel av gjelden",
+        "En kreditor kan kreve hele gjelden av én av deltakerne",
+        "Deltakerne risikerer bare det de har skutt inn",
+        "Staten dekker gjelden hvis selskapet går konkurs"
+      ],
+      "correct": 1,
+      "explain": "Solidarisk ansvar betyr at hver deltaker kan måtte betale hele gjelden og så kreve de andre for deres del."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er minstekravet til aksjekapital i et AS?",
+      "options": ["30 000 kr", "100 000 kr", "1 million kr", "Det finnes ikke noe krav"],
+      "correct": 0,
+      "explain": "Et AS må ha minst 30 000 kr i aksjekapital, mens et ASA må ha minst 1 million kr."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken selskapsform kan få aksjene sine notert på børs?",
+      "options": ["DA", "ANS", "AS", "ASA"],
+      "correct": 3,
+      "explain": "Bare allmennaksjeselskaper (ASA) kan noteres på børs."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor velger mange aksjeselskap når virksomheten har stor risiko?",
+      "options": [
+        "Fordi aksjeselskaper aldri betaler skatt",
+        "Fordi eierne har begrenset ansvar og bare risikerer innskutt kapital",
+        "Fordi aksjeselskaper ikke trenger å føre regnskap",
+        "Fordi aksjeselskaper ikke kan gå konkurs"
+      ],
+      "correct": 1,
+      "explain": "Med begrenset ansvar er eiernes private formue beskyttet hvis selskapet går med tap."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan skattlegges overskuddet i et enkeltpersonforetak?",
+      "options": [
+        "Foretaket betaler selskapsskatt, og eieren betaler skatt på utbytte",
+        "Overskuddet er skattefritt opp til 1 million kr",
+        "Overskuddet skattlegges hos eieren som personinntekt",
+        "Bare kundene betaler skatt, gjennom merverdiavgiften"
+      ],
+      "correct": 2,
+      "explain": "Et ENK er ikke et eget skattesubjekt, så overskuddet beskattes hos eieren."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kjennetegner et samvirkeforetak?",
+      "options": [
+        "Det eies av medlemmene, som også er kunder eller leverandører",
+        "Det eies av staten og drives uten overskudd",
+        "Det har én eier med ubegrenset ansvar",
+        "Det må ha minst 1 million kr i aksjekapital"
+      ],
+      "correct": 0,
+      "explain": "Samvirkeforetak, som Coop og Tine, eies av medlemmene og drives for å ivareta deres interesser."
+    },
+    {
+      "id": "q08",
+      "text": "Tre venner skal starte bedrift sammen. Hver vil bare svare for sin tredjedel av gjelden. Hvilken form passer?",
+      "options": ["ENK", "DA", "ANS", "SA"],
+      "correct": 1,
+      "explain": "I et DA har deltakerne delt ansvar: Hver svarer for sin andel av gjelden."
+    },
+    {
+      "id": "q09",
+      "text": "Hva får en virksomhet når den registreres i Enhetsregisteret?",
+      "options": ["Et organisasjonsnummer", "Et lån fra staten", "Fritak for merverdiavgift", "Rett til å selge aksjer på børs"],
+      "correct": 0,
+      "explain": "Organisasjonsnummeret identifiserer virksomheten overfor myndigheter, kunder og leverandører."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket utsagn om aksjeselskap er riktig?",
+      "options": [
+        "Aksjonærene har ubegrenset ansvar for gjelden",
+        "Selskapet har færre krav til regnskap enn et ENK",
+        "Selskapet kan ikke ha mer enn én eier",
+        "Selskapet er et eget rettssubjekt som kan ha gjeld i eget navn"
+      ],
+      "correct": 3,
+      "explain": "Et AS er et eget rettssubjekt, og derfor er det selskapet – ikke aksjonærene – som har gjelden."
+    }
+  ],
+  "mindmap": {
+    "label": "Selskapsformer",
+    "children": [
+      { "label": "Enkeltpersonforetak", "children": [{ "label": "Én eier" }, { "label": "Ubegrenset ansvar" }, { "label": "Skatt hos eier" }] },
+      { "label": "Ansvarlig selskap", "children": [{ "label": "ANS: solidarisk ansvar" }, { "label": "DA: delt ansvar" }, { "label": "Selskapsavtale" }] },
+      { "label": "Aksjeselskap", "children": [{ "label": "Begrenset ansvar" }, { "label": "AS: minst 30 000 kr" }, { "label": "ASA: minst 1 mill. kr" }] },
+      { "label": "Samvirke", "children": [{ "label": "Eid av medlemmene" }, { "label": "Overskudd etter handel" }] },
+      { "label": "Valg av form", "children": [{ "label": "Risiko" }, { "label": "Kapitalbehov" }, { "label": "Antall eiere" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I et enkeltpersonforetak kan kreditorene kreve eierens private formue for å få dekket gjelden.", "correct": true, "explain": "Eieren av et ENK har ubegrenset personlig ansvar." },
+      { "id": "m02", "type": "sant-usant", "text": "Et AS må ha minst 1 million kr i aksjekapital.", "correct": false, "explain": "Kravet er 30 000 kr for AS; 1 million kr gjelder for ASA." },
+      { "id": "m03", "type": "sant-usant", "text": "I et DA svarer hver deltaker for sin andel av gjelden.", "correct": true, "explain": "Det er det som skiller DA fra ANS, der ansvaret er solidarisk." },
+      { "id": "m04", "type": "sant-usant", "text": "Et aksjeselskap betaler ikke skatt av overskuddet sitt.", "correct": false, "explain": "Aksjeselskapet betaler selv skatt av overskuddet, og aksjonærene skattlegges for utbytte." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem eier et aksjeselskap?",
+        "options": ["Styret", "Aksjonærene", "De ansatte", "Revisoren"],
+        "correct": 1,
+        "explain": "Aksjonærene eier aksjene og dermed selskapet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skal en selskapsavtale i et ansvarlig selskap avklare?",
+        "options": [
+          "Hvor mye merverdiavgift selskapet skal betale",
+          "Hvilken revisor staten har valgt",
+          "Eierandeler, ansvar og hvordan selskapet skal drives",
+          "Hvor stor aksjekapitalen skal være"
+        ],
+        "correct": 2,
+        "explain": "Avtalen regulerer forholdet mellom deltakerne."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket forhold taler mest for å velge ENK framfor AS?",
+        "options": [
+          "Virksomheten har stor risiko og mye gjeld",
+          "Mange investorer skal skyte inn kapital",
+          "Aksjene skal noteres på børs",
+          "Virksomheten er liten, med lav risiko og lite kapital"
+        ],
+        "correct": 3,
+        "explain": "ENK er enkelt og billig når risikoen og kapitalbehovet er lite."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på ubegrenset og begrenset ansvar, og gi ett eksempel på en selskapsform med hver av dem.",
+        "fasit": "Ved ubegrenset ansvar kan eieren måtte dekke gjelden med privat formue, som i et enkeltpersonforetak eller ANS. Ved begrenset ansvar risikerer eieren bare innskutt kapital, som i et aksjeselskap.",
+        "kriterier": ["Forklarer at ubegrenset ansvar omfatter eierens private formue og begrenset ansvar bare innskutt kapital.", "Gir riktige eksempler på selskapsformer for begge typene ansvar."]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er forskjellen på et ANS og et DA når det gjelder ansvaret for gjelden?",
+        "fasit": "I et ANS har deltakerne solidarisk ansvar, så en kreditor kan kreve hele gjelden av én deltaker. I et DA svarer hver deltaker bare for sin andel av gjelden.",
+        "kriterier": ["Forklarer solidarisk ansvar i ANS.", "Forklarer delt ansvar etter andel i DA."]
+      },
+      {
+        "id": "s03",
+        "text": "Ida vil starte en nettbutikk alene og har lite penger. Hvilken selskapsform vil du anbefale, og hvilken ulempe må hun være klar over?",
+        "fasit": "Et enkeltpersonforetak passer fordi det er enkelt og ikke har krav til startkapital. Ulempen er at Ida får ubegrenset personlig ansvar for gjelden.",
+        "kriterier": ["Anbefaler ENK med en relevant begrunnelse.", "Nevner ubegrenset personlig ansvar som ulempe."]
+      },
+      {
+        "id": "s04",
+        "text": "Hvordan skattlegges overskuddet i et aksjeselskap sammenlignet med et enkeltpersonforetak?",
+        "fasit": "Aksjeselskapet betaler selv skatt av overskuddet, og aksjonærene skattlegges når de tar ut utbytte. I et enkeltpersonforetak skattlegges overskuddet hos eieren som personinntekt.",
+        "kriterier": ["Forklarer at aksjeselskapet er eget skattesubjekt og at utbytte skattlegges hos aksjonærene.", "Forklarer at overskuddet i et ENK skattlegges hos eieren."]
+      },
+      {
+        "id": "s05",
+        "text": "Hva er forskjellen på et AS og et ASA? Nevn to forskjeller.",
+        "fasit": "Et ASA må ha minst 1 million kr i aksjekapital, mens et AS må ha minst 30 000 kr. Et ASA kan noteres på børs, noe et AS ikke kan.",
+        "kriterier": ["Nevner forskjellen i krav til aksjekapital.", "Nevner at ASA kan noteres på børs."]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hva et samvirkeforetak er, og gi ett eksempel.",
+        "fasit": "Et samvirkeforetak eies av medlemmene, som også er kunder eller leverandører, og drives for å ivareta medlemmenes interesser. Coop og Tine er eksempler.",
+        "kriterier": ["Forklarer at foretaket eies av medlemmene som også handler med det.", "Gir et riktig eksempel."]
+      }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

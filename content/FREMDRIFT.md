@@ -131,6 +131,7 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | psykologi-1 / psykologi-2 | PSY01-04 | KV883 / KV884 |
 | markedsforing-og-ledelse-1 / -2 | MFL01-04 | KV887 / KV888 |
 | samfunnsokonomi-1 | SOK01-04 | KV1000 |
+| okonomistyring (utkast) | NOK02-04 | KV1002 – læreplanen heter «næringslivsøkonomi», settet «økonomistyring» |
 | kinesisk-vg1 / -vg2 | FSP01-04 | KV965 (nivå I) – valgt fordi de fleste begynner på kinesisk i vgs; bytt til KV966 hvis skolen har kinesisk på ungdomstrinnet |
 | entreprenorskap-og-bedriftsutvikling-1 | ENT01-04 | KV885 |
 | sosialkunnskap | POS02-02 | KV892 |
@@ -162,6 +163,28 @@ Temaer med formler har feltet `formler` (venstre, høyre og navn), som brukes i 
 - Repetisjonstemaet får formlene fra alle temaene i faget ved importen, med hvilket tema hver formel kommer fra.
 - Temasiden viser formelmatch når minst tre formler har ulik venstreside (`antall_formler`). Det gjelder 85 temaer.
 - Nytt fag med formler: kjør `content:formler`, se gjennom lista, og kjør så `content:import`.
+
+## Økonomistyring (november 2026, utkast)
+
+Programfaget **økonomistyring** (Vg2) manglet. I LK20 ligger det under *Læreplan i næringslivsøkonomi* (NOK02-04, gjeldende versjon), kompetansemålsett KV1002 (12 mål). Det andre settet i samme plan, KV1003 «økonomi og ledelse», er ikke laget.
+
+Ferdig på branchen `utkast-november` (ikke lastet inn i Supabase):
+
+- `katalog.json` og `vg2/okonomistyring/_fag.json` med korte etiketter på målene
+- 12 temaer etter malen (sammendrag, 15 flashcards, 10 quiz, tankekart, miniprøve med 15 spørsmål og 6 skriveoppgaver skrevet for hånd), validert med 0 feil og balansert med `balanser.mjs`
+- tre temaer har status «sjekkes» med merknad: revisjonsgrenser (02), mva-satser og registreringsgrense (04) og ulike definisjoner av nøkkeltall i lærebøkene (07)
+
+Gjenstår før publisering:
+
+```bash
+npm run content:repetisjon -- okonomistyring     # «Repetisjon av hele faget» (bruker AI_API_KEY)
+npm run content:niva -- okonomistyring           # kjerne/ekstra (bruker AI_API_KEY)
+node scripts/check-content.mjs vg2/okonomistyring
+node scripts/import-supabase.mjs --publiser-utkast okonomistyring
+npm run content:forside                          # nye tall på forsiden – først etter importen
+```
+
+Formler er ikke laget: nøkkeltallene i faget skrives med ord, og Formelmatch tar bare symbolformler.
 
 ## Gjenstår
 

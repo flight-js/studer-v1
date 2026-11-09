@@ -1,0 +1,211 @@
+{
+  "id": "budsjettering",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Resultatbudsjett og likviditetsbudsjett",
+  "intro": "Hvorfor virksomheter budsjetterer, hvordan et resultatbudsjett og et enkelt likviditetsbudsjett settes opp, og hvorfor de to budsjettene gir ulike svar.",
+  "kompetansemaal": [9, 1],
+  "sammendrag": "## Hva er et budsjett?\n\nEt **budsjett** er en **plan uttrykt i tall** for en framtidig periode. Budsjettering har flere **formål**:\n\n- **Planlegging**: tenke gjennom hva som skal skje og hva det koster.\n- **Koordinering**: få salg, innkjøp og bemanning til å henge sammen.\n- **Motivasjon**: gi de ansatte konkrete mål.\n- **Kontroll**: sammenligne med regnskapet etterpå og se hva som avviker.\n\nArbeidet starter som regel med **salgsbudsjettet**, fordi salget avgjør hvor mye som må kjøpes inn, og hvor mange som må jobbe.\n\n## Resultatbudsjettet\n\n**Resultatbudsjettet** viser forventede **inntekter** og **kostnader** og dermed forventet **resultat**. Det følger de samme prinsippene som resultatregnskapet: Beløpene føres **uten mva** og i den perioden de **hører til**, uansett når de betales. **Avskrivninger** er med som kostnad.\n\n## Likviditetsbudsjettet\n\n**Likviditetsbudsjettet** viser forventede **innbetalinger** og **utbetalinger**, og hvor mye penger virksomheten vil ha på konto:\n\n**Inngående likviditet + innbetalinger − utbetalinger = utgående likviditet**\n\nHer føres beløpene **når pengene faktisk kommer inn eller går ut**, og **med mva**. Viser budsjettet negativ likviditet, må virksomheten ordne **kassakreditt**, lån eller utsette utbetalinger i tide.\n\n## Hvorfor budsjettene blir forskjellige\n\n- **Kreditt**: Et salg i januar med 30 dagers kreditt er inntekt i januar i resultatbudsjettet, men innbetaling i februar i likviditetsbudsjettet.\n- **Mva**: Mva er med i likviditetsbudsjettet, både når kundene betaler og når oppgjøret betales til staten, men ikke i resultatbudsjettet.\n- **Avskrivninger** er en kostnad, men ingen utbetaling, så de står bare i resultatbudsjettet.\n- **Lån, avdrag og investeringer** er inn- og utbetalinger, men ikke inntekter og kostnader, så de står bare i likviditetsbudsjettet.\n- **Renter** er både en kostnad og en utbetaling.\n\n## Eksempel\n\nEn butikk regner med salg på 100 000 kr uten mva i januar, og kundene betaler i februar. Resultatbudsjettet viser **100 000 kr** i salgsinntekt i januar. Likviditetsbudsjettet viser **0 kr** i innbetaling i januar og **125 000 kr** i februar.\n\nEn virksomhet kan altså budsjettere med **overskudd** og likevel gå **tom for penger** – derfor trengs begge budsjettene.",
+  "flashcards": [
+    { "term": "Budsjett", "def": "Plan uttrykt i tall for en framtidig periode." },
+    { "term": "Planlegging", "def": "Budsjettformål: tenke gjennom hva som skal skje og hva det koster." },
+    { "term": "Koordinering", "def": "Budsjettformål: få salg, innkjøp og bemanning til å henge sammen." },
+    { "term": "Budsjettkontroll", "def": "Å sammenligne budsjettet med regnskapet og forklare avvik." },
+    { "term": "Salgsbudsjett", "def": "Budsjett for forventet salg; utgangspunktet for de andre budsjettene." },
+    { "term": "Resultatbudsjett", "def": "Budsjett for forventede inntekter, kostnader og resultat, uten mva." },
+    { "term": "Likviditetsbudsjett", "def": "Budsjett for forventede innbetalinger og utbetalinger og pengebeholdning, med mva." },
+    { "term": "Innbetaling", "def": "Penger som kommer inn på konto, for eksempel når kunder betaler." },
+    { "term": "Utbetaling", "def": "Penger som går ut av konto, for eksempel lønn, varekjøp og avdrag." },
+    { "term": "Inngående likviditet", "def": "Pengebeholdningen ved starten av perioden." },
+    { "term": "Utgående likviditet", "def": "Inngående likviditet + innbetalinger − utbetalinger." },
+    { "term": "Kassakreditt", "def": "Avtale med banken om å kunne trekke kontoen i minus opp til en grense." },
+    { "term": "Kredittid", "def": "Tiden kunden har på å betale etter kjøpet, for eksempel 30 dager." },
+    { "term": "Avskrivninger i budsjett", "def": "Med i resultatbudsjettet som kostnad, men ikke i likviditetsbudsjettet." },
+    { "term": "Lån i budsjett", "def": "Låneopptak og avdrag står i likviditetsbudsjettet, men ikke i resultatbudsjettet." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er et budsjett?",
+      "options": [
+        "Et regnskap for fjoråret",
+        "En plan uttrykt i tall for en framtidig periode",
+        "En liste over alle bilag",
+        "En kontrakt med banken"
+      ],
+      "correct": 1,
+      "explain": "Budsjettet ser framover, regnskapet ser bakover."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket budsjett lages vanligvis først?",
+      "options": ["Likviditetsbudsjettet", "Investeringsbudsjettet", "Salgsbudsjettet", "Lønnsbudsjettet"],
+      "correct": 2,
+      "explain": "Salget avgjør innkjøp, bemanning og mye av resten."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken post står i resultatbudsjettet, men ikke i likviditetsbudsjettet?",
+      "options": ["Avdrag på lån", "Avskrivninger", "Innbetaling fra kunder", "Mva-oppgjør"],
+      "correct": 1,
+      "explain": "Avskrivninger er en kostnad, men ingen utbetaling."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken post står i likviditetsbudsjettet, men ikke i resultatbudsjettet?",
+      "options": ["Avdrag på lån", "Lønnskostnader", "Varekostnad", "Rentekostnader"],
+      "correct": 0,
+      "explain": "Avdrag er en utbetaling, men ikke en kostnad."
+    },
+    {
+      "id": "q05",
+      "text": "Inngående likviditet er 50 000 kr, innbetalingene 200 000 kr og utbetalingene 230 000 kr. Hva er utgående likviditet?",
+      "options": ["480 000 kr", "−30 000 kr", "20 000 kr", "80 000 kr"],
+      "correct": 2,
+      "explain": "50 000 + 200 000 − 230 000 = 20 000 kr."
+    },
+    {
+      "id": "q06",
+      "text": "En butikk selger for 100 000 kr uten mva i januar, og kundene betaler i februar. Hva står i likviditetsbudsjettet for februar?",
+      "options": ["100 000 kr", "0 kr", "80 000 kr", "125 000 kr"],
+      "correct": 3,
+      "explain": "Kundene betaler i februar, og beløpet er med 25 % mva: 125 000 kr."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor føres resultatbudsjettet uten mva?",
+      "options": [
+        "Fordi mva ikke er virksomhetens egen inntekt eller kostnad",
+        "Fordi mva alltid er null",
+        "Fordi mva bare gjelder aksjeselskaper",
+        "Fordi mva betales av banken"
+      ],
+      "correct": 0,
+      "explain": "Mva påvirker likviditeten, men ikke resultatet."
+    },
+    {
+      "id": "q08",
+      "text": "Likviditetsbudsjettet viser negativ likviditet i mars. Hva bør virksomheten gjøre?",
+      "options": [
+        "Ingenting, det ordner seg",
+        "Øke avskrivningene",
+        "Ordne kassakreditt eller lån, eller utsette utbetalinger, i god tid",
+        "Endre resultatbudsjettet"
+      ],
+      "correct": 2,
+      "explain": "Budsjettet gir tid til å finne finansiering før pengene tar slutt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken post står i begge budsjettene?",
+      "options": ["Avskrivninger", "Rentekostnader", "Låneopptak", "Kjøp av maskin"],
+      "correct": 1,
+      "explain": "Renter er både en kostnad og en utbetaling."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket formål med budsjettering handler om å sammenligne med regnskapet i etterkant?",
+      "options": ["Motivasjon", "Koordinering", "Planlegging", "Kontroll"],
+      "correct": 3,
+      "explain": "Budsjettkontroll viser hva som gikk annerledes enn planlagt."
+    }
+  ],
+  "mindmap": {
+    "label": "Budsjettering",
+    "children": [
+      { "label": "Formål", "children": [{ "label": "Planlegging" }, { "label": "Koordinering" }, { "label": "Motivasjon og kontroll" }] },
+      { "label": "Resultatbudsjett", "children": [{ "label": "Inntekter og kostnader" }, { "label": "Uten mva" }, { "label": "Avskrivninger med" }] },
+      { "label": "Likviditetsbudsjett", "children": [{ "label": "Inn- og utbetalinger" }, { "label": "Med mva" }, { "label": "Lån og avdrag med" }] },
+      { "label": "Forskjeller", "children": [{ "label": "Kredittid" }, { "label": "Avskrivninger" }, { "label": "Renter i begge" }] },
+      { "label": "Tiltak", "children": [{ "label": "Kassakreditt" }, { "label": "Utsette utbetalinger" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et budsjett med overskudd betyr at virksomheten aldri kan gå tom for penger.", "correct": false, "explain": "Resultat og likviditet er ikke det samme; kreditt, avdrag og investeringer påvirker pengebeholdningen." },
+      { "id": "m02", "type": "sant-usant", "text": "I likviditetsbudsjettet føres beløpene når pengene faktisk kommer inn eller går ut.", "correct": true, "explain": "Det er tidspunktet for betaling som teller." },
+      { "id": "m03", "type": "sant-usant", "text": "Kjøp av en maskin er en kostnad i resultatbudsjettet samme måned.", "correct": false, "explain": "Kjøpet er en utbetaling; det er avskrivningene som blir kostnader." },
+      { "id": "m04", "type": "sant-usant", "text": "Et budsjett kan motivere de ansatte ved å gi dem konkrete mål.", "correct": true, "explain": "Motivasjon er ett av formålene med budsjettering." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er kassakreditt?",
+        "options": [
+          "En avtale om å kunne trekke kontoen i minus opp til en grense",
+          "Et lån som skal betales tilbake over 20 år",
+          "En rabatt kunden får for å betale kontant",
+          "En avgift til staten"
+        ],
+        "correct": 0,
+        "explain": "Kassakreditt brukes for å dekke kortvarige likviditetsbehov."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Virksomheten tar opp et lån på 200 000 kr i april. Hvor står det?",
+        "options": [
+          "Som inntekt i resultatbudsjettet",
+          "Som innbetaling i likviditetsbudsjettet",
+          "Som kostnad i resultatbudsjettet",
+          "Ingen av budsjettene"
+        ],
+        "correct": 1,
+        "explain": "Lånet gir penger inn, men er ikke en inntekt."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor trenger en virksomhet både resultatbudsjett og likviditetsbudsjett?",
+        "options": [
+          "Fordi loven krever to like budsjetter",
+          "Fordi det ene viser om virksomheten tjener penger, og det andre om den har penger til å betale",
+          "Fordi likviditetsbudsjettet erstatter regnskapet",
+          "Fordi resultatbudsjettet bare gjelder aksjeselskaper"
+        ],
+        "correct": 1,
+        "explain": "Lønnsomhet og betalingsevne må planlegges hver for seg."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Nevn tre formål med budsjettering, og forklar ett av dem.",
+        "fasit": "Planlegging, koordinering, motivasjon og kontroll er formål med budsjettering. Koordinering betyr for eksempel at salg, innkjøp og bemanning blir planlagt slik at de henger sammen.",
+        "kriterier": ["Nevner tre relevante formål.", "Forklarer ett av dem riktig."]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på et resultatbudsjett og et likviditetsbudsjett.",
+        "fasit": "Resultatbudsjettet viser forventede inntekter og kostnader og dermed resultatet, uten mva og i perioden de hører til. Likviditetsbudsjettet viser forventede innbetalinger og utbetalinger og pengebeholdningen, med mva og når pengene faktisk betales.",
+        "kriterier": ["Forklarer at resultatbudsjettet viser inntekter, kostnader og resultat.", "Forklarer at likviditetsbudsjettet viser inn- og utbetalinger og pengebeholdning."]
+      },
+      {
+        "id": "s03",
+        "text": "Inngående likviditet i mai er 30 000 kr. Innbetalingene er 180 000 kr og utbetalingene 240 000 kr. Regn ut utgående likviditet, og forklar hva virksomheten bør gjøre.",
+        "fasit": "Utgående likviditet er 30 000 + 180 000 − 240 000 = −30 000 kr. Virksomheten bør i god tid ordne kassakreditt eller lån, eller utsette utbetalinger.",
+        "kriterier": ["Regner ut −30 000 kr.", "Foreslår et relevant tiltak, som kassakreditt, lån eller å utsette utbetalinger."]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvorfor avskrivninger står i resultatbudsjettet, men ikke i likviditetsbudsjettet.",
+        "fasit": "Avskrivninger er en kostnad som fordeler verdifallet på driftsmidler over levetiden, men det betales ikke ut penger når man avskriver. Derfor påvirker de resultatet, men ikke likviditeten.",
+        "kriterier": ["Forklarer at avskrivninger er en kostnad.", "Forklarer at de ikke innebærer en utbetaling."]
+      },
+      {
+        "id": "s05",
+        "text": "En butikk regner med salg på 80 000 kr uten mva i mars, og kundene betaler i april. Hva står i resultatbudsjettet og i likviditetsbudsjettet for mars og april?",
+        "fasit": "Resultatbudsjettet viser 80 000 kr i salgsinntekt i mars. Likviditetsbudsjettet viser 0 kr i innbetaling i mars og 100 000 kr i april, fordi beløpet er med 25 % mva.",
+        "kriterier": ["Plasserer inntekten på 80 000 kr i mars i resultatbudsjettet.", "Plasserer innbetalingen på 100 000 kr i april i likviditetsbudsjettet."]
+      },
+      {
+        "id": "s06",
+        "text": "Hvorfor starter budsjettarbeidet ofte med salgsbudsjettet?",
+        "fasit": "Salget bestemmer hvor mye som må kjøpes inn, hvor mange som må jobbe, og hvilke inntekter virksomheten får. De andre budsjettene bygger derfor på salgsbudsjettet.",
+        "kriterier": ["Forklarer at salget styrer innkjøp, bemanning og inntekter.", "Forklarer at de andre budsjettene bygger på salgsbudsjettet."]
+      }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

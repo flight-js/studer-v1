@@ -1,0 +1,218 @@
+{
+  "id": "regnskapsanalyse",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Regnskapsanalyse og nøkkeltall",
+  "intro": "Hvordan regnskapet analyseres med nøkkeltall for lønnsomhet, likviditet og finansiering, og hvorfor tallene må sammenlignes med tidligere år og med bransjen.",
+  "kompetansemaal": [7, 1],
+  "sammendrag": "## Hvorfor analysere regnskapet?\n\nTallene i regnskapet sier lite alene. I en **regnskapsanalyse** regner man ut **nøkkeltall** som viser hvordan det går med virksomheten. Nøkkeltallene deles i tre grupper: **lønnsomhet**, **likviditet** og **finansiering** (soliditet).\n\n## Lønnsomhet\n\nLønnsomhet handler om hvor godt virksomheten tjener penger i forhold til kapitalen og salget.\n\n- **Totalkapitalrentabilitet** = (ordinært resultat før skatt + rentekostnader) / gjennomsnittlig totalkapital · 100. Den viser avkastningen på **all** kapital, og bør være høyere enn renten på lån.\n- **Egenkapitalrentabilitet** = ordinært resultat før skatt / gjennomsnittlig egenkapital · 100. Den viser avkastningen til **eierne**.\n- **Resultatgrad** = (ordinært resultat før skatt + rentekostnader) / driftsinntekter · 100. Den viser hvor mye som blir igjen av hver salgskrone.\n\n## Likviditet\n\nLikviditet handler om evnen til å betale **regningene i tide**.\n\n- **Likviditetsgrad 1** = omløpsmidler / kortsiktig gjeld. En tommelfingerregel er at den bør være over **2**.\n- **Likviditetsgrad 2** = (omløpsmidler − varelager) / kortsiktig gjeld. Den bør være over **1**, fordi varer kan ta tid å gjøre om til penger.\n- **Arbeidskapital** = omløpsmidler − kortsiktig gjeld.\n\n## Finansiering og soliditet\n\nSoliditet handler om evnen til å **tåle tap**.\n\n- **Egenkapitalandel** = egenkapital / totalkapital · 100. Jo høyere, desto mer solid.\n- **Gjeldsgrad** = gjeld / egenkapital. Jo lavere, desto mindre avhengig er virksomheten av långivere.\n\n## Et eksempel\n\nEn butikk har omløpsmidler på 600 000 kr, hvorav varelager 350 000 kr, og kortsiktig gjeld på 400 000 kr. Likviditetsgrad 1 er 600 000 / 400 000 = **1,5**, og likviditetsgrad 2 er 250 000 / 400 000 = **0,63**. Begge er under tommelfingerreglene, så butikken kan få problemer med å betale regningene.\n\n## Sammenligne\n\nEtt nøkkeltall gir aldri hele bildet. Tallene må sammenlignes med **tidligere år**, for å se **utviklingen**, og med andre virksomheter i **samme bransje**, fordi normalt nivå varierer mye. En dagligvarebutikk har for eksempel lav resultatgrad, men stort salg. Tommelfingerreglene er bare **veiledende**.",
+  "flashcards": [
+    { "term": "Regnskapsanalyse", "def": "Vurdering av virksomhetens økonomi ved hjelp av nøkkeltall fra regnskapet." },
+    { "term": "Nøkkeltall", "def": "Forholdstall regnet ut fra regnskapet, for eksempel rentabilitet eller likviditetsgrad." },
+    { "term": "Lønnsomhet", "def": "Hvor godt virksomheten tjener penger i forhold til kapitalen og salget." },
+    { "term": "Totalkapitalrentabilitet", "def": "(Ordinært resultat før skatt + rentekostnader) / gjennomsnittlig totalkapital · 100." },
+    { "term": "Egenkapitalrentabilitet", "def": "Ordinært resultat før skatt / gjennomsnittlig egenkapital · 100." },
+    { "term": "Resultatgrad", "def": "(Ordinært resultat før skatt + rentekostnader) / driftsinntekter · 100." },
+    { "term": "Likviditet", "def": "Evnen til å betale regningene når de forfaller." },
+    { "term": "Likviditetsgrad 1", "def": "Omløpsmidler / kortsiktig gjeld; bør som tommelfingerregel være over 2." },
+    { "term": "Likviditetsgrad 2", "def": "(Omløpsmidler − varelager) / kortsiktig gjeld; bør være over 1." },
+    { "term": "Arbeidskapital", "def": "Omløpsmidler minus kortsiktig gjeld." },
+    { "term": "Soliditet", "def": "Evnen til å tåle tap uten at egenkapitalen blir borte." },
+    { "term": "Egenkapitalandel", "def": "Egenkapital / totalkapital · 100; viser hvor solid virksomheten er." },
+    { "term": "Gjeldsgrad", "def": "Gjeld / egenkapital; viser hvor mye gjeld det er per krone egenkapital." },
+    { "term": "Totalkapital", "def": "Summen av eiendelene, som er lik summen av egenkapital og gjeld." },
+    { "term": "Bransjetall", "def": "Gjennomsnittlige nøkkeltall for virksomheter i samme bransje, brukt til sammenligning." }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilke tre områder deles nøkkeltallene vanligvis inn i?",
+      "options": [
+        "Salg, markedsføring og personal",
+        "Lønnsomhet, likviditet og finansiering",
+        "Inntekter, kostnader og skatt",
+        "Budsjett, regnskap og revisjon"
+      ],
+      "correct": 1,
+      "explain": "Lønnsomhet, likviditet og finansiering (soliditet) er de tre hovedområdene."
+    },
+    {
+      "id": "q02",
+      "text": "Omløpsmidlene er 800 000 kr og den kortsiktige gjelden 400 000 kr. Hva er likviditetsgrad 1?",
+      "options": ["0,5", "1,2", "400 000", "2"],
+      "correct": 3,
+      "explain": "800 000 / 400 000 = 2."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor trekker vi fra varelageret i likviditetsgrad 2?",
+      "options": [
+        "Fordi varer kan ta tid å gjøre om til penger",
+        "Fordi varer ikke er eiendeler",
+        "Fordi varelageret alltid er null",
+        "Fordi varelageret er gjeld"
+      ],
+      "correct": 0,
+      "explain": "Likviditetsgrad 2 viser evnen til å betale uten å være avhengig av å selge varene først."
+    },
+    {
+      "id": "q04",
+      "text": "Egenkapitalen er 300 000 kr og totalkapitalen 1 200 000 kr. Hva er egenkapitalandelen?",
+      "options": ["40 %", "4 %", "25 %", "75 %"],
+      "correct": 2,
+      "explain": "300 000 / 1 200 000 · 100 = 25 %."
+    },
+    {
+      "id": "q05",
+      "text": "Hva viser egenkapitalrentabiliteten?",
+      "options": [
+        "Avkastningen på eiernes kapital",
+        "Hvor mye gjeld virksomheten har",
+        "Hvor raskt varelageret selges",
+        "Hvor mye mva virksomheten betaler"
+      ],
+      "correct": 0,
+      "explain": "Den viser resultatet i forhold til egenkapitalen, altså eiernes avkastning."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr høy egenkapitalandel?",
+      "options": [
+        "At virksomheten har mye gjeld",
+        "At virksomheten er solid og tåler tap bedre",
+        "At virksomheten har dårlig likviditet",
+        "At virksomheten alltid går med overskudd"
+      ],
+      "correct": 1,
+      "explain": "Mye egenkapital gir en buffer mot tap."
+    },
+    {
+      "id": "q07",
+      "text": "Ordinært resultat før skatt er 150 000 kr, rentekostnadene 50 000 kr og gjennomsnittlig totalkapital 2 mill. kr. Hva er totalkapitalrentabiliteten?",
+      "options": ["7,5 %", "2,5 %", "10 %", "15 %"],
+      "correct": 2,
+      "explain": "(150 000 + 50 000) / 2 000 000 · 100 = 10 %."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor bør nøkkeltall sammenlignes med bransjen?",
+      "options": [
+        "Fordi normalt nivå på nøkkeltallene varierer mye mellom bransjer",
+        "Fordi loven krever det",
+        "Fordi alle bransjer har like nøkkeltall",
+        "Fordi bransjetall erstatter regnskapet"
+      ],
+      "correct": 0,
+      "explain": "En dagligvarebutikk og et konsulentfirma har for eksempel svært ulik resultatgrad."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er arbeidskapital?",
+      "options": [
+        "Egenkapital minus gjeld",
+        "Lønnskostnader per ansatt",
+        "Driftsinntekter minus driftskostnader",
+        "Omløpsmidler minus kortsiktig gjeld"
+      ],
+      "correct": 3,
+      "explain": "Arbeidskapitalen viser hvor mye av omløpsmidlene som er finansiert med langsiktig kapital."
+    },
+    {
+      "id": "q10",
+      "text": "Totalkapitalrentabiliteten er 4 %, og lånerenten er 6 %. Hva tyder det på?",
+      "options": [
+        "At virksomheten tjener godt på å låne penger",
+        "At kapitalen gir lavere avkastning enn det lånene koster",
+        "At likviditeten er svært god",
+        "At egenkapitalandelen er høy"
+      ],
+      "correct": 1,
+      "explain": "Totalkapitalrentabiliteten bør være høyere enn lånerenten, ellers taper eierne på gjelden."
+    }
+  ],
+  "mindmap": {
+    "label": "Regnskapsanalyse",
+    "children": [
+      { "label": "Lønnsomhet", "children": [{ "label": "Totalkapitalrentabilitet" }, { "label": "Egenkapitalrentabilitet" }, { "label": "Resultatgrad" }] },
+      { "label": "Likviditet", "children": [{ "label": "Likviditetsgrad 1 (> 2)" }, { "label": "Likviditetsgrad 2 (> 1)" }, { "label": "Arbeidskapital" }] },
+      { "label": "Finansiering", "children": [{ "label": "Egenkapitalandel" }, { "label": "Gjeldsgrad" }] },
+      { "label": "Sammenligning", "children": [{ "label": "Tidligere år" }, { "label": "Bransjen" }, { "label": "Tommelfingerregler" }] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q06", "q07", "q08", "q10"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ett godt nøkkeltall er nok til å si at en virksomhet går bra.", "correct": false, "explain": "Nøkkeltallene må ses sammen og sammenlignes over tid og med bransjen." },
+      { "id": "m02", "type": "sant-usant", "text": "Likviditet handler om evnen til å betale regningene i tide.", "correct": true, "explain": "Likviditet er betalingsevne på kort sikt." },
+      { "id": "m03", "type": "sant-usant", "text": "Høy gjeldsgrad betyr at virksomheten har lite gjeld i forhold til egenkapitalen.", "correct": false, "explain": "Høy gjeldsgrad betyr mye gjeld per krone egenkapital." },
+      { "id": "m04", "type": "sant-usant", "text": "Tommelfingerreglene for likviditetsgrad er bare veiledende.", "correct": true, "explain": "Hva som er normalt, varierer mellom bransjer." },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Omløpsmidlene er 500 000 kr, varelageret 200 000 kr og den kortsiktige gjelden 300 000 kr. Hva er likviditetsgrad 2?",
+        "options": ["1,67", "1", "0,6", "2,5"],
+        "correct": 1,
+        "explain": "(500 000 − 200 000) / 300 000 = 1."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket nøkkeltall måler soliditet?",
+        "options": ["Likviditetsgrad 1", "Resultatgrad", "Egenkapitalandel", "Arbeidskapital"],
+        "correct": 2,
+        "explain": "Egenkapitalandelen viser hvor godt virksomheten tåler tap."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Ordinært resultat før skatt er 90 000 kr og gjennomsnittlig egenkapital 600 000 kr. Hva er egenkapitalrentabiliteten?",
+        "options": ["6,7 %", "15 %", "1,5 %", "66,7 %"],
+        "correct": 1,
+        "explain": "90 000 / 600 000 · 100 = 15 %."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på lønnsomhet, likviditet og soliditet.",
+        "fasit": "Lønnsomhet handler om hvor godt virksomheten tjener penger i forhold til kapital og salg. Likviditet er evnen til å betale regningene i tide. Soliditet er evnen til å tåle tap.",
+        "kriterier": ["Forklarer lønnsomhet og likviditet riktig.", "Forklarer soliditet som evnen til å tåle tap."]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet har omløpsmidler på 900 000 kr og kortsiktig gjeld på 600 000 kr. Regn ut likviditetsgrad 1, og vurder resultatet.",
+        "fasit": "Likviditetsgrad 1 er 900 000 / 600 000 = 1,5. Det er under tommelfingerregelen på 2, så likviditeten kan være svak, men det må sammenlignes med bransjen.",
+        "kriterier": ["Regner ut 1,5.", "Vurderer tallet mot tommelfingerregelen og bransjen."]
+      },
+      {
+        "id": "s03",
+        "text": "Hvorfor er likviditetsgrad 2 et strengere mål enn likviditetsgrad 1?",
+        "fasit": "Likviditetsgrad 2 trekker varelageret fra omløpsmidlene, fordi varer kan ta tid å selge og gjøre om til penger. Den viser derfor betalingsevnen uten å være avhengig av varesalget.",
+        "kriterier": ["Forklarer at varelageret trekkes fra.", "Forklarer at varer er tregere å gjøre om til penger."]
+      },
+      {
+        "id": "s04",
+        "text": "Egenkapitalen er 450 000 kr og totalkapitalen 1 500 000 kr. Regn ut egenkapitalandelen, og forklar hva tallet viser.",
+        "fasit": "Egenkapitalandelen er 450 000 / 1 500 000 · 100 = 30 %. Den viser hvor stor del av eiendelene som er finansiert av eierne, og sier noe om hvor solid virksomheten er.",
+        "kriterier": ["Regner ut 30 %.", "Forklarer at tallet viser soliditet eller eiernes andel av finansieringen."]
+      },
+      {
+        "id": "s05",
+        "text": "Hvorfor bør totalkapitalrentabiliteten være høyere enn renten på lån?",
+        "fasit": "Hvis kapitalen gir høyere avkastning enn det lånene koster, tjener eierne på å bruke lånte penger. Er rentabiliteten lavere enn renten, taper eierne på gjelden.",
+        "kriterier": ["Sammenligner avkastningen på kapitalen med kostnaden ved lån.", "Forklarer konsekvensen for eierne."]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvorfor nøkkeltall bør sammenlignes med tidligere år og med andre i samme bransje.",
+        "fasit": "Sammenligning med tidligere år viser om utviklingen går riktig vei. Sammenligning med bransjen viser om tallene er gode eller dårlige, fordi normalt nivå varierer mellom bransjer.",
+        "kriterier": ["Forklarer nytten av å se utviklingen over tid.", "Forklarer at normalt nivå varierer mellom bransjer."]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "sjekkes",
+    "merknader": ["Lærebøkene definerer resultatgrad og rentabilitet litt ulikt (før eller etter skatt, med eller uten rentekostnader); sjekk at formlene stemmer med læreboka skolen bruker."]
+  }
+}

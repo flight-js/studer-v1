@@ -1,0 +1,404 @@
+{
+  "id": "resultatregnskap-og-balanse",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Resultatregnskap og balanse",
+  "intro": "Hvordan resultatregnskapet og balansen er satt opp, hva balanseligningen sier – og hvordan endringer i regnskapsposter som avskrivninger, varelager og lån påvirker resultat og balanse.",
+  "kompetansemaal": [
+    6,
+    5
+  ],
+  "sammendrag": "## Resultatregnskapet\n\n**Resultatregnskapet** viser **inntekter** og **kostnader** for en **periode**, vanligvis ett år, og om virksomheten har gått med **overskudd** eller **underskudd**. Oppstillingen ser slik ut:\n\n- **Driftsinntekter** (salgsinntekt og annen driftsinntekt)\n- − **Driftskostnader** (varekostnad, lønn, avskrivninger og andre driftskostnader)\n- = **Driftsresultat**\n- + **Finansinntekter** − **finanskostnader**, for eksempel renter\n- = **Ordinært resultat før skatt**\n- − **Skattekostnad** (i aksjeselskaper)\n- = **Årsresultat**\n\n## Balansen\n\n**Balansen** er et **øyeblikksbilde** av hva virksomheten **eier**, og hvordan det er **finansiert**, på et bestemt tidspunkt, vanligvis 31. desember.\n\n- **Eiendeler** deles i **anleggsmidler**, som skal brukes i flere år (bygninger, maskiner, biler), og **omløpsmidler**, som skifter raskt (varer, kundefordringer, bank).\n- **Egenkapital** er eiernes del av verdiene.\n- **Gjeld** deles i **langsiktig gjeld**, som forfaller om mer enn ett år, og **kortsiktig gjeld**, som leverandørgjeld og skyldig mva.\n\n**Balanseligningen**: **Eiendeler = egenkapital + gjeld**. Summen av eiendelene er alltid lik summen av egenkapitalen og gjelden.\n\n## Hvordan endringer påvirker resultat og balanse\n\n- **Kontantsalg**: Inntektene og resultatet øker, og banken øker.\n- **Kjøp av maskin med bankpenger**: Maskiner øker og bank minker like mye. **Resultatet påvirkes ikke** – før maskinen avskrives.\n- **Avskrivning**: Kostnadene øker, så **resultatet går ned**, og maskinens bokførte verdi minker.\n- **Avdrag på lån**: Bank og gjeld minker like mye; resultatet påvirkes ikke. **Rentene** er derimot en **kostnad** som reduserer resultatet.\n- **Privatuttak** i et ENK: Bank og egenkapital minker, men resultatet påvirkes ikke.\n- **Feil i varetellingen**: Er utgående varebeholdning satt for **høyt**, blir varekostnaden for **lav** og resultatet for **høyt**.\n\n## Resultat og likviditet\n\nEt **overskudd** betyr ikke nødvendigvis **penger i banken**. Hvis mye er solgt på **kreditt**, eller pengene er brukt på investeringer og avdrag, kan virksomheten ha overskudd og likevel ha lite penger. Derfor må både resultatregnskapet og balansen leses for å forstå økonomien.",
+  "flashcards": [
+    {
+      "term": "Resultatregnskap",
+      "def": "Oversikt over inntekter, kostnader og resultat for en periode."
+    },
+    {
+      "term": "Balanse",
+      "def": "Øyeblikksbilde av eiendeler, egenkapital og gjeld på et bestemt tidspunkt."
+    },
+    {
+      "term": "Driftsresultat",
+      "def": "Driftsinntekter minus driftskostnader."
+    },
+    {
+      "term": "Ordinært resultat før skatt",
+      "def": "Driftsresultat pluss finansinntekter minus finanskostnader."
+    },
+    {
+      "term": "Årsresultat",
+      "def": "Resultatet etter skattekostnad, altså det som blir igjen av årets overskudd."
+    },
+    {
+      "term": "Finanskostnad",
+      "def": "Kostnad knyttet til finansiering, for eksempel rentekostnader på lån."
+    },
+    {
+      "term": "Anleggsmidler",
+      "def": "Eiendeler som skal brukes i flere år, for eksempel bygninger, maskiner og biler."
+    },
+    {
+      "term": "Omløpsmidler",
+      "def": "Eiendeler som skifter raskt, for eksempel varer, kundefordringer og bankinnskudd."
+    },
+    {
+      "term": "Egenkapital",
+      "def": "Eiernes del av verdiene i virksomheten; eiendeler minus gjeld."
+    },
+    {
+      "term": "Langsiktig gjeld",
+      "def": "Gjeld som forfaller om mer enn ett år, for eksempel pantelån."
+    },
+    {
+      "term": "Kortsiktig gjeld",
+      "def": "Gjeld som forfaller innen ett år, for eksempel leverandørgjeld og skyldig mva."
+    },
+    {
+      "term": "Balanseligningen",
+      "def": "Eiendeler = egenkapital + gjeld."
+    },
+    {
+      "term": "Avdrag",
+      "def": "Nedbetaling på et lån; reduserer gjeld og bank, men er ikke en kostnad."
+    },
+    {
+      "term": "Bokført verdi",
+      "def": "Verdien en eiendel står oppført med i balansen etter avskrivninger."
+    },
+    {
+      "term": "Overskudd",
+      "def": "Positivt resultat: inntektene er større enn kostnadene."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva viser resultatregnskapet?",
+      "options": [
+        "Eiendeler og gjeld på et bestemt tidspunkt",
+        "Hvor mye penger som er i banken",
+        "Hvem som eier virksomheten",
+        "Inntekter, kostnader og resultat for en periode"
+      ],
+      "correct": 3,
+      "explain": "Resultatregnskapet gjelder en periode; balansen er et øyeblikksbilde."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er balanseligningen?",
+      "options": [
+        "Inntekter = kostnader + resultat",
+        "Eiendeler = egenkapital + gjeld",
+        "Egenkapital = eiendeler + gjeld",
+        "Gjeld = eiendeler + egenkapital"
+      ],
+      "correct": 1,
+      "explain": "Eiendelene finansieres enten med egenkapital eller gjeld."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken eiendel er et omløpsmiddel?",
+      "options": [
+        "En bygning",
+        "En maskin",
+        "Varelageret",
+        "En firmabil"
+      ],
+      "correct": 2,
+      "explain": "Varer skifter raskt og er omløpsmidler; de andre er anleggsmidler."
+    },
+    {
+      "id": "q04",
+      "text": "Virksomheten kjøper en maskin for 200 000 kr med bankpenger. Hvordan påvirkes resultatet samme dag?",
+      "options": [
+        "Resultatet går ned med 200 000 kr",
+        "Resultatet går opp med 200 000 kr",
+        "Resultatet påvirkes ikke",
+        "Resultatet blir negativt"
+      ],
+      "correct": 2,
+      "explain": "Det er bare et bytte mellom to eiendeler: bank ned og maskiner opp."
+    },
+    {
+      "id": "q05",
+      "text": "Hva skjer når en maskin avskrives?",
+      "options": [
+        "Kostnadene øker og resultatet går ned",
+        "Inntektene øker",
+        "Gjelden øker",
+        "Banken øker"
+      ],
+      "correct": 0,
+      "explain": "Avskrivning er en kostnad som reduserer resultatet og maskinens bokførte verdi."
+    },
+    {
+      "id": "q06",
+      "text": "Virksomheten betaler 50 000 kr i avdrag og 10 000 kr i renter. Hvor mye reduseres resultatet?",
+      "options": [
+        "60 000 kr",
+        "50 000 kr",
+        "0 kr",
+        "10 000 kr"
+      ],
+      "correct": 3,
+      "explain": "Bare rentene er en kostnad; avdraget reduserer gjelden."
+    },
+    {
+      "id": "q07",
+      "text": "Utgående varebeholdning er ført for høyt. Hva skjer med resultatet?",
+      "options": [
+        "Det blir for lavt",
+        "Det blir for høyt",
+        "Det påvirkes ikke",
+        "Det blir alltid negativt"
+      ],
+      "correct": 1,
+      "explain": "For høy utgående beholdning gir for lav varekostnad og dermed for høyt resultat."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken post er kortsiktig gjeld?",
+      "options": [
+        "Pantelån på 20 år",
+        "Aksjekapital",
+        "Maskiner",
+        "Leverandørgjeld"
+      ],
+      "correct": 3,
+      "explain": "Leverandørgjeld forfaller vanligvis innen noen uker."
+    },
+    {
+      "id": "q09",
+      "text": "Driftsinntektene er 2 mill. kr og driftskostnadene 1,7 mill. kr. Hva er driftsresultatet?",
+      "options": [
+        "300 000 kr",
+        "3,7 mill. kr",
+        "1,7 mill. kr",
+        "−300 000 kr"
+      ],
+      "correct": 0,
+      "explain": "2 000 000 − 1 700 000 = 300 000 kr."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan en virksomhet ha overskudd, men lite penger i banken?",
+      "options": [
+        "Fordi overskudd alltid står som gjeld",
+        "Fordi mye er solgt på kreditt, eller pengene er brukt til investeringer og avdrag",
+        "Fordi banken holder tilbake overskuddet",
+        "Fordi overskudd bare finnes i budsjettet"
+      ],
+      "correct": 1,
+      "explain": "Resultat og likviditet er ikke det samme."
+    }
+  ],
+  "mindmap": {
+    "label": "Resultat og balanse",
+    "children": [
+      {
+        "label": "Resultatregnskap",
+        "children": [
+          {
+            "label": "Driftsresultat"
+          },
+          {
+            "label": "Finansposter"
+          },
+          {
+            "label": "Årsresultat"
+          }
+        ]
+      },
+      {
+        "label": "Balanse",
+        "children": [
+          {
+            "label": "Anleggsmidler"
+          },
+          {
+            "label": "Omløpsmidler"
+          },
+          {
+            "label": "Egenkapital og gjeld"
+          }
+        ]
+      },
+      {
+        "label": "Balanseligningen",
+        "children": [
+          {
+            "label": "Eiendeler = EK + gjeld"
+          }
+        ]
+      },
+      {
+        "label": "Endringer",
+        "children": [
+          {
+            "label": "Investering: ikke kostnad"
+          },
+          {
+            "label": "Avskrivning: kostnad"
+          },
+          {
+            "label": "Avdrag vs. renter"
+          }
+        ]
+      },
+      {
+        "label": "Resultat og likviditet",
+        "children": [
+          {
+            "label": "Kredittsalg"
+          },
+          {
+            "label": "Overskudd ≠ penger"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Balansen viser inntektene for hele året.",
+        "correct": false,
+        "explain": "Balansen er et øyeblikksbilde; inntektene står i resultatregnskapet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et privatuttak i et ENK reduserer egenkapitalen, men ikke resultatet.",
+        "correct": true,
+        "explain": "Privatuttak er ikke en kostnad."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Rentekostnader er en finanskostnad i resultatregnskapet.",
+        "correct": true,
+        "explain": "Renter føres under finansposter."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et pantelån som skal betales ned over 20 år, er kortsiktig gjeld.",
+        "correct": false,
+        "explain": "Gjeld med forfall om mer enn ett år er langsiktig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Eiendelene er 1,5 mill. kr og gjelden 900 000 kr. Hva er egenkapitalen?",
+        "options": [
+          "2,4 mill. kr",
+          "600 000 kr",
+          "900 000 kr",
+          "1,5 mill. kr"
+        ],
+        "correct": 1,
+        "explain": "Egenkapital = eiendeler − gjeld = 1 500 000 − 900 000 = 600 000 kr."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken transaksjon øker resultatet?",
+        "options": [
+          "Kjøp av inventar med bankpenger",
+          "Avdrag på lån",
+          "Kontantsalg av varer med fortjeneste",
+          "Privatuttak"
+        ],
+        "correct": 2,
+        "explain": "Salg med fortjeneste gir inntekt og øker resultatet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Ordinært resultat før skatt er 400 000 kr og skattekostnaden 88 000 kr. Hva er årsresultatet?",
+        "options": [
+          "312 000 kr",
+          "488 000 kr",
+          "400 000 kr",
+          "88 000 kr"
+        ],
+        "correct": 0,
+        "explain": "400 000 − 88 000 = 312 000 kr."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på resultatregnskapet og balansen.",
+        "fasit": "Resultatregnskapet viser inntekter, kostnader og resultat for en periode, mens balansen viser eiendeler, egenkapital og gjeld på et bestemt tidspunkt.",
+        "kriterier": [
+          "Forklarer at resultatregnskapet gjelder en periode med inntekter og kostnader.",
+          "Forklarer at balansen er et øyeblikksbilde av eiendeler, egenkapital og gjeld."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva sier balanseligningen, og hvorfor går den alltid opp?",
+        "fasit": "Balanseligningen sier at eiendeler = egenkapital + gjeld. Den går alltid opp fordi alle eiendeler må være finansiert enten av eierne eller av långivere.",
+        "kriterier": [
+          "Gjengir balanseligningen riktig.",
+          "Forklarer at eiendelene er finansiert med egenkapital eller gjeld."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En virksomhet kjøper en varebil for 350 000 kr med bankpenger. Forklar hvordan dette påvirker balansen og resultatet det første året.",
+        "fasit": "I balansen øker kjøretøy med 350 000 kr og bank minker like mye. Selve kjøpet påvirker ikke resultatet, men årets avskrivning på bilen er en kostnad som reduserer resultatet.",
+        "kriterier": [
+          "Forklarer at bilen øker og banken minker i balansen.",
+          "Forklarer at kjøpet ikke er en kostnad, men at avskrivningen reduserer resultatet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på avdrag og renter, og hvordan de påvirker resultatregnskapet.",
+        "fasit": "Avdrag er nedbetaling av selve lånet og reduserer gjelden, men er ikke en kostnad. Renter er prisen for å låne penger og er en finanskostnad som reduserer resultatet.",
+        "kriterier": [
+          "Forklarer at avdrag reduserer gjelden og ikke påvirker resultatet.",
+          "Forklarer at renter er en kostnad som reduserer resultatet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva skjer med resultatet hvis utgående varebeholdning er satt for høyt i årsoppgjøret? Forklar hvorfor.",
+        "fasit": "Resultatet blir for høyt. Varekostnaden regnes som inngående beholdning + kjøp − utgående beholdning, så en for høy utgående beholdning gir for lav varekostnad.",
+        "kriterier": [
+          "Konkluderer med at resultatet blir for høyt.",
+          "Forklarer sammenhengen gjennom formelen for varekostnad."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvorfor en virksomhet kan gå med overskudd og likevel få problemer med å betale regningene sine.",
+        "fasit": "Overskuddet viser at inntektene er større enn kostnadene, men pengene kan være bundet i kundefordringer, varelager eller investeringer, eller brukt til avdrag. Da kan det være lite penger i banken selv om resultatet er positivt.",
+        "kriterier": [
+          "Skiller mellom resultat og likviditet.",
+          "Gir minst én konkret årsak, som kredittsalg, varelager, investeringer eller avdrag."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

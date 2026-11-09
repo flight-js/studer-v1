@@ -1,0 +1,404 @@
+{
+  "id": "interessegrupper-og-samfunnsansvar",
+  "fagId": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Interessegrupper og samfunnsansvar",
+  "intro": "Hvem som har interesser i en virksomhet og hva de forventer, hvordan interessene kan komme i konflikt – og hva samfunnsansvar betyr for virksomheters rolle lokalt og globalt.",
+  "kompetansemaal": [
+    12,
+    2
+  ],
+  "sammendrag": "## Interessegrupper\n\nEn virksomhet er avhengig av mange grupper for å lykkes. **Interessegrupper** (interessenter) er alle som **påvirker** virksomheten eller **blir påvirket** av den. De gir noe til virksomheten og forventer noe tilbake:\n\n- **Eiere** skyter inn kapital og forventer **avkastning**.\n- **Ansatte** bidrar med arbeid og forventer **lønn**, trygghet og et godt arbeidsmiljø.\n- **Kunder** betaler for varer og tjenester og forventer **kvalitet** til en god pris.\n- **Leverandører** leverer varer og forventer å få **betalt** i tide.\n- **Långivere**, som banker, forventer **renter** og at lånet betales tilbake.\n- **Myndighetene** forventer at virksomheten følger loven og betaler **skatter og avgifter**.\n- **Lokalsamfunnet** forventer arbeidsplasser og at virksomheten tar hensyn til miljøet rundt seg.\n\nVi skiller mellom **interne** interessegrupper, som eiere og ansatte, og **eksterne**, som kunder, leverandører og myndigheter.\n\n## Interessekonflikter\n\nInteressene kan **kollidere**. Eierne vil ha høyt utbytte, de ansatte vil ha høyere lønn, og kundene vil ha lavere priser. Ledelsen må **balansere** interessene, fordi virksomheten trenger alle gruppene på lang sikt.\n\n## Samfunnsansvar\n\n**Samfunnsansvar** (på engelsk CSR) betyr at virksomheten tar ansvar for hvordan driften påvirker **mennesker**, **samfunn** og **miljø** – også ut over det loven krever. Viktige områder er:\n\n- **Menneskerettigheter** og **anstendige arbeidsforhold**, også hos leverandørene\n- **Miljø og klima**\n- **Antikorrupsjon** og **etikk**\n\nNoen snakker om **tre bunnlinjer**: Virksomheten skal skape resultater **økonomisk**, **sosialt** og **miljømessig**.\n\n## Lover og krav\n\n**Åpenhetsloven** krever at større virksomheter gjør **aktsomhetsvurderinger** av menneskerettigheter og arbeidsforhold i **leverandørkjeden**, og svarer på spørsmål om dette. Andre lover, som **arbeidsmiljøloven** og **markedsføringsloven**, setter også rammer.\n\n## Lokalt og globalt\n\n**Lokalt** gir virksomheter arbeidsplasser og skatteinntekter, og mange sponser idrettslag og kultur. **Globalt** produseres mange varer i land med lave lønninger, og da får virksomheten ansvar for at arbeiderne ikke utnyttes. Samfunnsansvar kan koste penger på kort sikt, men gir ofte bedre **omdømme**, mer fornøyde kunder og lettere tilgang på dyktige ansatte.",
+  "flashcards": [
+    {
+      "term": "Interessegruppe",
+      "def": "Gruppe som påvirker virksomheten eller blir påvirket av den, for eksempel ansatte eller kunder."
+    },
+    {
+      "term": "Interne interessegrupper",
+      "def": "Interessegrupper innenfor virksomheten, som eiere og ansatte."
+    },
+    {
+      "term": "Eksterne interessegrupper",
+      "def": "Interessegrupper utenfor virksomheten, som kunder, leverandører og myndigheter."
+    },
+    {
+      "term": "Eiere",
+      "def": "Interessegruppe som skyter inn kapital og forventer avkastning."
+    },
+    {
+      "term": "Långivere",
+      "def": "Interessegruppe, som banker, som forventer renter og tilbakebetaling."
+    },
+    {
+      "term": "Myndigheter",
+      "def": "Interessegruppe som forventer at loven følges og at skatter og avgifter betales."
+    },
+    {
+      "term": "Lokalsamfunn",
+      "def": "Interessegruppe som forventer arbeidsplasser og hensyn til miljøet rundt virksomheten."
+    },
+    {
+      "term": "Interessekonflikt",
+      "def": "Når ulike interessegrupper har motstridende ønsker, for eksempel utbytte mot lønn."
+    },
+    {
+      "term": "Samfunnsansvar (CSR)",
+      "def": "Virksomhetens ansvar for hvordan driften påvirker mennesker, samfunn og miljø."
+    },
+    {
+      "term": "Tre bunnlinjer",
+      "def": "Idé om at virksomheten skal skape resultater økonomisk, sosialt og miljømessig."
+    },
+    {
+      "term": "Åpenhetsloven",
+      "def": "Lov som krever at større virksomheter vurderer menneskerettigheter og arbeidsforhold i leverandørkjeden."
+    },
+    {
+      "term": "Aktsomhetsvurdering",
+      "def": "Kartlegging av risiko for brudd på menneskerettigheter og arbeidsforhold, og tiltak mot det."
+    },
+    {
+      "term": "Leverandørkjede",
+      "def": "Alle ledd som er med på å lage og levere en vare, fra råvare til butikk."
+    },
+    {
+      "term": "Antikorrupsjon",
+      "def": "Arbeid for å hindre bestikkelser og annen urettmessig påvirkning."
+    },
+    {
+      "term": "Omdømme",
+      "def": "Hvordan omverdenen oppfatter virksomheten."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er en interessegruppe?",
+      "options": [
+        "Bare eierne av virksomheten",
+        "En avdeling i virksomheten",
+        "Et register i Brønnøysund",
+        "En gruppe som påvirker virksomheten eller blir påvirket av den"
+      ],
+      "correct": 3,
+      "explain": "Interessegrupper kan være både interne og eksterne."
+    },
+    {
+      "id": "q02",
+      "text": "Hva forventer eierne vanligvis av virksomheten?",
+      "options": [
+        "Lave priser",
+        "Betaling i tide",
+        "Avkastning på kapitalen",
+        "Skatteinntekter"
+      ],
+      "correct": 2,
+      "explain": "Eierne har skutt inn kapital og vil ha avkastning."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken interessegruppe er intern?",
+      "options": [
+        "Kundene",
+        "Leverandørene",
+        "Myndighetene",
+        "De ansatte"
+      ],
+      "correct": 3,
+      "explain": "Ansatte og eiere er interne interessegrupper."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket eksempel viser en interessekonflikt?",
+      "options": [
+        "Eierne vil ha høyt utbytte, mens de ansatte vil ha høyere lønn",
+        "Kundene og de ansatte vil begge at virksomheten skal overleve",
+        "Virksomheten betaler leverandøren i tide",
+        "Banken gir virksomheten et lån"
+      ],
+      "correct": 0,
+      "explain": "Pengene kan bare brukes én gang, så ønskene kolliderer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr samfunnsansvar?",
+      "options": [
+        "At virksomheten tar ansvar for hvordan driften påvirker mennesker, samfunn og miljø",
+        "At virksomheten bare følger minstekravene i loven",
+        "At staten eier virksomheten",
+        "At virksomheten ikke trenger å gå med overskudd"
+      ],
+      "correct": 0,
+      "explain": "Samfunnsansvar går ofte ut over det loven krever."
+    },
+    {
+      "id": "q06",
+      "text": "Hva krever åpenhetsloven av større virksomheter?",
+      "options": [
+        "At de publiserer lønnen til alle ansatte",
+        "At de bare handler med norske leverandører",
+        "At de vurderer menneskerettigheter og arbeidsforhold i leverandørkjeden",
+        "At de slutter å betale utbytte"
+      ],
+      "correct": 2,
+      "explain": "Loven krever aktsomhetsvurderinger og åpenhet om resultatene."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr «tre bunnlinjer»?",
+      "options": [
+        "At virksomheten har tre regnskap",
+        "At det er tre eiere",
+        "At virksomheten skal skape resultater økonomisk, sosialt og miljømessig",
+        "At virksomheten betaler tre typer skatt"
+      ],
+      "correct": 2,
+      "explain": "Det er en måte å se på helheten i virksomhetens resultater."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan en virksomhet ta samfunnsansvar globalt?",
+      "options": [
+        "Ved å kjøpe billigst mulig uansett arbeidsforhold",
+        "Ved å slutte å betale skatt",
+        "Ved å skjule hvor varene produseres",
+        "Ved å sørge for at arbeiderne hos leverandørene ikke utnyttes"
+      ],
+      "correct": 3,
+      "explain": "Ansvaret gjelder også leverandørkjeden i andre land."
+    },
+    {
+      "id": "q09",
+      "text": "Hva forventer långivere, som banker?",
+      "options": [
+        "Høy lønn",
+        "Renter og at lånet betales tilbake",
+        "Lave priser på varene",
+        "Sponsing av idrettslag"
+      ],
+      "correct": 1,
+      "explain": "Banken tar risiko ved å låne ut og vil ha betalt for det."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan samfunnsansvar lønne seg for virksomheten på lang sikt?",
+      "options": [
+        "Fordi det fjerner alle kostnader",
+        "Fordi det gir bedre omdømme, mer fornøyde kunder og lettere tilgang på ansatte",
+        "Fordi det gir fritak for mva",
+        "Fordi det gjør revisjon unødvendig"
+      ],
+      "correct": 1,
+      "explain": "Et godt omdømme kan gi konkurransefortrinn."
+    }
+  ],
+  "mindmap": {
+    "label": "Interessegrupper og ansvar",
+    "children": [
+      {
+        "label": "Interne",
+        "children": [
+          {
+            "label": "Eiere: avkastning"
+          },
+          {
+            "label": "Ansatte: lønn og arbeidsmiljø"
+          }
+        ]
+      },
+      {
+        "label": "Eksterne",
+        "children": [
+          {
+            "label": "Kunder og leverandører"
+          },
+          {
+            "label": "Långivere og myndigheter"
+          },
+          {
+            "label": "Lokalsamfunnet"
+          }
+        ]
+      },
+      {
+        "label": "Interessekonflikter",
+        "children": [
+          {
+            "label": "Utbytte mot lønn"
+          },
+          {
+            "label": "Pris mot kvalitet"
+          }
+        ]
+      },
+      {
+        "label": "Samfunnsansvar",
+        "children": [
+          {
+            "label": "Menneskerettigheter"
+          },
+          {
+            "label": "Miljø og klima"
+          },
+          {
+            "label": "Antikorrupsjon"
+          }
+        ]
+      },
+      {
+        "label": "Lover og roller",
+        "children": [
+          {
+            "label": "Åpenhetsloven"
+          },
+          {
+            "label": "Lokalt og globalt"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kunder er en ekstern interessegruppe.",
+        "correct": true,
+        "explain": "Kundene står utenfor virksomheten."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Samfunnsansvar betyr bare å følge minstekravene i loven.",
+        "correct": false,
+        "explain": "Samfunnsansvar går ofte ut over det loven krever."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ledelsen må balansere interessene til ulike grupper.",
+        "correct": true,
+        "explain": "Virksomheten trenger alle gruppene på lang sikt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Ansvaret for arbeidsforhold slutter ved landegrensen.",
+        "correct": false,
+        "explain": "Virksomheter har også ansvar for forholdene hos leverandører i andre land."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva forventer myndighetene av en virksomhet?",
+        "options": [
+          "Høyt utbytte",
+          "At loven følges og skatter og avgifter betales",
+          "Lave priser",
+          "Sponsing"
+        ],
+        "correct": 1,
+        "explain": "Myndighetene setter rammene og krever inn skatter og avgifter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en aktsomhetsvurdering?",
+        "options": [
+          "En kontroll av kassebeholdningen",
+          "Kartlegging av risiko for brudd på menneskerettigheter og arbeidsforhold, med tiltak",
+          "En vurdering av hvilken selskapsform som passer",
+          "En prisberegning"
+        ],
+        "correct": 1,
+        "explain": "Det er kjernen i åpenhetsloven."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket tiltak viser samfunnsansvar lokalt?",
+        "options": [
+          "Å sponse det lokale idrettslaget",
+          "Å flytte all produksjon ut av landet uten begrunnelse",
+          "Å slippe ut avfall i elva",
+          "Å betale leverandørene for sent"
+        ],
+        "correct": 0,
+        "explain": "Sponsing er ett eksempel på å bidra i lokalsamfunnet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Nevn fire interessegrupper for en virksomhet, og forklar hva to av dem forventer.",
+        "fasit": "Eiere, ansatte, kunder og leverandører er interessegrupper. Eierne forventer avkastning på kapitalen, og de ansatte forventer lønn, trygghet og et godt arbeidsmiljø.",
+        "kriterier": [
+          "Nevner fire relevante interessegrupper.",
+          "Forklarer forventningene til to av dem riktig."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er forskjellen på interne og eksterne interessegrupper? Gi eksempler.",
+        "fasit": "Interne interessegrupper er innenfor virksomheten, som eiere og ansatte. Eksterne er utenfor, som kunder, leverandører og myndigheter.",
+        "kriterier": [
+          "Forklarer forskjellen på interne og eksterne interessegrupper.",
+          "Gir riktige eksempler på begge."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Gi et eksempel på en interessekonflikt i en virksomhet, og forklar hvorfor ledelsen må balansere interessene.",
+        "fasit": "Eierne vil ha høyt utbytte, mens de ansatte vil ha høyere lønn. Ledelsen må balansere interessene fordi virksomheten trenger både kapital fra eierne og motiverte ansatte for å lykkes over tid.",
+        "kriterier": [
+          "Gir et relevant eksempel på en interessekonflikt.",
+          "Forklarer hvorfor balanse er nødvendig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hva samfunnsansvar er, og nevn to områder det omfatter.",
+        "fasit": "Samfunnsansvar betyr at virksomheten tar ansvar for hvordan driften påvirker mennesker, samfunn og miljø, også ut over loven. Det omfatter for eksempel menneskerettigheter og arbeidsforhold, miljø og klima, og antikorrupsjon.",
+        "kriterier": [
+          "Forklarer samfunnsansvar riktig.",
+          "Nevner to relevante områder."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva krever åpenhetsloven, og hvorfor er den viktig for virksomheter som kjøper varer fra andre land?",
+        "fasit": "Åpenhetsloven krever at større virksomheter gjør aktsomhetsvurderinger av menneskerettigheter og arbeidsforhold i leverandørkjeden og svarer på spørsmål om det. Den er viktig fordi mange varer lages i land der arbeidere kan bli utnyttet.",
+        "kriterier": [
+          "Forklarer at loven krever aktsomhetsvurderinger av leverandørkjeden.",
+          "Kobler loven til risiko hos leverandører i andre land."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Kan samfunnsansvar lønne seg for en virksomhet? Drøft kort.",
+        "fasit": "Samfunnsansvar kan koste penger på kort sikt, for eksempel ved dyrere leverandører. På lang sikt kan det gi bedre omdømme, mer lojale kunder og lettere tilgang på dyktige ansatte, så det kan lønne seg.",
+        "kriterier": [
+          "Nevner en kostnad eller ulempe på kort sikt.",
+          "Nevner minst én fordel på lang sikt."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

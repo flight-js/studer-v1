@@ -101,7 +101,8 @@
         { "id": "psykologi-1", "navn": "Psykologi 1" },
         { "id": "markedsforing-og-ledelse-1", "navn": "Markedsføring og ledelse 1" },
         { "id": "entreprenorskap-og-bedriftsutvikling-1", "navn": "Entreprenørskap og bedriftsutvikling 1" },
-        { "id": "samfunnsokonomi-1", "navn": "Samfunnsøkonomi 1" }
+        { "id": "samfunnsokonomi-1", "navn": "Samfunnsøkonomi 1" },
+        { "id": "okonomistyring", "navn": "Økonomistyring" }
       ]
     },
     {

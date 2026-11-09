@@ -1,0 +1,85 @@
+{
+  "id": "okonomistyring",
+  "trinnId": "vg2",
+  "name": "Økonomistyring",
+  "lareplan": {
+    "kode": "NOK02-04",
+    "url": "https://www.udir.no/lk20/nok02-04/kompetansemaal-og-vurdering/kv1002",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "kort": "Økonomiske modeller og beregninger",
+        "tekst": "velge og bruke økonomiske modeller til å bearbeide og beregne økonomiske størrelser"
+      },
+      {
+        "nr": 2,
+        "kort": "Dagsaktuelle næringslivsøkonomiske temaer",
+        "tekst": "utforske og presentere dagsaktuelle næringslivsøkonomiske temaer eller problemstillinger"
+      },
+      {
+        "nr": 3,
+        "kort": "Selskapsform, ansvar og risiko",
+        "tekst": "vurdere og velge selskapsform ut fra ansvar og risiko"
+      },
+      {
+        "nr": 4,
+        "kort": "Regnskapsfører og revisor",
+        "tekst": "gjøre rede for regnskapsførerens autorisasjonsplikt, krav til revisor og revisors rolle"
+      },
+      {
+        "nr": 5,
+        "kort": "Bilag, årsoppgjør og regnskap for ENK",
+        "tekst": "føre sentrale bilag, foreta og registrere årsoppgjørsdisposisjoner, avslutte regnskapet for et enkeltpersonforetak og presentere regnskapet i samsvar med gjeldende regelverk"
+      },
+      {
+        "nr": 6,
+        "kort": "Endringer i resultat og balanse",
+        "tekst": "vurdere hvordan endringer i regnskapsposter påvirker resultat og balanse"
+      },
+      {
+        "nr": 7,
+        "kort": "Regnskapsanalyse",
+        "tekst": "gjennomføre regnskapsanalyse og vurdere og sammenligne lønnsomhet, likviditet og finansiering med tidligere år og med virksomheter i samme bransje"
+      },
+      {
+        "nr": 8,
+        "kort": "Priskalkulasjon i handelsbedrifter",
+        "tekst": "vurdere ulike metoder for priskalkulasjon i handelsbedrifter og fastsette pris på produkt"
+      },
+      {
+        "nr": 9,
+        "kort": "Resultat- og likviditetsbudsjett",
+        "tekst": "gjøre rede for formålet med budsjettering og utarbeide og vurdere resultatbudsjett og enkelt likviditetsbudsjett"
+      },
+      {
+        "nr": 10,
+        "kort": "Budsjettkontroll og avvik",
+        "tekst": "gjennomføre budsjettkontroll og analysere avvik med betydning for virksomheten"
+      },
+      {
+        "nr": 11,
+        "kort": "Teknologi og bærekraftige forretningsmodeller",
+        "tekst": "utforske og reflektere over hvordan ny teknologi og automatisering kan bidra til innovasjon og nye forretningsmodeller som er bærekraftige"
+      },
+      {
+        "nr": 12,
+        "kort": "Interessegrupper og samfunnsansvar",
+        "tekst": "gjøre rede for virksomheters interessegrupper og samfunnsansvar og reflektere over virksomheters rolle i samfunnet lokalt og globalt"
+      }
+    ]
+  },
+  "temaer": [
+    "selskapsformer",
+    "regnskapsforer-og-revisor",
+    "bilag-og-bokforing",
+    "merverdiavgift-og-varehandel",
+    "arsoppgjoret",
+    "resultatregnskap-og-balanse",
+    "regnskapsanalyse",
+    "priskalkulasjon",
+    "budsjettering",
+    "budsjettkontroll",
+    "teknologi-og-barekraft",
+    "interessegrupper-og-samfunnsansvar"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+ "kode": "NOK02-04",
+ "tittel": "Læreplan i næringslivsøkonomi",
+ "url": "https://www.udir.no/lk20/nok02-04",
+ "sett": [
+  {
+   "kode": "KV1002",
+   "tittel": "Kompetansemål og vurdering økonomistyring",
+   "maal": [
+    "velge og bruke økonomiske modeller til å bearbeide og beregne økonomiske størrelser",
+    "utforske og presentere dagsaktuelle næringslivsøkonomiske temaer eller problemstillinger",
+    "vurdere og velge selskapsform ut fra ansvar og risiko",
+    "gjøre rede for regnskapsførerens autorisasjonsplikt, krav til revisor og revisors rolle",
+    "føre sentrale bilag, foreta og registrere årsoppgjørsdisposisjoner, avslutte regnskapet for et enkeltpersonforetak og presentere regnskapet i samsvar med gjeldende regelverk",
+    "vurdere hvordan endringer i regnskapsposter påvirker resultat og balanse",
+    "gjennomføre regnskapsanalyse og vurdere og sammenligne lønnsomhet, likviditet og finansiering med tidligere år og med virksomheter i samme bransje",
+    "vurdere ulike metoder for priskalkulasjon i handelsbedrifter og fastsette pris på produkt",
+    "gjøre rede for formålet med budsjettering og utarbeide og vurdere resultatbudsjett og enkelt likviditetsbudsjett",
+    "gjennomføre budsjettkontroll og analysere avvik med betydning for virksomheten",
+    "utforske og reflektere over hvordan ny teknologi og automatisering kan bidra til innovasjon og nye forretningsmodeller som er bærekraftige",
+    "gjøre rede for virksomheters interessegrupper og samfunnsansvar og reflektere over virksomheters rolle i samfunnet lokalt og globalt"
+   ]
+  },
+  {
+   "kode": "KV1003",
+   "tittel": "Kompetansemål og vurdering økonomi og ledelse",
+   "maal": [
+    "velge og bruke økonomiske modeller til å bearbeide og beregne økonomiske størrelser",
+    "utforske og presentere dagsaktuelle næringslivsøkonomiske temaer eller problemstillinger",
+    "gjennomføre kostnads-, resultat- og volumanalyser og vurdere lønnsomhet og risiko",
+    "vurdere konkurransesituasjonen ved ulike markedsformer og analysere valg av produksjonsnivå og prissetting ut fra et bedriftsøkonomisk og bærekraftig perspektiv",
+    "vurdere ulike metoder for priskalkulasjon og fastsette pris på produkt",
+    "budsjettere og vurdere kapitalbehov og finansiering av investeringsprosjekter",
+    "gjennomføre investeringsanalyser og vurdere lønnsomhet og risiko ut fra et bedriftsøkonomisk og bærekraftig perspektiv",
+    "vurdere ulike organisasjonsteorier og drøfte hvordan struktur og kultur kan påvirke virksomheters arbeidsmiljø og lønnsomhet",
+    "utforske ledelsesteori og ledelse som funksjon, og vurdere hvordan ulike måter å utøve ledelse på kan påvirke arbeidsmiljø, bedriftskultur, effektivitet og bærekraft"
+   ]
+  }
+ ]
+}
