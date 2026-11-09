@@ -139,8 +139,8 @@ export default function Vilkar() {
               gammel.
             </li>
             <li>
-              Du er bare med på rangeringene hvis du selv slår det på, med et kallenavn. Kallenavnet kan ikke være
-              støtende eller utgi seg for å være noen andre. Vi kan endre eller fjerne kallenavn som bryter med dette.
+              Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. Fornavnet ditt vises på
+              rangeringene bare hvis du selv slår det på.
             </li>
             <li>
               Juks, for eksempel automatiske svar eller flere kontoer for å samle poeng, kan gi tap av poeng, fjerning

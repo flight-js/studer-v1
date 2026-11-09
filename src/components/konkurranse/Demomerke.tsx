@@ -7,7 +7,7 @@ export function Demomerke({ className = "" }: { className?: string }) {
       className={`rounded-xl border border-dashed border-border-strong bg-sunken px-4 py-3 text-sm text-ink-soft ${className}`}
     >
       <span className="font-semibold text-foreground">Eksempeldata.</span> Konkurransen er ikke slått på ennå, så
-      tallene, kallenavnene og skolene her er oppdiktet for å vise hvordan siden vil se ut.
+      tallene, navnene og skolene her er oppdiktet for å vise hvordan siden vil se ut.
     </p>
   );
 }

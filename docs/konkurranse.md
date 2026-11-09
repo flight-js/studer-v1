@@ -26,8 +26,12 @@ måte å løse inn på, men andre måter å tjene poeng på.
 
 ## Hva Studer gjør annerledes
 
-- **Poeng for læring, ikke for aktivitet i seg selv.** Fullført bunke, quiz,
-  miniprøve og formelmatch gir poeng, med mer for bedre resultat.
+- **Poeng for læring, ikke for aktivitet i seg selv.** Quiz, miniprøve og
+  formelmatch gir poeng, med mer for bedre resultat. Flashcards gir ikke poeng,
+  fordi eleven selv svarer «Kan dette» – det kan ikke sjekkes.
+- **Bare skole, ikke kallenavn.** Eleven velger skole (i velkomststegene, på
+  startsiden eller under Konto). Rangeringene viser fornavn og skole, og bare
+  når eleven har slått på «Vis fornavnet mitt på rangeringene».
 - **Ingen «liv» og ingen straff for feil.** Studer er en betalt tjeneste, og
   feil er en del av å lære.
 - **Tak:** hver øving gir poeng én gang per døgn, og maks 150 poeng per døgn.
@@ -39,7 +43,7 @@ måte å løse inn på, men andre måter å tjene poeng på.
 
 | Øving | Poeng |
 | --- | --- |
-| Fullført flashcardbunke (alle kort kan) | 10 |
+| Flashcards | 0 (eleven svarer selv) |
 | Quizrunde | 10 + opptil 5 etter andel riktige |
 | Miniprøve | 15 + opptil 10 etter resultat |
 | Formelmatch-runde | 10 |
@@ -58,15 +62,17 @@ Poengene tildeles i `gi_poeng()`, som bare kalles av `lagre_resultat()` og
 | Typer | `src/lib/database.types.ts` (lagt inn for hånd – generer på nytt etter migrasjonen) |
 | Bibliotek | `src/lib/konkurranse.ts` – med eksempeldata når migrasjonen ikke er kjørt |
 | Sider | `/konkurranse` (poeng, ukeliste, skoleliste, regler) og `/belonninger` (innløsning, kodene dine) |
-| Konto | Kallenavn, skole og «Vis meg på rangeringene» (`components/konkurranse/Konkurranseprofil.tsx`) |
+| Velkommen | `/velkommen` rett etter registrering: trinn, skole og preferanser (utseende, vis fornavn) |
+| Startsiden | «Hvilken skole går du på?»-kort til skolen er valgt (`VelgSkoleKort.tsx`), poengbrikke i menyen |
+| Konto | Skole og «Vis fornavnet mitt på rangeringene» (`components/konkurranse/Konkurranseprofil.tsx`) |
 | Formelmatch | Runden starter og slutter på serveren; resultatskjermen viser topplista for temaet |
 | Varsel | «+12 poeng» nederst på skjermen etter øvinger (`components/Poengvarsel.tsx`) |
-| Startsiden | Poengbrikke i menyen (skjult i produksjon til konkurransen er satt opp) |
 | Juridisk | Utkast til punkt 9 i vilkårene og avsnitt i personvernerklæringen |
 
-Uten migrasjonen viser sidene tydelig merkede eksempeldata (oppdiktede
-kallenavn, skoler og partnere), så de kan prøves. Topplista i formelmatch og
-poengbrikka på startsiden vises ikke i produksjon før databasen er klar.
+Uten migrasjonen viser sidene tydelig merkede eksempeldata (oppdiktede navn,
+skoler og partnere), så de kan prøves. Topplista i formelmatch, poengbrikka og
+skolekortet på startsiden og skolesteget i velkomststegene vises ikke i
+produksjon før databasen er klar.
 
 ## Juks: hva som stoppes, og hva som ikke stoppes
 
@@ -102,12 +108,12 @@ fjerne poeng (`grunn = 'korrigering'`).
   og ikke press til å kjøpe.
 - **Ingen lotteri.** Tilfeldige premier eller trekninger kan kreve tillatelse
   etter lotteriloven. Belønningene er derfor faste og kjøpes med poeng.
-- **Personvern.** Synlighet på rangeringer er av som standard. Bare kallenavn
-  og skole vises, aldri navn eller e-post. Vurder en DPIA (personvernkonse-
-  kvensvurdering) fordi brukerne er mindreårige, og oppdater datoene i
-  personvernerklæringen og vilkårene når teksten publiseres.
-- **Kallenavn.** Formatet sjekkes, men ikke innholdet. Legg inn en enkel
-  filtrering og en «Rapporter kallenavn»-mulighet før lansering.
+- **Personvern.** Fornavn på rangeringene er av som standard, fordi brukerne
+  er 13–19 år (personvern som standard). Skolekonkurransen teller alle med
+  valgt skole, men viser bare tall per skole og krever minst tre elever. Vurder
+  en DPIA (personvernkonsekvensvurdering), og oppdater datoene i
+  personvernerklæringen og vilkårene når teksten publiseres. Skal fornavn vises
+  som standard, bør det vurderes juridisk først.
 - **Partnere.** Det finnes ingen avtaler ennå. Sidene viser «Belønningene
   kommer snart» til ekte belønninger er lagt inn. Ikke vis logoer eller navn på
   partnere uten avtale.

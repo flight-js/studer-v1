@@ -112,7 +112,7 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
               <ol className="border-t border-border-strong">
                 {liste.data.data.map((p) => (
                   <li
-                    key={`${p.plass}-${p.kallenavn}`}
+                    key={`${p.plass}-${p.navn}`}
                     className={`grid grid-cols-[3rem_minmax(0,1fr)_auto] items-baseline gap-3 border-b border-border py-4 ${
                       p.erMeg ? "bg-merke/25 -mx-3 px-3 rounded-lg border-transparent" : ""
                     }`}
@@ -120,7 +120,7 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
                     <span className="font-display text-2xl font-semibold tabular-nums text-muted">{p.plass}</span>
                     <span className="flex flex-col min-w-0">
                       <span className="font-semibold truncate">
-                        {p.kallenavn}
+                        {p.navn}
                         {p.erMeg && <span className="sr-only"> (deg)</span>}
                       </span>
                       {p.skole && <span className="text-sm text-muted truncate">{p.skole}</span>}
@@ -139,11 +139,11 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
               </p>
             )}
 
-            {meg && !demo && meg.kallenavn === "Deg" && (
+            {meg && !demo && meg.navn === "Deg" && (
               <p className="text-sm text-ink-soft">
-                Du ser deg selv i lista, men de andre ser deg ikke.{" "}
+                Du ser deg selv i lista, men de andre ser ikke navnet ditt.{" "}
                 <Link href="/konto#konkurranse" className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground">
-                  Velg kallenavn og bli med
+                  Vis fornavnet ditt
                 </Link>
                 .
               </p>
@@ -201,11 +201,11 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
               Slik tjener du poeng
             </h2>
             <ul className="grid sm:grid-cols-2 gap-x-10 border-t border-border-strong">
-              <Regel navn="Fullført flashcardbunke" poeng="10" />
               <Regel navn="Quizrunde" poeng="10–15" forklaring="Flere poeng jo flere du har riktig." />
               <Regel navn="Miniprøve" poeng="15–25" forklaring="Flere poeng jo bedre resultat." />
               <Regel navn="Formelmatch" poeng="10" forklaring="Raskeste tider havner på topplista for temaet." />
               <Regel navn="Dagens første øving" poeng="5–15" forklaring="Ett ekstra poeng for hver dag på rad." />
+              <Regel navn="Flashcards" poeng="0" forklaring="Gir ikke poeng, fordi du selv svarer om du kan kortet." />
               <Regel navn="Tak per dag" poeng="150" forklaring="Hver øving gir poeng én gang per døgn." />
             </ul>
             <p className="text-sm text-muted max-w-[70ch]">
@@ -232,7 +232,7 @@ export function Ramme({ children }: { children: React.ReactNode }) {
     <div className="flex flex-col flex-1">
       <AppBar back="/" backLabel="Hjem">
         <Link href="/konto#konkurranse" className="hidden sm:inline-flex px-3 py-2 rounded-lg text-sm font-medium text-ink-soft hover:text-foreground hover:bg-sunken transition-colors duration-200">
-          Kallenavn og skole
+          Skole og rangering
         </Link>
       </AppBar>
       {children}

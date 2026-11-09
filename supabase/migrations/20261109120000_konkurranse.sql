@@ -6,11 +6,13 @@
 --   og når en formelmatch-runde avsluttes. Eleven kan aldri skrive poeng selv.
 -- - Tak: hver øving (tema + aktivitet) gir poeng høyst én gang per døgn, og
 --   høyst 150 poeng per døgn til sammen (dagsbonus inkludert). Flashcards gir
---   bare poeng for en fullført bunke.
+--   ikke poeng: eleven svarer selv «Kan dette», så det kan ikke sjekkes.
 -- - Poengene har ingen pengeverdi, kan ikke kjøpes eller overføres, og kan
 --   løses inn i belønninger (se vilkårene).
--- - Rangeringer viser bare kallenavn (og skole hvis eleven har valgt det), og
---   bare for elever som selv har slått på «Vis meg på rangeringer».
+-- - Eleven velger bare skole. Rangeringer viser fornavnet (første ord i navnet
+--   fra registreringen) og skolen, og bare for elever som selv har slått på
+--   «Vis fornavnet mitt på rangeringene» – det er av som standard. Skolelista
+--   teller alle med valgt skole, men viser bare tall per skole.
 --
 -- Etter migrasjonen: last inn supabase/skoler.sql (npm run skoler lager den).
 -- Belønninger og koder legges inn av Studer med service_role (se nederst).
@@ -41,20 +43,20 @@ create policy "Innloggede kan lese aktive skoler" on public.skoler
 -- ---------------------------------------------------------------- Profil
 
 alter table public.profiles
-  add column kallenavn text,
   add column skole_id text references public.skoler (id) on delete set null,
   add column vis_pa_rangering boolean not null default false;
 
--- 3–20 tegn: bokstaver, tall, mellomrom, punktum, bindestrek og understrek.
-alter table public.profiles add constraint profiles_kallenavn_format
-  check (kallenavn is null or kallenavn ~ '^[A-Za-zÆØÅæøåÉéÜü0-9 ._-]{3,20}$');
--- Man kan ikke være synlig på rangeringer uten kallenavn.
-alter table public.profiles add constraint profiles_synlig_krever_kallenavn
-  check (not vis_pa_rangering or kallenavn is not null);
+grant update (skole_id, vis_pa_rangering) on public.profiles to authenticated;
 
-create unique index profiles_kallenavn_unik on public.profiles (lower(kallenavn)) where kallenavn is not null;
-
-grant update (kallenavn, skole_id, vis_pa_rangering) on public.profiles to authenticated;
+-- Navnet som vises på rangeringene: fornavnet (første ord i navnet).
+create function public.visningsnavn(p_navn text)
+returns text
+language sql
+immutable
+set search_path = ''
+as $$
+  select coalesce(nullif(split_part(trim(coalesce(p_navn, '')), ' ', 1), ''), 'Elev');
+$$;
 
 -- ---------------------------------------------------------------- Belønninger
 
@@ -159,8 +161,9 @@ declare
   v_poeng int;
   v_rader int;
 begin
+  -- Bare øvinger der svarene sjekkes, gir poeng. Flashcards gir ikke poeng,
+  -- for der svarer eleven selv om hen kan kortet.
   v_grunnpoeng := case p_aktivitet
-    when 'flashcards' then case when p_resultat >= p_av then 10 else 0 end -- bare hele bunken
     when 'quiz' then 10 + round(5 * v_andel)::int
     when 'miniprove' then 15 + round(10 * v_andel)::int
     when 'formelmatch' then 10
@@ -362,7 +365,7 @@ $$;
 -- Topplisten for et tema: beste tid per elev. Eleven ser alltid seg selv, også
 -- når hen ikke er synlig for andre.
 create function public.formelmatch_toppliste(p_tema_id text, p_antall int default 10)
-returns table (plass int, kallenavn text, skole text, tid_ms int, er_meg boolean, antall int)
+returns table (plass int, navn text, skole text, tid_ms int, er_meg boolean, antall int)
 language sql
 stable
 security definer
@@ -374,20 +377,21 @@ as $$
     where r.tema_id = p_tema_id and r.teller
     group by r.bruker_id
   ), synlige as (
-    select b.bruker_id, b.tid_ms, p.kallenavn, s.navn as skole
+    select b.bruker_id, b.tid_ms, s.navn as skole,
+           case when p.vis_pa_rangering then public.visningsnavn(p.navn) else 'Deg' end as navn
     from beste b
     join public.profiles p on p.id = b.bruker_id
     left join public.skoler s on s.id = p.skole_id
-    where (p.vis_pa_rangering and p.kallenavn is not null) or b.bruker_id = auth.uid()
+    where p.vis_pa_rangering or b.bruker_id = auth.uid()
   ), rangert as (
-    select rank() over (order by tid_ms)::int as plass, kallenavn, skole, tid_ms,
+    select rank() over (order by tid_ms)::int as plass, navn, skole, tid_ms,
            bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall
     from synlige
   )
-  select plass, coalesce(kallenavn, 'Deg'), skole, tid_ms, er_meg, antall
+  select plass, navn, skole, tid_ms, er_meg, antall
   from rangert
   where plass <= least(greatest(p_antall, 1), 50) or er_meg
-  order by plass, kallenavn;
+  order by plass, navn;
 $$;
 
 -- ---------------------------------------------------------------- Rangeringer
@@ -395,7 +399,7 @@ $$;
 -- Ukeslista: poeng tjent denne uka (mandag–søndag, norsk tid). Innløste poeng
 -- trekkes ikke fra. p_omrade: 'alle', 'skole' eller 'trinn'.
 create function public.poengliste(p_omrade text default 'alle', p_antall int default 50)
-returns table (plass int, kallenavn text, skole text, poeng int, er_meg boolean)
+returns table (plass int, navn text, skole text, poeng int, er_meg boolean)
 language sql
 stable
 security definer
@@ -411,28 +415,30 @@ as $$
     where l.dag >= uke.fra and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch')
     group by l.bruker_id
   ), synlige as (
-    select s.bruker_id, s.poeng, p.kallenavn, sk.navn as skole
+    select s.bruker_id, s.poeng, sk.navn as skole,
+           case when p.vis_pa_rangering then public.visningsnavn(p.navn) else 'Deg' end as navn
     from summer s
     join public.profiles p on p.id = s.bruker_id
     left join public.skoler sk on sk.id = p.skole_id
-    where ((p.vis_pa_rangering and p.kallenavn is not null) or s.bruker_id = auth.uid())
+    where (p.vis_pa_rangering or s.bruker_id = auth.uid())
       and case p_omrade
         when 'skole' then p.skole_id = (select skole_id from meg)
         when 'trinn' then p.trinn = (select trinn from meg)
         else true
       end
   ), rangert as (
-    select rank() over (order by poeng desc)::int as plass, kallenavn, skole, poeng, bruker_id = auth.uid() as er_meg
+    select rank() over (order by poeng desc)::int as plass, navn, skole, poeng, bruker_id = auth.uid() as er_meg
     from synlige
   )
-  select plass, coalesce(kallenavn, 'Deg'), skole, poeng, er_meg
+  select plass, navn, skole, poeng, er_meg
   from rangert
   where plass <= least(greatest(p_antall, 1), 100) or er_meg
-  order by plass, kallenavn;
+  order by plass, navn;
 $$;
 
--- Skolelista denne uka: snitt per aktiv elev (så små skoler kan vinne),
--- bare skoler med minst tre synlige elever som har tjent poeng.
+-- Skolelista denne uka: snitt per aktiv elev (så små skoler kan vinne), bare
+-- skoler med minst tre elever som har tjent poeng. Alle med valgt skole teller,
+-- fordi lista bare viser tall per skole og aldri hvem som er med.
 create function public.skoleliste(p_antall int default 20)
 returns table (plass int, skole_id text, skole text, kommune text, elever int, poeng int, snitt int, er_min boolean)
 language sql
@@ -451,7 +457,7 @@ as $$
     select p.skole_id, count(*)::int as elever, sum(s.poeng)::int as poeng
     from summer s
     join public.profiles p on p.id = s.bruker_id
-    where p.vis_pa_rangering and p.skole_id is not null
+    where p.skole_id is not null
     group by p.skole_id
     having count(*) >= 3
   ), rangert as (
@@ -586,6 +592,7 @@ $$;
 -- ---------------------------------------------------------------- Rettigheter
 
 revoke execute on function public.poeng_streak(uuid) from public, anon, authenticated;
+revoke execute on function public.visningsnavn(text) from public, anon, authenticated;
 revoke execute on function public.gi_poeng(uuid, text, text, numeric, int) from public, anon, authenticated;
 
 revoke execute on function public.lagre_resultat(text, text, numeric, int) from public, anon;

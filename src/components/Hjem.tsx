@@ -11,6 +11,7 @@ import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Fortsett } from "@/components/hjem/Fortsett";
 import { IDag } from "@/components/hjem/IDag";
 import { Poengbrikke } from "@/components/konkurranse/Poengbrikke";
+import { VelgSkoleKort } from "@/components/konkurranse/VelgSkoleKort";
 import { Logo } from "@/components/Logo";
 import { ArrowRight } from "@/components/icons";
 import { Tips } from "@/components/Tips";
@@ -178,6 +179,8 @@ export function Hjem() {
             <div className="mb-12 lg:mb-16 empty:hidden">
               <Abonnementskort />
             </div>
+
+            {bruker && <VelgSkoleKort brukerId={bruker.id} />}
 
             <div className="flex flex-wrap items-end justify-between gap-4">
               <Ordtittel

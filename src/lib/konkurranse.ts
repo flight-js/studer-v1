@@ -9,7 +9,8 @@ import { supabase } from "./supabase";
 export type Med<T> = { data: T; demo: boolean };
 
 export type Poengstatus = { saldo: number; denneUka: number; iDag: number; tak: number; streak: number };
-export type Plassering = { plass: number; kallenavn: string; skole: string | null; poeng: number; erMeg: boolean };
+// navn: fornavnet, eller «Deg» for eleven selv når hen ikke er synlig for andre.
+export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean };
 export type Skoleplass = {
   plass: number;
   skoleId: string;
@@ -20,7 +21,7 @@ export type Skoleplass = {
   snitt: number;
   erMin: boolean;
 };
-export type Toppplass = { plass: number; kallenavn: string; skole: string | null; tidMs: number; erMeg: boolean; antall: number };
+export type Toppplass = { plass: number; navn: string; skole: string | null; tidMs: number; erMeg: boolean; antall: number };
 export type Avslutning = { tidMs: number; teller: boolean; forrigeBeste: number | null; poeng: number };
 export type Belonning = {
   id: string;
@@ -44,7 +45,7 @@ export type Kupong = {
   innlost: string;
 };
 export type Skole = { id: string; navn: string; kommune: string };
-export type Konkurranseprofil = { kallenavn: string | null; skole: Skole | null; vis: boolean };
+export type Konkurranseprofil = { skole: Skole | null; vis: boolean };
 export type Omrade = "alle" | "skole" | "trinn";
 
 // Feilkodene PostgREST og Postgres gir når funksjonen, kolonnen eller tabellen
@@ -81,7 +82,7 @@ export async function hentPoengliste(omrade: Omrade): Promise<Med<Plassering[]>>
   if (demo) return demo;
   return {
     demo: false,
-    data: (res.data ?? []).map((r) => ({ plass: r.plass, kallenavn: r.kallenavn, skole: r.skole, poeng: r.poeng, erMeg: r.er_meg })),
+    data: (res.data ?? []).map((r) => ({ plass: r.plass, navn: r.navn, skole: r.skole, poeng: r.poeng, erMeg: r.er_meg })),
   };
 }
 
@@ -114,7 +115,7 @@ export async function hentToppliste(temaId: string): Promise<Med<Toppplass[]>> {
     demo: false,
     data: (res.data ?? []).map((r) => ({
       plass: r.plass,
-      kallenavn: r.kallenavn,
+      navn: r.navn,
       skole: r.skole,
       tidMs: r.tid_ms,
       erMeg: r.er_meg,
@@ -224,29 +225,27 @@ export async function sokSkoler(tekst: string): Promise<Skole[]> {
 export async function hentKonkurranseprofil(brukerId: string): Promise<Med<Konkurranseprofil>> {
   const { data, error } = await supabase
     .from("profiles")
-    .select("kallenavn, vis_pa_rangering, skole:skoler(id, navn, kommune)")
+    .select("vis_pa_rangering, skole:skoler(id, navn, kommune)")
     .eq("id", brukerId)
     .maybeSingle();
   if (error) {
-    if (ikkeSattOpp(error)) return { demo: true, data: { kallenavn: null, skole: null, vis: false } };
+    if (ikkeSattOpp(error)) return { demo: true, data: { skole: null, vis: false } };
     throw new Error(error.message);
   }
-  return { demo: false, data: { kallenavn: data?.kallenavn ?? null, skole: data?.skole ?? null, vis: !!data?.vis_pa_rangering } };
+  return { demo: false, data: { skole: data?.skole ?? null, vis: !!data?.vis_pa_rangering } };
 }
 
-export async function lagreKonkurranseprofil(brukerId: string, p: { kallenavn: string; skoleId: string | null; vis: boolean }) {
-  const kallenavn = p.kallenavn.trim() || null;
-  const { error } = await supabase
-    .from("profiles")
-    .update({ kallenavn, skole_id: p.skoleId, vis_pa_rangering: p.vis && !!kallenavn })
-    .eq("id", brukerId);
+async function oppdaterProfil(brukerId: string, endring: { skole_id?: string | null; vis_pa_rangering?: boolean }) {
+  const { error } = await supabase.from("profiles").update(endring).eq("id", brukerId);
   if (!error) return;
-  if (ikkeSattOpp(error)) throw new Error("Konkurranse er ikke slått på ennå, så ingenting ble lagret.");
-  if (error.code === "23505") throw new Error("Kallenavnet er tatt. Prøv et annet.");
-  if (error.code === "23514")
-    throw new Error("Kallenavnet må være 3–20 tegn: bokstaver, tall, mellomrom, punktum, bindestrek eller understrek.");
+  if (ikkeSattOpp(error)) throw new Error("Konkurransen er ikke slått på ennå, så ingenting ble lagret.");
   throw new Error(error.message);
 }
+
+export const lagreSkole = (brukerId: string, skoleId: string | null) => oppdaterProfil(brukerId, { skole_id: skoleId });
+
+export const lagreKonkurranseprofil = (brukerId: string, p: { skoleId: string | null; vis: boolean }) =>
+  oppdaterProfil(brukerId, { skole_id: p.skoleId, vis_pa_rangering: p.vis });
 
 // ---------------------------------------------------------------- Poengvarsel
 
@@ -261,26 +260,26 @@ export const formaterTid = (ms: number) =>
 
 // ---------------------------------------------------------------- Eksempeldata
 
-// Bare for å vise sidene før migrasjonen er kjørt. Kallenavn, skoler og
-// partnere er oppdiktet, og sidene merker dem som eksempler.
+// Bare for å vise sidene før migrasjonen er kjørt. Navn, skoler og partnere
+// er oppdiktet, og sidene merker dem som eksempler.
 const EKSEMPEL = {
   status: { saldo: 1240, denneUka: 310, iDag: 45, tak: 150, streak: 4 } satisfies Poengstatus,
   poengliste: {
     alle: [
-      { plass: 1, kallenavn: "Formelfrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
-      { plass: 2, kallenavn: "Pi-Petter", skole: null, poeng: 925, erMeg: false },
-      { plass: 3, kallenavn: "Molekylmia", skole: "Elvedalen skole (eksempel)", poeng: 870, erMeg: false },
-      { plass: 4, kallenavn: "Avansert-Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
-      { plass: 5, kallenavn: "Deg", skole: null, poeng: 310, erMeg: true },
+      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
+      { plass: 2, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", poeng: 925, erMeg: false },
+      { plass: 3, navn: "Mia", skole: "Elvedalen skole (eksempel)", poeng: 870, erMeg: false },
+      { plass: 4, navn: "Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
+      { plass: 5, navn: "Deg", skole: null, poeng: 310, erMeg: true },
     ],
     skole: [
-      { plass: 1, kallenavn: "Formelfrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
-      { plass: 2, kallenavn: "Avansert-Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
-      { plass: 3, kallenavn: "Deg", skole: "Fjordbyen vgs (eksempel)", poeng: 310, erMeg: true },
+      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
+      { plass: 2, navn: "Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
+      { plass: 3, navn: "Deg", skole: "Fjordbyen vgs (eksempel)", poeng: 310, erMeg: true },
     ],
     trinn: [
-      { plass: 1, kallenavn: "Pi-Petter", skole: null, poeng: 925, erMeg: false },
-      { plass: 2, kallenavn: "Deg", skole: null, poeng: 310, erMeg: true },
+      { plass: 1, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", poeng: 925, erMeg: false },
+      { plass: 2, navn: "Deg", skole: null, poeng: 310, erMeg: true },
     ],
   } satisfies Record<Omrade, Plassering[]>,
   skoleliste: [
@@ -289,10 +288,10 @@ const EKSEMPEL = {
     { plass: 3, skoleId: "e3", skole: "Bakkely ungdomsskole (eksempel)", kommune: "Eksempeldal", elever: 3, poeng: 810, snitt: 270, erMin: false },
   ] satisfies Skoleplass[],
   toppliste: [
-    { plass: 1, kallenavn: "Formelfrid", skole: "Fjordbyen vgs (eksempel)", tidMs: 14800, erMeg: false, antall: 4 },
-    { plass: 2, kallenavn: "Molekylmia", skole: "Elvedalen skole (eksempel)", tidMs: 17300, erMeg: false, antall: 4 },
-    { plass: 3, kallenavn: "Deg", skole: null, tidMs: 21900, erMeg: true, antall: 4 },
-    { plass: 4, kallenavn: "Pi-Petter", skole: null, tidMs: 26400, erMeg: false, antall: 4 },
+    { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", tidMs: 14800, erMeg: false, antall: 4 },
+    { plass: 2, navn: "Mia", skole: "Elvedalen skole (eksempel)", tidMs: 17300, erMeg: false, antall: 4 },
+    { plass: 3, navn: "Deg", skole: null, tidMs: 21900, erMeg: true, antall: 4 },
+    { plass: 4, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", tidMs: 26400, erMeg: false, antall: 4 },
   ] satisfies Toppplass[],
   belonninger: [
     {

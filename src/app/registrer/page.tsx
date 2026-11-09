@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import { AuthRamme, Felt, Knapp, Melding, useNeste } from "@/components/AuthRamme";
 import { Kodesteg } from "@/components/Kodesteg";
 import { feilmelding, useAuth } from "@/lib/auth";
@@ -26,11 +26,15 @@ function Registrer() {
   const [sender, setSender] = useState(false);
   const [skjema, setSkjema] = useState({ navn: "", epost: "" });
   const [kodeTil, setKodeTil] = useState<string | null>(null);
+  // Settes før signUp, så en helt ny konto går til velkomststegene (trinn, skole
+  // og preferanser) – også når innloggingen skjer før signUp har svart.
+  const nyKonto = useRef(false);
+  const velkommen = `/velkommen${neste !== "/" ? `?neste=${encodeURIComponent(neste)}` : ""}`;
 
   // Innlogget (også rett etter at koden er bekreftet): videre dit man skulle.
   useEffect(() => {
-    if (bruker) router.replace(neste);
-  }, [bruker, neste, router]);
+    if (bruker) router.replace(nyKonto.current ? velkommen : neste);
+  }, [bruker, neste, router, velkommen]);
 
   async function registrer(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -43,16 +47,21 @@ function Registrer() {
 
     setSender(true);
     setFeil(null);
+    nyKonto.current = true;
     const { data, error } = await supabase.auth.signUp({
       email: epost,
       password: passord,
       options: { data: { navn } },
     });
     setSender(false);
-    if (error) return setFeil(feilmelding(error));
+    if (error) {
+      nyKonto.current = false;
+      return setFeil(feilmelding(error));
+    }
     // Når e-posten allerede har en bekreftet konto, svarer Supabase med en
     // bruker uten identiteter og sender ingen kode.
     if (data.user && data.user.identities?.length === 0) {
+      nyKonto.current = false;
       return setFeil(feilmelding({ code: "user_already_exists", message: "" }));
     }
     // Er e-postbekreftelse slått av, er man logget inn med en gang (effekten over sender videre).
@@ -65,7 +74,7 @@ function Registrer() {
         epost={kodeTil}
         type="signup"
         tittel="Bekreft e-posten din"
-        onBekreftet={() => router.replace(neste)}
+        onBekreftet={() => router.replace(velkommen)}
         onTilbake={() => setKodeTil(null)}
       />
     );
