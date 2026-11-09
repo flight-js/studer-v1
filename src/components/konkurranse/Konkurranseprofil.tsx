@@ -80,7 +80,7 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
           </p>
         )}
       </div>
-      {demo && <p className="text-xs text-muted">Konkurransen er ikke slått på ennå, så ingenting blir lagret, og skolelista viser bare eksempler.</p>}
+      {demo && <p className="text-xs text-muted">Konkurransen er ikke slått på ennå, så ingenting blir lagret.</p>}
     </form>
   );
 }

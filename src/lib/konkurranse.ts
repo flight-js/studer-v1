@@ -206,20 +206,67 @@ export async function hentMineKuponger(): Promise<Med<Kupong[]>> {
 
 // ---------------------------------------------------------------- Profil og skoler
 
-export async function sokSkoler(tekst: string): Promise<Skole[]> {
-  const sok = tekst.trim();
-  if (sok.length < 2) return [];
-  const { data, error } = await supabase
-    .from("skoler")
-    .select("id, navn, kommune")
-    .ilike("navn", `%${sok.replace(/[%_]/g, "")}%`)
-    .order("navn")
-    .limit(12);
-  if (error) {
-    if (ikkeSattOpp(error)) return EKSEMPEL.skoler.filter((s) => s.navn.toLowerCase().includes(sok.toLowerCase()));
-    throw new Error(error.message);
+// Alle skoler med ungdomstrinn og alle videregående skoler i Norge, fra
+// Nasjonalt skoleregister (public/skoler.json, lages av `npm run skoler`).
+// Søket skjer i nettleseren: lista lastes ned én gang (ca. 30 kB komprimert)
+// og fungerer også før konkurransen er slått på i databasen.
+type Skoleindeks = { skole: Skole; navn: string; tekst: string };
+let skoleindeks: Promise<Skoleindeks[]> | null = null;
+
+// Små bokstaver, uten aksenter (é, á, š …) men med æ, ø og å, og bare bokstaver,
+// tall og mellomrom.
+const normaliser = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-̉̋-ͯ]/g, "")
+    .normalize("NFC")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+
+// Registeret skriver «Amalie Skram videregående skole», elevene skriver «vgs».
+const FORKORTELSER: Record<string, string[]> = {
+  vgs: ["vgs", "videregående", "vidaregåande"],
+  vg: ["vg", "videregående", "vidaregåande"],
+};
+
+export function lastSkoler(): Promise<Skoleindeks[]> {
+  skoleindeks ??= fetch("/skoler.json")
+    .then((r) => {
+      if (!r.ok) throw new Error("Fikk ikke hentet skolelista.");
+      return r.json() as Promise<Skole[]>;
+    })
+    .then((liste) =>
+      liste.map((skole) => {
+        const navn = normaliser(skole.navn);
+        return { skole, navn, tekst: ` ${navn} ${normaliser(skole.kommune)}` };
+      }),
+    )
+    .catch((e) => {
+      skoleindeks = null; // prøv igjen ved neste søk
+      throw e;
+    });
+  return skoleindeks;
+}
+
+// Hvert ord i søket må finnes i navnet eller kommunen. Skoler der navnet
+// begynner med søket, kommer først, så skoler der et ord i navnet begynner med
+// det første søkeordet, så treff bare på kommunen.
+export async function sokSkoler(tekst: string, maks = 12): Promise<{ treff: Skole[]; antall: number }> {
+  const sok = normaliser(tekst);
+  if (sok.length < 2) return { treff: [], antall: 0 };
+  const ord = sok.split(" ");
+  const varianter = ord.map((o) => FORKORTELSER[o] ?? [o]);
+  const liste = await lastSkoler();
+
+  const treff: { skole: Skole; rang: number }[] = [];
+  for (const s of liste) {
+    if (!varianter.every((v) => v.some((o) => s.tekst.includes(o)))) continue;
+    const rang = s.navn.startsWith(sok) ? 0 : varianter[0].some((o) => ` ${s.navn}`.includes(` ${o}`)) ? 1 : 2;
+    treff.push({ skole: s.skole, rang });
   }
-  return data ?? [];
+  treff.sort((a, b) => a.rang - b.rang || a.skole.navn.localeCompare(b.skole.navn, "nb"));
+  return { treff: treff.slice(0, maks).map((t) => t.skole), antall: treff.length };
 }
 
 export async function hentKonkurranseprofil(brukerId: string): Promise<Med<Konkurranseprofil>> {
@@ -319,9 +366,4 @@ const EKSEMPEL = {
       innlostAvMeg: false,
     },
   ] satisfies Belonning[],
-  skoler: [
-    { id: "e1", navn: "Fjordbyen vgs (eksempel)", kommune: "Eksempelvik" },
-    { id: "e2", navn: "Elvedalen skole (eksempel)", kommune: "Eksempelvik" },
-    { id: "e3", navn: "Bakkely ungdomsskole (eksempel)", kommune: "Eksempeldal" },
-  ] satisfies Skole[],
 };

@@ -58,7 +58,7 @@ Poengene tildeles i `gi_poeng()`, som bare kalles av `lagre_resultat()` og
 | Del | Filer |
 | --- | --- |
 | Database | `supabase/migrations/20261109120000_konkurranse.sql` (ikke kjørt) |
-| Skoler fra NSR | `scripts/hent-skoler.mjs` (`npm run skoler`) → `supabase/skoler.sql` (1 658 skoler) |
+| Skoler fra NSR | `scripts/hent-skoler.mjs` (`npm run skoler`) → `public/skoler.json` (søket) og `supabase/skoler.sql` (tabellen) – se «Skolelista» under |
 | Typer | `src/lib/database.types.ts` (lagt inn for hånd – generer på nytt etter migrasjonen) |
 | Bibliotek | `src/lib/konkurranse.ts` – med eksempeldata når migrasjonen ikke er kjørt |
 | Sider | `/konkurranse` (poeng, ukeliste, skoleliste, regler) og `/belonninger` (innløsning, kodene dine) |
@@ -70,9 +70,38 @@ Poengene tildeles i `gi_poeng()`, som bare kalles av `lagre_resultat()` og
 | Juridisk | Utkast til punkt 9 i vilkårene og avsnitt i personvernerklæringen |
 
 Uten migrasjonen viser sidene tydelig merkede eksempeldata (oppdiktede navn,
-skoler og partnere), så de kan prøves. Topplista i formelmatch, poengbrikka og
+skoler og partnere), så de kan prøves. Skolevelgeren søker likevel i den ekte
+skolelista, men skolen lagres ikke før migrasjonen er kjørt. Topplista i formelmatch, poengbrikka og
 skolekortet på startsiden og skolesteget i velkomststegene vises ikke i
 produksjon før databasen er klar.
+
+## Skolelista
+
+Alle aktive skoler med ungdomstrinn og alle videregående skoler i Norge,
+offentlige og private, fra Nasjonalt skoleregister (NSR, Udir, fritt
+tilgjengelig under NLOD). Per 9. november 2026: **1 683 skoler** – 1 187 med
+ungdomstrinn, 500 videregående (noen har begge) og 23 der trinnene ikke er
+registrert.
+
+- `npm run skoler` henter alt på nytt (cirka 3 minutter) og skriver to filer med
+  de samme skolene: `public/skoler.json`, som skolevelgeren søker i, og
+  `supabase/skoler.sql`, som fyller tabellen `skoler` (`profiles.skole_id`
+  peker dit). Kjør skriptet en gang i året eller når noen savner skolen sin, og
+  kjør `skoler.sql` på nytt i Supabase etterpå. Den oppdaterer eksisterende
+  skoler og legger til nye, men sletter ikke nedlagte, så ingen mister skolen
+  sin.
+- Søket skjer i nettleseren: lista (cirka 25 kB komprimert) lastes ned når
+  søkefeltet får fokus. Hvert ord må finnes i navnet eller kommunen, uten å
+  bry seg om store/små bokstaver eller aksenter (karasjok finner Kárášjohka), og
+  «vgs» finner «videregående skole». Treff der navnet begynner med søket, kommer
+  først.
+- Navnene ryddes for juridiske tillegg («Stiftelsen …», «… AS», «… Sti»,
+  «avd Undervisning»). Avdelinger med stedsnavn beholdes. Skoler som står dobbelt
+  i registeret (samme navn og kommune), slås sammen.
+- Rene barneskoler og voksenopplæring er ikke med. Rundt 90 grunnskoler mangler
+  trinn i NSR. Av dem tas de som ser ut som skoler med ansatte med (heller en
+  barneskole for mye enn en ungdomsskole som mangler). Administrasjon, tiltak og
+  enheter uten ansatte holdes utenfor. Skriptet skriver ut begge listene.
 
 ## Juks: hva som stoppes, og hva som ikke stoppes
 

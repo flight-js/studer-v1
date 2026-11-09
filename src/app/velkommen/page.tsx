@@ -146,7 +146,7 @@ function Velkommen() {
                   tekst="Poengene dine teller for skolen i skolekonkurransen. Den viser bare tall per skole, aldri hvem som er med."
                 />
                 <Skolevelger valgt={valgtSkole} onVelg={setSkole} etikett="" mork />
-                {k?.demo && <p className="text-xs text-background/55">Eksempel: konkurransen er ikke slått på ennå, så skolelista viser bare oppdiktede skoler.</p>}
+                {k?.demo && <p className="text-xs text-background/55">Eksempel: konkurransen er ikke slått på ennå, så skolen blir ikke lagret.</p>}
               </>
             )}
 

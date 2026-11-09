@@ -2,10 +2,11 @@
 
 import { useEffect, useId, useState } from "react";
 import { Close } from "@/components/icons";
-import { sokSkoler, type Skole } from "@/lib/konkurranse";
+import { lastSkoler, sokSkoler, type Skole } from "@/lib/konkurranse";
 
-// Søk i skolelista (Nasjonalt skoleregister): skriv minst to bokstaver, velg
-// fra lista. Brukes på kontosiden, på startsiden og i velkomststegene.
+// Søk blant alle ungdomsskoler og videregående skoler i Norge (Nasjonalt
+// skoleregister): skriv minst to bokstaver av navnet eller kommunen, velg fra
+// lista. Brukes på kontosiden, på startsiden og i velkomststegene.
 // mork: på mørk bakgrunn.
 export function Skolevelger({
   valgt,
@@ -20,7 +21,9 @@ export function Skolevelger({
 }) {
   const [sok, setSok] = useState("");
   const [treff, setTreff] = useState<Skole[]>([]);
+  const [antall, setAntall] = useState(0);
   const [leter, setLeter] = useState(false);
+  const [feil, setFeil] = useState(false);
   const sokId = useId();
   const listeId = useId();
 
@@ -31,11 +34,20 @@ export function Skolevelger({
       setLeter(true);
       sokSkoler(sok)
         .then(
-          (s) => aktiv && setTreff(s),
-          () => aktiv && setTreff([]),
+          (s) => {
+            if (!aktiv) return;
+            setTreff(s.treff);
+            setAntall(s.antall);
+            setFeil(false);
+          },
+          () => {
+            if (!aktiv) return;
+            setTreff([]);
+            setFeil(true);
+          },
         )
         .finally(() => aktiv && setLeter(false));
-    }, 200);
+    }, 150);
     return () => {
       aktiv = false;
       window.clearTimeout(t);
@@ -81,13 +93,15 @@ export function Skolevelger({
         id={sokId}
         value={sok}
         onChange={(e) => setSok(e.target.value)}
+        // Hent skolelista så snart feltet får fokus, så første søk er raskt.
+        onFocus={() => void lastSkoler().catch(() => {})}
         role="combobox"
         aria-label={etikett ? undefined : "Søk etter skolen din"}
         aria-expanded={visListe}
         aria-controls={listeId}
         aria-autocomplete="list"
         autoComplete="off"
-        placeholder="Søk etter skolen din"
+        placeholder="Skolenavn eller kommune"
         className={`rounded-xl border-[1.5px] px-4 py-3 text-[15px] outline-none transition-colors duration-200 ${felt}`}
       />
       {visListe && (
@@ -97,7 +111,8 @@ export function Skolevelger({
           className={`rise-rask rounded-xl border max-h-64 overflow-auto ${mork ? "border-natt-linje bg-natt-hevet" : "border-border bg-background"}`}
         >
           {treff.length ? (
-            treff.map((s) => (
+            <>
+            {treff.map((s) => (
               <li key={s.id} role="option" aria-selected={false}>
                 <button
                   type="button"
@@ -111,9 +126,21 @@ export function Skolevelger({
                   <span className={`block text-xs ${dempet}`}>{s.kommune}</span>
                 </button>
               </li>
-            ))
+            ))}
+            {antall > treff.length && (
+              <li role="presentation" className={`px-4 py-2.5 text-xs border-t ${mork ? "border-natt-linje" : "border-border"} ${dempet}`}>
+                Viser {treff.length} av {antall.toLocaleString("nb-NO")}. Skriv mer av navnet eller kommunen.
+              </li>
+            )}
+            </>
           ) : (
-            <li className={`px-4 py-3 text-sm ${dempet}`}>{leter ? "Søker …" : "Fant ingen skole med det navnet."}</li>
+            <li className={`px-4 py-3 text-sm ${dempet}`}>
+              {leter
+                ? "Søker …"
+                : feil
+                  ? "Fikk ikke hentet skolelista. Sjekk nettet og prøv igjen."
+                  : "Fant ingen skole. Prøv kommunen, eller en del av navnet."}
+            </li>
           )}
         </ul>
       )}
