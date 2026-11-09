@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
+import { Konkurranseprofil } from "@/components/konkurranse/Konkurranseprofil";
 import { Temavelger } from "@/components/Temavelger";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
@@ -110,6 +111,8 @@ export default function KontoPage() {
               <Temavelger medTekst />
             </div>
           </section>
+
+          <Konkurranseprofil brukerId={bruker.id} />
 
           <SlettKonto medAbonnement={harAbonnement(profil)} onSlettet={() => setSlettet(true)} />
         </main>

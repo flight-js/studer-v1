@@ -18,6 +18,7 @@
     "content:rapporter": "node scripts/rapporter.mjs",
     "content:forside": "node scripts/lag-forsidedata.mjs",
     "forslag": "node scripts/forslag.mjs",
+    "skoler": "node scripts/hent-skoler.mjs",
     "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs",
     "ai:vurder-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/vurder-test.mjs"
   },

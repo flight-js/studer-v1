@@ -7,6 +7,7 @@ import { Avkrysning } from "@/components/Avkrysning";
 import { ArrowRight, ChevronRight, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Tips } from "@/components/Tips";
+import { Toppliste } from "@/components/konkurranse/Toppliste";
 import {
   MAKS_PER_RUNDE,
   erPar,
@@ -21,6 +22,7 @@ import {
   type Brett,
   type Brikke,
 } from "@/lib/formelmatch";
+import { avsluttFormelmatch, startFormelmatch, type Avslutning } from "@/lib/konkurranse";
 import { type Formel } from "@/lib/pensum";
 import { stokk } from "@/lib/stokk";
 import { TIPS } from "@/lib/tips";
@@ -111,6 +113,9 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
   const [tid, setTid] = useState(0);
   const [rekord, setRekord] = useState<{ forrige: number | null; ny: boolean }>({ forrige: null, ny: false });
   const fra = useRef<{ id: string; rect: DOMRect } | null>(null);
+  // Runden på serveren (konkurransen): startes sammen med klokka, avsluttes med tiden.
+  const serverRunde = useRef<Promise<string | null> | null>(null);
+  const [avslutning, setAvslutning] = useState<{ nr: number; res: Avslutning | null }>({ nr: 0, res: null });
   const plasser = useRef<(HTMLSpanElement | null)[]>([]);
 
   const brett = runde[s.brettNr];
@@ -150,9 +155,15 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
       setTid(ms);
       setRekord({ forrige, ny });
       setFase("ferdig");
+      // Send tiden til serveren; topplista hentes på nytt når svaret er kommet.
+      const ventende = serverRunde.current;
+      serverRunde.current = null;
+      ventende
+        ?.then((id) => (id ? avsluttFormelmatch(id, ms, antallPar, s.straffer) : null))
+        .then((res) => setAvslutning((a) => ({ nr: a.nr + 1, res })));
     }, BORTE);
     return () => clearTimeout(t);
-  }, [fase, tomt, s.brettNr, s.sist, s.straffer, runde.length, start, temaId]);
+  }, [fase, tomt, s.brettNr, s.sist, s.straffer, runde.length, start, temaId, antallPar]);
 
   // Brikken glir opp i likningen: innholdet i plassen begynner der brikken står,
   // og glir på plass (FLIP).
@@ -169,6 +180,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
   }, [s.likning]);
 
   function begynn(ny: Brett[]) {
+    serverRunde.current = startFormelmatch(temaId);
     setRunde(ny);
     send({ type: "ny" });
     const no = performance.now();
@@ -307,6 +319,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
             onIgjen={() => begynn(lagRunde(valgte))}
             onBommet={() => begynn(lagRunde(medBommet(runde.flatMap((r) => r.formler), s.bommet, valgte)))}
             onVelg={() => setFase("start")}
+            toppliste={<Toppliste temaId={temaId} avslutning={avslutning.res} runde={avslutning.nr} />}
           />
         )}
       </main>
@@ -663,6 +676,7 @@ function Resultat({
   onIgjen,
   onBommet,
   onVelg,
+  toppliste,
 }: {
   tid: number;
   rekord: { forrige: number | null; ny: boolean };
@@ -674,6 +688,7 @@ function Resultat({
   onIgjen: () => void;
   onBommet: () => void;
   onVelg: () => void;
+  toppliste: React.ReactNode;
 }) {
   const melding =
     rekord.ny && rekord.forrige !== null
@@ -735,6 +750,8 @@ function Resultat({
           </Link>
         </div>
       </div>
+
+      {toppliste}
 
       <section aria-labelledby="formler-tittel" className="flex flex-col gap-3">
         <h2 id="formler-tittel" className="text-sm font-medium text-muted">

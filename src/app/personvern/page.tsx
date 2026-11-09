@@ -51,6 +51,12 @@ export default function Personvern() {
           kan dem, og når de skal repeteres. Grunnlaget er avtalen med deg.
         </p>
         <p>
+          <strong>Poeng og konkurranse.</strong> Poengene du tjener og hva de kom fra, tidene dine i formelmatch og
+          kodene du har løst inn. Velger du kallenavn, skole og å være med på rangeringene, kan andre innloggede elever
+          se kallenavnet, skolen og poengene eller tidene dine – aldri navnet eller e-posten din. Det er av som
+          standard, og du kan slå det av når du vil under Konto. Grunnlaget er avtalen med deg.
+        </p>
+        <p>
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på
           skriveoppgavene i miniprøven, sendes til OpenAI for å lage svar og retting. Vi lagrer ikke samtalene eller
           svarene dine. Vi lagrer bare poengsummen fra miniprøven, og hvor mange meldinger og rettinger du har brukt per

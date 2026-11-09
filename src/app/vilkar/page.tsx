@@ -125,7 +125,36 @@ export default function Vilkar() {
         </p>
       </Avsnitt>
 
-      <Avsnitt nr={9} tittel="Innhold og rettigheter">
+      <div id="poeng" className="scroll-mt-24">
+        <Avsnitt nr={9} tittel="Poeng, konkurranse og belønninger">
+          <p>
+            Du får poeng når du øver i Studer, etter reglene som står på siden Konkurranse. Hver øving gir poeng høyst
+            én gang per døgn, og det er et tak på hvor mange poeng du kan få per dag.
+          </p>
+          <ul>
+            <li>Poengene har ingen pengeverdi. De kan ikke kjøpes, selges, overføres til andre eller veksles i penger.</li>
+            <li>
+              Poengene kan løses inn i belønninger fra samarbeidspartnere så lenge det finnes belønninger. Hver
+              belønning har egne vilkår fra partneren og kan løses inn én gang per person. Kontoen må være minst en uke
+              gammel.
+            </li>
+            <li>
+              Du er bare med på rangeringene hvis du selv slår det på, med et kallenavn. Kallenavnet kan ikke være
+              støtende eller utgi seg for å være noen andre. Vi kan endre eller fjerne kallenavn som bryter med dette.
+            </li>
+            <li>
+              Juks, for eksempel automatiske svar eller flere kontoer for å samle poeng, kan gi tap av poeng, fjerning
+              fra rangeringene og at kontoen stenges.
+            </li>
+            <li>
+              Sletter du kontoen, forsvinner poengene. Vi kan endre reglene for poeng og belønninger, og hvis vi
+              avslutter ordningen, sier vi fra i god tid, så du kan bruke poengene dine.
+            </li>
+          </ul>
+        </Avsnitt>
+      </div>
+
+      <Avsnitt nr={10} tittel="Innhold og rettigheter">
         <p>
           Tekstene, kortene, spørsmålene og utseendet i Studer tilhører oss. Du kan bruke dem til din egen læring.
           Kompetansemålene er hentet fra læreplanene til Utdanningsdirektoratet.
@@ -135,7 +164,7 @@ export default function Vilkar() {
         </p>
       </Avsnitt>
 
-      <Avsnitt nr={10} tittel="Feil, drift og ansvar">
+      <Avsnitt nr={11} tittel="Feil, drift og ansvar">
         <p>
           Vi jobber for at innholdet skal være riktig og følge læreplanene. En del av innholdet er laget med hjelp av KI,
           og ikke alt er gjennomgått av lærere, så det kan inneholde feil. Finner du en feil, bruk «Rapporter»-knappen.
@@ -152,13 +181,13 @@ export default function Vilkar() {
         </p>
       </Avsnitt>
 
-      <Avsnitt nr={11} tittel="Endringer i vilkårene">
+      <Avsnitt nr={12} tittel="Endringer i vilkårene">
         <p>
           Vi kan endre vilkårene. Større endringer varsler vi om på e-post eller i Studer minst 30 dager før de gjelder.
         </p>
       </Avsnitt>
 
-      <Avsnitt nr={12} tittel="Spørsmål og uenighet">
+      <Avsnitt nr={13} tittel="Spørsmål og uenighet">
         <p>
           Norsk lov gjelder for avtalen. Er du misfornøyd, skriv til {epost}, så prøver vi å finne en løsning. Kommer vi
           ikke til enighet, kan du få hjelp av{" "}

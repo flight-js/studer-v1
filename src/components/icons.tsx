@@ -207,3 +207,19 @@ export const Monitor = (p: IconProps) => (
     <path d="M8.5 20h7M12 16v4" />
   </Svg>
 );
+
+// Pokal: konkurranse og rangeringer.
+export const Pokal = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M8 4h8v5a4 4 0 0 1-8 0V4z" />
+    <path d="M8 6H5a2 2 0 0 0 2 4h1M16 6h3a2 2 0 0 1-2 4h-1M12 13v4M9 20h6M10 17h4" />
+  </Svg>
+);
+
+// Gave: belønninger som kan løses inn.
+export const Gave = (p: IconProps) => (
+  <Svg {...p}>
+    <rect x="4" y="9" width="16" height="11" rx="1.5" />
+    <path d="M3 9h18M12 9v11M12 9c-1.5-3-5-3.5-5-1.25C7 9 9.5 9 12 9zM12 9c1.5-3 5-3.5 5-1.25C17 9 14.5 9 12 9z" />
+  </Svg>
+);

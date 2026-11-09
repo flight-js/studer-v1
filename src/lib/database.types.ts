@@ -280,41 +280,87 @@ export type Database = {
           },
         ]
       }
+      skoler: {
+        Row: {
+          aktiv: boolean
+          fylke: string
+          id: string
+          kommune: string
+          navn: string
+          ungdomstrinn: boolean
+          vgs: boolean
+        }
+        Insert: {
+          aktiv?: boolean
+          fylke?: string
+          id: string
+          kommune?: string
+          navn: string
+          ungdomstrinn?: boolean
+          vgs?: boolean
+        }
+        Update: {
+          aktiv?: boolean
+          fylke?: string
+          id?: string
+          kommune?: string
+          navn?: string
+          ungdomstrinn?: boolean
+          vgs?: boolean
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           abonnement: string
           abonnement_avsluttes: boolean
           abonnement_til: string | null
           id: string
+          kallenavn: string | null
           navn: string | null
           opprettet: string
           provetid_brukt: boolean
           provetid_til: string | null
+          skole_id: string | null
           trinn: string | null
+          vis_pa_rangering: boolean
         }
         Insert: {
           abonnement?: string
           abonnement_avsluttes?: boolean
           abonnement_til?: string | null
           id: string
+          kallenavn?: string | null
           navn?: string | null
           opprettet?: string
           provetid_brukt?: boolean
           provetid_til?: string | null
+          skole_id?: string | null
           trinn?: string | null
+          vis_pa_rangering?: boolean
         }
         Update: {
           abonnement?: string
           abonnement_avsluttes?: boolean
           abonnement_til?: string | null
           id?: string
+          kallenavn?: string | null
           navn?: string | null
           opprettet?: string
           provetid_brukt?: boolean
           provetid_til?: string | null
+          skole_id?: string | null
           trinn?: string | null
+          vis_pa_rangering?: boolean
         }
         Relationships: [
+          {
+            foreignKeyName: "profiles_skole_id_fkey"
+            columns: ["skole_id"]
+            isOneToOne: false
+            referencedRelation: "skoler"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "profiles_trinn_fkey"
             columns: ["trinn"]
@@ -597,6 +643,67 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      avslutt_formelmatch: {
+        Args: { p_par: number; p_runde: string; p_straffer: number; p_tid_ms: number }
+        Returns: { forrige_beste: number | null; poeng: number; teller: boolean; tid_ms: number }[]
+      }
+      belonninger_med_lager: {
+        Args: never
+        Returns: {
+          beskrivelse: string
+          gyldig_til: string | null
+          id: string
+          igjen: number
+          innlost_av_meg: boolean
+          lenke: string | null
+          partner: string
+          poengpris: number
+          tittel: string
+          vilkar: string
+        }[]
+      }
+      formelmatch_toppliste: {
+        Args: { p_antall?: number; p_tema_id: string }
+        Returns: { antall: number; er_meg: boolean; kallenavn: string; plass: number; skole: string | null; tid_ms: number }[]
+      }
+      los_inn: {
+        Args: { p_belonning: string }
+        Returns: { kode: string; lenke: string | null; partner: string; saldo: number }[]
+      }
+      min_poengstatus: {
+        Args: never
+        Returns: { denne_uka: number; i_dag: number; saldo: number; streak: number; tak: number }[]
+      }
+      mine_kuponger: {
+        Args: never
+        Returns: {
+          gyldig_til: string | null
+          innlost: string
+          kode: string
+          lenke: string | null
+          partner: string
+          tittel: string
+          vilkar: string
+        }[]
+      }
+      poengliste: {
+        Args: { p_antall?: number; p_omrade?: string }
+        Returns: { er_meg: boolean; kallenavn: string; plass: number; poeng: number; skole: string | null }[]
+      }
+      skoleliste: {
+        Args: { p_antall?: number }
+        Returns: {
+          elever: number
+          er_min: boolean
+          kommune: string
+          plass: number
+          poeng: number
+          skole: string
+          skole_id: string
+          snitt: number
+        }[]
+      }
+      start_formelmatch: { Args: { p_tema_id: string }; Returns: string }
       ai_angre_melding: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_angre_vurdering: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_registrer_melding: {
@@ -625,7 +732,7 @@ export type Database = {
           p_resultat: number
           p_tema_id: string
         }
-        Returns: undefined
+        Returns: number
       }
       minne_i_dag: { Args: never; Returns: string }
       minne_intervall: { Args: { p_steg: number }; Returns: number }

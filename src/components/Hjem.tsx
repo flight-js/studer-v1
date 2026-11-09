@@ -10,6 +10,7 @@ import { Bevegelse } from "@/components/forside/Bevegelse";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Fortsett } from "@/components/hjem/Fortsett";
 import { IDag } from "@/components/hjem/IDag";
+import { Poengbrikke } from "@/components/konkurranse/Poengbrikke";
 import { Logo } from "@/components/Logo";
 import { ArrowRight } from "@/components/icons";
 import { Tips } from "@/components/Tips";
@@ -99,6 +100,7 @@ export function Hjem() {
             >
               Alle fag
             </Link>
+            {bruker && <Poengbrikke brukerId={bruker.id} />}
             <ProfilKnapp />
           </nav>
         </div>
