@@ -8,19 +8,23 @@ import type { Flashcard } from "@/lib/pensum";
 
 // Kortet som snus, med svarknappene under. Brukes i flashcards og i repetisjonen.
 // runde: endres når et nytt kort kommer, så kortet kommer inn på nytt.
+// valgt: svaret eleven ga sist på kortet, når man har gått tilbake til det.
 export function Flippkort({
   kort,
   snudd,
   runde,
   onSnu,
   onSvar,
+  valgt,
 }: {
   kort: Flashcard;
   snudd: boolean;
   runde: string;
   onSnu: () => void;
   onSvar: (kan: boolean) => void;
+  valgt?: boolean;
 }) {
+  const harValgt = valgt !== undefined;
   return (
     <>
       <div key={runde} className="flip-scene w-full max-w-lg rise-rask">
@@ -63,14 +67,26 @@ export function Flippkort({
       <div className="flex gap-3 w-full max-w-lg">
         <button
           onClick={() => onSvar(false)}
-          className="flex-1 flex items-center justify-center gap-2 bg-surface border-[1.5px] border-border-strong px-5 py-4 rounded-2xl text-sm font-semibold hover:border-danger hover:text-danger-ink transition-[color,background-color,border-color,scale] duration-200 active:scale-[0.98]"
+          aria-pressed={harValgt ? valgt === false : undefined}
+          className={`flex-1 flex items-center justify-center gap-2 border-[1.5px] px-5 py-4 rounded-2xl text-sm font-semibold transition-[color,background-color,border-color,opacity,scale] duration-200 active:scale-[0.98] ${
+            harValgt && valgt === false
+              ? "bg-danger-tint border-danger text-danger-ink"
+              : `bg-surface border-border-strong hover:border-danger hover:text-danger-ink ${harValgt ? "opacity-60 hover:opacity-100" : ""}`
+          }`}
         >
           <Close size={18} />
           Kan ikke ennå
         </button>
         <button
           onClick={() => onSvar(true)}
-          className="flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,translate,scale] duration-200 active:scale-[0.98]"
+          aria-pressed={harValgt ? valgt === true : undefined}
+          className={`flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,opacity,box-shadow,translate,scale] duration-200 active:scale-[0.98] ${
+            harValgt && valgt === true
+              ? "ring-2 ring-success ring-offset-2 ring-offset-background"
+              : harValgt
+                ? "opacity-60 hover:opacity-100"
+                : ""
+          }`}
         >
           <Check size={18} />
           Kan dette
