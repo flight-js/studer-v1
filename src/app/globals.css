@@ -1053,3 +1053,21 @@ html.fs-intro .ff-intro {
     translate: none;
   }
 }
+
+/* Ordmerket (components/Logo.tsx): logofilen brukes som maske og fylles med
+   tekstfargen. Grunnlinjen i bokstavene står på tekstens grunnlinje. */
+.logo-ordmerke {
+  display: inline-block;
+  height: 1em;
+  aspect-ratio: 264.9 / 78;
+  vertical-align: -0.07em;
+  background-color: currentColor;
+  -webkit-mask: url("/merke/studer-ordmerke.svg") center / contain no-repeat;
+  mask: url("/merke/studer-ordmerke.svg") center / contain no-repeat;
+}
+@media (forced-colors: active) {
+  .logo-ordmerke {
+    forced-color-adjust: none;
+    background-color: CanvasText;
+  }
+}
