@@ -5,12 +5,13 @@ import { useRouter } from "next/navigation";
 import { Suspense, useId, useState } from "react";
 import { useNeste } from "@/components/AuthRamme";
 import { ArrowRight, ChevronLeft } from "@/components/icons";
-import { Rangeringsvalg } from "@/components/konkurranse/Konkurranseprofil";
+import { fornavnFra, Rangeringsvalg } from "@/components/konkurranse/Konkurranseprofil";
 import { Skolevelger } from "@/components/konkurranse/Skolevelger";
 import { Logo } from "@/components/Logo";
 import { Temavelger } from "@/components/Temavelger";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
+import { kallenavnFeil } from "@/lib/kallenavn";
 import { hentKonkurranseprofil, lagreKonkurranseprofil, lagreSkole, type Skole } from "@/lib/konkurranse";
 import { hentKatalog } from "@/lib/pensum";
 import { lagreTrinn } from "@/lib/profil";
@@ -39,7 +40,8 @@ function Velkommen() {
   const [steg, setSteg] = useState<Steg>("trinn");
   const [trinn, setTrinn] = useState<string | null>(null);
   const [skole, setSkole] = useState<Skole | null | undefined>(undefined);
-  const [vis, setVis] = useState<boolean | undefined>(undefined);
+  const [skjul, setSkjul] = useState<boolean | undefined>(undefined);
+  const [kallenavn, setKallenavn] = useState<string | undefined>(undefined);
   const [lagrer, setLagrer] = useState(false);
   const [feil, setFeil] = useState<string | null>(null);
   const visId = useId();
@@ -54,8 +56,10 @@ function Velkommen() {
   const nr = stegene.indexOf(steg);
   const valgtTrinn = trinn ?? profil?.trinn ?? null;
   const valgtSkole = skole === undefined ? (k?.data.skole ?? null) : skole;
-  const valgtVis = vis ?? k?.data.vis ?? false;
-  const fornavn = (profil?.navn || (bruker.user_metadata?.navn as string | undefined) || "").trim().split(/\s+/)[0];
+  const valgtSkjul = skjul ?? k?.data.skjulFornavn ?? false;
+  const valgtKallenavn = kallenavn ?? k?.data.kallenavn ?? "";
+  const ugyldigKallenavn = valgtSkjul && !!valgtKallenavn.trim() && !!kallenavnFeil(valgtKallenavn);
+  const fornavn = fornavnFra(profil?.navn || (bruker.user_metadata?.navn as string | undefined));
 
   async function videre() {
     setLagrer(true);
@@ -65,7 +69,11 @@ function Velkommen() {
       // Skolen lagres med en gang, så den ikke går tapt hvis eleven hopper over resten.
       if (steg === "skole" && valgtSkole && !k!.demo && valgtSkole.id !== k!.data.skole?.id) await lagreSkole(bruker!.id, valgtSkole.id);
       if (steg === "preferanser" && medKonkurranse && !k!.demo) {
-        await lagreKonkurranseprofil(bruker!.id, { skoleId: valgtSkole?.id ?? null, vis: valgtVis });
+        await lagreKonkurranseprofil(bruker!.id, {
+          skoleId: valgtSkole?.id ?? null,
+          skjulFornavn: valgtSkjul,
+          kallenavn: valgtKallenavn,
+        });
       }
       if (nr + 1 < stegene.length) setSteg(stegene[nr + 1]);
       else router.replace(neste);
@@ -162,7 +170,15 @@ function Velkommen() {
                   </div>
                   {medKonkurranse && (
                     <div className="border-t border-natt-linje pt-6">
-                      <Rangeringsvalg id={visId} vis={valgtVis} onEndre={setVis} mork />
+                      <Rangeringsvalg
+                        id={visId}
+                        skjul={valgtSkjul}
+                        onSkjul={setSkjul}
+                        kallenavn={valgtKallenavn}
+                        onKallenavn={setKallenavn}
+                        fornavn={fornavn}
+                        mork
+                      />
                     </div>
                   )}
                 </div>
@@ -192,7 +208,11 @@ function Velkommen() {
               <button
                 type="button"
                 onClick={videre}
-                disabled={lagrer || (steg === "trinn" && !valgtTrinn && !katalog.feil)}
+                disabled={
+                  lagrer ||
+                  (steg === "trinn" && !valgtTrinn && !katalog.feil) ||
+                  (steg === "preferanser" && medKonkurranse && ugyldigKallenavn)
+                }
                 className="group inline-flex items-center gap-2 rounded-xl bg-merke text-pa-merke px-6 py-3.5 text-sm font-semibold transition-[background-color,scale,opacity] duration-200 hover:bg-merke-dark active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 {lagrer

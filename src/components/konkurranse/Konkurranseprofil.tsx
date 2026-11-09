@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useId, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { Skolevelger } from "@/components/konkurranse/Skolevelger";
+import { useAuth } from "@/lib/auth";
+import { KALLENAVN_MAKS, kallenavnFeil } from "@/lib/kallenavn";
 import {
   hentKonkurranseprofil,
   lagreKonkurranseprofil,
@@ -11,8 +13,9 @@ import {
 } from "@/lib/konkurranse";
 import { useHent } from "@/lib/useHent";
 
-// På kontosiden: skolen din, og om fornavnet ditt skal vises på rangeringene.
-// Det er av som standard; skolelista teller deg uansett, men viser bare tall per skole.
+// På kontosiden: skolen din, og hvilket navn andre ser på rangeringene
+// (fornavnet, et kallenavn, eller ingenting). Skolelista teller deg uansett,
+// men viser bare tall per skole.
 export function Konkurranseprofil({ brukerId }: { brukerId: string }) {
   const lagret = useHent(`konkurranseprofil:${brukerId}`, () => hentKonkurranseprofil(brukerId));
 
@@ -41,18 +44,22 @@ export function Konkurranseprofil({ brukerId }: { brukerId: string }) {
 }
 
 function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; demo: boolean }) {
+  const { profil } = useAuth();
   const [skole, setSkole] = useState<Skole | null>(start.skole);
-  const [vis, setVis] = useState(start.vis);
+  const [skjul, setSkjul] = useState(start.skjulFornavn);
+  const [kallenavn, setKallenavn] = useState(start.kallenavn ?? "");
   const [status, setStatus] = useState<{ type: "ok" | "feil"; tekst: string } | null>(null);
   const [lagrer, setLagrer] = useState(false);
-  const visId = useId();
+  const valgId = useId();
+  const ugyldig = skjul && !!kallenavn.trim() && !!kallenavnFeil(kallenavn);
 
   async function lagre(e: React.FormEvent) {
     e.preventDefault();
+    if (ugyldig) return;
     setLagrer(true);
     setStatus(null);
     try {
-      await lagreKonkurranseprofil(brukerId, { skoleId: skole?.id ?? null, vis });
+      await lagreKonkurranseprofil(brukerId, { skoleId: skole?.id ?? null, skjulFornavn: skjul, kallenavn });
       setStatus({ type: "ok", tekst: "Lagret." });
     } catch (err) {
       setStatus({ type: "feil", tekst: (err as Error).message });
@@ -64,13 +71,20 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
   return (
     <form onSubmit={lagre} className="bg-surface border border-border rounded-2xl p-5 flex flex-col gap-5">
       <Skolevelger valgt={skole} onVelg={setSkole} />
-      <Rangeringsvalg id={visId} vis={vis} onEndre={setVis} />
+      <Rangeringsvalg
+        id={valgId}
+        skjul={skjul}
+        onSkjul={setSkjul}
+        kallenavn={kallenavn}
+        onKallenavn={setKallenavn}
+        fornavn={fornavnFra(profil?.navn)}
+      />
 
       <div className="flex flex-wrap items-center gap-3">
         <button
           type="submit"
-          disabled={lagrer}
-          className="rounded-xl bg-foreground text-background px-5 py-3 text-sm font-semibold transition-[background-color,scale,opacity] duration-200 hover:bg-black active:scale-[0.98] disabled:opacity-60"
+          disabled={lagrer || ugyldig}
+          className="trykk trykk-blekk rounded-xl bg-foreground text-background px-5 py-3 text-sm font-semibold disabled:opacity-60"
         >
           {lagrer ? "Lagrer …" : "Lagre"}
         </button>
@@ -85,17 +99,107 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
   );
 }
 
-// Brukes også i velkomststegene.
-export function Rangeringsvalg({ id, vis, onEndre, mork = false }: { id: string; vis: boolean; onEndre: (v: boolean) => void; mork?: boolean }) {
+export const fornavnFra = (navn?: string | null) => (navn ?? "").trim().split(/\s+/)[0] || null;
+
+// Hvilket navn andre ser på rangeringene. Fornavnet vises, med mindre eleven
+// krysser av for å skjule det – da glir et felt for kallenavn fram. Kallenavnet
+// sjekkes mens eleven skriver (og i databasen når det lagres). Tomt kallenavn:
+// eleven vises ikke for andre. Brukes også i velkomststegene.
+export function Rangeringsvalg({
+  id,
+  skjul,
+  onSkjul,
+  kallenavn,
+  onKallenavn,
+  fornavn,
+  mork = false,
+}: {
+  id: string;
+  skjul: boolean;
+  onSkjul: (v: boolean) => void;
+  kallenavn: string;
+  onKallenavn: (v: string) => void;
+  fornavn?: string | null;
+  mork?: boolean;
+}) {
+  // Fokus i feltet bare når eleven selv krysser av – ikke når siden åpnes.
+  const [krysset, setKrysset] = useState(false);
+  // Feil vises når eleven tar en pause, ikke for hver bokstav («M» er for kort,
+  // «Ass» er på vei til «Assistent»). Lagre-knappen sjekker med en gang.
+  const [sjekket, setSjekket] = useState(kallenavn);
+  useEffect(() => {
+    const t = window.setTimeout(() => setSjekket(kallenavn), 500);
+    return () => window.clearTimeout(t);
+  }, [kallenavn]);
+  const feil = sjekket.trim() && sjekket === kallenavn ? kallenavnFeil(sjekket) : null;
+  const dempet = mork ? "text-background/60" : "text-muted";
+  // Én rammefarge om gangen, så feilfargen ikke taper mot den vanlige.
+  const ramme = feil
+    ? mork
+      ? "border-[#ffb4a8]"
+      : "border-danger"
+    : mork
+      ? "border-natt-linje focus:border-merke"
+      : "border-border-strong focus:border-primary";
+  const felt = mork
+    ? `${ramme} bg-natt-hevet text-background placeholder:text-background/40`
+    : `${ramme} bg-background placeholder:text-faint`;
+
   return (
-    <label htmlFor={id} className="flex items-start gap-3 cursor-pointer">
-      <input id={id} type="checkbox" checked={vis} onChange={(e) => onEndre(e.target.checked)} className="mt-1 size-4 accent-primary" />
-      <span className="flex flex-col">
-        <span className="text-sm font-semibold">Vis fornavnet mitt på rangeringene</span>
-        <span className={`text-xs ${mork ? "text-background/60" : "text-muted"}`}>
-          Andre elever ser fornavnet og skolen din, aldri e-posten. Du kan slå det av når du vil.
+    <div className="flex flex-col gap-3">
+      <label htmlFor={id} className="flex items-start gap-3 cursor-pointer">
+        <input
+          id={id}
+          type="checkbox"
+          checked={skjul}
+          onChange={(e) => {
+            onSkjul(e.target.checked);
+            setKrysset(e.target.checked);
+          }}
+          className="mt-1 size-4 accent-primary"
+        />
+        <span className="flex flex-col">
+          <span className="text-sm font-semibold">Ikke vis fornavnet mitt på rangeringene</span>
+          <span className={`text-xs ${dempet}`}>
+            {skjul
+              ? "Velg et kallenavn som vises i stedet."
+              : `Andre elever ser ${fornavn ? `fornavnet ditt (${fornavn})` : "fornavnet ditt"} og skolen din, aldri e-posten.`}
+          </span>
         </span>
-      </span>
-    </label>
+      </label>
+
+      {skjul && (
+        <div className="rise-rask ml-7 flex flex-col gap-1.5">
+          <span className="flex items-baseline justify-between gap-3">
+            <label htmlFor={`${id}-kallenavn`} className="text-sm font-semibold">
+              Kallenavn
+            </label>
+            <span className={`text-xs tabular-nums ${dempet}`} aria-hidden="true">
+              {kallenavn.trim().length}/{KALLENAVN_MAKS}
+            </span>
+          </span>
+          <input
+            id={`${id}-kallenavn`}
+            value={kallenavn}
+            onChange={(e) => onKallenavn(e.target.value)}
+            maxLength={KALLENAVN_MAKS + 10} // plass til mellomrom som ryddes bort; lengden sjekkes under
+            autoFocus={krysset}
+            autoComplete="off"
+            spellCheck={false}
+            placeholder="For eksempel Matteløven"
+            aria-invalid={!!feil}
+            aria-describedby={`${id}-hjelp`}
+            className={`rounded-xl border-[1.5px] px-4 py-3 text-[15px] outline-none transition-colors duration-200 ${felt}`}
+          />
+          <p
+            id={`${id}-hjelp`}
+            aria-live="polite"
+            className={`text-xs ${feil ? (mork ? "text-[#ffb4a8] font-medium" : "text-danger-ink font-medium") : dempet}`}
+          >
+            {feil ?? "Bokstaver, tall, mellomrom, - og _. La feltet stå tomt for å ikke vises på rangeringene i det hele tatt."}
+          </p>
+        </div>
+      )}
+    </div>
   );
 }

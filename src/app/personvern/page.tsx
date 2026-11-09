@@ -53,9 +53,10 @@ export default function Personvern() {
         <p>
           <strong>Poeng og konkurranse.</strong> Poengene du tjener og hva de kom fra, tidene dine i formelmatch og
           kodene du har løst inn, og skolen du har valgt. Skolen brukes i skolekonkurransen, som bare viser tall per
-          skole. Slår du på «Vis fornavnet mitt på rangeringene», kan andre innloggede elever se fornavnet ditt,
-          skolen og poengene eller tidene dine – aldri e-posten din. Det er av som standard, og du kan slå det av når
-          du vil under Konto. Grunnlaget er avtalen med deg.
+          skole. På rangeringene kan andre innloggede elever se fornavnet ditt, skolen og poengene eller tidene dine –
+          aldri e-posten din. Krysser du av for «Ikke vis fornavnet mitt på rangeringene» (når du lager kontoen eller
+          under Konto), vises et kallenavn du velger selv i stedet, eller ingenting hvis du ikke velger et. Kallenavnet
+          sjekkes automatisk for banneord og stygge ord før det lagres. Grunnlaget er avtalen med deg.
         </p>
         <p>
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på

@@ -4,12 +4,14 @@
 // Er ikke migrasjonen kjørt ennå, svarer funksjonene med eksempeldata og
 // demo: true, så sidene kan prøves – og sidene viser tydelig at tallene ikke er ekte.
 
+import { ryddKallenavn } from "./kallenavn";
 import { supabase } from "./supabase";
 
 export type Med<T> = { data: T; demo: boolean };
 
 export type Poengstatus = { saldo: number; denneUka: number; iDag: number; tak: number; streak: number };
-// navn: fornavnet, eller «Deg» for eleven selv når hen ikke er synlig for andre.
+// navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
+// synlig for andre (har skjult fornavnet uten å velge kallenavn).
 export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean };
 export type Skoleplass = {
   plass: number;
@@ -45,7 +47,9 @@ export type Kupong = {
   innlost: string;
 };
 export type Skole = { id: string; navn: string; kommune: string };
-export type Konkurranseprofil = { skole: Skole | null; vis: boolean };
+// skjulFornavn: «Ikke vis fornavnet mitt på rangeringene». kallenavn: vises i
+// stedet; uten kallenavn vises eleven ikke for andre.
+export type Konkurranseprofil = { skole: Skole | null; skjulFornavn: boolean; kallenavn: string | null };
 export type Omrade = "alle" | "skole" | "trinn";
 
 // Feilkodene PostgREST og Postgres gir når funksjonen, kolonnen eller tabellen
@@ -272,17 +276,23 @@ export async function sokSkoler(tekst: string, maks = 12): Promise<{ treff: Skol
 export async function hentKonkurranseprofil(brukerId: string): Promise<Med<Konkurranseprofil>> {
   const { data, error } = await supabase
     .from("profiles")
-    .select("vis_pa_rangering, skole:skoler(id, navn, kommune)")
+    .select("skjul_fornavn, kallenavn, skole:skoler(id, navn, kommune)")
     .eq("id", brukerId)
     .maybeSingle();
   if (error) {
-    if (ikkeSattOpp(error)) return { demo: true, data: { skole: null, vis: false } };
+    if (ikkeSattOpp(error)) return { demo: true, data: { skole: null, skjulFornavn: false, kallenavn: null } };
     throw new Error(error.message);
   }
-  return { demo: false, data: { skole: data?.skole ?? null, vis: !!data?.vis_pa_rangering } };
+  return {
+    demo: false,
+    data: { skole: data?.skole ?? null, skjulFornavn: !!data?.skjul_fornavn, kallenavn: data?.kallenavn ?? null },
+  };
 }
 
-async function oppdaterProfil(brukerId: string, endring: { skole_id?: string | null; vis_pa_rangering?: boolean }) {
+async function oppdaterProfil(
+  brukerId: string,
+  endring: { skole_id?: string | null; skjul_fornavn?: boolean; kallenavn?: string | null }
+) {
   const { error } = await supabase.from("profiles").update(endring).eq("id", brukerId);
   if (!error) return;
   if (ikkeSattOpp(error)) throw new Error("Konkurransen er ikke slått på ennå, så ingenting ble lagret.");
@@ -291,8 +301,18 @@ async function oppdaterProfil(brukerId: string, endring: { skole_id?: string | n
 
 export const lagreSkole = (brukerId: string, skoleId: string | null) => oppdaterProfil(brukerId, { skole_id: skoleId });
 
-export const lagreKonkurranseprofil = (brukerId: string, p: { skoleId: string | null; vis: boolean }) =>
-  oppdaterProfil(brukerId, { skole_id: p.skoleId, vis_pa_rangering: p.vis });
+// Kallenavnet lagres bare når fornavnet er skjult (ellers står det forrige
+// igjen til neste gang), og sjekkes i databasen – feilmeldingen derfra vises
+// som den er. Tomt kallenavn: eleven vises ikke for andre.
+export const lagreKonkurranseprofil = (
+  brukerId: string,
+  p: { skoleId: string | null; skjulFornavn: boolean; kallenavn: string | null }
+) =>
+  oppdaterProfil(brukerId, {
+    skole_id: p.skoleId,
+    skjul_fornavn: p.skjulFornavn,
+    ...(p.skjulFornavn ? { kallenavn: ryddKallenavn(p.kallenavn ?? "") || null } : {}),
+  });
 
 // ---------------------------------------------------------------- Poengvarsel
 

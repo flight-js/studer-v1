@@ -54,7 +54,7 @@ export function Toppliste({ temaId, avslutning, runde }: { temaId: string; avslu
             : "Bare runder med alle formlene i temaet teller. "}
         {meg && meg.navn === "Deg" && (
           <Link href="/konto#konkurranse" className="font-semibold text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground">
-            Vis fornavnet ditt
+            Velg et kallenavn
           </Link>
         )}
       </p>

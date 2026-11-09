@@ -139,8 +139,12 @@ export default function Vilkar() {
               gammel.
             </li>
             <li>
-              Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. Fornavnet ditt vises på
-              rangeringene bare hvis du selv slår det på.
+              Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. På rangeringene vises
+              fornavnet ditt, eller et kallenavn hvis du har valgt å skjule fornavnet.
+            </li>
+            <li>
+              Kallenavnet kan ikke være støtende, for eksempel banneord, seksuelle ord, slurs eller hets, og kan ikke
+              utgi seg for å være Studer eller noen andre. Studer kan fjerne et kallenavn som bryter med dette.
             </li>
             <li>
               Juks, for eksempel automatiske svar eller flere kontoer for å samle poeng, kan gi tap av poeng, fjerning

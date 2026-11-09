@@ -9,10 +9,12 @@
 --   ikke poeng: eleven svarer selv «Kan dette», så det kan ikke sjekkes.
 -- - Poengene har ingen pengeverdi, kan ikke kjøpes eller overføres, og kan
 --   løses inn i belønninger (se vilkårene).
--- - Eleven velger bare skole. Rangeringer viser fornavnet (første ord i navnet
---   fra registreringen) og skolen, og bare for elever som selv har slått på
---   «Vis fornavnet mitt på rangeringene» – det er av som standard. Skolelista
---   teller alle med valgt skole, men viser bare tall per skole.
+-- - Eleven velger skole. Rangeringer viser fornavnet (første ord i navnet fra
+--   registreringen) og skolen. Krysser eleven av for «Ikke vis fornavnet mitt
+--   på rangeringene», vises kallenavnet i stedet – eller ingenting, uten
+--   kallenavn. Kallenavn sjekkes for banneord og slurs her i databasen
+--   (kallenavn_feil), så sjekken i appen kan ikke omgås. Skolelista teller alle
+--   med valgt skole, men viser bare tall per skole.
 --
 -- Etter migrasjonen: last inn supabase/skoler.sql (npm run skoler lager den).
 -- Belønninger og koder legges inn av Studer med service_role (se nederst).
@@ -44,11 +46,165 @@ create policy "Innloggede kan lese aktive skoler" on public.skoler
 
 alter table public.profiles
   add column skole_id text references public.skoler (id) on delete set null,
-  add column vis_pa_rangering boolean not null default false;
+  add column skjul_fornavn boolean not null default false,
+  add column kallenavn text;
 
-grant update (skole_id, vis_pa_rangering) on public.profiles to authenticated;
+grant update (skole_id, skjul_fornavn, kallenavn) on public.profiles to authenticated;
 
--- Navnet som vises på rangeringene: fornavnet (første ord i navnet).
+-- Ordlistene for kallenavn – de samme som i src/lib/kallenavn.ts (der står
+-- hvorfor ordene er delt i tre lister). Endres begge steder.
+-- delord: ikke noe sted, heller ikke inni andre ord.
+create function public.kallenavn_delord()
+returns text[]
+language sql
+immutable
+set search_path = ''
+as $$
+  select array[
+    'fuck', 'fuk', 'fvck', 'phuck', 'phuk', 'shit', 'cunt', 'bitch', 'biatch', 'whore', 'slut', 'nigg',
+    'faggot', 'fagot', 'retard', 'tranny', 'shemale', 'porn', 'penis', 'vagina', 'dildo', 'wank',
+    'cumshot', 'blowjob', 'handjob', 'motherf', 'asshole', 'arsehole', 'dumbass', 'jackass', 'dickhead',
+    'pussy', 'milf', 'chink', 'gook', 'wetback', 'beaner', 'towelhead', 'killyourself', 'hitler',
+    'siegheil', 'whitepower', 'kkk', 'nazist', 'terrorist', 'pedofil', 'faen', 'helvete', 'jaevl',
+    'jaevel', 'javla', 'satan', 'dritt', 'fitte', 'fitta', 'knull', 'rasshol', 'homse', 'soperk',
+    'neger', 'pakkis', 'svarting', 'sigoyner', 'voldt', 'hestkuk', 'kukhue', 'horunge', 'horebukk',
+    'piss', 'mongis', 'spasser', 'drepdeg', 'admin', 'moderator', 'studerno'
+  ];
+$$;
+
+-- forstavelser: ikke først i et ord (norske sammensetninger).
+create function public.kallenavn_forstavelser()
+returns text[]
+language sql
+immutable
+set search_path = ''
+as $$
+  select array[
+    'kuk', 'pikk', 'hore', 'pule', 'runk', 'raev', 'fitt', 'pedo', 'rapist'
+  ];
+$$;
+
+-- helord: bare som egne ord (de finnes inni vanlige ord).
+create function public.kallenavn_helord()
+returns text[]
+language sql
+immutable
+set search_path = ''
+as $$
+  select array[
+    'ass', 'cum', 'tit', 'tits', 'sex', 'sexy', 'anal', 'anus', 'boob', 'boobs', 'nude', 'nudes',
+    'naken', 'pupper', 'cock', 'dick', 'homo', 'kys', 'rape', 'spic', 'kike', 'coon', 'dyke', 'fag',
+    'fags', 'paki', 'mongo', 'nazi', 'nazis', 'heil', 'niga', 'nigr', 'horny', 'studer', 'support',
+    'deg'
+  ];
+$$;
+
+-- Forlengede bokstaver: vokaler til én («fuuuck»), konsonanter til høyst to.
+create function public.kallenavn_kort(p text)
+returns text
+language sql
+immutable
+set search_path = ''
+as $$
+  select regexp_replace(regexp_replace(p, '([aeiouy])\1+', '\1', 'g'), '([b-df-hj-np-tv-xz])\1{2,}', '\1\1', 'g');
+$$;
+
+-- Hva som er galt med et kallenavn, eller null når det er greit: 2–20 tegn,
+-- bare bokstaver, tall, mellomrom, - og _, minst to bokstaver, og ingen
+-- banneord, seksuelle ord, slurs eller navn som utgir seg for Studer – heller
+-- ikke skrevet med tegn imellom, tall for bokstaver eller forlengede bokstaver.
+create function public.kallenavn_feil(p_kallenavn text)
+returns text
+language plpgsql
+immutable
+set search_path = ''
+as $$
+declare
+  v text := regexp_replace(trim(coalesce(p_kallenavn, '')), '\s+', ' ', 'g');
+  n text;
+  tett text;
+  kort text;
+  ord text[];
+  o text;
+  d text;
+begin
+  if char_length(v) < 2 or char_length(v) > 20 then
+    return 'Kallenavnet må ha 2–20 tegn.';
+  end if;
+  -- Bokstavområdene skrives ut, fordi [[:alpha:]] og lower() ikke kjenner æøå
+  -- med C-lokale. Bare latinske bokstaver (se src/lib/kallenavn.ts).
+  if v !~ '^[A-Za-zÀ-ÖØ-öø-ÿĀ-ž0-9 _-]+$' then
+    return 'Bruk bare bokstaver, tall, mellomrom, - og _.';
+  end if;
+  if char_length(regexp_replace(v, '[^A-Za-zÀ-ÖØ-öø-ÿĀ-ž]', '', 'g')) < 2 then
+    return 'Kallenavnet må ha minst to bokstaver.';
+  end if;
+  if strpos(v, '1488') > 0 then
+    return 'Det kallenavnet kan ikke brukes. Velg et annet.';
+  end if;
+
+  -- Små bokstaver a–z: «MatteKuk» blir to ord, æøå skrives ut, aksenter
+  -- fjernes og tall leses som bokstaver.
+  -- Alt dette før lower(), som bare gjør A–Z små med C-lokale.
+  n := regexp_replace(v, '([a-zæøå])([A-ZÆØÅ])', '\1 \2', 'g');
+  n := replace(replace(replace(replace(replace(replace(n, 'æ', 'ae'), 'Æ', 'ae'), 'ø', 'o'), 'Ø', 'o'), 'å', 'a'), 'Å', 'a');
+  n := translate(n,
+    'àáâãäāèéêëēìíîïīòóôõöōùúûüūýÿçčćšśžźżñńÀÁÂÃÄĀÈÉÊËĒÌÍÎÏĪÒÓÔÕÖŌÙÚÛÜŪÝŸÇČĆŠŚŽŹŻÑŃ',
+    'aaaaaaeeeeeiiiiioooooouuuuuyycccsszzznnaaaaaaeeeeeiiiiioooooouuuuuyycccsszzznn');
+  n := lower(translate(n, '0134578', 'oieastb'));
+
+  tett := regexp_replace(n, '[^a-z]', '', 'g');
+  kort := public.kallenavn_kort(tett);
+  select coalesce(array_agg(x), '{}') || coalesce(array_agg(public.kallenavn_kort(x)), '{}')
+    into ord
+    from unnest(regexp_split_to_array(n, '[^a-z]+')) as x
+    where x <> '';
+
+  foreach d in array public.kallenavn_delord() loop
+    if strpos(tett, d) > 0 or strpos(kort, d) > 0 then
+      return 'Det kallenavnet kan ikke brukes. Velg et annet.';
+    end if;
+  end loop;
+  foreach o in array ord loop
+    if o = any (public.kallenavn_helord()) then
+      return 'Det kallenavnet kan ikke brukes. Velg et annet.';
+    end if;
+    foreach d in array public.kallenavn_forstavelser() loop
+      if left(o, char_length(d)) = d then
+        return 'Det kallenavnet kan ikke brukes. Velg et annet.';
+      end if;
+    end loop;
+  end loop;
+  return null;
+end;
+$$;
+
+-- Kallenavnet ryddes (mellomrom) og sjekkes før det lagres. Tomt = ikke noe.
+-- Feilmeldingen går rett til eleven.
+create function public.sjekk_kallenavn()
+returns trigger
+language plpgsql
+set search_path = ''
+as $$
+declare
+  v_feil text;
+begin
+  new.kallenavn := nullif(regexp_replace(trim(coalesce(new.kallenavn, '')), '\s+', ' ', 'g'), '');
+  if new.kallenavn is not null then
+    v_feil := public.kallenavn_feil(new.kallenavn);
+    if v_feil is not null then
+      raise exception using errcode = '23514', message = v_feil;
+    end if;
+  end if;
+  return new;
+end;
+$$;
+
+create trigger profiles_sjekk_kallenavn
+  before insert or update of kallenavn on public.profiles
+  for each row execute function public.sjekk_kallenavn();
+
+-- Fornavnet: første ord i navnet.
 create function public.visningsnavn(p_navn text)
 returns text
 language sql
@@ -56,6 +212,18 @@ immutable
 set search_path = ''
 as $$
   select coalesce(nullif(split_part(trim(coalesce(p_navn, '')), ' ', 1), ''), 'Elev');
+$$;
+
+-- Navnet andre ser på rangeringene: fornavnet, eller kallenavnet når eleven har
+-- skjult fornavnet. null: eleven vises ikke for andre (fornavnet skjult og
+-- ikke noe kallenavn).
+create function public.rangeringsnavn(p_navn text, p_skjul_fornavn boolean, p_kallenavn text)
+returns text
+language sql
+immutable
+set search_path = ''
+as $$
+  select case when not p_skjul_fornavn then public.visningsnavn(p_navn) else nullif(p_kallenavn, '') end;
 $$;
 
 -- ---------------------------------------------------------------- Belønninger
@@ -378,11 +546,11 @@ as $$
     group by r.bruker_id
   ), synlige as (
     select b.bruker_id, b.tid_ms, s.navn as skole,
-           case when p.vis_pa_rangering then public.visningsnavn(p.navn) else 'Deg' end as navn
+           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn
     from beste b
     join public.profiles p on p.id = b.bruker_id
     left join public.skoler s on s.id = p.skole_id
-    where p.vis_pa_rangering or b.bruker_id = auth.uid()
+    where public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn) is not null or b.bruker_id = auth.uid()
   ), rangert as (
     select rank() over (order by tid_ms)::int as plass, navn, skole, tid_ms,
            bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall
@@ -416,11 +584,11 @@ as $$
     group by l.bruker_id
   ), synlige as (
     select s.bruker_id, s.poeng, sk.navn as skole,
-           case when p.vis_pa_rangering then public.visningsnavn(p.navn) else 'Deg' end as navn
+           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn
     from summer s
     join public.profiles p on p.id = s.bruker_id
     left join public.skoler sk on sk.id = p.skole_id
-    where (p.vis_pa_rangering or s.bruker_id = auth.uid())
+    where (public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn) is not null or s.bruker_id = auth.uid())
       and case p_omrade
         when 'skole' then p.skole_id = (select skole_id from meg)
         when 'trinn' then p.trinn = (select trinn from meg)
@@ -593,6 +761,18 @@ $$;
 
 revoke execute on function public.poeng_streak(uuid) from public, anon, authenticated;
 revoke execute on function public.visningsnavn(text) from public, anon, authenticated;
+revoke execute on function public.rangeringsnavn(text, boolean, text) from public, anon, authenticated;
+revoke execute on function public.kallenavn_feil(text) from public, anon;
+revoke execute on function public.kallenavn_kort(text) from public, anon;
+revoke execute on function public.kallenavn_delord() from public, anon;
+revoke execute on function public.kallenavn_forstavelser() from public, anon;
+revoke execute on function public.kallenavn_helord() from public, anon;
+-- Kallenavnsjekken kjøres av triggeren som eleven selv (når profilen lagres).
+grant execute on function public.kallenavn_feil(text) to authenticated;
+grant execute on function public.kallenavn_kort(text) to authenticated;
+grant execute on function public.kallenavn_delord() to authenticated;
+grant execute on function public.kallenavn_forstavelser() to authenticated;
+grant execute on function public.kallenavn_helord() to authenticated;
 revoke execute on function public.gi_poeng(uuid, text, text, numeric, int) from public, anon, authenticated;
 
 revoke execute on function public.lagre_resultat(text, text, numeric, int) from public, anon;

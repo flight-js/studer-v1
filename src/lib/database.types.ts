@@ -321,8 +321,9 @@ export type Database = {
           provetid_brukt: boolean
           provetid_til: string | null
           skole_id: string | null
+          kallenavn: string | null
+          skjul_fornavn: boolean
           trinn: string | null
-          vis_pa_rangering: boolean
         }
         Insert: {
           abonnement?: string
@@ -334,8 +335,9 @@ export type Database = {
           provetid_brukt?: boolean
           provetid_til?: string | null
           skole_id?: string | null
+          kallenavn?: string | null
+          skjul_fornavn?: boolean
           trinn?: string | null
-          vis_pa_rangering?: boolean
         }
         Update: {
           abonnement?: string
@@ -347,8 +349,9 @@ export type Database = {
           provetid_brukt?: boolean
           provetid_til?: string | null
           skole_id?: string | null
+          kallenavn?: string | null
+          skjul_fornavn?: boolean
           trinn?: string | null
-          vis_pa_rangering?: boolean
         }
         Relationships: [
           {

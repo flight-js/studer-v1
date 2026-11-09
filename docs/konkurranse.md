@@ -29,9 +29,11 @@ måte å løse inn på, men andre måter å tjene poeng på.
 - **Poeng for læring, ikke for aktivitet i seg selv.** Quiz, miniprøve og
   formelmatch gir poeng, med mer for bedre resultat. Flashcards gir ikke poeng,
   fordi eleven selv svarer «Kan dette» – det kan ikke sjekkes.
-- **Bare skole, ikke kallenavn.** Eleven velger skole (i velkomststegene, på
-  startsiden eller under Konto). Rangeringene viser fornavn og skole, og bare
-  når eleven har slått på «Vis fornavnet mitt på rangeringene».
+- **Fornavn, eller kallenavn.** Eleven velger skole (i velkomststegene, på
+  startsiden eller under Konto). Rangeringene viser fornavn og skole. Krysser
+  eleven av for «Ikke vis fornavnet mitt på rangeringene», glir et felt for
+  kallenavn fram, og kallenavnet vises i stedet. Uten kallenavn vises eleven
+  ikke for andre (bare for seg selv, som «Deg»). Se «Kallenavn» under.
 - **Ingen «liv» og ingen straff for feil.** Studer er en betalt tjeneste, og
   feil er en del av å lære.
 - **Tak:** hver øving gir poeng én gang per døgn, og maks 150 poeng per døgn.
@@ -62,9 +64,10 @@ Poengene tildeles i `gi_poeng()`, som bare kalles av `lagre_resultat()` og
 | Typer | `src/lib/database.types.ts` (lagt inn for hånd – generer på nytt etter migrasjonen) |
 | Bibliotek | `src/lib/konkurranse.ts` – med eksempeldata når migrasjonen ikke er kjørt |
 | Sider | `/konkurranse` (poeng, ukeliste, skoleliste, regler) og `/belonninger` (innløsning, kodene dine) |
-| Velkommen | `/velkommen` rett etter registrering: trinn, skole og preferanser (utseende, vis fornavn) |
+| Velkommen | `/velkommen` rett etter registrering: trinn, skole og preferanser (utseende, fornavn eller kallenavn) |
 | Startsiden | «Hvilken skole går du på?»-kort til skolen er valgt (`VelgSkoleKort.tsx`), poengbrikke i menyen |
-| Konto | Skole og «Vis fornavnet mitt på rangeringene» (`components/konkurranse/Konkurranseprofil.tsx`) |
+| Konto | Skole og «Ikke vis fornavnet mitt på rangeringene» med kallenavn (`components/konkurranse/Konkurranseprofil.tsx`) |
+| Kallenavn | Sjekk i `src/lib/kallenavn.ts` (mens eleven skriver) og `kallenavn_feil` i migrasjonen (når det lagres) |
 | Formelmatch | Runden starter og slutter på serveren; resultatskjermen viser topplista for temaet |
 | Varsel | «+12 poeng» nederst på skjermen etter øvinger (`components/Poengvarsel.tsx`) |
 | Juridisk | Utkast til punkt 9 i vilkårene og avsnitt i personvernerklæringen |
@@ -103,6 +106,36 @@ registrert.
   barneskole for mye enn en ungdomsskole som mangler). Administrasjon, tiltak og
   enheter uten ansatte holdes utenfor. Skriptet skriver ut begge listene.
 
+## Kallenavn
+
+For elever som skjuler fornavnet. 2–20 tegn, bare latinske bokstaver (også
+æøå, aksenter og samiske bokstaver), tall, mellomrom, - og _, minst to
+bokstaver. Sjekkes to steder med de samme reglene og ordlistene:
+`src/lib/kallenavn.ts` mens eleven skriver, og `kallenavn_feil` i databasen
+når det lagres (en trigger på `profiles`), så sjekken ikke kan omgås.
+Feilmeldingen fra databasen vises som den er.
+
+- **Tre ordlister:** ord som ikke kan stå noe sted («fuck», «faen», «neger»),
+  forstavelser som ikke kan begynne et ord (norske sammensetninger som
+  «kukhue» og «horebukk»), og korte ord som bare stoppes alene («ass»,
+  «cock», «nazi» – de finnes inni vanlige ord som «Kasse», «Hancock» og
+  «Nazir»). Også navn som utgir seg for Studer («admin», «moderator») og
+  «Deg», som er navnet skjulte elever ser seg selv med.
+- **Omveier som fanges:** store/små bokstaver, tegn og mellomrom imellom
+  («f.u.c.k»), tall for bokstaver («sh1t»), forlengede bokstaver («fuuuck»),
+  ord gjemt i camelCase («MatteKuk») og kyrilliske bokstaver som ligner
+  latinske (bare latinske er lov).
+- **Testet** med 86 navn som skal godtas, 93 som skal stoppes og 9 ugyldige,
+  og databaseversjonen ga samme svar som appen for alle 210 navnene (PGlite,
+  Postgres 17 med C-lokale). Bokstavområdene er skrevet ut i SQL-en fordi
+  `[[:alpha:]]` og `lower()` ikke kjenner æøå med C-lokale.
+- **Kjente feiltreff** (stoppes selv om de er uskyldige): Scunthorpe,
+  Pussycat, Shitake, Kukkonen, Faenza og feilstavingen «Fittness». Det er
+  prisen for å stoppe ordene inni dem.
+- **Endre ordlistene:** begge steder (`kallenavn.ts` og funksjonene
+  `kallenavn_delord`, `kallenavn_forstavelser` og `kallenavn_helord` i
+  migrasjonen). Er de ulike, gjelder databasens svar.
+
 ## Juks: hva som stoppes, og hva som ikke stoppes
 
 Stoppes:
@@ -137,12 +170,18 @@ fjerne poeng (`grunn = 'korrigering'`).
   og ikke press til å kjøpe.
 - **Ingen lotteri.** Tilfeldige premier eller trekninger kan kreve tillatelse
   etter lotteriloven. Belønningene er derfor faste og kjøpes med poeng.
-- **Personvern.** Fornavn på rangeringene er av som standard, fordi brukerne
-  er 13–19 år (personvern som standard). Skolekonkurransen teller alle med
-  valgt skole, men viser bare tall per skole og krever minst tre elever. Vurder
-  en DPIA (personvernkonsekvensvurdering), og oppdater datoene i
-  personvernerklæringen og vilkårene når teksten publiseres. Skal fornavn vises
-  som standard, bør det vurderes juridisk først.
+- **Personvern.** Fornavnet vises på rangeringene som standard (brukerens valg,
+  november 2026); eleven kan skjule det og bruke kallenavn eller ingenting.
+  Brukerne er 13–19 år, og personvernforordningen krever personvern som
+  standard (art. 25). Valget vises derfor allerede i velkomststegene, men det
+  bør vurderes juridisk før lansering om fornavn kan være på som standard.
+  Skolekonkurransen teller alle med valgt skole, men viser bare tall per skole
+  og krever minst tre elever. Vurder en DPIA (personvernkonsekvensvurdering),
+  og oppdater datoene i personvernerklæringen og vilkårene når teksten
+  publiseres.
+- **Kallenavn.** Ingen filter er perfekt. Ha en rutine for å fjerne et
+  kallenavn som slipper gjennom (`update profiles set kallenavn = null where
+  id = …` med service_role), og vurder en «Rapporter»-knapp på rangeringene.
 - **Partnere.** Det finnes ingen avtaler ennå. Sidene viser «Belønningene
   kommer snart» til ekte belønninger er lagt inn. Ikke vis logoer eller navn på
   partnere uten avtale.
