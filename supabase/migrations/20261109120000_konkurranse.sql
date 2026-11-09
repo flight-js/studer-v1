@@ -157,6 +157,7 @@ declare
   v_bonus int := 0;
   v_tjent int;
   v_poeng int;
+  v_rader int;
 begin
   v_grunnpoeng := case p_aktivitet
     when 'flashcards' then case when p_resultat >= p_av then 10 else 0 end -- bare hele bunken
@@ -189,12 +190,24 @@ begin
   v_bonus := least(v_bonus, greatest(v_tak - v_tjent, 0));
   v_poeng := least(v_grunnpoeng, greatest(v_tak - v_tjent - v_bonus, 0));
 
+  -- To innsendinger samtidig skal ikke gi poeng to ganger – og ikke gi en feil
+  -- som ruller tilbake selve resultatet. Derfor «do nothing» ved konflikt.
   if v_bonus > 0 then
-    insert into public.poeng_logg (bruker_id, endring, grunn) values (p_bruker, v_bonus, 'dagsbonus');
+    insert into public.poeng_logg (bruker_id, endring, grunn) values (p_bruker, v_bonus, 'dagsbonus')
+    on conflict (bruker_id, dag) where grunn = 'dagsbonus' do nothing;
+    get diagnostics v_rader = row_count;
+    if v_rader = 0 then
+      v_bonus := 0;
+    end if;
   end if;
   if v_poeng > 0 then
     insert into public.poeng_logg (bruker_id, endring, grunn, tema_id, aktivitet)
-    values (p_bruker, v_poeng, case when p_aktivitet = 'formelmatch' then 'formelmatch' else 'oving' end, p_tema_id, p_aktivitet);
+    values (p_bruker, v_poeng, case when p_aktivitet = 'formelmatch' then 'formelmatch' else 'oving' end, p_tema_id, p_aktivitet)
+    on conflict (bruker_id, tema_id, aktivitet, dag) where grunn in ('oving', 'formelmatch') do nothing;
+    get diagnostics v_rader = row_count;
+    if v_rader = 0 then
+      v_poeng := 0;
+    end if;
   end if;
   return v_bonus + v_poeng;
 end;
