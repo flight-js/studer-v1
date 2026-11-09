@@ -141,7 +141,7 @@ function Markedsside() {
         {/* Slik funker det: hele pensum som prikker */}
         <section id="slik" aria-labelledby="slik-tittel" className="fs-natt relative bg-natt border-t border-natt-linje">
           <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16 lg:pb-24">
-            <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16 gap-y-6 items-end pb-8 lg:pb-0">
+            <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16 gap-y-6 items-end pb-8 lg:pb-10">
               <Ordtittel id="slik-tittel" className={tittel}>
                 Hele pensum, prikk for prikk.
               </Ordtittel>
