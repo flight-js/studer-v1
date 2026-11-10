@@ -52,6 +52,9 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
   const [melding, setMelding] = useState("");
 
   const demo = !!ting.data?.demo;
+  // Før konkurransen er satt opp i databasen, vises samlingen bare under
+  // utvikling (med eksempler) – ikke for elevene på studer.no.
+  const skjult = demo && process.env.NODE_ENV === "production";
   const kjopte = demo ? EKSEMPEL : (ting.data?.eier ?? []).filter((t) => TING[t]);
   const tjente = (merker.data?.data ?? []).filter((m) => m.tjent && TJENTE.has(m.merke)).map((m) => m.merke);
   const kjopteAv = (type: Tingtype) => kjopte.filter((e) => TING[e].type === type);
@@ -100,6 +103,8 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
       setVenterMerker(null);
     }
   }
+
+  if (skjult) return null;
 
   return (
     <section id="samling" aria-labelledby="samling-tittel" className="scroll-mt-24 border-t border-border pt-8 flex flex-col gap-6">

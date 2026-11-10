@@ -15,9 +15,11 @@ import { useHent } from "@/lib/useHent";
 
 // På kontosiden: skolen din, og hvilket navn andre ser på rangeringene
 // (fornavnet, et kallenavn, eller ingenting). Skolelista teller deg uansett,
-// men viser bare tall per skole.
+// men viser bare tall per skole. Vises ikke i produksjon før konkurransen er
+// satt opp i databasen (som resten av konkurransen).
 export function Konkurranseprofil({ brukerId }: { brukerId: string }) {
   const lagret = useHent(`konkurranseprofil:${brukerId}`, () => hentKonkurranseprofil(brukerId));
+  if (lagret.data?.demo && process.env.NODE_ENV === "production") return null;
 
   return (
     <section id="konkurranse" aria-labelledby="konkurranse-tittel" className="scroll-mt-24 border-t border-border pt-8 flex flex-col gap-4">
