@@ -480,7 +480,7 @@ const EKSEMPEL = {
   ] satisfies Toppplass[],
   // Studers egne er de samme som legges inn med migrasjonen; partnerne er oppdiktet.
   belonninger: [
-    egen("kreditt", "7", "En gratis uke", "Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 2500),
+    egen("kreditt", "7", "En gratis uke", "Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 1500),
     egen("venn", "7", "Gi en venn en gratis uke", "Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.", "Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.", 800),
     egen("ting", "flamme-bla", "Blå flamme", "Rekka di brenner blått.", "", 400),
     egen("ting", "flamme-gronn", "Grønn flamme", "Rekka di brenner grønt.", "", 400),

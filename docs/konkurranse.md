@@ -114,7 +114,7 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 
 | Belønning | Poeng | Slik virker den |
 | --- | --- | --- |
-| En gratis uke | 2 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
+| En gratis uke | 1 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
 | Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen får én uke kreditt når hen starter sitt første abonnement med den adressen |
 | Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
 | Regnbueflamme | 1 200 | Flammen skifter farge |

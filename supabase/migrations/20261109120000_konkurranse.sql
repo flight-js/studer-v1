@@ -1307,7 +1307,7 @@ select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegave
 -- Til sammenligning: en elev som øver hver dag, tjener rundt 50–150 poeng per dag.
 
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
-  ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 2500, 'kreditt', '7'),
+  ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
   ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.', 'Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
   ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
   ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
