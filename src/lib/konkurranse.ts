@@ -28,7 +28,7 @@ export type Poengstatus = {
 // delt ut (ISO), eller null. ny: delt ut akkurat nå.
 export type Merkefremgang = { merke: string; verdi: number; mal: number; tjent: string | null; ny: boolean };
 // navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
-// synlig for andre (har skjult fornavnet uten å velge kallenavn).
+// synlig for andre (har ikke valgt å vise fornavnet eller et kallenavn).
 // merker: opptil tre merker eleven viser ved navnet (merke-fjaer, merke-uke …).
 export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean; merker?: string[] };
 export type Skoleplass = {
@@ -448,12 +448,13 @@ export async function hentKonkurranseprofil(brukerId: string): Promise<Med<Konku
     .eq("id", brukerId)
     .maybeSingle();
   if (error) {
-    if (ikkeSattOpp(error)) return { demo: true, data: { skole: null, skjulFornavn: false, kallenavn: null } };
+    if (ikkeSattOpp(error)) return { demo: true, data: { skole: null, skjulFornavn: true, kallenavn: null } };
     throw new Error(error.message);
   }
   return {
     demo: false,
-    data: { skole: data?.skole ?? null, skjulFornavn: !!data?.skjul_fornavn, kallenavn: data?.kallenavn ?? null },
+    // Ingen vises før de har valgt det selv (standard i databasen er skjult).
+    data: { skole: data?.skole ?? null, skjulFornavn: data?.skjul_fornavn ?? true, kallenavn: data?.kallenavn ?? null },
   };
 }
 

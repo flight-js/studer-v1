@@ -347,15 +347,18 @@ fjerne poeng (`grunn = 'korrigering'`).
   og ikke press til å kjøpe.
 - **Ingen lotteri.** Tilfeldige premier eller trekninger kan kreve tillatelse
   etter lotteriloven. Belønningene er derfor faste og kjøpes med poeng.
-- **Personvern.** Fornavnet vises på rangeringene som standard (brukerens valg,
-  november 2026); eleven kan skjule det og bruke kallenavn eller ingenting.
-  Brukerne er 13–19 år, og personvernforordningen krever personvern som
-  standard (art. 25). Valget vises derfor allerede i velkomststegene, men det
-  bør vurderes juridisk før lansering om fornavn kan være på som standard.
+- **Personvern – ingen vises før de velger det selv** (endret 11.11.2026 etter
+  gjennomgangen under). Rangeringene kan ses av alle med konto, altså et
+  ubegrenset antall personer, og art. 25 nr. 2 krever at personopplysninger da
+  ikke er synlige uten at personen selv har valgt det. Fornavn som standard
+  (brukerens første valg) holdt derfor ikke. Nå: «Hva andre ser på
+  rangeringene» med tre likestilte valg (fornavn, kallenavn, ikke vis meg), der
+  «Ikke vis meg» er standard (`skjul_fornavn` default true,
+  `20261111120000_oppfolging_konkurranse.sql`). Grunnlaget for å vise eleven
+  er samtykke (art. 6 nr. 1 a); elever fra 13 år kan samtykke selv
+  (personopplysningsloven § 5), og samtykket trekkes med «Ikke vis meg».
   Skolekonkurransen teller alle med valgt skole, men viser bare tall per skole
-  og krever minst tre elever. Vurder en DPIA (personvernkonsekvensvurdering),
-  og oppdater datoene i personvernerklæringen og vilkårene når teksten
-  publiseres.
+  og krever minst tre elever. Vurder en DPIA (personvernkonsekvensvurdering).
 - **Kallenavn.** Filteret er hovedvernet (se «Kallenavn»), fordi få
   rapporterer. Ha likevel en rutine for å fjerne et navn som skulle slippe
   gjennom (`update profiles set kallenavn = null where id = …` med
@@ -369,7 +372,38 @@ fjerne poeng (`grunn = 'korrigering'`).
   reklame utover gaven.
 - **Partnere.** Det finnes ingen avtaler ennå. Sidene viser «Belønningene
   kommer snart» til ekte belønninger er lagt inn. Ikke vis logoer eller navn på
-  partnere uten avtale.
+  partnere uten avtale. Når de kommer: personvernerklæringen sier «vi viser
+  ikke reklame» – partnertilbud er reklame, så den setningen må endres samtidig.
+
+### Gjennomgang av vilkår og personvern, 11.11.2026
+
+Gjort av Claude (ikke en advokat) mot personvernforordningen,
+personopplysningsloven, markedsføringsloven og e-handelsloven. Funn og hva som
+ble gjort:
+
+- **Fornavn som standard** brøt med art. 25 nr. 2 – endret til «ikke vis meg»
+  som standard og samtykke for å vises (se over). Vilkår punkt 9 og
+  personvernerklæringen («Rangeringene») sier det samme.
+- **E-posten til en venn** (markedsføringsloven § 15, «tips en venn»): greit
+  slik den er laget – eleven velger selv mottakeren, én e-post, eleven får
+  ingen fordel av å sende (betaler med poeng), adressen brukes ikke til annet
+  og skjules etterpå, og den oppfordrer ikke til kjøp. Lagt til nederst i
+  e-posten: hvem som står bak (e-handelsloven § 9), hvorfor vi har adressen og
+  hvordan den slettes, lenke til personvernerklæringen (art. 14), og at Studer
+  er fra 13 år.
+- **Markedsføring mot unge** (markedsføringsloven §§ 19–20, og forbudet mot
+  direkte oppfordringer til barn om å kjøpe): ingen funn. Poeng kan ikke
+  kjøpes for penger, ingen tilfeldige premier (lotteriloven), og
+  konkurransefunksjonene oppfordrer ikke til kjøp. Partnertilbud må vurderes
+  når de kommer.
+- **Lagringstid:** tellerne for kallenavnsjekk ble aldri slettet, selv om
+  personvernerklæringen sa 90 dager – nattjobb lagt til.
+- **Datoene** i vilkårene og personvernerklæringen er satt til 11. november
+  2026. Publiseres de senere, sett datoen til publiseringsdagen
+  (`src/lib/juridisk.ts`).
+- **Gjenstår:** vilkår punkt 12 lover varsel om større endringer – gi de
+  eksisterende brukerne beskjed når konkurransen lanseres (e-post eller en
+  melding i appen). En advokat bør se over før lansering i stor skala.
 
 ## Lansering, steg for steg
 

@@ -95,7 +95,7 @@ export function Toppliste({
               href="/konto#konkurranse"
               className="font-semibold text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
             >
-              Velg et kallenavn
+              Velg hva andre ser
             </Link>
           )}
         </p>

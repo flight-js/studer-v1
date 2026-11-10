@@ -51,16 +51,23 @@ export default function Personvern() {
           kan dem, og når de skal repeteres. Grunnlaget er avtalen med deg.
         </p>
         <p>
-          <strong>Poeng og konkurranse.</strong> Poengene du tjener og hva de kom fra, tidene dine i formelmatch og
-          kodene du har løst inn, og skolen du har valgt. Skolen brukes i skolekonkurransen, som bare viser tall per
-          skole. På rangeringene kan andre innloggede elever se fornavnet ditt, skolen og poengene eller tidene dine –
-          aldri e-posten din. Krysser du av for «Ikke vis fornavnet mitt på rangeringene» (når du lager kontoen eller
-          under Konto), vises et kallenavn du velger selv i stedet, eller ingenting hvis du ikke velger et. Kallenavnet
-          sjekkes automatisk for banneord og stygge ord før det lagres. Grunnlaget er avtalen med deg.
+          <strong>Poeng og konkurranse.</strong> Poengene du tjener og hva de kom fra, tidene dine i formelmatch,
+          belønningene og kodene du har løst inn, rekke-frysene dine, merkene du har tjent, hva du har valgt å bruke
+          (som tema og merker ved navnet), og skolen du har valgt. Grunnlaget er avtalen med deg. Skolen brukes i
+          skolekonkurransen, som bare viser tall per skole, og bare for skoler med minst tre elever.
+        </p>
+        <p>
+          <strong>Rangeringene.</strong> Du vises bare på rangeringene hvis du selv velger det, når du lager kontoen
+          eller under Konto. Da kan andre innloggede elever se fornavnet ditt eller et kallenavn du velger, sammen
+          med skolen, merkene ved navnet og poengene eller tidene dine – aldri e-posten din. Grunnlaget er samtykket
+          ditt (artikkel 6 nr. 1 bokstav a), og elever fra 13 år kan samtykke selv. Du trekker samtykket når som helst
+          ved å velge «Ikke vis meg» under Konto. Kallenavnet sjekkes automatisk for banneord og stygge ord før det
+          lagres.
         </p>
         <p>
           <strong>Gaver til venner.</strong> Gir du en venn en gratis uke, lagrer vi e-postadressen du skriver, og
-          sender vennen én e-post med fornavnet ditt. Adressen brukes bare til å sende den e-posten og til å gi vennen
+          sender vennen én e-post med fornavnet ditt. I e-posten står det hvem vi er, hvorfor vi har adressen og
+          hvordan den slettes. Adressen brukes bare til å sende den e-posten og til å gi vennen
           uka hvis hen lager konto med den adressen – aldri til reklame. Når gaven er brukt eller har gått ut (etter 60
           dager), skjules adressen, så bare de to første bokstavene og domenet står igjen. Når vennen løser inn gaven,
           lagrer vi en kode laget av e-postadressen (ikke selve adressen), så hver person bare kan få én gave. Har du fått en slik e-post og
@@ -152,11 +159,11 @@ export default function Personvern() {
       <Avsnitt nr={5} tittel="Hvor lenge vi lagrer">
         <ul>
           <li>
-            <strong>Kontoen og alt som hører til den</strong> (profil, fremdrift, rapporter og forslag): til du sletter
-            kontoen. Da slettes det med en gang.
+            <strong>Kontoen og alt som hører til den</strong> (profil, fremdrift, poeng, belønninger, rapporter og
+            forslag): til du sletter kontoen. Da slettes det med en gang.
           </li>
           <li>
-            <strong>Tellerne for AI-bruk</strong>: slettes etter 90 dager.
+            <strong>Tellerne for AI-bruk og kallenavnsjekk</strong>: slettes etter 90 dager.
           </li>
           <li>
             <strong>E-postadressen til en venn du har gitt en gave</strong>: skjules senest et døgn etter at gaven er
@@ -181,7 +188,8 @@ export default function Personvern() {
       <Avsnitt nr={6} tittel="Barn og unge">
         <p>
           Du må være minst {ALDERSGRENSE} år for å lage konto på Studer. Er du under 18 år, må en forelder eller foresatt
-          godkjenne at du kjøper abonnement.
+          godkjenne at du kjøper abonnement. Fordi de fleste som bruker Studer er unge, viser vi ingen på
+          rangeringene før de har valgt det selv, og poengene kan aldri kjøpes for penger.
         </p>
       </Avsnitt>
 

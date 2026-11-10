@@ -72,6 +72,13 @@ const html = (t: string) =>
 // noe trekkes.
 const GYLDIG_EPOST = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
+// Hvem som står bak (e-handelsloven § 9: reklame skal vise hvem den er fra).
+// Må stemme med DRIVER, SKOLE og KONTAKT_EPOST i src/lib/juridisk.ts.
+const DRIVER =
+  "Studer UB, en ungdomsbedrift registrert hos Ungt Entreprenørskap Norge ved Amalie Skram videregående skole";
+const KONTAKT = "kontakt@studer.no";
+const ALDER = 13;
+
 function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: string) {
   const hvem = fra ?? "En venn";
   const tid = dager === 7 ? "en gratis uke" : `${dager} gratis dager`;
@@ -82,7 +89,11 @@ function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: s
     timeZone: "Europe/Oslo",
   });
   const lenke = `${SIDE}/registrer?neste=${encodeURIComponent("/abonnement")}`;
+  const personvern = `${SIDE}/personvern`;
   const emne = `${hvem} har gitt deg ${tid} på Studer`;
+  // Hvem som sender, hvorfor vi har adressen og hvordan den slettes
+  // (personvernforordningen art. 14: adressen kom fra en annen enn mottakeren).
+  const bunn = `Denne e-posten er sendt av Studer (studer.no) fordi ${hvem === "En venn" ? "en venn" : hvem} skrev inn adressen din. Studer drives av ${DRIVER}. Studer er for elever fra ${ALDER} år. Vil du at vi sletter adressen med en gang, svar på e-posten eller skriv til ${KONTAKT}. Les mer i personvernerklæringen: ${personvern}`;
   const tekst = [
     "Hei!",
     "",
@@ -95,6 +106,9 @@ function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: s
     `Kjenner du ikke ${fra ?? "avsenderen"}, eller vil du ikke ha gaven, kan du se bort fra denne e-posten. Vi bruker ikke adressen din til noe annet, og du får ikke flere e-poster fra oss om dette.`,
     "",
     "Hilsen Studer",
+    "",
+    "–",
+    bunn,
   ].join("\n");
   const avsnitt = (t: string) => `<p style="margin:0 0 16px">${t}</p>`;
   const kropp = `<!doctype html><html lang="nb"><body style="margin:0;padding:24px;background:#f6f4ef;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;font-size:16px;line-height:1.5;color:#1c1b19">
@@ -104,7 +118,9 @@ ${avsnitt(`<strong>${html(hvem)}</strong> har gitt deg ${tid} på Studer, en app
 ${avsnitt(`Lag en konto med denne e-postadressen (${html(epost)}) innen ${html(dato)}, og løs inn gaven. Da får du tilgang til alt i Studer i ${dager === 7 ? "en uke" : `${dager} dager`}. Du trenger ikke kort, og det koster ingenting.`)}
 <p style="margin:24px 0"><a href="${html(lenke)}" style="display:inline-block;background:#1c1b19;color:#ffffff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:12px">Lag konto</a></p>
 <p style="margin:0;font-size:14px;color:#6b6760">Kjenner du ikke ${html(fra ?? "avsenderen")}, eller vil du ikke ha gaven, kan du se bort fra denne e-posten. Vi bruker ikke adressen din til noe annet, og du får ikke flere e-poster fra oss om dette.</p>
-</div></body></html>`;
+</div>
+<p style="max-width:520px;margin:16px auto 0;font-size:12px;line-height:1.5;color:#8a857c">${html(bunn).replace(html(personvern), `<a href="${html(personvern)}" style="color:#8a857c">${html(personvern)}</a>`)}</p>
+</body></html>`;
   return { emne, tekst, kropp };
 }
 

@@ -168,9 +168,9 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
 
             {meg && !demo && meg.navn === "Deg" && (
               <p className="text-sm text-ink-soft">
-                Du ser deg selv i lista, men de andre ser deg ikke, fordi du har skjult fornavnet uten å velge kallenavn.{" "}
+                Du ser deg selv i lista, men de andre ser deg ikke før du velger å vise fornavnet eller et kallenavn.{" "}
                 <Link href="/konto#konkurranse" className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground">
-                  Velg et kallenavn
+                  Velg hva andre ser
                 </Link>
                 .
               </p>

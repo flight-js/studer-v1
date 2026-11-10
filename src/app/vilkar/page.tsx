@@ -163,8 +163,9 @@ export default function Vilkar() {
               Belønninger fra samarbeidspartnere har egne vilkår fra partneren og kan løses inn én gang per person.
             </li>
             <li>
-              Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. På rangeringene vises
-              fornavnet ditt, eller et kallenavn hvis du har valgt å skjule fornavnet.
+              Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. På rangeringene vises du
+              bare hvis du selv velger det: med fornavnet ditt eller et kallenavn, sammen med skolen og merkene dine.
+              Du kan endre valget når som helst under Konto.
             </li>
             <li>
               Kallenavnet kan ikke være støtende, for eksempel banneord, seksuelle ord, slurs eller hets, og kan ikke

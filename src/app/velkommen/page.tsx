@@ -56,7 +56,7 @@ function Velkommen() {
   const nr = stegene.indexOf(steg);
   const valgtTrinn = trinn ?? profil?.trinn ?? null;
   const valgtSkole = skole === undefined ? (k?.data.skole ?? null) : skole;
-  const valgtSkjul = skjul ?? k?.data.skjulFornavn ?? false;
+  const valgtSkjul = skjul ?? k?.data.skjulFornavn ?? true;
   const valgtKallenavn = kallenavn ?? k?.data.kallenavn ?? "";
   const ugyldigKallenavn = valgtSkjul && !!valgtKallenavn.trim() && !!kallenavnFeil(valgtKallenavn);
   const fornavn = fornavnFra(profil?.navn || (bruker.user_metadata?.navn as string | undefined));

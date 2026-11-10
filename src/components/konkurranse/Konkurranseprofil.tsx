@@ -115,10 +115,16 @@ function Skjema({ brukerId, start, demo }: { brukerId: string; start: Profil; de
 
 export const fornavnFra = (navn?: string | null) => (navn ?? "").trim().split(/\s+/)[0] || null;
 
-// Hvilket navn andre ser på rangeringene. Fornavnet vises, med mindre eleven
-// krysser av for å skjule det – da glir et felt for kallenavn fram. Kallenavnet
-// sjekkes mens eleven skriver (og i databasen når det lagres). Tomt kallenavn:
-// eleven vises ikke for andre. Brukes også i velkomststegene.
+// Hva andre ser på rangeringene: fornavnet, et kallenavn eller ingenting.
+// Ingenting er standard – navnet vises bare når eleven velger det selv
+// (personvernforordningen art. 25 nr. 2, personvern som standard, og samtykke
+// etter art. 6 nr. 1 a; elever fra 13 år kan samtykke selv). Velger eleven
+// kallenavn, glir et felt fram; det sjekkes mens eleven skriver (og i
+// databasen når det lagres). Tomt kallenavn: eleven vises ikke for andre.
+// Brukes også i velkomststegene.
+//   skjul = false: fornavnet vises   skjul = true: kallenavnet, eller ingenting
+type Synlighet = "fornavn" | "kallenavn" | "skjult";
+
 export function Rangeringsvalg({
   id,
   skjul,
@@ -136,7 +142,11 @@ export function Rangeringsvalg({
   fornavn?: string | null;
   mork?: boolean;
 }) {
-  // Fokus i feltet bare når eleven selv krysser av – ikke når siden åpnes.
+  // Valget huskes her, så «Bruk et kallenavn» blir stående mens feltet er tomt.
+  const [synlighet, setSynlighet] = useState<Synlighet>(() =>
+    !skjul ? "fornavn" : kallenavn.trim() ? "kallenavn" : "skjult"
+  );
+  // Fokus i feltet bare når eleven selv velger kallenavn – ikke når siden åpnes.
   const [krysset, setKrysset] = useState(false);
   // Feil vises når eleven tar en pause, ikke for hver bokstav («M» er for kort,
   // «Ass» er på vei til «Assistent»). Lagre-knappen sjekker med en gang.
@@ -159,30 +169,54 @@ export function Rangeringsvalg({
     ? `${ramme} bg-natt-hevet text-background placeholder:text-background/40`
     : `${ramme} bg-background placeholder:text-faint`;
 
-  return (
-    <div className="flex flex-col gap-3">
-      <label htmlFor={id} className="flex items-start gap-3 cursor-pointer">
-        <input
-          id={id}
-          type="checkbox"
-          checked={skjul}
-          onChange={(e) => {
-            onSkjul(e.target.checked);
-            setKrysset(e.target.checked);
-          }}
-          className="mt-1 size-4 accent-primary"
-        />
-        <span className="flex flex-col">
-          <span className="text-sm font-semibold">Ikke vis fornavnet mitt på rangeringene</span>
-          <span className={`text-xs ${dempet}`}>
-            {skjul
-              ? "Velg et kallenavn som vises i stedet."
-              : `Andre elever ser ${fornavn ? `fornavnet ditt (${fornavn})` : "fornavnet ditt"} og skolen din, aldri e-posten.`}
-          </span>
-        </span>
-      </label>
+  const velg = (ny: Synlighet) => {
+    setSynlighet(ny);
+    setKrysset(ny === "kallenavn");
+    onSkjul(ny !== "fornavn");
+    if (ny === "skjult") onKallenavn("");
+  };
+  const valg: { verdi: Synlighet; tittel: string; tekst: string }[] = [
+    {
+      verdi: "fornavn",
+      tittel: `Vis fornavnet mitt${fornavn ? ` (${fornavn})` : ""}`,
+      tekst: "Andre elever ser fornavnet, skolen og merkene dine – aldri e-posten.",
+    },
+    {
+      verdi: "kallenavn",
+      tittel: "Bruk et kallenavn",
+      tekst: "Andre ser kallenavnet, skolen og merkene dine i stedet for navnet.",
+    },
+    {
+      verdi: "skjult",
+      tittel: "Ikke vis meg",
+      tekst: "Du ser din egen plass, men ingen andre ser deg. Skolelista teller deg likevel, men viser bare tall per skole.",
+    },
+  ];
 
-      {skjul && (
+  return (
+    <fieldset className="flex flex-col gap-3">
+      <legend className="text-sm font-semibold">Hva andre ser på rangeringene</legend>
+      <p className={`-mt-1 text-xs ${dempet}`}>Ingenting vises før du velger det selv. Du kan endre det når som helst.</p>
+      <div className="flex flex-col gap-2.5">
+        {valg.map((v) => (
+          <label key={v.verdi} htmlFor={`${id}-${v.verdi}`} className="flex items-start gap-3 cursor-pointer">
+            <input
+              id={`${id}-${v.verdi}`}
+              type="radio"
+              name={`${id}-synlighet`}
+              checked={synlighet === v.verdi}
+              onChange={() => velg(v.verdi)}
+              className="mt-1 size-4 accent-primary"
+            />
+            <span className="flex flex-col">
+              <span className="text-sm font-semibold">{v.tittel}</span>
+              <span className={`text-xs ${dempet}`}>{v.tekst}</span>
+            </span>
+          </label>
+        ))}
+      </div>
+
+      {synlighet === "kallenavn" && (
         <div className="rise-rask ml-7 flex flex-col gap-1.5">
           <span className="flex items-baseline justify-between gap-3">
             <label htmlFor={`${id}-kallenavn`} className="text-sm font-semibold">
@@ -210,11 +244,10 @@ export function Rangeringsvalg({
             aria-live="polite"
             className={`text-xs ${feil ? (mork ? "text-[#ffb4a8] font-medium" : "text-danger-ink font-medium") : dempet}`}
           >
-            {feil ??
-              "Bokstaver, tall, mellomrom, - og _. Det sjekkes før det lagres. La feltet stå tomt for å ikke vises på rangeringene i det hele tatt."}
+            {feil ?? "Bokstaver, tall, mellomrom, - og _. Det sjekkes før det lagres. Tomt felt: du vises ikke for andre."}
           </p>
         </div>
       )}
-    </div>
+    </fieldset>
   );
 }

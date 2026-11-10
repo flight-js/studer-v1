@@ -4,8 +4,8 @@ export const SKOLE: string | null = "Amalie Skram videregående skole";
 export const KONTAKT_EPOST = "kontakt@studer.no";
 
 // Endre når vilkårene eller personvernerklæringen endres.
-export const VILKAR_OPPDATERT = "30. september 2026";
-export const PERSONVERN_OPPDATERT = "4. november 2026";
+export const VILKAR_OPPDATERT = "11. november 2026";
+export const PERSONVERN_OPPDATERT = "11. november 2026";
 
 export const ALDERSGRENSE = 13;
 
