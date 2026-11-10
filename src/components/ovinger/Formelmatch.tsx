@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment, useEffect, useLayoutEffect, useReducer, useRef, useState, useSyncExternalStore } from "react";
 import { Feiringsmerke } from "@/components/Feiringsmerke";
 import { Avkrysning } from "@/components/Avkrysning";
-import { ArrowRight, ChevronRight, Repeat } from "@/components/icons";
+import { ArrowRight, ChevronRight, Repeat, Stjerne } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rekke } from "@/components/Rekke";
 import { Tall } from "@/components/Tall";
@@ -166,6 +166,8 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
       setTid(ms);
       setRekord({ forrige, ny });
       setFase("ferdig");
+      // Svaret fra forrige runde skal ikke vises på denne (rekordpoengene).
+      setAvslutning((a) => ({ ...a, res: null }));
       // Send tiden til serveren; topplista hentes på nytt når svaret er kommet.
       const ventende = serverRunde.current;
       serverRunde.current = null;
@@ -338,6 +340,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
             onIgjen={() => begynn(lagRunde(valgte))}
             onBommet={() => begynn(lagRunde(medBommet(runde.flatMap((r) => r.formler), s.bommet, valgte)))}
             onVelg={() => setFase("start")}
+            rekordpoeng={avslutning.res?.rekordpoeng ?? 0}
             toppliste={<Toppliste temaId={temaId} avslutning={avslutning.res} runde={avslutning.nr} />}
           />
         )}
@@ -695,6 +698,7 @@ function Resultat({
   onIgjen,
   onBommet,
   onVelg,
+  rekordpoeng,
   toppliste,
 }: {
   tid: number;
@@ -707,6 +711,8 @@ function Resultat({
   onIgjen: () => void;
   onBommet: () => void;
   onVelg: () => void;
+  // Bonus fra serveren for ny personlig rekord (utenom dagstaket), ellers 0.
+  rekordpoeng: number;
   toppliste: React.ReactNode;
 }) {
   const melding =
@@ -740,6 +746,14 @@ function Resultat({
           )}
         </div>
         <p className="text-lg text-ink-soft max-w-[36ch]">{melding}</p>
+        {rekordpoeng > 0 && (
+          <p className="pop inline-flex items-center gap-2 rounded-full bg-merke/30 pl-1.5 pr-3.5 py-1 text-sm font-semibold">
+            <span className="inline-flex size-6 items-center justify-center rounded-full bg-merke text-pa-merke">
+              <Stjerne size={14} fylt />
+            </span>
+            +{rekordpoeng} rekordpoeng – teller ikke mot dagstaket
+          </p>
+        )}
         <div className="flex flex-wrap justify-center gap-3 mt-1">
           {bommet.length > 0 && (
             <button

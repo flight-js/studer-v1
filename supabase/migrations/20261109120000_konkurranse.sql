@@ -7,6 +7,9 @@
 -- - Tak: hver øving (tema + aktivitet) gir poeng høyst én gang per døgn, og
 --   høyst 150 poeng per døgn til sammen (dagsbonus inkludert). Flashcards gir
 --   ikke poeng: eleven svarer selv «Kan dette», så det kan ikke sjekkes.
+-- - Rekordbonus: ny personlig rekord på tid i formelmatch gir 15 poeng som ikke
+--   teller mot taket – høyst tre om dagen og én per tema. Slik er det noe å
+--   spille for også etter at taket er nådd.
 -- - Poengene har ingen pengeverdi, kan ikke kjøpes eller overføres, og kan
 --   løses inn i belønninger (se vilkårene).
 -- - Eleven velger skole. Rangeringer viser fornavnet (første ord i navnet fra
@@ -47,12 +50,32 @@ create policy "Innloggede kan lese aktive skoler" on public.skoler
 alter table public.profiles
   add column skole_id text references public.skoler (id) on delete set null,
   add column skjul_fornavn boolean not null default false,
-  add column kallenavn text;
+  add column kallenavn text,
+  -- Gratis tilgang fra en venn (vennegave_los_inn): har_tilgang() slipper eleven
+  -- inn til dette tidspunktet, uten abonnement og uten kort. Bare databasen
+  -- skriver kolonnen (eleven har ikke update-rettighet på den).
+  add column gave_til timestamptz;
 
 -- Kallenavnet kan bare lagres av serverfunksjonen «kallenavn», som også lar en
 -- språkmodell vurdere det (supabase/functions/kallenavn). Eleven kan derfor
 -- ikke oppdatere kolonnen selv.
 grant update (skole_id, skjul_fornavn) on public.profiles to authenticated;
+
+-- Tilgang til innholdet: abonnement eller prøveperiode fra Stripe, eller en gave
+-- fra en venn som ikke har gått ut. Samme regel som harTilgang() i
+-- src/lib/profil.ts. (Serverfunksjonene «chat» og «vurder» spør denne.)
+create or replace function public.har_tilgang()
+returns boolean
+language sql
+stable
+security invoker
+set search_path = ''
+as $$
+  select exists (
+    select 1 from public.profiles
+    where id = (select auth.uid()) and (abonnement <> 'gratis' or gave_til > now())
+  );
+$$;
 
 -- Ordlistene for kallenavn – de samme som i src/lib/kallenavn.ts (der står
 -- hvorfor ordene er delt i tre lister). Endres begge steder.
@@ -366,10 +389,12 @@ create trigger profiles_sjekk_valgte_ting
 
 -- Gaver til en venn. Eleven skriver vennens e-postadresse, og Studer sender
 -- vennen en e-post (serverfunksjonen «vennegave»). Når noen med den adressen
--- starter sitt første abonnement, trekkes dagene fra første betaling
--- (serverfunksjonen «betaling», vennegave_bruk). Brukes ikke gaven innen 60
--- dager, får giveren poengene tilbake, og når gaven er ferdig, skjules
--- adressen (vennegaver_rydd, hver natt).
+-- (bekreftet) lager konto og løser inn gaven på /abonnement
+-- (vennegave_los_inn), får hen tilgang til alt i dagene – uten kort og uten
+-- abonnement (profiles.gave_til). Bare for nye: ikke hatt abonnement eller
+-- prøveperiode, og én gave per person. Brukes ikke gaven innen 60 dager, får
+-- giveren poengene tilbake, og når gaven er ferdig, skjules adressen
+-- (vennegaver_rydd, hver natt).
 --   aktiv: sendt, kan brukes     brukt: vennen har fått dagene
 --   angret: e-posten kunne ikke sendes – poengene er gitt tilbake
 --   utlopt: ikke brukt i tide, eller vennen har brukt en annen gave – poengene er gitt tilbake
@@ -386,11 +411,14 @@ create table public.vennegaver (
   gyldig_til timestamptz not null default now() + interval '60 days',
   brukt_av uuid references auth.users (id) on delete set null,
   brukt timestamptz,
-  belop_ore int
+  -- Nøkkelen for e-posten til den som brukte gaven (provetid_epostnokkel): én
+  -- gave per person, også med «+noe» i adressen og etter at kontoen er slettet.
+  brukt_nokkel text
 );
 create index vennegaver_giver on public.vennegaver (giver, laget);
 create index vennegaver_aktive on public.vennegaver (epost) where status = 'aktiv';
 create unique index vennegaver_en_per_person on public.vennegaver (brukt_av) where status = 'brukt';
+create index vennegaver_brukt_nokkel on public.vennegaver (brukt_nokkel) where status = 'brukt';
 alter table public.vennegaver enable row level security;
 revoke all on public.vennegaver from anon, authenticated;
 
@@ -444,7 +472,7 @@ create table public.poeng_logg (
   id bigint generated always as identity primary key,
   bruker_id uuid not null references auth.users (id) on delete cascade,
   endring int not null,
-  grunn text not null check (grunn in ('oving', 'dagsbonus', 'formelmatch', 'innlosning', 'korrigering')),
+  grunn text not null check (grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord', 'innlosning', 'korrigering')),
   tema_id text,
   aktivitet text,
   belonning_id uuid references public.belonninger (id) on delete set null,
@@ -458,6 +486,8 @@ create index poeng_logg_dag on public.poeng_logg (dag) where endring > 0;
 create unique index poeng_logg_en_gang_per_dag on public.poeng_logg (bruker_id, tema_id, aktivitet, dag)
   where grunn in ('oving', 'formelmatch');
 create unique index poeng_logg_en_dagsbonus on public.poeng_logg (bruker_id, dag) where grunn = 'dagsbonus';
+-- Rekordbonus: høyst én per tema per døgn (og høyst tre per døgn, se avslutt_formelmatch).
+create unique index poeng_logg_en_rekord_per_tema on public.poeng_logg (bruker_id, tema_id, dag) where grunn = 'rekord';
 
 alter table public.poeng_logg enable row level security;
 revoke all on public.poeng_logg from anon, authenticated;
@@ -476,7 +506,7 @@ set search_path = ''
 as $$
   with dager as (
     select distinct l.dag from public.poeng_logg l
-    where l.bruker_id = p_bruker and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch')
+    where l.bruker_id = p_bruker and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
   ), grupper as (
     select dag, dag - (row_number() over (order by dag))::int as gruppe from dager
   ), rekker as (
@@ -661,8 +691,11 @@ begin
 end;
 $$;
 
+-- Rekordbonus: slår eleven sin egen beste tid i temaet (en runde som teller,
+-- og det fantes en tid fra før), gir det 15 poeng utenom taket. Høyst én per
+-- tema og tre per døgn, så det ikke lønner seg å spille sakte først.
 create function public.avslutt_formelmatch(p_runde uuid, p_tid_ms int, p_par int, p_straffer int)
-returns table (tid_ms int, teller boolean, forrige_beste int, poeng int)
+returns table (tid_ms int, teller boolean, forrige_beste int, poeng int, rekordpoeng int)
 language plpgsql
 security definer
 set search_path = ''
@@ -676,6 +709,9 @@ declare
   v_min int;
   v_teller boolean;
   v_forrige int;
+  v_poeng int;
+  v_rekord int := 0;
+  v_rader int;
 begin
   select * into v_runde from public.formelmatch_runder r
   where r.id = p_runde and r.bruker_id = v_bruker and r.ferdig is null
@@ -703,7 +739,25 @@ begin
   set ferdig = now(), tid_ms = v_tid, par = p_par, straffer = p_straffer, teller = v_teller
   where r.id = p_runde;
 
-  return query select v_tid, v_teller, v_forrige, public.gi_poeng(v_bruker, v_runde.tema_id, 'formelmatch', 1, 1);
+  v_poeng := public.gi_poeng(v_bruker, v_runde.tema_id, 'formelmatch', 1, 1);
+
+  if v_teller and v_forrige is not null and v_tid < v_forrige then
+    perform pg_advisory_xact_lock(hashtextextended(v_bruker::text, 0));
+    if (
+      select count(*) from public.poeng_logg l
+      where l.bruker_id = v_bruker and l.dag = public.minne_i_dag() and l.grunn = 'rekord'
+    ) < 3 then
+      insert into public.poeng_logg (bruker_id, endring, grunn, tema_id, aktivitet)
+      values (v_bruker, 15, 'rekord', v_runde.tema_id, 'formelmatch')
+      on conflict (bruker_id, tema_id, dag) where grunn = 'rekord' do nothing;
+      get diagnostics v_rader = row_count;
+      if v_rader > 0 then
+        v_rekord := 15;
+      end if;
+    end if;
+  end if;
+
+  return query select v_tid, v_teller, v_forrige, v_poeng, v_rekord;
 end;
 $$;
 
@@ -758,7 +812,7 @@ as $$
   ), summer as (
     select l.bruker_id, sum(l.endring)::int as poeng
     from public.poeng_logg l, uke
-    where l.dag >= uke.fra and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch')
+    where l.dag >= uke.fra and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
     group by l.bruker_id
   ), synlige as (
     select s.bruker_id, s.poeng, sk.navn as skole,
@@ -798,7 +852,7 @@ as $$
   ), summer as (
     select l.bruker_id, sum(l.endring)::int as poeng
     from public.poeng_logg l, uke
-    where l.dag >= uke.fra and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch')
+    where l.dag >= uke.fra and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
     group by l.bruker_id
   ), per_skole as (
     select p.skole_id, count(*)::int as elever, sum(s.poeng)::int as poeng
@@ -820,9 +874,10 @@ as $$
   order by plass;
 $$;
 
--- Elevens egen status: saldo (tjent minus innløst), denne uka, i dag og dager på rad.
+-- Elevens egen status: saldo (tjent minus innløst), denne uka, i dag (mot taket,
+-- uten rekordbonus), dager på rad og rekordbonuser i dag.
 create function public.min_poengstatus()
-returns table (saldo int, denne_uka int, i_dag int, tak int, streak int)
+returns table (saldo int, denne_uka int, i_dag int, tak int, streak int, rekorder_i_dag int, rekordtak int)
 language sql
 stable
 security definer
@@ -831,14 +886,16 @@ as $$
   select
     coalesce(sum(l.endring), 0)::int,
     coalesce(sum(l.endring) filter (
-      where l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch')
+      where l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
         and l.dag >= date_trunc('week', public.minne_i_dag())::date
     ), 0)::int,
     coalesce(sum(l.endring) filter (
       where l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch') and l.dag = public.minne_i_dag()
     ), 0)::int,
     150,
-    public.poeng_streak(auth.uid())
+    public.poeng_streak(auth.uid()),
+    (count(*) filter (where l.grunn = 'rekord' and l.dag = public.minne_i_dag()))::int,
+    3
   from public.poeng_logg l
   where l.bruker_id = auth.uid();
 $$;
@@ -1112,56 +1169,62 @@ begin
 end;
 $$;
 
--- En ny kunde starter sitt første abonnement (bare serverfunksjonen «betaling»,
--- som har sjekket at kunden aldri har hatt abonnement). Finnes det en gave til
--- e-postadressen (bekreftet), brukes den eldste: beløpet (dager × øre per dag)
--- lagres, og funksjonen legger det inn i Stripe. ny = false: eleven har brukt
--- en gave før – den vises, men gis ikke igjen. Ingen rad: ingen gave.
-create function public.vennegave_bruk(p_bruker uuid, p_ore_per_dag numeric)
-returns table (id uuid, dager int, belop_ore int, ny boolean)
+-- Vennen løser inn gaven (knappen på /abonnement). Eleven må ha bekreftet
+-- e-postadressen gaven ble sendt til, og være ny: ikke abonnement nå, ikke hatt
+-- prøveperiode eller abonnement før (også med samme e-post på en annen konto),
+-- og ikke brukt en gave før. Da brukes den eldste gaven, og eleven får tilgang
+-- i dagene fra nå (profiles.gave_til). Ingen kort, ingen Stripe.
+create function public.vennegave_los_inn()
+returns table (til timestamptz, dager int)
 language plpgsql
 security definer
 set search_path = ''
 as $$
 declare
+  v_bruker uuid := auth.uid();
   v_epost text;
+  v_nokkel text;
   v public.vennegaver;
+  v_til timestamptz;
 begin
-  perform pg_advisory_xact_lock(hashtextextended(p_bruker::text, 0));
-  select * into v from public.vennegaver g where g.brukt_av = p_bruker and g.status = 'brukt';
-  if found then
-    return query select v.id, v.dager, v.belop_ore, false;
-    return;
+  if v_bruker is null then
+    raise exception 'Ikke innlogget';
   end if;
-  select lower(u.email) into v_epost from auth.users u where u.id = p_bruker and u.email_confirmed_at is not null;
+  perform pg_advisory_xact_lock(hashtextextended(v_bruker::text, 0));
+  select lower(u.email) into v_epost from auth.users u where u.id = v_bruker and u.email_confirmed_at is not null;
   if v_epost is null then
-    return;
+    raise exception 'Bekreft e-postadressen din først.';
   end if;
+  v_nokkel := public.provetid_epostnokkel(v_epost);
+  if exists (
+    select 1 from public.vennegaver b
+    where b.status = 'brukt' and (b.brukt_av = v_bruker or b.brukt_nokkel = v_nokkel)
+  ) then
+    raise exception 'Du har allerede brukt en gave fra en venn.';
+  end if;
+  if exists (select 1 from public.profiles p where p.id = v_bruker and (p.abonnement <> 'gratis' or p.provetid_brukt))
+     or not public.provetid_tilgjengelig(v_bruker, v_epost) then
+    raise exception 'Gaven er for nye brukere, og du har hatt abonnement eller prøveperiode før.';
+  end if;
+
   update public.vennegaver g
-  set status = 'brukt', brukt_av = p_bruker, brukt = now(), belop_ore = round(g.dager * p_ore_per_dag)::int
+  set status = 'brukt', brukt_av = v_bruker, brukt = now(), brukt_nokkel = v_nokkel
   where g.id = (
     select g2.id from public.vennegaver g2
-    where g2.epost = v_epost and g2.status = 'aktiv' and g2.gyldig_til > now() and g2.giver is distinct from p_bruker
+    where g2.epost = v_epost and g2.status = 'aktiv' and g2.gyldig_til > now() and g2.giver is distinct from v_bruker
     order by g2.laget
     limit 1
     for update skip locked
   )
   returning g.* into v;
-  if found then
-    return query select v.id, v.dager, v.belop_ore, true;
+  if not found then
+    raise exception 'Fant ingen gave til e-postadressen din.';
   end if;
-end;
-$$;
 
--- Stripe feilet etter vennegave_bruk: gaven kan brukes igjen.
-create function public.vennegave_ikke_brukt(p_id uuid)
-returns void
-language sql
-security definer
-set search_path = ''
-as $$
-  update public.vennegaver set status = 'aktiv', brukt_av = null, brukt = null, belop_ore = null
-  where id = p_id and status = 'brukt';
+  v_til := now() + make_interval(days => v.dager);
+  update public.profiles set gave_til = v_til where id = v_bruker;
+  return query select v_til, v.dager;
+end;
 $$;
 
 -- Hver natt: gaver som ikke kan brukes lenger (gått ut, eller vennen har brukt
@@ -1209,7 +1272,8 @@ as $$
   order by v.laget desc;
 $$;
 
--- En gave som venter på eleven (vises på abonnementssiden før betaling).
+-- En gave eleven kan løse inn nå (vises på abonnementssiden). Samme krav som
+-- vennegave_los_inn, så knappen bare vises når innløsningen går.
 create function public.min_vennegave()
 returns table (fra text, dager int, gyldig_til timestamptz)
 language sql
@@ -1220,8 +1284,13 @@ as $$
   select public.gavenavn(v.giver), v.dager, v.gyldig_til
   from public.vennegaver v
   join auth.users u on u.id = auth.uid() and u.email_confirmed_at is not null and lower(u.email) = v.epost
+  join public.profiles p on p.id = u.id and p.abonnement = 'gratis' and not p.provetid_brukt
   where v.status = 'aktiv' and v.gyldig_til > now() and v.giver is distinct from auth.uid()
-    and not exists (select 1 from public.vennegaver b where b.brukt_av = auth.uid() and b.status = 'brukt')
+    and public.provetid_tilgjengelig(u.id, u.email)
+    and not exists (
+      select 1 from public.vennegaver b
+      where b.status = 'brukt' and (b.brukt_av = u.id or b.brukt_nokkel = public.provetid_epostnokkel(u.email))
+    )
   order by v.laget
   limit 1;
 $$;
@@ -1280,8 +1349,7 @@ revoke execute on function public.gavenavn(uuid) from public, anon, authenticate
 revoke execute on function public.skjul_epost(text) from public, anon, authenticated;
 revoke execute on function public.vennegave_lag(uuid, uuid, text) from public, anon, authenticated;
 revoke execute on function public.vennegave_angre(uuid) from public, anon, authenticated;
-revoke execute on function public.vennegave_bruk(uuid, numeric) from public, anon, authenticated;
-revoke execute on function public.vennegave_ikke_brukt(uuid) from public, anon, authenticated;
+revoke execute on function public.vennegave_los_inn() from public, anon;
 revoke execute on function public.vennegaver_rydd() from public, anon, authenticated;
 
 grant execute on function public.lagre_resultat(text, text, numeric, int) to authenticated;
@@ -1296,6 +1364,7 @@ grant execute on function public.los_inn(uuid) to authenticated;
 grant execute on function public.mine_kuponger() to authenticated;
 grant execute on function public.mine_vennegaver() to authenticated;
 grant execute on function public.min_vennegave() to authenticated;
+grant execute on function public.vennegave_los_inn() to authenticated;
 
 -- Gaver til venner: poeng tilbake for gaver som ikke ble brukt, og adressene
 -- skjules (pg_cron er slått på i 20260930201321_forslag_og_opprydding.sql).
@@ -1308,7 +1377,7 @@ select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegave
 
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
   ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
-  ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.', 'Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
+  ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis – uten å legge inn kort.', 'Bare for nye brukere. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
   ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
   ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
   ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 1200, 'ting', 'flamme-regnbue'),

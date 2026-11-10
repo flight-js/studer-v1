@@ -62,7 +62,8 @@ export default function Personvern() {
           <strong>Gaver til venner.</strong> Gir du en venn en gratis uke, lagrer vi e-postadressen du skriver, og
           sender vennen én e-post med fornavnet ditt. Adressen brukes bare til å sende den e-posten og til å gi vennen
           uka hvis hen lager konto med den adressen – aldri til reklame. Når gaven er brukt eller har gått ut (etter 60
-          dager), skjules adressen, så bare de to første bokstavene og domenet står igjen. Har du fått en slik e-post og
+          dager), skjules adressen, så bare de to første bokstavene og domenet står igjen. Når vennen løser inn gaven,
+          lagrer vi en kode laget av e-postadressen (ikke selve adressen), så hver person bare kan få én gave. Har du fått en slik e-post og
           vil at vi skal slette adressen med en gang, kan du skrive til oss. Grunnlaget er avtalen med den som gir
           gaven, og vår berettigede interesse i å levere gaven (artikkel 6 nr. 1 bokstav f).
         </p>

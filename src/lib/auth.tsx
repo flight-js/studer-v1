@@ -2,7 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { User } from "@supabase/supabase-js";
-import { harAbonnement, hentProfil, kanProve, type Profil } from "./profil";
+import { harTilgang, hentProfil, kanProve, type Profil } from "./profil";
 import { supabase } from "./supabase";
 import { useHent } from "./useHent";
 
@@ -68,7 +68,7 @@ export function useTilgang() {
   return {
     laster: laster || (!!bruker && profil === undefined),
     innlogget: !!bruker,
-    abonnement: harAbonnement(profil),
+    abonnement: harTilgang(profil),
     kanProve: kanProve(profil),
   };
 }

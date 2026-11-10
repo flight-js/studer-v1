@@ -129,7 +129,8 @@ export default function Vilkar() {
         <Avsnitt nr={9} tittel="Poeng, konkurranse og belønninger">
           <p>
             Du får poeng når du øver i Studer, etter reglene som står på siden Konkurranse. Hver øving gir poeng høyst
-            én gang per døgn, og det er et tak på hvor mange poeng du kan få per dag.
+            én gang per døgn, og det er et tak på hvor mange poeng du kan få per dag. Ny personlig rekord i formelmatch
+            gir bonuspoeng som ikke teller mot taket, høyst tre ganger per dag.
           </p>
           <ul>
             <li>Poengene har ingen pengeverdi. De kan ikke kjøpes, selges, overføres til andre eller veksles i penger.</li>
@@ -143,9 +144,10 @@ export default function Vilkar() {
             </li>
             <li>
               Gir du en venn en gratis uke, skriver du vennens e-postadresse, og vi sender vennen én e-post med
-              fornavnet ditt. Vennen får én uke i fradrag på første betaling hvis hen lager konto med den adressen og
-              ikke har hatt abonnement før. Du kan ha høyst tre ubrukte gaver om gangen, og brukes en gave ikke innen
-              60 dager, får du poengene tilbake. Send bare gaver til folk du kjenner.
+              fornavnet ditt. Lager vennen konto med den adressen og løser inn gaven, får hen tilgang til alt i en
+              uke uten å legge inn betalingsmåte, hvis hen ikke har hatt abonnement eller prøveperiode før. Hver person
+              kan bare få én gave. Du kan ha høyst tre ubrukte gaver om gangen, og brukes en gave ikke innen 60 dager,
+              får du poengene tilbake. Send bare gaver til folk du kjenner.
             </li>
             <li>
               Ting i appen (som flammefarger, konfetti og merker ved navnet) er dine så lenge du har kontoen, men har

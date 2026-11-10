@@ -13,7 +13,7 @@ import { AppBar } from "@/components/AppBar";
 import { ArrowRight, Check, Gave, Lock } from "@/components/icons";
 import { Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
-import { hentMinVennegave } from "@/lib/konkurranse";
+import { hentMinVennegave, losInnVennegave } from "@/lib/konkurranse";
 import { useHent } from "@/lib/useHent";
 import {
   betalingsfeiltekst,
@@ -23,13 +23,15 @@ import {
   type Betalingsokt,
 } from "@/lib/betaling";
 import { ARLIG_SPARING, ENHET, FORDELER, PLANNAVN, PRIS, PROVEDAGER, type Plan } from "@/lib/priser";
-import { datoTekst, harAbonnement, kanProve, type Profil } from "@/lib/profil";
+import { datoTekst, harAbonnement, harGave, kanProve, type Profil } from "@/lib/profil";
 import { erMork } from "@/lib/tema";
 
 // Kjøp og administrasjon av abonnement. Betalingsskjemaet bygges av Stripes
 // Checkout Elements inne på siden: Apple Pay / Google Pay-knapper og kortfelt.
 // Nye kunder får 14 dager gratis – det avgjør serveren. Abonnementet i profilen
 // settes av Stripe-webhooken, så etter betaling venter siden til profilen er oppdatert.
+// En gave fra en venn løses inn her, uten kort: eleven får tilgang med en gang,
+// og en prøveperiode som startes mens gaven varer, begynner først etterpå.
 
 export default function AbonnementPage() {
   return (
@@ -76,15 +78,31 @@ function Abonnement() {
   // Uten konto vet vi ikke ennå – de aller fleste nye kan prøve gratis.
   const visProve = bruker ? kanProve(profil) : true;
   // Gave fra en venn til e-postadressen til eleven (Belønninger → «Gi en venn
-  // en gratis uke»). Serveren bruker den når abonnementet startes.
+  // en gratis uke»). Løses inn med knappen – ingen kort.
   const gave = useHent(bruker && visProve ? `vennegave:${bruker.id}` : null, hentMinVennegave);
+  const [loserInn, setLoserInn] = useState(false);
+  const [gavefeil, setGavefeil] = useState<string | null>(null);
+  const gaveAktiv = !!profil && harGave(profil) && !harAbonnement(profil);
+
+  const losInnGave = async () => {
+    setGavefeil(null);
+    setLoserInn(true);
+    try {
+      await losInnVennegave();
+      await oppfriskProfil();
+    } catch (e) {
+      setGavefeil((e as Error).message);
+    } finally {
+      setLoserInn(false);
+    }
+  };
 
   const tilBetaling = async () => {
     setFeil(null);
     setJobber(true);
     try {
       const ny = await startBetaling(plan);
-      setProvetidSlutt(new Date(Date.now() + PROVEDAGER * 86_400_000).toISOString());
+      setProvetidSlutt(ny.provetidSlutt ?? new Date(Date.now() + PROVEDAGER * 86_400_000).toISOString());
       setOkt(ny);
       setSteg("betal");
     } catch (e) {
@@ -278,16 +296,20 @@ function Abonnement() {
             ? okt?.provetid
               ? "Start prøveperioden"
               : "Betaling"
-            : visProve
-              ? `Prøv gratis i ${PROVEDAGER} dager`
-              : "Velg abonnement"
+            : gaveAktiv && visProve
+              ? "Fortsett etter gaveuka"
+              : visProve
+                ? `Prøv gratis i ${PROVEDAGER} dager`
+                : "Velg abonnement"
         }
         tekst={
           steg === "betal"
             ? undefined
-            : visProve
-              ? "Du får tilgang til alt med en gang og betaler ingenting før prøveperioden er over. Avslutt når som helst."
-              : "Ett abonnement gir tilgang til alt – alle fag, alle trinn."
+            : gaveAktiv && visProve
+              ? `Starter du prøveperioden nå, begynner de ${PROVEDAGER} gratis dagene først når gaveuka er over. Avslutt når som helst.`
+              : visProve
+                ? "Du får tilgang til alt med en gang og betaler ingenting før prøveperioden er over. Avslutt når som helst."
+                : "Ett abonnement gir tilgang til alt – alle fag, alle trinn."
         }
       />
 
@@ -301,11 +323,6 @@ function Abonnement() {
                   ? `0 kr i dag – deretter ${PRIS[plan]} kr ${ENHET[plan]} fra ${datoTekst(provetidSlutt)}`
                   : `${PRIS[plan]} kr ${ENHET[plan]}`}
               </span>
-              {okt.vennKreditt && (
-                <span className="text-sm font-medium text-success-ink">
-                  Gaven fra vennen din: {okt.vennKreditt} kr trekkes fra første betaling.
-                </span>
-              )}
               {visProve && !okt.provetid && (
                 <span className="text-sm text-ink-soft">
                   Du har hatt prøveperiode før, så abonnementet starter i dag.
@@ -337,6 +354,44 @@ function Abonnement() {
         </div>
       ) : (
         <>
+          {gaveAktiv && profil?.gave_til && (
+            <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl bg-success-tint text-success-ink px-5 py-4 rise">
+              <p className="flex items-start gap-2.5 text-sm font-medium max-w-[46ch]">
+                <Gave size={18} className="shrink-0 mt-0.5" />
+                <span>Du har tilgang til alt fram til {datoTekst(profil.gave_til)} med gaven fra en venn.</span>
+              </p>
+              <Link
+                href={neste ?? "/"}
+                className="group trykk trykk-blaa inline-flex items-center gap-2 rounded-xl bg-primary text-white px-4 py-2.5 text-sm font-semibold hover:bg-primary-dark"
+              >
+                Begynn å øve
+                <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+              </Link>
+            </div>
+          )}
+
+          {gave.data && !gaveAktiv && (
+            <div className="flex flex-col gap-4 rounded-2xl bg-success-tint text-success-ink px-5 py-5 rise">
+              <p className="flex items-start gap-2.5 font-medium">
+                <Gave size={20} className="shrink-0 mt-0.5" />
+                <span>
+                  {gave.data.fra ?? "En venn"} har gitt deg{" "}
+                  {gave.data.dager === 7 ? "en gratis uke" : `${gave.data.dager} gratis dager`}. Du får tilgang til alt
+                  med en gang – uten å legge inn kort.
+                </span>
+              </p>
+              <button
+                type="button"
+                onClick={losInnGave}
+                disabled={loserInn}
+                className="self-start trykk trykk-blaa inline-flex items-center gap-2 rounded-xl bg-primary text-white px-5 py-3 text-sm font-semibold hover:bg-primary-dark disabled:opacity-60"
+              >
+                {loserInn ? "Løser inn …" : "Løs inn gaven"}
+              </button>
+              {gavefeil && <p className="text-sm text-danger-ink">{gavefeil}</p>}
+            </div>
+          )}
+
           <div role="radiogroup" aria-label="Abonnement" className="grid sm:grid-cols-2 gap-3 rise">
             {(["maned", "ar"] as const).map((p) => (
               <Planvalg key={p} plan={p} valgt={plan === p} prove={visProve} onVelg={() => velgPlan(p)} />
@@ -351,17 +406,6 @@ function Abonnement() {
               </li>
             ))}
           </ul>
-
-          {gave.data && (
-            <p className="self-start flex items-start gap-2.5 rounded-2xl bg-success-tint text-success-ink px-4 py-3 text-sm font-medium max-w-xl">
-              <Gave size={18} className="shrink-0 mt-0.5" />
-              <span>
-                {gave.data.fra ?? "En venn"} har gitt deg{" "}
-                {gave.data.dager === 7 ? "en gratis uke" : `${gave.data.dager} gratis dager`}. Den trekkes fra første
-                betaling.
-              </span>
-            </p>
-          )}
 
           {feil && <Feilmelding tekst={feil} />}
 

@@ -115,7 +115,7 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 | Belønning | Poeng | Slik virker den |
 | --- | --- | --- |
 | En gratis uke | 1 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
-| Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen får én uke kreditt når hen starter sitt første abonnement med den adressen |
+| Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen lager konto med adressen, trykker «Løs inn gaven» og får tilgang til alt i en uke – uten kort |
 | Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
 | Regnbueflamme | 1 200 | Flammen skifter farge |
 | Stjerne- / fjærkonfetti | 600 | Konfettien på resultatskjermene og ved innløsning |
@@ -139,14 +139,27 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   fra e-postserveren til studer.no, og feiler den, gis poengene tilbake
   (`vennegave_angre`). E-posten har fast tekst – eleven kan ikke skrive en
   egen melding – og bare fornavnet (bokstaver) fra eleven. Ingen kode: gaven
-  er knyttet til e-postadressen, og `betaling` bruker den automatisk når noen
-  med den adressen (bekreftet) starter sitt første abonnement
-  (`vennegave_bruk`); `/abonnement` viser «Ingrid har gitt deg en gratis uke»
-  før betaling. Høyst tre ubrukte gaver om gangen, ikke til seg selv, én gave
-  per mottaker. Brukes ikke gaven innen 60 dager, eller har vennen brukt en
+  er knyttet til e-postadressen. Lenken i e-posten går til registrering og så
+  `/abonnement`, som viser «Ingrid har gitt deg en gratis uke» med knappen
+  «Løs inn gaven» (`vennegave_los_inn`, ingen Stripe og ingen kort). Da settes
+  `profiles.gave_til` til en uke fram, og `har_tilgang()` – som låser
+  innholdet i RLS og som `chat` og `vurder` spør – slipper eleven inn til da.
+  Bare for nye: bekreftet e-post, ikke abonnement nå, ikke hatt prøveperiode
+  eller abonnement før (`provetid_brukt` og `provetid_tilgjengelig`), og én
+  gave per person – også med «+noe» i adressen eller etter slettet konto
+  (`brukt_nokkel` = `provetid_epostnokkel`). Starter eleven prøveperioden mens
+  gaveuka varer, begynner de 14 dagene først når uka er over (`trial_end` i
+  `betaling`). Høyst tre ubrukte gaver om gangen, ikke til seg selv. Brukes ikke gaven innen 60 dager, eller har vennen brukt en
   annen gave, får giveren poengene tilbake, og adressen skjules
   (`in•••@eksempel.no`) når gaven er ferdig (`vennegaver_rydd`, pg_cron hver
   natt). Svaret sier aldri om adressen har konto hos Studer.
+- **Rekordbonus:** ny personlig rekord på tid i formelmatch (en runde som
+  teller, og det fantes en tid fra før) gir 15 poeng med grunnen `rekord`.
+  Den teller ikke mot taket på 150, så det er noe å spille for også etter at
+  taket er nådd – men høyst én per tema og tre per døgn, så det ikke lønner seg
+  å spille sakte først for å slå tiden etterpå. Rekordpoeng teller på ukelista,
+  skolelista og dager på rad. `min_poengstatus` gir `rekorder_i_dag` og
+  `rekordtak`, og konkurransesiden sier hvor mange som er igjen når taket er nådd.
 - **Ting** (typen `ting`): eies i `eiendeler`, velges i `profiles`
   (`valgt_flamme`, `valgt_konfetti`, `valgt_merke`); databasen sjekker at
   eleven eier det som velges. Katalogen står i `src/lib/utseende.ts`. Kan
@@ -287,7 +300,9 @@ fjerne poeng (`grunn = 'korrigering'`).
 
 1. Kjør migrasjonen og `supabase/skoler.sql` (Supabase SQL Editor), og last opp
    serverfunksjonene `kallenavn` (AI_API_KEY finnes allerede fra «chat»),
-   `vennegave` og `betaling`. Kjør `npm run ai:kallenavn-test` først.
+   `vennegave`, `betaling`, `chat` og `vurder` (de to siste spør nå
+   `har_tilgang()`, så gaver fra venner gir AI-hjelp og retting). Kjør
+   `npm run ai:kallenavn-test` først.
    **Last opp `stripe-webhook` før `betaling`:** den gamle webhooken kjenner
    ikke merket `forlenget` og ville stoppet et betalt abonnement som får
    gratis tid.

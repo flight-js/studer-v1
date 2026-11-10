@@ -62,6 +62,13 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
                   <span aria-hidden="true" className="h-1 rounded-full bg-background/15 overflow-hidden">
                     <span className="block h-full bg-merke" style={{ width: `${Math.min(100, (s.iDag / s.tak) * 100)}%` }} />
                   </span>
+                  {s.iDag >= s.tak && (
+                    <span className="text-xs text-background/65">
+                      {s.rekorderIDag < s.rekordtak
+                        ? `Taket er nådd. Ny rekord i formelmatch gir fortsatt +15 (${s.rekordtak - s.rekorderIDag} igjen i dag).`
+                        : "Taket er nådd, og du har tatt alle rekordpoengene i dag."}
+                    </span>
+                  )}
                 </div>
               </dl>
             )}
@@ -209,6 +216,11 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
               <Regel navn="Dagens første øving" poeng="5–15" forklaring="Ett ekstra poeng for hver dag på rad." />
               <Regel navn="Flashcards" poeng="0" forklaring="Gir ikke poeng, fordi du selv svarer om du kan kortet." />
               <Regel navn="Tak per dag" poeng="150" forklaring="Hver øving gir poeng én gang per døgn." />
+              <Regel
+                navn="Ny rekord i formelmatch"
+                poeng="+15"
+                forklaring="Slå din egen beste tid i et tema. Teller ikke mot taket – høyst tre om dagen, én per tema."
+              />
             </ul>
             <p className="text-sm text-muted max-w-[70ch]">
               Poengene kan løses inn i belønninger. De har ingen pengeverdi, kan ikke kjøpes eller overføres, og juks

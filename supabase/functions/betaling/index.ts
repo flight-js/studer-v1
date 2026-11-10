@@ -8,10 +8,10 @@
 // Gratis tid kjøpt med poeng (handling «kreditt») forlenger perioden eleven er
 // i: neste betaling flyttes like mange dager frem (trial_end i Stripe, merket
 // med metadata «forlenget», så stripe-webhook ikke tar det for en ny
-// prøveperiode). Gaver fra venner gis som kreditt på kunden i Stripe, som
-// trekkes fra første betaling. En gave er knyttet til e-postadressen
-// (serverfunksjonen «vennegave») og brukes automatisk når eleven starter sitt
-// første abonnement.
+// prøveperiode). Gaver fra venner går ikke gjennom Stripe: vennen løser inn
+// gaven i databasen (vennegave_los_inn) og får tilgang uten kort. Starter
+// eleven prøveperioden mens gaveuka varer, begynner de 14 dagene først når
+// uka er over.
 //
 // Prøveperiode (14 dager): gis bare hvis kunden aldri har hatt abonnement, og
 // kontoen og e-posten ikke har hatt prøveperiode før (tabellen provetid).
@@ -77,14 +77,6 @@ async function aktivtAbonnement(kunde: string) {
   return liste.data.find((s) => AKTIVE.includes(s.status)) ?? null;
 }
 
-// Hva en dag er verdt med en pris (i øre): månedspris / 30, årspris / 365.
-// Brukes til gaver fra venner.
-function orePerDag(pris: Stripe.Price): number {
-  const aar = pris.recurring?.interval === "year";
-  const perioder = pris.recurring?.interval_count ?? 1;
-  return (pris.unit_amount ?? 0) / ((aar ? 365 : 30) * perioder);
-}
-
 // Slutten på perioden ligger på abonnementslinjen i nyere API-versjoner (som i
 // stripe-webhook). I prøveperioden er det samme som trial_end.
 function periodeslutt(s: Stripe.Subscription): number {
@@ -92,18 +84,6 @@ function periodeslutt(s: Stripe.Subscription): number {
   const slutt = linje?.current_period_end ?? (s as unknown as { current_period_end?: number }).current_period_end ?? 0;
   return Math.max(slutt, s.trial_end ?? 0);
 }
-
-// Gaver fra venner gis som kreditt på kunden i Stripe: den trekkes automatisk
-// fra første betaling.
-async function giKreditt(kunde: string, ore: number, valuta: string, beskrivelse: string, nokkel: string) {
-  return await stripe!.customers.createBalanceTransaction(
-    kunde,
-    { amount: -ore, currency: valuta, description: beskrivelse },
-    { idempotencyKey: nokkel }
-  );
-}
-
-const kroner = (ore: number) => (ore / 100).toLocaleString("nb-NO", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
 // Den lagrede kunden finnes ikke hvis den er slettet, eller hvis den ble laget
 // i testmodus og nøklene nå er live (eller omvendt). Da lages en ny.
@@ -187,30 +167,15 @@ Deno.serve(async (req) => {
       if (provefeil) throw new Error(provefeil.message);
       const provetid = ledig === true && !tidligere.some((s) => !ALDRI_STARTET.includes(s.status));
 
-      // Gave fra en venn: er det sendt en gave til e-postadressen til eleven, og
-      // eleven aldri har hatt abonnement, legges verdien inn som kreditt (én
-      // gang – starter eleven på nytt, vises bare beløpet). Feiler Stripe, kan
-      // gaven brukes neste gang (vennegave_ikke_brukt).
-      let vennKreditt: string | null = null;
-      if (!tidligere.some((s) => !ALDRI_STARTET.includes(s.status))) {
-        const pris = await stripe.prices.retrieve(PRISER[plan]);
-        const { data: gaver, error: vennefeil } = await admin.rpc("vennegave_bruk", {
-          p_bruker: brukerId,
-          p_ore_per_dag: orePerDag(pris),
-        });
-        if (vennefeil) throw new Error(vennefeil.message);
-        const gave = gaver?.[0] as { id: string; dager: number; belop_ore: number; ny: boolean } | undefined;
-        if (gave) {
-          if (gave.ny) {
-            try {
-              await giKreditt(kunde!, gave.belop_ore, pris.currency, `Gave fra en venn: ${gave.dager} dager gratis`, `venn-${gave.id}`);
-            } catch (e) {
-              await admin.rpc("vennegave_ikke_brukt", { p_id: gave.id });
-              throw e;
-            }
-          }
-          vennKreditt = kroner(gave.belop_ore);
-        }
+      // Har eleven en gave fra en venn som varer ennå, starter prøveperioden
+      // når gaven er over (trial_end i stedet for 14 dager fra nå), så ingen
+      // gratisdager går tapt. Uten kolonnen (før migrasjonen) blir det null.
+      let provetidSlutt: number | null = null;
+      if (provetid) {
+        const { data: profil } = await admin.from("profiles").select("gave_til").eq("id", brukerId).maybeSingle();
+        const gaveTil = Date.parse((profil as { gave_til?: string | null } | null)?.gave_til ?? "");
+        const fra = gaveTil > Date.now() ? Math.ceil(gaveTil / 1000) : Math.floor(Date.now() / 1000);
+        provetidSlutt = fra + PROVEDAGER * 86400;
       }
 
       const felles = {
@@ -221,7 +186,7 @@ Deno.serve(async (req) => {
         subscription_data: {
           metadata: { bruker_id: brukerId },
           ...(provetid && {
-            trial_period_days: PROVEDAGER,
+            trial_end: provetidSlutt!,
             trial_settings: { end_behavior: { missing_payment_method: "cancel" as const } },
           }),
         },
@@ -250,7 +215,12 @@ Deno.serve(async (req) => {
         if (!(e instanceof Stripe.errors.StripeInvalidRequestError) || e.param !== "ui_mode") throw e;
         okt = await stripe.checkout.sessions.create({ ...felles, ...ekstra, ui_mode: modus[1] } as unknown as Stripe.Checkout.SessionCreateParams);
       }
-      return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR, provetid, vennKreditt });
+      return svar(200, {
+        clientSecret: okt.client_secret,
+        publishableKey: PUBLISERBAR,
+        provetid,
+        provetidSlutt: provetidSlutt ? new Date(provetidSlutt * 1000).toISOString() : null,
+      });
     }
 
     // Gratis tid kjøpt med poeng: poengene trekkes i databasen (kreditt_start),

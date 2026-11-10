@@ -9,7 +9,17 @@ import { supabase } from "./supabase";
 
 export type Med<T> = { data: T; demo: boolean };
 
-export type Poengstatus = { saldo: number; denneUka: number; iDag: number; tak: number; streak: number };
+// iDag teller mot taket; rekordbonus (ny rekord i formelmatch) kommer utenom,
+// høyst rekordtak ganger per dag.
+export type Poengstatus = {
+  saldo: number;
+  denneUka: number;
+  iDag: number;
+  tak: number;
+  streak: number;
+  rekorderIDag: number;
+  rekordtak: number;
+};
 // navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
 // synlig for andre (har skjult fornavnet uten å velge kallenavn).
 // merke: tingen eleven viser ved navnet (merke-fjaer …), se lib/utseende.ts.
@@ -33,7 +43,8 @@ export type Toppplass = {
   antall: number;
   merke?: string | null;
 };
-export type Avslutning = { tidMs: number; teller: boolean; forrigeBeste: number | null; poeng: number };
+// rekordpoeng: bonus for ny personlig rekord (utenom dagstaket), ellers 0.
+export type Avslutning = { tidMs: number; teller: boolean; forrigeBeste: number | null; poeng: number; rekordpoeng: number };
 export type Belonning = {
   id: string;
   partner: string;
@@ -89,8 +100,16 @@ export async function hentPoengstatus(): Promise<Med<Poengstatus>> {
   return {
     demo: false,
     data: r
-      ? { saldo: r.saldo, denneUka: r.denne_uka, iDag: r.i_dag, tak: r.tak, streak: r.streak }
-      : { saldo: 0, denneUka: 0, iDag: 0, tak: 150, streak: 0 },
+      ? {
+          saldo: r.saldo,
+          denneUka: r.denne_uka,
+          iDag: r.i_dag,
+          tak: r.tak,
+          streak: r.streak,
+          rekorderIDag: r.rekorder_i_dag,
+          rekordtak: r.rekordtak,
+        }
+      : { saldo: 0, denneUka: 0, iDag: 0, tak: 150, streak: 0, rekorderIDag: 0, rekordtak: 3 },
   };
 }
 
@@ -173,8 +192,9 @@ export async function avsluttFormelmatch(runde: string, tidMs: number, par: numb
   }
   const r = data?.[0];
   if (!r) return null;
-  if (r.poeng > 0) varsleOmPoeng(r.poeng);
-  return { tidMs: r.tid_ms, teller: r.teller, forrigeBeste: r.forrige_beste, poeng: r.poeng };
+  const rekordpoeng = r.rekordpoeng ?? 0;
+  if (r.poeng + rekordpoeng > 0) varsleOmPoeng(r.poeng + rekordpoeng);
+  return { tidMs: r.tid_ms, teller: r.teller, forrigeBeste: r.forrige_beste, poeng: r.poeng, rekordpoeng };
 }
 
 // ---------------------------------------------------------------- Belønninger
@@ -269,13 +289,26 @@ export async function sendVennegave(belonningId: string, epost: string): Promise
   }
 }
 
-// En gave som venter på eleven (vises på abonnementssiden). fra: fornavnet til
-// giveren, eller null.
+// En gave eleven kan løse inn nå (vises på abonnementssiden). fra: fornavnet
+// til giveren, eller null.
 export async function hentMinVennegave(): Promise<{ fra: string | null; dager: number } | null> {
   const { data, error } = await supabase.rpc("min_vennegave");
   if (error) return null;
   const r = data?.[0];
   return r ? { fra: r.fra, dager: r.dager } : null;
+}
+
+// Løser inn gaven: eleven får tilgang til alt i dagene, uten kort. til: når
+// tilgangen slutter (ISO). Meldingene fra databasen er på norsk og vises som de er.
+export async function losInnVennegave(): Promise<{ til: string; dager: number }> {
+  const { data, error } = await supabase.rpc("vennegave_los_inn");
+  if (error) {
+    if (ikkeSattOpp(error)) throw new Error("Gaver fra venner er ikke slått på ennå.");
+    throw new Error(error.code === "P0001" ? error.message : "Fikk ikke løst inn gaven. Prøv igjen om litt.");
+  }
+  const r = data?.[0];
+  if (!r) throw new Error("Fikk ikke løst inn gaven. Prøv igjen om litt.");
+  return { til: r.til, dager: r.dager };
 }
 
 export async function hentMineKuponger(): Promise<Med<Kupong[]>> {
@@ -448,7 +481,7 @@ function egen(type: Belonning["type"], verdi: string, tittel: string, beskrivels
 }
 
 const EKSEMPEL = {
-  status: { saldo: 1240, denneUka: 310, iDag: 45, tak: 150, streak: 4 } satisfies Poengstatus,
+  status: { saldo: 1240, denneUka: 310, iDag: 45, tak: 150, streak: 4, rekorderIDag: 1, rekordtak: 3 } satisfies Poengstatus,
   poengliste: {
     alle: [
       { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
@@ -481,7 +514,7 @@ const EKSEMPEL = {
   // Studers egne er de samme som legges inn med migrasjonen; partnerne er oppdiktet.
   belonninger: [
     egen("kreditt", "7", "En gratis uke", "Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 1500),
-    egen("venn", "7", "Gi en venn en gratis uke", "Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.", "Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.", 800),
+    egen("venn", "7", "Gi en venn en gratis uke", "Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis – uten å legge inn kort.", "Bare for nye brukere. Brukes ikke gaven innen 60 dager, får du poengene tilbake.", 800),
     egen("ting", "flamme-bla", "Blå flamme", "Rekka di brenner blått.", "", 400),
     egen("ting", "flamme-gronn", "Grønn flamme", "Rekka di brenner grønt.", "", 400),
     egen("ting", "flamme-regnbue", "Regnbueflamme", "Rekka di skifter farge mens den brenner.", "", 1200),

@@ -218,8 +218,9 @@ Deno.serve(async (req) => {
     return svar(400, { feil: "ugyldig" });
   }
 
-  const { data: profil } = await bruker.from("profiles").select("abonnement").eq("id", brukerId).maybeSingle();
-  if (!profil || profil.abonnement === "gratis") return svar(403, { feil: "abonnement" });
+  // Samme regel som RLS: abonnement, prøveperiode eller en gave fra en venn.
+  const { data: tilgang } = await bruker.rpc("har_tilgang");
+  if (tilgang !== true) return svar(403, { feil: "abonnement" });
 
   // Temaet hentes med elevens rettigheter, så RLS bestemmer hva som er lov.
   const { data: tema } = await bruker

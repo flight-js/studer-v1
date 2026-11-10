@@ -2,9 +2,9 @@
 // trekkes i databasen (vennegave_lag), og Studer sender vennen en e-post.
 // Feiler e-posten, gis poengene tilbake (vennegave_angre).
 //
-// Vennen trenger ingen kode: når noen med den e-postadressen starter sitt
-// første abonnement, trekkes uka fra første betaling (serverfunksjonen
-// «betaling», vennegave_bruk). Brukes ikke gaven innen 60 dager, får eleven
+// Vennen trenger ingen kode: noen med den e-postadressen lager konto og løser
+// inn gaven på /abonnement (vennegave_los_inn i databasen), og får tilgang til
+// alt i en uke – uten kort. Brukes ikke gaven innen 60 dager, får eleven
 // poengene tilbake (vennegaver_rydd i databasen, hver natt).
 //
 // E-posten er alltid den samme teksten – eleven kan ikke skrive en egen melding,
@@ -75,7 +75,6 @@ const GYLDIG_EPOST = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: string) {
   const hvem = fra ?? "En venn";
   const tid = dager === 7 ? "en gratis uke" : `${dager} gratis dager`;
-  const trekk = dager === 7 ? "en uke" : `${dager} dager`;
   const dato = new Date(gyldigTil).toLocaleDateString("nb-NO", {
     day: "numeric",
     month: "long",
@@ -89,7 +88,7 @@ function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: s
     "",
     `${hvem} har gitt deg ${tid} på Studer, en app for å øve til prøver og eksamen med flashcards, quiz og miniprøver – fra 8. trinn til Vg3.`,
     "",
-    `Lag en konto med denne e-postadressen (${epost}) innen ${dato}. Når du starter et abonnement, trekkes ${trekk} fra den første betalingen.`,
+    `Lag en konto med denne e-postadressen (${epost}) innen ${dato}, og løs inn gaven. Da får du tilgang til alt i Studer i ${dager === 7 ? "en uke" : `${dager} dager`}. Du trenger ikke kort, og det koster ingenting.`,
     "",
     `Lag konto: ${lenke}`,
     "",
@@ -102,7 +101,7 @@ function lagEpost(fra: string | null, epost: string, dager: number, gyldigTil: s
 <div style="max-width:520px;margin:0 auto;background:#ffffff;border-radius:16px;padding:32px">
 ${avsnitt("Hei!")}
 ${avsnitt(`<strong>${html(hvem)}</strong> har gitt deg ${tid} på Studer, en app for å øve til prøver og eksamen med flashcards, quiz og miniprøver – fra 8. trinn til Vg3.`)}
-${avsnitt(`Lag en konto med denne e-postadressen (${html(epost)}) innen ${html(dato)}. Når du starter et abonnement, trekkes ${trekk} fra den første betalingen.`)}
+${avsnitt(`Lag en konto med denne e-postadressen (${html(epost)}) innen ${html(dato)}, og løs inn gaven. Da får du tilgang til alt i Studer i ${dager === 7 ? "en uke" : `${dager} dager`}. Du trenger ikke kort, og det koster ingenting.`)}
 <p style="margin:24px 0"><a href="${html(lenke)}" style="display:inline-block;background:#1c1b19;color:#ffffff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:12px">Lag konto</a></p>
 <p style="margin:0;font-size:14px;color:#6b6760">Kjenner du ikke ${html(fra ?? "avsenderen")}, eller vil du ikke ha gaven, kan du se bort fra denne e-posten. Vi bruker ikke adressen din til noe annet, og du får ikke flere e-poster fra oss om dette.</p>
 </div></body></html>`;

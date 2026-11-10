@@ -321,6 +321,7 @@ export type Database = {
           abonnement: string
           abonnement_avsluttes: boolean
           abonnement_til: string | null
+          gave_til: string | null
           id: string
           navn: string | null
           opprettet: string
@@ -338,6 +339,7 @@ export type Database = {
           abonnement?: string
           abonnement_avsluttes?: boolean
           abonnement_til?: string | null
+          gave_til?: string | null
           id: string
           navn?: string | null
           opprettet?: string
@@ -355,6 +357,7 @@ export type Database = {
           abonnement?: string
           abonnement_avsluttes?: boolean
           abonnement_til?: string | null
+          gave_til?: string | null
           id?: string
           navn?: string | null
           opprettet?: string
@@ -660,7 +663,7 @@ export type Database = {
     Functions: {
       avslutt_formelmatch: {
         Args: { p_par: number; p_runde: string; p_straffer: number; p_tid_ms: number }
-        Returns: { forrige_beste: number | null; poeng: number; teller: boolean; tid_ms: number }[]
+        Returns: { forrige_beste: number | null; poeng: number; rekordpoeng: number; teller: boolean; tid_ms: number }[]
       }
       belonninger_med_lager: {
         Args: never
@@ -690,7 +693,15 @@ export type Database = {
       }
       min_poengstatus: {
         Args: never
-        Returns: { denne_uka: number; i_dag: number; saldo: number; streak: number; tak: number }[]
+        Returns: {
+          denne_uka: number
+          i_dag: number
+          rekorder_i_dag: number
+          rekordtak: number
+          saldo: number
+          streak: number
+          tak: number
+        }[]
       }
       mine_kuponger: {
         Args: never
@@ -711,6 +722,10 @@ export type Database = {
       min_vennegave: {
         Args: never
         Returns: { dager: number; fra: string | null; gyldig_til: string }[]
+      }
+      vennegave_los_inn: {
+        Args: never
+        Returns: { dager: number; til: string }[]
       }
       poengliste: {
         Args: { p_antall?: number; p_omrade?: string }

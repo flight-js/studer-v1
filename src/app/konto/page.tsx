@@ -11,7 +11,7 @@ import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
 import { PLANNAVN, PROVEDAGER } from "@/lib/priser";
 import { KONTAKT_EPOST } from "@/lib/juridisk";
-import { datoTekst, harAbonnement, kanProve, type Profil } from "@/lib/profil";
+import { datoTekst, harAbonnement, harGave, kanProve, type Profil } from "@/lib/profil";
 import { supabase } from "@/lib/supabase";
 
 export default function KontoPage() {
@@ -123,7 +123,9 @@ export default function KontoPage() {
 
 function abonnementTekst(p: Profil): string {
   const navn = PLANNAVN[p.abonnement] ?? p.abonnement;
-  if (!harAbonnement(p)) return "Gratis – øvingene er låst";
+  if (!harAbonnement(p)) {
+    return harGave(p) ? `Gratis uke fra en venn – til ${datoTekst(p.gave_til!)}` : "Gratis – øvingene er låst";
+  }
   if (p.provetid_til) {
     return `Prøveperiode (${navn.toLowerCase()}) – ${p.abonnement_avsluttes ? "avsluttes" : "første trekk"} ${datoTekst(p.provetid_til)}`;
   }

@@ -31,15 +31,15 @@ async function kall<T>(body: Record<string, unknown>): Promise<T> {
   return data as T;
 }
 
-// vennKreditt: kroner fra en gave fra en venn som trekkes fra første betaling
-// («13,77»). Gaven er knyttet til e-postadressen og brukes av serveren.
-export type Betalingsokt = { clientSecret: string; publishableKey: string; provetid: boolean; vennKreditt: string | null };
+// provetidSlutt: når prøveperioden slutter – 14 dager fra nå, eller 14 dager
+// etter at en gave fra en venn er over.
+export type Betalingsokt = { clientSecret: string; publishableKey: string; provetid: boolean; provetidSlutt: string | null };
 
-// Serveren avgjør om eleven får prøveperiode (provetid) og gave fra en venn –
+// Serveren avgjør om eleven får prøveperiode (provetid) og når den slutter –
 // ikke nettsiden.
 export const startBetaling = async (plan: Plan): Promise<Betalingsokt> => {
   const okt = await kall<Betalingsokt>({ handling: "start", plan, skjema: "elements" });
-  return { ...okt, provetid: okt.provetid === true, vennKreditt: okt.vennKreditt ?? null };
+  return { ...okt, provetid: okt.provetid === true, provetidSlutt: okt.provetidSlutt ?? null };
 };
 
 // Gratis tid kjøpt med poeng: perioden forlenges, så neste betaling kommer
