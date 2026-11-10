@@ -44,3 +44,6 @@ next-env.d.ts
 # og hurtigbufferen til designsjekken
 .claude/launch.json
 .impeccable/hook.cache.json
+
+# Supabase CLI: lokal hurtigbuffer etter «supabase link»
+supabase/.temp/

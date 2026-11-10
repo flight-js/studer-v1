@@ -921,6 +921,26 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Språksituasjonen i Norge og språkstriden** – utkast (430 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Repetisjon av hele faget** – utkast (1085 ord · 18 kort (16 kjerne) · 13 quiz · 20 i miniprøve · 27 noder i tankekart)
 
+## Økonomistyring (vg2) – 12 av 12 temaer ferdig
+
+Læreplan: [NOK02-04](https://www.udir.no/lk20/nok02-04/kompetansemaal-og-vurdering/kv1002)
+
+- 🟡 **Selskapsformer, ansvar og risiko** – utkast (349 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Regnskapsfører og revisor** – sjekkes (334 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Grensene for å velge bort revisjon i AS er bevisst ikke tallfestet; sjekk om læreboka bruker konkrete tall (per 2025: driftsinntekter under 7 mill. kr, balansesum under 27 mill. kr og under 10 årsverk).
+- 🟡 **Bilag og bokføring** – utkast (312 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🔴 **Merverdiavgift og varehandel** – sjekkes (349 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+  - Sjekk: Mva-satser (25/15/12 %), registreringsgrensen på 50 000 kr og nullsats for bøker er riktige per 2025; sjekk mot gjeldende satser før publisering.
+- 🟡 **Årsoppgjøret** – utkast (311 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Resultatregnskap og balanse** – utkast (303 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Regnskapsanalyse og nøkkeltall** – sjekkes (318 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+  - Sjekk: Lærebøkene definerer resultatgrad og rentabilitet litt ulikt (før eller etter skatt, med eller uten rentekostnader); sjekk at formlene stemmer med læreboka skolen bruker.
+- 🟡 **Priskalkulasjon i handelsbedrifter** – utkast (311 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Resultatbudsjett og likviditetsbudsjett** – utkast (328 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Budsjettkontroll og avviksanalyse** – utkast (326 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Teknologi, innovasjon og bærekraftige forretningsmodeller** – utkast (334 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 16 noder i tankekart)
+- 🟡 **Interessegrupper og samfunnsansvar** – utkast (310 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+
 ## Politikk og menneskerettigheter (vg2) – 13 av 13 temaer ferdig
 
 Læreplan: [POS05-02](https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurdering/kv891)
