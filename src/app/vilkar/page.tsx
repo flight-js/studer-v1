@@ -134,9 +134,23 @@ export default function Vilkar() {
           <ul>
             <li>Poengene har ingen pengeverdi. De kan ikke kjøpes, selges, overføres til andre eller veksles i penger.</li>
             <li>
-              Poengene kan løses inn i belønninger fra samarbeidspartnere så lenge det finnes belønninger. Hver
-              belønning har egne vilkår fra partneren og kan løses inn én gang per person. Kontoen må være minst en uke
-              gammel.
+              Poengene kan løses inn i belønninger så lenge det finnes belønninger. Kontoen må være minst en uke gammel.
+            </li>
+            <li>
+              Gratis tid gis som fradrag på neste betaling av abonnementet (verdien av dagene etter prisen du betaler),
+              og kan løses inn én gang i måneden. Fradraget betales aldri ut. Avsluttes abonnementet før fradraget er
+              brukt, faller det bort.
+            </li>
+            <li>
+              En kode til en venn gir én uke i fradrag på vennens første betaling, og gjelder bare for nye abonnenter.
+              Du kan ha høyst tre ubrukte koder om gangen.
+            </li>
+            <li>
+              Ting i appen (som flammefarger, konfetti og merker ved navnet) er dine så lenge du har kontoen, men har
+              ingen verdi utenfor Studer.
+            </li>
+            <li>
+              Belønninger fra samarbeidspartnere har egne vilkår fra partneren og kan løses inn én gang per person.
             </li>
             <li>
               Velger du skole, er du med i skolekonkurransen, som bare viser tall per skole. På rangeringene vises

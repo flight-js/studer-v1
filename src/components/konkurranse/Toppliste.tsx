@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Pokal } from "@/components/icons";
+import { Navnemerke } from "@/components/konkurranse/Navnemerke";
 import { formaterTid, hentToppliste, type Avslutning } from "@/lib/konkurranse";
 import { useHent } from "@/lib/useHent";
 
@@ -37,6 +38,7 @@ export function Toppliste({ temaId, avslutning, runde }: { temaId: string; avslu
               <span className="font-display text-xl font-semibold tabular-nums text-muted">{p.plass}</span>
               <span className="min-w-0 truncate">
                 <span className="font-semibold">{p.navn}</span>
+                <Navnemerke merke={p.merke} />
                 {p.skole && <span className="text-sm text-muted"> · {p.skole}</span>}
               </span>
               <span className="font-display text-lg font-semibold tabular-nums">{formaterTid(p.tidMs)}</span>

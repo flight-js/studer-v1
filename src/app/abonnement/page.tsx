@@ -46,6 +46,9 @@ function Abonnement() {
   const params = useSearchParams();
   const { bruker, laster, profil, oppfriskProfil } = useAuth();
   const [plan, setPlan] = useState<Plan>(params.get("plan") === "maned" ? "maned" : "ar");
+  // Kode fra en venn (lenken fra Belønninger har ?venn=…): én uke trekkes fra første betaling.
+  const [vennekode, setVennekode] = useState((params.get("venn") ?? "").toUpperCase());
+  const [visVenn, setVisVenn] = useState(!!params.get("venn"));
   // På mobil havner knappen under planene og fordelene, så etter et planvalg
   // rulles den inn i bildet hvis den ikke alt er synlig. Bare på mobil (under
   // sm, der planene står under hverandre) – på PC skal siden stå i ro.
@@ -78,7 +81,7 @@ function Abonnement() {
     setFeil(null);
     setJobber(true);
     try {
-      const ny = await startBetaling(plan);
+      const ny = await startBetaling(plan, vennekode.trim() || undefined);
       setProvetidSlutt(new Date(Date.now() + PROVEDAGER * 86_400_000).toISOString());
       setOkt(ny);
       setSteg("betal");
@@ -263,7 +266,9 @@ function Abonnement() {
   }
 
   // Velg plan og betal
-  const tilbakeHit = `/abonnement?plan=${plan}${neste ? `&neste=${encodeURIComponent(neste)}` : ""}`;
+  const tilbakeHit = `/abonnement?plan=${plan}${neste ? `&neste=${encodeURIComponent(neste)}` : ""}${
+    vennekode.trim() ? `&venn=${encodeURIComponent(vennekode.trim())}` : ""
+  }`;
   return (
     <Ramme bred={steg === "betal"}>
       <Overskrift
@@ -296,6 +301,11 @@ function Abonnement() {
                   ? `0 kr i dag – deretter ${PRIS[plan]} kr ${ENHET[plan]} fra ${datoTekst(provetidSlutt)}`
                   : `${PRIS[plan]} kr ${ENHET[plan]}`}
               </span>
+              {okt.vennKreditt && (
+                <span className="text-sm font-medium text-success-ink">
+                  Koden fra vennen din: {okt.vennKreditt} kr trekkes fra første betaling.
+                </span>
+              )}
               {visProve && !okt.provetid && (
                 <span className="text-sm text-ink-soft">
                   Du har hatt prøveperiode før, så abonnementet starter i dag.
@@ -341,6 +351,36 @@ function Abonnement() {
               </li>
             ))}
           </ul>
+
+          {visVenn ? (
+            <div className="flex flex-col gap-1.5 max-w-sm">
+              <label htmlFor="vennekode" className="text-sm font-semibold">
+                Kode fra en venn
+              </label>
+              <input
+                id="vennekode"
+                value={vennekode}
+                onChange={(e) => setVennekode(e.target.value.toUpperCase())}
+                placeholder="VENN-1A2B3C"
+                maxLength={11}
+                autoComplete="off"
+                spellCheck={false}
+                aria-describedby="vennekode-hjelp"
+                className="rounded-xl border-[1.5px] border-border-strong bg-background px-4 py-3 font-mono text-[15px] tracking-wide outline-none transition-colors duration-200 focus:border-primary"
+              />
+              <span id="vennekode-hjelp" className="text-xs text-muted">
+                Gir deg én uke gratis, trukket fra første betaling. Gjelder bare nye abonnenter.
+              </span>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setVisVenn(true)}
+              className="self-start text-sm font-semibold text-ink-soft underline decoration-border-strong decoration-2 underline-offset-4 hover:text-foreground hover:decoration-foreground transition-colors"
+            >
+              Har du en kode fra en venn?
+            </button>
+          )}
 
           {feil && <Feilmelding tekst={feil} />}
 

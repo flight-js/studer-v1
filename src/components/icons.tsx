@@ -243,3 +243,11 @@ export const Stjerne = ({ fylt, ...p }: IconProps & { fylt?: boolean }) => (
     />
   </Svg>
 );
+
+// Fjær: merket «Fjærpenn ved navnet» (samme fjærpenn som i logoen).
+export const Fjaer = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M20 4c-5.5.3-10.2 3.8-12 9.4L7 17l3.6-1C16.2 14.2 19.7 9.5 20 4z" />
+    <path d="M4 20l9.5-9.5" />
+  </Svg>
+);

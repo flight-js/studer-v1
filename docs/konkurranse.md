@@ -106,6 +106,41 @@ registrert.
   barneskole for mye enn en ungdomsskole som mangler). Administrasjon, tiltak og
   enheter uten ansatte holdes utenfor. Skriptet skriver ut begge listene.
 
+## Studers egne belønninger
+
+Krever ingen partner og legges inn med migrasjonen (prisene kan endres der
+eller senere med `update public.belonninger set poengpris = …`). Til
+sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
+
+| Belønning | Poeng | Slik virker den |
+| --- | --- | --- |
+| En gratis uke | 1 500 | Kreditt i Stripe som trekkes fra neste betaling: 59 kr × 7/30 ≈ 13,77 kr (måned) eller 499 kr × 7/365 ≈ 9,57 kr (år) |
+| En gratis måned | 5 000 | Som over: 59 kr (måned) eller 499 kr × 30/365 ≈ 41 kr (år) |
+| Gi en venn en gratis uke | 800 | En kode (VENN-1A2B3C) og en lenke. Vennen får én uke kreditt når hen starter sitt første abonnement |
+| Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
+| Regnbueflamme | 1 200 | Flammen skifter farge |
+| Stjerne- / fjærkonfetti | 600 | Konfettien på resultatskjermene og ved innløsning |
+| Fjærpenn / lyspære / stjerne ved navnet | 500 | Vises ved navnet på ukelista og topplistene |
+
+- **Gratis tid** (typen `kreditt`) går gjennom serverfunksjonen `betaling`
+  (`handling: "kreditt"`): poengene trekkes i databasen (`kreditt_start`),
+  kreditten legges på kunden i Stripe, og feiler Stripe, gis poengene
+  tilbake (`kreditt_angre`). Én gang per 30 dager, bare med et aktivt
+  abonnement som ikke avsluttes. Kreditt, ikke forlenget prøveperiode: et
+  abonnement som går over til «trialing», ville blitt stoppet av
+  prøveperiodesjekken i `stripe-webhook`.
+- **Vennekoder** (typen `venn`): høyst tre ubrukte om gangen. Koden brukes på
+  `/abonnement` (lenken fyller den inn). Bare for kunder som aldri har hatt
+  abonnement, aldri ens egen, og hver elev kan bare bruke én kode.
+- **Ting** (typen `ting`): eies i `eiendeler`, velges i `profiles`
+  (`valgt_flamme`, `valgt_konfetti`, `valgt_merke`); databasen sjekker at
+  eleven eier det som velges. Katalogen står i `src/lib/utseende.ts`. Kan
+  prøves på belønningssiden før kjøp.
+- Testet i PGlite: ny konto sperres, ting kan kjøpes én gang og bare tas i
+  bruk av eieren, vennekodereglene, én gratis tid per måned og at poengene
+  gis tilbake nøyaktig én gang når Stripe feiler. Stripe-kallene er
+  typesjekket, men ikke kjørt (krever testnøkler).
+
 ## Kallenavn
 
 For elever som skjuler fornavnet. Svært få rapporterer et stygt navn, så

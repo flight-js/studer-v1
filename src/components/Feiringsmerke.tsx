@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Check, Pokal, Stjerne } from "@/components/icons";
 import { konfetti } from "@/lib/feiring";
+import { useUtseende } from "@/lib/utseende";
 
 // Merket øverst på resultatet når eleven har fått til noe. Det stemples inn,
 // en ring slår ut fra det, og konfetti skytes fra det:
@@ -15,6 +16,12 @@ export type Feiring = "alt-riktig" | "rekord" | "bra";
 export function Feiringsmerke({ type }: { type: Feiring }) {
   const el = useRef<HTMLSpanElement>(null);
   const skutt = useRef(false);
+  // Konfetti-stilen eleven har kjøpt med poeng (standard: papirlapper).
+  const { konfetti: stil } = useUtseende();
+  const stilRef = useRef(stil);
+  useEffect(() => {
+    stilRef.current = stil;
+  });
 
   useEffect(() => {
     // Når stempelet treffer (se .stempel i globals.css). Settes først når det
@@ -22,7 +29,7 @@ export function Feiringsmerke({ type }: { type: Feiring }) {
     const t = window.setTimeout(() => {
       if (skutt.current) return;
       skutt.current = true;
-      konfetti(el.current, type === "bra" ? "liten" : "stor");
+      konfetti(el.current, type === "bra" ? "liten" : "stor", stilRef.current);
     }, 380);
     return () => window.clearTimeout(t);
   }, [type]);

@@ -280,6 +280,12 @@ export type Database = {
           },
         ]
       }
+      eiendeler: {
+        Row: { belonning_id: string | null; bruker_id: string; kjopt: string; ting: string }
+        Insert: { belonning_id?: string | null; bruker_id: string; kjopt?: string; ting: string }
+        Update: { belonning_id?: string | null; bruker_id?: string; kjopt?: string; ting?: string }
+        Relationships: []
+      }
       skoler: {
         Row: {
           aktiv: boolean
@@ -324,6 +330,9 @@ export type Database = {
           kallenavn: string | null
           skjul_fornavn: boolean
           trinn: string | null
+          valgt_flamme: string | null
+          valgt_konfetti: string | null
+          valgt_merke: string | null
         }
         Insert: {
           abonnement?: string
@@ -338,6 +347,9 @@ export type Database = {
           kallenavn?: string | null
           skjul_fornavn?: boolean
           trinn?: string | null
+          valgt_flamme?: string | null
+          valgt_konfetti?: string | null
+          valgt_merke?: string | null
         }
         Update: {
           abonnement?: string
@@ -352,6 +364,9 @@ export type Database = {
           kallenavn?: string | null
           skjul_fornavn?: boolean
           trinn?: string | null
+          valgt_flamme?: string | null
+          valgt_konfetti?: string | null
+          valgt_merke?: string | null
         }
         Relationships: [
           {
@@ -653,22 +668,25 @@ export type Database = {
           beskrivelse: string
           gyldig_til: string | null
           id: string
-          igjen: number
+          igjen: number | null
           innlost_av_meg: boolean
           lenke: string | null
           partner: string
           poengpris: number
+          sperret: string | null
           tittel: string
+          type: string
+          verdi: string | null
           vilkar: string
         }[]
       }
       formelmatch_toppliste: {
         Args: { p_antall?: number; p_tema_id: string }
-        Returns: { antall: number; er_meg: boolean; navn: string; plass: number; skole: string | null; tid_ms: number }[]
+        Returns: { antall: number; er_meg: boolean; merke: string | null; navn: string; plass: number; skole: string | null; tid_ms: number }[]
       }
       los_inn: {
         Args: { p_belonning: string }
-        Returns: { kode: string; lenke: string | null; partner: string; saldo: number }[]
+        Returns: { kode: string | null; lenke: string | null; partner: string; saldo: number }[]
       }
       min_poengstatus: {
         Args: never
@@ -686,9 +704,13 @@ export type Database = {
           vilkar: string
         }[]
       }
+      mine_vennekoder: {
+        Args: never
+        Returns: { brukt: boolean; dager: number; kode: string; laget: string }[]
+      }
       poengliste: {
         Args: { p_antall?: number; p_omrade?: string }
-        Returns: { er_meg: boolean; navn: string; plass: number; poeng: number; skole: string | null }[]
+        Returns: { er_meg: boolean; merke: string | null; navn: string; plass: number; poeng: number; skole: string | null }[]
       }
       skoleliste: {
         Args: { p_antall?: number }

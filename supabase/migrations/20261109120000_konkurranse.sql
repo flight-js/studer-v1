@@ -284,7 +284,18 @@ create table public.belonninger (
   poengpris int not null check (poengpris > 0),
   gyldig_til date,
   aktiv boolean not null default true,
-  opprettet timestamptz not null default now()
+  opprettet timestamptz not null default now(),
+  -- kode: koder fra en partner (tabellen kuponger). De andre er Studers egne:
+  -- kreditt: gratis tid – verdi er antall dager, trekkes fra neste betaling
+  -- venn:    en kode eleven gir til en venn – verdi er antall dager vennen får
+  -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet) – verdi er tingen
+  type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting')),
+  verdi text,
+  check (
+    (type = 'kode' and verdi is null)
+    or (type in ('kreditt', 'venn') and verdi ~ '^[0-9]{1,3}$')
+    or (type = 'ting' and verdi ~ '^(flamme|konfetti|merke)-[a-z]+$')
+  )
 );
 
 alter table public.belonninger enable row level security;
@@ -306,6 +317,85 @@ create index kuponger_bruker on public.kuponger (bruker_id) where bruker_id is n
 alter table public.kuponger enable row level security;
 revoke all on public.kuponger from anon, authenticated;
 -- Ingen direkte tilgang: koder deles bare ut av los_inn() og leses med mine_kuponger().
+
+-- ---------------------------------------------------------------- Studers egne belønninger
+
+-- Ting i appen eleven eier. Eleven ser sine egne; de deles bare ut av los_inn().
+create table public.eiendeler (
+  bruker_id uuid not null references auth.users (id) on delete cascade,
+  ting text not null,
+  belonning_id uuid references public.belonninger (id) on delete set null,
+  kjopt timestamptz not null default now(),
+  primary key (bruker_id, ting)
+);
+alter table public.eiendeler enable row level security;
+revoke all on public.eiendeler from anon, authenticated;
+grant select on public.eiendeler to authenticated;
+create policy "Elever ser sine egne ting" on public.eiendeler
+  for select to authenticated using (bruker_id = auth.uid());
+
+-- Hvilke ting eleven bruker. Bare ting eleven eier (sjekk_valgte_ting).
+alter table public.profiles
+  add column valgt_flamme text,
+  add column valgt_konfetti text,
+  add column valgt_merke text;
+grant update (valgt_flamme, valgt_konfetti, valgt_merke) on public.profiles to authenticated;
+
+create function public.sjekk_valgte_ting()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  if (new.valgt_flamme is not null and (new.valgt_flamme not like 'flamme-%'
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_flamme)))
+    or (new.valgt_konfetti is not null and (new.valgt_konfetti not like 'konfetti-%'
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_konfetti)))
+    or (new.valgt_merke is not null and (new.valgt_merke not like 'merke-%'
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_merke))) then
+    raise exception using errcode = '23514', message = 'Du har ikke den tingen.';
+  end if;
+  return new;
+end;
+$$;
+
+create trigger profiles_sjekk_valgte_ting
+  before update of valgt_flamme, valgt_konfetti, valgt_merke on public.profiles
+  for each row execute function public.sjekk_valgte_ting();
+
+-- Koder eleven gir til en venn. Vennen får kreditt (dager) når hen starter sitt
+-- første abonnement (serverfunksjonen «betaling», vennekode_bruk).
+create table public.vennekoder (
+  kode text primary key,
+  giver uuid not null references auth.users (id) on delete cascade,
+  belonning_id uuid references public.belonninger (id) on delete set null,
+  dager int not null,
+  laget timestamptz not null default now(),
+  brukt_av uuid references auth.users (id) on delete set null,
+  brukt timestamptz
+);
+create index vennekoder_giver on public.vennekoder (giver);
+alter table public.vennekoder enable row level security;
+revoke all on public.vennekoder from anon, authenticated;
+
+-- Gratis tid: poengene trekkes først (kreditt_start), så legger serverfunksjonen
+-- «betaling» krediten inn i Stripe (kreditt_ferdig). Feiler Stripe, gis
+-- poengene tilbake (kreditt_angre).
+create table public.kreditter (
+  id uuid primary key default gen_random_uuid(),
+  bruker_id uuid not null references auth.users (id) on delete cascade,
+  belonning_id uuid references public.belonninger (id) on delete set null,
+  dager int not null,
+  poeng int not null,
+  status text not null default 'venter' check (status in ('venter', 'ferdig', 'angret')),
+  stripe_id text,
+  belop_ore int,
+  laget timestamptz not null default now()
+);
+create index kreditter_bruker on public.kreditter (bruker_id, laget);
+alter table public.kreditter enable row level security;
+revoke all on public.kreditter from anon, authenticated;
 
 -- ---------------------------------------------------------------- Poeng
 
@@ -579,7 +669,7 @@ $$;
 -- Topplisten for et tema: beste tid per elev. Eleven ser alltid seg selv, også
 -- når hen ikke er synlig for andre.
 create function public.formelmatch_toppliste(p_tema_id text, p_antall int default 10)
-returns table (plass int, navn text, skole text, tid_ms int, er_meg boolean, antall int)
+returns table (plass int, navn text, skole text, tid_ms int, er_meg boolean, antall int, merke text)
 language sql
 stable
 security definer
@@ -592,17 +682,18 @@ as $$
     group by r.bruker_id
   ), synlige as (
     select b.bruker_id, b.tid_ms, s.navn as skole,
-           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn
+           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn,
+           p.valgt_merke as merke
     from beste b
     join public.profiles p on p.id = b.bruker_id
     left join public.skoler s on s.id = p.skole_id
     where public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn) is not null or b.bruker_id = auth.uid()
   ), rangert as (
     select rank() over (order by tid_ms)::int as plass, navn, skole, tid_ms,
-           bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall
+           bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall, merke
     from synlige
   )
-  select plass, navn, skole, tid_ms, er_meg, antall
+  select plass, navn, skole, tid_ms, er_meg, antall, merke
   from rangert
   where plass <= least(greatest(p_antall, 1), 50) or er_meg
   order by plass, navn;
@@ -613,7 +704,7 @@ $$;
 -- Ukeslista: poeng tjent denne uka (mandag–søndag, norsk tid). Innløste poeng
 -- trekkes ikke fra. p_omrade: 'alle', 'skole' eller 'trinn'.
 create function public.poengliste(p_omrade text default 'alle', p_antall int default 50)
-returns table (plass int, navn text, skole text, poeng int, er_meg boolean)
+returns table (plass int, navn text, skole text, poeng int, er_meg boolean, merke text)
 language sql
 stable
 security definer
@@ -630,7 +721,8 @@ as $$
     group by l.bruker_id
   ), synlige as (
     select s.bruker_id, s.poeng, sk.navn as skole,
-           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn
+           coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn,
+           p.valgt_merke as merke
     from summer s
     join public.profiles p on p.id = s.bruker_id
     left join public.skoler sk on sk.id = p.skole_id
@@ -641,10 +733,10 @@ as $$
         else true
       end
   ), rangert as (
-    select rank() over (order by poeng desc)::int as plass, navn, skole, poeng, bruker_id = auth.uid() as er_meg
+    select rank() over (order by poeng desc)::int as plass, navn, skole, poeng, bruker_id = auth.uid() as er_meg, merke
     from synlige
   )
-  select plass, navn, skole, poeng, er_meg
+  select plass, navn, skole, poeng, er_meg, merke
   from rangert
   where plass <= least(greatest(p_antall, 1), 100) or er_meg
   order by plass, navn;
@@ -712,26 +804,64 @@ $$;
 
 -- ---------------------------------------------------------------- Innløsning
 
+-- Hvorfor eleven ikke kan løse inn belønningen akkurat nå (vises før eleven
+-- trykker), eller null. Poengsaldoen sjekkes for seg.
+create function public.belonning_sperre(p_bruker uuid, b public.belonninger)
+returns text
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select case
+    when (select p.opprettet from public.profiles p where p.id = p_bruker) > now() - interval '7 days'
+      then 'Kontoen må være minst en uke gammel før du kan løse inn.'
+    when b.type = 'kreditt' and exists (
+      select 1 from public.kreditter k
+      where k.bruker_id = p_bruker and k.status <> 'angret' and k.laget > now() - interval '30 days'
+    ) then 'Gratis tid kan løses inn én gang i måneden. Neste gang: ' || to_char((
+      select max(k.laget) + interval '30 days' from public.kreditter k
+      where k.bruker_id = p_bruker and k.status <> 'angret'
+    ) at time zone 'Europe/Oslo', 'DD.MM.YYYY') || '.'
+    when b.type = 'venn' and (
+      select count(*) from public.vennekoder v where v.giver = p_bruker and v.brukt is null
+    ) >= 3 then 'Du har tre ubrukte vennekoder. Del dem før du lager flere.'
+    when b.type = 'ting' and exists (
+      select 1 from public.eiendeler e where e.bruker_id = p_bruker and e.ting = b.verdi
+    ) then 'Du har denne allerede.'
+  end;
+$$;
+
 create function public.belonninger_med_lager()
 returns table (
   id uuid, partner text, tittel text, beskrivelse text, vilkar text, lenke text,
-  poengpris int, gyldig_til date, igjen int, innlost_av_meg boolean
+  poengpris int, gyldig_til date, type text, verdi text, igjen int, innlost_av_meg boolean, sperret text
 )
 language sql
 stable
 security definer
 set search_path = ''
 as $$
-  select b.id, b.partner, b.tittel, b.beskrivelse, b.vilkar, b.lenke, b.poengpris, b.gyldig_til,
-         (select count(*)::int from public.kuponger k where k.belonning_id = b.id and k.bruker_id is null),
-         exists (select 1 from public.kuponger k where k.belonning_id = b.id and k.bruker_id = auth.uid())
+  select b.id, b.partner, b.tittel, b.beskrivelse, b.vilkar, b.lenke, b.poengpris, b.gyldig_til, b.type, b.verdi,
+         -- Lager bare for partnerkoder; Studers egne er ubegrensede (null).
+         case when b.type = 'kode' then
+           (select count(*)::int from public.kuponger k where k.belonning_id = b.id and k.bruker_id is null)
+         end,
+         case b.type
+           when 'kode' then exists (select 1 from public.kuponger k where k.belonning_id = b.id and k.bruker_id = auth.uid())
+           when 'ting' then exists (select 1 from public.eiendeler e where e.bruker_id = auth.uid() and e.ting = b.verdi)
+           else false
+         end,
+         public.belonning_sperre(auth.uid(), b)
   from public.belonninger b
   where b.aktiv and (b.gyldig_til is null or b.gyldig_til >= public.minne_i_dag())
-  order by b.poengpris, b.tittel;
+  order by b.type <> 'kode', b.poengpris, b.tittel;
 $$;
 
--- Løser inn en belønning: trekker poengene og deler ut en ledig kode, alt i én
--- transaksjon. Låsen per elev hindrer at samme poeng brukes to ganger.
+-- Løser inn en belønning: trekker poengene og gir eleven det hen kjøpte, alt i
+-- én transaksjon. Låsen per elev hindrer at samme poeng brukes to ganger.
+--   kode: en ledig partnerkode     ting: tingen legges i eiendeler
+--   venn: en ny vennekode          kreditt: går via serverfunksjonen «betaling»
 create function public.los_inn(p_belonning uuid)
 returns table (kode text, partner text, lenke text, saldo int)
 language plpgsql
@@ -743,6 +873,7 @@ declare
   v_b public.belonninger;
   v_saldo int;
   v_kode text;
+  v_sperre text;
 begin
   if v_bruker is null then
     raise exception 'Ikke innlogget';
@@ -754,13 +885,14 @@ begin
   if not found then
     raise exception 'Belønningen finnes ikke lenger';
   end if;
-  if exists (select 1 from public.kuponger k where k.belonning_id = p_belonning and k.bruker_id = v_bruker) then
-    raise exception 'Du har allerede løst inn denne belønningen';
+  if v_b.type = 'kreditt' then
+    raise exception 'Gratis tid løses inn fra belønningssiden.';
   end if;
   -- Nye kontoer kan ikke løse inn med en gang, så det ikke lønner seg å lage
-  -- mange kontoer for å samle koder.
-  if (select p.opprettet from public.profiles p where p.id = v_bruker) > now() - interval '7 days' then
-    raise exception 'Kontoen må være minst en uke gammel før du kan løse inn';
+  -- mange kontoer for å samle koder (sjekkes i belonning_sperre).
+  v_sperre := public.belonning_sperre(v_bruker, v_b);
+  if v_sperre is not null then
+    raise exception '%', v_sperre;
   end if;
 
   select coalesce(sum(l.endring), 0) into v_saldo from public.poeng_logg l where l.bruker_id = v_bruker;
@@ -768,18 +900,39 @@ begin
     raise exception 'Du har ikke nok poeng';
   end if;
 
-  update public.kuponger k
-  set bruker_id = v_bruker, innlost = now()
-  where k.id = (
-    select k2.id from public.kuponger k2
-    where k2.belonning_id = p_belonning and k2.bruker_id is null
-    order by k2.id
-    limit 1
-    for update skip locked
-  )
-  returning k.kode into v_kode;
-  if v_kode is null then
-    raise exception 'Belønningen er utsolgt';
+  if v_b.type = 'kode' then
+    if exists (select 1 from public.kuponger k where k.belonning_id = p_belonning and k.bruker_id = v_bruker) then
+      raise exception 'Du har allerede løst inn denne belønningen';
+    end if;
+    update public.kuponger k
+    set bruker_id = v_bruker, innlost = now()
+    where k.id = (
+      select k2.id from public.kuponger k2
+      where k2.belonning_id = p_belonning and k2.bruker_id is null
+      order by k2.id
+      limit 1
+      for update skip locked
+    )
+    returning k.kode into v_kode;
+    if v_kode is null then
+      raise exception 'Belønningen er utsolgt';
+    end if;
+  elsif v_b.type = 'ting' then
+    insert into public.eiendeler (bruker_id, ting, belonning_id) values (v_bruker, v_b.verdi, v_b.id);
+  elsif v_b.type = 'venn' then
+    -- Kort kode som er lett å skrive av: VENN-1A2B3C. Prøver igjen ved kollisjon.
+    for i in 1..5 loop
+      v_kode := 'VENN-' || upper(substr(md5(gen_random_uuid()::text), 1, 6));
+      begin
+        insert into public.vennekoder (kode, giver, belonning_id, dager) values (v_kode, v_bruker, v_b.id, v_b.verdi::int);
+        exit;
+      exception when unique_violation then
+        v_kode := null;
+      end;
+    end loop;
+    if v_kode is null then
+      raise exception 'Fikk ikke laget en kode. Prøv igjen.';
+    end if;
   end if;
 
   insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
@@ -787,6 +940,111 @@ begin
 
   return query select v_kode, v_b.partner, v_b.lenke, v_saldo - v_b.poengpris;
 end;
+$$;
+
+-- Gratis tid, første halvdel (bare serverfunksjonen «betaling», med secret-nøkkelen):
+-- sjekker, trekker poengene og lagrer krediten som venter.
+create function public.kreditt_start(p_bruker uuid, p_belonning uuid)
+returns table (id uuid, dager int, saldo int)
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_b public.belonninger;
+  v_saldo int;
+  v_sperre text;
+  v_id uuid;
+begin
+  perform pg_advisory_xact_lock(hashtextextended(p_bruker::text, 0));
+  select * into v_b from public.belonninger b
+  where b.id = p_belonning and b.type = 'kreditt' and b.aktiv
+    and (b.gyldig_til is null or b.gyldig_til >= public.minne_i_dag());
+  if not found then
+    raise exception 'Belønningen finnes ikke lenger';
+  end if;
+  v_sperre := public.belonning_sperre(p_bruker, v_b);
+  if v_sperre is not null then
+    raise exception '%', v_sperre;
+  end if;
+  select coalesce(sum(l.endring), 0) into v_saldo from public.poeng_logg l where l.bruker_id = p_bruker;
+  if v_saldo < v_b.poengpris then
+    raise exception 'Du har ikke nok poeng';
+  end if;
+  insert into public.kreditter (bruker_id, belonning_id, dager, poeng)
+  values (p_bruker, v_b.id, v_b.verdi::int, v_b.poengpris)
+  returning kreditter.id into v_id;
+  insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
+  values (p_bruker, -v_b.poengpris, 'innlosning', v_b.id);
+  return query select v_id, v_b.verdi::int, v_saldo - v_b.poengpris;
+end;
+$$;
+
+-- Krediten er lagt inn i Stripe.
+create function public.kreditt_ferdig(p_id uuid, p_stripe_id text, p_belop_ore int)
+returns void
+language sql
+security definer
+set search_path = ''
+as $$
+  update public.kreditter set status = 'ferdig', stripe_id = p_stripe_id, belop_ore = p_belop_ore
+  where id = p_id and status = 'venter';
+$$;
+
+-- Stripe feilet: gi poengene tilbake.
+create function public.kreditt_angre(p_id uuid)
+returns void
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v public.kreditter;
+begin
+  update public.kreditter set status = 'angret' where id = p_id and status = 'venter' returning * into v;
+  if found then
+    insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
+    values (v.bruker_id, v.poeng, 'korrigering', v.belonning_id);
+  end if;
+end;
+$$;
+
+-- En ny kunde bruker en vennekode (bare serverfunksjonen «betaling»). Svarer
+-- antall dager kreditt, eller null når koden ikke kan brukes: finnes ikke, er
+-- elevens egen, er brukt av en annen, eller eleven har brukt en annen kode før.
+create function public.vennekode_bruk(p_kode text, p_bruker uuid)
+returns int
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_kode text := upper(trim(coalesce(p_kode, '')));
+  v_dager int;
+begin
+  if exists (select 1 from public.vennekoder v where v.brukt_av = p_bruker and v.kode <> v_kode) then
+    return null;
+  end if;
+  update public.vennekoder v
+  set brukt_av = p_bruker, brukt = coalesce(v.brukt, now())
+  where v.kode = v_kode and v.giver <> p_bruker and (v.brukt_av is null or v.brukt_av = p_bruker)
+  returning v.dager into v_dager;
+  return v_dager;
+end;
+$$;
+
+-- Vennekodene eleven har laget, og om de er brukt.
+create function public.mine_vennekoder()
+returns table (kode text, dager int, laget timestamptz, brukt boolean)
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select v.kode, v.dager, v.laget, v.brukt is not null
+  from public.vennekoder v
+  where v.giver = auth.uid()
+  order by v.laget desc;
 $$;
 
 create function public.mine_kuponger()
@@ -832,6 +1090,13 @@ revoke execute on function public.min_poengstatus() from public, anon;
 revoke execute on function public.belonninger_med_lager() from public, anon;
 revoke execute on function public.los_inn(uuid) from public, anon;
 revoke execute on function public.mine_kuponger() from public, anon;
+revoke execute on function public.mine_vennekoder() from public, anon;
+revoke execute on function public.belonning_sperre(uuid, public.belonninger) from public, anon, authenticated;
+revoke execute on function public.sjekk_valgte_ting() from public, anon, authenticated;
+revoke execute on function public.kreditt_start(uuid, uuid) from public, anon, authenticated;
+revoke execute on function public.kreditt_ferdig(uuid, text, int) from public, anon, authenticated;
+revoke execute on function public.kreditt_angre(uuid) from public, anon, authenticated;
+revoke execute on function public.vennekode_bruk(text, uuid) from public, anon, authenticated;
 
 grant execute on function public.lagre_resultat(text, text, numeric, int) to authenticated;
 grant execute on function public.start_formelmatch(text) to authenticated;
@@ -843,8 +1108,27 @@ grant execute on function public.min_poengstatus() to authenticated;
 grant execute on function public.belonninger_med_lager() to authenticated;
 grant execute on function public.los_inn(uuid) to authenticated;
 grant execute on function public.mine_kuponger() to authenticated;
+grant execute on function public.mine_vennekoder() to authenticated;
 
--- ---------------------------------------------------------------- Slik legges belønninger inn
+-- ---------------------------------------------------------------- Studers egne belønninger
+--
+-- Prisene kan endres her eller senere (update public.belonninger set poengpris …).
+-- Til sammenligning: en elev som øver hver dag, tjener rundt 50–150 poeng per dag.
+
+insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
+  ('Studer', 'En gratis uke', 'Prisen for én uke trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
+  ('Studer', 'En gratis måned', 'Prisen for én måned trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 5000, 'kreditt', '30'),
+  ('Studer', 'Gi en venn en gratis uke', 'Du får en kode og en lenke til en venn som ikke har Studer. Vennen får én uke gratis.', 'Bare for nye abonnenter. Høyst tre ubrukte koder om gangen.', 800, 'venn', '7'),
+  ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
+  ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
+  ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 1200, 'ting', 'flamme-regnbue'),
+  ('Studer', 'Stjernekonfetti', 'Stjerner i stedet for papirlapper når du får til noe.', '', 600, 'ting', 'konfetti-stjerner'),
+  ('Studer', 'Fjærkonfetti', 'Fjærpenner som daler ned når du får til noe.', '', 600, 'ting', 'konfetti-fjaer'),
+  ('Studer', 'Fjærpenn ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-fjaer'),
+  ('Studer', 'Lyspære ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-lyspare'),
+  ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-stjerne');
+
+-- ---------------------------------------------------------------- Slik legges partnerbelønninger inn
 --
 -- Bare etter avtale med en ekte partner, og bare tilbud som passer for elever
 -- fra 13 år (ikke alkohol, tobakk/snus, energidrikk, pengespill, kosmetiske

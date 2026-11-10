@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
+import { Navnemerke } from "@/components/konkurranse/Navnemerke";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
 import { ArrowRight, Gave } from "@/components/icons";
 import { Feil } from "@/components/Tilstand";
@@ -121,6 +122,7 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
                     <span className="flex flex-col min-w-0">
                       <span className="font-semibold truncate">
                         {p.navn}
+                        <Navnemerke merke={p.merke} />
                         {p.erMeg && <span className="sr-only"> (deg)</span>}
                       </span>
                       {p.skole && <span className="text-sm text-muted truncate">{p.skole}</span>}

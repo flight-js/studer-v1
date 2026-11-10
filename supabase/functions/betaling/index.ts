@@ -5,6 +5,9 @@
 // Funksjonen skriver aldri abonnementet i profiles. Det gjør bare
 // «stripe-webhook», etter at Stripe har bekreftet betalingen.
 //
+// Gratis tid kjøpt med poeng (handling «kreditt») og vennekoder gis som kreditt
+// på kunden i Stripe, som trekkes fra neste betaling.
+//
 // Prøveperiode (14 dager): gis bare hvis kunden aldri har hatt abonnement, og
 // kontoen og e-posten ikke har hatt prøveperiode før (tabellen provetid).
 // Kortet er ikke kjent før eleven har betalt, så det sjekker webhooken.
@@ -69,6 +72,27 @@ async function aktivtAbonnement(kunde: string) {
   return liste.data.find((s) => AKTIVE.includes(s.status)) ?? null;
 }
 
+// Hva et antall dager er verdt med en pris (i øre): månedspris × dager / 30,
+// årspris × dager / 365. Brukes til gratis tid og vennekoder.
+function verdiAvDager(pris: Stripe.Price, dager: number): number {
+  const aar = pris.recurring?.interval === "year";
+  const perioder = pris.recurring?.interval_count ?? 1;
+  return Math.round(((pris.unit_amount ?? 0) * dager) / ((aar ? 365 : 30) * perioder));
+}
+
+// Gratis tid og vennekoder gis som kreditt på kunden i Stripe: den trekkes
+// automatisk fra neste betaling. (Ikke forlenget prøveperiode – da ville
+// stripe-webhook tro at eleven prøver å få en ny prøveperiode.)
+async function giKreditt(kunde: string, ore: number, valuta: string, beskrivelse: string, nokkel: string) {
+  return await stripe!.customers.createBalanceTransaction(
+    kunde,
+    { amount: -ore, currency: valuta, description: beskrivelse },
+    { idempotencyKey: nokkel }
+  );
+}
+
+const kroner = (ore: number) => (ore / 100).toLocaleString("nb-NO", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
 // Den lagrede kunden finnes ikke hvis den er slettet, eller hvis den ble laget
 // i testmodus og nøklene nå er live (eller omvendt). Da lages en ny.
 async function finnesKunde(id: string | undefined): Promise<boolean> {
@@ -99,9 +123,9 @@ Deno.serve(async (req) => {
   if (!brukerId) return svar(401, { feil: "ikke-innlogget" });
   if (!stripe || !PUBLISERBAR || !PRISER.maned || !PRISER.ar) return svar(503, { feil: "ikke-satt-opp" });
 
-  let handling: unknown, plan: unknown, skjema: unknown;
+  let handling: unknown, plan: unknown, skjema: unknown, vennekode: unknown, belonning: unknown;
   try {
-    ({ handling, plan, skjema } = await req.json());
+    ({ handling, plan, skjema, vennekode, belonning } = await req.json());
   } catch {
     return svar(400, { feil: "ugyldig" });
   }
@@ -151,6 +175,24 @@ Deno.serve(async (req) => {
       if (provefeil) throw new Error(provefeil.message);
       const provetid = ledig === true && !tidligere.some((s) => !ALDRI_STARTET.includes(s.status));
 
+      // Kode fra en venn: én uke (eller det koden gir) som kreditt, bare for
+      // kunder som aldri har hatt abonnement. Ugyldig kode stopper kjøpet, så
+      // eleven kan rette den eller fjerne den før hen betaler.
+      let vennKreditt: string | null = null;
+      if (typeof vennekode === "string" && vennekode.trim()) {
+        const kode = vennekode.trim().toUpperCase();
+        if (!/^VENN-[0-9A-F]{6}$/.test(kode) || tidligere.some((s) => !ALDRI_STARTET.includes(s.status))) {
+          return svar(400, { feil: "vennekode" });
+        }
+        const { data: dager, error: vennefeil } = await admin.rpc("vennekode_bruk", { p_kode: kode, p_bruker: brukerId });
+        if (vennefeil) throw new Error(vennefeil.message);
+        if (typeof dager !== "number") return svar(400, { feil: "vennekode" });
+        const pris = await stripe.prices.retrieve(PRISER[plan]);
+        const ore = verdiAvDager(pris, dager);
+        await giKreditt(kunde!, ore, pris.currency, `Vennekode ${kode}: ${dager} dager gratis`, `venn-${kode}`);
+        vennKreditt = kroner(ore);
+      }
+
       const felles = {
         mode: "subscription" as const,
         customer: kunde,
@@ -188,7 +230,34 @@ Deno.serve(async (req) => {
         if (!(e instanceof Stripe.errors.StripeInvalidRequestError) || e.param !== "ui_mode") throw e;
         okt = await stripe.checkout.sessions.create({ ...felles, ...ekstra, ui_mode: modus[1] } as unknown as Stripe.Checkout.SessionCreateParams);
       }
-      return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR, provetid });
+      return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR, provetid, vennKreditt });
+    }
+
+    // Gratis tid kjøpt med poeng: poengene trekkes i databasen (kreditt_start),
+    // så legges verdien av dagene inn som kreditt på kunden. Feiler Stripe, gis
+    // poengene tilbake (kreditt_angre).
+    if (handling === "kreditt") {
+      if (typeof belonning !== "string" || !/^[0-9a-f-]{36}$/.test(belonning)) return svar(400, { feil: "ugyldig" });
+      const abonnement = kunde ? await aktivtAbonnement(kunde) : null;
+      if (!abonnement) return svar(409, { feil: "kreditt-uten-abonnement" });
+      if (abonnement.cancel_at_period_end || abonnement.cancel_at) return svar(409, { feil: "kreditt-avsluttes" });
+      const pris = abonnement.items.data[0]?.price;
+      if (!pris?.unit_amount) throw new Error("Fant ikke prisen på abonnementet");
+
+      const { data: start, error: startfeil } = await admin.rpc("kreditt_start", { p_bruker: brukerId, p_belonning: belonning });
+      // Meldingene fra databasen (for få poeng, én gang i måneden …) vises som de er.
+      if (startfeil) return svar(422, { feil: "kreditt", melding: startfeil.message });
+      const k = (start as { id: string; dager: number; saldo: number }[])[0];
+      const ore = verdiAvDager(pris, k.dager);
+      try {
+        const t = await giKreditt(kunde!, ore, pris.currency, `Studer-poeng: ${k.dager} dager gratis`, `poeng-${k.id}`);
+        const { error } = await admin.rpc("kreditt_ferdig", { p_id: k.id, p_stripe_id: t.id, p_belop_ore: ore });
+        if (error) console.error("kreditt_ferdig", error.message); // krediten er gitt; bare statusen mangler
+        return svar(200, { saldo: k.saldo, belop: kroner(ore), dager: k.dager });
+      } catch (e) {
+        await admin.rpc("kreditt_angre", { p_id: k.id });
+        throw e;
+      }
     }
 
     if (handling === "avslutt" || handling === "fortsett") {

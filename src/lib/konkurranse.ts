@@ -12,7 +12,8 @@ export type Med<T> = { data: T; demo: boolean };
 export type Poengstatus = { saldo: number; denneUka: number; iDag: number; tak: number; streak: number };
 // navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
 // synlig for andre (har skjult fornavnet uten å velge kallenavn).
-export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean };
+// merke: tingen eleven viser ved navnet (merke-fjaer …), se lib/utseende.ts.
+export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean; merke?: string | null };
 export type Skoleplass = {
   plass: number;
   skoleId: string;
@@ -23,7 +24,15 @@ export type Skoleplass = {
   snitt: number;
   erMin: boolean;
 };
-export type Toppplass = { plass: number; navn: string; skole: string | null; tidMs: number; erMeg: boolean; antall: number };
+export type Toppplass = {
+  plass: number;
+  navn: string;
+  skole: string | null;
+  tidMs: number;
+  erMeg: boolean;
+  antall: number;
+  merke?: string | null;
+};
 export type Avslutning = { tidMs: number; teller: boolean; forrigeBeste: number | null; poeng: number };
 export type Belonning = {
   id: string;
@@ -34,8 +43,13 @@ export type Belonning = {
   lenke: string | null;
   poengpris: number;
   gyldigTil: string | null;
-  igjen: number;
+  // kode: partnerkode. kreditt: gratis tid (verdi = dager). venn: kode til en
+  // venn (verdi = dager). ting: noe i appen (verdi = tingen, se lib/utseende.ts).
+  type: "kode" | "kreditt" | "venn" | "ting";
+  verdi: string | null;
+  igjen: number | null; // null = ubegrenset (Studers egne)
   innlostAvMeg: boolean;
+  sperret: string | null; // hvorfor eleven ikke kan løse inn nå, ellers null
 };
 export type Kupong = {
   kode: string;
@@ -86,7 +100,14 @@ export async function hentPoengliste(omrade: Omrade): Promise<Med<Plassering[]>>
   if (demo) return demo;
   return {
     demo: false,
-    data: (res.data ?? []).map((r) => ({ plass: r.plass, navn: r.navn, skole: r.skole, poeng: r.poeng, erMeg: r.er_meg })),
+    data: (res.data ?? []).map((r) => ({
+      plass: r.plass,
+      navn: r.navn,
+      skole: r.skole,
+      poeng: r.poeng,
+      erMeg: r.er_meg,
+      merke: r.merke,
+    })),
   };
 }
 
@@ -123,6 +144,7 @@ export async function hentToppliste(temaId: string): Promise<Med<Toppplass[]>> {
       skole: r.skole,
       tidMs: r.tid_ms,
       erMeg: r.er_meg,
+      merke: r.merke,
       antall: r.antall,
     })),
   };
@@ -172,8 +194,11 @@ export async function hentBelonninger(): Promise<Med<Belonning[]>> {
       lenke: r.lenke,
       poengpris: r.poengpris,
       gyldigTil: r.gyldig_til,
+      type: r.type as Belonning["type"],
+      verdi: r.verdi,
       igjen: r.igjen,
       innlostAvMeg: r.innlost_av_meg,
+      sperret: r.sperret,
     })),
   };
 }
@@ -189,6 +214,21 @@ export async function losInn(belonningId: string) {
   if (!r) throw new Error("Fikk ikke noen kode tilbake. Prøv igjen.");
   return r;
 }
+
+export type Vennekode = { kode: string; dager: number; laget: string; brukt: boolean };
+
+export async function hentMineVennekoder(): Promise<Vennekode[]> {
+  const { data, error } = await supabase.rpc("mine_vennekoder");
+  if (error) {
+    if (ikkeSattOpp(error)) return [];
+    throw new Error(error.message);
+  }
+  return data ?? [];
+}
+
+// Lenken vennen åpner: lag konto, så rett til abonnementet med koden fylt inn.
+export const vennelenke = (kode: string) =>
+  `${typeof window === "undefined" ? "https://studer.no" : window.location.origin}/registrer?neste=${encodeURIComponent(`/abonnement?venn=${kode}`)}`;
 
 export async function hentMineKuponger(): Promise<Med<Kupong[]>> {
   const res = await supabase.rpc("mine_kuponger");
@@ -355,6 +395,10 @@ export const formaterTid = (ms: number) =>
 
 // Bare for å vise sidene før migrasjonen er kjørt. Navn, skoler og partnere
 // er oppdiktet, og sidene merker dem som eksempler.
+function egen(type: Belonning["type"], verdi: string, tittel: string, beskrivelse: string, vilkar: string, poengpris: number): Belonning {
+  return { id: `egen-${verdi}-${type}`, partner: "Studer", tittel, beskrivelse, vilkar, lenke: null, poengpris, gyldigTil: null, type, verdi, igjen: null, innlostAvMeg: false, sperret: null };
+}
+
 const EKSEMPEL = {
   status: { saldo: 1240, denneUka: 310, iDag: 45, tak: 150, streak: 4 } satisfies Poengstatus,
   poengliste: {
@@ -386,7 +430,19 @@ const EKSEMPEL = {
     { plass: 3, navn: "Deg", skole: null, tidMs: 21900, erMeg: true, antall: 4 },
     { plass: 4, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", tidMs: 26400, erMeg: false, antall: 4 },
   ] satisfies Toppplass[],
+  // Studers egne er de samme som legges inn med migrasjonen; partnerne er oppdiktet.
   belonninger: [
+    egen("kreditt", "7", "En gratis uke", "Prisen for én uke trekkes fra neste betaling.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 1500),
+    egen("kreditt", "30", "En gratis måned", "Prisen for én måned trekkes fra neste betaling.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 5000),
+    egen("venn", "7", "Gi en venn en gratis uke", "Du får en kode og en lenke til en venn som ikke har Studer. Vennen får én uke gratis.", "Bare for nye abonnenter. Høyst tre ubrukte koder om gangen.", 800),
+    egen("ting", "flamme-bla", "Blå flamme", "Rekka di brenner blått.", "", 400),
+    egen("ting", "flamme-gronn", "Grønn flamme", "Rekka di brenner grønt.", "", 400),
+    egen("ting", "flamme-regnbue", "Regnbueflamme", "Rekka di skifter farge mens den brenner.", "", 1200),
+    egen("ting", "konfetti-stjerner", "Stjernekonfetti", "Stjerner i stedet for papirlapper når du får til noe.", "", 600),
+    egen("ting", "konfetti-fjaer", "Fjærkonfetti", "Fjærpenner som daler ned når du får til noe.", "", 600),
+    egen("ting", "merke-fjaer", "Fjærpenn ved navnet", "Vises ved navnet ditt på rangeringene.", "", 500),
+    egen("ting", "merke-lyspare", "Lyspære ved navnet", "Vises ved navnet ditt på rangeringene.", "", 500),
+    egen("ting", "merke-stjerne", "Stjerne ved navnet", "Vises ved navnet ditt på rangeringene.", "", 500),
     {
       id: "eksempel-1",
       partner: "Eksempelbutikken",
@@ -396,8 +452,11 @@ const EKSEMPEL = {
       lenke: null,
       poengpris: 800,
       gyldigTil: null,
+      type: "kode",
+      verdi: null,
       igjen: 40,
       innlostAvMeg: false,
+      sperret: null,
     },
     {
       id: "eksempel-2",
@@ -408,8 +467,11 @@ const EKSEMPEL = {
       lenke: null,
       poengpris: 1500,
       gyldigTil: null,
+      type: "kode",
+      verdi: null,
       igjen: 0,
       innlostAvMeg: false,
+      sperret: null,
     },
   ] satisfies Belonning[],
 };

@@ -8,7 +8,26 @@
 //
 // Redusert bevegelse: ingenting flyr. Merket og teksten sier det samme.
 
-type Form = 0 | 1 | 2; // lapp, strek, prikk
+type Form = 0 | 1 | 2 | 3 | 4; // lapp, strek, prikk, stjerne, fjær
+
+// Konfetti-stilen eleven har kjøpt (lib/utseende.ts): papirlapper (standard),
+// stjerner eller fjærpenner som daler sakte.
+export type Konfettistil = "konfetti-stjerner" | "konfetti-fjaer" | string | null | undefined;
+
+// Femtakket stjerne med radius 1 (skaleres per partikkel).
+let stjerneform: Path2D | null = null;
+function stjerne(): Path2D {
+  if (stjerneform) return stjerneform;
+  const p = new Path2D();
+  for (let i = 0; i < 10; i++) {
+    const r = i % 2 ? 0.45 : 1;
+    const v = -Math.PI / 2 + (i * Math.PI) / 5;
+    if (i) p.lineTo(Math.cos(v) * r, Math.sin(v) * r);
+    else p.moveTo(Math.cos(v) * r, Math.sin(v) * r);
+  }
+  p.closePath();
+  return (stjerneform = p);
+}
 
 type Partikkel = {
   x: number;
@@ -106,7 +125,7 @@ function tegn(na: number) {
     p.vx *= d;
     p.vy = p.vy * d + p.tyngde * dt;
     // Papiret vaier litt fra side til side mens det faller.
-    p.x += (p.vx + (p.form === 2 ? 0 : Math.sin(p.flipp * 0.5) * 40)) * dt;
+    p.x += (p.vx + (p.form === 2 || p.form === 3 ? 0 : Math.sin(p.flipp * 0.5) * (p.form === 4 ? 70 : 40))) * dt;
     p.y += p.vy * dt;
     p.rot += p.vrot * dt;
     p.flipp += p.vflipp * dt;
@@ -116,12 +135,26 @@ function tegn(na: number) {
     c.fillStyle = p.farge;
     const cos = Math.cos(p.rot);
     const sin = Math.sin(p.rot);
-    const sy = p.form === 2 ? 1 : Math.cos(p.flipp); // papiret snur seg
+    const sy = p.form === 2 ? 1 : p.form === 3 ? 0.6 + 0.4 * Math.cos(p.flipp) : Math.cos(p.flipp); // papiret snur seg
     c.setTransform(cos * skala, sin * skala, -sin * sy * skala, cos * sy * skala, p.x * skala, p.y * skala);
     if (p.form === 2) {
       c.beginPath();
       c.arc(0, 0, p.b / 2, 0, Math.PI * 2);
       c.fill();
+    } else if (p.form === 3) {
+      c.scale(p.b / 2, p.b / 2);
+      c.fill(stjerne());
+    } else if (p.form === 4) {
+      // Fjær: en smal fane med en lys ryggrad.
+      c.beginPath();
+      c.ellipse(0, 0, p.b / 2, p.h / 2, 0, 0, Math.PI * 2);
+      c.fill();
+      c.strokeStyle = "rgba(255, 255, 255, 0.55)";
+      c.lineWidth = 1;
+      c.beginPath();
+      c.moveTo(-p.b / 2 - 2, 0);
+      c.lineTo(p.b / 2, 0);
+      c.stroke();
     } else {
       c.fillRect(-p.b / 2, -p.h / 2, p.b, p.h);
     }
@@ -159,12 +192,19 @@ function punkt(k: Kilde): { x: number; y: number } {
 function utbrudd(
   { x, y }: { x: number; y: number },
   { antall, retning, spredning, fart, liv }: { antall: number; retning: number; spredning: number; fart: [number, number]; liv: [number, number] },
+  stil?: Konfettistil,
 ) {
   const f = farger();
+  const fjaer = stil === "konfetti-fjaer";
   for (let i = 0; i < antall; i++) {
     const vinkel = retning + tilfeldig(-spredning / 2, spredning / 2);
     const v = tilfeldig(fart[0], fart[1]);
-    const form: Form = Math.random() < 0.55 ? 0 : Math.random() < 0.6 ? 1 : 2;
+    const form: Form =
+      stil === "konfetti-stjerner"
+        ? Math.random() < 0.75 ? 3 : 2
+        : fjaer
+          ? Math.random() < 0.8 ? 4 : 2
+          : Math.random() < 0.55 ? 0 : Math.random() < 0.6 ? 1 : 2;
     legg({
       x,
       y,
@@ -174,20 +214,20 @@ function utbrudd(
       vrot: tilfeldig(-8, 8),
       flipp: tilfeldig(0, Math.PI * 2),
       vflipp: tilfeldig(6, 14),
-      b: form === 1 ? tilfeldig(12, 18) : form === 2 ? tilfeldig(5, 7) : tilfeldig(7, 11),
-      h: form === 1 ? tilfeldig(3, 4) : tilfeldig(4, 7),
+      b: form === 1 ? tilfeldig(12, 18) : form === 2 ? tilfeldig(5, 7) : form === 3 ? tilfeldig(9, 14) : form === 4 ? tilfeldig(16, 24) : tilfeldig(7, 11),
+      h: form === 1 ? tilfeldig(3, 4) : form === 4 ? tilfeldig(5, 7) : tilfeldig(4, 7),
       farge: f[(Math.random() * f.length) | 0],
       form,
-      liv: tilfeldig(liv[0], liv[1]),
-      tyngde: tilfeldig(650, 950),
-      drag: tilfeldig(0.95, 0.97),
+      liv: tilfeldig(liv[0], liv[1]) * (fjaer ? 1.3 : 1),
+      tyngde: fjaer ? tilfeldig(380, 560) : tilfeldig(650, 950),
+      drag: fjaer ? tilfeldig(0.93, 0.95) : tilfeldig(0.95, 0.97),
     });
   }
 }
 
 // Konfetti fra et element. «stor»: alt riktig og nye rekorder – også fra begge
-// sidene nederst. «liten»: godt resultat.
-export function konfetti(kilde?: Kilde, niva: "liten" | "stor" = "stor") {
+// sidene nederst. «liten»: godt resultat. stil: konfetti eleven har kjøpt.
+export function konfetti(kilde?: Kilde, niva: "liten" | "stor" = "stor", stil?: Konfettistil) {
   if (avAv()) return;
   sikreLerret();
   const p = punkt(kilde);
@@ -198,13 +238,13 @@ export function konfetti(kilde?: Kilde, niva: "liten" | "stor" = "stor") {
     spredning: Math.PI * 0.85,
     fart: stor ? [750, 1500] : [550, 1050],
     liv: [2, 3],
-  });
+  }, stil);
   if (stor) {
     const h = window.innerHeight;
     const w = window.innerWidth;
     const fart: [number, number] = [Math.max(h, 700) * 1.25, Math.max(h, 700) * 1.9];
-    utbrudd({ x: -10, y: h * 0.85 }, { antall: 60, retning: -Math.PI * 0.34, spredning: 0.45, fart, liv: [2.2, 3] });
-    utbrudd({ x: w + 10, y: h * 0.85 }, { antall: 60, retning: -Math.PI * 0.66, spredning: 0.45, fart, liv: [2.2, 3] });
+    utbrudd({ x: -10, y: h * 0.85 }, { antall: 60, retning: -Math.PI * 0.34, spredning: 0.45, fart, liv: [2.2, 3] }, stil);
+    utbrudd({ x: w + 10, y: h * 0.85 }, { antall: 60, retning: -Math.PI * 0.66, spredning: 0.45, fart, liv: [2.2, 3] }, stil);
   }
   start();
 }

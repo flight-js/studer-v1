@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Flamme } from "@/components/icons";
 import { gnister } from "@/lib/feiring";
+import { useUtseende } from "@/lib/utseende";
 
 // Riktige svar på rad, som et lite flammemerke ved siden av telleren øverst.
 // Vises fra to på rad, tallet hopper for hvert nytt riktig svar, og hver femte
@@ -21,6 +22,8 @@ export function Rekke({ antall, enhet = "på rad" }: { antall: number; enhet?: s
   }
 
   const merke = useRef<HTMLSpanElement>(null);
+  // Flammefargen eleven har kjøpt med poeng (standard: mørk, rød fra fem på rad).
+  const { flamme } = useUtseende();
   useEffect(() => {
     if (antall >= 5 && antall % 5 === 0) gnister(merke.current, 14);
   }, [antall]);
@@ -40,7 +43,21 @@ export function Rekke({ antall, enhet = "på rad" }: { antall: number; enhet?: s
         antall < 2 ? "rekke-brutt" : ""
       } ${varm ? "shadow-[0_0_0_3px_color-mix(in_oklab,var(--merke)_38%,transparent)]" : ""}`}
     >
-      <Flamme size={14} fylt className={`${varm ? "text-danger" : "text-pa-merke"} ${n >= 10 && antall >= 2 ? "flakk" : ""}`} />
+      <Flamme
+        size={14}
+        fylt
+        className={`${
+          flamme === "flamme-bla"
+            ? "text-primary"
+            : flamme === "flamme-gronn"
+              ? "text-success"
+              : flamme === "flamme-regnbue"
+                ? "flamme-regnbue text-danger"
+                : varm
+                  ? "text-danger"
+                  : "text-pa-merke"
+        } ${n >= 10 && antall >= 2 ? "flakk" : ""}`}
+      />
       <span key={n} className={antall >= 2 ? "rekke-hopp" : ""}>
         {n}
       </span>
