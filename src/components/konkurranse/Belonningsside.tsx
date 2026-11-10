@@ -410,10 +410,13 @@ function Forhandsvisning({ ting }: { ting: string }) {
   }
   if (type === "merke") {
     return (
-      <span aria-hidden="true" className="self-start inline-flex items-center rounded-xl bg-sunken px-3 py-2 text-sm">
-        <span className="font-semibold">Ingrid</span>
-        <Navnemerke merke={ting} />
-        <span className="text-muted"> · Fjordbyen vgs</span>
+      <span aria-hidden="true" className="self-start inline-flex items-center gap-2 rounded-xl bg-sunken px-3 py-2 text-sm">
+        <span className="font-semibold">
+          Ingrid
+          <Navnemerke merke={ting} />
+        </span>
+        <span className="text-muted">·</span>
+        <span className="text-muted">Fjordbyen vgs</span>
       </span>
     );
   }

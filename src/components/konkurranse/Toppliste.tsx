@@ -39,7 +39,15 @@ export function Toppliste({ temaId, avslutning, runde }: { temaId: string; avslu
               <span className="min-w-0 truncate">
                 <span className="font-semibold">{p.navn}</span>
                 <Navnemerke merke={p.merke} />
-                {p.skole && <span className="text-sm text-muted"> · {p.skole}</span>}
+                {p.skole && (
+                  <span className="text-sm text-muted">
+                    <span aria-hidden="true" className="mx-2">
+                      ·
+                    </span>
+                    <span className="sr-only">, </span>
+                    {p.skole}
+                  </span>
+                )}
               </span>
               <span className="font-display text-lg font-semibold tabular-nums">{formaterTid(p.tidMs)}</span>
             </li>
