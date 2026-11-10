@@ -735,12 +735,18 @@ $$;
 -- ---------------------------------------------------------------- Formelmatch
 
 -- Tiden måles også på serveren: start_formelmatch kalles når klokka starter,
--- avslutt_formelmatch når siste par er koblet. Bare runder med alle formlene i
--- temaet (høyst 12) teller på rangeringen.
+-- avslutt_formelmatch når siste par er koblet. Bare standardrunder teller på
+-- rangeringen og for rekordbonus: alle formlene i temaet (12 tilfeldige når
+-- det er flere). Eget utvalg og «øv på de du bommet på» er øving – ellers ville
+-- hver kombinasjon trengt sin egen liste, og nesten ingen ville stått på hver.
+-- Repetisjonstemaet («hele faget», 12 tilfeldige fra alle temaene) er listen
+-- der flest i faget møtes. standard: appen sier fra når runden startes; en
+-- elev som endrer appen kan lyve om det, men tiden måles uansett her.
 create table public.formelmatch_runder (
   id uuid primary key default gen_random_uuid(),
   bruker_id uuid not null references auth.users (id) on delete cascade,
   tema_id text not null references public.temaer (id) on delete cascade,
+  standard boolean not null default true,
   startet timestamptz not null default now(),
   ferdig timestamptz,
   tid_ms int,
@@ -759,7 +765,7 @@ grant select on public.formelmatch_runder to authenticated;
 create policy "Brukere kan lese egne formelmatch-runder" on public.formelmatch_runder
   for select to authenticated using ((select auth.uid()) = bruker_id);
 
-create function public.start_formelmatch(p_tema_id text)
+create function public.start_formelmatch(p_tema_id text, p_standard boolean default true)
 returns uuid
 language plpgsql
 security definer
@@ -782,7 +788,9 @@ begin
   if (select count(*) from public.formelmatch_runder r where r.bruker_id = v_bruker and r.startet > now() - interval '1 hour') >= 60 then
     raise exception 'For mange runder på kort tid';
   end if;
-  insert into public.formelmatch_runder (bruker_id, tema_id) values (v_bruker, p_tema_id) returning id into v_id;
+  insert into public.formelmatch_runder (bruker_id, tema_id, standard)
+  values (v_bruker, p_tema_id, coalesce(p_standard, true))
+  returning id into v_id;
   return v_id;
 end;
 $$;
@@ -826,7 +834,7 @@ begin
   -- for nettverket), og ingen klarer et par på under 0,6 sekunder.
   v_tid := greatest(coalesce(p_tid_ms, 0), v_brukt - 3000);
   v_min := greatest(coalesce(p_par, 0), 1) * 600;
-  v_teller := coalesce(p_par, 0) >= v_antall and v_tid >= v_min;
+  v_teller := v_runde.standard and coalesce(p_par, 0) >= v_antall and v_tid >= v_min;
 
   select min(r.tid_ms) into v_forrige from public.formelmatch_runder r
   where r.bruker_id = v_bruker and r.tema_id = v_runde.tema_id and r.teller;
@@ -1523,7 +1531,7 @@ grant execute on function public.kallenavn_helord() to authenticated;
 revoke execute on function public.gi_poeng(uuid, text, text, numeric, int) from public, anon, authenticated;
 
 revoke execute on function public.lagre_resultat(text, text, numeric, int) from public, anon;
-revoke execute on function public.start_formelmatch(text) from public, anon;
+revoke execute on function public.start_formelmatch(text, boolean) from public, anon;
 revoke execute on function public.avslutt_formelmatch(uuid, int, int, int) from public, anon;
 revoke execute on function public.formelmatch_toppliste(text, int) from public, anon;
 revoke execute on function public.poengliste(text, int) from public, anon;
@@ -1547,7 +1555,7 @@ revoke execute on function public.vennegave_los_inn() from public, anon;
 revoke execute on function public.vennegaver_rydd() from public, anon, authenticated;
 
 grant execute on function public.lagre_resultat(text, text, numeric, int) to authenticated;
-grant execute on function public.start_formelmatch(text) to authenticated;
+grant execute on function public.start_formelmatch(text, boolean) to authenticated;
 grant execute on function public.avslutt_formelmatch(uuid, int, int, int) to authenticated;
 grant execute on function public.formelmatch_toppliste(text, int) to authenticated;
 grant execute on function public.poengliste(text, int) to authenticated;

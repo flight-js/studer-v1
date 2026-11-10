@@ -230,7 +230,11 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
             <ul className="grid sm:grid-cols-2 gap-x-10 border-t border-border-strong">
               <Regel navn="Quizrunde" poeng="10–15" forklaring="Flere poeng jo flere du har riktig." />
               <Regel navn="Miniprøve" poeng="15–25" forklaring="Flere poeng jo bedre resultat." />
-              <Regel navn="Formelmatch" poeng="10" forklaring="Raskeste tider havner på topplista for temaet." />
+              <Regel
+                navn="Formelmatch"
+                poeng="10"
+                forklaring="Raskeste tider med alle formlene havner på topplista for temaet og for hele faget."
+              />
               <Regel
                 navn="Dagens første øving"
                 poeng="5–15"

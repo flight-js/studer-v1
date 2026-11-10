@@ -211,8 +211,11 @@ export async function hentToppliste(temaId: string): Promise<Med<Toppplass[]>> {
 }
 
 // Spillet skal virke også uten rangering: feil gir null, aldri et unntak.
-export async function startFormelmatch(temaId: string): Promise<string | null> {
-  const { data, error } = await supabase.rpc("start_formelmatch", { p_tema_id: temaId });
+// standard: runden har alle formlene i temaet (12 tilfeldige når det er flere).
+// Bare standardrunder teller på topplista og for rekordbonus; eget utvalg og
+// «øv på de du bommet på» er øving.
+export async function startFormelmatch(temaId: string, standard: boolean): Promise<string | null> {
+  const { data, error } = await supabase.rpc("start_formelmatch", { p_tema_id: temaId, p_standard: standard });
   if (error) {
     if (!ikkeSattOpp(error)) console.error("Kunne ikke starte runden på serveren:", error.message);
     return null;

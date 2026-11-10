@@ -130,7 +130,8 @@ export default function Vilkar() {
           <p>
             Du får poeng når du øver i Studer, etter reglene som står på siden Konkurranse. Hver øving gir poeng høyst
             én gang per døgn, og det er et tak på hvor mange poeng du kan få per dag. Ny personlig rekord i formelmatch
-            gir bonuspoeng som ikke teller mot taket, høyst tre ganger per dag.
+            gir bonuspoeng som ikke teller mot taket, høyst tre ganger per dag. På topplistene i formelmatch og for
+            rekorder teller bare runder med alle formlene i temaet eller faget.
           </p>
           <ul>
             <li>Poengene har ingen pengeverdi. De kan ikke kjøpes, selges, overføres til andre eller veksles i penger.</li>

@@ -301,8 +301,28 @@ Stoppes:
   0 ≤ resultat ≤ antall).
 - Taket på 150 per døgn og én gang per øving begrenser hva juks kan gi.
 - Formelmatch-tid kan ikke oppgis kortere enn tiden serveren har målt (minus
-  3 sekunder), og under 0,6 sekunder per par teller ikke. Bare runder med alle
-  formlene teller på topplista.
+  3 sekunder), og under 0,6 sekunder per par teller ikke. Bare standardrunder
+  teller på topplista (se under). At runden er en standardrunde, sier appen
+  fra om når den startes – en elev som endrer appen kan lyve om det, men tiden
+  måles uansett på serveren.
+
+### Topplistene i formelmatch
+
+Med eget utvalg av formler (og flere temaer i repetisjonen) finnes det svært
+mange kombinasjoner. En liste per kombinasjon ville hatt nesten ingen på hver,
+og én liste for alle utvalg ville vært urettferdig (12 lette formler mot 12
+tilfeldige). Derfor:
+
+- **Bare standardrunden teller**: alle formlene i temaet, 12 tilfeldige når
+  det er flere (`formelmatch_runder.standard`, `start_formelmatch(tema,
+  standard)`). Eget utvalg og «øv på de du bommet på» er øving: vanlige poeng,
+  men ikke topplista, rekorden i nettleseren eller rekordbonus. Startskjermen
+  sier «Teller på topplista» eller «Eget utvalg – teller ikke …» med «Velg alle».
+- **Én liste per tema og én per fag.** «Repetisjon av hele faget» (12
+  tilfeldige fra alle temaene) er lista der flest i faget møtes. Formler fra
+  flere temaer velges der; i et vanlig tema peker «Velg formler» og et tips dit.
+- **Har færre enn tre spilt temaet**, viser resultatskjermen også lista for
+  hele faget, med lenke til å spille den (`Toppliste`, prop `faget`).
 - Innløsning: kontoen må være minst en uke gammel, én kode per belønning per
   person, og en lås hindrer dobbeltbruk av samme poeng.
 - Poeng krever tilgang (abonnement eller prøveperiode med kortsjekk).

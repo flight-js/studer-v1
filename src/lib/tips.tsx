@@ -70,10 +70,25 @@ export const TIPS = {
       tekst: "Spørsmålene trekkes på nytt hver gang, så miniprøven blir litt annerledes neste gang du tar den.",
     },
   ],
+  // I et vanlig tema. (Det gamle tipset «formelutvalg» er erstattet av disse.)
   formelmatch: [
     {
-      id: "formelutvalg",
-      tekst: "Under «Velg formler» kan du øve på bare noen av formlene. I repetisjonen kan du velge hele temaer.",
+      id: "flere-temaer",
+      tekst:
+        "Vil du øve på formler fra flere temaer samtidig? Gå til «Repetisjon av hele faget» sist i faget, og velg temaene under «Velg formler».",
+    },
+    {
+      id: "formelutvalg-topp",
+      tekst:
+        "Under «Velg formler» kan du øve på bare noen av formlene. Topplista teller bare runder med alle formlene, så alle konkurrerer på det samme.",
+    },
+  ],
+  // I «Repetisjon av hele faget».
+  formelmatchFaget: [
+    {
+      id: "faget-temaer",
+      tekst:
+        "Under «Velg formler» velger du hvilke temaer formlene skal komme fra. Topplista for hele faget teller bare runder med alle temaene.",
     },
   ],
 } satisfies Record<string, Tips[]>;

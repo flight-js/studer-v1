@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment, useEffect, useLayoutEffect, useReducer, useRef, useState, useSyncExternalStore } from "react";
 import { Feiringsmerke } from "@/components/Feiringsmerke";
 import { Avkrysning } from "@/components/Avkrysning";
-import { ArrowRight, ChevronRight, Repeat, Stjerne } from "@/components/icons";
+import { ArrowRight, ChevronRight, Pokal, Repeat, Stjerne } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rekke } from "@/components/Rekke";
 import { Tall } from "@/components/Tall";
@@ -26,7 +26,7 @@ import {
   type Brikke,
 } from "@/lib/formelmatch";
 import { avsluttFormelmatch, startFormelmatch, type Avslutning } from "@/lib/konkurranse";
-import { type Formel } from "@/lib/pensum";
+import { REPETISJON, temaHref, temaId as lagTemaId, type Formel } from "@/lib/pensum";
 import { stokk } from "@/lib/stokk";
 import { TIPS } from "@/lib/tips";
 
@@ -35,6 +35,12 @@ import { TIPS } from "@/lib/tips";
 // likhetstegnet, den neste til høyre. Er det et par, lyser likningen grønt og
 // brikkene forsvinner. Er det feil, rister den, brikkene går tilbake, og det
 // koster ett sekund. Tomme plasser blir stående, så brikkene ikke flytter seg.
+//
+// Standardrunde: alle formlene i temaet (12 tilfeldige når det er flere). Bare
+// den teller på topplista, som rekord og for rekordbonus – så alle på lista har
+// spilt det samme. Eget utvalg og «øv på de du bommet på» er øving. Formler fra
+// flere temaer velger eleven i «Repetisjon av hele faget», som har sin egen
+// liste for hele faget.
 
 const STRAFF = 1000;
 const VIS_RIKTIG = 420; // ms likningen står grønn før paret forsvinner
@@ -113,6 +119,14 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
   const alle = formler.map(formelNokkel);
   const valgt = endret !== undefined ? (endret ?? new Set(alle)) : tolkUtvalg(lagret, alle);
   const valgte = formler.filter((f) => valgt.has(formelNokkel(f)));
+  const alleValgt = valgte.length === formler.length;
+  // Hele faget (repetisjonstemaet) i samme fag: der velges flere temaer, og
+  // lista der er reserven når få har spilt dette temaet.
+  const [fagId, slug] = temaId.split(":");
+  const erRepetisjon = slug === REPETISJON;
+  const faget = erRepetisjon ? null : { temaId: lagTemaId(fagId, REPETISJON), href: temaHref("/formler", lagTemaId(fagId, REPETISJON)) };
+  // Om runden som spilles nå, er en standardrunde.
+  const [standard, setStandard] = useState(true);
   const [start, setStart] = useState(0);
   const [na, setNa] = useState(0);
   const [tid, setTid] = useState(0);
@@ -160,8 +174,9 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
     const t = setTimeout(() => {
       if (s.brettNr + 1 < runde.length) return send({ type: "neste" });
       const ms = s.sist - start + s.straffer * STRAFF;
+      // Rekorden gjelder bare standardrunder (samme regel som topplista).
       const forrige = lesRekord(temaId);
-      const ny = forrige === null || ms < forrige;
+      const ny = standard && (forrige === null || ms < forrige);
       if (ny) lagreRekord(temaId, ms);
       setTid(ms);
       setRekord({ forrige, ny });
@@ -176,7 +191,7 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
         .then((res) => setAvslutning((a) => ({ nr: a.nr + 1, res })));
     }, BORTE);
     return () => clearTimeout(t);
-  }, [fase, tomt, s.brettNr, s.sist, s.straffer, runde.length, start, temaId, antallPar]);
+  }, [fase, tomt, s.brettNr, s.sist, s.straffer, runde.length, start, temaId, antallPar, standard]);
 
   // Brikken glir opp i likningen: innholdet i plassen begynner der brikken står,
   // og glir på plass (FLIP).
@@ -192,8 +207,9 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
     el.animate([{ translate: `${dx}px ${dy}px`, opacity: 0.5 }, { translate: "0 0", opacity: 1 }], GLI);
   }, [s.likning]);
 
-  function begynn(ny: Brett[]) {
-    serverRunde.current = startFormelmatch(temaId);
+  function begynn(ny: Brett[], erStandard: boolean) {
+    serverRunde.current = startFormelmatch(temaId, erStandard);
+    setStandard(erStandard);
     setRunde(ny);
     send({ type: "ny" });
     const no = performance.now();
@@ -261,7 +277,8 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
             }}
             kan={kanSpilles(valgte)}
             temaId={temaId}
-            onStart={() => begynn(lagRunde(valgte))}
+            faget={faget}
+            onStart={() => begynn(lagRunde(valgte), alleValgt)}
           />
         )}
 
@@ -337,11 +354,20 @@ export function Formelmatch({ temaId, formler, tilbake }: { temaId: string; form
             bommet={s.bommet}
             flere={valgte.length > MAKS_PER_RUNDE}
             tilbake={tilbake}
-            onIgjen={() => begynn(lagRunde(valgte))}
-            onBommet={() => begynn(lagRunde(medBommet(runde.flatMap((r) => r.formler), s.bommet, valgte)))}
+            standard={standard}
+            onIgjen={() => begynn(lagRunde(valgte), alleValgt)}
+            onBommet={() => begynn(lagRunde(medBommet(runde.flatMap((r) => r.formler), s.bommet, valgte)), false)}
             onVelg={() => setFase("start")}
             rekordpoeng={avslutning.res?.rekordpoeng ?? 0}
-            toppliste={<Toppliste temaId={temaId} avslutning={avslutning.res} runde={avslutning.nr} />}
+            toppliste={
+              <Toppliste
+                temaId={temaId}
+                avslutning={avslutning.res}
+                runde={avslutning.nr}
+                egetUtvalg={!standard}
+                faget={faget}
+              />
+            }
           />
         )}
       </main>
@@ -454,6 +480,7 @@ function Startskjerm({
   onEndre,
   kan,
   temaId,
+  faget,
   onStart,
 }: {
   formler: Formel[];
@@ -461,12 +488,15 @@ function Startskjerm({
   onEndre: (ny: Set<string>) => void;
   kan: boolean;
   temaId: string;
+  // Hele faget, når dette er et vanlig tema (null i repetisjonstemaet).
+  faget: { temaId: string; href: string } | null;
   onStart: () => void;
 }) {
   const rekord = useSyncExternalStore(ingen, () => lesRekord(temaId), () => null);
   const [apen, setApen] = useState(false);
   const n = formler.length;
   const m = formler.filter((f) => valgt.has(formelNokkel(f))).length;
+  const alle = m === n;
   const omfang =
     m === n
       ? n > MAKS_PER_RUNDE
@@ -494,7 +524,35 @@ function Startskjerm({
           <span className="flex-1 self-stretch rounded-xl border-[1.5px] border-dashed border-border-strong" />
         </div>
       )}
-      <Utvalg formler={formler} valgt={valgt} onEndre={onEndre} apen={apen} onApne={() => setApen(!apen)} />
+      <Utvalg
+        formler={formler}
+        valgt={valgt}
+        onEndre={onEndre}
+        apen={apen}
+        onApne={() => setApen(!apen)}
+        faget={faget}
+      />
+      {/* Om runden kommer på topplista: bare med alle formlene. */}
+      {alle ? (
+        <p className="inline-flex items-center gap-1.5 text-sm font-medium text-muted">
+          <Pokal size={16} className="shrink-0" />
+          {faget ? "Teller på topplista for temaet" : "Teller på topplista for hele faget"}
+        </p>
+      ) : (
+        <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-muted">
+          <span>
+            <span className="font-semibold text-foreground">Eget utvalg</span> – fint for å øve, men teller ikke på
+            topplista eller som rekord.
+          </span>
+          <button
+            type="button"
+            onClick={() => onEndre(new Set(formler.map(formelNokkel)))}
+            className="font-semibold text-primary hover:text-primary-dark transition-colors"
+          >
+            Velg alle
+          </button>
+        </p>
+      )}
       <div className="flex flex-col items-center gap-2.5">
         <button
           type="button"
@@ -509,7 +567,7 @@ function Startskjerm({
         {!kan && <p className="text-sm text-muted">Velg minst tre formler med ulik venstreside.</p>}
       </div>
       {/* Under knappen, så det ikke dekker den på mobil. */}
-      <Tips tips={TIPS.formelmatch} />
+      <Tips tips={faget ? TIPS.formelmatch : TIPS.formelmatchFaget} />
     </div>
   );
 }
@@ -526,19 +584,22 @@ function medBommet(forrige: Formel[], bommet: string[], valgte: Formel[]): Forme
 }
 
 // «Velg formler»: en liste med avkrysning, og i repetisjonstemaet knapper for
-// hvert tema som velger eller fjerner alle formlene derfra.
+// hvert tema som velger eller fjerner alle formlene derfra. I et vanlig tema
+// står det nederst hvor man velger formler fra flere temaer.
 function Utvalg({
   formler,
   valgt,
   onEndre,
   apen,
   onApne,
+  faget,
 }: {
   formler: Formel[];
   valgt: Set<string>;
   onEndre: (ny: Set<string>) => void;
   apen: boolean;
   onApne: () => void;
+  faget: { temaId: string; href: string } | null;
 }) {
   const grupper: { tema: string | null; formler: Formel[] }[] = [];
   for (const f of formler) {
@@ -659,6 +720,18 @@ function Utvalg({
               </ul>
             )}
           </div>
+          {faget && (
+            <p className="border-t border-border pt-3 text-sm text-ink-soft">
+              Vil du ha formler fra flere temaer?{" "}
+              <Link
+                href={faget.href}
+                className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground"
+              >
+                Formelmatch med hele faget
+              </Link>{" "}
+              – der velger du hvilke temaer formlene skal komme fra.
+            </p>
+          )}
         </div>
       )}
     </div>
@@ -694,6 +767,7 @@ function Resultat({
   formler,
   bommet,
   flere,
+  standard,
   tilbake,
   onIgjen,
   onBommet,
@@ -707,6 +781,8 @@ function Resultat({
   formler: Formel[];
   bommet: string[];
   flere: boolean;
+  // Standardrunde (alle formlene): bare da teller tiden som rekord.
+  standard: boolean;
   tilbake: string;
   onIgjen: () => void;
   onBommet: () => void;
@@ -715,8 +791,9 @@ function Resultat({
   rekordpoeng: number;
   toppliste: React.ReactNode;
 }) {
-  const melding =
-    rekord.ny && rekord.forrige !== null
+  const melding = !standard
+    ? "Eget utvalg, så tiden teller ikke som rekord eller på topplista. Spill med alle formlene for det."
+    : rekord.ny && rekord.forrige !== null
       ? `Ny rekord! ${sekunder(rekord.forrige - tid).replace(" s", "")} sekunder raskere enn sist.`
       : rekord.ny
         ? "Første runde er unnagjort. Prøv igjen og slå tiden din."

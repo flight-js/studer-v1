@@ -754,7 +754,7 @@ export type Database = {
           snitt: number
         }[]
       }
-      start_formelmatch: { Args: { p_tema_id: string }; Returns: string }
+      start_formelmatch: { Args: { p_tema_id: string; p_standard?: boolean }; Returns: string }
       ai_angre_melding: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_angre_vurdering: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_registrer_melding: {
