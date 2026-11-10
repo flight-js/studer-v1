@@ -16,11 +16,6 @@ export type Brett = { formler: Formel[]; brikker: Brikke[] };
 // Samme tekst skrevet med litt ulike mellomrom regnes som lik.
 const lik = (s: string) => s.replace(/\s/g, "");
 
-// Kan formlene spilles? Minst MINST ulike venstresider, siden samme tekst bare
-// kan stå én gang per brett (samme regel som antall_formler i importen,
-// scripts/lib/pensum-rader.mjs).
-export const spillbar = (formler: Formel[]) => new Set(formler.map((f) => lik(f.venstre))).size >= MINST;
-
 // Riktig par: venstre-brikken har samme tekst som venstresiden i formelen til
 // høyre-brikken. Hver tekst står bare én gang på et brett (se passer), så det
 // finnes alltid nøyaktig ett riktig par for hver brikke.

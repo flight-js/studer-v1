@@ -6,7 +6,7 @@ import { ArrowRight, Formel as FormelIkon } from "@/components/icons";
 import { Formelmatch } from "@/components/ovinger/Formelmatch";
 import { Ovingstopp, useOvingsinnhold } from "@/components/Ovingsramme";
 import { Laster } from "@/components/Tilstand";
-import { MINST, spillbar } from "@/lib/formelmatch";
+import { MINST, kanSpilles } from "@/lib/formelmatch";
 import { REPETISJON, hentFormler, temaHref, temaId as lagTemaId, type Formel } from "@/lib/pensum";
 import { useHent } from "@/lib/useHent";
 
@@ -22,7 +22,7 @@ export default function FormlerPage() {
 
 function FormlerInnhold() {
   const { id, data, tilstand, tilbake } = useOvingsinnhold("formler", hentFormler);
-  if (tilstand || !data || !spillbar(data)) {
+  if (tilstand || !data || !kanSpilles(data)) {
     return (
       <>
         <Ovingstopp tilbake={tilbake} avsluttTekst="Avslutt formelmatch" />
@@ -42,7 +42,7 @@ function ForFaFormler({ temaId, formler, tilbake }: { temaId: string; formler: F
   const erRepetisjon = slug === REPETISJON;
   const faget = useHent(erRepetisjon ? null : `formler:${repetisjon}`, () => hentFormler(repetisjon).catch(() => []));
   if (!erRepetisjon && faget.laster) return <Laster />;
-  const medFaget = !erRepetisjon && spillbar(faget.data ?? []);
+  const medFaget = !erRepetisjon && kanSpilles(faget.data ?? []);
 
   const n = formler.length;
   const tittel = n === 0 ? "Ingen formler i dette temaet" : "For få formler til en runde alene";
