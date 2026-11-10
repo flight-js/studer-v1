@@ -173,7 +173,7 @@ function Seksjon({ tittel, tekst, children }: { tittel: string; tekst: string; c
   return (
     <section aria-labelledby={id} className="flex flex-col gap-5">
       <div className="flex flex-col gap-1">
-        {/* scroll-mt: «Tingene dine» på kontosiden lenker hit (#seksjon-til-appen). */}
+        {/* scroll-mt: «Samlingen din» på kontosiden lenker hit (#seksjon-til-appen). */}
         <h2 id={id} className="scroll-mt-24 text-3xl font-semibold tracking-[-0.02em]">
           {tittel}
         </h2>
@@ -525,7 +525,10 @@ function BrukTing({ ting, brukerId, nyKjopt, start }: { ting: string; brukerId: 
   return (
     <div className={`flex flex-col gap-2 ${nyKjopt ? "rise-rask" : ""}`}>
       <span className="inline-flex items-center gap-2 text-sm font-semibold text-success-ink">
-        <Check size={16} /> {nyKjopt ? "Den er din!" : "Du har denne"}
+        <Check size={16} />
+        <Link href="/konto#samling" className="underline decoration-2 underline-offset-4 decoration-current/30 hover:decoration-current">
+          {nyKjopt ? "Lagt i samlingen din!" : "I samlingen din"}
+        </Link>
         {iBruk && <span className="font-medium text-muted">· i bruk</span>}
       </span>
       <button

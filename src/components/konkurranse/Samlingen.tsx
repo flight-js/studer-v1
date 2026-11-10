@@ -18,7 +18,7 @@ import {
   type Tingtype,
 } from "@/lib/utseende";
 
-// På kontosiden: tingene eleven har kjøpt med poeng, gruppert etter type. Hver
+// «Samlingen din» på kontosiden: det eleven har kjøpt med poeng, gruppert etter type. Hver
 // type er et radiovalg – Standard og det eleven eier – og et trykk tar tingen i
 // bruk med en gang: temaet på hele siden, flammen på rekka, konfettien og
 // merket ved navnet. Typer eleven ikke eier noe av, vises ikke. Uten
@@ -27,7 +27,7 @@ import {
 const EKSEMPEL = ["tema-nordlys", "tema-galakse", "flamme-bla", "flamme-regnbue", "konfetti-stjerner", "merke-stjerne"];
 const BUTIKK = "/belonninger#seksjon-til-appen";
 
-export function Tingenedine({ brukerId, fornavn }: { brukerId: string; fornavn: string | null }) {
+export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: string | null }) {
   const ting = useHent(`mine-ting:${brukerId}`, () => hentMineTing(brukerId));
   const { valgt, klar } = useUtseendeStatus();
   // Valget som lagres nå, så det vises med en gang (og rulles tilbake ved feil).
@@ -61,24 +61,25 @@ export function Tingenedine({ brukerId, fornavn }: { brukerId: string; fornavn: 
   }
 
   return (
-    <section id="ting" aria-labelledby="ting-tittel" className="scroll-mt-24 border-t border-border pt-8 flex flex-col gap-6">
+    <section id="samling" aria-labelledby="samling-tittel" className="scroll-mt-24 border-t border-border pt-8 flex flex-col gap-6">
       <div className="flex flex-col gap-2">
-        <h2 id="ting-tittel" className="font-display text-xl font-semibold">
-          Tingene dine
+        <h2 id="samling-tittel" className="font-display text-xl font-semibold">
+          Samlingen din
         </h2>
         <p className="text-sm text-ink-soft leading-relaxed max-w-[56ch]">
-          Det du har kjøpt med poeng. Trykk på det du vil bruke – du kan bytte så ofte du vil.
+          Temaer, flammer, konfetti og merker du har kjøpt med poeng. Trykk på det du vil bruke – du kan bytte så
+          ofte du vil.
         </p>
       </div>
 
       {ting.laster || !klar ? (
         <span className="h-48 rounded-2xl bg-sunken animate-pulse" aria-hidden="true" />
       ) : ting.feil ? (
-        <p className="text-sm text-danger-ink">Fikk ikke hentet tingene dine. Last siden på nytt for å prøve igjen.</p>
+        <p className="text-sm text-danger-ink">Fikk ikke hentet samlingen din. Last siden på nytt for å prøve igjen.</p>
       ) : !typer.length ? (
         <div className="rounded-2xl border border-dashed border-border-strong px-5 py-8 flex flex-col items-center text-center gap-3">
           <Gave size={26} className="text-muted" />
-          <p className="font-semibold">Du har ingen ting ennå</p>
+          <p className="font-semibold">Samlingen din er tom</p>
           <p className="text-sm text-ink-soft max-w-[44ch]">
             Bytt poengene dine i temaer for hele Studer, flammefarger, konfetti og merker ved navnet.
           </p>
