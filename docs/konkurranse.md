@@ -116,13 +116,13 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 | --- | --- | --- |
 | En gratis uke | 1 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
 | Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen lager konto med adressen, trykker «Løs inn gaven» og får tilgang til alt i en uke – uten kort |
-| Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
-| Regnbueflamme | 1 200 | Flammen skifter farge |
-| Stjerne- / fjærkonfetti | 600 | Konfettien på resultatskjermene og ved innløsning |
-| Fjærpenn / lyspære / stjerne ved navnet | 500 | Vises ved navnet på ukelista og topplistene |
-| Tema: Solnedgang / Havdyp / Skog | 1 000 | Premium-tema for hele nettsiden: egen palett (bakgrunn, kort, tekst, knapper) og en fargeglød bak innholdet. Solnedgang er lyst, de andre mørke |
-| Tema: Nordlys | 1 200 | Som over, mørkt med grønt og lilla nordlys |
-| Tema: Galakse | 1 500 | Som over, lilla med små stjerner |
+| Blå / grønn flamme | 200 | Flammen i rekka (quiz, formelmatch) får ny farge |
+| Regnbueflamme | 600 | Flammen skifter farge |
+| Stjerne- / fjærkonfetti | 300 | Konfettien på resultatskjermene og ved innløsning |
+| Fjærpenn / lyspære / stjerne ved navnet | 250 | Vises ved navnet på ukelista og topplistene |
+| Tema: Solnedgang / Havdyp / Skog | 500 | Premium-tema for hele nettsiden: egen palett (bakgrunn, kort, tekst, knapper) og en fargeglød bak innholdet. Solnedgang er lyst, de andre mørke |
+| Tema: Nordlys | 600 | Som over, mørkt med grønt og lilla nordlys |
+| Tema: Galakse | 750 | Som over, lilla med små stjerner |
 
 - **Gratis tid** (typen `kreditt`) går gjennom serverfunksjonen `betaling`
   (`handling: "kreditt"`): poengene trekkes i databasen (`kreditt_start`),

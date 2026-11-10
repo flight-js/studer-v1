@@ -1382,19 +1382,19 @@ select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegave
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
   ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
   ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis – uten å legge inn kort.', 'Bare for nye brukere. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
-  ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
-  ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
-  ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 1200, 'ting', 'flamme-regnbue'),
-  ('Studer', 'Stjernekonfetti', 'Stjerner i stedet for papirlapper når du får til noe.', '', 600, 'ting', 'konfetti-stjerner'),
-  ('Studer', 'Fjærkonfetti', 'Fjærpenner som daler ned når du får til noe.', '', 600, 'ting', 'konfetti-fjaer'),
-  ('Studer', 'Fjærpenn ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-fjaer'),
-  ('Studer', 'Lyspære ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-lyspare'),
-  ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-stjerne'),
-  ('Studer', 'Tema: Nordlys', 'Hele Studer i mørkt, med grønt og lilla nordlys.', '', 1200, 'ting', 'tema-nordlys'),
-  ('Studer', 'Tema: Solnedgang', 'Hele Studer i lyst fersken, med oransje og rosa himmel.', '', 1000, 'ting', 'tema-solnedgang'),
-  ('Studer', 'Tema: Havdyp', 'Hele Studer i dypblått, med turkis lys.', '', 1000, 'ting', 'tema-havdyp'),
-  ('Studer', 'Tema: Skog', 'Hele Studer i mørk skog, med lysegrønt lys.', '', 1000, 'ting', 'tema-skog'),
-  ('Studer', 'Tema: Galakse', 'Hele Studer under en lilla stjernehimmel.', '', 1500, 'ting', 'tema-galakse');
+  ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 200, 'ting', 'flamme-bla'),
+  ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 200, 'ting', 'flamme-gronn'),
+  ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 600, 'ting', 'flamme-regnbue'),
+  ('Studer', 'Stjernekonfetti', 'Stjerner i stedet for papirlapper når du får til noe.', '', 300, 'ting', 'konfetti-stjerner'),
+  ('Studer', 'Fjærkonfetti', 'Fjærpenner som daler ned når du får til noe.', '', 300, 'ting', 'konfetti-fjaer'),
+  ('Studer', 'Fjærpenn ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 250, 'ting', 'merke-fjaer'),
+  ('Studer', 'Lyspære ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 250, 'ting', 'merke-lyspare'),
+  ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 250, 'ting', 'merke-stjerne'),
+  ('Studer', 'Tema: Nordlys', 'Hele Studer i mørkt, med grønt og lilla nordlys.', '', 600, 'ting', 'tema-nordlys'),
+  ('Studer', 'Tema: Solnedgang', 'Hele Studer i lyst fersken, med oransje og rosa himmel.', '', 500, 'ting', 'tema-solnedgang'),
+  ('Studer', 'Tema: Havdyp', 'Hele Studer i dypblått, med turkis lys.', '', 500, 'ting', 'tema-havdyp'),
+  ('Studer', 'Tema: Skog', 'Hele Studer i mørk skog, med lysegrønt lys.', '', 500, 'ting', 'tema-skog'),
+  ('Studer', 'Tema: Galakse', 'Hele Studer under en lilla stjernehimmel.', '', 750, 'ting', 'tema-galakse');
 
 -- ---------------------------------------------------------------- Slik legges partnerbelønninger inn
 --
