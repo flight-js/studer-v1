@@ -181,17 +181,28 @@ function Tema() {
                 resultat={f?.miniprove}
                 icon={<Timer size={22} />}
               />
-              {t.antallFormler >= MINST && (
-                <ModeCard
-                  nr={4}
-                  href={temaHref("/formler", id)}
-                  laast={laast}
-                  title="Formelmatch"
-                  text={<>{t.antallFormler} formler<Dot />koble sidene på tid</>}
-                  icon={<Formel size={22} />}
-                  bred
-                />
-              )}
+              {/* Står på alle temaer. Har temaet for få formler, forklarer
+                  formelmatch-siden det og tilbyr formlene fra hele faget. */}
+              <ModeCard
+                nr={4}
+                href={temaHref("/formler", id)}
+                laast={laast}
+                title="Formelmatch"
+                text={
+                  t.antallFormler >= MINST ? (
+                    <>
+                      {t.antallFormler} formler<Dot />koble sidene på tid
+                    </>
+                  ) : (
+                    <>
+                      Koble sidene på tid<Dot />få formler i dette temaet
+                    </>
+                  )
+                }
+                icon={<Formel size={22} />}
+                bred
+              />
+
             </div>
             <Abonnementskort neste={temaHref("/tema", id)} />
             {t.status !== "godkjent" && (
