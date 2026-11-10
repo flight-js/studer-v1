@@ -29,8 +29,8 @@ export type Poengstatus = {
 export type Merkefremgang = { merke: string; verdi: number; mal: number; tjent: string | null; ny: boolean };
 // navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
 // synlig for andre (har skjult fornavnet uten å velge kallenavn).
-// merke: tingen eleven viser ved navnet (merke-fjaer …), se lib/utseende.ts.
-export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean; merke?: string | null };
+// merker: opptil tre merker eleven viser ved navnet (merke-fjaer, merke-uke …).
+export type Plassering = { plass: number; navn: string; skole: string | null; poeng: number; erMeg: boolean; merker?: string[] };
 export type Skoleplass = {
   plass: number;
   skoleId: string;
@@ -48,7 +48,7 @@ export type Toppplass = {
   tidMs: number;
   erMeg: boolean;
   antall: number;
-  merke?: string | null;
+  merker?: string[];
 };
 // rekordpoeng: bonus for ny personlig rekord (utenom dagstaket), ellers 0.
 export type Avslutning = { tidMs: number; teller: boolean; forrigeBeste: number | null; poeng: number; rekordpoeng: number };
@@ -166,7 +166,7 @@ export async function hentPoengliste(omrade: Omrade): Promise<Med<Plassering[]>>
       skole: r.skole,
       poeng: r.poeng,
       erMeg: r.er_meg,
-      merke: r.merke,
+      merker: r.merker ?? [],
     })),
   };
 }
@@ -204,7 +204,7 @@ export async function hentToppliste(temaId: string): Promise<Med<Toppplass[]>> {
       skole: r.skole,
       tidMs: r.tid_ms,
       erMeg: r.er_meg,
-      merke: r.merke,
+      merker: r.merker ?? [],
       antall: r.antall,
     })),
   };
@@ -549,14 +549,14 @@ const EKSEMPEL = {
   ] satisfies Merkefremgang[],
   poengliste: {
     alle: [
-      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
-      { plass: 2, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", poeng: 925, erMeg: false },
+      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false, merker: ["merke-uke", "merke-stjerne", "merke-rekord"] },
+      { plass: 2, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", poeng: 925, erMeg: false, merker: ["merke-kort"] },
       { plass: 3, navn: "Mia", skole: "Elvedalen skole (eksempel)", poeng: 870, erMeg: false },
       { plass: 4, navn: "Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
       { plass: 5, navn: "Deg", skole: null, poeng: 310, erMeg: true },
     ],
     skole: [
-      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
+      { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false, merker: ["merke-uke", "merke-stjerne", "merke-rekord"] },
       { plass: 2, navn: "Aksel", skole: "Fjordbyen vgs (eksempel)", poeng: 640, erMeg: false },
       { plass: 3, navn: "Deg", skole: "Fjordbyen vgs (eksempel)", poeng: 310, erMeg: true },
     ],
@@ -571,7 +571,7 @@ const EKSEMPEL = {
     { plass: 3, skoleId: "e3", skole: "Bakkely ungdomsskole (eksempel)", kommune: "Eksempeldal", elever: 3, poeng: 810, snitt: 270, erMin: false },
   ] satisfies Skoleplass[],
   toppliste: [
-    { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", tidMs: 14800, erMeg: false, antall: 4 },
+    { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", tidMs: 14800, erMeg: false, antall: 4, merker: ["merke-uke", "merke-stjerne", "merke-rekord"] },
     { plass: 2, navn: "Mia", skole: "Elvedalen skole (eksempel)", tidMs: 17300, erMeg: false, antall: 4 },
     { plass: 3, navn: "Deg", skole: null, tidMs: 21900, erMeg: true, antall: 4 },
     { plass: 4, navn: "Jonas", skole: "Bakkely ungdomsskole (eksempel)", tidMs: 26400, erMeg: false, antall: 4 },

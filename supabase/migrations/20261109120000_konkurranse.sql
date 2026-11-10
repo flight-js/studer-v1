@@ -364,13 +364,14 @@ create policy "Elever ser sine egne ting" on public.eiendeler
   for select to authenticated using (bruker_id = auth.uid());
 
 -- Hvilke ting eleven bruker. Bare ting eleven eier (sjekk_valgte_ting).
--- valgt_tema: premium-tema som farger natt-flatene i appen (se globals.css).
+-- valgte_merker: opptil tre merker ved navnet (kjøpte eller tjente), i den
+-- rekkefølgen de vises. valgt_tema: premium-tema for hele siden (se globals.css).
 alter table public.profiles
   add column valgt_flamme text,
   add column valgt_konfetti text,
-  add column valgt_merke text,
+  add column valgte_merker text[] not null default '{}' check (cardinality(valgte_merker) <= 3),
   add column valgt_tema text;
-grant update (valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema) on public.profiles to authenticated;
+grant update (valgt_flamme, valgt_konfetti, valgte_merker, valgt_tema) on public.profiles to authenticated;
 
 create function public.sjekk_valgte_ting()
 returns trigger
@@ -379,22 +380,31 @@ security definer
 set search_path = ''
 as $$
 begin
+  if cardinality(new.valgte_merker) > 3 then
+    raise exception using errcode = '23514', message = 'Du kan ha høyst tre merker ved navnet.';
+  end if;
   if (new.valgt_flamme is not null and (new.valgt_flamme not like 'flamme-%'
         or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_flamme)))
     or (new.valgt_konfetti is not null and (new.valgt_konfetti not like 'konfetti-%'
         or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_konfetti)))
-    or (new.valgt_merke is not null and (new.valgt_merke not like 'merke-%'
-        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_merke)))
+    or exists (
+      select 1 from unnest(new.valgte_merker) m
+      where m is null or m not like 'merke-%'
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = m)
+    )
     or (new.valgt_tema is not null and (new.valgt_tema not like 'tema-%'
         or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_tema))) then
     raise exception using errcode = '23514', message = 'Du har ikke den tingen.';
+  end if;
+  if cardinality(new.valgte_merker) <> (select count(distinct m) from unnest(new.valgte_merker) m) then
+    raise exception using errcode = '23514', message = 'Samme merke kan bare velges én gang.';
   end if;
   return new;
 end;
 $$;
 
 create trigger profiles_sjekk_valgte_ting
-  before update of valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema on public.profiles
+  before update of valgt_flamme, valgt_konfetti, valgte_merker, valgt_tema on public.profiles
   for each row execute function public.sjekk_valgte_ting();
 
 -- Gaver til en venn. Eleven skriver vennens e-postadresse, og Studer sender
@@ -850,7 +860,7 @@ $$;
 -- Topplisten for et tema: beste tid per elev. Eleven ser alltid seg selv, også
 -- når hen ikke er synlig for andre.
 create function public.formelmatch_toppliste(p_tema_id text, p_antall int default 10)
-returns table (plass int, navn text, skole text, tid_ms int, er_meg boolean, antall int, merke text)
+returns table (plass int, navn text, skole text, tid_ms int, er_meg boolean, antall int, merker text[])
 language sql
 stable
 security definer
@@ -864,17 +874,17 @@ as $$
   ), synlige as (
     select b.bruker_id, b.tid_ms, s.navn as skole,
            coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn,
-           p.valgt_merke as merke
+           p.valgte_merker as merker
     from beste b
     join public.profiles p on p.id = b.bruker_id
     left join public.skoler s on s.id = p.skole_id
     where public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn) is not null or b.bruker_id = auth.uid()
   ), rangert as (
     select rank() over (order by tid_ms)::int as plass, navn, skole, tid_ms,
-           bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall, merke
+           bruker_id = auth.uid() as er_meg, (count(*) over ())::int as antall, merker
     from synlige
   )
-  select plass, navn, skole, tid_ms, er_meg, antall, merke
+  select plass, navn, skole, tid_ms, er_meg, antall, merker
   from rangert
   where plass <= least(greatest(p_antall, 1), 50) or er_meg
   order by plass, navn;
@@ -885,7 +895,7 @@ $$;
 -- Ukeslista: poeng tjent denne uka (mandag–søndag, norsk tid). Innløste poeng
 -- trekkes ikke fra. p_omrade: 'alle', 'skole' eller 'trinn'.
 create function public.poengliste(p_omrade text default 'alle', p_antall int default 50)
-returns table (plass int, navn text, skole text, poeng int, er_meg boolean, merke text)
+returns table (plass int, navn text, skole text, poeng int, er_meg boolean, merker text[])
 language sql
 stable
 security definer
@@ -903,7 +913,7 @@ as $$
   ), synlige as (
     select s.bruker_id, s.poeng, sk.navn as skole,
            coalesce(public.rangeringsnavn(p.navn, p.skjul_fornavn, p.kallenavn), 'Deg') as navn,
-           p.valgt_merke as merke
+           p.valgte_merker as merker
     from summer s
     join public.profiles p on p.id = s.bruker_id
     left join public.skoler sk on sk.id = p.skole_id
@@ -914,10 +924,10 @@ as $$
         else true
       end
   ), rangert as (
-    select rank() over (order by poeng desc)::int as plass, navn, skole, poeng, bruker_id = auth.uid() as er_meg, merke
+    select rank() over (order by poeng desc)::int as plass, navn, skole, poeng, bruker_id = auth.uid() as er_meg, merker
     from synlige
   )
-  select plass, navn, skole, poeng, er_meg, merke
+  select plass, navn, skole, poeng, er_meg, merker
   from rangert
   where plass <= least(greatest(p_antall, 1), 100) or er_meg
   order by plass, navn;

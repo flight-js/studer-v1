@@ -165,7 +165,8 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   skolelista og dager på rad. `min_poengstatus` gir `rekorder_i_dag` og
   `rekordtak`, og konkurransesiden sier hvor mange som er igjen når taket er nådd.
 - **Ting** (typen `ting`): eies i `eiendeler`, velges i `profiles`
-  (`valgt_flamme`, `valgt_konfetti`, `valgt_merke`); databasen sjekker at
+  (`valgt_flamme`, `valgt_konfetti`, og `valgte_merker` – opptil tre merker
+  ved navnet, kjøpte eller tjente, i rekkefølgen de vises); databasen sjekker at
   eleven eier det som velges. Katalogen står i `src/lib/utseende.ts`. Kan
   prøves på belønningssiden før kjøp. Premium-temaene (`valgt_tema`) gjelder
   hele nettsiden: `PremiumTema` i layouten setter `data-premium` på `<html>`,
@@ -181,7 +182,17 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   et trykk tar tingen i bruk med en gang. Typer eleven ikke eier noe av vises
   ikke, og en rute lenker til resten i Belønninger. Uten migrasjonen vises
   merkede eksempelting som kan prøves (`provTing`), men ikke lagres.
-  Samlingen viser også rekke-frysene og alle merkene som kan tjenes.
+  Samlingen viser også rekke-frysene og alle merkene som kan tjenes. Merkene
+  ved navnet er flervalg (opptil tre, nummerert i rekkefølgen), med «Nå:» som
+  viser navnet med merkene; `sjekk_valgte_ting` stopper fire, dobbeltvalg og
+  merker eleven ikke har. På rangeringene står merkene i en egen boks ved
+  navnet (størrelse i em), så de aldri kuttes når navnet forkortes med «…».
+- **I menyen:** dager på rad (flamme i elevens flammefarge, grå uten rekke,
+  snøfnugg dagen etter at en frys reddet den) ved profilknappen på alle
+  sidene (`Rekkebrikke`), og på startsiden også poengene med stjerna
+  (`Poengbrikke`). Begge har en tynn ramme og deler én henting
+  (`src/lib/poengstatus.ts`, på nytt etter et minutt og når eleven får poeng).
+  Skjules i produksjon til migrasjonen er kjørt.
 - **Rekke-frys** (typen `frys`, tabellen `rekkefrys`): `los_inn` legger inn en
   ubrukt frys, og `belonning_sperre` stopper kjøp når eleven har to ubrukte.
   `bruk_rekkefrys` (pg_cron hver time, fem over) ser på i går: øvde ikke

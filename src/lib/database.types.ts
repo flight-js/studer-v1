@@ -333,7 +333,7 @@ export type Database = {
           trinn: string | null
           valgt_flamme: string | null
           valgt_konfetti: string | null
-          valgt_merke: string | null
+          valgte_merker: string[]
           valgt_tema: string | null
         }
         Insert: {
@@ -352,7 +352,7 @@ export type Database = {
           trinn?: string | null
           valgt_flamme?: string | null
           valgt_konfetti?: string | null
-          valgt_merke?: string | null
+          valgte_merker?: string[]
           valgt_tema?: string | null
         }
         Update: {
@@ -371,7 +371,7 @@ export type Database = {
           trinn?: string | null
           valgt_flamme?: string | null
           valgt_konfetti?: string | null
-          valgt_merke?: string | null
+          valgte_merker?: string[]
           valgt_tema?: string | null
         }
         Relationships: [
@@ -688,7 +688,7 @@ export type Database = {
       }
       formelmatch_toppliste: {
         Args: { p_antall?: number; p_tema_id: string }
-        Returns: { antall: number; er_meg: boolean; merke: string | null; navn: string; plass: number; skole: string | null; tid_ms: number }[]
+        Returns: { antall: number; er_meg: boolean; merker: string[]; navn: string; plass: number; skole: string | null; tid_ms: number }[]
       }
       los_inn: {
         Args: { p_belonning: string }
@@ -739,7 +739,7 @@ export type Database = {
       }
       poengliste: {
         Args: { p_antall?: number; p_omrade?: string }
-        Returns: { er_meg: boolean; merke: string | null; navn: string; plass: number; poeng: number; skole: string | null }[]
+        Returns: { er_meg: boolean; merker: string[]; navn: string; plass: number; poeng: number; skole: string | null }[]
       }
       skoleliste: {
         Args: { p_antall?: number }

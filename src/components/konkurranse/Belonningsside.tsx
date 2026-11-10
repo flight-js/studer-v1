@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
-import { Navnemerke } from "@/components/konkurranse/Navnemerke";
+import { Navnemerker } from "@/components/konkurranse/Navnemerke";
 import { Check, Flamme, Gave, Lock, Snofnugg, Stjerne } from "@/components/icons";
 import { Feil, Laster } from "@/components/Tilstand";
 import { betalingsfeiltekst, losInnGratisTid } from "@/lib/betaling";
@@ -20,7 +20,19 @@ import {
   type Belonning,
   type Vennegave,
 } from "@/lib/konkurranse";
-import { gjeldendeTema, hentMineTing, premiumTema, tingtype, useUtseende, velgTing, type MineTing } from "@/lib/utseende";
+import {
+  MAKS_MERKER,
+  erIBruk,
+  gjeldendeTema,
+  hentMineTing,
+  premiumTema,
+  tingtype,
+  useUtseende,
+  useUtseendeStatus,
+  velgMerker,
+  velgTing,
+  type MineTing,
+} from "@/lib/utseende";
 import { useHent } from "@/lib/useHent";
 
 // Innholdet på /belonninger (siden sjekker innloggingen). Poeng løses inn i:
@@ -445,9 +457,9 @@ function Forhandsvisning({ ting }: { ting: string }) {
   if (type === "merke") {
     return (
       <span aria-hidden="true" className="self-start inline-flex items-center gap-2 rounded-xl bg-sunken px-3 py-2 text-sm">
-        <span className="font-semibold">
+        <span className="inline-flex items-center font-semibold">
           Ingrid
-          <Navnemerke merke={ting} />
+          <Navnemerker merker={[ting]} />
         </span>
         <span className="text-muted">·</span>
         <span className="text-muted">Fjordbyen vgs</span>
@@ -557,9 +569,11 @@ function Temaforhandsvisning({ ting }: { ting: string }) {
 // For ting eleven eier: ta i bruk eller ta av. Valget lagres i profilen og
 // vises med en gang (lib/utseende.ts).
 function BrukTing({ ting, brukerId, nyKjopt, start }: { ting: string; brukerId: string; nyKjopt: boolean; start?: MineTing }) {
-  const valgt = useUtseende();
+  // Før det delte valget er hentet, gjelder det belønningssiden hentet selv.
+  const { valgt: delt, klar } = useUtseendeStatus();
+  const valgt = klar ? delt : (start?.valgt ?? delt);
   const type = tingtype(ting)!;
-  const iBruk = valgt[type] === ting || (!valgt[type] && start?.valgt[type] === ting);
+  const iBruk = erIBruk(valgt, ting);
   const [jobber, setJobber] = useState(false);
   const [feil, setFeil] = useState<string | null>(null);
 
@@ -567,7 +581,11 @@ function BrukTing({ ting, brukerId, nyKjopt, start }: { ting: string; brukerId: 
     setJobber(true);
     setFeil(null);
     try {
-      await velgTing(brukerId, type, iBruk ? null : ting);
+      if (type !== "merke") await velgTing(brukerId, type, iBruk ? null : ting);
+      else if (iBruk) await velgMerker(brukerId, valgt.merker.filter((m) => m !== ting));
+      else if (valgt.merker.length >= MAKS_MERKER)
+        throw new Error("Du har allerede tre merker ved navnet. Ta av ett i samlingen din først.");
+      else await velgMerker(brukerId, [...valgt.merker, ting]);
     } catch (e) {
       setFeil((e as Error).message);
     } finally {

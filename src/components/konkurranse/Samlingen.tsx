@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useId, useState } from "react";
-import { Merkeikon, Navnemerke } from "@/components/konkurranse/Navnemerke";
+import { Merkeikon, Navnemerker } from "@/components/konkurranse/Navnemerke";
 import { flammefarge } from "@/components/Rekke";
 import { Check, Fjaer, Flamme, Gave, Plus, Snofnugg, Stjerne } from "@/components/icons";
 import { konfetti } from "@/lib/feiring";
@@ -10,15 +10,20 @@ import { hentMineMerker, hentPoengstatus, iGar, type Merkefremgang, type Poengst
 import { MERKER, TJENTE, merkenavn } from "@/lib/merker";
 import { useHent } from "@/lib/useHent";
 import {
+  MAKS_MERKER,
   TING,
   TINGTYPER,
   hentMineTing,
   premiumTema,
+  provMerker,
   provTing,
   useUtseendeStatus,
+  velgMerker,
   velgTing,
   type Tingtype,
 } from "@/lib/utseende";
+
+type Enkelttype = Exclude<Tingtype, "merke">;
 
 // «Samlingen din» på kontosiden:
 //   - det eleven har kjøpt med poeng og merkene eleven har tjent, gruppert
@@ -41,7 +46,8 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
   const status = useHent(`poeng:${brukerId}:samling`, hentPoengstatus);
   const { valgt, klar } = useUtseendeStatus();
   // Valget som lagres nå, så det vises med en gang (og rulles tilbake ved feil).
-  const [venter, setVenter] = useState<{ type: Tingtype; ting: string | null } | null>(null);
+  const [venter, setVenter] = useState<{ type: Enkelttype; ting: string | null } | null>(null);
+  const [venterMerker, setVenterMerker] = useState<string[] | null>(null);
   const [feil, setFeil] = useState<{ type: Tingtype; tekst: string } | null>(null);
   const [melding, setMelding] = useState("");
 
@@ -51,9 +57,10 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
   const kjopteAv = (type: Tingtype) => kjopte.filter((e) => TING[e].type === type);
   const mineAv = (type: Tingtype) => [...kjopteAv(type), ...(type === "merke" ? tjente : [])];
   const typer = TINGTYPER.filter((t) => mineAv(t.type).length);
+  const lagrer = !!venter || !!venterMerker;
 
-  async function velg(type: Tingtype, ny: string | null, kilde: HTMLElement | null) {
-    if (venter) return;
+  async function velg(type: Enkelttype, ny: string | null, kilde: HTMLElement | null) {
+    if (lagrer) return;
     setFeil(null);
     const navn = navnPa(ny);
     if (type === "konfetti") konfetti(kilde, "liten", ny);
@@ -70,6 +77,27 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
       setFeil({ type, tekst: (e as Error).message });
     } finally {
       setVenter(null);
+    }
+  }
+
+  // Merkene ved navnet: hele lista lagres på en gang.
+  async function velgMerkene(nye: string[]) {
+    if (lagrer) return;
+    setFeil(null);
+    const tekst = nye.length ? `Ved navnet: ${nye.map(navnPa).join(", ")}.` : "Ingen merker ved navnet.";
+    if (demo) {
+      provMerker(brukerId, nye);
+      setMelding(tekst);
+      return;
+    }
+    setVenterMerker(nye);
+    try {
+      await velgMerker(brukerId, nye);
+      setMelding(tekst);
+    } catch (e) {
+      setFeil({ type: "merke", tekst: (e as Error).message });
+    } finally {
+      setVenterMerker(null);
     }
   }
 
@@ -99,20 +127,38 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
           {typer.length ? (
             typer.map((t) => {
               const mine = mineAv(t.type);
-              const valgtNa = venter?.type === t.type ? venter.ting : valgt[t.type];
+              const flere = Object.values(TING).filter((v) => v.type === t.type).length - kjopteAv(t.type).length;
+              const tFeil = feil?.type === t.type ? feil.tekst : null;
+              if (t.type === "merke") {
+                return (
+                  <Merkegruppe
+                    key={t.type}
+                    navn={t.navn}
+                    valg={mine}
+                    valgte={(venterMerker ?? valgt.merker).filter((m) => mine.includes(m))}
+                    flere={flere}
+                    fornavn={fornavn}
+                    lagrer={lagrer}
+                    feil={tFeil}
+                    onEndre={velgMerkene}
+                  />
+                );
+              }
+              const type = t.type;
+              const valgtNa = venter?.type === type ? venter.ting : valgt[type];
               return (
                 <Gruppe
-                  key={t.type}
-                  type={t.type}
+                  key={type}
+                  type={type}
                   navn={t.navn}
                   tekst={t.tekst}
                   valg={[null, ...mine]}
                   valgt={valgtNa && mine.includes(valgtNa) ? valgtNa : null}
-                  flere={Object.values(TING).filter((v) => v.type === t.type).length - kjopteAv(t.type).length}
+                  flere={flere}
                   fornavn={fornavn}
-                  lagrer={!!venter}
-                  feil={feil?.type === t.type ? feil.tekst : null}
-                  onVelg={(ny, kilde) => velg(t.type, ny, kilde)}
+                  lagrer={lagrer}
+                  feil={tFeil}
+                  onVelg={(ny, kilde) => velg(type, ny, kilde)}
                 />
               );
             })
@@ -264,7 +310,7 @@ function Gruppe({
   feil,
   onVelg,
 }: {
-  type: Tingtype;
+  type: Enkelttype;
   navn: string;
   tekst: string;
   valg: (string | null)[];
@@ -333,6 +379,133 @@ function Gruppe({
             <Plus size={18} />
             {flere === 1 ? "1 til" : `${flere} til`} i Belønninger
           </Link>
+        )}
+      </div>
+      {feil && (
+        <p role="alert" className="text-sm text-danger-ink">
+          {feil}
+        </p>
+      )}
+    </div>
+  );
+}
+
+// Merkene ved navnet: flervalg med opptil tre. Nummeret i hjørnet er
+// rekkefølgen ved navnet; øverst står hvordan navnet ser ut nå. Når tre er
+// valgt, er resten låst til eleven tar bort ett.
+function Merkegruppe({
+  navn,
+  valg,
+  valgte,
+  flere,
+  fornavn,
+  lagrer,
+  feil,
+  onEndre,
+}: {
+  navn: string;
+  valg: string[];
+  valgte: string[];
+  flere: number;
+  fornavn: string | null;
+  lagrer: boolean;
+  feil: string | null;
+  onEndre: (merker: string[]) => void;
+}) {
+  const id = useId();
+  const fullt = valgte.length >= MAKS_MERKER;
+  return (
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
+        <div className="flex flex-col">
+          <h3 id={`${id}-navn`} className="text-sm font-semibold">
+            {navn}
+          </h3>
+          <p id={`${id}-tekst`} className="text-sm text-muted max-w-[44ch]">
+            Velg opptil tre. De vises ved navnet ditt på rangeringene, i den rekkefølgen du velger dem.
+          </p>
+        </div>
+        <span className="inline-flex items-center gap-2 text-sm">
+          <span className="text-muted">Nå:</span>
+          <span className="inline-flex items-center rounded-full bg-sunken px-3 py-1.5 font-semibold">
+            {fornavn ?? "Navnet ditt"}
+            <Navnemerker merker={valgte} />
+          </span>
+        </span>
+      </div>
+      <div
+        role="group"
+        aria-labelledby={`${id}-navn`}
+        aria-describedby={`${id}-tekst ${id}-status`}
+        aria-busy={lagrer}
+        className="grid gap-3 grid-cols-2 sm:grid-cols-4"
+      >
+        {valg.map((ting) => {
+          const nr = valgte.indexOf(ting) + 1;
+          const pa = nr > 0;
+          const last = !pa && fullt;
+          return (
+            <label
+              key={ting}
+              className={`relative flex flex-col gap-2 rounded-2xl border-[1.5px] bg-surface p-2 has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-primary ${
+                last
+                  ? "border-border opacity-50 cursor-not-allowed"
+                  : pa
+                    ? "trykk trykk-blaa border-primary cursor-pointer"
+                    : "trykk border-border hover:border-border-strong cursor-pointer"
+              }`}
+            >
+              <input
+                type="checkbox"
+                value={ting}
+                aria-label={navnPa(ting)}
+                checked={pa}
+                disabled={last}
+                onChange={() => onEndre(pa ? valgte.filter((m) => m !== ting) : [...valgte, ting])}
+                className="sr-only"
+              />
+              <Bilde type="merke" ting={ting} fornavn={fornavn} />
+              <span className="flex items-center justify-between gap-2 px-1 pb-0.5 text-sm font-semibold">
+                <span aria-hidden="true">{navnPa(ting)}</span>
+                {pa && (
+                  <span
+                    aria-hidden="true"
+                    className="inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold tabular-nums text-white"
+                  >
+                    {nr}
+                  </span>
+                )}
+              </span>
+            </label>
+          );
+        })}
+        {flere > 0 && (
+          <Link
+            href={BUTIKK}
+            className="flex flex-col items-center justify-center gap-1.5 rounded-2xl border-[1.5px] border-dashed border-border-strong p-3 text-center text-sm font-semibold text-ink-soft transition-colors duration-200 hover:border-foreground hover:text-foreground"
+          >
+            <Plus size={18} />
+            {flere === 1 ? "1 til" : `${flere} til`} i Belønninger
+          </Link>
+        )}
+      </div>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <p id={`${id}-status`} className="text-sm text-muted">
+          {fullt
+            ? "Du har valgt tre. Ta bort ett for å velge et annet."
+            : valgte.length
+              ? `${valgte.length} av ${MAKS_MERKER} valgt.`
+              : "Ingen merker ved navnet nå."}
+        </p>
+        {valgte.length > 0 && (
+          <button
+            type="button"
+            onClick={() => onEndre([])}
+            disabled={lagrer}
+            className="text-sm font-semibold text-ink-soft underline decoration-border-strong decoration-2 underline-offset-4 hover:text-foreground hover:decoration-foreground transition-colors disabled:opacity-60"
+          >
+            Ta av alle
+          </button>
         )}
       </div>
       {feil && (
@@ -414,9 +587,9 @@ function Bilde({ type, ting, fornavn }: { type: Tingtype; ting: string | null; f
   }
   return (
     <span aria-hidden="true" className={flate}>
-      <span className="max-w-full truncate px-2 text-sm font-semibold">
-        {fornavn ?? "Navnet ditt"}
-        <Navnemerke merke={ting} />
+      <span className="inline-flex max-w-full items-center px-2 text-sm font-semibold">
+        <span className="truncate">{fornavn ?? "Navnet ditt"}</span>
+        {ting && <Navnemerker merker={[ting]} />}
       </span>
     </span>
   );

@@ -11,6 +11,7 @@ import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Fortsett } from "@/components/hjem/Fortsett";
 import { IDag } from "@/components/hjem/IDag";
 import { Poengbrikke } from "@/components/konkurranse/Poengbrikke";
+import { Rekkebrikke } from "@/components/konkurranse/Rekkebrikke";
 import { VelgSkoleKort } from "@/components/konkurranse/VelgSkoleKort";
 import { Logo } from "@/components/Logo";
 import { ArrowRight } from "@/components/icons";
@@ -95,13 +96,16 @@ export function Hjem() {
             <Logo className="text-[26px]" />
           </Link>
           <nav aria-label="Hovedmeny" className="flex items-center gap-2 sm:gap-3">
+            {/* På smale skjermer er det bare plass til rekka, poengene og profilen –
+                fagene står uansett lenger ned på siden. */}
             <Link
               href="/fag"
-              className="fs-menylenke inline-flex px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-200"
+              className={`fs-menylenke ${bruker ? "hidden sm:inline-flex" : "inline-flex"} px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-200`}
             >
               Alle fag
             </Link>
-            {bruker && <Poengbrikke brukerId={bruker.id} />}
+            {bruker && <Rekkebrikke natt />}
+            {bruker && <Poengbrikke />}
             <ProfilKnapp />
           </nav>
         </div>
@@ -245,7 +249,10 @@ export function Hjem() {
                           href={`/fag?trinn=${trinn.id}&fag=${f.id}`}
                           className="group flex items-baseline justify-between gap-4 py-5 sm:py-6 rounded-lg"
                         >
-                          <span lang="nb" className="fs-merk font-display text-[22px] sm:text-2xl font-semibold leading-snug tracking-[-0.01em] hyphens-auto">
+                          {/* min-w-0 og break-words: lange ord («Informasjonsteknologi») brytes i
+                              stedet for å gjøre siden bredere enn skjermen, der nettleseren ikke
+                              kan orddele norsk. */}
+                          <span lang="nb" className="fs-merk min-w-0 break-words font-display text-[22px] sm:text-2xl font-semibold leading-snug tracking-[-0.01em] hyphens-auto">
                             {f.navn}
                           </span>
                           <span className="shrink-0 flex items-center gap-2 text-sm text-muted tabular-nums">

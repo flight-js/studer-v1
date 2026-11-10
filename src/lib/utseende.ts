@@ -4,15 +4,18 @@
 // flammefarge på rekka, konfetti-stil, et merke ved navnet på rangeringene og
 // premium-temaer for hele nettsiden (CSS i globals.css, settes av PremiumTema
 // i layout). Eleven eier tingene i tabellen eiendeler og velger hva som
-// brukes i profiles (valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema).
-// Databasen sjekker at eleven eier det som velges.
+// brukes i profiles (valgt_flamme, valgt_konfetti, valgte_merker, valgt_tema).
+// Databasen sjekker at eleven eier det som velges. Ved navnet kan eleven ha
+// opptil tre merker – kjøpte eller tjente (lib/merker.ts).
 
 import { useEffect, useSyncExternalStore } from "react";
 import { useAuth } from "./auth";
 import { supabase } from "./supabase";
 
 export type Tingtype = "flamme" | "konfetti" | "merke" | "tema";
-export type Utseende = Record<Tingtype, string | null>;
+// Én av hver, bortsett fra merkene ved navnet (i den rekkefølgen de vises).
+export type Utseende = { flamme: string | null; konfetti: string | null; tema: string | null; merker: string[] };
+export const MAKS_MERKER = 3;
 
 // Alle tingene, med korte navn (vises under overskriften for typen, f.eks. på
 // kontosiden). Nøklene må stemme med belønningene i migrasjonen (verdi).
@@ -40,12 +43,21 @@ export const TINGTYPER: { type: Tingtype; navn: string; tekst: string }[] = [
   { type: "merke", navn: "Merke ved navnet", tekst: "Vises ved navnet ditt på rangeringene." },
 ];
 
-export const tingtype = (ting: string): Tingtype | null => TING[ting]?.type ?? null;
+// Typen til en ting. Tjente merker står ikke i TING, men begynner også på «merke-».
+export const tingtype = (ting: string): Tingtype | null =>
+  TING[ting]?.type ?? (ting.startsWith("merke-") ? "merke" : null);
+
+// Om tingen er i bruk nå.
+export function erIBruk(u: Utseende, ting: string) {
+  const type = tingtype(ting);
+  if (type === "merke") return u.merker.includes(ting);
+  return type ? u[type] === ting : false;
+}
 
 // Verdien til data-premium (globals.css): «tema-nordlys» → «nordlys».
 export const premiumTema = (ting: string | null) => (ting && ting.startsWith("tema-") ? ting.slice(5) : null);
 
-const TOM: Utseende = { flamme: null, konfetti: null, merke: null, tema: null };
+const TOM: Utseende = { flamme: null, konfetti: null, tema: null, merker: [] };
 
 // Ikke satt opp (migrasjonen er ikke kjørt): da er alt standard.
 const IKKE_SATT_OPP = new Set(["PGRST200", "PGRST204", "PGRST205", "42703", "42P01"]);
@@ -55,7 +67,7 @@ export type MineTing = { eier: string[]; valgt: Utseende; demo: boolean };
 export async function hentMineTing(brukerId: string): Promise<MineTing> {
   const [eiendeler, profil] = await Promise.all([
     supabase.from("eiendeler").select("ting").order("kjopt"),
-    supabase.from("profiles").select("valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema").eq("id", brukerId).maybeSingle(),
+    supabase.from("profiles").select("valgt_flamme, valgt_konfetti, valgte_merker, valgt_tema").eq("id", brukerId).maybeSingle(),
   ]);
   const feil = eiendeler.error ?? profil.error;
   if (feil) {
@@ -68,8 +80,8 @@ export async function hentMineTing(brukerId: string): Promise<MineTing> {
     valgt: {
       flamme: p?.valgt_flamme ?? null,
       konfetti: p?.valgt_konfetti ?? null,
-      merke: p?.valgt_merke ?? null,
       tema: p?.valgt_tema ?? null,
+      merker: p?.valgte_merker ?? [],
     },
     demo: false,
   };
@@ -141,29 +153,38 @@ export function useValgtTema(): { tema: string | null; klar: boolean; lagres: bo
   return { tema: valgt.tema, klar: t.bruker === id && !!t.valgt, lagres: !t.lokalt };
 }
 
-// Tar i bruk en ting (eller fjerner valget med null). Kaster med en melding
-// som kan vises til eleven.
-export async function velgTing(brukerId: string, type: Tingtype, ting: string | null) {
-  const endring =
-    type === "flamme"
-      ? { valgt_flamme: ting }
-      : type === "konfetti"
-        ? { valgt_konfetti: ting }
-        : type === "merke"
-          ? { valgt_merke: ting }
-          : { valgt_tema: ting };
+type Enkelttype = Exclude<Tingtype, "merke">;
+const forrigeValg = (brukerId: string) => (tilstand.bruker === brukerId && tilstand.valgt ? tilstand.valgt : TOM);
+
+type Valgfelt = { valgt_flamme?: string | null; valgt_konfetti?: string | null; valgt_tema?: string | null; valgte_merker?: string[] };
+
+async function lagre(brukerId: string, endring: Valgfelt) {
   const { error } = await supabase.from("profiles").update(endring).eq("id", brukerId);
   if (error) {
     if (error.code && IKKE_SATT_OPP.has(error.code)) throw new Error("Belønningene er ikke slått på ennå.");
     throw new Error(error.message);
   }
-  const forrige = tilstand.bruker === brukerId && tilstand.valgt ? tilstand.valgt : TOM;
-  sett({ bruker: brukerId, valgt: { ...forrige, [type]: ting } });
+}
+
+// Tar i bruk en flamme, konfetti eller et tema (eller fjerner valget med
+// null). Kaster med en melding som kan vises til eleven.
+export async function velgTing(brukerId: string, type: Enkelttype, ting: string | null) {
+  await lagre(brukerId, type === "flamme" ? { valgt_flamme: ting } : type === "konfetti" ? { valgt_konfetti: ting } : { valgt_tema: ting });
+  sett({ bruker: brukerId, valgt: { ...forrigeValg(brukerId), [type]: ting } });
+}
+
+// Merkene ved navnet: opptil tre, i den rekkefølgen de vises.
+export async function velgMerker(brukerId: string, merker: string[]) {
+  if (merker.length > MAKS_MERKER) throw new Error("Du kan ha høyst tre merker ved navnet.");
+  await lagre(brukerId, { valgte_merker: merker });
+  sett({ bruker: brukerId, valgt: { ...forrigeValg(brukerId), merker } });
 }
 
 // Eksempelmodus (belønningene er ikke slått på): valget vises overalt, men
 // lagres ikke og er borte når siden lastes på nytt.
-export function provTing(brukerId: string, type: Tingtype, ting: string | null) {
-  const forrige = tilstand.bruker === brukerId && tilstand.valgt ? tilstand.valgt : TOM;
-  sett({ bruker: brukerId, valgt: { ...forrige, [type]: ting }, lokalt: true });
+export function provTing(brukerId: string, type: Enkelttype, ting: string | null) {
+  sett({ bruker: brukerId, valgt: { ...forrigeValg(brukerId), [type]: ting }, lokalt: true });
+}
+export function provMerker(brukerId: string, merker: string[]) {
+  sett({ bruker: brukerId, valgt: { ...forrigeValg(brukerId), merker: merker.slice(0, MAKS_MERKER) }, lokalt: true });
 }

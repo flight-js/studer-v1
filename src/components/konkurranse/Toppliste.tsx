@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Pokal } from "@/components/icons";
-import { Navnemerke } from "@/components/konkurranse/Navnemerke";
+import { Navnemerker } from "@/components/konkurranse/Navnemerke";
 import { formaterTid, hentToppliste, type Avslutning } from "@/lib/konkurranse";
 import { useHent } from "@/lib/useHent";
 
@@ -36,11 +36,12 @@ export function Toppliste({ temaId, avslutning, runde }: { temaId: string; avslu
               }`}
             >
               <span className="font-display text-xl font-semibold tabular-nums text-muted">{p.plass}</span>
-              <span className="min-w-0 truncate">
-                <span className="font-semibold">{p.navn}</span>
-                <Navnemerke merke={p.merke} />
+              {/* Navn og skole kuttes med «…», merkene gjør aldri det. */}
+              <span className="min-w-0 flex items-center">
+                <span className="font-semibold truncate">{p.navn}</span>
+                <Navnemerker merker={p.merker} />
                 {p.skole && (
-                  <span className="text-sm text-muted">
+                  <span className="min-w-0 shrink-[4] truncate text-sm text-muted">
                     <span aria-hidden="true" className="mx-2">
                       ·
                     </span>

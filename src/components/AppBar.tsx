@@ -2,9 +2,11 @@
 
 import Link from "next/link";
 import { ChevronLeft } from "@/components/icons";
+import { Rekkebrikke } from "@/components/konkurranse/Rekkebrikke";
 import { initialer, useAuth } from "@/lib/auth";
 
-// Topplinje for app-sidene: tilbakeknapp til venstre, brødsmuler, profil til høyre.
+// Topplinje for app-sidene: tilbakeknapp til venstre, brødsmuler, dager på rad
+// og profil til høyre.
 export function AppBar({
   back,
   backLabel,
@@ -27,8 +29,9 @@ export function AppBar({
           />
           <span className="truncate">{backLabel}</span>
         </Link>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           {children}
+          <Rekkebrikke />
           <ProfilKnapp />
         </div>
       </div>

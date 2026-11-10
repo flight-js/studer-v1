@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
-import { Navnemerke } from "@/components/konkurranse/Navnemerke";
+import { Navnemerker } from "@/components/konkurranse/Navnemerke";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
 import { ArrowRight, Gave, Snofnugg } from "@/components/icons";
 import { Feil } from "@/components/Tilstand";
@@ -142,10 +142,13 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
                   >
                     <span className="font-display text-2xl font-semibold tabular-nums text-muted">{p.plass}</span>
                     <span className="flex flex-col min-w-0">
-                      <span className="font-semibold truncate">
-                        {p.navn}
-                        <Navnemerke merke={p.merke} />
-                        {p.erMeg && <span className="sr-only"> (deg)</span>}
+                      {/* Navnet kuttes med «…», merkene ved siden av gjør aldri det. */}
+                      <span className="flex items-center min-w-0">
+                        <span className="font-semibold truncate">
+                          {p.navn}
+                          {p.erMeg && <span className="sr-only"> (deg)</span>}
+                        </span>
+                        <Navnemerker merker={p.merker} />
                       </span>
                       {p.skole && <span className="text-sm text-muted truncate">{p.skole}</span>}
                     </span>
