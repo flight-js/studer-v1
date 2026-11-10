@@ -12,6 +12,18 @@ import { useUtseende } from "@/lib/utseende";
 //
 // Bare der svaret faktisk sjekkes (quiz, formelmatch) – ikke i flashcards,
 // der eleven svarer selv.
+// Fargen på flammen: den eleven har kjøpt, ellers mørk og rød fra fem på rad.
+export const flammefarge = (flamme: string | null, varm: boolean) =>
+  flamme === "flamme-bla"
+    ? "text-primary"
+    : flamme === "flamme-gronn"
+      ? "text-success"
+      : flamme === "flamme-regnbue"
+        ? "flamme-regnbue text-danger"
+        : varm
+          ? "text-danger"
+          : "text-pa-merke";
+
 export function Rekke({ antall, enhet = "på rad" }: { antall: number; enhet?: string }) {
   // Forrige verdi, for å se når rekka ryker (justeres under rendering, ikke i en effekt).
   const [forrige, setForrige] = useState(antall);
@@ -43,21 +55,7 @@ export function Rekke({ antall, enhet = "på rad" }: { antall: number; enhet?: s
         antall < 2 ? "rekke-brutt" : ""
       } ${varm ? "shadow-[0_0_0_3px_color-mix(in_oklab,var(--merke)_38%,transparent)]" : ""}`}
     >
-      <Flamme
-        size={14}
-        fylt
-        className={`${
-          flamme === "flamme-bla"
-            ? "text-primary"
-            : flamme === "flamme-gronn"
-              ? "text-success"
-              : flamme === "flamme-regnbue"
-                ? "flamme-regnbue text-danger"
-                : varm
-                  ? "text-danger"
-                  : "text-pa-merke"
-        } ${n >= 10 && antall >= 2 ? "flakk" : ""}`}
-      />
+      <Flamme size={14} fylt className={`${flammefarge(flamme, varm)} ${n >= 10 && antall >= 2 ? "flakk" : ""}`} />
       <span key={n} className={antall >= 2 ? "rekke-hopp" : ""}>
         {n}
       </span>

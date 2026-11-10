@@ -9,19 +9,20 @@ import { premiumTema, useValgtTema } from "@/lib/utseende";
 // Valget huskes i nettleseren, så skriptet i <head> kan sette det før siden
 // tegnes neste gang. Ingen innlogget elev eller ikke noe valgt: standardfargene.
 export function PremiumTema() {
-  const { tema, klar } = useValgtTema();
+  const { tema, klar, lagres } = useValgtTema();
   useEffect(() => {
     if (!klar) return;
     const verdi = premiumTema(tema);
     const html = document.documentElement;
     if (verdi) html.dataset.premium = verdi;
     else delete html.dataset.premium;
+    if (!lagres) return; // bare prøvd i eksempelmodus
     try {
       if (verdi) localStorage.setItem(PREMIUM_NOKKEL, verdi);
       else localStorage.removeItem(PREMIUM_NOKKEL);
     } catch {
       // Privat vindu eller blokkert lagring: temaet settes uansett når siden er lastet.
     }
-  }, [tema, klar]);
+  }, [tema, klar, lagres]);
   return null;
 }

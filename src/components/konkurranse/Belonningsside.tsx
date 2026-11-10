@@ -173,7 +173,8 @@ function Seksjon({ tittel, tekst, children }: { tittel: string; tekst: string; c
   return (
     <section aria-labelledby={id} className="flex flex-col gap-5">
       <div className="flex flex-col gap-1">
-        <h2 id={id} className="text-3xl font-semibold tracking-[-0.02em]">
+        {/* scroll-mt: «Tingene dine» på kontosiden lenker hit (#seksjon-til-appen). */}
+        <h2 id={id} className="scroll-mt-24 text-3xl font-semibold tracking-[-0.02em]">
           {tittel}
         </h2>
         <p className="text-ink-soft">{tekst}</p>

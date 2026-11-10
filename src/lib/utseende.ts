@@ -14,22 +14,31 @@ import { supabase } from "./supabase";
 export type Tingtype = "flamme" | "konfetti" | "merke" | "tema";
 export type Utseende = Record<Tingtype, string | null>;
 
-// Alle tingene. Navnene må stemme med belønningene i migrasjonen (verdi).
+// Alle tingene, med korte navn (vises under overskriften for typen, f.eks. på
+// kontosiden). Nøklene må stemme med belønningene i migrasjonen (verdi).
 export const TING: Record<string, { type: Tingtype; navn: string }> = {
-  "flamme-bla": { type: "flamme", navn: "Blå flamme" },
-  "flamme-gronn": { type: "flamme", navn: "Grønn flamme" },
-  "flamme-regnbue": { type: "flamme", navn: "Regnbueflamme" },
-  "konfetti-stjerner": { type: "konfetti", navn: "Stjernekonfetti" },
-  "konfetti-fjaer": { type: "konfetti", navn: "Fjærkonfetti" },
-  "merke-fjaer": { type: "merke", navn: "Fjærpenn ved navnet" },
-  "merke-lyspare": { type: "merke", navn: "Lyspære ved navnet" },
-  "merke-stjerne": { type: "merke", navn: "Stjerne ved navnet" },
-  "tema-nordlys": { type: "tema", navn: "Tema: Nordlys" },
-  "tema-solnedgang": { type: "tema", navn: "Tema: Solnedgang" },
-  "tema-havdyp": { type: "tema", navn: "Tema: Havdyp" },
-  "tema-skog": { type: "tema", navn: "Tema: Skog" },
-  "tema-galakse": { type: "tema", navn: "Tema: Galakse" },
+  "tema-nordlys": { type: "tema", navn: "Nordlys" },
+  "tema-solnedgang": { type: "tema", navn: "Solnedgang" },
+  "tema-havdyp": { type: "tema", navn: "Havdyp" },
+  "tema-skog": { type: "tema", navn: "Skog" },
+  "tema-galakse": { type: "tema", navn: "Galakse" },
+  "flamme-bla": { type: "flamme", navn: "Blå" },
+  "flamme-gronn": { type: "flamme", navn: "Grønn" },
+  "flamme-regnbue": { type: "flamme", navn: "Regnbue" },
+  "konfetti-stjerner": { type: "konfetti", navn: "Stjerner" },
+  "konfetti-fjaer": { type: "konfetti", navn: "Fjær" },
+  "merke-fjaer": { type: "merke", navn: "Fjærpenn" },
+  "merke-lyspare": { type: "merke", navn: "Lyspære" },
+  "merke-stjerne": { type: "merke", navn: "Stjerne" },
 };
+
+// Typene i den rekkefølgen de vises, med overskrift og hva de gjør.
+export const TINGTYPER: { type: Tingtype; navn: string; tekst: string }[] = [
+  { type: "tema", navn: "Tema", tekst: "Farger og glød på hele Studer." },
+  { type: "flamme", navn: "Flamme", tekst: "Fargen på rekka når du svarer riktig flere ganger på rad." },
+  { type: "konfetti", navn: "Konfetti", tekst: "Det som spruter når du får til noe i en øving." },
+  { type: "merke", navn: "Merke ved navnet", tekst: "Vises ved navnet ditt på rangeringene." },
+];
 
 export const tingtype = (ting: string): Tingtype | null => TING[ting]?.type ?? null;
 
@@ -70,7 +79,8 @@ export async function hentMineTing(brukerId: string): Promise<MineTing> {
 // Det eleven har valgt, delt av alle komponentene (rekka, konfettien, lista
 // over ting), så et nytt valg vises overalt med en gang.
 
-let tilstand: { bruker: string | null; valgt: Utseende | null } = { bruker: null, valgt: null };
+// lokalt: valget er bare prøvd i eksempelmodus (provTing) og lagres ingen steder.
+let tilstand: { bruker: string | null; valgt: Utseende | null; lokalt?: boolean } = { bruker: null, valgt: null };
 const lyttere = new Set<() => void>();
 let henter: string | null = null;
 
@@ -108,17 +118,27 @@ export function useUtseende(): Utseende {
 // gå tilbake til det etter at et tema er prøvd på belønningssiden).
 export const gjeldendeTema = () => tilstand.valgt?.tema ?? null;
 
+// Det eleven har valgt, og om det er hentet ennå (så «Standard» ikke ser valgt
+// ut et øyeblikk før valget er kjent).
+export function useUtseendeStatus(): { valgt: Utseende; klar: boolean } {
+  const { bruker } = useAuth();
+  const valgt = useUtseende();
+  const t = useSyncExternalStore(abonner, les, les);
+  return { valgt, klar: !!bruker && t.bruker === bruker.id && !!t.valgt };
+}
+
 // Premium-temaet og om svaret er kjent: klar = innloggingen er avklart og
 // valget er hentet (eller ingen er logget inn). PremiumTema venter på klar, så det
-// ikke fjerner temaet som skriptet i <head> satte, før det vet.
-export function useValgtTema(): { tema: string | null; klar: boolean } {
+// ikke fjerner temaet som skriptet i <head> satte, før det vet. lagres = false
+// når temaet bare er prøvd i eksempelmodus.
+export function useValgtTema(): { tema: string | null; klar: boolean; lagres: boolean } {
   const { bruker, laster } = useAuth();
   const valgt = useUtseende();
   const t = useSyncExternalStore(abonner, les, les);
   const id = bruker?.id ?? null;
-  if (laster) return { tema: null, klar: false };
-  if (!id) return { tema: null, klar: true };
-  return { tema: valgt.tema, klar: t.bruker === id && !!t.valgt };
+  if (laster) return { tema: null, klar: false, lagres: true };
+  if (!id) return { tema: null, klar: true, lagres: true };
+  return { tema: valgt.tema, klar: t.bruker === id && !!t.valgt, lagres: !t.lokalt };
 }
 
 // Tar i bruk en ting (eller fjerner valget med null). Kaster med en melding
@@ -139,4 +159,11 @@ export async function velgTing(brukerId: string, type: Tingtype, ting: string | 
   }
   const forrige = tilstand.bruker === brukerId && tilstand.valgt ? tilstand.valgt : TOM;
   sett({ bruker: brukerId, valgt: { ...forrige, [type]: ting } });
+}
+
+// Eksempelmodus (belønningene er ikke slått på): valget vises overalt, men
+// lagres ikke og er borte når siden lastes på nytt.
+export function provTing(brukerId: string, type: Tingtype, ting: string | null) {
+  const forrige = tilstand.bruker === brukerId && tilstand.valgt ? tilstand.valgt : TOM;
+  sett({ bruker: brukerId, valgt: { ...forrige, [type]: ting }, lokalt: true });
 }

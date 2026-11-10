@@ -175,6 +175,11 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   rundt 4,3:1 både mot hvit tekst og bakgrunnen. Valget huskes i nettleseren, så
   skriptet i `<head>` setter det før siden tegnes. «Prøv på hele siden» på
   belønningssiden viser temaet på hele siden til eleven trykker igjen.
+  «Tingene dine» på kontosiden (`Tingenedine`) viser det eleven eier, gruppert
+  etter type (tema, flamme, konfetti, merke), som radiovalg med Standard først;
+  et trykk tar tingen i bruk med en gang. Typer eleven ikke eier noe av vises
+  ikke, og en rute lenker til resten i Belønninger. Uten migrasjonen vises
+  merkede eksempelting som kan prøves (`provTing`), men ikke lagres.
 - Testet i PGlite: ny konto sperres, ting kan kjøpes én gang og bare tas i
   bruk av eieren, reglene for gaver til venner (adresse, tre om gangen, ikke
   til seg selv, ubekreftet e-post, eldste gave brukes, poeng tilbake én gang

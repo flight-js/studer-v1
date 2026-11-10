@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
-import { Konkurranseprofil } from "@/components/konkurranse/Konkurranseprofil";
+import { Konkurranseprofil, fornavnFra } from "@/components/konkurranse/Konkurranseprofil";
+import { Tingenedine } from "@/components/konkurranse/Tingenedine";
 import { Temavelger } from "@/components/Temavelger";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
@@ -111,6 +112,8 @@ export default function KontoPage() {
               <Temavelger medTekst />
             </div>
           </section>
+
+          <Tingenedine brukerId={bruker.id} fornavn={fornavnFra(profil?.navn ?? bruker.user_metadata?.navn)} />
 
           <Konkurranseprofil brukerId={bruker.id} />
 
