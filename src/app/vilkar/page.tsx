@@ -142,8 +142,10 @@ export default function Vilkar() {
               brukt, faller det bort.
             </li>
             <li>
-              En kode til en venn gir én uke i fradrag på vennens første betaling, og gjelder bare for nye abonnenter.
-              Du kan ha høyst tre ubrukte koder om gangen.
+              Gir du en venn en gratis uke, skriver du vennens e-postadresse, og vi sender vennen én e-post med
+              fornavnet ditt. Vennen får én uke i fradrag på første betaling hvis hen lager konto med den adressen og
+              ikke har hatt abonnement før. Du kan ha høyst tre ubrukte gaver om gangen, og brukes en gave ikke innen
+              60 dager, får du poengene tilbake. Send bare gaver til folk du kjenner.
             </li>
             <li>
               Ting i appen (som flammefarger, konfetti og merker ved navnet) er dine så lenge du har kontoen, men har

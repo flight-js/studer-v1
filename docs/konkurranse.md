@@ -114,9 +114,8 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 
 | Belønning | Poeng | Slik virker den |
 | --- | --- | --- |
-| En gratis uke | 1 500 | Kreditt i Stripe som trekkes fra neste betaling: 59 kr × 7/30 ≈ 13,77 kr (måned) eller 499 kr × 7/365 ≈ 9,57 kr (år) |
-| En gratis måned | 5 000 | Som over: 59 kr (måned) eller 499 kr × 30/365 ≈ 41 kr (år) |
-| Gi en venn en gratis uke | 800 | En kode (VENN-1A2B3C) og en lenke. Vennen får én uke kreditt når hen starter sitt første abonnement |
+| En gratis uke | 2 500 | Kreditt i Stripe som trekkes fra neste betaling: 59 kr × 7/30 ≈ 13,77 kr (måned) eller 499 kr × 7/365 ≈ 9,57 kr (år) |
+| Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen får én uke kreditt når hen starter sitt første abonnement med den adressen |
 | Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
 | Regnbueflamme | 1 200 | Flammen skifter farge |
 | Stjerne- / fjærkonfetti | 600 | Konfettien på resultatskjermene og ved innløsning |
@@ -129,17 +128,30 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   abonnement som ikke avsluttes. Kreditt, ikke forlenget prøveperiode: et
   abonnement som går over til «trialing», ville blitt stoppet av
   prøveperiodesjekken i `stripe-webhook`.
-- **Vennekoder** (typen `venn`): høyst tre ubrukte om gangen. Koden brukes på
-  `/abonnement` (lenken fyller den inn). Bare for kunder som aldri har hatt
-  abonnement, aldri ens egen, og hver elev kan bare bruke én kode.
+- **Gaver til venner** (typen `venn`) går gjennom serverfunksjonen
+  `vennegave`: poengene trekkes (`vennegave_lag`), e-posten sendes med SMTP
+  fra e-postserveren til studer.no, og feiler den, gis poengene tilbake
+  (`vennegave_angre`). E-posten har fast tekst – eleven kan ikke skrive en
+  egen melding – og bare fornavnet (bokstaver) fra eleven. Ingen kode: gaven
+  er knyttet til e-postadressen, og `betaling` bruker den automatisk når noen
+  med den adressen (bekreftet) starter sitt første abonnement
+  (`vennegave_bruk`); `/abonnement` viser «Ingrid har gitt deg en gratis uke»
+  før betaling. Høyst tre ubrukte gaver om gangen, ikke til seg selv, én gave
+  per mottaker. Brukes ikke gaven innen 60 dager, eller har vennen brukt en
+  annen gave, får giveren poengene tilbake, og adressen skjules
+  (`in•••@eksempel.no`) når gaven er ferdig (`vennegaver_rydd`, pg_cron hver
+  natt). Svaret sier aldri om adressen har konto hos Studer.
 - **Ting** (typen `ting`): eies i `eiendeler`, velges i `profiles`
   (`valgt_flamme`, `valgt_konfetti`, `valgt_merke`); databasen sjekker at
   eleven eier det som velges. Katalogen står i `src/lib/utseende.ts`. Kan
   prøves på belønningssiden før kjøp.
 - Testet i PGlite: ny konto sperres, ting kan kjøpes én gang og bare tas i
-  bruk av eieren, vennekodereglene, én gratis tid per måned og at poengene
-  gis tilbake nøyaktig én gang når Stripe feiler. Stripe-kallene er
-  typesjekket, men ikke kjørt (krever testnøkler).
+  bruk av eieren, reglene for gaver til venner (adresse, tre om gangen, ikke
+  til seg selv, ubekreftet e-post, eldste gave brukes, poeng tilbake én gang
+  ved sendefeil og når gaven går ut, adressen skjules), én gratis tid per
+  måned og at poengene gis tilbake nøyaktig én gang når Stripe feiler.
+  Stripe-kallene og e-postsendingen er typesjekket, men ikke kjørt (krever
+  testnøkler og SMTP-passord).
 
 ## Kallenavn
 
@@ -251,6 +263,13 @@ fjerne poeng (`grunn = 'korrigering'`).
   rapporterer. Ha likevel en rutine for å fjerne et navn som skulle slippe
   gjennom (`update profiles set kallenavn = null where id = …` med
   service_role).
+- **Gaver til venner på e-post.** E-post med tilbud til noen som ikke har
+  samtykket, er markedsføring etter markedsføringsloven § 15. «Tips en
+  venn»-løsninger er vanligvis greie når eleven selv velger mottakeren og
+  sender én e-post, uten å få noe for det (her betaler eleven med poeng i
+  stedet), og det står hvem som sendte. Sjekk Forbrukertilsynets veiledning før
+  lansering. Mottakerne kan være under 18, så e-posten er nøktern og har ingen
+  reklame utover gaven.
 - **Partnere.** Det finnes ingen avtaler ennå. Sidene viser «Belønningene
   kommer snart» til ekte belønninger er lagt inn. Ikke vis logoer eller navn på
   partnere uten avtale.
@@ -258,8 +277,12 @@ fjerne poeng (`grunn = 'korrigering'`).
 ## Lansering, steg for steg
 
 1. Kjør migrasjonen og `supabase/skoler.sql` (Supabase SQL Editor), og last opp
-   serverfunksjonen `kallenavn` (AI_API_KEY finnes allerede fra «chat»). Kjør
-   `npm run ai:kallenavn-test` først.
+   serverfunksjonene `kallenavn` (AI_API_KEY finnes allerede fra «chat»),
+   `vennegave` og `betaling`. Kjør `npm run ai:kallenavn-test` først.
+   `vennegave` trenger hemmelighetene `SMTP_VERT` (for eksempel
+   mail.studer.no), `SMTP_BRUKER` (for eksempel kontakt@studer.no) og
+   `SMTP_PASSORD`. Send en gave til deg selv på en annen adresse først, og
+   sjekk at e-posten ikke havner i søppelposten (SPF og DKIM for studer.no).
 2. Generer `database.types.ts` på nytt og sjekk at det bygger.
 3. Test med en testkonto: poeng etter øving, tak, formelmatch-tid, ligaer.
 4. Legg inn ekte belønninger og koder (se nederst i migrasjonen).

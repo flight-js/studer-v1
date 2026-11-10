@@ -704,9 +704,13 @@ export type Database = {
           vilkar: string
         }[]
       }
-      mine_vennekoder: {
+      mine_vennegaver: {
         Args: never
-        Returns: { brukt: boolean; dager: number; kode: string; laget: string }[]
+        Returns: { dager: number; epost: string; gyldig_til: string; id: string; laget: string; status: string }[]
+      }
+      min_vennegave: {
+        Args: never
+        Returns: { dager: number; fra: string | null; gyldig_til: string }[]
       }
       poengliste: {
         Args: { p_antall?: number; p_omrade?: string }

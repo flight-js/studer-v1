@@ -287,7 +287,7 @@ create table public.belonninger (
   opprettet timestamptz not null default now(),
   -- kode: koder fra en partner (tabellen kuponger). De andre er Studers egne:
   -- kreditt: gratis tid – verdi er antall dager, trekkes fra neste betaling
-  -- venn:    en kode eleven gir til en venn – verdi er antall dager vennen får
+  -- venn:    en gave eleven sender til en venns e-post – verdi er antall dager vennen får
   -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet) – verdi er tingen
   type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting')),
   verdi text,
@@ -364,20 +364,61 @@ create trigger profiles_sjekk_valgte_ting
   before update of valgt_flamme, valgt_konfetti, valgt_merke on public.profiles
   for each row execute function public.sjekk_valgte_ting();
 
--- Koder eleven gir til en venn. Vennen får kreditt (dager) når hen starter sitt
--- første abonnement (serverfunksjonen «betaling», vennekode_bruk).
-create table public.vennekoder (
-  kode text primary key,
-  giver uuid not null references auth.users (id) on delete cascade,
+-- Gaver til en venn. Eleven skriver vennens e-postadresse, og Studer sender
+-- vennen en e-post (serverfunksjonen «vennegave»). Når noen med den adressen
+-- starter sitt første abonnement, trekkes dagene fra første betaling
+-- (serverfunksjonen «betaling», vennegave_bruk). Brukes ikke gaven innen 60
+-- dager, får giveren poengene tilbake, og når gaven er ferdig, skjules
+-- adressen (vennegaver_rydd, hver natt).
+--   aktiv: sendt, kan brukes     brukt: vennen har fått dagene
+--   angret: e-posten kunne ikke sendes – poengene er gitt tilbake
+--   utlopt: ikke brukt i tide, eller vennen har brukt en annen gave – poengene er gitt tilbake
+create table public.vennegaver (
+  id uuid primary key default gen_random_uuid(),
+  -- Sletter giveren kontoen, gjelder gaven fortsatt for vennen.
+  giver uuid references auth.users (id) on delete set null,
   belonning_id uuid references public.belonninger (id) on delete set null,
+  epost text not null, -- små bokstaver
   dager int not null,
+  poeng int not null,
+  status text not null default 'aktiv' check (status in ('aktiv', 'brukt', 'angret', 'utlopt')),
   laget timestamptz not null default now(),
+  gyldig_til timestamptz not null default now() + interval '60 days',
   brukt_av uuid references auth.users (id) on delete set null,
-  brukt timestamptz
+  brukt timestamptz,
+  belop_ore int
 );
-create index vennekoder_giver on public.vennekoder (giver);
-alter table public.vennekoder enable row level security;
-revoke all on public.vennekoder from anon, authenticated;
+create index vennegaver_giver on public.vennegaver (giver, laget);
+create index vennegaver_aktive on public.vennegaver (epost) where status = 'aktiv';
+create unique index vennegaver_en_per_person on public.vennegaver (brukt_av) where status = 'brukt';
+alter table public.vennegaver enable row level security;
+revoke all on public.vennegaver from anon, authenticated;
+
+-- Fornavnet som står i e-posten til vennen: første ord i navnet, bare
+-- bokstaver (så navnet ikke kan brukes til lenker eller reklame). Ellers null
+-- («En venn»).
+create function public.gavenavn(p_bruker uuid)
+returns text
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select n from (
+    select split_part(trim(coalesce(p.navn, '')), ' ', 1) as n from public.profiles p where p.id = p_bruker
+  ) x
+  where n ~ '^[A-Za-zÀ-ÖØ-öø-ÿĀ-ž][A-Za-zÀ-ÖØ-öø-ÿĀ-ž-]{0,29}$';
+$$;
+
+-- «ingrid@eksempel.no» → «in•••@eksempel.no»
+create function public.skjul_epost(p_epost text)
+returns text
+language sql
+immutable
+set search_path = ''
+as $$
+  select left(split_part(p_epost, '@', 1), 2) || '•••@' || split_part(p_epost, '@', 2);
+$$;
 
 -- Gratis tid: poengene trekkes først (kreditt_start), så legger serverfunksjonen
 -- «betaling» krediten inn i Stripe (kreditt_ferdig). Feiler Stripe, gis
@@ -824,8 +865,8 @@ as $$
       where k.bruker_id = p_bruker and k.status <> 'angret'
     ) at time zone 'Europe/Oslo', 'DD.MM.YYYY') || '.'
     when b.type = 'venn' and (
-      select count(*) from public.vennekoder v where v.giver = p_bruker and v.brukt is null
-    ) >= 3 then 'Du har tre ubrukte vennekoder. Del dem før du lager flere.'
+      select count(*) from public.vennegaver v where v.giver = p_bruker and v.status = 'aktiv' and v.gyldig_til > now()
+    ) >= 3 then 'Du har sendt tre gaver som ikke er brukt ennå. Når en er brukt eller har gått ut, kan du sende en ny.'
     when b.type = 'ting' and exists (
       select 1 from public.eiendeler e where e.bruker_id = p_bruker and e.ting = b.verdi
     ) then 'Du har denne allerede.'
@@ -861,7 +902,8 @@ $$;
 -- Løser inn en belønning: trekker poengene og gir eleven det hen kjøpte, alt i
 -- én transaksjon. Låsen per elev hindrer at samme poeng brukes to ganger.
 --   kode: en ledig partnerkode     ting: tingen legges i eiendeler
---   venn: en ny vennekode          kreditt: går via serverfunksjonen «betaling»
+--   kreditt: går via serverfunksjonen «betaling»
+--   venn: går via serverfunksjonen «vennegave» (som sender e-posten)
 create function public.los_inn(p_belonning uuid)
 returns table (kode text, partner text, lenke text, saldo int)
 language plpgsql
@@ -887,6 +929,9 @@ begin
   end if;
   if v_b.type = 'kreditt' then
     raise exception 'Gratis tid løses inn fra belønningssiden.';
+  end if;
+  if v_b.type = 'venn' then
+    raise exception 'Gaver til venner sendes fra belønningssiden.';
   end if;
   -- Nye kontoer kan ikke løse inn med en gang, så det ikke lønner seg å lage
   -- mange kontoer for å samle koder (sjekkes i belonning_sperre).
@@ -919,20 +964,6 @@ begin
     end if;
   elsif v_b.type = 'ting' then
     insert into public.eiendeler (bruker_id, ting, belonning_id) values (v_bruker, v_b.verdi, v_b.id);
-  elsif v_b.type = 'venn' then
-    -- Kort kode som er lett å skrive av: VENN-1A2B3C. Prøver igjen ved kollisjon.
-    for i in 1..5 loop
-      v_kode := 'VENN-' || upper(substr(md5(gen_random_uuid()::text), 1, 6));
-      begin
-        insert into public.vennekoder (kode, giver, belonning_id, dager) values (v_kode, v_bruker, v_b.id, v_b.verdi::int);
-        exit;
-      exception when unique_violation then
-        v_kode := null;
-      end;
-    end loop;
-    if v_kode is null then
-      raise exception 'Fikk ikke laget en kode. Prøv igjen.';
-    end if;
   end if;
 
   insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
@@ -1009,42 +1040,190 @@ begin
 end;
 $$;
 
--- En ny kunde bruker en vennekode (bare serverfunksjonen «betaling»). Svarer
--- antall dager kreditt, eller null når koden ikke kan brukes: finnes ikke, er
--- elevens egen, er brukt av en annen, eller eleven har brukt en annen kode før.
-create function public.vennekode_bruk(p_kode text, p_bruker uuid)
-returns int
+-- Gave til en venn, første halvdel (bare serverfunksjonen «vennegave», med
+-- secret-nøkkelen): sjekker, trekker poengene og lagrer gaven. Så sender
+-- funksjonen e-posten; feiler den, gis poengene tilbake (vennegave_angre).
+-- Svaret sier ikke om adressen har en konto hos Studer.
+create function public.vennegave_lag(p_bruker uuid, p_belonning uuid, p_epost text)
+returns table (id uuid, dager int, fra text, gyldig_til timestamptz, saldo int)
 language plpgsql
 security definer
 set search_path = ''
 as $$
 declare
-  v_kode text := upper(trim(coalesce(p_kode, '')));
-  v_dager int;
+  v_b public.belonninger;
+  v_epost text := lower(trim(coalesce(p_epost, '')));
+  v_saldo int;
+  v_sperre text;
+  v_id uuid;
+  v_til timestamptz;
 begin
-  if exists (select 1 from public.vennekoder v where v.brukt_av = p_bruker and v.kode <> v_kode) then
-    return null;
+  perform pg_advisory_xact_lock(hashtextextended(p_bruker::text, 0));
+  if length(v_epost) > 254 or v_epost !~ '^[^@[:space:]]+@[^@[:space:]]+[.][^@[:space:]]+$' then
+    raise exception 'Skriv en gyldig e-postadresse.';
   end if;
-  update public.vennekoder v
-  set brukt_av = p_bruker, brukt = coalesce(v.brukt, now())
-  where v.kode = v_kode and v.giver <> p_bruker and (v.brukt_av is null or v.brukt_av = p_bruker)
-  returning v.dager into v_dager;
-  return v_dager;
+  select * into v_b from public.belonninger b
+  where b.id = p_belonning and b.type = 'venn' and b.aktiv
+    and (b.gyldig_til is null or b.gyldig_til >= public.minne_i_dag());
+  if not found then
+    raise exception 'Belønningen finnes ikke lenger';
+  end if;
+  v_sperre := public.belonning_sperre(p_bruker, v_b);
+  if v_sperre is not null then
+    raise exception '%', v_sperre;
+  end if;
+  if exists (select 1 from auth.users u where u.id = p_bruker and lower(u.email) = v_epost) then
+    raise exception 'Gaven er til en venn, så du kan ikke sende den til deg selv.';
+  end if;
+  if exists (
+    select 1 from public.vennegaver v
+    where v.giver = p_bruker and v.epost = v_epost and v.status in ('aktiv', 'brukt')
+  ) then
+    raise exception 'Du har allerede sendt en gave til denne adressen.';
+  end if;
+  select coalesce(sum(l.endring), 0) into v_saldo from public.poeng_logg l where l.bruker_id = p_bruker;
+  if v_saldo < v_b.poengpris then
+    raise exception 'Du har ikke nok poeng';
+  end if;
+  insert into public.vennegaver (giver, belonning_id, epost, dager, poeng)
+  values (p_bruker, v_b.id, v_epost, v_b.verdi::int, v_b.poengpris)
+  returning vennegaver.id, vennegaver.gyldig_til into v_id, v_til;
+  insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
+  values (p_bruker, -v_b.poengpris, 'innlosning', v_b.id);
+  return query select v_id, v_b.verdi::int, public.gavenavn(p_bruker), v_til, v_saldo - v_b.poengpris;
 end;
 $$;
 
--- Vennekodene eleven har laget, og om de er brukt.
-create function public.mine_vennekoder()
-returns table (kode text, dager int, laget timestamptz, brukt boolean)
+-- E-posten kunne ikke sendes: gi poengene tilbake.
+create function public.vennegave_angre(p_id uuid)
+returns void
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v public.vennegaver;
+begin
+  update public.vennegaver set status = 'angret' where id = p_id and status = 'aktiv' returning * into v;
+  if found and v.giver is not null then
+    insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
+    values (v.giver, v.poeng, 'korrigering', v.belonning_id);
+  end if;
+end;
+$$;
+
+-- En ny kunde starter sitt første abonnement (bare serverfunksjonen «betaling»,
+-- som har sjekket at kunden aldri har hatt abonnement). Finnes det en gave til
+-- e-postadressen (bekreftet), brukes den eldste: beløpet (dager × øre per dag)
+-- lagres, og funksjonen legger det inn i Stripe. ny = false: eleven har brukt
+-- en gave før – den vises, men gis ikke igjen. Ingen rad: ingen gave.
+create function public.vennegave_bruk(p_bruker uuid, p_ore_per_dag numeric)
+returns table (id uuid, dager int, belop_ore int, ny boolean)
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_epost text;
+  v public.vennegaver;
+begin
+  perform pg_advisory_xact_lock(hashtextextended(p_bruker::text, 0));
+  select * into v from public.vennegaver g where g.brukt_av = p_bruker and g.status = 'brukt';
+  if found then
+    return query select v.id, v.dager, v.belop_ore, false;
+    return;
+  end if;
+  select lower(u.email) into v_epost from auth.users u where u.id = p_bruker and u.email_confirmed_at is not null;
+  if v_epost is null then
+    return;
+  end if;
+  update public.vennegaver g
+  set status = 'brukt', brukt_av = p_bruker, brukt = now(), belop_ore = round(g.dager * p_ore_per_dag)::int
+  where g.id = (
+    select g2.id from public.vennegaver g2
+    where g2.epost = v_epost and g2.status = 'aktiv' and g2.gyldig_til > now() and g2.giver is distinct from p_bruker
+    order by g2.laget
+    limit 1
+    for update skip locked
+  )
+  returning g.* into v;
+  if found then
+    return query select v.id, v.dager, v.belop_ore, true;
+  end if;
+end;
+$$;
+
+-- Stripe feilet etter vennegave_bruk: gaven kan brukes igjen.
+create function public.vennegave_ikke_brukt(p_id uuid)
+returns void
+language sql
+security definer
+set search_path = ''
+as $$
+  update public.vennegaver set status = 'aktiv', brukt_av = null, brukt = null, belop_ore = null
+  where id = p_id and status = 'brukt';
+$$;
+
+-- Hver natt: gaver som ikke kan brukes lenger (gått ut, eller vennen har brukt
+-- en annen gave) gir poengene tilbake, og adressen skjules når gaven er ferdig.
+create function public.vennegaver_rydd()
+returns void
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  with ute as (
+    update public.vennegaver v set status = 'utlopt'
+    where v.status = 'aktiv' and (
+      v.gyldig_til <= now()
+      or exists (
+        select 1 from public.vennegaver b
+        join auth.users u on u.id = b.brukt_av
+        where b.status = 'brukt' and lower(u.email) = v.epost
+      )
+    )
+    returning v.giver, v.poeng, v.belonning_id
+  )
+  insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
+  select ute.giver, ute.poeng, 'korrigering', ute.belonning_id from ute where ute.giver is not null;
+
+  update public.vennegaver set epost = public.skjul_epost(epost)
+  where status <> 'aktiv' and position('•••@' in epost) = 0;
+end;
+$$;
+
+-- Gavene eleven har sendt (ikke de som aldri ble sendt).
+create function public.mine_vennegaver()
+returns table (id uuid, epost text, dager int, status text, laget timestamptz, gyldig_til timestamptz)
 language sql
 stable
 security definer
 set search_path = ''
 as $$
-  select v.kode, v.dager, v.laget, v.brukt is not null
-  from public.vennekoder v
-  where v.giver = auth.uid()
+  select v.id, v.epost, v.dager,
+         case when v.status = 'aktiv' and v.gyldig_til <= now() then 'utlopt' else v.status end,
+         v.laget, v.gyldig_til
+  from public.vennegaver v
+  where v.giver = auth.uid() and v.status <> 'angret'
   order by v.laget desc;
+$$;
+
+-- En gave som venter på eleven (vises på abonnementssiden før betaling).
+create function public.min_vennegave()
+returns table (fra text, dager int, gyldig_til timestamptz)
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select public.gavenavn(v.giver), v.dager, v.gyldig_til
+  from public.vennegaver v
+  join auth.users u on u.id = auth.uid() and u.email_confirmed_at is not null and lower(u.email) = v.epost
+  where v.status = 'aktiv' and v.gyldig_til > now() and v.giver is distinct from auth.uid()
+    and not exists (select 1 from public.vennegaver b where b.brukt_av = auth.uid() and b.status = 'brukt')
+  order by v.laget
+  limit 1;
 $$;
 
 create function public.mine_kuponger()
@@ -1090,13 +1269,20 @@ revoke execute on function public.min_poengstatus() from public, anon;
 revoke execute on function public.belonninger_med_lager() from public, anon;
 revoke execute on function public.los_inn(uuid) from public, anon;
 revoke execute on function public.mine_kuponger() from public, anon;
-revoke execute on function public.mine_vennekoder() from public, anon;
+revoke execute on function public.mine_vennegaver() from public, anon;
+revoke execute on function public.min_vennegave() from public, anon;
 revoke execute on function public.belonning_sperre(uuid, public.belonninger) from public, anon, authenticated;
 revoke execute on function public.sjekk_valgte_ting() from public, anon, authenticated;
 revoke execute on function public.kreditt_start(uuid, uuid) from public, anon, authenticated;
 revoke execute on function public.kreditt_ferdig(uuid, text, int) from public, anon, authenticated;
 revoke execute on function public.kreditt_angre(uuid) from public, anon, authenticated;
-revoke execute on function public.vennekode_bruk(text, uuid) from public, anon, authenticated;
+revoke execute on function public.gavenavn(uuid) from public, anon, authenticated;
+revoke execute on function public.skjul_epost(text) from public, anon, authenticated;
+revoke execute on function public.vennegave_lag(uuid, uuid, text) from public, anon, authenticated;
+revoke execute on function public.vennegave_angre(uuid) from public, anon, authenticated;
+revoke execute on function public.vennegave_bruk(uuid, numeric) from public, anon, authenticated;
+revoke execute on function public.vennegave_ikke_brukt(uuid) from public, anon, authenticated;
+revoke execute on function public.vennegaver_rydd() from public, anon, authenticated;
 
 grant execute on function public.lagre_resultat(text, text, numeric, int) to authenticated;
 grant execute on function public.start_formelmatch(text) to authenticated;
@@ -1108,7 +1294,12 @@ grant execute on function public.min_poengstatus() to authenticated;
 grant execute on function public.belonninger_med_lager() to authenticated;
 grant execute on function public.los_inn(uuid) to authenticated;
 grant execute on function public.mine_kuponger() to authenticated;
-grant execute on function public.mine_vennekoder() to authenticated;
+grant execute on function public.mine_vennegaver() to authenticated;
+grant execute on function public.min_vennegave() to authenticated;
+
+-- Gaver til venner: poeng tilbake for gaver som ikke ble brukt, og adressene
+-- skjules (pg_cron er slått på i 20260930201321_forslag_og_opprydding.sql).
+select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegaver_rydd(); $$);
 
 -- ---------------------------------------------------------------- Studers egne belønninger
 --
@@ -1116,9 +1307,8 @@ grant execute on function public.mine_vennekoder() to authenticated;
 -- Til sammenligning: en elev som øver hver dag, tjener rundt 50–150 poeng per dag.
 
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
-  ('Studer', 'En gratis uke', 'Prisen for én uke trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
-  ('Studer', 'En gratis måned', 'Prisen for én måned trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 5000, 'kreditt', '30'),
-  ('Studer', 'Gi en venn en gratis uke', 'Du får en kode og en lenke til en venn som ikke har Studer. Vennen får én uke gratis.', 'Bare for nye abonnenter. Høyst tre ubrukte koder om gangen.', 800, 'venn', '7'),
+  ('Studer', 'En gratis uke', 'Prisen for én uke trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 2500, 'kreditt', '7'),
+  ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.', 'Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
   ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
   ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
   ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 1200, 'ting', 'flamme-regnbue'),

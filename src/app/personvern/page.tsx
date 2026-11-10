@@ -59,6 +59,14 @@ export default function Personvern() {
           sjekkes automatisk for banneord og stygge ord før det lagres. Grunnlaget er avtalen med deg.
         </p>
         <p>
+          <strong>Gaver til venner.</strong> Gir du en venn en gratis uke, lagrer vi e-postadressen du skriver, og
+          sender vennen én e-post med fornavnet ditt. Adressen brukes bare til å sende den e-posten og til å gi vennen
+          uka hvis hen lager konto med den adressen – aldri til reklame. Når gaven er brukt eller har gått ut (etter 60
+          dager), skjules adressen, så bare de to første bokstavene og domenet står igjen. Har du fått en slik e-post og
+          vil at vi skal slette adressen med en gang, kan du skrive til oss. Grunnlaget er avtalen med den som gir
+          gaven, og vår berettigede interesse i å levere gaven (artikkel 6 nr. 1 bokstav f).
+        </p>
+        <p>
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på
           skriveoppgavene i miniprøven, sendes til OpenAI for å lage svar og retting. Et kallenavn du velger, sendes
           også til OpenAI for å sjekke at det ikke er støtende. Vi lagrer ikke samtalene eller svarene dine. Vi lagrer
@@ -118,7 +126,8 @@ export default function Personvern() {
             trene modellene sine, og kan lagre dem i inntil 30 dager for å oppdage misbruk før de slettes.
           </li>
           <li>
-            <strong>domene.no</strong>: e-posten vår, når du skriver til oss.
+            <strong>domene.no</strong>: e-posten vår, når du skriver til oss, og e-posten vi sender når noen gir en
+            venn en gratis uke.
           </li>
         </ul>
         <p>
@@ -147,6 +156,10 @@ export default function Personvern() {
           </li>
           <li>
             <strong>Tellerne for AI-bruk</strong>: slettes etter 90 dager.
+          </li>
+          <li>
+            <strong>E-postadressen til en venn du har gitt en gave</strong>: skjules senest et døgn etter at gaven er
+            brukt eller har gått ut (etter 60 dager).
           </li>
           <li>
             <strong>Kontrollen av prøveperioden</strong> (sjekksum og kortfingeravtrykk): slettes etter 2 år.

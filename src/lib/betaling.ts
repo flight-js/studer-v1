@@ -31,13 +31,14 @@ async function kall<T>(body: Record<string, unknown>): Promise<T> {
   return data as T;
 }
 
-// vennKreditt: kroner fra en vennekode som trekkes fra første betaling («13,77»).
+// vennKreditt: kroner fra en gave fra en venn som trekkes fra første betaling
+// («13,77»). Gaven er knyttet til e-postadressen og brukes av serveren.
 export type Betalingsokt = { clientSecret: string; publishableKey: string; provetid: boolean; vennKreditt: string | null };
 
-// Serveren avgjør om eleven får prøveperiode (provetid) – ikke nettsiden.
-// vennekode: kode fra en venn (VENN-1A2B3C), gir én uke som kreditt.
-export const startBetaling = async (plan: Plan, vennekode?: string): Promise<Betalingsokt> => {
-  const okt = await kall<Betalingsokt>({ handling: "start", plan, skjema: "elements", vennekode: vennekode || undefined });
+// Serveren avgjør om eleven får prøveperiode (provetid) og gave fra en venn –
+// ikke nettsiden.
+export const startBetaling = async (plan: Plan): Promise<Betalingsokt> => {
+  const okt = await kall<Betalingsokt>({ handling: "start", plan, skjema: "elements" });
   return { ...okt, provetid: okt.provetid === true, vennKreditt: okt.vennKreditt ?? null };
 };
 
@@ -69,8 +70,6 @@ export function betalingsfeiltekst(e: unknown): string {
       return "Du må logge inn på nytt.";
     case "nett":
       return "Fikk ikke kontakt med serveren. Sjekk nettet og prøv igjen.";
-    case "vennekode":
-      return "Koden fra vennen din kan ikke brukes. Sjekk at den er riktig, eller fjern den. Koder gjelder bare for nye abonnenter.";
     case "kreditt":
       return (e as Betalingsfeil).melding ?? "Fikk ikke løst inn gratis tid. Prøv igjen.";
     case "kreditt-uten-abonnement":

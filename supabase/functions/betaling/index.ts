@@ -5,8 +5,10 @@
 // Funksjonen skriver aldri abonnementet i profiles. Det gjør bare
 // «stripe-webhook», etter at Stripe har bekreftet betalingen.
 //
-// Gratis tid kjøpt med poeng (handling «kreditt») og vennekoder gis som kreditt
-// på kunden i Stripe, som trekkes fra neste betaling.
+// Gratis tid kjøpt med poeng (handling «kreditt») og gaver fra venner gis som
+// kreditt på kunden i Stripe, som trekkes fra neste betaling. En gave fra en
+// venn er knyttet til e-postadressen (serverfunksjonen «vennegave») og brukes
+// automatisk når eleven starter sitt første abonnement.
 //
 // Prøveperiode (14 dager): gis bare hvis kunden aldri har hatt abonnement, og
 // kontoen og e-posten ikke har hatt prøveperiode før (tabellen provetid).
@@ -72,15 +74,16 @@ async function aktivtAbonnement(kunde: string) {
   return liste.data.find((s) => AKTIVE.includes(s.status)) ?? null;
 }
 
-// Hva et antall dager er verdt med en pris (i øre): månedspris × dager / 30,
-// årspris × dager / 365. Brukes til gratis tid og vennekoder.
-function verdiAvDager(pris: Stripe.Price, dager: number): number {
+// Hva en dag er verdt med en pris (i øre): månedspris / 30, årspris / 365.
+// Brukes til gratis tid og gaver fra venner.
+function orePerDag(pris: Stripe.Price): number {
   const aar = pris.recurring?.interval === "year";
   const perioder = pris.recurring?.interval_count ?? 1;
-  return Math.round(((pris.unit_amount ?? 0) * dager) / ((aar ? 365 : 30) * perioder));
+  return (pris.unit_amount ?? 0) / ((aar ? 365 : 30) * perioder);
 }
+const verdiAvDager = (pris: Stripe.Price, dager: number) => Math.round(orePerDag(pris) * dager);
 
-// Gratis tid og vennekoder gis som kreditt på kunden i Stripe: den trekkes
+// Gratis tid og gaver fra venner gis som kreditt på kunden i Stripe: den trekkes
 // automatisk fra neste betaling. (Ikke forlenget prøveperiode – da ville
 // stripe-webhook tro at eleven prøver å få en ny prøveperiode.)
 async function giKreditt(kunde: string, ore: number, valuta: string, beskrivelse: string, nokkel: string) {
@@ -123,9 +126,9 @@ Deno.serve(async (req) => {
   if (!brukerId) return svar(401, { feil: "ikke-innlogget" });
   if (!stripe || !PUBLISERBAR || !PRISER.maned || !PRISER.ar) return svar(503, { feil: "ikke-satt-opp" });
 
-  let handling: unknown, plan: unknown, skjema: unknown, vennekode: unknown, belonning: unknown;
+  let handling: unknown, plan: unknown, skjema: unknown, belonning: unknown;
   try {
-    ({ handling, plan, skjema, vennekode, belonning } = await req.json());
+    ({ handling, plan, skjema, belonning } = await req.json());
   } catch {
     return svar(400, { feil: "ugyldig" });
   }
@@ -175,22 +178,30 @@ Deno.serve(async (req) => {
       if (provefeil) throw new Error(provefeil.message);
       const provetid = ledig === true && !tidligere.some((s) => !ALDRI_STARTET.includes(s.status));
 
-      // Kode fra en venn: én uke (eller det koden gir) som kreditt, bare for
-      // kunder som aldri har hatt abonnement. Ugyldig kode stopper kjøpet, så
-      // eleven kan rette den eller fjerne den før hen betaler.
+      // Gave fra en venn: er det sendt en gave til e-postadressen til eleven, og
+      // eleven aldri har hatt abonnement, legges verdien inn som kreditt (én
+      // gang – starter eleven på nytt, vises bare beløpet). Feiler Stripe, kan
+      // gaven brukes neste gang (vennegave_ikke_brukt).
       let vennKreditt: string | null = null;
-      if (typeof vennekode === "string" && vennekode.trim()) {
-        const kode = vennekode.trim().toUpperCase();
-        if (!/^VENN-[0-9A-F]{6}$/.test(kode) || tidligere.some((s) => !ALDRI_STARTET.includes(s.status))) {
-          return svar(400, { feil: "vennekode" });
-        }
-        const { data: dager, error: vennefeil } = await admin.rpc("vennekode_bruk", { p_kode: kode, p_bruker: brukerId });
-        if (vennefeil) throw new Error(vennefeil.message);
-        if (typeof dager !== "number") return svar(400, { feil: "vennekode" });
+      if (!tidligere.some((s) => !ALDRI_STARTET.includes(s.status))) {
         const pris = await stripe.prices.retrieve(PRISER[plan]);
-        const ore = verdiAvDager(pris, dager);
-        await giKreditt(kunde!, ore, pris.currency, `Vennekode ${kode}: ${dager} dager gratis`, `venn-${kode}`);
-        vennKreditt = kroner(ore);
+        const { data: gaver, error: vennefeil } = await admin.rpc("vennegave_bruk", {
+          p_bruker: brukerId,
+          p_ore_per_dag: orePerDag(pris),
+        });
+        if (vennefeil) throw new Error(vennefeil.message);
+        const gave = gaver?.[0] as { id: string; dager: number; belop_ore: number; ny: boolean } | undefined;
+        if (gave) {
+          if (gave.ny) {
+            try {
+              await giKreditt(kunde!, gave.belop_ore, pris.currency, `Gave fra en venn: ${gave.dager} dager gratis`, `venn-${gave.id}`);
+            } catch (e) {
+              await admin.rpc("vennegave_ikke_brukt", { p_id: gave.id });
+              throw e;
+            }
+          }
+          vennKreditt = kroner(gave.belop_ore);
+        }
       }
 
       const felles = {

@@ -10,9 +10,11 @@ import {
   type StripeExpressCheckoutElement,
 } from "@stripe/stripe-js";
 import { AppBar } from "@/components/AppBar";
-import { ArrowRight, Check, Lock } from "@/components/icons";
+import { ArrowRight, Check, Gave, Lock } from "@/components/icons";
 import { Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
+import { hentMinVennegave } from "@/lib/konkurranse";
+import { useHent } from "@/lib/useHent";
 import {
   betalingsfeiltekst,
   endreFornyelse,
@@ -46,9 +48,6 @@ function Abonnement() {
   const params = useSearchParams();
   const { bruker, laster, profil, oppfriskProfil } = useAuth();
   const [plan, setPlan] = useState<Plan>(params.get("plan") === "maned" ? "maned" : "ar");
-  // Kode fra en venn (lenken fra Belønninger har ?venn=…): én uke trekkes fra første betaling.
-  const [vennekode, setVennekode] = useState((params.get("venn") ?? "").toUpperCase());
-  const [visVenn, setVisVenn] = useState(!!params.get("venn"));
   // På mobil havner knappen under planene og fordelene, så etter et planvalg
   // rulles den inn i bildet hvis den ikke alt er synlig. Bare på mobil (under
   // sm, der planene står under hverandre) – på PC skal siden stå i ro.
@@ -76,12 +75,15 @@ function Abonnement() {
   const neste = tryggNeste(params.get("neste"));
   // Uten konto vet vi ikke ennå – de aller fleste nye kan prøve gratis.
   const visProve = bruker ? kanProve(profil) : true;
+  // Gave fra en venn til e-postadressen til eleven (Belønninger → «Gi en venn
+  // en gratis uke»). Serveren bruker den når abonnementet startes.
+  const gave = useHent(bruker && visProve ? `vennegave:${bruker.id}` : null, hentMinVennegave);
 
   const tilBetaling = async () => {
     setFeil(null);
     setJobber(true);
     try {
-      const ny = await startBetaling(plan, vennekode.trim() || undefined);
+      const ny = await startBetaling(plan);
       setProvetidSlutt(new Date(Date.now() + PROVEDAGER * 86_400_000).toISOString());
       setOkt(ny);
       setSteg("betal");
@@ -266,9 +268,7 @@ function Abonnement() {
   }
 
   // Velg plan og betal
-  const tilbakeHit = `/abonnement?plan=${plan}${neste ? `&neste=${encodeURIComponent(neste)}` : ""}${
-    vennekode.trim() ? `&venn=${encodeURIComponent(vennekode.trim())}` : ""
-  }`;
+  const tilbakeHit = `/abonnement?plan=${plan}${neste ? `&neste=${encodeURIComponent(neste)}` : ""}`;
   return (
     <Ramme bred={steg === "betal"}>
       <Overskrift
@@ -303,7 +303,7 @@ function Abonnement() {
               </span>
               {okt.vennKreditt && (
                 <span className="text-sm font-medium text-success-ink">
-                  Koden fra vennen din: {okt.vennKreditt} kr trekkes fra første betaling.
+                  Gaven fra vennen din: {okt.vennKreditt} kr trekkes fra første betaling.
                 </span>
               )}
               {visProve && !okt.provetid && (
@@ -352,34 +352,15 @@ function Abonnement() {
             ))}
           </ul>
 
-          {visVenn ? (
-            <div className="flex flex-col gap-1.5 max-w-sm">
-              <label htmlFor="vennekode" className="text-sm font-semibold">
-                Kode fra en venn
-              </label>
-              <input
-                id="vennekode"
-                value={vennekode}
-                onChange={(e) => setVennekode(e.target.value.toUpperCase())}
-                placeholder="VENN-1A2B3C"
-                maxLength={11}
-                autoComplete="off"
-                spellCheck={false}
-                aria-describedby="vennekode-hjelp"
-                className="rounded-xl border-[1.5px] border-border-strong bg-background px-4 py-3 font-mono text-[15px] tracking-wide outline-none transition-colors duration-200 focus:border-primary"
-              />
-              <span id="vennekode-hjelp" className="text-xs text-muted">
-                Gir deg én uke gratis, trukket fra første betaling. Gjelder bare nye abonnenter.
+          {gave.data && (
+            <p className="self-start flex items-start gap-2.5 rounded-2xl bg-success-tint text-success-ink px-4 py-3 text-sm font-medium max-w-xl">
+              <Gave size={18} className="shrink-0 mt-0.5" />
+              <span>
+                {gave.data.fra ?? "En venn"} har gitt deg{" "}
+                {gave.data.dager === 7 ? "en gratis uke" : `${gave.data.dager} gratis dager`}. Den trekkes fra første
+                betaling.
               </span>
-            </div>
-          ) : (
-            <button
-              type="button"
-              onClick={() => setVisVenn(true)}
-              className="self-start text-sm font-semibold text-ink-soft underline decoration-border-strong decoration-2 underline-offset-4 hover:text-foreground hover:decoration-foreground transition-colors"
-            >
-              Har du en kode fra en venn?
-            </button>
+            </p>
           )}
 
           {feil && <Feilmelding tekst={feil} />}

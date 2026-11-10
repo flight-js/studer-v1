@@ -43,8 +43,8 @@ export type Belonning = {
   lenke: string | null;
   poengpris: number;
   gyldigTil: string | null;
-  // kode: partnerkode. kreditt: gratis tid (verdi = dager). venn: kode til en
-  // venn (verdi = dager). ting: noe i appen (verdi = tingen, se lib/utseende.ts).
+  // kode: partnerkode. kreditt: gratis tid (verdi = dager). venn: gave til en
+  // venn på e-post (verdi = dager). ting: noe i appen (verdi = tingen, se lib/utseende.ts).
   type: "kode" | "kreditt" | "venn" | "ting";
   verdi: string | null;
   igjen: number | null; // null = ubegrenset (Studers egne)
@@ -215,20 +215,68 @@ export async function losInn(belonningId: string) {
   return r;
 }
 
-export type Vennekode = { kode: string; dager: number; laget: string; brukt: boolean };
+// Gaver til venner: eleven skriver vennens e-postadresse, og serverfunksjonen
+// «vennegave» trekker poengene og sender vennen en e-post. Vennen får uka når
+// hen starter sitt første abonnement med den adressen.
+//   aktiv: sendt, ikke brukt ennå   brukt: vennen har fått uka
+//   utlopt: ikke brukt i tide – giveren får poengene tilbake
+export type Vennegave = {
+  id: string;
+  epost: string;
+  dager: number;
+  status: "aktiv" | "brukt" | "utlopt";
+  laget: string;
+  gyldigTil: string;
+};
 
-export async function hentMineVennekoder(): Promise<Vennekode[]> {
-  const { data, error } = await supabase.rpc("mine_vennekoder");
+export async function hentMineVennegaver(): Promise<Vennegave[]> {
+  const { data, error } = await supabase.rpc("mine_vennegaver");
   if (error) {
     if (ikkeSattOpp(error)) return [];
     throw new Error(error.message);
   }
-  return data ?? [];
+  return (data ?? []).map((r) => ({
+    id: r.id,
+    epost: r.epost,
+    dager: r.dager,
+    status: r.status as Vennegave["status"],
+    laget: r.laget,
+    gyldigTil: r.gyldig_til,
+  }));
 }
 
-// Lenken vennen åpner: lag konto, så rett til abonnementet med koden fylt inn.
-export const vennelenke = (kode: string) =>
-  `${typeof window === "undefined" ? "https://studer.no" : window.location.origin}/registrer?neste=${encodeURIComponent(`/abonnement?venn=${kode}`)}`;
+// Kaster med teksten eleven skal se. saldo: poengene som er igjen.
+export async function sendVennegave(belonningId: string, epost: string): Promise<{ saldo: number; epost: string }> {
+  const { data, error } = await supabase.functions.invoke("vennegave", { body: { belonning: belonningId, epost } });
+  if (!error) return data as { saldo: number; epost: string };
+  if (error.name === "FunctionsFetchError") throw new Error("Fikk ikke kontakt med serveren. Sjekk nettet og prøv igjen.");
+  const res = (error as { context?: unknown }).context;
+  if (res instanceof Response && res.status === 404) throw new Error("Gaver til venner er ikke slått på ennå.");
+  const body = res instanceof Response ? ((await res.json().catch(() => ({}))) as { feil?: string; melding?: string }) : {};
+  switch (body.feil) {
+    case "vennegave":
+      throw new Error(body.melding ?? "Fikk ikke sendt gaven. Prøv igjen.");
+    case "epost":
+      throw new Error("Skriv en gyldig e-postadresse.");
+    case "sendefeil":
+      throw new Error("Fikk ikke sendt e-posten. Du har fått poengene tilbake – sjekk adressen og prøv igjen.");
+    case "ikke-satt-opp":
+      throw new Error("Gaver til venner er ikke slått på ennå.");
+    case "ikke-innlogget":
+      throw new Error("Du må logge inn på nytt.");
+    default:
+      throw new Error("Noe gikk galt. Prøv igjen om litt.");
+  }
+}
+
+// En gave som venter på eleven (vises på abonnementssiden). fra: fornavnet til
+// giveren, eller null.
+export async function hentMinVennegave(): Promise<{ fra: string | null; dager: number } | null> {
+  const { data, error } = await supabase.rpc("min_vennegave");
+  if (error) return null;
+  const r = data?.[0];
+  return r ? { fra: r.fra, dager: r.dager } : null;
+}
 
 export async function hentMineKuponger(): Promise<Med<Kupong[]>> {
   const res = await supabase.rpc("mine_kuponger");
@@ -432,9 +480,8 @@ const EKSEMPEL = {
   ] satisfies Toppplass[],
   // Studers egne er de samme som legges inn med migrasjonen; partnerne er oppdiktet.
   belonninger: [
-    egen("kreditt", "7", "En gratis uke", "Prisen for én uke trekkes fra neste betaling.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 1500),
-    egen("kreditt", "30", "En gratis måned", "Prisen for én måned trekkes fra neste betaling.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 5000),
-    egen("venn", "7", "Gi en venn en gratis uke", "Du får en kode og en lenke til en venn som ikke har Studer. Vennen får én uke gratis.", "Bare for nye abonnenter. Høyst tre ubrukte koder om gangen.", 800),
+    egen("kreditt", "7", "En gratis uke", "Prisen for én uke trekkes fra neste betaling.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 2500),
+    egen("venn", "7", "Gi en venn en gratis uke", "Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.", "Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.", 800),
     egen("ting", "flamme-bla", "Blå flamme", "Rekka di brenner blått.", "", 400),
     egen("ting", "flamme-gronn", "Grønn flamme", "Rekka di brenner grønt.", "", 400),
     egen("ting", "flamme-regnbue", "Regnbueflamme", "Rekka di skifter farge mens den brenner.", "", 1200),

@@ -13,22 +13,25 @@ import { konfetti } from "@/lib/feiring";
 import {
   hentBelonninger,
   hentMineKuponger,
-  hentMineVennekoder,
+  hentMineVennegaver,
   hentPoengstatus,
   losInn,
-  vennelenke,
+  sendVennegave,
   type Belonning,
+  type Vennegave,
 } from "@/lib/konkurranse";
 import { hentMineTing, tingtype, useUtseende, velgTing, type MineTing } from "@/lib/utseende";
 import { useHent } from "@/lib/useHent";
 
 // Innholdet på /belonninger (siden sjekker innloggingen). Poeng løses inn i:
-//   Fra Studer:   gratis tid (trekkes fra neste betaling) og koder til venner
+//   Fra Studer:   gratis tid (trekkes fra neste betaling) og gaver til venner
+//                 (eleven skriver vennens e-post, Studer sender e-posten)
 //   Til appen:    flammefarger, konfetti og merker ved navnet – kan prøves først
 //   Fra partnere: koder fra ekte partnere (se nederst i migrasjonen); finnes
 //                 ingen, står det at de kommer snart.
 
 const tall = (n: number) => n.toLocaleString("nb-NO");
+const dato = (iso: string) => new Date(iso).toLocaleDateString("nb-NO", { day: "numeric", month: "long" });
 const IKKE_PA = "Innløsning er ikke slått på ennå. Dette er bare et eksempel.";
 
 export function Belonningsside({ brukerId }: { brukerId: string }) {
@@ -38,7 +41,7 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
   const status = useHent(id && `poeng:${id}:${runde}`, hentPoengstatus);
   const belonninger = useHent(id && `belonninger:${id}:${runde}`, hentBelonninger);
   const kuponger = useHent(id && `kuponger:${id}:${runde}`, hentMineKuponger);
-  const vennekoder = useHent(id && `vennekoder:${id}:${runde}`, hentMineVennekoder);
+  const gaver = useHent(id && `vennegaver:${id}:${runde}`, hentMineVennegaver);
   const ting = useHent(id && `ting:${id}:${runde}`, () => hentMineTing(id));
 
   if (belonninger.feil) return <Ramme><Feil tekst="Fikk ikke hentet belønningene. Sjekk nettet og prøv igjen." href="/konkurranse" lenketekst="Tilbake" /></Ramme>;
@@ -102,19 +105,14 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
             </>
           )}
 
-          {!!vennekoder.data?.length && (
-            <section aria-labelledby="venner-tittel" className="flex flex-col gap-4">
-              <h2 id="venner-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Kodene til venner</h2>
+          {!!gaver.data?.length && (
+            <section aria-labelledby="gaver-tittel" className="flex flex-col gap-4">
+              <h2 id="gaver-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Gaver du har sendt</h2>
               <ul className="border-t border-border-strong">
-                {vennekoder.data.map((v) => (
-                  <li key={v.kode} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                    <span className="flex flex-col">
-                      <span className="font-semibold">{v.dager} dager gratis til en venn</span>
-                      <span className={`text-sm ${v.brukt ? "text-success-ink" : "text-muted"}`}>
-                        {v.brukt ? "Brukt – takk for at du delte!" : "Ikke brukt ennå"}
-                      </span>
-                    </span>
-                    {!v.brukt && <Kode kode={v.kode} lenke={null} deling />}
+                {gaver.data.map((g) => (
+                  <li key={g.id} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-3">
+                    <span className="font-semibold break-all">{g.epost}</span>
+                    <Gavestatus gave={g} />
                   </li>
                 ))}
               </ul>
@@ -185,12 +183,23 @@ function Seksjon({ tittel, tekst, children }: { tittel: string; tekst: string; c
 
 type Resultat =
   | { type: "kode"; kode: string; lenke: string | null }
-  | { type: "venn"; kode: string }
+  | { type: "venn"; epost: string }
   | { type: "kreditt"; belop: string }
   | { type: "ting" };
 
+function Gavestatus({ gave }: { gave: Vennegave }) {
+  if (gave.status === "brukt") return <span className="text-sm text-success-ink">Brukt – vennen din fikk en gratis uke</span>;
+  if (gave.status === "utlopt") return <span className="text-sm text-muted">Ikke brukt – du får poengene tilbake</span>;
+  return (
+    <span className="text-sm text-muted">
+      Sendt {dato(gave.laget)} · gjelder til {dato(gave.gyldigTil)}
+    </span>
+  );
+}
+
 // Ett kort per belønning: pris, forhåndsvisning for ting, så bekreftelse før
-// poengene trekkes. Konfetti når den er løst inn.
+// poengene trekkes (for gaver til venner: vennens e-post). Konfetti når den er
+// løst inn.
 function Kort({
   b,
   saldo,
@@ -209,6 +218,8 @@ function Kort({
   const [steg, setSteg] = useState<"start" | "bekreft" | "sender">("start");
   const [feil, setFeil] = useState<string | null>(null);
   const [resultat, setResultat] = useState<Resultat | null>(null);
+  const [epost, setEpost] = useState("");
+  const venn = b.type === "venn";
   const el = useRef<HTMLLIElement>(null);
   const { konfetti: stil } = useUtseende();
   const forLite = saldo < b.poengpris;
@@ -227,10 +238,13 @@ function Kort({
       if (b.type === "kreditt") {
         const r = await losInnGratisTid(b.id);
         setResultat({ type: "kreditt", belop: r.belop });
+      } else if (b.type === "venn") {
+        const r = await sendVennegave(b.id, epost.trim());
+        setResultat({ type: "venn", epost: r.epost });
+        setEpost("");
       } else {
         const r = await losInn(b.id);
         if (b.type === "kode") setResultat({ type: "kode", kode: r.kode ?? "", lenke: r.lenke });
-        else if (b.type === "venn") setResultat({ type: "venn", kode: r.kode ?? "" });
         else setResultat({ type: "ting" });
       }
       setSteg("start");
@@ -244,7 +258,7 @@ function Kort({
 
   const sporsmal = {
     kreditt: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}? Prisen trekkes fra neste betaling.</>,
-    venn: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på en kode til en venn?</>,
+    venn: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på en gratis uke til en venn?</>,
     ting: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}?</>,
     kode: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på dette?</>,
   }[b.type];
@@ -271,8 +285,17 @@ function Kort({
             <Kode kode={resultat.kode} lenke={resultat.lenke} />
           </Ferdig>
         ) : resultat?.type === "venn" ? (
-          <Ferdig tekst="Her er koden – del den med en venn">
-            <Kode kode={resultat.kode} lenke={null} deling />
+          <Ferdig tekst={`Gaven er sendt til ${resultat.epost}`}>
+            <span className="text-sm text-ink-soft">Vennen får uka når hen starter abonnement med den adressen.</span>
+            {!b.sperret && saldo >= b.poengpris && (
+              <button
+                type="button"
+                onClick={() => setResultat(null)}
+                className="self-start text-sm font-semibold text-ink-soft underline decoration-border-strong decoration-2 underline-offset-4 hover:text-foreground hover:decoration-foreground transition-colors"
+              >
+                Send til en venn til
+              </button>
+            )}
           </Ferdig>
         ) : resultat?.type === "kreditt" ? (
           <Ferdig tekst={`Ferdig! ${resultat.belop} kr trekkes fra neste betaling.`} />
@@ -286,18 +309,48 @@ function Kort({
             {b.sperret}
           </span>
         ) : steg === "bekreft" || steg === "sender" ? (
-          <div className="rise-rask flex flex-col gap-3">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              losInnNa();
+            }}
+            className="rise-rask flex flex-col gap-3"
+          >
+            {venn && (
+              <div className="flex flex-col gap-1.5">
+                <label htmlFor={`epost-${b.id}`} className="text-sm font-semibold">
+                  Vennens e-postadresse
+                </label>
+                <input
+                  id={`epost-${b.id}`}
+                  type="email"
+                  inputMode="email"
+                  required
+                  autoFocus
+                  maxLength={254}
+                  autoComplete="off"
+                  spellCheck={false}
+                  value={epost}
+                  onChange={(e) => setEpost(e.target.value)}
+                  disabled={steg === "sender"}
+                  aria-describedby={`epost-hjelp-${b.id}`}
+                  className="rounded-xl border-[1.5px] border-border-strong bg-background px-4 py-3 text-[15px] outline-none transition-colors duration-200 focus:border-primary disabled:opacity-60"
+                />
+                <span id={`epost-hjelp-${b.id}`} className="text-xs text-muted">
+                  Vennen får én e-post fra Studer med fornavnet ditt.
+                </span>
+              </div>
+            )}
             <p className="text-sm">
-              {sporsmal} Du har {tall(saldo)} poeng, og det kan ikke angres.
+              {sporsmal} Du har {tall(saldo)} poeng{venn ? "." : ", og det kan ikke angres."}
             </p>
             <div className="flex gap-2">
               <button
-                type="button"
-                onClick={losInnNa}
+                type="submit"
                 disabled={steg === "sender"}
                 className="trykk trykk-blekk inline-flex items-center gap-2 rounded-xl bg-foreground text-background px-4 py-2.5 text-sm font-semibold disabled:opacity-60"
               >
-                {steg === "sender" ? "Løser inn …" : "Ja, løs inn"}
+                {steg === "sender" ? (venn ? "Sender …" : "Løser inn …") : venn ? "Send gaven" : "Ja, løs inn"}
               </button>
               <button
                 type="button"
@@ -308,7 +361,7 @@ function Kort({
                 Avbryt
               </button>
             </div>
-          </div>
+          </form>
         ) : (
           <button
             type="button"
@@ -316,7 +369,7 @@ function Kort({
             disabled={tomt || forLite}
             className="trykk trykk-blekk w-full rounded-xl bg-foreground text-background px-4 py-3 text-sm font-semibold disabled:opacity-40 disabled:cursor-not-allowed"
           >
-            {tomt ? "Utsolgt" : forLite ? `Mangler ${tall(b.poengpris - saldo)} poeng` : "Løs inn"}
+            {tomt ? "Utsolgt" : forLite ? `Mangler ${tall(b.poengpris - saldo)} poeng` : venn ? "Velg en venn" : "Løs inn"}
           </button>
         )}
         {feil && (
@@ -421,28 +474,20 @@ function BrukTing({ ting, brukerId, nyKjopt, start }: { ting: string; brukerId: 
   );
 }
 
-// En kode med «Kopier». lenke: partnerens nettside. deling: vennekode – kopier
-// eller del lenken vennen kan åpne.
-function Kode({ kode, lenke, deling = false }: { kode: string; lenke: string | null; deling?: boolean }) {
-  const [kopiert, setKopiert] = useState<"kode" | "lenke" | null>(null);
-  const kopier = (tekst: string, hva: "kode" | "lenke") => navigator.clipboard?.writeText(tekst).then(() => setKopiert(hva));
-  const del = () => {
-    const url = vennelenke(kode);
-    if (navigator.share) navigator.share({ title: "En gratis uke på Studer", text: `Bruk koden ${kode} på Studer`, url }).catch(() => {});
-    else kopier(url, "lenke");
-  };
+// En partnerkode med «Kopier» og lenke til partnerens nettside.
+function Kode({ kode, lenke }: { kode: string; lenke: string | null }) {
+  const [kopiert, setKopiert] = useState(false);
   const lenkeknapp = "rounded-lg px-3 py-2 text-sm font-semibold transition-colors duration-200";
   return (
     <span className="flex flex-wrap items-center gap-2">
       <code className="rounded-lg bg-sunken px-3 py-2 font-mono text-sm font-semibold tracking-wide">{kode}</code>
-      <button type="button" onClick={() => kopier(kode, "kode")} className={`${lenkeknapp} text-ink-soft hover:text-foreground hover:bg-sunken`}>
-        {kopiert === "kode" ? "Kopiert" : "Kopier"}
+      <button
+        type="button"
+        onClick={() => navigator.clipboard?.writeText(kode).then(() => setKopiert(true))}
+        className={`${lenkeknapp} text-ink-soft hover:text-foreground hover:bg-sunken`}
+      >
+        {kopiert ? "Kopiert" : "Kopier"}
       </button>
-      {deling && (
-        <button type="button" onClick={del} className={`${lenkeknapp} text-primary hover:bg-primary-tint`}>
-          {kopiert === "lenke" ? "Lenken er kopiert" : "Del lenke"}
-        </button>
-      )}
       {lenke && (
         <a href={lenke} target="_blank" rel="noopener noreferrer" className={`${lenkeknapp} text-primary hover:bg-primary-tint`}>
           Bruk koden
