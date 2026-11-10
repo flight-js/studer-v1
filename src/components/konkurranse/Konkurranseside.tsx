@@ -6,9 +6,9 @@ import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
 import { Navnemerke } from "@/components/konkurranse/Navnemerke";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
-import { ArrowRight, Gave } from "@/components/icons";
+import { ArrowRight, Gave, Snofnugg } from "@/components/icons";
 import { Feil } from "@/components/Tilstand";
-import { hentPoengliste, hentPoengstatus, hentSkoleliste, type Omrade } from "@/lib/konkurranse";
+import { hentPoengliste, hentPoengstatus, hentSkoleliste, iGar, type Omrade } from "@/lib/konkurranse";
 import { useHent } from "@/lib/useHent";
 
 // Innholdet på /konkurranse (siden sjekker innloggingen). Poengene dine, ukas rangering (alle, skolen din, trinnet ditt)
@@ -52,7 +52,22 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
             {s && (
               <dl className="grid grid-cols-3 gap-3 sm:gap-6 max-w-2xl rise [animation-delay:80ms]">
                 <Nokkeltall navn="Denne uka" verdi={tall(s.denneUka)} />
-                <Nokkeltall navn="Dager på rad" verdi={tall(s.streak)} />
+                <div className="flex flex-col gap-2">
+                  <dt className="text-xs sm:text-sm text-background/65">Dager på rad</dt>
+                  <dd className="font-display text-2xl sm:text-3xl font-semibold tabular-nums">{tall(s.streak)}</dd>
+                  {/* Rekke-frys: hvor mange eleven har, og om en reddet rekka i går. */}
+                  <Link
+                    href={s.frys ? "/konto#samling" : "/belonninger#seksjon-til-appen"}
+                    className="w-fit inline-flex items-center gap-1 text-xs text-background/65 underline decoration-background/25 underline-offset-4 hover:text-background hover:decoration-background/60"
+                  >
+                    <Snofnugg size={13} className="shrink-0" />
+                    {s.frossetDag === iGar()
+                      ? "Frys reddet rekka i går"
+                      : s.frys
+                        ? `${s.frys} rekke-frys`
+                        : "Ingen rekke-frys"}
+                  </Link>
+                </div>
                 <div className="flex flex-col gap-2">
                   <dt className="text-xs sm:text-sm text-background/65">I dag</dt>
                   <dd className="font-display text-2xl sm:text-3xl font-semibold tabular-nums">
@@ -213,7 +228,11 @@ export function Konkurranseside({ brukerId }: { brukerId: string }) {
               <Regel navn="Quizrunde" poeng="10–15" forklaring="Flere poeng jo flere du har riktig." />
               <Regel navn="Miniprøve" poeng="15–25" forklaring="Flere poeng jo bedre resultat." />
               <Regel navn="Formelmatch" poeng="10" forklaring="Raskeste tider havner på topplista for temaet." />
-              <Regel navn="Dagens første øving" poeng="5–15" forklaring="Ett ekstra poeng for hver dag på rad." />
+              <Regel
+                navn="Dagens første øving"
+                poeng="5–15"
+                forklaring="Ett ekstra poeng for hver dag på rad. En rekke-frys holder rekka hvis du glemmer en dag."
+              />
               <Regel navn="Flashcards" poeng="0" forklaring="Gir ikke poeng, fordi du selv svarer om du kan kortet." />
               <Regel navn="Tak per dag" poeng="150" forklaring="Hver øving gir poeng én gang per døgn." />
               <Regel

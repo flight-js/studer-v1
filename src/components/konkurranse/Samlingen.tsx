@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { useId, useState } from "react";
-import { Navnemerke } from "@/components/konkurranse/Navnemerke";
+import { Merkeikon, Navnemerke } from "@/components/konkurranse/Navnemerke";
 import { flammefarge } from "@/components/Rekke";
-import { Check, Fjaer, Flamme, Gave, Plus, Stjerne } from "@/components/icons";
+import { Check, Fjaer, Flamme, Gave, Plus, Snofnugg, Stjerne } from "@/components/icons";
 import { konfetti } from "@/lib/feiring";
+import { hentMineMerker, hentPoengstatus, iGar, type Merkefremgang, type Poengstatus } from "@/lib/konkurranse";
+import { MERKER, TJENTE, merkenavn } from "@/lib/merker";
 import { useHent } from "@/lib/useHent";
 import {
   TING,
@@ -18,17 +20,25 @@ import {
   type Tingtype,
 } from "@/lib/utseende";
 
-// «Samlingen din» på kontosiden: det eleven har kjøpt med poeng, gruppert etter type. Hver
-// type er et radiovalg – Standard og det eleven eier – og et trykk tar tingen i
-// bruk med en gang: temaet på hele siden, flammen på rekka, konfettien og
-// merket ved navnet. Typer eleven ikke eier noe av, vises ikke. Uten
-// migrasjonen vises merkede eksempelting som kan prøves, men ikke lagres.
+// «Samlingen din» på kontosiden:
+//   - det eleven har kjøpt med poeng og merkene eleven har tjent, gruppert
+//     etter type. Hver type er et radiovalg – Standard og det eleven eier – og
+//     et trykk tar tingen i bruk med en gang: temaet på hele siden, flammen på
+//     rekka, konfettien og merket ved navnet. Typer eleven ikke eier noe av,
+//     vises ikke.
+//   - rekke-frysene eleven har (brukes av seg selv, kan ikke velges)
+//   - alle merkene som kan tjenes, med fremgang (lib/merker.ts)
+// Uten migrasjonen vises merkede eksempler som kan prøves, men ikke lagres.
 
 const EKSEMPEL = ["tema-nordlys", "tema-galakse", "flamme-bla", "flamme-regnbue", "konfetti-stjerner", "merke-stjerne"];
 const BUTIKK = "/belonninger#seksjon-til-appen";
+const navnPa = (ting: string | null) => (ting ? (TING[ting]?.navn ?? merkenavn(ting) ?? ting) : "Standard");
+const dato = (iso: string) => new Date(iso).toLocaleDateString("nb-NO", { day: "numeric", month: "short" });
 
 export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: string | null }) {
   const ting = useHent(`mine-ting:${brukerId}`, () => hentMineTing(brukerId));
+  const merker = useHent(`mine-merker:${brukerId}`, hentMineMerker);
+  const status = useHent(`poeng:${brukerId}:samling`, hentPoengstatus);
   const { valgt, klar } = useUtseendeStatus();
   // Valget som lagres nå, så det vises med en gang (og rulles tilbake ved feil).
   const [venter, setVenter] = useState<{ type: Tingtype; ting: string | null } | null>(null);
@@ -36,13 +46,16 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
   const [melding, setMelding] = useState("");
 
   const demo = !!ting.data?.demo;
-  const eier = demo ? EKSEMPEL : (ting.data?.eier ?? []).filter((t) => TING[t]);
-  const typer = TINGTYPER.filter((t) => eier.some((e) => TING[e].type === t.type));
+  const kjopte = demo ? EKSEMPEL : (ting.data?.eier ?? []).filter((t) => TING[t]);
+  const tjente = (merker.data?.data ?? []).filter((m) => m.tjent && TJENTE.has(m.merke)).map((m) => m.merke);
+  const kjopteAv = (type: Tingtype) => kjopte.filter((e) => TING[e].type === type);
+  const mineAv = (type: Tingtype) => [...kjopteAv(type), ...(type === "merke" ? tjente : [])];
+  const typer = TINGTYPER.filter((t) => mineAv(t.type).length);
 
   async function velg(type: Tingtype, ny: string | null, kilde: HTMLElement | null) {
     if (venter) return;
     setFeil(null);
-    const navn = ny ? TING[ny].navn : "Standard";
+    const navn = navnPa(ny);
     if (type === "konfetti") konfetti(kilde, "liten", ny);
     if (demo) {
       provTing(brukerId, type, ny);
@@ -67,62 +80,175 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
           Samlingen din
         </h2>
         <p className="text-sm text-ink-soft leading-relaxed max-w-[56ch]">
-          Temaer, flammer, konfetti og merker du har kjøpt med poeng. Trykk på det du vil bruke – du kan bytte så
-          ofte du vil.
+          Det du har kjøpt med poeng, og merkene du har tjent. Trykk på det du vil bruke – du kan bytte så ofte du vil.
         </p>
       </div>
 
-      {ting.laster || !klar ? (
+      {ting.laster || merker.laster || !klar ? (
         <span className="h-48 rounded-2xl bg-sunken animate-pulse" aria-hidden="true" />
       ) : ting.feil ? (
         <p className="text-sm text-danger-ink">Fikk ikke hentet samlingen din. Last siden på nytt for å prøve igjen.</p>
-      ) : !typer.length ? (
-        <div className="rounded-2xl border border-dashed border-border-strong px-5 py-8 flex flex-col items-center text-center gap-3">
-          <Gave size={26} className="text-muted" />
-          <p className="font-semibold">Samlingen din er tom</p>
-          <p className="text-sm text-ink-soft max-w-[44ch]">
-            Bytt poengene dine i temaer for hele Studer, flammefarger, konfetti og merker ved navnet.
-          </p>
-          <Link
-            href={BUTIKK}
-            className="trykk trykk-blekk mt-1 rounded-xl bg-foreground text-background px-4 py-2.5 text-sm font-semibold"
-          >
-            Se belønningene
-          </Link>
-        </div>
       ) : (
         <>
           {demo && (
             <p role="note" className="rounded-xl border border-dashed border-border-strong bg-sunken px-4 py-3 text-sm text-ink-soft">
               <span className="font-semibold text-foreground">Eksempel.</span> Belønningene er ikke slått på ennå, så dette er
-              ting du kunne eid. Du kan prøve dem, men valget lagres ikke og er borte når du laster siden på nytt.
+              ting og merker du kunne hatt. Du kan prøve dem, men valget lagres ikke og er borte når du laster siden på nytt.
             </p>
           )}
-          {typer.map((t) => {
-            const mine = eier.filter((e) => TING[e].type === t.type);
-            const valgtNa = venter?.type === t.type ? venter.ting : valgt[t.type];
-            return (
-              <Gruppe
-                key={t.type}
-                type={t.type}
-                navn={t.navn}
-                tekst={t.tekst}
-                valg={[null, ...mine]}
-                valgt={valgtNa && mine.includes(valgtNa) ? valgtNa : null}
-                flere={Object.values(TING).filter((v) => v.type === t.type).length - mine.length}
-                fornavn={fornavn}
-                lagrer={!!venter}
-                feil={feil?.type === t.type ? feil.tekst : null}
-                onVelg={(ny, kilde) => velg(t.type, ny, kilde)}
-              />
-            );
-          })}
+          {typer.length ? (
+            typer.map((t) => {
+              const mine = mineAv(t.type);
+              const valgtNa = venter?.type === t.type ? venter.ting : valgt[t.type];
+              return (
+                <Gruppe
+                  key={t.type}
+                  type={t.type}
+                  navn={t.navn}
+                  tekst={t.tekst}
+                  valg={[null, ...mine]}
+                  valgt={valgtNa && mine.includes(valgtNa) ? valgtNa : null}
+                  flere={Object.values(TING).filter((v) => v.type === t.type).length - kjopteAv(t.type).length}
+                  fornavn={fornavn}
+                  lagrer={!!venter}
+                  feil={feil?.type === t.type ? feil.tekst : null}
+                  onVelg={(ny, kilde) => velg(t.type, ny, kilde)}
+                />
+              );
+            })
+          ) : (
+            <div className="rounded-2xl border border-dashed border-border-strong px-5 py-6 flex flex-col sm:flex-row sm:items-center gap-4">
+              <Gave size={26} className="shrink-0 text-muted" />
+              <p className="flex-1 text-sm text-ink-soft">
+                <span className="block font-semibold text-foreground">Du har ikke kjøpt noe ennå</span>
+                Bytt poengene dine i temaer for hele Studer, flammefarger, konfetti og merker ved navnet.
+              </p>
+              <Link
+                href={BUTIKK}
+                className="trykk trykk-blekk self-start sm:self-auto rounded-xl bg-foreground text-background px-4 py-2.5 text-sm font-semibold"
+              >
+                Se belønningene
+              </Link>
+            </div>
+          )}
+          {status.data && <Rekkefrys s={status.data.data} />}
+          {merker.data ? (
+            <Tjentemerker liste={merker.data.data} />
+          ) : (
+            <p className="text-sm text-danger-ink">Fikk ikke hentet merkene dine.</p>
+          )}
           <p aria-live="polite" className="sr-only">
             {melding}
           </p>
         </>
       )}
     </section>
+  );
+}
+
+// Rekke-frysene eleven har: brukes av seg selv en dag eleven ikke øver, så de
+// kan ikke velges – bare vises, med lenke for å kjøpe flere.
+function Rekkefrys({ s }: { s: Poengstatus }) {
+  const reddet = s.frossetDag === iGar();
+  return (
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-col">
+        <h3 className="text-sm font-semibold">Rekke-frys</h3>
+        <p className="text-sm text-muted">
+          Glemmer du å øve en dag, brukes en frys av seg selv, så dagene på rad ikke ryker.
+        </p>
+      </div>
+      <div className="rounded-2xl border border-border bg-surface p-3 flex flex-wrap items-center gap-x-4 gap-y-3">
+        <span className="flex gap-2" aria-hidden="true">
+          {Array.from({ length: s.frysMaks }, (_, i) => (
+            <span
+              key={i}
+              className={`size-11 rounded-xl inline-flex items-center justify-center ${
+                i < s.frys ? "bg-primary-tint text-primary" : "border-[1.5px] border-dashed border-border-strong text-faint"
+              }`}
+            >
+              <Snofnugg size={20} />
+            </span>
+          ))}
+        </span>
+        <span className="flex-1 min-w-48 flex flex-col">
+          <span className="font-semibold">{s.frys ? `${s.frys} av ${s.frysMaks}` : "Ingen rekke-frys"}</span>
+          <span className="text-sm text-muted">
+            {reddet ? "En frys reddet rekka di i går." : s.frys ? "Klar til bruk." : "Du kan ha to om gangen."}
+          </span>
+        </span>
+        {s.frys < s.frysMaks && (
+          <Link
+            href={BUTIKK}
+            className="trykk rounded-xl border-[1.5px] border-border-strong bg-surface px-4 py-2 text-sm font-semibold hover:border-foreground"
+          >
+            {s.frys ? "Kjøp en til" : "Kjøp rekke-frys"}
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// Alle merkene som kan tjenes: de eleven har i blått med datoen, de andre med
+// hva som skal til og hvor langt eleven er kommet.
+function Tjentemerker({ liste }: { liste: Merkefremgang[] }) {
+  const etter = new Map(liste.map((m) => [m.merke, m]));
+  const antall = MERKER.filter((m) => etter.get(m.id)?.tjent).length;
+  return (
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-col">
+        <h3 className="text-sm font-semibold">Merker du tjener</h3>
+        <p className="text-sm text-muted">
+          Kan ikke kjøpes – bare øves fram. Du har {antall} av {MERKER.length}, og dem du har kan vises ved navnet.
+        </p>
+      </div>
+      <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {MERKER.map((m) => {
+          const f = etter.get(m.id);
+          const tjent = f?.tjent ?? null;
+          return (
+            <li
+              key={m.id}
+              className={`rounded-2xl border-[1.5px] p-3 flex flex-col items-center text-center gap-2 ${
+                tjent ? "border-border bg-surface" : "border-dashed border-border-strong"
+              }`}
+            >
+              <span
+                aria-hidden="true"
+                className={`size-12 rounded-full inline-flex items-center justify-center ${
+                  tjent ? "bg-primary text-white shadow-[0_8px_18px_-8px_var(--primary)]" : "bg-sunken text-faint"
+                } ${f?.ny ? "ikon-pop" : ""}`}
+              >
+                <Merkeikon merke={m.id} size={22} />
+              </span>
+              <span className="text-sm font-semibold leading-tight">{m.navn}</span>
+              {tjent ? (
+                <span className="text-xs text-muted">{f?.ny ? "Nytt!" : `Tjent ${dato(tjent)}`}</span>
+              ) : (
+                <>
+                  <span className="sr-only">Ikke tjent ennå.</span>
+                  <span className="text-xs text-muted">{m.krav}</span>
+                  {f && f.mal > 1 && (
+                    <span className="mt-auto w-full flex flex-col gap-1">
+                      <span aria-hidden="true" className="h-1.5 rounded-full bg-sunken overflow-hidden">
+                        <span
+                          className="block h-full rounded-full bg-primary"
+                          style={{ width: `${Math.min(100, (f.verdi / f.mal) * 100)}%` }}
+                        />
+                      </span>
+                      <span className="text-xs text-muted tabular-nums">
+                        {f.verdi.toLocaleString("nb-NO")} av {f.mal.toLocaleString("nb-NO")} {m.enhet}
+                      </span>
+                    </span>
+                  )}
+                </>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 }
 
@@ -170,7 +296,7 @@ function Gruppe({
       >
         {valg.map((ting) => {
           const pa = ting === valgt;
-          const tingnavn = ting ? TING[ting].navn : "Standard";
+          const tingnavn = navnPa(ting);
           return (
             <label
               key={ting ?? "standard"}

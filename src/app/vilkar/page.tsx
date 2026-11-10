@@ -154,6 +154,11 @@ export default function Vilkar() {
               ingen verdi utenfor Studer.
             </li>
             <li>
+              En rekke-frys brukes av seg selv natten etter en dag du ikke har øvd, hvis du hadde dager på rad. Du
+              kan ha høyst to om gangen, og en brukt frys kommer ikke tilbake. Merker du tjener ved å øve, kan ikke
+              kjøpes eller byttes, og kan tas bort hvis de er oppnådd ved juks.
+            </li>
+            <li>
               Belønninger fra samarbeidspartnere har egne vilkår fra partneren og kan løses inn én gang per person.
             </li>
             <li>

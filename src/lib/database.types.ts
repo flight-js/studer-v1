@@ -698,6 +698,9 @@ export type Database = {
         Args: never
         Returns: {
           denne_uka: number
+          frosset_dag: string | null
+          frys: number
+          frys_maks: number
           i_dag: number
           rekorder_i_dag: number
           rekordtak: number
@@ -705,6 +708,10 @@ export type Database = {
           streak: number
           tak: number
         }[]
+      }
+      mine_merker: {
+        Args: never
+        Returns: { mal: number; merke: string; ny: boolean; tjent: string | null; verdi: number }[]
       }
       mine_kuponger: {
         Args: never

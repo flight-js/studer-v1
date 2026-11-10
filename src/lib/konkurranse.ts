@@ -10,7 +10,8 @@ import { supabase } from "./supabase";
 export type Med<T> = { data: T; demo: boolean };
 
 // iDag teller mot taket; rekordbonus (ny rekord i formelmatch) kommer utenom,
-// høyst rekordtak ganger per dag.
+// høyst rekordtak ganger per dag. frys: ubrukte rekke-frys (høyst frysMaks).
+// frossetDag: siste dag en frys reddet rekka (YYYY-MM-DD), eller null.
 export type Poengstatus = {
   saldo: number;
   denneUka: number;
@@ -19,7 +20,13 @@ export type Poengstatus = {
   streak: number;
   rekorderIDag: number;
   rekordtak: number;
+  frys: number;
+  frysMaks: number;
+  frossetDag: string | null;
 };
+// Fremgangen mot et merke eleven kan tjene (lib/merker.ts). tjent: når det ble
+// delt ut (ISO), eller null. ny: delt ut akkurat nå.
+export type Merkefremgang = { merke: string; verdi: number; mal: number; tjent: string | null; ny: boolean };
 // navn: fornavnet eller kallenavnet, eller «Deg» for eleven selv når hen ikke er
 // synlig for andre (har skjult fornavnet uten å velge kallenavn).
 // merke: tingen eleven viser ved navnet (merke-fjaer …), se lib/utseende.ts.
@@ -56,7 +63,8 @@ export type Belonning = {
   gyldigTil: string | null;
   // kode: partnerkode. kreditt: gratis tid (verdi = dager). venn: gave til en
   // venn på e-post (verdi = dager). ting: noe i appen (verdi = tingen, se lib/utseende.ts).
-  type: "kode" | "kreditt" | "venn" | "ting";
+  // frys: en rekke-frys (ingen verdi; eleven kan ha flere, se Poengstatus.frys).
+  type: "kode" | "kreditt" | "venn" | "ting" | "frys";
   verdi: string | null;
   igjen: number | null; // null = ubegrenset (Studers egne)
   innlostAvMeg: boolean;
@@ -108,9 +116,42 @@ export async function hentPoengstatus(): Promise<Med<Poengstatus>> {
           streak: r.streak,
           rekorderIDag: r.rekorder_i_dag,
           rekordtak: r.rekordtak,
+          frys: r.frys,
+          frysMaks: r.frys_maks,
+          frossetDag: r.frosset_dag,
         }
-      : { saldo: 0, denneUka: 0, iDag: 0, tak: 150, streak: 0, rekorderIDag: 0, rekordtak: 3 },
+      : { saldo: 0, denneUka: 0, iDag: 0, tak: 150, streak: 0, rekorderIDag: 0, rekordtak: 3, frys: 0, frysMaks: 2, frossetDag: null },
   };
+}
+
+// I går, norsk tid (YYYY-MM-DD) – for «Rekke-frys reddet rekka di i går».
+export function iGar() {
+  const d = new Date(Date.now() - 86_400_000);
+  return d.toLocaleDateString("sv-SE", { timeZone: "Europe/Oslo" });
+}
+
+// ---------------------------------------------------------------- Merker eleven tjener
+
+// Merkene med fremgang. Databasen deler samtidig ut merker eleven har nådd.
+export async function hentMineMerker(): Promise<Med<Merkefremgang[]>> {
+  const res = await supabase.rpc("mine_merker");
+  const demo = svar(res, EKSEMPEL.merker);
+  if (demo) return demo;
+  return {
+    demo: false,
+    data: (res.data ?? []).map((r) => ({ merke: r.merke, verdi: r.verdi, mal: r.mal, tjent: r.tjent, ny: r.ny })),
+  };
+}
+
+// Etter en øving: deler ut merker eleven har nådd, og sier fra om nye
+// (Poengvarsel viser «Nytt merke»). Feil gjør ingenting – øvingen er lagret.
+export const MERKE_HENDELSE = "studer:merke";
+export async function sjekkNyeMerker() {
+  const { data, error } = await supabase.rpc("mine_merker");
+  if (error || !data) return;
+  for (const r of data) {
+    if (r.ny) window.dispatchEvent(new CustomEvent(MERKE_HENDELSE, { detail: r.merke }));
+  }
 }
 
 export async function hentPoengliste(omrade: Omrade): Promise<Med<Plassering[]>> {
@@ -193,7 +234,10 @@ export async function avsluttFormelmatch(runde: string, tidMs: number, par: numb
   const r = data?.[0];
   if (!r) return null;
   const rekordpoeng = r.rekordpoeng ?? 0;
-  if (r.poeng + rekordpoeng > 0) varsleOmPoeng(r.poeng + rekordpoeng);
+  if (r.poeng + rekordpoeng > 0) {
+    varsleOmPoeng(r.poeng + rekordpoeng);
+    void sjekkNyeMerker(); // dager på rad, «Første rekord»
+  }
   return { tidMs: r.tid_ms, teller: r.teller, forrigeBeste: r.forrige_beste, poeng: r.poeng, rekordpoeng };
 }
 
@@ -476,12 +520,33 @@ export const formaterTid = (ms: number) =>
 
 // Bare for å vise sidene før migrasjonen er kjørt. Navn, skoler og partnere
 // er oppdiktet, og sidene merker dem som eksempler.
-function egen(type: Belonning["type"], verdi: string, tittel: string, beskrivelse: string, vilkar: string, poengpris: number): Belonning {
-  return { id: `egen-${verdi}-${type}`, partner: "Studer", tittel, beskrivelse, vilkar, lenke: null, poengpris, gyldigTil: null, type, verdi, igjen: null, innlostAvMeg: false, sperret: null };
+function egen(type: Belonning["type"], verdi: string | null, tittel: string, beskrivelse: string, vilkar: string, poengpris: number): Belonning {
+  return { id: `egen-${verdi ?? "ingen"}-${type}`, partner: "Studer", tittel, beskrivelse, vilkar, lenke: null, poengpris, gyldigTil: null, type, verdi, igjen: null, innlostAvMeg: false, sperret: null };
 }
 
 const EKSEMPEL = {
-  status: { saldo: 1240, denneUka: 310, iDag: 45, tak: 150, streak: 4, rekorderIDag: 1, rekordtak: 3 } satisfies Poengstatus,
+  status: {
+    saldo: 1240,
+    denneUka: 310,
+    iDag: 45,
+    tak: 150,
+    streak: 4,
+    rekorderIDag: 1,
+    rekordtak: 3,
+    frys: 1,
+    frysMaks: 2,
+    frossetDag: null,
+  } satisfies Poengstatus,
+  merker: [
+    { merke: "merke-uke", verdi: 7, mal: 7, tjent: "2026-11-02T18:12:00Z", ny: false },
+    { merke: "merke-maaned", verdi: 9, mal: 30, tjent: null, ny: false },
+    { merke: "merke-kort", verdi: 100, mal: 100, tjent: "2026-10-28T16:40:00Z", ny: false },
+    { merke: "merke-tusen", verdi: 236, mal: 1000, tjent: null, ny: false },
+    { merke: "merke-rekord", verdi: 1, mal: 1, tjent: "2026-11-05T19:03:00Z", ny: false },
+    { merke: "merke-feilfri", verdi: 0, mal: 1, tjent: null, ny: false },
+    { merke: "merke-temaer", verdi: 6, mal: 10, tjent: null, ny: false },
+    { merke: "merke-prove", verdi: 0, mal: 1, tjent: null, ny: false },
+  ] satisfies Merkefremgang[],
   poengliste: {
     alle: [
       { plass: 1, navn: "Ingrid", skole: "Fjordbyen vgs (eksempel)", poeng: 980, erMeg: false },
@@ -515,6 +580,7 @@ const EKSEMPEL = {
   belonninger: [
     egen("kreditt", "7", "En gratis uke", "Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.", "Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.", 1500),
     egen("venn", "7", "Gi en venn en gratis uke", "Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis – uten å legge inn kort.", "Bare for nye brukere. Brukes ikke gaven innen 60 dager, får du poengene tilbake.", 800),
+    egen("frys", null, "Rekke-frys", "Glemmer du å øve en dag, holder frysen rekka di i live. Den brukes av seg selv natten etter.", "Du kan ha to om gangen.", 150),
     egen("ting", "flamme-bla", "Blå flamme", "Rekka di brenner blått.", "", 200),
     egen("ting", "flamme-gronn", "Grønn flamme", "Rekka di brenner grønt.", "", 200),
     egen("ting", "flamme-regnbue", "Regnbueflamme", "Rekka di skifter farge mens den brenner.", "", 600),

@@ -12,6 +12,11 @@
 --   spille for også etter at taket er nådd.
 -- - Poengene har ingen pengeverdi, kan ikke kjøpes eller overføres, og kan
 --   løses inn i belønninger (se vilkårene).
+-- - Rekke-frys (kjøpes med poeng, høyst to om gangen) redder dager på rad en
+--   dag eleven ikke øver. Den brukes av seg selv natten etter, og dagen teller
+--   som øvd uten å gjøre rekka lengre.
+-- - Merker eleven tjener (7 dager på rad, 100 kort …) kan ikke kjøpes. De deles
+--   ut når målet er nådd og kan vises ved navnet som de kjøpte merkene.
 -- - Eleven velger skole. Rangeringer viser fornavnet (første ord i navnet fra
 --   registreringen) og skolen. Krysser eleven av for «Ikke vis fornavnet mitt
 --   på rangeringene», vises kallenavnet i stedet – eller ingenting, uten
@@ -312,10 +317,11 @@ create table public.belonninger (
   -- kreditt: gratis tid – verdi er antall dager perioden forlenges (neste betaling flyttes frem)
   -- venn:    en gave eleven sender til en venns e-post – verdi er antall dager vennen får
   -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet, tema) – verdi er tingen
-  type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting')),
+  -- frys:    en rekke-frys (tabellen rekkefrys) – ingen verdi
+  type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting', 'frys')),
   verdi text,
   check (
-    (type = 'kode' and verdi is null)
+    (type in ('kode', 'frys') and verdi is null)
     or (type in ('kreditt', 'venn') and verdi ~ '^[0-9]{1,3}$')
     or (type = 'ting' and verdi ~ '^(flamme|konfetti|merke|tema)-[a-z]+$')
   )
@@ -500,7 +506,48 @@ grant select on public.poeng_logg to authenticated;
 create policy "Brukere kan lese egne poeng" on public.poeng_logg
   for select to authenticated using ((select auth.uid()) = bruker_id);
 
--- Hvor mange dager på rad eleven har tjent poeng (i dag eller i går må være med).
+-- Rekke-frys: kjøpes med poeng (belønningen av typen «frys»), høyst to ubrukte
+-- om gangen (belonning_sperre). Øver eleven ikke en dag, brukes en frys av seg
+-- selv natten etter (bruk_rekkefrys): dagen holder rekka sammen, men legger
+-- ikke til en dag. brukt_dag: dagen frysen reddet, null = ubrukt.
+create table public.rekkefrys (
+  id bigint generated always as identity primary key,
+  bruker_id uuid not null references auth.users (id) on delete cascade,
+  belonning_id uuid references public.belonninger (id) on delete set null,
+  kjopt timestamptz not null default now(),
+  brukt_dag date
+);
+create index rekkefrys_ubrukte on public.rekkefrys (bruker_id) where brukt_dag is null;
+create unique index rekkefrys_en_per_dag on public.rekkefrys (bruker_id, brukt_dag) where brukt_dag is not null;
+alter table public.rekkefrys enable row level security;
+revoke all on public.rekkefrys from anon, authenticated;
+-- Leses gjennom min_poengstatus(); deles bare ut av los_inn().
+
+-- Alle rekkene til eleven: dager med tjente poeng etter hverandre. Dager reddet
+-- av en rekke-frys holder rekka sammen, men telles ikke i lengden.
+create function public.rekker(p_bruker uuid)
+returns table (slutt date, lengde int)
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  with dager as (
+    select l.dag, true as ekte from public.poeng_logg l
+    where l.bruker_id = p_bruker and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
+    union
+    select f.brukt_dag, false from public.rekkefrys f
+    where f.bruker_id = p_bruker and f.brukt_dag is not null
+  ), unike as (
+    select dag, bool_or(ekte) as ekte from dager group by dag
+  ), grupper as (
+    select dag, ekte, dag - (row_number() over (order by dag))::int as gruppe from unike
+  )
+  select max(dag), (count(*) filter (where ekte))::int from grupper group by gruppe;
+$$;
+
+-- Hvor mange dager på rad eleven har tjent poeng (i dag eller i går må være
+-- med – øvd eller reddet av en frys).
 create function public.poeng_streak(p_bruker uuid)
 returns int
 language sql
@@ -508,18 +555,53 @@ stable
 security definer
 set search_path = ''
 as $$
-  with dager as (
-    select distinct l.dag from public.poeng_logg l
-    where l.bruker_id = p_bruker and l.endring > 0 and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
-  ), grupper as (
-    select dag, dag - (row_number() over (order by dag))::int as gruppe from dager
-  ), rekker as (
-    select max(dag) as slutt, count(*)::int as lengde from grupper group by gruppe
-  )
   select coalesce(
-    (select lengde from rekker where slutt >= public.minne_i_dag() - 1 order by slutt desc limit 1),
+    (select r.lengde from public.rekker(p_bruker) r where r.slutt >= public.minne_i_dag() - 1 order by r.slutt desc limit 1),
     0
   );
+$$;
+
+-- Bruker en rekke-frys for i går hos elever som ikke øvde i går, men som hadde
+-- en rekke i live dagen før (øvd eller reddet) og har en ubrukt frys. Kjøres
+-- hver time (pg_cron, se Rettigheter), så den treffer midnatt norsk tid også
+-- ved sommertid; flere kjøringer samme dag gjør ingenting. En frys kjøpt dagen
+-- etter redder også i går.
+create function public.bruk_rekkefrys()
+returns int
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_dag date := public.minne_i_dag() - 1;
+  v_bruker uuid;
+  v_antall int := 0;
+begin
+  for v_bruker in select distinct f.bruker_id from public.rekkefrys f where f.brukt_dag is null loop
+    continue when exists (
+      select 1 from public.poeng_logg l
+      where l.bruker_id = v_bruker and l.dag = v_dag and l.endring > 0
+        and l.grunn in ('oving', 'dagsbonus', 'formelmatch', 'rekord')
+    ) or exists (select 1 from public.rekkefrys f where f.bruker_id = v_bruker and f.brukt_dag = v_dag);
+    continue when not exists (select 1 from public.rekker(v_bruker) r where r.slutt = v_dag - 1 and r.lengde > 0);
+    begin
+      update public.rekkefrys f set brukt_dag = v_dag
+      where f.id = (
+        select f2.id from public.rekkefrys f2
+        where f2.bruker_id = v_bruker and f2.brukt_dag is null
+        order by f2.kjopt, f2.id
+        limit 1
+        for update skip locked
+      );
+      if found then
+        v_antall := v_antall + 1;
+      end if;
+    exception when unique_violation then
+      null; -- en annen kjøring rakk det først
+    end;
+  end loop;
+  return v_antall;
+end;
 $$;
 
 -- Gir poeng for en fullført øving. Kalles bare fra lagre_resultat og
@@ -879,9 +961,13 @@ as $$
 $$;
 
 -- Elevens egen status: saldo (tjent minus innløst), denne uka, i dag (mot taket,
--- uten rekordbonus), dager på rad og rekordbonuser i dag.
+-- uten rekordbonus), dager på rad, rekordbonuser i dag, ubrukte rekke-frys (og
+-- hvor mange man kan ha) og siste dag en frys reddet rekka.
 create function public.min_poengstatus()
-returns table (saldo int, denne_uka int, i_dag int, tak int, streak int, rekorder_i_dag int, rekordtak int)
+returns table (
+  saldo int, denne_uka int, i_dag int, tak int, streak int, rekorder_i_dag int, rekordtak int,
+  frys int, frys_maks int, frosset_dag date
+)
 language sql
 stable
 security definer
@@ -899,10 +985,94 @@ as $$
     150,
     public.poeng_streak(auth.uid()),
     (count(*) filter (where l.grunn = 'rekord' and l.dag = public.minne_i_dag()))::int,
-    3
+    3,
+    (select count(*)::int from public.rekkefrys f where f.bruker_id = auth.uid() and f.brukt_dag is null),
+    2,
+    (select max(f.brukt_dag) from public.rekkefrys f where f.bruker_id = auth.uid())
   from public.poeng_logg l
   where l.bruker_id = auth.uid();
 $$;
+
+-- ---------------------------------------------------------------- Merker eleven tjener
+--
+-- Merkene kan ikke kjøpes. mine_merker deler dem ut når eleven har nådd målet:
+-- de legges i eiendeler (uten belønning) og kan vises ved navnet på
+-- rangeringene som de kjøpte merkene. Fremgangen regnes fra det som er lagret:
+--   dager på rad og rekorder: poeng_logg og rekkefrys (bare serveren skriver dem)
+--   alt riktig, temaer, miniprøve: fremdrift (bare lagre_resultat skriver den, se under)
+--   kort: minne (repetisjonen). Den skriver eleven selv (husk_svar), så
+--   kortmerkene kan i teori jukses frem – men de gir ingen poeng.
+-- Katalogen med navn og ikoner står i src/lib/merker.ts.
+
+-- Fremgangen mot hvert merke: verdi (hvor langt eleven er kommet) og mål.
+create function public.merke_fremgang(p_bruker uuid)
+returns table (merke text, verdi int, mal int)
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  with lengste as (
+    select coalesce(max(r.lengde), 0) as n from public.rekker(p_bruker) r
+  ), kort as (
+    select count(*)::int as n from public.minne m where m.bruker_id = p_bruker and m.type = 'kort'
+  ), rekorder as (
+    select count(*)::int as n from public.poeng_logg l where l.bruker_id = p_bruker and l.grunn = 'rekord'
+  ), ovd as (
+    select
+      (count(*) filter (where f.aktivitet = 'quiz' and f.beste = f.av))::int as feilfri,
+      (count(distinct f.tema_id))::int as temaer,
+      (count(*) filter (where f.aktivitet = 'miniprove'))::int as prover
+    from public.fremdrift f where f.bruker_id = p_bruker
+  )
+  select v.merke, v.verdi, v.mal from (values
+    ('merke-uke', (select n from lengste), 7),
+    ('merke-maaned', (select n from lengste), 30),
+    ('merke-kort', (select n from kort), 100),
+    ('merke-tusen', (select n from kort), 1000),
+    ('merke-rekord', (select n from rekorder), 1),
+    ('merke-feilfri', (select feilfri from ovd), 1),
+    ('merke-temaer', (select temaer from ovd), 10),
+    ('merke-prove', (select prover from ovd), 1)
+  ) as v (merke, verdi, mal);
+$$;
+
+-- Merkene med fremgang for den innloggede eleven. Deler samtidig ut merker
+-- eleven har nådd. tjent: når merket ble delt ut (null = ikke ennå).
+-- ny: delt ut nå, så appen kan vise «Nytt merke».
+create function public.mine_merker()
+returns table (merke text, verdi int, mal int, tjent timestamptz, ny boolean)
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_bruker uuid := auth.uid();
+begin
+  if v_bruker is null then
+    raise exception 'Ikke innlogget';
+  end if;
+  return query
+  with fremgang as (
+    select * from public.merke_fremgang(v_bruker)
+  ), nye as (
+    insert into public.eiendeler (bruker_id, ting)
+    select v_bruker, f.merke from fremgang f where f.verdi >= f.mal
+    on conflict do nothing
+    returning eiendeler.ting, eiendeler.kjopt
+  )
+  -- Spørringen ser ikke radene som legges inn i samme setning, derfor «nye».
+  select f.merke, least(f.verdi, f.mal), f.mal, coalesce(n.kjopt, e.kjopt), n.ting is not null
+  from fremgang f
+  left join nye n on n.ting = f.merke
+  left join public.eiendeler e on e.bruker_id = v_bruker and e.ting = f.merke;
+end;
+$$;
+
+-- Fremdriften skrives nå bare av lagre_resultat (security definer), som sjekker
+-- resultatet. Da kan merkene «Alt riktig», «Ti temaer» og «Første miniprøve»
+-- stoles på. Eleven kan fortsatt lese sin egen.
+revoke insert, update on public.fremdrift from authenticated;
 
 -- ---------------------------------------------------------------- Innløsning
 
@@ -931,6 +1101,9 @@ as $$
     when b.type = 'ting' and exists (
       select 1 from public.eiendeler e where e.bruker_id = p_bruker and e.ting = b.verdi
     ) then 'Du har denne allerede.'
+    when b.type = 'frys' and (
+      select count(*) from public.rekkefrys f where f.bruker_id = p_bruker and f.brukt_dag is null
+    ) >= 2 then 'Du har allerede to rekke-frys. Du kan kjøpe en ny når en er brukt.'
   end;
 $$;
 
@@ -962,7 +1135,7 @@ $$;
 
 -- Løser inn en belønning: trekker poengene og gir eleven det hen kjøpte, alt i
 -- én transaksjon. Låsen per elev hindrer at samme poeng brukes to ganger.
---   kode: en ledig partnerkode     ting: tingen legges i eiendeler
+--   kode: en ledig partnerkode     ting: tingen legges i eiendeler     frys: en ny rekke-frys
 --   kreditt: går via serverfunksjonen «betaling»
 --   venn: går via serverfunksjonen «vennegave» (som sender e-posten)
 create function public.los_inn(p_belonning uuid)
@@ -1025,6 +1198,8 @@ begin
     end if;
   elsif v_b.type = 'ting' then
     insert into public.eiendeler (bruker_id, ting, belonning_id) values (v_bruker, v_b.verdi, v_b.id);
+  elsif v_b.type = 'frys' then
+    insert into public.rekkefrys (bruker_id, belonning_id) values (v_bruker, v_b.id);
   end if;
 
   insert into public.poeng_logg (bruker_id, endring, grunn, belonning_id)
@@ -1316,6 +1491,11 @@ $$;
 -- ---------------------------------------------------------------- Rettigheter
 
 revoke execute on function public.poeng_streak(uuid) from public, anon, authenticated;
+revoke execute on function public.rekker(uuid) from public, anon, authenticated;
+revoke execute on function public.bruk_rekkefrys() from public, anon, authenticated;
+revoke execute on function public.merke_fremgang(uuid) from public, anon, authenticated;
+revoke execute on function public.mine_merker() from public, anon;
+grant execute on function public.mine_merker() to authenticated;
 revoke execute on function public.visningsnavn(text) from public, anon, authenticated;
 revoke execute on function public.rangeringsnavn(text, boolean, text) from public, anon, authenticated;
 revoke execute on function public.kallenavn_feil(text) from public, anon;
@@ -1374,6 +1554,9 @@ grant execute on function public.vennegave_los_inn() to authenticated;
 -- skjules (pg_cron er slått på i 20260930201321_forslag_og_opprydding.sql).
 select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegaver_rydd(); $$);
 
+-- Rekke-frys for i går: hver time, fem over (se bruk_rekkefrys).
+select cron.schedule('bruk-rekkefrys', '5 * * * *', $$ select public.bruk_rekkefrys(); $$);
+
 -- ---------------------------------------------------------------- Studers egne belønninger
 --
 -- Prisene kan endres her eller senere (update public.belonninger set poengpris …).
@@ -1382,6 +1565,7 @@ select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegave
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
   ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 1500, 'kreditt', '7'),
   ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis – uten å legge inn kort.', 'Bare for nye brukere. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
+  ('Studer', 'Rekke-frys', 'Glemmer du å øve en dag, holder frysen rekka di i live. Den brukes av seg selv natten etter.', 'Du kan ha to om gangen.', 150, 'frys', null),
   ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 200, 'ting', 'flamme-bla'),
   ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 200, 'ting', 'flamme-gronn'),
   ('Studer', 'Regnbueflamme', 'Rekka di skifter farge mens den brenner.', '', 600, 'ting', 'flamme-regnbue'),

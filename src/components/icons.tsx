@@ -244,6 +244,29 @@ export const Stjerne = ({ fylt, ...p }: IconProps & { fylt?: boolean }) => (
   </Svg>
 );
 
+// Snøfnugg: rekke-frys, som holder dager på rad en dag eleven ikke øver.
+export const Snofnugg = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 2.5v19M3.8 7.25l16.4 9.5M3.8 16.75l16.4-9.5" />
+    <path d="M9.5 4l2.5 2 2.5-2M9.5 20l2.5-2 2.5 2M4.2 10.1l3-.85-.8-3M19.8 13.9l-3 .85.8 3M4.2 13.9l3 .85-.8 3M19.8 10.1l-3-.85.8-3" />
+  </Svg>
+);
+
+// Kalender: merket «En måned på rad».
+export const Kalender = (p: IconProps) => (
+  <Svg {...p}>
+    <rect x="3.5" y="5" width="17" height="15" rx="2" />
+    <path d="M3.5 10h17M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2" />
+  </Svg>
+);
+
+// Lyn: merket «1000 kort».
+export const Lyn = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M13 2.5 5 13.5h6l-1 8 8-11h-6z" />
+  </Svg>
+);
+
 // Fjær: merket «Fjærpenn ved navnet» (samme fjærpenn som i logoen).
 export const Fjaer = (p: IconProps) => (
   <Svg {...p}>

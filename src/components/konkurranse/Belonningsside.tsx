@@ -6,7 +6,7 @@ import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
 import { Navnemerke } from "@/components/konkurranse/Navnemerke";
-import { Check, Flamme, Gave, Lock, Stjerne } from "@/components/icons";
+import { Check, Flamme, Gave, Lock, Snofnugg, Stjerne } from "@/components/icons";
 import { Feil, Laster } from "@/components/Tilstand";
 import { betalingsfeiltekst, losInnGratisTid } from "@/lib/betaling";
 import { konfetti } from "@/lib/feiring";
@@ -52,10 +52,20 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
   const demo = !!belonninger.data?.demo;
   const liste = belonninger.data?.data ?? [];
   const fraStuder = liste.filter((b) => b.type === "kreditt" || b.type === "venn");
-  const tilAppen = liste.filter((b) => b.type === "ting");
+  const tilAppen = liste.filter((b) => b.type === "ting" || b.type === "frys");
   const partnere = liste.filter((b) => b.type === "kode");
+  const s = status.data?.data;
   const kort = (b: Belonning) => (
-    <Kort key={b.id} b={b} saldo={saldo} demo={demo} brukerId={id} ting={ting.data} onInnlost={() => setRunde((r) => r + 1)} />
+    <Kort
+      key={b.id}
+      b={b}
+      saldo={saldo}
+      demo={demo}
+      brukerId={id}
+      ting={ting.data}
+      frys={s ? { antall: s.frys, maks: s.frysMaks } : undefined}
+      onInnlost={() => setRunde((r) => r + 1)}
+    />
   );
 
   return (
@@ -188,7 +198,8 @@ type Resultat =
   | { type: "kode"; kode: string; lenke: string | null }
   | { type: "venn"; epost: string }
   | { type: "kreditt"; til: string }
-  | { type: "ting" };
+  | { type: "ting" }
+  | { type: "frys" };
 
 function Gavestatus({ gave }: { gave: Vennegave }) {
   if (gave.status === "brukt") return <span className="text-sm text-success-ink">Brukt – vennen din fikk en gratis uke</span>;
@@ -209,6 +220,7 @@ function Kort({
   demo,
   brukerId,
   ting,
+  frys,
   onInnlost,
 }: {
   b: Belonning;
@@ -216,6 +228,7 @@ function Kort({
   demo: boolean;
   brukerId: string;
   ting?: MineTing;
+  frys?: { antall: number; maks: number };
   onInnlost: () => void;
 }) {
   const [steg, setSteg] = useState<"start" | "bekreft" | "sender">("start");
@@ -248,7 +261,7 @@ function Kort({
       } else {
         const r = await losInn(b.id);
         if (b.type === "kode") setResultat({ type: "kode", kode: r.kode ?? "", lenke: r.lenke });
-        else setResultat({ type: "ting" });
+        else setResultat({ type: b.type === "frys" ? "frys" : "ting" });
       }
       setSteg("start");
       konfetti(el.current, "liten", stil);
@@ -263,6 +276,7 @@ function Kort({
     kreditt: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}? Neste betaling kommer {dagerTekst(b.verdi)} senere.</>,
     venn: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på en gratis uke til en venn?</>,
     ting: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}?</>,
+    frys: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på en rekke-frys?</>,
     kode: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på dette?</>,
   }[b.type];
 
@@ -280,7 +294,13 @@ function Kort({
       </div>
       {b.beskrivelse && <p className="text-[15px] text-ink-soft">{b.beskrivelse}</p>}
       {b.type === "ting" && b.verdi && <Forhandsvisning ting={b.verdi} />}
-      {b.vilkar && <p className="text-sm text-muted">{b.vilkar}</p>}
+      {b.type === "frys" && <Frysvisning />}
+      {b.vilkar && (
+        <p className="text-sm text-muted">
+          {b.vilkar}
+          {b.type === "frys" && frys && ` Du har ${frys.antall}.`}
+        </p>
+      )}
 
       <div className="mt-auto flex flex-col gap-2">
         {resultat?.type === "kode" ? (
@@ -302,6 +322,18 @@ function Kort({
           </Ferdig>
         ) : resultat?.type === "kreditt" ? (
           <Ferdig tekst={`Ferdig! Neste betaling er flyttet til ${dato(resultat.til)}.`} />
+        ) : resultat?.type === "frys" ? (
+          <Ferdig tekst="Lagt i samlingen din. Den brukes av seg selv hvis du glemmer en dag.">
+            {!b.sperret && saldo >= b.poengpris && (
+              <button
+                type="button"
+                onClick={() => setResultat(null)}
+                className="self-start text-sm font-semibold text-ink-soft underline decoration-border-strong decoration-2 underline-offset-4 hover:text-foreground hover:decoration-foreground transition-colors"
+              >
+                Kjøp en til
+              </button>
+            )}
+          </Ferdig>
         ) : eier && b.verdi ? (
           <BrukTing ting={b.verdi} brukerId={brukerId} nyKjopt={resultat?.type === "ting"} start={ting} />
         ) : b.type === "kode" && b.innlostAvMeg ? (
@@ -431,6 +463,27 @@ function Forhandsvisning({ ting }: { ting: string }) {
     >
       Prøv konfettien
     </button>
+  );
+}
+
+// Rekke-frys: fire dager på rad der den tredje er reddet av en frys.
+function Frysvisning() {
+  const dager = ["man", "tir", "ons", "tor"];
+  return (
+    <span aria-hidden="true" className="self-start inline-flex items-end gap-2 rounded-xl bg-sunken px-3 py-2">
+      {dager.map((d, i) => (
+        <span key={d} className="flex flex-col items-center gap-1 text-xs font-medium text-muted">
+          <span
+            className={`size-8 rounded-full inline-flex items-center justify-center ${
+              i === 2 ? "bg-primary-tint text-primary ring-[1.5px] ring-primary/40" : "bg-merke text-pa-merke"
+            }`}
+          >
+            {i === 2 ? <Snofnugg size={16} /> : <Flamme size={15} fylt />}
+          </span>
+          {d}
+        </span>
+      ))}
+    </span>
   );
 }
 

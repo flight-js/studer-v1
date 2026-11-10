@@ -1,7 +1,7 @@
 // Henter pensum og fremdrift fra Supabase. Innholdet ligger bare i databasen;
 // fag- og temaoversikten kan leses av alle, selve innholdet krever innlogging.
 
-import { varsleOmPoeng } from "./konkurranse";
+import { sjekkNyeMerker, varsleOmPoeng } from "./konkurranse";
 import { supabase } from "./supabase";
 
 export type FagKort = { id: string; navn: string; antallTemaer: number };
@@ -309,7 +309,8 @@ export function sistOvd(f: Fremdrift | undefined): string | null {
 }
 
 // Lagrer resultatet. Med konkurransen (supabase/migrations/…_konkurranse.sql)
-// svarer databasen med poengene eleven fikk, og Poengvarsel viser dem.
+// svarer databasen med poengene eleven fikk, og Poengvarsel viser dem – og
+// eventuelle nye merker (100 kort, alt riktig …).
 export async function lagreResultat(id: string, aktivitet: Aktivitet, resultat: number, av: number) {
   const { data, error } = await supabase.rpc("lagre_resultat", {
     p_tema_id: id,
@@ -317,6 +318,12 @@ export async function lagreResultat(id: string, aktivitet: Aktivitet, resultat: 
     p_resultat: resultat,
     p_av: av,
   });
-  if (error) console.error("Kunne ikke lagre resultatet:", error.message);
-  else if (typeof data === "number") varsleOmPoeng(data);
+  if (error) {
+    console.error("Kunne ikke lagre resultatet:", error.message);
+    return;
+  }
+  if (typeof data === "number") {
+    varsleOmPoeng(data);
+    void sjekkNyeMerker();
+  }
 }

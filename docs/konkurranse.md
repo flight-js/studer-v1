@@ -116,6 +116,7 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 | --- | --- | --- |
 | En gratis uke | 1 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
 | Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen lager konto med adressen, trykker «Løs inn gaven» og får tilgang til alt i en uke – uten kort |
+| Rekke-frys | 150 | Holder dager på rad i live en dag eleven ikke øver. Brukes av seg selv; høyst to om gangen |
 | Blå / grønn flamme | 200 | Flammen i rekka (quiz, formelmatch) får ny farge |
 | Regnbueflamme | 600 | Flammen skifter farge |
 | Stjerne- / fjærkonfetti | 300 | Konfettien på resultatskjermene og ved innløsning |
@@ -180,11 +181,38 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   et trykk tar tingen i bruk med en gang. Typer eleven ikke eier noe av vises
   ikke, og en rute lenker til resten i Belønninger. Uten migrasjonen vises
   merkede eksempelting som kan prøves (`provTing`), men ikke lagres.
+  Samlingen viser også rekke-frysene og alle merkene som kan tjenes.
+- **Rekke-frys** (typen `frys`, tabellen `rekkefrys`): `los_inn` legger inn en
+  ubrukt frys, og `belonning_sperre` stopper kjøp når eleven har to ubrukte.
+  `bruk_rekkefrys` (pg_cron hver time, fem over) ser på i går: øvde ikke
+  eleven, men rekka var i live dagen før (øvd eller reddet), brukes den eldste
+  frysen for i går (`brukt_dag`). Én per dag (unik indeks), så flere kjøringer
+  gjør ingenting. `rekker()` regner dager på rad med reddede dager som lim:
+  de holder rekka sammen, men telles ikke i lengden (og gir derfor ikke høyere
+  dagsbonus). Kjøper eleven en frys dagen etter, redder den også i går.
+  `min_poengstatus` gir `frys`, `frys_maks` og `frosset_dag`; konkurransesiden
+  viser antallet ved «Dager på rad», og «Frys reddet rekka i går».
+- **Merker eleven tjener** (`src/lib/merker.ts`): 7 og 30 dager på rad
+  (lengste rekke noensinne), 100 og 1000 kort (repetisjonsminnet), første
+  rekord i formelmatch, alt riktig på en quiz, ti temaer og første miniprøve.
+  `merke_fremgang` regner fremgangen; `mine_merker` deler ut merkene eleven
+  har nådd (rad i `eiendeler` uten belønning) og sier hvilke som er nye.
+  Appen kaller den etter hver lagret øving og formelmatch med poeng
+  (`sjekkNyeMerker`), og Poengvarsel viser «Nytt merke». Tjente merker vises
+  i blått ved navnet (kjøpte i gult) og velges som de kjøpte. Kortmerkene
+  bygger på `minne`, som eleven skriver selv (`husk_svar`), så de kan i teori
+  jukses frem – de gir ingen poeng. Fremdrift kan nå bare skrives av
+  `lagre_resultat` (insert/update tatt fra `authenticated`), så de andre
+  merkene kan stoles på.
 - Testet i PGlite: ny konto sperres, ting kan kjøpes én gang og bare tas i
   bruk av eieren, reglene for gaver til venner (adresse, tre om gangen, ikke
   til seg selv, ubekreftet e-post, eldste gave brukes, poeng tilbake én gang
   ved sendefeil og når gaven går ut, adressen skjules), én gratis tid per
   måned og at poengene gis tilbake nøyaktig én gang når Stripe feiler.
+  Rekke-frys: to kan kjøpes og den tredje stoppes, frysen brukes én gang per
+  dag og bare når rekka var i live, rekka holder uten å bli lengre, og en
+  ny kan kjøpes når en er brukt. Merker: deles ut én gang, «ny» bare første
+  gang, og bare tjente merker kan velges ved navnet.
   Stripe-kallene og e-postsendingen er typesjekket, men ikke kjørt (krever
   testnøkler og SMTP-passord). Test gratis tid i Stripes testmodus med en
   test clock: betalt måned og prøveperiode, sjekk at neste faktura kommer 7
@@ -337,5 +365,6 @@ fjerne poeng (`grunn = 'korrigering'`).
 - Poeng for fullført «I dag»-repetisjon.
 - Live-dueller i formelmatch eller quiz med kode, mot en venn (som Gizmo Live).
 - Ukesutfordringer per fag og klasseligaer som lærere kan lage.
-- Merker for milepæler (for eksempel 30 dager på rad).
+- Flere merker å tjene (for eksempel per fag, eller topp tre på en toppliste).
+- Poenghistorikk: hvor poengene kom fra.
 - Utløp av poeng etter en periode, som hos Tise, hvis belønningene trenger det.
