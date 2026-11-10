@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
@@ -20,7 +20,7 @@ import {
   type Belonning,
   type Vennegave,
 } from "@/lib/konkurranse";
-import { hentMineTing, nattTema, tingtype, useUtseende, velgTing, type MineTing } from "@/lib/utseende";
+import { gjeldendeTema, hentMineTing, premiumTema, tingtype, useUtseende, velgTing, type MineTing } from "@/lib/utseende";
 import { useHent } from "@/lib/useHent";
 
 // Innholdet på /belonninger (siden sjekker innloggingen). Poeng løses inn i:
@@ -395,30 +395,12 @@ function Ferdig({ tekst, children }: { tekst: string; children?: React.ReactNode
   );
 }
 
-// Slik ser tingen ut: flammen på rekka, merket ved navnet, en bit av
-// startsiden med temaet, eller konfetti man kan prøve.
+// Slik ser tingen ut: flammen på rekka, merket ved navnet, en liten Studer-side
+// med temaet, eller konfetti man kan prøve.
 function Forhandsvisning({ ting }: { ting: string }) {
   const knapp = useRef<HTMLButtonElement>(null);
   const type = tingtype(ting);
-  if (type === "tema") {
-    // Samme CSS som i appen (globals.css): elementet får sitt eget data-natt-tema.
-    return (
-      <span
-        aria-hidden="true"
-        data-natt-tema={nattTema(ting) ?? undefined}
-        className="fs-natt bg-natt flex flex-col gap-3 rounded-2xl p-4 overflow-hidden"
-      >
-        <span className="text-xs font-medium text-background/65">For Vg1 · Kjemi</span>
-        <span className="font-display text-2xl font-semibold leading-none tracking-[-0.02em]">Hei, Ingrid</span>
-        <span className="flex items-center justify-between gap-3 rounded-xl bg-natt-hevet px-3 py-2.5 text-sm">
-          <span className="truncate">I dag: Kjemisk binding</span>
-          <span className="shrink-0 inline-flex items-center gap-1 rounded-full bg-merke pl-1.5 pr-2 py-0.5 text-xs font-bold text-pa-merke tabular-nums">
-            <Flamme size={12} fylt />7
-          </span>
-        </span>
-      </span>
-    );
-  }
+  if (type === "tema") return <Temaforhandsvisning ting={ting} />;
   if (type === "flamme") {
     const farge = ting === "flamme-bla" ? "text-primary" : ting === "flamme-gronn" ? "text-success" : "flamme-regnbue text-danger";
     return (
@@ -448,6 +430,73 @@ function Forhandsvisning({ ting }: { ting: string }) {
     >
       Prøv konfettien
     </button>
+  );
+}
+
+// Premium-tema: en liten Studer-side i temaet (samme CSS som appen, med eget
+// data-premium) og en knapp som prøver temaet på hele siden – til eleven
+// trykker igjen, prøver et annet tema eller går fra siden.
+const PROV_TEMA = "studer-prov-tema";
+
+function Temaforhandsvisning({ ting }: { ting: string }) {
+  const verdi = premiumTema(ting) ?? "";
+  const [prover, setProver] = useState(false);
+
+  useEffect(() => {
+    if (!prover) return;
+    const html = document.documentElement;
+    html.dataset.premium = verdi;
+    window.dispatchEvent(new CustomEvent(PROV_TEMA, { detail: verdi }));
+    const annet = (e: Event) => {
+      if ((e as CustomEvent<string>).detail !== verdi) setProver(false);
+    };
+    window.addEventListener(PROV_TEMA, annet);
+    return () => {
+      window.removeEventListener(PROV_TEMA, annet);
+      // Tilbake til temaet eleven har valgt – men ikke over et annet tema som prøves nå.
+      if (html.dataset.premium !== verdi) return;
+      const valgt = premiumTema(gjeldendeTema());
+      if (valgt) html.dataset.premium = valgt;
+      else delete html.dataset.premium;
+    };
+  }, [prover, verdi]);
+
+  return (
+    <div className="flex flex-col gap-2">
+      <div
+        aria-hidden="true"
+        data-premium={verdi}
+        className="premium-flate bg-background text-foreground rounded-2xl border border-border overflow-hidden"
+      >
+        <div className="bg-natt premium-natt px-4 pt-4 pb-5 flex flex-col gap-2">
+          <span className="text-xs font-medium opacity-65">For Vg1 · Kjemi</span>
+          <span className="font-display text-xl font-semibold leading-none tracking-[-0.02em]">Hei, Ingrid</span>
+          <span className="self-start inline-flex items-center gap-1 rounded-full bg-merke pl-1.5 pr-2 py-0.5 text-xs font-bold text-pa-merke tabular-nums">
+            <Flamme size={12} fylt />7 på rad
+          </span>
+        </div>
+        <div className="p-3 flex flex-col gap-2.5">
+          <div className="rounded-xl bg-surface border border-border px-3 py-2.5 flex items-center justify-between gap-3">
+            <span className="flex flex-col min-w-0">
+              <span className="text-sm font-semibold truncate">Kjemisk binding</span>
+              <span className="text-xs text-muted">12 begreper · 8 spørsmål</span>
+            </span>
+            <span className="shrink-0 rounded-lg bg-primary text-white px-2.5 py-1 text-xs font-semibold">Øv</span>
+          </div>
+          <span className="h-1.5 rounded-full bg-sunken overflow-hidden">
+            <span className="block h-full w-2/3 rounded-full bg-primary" />
+          </span>
+        </div>
+      </div>
+      <button
+        type="button"
+        onClick={() => setProver((p) => !p)}
+        aria-pressed={prover}
+        className="trykk self-start rounded-xl border-[1.5px] border-border-strong bg-surface px-4 py-2 text-sm font-semibold hover:border-foreground"
+      >
+        {prover ? "Slutt å prøve" : "Prøv på hele siden"}
+      </button>
+    </div>
   );
 }
 

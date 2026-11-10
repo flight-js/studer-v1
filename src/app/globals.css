@@ -1094,49 +1094,195 @@ html.fs-intro .ff-intro {
   }
 }
 
-/* Premium-temaer (kjøpt med poeng, se TEMAER i src/lib/utseende.ts): farger
-   natt-flatene i appen – startsiden og konkurransesiden – med egen grunnfarge
-   og en glød øverst. data-natt-tema settes på <html> (NattTema i layout), eller
-   på et element for forhåndsvisningen på belønningssiden. .fs-natt låser ellers
-   standardfargene, så den må med i velgeren (men ikke en forhåndsvisning med
-   sitt eget tema). Gløden er svak nok til at krem
-   tekst og merkepenn-gult har god kontrast overalt. */
-[data-natt-tema="nordlys"],
-[data-natt-tema="nordlys"] .fs-natt:not([data-natt-tema]) {
-  --natt: #061a1b;
-  --natt-hevet: #0e2a2a;
+/* Premium-temaer (kjøpt med poeng, se TING i src/lib/utseende.ts): hele
+   nettsiden får en egen palett og en fargeglød bak innholdet, som temaene i
+   Discord. data-premium settes på <html> (PremiumTema i layout), eller på et
+   element for forhåndsvisningen på belønningssiden. «:root[...]» trengs for å
+   slå lys/mørk modus (:root[data-tema=…]); temaet bestemmer selv om det er
+   lyst eller mørkt. Kontrasten følger den mørke modusen: tekst over 6:1, og
+   knappefargen rundt 4,3:1 både mot hvit tekst og mot bakgrunnen.
+   Natt-flatene (.fs-natt: startsiden, konkurransesiden) beholder krem tekst og
+   får temaets natt-farger. */
+
+/* Felles for de mørke temaene: samme statusfarger og skygger som mørk modus. */
+:root[data-premium="nordlys"],
+:root[data-premium="havdyp"],
+:root[data-premium="skog"],
+:root[data-premium="galakse"],
+[data-premium="nordlys"],
+[data-premium="havdyp"],
+[data-premium="skog"],
+[data-premium="galakse"] {
+  color-scheme: dark;
+  --success: #2e9e67;
+  --success-ink: #8bd9b1;
+  --danger: #d65252;
+  --danger-ink: #f2a7a3;
+  --danger-tint: #2d1818;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -18px rgba(0, 0, 0, 0.6);
+  --shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 28px 56px -28px rgba(0, 0, 0, 0.7);
+}
+
+:root[data-premium="nordlys"],
+[data-premium="nordlys"] {
+  --background: #061516;
+  --surface: #0d2325;
+  --sunken: #041011;
+  --foreground: #eef6f3;
+  --ink-soft: #c5dad5;
+  --muted: #93aea8;
+  --faint: #6a8580;
+  --border: #173335;
+  --border-strong: #24484a;
+  --primary: #1e8a6f;
+  --primary-dark: #229e7f;
+  --primary-tint: #0d3029;
+  --success-tint: #0f2a1f;
+  --premium-bilde:
+    radial-gradient(70% 640px at 10% 0, rgb(46 204 143 / 0.22), transparent 70%),
+    radial-gradient(60% 600px at 92% 0, rgb(124 77 255 / 0.2), transparent 70%),
+    radial-gradient(80% 500px at 50% 100%, rgb(46 204 143 / 0.08), transparent 70%);
+}
+:root[data-premium="havdyp"],
+[data-premium="havdyp"] {
+  --background: #05122a;
+  --surface: #0b1d3c;
+  --sunken: #030c1d;
+  --foreground: #eef3fb;
+  --ink-soft: #c6d3ea;
+  --muted: #93a6c6;
+  --faint: #6a7fa3;
+  --border: #142a50;
+  --border-strong: #213d6c;
+  --primary: #3a76e2;
+  --primary-dark: #578ae6;
+  --primary-tint: #0f2a55;
+  --success-tint: #0e2622;
+  --premium-bilde:
+    radial-gradient(80% 680px at 50% 0, rgb(30 144 255 / 0.2), transparent 70%),
+    radial-gradient(50% 520px at 96% 10%, rgb(0 201 183 / 0.16), transparent 70%),
+    radial-gradient(70% 520px at 0 100%, rgb(0 201 183 / 0.08), transparent 70%);
+}
+:root[data-premium="skog"],
+[data-premium="skog"] {
+  --background: #08140d;
+  --surface: #0f2217;
+  --sunken: #050e09;
+  --foreground: #eef5ef;
+  --ink-soft: #c7d9cb;
+  --muted: #94ad99;
+  --faint: #6b8571;
+  --border: #183222;
+  --border-strong: #254a32;
+  --primary: #258c4e;
+  --primary-dark: #2a9f59;
+  --primary-tint: #11301d;
+  --success-tint: #11301d;
+  --premium-bilde:
+    radial-gradient(70% 640px at 15% 0, rgb(76 175 80 / 0.2), transparent 70%),
+    radial-gradient(55% 560px at 90% 0, rgb(205 220 57 / 0.1), transparent 70%),
+    radial-gradient(80% 500px at 60% 100%, rgb(76 175 80 / 0.07), transparent 70%);
+}
+/* Galakse: lilla og rosa glød, og små stjerner som gjentas over hele flaten. */
+:root[data-premium="galakse"],
+[data-premium="galakse"] {
+  --background: #0b0a1a;
+  --surface: #16142e;
+  --sunken: #070612;
+  --foreground: #f1effb;
+  --ink-soft: #d0cbea;
+  --muted: #a29cc6;
+  --faint: #7a74a0;
+  --border: #242048;
+  --border-strong: #353064;
+  --primary: #7f63eb;
+  --primary-dark: #9179ee;
+  --primary-tint: #221a4a;
+  --success-tint: #13241f;
+  --premium-bilde:
+    radial-gradient(70% 640px at 18% 0, rgb(140 82 255 / 0.24), transparent 70%),
+    radial-gradient(55% 560px at 90% 0, rgb(255 105 180 / 0.13), transparent 70%),
+    radial-gradient(1px 1px at 24px 40px, rgb(255 255 255 / 0.5), transparent),
+    radial-gradient(1px 1px at 130px 90px, rgb(255 255 255 / 0.35), transparent),
+    radial-gradient(1.5px 1.5px at 200px 20px, rgb(255 255 255 / 0.45), transparent),
+    radial-gradient(1px 1px at 70px 170px, rgb(255 255 255 / 0.3), transparent),
+    radial-gradient(1px 1px at 180px 200px, rgb(255 255 255 / 0.4), transparent);
+  --premium-storrelse: auto, auto, 240px 240px, 240px 240px, 240px 240px, 240px 240px, 240px 240px;
+  --premium-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
+}
+/* Solnedgang: lyst tema – fersken og rosa, med varm oransje som knappefarge. */
+:root[data-premium="solnedgang"],
+[data-premium="solnedgang"] {
+  color-scheme: light;
+  --background: #fff4ec;
+  --surface: #fffaf6;
+  --sunken: #fbe7da;
+  --foreground: #2b1622;
+  --ink-soft: #563843;
+  --muted: #7a5a61;
+  --faint: #a58690;
+  --border: #f1d7c8;
+  --border-strong: #e6c0ad;
+  --primary: #c2410c;
+  --primary-dark: #9a3412;
+  --primary-tint: #fde3d3;
+  --success: #1f8a58;
+  --success-ink: #12633f;
+  --success-tint: #e7f3ec;
+  --danger: #c43d3d;
+  --danger-ink: #8c2626;
+  --danger-tint: #f9e8e6;
+  --shadow-card: 0 1px 2px rgba(90, 40, 30, 0.06), 0 12px 32px -18px rgba(90, 40, 30, 0.25);
+  --shadow-lift: 0 2px 4px rgba(90, 40, 30, 0.08), 0 28px 56px -28px rgba(90, 40, 30, 0.35);
+  --premium-bilde:
+    radial-gradient(70% 620px at 85% 0, rgb(255 154 139 / 0.4), transparent 70%),
+    radial-gradient(60% 580px at 8% 0, rgb(255 195 113 / 0.38), transparent 70%),
+    radial-gradient(80% 520px at 40% 100%, rgb(255 154 139 / 0.16), transparent 70%);
+}
+
+/* Natt-flatene: krem tekst og lyse notatkort som før, men temaets natt-farge og
+   en glød øverst. Også inne i .fs-natt, som ellers låser standardfargene (men
+   ikke en forhåndsvisning med sitt eget tema). */
+:root[data-premium="nordlys"],
+[data-premium="nordlys"],
+:root[data-premium="nordlys"] .fs-natt:not([data-premium]) {
+  --natt: #041112;
+  --natt-hevet: #0d2526;
   --natt-bilde:
     radial-gradient(60% 520px at 12% 0, rgb(46 204 143 / 0.26), transparent 70%),
     radial-gradient(55% 480px at 88% 0, rgb(124 77 255 / 0.24), transparent 70%);
 }
-[data-natt-tema="solnedgang"],
-[data-natt-tema="solnedgang"] .fs-natt:not([data-natt-tema]) {
+:root[data-premium="solnedgang"],
+[data-premium="solnedgang"],
+:root[data-premium="solnedgang"] .fs-natt:not([data-premium]) {
   --natt: #190d17;
   --natt-hevet: #2a1624;
   --natt-bilde:
     radial-gradient(65% 520px at 85% 0, rgb(255 122 69 / 0.26), transparent 70%),
     radial-gradient(55% 480px at 10% 0, rgb(214 51 132 / 0.24), transparent 70%);
 }
-[data-natt-tema="havdyp"],
-[data-natt-tema="havdyp"] .fs-natt:not([data-natt-tema]) {
-  --natt: #06132a;
-  --natt-hevet: #0d2140;
+:root[data-premium="havdyp"],
+[data-premium="havdyp"],
+:root[data-premium="havdyp"] .fs-natt:not([data-premium]) {
+  --natt: #040f24;
+  --natt-hevet: #0c1f40;
   --natt-bilde:
     radial-gradient(70% 560px at 50% 0, rgb(30 144 255 / 0.24), transparent 70%),
     radial-gradient(45% 420px at 95% 0, rgb(0 201 183 / 0.2), transparent 70%);
 }
-[data-natt-tema="skog"],
-[data-natt-tema="skog"] .fs-natt:not([data-natt-tema]) {
-  --natt: #0a1811;
-  --natt-hevet: #13281c;
+:root[data-premium="skog"],
+[data-premium="skog"],
+:root[data-premium="skog"] .fs-natt:not([data-premium]) {
+  --natt: #06110b;
+  --natt-hevet: #12271a;
   --natt-bilde:
     radial-gradient(60% 520px at 20% 0, rgb(76 175 80 / 0.24), transparent 70%),
     radial-gradient(50% 460px at 85% 0, rgb(205 220 57 / 0.14), transparent 70%);
 }
-/* Galakse: lilla og rosa glød, og små stjerner som gjentas over hele flaten. */
-[data-natt-tema="galakse"],
-[data-natt-tema="galakse"] .fs-natt:not([data-natt-tema]) {
-  --natt: #0c0a1d;
+:root[data-premium="galakse"],
+[data-premium="galakse"],
+:root[data-premium="galakse"] .fs-natt:not([data-premium]) {
+  --natt: #0a0819;
   --natt-hevet: #181433;
   --natt-bilde:
     radial-gradient(60% 520px at 20% 0, rgb(140 82 255 / 0.28), transparent 70%),
@@ -1148,6 +1294,26 @@ html.fs-intro .ff-intro {
     radial-gradient(1px 1px at 180px 200px, rgb(255 255 255 / 0.45), transparent);
   --natt-storrelse: auto, auto, 240px 240px, 240px 240px, 240px 240px, 240px 240px, 240px 240px;
   --natt-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
+}
+
+/* Gløden bak hele siden: på body (alle sidene) og på den lyse delen av
+   startsiden (data-flate="dag"), som ellers dekker den. Ligger fast mens man
+   ruller (på iPhone ruller den med, der fixed ikke støttes). */
+:root[data-premium] body,
+:root[data-premium] [data-flate="dag"],
+.premium-flate {
+  background-image: var(--premium-bilde, none);
+  background-size: var(--premium-storrelse, auto);
+  background-repeat: var(--premium-gjentak, no-repeat);
+  background-attachment: fixed;
+}
+.premium-flate {
+  background-attachment: scroll;
+}
+/* Natt-stripa i forhåndsvisningen: krem tekst som på .fs-natt, men med temaets
+   natt-farger (en .fs-natt ville låst standardfargene). */
+.premium-natt {
+  color: #f7f4ee;
 }
 .bg-natt {
   background-image: var(--natt-bilde, none);

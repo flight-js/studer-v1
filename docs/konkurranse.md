@@ -120,8 +120,8 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 | Regnbueflamme | 1 200 | Flammen skifter farge |
 | Stjerne- / fjærkonfetti | 600 | Konfettien på resultatskjermene og ved innløsning |
 | Fjærpenn / lyspære / stjerne ved navnet | 500 | Vises ved navnet på ukelista og topplistene |
-| Tema: Solnedgang / Havdyp / Skog | 1 000 | Premium-tema: egen grunnfarge og glød på natt-flatene i appen (startsiden og konkurransesiden) |
-| Tema: Nordlys | 1 200 | Som over, grønt og lilla |
+| Tema: Solnedgang / Havdyp / Skog | 1 000 | Premium-tema for hele nettsiden: egen palett (bakgrunn, kort, tekst, knapper) og en fargeglød bak innholdet. Solnedgang er lyst, de andre mørke |
+| Tema: Nordlys | 1 200 | Som over, mørkt med grønt og lilla nordlys |
 | Tema: Galakse | 1 500 | Som over, lilla med små stjerner |
 
 - **Gratis tid** (typen `kreditt`) går gjennom serverfunksjonen `betaling`
@@ -166,12 +166,15 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 - **Ting** (typen `ting`): eies i `eiendeler`, velges i `profiles`
   (`valgt_flamme`, `valgt_konfetti`, `valgt_merke`); databasen sjekker at
   eleven eier det som velges. Katalogen står i `src/lib/utseende.ts`. Kan
-  prøves på belønningssiden før kjøp. Premium-temaene (`valgt_tema`) settes
-  som `data-natt-tema` på `<html>` av `NattTema` i layouten, og fargene står i
-  `globals.css` (`--natt`, `--natt-hevet` og gløden `--natt-bilde` på `.bg-natt`).
-  Valget huskes i nettleseren, så skriptet i `<head>` setter det før siden
-  tegnes (ingen blinking). Krem tekst og merkepenn-gult er de samme i alle
-  temaene, så kontrasten holder.
+  prøves på belønningssiden før kjøp. Premium-temaene (`valgt_tema`) gjelder
+  hele nettsiden: `PremiumTema` i layouten setter `data-premium` på `<html>`,
+  og `globals.css` gir hver sitt fulle sett med fargevariabler (bakgrunn, kort,
+  tekst, kanter, knappefarge, natt-flatene) og en glød bak innholdet
+  (`--premium-bilde` på body og den lyse delen av startsiden). Temaet bestemmer
+  selv lys eller mørk. Kontrasten følger mørk modus: tekst over 6:1, knappefargen
+  rundt 4,3:1 både mot hvit tekst og bakgrunnen. Valget huskes i nettleseren, så
+  skriptet i `<head>` setter det før siden tegnes. «Prøv på hele siden» på
+  belønningssiden viser temaet på hele siden til eleven trykker igjen.
 - Testet i PGlite: ny konto sperres, ting kan kjøpes én gang og bare tas i
   bruk av eieren, reglene for gaver til venner (adresse, tre om gangen, ikke
   til seg selv, ubekreftet e-post, eldste gave brukes, poeng tilbake én gang

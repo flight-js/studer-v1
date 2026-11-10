@@ -1390,11 +1390,11 @@ insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris,
   ('Studer', 'Fjærpenn ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-fjaer'),
   ('Studer', 'Lyspære ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-lyspare'),
   ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-stjerne'),
-  ('Studer', 'Tema: Nordlys', 'Grønt og lilla lys over startsiden og konkurransesiden.', '', 1200, 'ting', 'tema-nordlys'),
-  ('Studer', 'Tema: Solnedgang', 'Oransje og rosa himmel over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-solnedgang'),
-  ('Studer', 'Tema: Havdyp', 'Dypblått og turkis over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-havdyp'),
-  ('Studer', 'Tema: Skog', 'Mørk skog med lysegrønt lys over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-skog'),
-  ('Studer', 'Tema: Galakse', 'Lilla stjernehimmel over startsiden og konkurransesiden.', '', 1500, 'ting', 'tema-galakse');
+  ('Studer', 'Tema: Nordlys', 'Hele Studer i mørkt, med grønt og lilla nordlys.', '', 1200, 'ting', 'tema-nordlys'),
+  ('Studer', 'Tema: Solnedgang', 'Hele Studer i lyst fersken, med oransje og rosa himmel.', '', 1000, 'ting', 'tema-solnedgang'),
+  ('Studer', 'Tema: Havdyp', 'Hele Studer i dypblått, med turkis lys.', '', 1000, 'ting', 'tema-havdyp'),
+  ('Studer', 'Tema: Skog', 'Hele Studer i mørk skog, med lysegrønt lys.', '', 1000, 'ting', 'tema-skog'),
+  ('Studer', 'Tema: Galakse', 'Hele Studer under en lilla stjernehimmel.', '', 1500, 'ting', 'tema-galakse');
 
 -- ---------------------------------------------------------------- Slik legges partnerbelønninger inn
 --

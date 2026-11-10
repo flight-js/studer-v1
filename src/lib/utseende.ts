@@ -2,8 +2,8 @@
 
 // Ting i appen som eleven kjøper med poeng (belønninger av typen «ting»):
 // flammefarge på rekka, konfetti-stil, et merke ved navnet på rangeringene og
-// premium-temaer som farger natt-flatene i appen (CSS i globals.css, settes av
-// NattTema i layout). Eleven eier tingene i tabellen eiendeler og velger hva som
+// premium-temaer for hele nettsiden (CSS i globals.css, settes av PremiumTema
+// i layout). Eleven eier tingene i tabellen eiendeler og velger hva som
 // brukes i profiles (valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema).
 // Databasen sjekker at eleven eier det som velges.
 
@@ -33,8 +33,8 @@ export const TING: Record<string, { type: Tingtype; navn: string }> = {
 
 export const tingtype = (ting: string): Tingtype | null => TING[ting]?.type ?? null;
 
-// Verdien til data-natt-tema (globals.css): «tema-nordlys» → «nordlys».
-export const nattTema = (ting: string | null) => (ting && ting.startsWith("tema-") ? ting.slice(5) : null);
+// Verdien til data-premium (globals.css): «tema-nordlys» → «nordlys».
+export const premiumTema = (ting: string | null) => (ting && ting.startsWith("tema-") ? ting.slice(5) : null);
 
 const TOM: Utseende = { flamme: null, konfetti: null, merke: null, tema: null };
 
@@ -104,8 +104,12 @@ export function useUtseende(): Utseende {
   return t.bruker === id && t.valgt ? t.valgt : TOM;
 }
 
+// Temaet den innloggede eleven har valgt akkurat nå (utenfor React, for å
+// gå tilbake til det etter at et tema er prøvd på belønningssiden).
+export const gjeldendeTema = () => tilstand.valgt?.tema ?? null;
+
 // Premium-temaet og om svaret er kjent: klar = innloggingen er avklart og
-// valget er hentet (eller ingen er logget inn). NattTema venter på klar, så det
+// valget er hentet (eller ingen er logget inn). PremiumTema venter på klar, så det
 // ikke fjerner temaet som skriptet i <head> satte, før det vet.
 export function useValgtTema(): { tema: string | null; klar: boolean } {
   const { bruker, laster } = useAuth();
