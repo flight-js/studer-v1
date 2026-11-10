@@ -19,7 +19,11 @@ export const MAKS_MERKER = 3;
 
 // Alle tingene, med korte navn (vises under overskriften for typen, f.eks. på
 // kontosiden). Nøklene må stemme med belønningene i migrasjonen (verdi).
-export const TING: Record<string, { type: Tingtype; navn: string }> = {
+// eksklusiv: selges ikke – gis til én bestemt konto med en rad i eiendeler
+// (se docs/konkurranse.md), og telles ikke som «flere i Belønninger».
+export const TING: Record<string, { type: Tingtype; navn: string; eksklusiv?: boolean }> = {
+  "tema-sakura": { type: "tema", navn: "Sakura", eksklusiv: true },
+  "merke-katana": { type: "merke", navn: "Katana", eksklusiv: true },
   "tema-nordlys": { type: "tema", navn: "Nordlys" },
   "tema-solnedgang": { type: "tema", navn: "Solnedgang" },
   "tema-havdyp": { type: "tema", navn: "Havdyp" },

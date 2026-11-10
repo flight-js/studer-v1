@@ -1240,6 +1240,45 @@ html.fs-intro .ff-intro {
     radial-gradient(80% 520px at 40% 100%, rgb(255 154 139 / 0.16), transparent 70%);
 }
 
+/* Sakura (eksklusivt – gis til én elev, selges ikke): lyst tema i hvitt og
+   kirsebærrosa, med små kronblad drysset over flaten og en mosegrønn glød
+   nederst. Knappefargen er 5,9:1 mot hvit tekst og 5,6:1 mot bakgrunnen. */
+:root[data-premium="sakura"],
+[data-premium="sakura"] {
+  color-scheme: light;
+  --background: #fff8fa;
+  --surface: #fffdfe;
+  --sunken: #fcedf2;
+  --foreground: #2b1520;
+  --ink-soft: #563a46;
+  --muted: #7a5b68;
+  --faint: #a88b97;
+  --border: #f5dce6;
+  --border-strong: #ecc3d3;
+  --primary: #c2185b;
+  --primary-dark: #9d1149;
+  --primary-tint: #fde3ed;
+  --success: #1f8a58;
+  --success-ink: #12633f;
+  --success-tint: #e8f3ec;
+  --danger: #c43d3d;
+  --danger-ink: #8c2626;
+  --danger-tint: #f9e8e6;
+  --shadow-card: 0 1px 2px rgba(120, 40, 70, 0.06), 0 12px 32px -18px rgba(120, 40, 70, 0.22);
+  --shadow-lift: 0 2px 4px rgba(120, 40, 70, 0.08), 0 28px 56px -28px rgba(120, 40, 70, 0.32);
+  --premium-bilde:
+    radial-gradient(65% 600px at 88% 0, rgb(248 187 208 / 0.55), transparent 70%),
+    radial-gradient(55% 520px at 6% 0, rgb(255 214 228 / 0.6), transparent 70%),
+    radial-gradient(70% 460px at 0 100%, rgb(176 204 160 / 0.22), transparent 70%),
+    radial-gradient(6px 3.5px at 34px 46px, rgb(240 128 168 / 0.55), transparent),
+    radial-gradient(5px 3px at 150px 22px, rgb(244 160 190 / 0.5), transparent),
+    radial-gradient(5.5px 3.5px at 212px 132px, rgb(236 112 156 / 0.45), transparent),
+    radial-gradient(4.5px 2.5px at 92px 178px, rgb(248 176 200 / 0.55), transparent),
+    radial-gradient(5px 3px at 248px 236px, rgb(240 140 176 / 0.45), transparent);
+  --premium-storrelse: auto, auto, auto, 280px 280px, 280px 280px, 280px 280px, 280px 280px, 280px 280px;
+  --premium-gjentak: no-repeat, no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
+}
+
 /* Natt-flatene: krem tekst og lyse notatkort som før, men temaets natt-farge og
    en glød øverst. Også inne i .fs-natt, som ellers låser standardfargene (men
    ikke en forhåndsvisning med sitt eget tema). */
@@ -1296,6 +1335,22 @@ html.fs-intro .ff-intro {
   --natt-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
 }
 
+:root[data-premium="sakura"],
+[data-premium="sakura"],
+:root[data-premium="sakura"] .fs-natt:not([data-premium]) {
+  --natt: #22101b;
+  --natt-hevet: #341a2a;
+  --natt-bilde:
+    radial-gradient(60% 520px at 85% 0, rgb(244 143 177 / 0.3), transparent 70%),
+    radial-gradient(50% 460px at 10% 0, rgb(255 205 222 / 0.18), transparent 70%),
+    radial-gradient(6px 3.5px at 34px 46px, rgb(248 170 198 / 0.6), transparent),
+    radial-gradient(5px 3px at 150px 22px, rgb(248 170 198 / 0.5), transparent),
+    radial-gradient(5.5px 3.5px at 212px 132px, rgb(244 143 177 / 0.5), transparent),
+    radial-gradient(4.5px 2.5px at 92px 178px, rgb(255 200 218 / 0.55), transparent);
+  --natt-storrelse: auto, auto, 280px 280px, 280px 280px, 280px 280px, 280px 280px;
+  --natt-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+}
+
 /* Gløden bak hele siden: på body (alle sidene) og på den lyse delen av
    startsiden (data-flate="dag"), som ellers dekker den. Ligger fast mens man
    ruller (på iPhone ruller den med, der fixed ikke støttes). */
@@ -1319,4 +1374,55 @@ html.fs-intro .ff-intro {
   background-image: var(--natt-bilde, none);
   background-size: var(--natt-storrelse, auto);
   background-repeat: var(--natt-gjentak, no-repeat);
+}
+
+/* Eksklusivt merke ved navnet: katana (KatanaMerke.tsx). Ingen sirkel bak –
+   bare sverdet, litt større enn de andre merkene. Rødrosa glød som pulserer,
+   en glans som glir langs eggen fra parerplaten til spissen, og to kronblad
+   som svever. Står stille for dem som har valgt redusert bevegelse. */
+.merke-katana {
+  width: 1.6em;
+  height: 1.6em;
+  margin-block: -0.15em;
+  background: none;
+  overflow: visible;
+  animation: katana-glod 2.8s ease-in-out infinite;
+}
+.merke-katana svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.katana-glans {
+  stroke-dasharray: 14 200;
+  stroke-dashoffset: 14;
+  opacity: 0;
+  animation: katana-glans 2.8s ease-in-out infinite;
+}
+.katana-blad {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: katana-blad 4.2s ease-in-out infinite;
+}
+.katana-blad + .katana-blad {
+  animation-delay: -2.1s;
+}
+@keyframes katana-glod {
+  0%, 100% { filter: drop-shadow(0 0 1px rgb(255 61 120 / 0.45)); }
+  50% { filter: drop-shadow(0 0 3px rgb(255 61 120 / 0.9)); }
+}
+@keyframes katana-glans {
+  0%, 50% { stroke-dashoffset: 14; opacity: 0; }
+  56% { opacity: 1; }
+  86% { stroke-dashoffset: -100; opacity: 1; }
+  100% { stroke-dashoffset: -100; opacity: 0; }
+}
+@keyframes katana-blad {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-0.7px, 1.1px) rotate(28deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .merke-katana,
+  .katana-blad { animation: none; }
+  .katana-glans { display: none; }
 }

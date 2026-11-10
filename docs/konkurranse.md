@@ -187,6 +187,14 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   viser navnet med merkene; `sjekk_valgte_ting` stopper fire, dobbeltvalg og
   merker eleven ikke har. På rangeringene står merkene i en egen boks ved
   navnet (størrelse i em), så de aldri kuttes når navnet forkortes med «…».
+- **Eksklusive ting** (`eksklusiv: true` i `TING`): laget for én bestemt
+  elev, selges ikke og står ikke i Belønninger. Nå: temaet Sakura
+  (`tema-sakura`, hvitt og kirsebærrosa med kronblad) og merket Katana
+  (`merke-katana`, animert glans og glød, eget utseende i `globals.css`).
+  De gis med én rad i `eiendeler` per ting (SQL Editor):
+  `insert into public.eiendeler (bruker_id, ting) select id, 'tema-sakura' from auth.users where email = '…';`
+  Databasen lar bare eieren ta dem i bruk (`sjekk_valgte_ting`), og samlingen
+  viser «Bare din» under navnet.
 - **I menyen:** dager på rad (flamme i elevens flammefarge, grå uten rekke,
   snøfnugg dagen etter at en frys reddet den) ved profilknappen på alle
   sidene (`Rekkebrikke`), og på startsiden også poengene med stjerna

@@ -132,7 +132,10 @@ export function Samlingen({ brukerId, fornavn }: { brukerId: string; fornavn: st
           {typer.length ? (
             typer.map((t) => {
               const mine = mineAv(t.type);
-              const flere = Object.values(TING).filter((v) => v.type === t.type).length - kjopteAv(t.type).length;
+              // Eksklusive ting selges ikke, så de telles ikke som «flere i Belønninger».
+              const flere =
+                Object.values(TING).filter((v) => v.type === t.type && !v.eksklusiv).length -
+                kjopteAv(t.type).filter((e) => !TING[e].eksklusiv).length;
               const tFeil = feil?.type === t.type ? feil.tekst : null;
               if (t.type === "merke") {
                 return (
@@ -366,7 +369,10 @@ function Gruppe({
               />
               <Bilde type={type} ting={ting} fornavn={fornavn} />
               <span className="flex items-center justify-between gap-2 px-1 pb-0.5 text-sm font-semibold">
-                <span aria-hidden="true">{tingnavn}</span>
+                <span aria-hidden="true" className="flex flex-col leading-tight">
+                  {tingnavn}
+                  {ting && TING[ting]?.eksklusiv && <Eksklusiv />}
+                </span>
                 {pa && (
                   <span className="inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-primary text-white">
                     <Check size={12} />
@@ -471,7 +477,10 @@ function Merkegruppe({
               />
               <Bilde type="merke" ting={ting} fornavn={fornavn} />
               <span className="flex items-center justify-between gap-2 px-1 pb-0.5 text-sm font-semibold">
-                <span aria-hidden="true">{navnPa(ting)}</span>
+                <span aria-hidden="true" className="flex flex-col leading-tight">
+                  {navnPa(ting)}
+                  {TING[ting]?.eksklusiv && <Eksklusiv />}
+                </span>
                 {pa && (
                   <span
                     aria-hidden="true"
@@ -520,6 +529,11 @@ function Merkegruppe({
       )}
     </div>
   );
+}
+
+// Under navnet på en ting som er laget for akkurat denne eleven.
+function Eksklusiv() {
+  return <span className="mt-0.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-primary">Bare din</span>;
 }
 
 // Standardfargene (lys og mørk modus fra globals.css), satt direkte på

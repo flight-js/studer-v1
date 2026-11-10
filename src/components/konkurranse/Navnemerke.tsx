@@ -1,4 +1,5 @@
 import { Book, Cards, Check, Fjaer, Flamme, Kalender, Lyn, Lyspare, Pen, Stjerne, Timer } from "@/components/icons";
+import { KatanaMerke } from "@/components/konkurranse/KatanaMerke";
 import { merkenavn } from "@/lib/merker";
 
 // Merkene en elev viser ved navnet på rangeringene (opptil tre): kjøpte
@@ -12,6 +13,13 @@ const KJOPTE: Record<string, { navn: string; ikon: Ikon }> = {
   "merke-fjaer": { navn: "Fjærpenn", ikon: (s) => <Fjaer size={s} /> },
   "merke-lyspare": { navn: "Lyspære", ikon: (s) => <Lyspare size={s} /> },
   "merke-stjerne": { navn: "Stjerne", ikon: (s) => <Stjerne size={s} fylt /> },
+};
+
+// Eksklusive merker, laget for én bestemt elev (TING med eksklusiv i
+// lib/utseende.ts). Hvert har sin egen tegning og sitt eget utseende i
+// globals.css (klassen) – uten sirkel bak.
+const EKSKLUSIVE: Record<string, { navn: string; ikon: Ikon; klasse: string }> = {
+  "merke-katana": { navn: "Katana", ikon: (s) => <KatanaMerke size={s} />, klasse: "merke-katana" },
 };
 
 const TJENTE_IKONER: Record<string, Ikon> = {
@@ -28,10 +36,13 @@ const TJENTE_IKONER: Record<string, Ikon> = {
 // Ikonet for et merke (kjøpt eller tjent), uten ramme. Uten size bestemmer
 // forelderen størrelsen med CSS.
 export function Merkeikon({ merke, size }: { merke: string; size?: number }) {
-  return <>{(KJOPTE[merke]?.ikon ?? TJENTE_IKONER[merke])?.(size) ?? null}</>;
+  return <>{(KJOPTE[merke]?.ikon ?? EKSKLUSIVE[merke]?.ikon ?? TJENTE_IKONER[merke])?.(size) ?? null}</>;
 }
 
-const navnPaMerke = (merke: string) => KJOPTE[merke]?.navn ?? merkenavn(merke);
+const navnPaMerke = (merke: string) => KJOPTE[merke]?.navn ?? EKSKLUSIVE[merke]?.navn ?? merkenavn(merke);
+// Fargen på sirkelen: gul for kjøpte, eget utseende for eksklusive, blå for tjente.
+const merkeklasse = (merke: string) =>
+  KJOPTE[merke] ? "bg-merke text-pa-merke" : (EKSKLUSIVE[merke]?.klasse ?? "bg-primary text-white");
 
 export function Navnemerker({ merker, className = "" }: { merker?: string[] | null; className?: string }) {
   const liste = (merker ?? []).filter((m) => navnPaMerke(m)).slice(0, 3);
@@ -44,9 +55,7 @@ export function Navnemerker({ merker, className = "" }: { merker?: string[] | nu
           role="img"
           aria-label={`merke: ${navnPaMerke(m)}`}
           title={navnPaMerke(m) ?? undefined}
-          className={`inline-flex size-[1.3em] items-center justify-center rounded-full [&_svg]:size-[0.74em] ${
-            KJOPTE[m] ? "bg-merke text-pa-merke" : "bg-primary text-white"
-          }`}
+          className={`inline-flex size-[1.3em] items-center justify-center rounded-full [&_svg]:size-[0.74em] ${merkeklasse(m)}`}
         >
           <Merkeikon merke={m} />
         </span>
