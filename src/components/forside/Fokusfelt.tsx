@@ -9,9 +9,9 @@ import { BEGREPER } from "@/lib/forsidedata";
 // Heroen på forsiden: en mørk pult full av ekte begreper fra flashcardene, og
 // en leselampe som gjør dem lesbare. Lampa følger musa; uten mus (eller når
 // musa er borte) leter den rundt på egen hånd og lyser bare opp. Ord velges
-// først når noen styrer lampa selv: begrepet nærmest midten av lyset blir gult
-// med en gang, og definisjonen kommer når lyset har hvilt litt på ordet, eller
-// med en gang ved klikk. Ingenting er valgt når siden åpnes.
+// først når noen styrer lampa selv: ordet man peker på blir gult med en gang,
+// og definisjonen kommer når lyset har hvilt litt på ordet, eller med en gang
+// ved klikk. Ingenting er valgt når siden åpnes.
 //
 // Lyset er to lag med samme tekst: et uskarpt, svakt lag over hele flaten, og
 // et skarpt lag inne i lampa. Lampa flyttes med transform og det skarpe laget
@@ -30,12 +30,26 @@ const START = Math.max(
 // det plass til definisjonen. Når lampa går av seg selv, viser den ingen
 // definisjon, så da holder det at ordet er lysbart – ellers fikk den nesten
 // ingen steder å gå på mobil, der det er lite plass over overskriften.
-type Punkt = { x: number; y: number; venstre: number; topp: number; bunn: number; lysbar: boolean; ok: boolean };
+// pekbar: eleven kan peke eller trykke på ordet selv – synlig, under menyen og
+// ikke bak teksten, men uten luften rundt teksten som lampa holder av seg selv.
+type Punkt = {
+  x: number;
+  y: number;
+  venstre: number;
+  hoyre: number;
+  topp: number;
+  bunn: number;
+  lysbar: boolean;
+  ok: boolean;
+  pekbar: boolean;
+};
 type Boks = { l: number; t: number; r: number; b: number };
 
 // Øverste kant lampa og notatet kan bruke: under toppmenyen, og på smale
 // skjermer også under «Bytt begrep»-knappen.
 const ovreKant = (bredde: number) => (bredde < 1024 ? 128 : 72);
+const MENY_H = 66; // toppmenyen
+const LUFT = 18; // luft rundt teksten som lampa og notatet holder seg unna
 const NOTAT_H = 150; // anslått høyde på notatet før det er målt
 // Hvor lenge lyset må hvile på et ord før definisjonen vises (sekunder):
 // med mus regnes det fra siste musebevegelse, ellers fra lyset stoppet.
@@ -87,7 +101,8 @@ export function Fokusfelt() {
     let synlig = true;
     let auto: gsap.core.Tween | null = null;
     let tilbake: gsap.core.Tween | null = null;
-    let unnta: Boks[] = [];
+    let unnta: Boks[] = []; // teksten med luft rundt
+    let tekst: Boks[] = []; // teksten slik den står
     let vist = START; // begrepet notatet viser nå (React-tilstanden)
     let notatVist = -1; // begrepet notatet er synlig for, eller -1
     let aktivSiden = 0;
@@ -98,33 +113,57 @@ export function Fokusfelt() {
 
     // Linjene i overskriften, ingressen og knappene, målt som tekst og ikke
     // som blokker, så lampa kan lyse helt inntil dem.
-    const malUnnta = (r: DOMRect) => {
+    const malTekst = (r: DOMRect): Boks[] => {
       const blokk = seksjon.querySelector<HTMLElement>("[data-fokus-unnta]");
       if (!blokk) return [];
-      const kant = 18;
       return Array.from(blokk.children).flatMap((barn) => {
         const omraade = document.createRange();
         omraade.selectNodeContents(barn);
         return Array.from(omraade.getClientRects()).map((b) => ({
-          l: b.left - r.left - kant,
-          t: b.top - r.top - kant,
-          r: b.right - r.left + kant,
-          b: b.bottom - r.top + kant,
+          l: b.left - r.left,
+          t: b.top - r.top,
+          r: b.right - r.left,
+          b: b.bottom - r.top,
         }));
       });
     };
 
-    // Hvor notatet havner for et begrep: under det hvis det er plass, ellers
-    // over. null hvis det ikke får plass uten å dekke menyen eller teksten.
-    const notatBoks = (p: Omit<Punkt, "ok" | "lysbar">, w: number, h: number): Boks | null => {
+    // Steder notatet kan stå for et begrep, i den rekkefølgen vi helst vil:
+    // under, over, til høyre og til venstre for ordet.
+    type Plass = Omit<Punkt, "ok" | "lysbar" | "pekbar">;
+    const notatSteder = (p: Plass, w: number, h: number): Boks[] => {
       const l = Math.min(Math.max(p.venstre, 16), bredde - w - 16);
-      for (const t of [p.bunn + 12, p.topp - h - 12]) {
-        const boks = { l, t, r: l + w, b: t + h };
-        if (t < ovreKant(bredde) || boks.b > hoyde - 16) continue;
-        if (unnta.some((u) => overlapper(u, boks))) continue;
-        return boks;
-      }
-      return null;
+      const midt = Math.min(Math.max((p.topp + p.bunn - h) / 2, ovreKant(bredde)), hoyde - h - 16);
+      return [
+        { l, t: p.bunn + 12 },
+        { l, t: p.topp - h - 12 },
+        { l: p.hoyre + 16, t: midt },
+        { l: p.venstre - w - 16, t: midt },
+      ].map((s) => ({ ...s, r: s.l + w, b: s.t + h }));
+    };
+    const innenfor = (b: Boks) => b.t >= ovreKant(bredde) && b.b <= hoyde - 16 && b.l >= 16 && b.r <= bredde - 16;
+
+    // Hvor notatet havner for et begrep. null hvis det ikke får plass noe
+    // sted uten å dekke menyen eller teksten.
+    const notatBoks = (p: Plass, w: number, h: number): Boks | null =>
+      notatSteder(p, w, h).find((b) => innenfor(b) && !unnta.some((u) => overlapper(u, b))) ?? null;
+
+    // Når eleven selv peker på et ord uten god plass, vises notatet likevel:
+    // flyttet inn på flaten, der det dekker minst av teksten og ikke ordet.
+    const flate = (a: Boks, b: Boks) =>
+      Math.max(0, Math.min(a.r, b.r) - Math.max(a.l, b.l)) * Math.max(0, Math.min(a.b, b.b) - Math.max(a.t, b.t));
+    const notatPlass = (p: Plass, w: number, h: number): Boks => {
+      const fri = notatBoks(p, w, h);
+      if (fri) return fri;
+      const ordet = { l: p.venstre, t: p.topp, r: p.hoyre, b: p.bunn };
+      const kost = (b: Boks) => unnta.reduce((sum, u) => sum + flate(u, b), 0) + flate(ordet, b) * 10;
+      return notatSteder(p, w, h)
+        .map((s) => {
+          const l = Math.min(Math.max(s.l, 16), bredde - w - 16);
+          const t = Math.min(Math.max(s.t, ovreKant(bredde)), hoyde - h - 16);
+          return { l, t, r: l + w, b: t + h };
+        })
+        .reduce((best, b) => (kost(b) < kost(best) ? b : best));
     };
 
     // Mål opp hvor hvert begrep står, og hvilke lampa kan stoppe ved: fritt
@@ -134,7 +173,8 @@ export function Fokusfelt() {
       bredde = r.width;
       hoyde = r.height;
       radius = lampe.offsetWidth / 2;
-      unnta = malUnnta(r);
+      tekst = malTekst(r);
+      unnta = tekst.map((u) => ({ l: u.l - LUFT, t: u.t - LUFT, r: u.r + LUFT, b: u.b + LUFT }));
       // På smale skjermer står ordene over teksten. Masken i globals.css
       // toner dem ut fra der teksten begynner, som avhenger av skjermhøyden.
       const grense = unnta.length ? Math.min(...unnta.map((u) => u.t)) : hoyde * 0.4;
@@ -146,10 +186,11 @@ export function Fokusfelt() {
           x: b.left - r.left + b.width / 2,
           y: b.top - r.top + b.height / 2,
           venstre: b.left - r.left,
+          hoyre: b.right - r.left,
           topp: b.top - r.top,
           bunn: b.bottom - r.top,
         };
-        const ord = { l: p.venstre, t: p.topp, r: b.right - r.left, b: p.bunn };
+        const ord = { l: p.venstre, t: p.topp, r: p.hoyre, b: p.bunn };
         // Samme fade som masken i globals.css (.ff-felt): ikke stopp ved ord
         // som nesten er borte.
         const synlig =
@@ -163,7 +204,16 @@ export function Fokusfelt() {
           p.x < bredde - radius * 0.45 &&
           !unnta.some((u) => overlapper(u, ord));
         const ok = lysbar && notatBoks(p, notatW, NOTAT_H) !== null;
-        return { ...p, lysbar, ok };
+        // Linjeboksene til den store overskriften er høyere enn bokstavene, så
+        // et ord som bare streifer dem står fritt. Svakt tonede ord kan også
+        // velges når man peker rett på dem.
+        const dekket = tekst.reduce((sum, u) => sum + flate(u, ord), 0) / ((ord.r - ord.l) * (ord.b - ord.t));
+        const svakt =
+          bredde < 1024
+            ? p.bunn < grense
+            : (p.x / bredde / 0.62) ** 2 + ((hoyde - p.y) / hoyde / 0.64) ** 2 > 0.45;
+        const pekbar = svakt && p.topp > MENY_H && dekket < 0.2;
+        return { ...p, lysbar, ok, pekbar };
       });
     };
 
@@ -174,11 +224,7 @@ export function Fokusfelt() {
 
     // Notatet plasseres av oss; GSAP animerer bare kortet inni.
     const plasserNotat = (i: number) => {
-      const p = punkter[i];
-      const boks = notatBoks(p, notat.offsetWidth, notat.offsetHeight) ?? {
-        l: Math.min(Math.max(p.venstre, 16), bredde - notat.offsetWidth - 16),
-        t: p.bunn + 12,
-      };
+      const boks = notatPlass(punkter[i], notat.offsetWidth, notat.offsetHeight);
       notat.style.transform = `translate3d(${Math.round(boks.l)}px, ${Math.round(boks.t)}px, 0)`;
     };
 
@@ -222,19 +268,25 @@ export function Fokusfelt() {
       oppdaterPeker();
     };
 
-    const naermeste = () => {
+    // Ordet som står under punktet: avstanden måles til kanten av ordet, ikke
+    // til midten, ellers vinner et kort ord i linja over eller under når man
+    // peker på enden av et langt ord. Er ordet under et man ikke kan velge
+    // (under teksten eller nesten tonet ut), velges ingenting – ikke naboen.
+    const ordVed = (x: number, y: number) => {
       let best = -1;
-      let bestAvstand = (radius * 0.62) ** 2;
+      let bestKant = Infinity;
+      let bestMidt = Infinity;
       for (let i = 0; i < punkter.length; i++) {
         const p = punkter[i];
-        if (!p.ok) continue;
-        const d = (p.x - lys.x) ** 2 + (p.y - lys.y) ** 2;
-        if (d < bestAvstand) {
-          bestAvstand = d;
+        const kant = Math.hypot(Math.max(p.venstre - x, 0, x - p.hoyre), Math.max(p.topp - y, 0, y - p.bunn));
+        const midt = (p.x - x) ** 2 + (p.y - y) ** 2;
+        if (kant < bestKant || (kant === bestKant && midt < bestMidt)) {
           best = i;
+          bestKant = kant;
+          bestMidt = midt;
         }
       }
-      return best;
+      return best >= 0 && punkter[best].pekbar && bestKant < radius * 0.35 ? best : -1;
     };
 
     const tikk = (tid: number, deltaMs: number) => {
@@ -254,9 +306,10 @@ export function Fokusfelt() {
         kandidat = -1;
         return;
       }
-      // Bytt begrep først når lyset har roet seg litt, så det gule ikke
-      // blinker forbi hvert ord lampa passerer.
-      const n = naermeste();
+      // Begrepet er ordet der lampa er på vei (under musa, der man trykket,
+      // eller dit knappen sendte den). Bytt først når det har stått stille
+      // litt, så det gule ikke blinker forbi hvert ord musa passerer.
+      const n = ordVed(maal.x, maal.y);
       if (n !== kandidat) {
         kandidat = n;
         kandidatSiden = tid;
@@ -457,7 +510,7 @@ export function Fokusfelt() {
       if (!levende) return;
       const fra = aktivIndeks;
       mal();
-      if (fra >= 0 && punkter[fra]?.ok) {
+      if (fra >= 0 && punkter[fra]?.pekbar) {
         lys.x = maal.x = punkter[fra].x;
         lys.y = maal.y = punkter[fra].y;
         skrivLys();
