@@ -7,3 +7,12 @@
 export const TEMA_NOKKEL = "studer-tema";
 
 export const temaskript = `try{var m=matchMedia("(prefers-color-scheme: dark)"),s=function(){var v=localStorage.getItem(${JSON.stringify(TEMA_NOKKEL)});document.documentElement.dataset.tema=v==="mork"||(v!=="lys"&&m.matches)?"mork":"lys"};s();m.addEventListener("change",s)}catch(e){}`;
+
+// Premium-temaet (kjøpt med poeng) huskes i nettleseren av NattTema, så det kan
+// settes som data-natt-tema før siden tegnes – ellers blinker natt-flatene i
+// standardfargene først. Bare når noen er logget inn (oktNokkel), og bare navn
+// med små bokstaver. NattTema retter det når valget fra databasen er hentet.
+export const NATT_TEMA_NOKKEL = "studer-natt-tema";
+
+export const nattTemaskript = (oktNokkel: string) =>
+  `try{var n=localStorage.getItem(${JSON.stringify(NATT_TEMA_NOKKEL)});if(n&&/^[a-z]+$/.test(n)&&localStorage.getItem(${JSON.stringify(oktNokkel)}))document.documentElement.dataset.nattTema=n}catch(e){}`;

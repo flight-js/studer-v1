@@ -334,6 +334,7 @@ export type Database = {
           valgt_flamme: string | null
           valgt_konfetti: string | null
           valgt_merke: string | null
+          valgt_tema: string | null
         }
         Insert: {
           abonnement?: string
@@ -352,6 +353,7 @@ export type Database = {
           valgt_flamme?: string | null
           valgt_konfetti?: string | null
           valgt_merke?: string | null
+          valgt_tema?: string | null
         }
         Update: {
           abonnement?: string
@@ -370,6 +372,7 @@ export type Database = {
           valgt_flamme?: string | null
           valgt_konfetti?: string | null
           valgt_merke?: string | null
+          valgt_tema?: string | null
         }
         Relationships: [
           {

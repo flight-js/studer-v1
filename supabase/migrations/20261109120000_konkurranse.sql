@@ -311,13 +311,13 @@ create table public.belonninger (
   -- kode: koder fra en partner (tabellen kuponger). De andre er Studers egne:
   -- kreditt: gratis tid – verdi er antall dager perioden forlenges (neste betaling flyttes frem)
   -- venn:    en gave eleven sender til en venns e-post – verdi er antall dager vennen får
-  -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet) – verdi er tingen
+  -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet, tema) – verdi er tingen
   type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting')),
   verdi text,
   check (
     (type = 'kode' and verdi is null)
     or (type in ('kreditt', 'venn') and verdi ~ '^[0-9]{1,3}$')
-    or (type = 'ting' and verdi ~ '^(flamme|konfetti|merke)-[a-z]+$')
+    or (type = 'ting' and verdi ~ '^(flamme|konfetti|merke|tema)-[a-z]+$')
   )
 );
 
@@ -358,11 +358,13 @@ create policy "Elever ser sine egne ting" on public.eiendeler
   for select to authenticated using (bruker_id = auth.uid());
 
 -- Hvilke ting eleven bruker. Bare ting eleven eier (sjekk_valgte_ting).
+-- valgt_tema: premium-tema som farger natt-flatene i appen (se globals.css).
 alter table public.profiles
   add column valgt_flamme text,
   add column valgt_konfetti text,
-  add column valgt_merke text;
-grant update (valgt_flamme, valgt_konfetti, valgt_merke) on public.profiles to authenticated;
+  add column valgt_merke text,
+  add column valgt_tema text;
+grant update (valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema) on public.profiles to authenticated;
 
 create function public.sjekk_valgte_ting()
 returns trigger
@@ -376,7 +378,9 @@ begin
     or (new.valgt_konfetti is not null and (new.valgt_konfetti not like 'konfetti-%'
         or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_konfetti)))
     or (new.valgt_merke is not null and (new.valgt_merke not like 'merke-%'
-        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_merke))) then
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_merke)))
+    or (new.valgt_tema is not null and (new.valgt_tema not like 'tema-%'
+        or not exists (select 1 from public.eiendeler e where e.bruker_id = new.id and e.ting = new.valgt_tema))) then
     raise exception using errcode = '23514', message = 'Du har ikke den tingen.';
   end if;
   return new;
@@ -384,7 +388,7 @@ end;
 $$;
 
 create trigger profiles_sjekk_valgte_ting
-  before update of valgt_flamme, valgt_konfetti, valgt_merke on public.profiles
+  before update of valgt_flamme, valgt_konfetti, valgt_merke, valgt_tema on public.profiles
   for each row execute function public.sjekk_valgte_ting();
 
 -- Gaver til en venn. Eleven skriver vennens e-postadresse, og Studer sender
@@ -1385,7 +1389,12 @@ insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris,
   ('Studer', 'Fjærkonfetti', 'Fjærpenner som daler ned når du får til noe.', '', 600, 'ting', 'konfetti-fjaer'),
   ('Studer', 'Fjærpenn ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-fjaer'),
   ('Studer', 'Lyspære ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-lyspare'),
-  ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-stjerne');
+  ('Studer', 'Stjerne ved navnet', 'Vises ved navnet ditt på rangeringene.', '', 500, 'ting', 'merke-stjerne'),
+  ('Studer', 'Tema: Nordlys', 'Grønt og lilla lys over startsiden og konkurransesiden.', '', 1200, 'ting', 'tema-nordlys'),
+  ('Studer', 'Tema: Solnedgang', 'Oransje og rosa himmel over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-solnedgang'),
+  ('Studer', 'Tema: Havdyp', 'Dypblått og turkis over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-havdyp'),
+  ('Studer', 'Tema: Skog', 'Mørk skog med lysegrønt lys over startsiden og konkurransesiden.', '', 1000, 'ting', 'tema-skog'),
+  ('Studer', 'Tema: Galakse', 'Lilla stjernehimmel over startsiden og konkurransesiden.', '', 1500, 'ting', 'tema-galakse');
 
 -- ---------------------------------------------------------------- Slik legges partnerbelønninger inn
 --

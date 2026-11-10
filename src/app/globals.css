@@ -1093,3 +1093,64 @@ html.fs-intro .ff-intro {
     color: var(--primary);
   }
 }
+
+/* Premium-temaer (kjøpt med poeng, se TEMAER i src/lib/utseende.ts): farger
+   natt-flatene i appen – startsiden og konkurransesiden – med egen grunnfarge
+   og en glød øverst. data-natt-tema settes på <html> (NattTema i layout), eller
+   på et element for forhåndsvisningen på belønningssiden. .fs-natt låser ellers
+   standardfargene, så den må med i velgeren (men ikke en forhåndsvisning med
+   sitt eget tema). Gløden er svak nok til at krem
+   tekst og merkepenn-gult har god kontrast overalt. */
+[data-natt-tema="nordlys"],
+[data-natt-tema="nordlys"] .fs-natt:not([data-natt-tema]) {
+  --natt: #061a1b;
+  --natt-hevet: #0e2a2a;
+  --natt-bilde:
+    radial-gradient(60% 520px at 12% 0, rgb(46 204 143 / 0.26), transparent 70%),
+    radial-gradient(55% 480px at 88% 0, rgb(124 77 255 / 0.24), transparent 70%);
+}
+[data-natt-tema="solnedgang"],
+[data-natt-tema="solnedgang"] .fs-natt:not([data-natt-tema]) {
+  --natt: #190d17;
+  --natt-hevet: #2a1624;
+  --natt-bilde:
+    radial-gradient(65% 520px at 85% 0, rgb(255 122 69 / 0.26), transparent 70%),
+    radial-gradient(55% 480px at 10% 0, rgb(214 51 132 / 0.24), transparent 70%);
+}
+[data-natt-tema="havdyp"],
+[data-natt-tema="havdyp"] .fs-natt:not([data-natt-tema]) {
+  --natt: #06132a;
+  --natt-hevet: #0d2140;
+  --natt-bilde:
+    radial-gradient(70% 560px at 50% 0, rgb(30 144 255 / 0.24), transparent 70%),
+    radial-gradient(45% 420px at 95% 0, rgb(0 201 183 / 0.2), transparent 70%);
+}
+[data-natt-tema="skog"],
+[data-natt-tema="skog"] .fs-natt:not([data-natt-tema]) {
+  --natt: #0a1811;
+  --natt-hevet: #13281c;
+  --natt-bilde:
+    radial-gradient(60% 520px at 20% 0, rgb(76 175 80 / 0.24), transparent 70%),
+    radial-gradient(50% 460px at 85% 0, rgb(205 220 57 / 0.14), transparent 70%);
+}
+/* Galakse: lilla og rosa glød, og små stjerner som gjentas over hele flaten. */
+[data-natt-tema="galakse"],
+[data-natt-tema="galakse"] .fs-natt:not([data-natt-tema]) {
+  --natt: #0c0a1d;
+  --natt-hevet: #181433;
+  --natt-bilde:
+    radial-gradient(60% 520px at 20% 0, rgb(140 82 255 / 0.28), transparent 70%),
+    radial-gradient(50% 460px at 90% 0, rgb(255 105 180 / 0.16), transparent 70%),
+    radial-gradient(1px 1px at 24px 40px, rgb(255 255 255 / 0.55), transparent),
+    radial-gradient(1px 1px at 130px 90px, rgb(255 255 255 / 0.4), transparent),
+    radial-gradient(1.5px 1.5px at 200px 20px, rgb(255 255 255 / 0.5), transparent),
+    radial-gradient(1px 1px at 70px 170px, rgb(255 255 255 / 0.35), transparent),
+    radial-gradient(1px 1px at 180px 200px, rgb(255 255 255 / 0.45), transparent);
+  --natt-storrelse: auto, auto, 240px 240px, 240px 240px, 240px 240px, 240px 240px, 240px 240px;
+  --natt-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
+}
+.bg-natt {
+  background-image: var(--natt-bilde, none);
+  background-size: var(--natt-storrelse, auto);
+  background-repeat: var(--natt-gjentak, no-repeat);
+}
