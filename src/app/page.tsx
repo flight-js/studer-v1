@@ -278,7 +278,7 @@ function Markedsside() {
       <footer className="fs-natt bg-natt border-t border-natt-linje">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-12 flex flex-col gap-10">
           <div className="flex flex-col sm:flex-row gap-6 justify-between sm:items-end">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
               <Logo className="text-3xl self-start" />
               <p className="text-sm text-background/60 max-w-[46ch]">
                 {DRIVER} er en ungdomsbedrift{SKOLE ? ` ved ${SKOLE}` : ""}.
