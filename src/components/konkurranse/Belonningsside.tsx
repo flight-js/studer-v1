@@ -24,7 +24,7 @@ import { hentMineTing, tingtype, useUtseende, velgTing, type MineTing } from "@/
 import { useHent } from "@/lib/useHent";
 
 // Innholdet på /belonninger (siden sjekker innloggingen). Poeng løses inn i:
-//   Fra Studer:   gratis tid (trekkes fra neste betaling) og gaver til venner
+//   Fra Studer:   gratis tid (neste betaling flyttes frem) og gaver til venner
 //                 (eleven skriver vennens e-post, Studer sender e-posten)
 //   Til appen:    flammefarger, konfetti og merker ved navnet – kan prøves først
 //   Fra partnere: koder fra ekte partnere (se nederst i migrasjonen); finnes
@@ -32,6 +32,8 @@ import { useHent } from "@/lib/useHent";
 
 const tall = (n: number) => n.toLocaleString("nb-NO");
 const dato = (iso: string) => new Date(iso).toLocaleDateString("nb-NO", { day: "numeric", month: "long" });
+// Gratis tid: verdi er antall dager.
+const dagerTekst = (verdi: string | null) => (verdi === "7" ? "en uke" : `${verdi} dager`);
 const IKKE_PA = "Innløsning er ikke slått på ennå. Dette er bare et eksempel.";
 
 export function Belonningsside({ brukerId }: { brukerId: string }) {
@@ -80,7 +82,7 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
           ) : (
             <>
               {!!fraStuder.length && (
-                <Seksjon tittel="Fra Studer" tekst="Gratis tid trekkes fra neste betaling av abonnementet ditt.">
+                <Seksjon tittel="Fra Studer" tekst="Med gratis tid varer abonnementet ditt lenger før neste betaling.">
                   {fraStuder.map(kort)}
                 </Seksjon>
               )}
@@ -184,7 +186,7 @@ function Seksjon({ tittel, tekst, children }: { tittel: string; tekst: string; c
 type Resultat =
   | { type: "kode"; kode: string; lenke: string | null }
   | { type: "venn"; epost: string }
-  | { type: "kreditt"; belop: string }
+  | { type: "kreditt"; til: string }
   | { type: "ting" };
 
 function Gavestatus({ gave }: { gave: Vennegave }) {
@@ -237,7 +239,7 @@ function Kort({
     try {
       if (b.type === "kreditt") {
         const r = await losInnGratisTid(b.id);
-        setResultat({ type: "kreditt", belop: r.belop });
+        setResultat({ type: "kreditt", til: r.til });
       } else if (b.type === "venn") {
         const r = await sendVennegave(b.id, epost.trim());
         setResultat({ type: "venn", epost: r.epost });
@@ -257,7 +259,7 @@ function Kort({
   }
 
   const sporsmal = {
-    kreditt: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}? Prisen trekkes fra neste betaling.</>,
+    kreditt: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}? Neste betaling kommer {dagerTekst(b.verdi)} senere.</>,
     venn: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på en gratis uke til en venn?</>,
     ting: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på {b.tittel.toLowerCase()}?</>,
     kode: <>Bruke <strong>{tall(b.poengpris)} poeng</strong> på dette?</>,
@@ -298,7 +300,7 @@ function Kort({
             )}
           </Ferdig>
         ) : resultat?.type === "kreditt" ? (
-          <Ferdig tekst={`Ferdig! ${resultat.belop} kr trekkes fra neste betaling.`} />
+          <Ferdig tekst={`Ferdig! Neste betaling er flyttet til ${dato(resultat.til)}.`} />
         ) : eier && b.verdi ? (
           <BrukTing ting={b.verdi} brukerId={brukerId} nyKjopt={resultat?.type === "ting"} start={ting} />
         ) : b.type === "kode" && b.innlostAvMeg ? (

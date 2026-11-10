@@ -42,10 +42,10 @@ export const startBetaling = async (plan: Plan): Promise<Betalingsokt> => {
   return { ...okt, provetid: okt.provetid === true, vennKreditt: okt.vennKreditt ?? null };
 };
 
-// Gratis tid kjøpt med poeng: verdien av dagene trekkes fra neste betaling.
-// belop: kroner («13,77»), saldo: poengene som er igjen.
+// Gratis tid kjøpt med poeng: perioden forlenges, så neste betaling kommer
+// senere. til: datoen for neste betaling (ISO), saldo: poengene som er igjen.
 export const losInnGratisTid = (belonning: string) =>
-  kall<{ saldo: number; belop: string; dager: number }>({ handling: "kreditt", belonning });
+  kall<{ saldo: number; dager: number; til: string }>({ handling: "kreditt", belonning });
 
 // Lenke til abonnementssiden som sender eleven tilbake dit hen var etter kjøpet.
 export const abonnementHref = (neste?: string) =>
@@ -73,9 +73,13 @@ export function betalingsfeiltekst(e: unknown): string {
     case "kreditt":
       return (e as Betalingsfeil).melding ?? "Fikk ikke løst inn gratis tid. Prøv igjen.";
     case "kreditt-uten-abonnement":
-      return "Gratis tid trekkes fra neste betaling, så du trenger et aktivt abonnement.";
+      return "Gratis tid forlenger abonnementet ditt, så du trenger et aktivt abonnement.";
     case "kreditt-avsluttes":
       return "Abonnementet ditt avsluttes. Gratis tid kan bare brukes når abonnementet fortsetter.";
+    case "kreditt-forfalt":
+      return "Den siste betalingen gikk ikke gjennom. Oppdater kortet under Min konto først.";
+    case "kreditt-vent":
+      return "Abonnementet ditt er ikke helt klart ennå. Prøv igjen om et par minutter.";
     default:
       return "Noe gikk galt. Prøv igjen om litt.";
   }

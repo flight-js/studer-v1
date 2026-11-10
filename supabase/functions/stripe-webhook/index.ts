@@ -77,6 +77,11 @@ async function sjekkProvetider(kunde: string, brukerId: string, epost: string | 
     expand: ["data.default_payment_method"],
   });
   for (const s of liste.data) {
+    // Gratis tid kjøpt med poeng flytter neste betaling med trial_end (se
+    // «betaling»). Det er ikke en ny prøveperiode og skal ikke registreres.
+    // Bare serverfunksjonen kan sette metadata, og den gjør det bare på
+    // abonnementer som er betalt eller har en godkjent prøveperiode.
+    if (s.metadata?.forlenget) continue;
     const { data: godkjent, error } = await admin.rpc("provetid_registrer", {
       p_abonnement: s.id,
       p_bruker: brukerId,
@@ -103,8 +108,12 @@ async function synkroniser(kunde: string, brukerId: string, epost: string | null
   const sist = aktivt ?? liste.data[0];
   const til = aktivt ? new Date(periodeslutt(aktivt) * 1000).toISOString() : null;
   const plan = aktivt ? planFor(aktivt) : null;
+  // Et betalt abonnement som er forlenget med gratis tid, står som «trialing» i
+  // Stripe, men er ikke en prøveperiode for eleven.
   const provetidTil =
-    aktivt?.status === "trialing" && aktivt.trial_end ? new Date(aktivt.trial_end * 1000).toISOString() : null;
+    aktivt?.status === "trialing" && aktivt.trial_end && aktivt.metadata?.forlenget !== "betalt"
+      ? new Date(aktivt.trial_end * 1000).toISOString()
+      : null;
 
   // Brukt = har hatt abonnement før, eller kontoen / e-posten har hatt prøveperiode.
   const { data: ledig, error: feil0 } = await admin.rpc("provetid_tilgjengelig", { p_bruker: brukerId, p_epost: epost });

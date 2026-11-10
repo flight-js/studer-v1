@@ -114,7 +114,7 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 
 | Belønning | Poeng | Slik virker den |
 | --- | --- | --- |
-| En gratis uke | 2 500 | Kreditt i Stripe som trekkes fra neste betaling: 59 kr × 7/30 ≈ 13,77 kr (måned) eller 499 kr × 7/365 ≈ 9,57 kr (år) |
+| En gratis uke | 2 500 | Perioden eleven er i, varer en uke lenger: neste betaling (og de etter) kommer 7 dager senere. Ingen kreditt eller tilbakebetaling |
 | Gi en venn en gratis uke | 800 | Eleven skriver vennens e-postadresse, og Studer sender vennen en e-post. Vennen får én uke kreditt når hen starter sitt første abonnement med den adressen |
 | Blå / grønn flamme | 400 | Flammen i rekka (quiz, formelmatch) får ny farge |
 | Regnbueflamme | 1 200 | Flammen skifter farge |
@@ -123,11 +123,17 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
 
 - **Gratis tid** (typen `kreditt`) går gjennom serverfunksjonen `betaling`
   (`handling: "kreditt"`): poengene trekkes i databasen (`kreditt_start`),
-  kreditten legges på kunden i Stripe, og feiler Stripe, gis poengene
-  tilbake (`kreditt_angre`). Én gang per 30 dager, bare med et aktivt
-  abonnement som ikke avsluttes. Kreditt, ikke forlenget prøveperiode: et
-  abonnement som går over til «trialing», ville blitt stoppet av
-  prøveperiodesjekken i `stripe-webhook`.
+  og slutten på perioden flyttes frem i Stripe med `trial_end` og
+  `proration_behavior: "none"` – Stripes måte å flytte betalingsdatoen på.
+  Ingen trekk eller tilbakebetaling nå, og senere betalinger kommer på den nye
+  datoen. Feiler Stripe, gis poengene tilbake (`kreditt_angre`). Én gang per
+  30 dager, bare med et abonnement som ikke avsluttes og ikke har en feilet
+  betaling. Abonnementet står som «trialing» i Stripe til den nye datoen, så
+  det merkes med metadata `forlenget` («betalt» eller «prove»):
+  `stripe-webhook` registrerer det ikke som en ny prøveperiode (ellers ville
+  prøveperiodesjekken stoppet det), og «betalt» vises ikke som prøveperiode i
+  appen. En ny prøveperiode må være godkjent av webhooken (raden i `provetid`)
+  før den kan forlenges.
 - **Gaver til venner** (typen `venn`) går gjennom serverfunksjonen
   `vennegave`: poengene trekkes (`vennegave_lag`), e-posten sendes med SMTP
   fra e-postserveren til studer.no, og feiler den, gis poengene tilbake
@@ -151,7 +157,10 @@ sammenligning tjener en elev som øver hver dag, rundt 50–150 poeng per dag.
   ved sendefeil og når gaven går ut, adressen skjules), én gratis tid per
   måned og at poengene gis tilbake nøyaktig én gang når Stripe feiler.
   Stripe-kallene og e-postsendingen er typesjekket, men ikke kjørt (krever
-  testnøkler og SMTP-passord).
+  testnøkler og SMTP-passord). Test gratis tid i Stripes testmodus med en
+  test clock: betalt måned og prøveperiode, sjekk at neste faktura kommer 7
+  dager senere, at det ikke kommer noe trekk nå, og at abonnementet ikke
+  stoppes av webhooken.
 
 ## Kallenavn
 
@@ -279,6 +288,9 @@ fjerne poeng (`grunn = 'korrigering'`).
 1. Kjør migrasjonen og `supabase/skoler.sql` (Supabase SQL Editor), og last opp
    serverfunksjonene `kallenavn` (AI_API_KEY finnes allerede fra «chat»),
    `vennegave` og `betaling`. Kjør `npm run ai:kallenavn-test` først.
+   **Last opp `stripe-webhook` før `betaling`:** den gamle webhooken kjenner
+   ikke merket `forlenget` og ville stoppet et betalt abonnement som får
+   gratis tid.
    `vennegave` trenger hemmelighetene `SMTP_VERT` (for eksempel
    mail.studer.no), `SMTP_BRUKER` (for eksempel kontakt@studer.no) og
    `SMTP_PASSORD`. Send en gave til deg selv på en annen adresse først, og

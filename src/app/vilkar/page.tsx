@@ -137,9 +137,9 @@ export default function Vilkar() {
               Poengene kan løses inn i belønninger så lenge det finnes belønninger. Kontoen må være minst en uke gammel.
             </li>
             <li>
-              Gratis tid gis som fradrag på neste betaling av abonnementet (verdien av dagene etter prisen du betaler),
-              og kan løses inn én gang i måneden. Fradraget betales aldri ut. Avsluttes abonnementet før fradraget er
-              brukt, faller det bort.
+              Gratis tid gjør at perioden du er i, varer like mange dager lenger, så neste betaling og betalingene
+              etter den kommer like mange dager senere. Gratis tid kan løses inn én gang i måneden mens abonnementet
+              fortsetter, og kan ikke byttes i penger.
             </li>
             <li>
               Gir du en venn en gratis uke, skriver du vennens e-postadresse, og vi sender vennen én e-post med

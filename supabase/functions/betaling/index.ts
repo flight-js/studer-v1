@@ -5,10 +5,13 @@
 // Funksjonen skriver aldri abonnementet i profiles. Det gjør bare
 // «stripe-webhook», etter at Stripe har bekreftet betalingen.
 //
-// Gratis tid kjøpt med poeng (handling «kreditt») og gaver fra venner gis som
-// kreditt på kunden i Stripe, som trekkes fra neste betaling. En gave fra en
-// venn er knyttet til e-postadressen (serverfunksjonen «vennegave») og brukes
-// automatisk når eleven starter sitt første abonnement.
+// Gratis tid kjøpt med poeng (handling «kreditt») forlenger perioden eleven er
+// i: neste betaling flyttes like mange dager frem (trial_end i Stripe, merket
+// med metadata «forlenget», så stripe-webhook ikke tar det for en ny
+// prøveperiode). Gaver fra venner gis som kreditt på kunden i Stripe, som
+// trekkes fra første betaling. En gave er knyttet til e-postadressen
+// (serverfunksjonen «vennegave») og brukes automatisk når eleven starter sitt
+// første abonnement.
 //
 // Prøveperiode (14 dager): gis bare hvis kunden aldri har hatt abonnement, og
 // kontoen og e-posten ikke har hatt prøveperiode før (tabellen provetid).
@@ -75,17 +78,23 @@ async function aktivtAbonnement(kunde: string) {
 }
 
 // Hva en dag er verdt med en pris (i øre): månedspris / 30, årspris / 365.
-// Brukes til gratis tid og gaver fra venner.
+// Brukes til gaver fra venner.
 function orePerDag(pris: Stripe.Price): number {
   const aar = pris.recurring?.interval === "year";
   const perioder = pris.recurring?.interval_count ?? 1;
   return (pris.unit_amount ?? 0) / ((aar ? 365 : 30) * perioder);
 }
-const verdiAvDager = (pris: Stripe.Price, dager: number) => Math.round(orePerDag(pris) * dager);
 
-// Gratis tid og gaver fra venner gis som kreditt på kunden i Stripe: den trekkes
-// automatisk fra neste betaling. (Ikke forlenget prøveperiode – da ville
-// stripe-webhook tro at eleven prøver å få en ny prøveperiode.)
+// Slutten på perioden ligger på abonnementslinjen i nyere API-versjoner (som i
+// stripe-webhook). I prøveperioden er det samme som trial_end.
+function periodeslutt(s: Stripe.Subscription): number {
+  const linje = s.items.data[0] as unknown as { current_period_end?: number } | undefined;
+  const slutt = linje?.current_period_end ?? (s as unknown as { current_period_end?: number }).current_period_end ?? 0;
+  return Math.max(slutt, s.trial_end ?? 0);
+}
+
+// Gaver fra venner gis som kreditt på kunden i Stripe: den trekkes automatisk
+// fra første betaling.
 async function giKreditt(kunde: string, ore: number, valuta: string, beskrivelse: string, nokkel: string) {
   return await stripe!.customers.createBalanceTransaction(
     kunde,
@@ -245,26 +254,51 @@ Deno.serve(async (req) => {
     }
 
     // Gratis tid kjøpt med poeng: poengene trekkes i databasen (kreditt_start),
-    // så legges verdien av dagene inn som kreditt på kunden. Feiler Stripe, gis
-    // poengene tilbake (kreditt_angre).
+    // så flyttes slutten på perioden – og dermed neste betaling – like mange
+    // dager frem. Stripe gjør det med trial_end og proration_behavior «none»:
+    // ingen trekk eller tilbakebetaling nå, og senere betalinger kommer på den
+    // nye datoen. Feiler Stripe, gis poengene tilbake (kreditt_angre).
     if (handling === "kreditt") {
       if (typeof belonning !== "string" || !/^[0-9a-f-]{36}$/.test(belonning)) return svar(400, { feil: "ugyldig" });
       const abonnement = kunde ? await aktivtAbonnement(kunde) : null;
       if (!abonnement) return svar(409, { feil: "kreditt-uten-abonnement" });
       if (abonnement.cancel_at_period_end || abonnement.cancel_at) return svar(409, { feil: "kreditt-avsluttes" });
-      const pris = abonnement.items.data[0]?.price;
-      if (!pris?.unit_amount) throw new Error("Fant ikke prisen på abonnementet");
+      // En betaling som har feilet, skal betales før perioden kan forlenges.
+      if (abonnement.status === "past_due") return svar(409, { feil: "kreditt-forfalt" });
+      // En ny prøveperiode må være godkjent av stripe-webhook først. Ellers
+      // kunne «forlenget» (som webhooken hopper over) kommet før sjekken.
+      if (abonnement.status === "trialing" && !abonnement.metadata?.forlenget) {
+        const { data: prove } = await admin
+          .from("provetid")
+          .select("avvist")
+          .eq("abonnement_id", abonnement.id)
+          .maybeSingle();
+        if (!prove || prove.avvist) return svar(409, { feil: "kreditt-vent" });
+      }
+      const slutt = periodeslutt(abonnement);
+      if (!slutt) throw new Error("Fant ikke slutten på perioden");
 
       const { data: start, error: startfeil } = await admin.rpc("kreditt_start", { p_bruker: brukerId, p_belonning: belonning });
       // Meldingene fra databasen (for få poeng, én gang i måneden …) vises som de er.
       if (startfeil) return svar(422, { feil: "kreditt", melding: startfeil.message });
       const k = (start as { id: string; dager: number; saldo: number }[])[0];
-      const ore = verdiAvDager(pris, k.dager);
+      const nyttSlutt = slutt + k.dager * 86400;
       try {
-        const t = await giKreditt(kunde!, ore, pris.currency, `Studer-poeng: ${k.dager} dager gratis`, `poeng-${k.id}`);
-        const { error } = await admin.rpc("kreditt_ferdig", { p_id: k.id, p_stripe_id: t.id, p_belop_ore: ore });
-        if (error) console.error("kreditt_ferdig", error.message); // krediten er gitt; bare statusen mangler
-        return svar(200, { saldo: k.saldo, belop: kroner(ore), dager: k.dager });
+        await stripe.subscriptions.update(
+          abonnement.id,
+          {
+            trial_end: nyttSlutt,
+            proration_behavior: "none",
+            // «betalt»: abonnementet var betalt (ikke i prøveperioden), så
+            // webhooken skal ikke vise det som prøveperiode i appen.
+            metadata: { forlenget: abonnement.status === "trialing" ? "prove" : "betalt" },
+          },
+          { idempotencyKey: `poeng-${k.id}` }
+        );
+        const til = new Date(nyttSlutt * 1000).toISOString();
+        const { error } = await admin.rpc("kreditt_ferdig", { p_id: k.id, p_stripe_id: abonnement.id, p_til: til });
+        if (error) console.error("kreditt_ferdig", error.message); // perioden er forlenget; bare statusen mangler
+        return svar(200, { saldo: k.saldo, dager: k.dager, til });
       } catch (e) {
         await admin.rpc("kreditt_angre", { p_id: k.id });
         throw e;

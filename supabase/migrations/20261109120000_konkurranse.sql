@@ -286,7 +286,7 @@ create table public.belonninger (
   aktiv boolean not null default true,
   opprettet timestamptz not null default now(),
   -- kode: koder fra en partner (tabellen kuponger). De andre er Studers egne:
-  -- kreditt: gratis tid – verdi er antall dager, trekkes fra neste betaling
+  -- kreditt: gratis tid – verdi er antall dager perioden forlenges (neste betaling flyttes frem)
   -- venn:    en gave eleven sender til en venns e-post – verdi er antall dager vennen får
   -- ting:    noe i appen (flammefarge, konfetti, merke ved navnet) – verdi er tingen
   type text not null default 'kode' check (type in ('kode', 'kreditt', 'venn', 'ting')),
@@ -420,9 +420,9 @@ as $$
   select left(split_part(p_epost, '@', 1), 2) || '•••@' || split_part(p_epost, '@', 2);
 $$;
 
--- Gratis tid: poengene trekkes først (kreditt_start), så legger serverfunksjonen
--- «betaling» krediten inn i Stripe (kreditt_ferdig). Feiler Stripe, gis
--- poengene tilbake (kreditt_angre).
+-- Gratis tid: poengene trekkes først (kreditt_start), så flytter serverfunksjonen
+-- «betaling» slutten på perioden i Stripe (kreditt_ferdig lagrer den nye datoen).
+-- Feiler Stripe, gis poengene tilbake (kreditt_angre).
 create table public.kreditter (
   id uuid primary key default gen_random_uuid(),
   bruker_id uuid not null references auth.users (id) on delete cascade,
@@ -430,8 +430,8 @@ create table public.kreditter (
   dager int not null,
   poeng int not null,
   status text not null default 'venter' check (status in ('venter', 'ferdig', 'angret')),
-  stripe_id text,
-  belop_ore int,
+  stripe_id text, -- abonnementet i Stripe
+  ny_slutt timestamptz, -- neste betaling etter forlengelsen
   laget timestamptz not null default now()
 );
 create index kreditter_bruker on public.kreditter (bruker_id, laget);
@@ -974,7 +974,7 @@ end;
 $$;
 
 -- Gratis tid, første halvdel (bare serverfunksjonen «betaling», med secret-nøkkelen):
--- sjekker, trekker poengene og lagrer krediten som venter.
+-- sjekker, trekker poengene og lagrer forlengelsen som venter.
 create function public.kreditt_start(p_bruker uuid, p_belonning uuid)
 returns table (id uuid, dager int, saldo int)
 language plpgsql
@@ -1011,14 +1011,14 @@ begin
 end;
 $$;
 
--- Krediten er lagt inn i Stripe.
-create function public.kreditt_ferdig(p_id uuid, p_stripe_id text, p_belop_ore int)
+-- Perioden er forlenget i Stripe.
+create function public.kreditt_ferdig(p_id uuid, p_stripe_id text, p_til timestamptz)
 returns void
 language sql
 security definer
 set search_path = ''
 as $$
-  update public.kreditter set status = 'ferdig', stripe_id = p_stripe_id, belop_ore = p_belop_ore
+  update public.kreditter set status = 'ferdig', stripe_id = p_stripe_id, ny_slutt = p_til
   where id = p_id and status = 'venter';
 $$;
 
@@ -1274,7 +1274,7 @@ revoke execute on function public.min_vennegave() from public, anon;
 revoke execute on function public.belonning_sperre(uuid, public.belonninger) from public, anon, authenticated;
 revoke execute on function public.sjekk_valgte_ting() from public, anon, authenticated;
 revoke execute on function public.kreditt_start(uuid, uuid) from public, anon, authenticated;
-revoke execute on function public.kreditt_ferdig(uuid, text, int) from public, anon, authenticated;
+revoke execute on function public.kreditt_ferdig(uuid, text, timestamptz) from public, anon, authenticated;
 revoke execute on function public.kreditt_angre(uuid) from public, anon, authenticated;
 revoke execute on function public.gavenavn(uuid) from public, anon, authenticated;
 revoke execute on function public.skjul_epost(text) from public, anon, authenticated;
@@ -1307,7 +1307,7 @@ select cron.schedule('rydd-vennegaver', '30 3 * * *', $$ select public.vennegave
 -- Til sammenligning: en elev som øver hver dag, tjener rundt 50–150 poeng per dag.
 
 insert into public.belonninger (partner, tittel, beskrivelse, vilkar, poengpris, type, verdi) values
-  ('Studer', 'En gratis uke', 'Prisen for én uke trekkes fra neste betaling.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 2500, 'kreditt', '7'),
+  ('Studer', 'En gratis uke', 'Abonnementet ditt varer en uke lenger, så neste betaling kommer en uke senere.', 'Gjelder abonnementet ditt. Gratis tid kan løses inn én gang i måneden.', 2500, 'kreditt', '7'),
   ('Studer', 'Gi en venn en gratis uke', 'Skriv e-postadressen til en venn som ikke har Studer. Vennen får en e-post fra oss og én uke gratis.', 'Bare for nye abonnenter. Brukes ikke gaven innen 60 dager, får du poengene tilbake.', 800, 'venn', '7'),
   ('Studer', 'Blå flamme', 'Rekka di brenner blått.', '', 400, 'ting', 'flamme-bla'),
   ('Studer', 'Grønn flamme', 'Rekka di brenner grønt.', '', 400, 'ting', 'flamme-gronn'),
