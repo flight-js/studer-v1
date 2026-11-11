@@ -20,9 +20,14 @@ const KJOPTE: Record<string, { navn: string; ikon: Ikon }> = {
 // globals.css (klassen) – uten sirkel bak.
 const EKSKLUSIVE: Record<string, { navn: string; ikon: Ikon; klasse: string }> = {
   "merke-katana": { navn: "Katana", ikon: (s) => <KatanaMerke size={s} />, klasse: "merke-katana" },
-  // Teamet bak Studer (ungdomsbedriften): app-ikonet fra public/merke.
-  // eslint-disable-next-line @next/next/no-img-element -- liten SVG, ingen bildeoptimalisering trengs
-  "merke-studer": { navn: "Studer-teamet", ikon: (s) => <img src="/merke/studer-ikon.svg" alt="" width={s} height={s} />, klasse: "merke-studer" },
+  // Teamet bak Studer (ungdomsbedriften): S-en og fjærpennen fra app-ikonet,
+  // uten den mørke flaten (public/merke/studer-glyf.svg brukt som maske).
+  // Mørkeblå i lys modus, hvit i mørk – fargen er --studer-merke i globals.css.
+  "merke-studer": {
+    navn: "Studer-teamet",
+    ikon: (s) => <span className="studer-glyf" style={s ? { width: s, height: s } : undefined} />,
+    klasse: "merke-studer",
+  },
 };
 
 const TJENTE_IKONER: Record<string, Ikon> = {

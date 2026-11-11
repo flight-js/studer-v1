@@ -36,8 +36,12 @@
   --lampe-rgb: 255 217 140;
   --merke: #f6e05e;
   --merke-dark: #e9cf35;
+  /* Blandes inn i merkepennfargen til kanten under knappene (.trykk-gul). */
+  --merke-skygge: #7a5a00;
   /* Tekst og ikoner på merkepenn-gult: alltid mørkt blekk, også i mørk modus. */
   --pa-merke: #1b1a2e;
+  /* Studer-teamet-merket ved navnet: mørkeblått på lyst, hvitt på mørkt. */
+  --studer-merke: #1b1a2e;
   /* --font-fraunces og --font-instrument-sans kommer fra next/font (app/layout.tsx). */
   --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
   --font-body: var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif;
@@ -53,6 +57,7 @@
    så den kan leses på mørkt og fortsatt bære hvit tekst på knapper. */
 :root[data-tema="mork"] {
   color-scheme: dark;
+  --studer-merke: #ffffff;
   --background: #131418;
   --surface: #1b1d23;
   --sunken: #0e0f12;
@@ -820,7 +825,7 @@ html.fs-intro .ff-intro {
   --kant: color-mix(in oklab, var(--foreground) 62%, var(--background));
 }
 .trykk-gul {
-  --kant: color-mix(in oklab, var(--merke) 55%, #7a5a00);
+  --kant: color-mix(in oklab, var(--merke) 55%, var(--merke-skygge));
 }
 .kant-riktig {
   --kant: var(--success);
@@ -1122,6 +1127,7 @@ html.fs-intro .ff-intro {
 [data-premium="skog"],
 [data-premium="galakse"] {
   color-scheme: dark;
+  --studer-merke: #ffffff;
   --success: #2e9e67;
   --success-ink: #8bd9b1;
   --danger: #d65252;
@@ -1222,6 +1228,7 @@ html.fs-intro .ff-intro {
 :root[data-premium="solnedgang"],
 [data-premium="solnedgang"] {
   color-scheme: light;
+  --studer-merke: #1b1a2e;
   --background: #fff4ec;
   --surface: #fffaf6;
   --sunken: #fbe7da;
@@ -1254,6 +1261,7 @@ html.fs-intro .ff-intro {
 :root[data-premium="sakura"],
 [data-premium="sakura"] {
   color-scheme: light;
+  --studer-merke: #1b1a2e;
   --background: #fff8fa;
   --surface: #fffdfe;
   --sunken: #fcedf2;
@@ -1349,10 +1357,12 @@ html.fs-intro .ff-intro {
   --natt: #22101b;
   --natt-hevet: #341a2a;
   /* Merkepenn-gult blir lys kirsebærrosa: knappene, fremdriftsstolpene,
-     prosenttallene, poengstjerna og lampelyset som følger musa. Teksten på dem
+     prosenttallene, poengstjerna, kanten under knappene og lampelyset som
+     følger musa. Teksten på dem
      (--pa-merke) er fortsatt mørk. */
   --merke: #ffb3cc;
   --merke-dark: #f78fb3;
+  --merke-skygge: #a3164f;
   --lampe: #ffc2d6;
   --lampe-rgb: 255 194 214;
   --natt-bilde:
@@ -1503,16 +1513,27 @@ html:root[data-premium="sakura"] [data-flate="dag"],
   .katana-glans { display: none; }
 }
 
-/* Eksklusivt merke for teamet bak Studer: app-ikonet (mørk flate med S og
-   fjærpenn) beskåret til en sirkel, med en tynn ring i merkepenn-gult. */
+/* Eksklusivt merke for teamet bak Studer: hele tegnet fra app-ikonet (S og
+   fjærpenn) uten flate bak og uten å klippes. Mørkeblått på lyse flater og
+   hvitt på mørke (--studer-merke: mørk modus, mørke premium-temaer og
+   natt-flatene). Litt større enn de andre merkene, som katanaen. */
 .merke-studer {
-  overflow: hidden;
-  background: #1b1a2e;
-  box-shadow: 0 0 0 1.5px #f6e05e;
+  width: 1.45em;
+  height: 1.45em;
+  margin-block: -0.08em;
+  background: none;
+  overflow: visible;
+  color: var(--studer-merke);
 }
-.merke-studer img {
-  width: 140%;
-  height: 140%;
-  max-width: none;
+.studer-glyf {
   display: block;
+  width: 100%;
+  height: 100%;
+  background-color: currentColor;
+  -webkit-mask: url("/merke/studer-glyf.svg") center / contain no-repeat;
+  mask: url("/merke/studer-glyf.svg") center / contain no-repeat;
+}
+.fs-natt .merke-studer,
+.bg-natt .merke-studer {
+  --studer-merke: #ffffff;
 }
