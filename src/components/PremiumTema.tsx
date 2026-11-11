@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { Kirsebaerregn } from "@/components/Kirsebaerregn";
+import { SakuraOvergang } from "@/components/SakuraOvergang";
 import { PREMIUM_NOKKEL } from "@/lib/temaskript";
 import { premiumTema, useValgtTema } from "@/lib/utseende";
 
@@ -25,6 +26,12 @@ export function PremiumTema() {
       // Privat vindu eller blokkert lagring: temaet settes uansett når siden er lastet.
     }
   }, [tema, klar, lagres]);
-  // Sakura har fallende kirsebærblomster over siden (følger data-premium selv).
-  return <Kirsebaerregn />;
+  // Sakura har fallende kirsebærblomster over siden og et katanakutt mellom
+  // sidene (begge følger data-premium selv).
+  return (
+    <>
+      <Kirsebaerregn />
+      <SakuraOvergang />
+    </>
+  );
 }

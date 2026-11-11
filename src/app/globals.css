@@ -1546,6 +1546,121 @@ html:root[data-premium="sakura"] [data-flate="dag"],
   --studer-merke: #ffffff;
 }
 
+/* Katanakuttet mellom sidene i Sakura (SakuraOvergang.tsx). Her står bare
+   utseendet og startplasseringen; bevegelsen er WAAPI i komponenten. Rammen er
+   et kvadrat på 150vmax, dreid like mye som kuttet, så de to halvdelene dekker
+   skjermen uansett format. Over menyen (z-40) og kronbladregnet (z-30). */
+.so-rot {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  overflow: hidden;
+}
+.so-ramme {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 150vmax;
+  height: 150vmax;
+  translate: -50% -50%;
+  rotate: -16deg;
+}
+.so-halv {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  will-change: transform;
+}
+.so-topp {
+  top: 0;
+  transform: translateY(-101%);
+}
+.so-bunn {
+  top: 50%;
+  transform: translateY(101%);
+}
+/* Rosa skjær langs skjøten, og en tynn lys kant der halvdelene møtes. */
+.so-glod {
+  position: absolute;
+  inset: 0;
+}
+.so-topp .so-glod {
+  background: radial-gradient(40% 18% at 50% 100%, rgb(244 143 177 / 0.3), transparent 72%);
+  box-shadow: inset 0 -1px 0 rgb(255 194 214 / 0.55);
+}
+.so-bunn .so-glod {
+  background: radial-gradient(40% 18% at 50% 0, rgb(244 143 177 / 0.3), transparent 72%);
+  box-shadow: inset 0 1px 0 rgb(255 194 214 / 0.55);
+}
+/* Monet: midten i skjøten, rett opp på skjermen (dreid tilbake). */
+.so-mon {
+  position: absolute;
+  left: 50%;
+  width: min(34vmin, 200px);
+  height: min(34vmin, 200px);
+  rotate: 16deg;
+  filter: drop-shadow(0 0 14px rgb(255 120 170 / 0.35));
+}
+.so-topp .so-mon {
+  bottom: 0;
+  translate: -50% 50%;
+}
+.so-bunn .so-mon {
+  top: 0;
+  translate: -50% -50%;
+}
+.so-kutt {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  margin-top: -1px;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background: linear-gradient(90deg, transparent 10%, rgb(255 214 228 / 0.85) 38%, #fff 55%, rgb(255 214 228 / 0.85) 72%, transparent 90%);
+  box-shadow: 0 0 10px 1px rgb(255 120 170 / 0.75), 0 0 28px 4px rgb(255 120 170 / 0.3);
+}
+.so-spor {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+}
+.so-glans {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 220px;
+  height: 8px;
+  translate: -100% -50%;
+  border-radius: 999px;
+  background: radial-gradient(closest-side, #fff, rgb(255 214 228 / 0.85) 40%, transparent);
+}
+.so-blader {
+  position: absolute;
+  inset: 0;
+}
+.so-blad {
+  position: absolute;
+  top: 50%;
+  translate: -50% -50%;
+  opacity: 0;
+  overflow: visible;
+}
+.so-blink {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: radial-gradient(60% 45% at 50% 50%, rgb(255 228 238 / 0.45), transparent 72%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
 /* «Øving som faktisk virker» på forsiden (components/forside/Forskning.tsx).
    Lesemetodene: svake brikker på natt-flaten, og de to som fikk toppkarakter i
    merkepenn-gult (data-lys). Lampa ligger bak brikkene og skinner gjennom dem. */
