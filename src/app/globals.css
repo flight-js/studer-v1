@@ -1395,6 +1395,14 @@ html.fs-intro .ff-intro {
 :root[data-premium="sakura"] .fs-meny[data-flate="dag"] .logo-ordmerke {
   background-color: #c2185b;
 }
+/* Samme rosa ordmerke i topplinja på app-sidene (AppBar, f.eks. /fag), og litt
+   mørkere når man holder over tilbakelenken. */
+:root[data-premium="sakura"] .dekk-topp .logo-ordmerke {
+  background-color: #c2185b;
+}
+:root[data-premium="sakura"] .dekk-topp a:hover .logo-ordmerke {
+  background-color: #9d1149;
+}
 :root[data-premium="sakura"] .fs-meny[data-flate="dag"] [data-profil] {
   background: #2b1520;
   color: #fff8fa;
