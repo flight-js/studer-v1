@@ -261,7 +261,14 @@ Kan modellen ikke sjekke navnet (feil, tidsavbrudd eller ikke satt opp),
 lagres det **ikke** – eleven får «Prøv igjen om litt». Uendrede navn sjekkes
 ikke på nytt. Grenser: 10 sjekker per elev per døgn og 5 000 for hele appen
 (`AI_GRENSE_KALLENAVN`, `AI_GRENSE_KALLENAVN_TOTALT`), så ingen kan prøve seg
-fram eller drive opp kostnaden med mange kontoer. Kallenavnet logges aldri,
+fram eller drive opp kostnaden med mange kontoer. I tillegg (migrasjonen
+`20261111130000_kallenavn_tempo.sql`, funksjonen `kallenavn_tempo`): høyst 3
+forsøk per minutt – også de ordlistene stopper – og høyst 3 nye kallenavn per
+7 dager, så ingen kan skrive beskjeder på rangeringene ved å bytte navn ord for
+ord. Bytte-grensen håndheves også av triggeren `sjekk_kallenavn` når navnet
+lagres. Å fjerne kallenavnet er alltid lov. Bare tidspunktene lagres
+(`kallenavn_forsok`, `kallenavn_endringer`), og de slettes etter et døgn og 30
+dager (`rydd-kallenavntempo`). Kallenavnet logges aldri,
 og OpenAI lagrer det ikke (`store: false`). Krever innlogging, ikke abonnement
 (kallenavnet velges i velkomststegene).
 

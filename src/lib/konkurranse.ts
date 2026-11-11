@@ -474,16 +474,27 @@ export async function lagreKallenavn(kallenavn: string | null): Promise<string |
   if (!error) return (data as { kallenavn: string | null }).kallenavn;
   if (error.name === "FunctionsFetchError") throw new Error("Fikk ikke kontakt med serveren. Sjekk nettet.");
   const res = (error as { context?: unknown }).context;
-  const body = res instanceof Response ? ((await res.json().catch(() => ({}))) as { feil?: string; melding?: string; grunn?: string }) : {};
+  const body =
+    res instanceof Response
+      ? ((await res.json().catch(() => ({}))) as { feil?: string; melding?: string; grunn?: string; neste?: string | null })
+      : {};
   if (res instanceof Response && res.status === 404) throw new Error("Konkurransen er ikke slått på ennå, så ingenting ble lagret.");
   switch (body.feil) {
     case "kallenavn":
       throw new Error(body.melding ?? "Det kallenavnet kan ikke brukes. Velg et annet.");
     case "grense":
+      // minutt: for mange forsøk på kort tid. uke: tre bytter de siste 7 dagene.
+      // dag: mange sjekker i dag. global: hele appen har nådd grensen i dag.
       throw new Error(
-        body.grunn === "global"
-          ? "Mange velger kallenavn akkurat nå. Prøv igjen i morgen."
-          : "Du har prøvd mange kallenavn i dag. Prøv igjen i morgen."
+        body.grunn === "minutt"
+          ? "Du har prøvd mange kallenavn på kort tid. Vent et minutt og prøv igjen."
+          : body.grunn === "uke"
+            ? `Du har byttet kallenavn tre ganger den siste uka.${
+                body.neste ? ` Du kan bytte igjen ${new Date(body.neste).toLocaleDateString("nb-NO", { weekday: "long", day: "numeric", month: "long" })}.` : " Prøv igjen senere."
+              } Du kan alltid velge «Ikke vis meg».`
+            : body.grunn === "global"
+              ? "Mange velger kallenavn akkurat nå. Prøv igjen i morgen."
+              : "Du har prøvd mange kallenavn i dag. Prøv igjen i morgen."
       );
     case "ikke-innlogget":
       throw new Error("Du må logge inn på nytt.");

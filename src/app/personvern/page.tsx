@@ -78,8 +78,9 @@ export default function Personvern() {
           <strong>AI-hjelp og retting av skriveoppgaver.</strong> Det du skriver til AI-hjelpen, og svarene dine på
           skriveoppgavene i miniprøven, sendes til OpenAI for å lage svar og retting. Et kallenavn du velger, sendes
           også til OpenAI for å sjekke at det ikke er støtende. Vi lagrer ikke samtalene eller svarene dine. Vi lagrer
-          bare poengsummen fra miniprøven, og hvor mange meldinger, rettinger og kallenavnsjekker du har brukt per
-          dag, slik at ingen kan misbruke tjenesten. Grunnlaget er avtalen med deg, og for tellerne vår berettigede
+          bare poengsummen fra miniprøven, hvor mange meldinger, rettinger og kallenavnsjekker du har brukt per
+          dag, og når du har prøvd eller byttet kallenavn (bare tidspunktet, ikke navnet), slik at ingen kan
+          misbruke tjenesten. Grunnlaget er avtalen med deg, og for tellerne vår berettigede
           interesse i å hindre misbruk (artikkel 6 nr. 1 bokstav f). Ikke skriv personopplysninger, som fullt navn,
           telefonnummer eller helseopplysninger, til AI-hjelpen.
         </p>
@@ -164,6 +165,9 @@ export default function Personvern() {
           </li>
           <li>
             <strong>Tellerne for AI-bruk og kallenavnsjekk</strong>: slettes etter 90 dager.
+          </li>
+          <li>
+            <strong>Tidspunktene for kallenavn</strong>: forsøk slettes etter et døgn, og bytter etter 30 dager.
           </li>
           <li>
             <strong>E-postadressen til en venn du har gitt en gave</strong>: skjules senest et døgn etter at gaven er

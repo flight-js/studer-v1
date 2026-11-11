@@ -32,6 +32,8 @@
   --natt-hevet: #181a21;
   --natt-linje: rgba(247, 244, 238, 0.12);
   --lampe: #ffd98c;
+  /* Samme lampelys som rgb-tall, til glød med gjennomsiktighet (.fs-glod). */
+  --lampe-rgb: 255 217 140;
   --merke: #f6e05e;
   --merke-dark: #e9cf35;
   /* Tekst og ikoner på merkepenn-gult: alltid mørkt blekk, også i mørk modus. */
@@ -600,6 +602,12 @@ html:not(.har-okt):has([data-forside]) body {
 }
 .fs-meny:not([data-flate="dag"]) [data-profil]:hover {
   background: var(--merke);
+}
+
+/* Lampelyset som følger raden eleven peker på under «Fortsett der du slapp»
+   (Fortsett.tsx). Fargen følger --lampe-rgb, så temaer kan farge det. */
+.fs-glod {
+  background: radial-gradient(closest-side, rgb(var(--lampe-rgb) / 0.17), rgb(var(--lampe-rgb) / 0.05) 60%, transparent);
 }
 
 /* Merkepenn: en gul strek legger seg under fagnavnet ved hover og fokus
@@ -1340,6 +1348,13 @@ html.fs-intro .ff-intro {
 :root[data-premium="sakura"] .fs-natt:not([data-premium]) {
   --natt: #22101b;
   --natt-hevet: #341a2a;
+  /* Merkepenn-gult blir lys kirsebærrosa: knappene, fremdriftsstolpene,
+     prosenttallene, poengstjerna og lampelyset som følger musa. Teksten på dem
+     (--pa-merke) er fortsatt mørk. */
+  --merke: #ffb3cc;
+  --merke-dark: #f78fb3;
+  --lampe: #ffc2d6;
+  --lampe-rgb: 255 194 214;
   --natt-bilde:
     radial-gradient(60% 520px at 85% 0, rgb(244 143 177 / 0.3), transparent 70%),
     radial-gradient(50% 460px at 10% 0, rgb(255 205 222 / 0.18), transparent 70%),
@@ -1349,6 +1364,67 @@ html.fs-intro .ff-intro {
     radial-gradient(4.5px 2.5px at 92px 178px, rgb(255 200 218 / 0.55), transparent);
   --natt-storrelse: auto, auto, 280px 280px, 280px 280px, 280px 280px, 280px 280px;
   --natt-gjentak: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+}
+
+/* Sakura: øverst på startsiden, over den mørke rosa flaten, har menyen
+   natt-utseendet. Når fagene (den lyse flaten) når menyen, blir den hvit med
+   rosa logo og mørk plomme-tekst (data-flate="dag", se Bevegelse.tsx). Menyen
+   er en natt-flate (.fs-natt), som ellers låser lyse farger på mørkt – derfor
+   settes fargene direkte her. text-background brukes til tekst i menyen. */
+:root[data-premium="sakura"] .fs-meny[data-flate="dag"] {
+  --background: #2b1520;
+  --foreground: #fff8fa;
+  --natt-linje: #efc9d8;
+  /* Helt dekkende: lys tekst fra natt-flaten under skal ikke skinne gjennom. */
+  --meny-bg: #fffcfd;
+  --meny-tekst: #2b1520;
+  --meny-dempet: #6b4a58;
+  --meny-hover: #fcedf2;
+  --meny-linje: #f5dce6;
+}
+:root[data-premium="sakura"] .fs-meny[data-flate="dag"] .logo-ordmerke {
+  background-color: #c2185b;
+}
+:root[data-premium="sakura"] .fs-meny[data-flate="dag"] [data-profil] {
+  background: #2b1520;
+  color: #fff8fa;
+}
+:root[data-premium="sakura"] .fs-meny[data-flate="dag"] [data-profil]:hover {
+  background: #c2185b;
+}
+:root[data-premium="sakura"] .fs-meny[data-flate="dag"] :focus-visible {
+  outline-color: #c2185b;
+}
+/* Fagnavnene og overskriftene på den lyse delen av startsiden («Fagene dine på
+   Vg2») i mørk kirsebærrosa (7,3:1 mot bakgrunnen), og merkepenn-streken i
+   rosa i stedet for gul. */
+html:root[data-premium="sakura"] [data-flate="dag"] h2 {
+  color: #a3164f;
+}
+:root[data-premium="sakura"] .fs-merk {
+  color: #a3164f;
+  background-image: linear-gradient(rgb(248 187 208 / 0.75), rgb(248 187 208 / 0.75));
+}
+/* Japanske kirsebærblomster (fem kronblad) drysset over siden og natt-flatene,
+   oppå glød og kronblad fra paletten over. «html:root» gjør at reglene vinner
+   over den felles glød-regelen lenger ned. */
+html:root[data-premium="sakura"] body,
+html:root[data-premium="sakura"] [data-flate="dag"],
+[data-premium="sakura"].premium-flate,
+[data-premium="sakura"] .premium-flate {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='360' viewBox='0 0 360 360'%3E%3Cdefs%3E%3Cpath id='p' d='M0 0C-4.2-3-5-7.8-2.4-10L0-8.4L2.4-10C5-7.8 4.2-3 0 0Z'/%3E%3Cg id='b'%3E%3Cg fill='%23f6b4cb' stroke='%23e98fb0' stroke-width='0.4'%3E%3Cuse href='%23p'/%3E%3Cuse href='%23p' transform='rotate(72)'/%3E%3Cuse href='%23p' transform='rotate(144)'/%3E%3Cuse href='%23p' transform='rotate(216)'/%3E%3Cuse href='%23p' transform='rotate(288)'/%3E%3C/g%3E%3Cpath d='M0 0L0-4M0 0L3.8-1.2M0 0L2.4 3.2M0 0L-2.4 3.2M0 0L-3.8-1.2' stroke='%23c2185b' stroke-width='0.5' stroke-linecap='round'/%3E%3Cg fill='%23c2185b'%3E%3Ccircle cy='-4' r='0.7'/%3E%3Ccircle cx='3.8' cy='-1.2' r='0.7'/%3E%3Ccircle cx='2.4' cy='3.2' r='0.7'/%3E%3Ccircle cx='-2.4' cy='3.2' r='0.7'/%3E%3Ccircle cx='-3.8' cy='-1.2' r='0.7'/%3E%3C/g%3E%3Ccircle r='1.4' fill='%23e8336f'/%3E%3C/g%3E%3C/defs%3E%3Cg opacity='0.55'%3E%3Cuse href='%23b' transform='translate(62 74) rotate(12) scale(1.4)'/%3E%3Cuse href='%23b' transform='translate(270 186) rotate(40) scale(1.05)'/%3E%3Cuse href='%23b' transform='translate(152 302) rotate(-18) scale(1.6)'/%3E%3Cuse href='%23p' transform='translate(318 52) rotate(150) scale(0.8)' fill='%23f6b4cb'/%3E%3Cuse href='%23p' transform='translate(28 230) rotate(-60) scale(0.7)' fill='%23f6b4cb'/%3E%3Cuse href='%23p' transform='translate(206 96) rotate(30) scale(0.6)' fill='%23f6b4cb'/%3E%3C/g%3E%3C/svg%3E"),
+    var(--premium-bilde);
+  background-size: 360px 360px, var(--premium-storrelse);
+  background-repeat: repeat, var(--premium-gjentak);
+}
+:root[data-premium="sakura"] .bg-natt,
+[data-premium="sakura"] .bg-natt {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='360' viewBox='0 0 360 360'%3E%3Cdefs%3E%3Cpath id='p' d='M0 0C-4.2-3-5-7.8-2.4-10L0-8.4L2.4-10C5-7.8 4.2-3 0 0Z'/%3E%3Cg id='b'%3E%3Cg fill='%23f8bbd0' stroke='%23f48fb1' stroke-width='0.4'%3E%3Cuse href='%23p'/%3E%3Cuse href='%23p' transform='rotate(72)'/%3E%3Cuse href='%23p' transform='rotate(144)'/%3E%3Cuse href='%23p' transform='rotate(216)'/%3E%3Cuse href='%23p' transform='rotate(288)'/%3E%3C/g%3E%3Cpath d='M0 0L0-4M0 0L3.8-1.2M0 0L2.4 3.2M0 0L-2.4 3.2M0 0L-3.8-1.2' stroke='%23ff7aa5' stroke-width='0.5' stroke-linecap='round'/%3E%3Cg fill='%23ff7aa5'%3E%3Ccircle cy='-4' r='0.7'/%3E%3Ccircle cx='3.8' cy='-1.2' r='0.7'/%3E%3Ccircle cx='2.4' cy='3.2' r='0.7'/%3E%3Ccircle cx='-2.4' cy='3.2' r='0.7'/%3E%3Ccircle cx='-3.8' cy='-1.2' r='0.7'/%3E%3C/g%3E%3Ccircle r='1.4' fill='%23ff7aa5'/%3E%3C/g%3E%3C/defs%3E%3Cg opacity='0.32'%3E%3Cuse href='%23b' transform='translate(62 74) rotate(12) scale(1.4)'/%3E%3Cuse href='%23b' transform='translate(270 186) rotate(40) scale(1.05)'/%3E%3Cuse href='%23b' transform='translate(152 302) rotate(-18) scale(1.6)'/%3E%3Cuse href='%23p' transform='translate(318 52) rotate(150) scale(0.8)' fill='%23f8bbd0'/%3E%3Cuse href='%23p' transform='translate(28 230) rotate(-60) scale(0.7)' fill='%23f8bbd0'/%3E%3Cuse href='%23p' transform='translate(206 96) rotate(30) scale(0.6)' fill='%23f8bbd0'/%3E%3C/g%3E%3C/svg%3E"),
+    var(--natt-bilde);
+  background-size: 360px 360px, var(--natt-storrelse);
+  background-repeat: repeat, var(--natt-gjentak);
 }
 
 /* Gløden bak hele siden: på body (alle sidene) og på den lyse delen av
@@ -1425,4 +1501,18 @@ html.fs-intro .ff-intro {
   .merke-katana,
   .katana-blad { animation: none; }
   .katana-glans { display: none; }
+}
+
+/* Eksklusivt merke for teamet bak Studer: app-ikonet (mørk flate med S og
+   fjærpenn) beskåret til en sirkel, med en tynn ring i merkepenn-gult. */
+.merke-studer {
+  overflow: hidden;
+  background: #1b1a2e;
+  box-shadow: 0 0 0 1.5px #f6e05e;
+}
+.merke-studer img {
+  width: 140%;
+  height: 140%;
+  max-width: none;
+  display: block;
 }

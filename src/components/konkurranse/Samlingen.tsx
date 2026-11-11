@@ -371,7 +371,7 @@ function Gruppe({
               <span className="flex items-center justify-between gap-2 px-1 pb-0.5 text-sm font-semibold">
                 <span aria-hidden="true" className="flex flex-col leading-tight">
                   {tingnavn}
-                  {ting && TING[ting]?.eksklusiv && <Eksklusiv />}
+                  {ting && TING[ting]?.eksklusiv && <Eksklusiv tekst={TING[ting].etikett} />}
                 </span>
                 {pa && (
                   <span className="inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-primary text-white">
@@ -479,7 +479,7 @@ function Merkegruppe({
               <span className="flex items-center justify-between gap-2 px-1 pb-0.5 text-sm font-semibold">
                 <span aria-hidden="true" className="flex flex-col leading-tight">
                   {navnPa(ting)}
-                  {TING[ting]?.eksklusiv && <Eksklusiv />}
+                  {TING[ting]?.eksklusiv && <Eksklusiv tekst={TING[ting].etikett} />}
                 </span>
                 {pa && (
                   <span
@@ -531,9 +531,10 @@ function Merkegruppe({
   );
 }
 
-// Under navnet på en ting som er laget for akkurat denne eleven.
-function Eksklusiv() {
-  return <span className="mt-0.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-primary">Bare din</span>;
+// Under navnet på en ting som er laget for akkurat denne eleven (eller en
+// liten gruppe, som teamet bak Studer).
+function Eksklusiv({ tekst = "Bare din" }: { tekst?: string }) {
+  return <span className="mt-0.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-primary">{tekst}</span>;
 }
 
 // Standardfargene (lys og mørk modus fra globals.css), satt direkte på

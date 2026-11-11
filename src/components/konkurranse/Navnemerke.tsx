@@ -1,4 +1,4 @@
-import { Book, Cards, Check, Fjaer, Flamme, Kalender, Lyn, Lyspare, Pen, Stjerne, Timer } from "@/components/icons";
+import { Book, Cards, Check, Fjaer, Flamme, Gave, Kalender, Lyn, Lyspare, Pen, Stjerne, Timer } from "@/components/icons";
 import { KatanaMerke } from "@/components/konkurranse/KatanaMerke";
 import { merkenavn } from "@/lib/merker";
 
@@ -20,6 +20,9 @@ const KJOPTE: Record<string, { navn: string; ikon: Ikon }> = {
 // globals.css (klassen) – uten sirkel bak.
 const EKSKLUSIVE: Record<string, { navn: string; ikon: Ikon; klasse: string }> = {
   "merke-katana": { navn: "Katana", ikon: (s) => <KatanaMerke size={s} />, klasse: "merke-katana" },
+  // Teamet bak Studer (ungdomsbedriften): app-ikonet fra public/merke.
+  // eslint-disable-next-line @next/next/no-img-element -- liten SVG, ingen bildeoptimalisering trengs
+  "merke-studer": { navn: "Studer-teamet", ikon: (s) => <img src="/merke/studer-ikon.svg" alt="" width={s} height={s} />, klasse: "merke-studer" },
 };
 
 const TJENTE_IKONER: Record<string, Ikon> = {
@@ -31,6 +34,7 @@ const TJENTE_IKONER: Record<string, Ikon> = {
   "merke-feilfri": (s) => <Check size={s} />,
   "merke-temaer": (s) => <Book size={s} />,
   "merke-prove": (s) => <Pen size={s} />,
+  "merke-gave": (s) => <Gave size={s} />,
 };
 
 // Ikonet for et merke (kjøpt eller tjent), uten ramme. Uten size bestemmer

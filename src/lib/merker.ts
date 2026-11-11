@@ -20,6 +20,7 @@ export const MERKER: Tjentmerke[] = [
   { id: "merke-feilfri", navn: "Alt riktig", krav: "Få alt riktig på en quiz.", enhet: "quizer" },
   { id: "merke-temaer", navn: "Ti temaer", krav: "Øv i ti ulike temaer.", enhet: "temaer" },
   { id: "merke-prove", navn: "Første miniprøve", krav: "Fullfør en miniprøve.", enhet: "miniprøver" },
+  { id: "merke-gave", navn: "Gavmild", krav: "Gi en venn en gratis uke, og vennen løser den inn.", enhet: "gaver" },
 ];
 
 export const TJENTE = new Set(MERKER.map((m) => m.id));

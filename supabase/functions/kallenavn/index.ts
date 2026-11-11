@@ -12,11 +12,23 @@
 // Krever innlogging, ikke abonnement (kallenavnet kan velges rett etter
 // registreringen). Kallenavnet logges aldri – bare tokenbruk.
 //
+// Fartsgrenser, så ingen kan spamme (kallenavn_tempo i databasen):
+//   - høyst KALLENAVN_PER_MINUTT forsøk per minutt (også de ordlistene stopper)
+//   - høyst KALLENAVN_BYTTER_UKE nye kallenavn per 7 dager (databasen håndhever
+//     det også når navnet lagres) – ellers kunne noen skrevet beskjeder på
+//     rangeringene ved å bytte navn ord for ord
+//   - høyst AI_GRENSE_KALLENAVN sjekker med språkmodellen per døgn per elev, og
+//     AI_GRENSE_KALLENAVN_TOTALT for hele appen
+// Å fjerne kallenavnet er alltid lov, og samme navn som før sjekkes ikke på nytt.
+//
 // Hemmeligheter og innstillinger (i tillegg til AI_API_KEY og AI_BASE_URL fra «chat»):
 //   AI_MODELL_KALLENAVN           standard AI_MODELL, ellers gpt-6-luna
 //   AI_RESONNERING_KALLENAVN      standard low (none | low | medium | high) – bare OpenAI
 //   AI_GRENSE_KALLENAVN           sjekker per døgn per elev, standard 10
 //   AI_GRENSE_KALLENAVN_TOTALT    sjekker per døgn for hele appen, standard 5000
+//   KALLENAVN_PER_MINUTT          forsøk per minutt per elev, standard 3
+//   KALLENAVN_BYTTER_UKE          nye kallenavn per 7 dager, standard 3 (må stemme
+//                                 med triggeren sjekk_kallenavn i databasen)
 
 import { createClient } from "npm:@supabase/supabase-js@2";
 import { lagSjekk, lesSjekk, MAKS_KALLENAVN, meldingFor, SJEKK_FORMAT } from "./prompt.ts";
@@ -39,6 +51,8 @@ const MODELL = env("AI_MODELL_KALLENAVN", env("AI_MODELL", "gpt-6-luna"));
 const RESONNERING = env("AI_RESONNERING_KALLENAVN", "low");
 const GRENSE_DAG = tall("AI_GRENSE_KALLENAVN", 10);
 const GRENSE_TOTALT = tall("AI_GRENSE_KALLENAVN_TOTALT", 5000);
+const PER_MINUTT = tall("KALLENAVN_PER_MINUTT", 3);
+const BYTTER_UKE = tall("KALLENAVN_BYTTER_UKE", 3);
 const ER_OPENAI = new URL(BASE_URL).hostname.endsWith("openai.com");
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
@@ -137,8 +151,27 @@ Deno.serve(async (req) => {
     return svar(500, { feil: "server" });
   };
 
-  // Tomt: fjern kallenavnet.
+  // Tomt: fjern kallenavnet – alltid lov, uten fartsgrense.
   if (!rent) return lagre(null);
+
+  // Samme navn som eleven har nå: ingenting å sjekke eller lagre.
+  const { data: profil } = await admin.from("profiles").select("kallenavn").eq("id", brukerId).maybeSingle();
+  if (profil?.kallenavn === rent) return svar(200, { kallenavn: rent });
+
+  // Fartsgrensene (forsøk per minutt og bytter per uke). Er migrasjonen ikke
+  // kjørt ennå (funksjonen finnes ikke), hoppes de over – døgngrensen under
+  // gjelder uansett.
+  const { data: tempo, error: tempofeil } = await admin.rpc("kallenavn_tempo", {
+    p_bruker: brukerId,
+    p_per_minutt: PER_MINUTT,
+    p_per_uke: BYTTER_UKE,
+  });
+  if (tempofeil && tempofeil.code !== "PGRST202") {
+    console.error("kallenavn_tempo", tempofeil.message);
+    return svar(500, { feil: "server" });
+  }
+  const fart = (tempo as { utfall: string; neste: string | null }[] | null)?.[0];
+  if (fart && fart.utfall !== "ok") return svar(429, { feil: "grense", grunn: fart.utfall, neste: fart.neste });
 
   // 1. Ordlistene – gratis, og stopper det åpenbare før modellen spørres.
   const { data: ordfeil, error: ordlistefeil } = await admin.rpc("kallenavn_feil", { p_kallenavn: rent });

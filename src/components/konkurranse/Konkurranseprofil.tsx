@@ -244,7 +244,8 @@ export function Rangeringsvalg({
             aria-live="polite"
             className={`text-xs ${feil ? (mork ? "text-[#ffb4a8] font-medium" : "text-danger-ink font-medium") : dempet}`}
           >
-            {feil ?? "Bokstaver, tall, mellomrom, - og _. Det sjekkes før det lagres. Tomt felt: du vises ikke for andre."}
+            {feil ??
+              "Bokstaver, tall, mellomrom, - og _. Det sjekkes før det lagres, og du kan bytte tre ganger i uka. Tomt felt: du vises ikke for andre."}
           </p>
         </div>
       )}

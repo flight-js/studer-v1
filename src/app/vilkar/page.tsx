@@ -169,7 +169,8 @@ export default function Vilkar() {
             </li>
             <li>
               Kallenavnet kan ikke være støtende, for eksempel banneord, seksuelle ord, slurs eller hets, og kan ikke
-              utgi seg for å være Studer eller noen andre. Studer kan fjerne et kallenavn som bryter med dette.
+              utgi seg for å være Studer eller noen andre. Studer kan fjerne et kallenavn som bryter med dette. Du kan
+              bytte kallenavn høyst tre ganger i uka, men alltid fjerne det.
             </li>
             <li>
               Juks, for eksempel automatiske svar eller flere kontoer for å samle poeng, kan gi tap av poeng, fjerning

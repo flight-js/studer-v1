@@ -101,7 +101,7 @@ export function Fortsett({ temaer }: { temaer: SistOvdTema[] }) {
       <div
         ref={glod}
         aria-hidden="true"
-        className="pointer-events-none absolute left-0 top-0 -z-10 h-[280px] w-[min(760px,100%)] rounded-full bg-[radial-gradient(closest-side,rgba(255,217,140,0.17),rgba(255,217,140,0.05)_60%,transparent)]"
+        className="fs-glod pointer-events-none absolute left-0 top-0 -z-10 h-[280px] w-[min(760px,100%)] rounded-full"
       />
       <ol className="border-t border-natt-linje">
         {temaer.map((t, i) => {
