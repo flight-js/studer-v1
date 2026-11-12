@@ -57,8 +57,8 @@ export default function Personvern() {
           skolekonkurransen, som bare viser tall per skole, og bare for skoler med minst tre elever.
         </p>
         <p>
-          <strong>Rangeringene.</strong> Du vises bare på rangeringene hvis du selv velger det, når du lager kontoen
-          eller under Konto. Da kan andre innloggede elever se fornavnet ditt eller et kallenavn du velger, sammen
+          <strong>Rangeringene.</strong> Du vises bare på rangeringene hvis du selv velger det, når du lager kontoen,
+          når du velger skole på startsiden eller under Konto. Da kan andre innloggede elever se fornavnet ditt eller et kallenavn du velger, sammen
           med skolen, merkene ved navnet og poengene eller tidene dine – aldri e-posten din. Grunnlaget er samtykket
           ditt (artikkel 6 nr. 1 bokstav a), og elever fra 13 år kan samtykke selv. Du trekker samtykket når som helst
           ved å velge «Ikke vis meg» under Konto. Kallenavnet sjekkes automatisk for banneord og stygge ord før det

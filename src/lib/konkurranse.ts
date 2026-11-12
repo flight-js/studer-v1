@@ -466,6 +466,9 @@ async function oppdaterProfil(brukerId: string, endring: { skole_id?: string | n
 }
 
 export const lagreSkole = (brukerId: string, skoleId: string | null) => oppdaterProfil(brukerId, { skole_id: skoleId });
+// Om fornavnet vises på rangeringene (false) eller ikke (true). Bare når eleven
+// selv trykker på det – aldri forhåndsvalgt.
+export const lagreSynlighet = (brukerId: string, skjulFornavn: boolean) => oppdaterProfil(brukerId, { skjul_fornavn: skjulFornavn });
 
 // Kallenavnet lagres av serverfunksjonen «kallenavn» (ordlister + språkmodell);
 // eleven kan ikke skrive det direkte. Gir en feil med teksten eleven skal se.

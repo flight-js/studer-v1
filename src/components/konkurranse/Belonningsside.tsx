@@ -1,17 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Bunnlenker } from "@/components/Bunnlenker";
 import { Demomerke } from "@/components/konkurranse/Demomerke";
+import { fornavnFra } from "@/components/konkurranse/Konkurranseprofil";
 import { Navnemerker } from "@/components/konkurranse/Navnemerke";
 import { Check, Flamme, Gave, Lock, Snofnugg, Stjerne } from "@/components/icons";
 import { Feil, Laster } from "@/components/Tilstand";
+import { useAuth } from "@/lib/auth";
 import { betalingsfeiltekst, losInnGratisTid } from "@/lib/betaling";
 import { konfetti } from "@/lib/feiring";
 import {
   hentBelonninger,
+  hentKonkurranseprofil,
   hentMineKuponger,
   hentMineVennegaver,
   hentPoengstatus,
@@ -48,6 +51,12 @@ const dato = (iso: string) => new Date(iso).toLocaleDateString("nb-NO", { day: "
 const dagerTekst = (verdi: string | null) => (verdi === "7" ? "en uke" : `${verdi} dager`);
 const IKKE_PA = "Innløsning er ikke slått på ennå. Dette er bare et eksempel.";
 
+// Eksemplene på tingene viser eleven selv: navnet slik det står på
+// rangeringene (kallenavnet hvis eleven bruker det, ellers fornavnet) og
+// skolen. Uten navn eller skole: «Navnet ditt» og ingen skole.
+type Meg = { navn: string | null; fornavn: string | null; skole: string | null };
+const MegKontekst = createContext<Meg>({ navn: null, fornavn: null, skole: null });
+
 export function Belonningsside({ brukerId }: { brukerId: string }) {
   const id = brukerId;
   // Øker etter innløsning, så saldo, lager, ting og koder hentes på nytt.
@@ -57,6 +66,15 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
   const kuponger = useHent(id && `kuponger:${id}:${runde}`, hentMineKuponger);
   const gaver = useHent(id && `vennegaver:${id}:${runde}`, hentMineVennegaver);
   const ting = useHent(id && `ting:${id}:${runde}`, () => hentMineTing(id));
+  const { profil } = useAuth();
+  const konkurranse = useHent(id && `konkurranseprofil:${id}`, () => hentKonkurranseprofil(id));
+  const fornavn = fornavnFra(profil?.navn);
+  const k = konkurranse.data?.data;
+  const meg: Meg = {
+    navn: k?.skjulFornavn && k.kallenavn ? k.kallenavn : fornavn,
+    fornavn,
+    skole: k?.skole?.navn ?? null,
+  };
 
   if (belonninger.feil) return <Ramme><Feil tekst="Fikk ikke hentet belønningene. Sjekk nettet og prøv igjen." href="/konkurranse" lenketekst="Tilbake" /></Ramme>;
 
@@ -81,103 +99,105 @@ export function Belonningsside({ brukerId }: { brukerId: string }) {
   );
 
   return (
-    <Ramme>
-      <main id="innhold" className="flex-1">
-        <div className="max-w-5xl mx-auto px-5 sm:px-8 py-12 sm:py-16 flex flex-col gap-14">
-          <div className="flex flex-wrap items-end justify-between gap-6 rise">
-            <div className="flex flex-col gap-2">
-              <h1 className="font-display text-5xl sm:text-6xl font-semibold tracking-[-0.03em]">Belønninger</h1>
-              <p className="text-lg text-ink-soft max-w-[48ch]">Bytt poengene dine i gratis tid, ting i appen og tilbud fra partnere.</p>
+    <MegKontekst.Provider value={meg}>
+      <Ramme>
+        <main id="innhold" className="flex-1">
+          <div className="max-w-5xl mx-auto px-5 sm:px-8 py-12 sm:py-16 flex flex-col gap-14">
+            <div className="flex flex-wrap items-end justify-between gap-6 rise">
+              <div className="flex flex-col gap-2">
+                <h1 className="font-display text-5xl sm:text-6xl font-semibold tracking-[-0.03em]">Belønninger</h1>
+                <p className="text-lg text-ink-soft max-w-[48ch]">Bytt poengene dine i gratis tid, ting i appen og tilbud fra partnere.</p>
+              </div>
+              <div className="flex flex-col items-start sm:items-end">
+                <span className="text-sm text-muted">Du har</span>
+                <span className="font-display text-4xl font-semibold tabular-nums">
+                  {status.laster ? "–" : tall(saldo)} <span className="text-lg text-muted">poeng</span>
+                </span>
+              </div>
             </div>
-            <div className="flex flex-col items-start sm:items-end">
-              <span className="text-sm text-muted">Du har</span>
-              <span className="font-display text-4xl font-semibold tabular-nums">
-                {status.laster ? "–" : tall(saldo)} <span className="text-lg text-muted">poeng</span>
-              </span>
-            </div>
+
+            {demo && <Demomerke />}
+
+            {belonninger.laster ? (
+              <Laster tekst="Henter belønningene" />
+            ) : (
+              <>
+                {!!fraStuder.length && (
+                  <Seksjon tittel="Fra Studer" tekst="Med gratis tid varer abonnementet ditt lenger før neste betaling.">
+                    {fraStuder.map(kort)}
+                  </Seksjon>
+                )}
+                {!!tilAppen.length && (
+                  <Seksjon tittel="Til appen" tekst="Gjør Studer til ditt eget. Prøv før du kjøper, og bytt når du vil.">
+                    {tilAppen.map(kort)}
+                  </Seksjon>
+                )}
+                <Seksjon tittel="Fra partnere" tekst="Tilbud fra bedrifter vi samarbeider med.">
+                  {partnere.length ? (
+                    partnere.map(kort)
+                  ) : (
+                    <li className="sm:col-span-2 rounded-3xl border border-dashed border-border-strong px-6 py-10 flex flex-col items-center text-center gap-3">
+                      <Gave size={28} className="text-muted" />
+                      <h3 className="font-display text-2xl font-semibold">Partnertilbudene kommer snart</h3>
+                      <p className="text-ink-soft max-w-[46ch]">
+                        Vi jobber med de første samarbeidspartnerne. Poengene du tjener nå, kan du bruke når de er klare.
+                      </p>
+                    </li>
+                  )}
+                </Seksjon>
+              </>
+            )}
+
+            {!!gaver.data?.length && (
+              <section aria-labelledby="gaver-tittel" className="flex flex-col gap-4">
+                <h2 id="gaver-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Gaver du har sendt</h2>
+                <ul className="border-t border-border-strong">
+                  {gaver.data.map((g) => (
+                    <li key={g.id} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-3">
+                      <span className="font-semibold break-all">{g.epost}</span>
+                      <Gavestatus gave={g} />
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {!!kuponger.data?.data.length && (
+              <section aria-labelledby="mine-tittel" className="flex flex-col gap-4">
+                <h2 id="mine-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Kodene dine</h2>
+                <ul className="border-t border-border-strong">
+                  {kuponger.data.data.map((k) => (
+                    <li key={k.kode} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                      <span className="flex flex-col">
+                        <span className="font-semibold">{k.tittel}</span>
+                        <span className="text-sm text-muted">
+                          {k.partner}
+                          {k.gyldigTil && ` · gyldig til ${new Date(k.gyldigTil).toLocaleDateString("nb-NO")}`}
+                        </span>
+                      </span>
+                      <Kode kode={k.kode} lenke={k.lenke} />
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            <p className="text-sm text-muted max-w-[70ch]">
+              Kontoen må være minst en uke gammel før du kan løse inn. Gratis tid kan løses inn én gang i måneden, og
+              partnertilbud én gang per person. Poengene har ingen pengeverdi og kan ikke veksles inn i penger. Se{" "}
+              <Link href="/vilkar#poeng" className="underline decoration-border-strong underline-offset-4 hover:decoration-foreground">
+                vilkårene
+              </Link>
+              .
+            </p>
           </div>
 
-          {demo && <Demomerke />}
-
-          {belonninger.laster ? (
-            <Laster tekst="Henter belønningene" />
-          ) : (
-            <>
-              {!!fraStuder.length && (
-                <Seksjon tittel="Fra Studer" tekst="Med gratis tid varer abonnementet ditt lenger før neste betaling.">
-                  {fraStuder.map(kort)}
-                </Seksjon>
-              )}
-              {!!tilAppen.length && (
-                <Seksjon tittel="Til appen" tekst="Gjør Studer til ditt eget. Prøv før du kjøper, og bytt når du vil.">
-                  {tilAppen.map(kort)}
-                </Seksjon>
-              )}
-              <Seksjon tittel="Fra partnere" tekst="Tilbud fra bedrifter vi samarbeider med.">
-                {partnere.length ? (
-                  partnere.map(kort)
-                ) : (
-                  <li className="sm:col-span-2 rounded-3xl border border-dashed border-border-strong px-6 py-10 flex flex-col items-center text-center gap-3">
-                    <Gave size={28} className="text-muted" />
-                    <h3 className="font-display text-2xl font-semibold">Partnertilbudene kommer snart</h3>
-                    <p className="text-ink-soft max-w-[46ch]">
-                      Vi jobber med de første samarbeidspartnerne. Poengene du tjener nå, kan du bruke når de er klare.
-                    </p>
-                  </li>
-                )}
-              </Seksjon>
-            </>
-          )}
-
-          {!!gaver.data?.length && (
-            <section aria-labelledby="gaver-tittel" className="flex flex-col gap-4">
-              <h2 id="gaver-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Gaver du har sendt</h2>
-              <ul className="border-t border-border-strong">
-                {gaver.data.map((g) => (
-                  <li key={g.id} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-3">
-                    <span className="font-semibold break-all">{g.epost}</span>
-                    <Gavestatus gave={g} />
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {!!kuponger.data?.data.length && (
-            <section aria-labelledby="mine-tittel" className="flex flex-col gap-4">
-              <h2 id="mine-tittel" className="text-3xl font-semibold tracking-[-0.02em]">Kodene dine</h2>
-              <ul className="border-t border-border-strong">
-                {kuponger.data.data.map((k) => (
-                  <li key={k.kode} className="border-b border-border py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                    <span className="flex flex-col">
-                      <span className="font-semibold">{k.tittel}</span>
-                      <span className="text-sm text-muted">
-                        {k.partner}
-                        {k.gyldigTil && ` · gyldig til ${new Date(k.gyldigTil).toLocaleDateString("nb-NO")}`}
-                      </span>
-                    </span>
-                    <Kode kode={k.kode} lenke={k.lenke} />
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          <p className="text-sm text-muted max-w-[70ch]">
-            Kontoen må være minst en uke gammel før du kan løse inn. Gratis tid kan løses inn én gang i måneden, og
-            partnertilbud én gang per person. Poengene har ingen pengeverdi og kan ikke veksles inn i penger. Se{" "}
-            <Link href="/vilkar#poeng" className="underline decoration-border-strong underline-offset-4 hover:decoration-foreground">
-              vilkårene
-            </Link>
-            .
-          </p>
-        </div>
-
-        <footer className="max-w-5xl mx-auto px-5 sm:px-8 pb-12">
-          <Bunnlenker className="pt-8 border-t border-border" />
-        </footer>
-      </main>
-    </Ramme>
+          <footer className="max-w-5xl mx-auto px-5 sm:px-8 pb-12">
+            <Bunnlenker className="pt-8 border-t border-border" />
+          </footer>
+        </main>
+      </Ramme>
+    </MegKontekst.Provider>
   );
 }
 
@@ -444,6 +464,7 @@ function Ferdig({ tekst, children }: { tekst: string; children?: React.ReactNode
 // med temaet, eller konfetti man kan prøve.
 function Forhandsvisning({ ting }: { ting: string }) {
   const knapp = useRef<HTMLButtonElement>(null);
+  const meg = useContext(MegKontekst);
   const type = tingtype(ting);
   if (type === "tema") return <Temaforhandsvisning ting={ting} />;
   if (type === "flamme") {
@@ -458,11 +479,15 @@ function Forhandsvisning({ ting }: { ting: string }) {
     return (
       <span aria-hidden="true" className="self-start inline-flex items-center gap-2 rounded-xl bg-sunken px-3 py-2 text-sm">
         <span className="inline-flex items-center font-semibold">
-          Ingrid
+          {meg.navn ?? "Navnet ditt"}
           <Navnemerker merker={[ting]} />
         </span>
-        <span className="text-muted">·</span>
-        <span className="text-muted">Fjordbyen vgs</span>
+        {meg.skole && (
+          <>
+            <span className="text-muted">·</span>
+            <span className="text-muted">{meg.skole}</span>
+          </>
+        )}
       </span>
     );
   }
@@ -507,6 +532,7 @@ const PROV_TEMA = "studer-prov-tema";
 function Temaforhandsvisning({ ting }: { ting: string }) {
   const verdi = premiumTema(ting) ?? "";
   const [prover, setProver] = useState(false);
+  const { fornavn } = useContext(MegKontekst);
 
   useEffect(() => {
     if (!prover) return;
@@ -536,7 +562,7 @@ function Temaforhandsvisning({ ting }: { ting: string }) {
       >
         <div className="bg-natt premium-natt px-4 pt-4 pb-5 flex flex-col gap-2">
           <span className="text-xs font-medium opacity-65">For Vg1 · Kjemi</span>
-          <span className="font-display text-xl font-semibold leading-none tracking-[-0.02em]">Hei, Ingrid</span>
+          <span className="font-display text-xl font-semibold leading-none tracking-[-0.02em]">{fornavn ? `Hei, ${fornavn}` : "Hei!"}</span>
           <span className="self-start inline-flex items-center gap-1 rounded-full bg-merke pl-1.5 pr-2 py-0.5 text-xs font-bold text-pa-merke tabular-nums">
             <Flamme size={12} fylt />7 på rad
           </span>

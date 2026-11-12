@@ -121,7 +121,9 @@ export const fornavnFra = (navn?: string | null) => (navn ?? "").trim().split(/\
 // etter art. 6 nr. 1 a; elever fra 13 år kan samtykke selv). Velger eleven
 // kallenavn, glir et felt fram; det sjekkes mens eleven skriver (og i
 // databasen når det lagres). Tomt kallenavn: eleven vises ikke for andre.
-// Brukes også i velkomststegene.
+// Brukes også i velkomststegene, med aktivtValg: står eleven på standarden
+// (ikke vist, uten kallenavn), er ingen av valgene krysset av på forhånd, så
+// eleven velger selv – fornavnet står øverst. Uten valg forblir eleven skjult.
 //   skjul = false: fornavnet vises   skjul = true: kallenavnet, eller ingenting
 type Synlighet = "fornavn" | "kallenavn" | "skjult";
 
@@ -133,6 +135,7 @@ export function Rangeringsvalg({
   onKallenavn,
   fornavn,
   mork = false,
+  aktivtValg = false,
 }: {
   id: string;
   skjul: boolean;
@@ -141,10 +144,11 @@ export function Rangeringsvalg({
   onKallenavn: (v: string) => void;
   fornavn?: string | null;
   mork?: boolean;
+  aktivtValg?: boolean;
 }) {
   // Valget huskes her, så «Bruk et kallenavn» blir stående mens feltet er tomt.
-  const [synlighet, setSynlighet] = useState<Synlighet>(() =>
-    !skjul ? "fornavn" : kallenavn.trim() ? "kallenavn" : "skjult"
+  const [synlighet, setSynlighet] = useState<Synlighet | null>(() =>
+    !skjul ? "fornavn" : kallenavn.trim() ? "kallenavn" : aktivtValg ? null : "skjult"
   );
   // Fokus i feltet bare når eleven selv velger kallenavn – ikke når siden åpnes.
   const [krysset, setKrysset] = useState(false);

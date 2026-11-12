@@ -179,6 +179,7 @@ function Velkommen() {
                         onKallenavn={setKallenavn}
                         fornavn={fornavn}
                         mork
+                        aktivtValg
                       />
                     </div>
                   )}
