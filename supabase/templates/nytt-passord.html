@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>Lag nytt passord på Studer</title>
+    <!-- Samme skrifter som nettsiden. Apple Mail og iPhone viser dem; Gmail og Outlook bruker Georgia og Arial. -->
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Instrument+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      body { margin: 0; padding: 0; }
+      @media (max-width: 520px) {
+        .innhold { padding: 30px 22px 26px !important; }
+        .topp { padding: 26px 22px 22px !important; }
+        .kode { font-size: 32px !important; letter-spacing: 8px !important; padding-left: 8px !important; }
+        .tittel { font-size: 28px !important; }
+      }
+      @media (prefers-color-scheme: dark) {
+        .bakgrunn { background-color: #131418 !important; }
+        .kort { background-color: #1b1d23 !important; border-color: #2a2c33 !important; }
+        .tekst { color: #f3efe7 !important; }
+        .brodtekst { color: #d2ccc1 !important; }
+        .dempet { color: #a39d92 !important; }
+        .kodefelt { background-color: #1c2442 !important; border-color: #2b3a73 !important; }
+        .kode { color: #c7d1fb !important; }
+        .info { background-color: #1c2442 !important; color: #c7d1fb !important; }
+        .blaa { color: #8ea2f7 !important; }
+      }
+    </style>
+  </head>
+  <body class="bakgrunn" style="margin:0;padding:0;background-color:#eef1fc;">
+    <!-- Står i forhåndsvisningen i innboksen og i varselet på telefonen. -->
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;mso-hide:all;">
+      Koden for nytt passord er {{ .Token }}. Den er gyldig i 10 minutter.&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;
+    </div>
+
+    <table role="presentation" class="bakgrunn" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eef1fc" style="background-color:#eef1fc;">
+      <tr>
+        <td align="center" style="padding:32px 12px 40px;">
+          <table role="presentation" width="520" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:520px;">
+            <!-- Toppen: Studer-blått med det hvite ordmerket -->
+            <tr>
+              <td class="topp" bgcolor="#5571f3" style="background-color:#5571f3;border-radius:20px 20px 0 0;padding:30px 32px 26px;">
+                <img
+                  src="https://www.studer.no/merke/studer-ordmerke-epost.png"
+                  width="136"
+                  height="40"
+                  alt="Studer"
+                  style="display:block;width:136px;height:40px;border:0;outline:none;text-decoration:none;color:#ffffff;font-family:'Fraunces',Georgia,'Times New Roman',serif;font-size:28px;font-weight:600;line-height:40px;"
+                />
+                <p style="margin:14px 0 0;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:14px;line-height:1.4;color:#ffffff;">
+                  Øv på hele pensum, fra 8. trinn til Vg3
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="kort innhold" bgcolor="#ffffff" style="background-color:#ffffff;border:1px solid #dfe5f8;border-top:0;border-radius:0 0 20px 20px;padding:36px 32px 32px;">
+                <p class="blaa" style="margin:0 0 8px;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:13px;line-height:1.4;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#5571f3;">
+                  Nytt passord
+                </p>
+                <h1 class="tekst tittel" style="margin:0 0 14px;font-family:'Fraunces',Georgia,'Times New Roman',serif;font-size:32px;line-height:1.15;font-weight:600;color:#1b1a2e;">
+                  Her er koden din
+                </h1>
+                <p class="brodtekst" style="margin:0 0 26px;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55;color:#46434f;">
+                  Skriv inn koden på studer.no, så kan du lage et nytt passord.
+                </p>
+
+                <!-- Koden -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td class="kodefelt" align="center" bgcolor="#eaeefb" style="background-color:#eaeefb;border:1px solid #d5ddf8;border-radius:16px;padding:24px 12px;">
+                      <p class="kode" style="margin:0;padding-left:10px;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:38px;line-height:1;font-weight:700;letter-spacing:10px;color:#5571f3;">
+                        {{ .Token }}
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <p class="dempet" style="margin:12px 0 0;text-align:center;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:14px;line-height:1.4;color:#6b6760;">
+                  Koden er gyldig i 10 minutter.
+                </p>
+
+                <!-- Sikkerhet -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;">
+                  <tr>
+                    <td class="info" bgcolor="#eaeefb" style="background-color:#eaeefb;border-radius:12px;padding:14px 16px;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#22399e;">
+                      <strong>Del aldri koden med noen.</strong> Studer spør deg aldri om den på e-post, telefon eller melding.
+                    </td>
+                  </tr>
+                </table>
+
+                <p class="dempet" style="margin:20px 0 0;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#6b6760;">
+                  Har du ikke bedt om nytt passord, kan du se bort fra denne e-posten. Passordet ditt er ikke endret.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" class="dempet" style="padding:24px 16px 0;font-family:'Instrument Sans',Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#7c8199;">
+                Du får denne e-posten fordi noen ba om nytt passord for kontoen din på Studer.<br />
+                Studer UB, ungdomsbedrift ved Amalie Skram videregående skole<br />
+                <a href="https://www.studer.no" style="color:#7c8199;text-decoration:underline;">studer.no</a> · konto@studer.no
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
