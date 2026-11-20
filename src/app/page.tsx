@@ -10,6 +10,7 @@ import { Forskning } from "@/components/forside/Forskning";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Ovingsformer } from "@/components/forside/Ovingsformer";
 import { Pensumkart } from "@/components/forside/Pensumkart";
+import { Premier } from "@/components/forside/Premier";
 import { Sporsmalliste } from "@/components/Sporsmal";
 import { ArrowRight, Check } from "@/components/icons";
 import { EKSEMPEL, TELLING } from "@/lib/forsidedata";
@@ -18,8 +19,8 @@ import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } fr
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
 import { FORSIDE_SPORSMAL } from "@/lib/sporsmal";
 
-// Forsiden for utloggede. Den går fra natt (leselampa, hele pensum som prikker
-// og forskningen bak) til dag (øvingsformene, fagene, prisen og spørsmål og
+// Forsiden for utloggede. Den går fra natt (leselampa, hele pensum som prikker,
+// forskningen bak og premiene) til dag (øvingsformene, fagene, prisen og spørsmål og
 // svar) og tilbake til natt.
 
 export const metadata: Metadata = {
@@ -171,6 +172,22 @@ function Markedsside() {
               </p>
             </div>
             <Forskning />
+          </div>
+        </section>
+
+        {/* Premiene: poeng for øving, byttes i ting i appen og gratis tid */}
+        <section id="premier" aria-labelledby="premie-tittel" className="fs-natt relative bg-natt border-t border-natt-linje">
+          <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-24 lg:pb-36">
+            <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16 gap-y-6 items-end pb-10 lg:pb-14">
+              <Ordtittel id="premie-tittel" className={tittel}>
+                Øv deg til premier.
+              </Ordtittel>
+              <p className="text-lg leading-relaxed text-background/70 max-w-[40ch]">
+                Quiz, miniprøver og formelmatch gir poeng – mer jo bedre det går. Øver du hver dag, blir det rundt
+                50–150 poeng om dagen. Bytt dem i ting som gjør Studer til ditt eget, eller i gratis tid.
+              </p>
+            </div>
+            <Premier />
           </div>
         </section>
 
