@@ -23,7 +23,11 @@ function hash(tekst) {
 }
 
 const katalog = les(path.join(INNHOLD, "katalog.json"));
-const telling = { trinn: 0, fag: 0, temaer: 0, flashcards: 0, quiz: 0 };
+// temaer teller alle temaene i appen (også «Repetisjon av hele faget», som er
+// en egen side). Kort, spørsmål, skriveoppgaver og formler telles bare én gang:
+// repetisjonstemaet er kopier fra de andre temaene i faget, så det hoppes over
+// der – ellers ville forsiden vist flere enn det finnes.
+const telling = { trinn: 0, fag: 0, temaer: 0, flashcards: 0, quiz: 0, skriveoppgaver: 0, formler: 0 };
 const trinnListe = [];
 const begreper = [];
 const brukteBegreper = new Set();
@@ -44,8 +48,12 @@ for (const trinn of katalog.trinn) {
     for (const fil of filer) {
       const tema = les(path.join(mappe, fil));
       telling.temaer++;
-      telling.flashcards += tema.flashcards?.length ?? 0;
-      telling.quiz += tema.quiz?.length ?? 0;
+      if (!fil.endsWith("-repetisjon.json")) {
+        telling.flashcards += tema.flashcards?.length ?? 0;
+        telling.quiz += tema.quiz?.length ?? 0;
+        telling.skriveoppgaver += tema.miniprove?.skriv?.length ?? 0;
+        telling.formler += tema.formler?.length ?? 0;
+      }
       temaer.push(tema.name);
 
       if (trinn.id === EKSEMPEL.trinn && fag.id === EKSEMPEL.fag && tema.id === EKSEMPEL.tema) {

@@ -8,7 +8,7 @@ export type KatalogTrinn = {
   fag: { id: string; navn: string; temaer: string[] }[];
 };
 
-export const TELLING = {"trinn":7,"fag":88,"temaer":871,"flashcards":13733,"quiz":8991} as const;
+export const TELLING = {"trinn":7,"fag":88,"temaer":871,"flashcards":11954,"quiz":7862,"skriveoppgaver":6247,"formler":526} as const;
 
 export const EKSEMPEL = {
   "trinn": "Vg2",

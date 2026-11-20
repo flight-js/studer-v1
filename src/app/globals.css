@@ -1545,3 +1545,75 @@ html:root[data-premium="sakura"] [data-flate="dag"],
 .bg-natt .merke-studer {
   --studer-merke: #ffffff;
 }
+
+/* «Øving som faktisk virker» på forsiden (components/forside/Forskning.tsx).
+   Lesemetodene: svake brikker på natt-flaten, og de to som fikk toppkarakter i
+   merkepenn-gult (data-lys). Lampa ligger bak brikkene og skinner gjennom dem. */
+.metode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.6rem;
+  min-height: 5.75rem;
+  padding: 0.8rem 0.85rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--natt-linje);
+  background: color-mix(in oklab, var(--background) 3%, transparent);
+  color: color-mix(in oklab, var(--background) 62%, transparent);
+  transition-property: background-color, border-color, color;
+  transition-duration: 500ms;
+  transition-timing-function: var(--ease-out-soft);
+}
+.metode-navn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.metode-nytte {
+  font-size: 0.75rem;
+  color: color-mix(in oklab, var(--background) 42%, transparent);
+  transition: color 500ms var(--ease-out-soft);
+}
+.metode[data-lys] {
+  background: var(--merke);
+  border-color: var(--merke);
+  color: var(--pa-merke);
+}
+.metode[data-lys] .metode-nytte {
+  color: color-mix(in oklab, var(--pa-merke) 72%, transparent);
+}
+.metode-lampe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(var(--lampe-rgb) / 0.42), rgb(var(--lampe-rgb) / 0.12) 55%, transparent);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Telleverkene: hvert siffer er en kolonne med to runder 0–9 som ruller. Uten
+   JavaScript står båndet allerede på riktig siffer (inline transform). */
+.teller {
+  display: inline-flex;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.teller-kolonne {
+  display: inline-block;
+  height: 1.1em;
+  overflow: hidden;
+}
+.teller-band {
+  display: flex;
+  flex-direction: column;
+}
+.teller-band > span,
+.teller-skille {
+  display: block;
+  height: 1.1em;
+  line-height: 1.1em;
+}

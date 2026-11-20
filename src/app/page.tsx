@@ -6,6 +6,7 @@ import { ForsideMeny, Startside } from "@/components/Forside";
 import { Bevegelse } from "@/components/forside/Bevegelse";
 import { Fagkatalog } from "@/components/forside/Fagkatalog";
 import { Fokusfelt } from "@/components/forside/Fokusfelt";
+import { Forskning } from "@/components/forside/Forskning";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Ovingsformer } from "@/components/forside/Ovingsformer";
 import { Pensumkart } from "@/components/forside/Pensumkart";
@@ -17,9 +18,9 @@ import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } fr
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
 import { FORSIDE_SPORSMAL } from "@/lib/sporsmal";
 
-// Forsiden for utloggede. Den går fra natt (leselampa og hele pensum som
-// prikker) til dag (øvingsformene, fagene, prisen og spørsmål og svar) og
-// tilbake til natt.
+// Forsiden for utloggede. Den går fra natt (leselampa, hele pensum som prikker
+// og forskningen bak) til dag (øvingsformene, fagene, prisen og spørsmål og
+// svar) og tilbake til natt.
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -157,6 +158,22 @@ function Markedsside() {
           </div>
         </section>
 
+        {/* Hvorfor det virker: forskningen bak, og hvor mye det er å øve på */}
+        <section id="forskning" aria-labelledby="forskning-tittel" className="fs-natt relative bg-natt border-t border-natt-linje">
+          <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-24 lg:pb-36">
+            <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16 gap-y-6 items-end pb-12 lg:pb-16">
+              <Ordtittel id="forskning-tittel" className={tittel}>
+                Øving som faktisk virker.
+              </Ordtittel>
+              <p className="text-lg leading-relaxed text-background/70 max-w-[40ch]">
+                Studer er bygd på de to metodene forskningen gir best karakter. Flashcards, quiz og miniprøver tester
+                deg, og repetisjonen sprer øvingen utover.
+              </p>
+            </div>
+            <Forskning />
+          </div>
+        </section>
+
         {/* Dag: øvingsformene, fagene, prisen og spørsmål og svar */}
         <div data-flate="dag" className="bg-background text-foreground">
           <section aria-labelledby="ov-tittel" className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16">
@@ -165,7 +182,7 @@ function Markedsside() {
                 Fem måter å øve på.
               </Ordtittel>
               <p className="text-lg leading-relaxed text-ink-soft max-w-[42ch]">
-                Samme tema, fire vinkler. Bytt når det begynner å gå på autopilot. Eksemplene er fra{" "}
+                Samme tema, fem vinkler. Bytt når det begynner å gå på autopilot. Eksemplene er fra{" "}
                 {EKSEMPEL.tema} i {EKSEMPEL.fag}.
               </p>
             </div>
