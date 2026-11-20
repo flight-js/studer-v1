@@ -2,62 +2,95 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { FARGER, lagSprite } from "@/components/Kirsebaerregn";
 
-// Katanakuttet (iai) mellom sidene i temaet Sakura (data-premium="sakura" på
-// <html>). Når eleven trykker Start eller velger et fag, et tema eller en
-// øving, lukker to mørke halvdeler seg skrått over skjermen, og halvdelene av
-// et kirsebærmon (kamon) i midten møtes. Mens skjermen er dekket, byttes siden.
-// Så skjærer et lysende sverdhugg langs skjøten, monet deles, halvdelene glir
-// fra hverandre langs kuttet og åpner den nye siden, og kronblad spruter ut.
+// Vindkast med kirsebærblader (hanafubuki) mellom sidene i temaet Sakura
+// (data-premium="sakura" på <html>). Når eleven trykker Start eller velger et
+// fag, et tema eller en øving, blåser et hvitrosa teppe med myke, uskarpe
+// kanter skrått inn over skjermen sammen med en sky av kronblad. Siden byttes
+// mens teppet dekker skjermen, og så blåser teppet videre og tar bladene med
+// seg – den nye siden kommer fram bak den myke bakkanten.
 //
-// Navigasjonen starter etter LUKK_MS (under 0,3 s). Animasjonene er WAAPI på
-// transform og opasitet, så de går jevnt også mens den nye siden lastes.
-// Ingen overgang for redusert bevegelse, tastatur (Enter på en lenke), lenker
-// i menyen, nye faner eller samme side. Utseendet står i globals.css (.so-*).
+// Teppet er WAAPI på transform (går jevnt også mens den nye siden lastes).
+// Bladene tegnes på et lerret: hvert blad vender seg om sin egen akse og glir
+// sideveis når det står på kant, som i Kirsebaerregn. Navigasjonen starter
+// etter DEKKET_MS, når teppet dekker skjermen; teppet legger seg rolig mens
+// siden byttes. Ingen overgang ved redusert bevegelse, tastatur (Enter på en
+// lenke), lenker i menyen, nye faner eller samme side, og overlegget fjernes
+// uansett etter 4 s. Utseendet står i globals.css (.so-*).
 
 const RUTER = /^\/(fag|tema|repeter|flashcards|quiz|miniprove|formler|sammendrag)\/?$/;
-const VINKEL = -16; // kuttets helning i grader (samme som .so-ramme)
-const UT = "cubic-bezier(0.22, 1, 0.36, 1)"; // --ease-out-soft
-const INN_UT = "cubic-bezier(0.77, 0, 0.175, 1)"; // bevegelse på skjermen
-const LUKK_MS = 280;
-const FARGER = ["#ffc2d6", "#f9a8c4", "#ffd9e5", "#f48fb1"];
-// Ett kirsebærblad med hakk i tuppen, sentrert.
-const BLAD = "M0 9C-7 4-9-4-4-9L0-6L4-9C9-4 7 4 0 9Z";
+const INN_MS = 640;
+// Teppet dekker hele skjermen når det har kommet 82 % av veien; med INN-kurven
+// skjer det ved 0,44 av tiden. Litt margin, så ingen kant skimtes.
+const DEKKET_MS = 320;
+const UT_MS = 820;
+const INN = "cubic-bezier(0.33, 1, 0.68, 1)"; // ease-out (kubisk): synlig forkant, legger seg mykt
+const UT = "cubic-bezier(0.45, 0, 0.2, 1)"; // glir av gårde, mykt i begge ender
+const START = "translateX(-195vw)";
+const DEKKET = "translateX(0)";
+const SLUTT = "translateX(195vw)";
 
-type Blad = {
-  x: number; // prosent av rammebredden
-  dx: number;
-  dy: number;
-  rot: number;
-  spinn: number;
+type Kronblad = {
+  x: number;
+  y: number;
   str: number;
-  farge: string;
-  tid: number;
-  forsink: number;
+  vx: number; // px/s med vinden
+  vy: number;
+  spinn: number; // vendingen gjennom flaten
+  spinnFart: number;
+  rull: number; // dreiningen i flaten
+  rullFart: number;
+  glid: number; // sideveis når bladet står på kant
+  fase: number;
+  alfa: number;
+  blomst: boolean;
+  farge: number;
+  // Når bladet blir synlig (sekunder fra start). null: venter på forkanten av
+  // teppet – blader som ligger på skjermen, plukkes opp når kastet når dem.
+  fodt: number | null;
 };
-type Overgang = { id: number; til: string; blader: Blad[] };
 
 const vent = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 const tilfeldig = (a: number, b: number) => a + Math.random() * (b - a);
 
-// Kronbladene spres langs den delen av kuttet som synes på skjermen.
-function lagBlader(): Blad[] {
-  const b = window.innerWidth;
-  const side = 1.5 * Math.max(b, window.innerHeight);
-  const synlig = Math.min(b / 2 / Math.cos((VINKEL * Math.PI) / 180), side / 2);
-  const andel = (synlig / side) * 0.85;
-  return Array.from({ length: 18 }, (_, i) => ({
-    x: 50 + tilfeldig(-1, 1) * andel * 100,
-    dx: tilfeldig(-30, 110), // mest i hoggets retning
-    dy: (i % 2 ? 1 : -1) * tilfeldig(50, 220),
-    rot: tilfeldig(0, 360),
-    spinn: (Math.random() < 0.5 ? -1 : 1) * tilfeldig(120, 340),
-    str: tilfeldig(16, 30),
-    farge: FARGER[i % FARGER.length],
-    tid: tilfeldig(700, 1100),
-    forsink: tilfeldig(0, 160),
-  }));
+// En bølge med blader: fra xFra til xTil (andeler av bredden), og fart som
+// andel av bredden per sekund. Hvert blad får sine egne verdier. fodt: når de
+// dukker opp (null = når forkanten når dem, for blader som starter på skjermen).
+function bolge(
+  antall: number,
+  b: number,
+  h: number,
+  xFra: number,
+  xTil: number,
+  fart: [number, number],
+  fodt: number | null
+): Kronblad[] {
+  return Array.from({ length: antall }, () => {
+    const blomst = Math.random() < 0.16;
+    const x = tilfeldig(xFra, xTil) * b;
+    return {
+      x,
+      y: tilfeldig(-0.08, 1.08) * h,
+      str: tilfeldig(14, 32) * (blomst ? 1.4 : 1),
+      vx: tilfeldig(fart[0], fart[1]) * b,
+      vy: tilfeldig(-0.2, 0.05) * h,
+      spinn: Math.random() * Math.PI * 2,
+      spinnFart: (Math.random() < 0.5 ? -1 : 1) * tilfeldig(3, 7.5),
+      rull: Math.random() * Math.PI * 2,
+      rullFart: tilfeldig(-2, 2),
+      glid: tilfeldig(30, 90),
+      fase: Math.random() * Math.PI * 2,
+      alfa: tilfeldig(0.7, 1),
+      blomst,
+      // Mest de dype rosafargene, så bladene synes mot det lyse teppet.
+      farge: Math.random() < 0.75 ? 2 + Math.floor(Math.random() * 2) : Math.floor(Math.random() * 2),
+      fodt: fodt === null && x < 0 ? 0 : fodt,
+    };
+  });
 }
+
+type Overgang = { id: number; til: string };
 
 export function SakuraOvergang() {
   const router = useRouter();
@@ -82,7 +115,7 @@ export function SakuraOvergang() {
       e.preventDefault();
       if (kjorer.current) return;
       kjorer.current = true;
-      setOvergang({ id: Date.now(), til: url.pathname + url.search + url.hash, blader: lagBlader() });
+      setOvergang({ id: Date.now(), til: url.pathname + url.search + url.hash });
     };
     window.addEventListener("click", onClick, true);
     return () => window.removeEventListener("click", onClick, true);
@@ -90,87 +123,99 @@ export function SakuraOvergang() {
 
   useLayoutEffect(() => {
     const el = rot.current;
-    if (!overgang || !el) return;
-    const finn = (s: string) => el.querySelector<HTMLElement>(s)!;
-    const [topp, bunn, kutt, spor, blink] = [".so-topp", ".so-bunn", ".so-kutt", ".so-spor", ".so-blink"].map(finn);
-    const blader = Array.from(el.querySelectorAll<SVGElement>(".so-blad"));
+    const vind = el?.querySelector<HTMLElement>(".so-vind");
+    const lerret = el?.querySelector<HTMLCanvasElement>(".so-blader");
+    const ctx = lerret?.getContext("2d");
+    if (!overgang || !el || !vind || !lerret || !ctx) return;
+
+    // ---- Bladene
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const b = window.innerWidth;
+    const h = window.innerHeight;
+    lerret.width = Math.round(b * dpr);
+    lerret.height = Math.round(h * dpr);
+    const sprites = FARGER.map((f) => ({
+      blad: { forside: lagSprite(f, false, false, dpr), bakside: lagSprite(f, false, true, dpr) },
+      blomst: { forside: lagSprite(f, true, false, dpr), bakside: lagSprite(f, true, true, dpr) },
+    }));
+    // Antallet følger skjermflaten, så mobilen ikke får snøstorm.
+    const k = Math.min(Math.max(Math.sqrt((b * h) / (1440 * 900)), 0.55), 1.25);
+    // Første kast: noen kommer inn fra venstre, og blader over hele venstre del
+    // av skjermen plukkes opp når forkanten av teppet når dem.
+    let blader = bolge(Math.round(84 * k), b, h, -0.7, 0.75, [1.1, 1.9], null);
+    // Forkanten av teppet (px fra venstre) mens det kommer inn: samme kurve som
+    // INN (kubisk ease-out). Den myke kanten ligger ved 146vw + forskyvningen.
+    const kant = (t: number) => {
+      const fremdrift = 1 - Math.pow(1 - Math.min(t / (INN_MS / 1000), 1), 3);
+      return ((-49 + 195 * fremdrift) * b) / 100;
+    };
+    let ramme = 0;
+    let sist = 0;
+    let tid = 0;
+    const steg = (na: number) => {
+      const dt = Math.min((na - (sist || na)) / 1000, 1 / 30);
+      sist = na;
+      tid += dt;
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.clearRect(0, 0, lerret.width, lerret.height);
+      for (const l of blader) {
+        if (l.fodt === null) {
+          if (kant(tid) < l.x + 0.06 * b) continue; // ligger og venter på kastet
+          l.fodt = tid;
+        }
+        l.spinn += l.spinnFart * dt;
+        l.rull += l.rullFart * dt;
+        // Glir sideveis når bladet står på kant, og vinden løfter og kaster det.
+        l.x += (l.vx + Math.sin(l.spinn) * l.glid) * dt;
+        l.y += (l.vy + Math.cos(tid * 2.4 + l.fase) * 46) * dt;
+        const kos = Math.cos(l.spinn);
+        const s = sprites[l.farge][l.blomst ? "blomst" : "blad"];
+        const cr = Math.cos(l.rull);
+        const sr = Math.sin(l.rull);
+        ctx.setTransform(dpr * cr * kos, dpr * sr * kos, -dpr * sr, dpr * cr, l.x * dpr, l.y * dpr);
+        ctx.globalAlpha = l.alfa * Math.min(1, (tid - l.fodt) / 0.18);
+        ctx.drawImage(kos < 0 ? s.bakside : s.forside, -l.str / 2, -l.str / 2, l.str, l.str);
+      }
+      ctx.globalAlpha = 1;
+      blader = blader.filter((l) => l.fodt === null || l.x < b + 80);
+      ramme = requestAnimationFrame(steg);
+    };
+    ramme = requestAnimationFrame(steg);
+
+    // ---- Teppet
     const animasjoner: Animation[] = [];
-    const anim = (node: Element, frames: Keyframe[], opts: KeyframeAnimationOptions) => {
-      const a = node.animate(frames, { fill: "forwards", ...opts });
+    const anim = (frames: Keyframe[], opts: KeyframeAnimationOptions) => {
+      const a = vind.animate(frames, { fill: "forwards", ...opts });
       animasjoner.push(a);
       return a;
     };
     let avbrutt = false;
 
     const spill = async () => {
-      // 1. Halvdelene lukker seg, og monet settes sammen i skjøten.
-      const lukk = { duration: LUKK_MS, easing: UT };
-      anim(topp, [{ transform: "translateY(-101%)" }, { transform: "translateY(0)" }], lukk);
-      await anim(bunn, [{ transform: "translateY(101%)" }, { transform: "translateY(0)" }], lukk).finished;
+      const inn = anim([{ transform: START }, { transform: DEKKET }], { duration: INN_MS, easing: INN });
+      await vent(DEKKET_MS);
       if (avbrutt) return;
 
-      // 2. Bytt side mens skjermen er dekket. Adressen oppdateres når den nye
-      // siden er på plass; to rammer til, så den er tegnet før vi åpner.
+      // Bytt side mens skjermen er dekket. Adressen oppdateres når den nye
+      // siden er på plass; et lite øyeblikk til, så den er tegnet.
       const fra = location.href;
       const start = performance.now();
       router.push(overgang.til);
       while (location.href === fra && performance.now() - start < 2500) await vent(16);
-      await vent(Math.max(32, 110 - (performance.now() - start)));
+      await inn.finished;
+      await vent(Math.max(40, 90 - (performance.now() - start)));
       if (avbrutt) return;
 
-      // 3. Hugget: en lysende strek og en glans langs skjøten, et lite blink.
-      anim(
-        kutt,
-        [
-          { transform: "scaleX(0)", opacity: 1 },
-          { transform: "scaleX(1)", opacity: 1, offset: 0.55 },
-          { transform: "scaleX(1)", opacity: 0 },
-        ],
-        { duration: 420, easing: UT },
-      );
-      anim(
-        spor,
-        [
-          { transform: "translateX(-50%)", opacity: 0 },
-          { opacity: 1, offset: 0.2 },
-          { transform: "translateX(50%)", opacity: 0 },
-        ],
-        { duration: 300, easing: UT },
-      );
-      anim(blink, [{ opacity: 0 }, { opacity: 1, offset: 0.3 }, { opacity: 0 }], { duration: 380, easing: "ease-out" });
-      blader.forEach((node, i) => {
-        const b = overgang.blader[i];
-        anim(
-          node,
-          [
-            { transform: `translate(0, 0) rotate(${b.rot}deg) scale(0.5)`, opacity: 0 },
-            { opacity: 1, offset: 0.12 },
-            // Står på kant et øyeblikk mens det vender seg.
-            {
-              transform: `translate(${b.dx * 0.6}px, ${b.dy * 0.7}px) rotate(${b.rot + b.spinn * 0.6}deg) scale(1, 0.25)`,
-              offset: 0.55,
-            },
-            { transform: `translate(${b.dx}px, ${b.dy}px) rotate(${b.rot + b.spinn}deg) scale(0.9, 1)`, opacity: 0 },
-          ],
-          { duration: b.tid, delay: 90 + b.forsink, easing: UT, fill: "both" },
-        );
-      });
-
-      // 4. Halvdelene glir litt langs kuttet (som noe som er skåret over) og
-      // åpner seg så. Den nye siden kan brukes med en gang de åpner.
-      const glid = { duration: 150, delay: 110, easing: UT };
-      anim(topp, [{ transform: "translate(0, 0)" }, { transform: "translate(-1.5%, -0.6%)" }], glid);
-      anim(bunn, [{ transform: "translate(0, 0)" }, { transform: "translate(1.5%, 0.6%)" }], glid);
-      const apne = { duration: 540, delay: 260, easing: INN_UT };
-      anim(topp, [{ transform: "translate(-1.5%, -0.6%)" }, { transform: "translate(-7%, -101%)" }], apne);
-      anim(bunn, [{ transform: "translate(1.5%, 0.6%)" }, { transform: "translate(7%, 101%)" }], apne);
-      await vent(260);
+      // Kastet blåser videre: nye blader over hele skjermen følger med ut.
       el.style.pointerEvents = "none";
-      await Promise.all(animasjoner.map((a) => a.finished));
+      blader = blader.concat(bolge(Math.round(40 * k), b, h, -0.25, 0.7, [0.9, 1.5], tid));
+      await anim([{ transform: DEKKET }, { transform: SLUTT }], { duration: UT_MS, easing: UT }).finished;
+      // La de siste bladene fly ut (høyst et halvt sekund).
+      const slutt = performance.now() + 500;
+      while (blader.length && performance.now() < slutt) await vent(16);
     };
 
-    // Overlegget skal aldri bli stående: avbrytes uansett etter 4 s (avbrutte
-    // animasjoner avviser «finished», og finally rydder).
+    // Overlegget skal aldri bli stående: avbrytes uansett etter 4 s.
     let ryddet = false;
     const stopp = () => {
       avbrutt = true;
@@ -181,6 +226,7 @@ export function SakuraOvergang() {
       .catch(() => {})
       .finally(() => {
         clearTimeout(nod);
+        cancelAnimationFrame(ramme);
         if (ryddet) return; // effekten er ryddet (ny kjøring eller fjernet)
         kjorer.current = false;
         setOvergang(null);
@@ -188,6 +234,7 @@ export function SakuraOvergang() {
     return () => {
       ryddet = true;
       clearTimeout(nod);
+      cancelAnimationFrame(ramme);
       stopp();
     };
   }, [overgang, router]);
@@ -195,54 +242,8 @@ export function SakuraOvergang() {
   if (!overgang) return null;
   return (
     <div ref={rot} className="so-rot" aria-hidden="true">
-      <div className="so-ramme">
-        <div className="so-halv so-topp bg-natt">
-          <div className="so-glod" />
-          <Mon />
-        </div>
-        <div className="so-halv so-bunn bg-natt">
-          <div className="so-glod" />
-          <Mon />
-        </div>
-        <div className="so-kutt" />
-        <div className="so-spor">
-          <div className="so-glans" />
-        </div>
-        <div className="so-blader">
-          {overgang.blader.map((b, i) => (
-            <svg key={i} className="so-blad" viewBox="-10 -10 20 20" style={{ left: `${b.x}%`, width: b.str, height: b.str }}>
-              <path d={BLAD} fill={b.farge} stroke="#c2185b" strokeOpacity="0.35" strokeWidth="0.8" />
-            </svg>
-          ))}
-        </div>
-      </div>
-      <div className="so-blink" />
+      <div className="so-vind" />
+      <canvas className="so-blader" />
     </div>
-  );
-}
-
-// Kirsebærmon: fem kronblad med hakk, støvbærere mellom bladene og en ring.
-// Ligger i begge halvdelene med midten i skjøten, så hver halvdel viser sin del.
-function Mon() {
-  return (
-    <svg className="so-mon" viewBox="-50 -50 100 100">
-      <circle r="47" fill="none" stroke="#ffc2d6" strokeOpacity="0.4" strokeWidth="1.5" />
-      <g fill="#ffc2d6">
-        {[0, 72, 144, 216, 288].map((v) => (
-          <path key={v} d="M0-6C-14-14-20-34-9-43L0-36L9-43C20-34 14-14 0-6Z" transform={`rotate(${v})`} />
-        ))}
-      </g>
-      <g stroke="#ffc2d6" strokeWidth="1.4" strokeLinecap="round">
-        {[36, 108, 180, 252, 324].map((v) => (
-          <line key={v} y1="-7" y2="-16" transform={`rotate(${v})`} />
-        ))}
-      </g>
-      <g fill="#ffc2d6">
-        {[36, 108, 180, 252, 324].map((v) => (
-          <circle key={v} cy="-17.5" r="2.2" transform={`rotate(${v})`} />
-        ))}
-      </g>
-      <circle r="6" fill="#f48fb1" />
-    </svg>
   );
 }

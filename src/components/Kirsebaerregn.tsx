@@ -33,8 +33,8 @@ type Blad = {
 };
 
 // [ved basen, mot tuppen] – fra blek til dyp kirsebærrosa, så de synes både på
-// den lyse og den mørke flaten.
-const FARGER = [
+// den lyse og den mørke flaten. Brukes også av vindkastet i SakuraOvergang.
+export const FARGER = [
   ["#f6b1c7", "#fde1ea"],
   ["#f29ab8", "#fbd3e0"],
   ["#ec84aa", "#f9c6d7"],
@@ -62,7 +62,7 @@ function kronblad(ctx: CanvasRenderingContext2D, s: number) {
 }
 
 // Forside og bakside for ett kronblad eller én blomst i én farge.
-function lagSprite(farge: readonly [string, string], blomst: boolean, bak: boolean, dpr: number) {
+export function lagSprite(farge: readonly [string, string], blomst: boolean, bak: boolean, dpr: number) {
   const c = document.createElement("canvas");
   c.width = c.height = SPRITE * dpr;
   const ctx = c.getContext("2d");
